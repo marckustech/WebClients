@@ -1,15 +1,16 @@
 import { CryptoProxy, PrivateKeyReference, SessionKey, serverTime, updateServerTime } from '@proton/crypto';
 
-import {
+import type {
     EncryptedBlock,
     EncryptedThumbnailBlock,
     FileKeys,
     FileRequestBlock,
     Link,
+    Photo,
     ThumbnailRequestBlock,
     VerificationData,
 } from './interface';
-import { ThumbnailData } from './thumbnail';
+import type { ThumbnailData } from './thumbnail';
 import { getErrorString } from './utils';
 
 type GenerateKeysMessage = {
@@ -22,11 +23,14 @@ type GenerateKeysMessage = {
 type StartMessage = {
     command: 'start';
     file: File;
+    mimeType: string;
+    isPhoto: boolean;
     thumbnailData?: ThumbnailData;
     addressPrivateKey: Uint8Array;
     addressEmail: string;
     privateKey: Uint8Array;
     sessionKey: SessionKey;
+    parentHashKey: Uint8Array;
     verificationData: VerificationData;
 };
 
@@ -64,11 +68,14 @@ interface WorkerHandlers {
     generateKeys: (addressPrivateKey: PrivateKeyReference, parentPrivateKey: PrivateKeyReference) => void;
     start: (
         file: File,
+        mimeType: string,
+        isPhoto: boolean,
         thumbnailData: ThumbnailData | undefined,
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,
         sessionKey: SessionKey,
+        parentHashKey: Uint8Array,
         verificationData: VerificationData
     ) => void;
     createdBlocks: (fileLinks: Link[], thumbnailLink?: Link) => void;
@@ -103,6 +110,7 @@ type DoneMessage = {
     signature: string;
     signatureAddress: string;
     xattr: string;
+    photo?: Photo;
 };
 
 type NetworkErrorMessage = {
@@ -144,7 +152,7 @@ interface WorkerControllerHandlers {
     keysGenerated: (keys: FileKeys) => void;
     createBlocks: (fileBlocks: FileRequestBlock[], thumbnailBlock?: ThumbnailRequestBlock) => void;
     onProgress: (increment: number) => void;
-    finalize: (signature: string, signatureAddress: string, xattr: string) => void;
+    finalize: (signature: string, signatureAddress: string, xattr: string, photo?: Photo) => void;
     onNetworkError: (error: string) => void;
     onError: (error: string) => void;
     onCancel: () => void;
@@ -161,7 +169,7 @@ export class UploadWorker {
 
     constructor(worker: Worker, { generateKeys, start, createdBlocks, pause, resume }: WorkerHandlers) {
         // Before the worker termination, we want to release securely crypto
-        // proxy. That might need a bit of time and we allow up to few seconds
+        // proxy. That might need a bit of time, and we allow up to few seconds
         // before we terminate the worker. During the releasing time, crypto
         // might be failing, so any error should be ignored.
         let closing = false;
@@ -205,11 +213,14 @@ export class UploadWorker {
                         });
                         start(
                             data.file,
+                            data.mimeType,
+                            data.isPhoto,
                             data.thumbnailData,
                             addressPrivateKey,
                             data.addressEmail,
                             privateKey,
                             data.sessionKey,
+                            data.parentHashKey,
                             data.verificationData
                         );
                     })(data).catch((err) => {
@@ -288,12 +299,13 @@ export class UploadWorker {
         } as ProgressMessage);
     }
 
-    postDone(signature: string, signatureAddress: string, xattr: string) {
+    postDone(signature: string, signatureAddress: string, xattr: string, photo?: Photo) {
         this.worker.postMessage({
             command: 'done',
             signature,
             signatureAddress,
             xattr,
+            photo,
         } as DoneMessage);
     }
 
@@ -372,7 +384,7 @@ export class UploadWorkerController {
                     onProgress(data.increment);
                     break;
                 case 'done':
-                    finalize(data.signature, data.signatureAddress, data.xattr);
+                    finalize(data.signature, data.signatureAddress, data.xattr, data.photo);
                     break;
                 case 'network_error':
                     onNetworkError(data.error);
@@ -420,16 +432,21 @@ export class UploadWorkerController {
 
     async postStart(
         file: File,
+        mimeType: string,
+        isPhoto: boolean,
         thumbnailData: ThumbnailData | undefined,
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,
         sessionKey: SessionKey,
+        parentHashKey: Uint8Array,
         verificationData: VerificationData
     ) {
         this.worker.postMessage({
             command: 'start',
             file,
+            mimeType,
+            isPhoto,
             thumbnailData,
             addressPrivateKey: await CryptoProxy.exportPrivateKey({
                 privateKey: addressPrivateKey,
@@ -443,6 +460,7 @@ export class UploadWorkerController {
                 format: 'binary',
             }),
             sessionKey,
+            parentHashKey,
             verificationData,
         } satisfies StartMessage);
     }

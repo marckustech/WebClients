@@ -9776,6 +9776,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xmldom/xmldom@npm:^0.8.8":
+  version: 0.8.10
+  resolution: "@xmldom/xmldom@npm:0.8.10"
+  checksum: 4c136aec31fb3b49aaa53b6fcbfe524d02a1dc0d8e17ee35bd3bf35e9ce1344560481cd1efd086ad1a4821541482528672306d5e37cdbd187f33d7fadd3e2cf0
+  languageName: node
+  linkType: hard
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -17214,6 +17221,18 @@ __metadata:
     signal-exit: ^3.0.7
     strip-final-newline: ^3.0.0
   checksum: 1a4af799839134f5c72eb63d525b87304c1114a63aa71676c91d57ccef2e26f2f53e14c11384ab11c4ec479be1efa83d11c8190e00040355c2c5c3364327fa8e
+  languageName: node
+  linkType: hard
+
+"exifreader@npm:^4.13.0":
+  version: 4.13.0
+  resolution: "exifreader@npm:4.13.0"
+  dependencies:
+    "@xmldom/xmldom": ^0.8.8
+  dependenciesMeta:
+    "@xmldom/xmldom":
+      optional: true
+  checksum: d45fe047a50513e729a4f41c3d697c98af292ed26fcefdc519e209a1f7c683680dd2d6d868df6a5bdecebb8ee0d7d8e759162365d8e734b2ae4a2633484e5a11
   languageName: node
   linkType: hard
 
@@ -27892,6 +27911,7 @@ fsevents@^1.2.7:
     cross-var: ^1.1.0
     ejs-webpack-loader: ^2.2.2
     eslint: ^8.51.0
+    exifreader: ^4.13.0
     jest: ^29.7.0
     jest-environment-jsdom: ^29.7.0
     jest-junit: ^16.0.0

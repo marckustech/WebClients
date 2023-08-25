@@ -2,11 +2,11 @@ import { CryptoProxy, PrivateKeyReference, SessionKey, serverTime, updateServerT
 
 import type {
     EncryptedBlock,
-    EncryptedThumbnailBlock,
     FileKeys,
     FileRequestBlock,
     Link,
     Photo,
+    ThumbnailEncryptedBlock,
     ThumbnailRequestBlock,
     VerificationData,
 } from './interface';
@@ -25,7 +25,7 @@ type StartMessage = {
     file: File;
     mimeType: string;
     isPhoto: boolean;
-    thumbnailData?: ThumbnailData;
+    thumbnailData?: ThumbnailData[];
     addressPrivateKey: Uint8Array;
     addressEmail: string;
     privateKey: Uint8Array;
@@ -37,7 +37,7 @@ type StartMessage = {
 type CreatedBlocksMessage = {
     command: 'created_blocks';
     fileLinks: Link[];
-    thumbnailLink?: Link;
+    thumbnailLinks?: Link[];
 };
 
 type PauseMessage = {
@@ -70,7 +70,7 @@ interface WorkerHandlers {
         file: File,
         mimeType: string,
         isPhoto: boolean,
-        thumbnailData: ThumbnailData | undefined,
+        thumbnailData: ThumbnailData[] | undefined,
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,
@@ -78,7 +78,7 @@ interface WorkerHandlers {
         parentHashKey: Uint8Array,
         verificationData: VerificationData
     ) => void;
-    createdBlocks: (fileLinks: Link[], thumbnailLink?: Link) => void;
+    createdBlocks: (fileLinks: Link[], thumbnailLinks?: Link[]) => void;
     pause: () => void;
     resume: () => void;
 }
@@ -97,7 +97,7 @@ type KeysGeneratedMessage = {
 type CreateBlockMessage = {
     command: 'create_blocks';
     fileBlocks: FileRequestBlock[];
-    thumbnailBlock?: ThumbnailRequestBlock;
+    thumbnailBlocks?: ThumbnailRequestBlock[];
 };
 
 type ProgressMessage = {
@@ -150,7 +150,7 @@ type WorkerEvent = {
  */
 interface WorkerControllerHandlers {
     keysGenerated: (keys: FileKeys) => void;
-    createBlocks: (fileBlocks: FileRequestBlock[], thumbnailBlock?: ThumbnailRequestBlock) => void;
+    createBlocks: (fileBlocks: FileRequestBlock[], thumbnailBlocks?: ThumbnailRequestBlock[]) => void;
     onProgress: (increment: number) => void;
     finalize: (signature: string, signatureAddress: string, xattr: string, photo?: Photo) => void;
     onNetworkError: (error: string) => void;
@@ -228,7 +228,7 @@ export class UploadWorker {
                     });
                     break;
                 case 'created_blocks':
-                    createdBlocks(data.fileLinks, data.thumbnailLink);
+                    createdBlocks(data.fileLinks, data.thumbnailLinks);
                     break;
                 case 'pause':
                     pause();
@@ -273,7 +273,7 @@ export class UploadWorker {
         } as KeysGeneratedMessage);
     }
 
-    postCreateBlocks(fileBlocks: EncryptedBlock[], encryptedThumbnailBlock?: EncryptedThumbnailBlock) {
+    postCreateBlocks(fileBlocks: EncryptedBlock[], encryptedThumbnailBlocks?: ThumbnailEncryptedBlock[]) {
         this.worker.postMessage({
             command: 'create_blocks',
             fileBlocks: fileBlocks.map<FileRequestBlock>((block) => ({
@@ -283,12 +283,11 @@ export class UploadWorker {
                 hash: block.hash,
                 verificationToken: block.verificationToken,
             })),
-            thumbnailBlock: !encryptedThumbnailBlock
-                ? undefined
-                : {
-                      size: encryptedThumbnailBlock.encryptedData.byteLength,
-                      hash: encryptedThumbnailBlock.hash,
-                  },
+            thumbnailBlocks: encryptedThumbnailBlocks?.map((thumbnailBlock) => ({
+                size: thumbnailBlock.encryptedData.byteLength,
+                hash: thumbnailBlock.hash,
+                type: thumbnailBlock.thumbnailType,
+            })),
         } as CreateBlockMessage);
     }
 
@@ -378,7 +377,7 @@ export class UploadWorkerController {
                     });
                     break;
                 case 'create_blocks':
-                    createBlocks(data.fileBlocks, data.thumbnailBlock);
+                    createBlocks(data.fileBlocks, data.thumbnailBlocks);
                     break;
                 case 'progress':
                     onProgress(data.increment);
@@ -434,7 +433,7 @@ export class UploadWorkerController {
         file: File,
         mimeType: string,
         isPhoto: boolean,
-        thumbnailData: ThumbnailData | undefined,
+        thumbnailData: ThumbnailData[] | undefined,
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,
@@ -465,11 +464,11 @@ export class UploadWorkerController {
         } satisfies StartMessage);
     }
 
-    postCreatedBlocks(fileLinks: Link[], thumbnailLink?: Link) {
+    postCreatedBlocks(fileLinks: Link[], thumbnailLinks?: Link[]) {
         this.worker.postMessage({
             command: 'created_blocks',
             fileLinks,
-            thumbnailLink,
+            thumbnailLinks,
         } as CreatedBlocksMessage);
     }
 

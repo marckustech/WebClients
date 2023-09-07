@@ -68,9 +68,11 @@ interface WorkerHandlers {
     generateKeys: (addressPrivateKey: PrivateKeyReference, parentPrivateKey: PrivateKeyReference) => void;
     start: (
         file: File,
-        mimeType: string,
-        isPhoto: boolean,
-        thumbnailData: ThumbnailData[] | undefined,
+        {
+            mimeType,
+            isPhoto,
+            thumbnailData,
+        }: { mimeType: string; isPhoto: boolean; thumbnailData: ThumbnailData[] | undefined },
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,
@@ -213,9 +215,11 @@ export class UploadWorker {
                         });
                         start(
                             data.file,
-                            data.mimeType,
-                            data.isPhoto,
-                            data.thumbnailData,
+                            {
+                                mimeType: data.mimeType,
+                                isPhoto: data.isPhoto,
+                                thumbnailData: data.thumbnailData,
+                            },
                             addressPrivateKey,
                             data.addressEmail,
                             privateKey,
@@ -431,9 +435,15 @@ export class UploadWorkerController {
 
     async postStart(
         file: File,
-        mimeType: string,
-        isPhoto: boolean,
-        thumbnailData: ThumbnailData[] | undefined,
+        {
+            mimeType,
+            isPhoto,
+            thumbnailData,
+        }: {
+            mimeType: string;
+            isPhoto: boolean;
+            thumbnailData: ThumbnailData[] | undefined;
+        },
         addressPrivateKey: PrivateKeyReference,
         addressEmail: string,
         privateKey: PrivateKeyReference,

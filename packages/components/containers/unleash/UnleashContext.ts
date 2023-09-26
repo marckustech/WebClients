@@ -12,4 +12,7 @@ enum AccountFlag {
     SignedInAccountRecovery = 'SignedInAccountRecovery',
 }
 
-export type FeatureFlag = `${MailFeatureFlag}` | `${AccountFlag}`;
+enum DriveFeatureFlag {
+    DrivePhotos = 'DrivePhotos',
+}
+export type FeatureFlag = `${MailFeatureFlag}` | `${AccountFlag}` | `${DriveFeatureFlag}`;

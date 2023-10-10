@@ -4,7 +4,7 @@ import { c } from 'ttag';
 
 import { Button } from '@proton/atoms';
 import { Icon, Tooltip } from '@proton/components/components';
-import { FeatureFlag, useFlag } from '@proton/components/containers';
+import { useFlag } from '@proton/components/containers';
 import { PageSizeSelector } from '@proton/components/containers/messages/PageSizeSelector';
 import { useMailSettings } from '@proton/components/hooks';
 import { VIEW_MODE } from '@proton/shared/lib/constants';
@@ -18,11 +18,11 @@ interface Props {
     onPage: (pageNumber: number) => void;
     page: number;
     total: number;
-    disabled?: boolean;
+    loading?: boolean;
 }
 
-const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: Props) => {
-    const isPageSizeSettingEnabled = useFlag(FeatureFlag.WebMailPageSizeSetting);
+const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Props) => {
+    const isPageSizeSettingEnabled = useFlag('WebMailPageSizeSetting');
 
     const [{ ViewMode = VIEW_MODE.GROUP } = {}] = useMailSettings();
     const goToPageTitle = (page: number) => c('Action').t`Go to page ${page}`;
@@ -60,7 +60,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: P
                         icon
                         shape="ghost"
                         className="on-rtl-mirror"
-                        disabled={disabled || disablePrevious}
+                        disabled={loading || disablePrevious}
                         onClick={() => onPrevious()}
                         data-testid="pagination-row:go-to-previous-page"
                     >
@@ -81,7 +81,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: P
                                 aria-current={isActive}
                                 shape={isActive ? 'solid' : 'ghost'}
                                 className={clsx([isActive && 'text-bold no-pointer-events', 'px-2'])}
-                                disabled={disabled}
+                                disabled={loading}
                                 onClick={() => onPage(pageNumber)}
                                 data-testid={`pagination-row:go-to-page-${pageNumber}`}
                             >
@@ -97,7 +97,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: P
                         shape="ghost"
                         className="on-rtl-mirror"
                         icon
-                        disabled={disabled || disableNext}
+                        disabled={loading || disableNext}
                         onClick={() => onNext()}
                         data-testid="pagination-row:go-to-next-page"
                     >
@@ -116,7 +116,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: P
                         </span>
                     </label>
 
-                    <PageSizeSelector id="pageSizeSelector" />
+                    <PageSizeSelector loading={loading} id="pageSizeSelector" />
                 </div>
             )}
         </div>

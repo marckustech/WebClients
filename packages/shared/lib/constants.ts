@@ -790,6 +790,7 @@ export enum PLANS {
     NEW_VISIONARY = 'visionary2022',
     VPN_PRO = 'vpnpro2023',
     VPN_BUSINESS = 'vpnbiz2023',
+    VPN_PASS_BUNDLE = 'vpnpass2023',
 }
 
 export const PLAN_NAMES = {
@@ -812,6 +813,7 @@ export const PLAN_NAMES = {
     [PLANS.NEW_VISIONARY]: 'Visionary',
     [PLANS.VPN_PRO]: 'VPN Essentials',
     [PLANS.VPN_BUSINESS]: 'VPN Business',
+    [PLANS.VPN_PASS_BUNDLE]: 'VPN + Pass',
 };
 
 export const MEMBER_PLAN_MAPPING = {
@@ -830,6 +832,7 @@ export enum COUPON_CODES {
     BLACK_FRIDAY_2019 = 'BF2019',
     BLACK_FRIDAY_2020 = 'BF2020',
     BLACK_FRIDAY_2022 = 'BF2022',
+    BLACK_FRIDAY_2023 = 'BF2023',
     MAIL_BLACK_FRIDAY_2022 = 'MAILBF2022',
     VPN_BLACK_FRIDAY_2022 = 'VPNBF2022',
     LIFETIME = 'LIFETIME',

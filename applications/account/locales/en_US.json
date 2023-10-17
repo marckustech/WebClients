@@ -57,6 +57,9 @@
       ],
       "You can enable authentication sign in to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts.": [
         "You can enable authentication logs to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts."
+      ],
+      "Ask your organisation admin to setup Gateways.": [
+        "Ask your organization admin to set up Gateways."
       ]
     },
     "Label": {

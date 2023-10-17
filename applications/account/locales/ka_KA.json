@@ -4399,6 +4399,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "თქვენი 2FA გასაღები გამოსაყენებლად მზადაა."
+      ],
+      "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
+        "საშუალებას გაძლევთ, დაარეგისტრიროთ ჩაშენებული უსაფრთხოებს გასაღებები (მაგ: Windows Hello, Face ID, Touch ID ან შიდა TPM)"
       ]
     },
     "fido2: Label": {
@@ -6593,7 +6596,7 @@
         "ორგანიზაციის მორგება"
       ],
       "Settings update failed": [
-        "პარამეტრების განახლების შეცდომა"
+        "პარამეტრების განახლება ჩავარდა"
       ],
       "Settings updated": [
         "პარამეტრები განახლებულია"
@@ -6786,7 +6789,7 @@
         "ეს თქვენი ფაილების ${ rententionLabel }-ზე ძველ ვერსიებს წაშლის."
       ],
       "This will delete all previous versions of your files.": [
-        "ეს თქვენი ფაილები ყველა წინა ვერსიას წაშლის."
+        "ეს თქვენი ფაილების ყველა წინა ვერსიას წაშლის."
       ],
       "This will disable your current recovery phrase. You won't be able to use it to access your account or decrypt your data.": [
         "თქვენი მიმდინარე აღდგენის ფრაზა გაითიშება. ანგარიშთან წვდომას და თქვენი მონაცემების გაშიფვრას ვეღარ შეძლებთ."
@@ -7354,6 +7357,21 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "თქვენი გამოწერა Mozilla-ს მიერ იმართება. დაუკავშირდით მათ მხარდაჭერის გუნდს."
+      ],
+      "Copy the link to clipboard": [
+        "ბმულის ბაფერში კოპირება"
+      ],
+      "Link expired": [
+        "ბმული ვადა გასულია"
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "SMTP-ით გაგზავნა მესამე პირების სერვისებს ან მოწყობილობებს, თქვენი დომენის მისამართებით, ${ MAIL_APP_NAME }-ის გავლით გაგზავნის საშუალებას აძლევს. ეს ფუნქცია ხელმისაწვდომია, მხოლოდ, ${ BRAND_NAME } for Business-ის მომხმარებლებისთვის, როლებიც არანაგულისხმევ დომენებს იყენებენ."
+      ],
+      "We just sent you a new link.": [
+        "ახლახანს ახალი ბმული გამოგიგზავნეთ."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "ზედა პარამეტრები შეგიძლიათ, თქვენს ტარიფში ${ specificCountryCount } IP მისამართის დამატებით განბლოკოთ, ან, მორგებული გადაწყვეტილებებისთვის, დაგვიკავშირდით"
       ]
     },
     "info": {
@@ -7518,6 +7536,9 @@
       ],
       "Primary": [
         "ძირითადი"
+      ],
+      "Forwarding": [
+        "გადამისამართება"
       ]
     },
     "Key type option": {
@@ -9744,6 +9765,12 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "საცავისა და ელემენტების გაზიარება (მალე)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } პროგრამა"
+      ],
+      "SMTP submission for select organizations": [
+        "SMTP მორგება არჩეული ორგანიზაციებისთვის"
       ]
     },
     "new_plans: feature info": {
@@ -9852,6 +9879,9 @@
       ],
       "You’re enjoying a promotional price on your current plan. If you downgrade your account, you will lose your promotional price and it won’t be available if you try to subscribe again.": [
         "თქვენს მიმდინარე გეგმაში სარეკლამო ფასით სარგებლობთ. ანგარიშის ტარიფის ჩამოწევის შემთხვევაში თქვენ დაკარგავთ სარეკლამო ფასს და თუ გამოწერას კვლავ შეეცდებით, ის ხელმისაწვდომი აღარ იქნება."
+      ],
+      "Set automatic replies to inform senders you are out of the office or unable to respond.": [
+        "დააყენეთ ავტომოპასუხე, თუ გნებავთ, შეატყობინოთ გამომგზავნებს, როცა ოფისიდან გასული ბრძანდებით, ან არ გცალიათ."
       ]
     },
     "new_plans: Info": {
@@ -10128,6 +10158,12 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "შეგიძლიათ გყავდეთ ერთზე მეტი ადმინისტრატორი. სხვა ადმინისტრატორებს შეუძლიათ, მომხმარებლების დამატება და მართვა, მაგრამ გადახდებზე კონტროლი, მხოლოდ, ძირითადი ადმინისტრატრის ხელშია."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "ანგარიშის უსაფრთხოების დაცვის უმაღლესი დონე და სპეციალისტის მხარდაჭერა"
+      ],
+      "SMTP allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME }.": [
+        "SMTP საშუალებას აძლევს მესამე პირებს ან მოწყობილობებს, ელფოსტა ${ MAIL_APP_NAME }-ის გავლით გააგზავნონ."
       ]
     },
     "new_plans: upgrade": {
@@ -10136,6 +10172,9 @@
       ],
       "Included with multiple users ${ BRAND_NAME } for Business plans.": [
         "მოჰყვება ერთზე მეტ მომხმარებელს ${ BRAND_NAME }-ის ყველა სატარიფო გეგმას."
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "მას შეიცავს ${ BRAND_NAME } For Business, ${ familyPlanName } და ${ mailProPlanName }."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -10234,6 +10273,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "2FA ავთენტიკაცია აუცილებელი აღარაა"
+      ],
+      "Link copied to clipboard": [
+        "ბმული კოპირებულია ბუფერში"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11283,6 +11325,24 @@
       "This permission expires in ${ timeRemaining.inHours } hour": [
         "ამ წვდომის ვადა ${ timeRemaining.inHours } საათში იწურება",
         "ამ წვდომის ვადა ${ timeRemaining.inHours } საათში იწურება"
+      ],
+      "Didn’t make this request?": [
+        "არ გამოგიგზავნიათ ეს მოთხოვნა?"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "თუ პაროლის შეცვლა თქვენ არ მოგითხოვიათ, გააუქმეთ მოთხოვნა."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "პაროლის შესაცვლელად გადადით მოწყობილობაზე (სესიაში, საიდანაც მოთხოვნა გამოიგაზვნა), რომელზეც შესული ბრძანდებით."
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "ახლა შეგიძლიათ შეცვალოთ პაროლი ანგარიშისთვის ${ boldEmail }, თავისუფლად, შუალედში \"${ boldDaysRemaining }\"."
+      ],
+      "You can now reset your password": [
+        "ახლა შეგიძლიათ, პაროლი შეცვალოთ"
+      ],
+      "You can reset your password until ${ boldDate }.": [
+        "პაროლის შეცვლა, შეგიძლიათ, თარიღამდე ${ boldDate }"
       ]
     },
     "session_recovery:available:link": {
@@ -11354,6 +11414,26 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "მივიღეთ პაროლის შეცვლს მოთხოვნა ${ boldEmail }-სთვის."
+      ],
+      "Didn’t make this request?": [
+        "არ გამოგიგზავნიათ ეს მოთხოვნა?"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "თუ პაროლის შეცვლა თქვენ არ მოგითხოვიათ, გააუქმეთ მოთხოვნა."
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "პაროლის შეცვლის შესაძლებლობა გექნებათ: ${ boldDate }. ეს გაძლევთ დროს, გააუქმოთ მავნე მოთხოვნები."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "პაროლის შეცვლა მოთხოვნილია (${ user.Email }) პაროლის შეცვლა ${ hoursRemaining } საათში შეგეძლებათ.",
+        "პაროლის შეცვლა მოთხოვნილია (${ user.Email }) პაროლის შეცვლა ${ hoursRemaining } საათში შეგეძლებათ."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "იმისათვის, რომ დავრწმუნდეთ, რომ ნამდვილად თქვენ ცდილობთ პაროლის შეცვლას, ჩვენ, მოთხოვნის შესრულებამდე 72 საათს მოვიცდით. პაროლს შეცვლა შეგიძლიათ შემდეგ დროში: ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hour": [
+        "პაროლი, შეგიძლიათ, ${ gracePeriodHoursRemaining } საათში შეცვალოთ",
+        "პაროლი, შეგიძლიათ, ${ gracePeriodHoursRemaining } საათში შეცვალოთ"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -11390,11 +11470,24 @@
     "session_recovery:initiation:title": {
       "Request password reset?": [
         "მოვითხოვო პაროლის შეცვლა?"
+      ],
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
+        "პაროლის შეცვლის დაწყება ${ gracePeriodHoursRemaining }-ში შეგეძლებათ.",
+        "პაროლის შეცვლის დაწყება ${ gracePeriodHoursRemaining }-ში შეგეძლებათ."
       ]
     },
     "session_recovery:settings:action": {
       "Request password reset": [
         "პაროლის შეცვლის მოთხოვნა"
+      ],
+      "Allow password reset from settings": [
+        "მორგების ფანჯრიდან პაროლის შეცვლის დაშვება"
+      ],
+      "Request a password reset from your Account settings. No recovery method needed.": [
+        "მოითხოვეთ პაროლის შეცვლა თქვენი ანგრიშის მორგების ფანჯრიდან. აღდგენის მეთოდი საჭირო არაა."
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "პაროლის შეცვლის ასაკრძალად აღდგენის მეთოდი დაყენებული უნდა გქონდეთ."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -11415,6 +11508,12 @@
       ],
       "You will be able to reset your password in ${ boldTimeLeft }.": [
         "პაროლის შეცვლის დაწყება ${ boldTimeLeft }-ში შეგეძლებათ."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "თუ გახვალთ მანამდე, სანამ პაროლს შეცლით, შეიძლება, თქვენს ანგარიშზე წვდომა დაკარგოთ."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "თუ გახვალთ პაროლის შეცლის გარეშე, შეიძლება, თქვენს ანგარიშზე წვდომა დაკარგოთ."
       ]
     },
     "session_recovery:sign_out:link": {
@@ -13410,6 +13509,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "თქვენ მიგიწვიეს, სცადოთ ${ MAIL_APP_NAME }"
+      ],
+      "Address and key verification": [
+        "მისამართის და გასაღების გადამოწმება"
+      ],
+      "Auto-reply and forward": [
+        "ავტომატური პასუხი და გადამისამართება"
+      ],
+      "Forward emails": [
+        "ელფოსტების გადამისამართება"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13674,6 +13782,12 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "თქვენმა გარე ანგარიშმა შეიძლება სიჩქარის 24 საათიან ლიმიტს მიაღწია. ${ BRAND_NAME }-ი შეეცდება შემოტანა, რაც შეიძლება, მალე განაახლოს."
+      ],
+      "This feature is only available on Beta": [
+        "ეს თვისება, მხოლოდ, ბეტაზეა ხელმისაწვდომი"
+      ],
+      "This key is used for email forwarding": [
+        "ეს გასაღები ელფოსტის გადამისამართებისთვის გამოიყენება"
       ]
     },
     "tooltip": {
@@ -14205,6 +14319,317 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } თვე",
+        "${ n } თვე"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "თუ"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "დასტური"
+      ],
+      "Add condition": [
+        "პირობის დამატება"
+      ],
+      "Add forwarding rule": [
+        "გადაგაზვნის წესის დამატება"
+      ],
+      "Back": [
+        "უკან"
+      ],
+      "Cancel": [
+        "გაუქმება"
+      ],
+      "Decline": [
+        "უარყოფა"
+      ],
+      "Delete": [
+        "წაშლა"
+      ],
+      "Delete this condition": [
+        "ამ პირობის წაშლა"
+      ],
+      "Edit conditions": [
+        "პირობების ჩასწორება"
+      ],
+      "Next": [
+        "შემდეგი"
+      ],
+      "Pause": [
+        "შეჩერება"
+      ],
+      "Re-enable": [
+        "თავიდან ჩართვა"
+      ],
+      "Re-send confirmation email": [
+        "დადასტურების ელფოსტის თავიდან გაგზავნა"
+      ],
+      "Remove “${ value }”": [
+        "\"${ value }\"-ის წაშლა"
+      ],
+      "Request confirmation": [
+        "დადასტურების მოთხოვნა"
+      ],
+      "Resume": [
+        "გაგრძელება"
+      ],
+      "Save": [
+        "შენახვა"
+      ],
+      "Send confirmation email": [
+        "დადასტურების ელფოსტის გაგზავნა"
+      ],
+      "Set up email forwarding": [
+        "ელფოსტის გადაგზავნის მორგება"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "გახსენით ელფოსტის გადაგზავნა, რომ ადვილად მართოთ შემომავალი ინფორმაცია და მეტი ფასიანი ფუნქცია, როცა ტარიფს ასწევთ."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "პირობა დაუსრულებელია. დაამატეთ კოდი"
+      ],
+      "Token already exists": [
+        "კოდი უკვე არსებობს"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "კიდევ ერთხელ სცადეთ, ბმული გახსნათ."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "თქენთვის გადმოგზავნილი ელფოსტები ამოღებულია და გადმოგზავნილი არ იქნება."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "ქმედებები"
+      ],
+      "From": [
+        "ვისგან"
+      ],
+      "Status": [
+        "სტატუსი"
+      ],
+      "To": [
+        "ვის"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "ჩემგან"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "დადასტურების ელფოსტა გაიგზავნება მისამართზე ${ boldForwardeeEmail }"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "ახალი დაშიფვრის გასაღები დაგენერირდება ${ boldForwarderEmail }-სთვის"
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "პიროვნება, ვისთანაც გადაგზავნას აპირებთ, მოწვეულია და საჭიროა, რომ მოსაწვევს დაეთანხმოს/უარყოს ის, ან განაახლოს"
+      ],
+      "Forwarding is active": [
+        "გადაგზავნა გააქტიურდა"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "გადაგზავნა ${ BRAND_NAME }-ის მისამართებზე უზრუნველყოფს, რომ თქვენი მიმოწერა გამჭოლი დაშიფვრით იქნება დაცული. როცა გადაგზავნა გარე მისამართზე ხდება, შეიძლება, დაშიფვრის გამორთვა მოგიწიოთ."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "გადაგზავნა გამჭოლი შიფრაციის არმქონე მისამართზე თქვენი ${ boldForwarderEmail } ელფოსტის მისამართისთვის გამჭოლი დაშიფვრის გამორთვას მოითხოვს. "
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "ამ მისამართზე გადაგზავნა გააქტიურდება მაშინვე, როცა მიმღები მას დაეთანხმება."
+      ],
+      "No incoming forwarding rules": [
+        "შემომავალი გადაგზავნის წესების გარეშე"
+      ],
+      "No outgoing forwarding rules": [
+        "გამავალი გადაგზავნის წესების გარეშე"
+      ],
+      "Please update your forwarding keys": [
+        "განაახლეთ თქვენი გადაგზავნის გასაღებები, გეთაყვა"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "გადამგზავნმა გადაგზავნის მოთხოვნა უარყო"
+      ],
+      "The forwarding is temporarily paused": [
+        "გადაგზავნა დროებით შეჩერებულია"
+      ],
+      "You can safely close this tab.": [
+        "ეს ჩანართი უსაფრთხოდ შეგიძლიათ, დახუროთ."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "${ boldForwarderEmail }-სგან ავტომატურად გადმოგზავნილ ელფოსტებს აღარ მიიღებთ."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "და"
+      ],
+      "Forward from": [
+        "გადამისამართება ვისგან"
+      ],
+      "Forward to": [
+        "გადაგზავნა"
+      ],
+      "or": [
+        "ან"
+      ],
+      "Or": [
+        "ან"
+      ],
+      "With attachment": [
+        "მიმაგრებებით"
+      ],
+      "Without attachment": [
+        "მიმაგრების გარეშე"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "გაიგეთ მეტი"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "ჩემთან"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "პირობა:"
+      ],
+      "Enter email address": [
+        "შეიყვანეთ ელფოსტის მისამართი"
+      ],
+      "Type text or keyword": [
+        "შეიყვანეთ ტექსტი ან საკვანძო სიტყვა"
+      ],
+      "Type text or keyword for this condition:": [
+        "აკრიფეთ ტექსტი ან საკვანძო სიტყვა ამ პირობისთვის:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "სამიზნე მისამართზე გადაგზავნა დასრულდება."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "აქტიური"
+      ],
+      "Declined": [
+        "უარყოფილია"
+      ],
+      "Outdated": [
+        "მოძველებულია"
+      ],
+      "Paused": [
+        "შეჩერებულია"
+      ],
+      "Pending": [
+        "რიგში"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "გენერირებულია ახალი დაშიფვრის გასაღები ${ forwarderEmail }-სთვის"
+      ],
+      "Changes saved": [
+        "ცვლილებები შენახულია"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "ელფოსტა გაიგზავნა მისამართზე ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "ელფოსტა გაიგზავნა მისამართზე ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "გადაგზავნა დადასტურებულია"
+      ],
+      "Forwarding declined": [
+        "გადაგზავნა უარყოფილია"
+      ],
+      "Forwarding deleted": [
+        "გადაგზავნა წაიშალა"
+      ],
+      "Forwarding paused": [
+        "გადაგზავნა შეჩერებულია"
+      ],
+      "Forwarding resumed": [
+        "გადაგზავნა გაგრძელდა"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "ელფოსტის ავტომატური გადაგზავნა სხვა ანგარიშებზე"
+      ],
+      "Delete forwarding?": [
+        "წავშალო გადაგზავნა?"
+      ],
+      "Email forwarding deactivated": [
+        "ელფოსტის გადაგზავნა დეაქტივირებულია"
+      ],
+      "Forwarding activated": [
+        "გადაგზავნა გააქტიურდა"
+      ],
+      "Request confirmation": [
+        "დადასტურების მოთხოვნა"
+      ],
+      "Set up forwarding": [
+        "გადაგზავნის მორგება"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "გაფრთხილება"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "პაროლის შეცვლის პროცესის გასაუქმებლად, შეიყვანეთ მიმდინარე თქვენი პაროლი. სხვა ცვლილებები ძალაში არ შევა."
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "პაროლის შეცვლის მოთხოვვნა გაუქმდა (${ user.Email }). თუ ეს მოთხოვნა თქვენ არ გეკუთვნით, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:disable:info": {
+      "Make sure you have access to a recovery method.": [
+        "დარწმუნდით, რომ აღდგენის მეთოდზე წვდომა გაგაჩნიათ."
+      ],
+      "You will no longer be able to request a password reset from your account settings.": [
+        "ანგარიშის მორგების ფანჯრიდან პაროლის შეცვლას ვეღარ მოითხოვთ."
+      ]
+    },
+    "session_recovery:initiation:info": {
+      "For security reasons, you’ll have to wait **72 hours** before you can change your password.": [
+        "უსაფრთხოებისთვის, პაროლის შეცვლამდე **72 საათი** უნდა მოიცადოთ."
+      ],
+      "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
+        "თუ **აღდგენის მეთოდი** დაყენებული გაქვთ, სცადეთ, ანგარიში აღადგინოთ. ეს საშუალებას მოგცემთ, პაროლი მაშინვე შეცვალოთ."
+      ],
+      "We will contact you again when the password reset is available.": [
+        "დაიკავშირდებით, როცა პაროლის შეცვლა ხელმისაწვდომი იქნება."
+      ],
+      "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
+        "თქვენი მოთხოვნის სტატუსის შემოწმება ნებისმიერ დროს შეგიძლიათ, მორგების ფანჯარაში, ${ accountAndPasswordSectionLink }."
       ]
     }
   }

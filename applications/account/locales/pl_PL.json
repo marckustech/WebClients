@@ -7523,6 +7523,18 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Twoja subskrypcja odnowi się automatycznie ${ renewalTime }."
+      ],
+      "Copy the link to clipboard": [
+        "Kopiuj link do schowka"
+      ],
+      "Link expired": [
+        "Link wygasł"
+      ],
+      "We just sent you a new link.": [
+        "Wysłaliśmy nowy link."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Możesz natychmiast odblokować powyższą konfigurację, dodając dodatkowe adresy IP (${ specificCountryCount }) do swojego planu. Opcjonalnie skontaktuj się z nami w sprawie indywidualnej oferty."
       ]
     },
     "info": {
@@ -7687,6 +7699,9 @@
       ],
       "Primary": [
         "Główny"
+      ],
+      "Forwarding": [
+        "Przekierowanie"
       ]
     },
     "Key type option": {
@@ -9982,6 +9997,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Udostępnianie sejfu i elementów (wkrótce)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "Program ${ PROTON_SENTINEL_NAME }"
       ]
     },
     "new_plans: feature info": {
@@ -10376,6 +10394,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Możesz mieć więcej niż jednego administratora. Wszyscy administratorzy mogą dodawać i zarządzać użytkownikami, ale tylko główny administrator ma kontrolę nad płatnościami."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Zapewnia najwyższy poziom ochrony konta i specjalistyczne wsparcie."
       ]
     },
     "new_plans: upgrade": {
@@ -10487,6 +10508,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Uwierzytelnianie dwustopniowe nie jest wymagane"
+      ],
+      "Link copied to clipboard": [
+        "Link został skopiowany do schowka"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11768,7 +11792,7 @@
         "Żądanie zresetowania hasła"
       ],
       "To disallow password reset, you must have a recovery method set up.": [
-        "Aby uniemożliwić resetowanie hasła, należy skonfigurować metodę odzyskiwania."
+        "Aby wyłączyć resetowanie hasła, skonfiguruj metodę odzyskiwania."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -13858,6 +13882,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Otrzymujesz zaproszenie do wypróbowania poczty ${ MAIL_APP_NAME }"
+      ],
+      "Auto-reply and forward": [
+        "Autoresponder i przekierowanie"
+      ],
+      "Forward emails": [
+        "Przekieruj wiadomości"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14125,6 +14155,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Limit dobowy przepustowości konta zewnętrznego mógł zostać osiągnięty. ${ BRAND_NAME } spróbuje wznowić proces importowania najszybciej, jak będzie to możliwe."
+      ],
+      "This key is used for email forwarding": [
+        "Klucz jest używany do przekierowywania wiadomości"
       ]
     },
     "tooltip": {
@@ -14734,6 +14767,287 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } miesiąc",
+        "${ n } miesiące",
+        "${ n } miesięcy",
+        "${ n } miesiąca"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Jeśli"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Akceptuj"
+      ],
+      "Add condition": [
+        "Dodaj warunek"
+      ],
+      "Add forwarding rule": [
+        "Dodaj regułę przekierowania"
+      ],
+      "Back": [
+        "Wstecz"
+      ],
+      "Cancel": [
+        "Anuluj"
+      ],
+      "Decline": [
+        "Odrzuć"
+      ],
+      "Delete": [
+        "Usuń"
+      ],
+      "Delete this condition": [
+        "Usuń warunek"
+      ],
+      "Edit conditions": [
+        "Edytuj warunki"
+      ],
+      "Next": [
+        "Dalej"
+      ],
+      "Pause": [
+        "Wstrzymaj"
+      ],
+      "Re-enable": [
+        "Włącz ponownie"
+      ],
+      "Re-send confirmation email": [
+        "Wyślij ponownie potwierdzenie odczytu"
+      ],
+      "Remove “${ value }”": [
+        "Usuń “${ value }”"
+      ],
+      "Request confirmation": [
+        "Poproś o potwierdzenie odczytu"
+      ],
+      "Resume": [
+        "Wznów"
+      ],
+      "Save": [
+        "Zapisz"
+      ],
+      "Send confirmation email": [
+        "Wyślij potwierdzenie odczytu"
+      ],
+      "Set up email forwarding": [
+        "Ustaw przekierowanie"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Ulepsz konto, aby odblokować przekierowywanie wiadomości dla łatwego zarządzania przychodzącymi wiadomościami i więcej funkcji premium."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Warunek jest niekompletny. Dodaj token"
+      ],
+      "Token already exists": [
+        "Token już istnieje"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Otwórz ponownie link."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "Wiadomości przekierowane są wykluczone i nie będą przekazywane dalej."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Akcje"
+      ],
+      "From": [
+        "Od"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "To": [
+        "Do"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Ode mnie"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Potwierdzenie odczytu zostanie wysłane na adres ${ boldForwardeeEmail }"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Nowy klucz szyfrowania zostanie wygenerowany dla adresu ${ boldForwarderEmail }."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Odbiorca został zaproszony i musi zaakceptować lub odrzucić zaproszenie"
+      ],
+      "Forwarding is active": [
+        "Przekierowywanie jest włączone"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Przekierowanie na adresy ${ BRAND_NAME } zachowa szyfrowanie end-to-end. Podczas przekierowywania na zewnątrz może być konieczne usunięcie szyfrowania."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Przekierowanie na adres bez szyfrowania end-to-end wymaga wyłączenia szyfrowania end-to-end dla adresu ${ boldForwarderEmail }."
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Przekierowanie na ten adres stanie się aktywne, gdy odbiorca zaakceptuje je."
+      ],
+      "No incoming forwarding rules": [
+        "Brak przychodzących reguł przekierowywania"
+      ],
+      "No outgoing forwarding rules": [
+        "Brak wychodzących reguł przekierowywania"
+      ],
+      "Please update your forwarding keys": [
+        "Zaktualizuj klucze przekierowania"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Odbiorca odrzucił żądanie przekierowywania"
+      ],
+      "The forwarding is temporarily paused": [
+        "Przekierowywanie zostało wstrzymane"
+      ],
+      "You can safely close this tab.": [
+        "Możesz zamknąć tę kartę."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Nie będziesz otrzymywać wiadomości automatycznie przekierowanych z adresu ${ boldForwarderEmail }."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "oraz"
+      ],
+      "Forward from": [
+        "Przekaż od"
+      ],
+      "Forward to": [
+        "Przekaż do"
+      ],
+      "or": [
+        "lub"
+      ],
+      "Or": [
+        "lub"
+      ],
+      "With attachment": [
+        "Z załącznikiem"
+      ],
+      "Without attachment": [
+        "Bez załącznika"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Dowiedz się więcej"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Do mnie"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Warunek:"
+      ],
+      "Enter email address": [
+        "Wpisz adres e-mail"
+      ],
+      "Type text or keyword": [
+        "Wpisz tekst lub słowo kluczowe"
+      ],
+      "Type text or keyword for this condition:": [
+        "Wpisz tekst lub słowo kluczowe:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Przekierowywanie zostanie zakończone."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Aktywne"
+      ],
+      "Declined": [
+        "Odrzucone"
+      ],
+      "Outdated": [
+        "Nieaktualne"
+      ],
+      "Paused": [
+        "Wstrzymane"
+      ],
+      "Pending": [
+        "Oczekujące"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "Nowy klucz szyfrowania zostanie wygenerowany dla adresu ${ forwarderEmail }."
+      ],
+      "Changes saved": [
+        "Zmiany zostały zapisane"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "Wiadomość została wysłana do ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "Wiadomość została wysłana do ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Przekierowanie zostało zaakceptowane"
+      ],
+      "Forwarding declined": [
+        "Przekierowanie zostało odrzucone"
+      ],
+      "Forwarding deleted": [
+        "Przekierowanie zostało usunięte"
+      ],
+      "Forwarding paused": [
+        "Przekierowywanie zostało wstrzymane"
+      ],
+      "Forwarding resumed": [
+        "Przekierowywanie zostało wznowione"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Automatyczne przekierowanie wiadomości do innych kont"
+      ],
+      "Delete forwarding?": [
+        "Usunąć przekierowanie?"
+      ],
+      "Email forwarding deactivated": [
+        "Przekierowanie zostało wyłączone"
+      ],
+      "Forwarding activated": [
+        "Przekierowanie zostało włączone"
+      ],
+      "Request confirmation": [
+        "Poproś o potwierdzenie odczytu"
+      ],
+      "Set up forwarding": [
+        "Ustaw przekierowanie"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Ostrzeżenie"
       ]
     }
   }

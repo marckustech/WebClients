@@ -1297,6 +1297,9 @@
       ],
       "Renews automatically for ${ renewPrice }, for ${ renewalLength }": [
         "Ανανεώνεται αυτόματα για ${ renewPrice }, για ${ renewalLength }"
+      ],
+      "Renews automatically at ${ renewPrice }, for ${ renewalLength }": [
+        "Ανανεώνεται αυτόματα για ${ renewPrice }, για ${ renewalLength }"
       ]
     },
     "Billing cycle option": {
@@ -4064,6 +4067,15 @@
       ],
       "Up to 6 users": [
         "Έως 6 χρήστες"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Error": {
@@ -7375,6 +7387,39 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Η συνδρομή σας θα ανανεωθεί αυτόματα στις ${ renewalTime }."
+      ],
+      "After this date, you'll be billed every 12 months at the normal yearly rate.": [
+        "Μετά από αυτήν την ημερομηνία, θα χρεώνεστε κάθε 12 μήνες με την κανονική ετήσια τιμή."
+      ],
+      "After this date, you'll be billed every 24 months at the normal 2-year rate.": [
+        "Μετά από αυτήν την ημερομηνία, θα χρεώνεστε κάθε 24 μήνες με την κανονική τιμή 2 ετών."
+      ],
+      "After this date, you'll be billed every month at the regular price.": [
+        "Μετά από αυτήν την ημερομηνία, θα χρεώνεστε κάθε μήνα στην κανονική τιμή."
+      ],
+      "Copy the link to clipboard": [
+        "Αντιγραφή του συνδέσμου στο πρόχειρο"
+      ],
+      "Link expired": [
+        "Ο σύνδεσμος έληξε"
+      ],
+      "Subscription auto-renews every 12 months.": [
+        "Η συνδρομή ανανεώνεται αυτόματα κάθε 12 μήνες."
+      ],
+      "Subscription auto-renews every 24 months.": [
+        "Η συνδρομή ανανεώνεται αυτόματα κάθε 24 μήνες."
+      ],
+      "Subscription auto-renews every month.": [
+        "Η συνδρομή ανανεώνεται αυτόματα κάθε μήνα."
+      ],
+      "We just sent you a new link.": [
+        "Μόλις σας στείλαμε έναν νέο σύνδεσμο."
+      ],
+      "Your next billing date is ${ renewalTime }.": [
+        "Η επόμενη ημερομηνία χρέωσης είναι ${ renewalTime }."
+      ],
+      "Your subscription will auto-renew on ${ renewalTime }.": [
+        "Η συνδρομή σας θα ανανεωθεί αυτόματα στις ${ renewalTime }."
       ]
     },
     "info": {
@@ -7539,6 +7584,9 @@
       ],
       "Primary": [
         "Κύριο"
+      ],
+      "Forwarding": [
+        "Προώθηση"
       ]
     },
     "Key type option": {
@@ -8692,6 +8740,9 @@
       ],
       "Your referral link": [
         "Ο σύνδεσμος παραπομπής σας"
+      ],
+      "New plan": [
+        "Νέο πλάνο"
       ]
     },
     "label": {
@@ -9768,6 +9819,12 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Κοινή χρήση Κρύπτης και Στοιχείων (σύντομα διαθέσιμη)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } πρόγραμμα"
+      ],
+      "Ad-blocker and malware protection": [
+        "Αποκλεισμός διαφημίσεων και προστασία από κακόβουλο λογισμικό"
       ]
     },
     "new_plans: feature info": {
@@ -10158,6 +10215,21 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Μπορείτε να έχετε περισσότερους από έναν διαχειριστές. Όλοι οι διαχειριστές μπορούν να προσθέτουν και να διαχειρίζονται χρήστες, αλλά μόνο ο κύριος διαχειριστής έχει τον έλεγχο της χρέωσης."
+      ],
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Ασφαλίστε το χρονοδιάγραμμά σας με κρυπτογράφηση από άκρο σε άκρο. Περιλαμβάνει υποστήριξη για προσαρμοσμένα ημερολόγια, κοινή χρήση ημερολογίου και πολλά άλλα."
+      ],
+      "${ DRIVE_APP_NAME }: Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "${ DRIVE_APP_NAME }: Ασφαλίστε τα αρχεία σας με κρυπτογραφημένο χώρο αποθήκευσης στο cloud. Περιλαμβάνει ιστορικό εκδόσεων, κρυπτογραφημένη κοινή χρήση αρχείων και πολλά άλλα."
+      ],
+      "${ MAIL_APP_NAME }: Secure your emails with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, and more.": [
+        "${ MAIL_APP_NAME }: Ασφαλίστε τα μηνύματα ηλεκτρονικού ταχυδρομείου σας με κρυπτογράφηση από άκρο σε άκρο. Περιλαμβάνει υποστήριξη για προσαρμοσμένους τομείς email, 15 διευθύνσεις ηλεκτρονικού ταχυδρομείου, απεριόριστα hide-my-email ψευδώνυμα και πολλά άλλα."
+      ],
+      "${ VPN_APP_NAME }: Access blocked content and browse privately. Includes ${ serversAndCountries }, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "${ VPN_APP_NAME }: Αποκτήστε πρόσβαση σε αποκλεισμένο περιεχόμενο και περιηγηθείτε ιδιωτικά. Περιλαμβάνει ${ serversAndCountries }, υψηλότερες ταχύτητες VPN, πρόσβαση σε παγκόσμιες υπηρεσίες ροής, κακόβουλο λογισμικό και πρόγραμμα αποκλεισμού διαφημίσεων, γρήγορες λήψεις BitTorrent και πολλά άλλα."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Παρέχει το υψηλότερο επίπεδο προστασίας ασφάλειας λογαριασμού και εξειδικευμένη υποστήριξη"
       ]
     },
     "new_plans: upgrade": {
@@ -10267,6 +10339,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Ο έλεγχος ταυτότητας δύο παραγόντων δεν απαιτείται πλέον"
+      ],
+      "Link copied to clipboard": [
+        "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10882,6 +10957,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Ο οργανισμός σας έχει πρόσβαση στο ${ free }. Εάν θέλετε να αποκτήσετε πρόσβαση σε premium δυνατότητες του ${ appName }, ζητήστε από τον διαχειριστή του οργανισμού σας να κάνει αναβάθμιση."
+      ],
+      "per month": [
+        "ανά μήνα"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11775,6 +11853,18 @@
       ],
       "Support online privacy": [
         "Υποστήριξη ηλεκτρονικού απορρήτου"
+      ],
+      "1 user": [
+        "1 χρήστης"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -11870,6 +11960,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Τυπική τιμή ${ amount } για 30 μήνες"
+      ],
+      "${ n } month": [
+        "${ n } μήνα",
+        "${ n } μήνες"
+      ],
+      "15 months": [
+        "15 μήνες"
+      ],
+      "30 months": [
+        "30 μήνες"
       ]
     },
     "specialoffer: Title": {
@@ -12007,6 +12107,12 @@
       ],
       "Billed yearly": [
         "Ετήσια χρέωση"
+      ],
+      "Billed for 15 months": [
+        "Χρέωση για 15 μήνες"
+      ],
+      "Billed for 30 months": [
+        "Χρέωση για 30 μήνες"
       ]
     },
     "Subscription attribute": {
@@ -12410,6 +12516,12 @@
       ],
       "Premium Password Manager": [
         "Premium Διαχειριστής Κωδικών Πρόσβασης"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -13532,6 +13644,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Έχετε προσκληθεί να δοκιμάσετε το ${ MAIL_APP_NAME }"
+      ],
+      "Auto-reply and forward": [
+        "Αυτόματη απάντηση και προώθηση"
+      ],
+      "Forward emails": [
+        "Προώθηση μηνυμάτων ηλεκτρονικού ταχυδρομείου"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13799,11 +13917,17 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Ίσως ο εξωτερικός λογαριασμός σας έχει εξαντλήσει το όριό του στη μετάδοση ανά 24ωρο. Το ${ BRAND_NAME } θα δοκιμάσει να συνεχίσει την εισαγωγή το συντομότερο δυνατό."
+      ],
+      "This key is used for email forwarding": [
+        "Αυτό το κλειδί χρησιμοποιείται για προώθηση μηνυμάτων ηλεκτρονικού ταχυδρομείου"
       ]
     },
     "tooltip": {
       "${ PASS_APP_NAME }: end-to-end encrypted password manager": [
         "${ PASS_APP_NAME }: διατερματικά κρυπτογραφημένος διαχειριστής κωδικών πρόσβασης"
+      ],
+      "${ PASS_APP_NAME }: Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "${ PASS_APP_NAME }: Ασφαλείς συνδέσεις σε όλες τις συσκευές σας. Περιλαμβάνει απεριόριστα ψευδώνυμα, κοινή χρήση, ενσωματωμένο έλεγχο ταυτότητας δύο παραγόντων (2FA) και πολλά άλλα."
       ]
     },
     "Tooltip automatically attach public key": {
@@ -13965,6 +14089,12 @@
       ],
       "monthly": [
         "μηνιαία"
+      ],
+      "15-month": [
+        "15μηνη"
+      ],
+      "30-month": [
+        "30μηνη"
       ]
     },
     "vpn_2step: feature": {
@@ -14330,6 +14460,392 @@
       ],
       "Yearly, ${ untilString }": [
         "Ετησίως, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Προσθέστε τον κρυπτογραφημένο διαχειριστή κωδικών πρόσβασης** μόνο για ${ price }"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Προσθέστε το ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Προσθέστε ${ plan } για ${ price } ανά μήνα"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Προσθέστε ${ plan } στο πλάνο σας κάνοντας εγγραφή σε 15 μήνες"
+      ],
+      "Get the deal": [
+        "Αποκτήστε την προσφορά"
+      ],
+      "Remove": [
+        "Αφαίρεση"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Αφαίρεση ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Εγγραφείτε για 15 μήνες και αποκτήστε τον **κρυπτογραφημένο διαχειριστή κωδικών πρόσβασης** μόνο με ${ priceNoSuffix } επιπλέον ανά μήνα!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } αποθηκευτικού χώρου"
+      ],
+      "1 user": [
+        "1 χρήστης"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3,000+ διακομιστές σε 65+ χώρες"
+      ],
+      "6 users": [
+        "6 χρήστες"
+      ],
+      "Ad-blocker and malware protection": [
+        "Αποκλεισμός διαφημίσεων και προστασία από κακόβουλο λογισμικό"
+      ],
+      "Extended version history": [
+        "Εκτεταμένο ιστορικό εκδόσεων"
+      ],
+      "Fast BitTorrent downloads": [
+        "Γρήγορο κατέβασμα BitTorrent"
+      ],
+      "High speed streaming": [
+        "Ροή υψηλής ταχύτητας"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium Διαχειριστής Κωδικών Πρόσβασης"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Οι εκπτώσεις βασίζονται στην τυπική μηνιαία τιμολόγηση."
+      ],
+      "Learn more about our Black Friday offers": [
+        "Μάθετε περισσότερα για τις προσφορές της Black Friday"
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Η συνδρομή σας θα ανανεωθεί αυτόματα με την τυπική μειωμένη τιμή και διάρκεια στο τέλος του κύκλου χρέωσης."
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Αποκτήστε πρόσβαση σε αποκλεισμένο περιεχόμενο και περιηγηθείτε ιδιωτικά. Περιλαμβάνει 3.000+ διακομιστές σε 65+ χώρες, ύψιστες ταχύτητες VPN, παγκόσμιες υπηρεσίες ροής, αποκλεισμό κακόβουλου λογισμικού και προγράμματα διαφημίσεων, γρήγορες λήψεις BitTorrent και πολλά άλλα."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Αποκτήστε πρόσβαση σε περιεχόμενο σε υπηρεσίες ροής, συμπεριλαμβανομένων των Netflix, Disney+ και Prime Video, και άλλων, από οπουδήποτε."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, ${ aliases } hide-my-email aliases, calendar sharing, and more.": [
+        "Περιλαμβάνει υποστήριξη για ${ domains } προσαρμοσμένο τομέα email, ${ addresses } διευθύνσεις ηλεκτρονικού ταχυδρομείου, ${ aliases } hide-my-email ψευδώνυμα, κοινή χρήση ημερολογίου και άλλα."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Περιλαμβάνει υποστήριξη για ${ domains } προσαρμοσμένο τομέα email, ${ addresses } διευθύνσεις ηλεκτρονικού ταχυδρομείου, απεριόριστα hide-my-email ψευδώνυμα, κοινή χρήση ημερολογίου και άλλα."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, vaults, integrated 2FA and more.": [
+        "Ασφαλείς συνδέσεις σε όλες τις συσκευές σας. Περιλαμβάνει απεριόριστα ψευδώνυμα, κοινή χρήση, κρύπτες, ενσωματωμένο 2FA και πολλά άλλα."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Ασφαλίστε τα email σας και προγραμματίστε με κρυπτογράφηση από άκρο σε άκρο. Περιλαμβάνει υποστήριξη για προσαρμοσμένους τομείς email, 15 διευθύνσεις ηλεκτρονικού ταχυδρομείου, απεριόριστα hide-my-email ψευδώνυμα, κοινή χρήση ημερολογίου και πολλά άλλα."
+      ],
+      "Secure your files, folders and photos with end-to-end and zero-access encryption. Includes version history, encrypted file sharing, and more.": [
+        "Ασφαλίστε τα αρχεία, τους φακέλους και τις φωτογραφίες σας με κρυπτογράφηση από άκρο σε άκρο και μηδενικής πρόσβασης. Περιλαμβάνει ιστορικό εκδόσεων, κρυπτογραφημένη κοινή χρήση αρχείων και πολλά άλλα."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Το ειδικά σχεδιασμένο NetShield προστατεύει τις συσκευές σας και επιταχύνει την περιήγησή σας εμποδίζοντας διαφημίσεις, ιχνηλάτες και κακόβουλο λογισμικό."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Ο αποθηκευτικός χώρος μοιράζεται μεταξύ όλων των ${ BRAND_NAME } εφαρμογών."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Αποθηκεύστε έως 200 εκδόσεις κάθε αρχείου για έως και 10 χρόνια."
+      ],
+      "Unlock peer-to-peer downloads and file sharing. Increase upload and download speeds and hide your IP address.": [
+        "Ξεκλειδώστε ομότιμες λήψεις και κοινή χρήση αρχείων. Αυξήστε τις ταχύτητες μεταφόρτωσης και λήψης και αποκρύψτε τη διεύθυνση IP σας."
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Αν"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Αποδοχή"
+      ],
+      "Add condition": [
+        "Προσθήκη προϋπόθεσης"
+      ],
+      "Add forwarding rule": [
+        "Προσθήκη κανόνα προώθησης"
+      ],
+      "Back": [
+        "Πίσω"
+      ],
+      "Cancel": [
+        "Ακύρωση"
+      ],
+      "Decline": [
+        "Απόρριψη"
+      ],
+      "Delete": [
+        "Διαγραφή"
+      ],
+      "Delete this condition": [
+        "Διαγραφή αυτής της προϋπόθεσης"
+      ],
+      "Edit conditions": [
+        "Επεξεργασία προϋποθέσεων"
+      ],
+      "Next": [
+        "Επόμενο"
+      ],
+      "Pause": [
+        "Παύση"
+      ],
+      "Re-enable": [
+        "Επανενεργοποιήσετε"
+      ],
+      "Re-send confirmation email": [
+        "Επαναποστολή email επιβεβαίωσης"
+      ],
+      "Remove “${ value }”": [
+        "Αφαίρεση “${ value }”"
+      ],
+      "Request confirmation": [
+        "Αίτηση επιβεβαίωσης"
+      ],
+      "Resume": [
+        "Συνέχεια"
+      ],
+      "Save": [
+        "Αποθήκευση"
+      ],
+      "Send confirmation email": [
+        "Αποστολή email επιβεβαίωσης"
+      ],
+      "Set up email forwarding": [
+        "Ρύθμιση email προώθησης"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Ξεκλειδώστε την προώθηση μηνυμάτων ηλεκτρονικού ταχυδρομείου για εύκολη διαχείριση εισερχόμενων πληροφοριών και περισσότερων premium λειτουργιών κατά την αναβάθμιση."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Η προϋπόθεση είναι ελλιπής, παρακαλούμε προσθέστε ένα διακριτικό"
+      ],
+      "Token already exists": [
+        "Το διακριτικό υπάρχει ήδη"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Παρακαλούμε δοκιμάστε να ανοίξετε ξανά τον σύνδεσμο."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "Τα μηνύματα ηλεκτρονικού ταχυδρομείου που προωθούνται σε εσάς εξαιρούνται και δε θα προωθούνται."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Ενέργειες"
+      ],
+      "From": [
+        "Από"
+      ],
+      "Status": [
+        "Κατάσταση"
+      ],
+      "To": [
+        "Προς"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Από εμένα"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Ένα email επιβεβαίωσης θα σταλεί στο ${ boldForwardeeEmail }"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Ένα νέο κλειδί κρυπτογράφησης θα δημιουργηθεί για το ${ boldForwarderEmail }."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Ο Προωθούμενος έχει προσκληθεί και πρέπει να αποδεχτεί/απορρίψει την πρόσκληση ή την ενημέρωση"
+      ],
+      "Forwarding is active": [
+        "Η προώθηση είναι ενεργοποιημένη"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Η προώθηση σε διευθύνσεις ${ BRAND_NAME } θα διατηρήσει κρυπτογραφημένη την επικοινωνία σας από άκρο σε άκρο. Κατά την εξωτερική προώθηση, η κρυπτογράφηση ενδέχεται να πρέπει να καταργηθεί."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Η προώθηση σε μια διεύθυνση χωρίς κρυπτογράφηση από άκρο σε άκρο απαιτεί απενεργοποίηση της κρυπτογράφησης από άκρο σε άκρο για τη ${ boldForwarderEmail } \n διεύθυνση email σας. "
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Η προώθηση σε αυτήν τη διεύθυνση θα ενεργοποιηθεί μόλις ο παραλήπτης αποδεχτεί την προώθηση."
+      ],
+      "No incoming forwarding rules": [
+        "Δεν υπάρχουν κανόνες εισερχόμενης προώθησης"
+      ],
+      "No outgoing forwarding rules": [
+        "Δεν υπάρχουν κανόνες εξερχόμενης προώθησης"
+      ],
+      "Please update your forwarding keys": [
+        "Παρακαλούμε ενημερώστε τα κλειδιά προώθησης σας"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Ο προωθούμενος απέρριψε την αίτηση προώθησης"
+      ],
+      "The forwarding is temporarily paused": [
+        "Η προώθηση έχει διακοπεί προσωρινά"
+      ],
+      "You can safely close this tab.": [
+        "Μπορείτε να κλείσετε με ασφάλεια αυτήν την καρτέλα."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Δε θα λαμβάνετε μηνύματα ηλεκτρονικού ταχυδρομείου που προωθούνται αυτόματα από το ${ boldForwarderEmail }."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Και"
+      ],
+      "Forward from": [
+        "Προώθηση από"
+      ],
+      "Forward to": [
+        "Προώθηση σε"
+      ],
+      "or": [
+        "ή"
+      ],
+      "Or": [
+        "Ή"
+      ],
+      "With attachment": [
+        "Με συνημμένα"
+      ],
+      "Without attachment": [
+        "Χωρίς συνημμένα"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Μάθετε περισσότερα"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Σε εμένα"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Προϋπόθεση:"
+      ],
+      "Enter email address": [
+        "Εισάγετε την διεύθυνση email σας"
+      ],
+      "Type text or keyword": [
+        "Πληκτρολόγηση κειμένου ή λέξης-κλειδιού"
+      ],
+      "Type text or keyword for this condition:": [
+        "Πληκτρολογήστε κείμενο ή λέξη-κλειδί για αυτήν την προϋπόθεση:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Η προώθηση στη διεύθυνση προορισμού θα τερματιστεί."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Ενεργό"
+      ],
+      "Declined": [
+        "Απορρίφθηκε"
+      ],
+      "Outdated": [
+        "Απαρχαιωμένο"
+      ],
+      "Paused": [
+        "Σε παύση"
+      ],
+      "Pending": [
+        "Σε εκκρεμότητα"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "Δημιουργήθηκε ένα νέο κλειδί κρυπτογράφησης για το ${ forwarderEmail }."
+      ],
+      "Changes saved": [
+        "Έχουν αποθηκευτεί οι αλλαγές"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "Το Email στάλθηκε στο ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "Το Email στάλθηκε ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Η προώθηση έγινε δεκτή"
+      ],
+      "Forwarding declined": [
+        "Η προώθηση απορρίφθηκε"
+      ],
+      "Forwarding deleted": [
+        "Η προώθηση διαγράφηκε"
+      ],
+      "Forwarding paused": [
+        "Η προώθηση τέθηκε σε παύση"
+      ],
+      "Forwarding resumed": [
+        "Η προώθηση συνεχίστηκε"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Αυτόματη προώθηση μηνυμάτων ηλεκτρονικού ταχυδρομείου σε άλλους λογαριασμούς"
+      ],
+      "Delete forwarding?": [
+        "Διαγραφή προώθησης;"
+      ],
+      "Email forwarding deactivated": [
+        "Η προώθηση email απενεργοποιήθηκε"
+      ],
+      "Forwarding activated": [
+        "Η προώθηση ενεργοποιήθηκε"
+      ],
+      "Request confirmation": [
+        "Αίτηση επιβεβαίωσης"
+      ],
+      "Set up forwarding": [
+        "Ρύθμιση προώθησης"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Προειδοποίηση"
       ]
     }
   }

@@ -4091,6 +4091,15 @@
       ],
       "Up to 6 users": [
         "Да 6 карыстальнікаў"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Прэміяльны ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Прэміяльны ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Error": {
@@ -6730,7 +6739,7 @@
         "Наладжванне вашай арганізацыі"
       ],
       "Settings update failed": [
-        "Не ўдалося абнавіць налады"
+        "Збой абнаўлення налад"
       ],
       "Settings updated": [
         "Налады абноўлены"
@@ -7517,6 +7526,45 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "After this date, you'll be billed every 12 months at the normal yearly rate.": [
+        "З вас будзе кожныя 12 месяцаў спаганяцца стандартны гадавы кошт пасля гэтай даты."
+      ],
+      "After this date, you'll be billed every 24 months at the normal 2-year rate.": [
+        "З вас будзе кожныя 24 месяцы спаганяцца стандартны кошт аплаты за два гады пасля гэтай даты."
+      ],
+      "After this date, you'll be billed every month at the regular price.": [
+        "З вас будзе кожны месяц спаганяцца стандартны кошт пасля гэтай даты."
+      ],
+      "Copy the link to clipboard": [
+        "Скапіяваць спасылку ў буфер абмену"
+      ],
+      "Link expired": [
+        "Спасылка пратэрмінавана"
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "Адпраўка па SMTP дазваляе староннім сэрвісам або прыладам адпраўляць лісты праз ${ MAIL_APP_NAME } для карыстальніцкага дамена адраса. Функцыя даступна для карыстальнікаў ${ BRAND_NAME } for Business з карыстальніцкім даменам."
+      ],
+      "Subscription auto-renews every 12 months.": [
+        "Падпіска будзе аўтаматычна падаўжацца кожныя 12 месяцаў."
+      ],
+      "Subscription auto-renews every 24 months.": [
+        "Падпіска будзе аўтаматычна падаўжацца кожныя 24 месяцы."
+      ],
+      "Subscription auto-renews every month.": [
+        "Падпіска будзе аўтаматычна падаўжацца кожны месяц."
+      ],
+      "We just sent you a new link.": [
+        "Мы адправілі вам новую спасылку."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Вы зможаце адразу разблакіраваць налады вышэй дадаўшы ${ specificCountryCount } да нумара IP-адрасоў у сваім тарыфным плане або звязацца з намі для атрымання індывідуальнага рашэння."
+      ],
+      "Your next billing date is ${ renewalTime }.": [
+        "Наступная дата спагнання грашовых сродкаў адбудзецца ${ renewalTime }."
+      ],
+      "Your subscription will auto-renew on ${ renewalTime }.": [
+        "Ваша падпіска будзе аўтаматычна падоўжана ${ renewalTime }."
       ]
     },
     "info": {
@@ -7681,6 +7729,9 @@
       ],
       "Primary": [
         "Асноўны"
+      ],
+      "Forwarding": [
+        "Перасылка"
       ]
     },
     "Key type option": {
@@ -8842,6 +8893,9 @@
       ],
       "Your referral link": [
         "Ваша рэферальная спасылка"
+      ],
+      "New plan": [
+        "Новы тарыфны план"
       ]
     },
     "label": {
@@ -9900,7 +9954,7 @@
         "Адпраўка па SMTP"
       ],
       "SMTP submission for select organizations": [
-        "Адпраўка па SMTP для выбранай арганізацыі"
+        "Адпраўка па SMTP для выбраных арганізацый"
       ],
       "Split tunneling (Android and Windows)": [
         "Split Tunneling (Android і Windows)"
@@ -9976,6 +10030,12 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Сховішча і абагульванне элементаў (неўзабаве з'явіцца)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "Праграма ${ PROTON_SENTINEL_NAME }"
+      ],
+      "Ad-blocker and malware protection": [
+        "Блакіроўшчык рэкламы і абарона ад шкодных праграм"
       ]
     },
     "new_plans: feature info": {
@@ -10370,6 +10430,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "У вас можа быць некалькі адміністратараў. Усе адміністратары могуць дадаваць і кіраваць карыстальнікамі, але толькі асноўны адміністратар кантралюе аплату."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Забяспечвае найвышэйшы ўзровень бяспекі, а таксама адмысловую падтрымку"
       ]
     },
     "new_plans: upgrade": {
@@ -10481,6 +10544,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Двухфактарная аўтэнтыфікацыя больш не патрабуецца"
+      ],
+      "Link copied to clipboard": [
+        "Спасылка скапіявана ў буфер абмену"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11674,7 +11740,7 @@
         "Скасуйце запыт, калі вы не запытвалі скіданне пароля."
       ],
       "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
-        "Скіданне пароля даступна з ${ boldDate }. Гэта дае вам час на скасоўванне любых махлярскіх запытаў."
+        "Скіданне пароля даступна з ${ boldDate }. Гэта дае вам час на скасаванне любых махлярскіх запытаў."
       ],
       "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
         "Запыт на скіданне пароля (${ user.Email }). Вы можаце змяніць свой пароль на працягу ${ hoursRemaining } гадзіны.",
@@ -11718,7 +11784,7 @@
     },
     "session_recovery:initiation:info": {
       "For security reasons, you’ll have to wait **72 hours** before you can change your password.": [
-        "У мэтах бяспекі, вам давядзецца чакаць **72 гадзіны** перад тым, як змяніць свой пароль."
+        "У мэтах бяспекі, вам давядзецца чакаць **72 гадзіны** перад тым, як вы зможаце змяніць свой пароль."
       ],
       "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
         "Калі ў вас наладжаны **метад аднаўлення** паспрабуйце скарыстацца спачатку ім. Гэта дазволіць адразу змяніць ваш пароль."
@@ -11756,7 +11822,7 @@
         "Дазволіць скіданне пароля з наладаў"
       ],
       "Request a password reset from your Account settings. No recovery method needed.": [
-        "Запытайце скіданне пароля з вашых наладаў уліковага запісу. У гэтым выпадку метад аднаўлення не патрабуецца."
+        "Запытайце скіданне пароля з наладаў вашага ўліковага запісу. У гэтым выпадку метад аднаўлення не патрабуецца."
       ],
       "Request password reset": [
         "Запытаць скіданне пароля"
@@ -12041,6 +12107,18 @@
       ],
       "Support online privacy": [
         "Падтрыманне прыватнасці ў інтэрнэце"
+      ],
+      "1 user": [
+        "1 карыстальнік"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } і ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Прэміяльны ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -12138,6 +12216,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Стандартная цана ${ amount } за 30 месяцаў"
+      ],
+      "${ n } month": [
+        "${ n } месяц",
+        "${ n } месяцы",
+        "${ n } месяцаў",
+        "${ n } месяцаў"
+      ],
+      "15 months": [
+        "15 месяцаў"
+      ],
+      "30 months": [
+        "30 месяцаў"
       ]
     },
     "specialoffer: Title": {
@@ -12275,6 +12365,12 @@
       ],
       "Billed yearly": [
         "Аплачваецца штогод"
+      ],
+      "Billed for 15 months": [
+        "Аплачваецца за 15 месяцаў"
+      ],
+      "Billed for 30 months": [
+        "Аплачваецца за 30 месяцаў"
       ]
     },
     "Subscription attribute": {
@@ -12706,6 +12802,12 @@
       ],
       "Premium Password Manager": [
         "Прэміяльныя функцыі менеджара пароляў"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Прэміяльны ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -12996,7 +13098,7 @@
         "Дадаць карыстальнікаў"
       ],
       "Address and key verification": [
-        "Адрас і праверка ключа"
+        "Праверка адраса і ключа"
       ],
       "Allocate storage": [
         "Вылучэнне аб'ёму ў сховішчы"
@@ -13855,6 +13957,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Вы былі запрошаны паспрабаваць ${ MAIL_APP_NAME }"
+      ],
+      "Auto-reply and forward": [
+        "Аўтаматычны адказ і перасылка"
+      ],
+      "Forward emails": [
+        "Перасылка лістоў"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14122,6 +14230,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Відавочна, што ваш уліковы запіс дасягнуў абмежавання паласы прапускання, якая разлічана на суткі. ${ BRAND_NAME } паспрабуе ўзнавіць імпартаванне, як толькі гэта будзе магчыма."
+      ],
+      "This key is used for email forwarding": [
+        "Гэты ключ выкарыстоўваецца для перасылкі лістоў"
       ]
     },
     "tooltip": {
@@ -14731,6 +14842,120 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Дадайце наш менеджар пароляў з шыфраваннем** усяго за ${ price }"
+      ],
+      "Remove": [
+        "Выдаліць"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Выдаліць ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Падпішыцеся на 15 месяцаў і атрымайце наш **менеджар пароляў з шыфраваннем** усяго за ${ priceNoSuffix } дадатковай платы ў месяц!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "Аб'ём сховішча: ${ storageSize }"
+      ],
+      "1 user": [
+        "1 карыстальнік"
+      ],
+      "3 TB": [
+        "3 ТБ"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Больш за 3000 сервераў у больш як 65 краінах"
+      ],
+      "6 users": [
+        "6 карыстальнікаў"
+      ],
+      "Ad-blocker and malware protection": [
+        "Блакіроўшчык рэкламы і абарона ад шкодных праграм"
+      ],
+      "Extended version history": [
+        "Пашыраная гісторыя версій"
+      ],
+      "Fast BitTorrent downloads": [
+        "Хуткія спампоўванні ў BitTorrent"
+      ],
+      "High speed streaming": [
+        "Высакахуткасныя трансляцыі"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Прэміяльны ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Прэміяльны ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Прэміяльны менеджар пароляў"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Скідкі разлічваюцца на падставе стандартнай платы за месяц."
+      ],
+      "Learn more about our Black Friday offers": [
+        "Даведайцеся больш пра прапанову \"Чорная пятніца\""
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Ваша падпіска будзе аўтаматычна падаўжацца са стандартнай скідкай і працягвацца ў канцы перыяду аплаты."
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Доступ да заблакіраванага змесціва і прыватны прагляд старонак у інтэрнэце. Уключаючы 3000 сервераў, якія ахопліваюць 65 краін, найвышэйшую хуткасць VPN, сэрвісы з трансляцыямі па ўсім свеце, блакіроўку шкодных праграм і рэкламы, хуткія спампоўванні ў BitTorrent, а таксама іншыя функцыі."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Атрымлівайце доступ да змесціва сэрвісаў з трансляцыямі, такіх як Netflix, Disney+, Prime Video з любой краіны ў свеце."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, ${ aliases } hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, ${ aliases } псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, vaults, integrated 2FA and more.": [
+        "Бяспечны ўваход на ўсіх прыладах. Уключаючы неабмежаваную колькасць псеўданімаў, абагульненняў, сховішчаў, інтэграцыю 2ФА і іншыя функцыі."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Абараніце свае лісты і расклад з дапамогай скразнога шыфравання. Уключае падтрымку карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў электроннай пошты hide-my-email, абагульванне календара, а таксама іншыя функцыі."
+      ],
+      "Secure your files, folders and photos with end-to-end and zero-access encryption. Includes version history, encrypted file sharing, and more.": [
+        "Абараніце свае файлы, папкі і фотаздымкі пры дапамозе скразнога шыфравання з нулявым доступам. Уключае гісторыю версій, абагульненне зашыфраваных файлаў, а таксама іншыя функцыі."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Адмыслова распрацаваная функцыя NetShield абароніць вашы прылады і паскорыць прагляд старонак, дзякуючы блакіраванню рэкламы, праграм сачэння і шкодных праграм."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Прастора сховішча размеркавана паміж усімі праграмамі ${ BRAND_NAME }"
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Захоўвайце да 200 версій кожнага файла да 10 гадоў."
+      ],
+      "Unlock peer-to-peer downloads and file sharing. Increase upload and download speeds and hide your IP address.": [
+        "Разблакіруйце аднарангавыя спампоўванні і абагульванне файлаў. Павялічце хуткасць запампоўвання або спампоўвання файлаў і схавайце свой IP-адрас ад іншых."
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } месяц",
+        "${ n } месяцы",
+        "${ n } месяцаў",
+        "${ n } месяцаў"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Калі"
       ]
     }
   }

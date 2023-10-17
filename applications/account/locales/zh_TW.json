@@ -294,7 +294,7 @@
         "刪除"
       ],
       "Delete and confirm": [
-        "同意刪除"
+        "刪除並確認"
       ],
       "Delete Gateway": [
         "刪除閘道器"
@@ -1054,6 +1054,15 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Don't know your password?": [
+        "不知您的密碼?"
+      ],
+      "Ok": [
+        "確定"
+      ],
+      "See how": [
+        "看看怎麼做"
       ]
     },
     "action": {
@@ -1891,6 +1900,15 @@
       ],
       "URL": [
         "網址"
+      ],
+      "Display name": [
+        "顯示名稱"
+      ],
+      "First name": [
+        "名"
+      ],
+      "Last name": [
+        "姓氏"
       ]
     },
     "Contact type label": {
@@ -3585,6 +3603,12 @@
       ],
       "Zero keys reactivated": [
         "重新啟動 0 把金鑰"
+      ],
+      "Could not save preference": [
+        "無法儲存偏好設定"
+      ],
+      "Incorrect username": [
+        "錯誤的使用者名稱"
       ]
     },
     "Error importing calendar": {
@@ -4349,6 +4373,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "您的雙重驗證金鑰已準備就緒。"
+      ],
+      "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
+        "允許您註冊內建安全金鑰（如 Windows Hello、Face ID、Touch ID 或內部 TPM）"
       ]
     },
     "fido2: Label": {
@@ -4603,6 +4630,9 @@
       ],
       "Update your logins": [
         "更新您的登入"
+      ],
+      "This feature is currently unavailable": [
+        "此功能暫未開放"
       ]
     },
     "Gmail forwarding": {
@@ -6185,7 +6215,7 @@
         "非有效的圖像網址"
       ],
       "Not yet available in our Android mobile app.": [
-        "尚未有可用的Android移動裝置的應用程式。"
+        "尚不支援 Android 應用程式。"
       ],
       "Not your device? Use a private browsing window to sign in and close it when done. ${ learnMore }": [
         "不是您的裝置？請使用隱私瀏覽視窗登入並在完成後關閉它。${ learnMore }"
@@ -6494,7 +6524,7 @@
         "設定您的組織"
       ],
       "Settings update failed": [
-        "更新設定失敗"
+        "設定更新失敗"
       ],
       "Settings updated": [
         "已更新設定"
@@ -7242,6 +7272,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "您的訂閱是由 Mozilla 管理。請聯絡 Mozilla 支援。"
+      ],
+      "Link expired": [
+        "連結已過期"
+      ],
+      "We just sent you a new link.": [
+        "我們剛傳送給您新的連結。"
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "您可以立刻解鎖上方的設定，只要在您的方案中新增 ${ specificCountryCount } 個 IP 地址，或聯絡我們以取得量身打造的解決方案。"
       ]
     },
     "info": {
@@ -7406,6 +7445,9 @@
       ],
       "Primary": [
         "主要"
+      ],
+      "Forwarding": [
+        "轉寄"
       ]
     },
     "Key type option": {
@@ -8546,6 +8588,15 @@
       ],
       "Your referral link": [
         "您的推薦連結"
+      ],
+      "Conversations per page": [
+        "每頁的對話"
+      ],
+      "Messages per page": [
+        "每頁訊息"
+      ],
+      "Verify keys with Key Transparency": [
+        "使用 Key Transparency 驗證金鑰"
       ]
     },
     "label": {
@@ -9582,6 +9633,15 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "保險櫃與項目分享（即將到來）"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } 計畫"
+      ],
+      "SMTP submission": [
+        "SMTP 傳送"
+      ],
+      "SMTP submission for select organizations": [
+        "選定組織的 SMTP 傳送"
       ]
     },
     "new_plans: feature info": {
@@ -9967,6 +10027,12 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "您可有多於一位管理員。所有管理員可新增並管理使用者，惟僅限主要管理員可控制繳款單管理。"
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "提供最高等級的帳號安全保護與專家支援"
+      ],
+      "SMTP allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME }.": [
+        "SMTP 允許第三方服務或裝置透過 ${ MAIL_APP_NAME } 傳送郵件。"
       ]
     },
     "new_plans: upgrade": {
@@ -9975,6 +10041,9 @@
       ],
       "Included with multiple users ${ BRAND_NAME } for Business plans.": [
         "包含於多位 ${ BRAND_NAME } 企業版方案。"
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "包含在 ${ BRAND_NAME } 商業版、${ familyPlanName } 與 ${ mailProPlanName }。"
       ]
     },
     "new_plans: Upsell attribute": {
@@ -10676,6 +10745,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "貴機構已可存取${ free }。若需使用進階版${ appName }功能，請洽詢組織管理員升級。"
+      ],
+      "${ appName } benefits": [
+        "${ appName } 福利"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11438,6 +11510,9 @@
     "State": {
       "Downgrading your account, please wait": [
         "正在降級您的帳號，請稍候"
+      ],
+      "Cancelling your subscription, please wait": [
+        "請稍後，正在取消您的訂閱"
       ]
     },
     "Step in filter modal": {
@@ -12402,7 +12477,7 @@
         "刪除使用者?"
       ],
       "Delete version history?": [
-        "刪除版本紀錄?"
+        "刪除版本歷史紀錄？"
       ],
       "Disable ${ email }": [
         "停用 ${ email }"
@@ -12997,6 +13072,18 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "您已獲邀試用 ${ MAIL_APP_NAME }"
+      ],
+      "Address and key verification": [
+        "地址與金鑰驗證"
+      ],
+      "Auto-reply and forward": [
+        "自動回覆並轉寄"
+      ],
+      "Forward emails": [
+        "轉寄電子郵件"
+      ],
+      "Password reset": [
+        "密碼重設"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13261,6 +13348,12 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "您的外部帳號可能已達其24小時頻寬限制。${ BRAND_NAME } 將會盡快重試匯入。"
+      ],
+      "This feature is only available on Beta": [
+        "此功能僅在測試版提供"
+      ],
+      "This key is used for email forwarding": [
+        "此金鑰用於轉寄電子郵件"
       ]
     },
     "tooltip": {
@@ -13753,6 +13846,304 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } months": [
+        "${ n }個月"
+      ]
+    },
+    "Calendar settings sidebar": {
+      "Show ${ remainingItems } more": [
+        "再顯示 ${ remainingItems } 個"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "若"
+      ]
+    },
+    "Label to  inform a feature is only available on Beta": {
+      "Beta": [
+        "測試版"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel password reset": [
+        "取消密碼重設"
+      ],
+      "Cancel reset": [
+        "取消重設"
+      ],
+      "Reset password": [
+        "重設密碼"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "帳號備援不適用於舊的地址金鑰"
+      ],
+      "Please generate keys before you try to change your password": [
+        "請在您試著改變您的密碼前生成金鑰"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } days": [
+        "${ timeRemaining.inDays }天"
+      ],
+      "${ timeRemaining.inHours } hours": [
+        "${ timeRemaining.inHours }小時"
+      ],
+      "Didn’t make this request?": [
+        "沒有提出這個請求嗎？"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "若您沒有請求重設密碼，請立刻取消請求。"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } days to reset your password.": [
+        "重設密碼請求已核准 (${ user.Email })。您可以在${ timeRemaining.inDays }天內重設您的密碼。"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hours to reset your password.": [
+        "重設密碼請求已核准 (${ user.Email })。您可以在${ timeRemaining.inHours }小時內重設您的密碼。"
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "請前往已登入的裝置（在發起請求的工作階段中）變更您的密碼。"
+      ],
+      "This permission expires in ${ timeRemaining.inDays } days": [
+        "此權限將在${ timeRemaining.inDays }天後過期"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hours": [
+        "此權限將在${ timeRemaining.inHours }小時後過期"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "現在您可以在${ boldDaysRemaining }內免費變更帳號 ${ boldEmail } 的密碼。"
+      ],
+      "You can now reset your password": [
+        "您現在可以重設密碼了。"
+      ],
+      "You can reset your password until ${ boldDate }.": [
+        "您可以在 ${ boldDate } 前重設密碼。"
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "看看怎麼做"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "密碼已儲存"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "重置您的密碼"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "取消密碼重設"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "輸入您目前的密碼以取消密碼重設流程。其他變更將不會生效。"
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "已取消密碼重設"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "取消密碼重設？"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "密碼重設請求已取消 (${ user.Email })。若您並未做出此請求，${ changePasswordLink }。"
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "立刻變更您的密碼"
+      ]
+    },
+    "session_recovery:disable:action": {
+      "Disable password reset": [
+        "停用密碼重設"
+      ]
+    },
+    "session_recovery:disable:info": {
+      "Make sure you have access to a recovery method.": [
+        "確保您有權存取備援方法。"
+      ],
+      "You will no longer be able to request a password reset from your account settings.": [
+        "您將無法再從帳號設定中要求重設密碼。"
+      ]
+    },
+    "session_recovery:disable:title": {
+      "Disable password reset?": [
+        "停用密碼重設？"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel password reset": [
+        "取消密碼重設"
+      ],
+      "Cancel request": [
+        "取消請求"
+      ],
+      "Got it": [
+        "瞭解"
+      ],
+      "Learn more": [
+        "了解更多"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hours": [
+        "還剩下${ gracePeriodHoursRemaining }小時"
+      ],
+      "Didn’t make this request?": [
+        "沒有提出這個請求嗎？"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "若您沒有請求重設密碼，請立刻取消請求。"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "若您沒有請求重設密碼，請立刻取消請求。"
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "密碼重設從 ${ boldDate } 開始可使用。這讓您有時間取消任何詐騙請求。"
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hours.": [
+        "已請求重設密碼 (${ user.Email })。您可以在${ hoursRemaining }小時後變更您的密碼。"
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "為了確保確實是您在嘗試重設密碼，我們會等待 72 小時才核准請求。您可以在 ${ boldTimeLeft } 後變更密碼。${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "我們收到了 ${ boldEmail } 的密碼重設請求。"
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hours": [
+        "您可以在${ gracePeriodHoursRemaining }小時內變更您的密碼"
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "檢視請求"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "請求重設密碼"
+      ]
+    },
+    "session_recovery:initiation:action": {
+      "Got it": [
+        "瞭解"
+      ],
+      "Request password reset": [
+        "請求重設密碼"
+      ],
+      "Use recovery method": [
+        "使用備援方法"
+      ]
+    },
+    "session_recovery:initiation:info": {
+      "For security reasons, you’ll have to wait **72 hours** before you can change your password.": [
+        "出於安全因素，您必須等待**72小時**才能變更密碼。"
+      ],
+      "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
+        "若您設定了**備援方法**，請嘗試帳號救援。這將讓您可以立刻變更密碼。"
+      ],
+      "We will contact you again when the password reset is available.": [
+        "當密碼重設可用時，我們會再次聯絡您。"
+      ],
+      "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
+        "您可以隨時在設定的 ${ accountAndPasswordSectionLink } 中檢查請求的狀態。"
+      ]
+    },
+    "session_recovery:initiation:link": {
+      "account and password section": [
+        "帳號與密碼小節"
+      ]
+    },
+    "session_recovery:initiation:notification": {
+      "Password reset confirmed": [
+        "已確認密碼重設"
+      ]
+    },
+    "session_recovery:initiation:title": {
+      "Request password reset?": [
+        "請求密碼重設？"
+      ],
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hours": [
+        "您將可以在${ gracePeriodHoursRemaining }小時內重設您的密碼"
+      ]
+    },
+    "session_recovery:settings:action": {
+      "Allow password reset from settings": [
+        "允許從設定重設密碼"
+      ],
+      "Request a password reset from your Account settings. No recovery method needed.": [
+        "從您的帳號設定請求密碼重設。不需要備援方法。"
+      ],
+      "Request password reset": [
+        "請求重設密碼"
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "若要停用密碼重設，您必須設定備援方法。"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "登出"
+      ],
+      "Stay signed in": [
+        "保存登錄"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hours": [
+        "${ gracePeriodHoursRemaining }小時"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } 現在可用。"
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "若您在重設密碼前登出，您可能會遺失對您帳號的存取權。"
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "若您並未重設密碼而登出，您可能會遺失對您帳號的存取權。"
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "您將可以在${ boldTimeLeft }重設您的密碼。"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "密碼重設"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "登出而不重設密碼？"
+      ]
+    },
+    "session_recovery:status:info": {
+      "Available": [
+        "可用"
+      ],
+      "Pending": [
+        "擱置中"
+      ]
+    },
+    "session_recovery:status:title": {
+      "Password reset request": [
+        "請求重設密碼"
       ]
     }
   }

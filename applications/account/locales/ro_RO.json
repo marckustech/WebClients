@@ -4420,6 +4420,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "Cheia de autentificare cu doi factori este pregătită de utilizare."
+      ],
+      "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
+        "Permite înregistrarea cheilor integrate (cum ar fi Windows Hello, Face ID, Touch ID sau TPM intern)."
       ]
     },
     "fido2: Label": {
@@ -9849,6 +9852,12 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Partajarea seifurilor și a datelor (în curând)"
+      ],
+      "SMTP submission": [
+        "Trimitere SMTP"
+      ],
+      "SMTP submission for select organizations": [
+        "Trimiteri SMTP pentru organizații selectate"
       ]
     },
     "new_plans: feature info": {
@@ -10238,6 +10247,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Puteți avea mai mulți administratori. Toți administratorii pot adăuga și gestiona utilizatorii, dar numai administratorul principal are control asupra facturării."
+      ],
+      "SMTP allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME }.": [
+        "SMTP permite serviciilor sau dispozitivelor terțe să trimită mesaje prin ${ MAIL_APP_NAME }."
       ]
     },
     "new_plans: upgrade": {
@@ -10246,6 +10258,9 @@
       ],
       "Included with multiple users ${ BRAND_NAME } for Business plans.": [
         "Inclus cu utilizatori multipli din planul ${ BRAND_NAME } for Business."
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "Inclus cu ${ BRAND_NAME } for Business, ${ familyPlanName } și ${ mailProPlanName }."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -10965,6 +10980,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Organizația are acces la ${ free }. Dacă doriți să accesați funcțiile premium ale ${ appName }, vă rugăm să solicitați administratorului organizației să modifice contul."
+      ],
+      "${ appName } benefits": [
+        "Beneficii ${ appName }"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11363,6 +11381,9 @@
       ],
       "Reset password": [
         "Resetare parolă"
+      ],
+      "Cancel password reset": [
+        "Anulare resetare parolă"
       ]
     },
     "session_recovery:available:error": {
@@ -11409,6 +11430,18 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Acum vă puteți schimba parola pentru contul ${ boldEmail } timp de ${ boldDaysRemaining }."
+      ],
+      "Didn’t make this request?": [
+        "Nu ați făcut această solicitare?"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "Dacă nu ați solicitat resetarea parolei, anulați solicitarea acum."
+      ],
+      "You can now reset your password": [
+        "Acum vă puteți reseta parola"
+      ],
+      "You can reset your password until ${ boldDate }.": [
+        "Vă puteți reseta parola până la ${ boldDate }."
       ]
     },
     "session_recovery:available:link": {
@@ -11465,6 +11498,9 @@
       ],
       "Learn more": [
         "Detalii"
+      ],
+      "Cancel password reset": [
+        "Anulare resetare parolă"
       ]
     },
     "session_recovery:in_progress:info": {
@@ -11486,6 +11522,20 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "S-a primit o solicitare de resetare a parolei pentru ${ boldEmail }."
+      ],
+      "Didn’t make this request?": [
+        "Nu ați făcut această solicitare?"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "Dacă nu ați solicitat resetarea parolei, anulați solicitarea acum."
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "Resetarea parolei este disponibilă din ${ boldDate }. Aceasta vă oferă timp să anulați orice solicitare frauduloasă."
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hour": [
+        "Vă puteți schimba parola peste ${ gracePeriodHoursRemaining } oră.",
+        "Vă puteți schimba parola peste ${ gracePeriodHoursRemaining } ore.",
+        "Vă puteți schimba parola peste ${ gracePeriodHoursRemaining } de ore."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -11501,6 +11551,15 @@
     "session_recovery:initiation:info": {
       "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
         "Puteți verifica starea solicitării oricând ${ accountAndPasswordSectionLink } din setări."
+      ],
+      "For security reasons, you’ll have to wait **72 hours** before you can change your password.": [
+        "Din motive de securitate, va trebui să așteptați **72 de ore** înainte de a vă putea modifica parola."
+      ],
+      "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
+        "Dacă aveți o **metodă de recuperare** activată, încercați opțiunea de recuperare a contului. Aceasta vă va permite să vă modificați parola imediat."
+      ],
+      "We will contact you again when the password reset is available.": [
+        "Veți primi o notificare când vă veți putea reseta parola."
       ]
     },
     "session_recovery:initiation:link": {
@@ -13545,6 +13604,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Ați fost invitat să încercați ${ MAIL_APP_NAME }"
+      ],
+      "Address and key verification": [
+        "Verificare adresă și cheie"
+      ],
+      "Password reset": [
+        "Resetare parolă"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13809,6 +13874,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Contul extern ar putea să fi atins limita lățimii de bandă pentru 24 de ore. ${ BRAND_NAME } va încerca să reia importarea cât mai curând posibil."
+      ],
+      "This feature is only available on Beta": [
+        "Această funcție este disponibilă doar în versiunea beta."
       ]
     },
     "tooltip": {
@@ -14379,6 +14447,82 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Label to  inform a feature is only available on Beta": {
+      "Beta": [
+        "Beta"
+      ]
+    },
+    "session_recovery:disable:action": {
+      "Disable password reset": [
+        "Dezactivare resetare parolă"
+      ]
+    },
+    "session_recovery:disable:info": {
+      "Make sure you have access to a recovery method.": [
+        "Asigurați-vă că aveți acces la o metodă de recuperare."
+      ],
+      "You will no longer be able to request a password reset from your account settings.": [
+        "Nu veți mai putea solicita o resetare a parolei din setările contului."
+      ]
+    },
+    "session_recovery:disable:title": {
+      "Disable password reset?": [
+        "Dezactivați resetarea parolei?"
+      ]
+    },
+    "session_recovery:initiation:action": {
+      "Got it": [
+        "Am înțeles"
+      ],
+      "Request password reset": [
+        "Solicitare resetare parolă"
+      ],
+      "Use recovery method": [
+        "Folosire metodă de recuperare"
+      ]
+    },
+    "session_recovery:initiation:notification": {
+      "Password reset confirmed": [
+        "Resetarea parolei confirmată"
+      ]
+    },
+    "session_recovery:initiation:title": {
+      "Request password reset?": [
+        "Solicitați resetarea parolei?"
+      ],
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
+        "Vă puteți reseta parola peste ${ gracePeriodHoursRemaining } oră.",
+        "Vă puteți reseta parola peste ${ gracePeriodHoursRemaining } ore.",
+        "Vă puteți reseta parola peste ${ gracePeriodHoursRemaining } de ore."
+      ]
+    },
+    "session_recovery:settings:action": {
+      "Allow password reset from settings": [
+        "Permitere resetare a parolei din setări"
+      ],
+      "Request a password reset from your Account settings. No recovery method needed.": [
+        "Solicitați o resetare a parolei din setările contului. Nu este necesară nici o metodă de recuperare."
+      ],
+      "Request password reset": [
+        "Solicitare resetare parolă"
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "Pentru a bloca resetarea parolei, trebuie să aveți o metodă de recuperare activată."
+      ]
+    },
+    "session_recovery:status:info": {
+      "Available": [
+        "Disponibilă"
+      ],
+      "Pending": [
+        "În așteptare"
+      ]
+    },
+    "session_recovery:status:title": {
+      "Password reset request": [
+        "Solicitare resetare parolă"
       ]
     }
   }

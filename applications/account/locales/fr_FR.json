@@ -40,7 +40,7 @@
         "Supprimer le transfert"
       ],
       "You will stop the mail forwarding.": [
-        "Vous arrêterez le transfert automatique de messages."
+        "Vous arrêterez le transfert automatique des messages."
       ]
     },
     "Action": {
@@ -81,7 +81,7 @@
         "Ajouter une condition"
       ],
       "Add credit / debit card": [
-        "Ajouter une carte de crédit/débit"
+        "Ajouter une carte de paiement"
       ],
       "Add credits": [
         "Ajouter des crédits"
@@ -5352,7 +5352,7 @@
         "(filtrer si UNE des conditions suivantes est remplie)"
       ],
       "* No credit card required.": [
-        "*Aucune carte bancaire n'est nécessaire"
+        "*Aucune carte de paiement n'est nécessaire."
       ],
       "**Get a ${ BRAND_NAME } address** to use all ${ BRAND_NAME_TWO } services including ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME }.": [
         "**Obtenez une adresse ${ BRAND_NAME }** pour utiliser tous les services ${ BRAND_NAME_TWO }, dont ${ MAIL_SHORT_APP_NAME } et ${ CALENDAR_SHORT_APP_NAME }."
@@ -6251,7 +6251,7 @@
         "Aucune adresse n'existe."
       ],
       "No credit card required": [
-        "Aucune carte bancaire nécessaire"
+        "Aucune carte de paiement n'est nécessaire."
       ],
       "No data recovery method set; you are at risk of losing access to your data": [
         "Aucune méthode de récupération des données n'est définie : le risque est de perdre l'accès à vos données."
@@ -6765,7 +6765,7 @@
         "Il s'agit du mot de passe que vous avez utilisé avant la réinitialisation du mot de passe."
       ],
       "This link leads to a website that might be trying to steal your information, such as passwords and credit card details.": [
-        "Ce lien mène à un site web qui pourrait essayer de voler vos informations, comme des mots de passe et des informations de carte bancaire."
+        "Ce lien mène à un site web qui pourrait essayer de voler vos informations, comme des mots de passe et des informations de carte de paiement."
       ],
       "This link may be a homograph attack and cannot be opened by the Edge browser. If you are certain the link is legitimate, please use a different browser to open it.": [
         "Ce lien pourrait être une attaque homographique et ne peut pas être ouvert avec le navigateur Edge. Si vous n'avez aucun doute sur la légitimité de ce lien, utilisez un autre navigateur pour l'ouvrir."
@@ -6954,7 +6954,7 @@
         "Changez d'abonnement pour ajouter une adresse plus courte @pm.me à votre compte, plus facile à partager (« pm » pour « ${ MAIL_APP_NAME } me » ou « Private Message me »)."
       ],
       "Upgrade to unlock": [
-        "Changez d'abonnement pour disposer de cette fonctionnalité."
+        "Changez d'abonnement pour débloquer de cette fonctionnalité."
       ],
       "Upload picture": [
         "Importer une image"
@@ -7238,10 +7238,10 @@
         "Vous devez désactiver ou supprimer vos autres utilisateurs ${ MAIL_APP_NAME }, adresses et domaines personnalisés avant de pouvoir passer à un abonnement inférieur."
       ],
       "You must have a credit card or bank account linked with your PayPal account in order to add it as a payment method.": [
-        "Pour pouvoir ajouter PayPal comme méthode de paiement, vous devez associer une carte de crédit ou un compte bancaire à votre compte PayPal."
+        "Pour pouvoir ajouter PayPal comme méthode de paiement, vous devez associer une carte de paiement ou un compte bancaire à votre compte PayPal."
       ],
       "You must have a credit card or bank account linked with your PayPal account. If your PayPal account doesn't have that, please click on the button below.": [
-        "Vous devez avoir une carte de crédit ou un compte bancaire lié à votre compte PayPal. Si ce n'est pas le cas, cliquez sur le lien ci-dessous."
+        "Vous devez avoir une carte de paiement ou un compte bancaire lié à votre compte PayPal. Si ce n'est pas le cas, cliquez sur le lien ci-dessous."
       ],
       "You need to have an active personal calendar to import your events from ICS.": [
         "Pour importer vos événements à partir d'un fichier ICS, vous devez avoir un calendrier personnel actif."
@@ -7363,6 +7363,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "Copy the link to clipboard": [
+        "Copier le lien dans le presse-papiers"
+      ],
+      "Link expired": [
+        "Le lien a expiré."
+      ],
+      "We just sent you a new link.": [
+        "Nous venons de vous envoyer un nouveau lien."
       ]
     },
     "info": {
@@ -7527,6 +7536,9 @@
       ],
       "Primary": [
         "Principale"
+      ],
+      "Forwarding": [
+        "Transfert"
       ]
     },
     "Key type option": {
@@ -7935,7 +7947,7 @@
         "Calendriers"
       ],
       "Card details": [
-        "Informations de carte bancaire"
+        "Informations de carte"
       ],
       "Card holder": [
         "Titulaire de la carte"
@@ -8910,7 +8922,7 @@
         "Payer la facture"
       ],
       "Paypal without credit card": [
-        "PayPal sans carte de crédit"
+        "PayPal sans carte de paiement"
       ],
       "Privacy policy": [
         "Politique de confidentialité"
@@ -9100,7 +9112,7 @@
         "Vous avez oublié votre nom d'utilisateur pour votre compte ${ BRAND_NAME } ? Retrouvez-le en utilisant votre e-mail ou votre numéro de téléphone de récupération et accédez de nouveau à ${ MAIL_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } et aux autres services Proton."
       ],
       "Private and secure email, no credit card required": [
-        "Messagerie privée et sécurisée, aucune carte bancaire n'est nécessaire"
+        "Messagerie privée et sécurisée, aucune carte de paiement n'est nécessaire"
       ],
       "Reset your ${ BRAND_NAME } Account password": [
         "Réinitialisez le mot de passe de votre compte ${ BRAND_NAME }"
@@ -9512,7 +9524,7 @@
         "Réponse automatique"
       ],
       "Autofill credit cards (coming soon)": [
-        "Remplissage automatique pour les cartes bancaires (prochainement)"
+        "Remplissage automatique pour les cartes de paiement (prochainement)"
       ],
       "Available on all platforms": [
         "Disponible sur toutes les plateformes"
@@ -9756,6 +9768,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Partage de coffres-forts et d'éléments (prochainement)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "Programme ${ PROTON_SENTINEL_NAME }"
       ]
     },
     "new_plans: feature info": {
@@ -10037,7 +10052,7 @@
         "Sécurisez les ressources de votre entreprise sur internet et rendez-les accessibles uniquement par le biais de vos passerelles privées."
       ],
       "Manage your subscription, including customization of your plan. Payment methods accepted are credit card, PayPal, cryptocurrency, and wire transfer.": [
-        "Gérez votre abonnement, notamment sa personnalisation. Les moyens de paiement acceptés sont les cartes de crédit, PayPal, les cryptomonnaies et les virements bancaires."
+        "Gérez votre abonnement, notamment sa personnalisation. Les moyens de paiement acceptés sont les cartes de paiement, PayPal, les cryptomonnaies et les virements bancaires."
       ],
       "On business days, receive support from the ${ BRAND_NAME } Customer Support team within 24 hours of requests": [
         "Les jours ouvrés, l'équipe support client ${ BRAND_NAME } vous apporte son aide dans les 24 heures suivant votre demande."
@@ -10106,7 +10121,7 @@
         "Partagez vos fichiers ou dossiers avec qui vous voulez grâce à des liens sécurisés et partageables."
       ],
       "SMTP allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME }.": [
-        "Le protocole SMTP permet à des services ou des appareils tiers d'envoyer des messages en utilisant ${ MAIL_APP_NAME }."
+        "Le SMTP permet à des services ou des appareils tiers d'envoyer des messages en utilisant ${ MAIL_APP_NAME }."
       ],
       "Specially designed NetShield protects your device and speeds up your browsing by blocking ads, trackers, and malware": [
         "NetShield est une fonctionnalité spécialement conçue pour protéger votre appareil et accélérer votre navigation en bloquant les publicités, traqueurs et logiciels malveillants."
@@ -10146,6 +10161,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Vous pouvez avoir plusieurs administrateurs. Tous les administrateurs peuvent ajouter et gérer les utilisateurs, mais seul l'administrateur principal contrôle la facturation."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Assure le plus haut niveau de protection et une assistance spécialisée en matière de sécurité des comptes."
       ]
     },
     "new_plans: upgrade": {
@@ -10255,6 +10273,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "L'authentification à deux facteurs (A2F) n'est plus obligatoire."
+      ],
+      "Link copied to clipboard": [
+        "Le lien est copié dans le presse-papiers."
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10896,10 +10917,10 @@
     },
     "Payment method option": {
       "Credit/debit card": [
-        "Carte de crédit/débit"
+        "Carte de paiement"
       ],
       "New credit/debit card": [
-        "Nouvelle carte de crédit/débit"
+        "Nouvelle carte de paiement"
       ]
     },
     "Personal calendar section description": {
@@ -12412,7 +12433,7 @@
     },
     "summer2023: Tooltip": {
       "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
-        "Créez des identifiants de connexion sécurisés sur tous vos appareils. Profitez d'un nombre illimité d'alias, de 20 coffres-forts, de l'authentification à deux facteurs (2FA) intégrée, du remplissage automatique des cartes bancaires et de bien d'autres fonctionnalités."
+        "Créez des identifiants de connexion sécurisés sur tous vos appareils. Profitez d'un nombre illimité d'alias, de 20 coffres-forts, de l'authentification à deux facteurs (2FA) intégrée, du remplissage automatique des cartes de paiement et de bien d'autres fonctionnalités."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
         "Cela comprend 2 950 serveurs répartis dans plus de 65 pays, la possibilité de connecter jusqu'à 10 appareils, l'accès aux services de streaming du monde entier, un bloqueur de logiciels malveillants et de publicités et bien d'autres fonctionnalités."
@@ -12634,7 +12655,7 @@
         "Ajouter le nom du groupe de contacts"
       ],
       "Add credit/debit card": [
-        "Ajouter une carte de crédit/débit"
+        "Ajouter une carte de paiement"
       ],
       "Add credits": [
         "Ajouter des crédits"
@@ -12945,7 +12966,7 @@
         "Télécharger ${ VPN_APP_NAME }"
       ],
       "Edit credit/debit card": [
-        "Modifier la carte de crédit/débit"
+        "Modifier la carte de paiement"
       ],
       "Edit display name": [
         "Modifier le nom d’affichage"
@@ -13523,6 +13544,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Vous avez été invité à essayer ${ MAIL_APP_NAME }."
+      ],
+      "Auto-reply and forward": [
+        "Réponse automatique et transfert"
+      ],
+      "Forward emails": [
+        "Transfert automatique des messages"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13790,6 +13817,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Votre compte externe a peut-être atteint sa limite de bande passante pour 24 heures. ${ BRAND_NAME } tentera de reprendre l'importation dès que possible."
+      ],
+      "This key is used for email forwarding": [
+        "Cette clé est utilisée pour le transfert automatique des messages."
       ]
     },
     "tooltip": {
@@ -14321,6 +14351,285 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } mois",
+        "${ n } mois"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Si"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Accepter"
+      ],
+      "Add condition": [
+        "Ajouter une condition"
+      ],
+      "Add forwarding rule": [
+        "Ajouter une règle de transfert"
+      ],
+      "Back": [
+        "Précédent"
+      ],
+      "Cancel": [
+        "Annuler"
+      ],
+      "Decline": [
+        "Refuser"
+      ],
+      "Delete": [
+        "Supprimer"
+      ],
+      "Delete this condition": [
+        "Supprimer cette condition"
+      ],
+      "Edit conditions": [
+        "Modifier les conditions"
+      ],
+      "Next": [
+        "Suivant"
+      ],
+      "Pause": [
+        "Suspendre"
+      ],
+      "Re-enable": [
+        "Réactiver"
+      ],
+      "Re-send confirmation email": [
+        "Renvoyer l'e-mail de confirmation"
+      ],
+      "Remove “${ value }”": [
+        "Supprimer « ${ value } »"
+      ],
+      "Request confirmation": [
+        "Demander confirmation"
+      ],
+      "Resume": [
+        "Reprendre"
+      ],
+      "Save": [
+        "Enregistrer"
+      ],
+      "Send confirmation email": [
+        "Envoyer un e-mail de confirmation"
+      ],
+      "Set up email forwarding": [
+        "Configurer le transfert automatique des messages"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Profitez du transfert automatique des messages, qui facilite la gestion des informations entrantes, et d'autres fonctionnalités premium en changeant d'abonnement."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "La condition n'est pas remplie, ajoutez un jeton."
+      ],
+      "Token already exists": [
+        "Le jeton existe déjà."
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Réessayez d'ouvrir le lien."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "Les messages qui vous sont transférés sont exclus et ne seront pas transférés."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Actions"
+      ],
+      "From": [
+        "De"
+      ],
+      "Status": [
+        "Statut"
+      ],
+      "To": [
+        "À"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "De moi"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Un message de confirmation sera envoyé à ${ boldForwardeeEmail }."
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Une nouvelle clé de chiffrement sera générée pour ${ boldForwarderEmail }."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Le destinataire est invité et doit accepter/refuser l'invitation ou la mise à jour."
+      ],
+      "Forwarding is active": [
+        "Le transfert est actif."
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Le transfert vers les adresses ${ BRAND_NAME } maintiendra votre communication chiffrée de bout en bout. En cas de transfert à des adresses autres que Proton Mail, le chiffrement pourrait être supprimé."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Le transfert vers une adresse sans chiffrement de bout en bout nécessite de désactiver le chiffrement de bout en bout pour votre adresse e-mail ${ boldForwarderEmail }. "
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Le transfert vers cette adresse sera opérationnel dès que le destinataire aura accepté le transfert."
+      ],
+      "No incoming forwarding rules": [
+        "Aucune règle de transfert entrant"
+      ],
+      "No outgoing forwarding rules": [
+        "Aucune règle de transfert sortant"
+      ],
+      "Please update your forwarding keys": [
+        "Mettez à jour vos clés de transfert."
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Le destinataire a refusé la demande de transfert."
+      ],
+      "The forwarding is temporarily paused": [
+        "Le transfert est temporairement suspendu."
+      ],
+      "You can safely close this tab.": [
+        "Vous pouvez fermer cet onglet en toute sécurité."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Vous ne recevrez pas les messages transférés automatiquement depuis ${ boldForwarderEmail }."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Et"
+      ],
+      "Forward from": [
+        "Transférer depuis"
+      ],
+      "Forward to": [
+        "Transférer vers"
+      ],
+      "or": [
+        "ou"
+      ],
+      "Or": [
+        "Ou"
+      ],
+      "With attachment": [
+        "Avec pièce jointe"
+      ],
+      "Without attachment": [
+        "Sans pièce jointe"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "En savoir plus"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Pour moi"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Condition :"
+      ],
+      "Enter email address": [
+        "Saisissez l'adresse e-mail"
+      ],
+      "Type text or keyword": [
+        "Saisissez un texte ou un mot-clé"
+      ],
+      "Type text or keyword for this condition:": [
+        "Saisissez un texte ou un mot-clé pour cette condition :"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Le transfert vers l'adresse de destination sera arrêté."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Actif"
+      ],
+      "Declined": [
+        "Refusé"
+      ],
+      "Outdated": [
+        "Obsolète"
+      ],
+      "Paused": [
+        "Suspendu"
+      ],
+      "Pending": [
+        "En attente"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "Une nouvelle clé de chiffrement a été générée pour ${ forwarderEmail }."
+      ],
+      "Changes saved": [
+        "Les modifications ont été enregistrées."
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "Le message a été envoyé à ${ forward.ForwardeeEmail }."
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "Le message a été envoyé à ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Le transfert a été accepté."
+      ],
+      "Forwarding declined": [
+        "Le transfert a été refusé."
+      ],
+      "Forwarding deleted": [
+        "Le transfert a été supprimé."
+      ],
+      "Forwarding paused": [
+        "Le transfert a été suspendu."
+      ],
+      "Forwarding resumed": [
+        "Le transfert a été relancé."
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Transférer automatiquement les messages vers d'autres comptes"
+      ],
+      "Delete forwarding?": [
+        "Supprimer le transfert ?"
+      ],
+      "Email forwarding deactivated": [
+        "Transfert désactivé"
+      ],
+      "Forwarding activated": [
+        "Transfert activé"
+      ],
+      "Request confirmation": [
+        "Confirmation de la demande"
+      ],
+      "Set up forwarding": [
+        "Configuration du transfert"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Attention"
       ]
     }
   }

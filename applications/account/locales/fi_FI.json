@@ -6605,10 +6605,10 @@
         "Määritetään organisaatiotasi"
       ],
       "Settings update failed": [
-        "Asetusten tallennus epäonnistui"
+        "Asetusten päivittäminen epäonnistui"
       ],
       "Settings updated": [
-        "Asetukset tallennettiin"
+        "Asetukset päivitetty"
       ],
       "Show original message": [
         "Näytä alkuperäinen viesti"
@@ -6798,7 +6798,7 @@
         "Tämä lopettaa nykyisen tilauksen ja menetät kaikki kertyneet uskollisuusedut. Jäljellä oleva tilausaika palautetaan tilillesi krediitteinä."
       ],
       "This will delete all previous versions of your files older than ${ rententionLabel }.": [
-        "Tämä poistaa kaikki tiedostojesi aiemmat ${ rententionLabel } vanhemmat versiot."
+        "Tämä poistaa kaikki aiemmat versiot tiedostoistasi, jotka ovat vanhempia kuin ${ rententionLabel }."
       ],
       "This will delete all previous versions of your files.": [
         "Tämä poistaa tiedostojesi kaikki aiemmat versiot."
@@ -7372,6 +7372,15 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Tilauksesi uudistuu automaattisesti ${ renewalTime }."
+      ],
+      "Link expired": [
+        "Linkki vanhentunut"
+      ],
+      "We just sent you a new link.": [
+        "Lähetimme sinulle juuri uuden linkin."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Voit avata yllä olevan määrityksen heti lisäämällä ${ specificCountryCount } tilauksesi IP-osoitteiden määrään tai ottamalla meihin yhteyttä räätälöityjä ratkaisuja varten."
       ]
     },
     "info": {
@@ -7536,6 +7545,9 @@
       ],
       "Primary": [
         "Ensisijainen"
+      ],
+      "Forwarding": [
+        "Välitys"
       ]
     },
     "Key type option": {
@@ -9765,6 +9777,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Holvin ja kohteiden jako (tulossa pian)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } -ohjelma"
       ]
     },
     "new_plans: feature info": {
@@ -10155,6 +10170,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Sinulla voi olla useita ylläpitäjiä. Kaikki ylläpitäjät voivat lisätä ja poistaa käyttäjiä, mutta vain ensisijainen ylläpitäjä voi hallita laskutusta."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Tarjoaa korkeimman tason tilin suojauksen ja asiantuntijatuen"
       ]
     },
     "new_plans: upgrade": {
@@ -13532,6 +13550,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Sinut on kutsuttu kokeilemaan ${ MAIL_APP_NAME }ia"
+      ],
+      "Auto-reply and forward": [
+        "Automaattivastaa ja välitä"
+      ],
+      "Forward emails": [
+        "Välitä sähköpostit"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13799,6 +13823,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Ulkoinen tililisi on saattanut saavuttaa sille asetetun 24-tunnin tiedonsiirtorajoituksen. ${ BRAND_NAME } pyrkii jatkamaan tuontia mahdollisimman pian."
+      ],
+      "This key is used for email forwarding": [
+        "Tätä avainta käytetään sähköpostien välitykseen"
       ]
     },
     "tooltip": {
@@ -14330,6 +14357,279 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Jos"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Hyväksy"
+      ],
+      "Add condition": [
+        "Lisää ehto"
+      ],
+      "Add forwarding rule": [
+        "Lisää ohjaussääntö"
+      ],
+      "Back": [
+        "Takaisin"
+      ],
+      "Cancel": [
+        "Peruuta"
+      ],
+      "Decline": [
+        "Kieltäydy"
+      ],
+      "Delete": [
+        "Poista"
+      ],
+      "Delete this condition": [
+        "Poista ehto"
+      ],
+      "Edit conditions": [
+        "Muokkaa ehtoja"
+      ],
+      "Next": [
+        "Seuraava"
+      ],
+      "Pause": [
+        "Keskeytä"
+      ],
+      "Re-enable": [
+        "Ota käyttöön uudelleen"
+      ],
+      "Re-send confirmation email": [
+        "Lähetä vahvistusviesti uudelleen"
+      ],
+      "Remove “${ value }”": [
+        "Poista \"${ value }\""
+      ],
+      "Request confirmation": [
+        "Pyydä vahvistus"
+      ],
+      "Resume": [
+        "Jatka"
+      ],
+      "Save": [
+        "Tallenna"
+      ],
+      "Send confirmation email": [
+        "Lähetä vahvistusviesti"
+      ],
+      "Set up email forwarding": [
+        "Määritä sähköpostin ohjaus"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Avaa sähköpostin ohjaus parempaan saapuvien tietojen hallintaan sekä muita premium-ominaisuuksia päivittämällä tilauksesi."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Ehto on keskeneräinen. Lisää tunniste."
+      ],
+      "Token already exists": [
+        "Tunniste on jo olemassa"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Yritä avata linkki uudelleen."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "Sinulle osoitetut viestit ohitetaan eikä niitä ohjata."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Toiminnot"
+      ],
+      "From": [
+        "Osoitteesta"
+      ],
+      "Status": [
+        "Tila"
+      ],
+      "To": [
+        "Osoitteeseen"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Minulta"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Osoitteeseen ${ boldForwardeeEmail } lähetetään vahvistusviesti"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Osoitteelle ${ boldForwarderEmail } luodaan uusi salausavain."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Ohjauksen vastaanottaja on kutsuttu ja hänen on hyväksyttävä/hylättävä kutsu tai päivitettävä"
+      ],
+      "Forwarding is active": [
+        "Ohjaus on käytössä"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Ohjaus ${ BRAND_NAME }-osoitteisiin pitää viestintäsi päästä päähän -salattuna. Ulkoisiin palveluihin ohjattaessa salaus täytyy mahdollisesti poistaa."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Ohjaus päästä päähän -salaamattomaan osoitteeseen vaatii salauksen käytöstä poiston ohjaavalta ${ boldForwarderEmail }-osoitteeltasi."
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Ohjaus tähän osoitteeseen alkaa, kun vastaanottaja hyväksyy ohjauksen."
+      ],
+      "No incoming forwarding rules": [
+        "Saapuvien ohjaussääntöjä ei ole"
+      ],
+      "No outgoing forwarding rules": [
+        "Lähtevien ohjaussääntöjä ei ole"
+      ],
+      "Please update your forwarding keys": [
+        "Päivitä ohjausavaimesi"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Ohjauksen vastaanottaja hylkäsi ohjauspyynnön."
+      ],
+      "The forwarding is temporarily paused": [
+        "Ohjaus on tilapäisesti keskeytetty"
+      ],
+      "You can safely close this tab.": [
+        "Voit sulkea välilehden turvallisesti"
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Et vastaanota osoitteesta ${ boldForwarderEmail } ohjattuja viestejä automaattisesti."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Ja"
+      ],
+      "Forward from": [
+        "Ohjattu osoitteesta"
+      ],
+      "Forward to": [
+        "Ohjattu osoitteeseen"
+      ],
+      "or": [
+        "tai"
+      ],
+      "Or": [
+        "Tai"
+      ],
+      "With attachment": [
+        "Sisällytä liitteet"
+      ],
+      "Without attachment": [
+        "Älä sisällytä liitteitä"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Lue lisää"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Minulle"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Ehto:"
+      ],
+      "Enter email address": [
+        "Syötä sähköpostiosoite"
+      ],
+      "Type text or keyword": [
+        "Syötä teksti tai avainsana"
+      ],
+      "Type text or keyword for this condition:": [
+        "Syötä ehdon teksti tai avainsana:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Ohjaus kohdeosoitteeseen päättyy."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Käytössä"
+      ],
+      "Declined": [
+        "Hylätty"
+      ],
+      "Outdated": [
+        "Vanhentunut"
+      ],
+      "Paused": [
+        "Keskeytetty"
+      ],
+      "Pending": [
+        "Odottaa"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "Osoitteelle ${ forwarderEmail } luotiin uusi salausavain."
+      ],
+      "Changes saved": [
+        "Muutokset tallennettiin"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "Viesti lähetettiin osoitteeseen ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "Viesti lähetettiin osoitteeseen ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Ohjaus hyväksyttiin"
+      ],
+      "Forwarding declined": [
+        "Ohjaus hylättiin"
+      ],
+      "Forwarding deleted": [
+        "Ohjaus poistettiin"
+      ],
+      "Forwarding paused": [
+        "Ohjaus keskeytettiin"
+      ],
+      "Forwarding resumed": [
+        "Ohjausta jatkettiin"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Ohjaa viestit automaattisesti muille tileille"
+      ],
+      "Delete forwarding?": [
+        "Poistetaanko ohjaus?"
+      ],
+      "Email forwarding deactivated": [
+        "Ohjaus ei ole käytössä"
+      ],
+      "Forwarding activated": [
+        "Ohjaus on käytössä"
+      ],
+      "Request confirmation": [
+        "Pyydä vahvistus"
+      ],
+      "Set up forwarding": [
+        "Määritä ohjaus"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Varoitus"
       ]
     }
   }

@@ -9980,7 +9980,7 @@
         "Tal como uma pasta, um cofre e é uma forma prática de organizar os seus itens. A partilha de cofres com amigos e familiares está a ser preparada."
       ],
       "Lock down your company resources from the public internet and make them accessible only via your private gateways": [
-        "Bloqueie os seus recursos de empresa da internet pública e torne-os acessíveis apenas através dos seus gateways privados"
+        "Bloqueie os recursos da sua empresa da Internet pública e torne-os acessíveis apenas através dos seus gateways privados"
       ],
       "Manage your subscription, including customization of your plan. Payment methods accepted are credit card, PayPal, cryptocurrency, and wire transfer.": [
         "Gere a sua subscrição, incluindo a personalização do seu plano. Os métodos de pagamento aceites são cartão de crédito, PayPal, criptomoeda e transferência bancária."
@@ -9989,7 +9989,7 @@
         "Nos dias úteis, a equipa de apoio ao cliente de ${ BRAND_NAME } irá ajudá-lo no prazo de 24 horas após o seu pedido."
       ],
       "One VPN connection allows one device to connect to ${ BRAND_NAME } VPN at any given time. For instance, to connect a phone and a laptop to ${ BRAND_NAME_TWO } VPN at the same time, you need two VPN connections.": [
-        "Uma ligação VPN permite que um dispositivo se ligue a ${ BRAND_NAME } VPN ea qualquer momento. Por exemplo, para ligar um telefone e um computador portátil à ${ BRAND_NAME_TWO } VPN ao mesmo tempo, são necessárias duas ligações VPN."
+        "Uma ligação VPN permite que um dispositivo se ligue a ${ BRAND_NAME } VPN em qualquer altura. Por exemplo, para ligar um telemóvel e um computador portátil à ${ BRAND_NAME_TWO } VPN ao mesmo tempo, são necessárias duas ligações VPN."
       ],
       "Option to view non-private user inboxes as the user would, including full message and contact details": [
         "Opção para ver as caixas de entrada de utilizadores não privados como o utilizador faria, incluindo todas as mensagens e detalhes de contacto"
@@ -10070,13 +10070,13 @@
         "Suporte para protocolos de partilha de ficheiros, como o BitTorrent"
       ],
       "Unique, on-the-fly email addresses that protect your online identity and let you control what lands in your inbox. From SimpleLogin by ${ BRAND_NAME }.": [
-        "Endereços de e-mail únicos e a pedido que protegem a sua identidade em linha e lhe dão um maior controlo sobre as mensagens que chegam à sua caixa de entrada. SimpleLogin por ${ BRAND_NAME }."
+        "Endereços de e-mail únicos e instantâneos que protegem a sua identidade online e permitem-lhe controlar o que aparece na sua caixa de entrada. Do SimpleLogin por ${ BRAND_NAME }."
       ],
       "Use your own custom email domain addresses, e.g., you@yourname.com": [
         "Utilize os seus próprios endereços de domínio de e-mail personalizado. Por exemplo: você@oseunome.pt"
       ],
       "We keep no session usage logs of what you do online, and we do not log metadata that can compromise your privacy": [
-        "Não mantemos registos de utilização de sessões do que faz em linha e não registamos metadados que possam comprometer a sua privacidade."
+        "Não mantemos registos de utilização de sessões do que faz online e não registamos metadados que possam comprometer a sua privacidade."
       ],
       "We’re committed to helping customers subject to HIPAA/HITECH regulations safeguard protected health information (PHI). Signed BAAs are available for all ${ BRAND_NAME } for Business customers.": [
         "Estamos empenhados em ajudar os clientes sujeitos aos regulamentos HIPAA/HITECH a salvaguardar as informações de saúde protegidas (PHI). Estão disponíveis BAAs assinados para todos os clientes ${ BRAND_NAME } para empresas."
@@ -10153,7 +10153,7 @@
         "Gateways privados"
       ],
       "Require 2FA": [
-        "Requerer 2FA"
+        "Requer A2F"
       ]
     },
     "Notification": {
@@ -11209,15 +11209,15 @@
     },
     "session_recovery:disable:info": {
       "Make sure you have access to a recovery method.": [
-        "Verifique se você possui acesso a um método de recuperação."
+        "Certifique-se de que tem acesso a um método de recuperação."
       ],
       "You will no longer be able to request a password reset from your account settings.": [
-        "Você não poderá mais solicitar uma restabelecer de senha nas configurações da sua conta."
+        "Deixará de poder solicitar uma reposição da palavra-passe nas definições da sua conta."
       ]
     },
     "session_recovery:disable:title": {
       "Disable password reset?": [
-        "Desativar redefinição de senha?"
+        "Desativar a reposição da palavra-passe?"
       ]
     },
     "session_recovery:in_progress:info": {

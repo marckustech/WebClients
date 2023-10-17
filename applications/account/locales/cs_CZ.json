@@ -4413,7 +4413,7 @@
         "Povolit klíče platformy"
       ],
       "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
-        "Umožňuje registrovat integrované bezpečnostní klíče (např. Windows Hello, Face ID, Touch ID nebo interní TPM)."
+        "Umožňuje registrovat vestavěné bezpečnostní klíče (například Windows Hello, Face ID, Touch ID nebo interní TPM)."
       ],
       "Are you sure you want to delete security key ${ name }?": [
         "Opravdu chcete odstranit bezpečnostní klíč ${ name }?"
@@ -6730,7 +6730,7 @@
         "Nastavení vaší organizace"
       ],
       "Settings update failed": [
-        "Aktualizace nastavení se nezdařila"
+        "Aktualizace nastavení selhala"
       ],
       "Settings updated": [
         "Nastavení aktualizováno"
@@ -7517,6 +7517,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "Link expired": [
+        "Odkaz vypršel"
+      ],
+      "We just sent you a new link.": [
+        "Právě jsme vám poslali nový odkaz."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Výše uvedené nastavení můžete okamžitě odemknout přidáním ${ specificCountryCount } k počtu IP adres ve vašem tarifu nebo nás kontaktujte pro řešení na míru."
       ]
     },
     "info": {
@@ -7681,6 +7690,9 @@
       ],
       "Primary": [
         "Primární"
+      ],
+      "Forwarding": [
+        "Přeposílání"
       ]
     },
     "Key type option": {
@@ -9897,10 +9909,10 @@
         "Přihlasit se jako uživatel"
       ],
       "SMTP submission": [
-        "Odesílání SMTP"
+        "SMTP odesílání"
       ],
       "SMTP submission for select organizations": [
-        "Odesílání SMTP pro vybrané organizace"
+        "SMTP odesílání pro vybrané organizace"
       ],
       "Split tunneling (Android and Windows)": [
         "Split Tunneling (Android a Windows)"
@@ -9976,6 +9988,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Sdílení trezoru a položek (již brzy)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "Program ${ PROTON_SENTINEL_NAME }"
       ]
     },
     "new_plans: feature info": {
@@ -10370,11 +10385,14 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Můžete mít více než jednoho správce. Všichni správci mohou přidávat a spravovat uživatele ale jen hlavní správce může spravovat platby."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "Poskytuje nejvyšší úroveň zabezpečení účtu a odbornou podporu"
       ]
     },
     "new_plans: upgrade": {
       "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
-        "Včetně ${ BRAND_NAME } for Business, ${ familyPlanName } a ${ mailProPlanName }."
+        "Dostupné v rámci ${ BRAND_NAME } for Business, ${ familyPlanName } a ${ mailProPlanName }."
       ],
       "Included with ${ plus }, ${ bundle }, and ${ BRAND_NAME } for Business.": [
         "Dostupné v rámci ${ plus }, ${ bundle }, a ${ BRAND_NAME } pro Firmy."
@@ -11538,10 +11556,10 @@
         "${ timeRemaining.inHours } hodin"
       ],
       "Didn’t make this request?": [
-        "Nepodal jste tuto žádost?"
+        "Toto není vaše žádost?"
       ],
       "If you didn’t ask to reset your password, cancel the request now.": [
-        "Pokud jste o obnovení hesla nepožádali, žádost nyní zrušte."
+        "Pokud jste o resetování hesla nepožádali, žádost nyní zrušte."
       ],
       "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
         "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inDays } den.",
@@ -11635,7 +11653,7 @@
         "Ujistěte se, že máte přístup k metodě obnovení."
       ],
       "You will no longer be able to request a password reset from your account settings.": [
-        "V nastavení účtu již nebude možné požádat o obnovení hesla."
+        "V nastavení účtu již nebude možné požádat o resetování hesla."
       ]
     },
     "session_recovery:disable:title": {
@@ -11665,16 +11683,16 @@
         "Zbývá ${ gracePeriodHoursRemaining } hodin"
       ],
       "Didn’t make this request?": [
-        "Nepodal jste tuto žádost?"
+        "Toto není vaše žádost?"
       ],
       "If you didn’t ask to reset your password, cancel the request now.": [
-        "Pokud jste o obnovení hesla nepožádali, žádost nyní zrušte."
+        "Pokud jste o resetování hesla nepožádali, žádost nyní zrušte."
       ],
       "If you didn’t ask to reset your password, cancel this request now.": [
         "Pokud jste o obnovení hesla nepožádali, ihned zrušte tento požadavek."
       ],
       "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
-        "Obnovení hesla je k dispozici od ${ boldDate }. To vám dává čas na zrušení případných podvodných žádostí."
+        "Resetování hesla je k dispozici od ${ boldDate }. Díky tomu máte čas na zrušení případných podvodných žádostí."
       ],
       "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
         "Požadavek na obnovení hesla (${ user.Email }). Heslo můžete změnit za ${ hoursRemaining } hodinu.",
@@ -11727,12 +11745,12 @@
         "Až bude resetování hesla k dispozici, budeme vás znovu kontaktovat."
       ],
       "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
-        "Stav žádosti můžete kdykoli zkontrolovat v části ${ accountAndPasswordSectionLink } nastavení."
+        "Stav žádosti můžete kdykoli zkontrolovat v ${ accountAndPasswordSectionLink } v nastavení."
       ]
     },
     "session_recovery:initiation:link": {
       "account and password section": [
-        "sekce účtu a hesla"
+        "sekci účtu a hesla"
       ]
     },
     "session_recovery:initiation:notification": {
@@ -11753,16 +11771,16 @@
     },
     "session_recovery:settings:action": {
       "Allow password reset from settings": [
-        "Povolit obnovení hesla z nastavení"
+        "Povolit resetování hesla z Nastavení"
       ],
       "Request a password reset from your Account settings. No recovery method needed.": [
-        "V nastavení účtu si vyžádejte obnovení hesla. Obnovení hesla není nutné."
+        "O resetování hesla můžete požádat v nastavení účtu. Není potřeba žádná metoda obnovení."
       ],
       "Request password reset": [
         "Požádat o resetování hesla"
       ],
       "To disallow password reset, you must have a recovery method set up.": [
-        "Chcete-li zakázat obnovení hesla, musíte mít nastavenou metodu obnovení."
+        "Chcete-li zakázat resetování hesla, musíte mít nastavenou metodu obnovení."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -11808,7 +11826,7 @@
         "K dispozici"
       ],
       "Pending": [
-        "Čekající"
+        "Čeká na vyřízení"
       ]
     },
     "session_recovery:status:title": {
@@ -13855,6 +13873,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Byli jste pozváni k vyzkoušení ${ MAIL_APP_NAME }"
+      ],
+      "Auto-reply and forward": [
+        "Automatická odpověď a přeposlání"
+      ],
+      "Forward emails": [
+        "Přeposlat e-maily"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14122,6 +14146,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Váš externí účet možná dosáhl 24-hodinového omezení datového přenosu. ${ BRAND_NAME } se pokusí pokračovat v importu co nejdříve."
+      ],
+      "This key is used for email forwarding": [
+        "Tento klíč se používá k přeposílání e-mailů"
       ]
     },
     "tooltip": {
@@ -14136,7 +14163,7 @@
     },
     "Tooltip default pgp scheme": {
       "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
-        "Vyberte výchozí nastavení PGP používané pro podepisování nebo šifrování zpráv s jinými než ${ BRAND_NAME } PGP uživateli. Všimněte si, že Inline PGP vynucuje zasílání zpráv v prostém textu."
+        "Vyberte výchozí nastavení PGP používané pro podepisování nebo šifrování zpráv s uživateli, kteří nepoužívají ${ BRAND_NAME } PGP. Všimněte si, že Inline PGP vynucuje zasílání zpráv ve formě prostého textu."
       ]
     },
     "Tooltip prompt to trust keys": {
@@ -14731,6 +14758,19 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } měsíc",
+        "${ n } měsíce",
+        "${ n } měsíců",
+        "${ n } měsíců"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Pokud"
       ]
     }
   }

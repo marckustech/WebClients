@@ -4055,6 +4055,15 @@
       ],
       "Up to 6 users": [
         "Até 6 usuários"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
       ]
     },
     "familyOffer_2023:Error": {
@@ -7363,6 +7372,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Sua assinatura é gerenciada pela Mozilla. Entre em contato com o suporte da Mozilla."
+      ],
+      "Link expired": [
+        "Link expirado"
       ]
     },
     "info": {
@@ -7527,6 +7539,9 @@
       ],
       "Primary": [
         "Primária"
+      ],
+      "Forwarding": [
+        "Encaminhamento"
       ]
     },
     "Key type option": {
@@ -8166,7 +8181,7 @@
         "Notificações do evento"
       ],
       "Exclude Spam/Trash from All mail": [
-        "Excluir Spam/Lixeira do All Mail"
+        "Excluir Spam/Lixeira de Todos os e-mails"
       ],
       "Expiration (${ patternExpiration })": [
         "Expiração (${ patternExpiration })"
@@ -8677,6 +8692,12 @@
       ],
       "Your referral link": [
         "Seu link de referência"
+      ],
+      "New plan": [
+        "Novo plano"
+      ],
+      "Verify keys with Key Transparency": [
+        "Verifique as chaves com transparência de chave"
       ]
     },
     "label": {
@@ -9750,6 +9771,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Cofre e compartilhamento de itens (em breve)"
+      ],
+      "Ad-blocker and malware protection": [
+        "Bloqueio de anuncios e proteção contra malware"
       ]
     },
     "new_plans: feature info": {
@@ -10867,6 +10891,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Sua organização tem acesso a ${ free }. Se você deseja acesso a recursos premium do ${ appName }, solicite a atualização ao administrador da sua organização."
+      ],
+      "per month": [
+        "por mês"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11364,6 +11391,10 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Recebemos a solicitação de redefinição de senha para ${ boldEmail }."
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hour": [
+        "Pode alterar sua senha em ${ gracePeriodHoursRemaining } hora.",
+        "Pode alterar sua senha em ${ gracePeriodHoursRemaining } horas."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -11400,6 +11431,10 @@
     "session_recovery:initiation:title": {
       "Request password reset?": [
         "Solicitar redefinição de senha?"
+      ],
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
+        "Pode redefinir sua senha em ${ gracePeriodHoursRemaining } hora.",
+        "Pode redefinir sua senha em ${ gracePeriodHoursRemaining } horas."
       ]
     },
     "session_recovery:settings:action": {
@@ -11669,6 +11704,18 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "1 user": [
+        "1 usuário"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
       ]
     },
     "specialoffer: Footer": {
@@ -11764,6 +11811,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Preço padrão ${ amount } por 30 meses"
+      ],
+      "${ n } month": [
+        "${ n } mês",
+        "${ n } meses"
+      ],
+      "15 months": [
+        "15 meses"
+      ],
+      "30 months": [
+        "30 meses"
       ]
     },
     "specialoffer: Title": {
@@ -12304,6 +12361,12 @@
       ],
       "Premium Password Manager": [
         "Gerenciador de senhas premium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -14232,6 +14295,306 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Adicionar ${ PASS_APP_NAME }"
+      ],
+      "Get the deal": [
+        "Obtenha a oferta"
+      ],
+      "Remove": [
+        "Remover"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Remover ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } de armazenamento"
+      ],
+      "1 user": [
+        "1 usuário"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 usuários"
+      ],
+      "Ad-blocker and malware protection": [
+        "Bloqueio de anuncios e proteção contra malware"
+      ],
+      "Extended version history": [
+        "Histórico de versões estendido"
+      ],
+      "Fast BitTorrent downloads": [
+        "Downloads rápidos de BitTorrent"
+      ],
+      "High speed streaming": [
+        "Streaming em alta velocidade"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
+      ],
+      "Premium Password Manager": [
+        "Gerenciador de senhas premium"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Acesse conteúdo em serviços de streaming, inclusive Netflix, Disney+, Prime Video e muito mais de qualquer lugar."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Especialmente projetado, o NetShield protege seus dispositivos e acelera sua navegação ao bloquear anúncios, rastreadores e malware."
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } mês",
+        "${ n } meses"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Se"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Aceitar"
+      ],
+      "Add condition": [
+        "Adicionar condição"
+      ],
+      "Add forwarding rule": [
+        "Adicionar regra de encaminhamento"
+      ],
+      "Back": [
+        "Voltar"
+      ],
+      "Cancel": [
+        "Cancelar"
+      ],
+      "Decline": [
+        "Negar"
+      ],
+      "Delete": [
+        "Excluir"
+      ],
+      "Delete this condition": [
+        "Exluir esta condição"
+      ],
+      "Edit conditions": [
+        "Editar condições"
+      ],
+      "Next": [
+        "Próximo"
+      ],
+      "Pause": [
+        "Pausar"
+      ],
+      "Re-enable": [
+        "Reativar"
+      ],
+      "Re-send confirmation email": [
+        "Reenviar e-mail de confirmação"
+      ],
+      "Remove “${ value }”": [
+        "Remover “${ value }”"
+      ],
+      "Request confirmation": [
+        "Solicitar confirmação"
+      ],
+      "Resume": [
+        "Retomar"
+      ],
+      "Save": [
+        "Salvar"
+      ],
+      "Send confirmation email": [
+        "Enviar e-mail de confirmação"
+      ],
+      "Set up email forwarding": [
+        "Configurar encaminhamento de e-mail"
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Condição incompleta, adicione um token"
+      ],
+      "Token already exists": [
+        "Token já existente"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Tente abrir o link novamente."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Ações"
+      ],
+      "From": [
+        "De"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "To": [
+        "Para"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "De mim"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Um e-mail de confirmação será enviado para ${ boldForwardeeEmail }"
+      ],
+      "Forwarding is active": [
+        "Encaminhamento está ativo"
+      ],
+      "No incoming forwarding rules": [
+        "Nenhuma regra de encaminhamento de entrada."
+      ],
+      "No outgoing forwarding rules": [
+        "Nenhuma regra de encaminhamento de saída."
+      ],
+      "Please update your forwarding keys": [
+        "Atualize suas chaves de encaminhamento."
+      ],
+      "The forwardee rejected the forwarding request": [
+        "O destinatário rejeitou a solicitação de encaminhamento."
+      ],
+      "The forwarding is temporarily paused": [
+        "O encaminhamento está temporariamente pausado."
+      ],
+      "You can safely close this tab.": [
+        "Você pode fechar esta guia com segurança."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "E"
+      ],
+      "Forward from": [
+        "Encaminhar de"
+      ],
+      "Forward to": [
+        "Encaminhar para"
+      ],
+      "or": [
+        "ou"
+      ],
+      "Or": [
+        "Ou"
+      ],
+      "With attachment": [
+        "Com anexo"
+      ],
+      "Without attachment": [
+        "Sem anexo"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Saiba mais"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Pra mim"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Condição:"
+      ],
+      "Enter email address": [
+        "Digite o endereço de e-mail"
+      ],
+      "Type text or keyword": [
+        "Digite o texto ou a palavra-chave"
+      ],
+      "Type text or keyword for this condition:": [
+        "Digite o texto ou palavra-chave para esta condição."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Ativo"
+      ],
+      "Declined": [
+        "Negou"
+      ],
+      "Outdated": [
+        "Desatualizado"
+      ],
+      "Paused": [
+        "Em pausa"
+      ],
+      "Pending": [
+        "Pendente"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "Changes saved": [
+        "Alterações salvas"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "E-mail enviado para ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "E-mail enviado para ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Encaminhamento aceitado"
+      ],
+      "Forwarding declined": [
+        "Encaminhamento negado"
+      ],
+      "Forwarding deleted": [
+        "Encaminhamento excluído"
+      ],
+      "Forwarding paused": [
+        "Encaminhamento pausado"
+      ],
+      "Forwarding resumed": [
+        "Encaminhamento retomado"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Delete forwarding?": [
+        "Excluir encaminhamento?"
+      ],
+      "Email forwarding deactivated": [
+        "Encaminhamento de e-mail desativado"
+      ],
+      "Forwarding activated": [
+        "Encaminhamento ativado"
+      ],
+      "Request confirmation": [
+        "Solicitar confirmação"
+      ],
+      "Set up forwarding": [
+        "Configurar encaminhamento"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Alerta"
       ]
     }
   }

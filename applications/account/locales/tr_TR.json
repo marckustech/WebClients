@@ -6957,7 +6957,7 @@
         "Hesabınızı paylaşması daha kolay ve daha kısa @pm.me adresi ile kullanmak için tarifenizi yükseltin. İngilizce olarak \"${ MAIL_APP_NAME } ben\" ya da \"Bana özel ileti\" anlamına gelir."
       ],
       "Upgrade to unlock": [
-        "Kilidi açmak için yükseltin"
+        "Kullanmak için tarifenizi yükseltin"
       ],
       "Upload picture": [
         "Görsel yükle"
@@ -7366,6 +7366,15 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Aboneliğiniz ${ renewalTime } tarihinde otomatik olarak yenilenecektir."
+      ],
+      "Link expired": [
+        "Bağlantının süresi doldu"
+      ],
+      "We just sent you a new link.": [
+        "Size yeni bir bağlantı gönderdik."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Tarifenizdeki IP adreslerini sayıya ${ specificCountryCount } ekleyerek ya da size özel çözümler için bize ulaşarak yukarıdaki kurulumu kullanmaya başlayabilirsiniz."
       ]
     },
     "info": {
@@ -7530,6 +7539,9 @@
       ],
       "Primary": [
         "Birincil"
+      ],
+      "Forwarding": [
+        "İletme"
       ]
     },
     "Key type option": {
@@ -9759,6 +9771,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Kasa ve öge paylaşımı (yakında)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } programı"
       ]
     },
     "new_plans: feature info": {
@@ -10149,6 +10164,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Birden fazla yöneticiniz olabilir. Tüm yöneticiler kullanıcıları ekleyebilir ve yönetebilir. Ancak yalnızca birincil yönetici faturalandırma işlemlerini yönetebilir."
+      ],
+      "Provides the highest level of account security protection and specialist support": [
+        "En yüksek düzeyde hesap güvenliği koruması ve uzman desteği sağlar"
       ]
     },
     "new_plans: upgrade": {
@@ -13526,6 +13544,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } uygulamasını denemeye davet edildiniz"
+      ],
+      "Auto-reply and forward": [
+        "Otomatik yanıtla ve ilet"
+      ],
+      "Forward emails": [
+        "E-postaları ilet"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13793,6 +13817,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Dış hesabınız 24 saatlik bant genişliği sınırına ulaşmış olabilir. ${ BRAND_NAME }, olabilecek en kısa sürede içe aktarma işlemini sürdürmeye çalışacak."
+      ],
+      "This key is used for email forwarding": [
+        "Bu anahtar, e-posta iletimi için kullanılır"
       ]
     },
     "tooltip": {
@@ -14324,6 +14351,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Eğer"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Kabul et"
       ]
     }
   }

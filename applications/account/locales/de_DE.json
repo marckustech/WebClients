@@ -4405,6 +4405,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "Dein Zwei-Faktor-Authentifizierungsschlüssel ist jetzt einsatzbereit."
+      ],
+      "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
+        "Ermöglicht die Registrierung integrierter Sicherheitsschlüssel (wie Windows Hello, Face ID, Touch ID oder interne TPM)"
       ]
     },
     "fido2: Label": {
@@ -6599,7 +6602,7 @@
         "Deine Organisation wird eingerichtet"
       ],
       "Settings update failed": [
-        "Aktualisieren der Einstellungen fehlgeschlagen."
+        "Fehler beim Aktualisieren der Einstellungen."
       ],
       "Settings updated": [
         "Einstellungen aktualisiert"
@@ -7366,6 +7369,15 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Dein Abonnement wird am ${ renewalTime } automatisch verlängert."
+      ],
+      "Copy the link to clipboard": [
+        "Link in die Zwischenablage kopieren"
+      ],
+      "Link expired": [
+        "Link abgelaufen"
+      ],
+      "We just sent you a new link.": [
+        "Wir haben dir gerade einen neuen Link gesendet."
       ]
     },
     "info": {
@@ -7530,6 +7542,9 @@
       ],
       "Primary": [
         "Haupt"
+      ],
+      "Forwarding": [
+        "Weiterleitung"
       ]
     },
     "Key type option": {
@@ -9759,6 +9774,9 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Teilen von Tresoren und Einträgen (Demnächst verfügbar)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME }-Programm"
       ]
     },
     "new_plans: feature info": {
@@ -10157,6 +10175,9 @@
       ],
       "Included with multiple users ${ BRAND_NAME } for Business plans.": [
         "Enthalten in allen ${ BRAND_NAME } for Business-Abonnements."
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "Enthalten in ${ BRAND_NAME } für Business, ${ familyPlanName } und ${ mailProPlanName }."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -10255,6 +10276,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Die Zwei-Faktor-Authentifizierung ist nicht mehr erforderlich."
+      ],
+      "Link copied to clipboard": [
+        "Link in die Zwischenablage kopiert"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10867,6 +10891,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Deine Organisation hat Zugang zu ${ free }. Wenn du auf die Premiumfunktionen von ${ appName } zugreifen möchtest, bitte den Administrator deiner Organisation um ein Upgrade."
+      ],
+      "${ appName } benefits": [
+        "${ appName }-Vorteile"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11272,6 +11299,9 @@
     "session_recovery:available:error": {
       "Please generate keys before you try to change your password": [
         "Bitte generiere Schlüssel, bevor du versuchst dein Passwort zu ändern."
+      ],
+      "Account recovery not available for legacy address keys": [
+        "Kontowiederherstellung für ältere Adressschlüssel ist nicht verfügbar"
       ]
     },
     "session_recovery:available:info": {
@@ -11307,6 +11337,15 @@
       ],
       "You can now reset your password": [
         "Du kannst dein Passwort jetzt zurücksetzen."
+      ],
+      "Didn’t make this request?": [
+        "Du hast diese Anfrage nicht gestellt?"
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "Wenn du nicht darum gebeten hast, dein Passwort zurückzusetzen, breche die Anfrage jetzt ab."
+      ],
+      "You can reset your password until ${ boldDate }.": [
+        "Du kannst dein Passwort bis zum ${ boldDate } zurücksetzen."
       ]
     },
     "session_recovery:available:link": {
@@ -11351,7 +11390,7 @@
     },
     "session_recovery:cancelled:link": {
       "change your password now": [
-        "Passwort jetzt ändern"
+        "ändere jetzt dein Passwort"
       ]
     },
     "session_recovery:disable:action": {
@@ -11402,6 +11441,12 @@
       "You can change your password in ${ gracePeriodHoursRemaining } hour": [
         "In ${ gracePeriodHoursRemaining } Stunde kannst du dein Passwort ändern.",
         "In ${ gracePeriodHoursRemaining } Stunden kannst du dein Passwort ändern."
+      ],
+      "Didn’t make this request?": [
+        "Du hast diese Anfrage nicht gestellt?"
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "Passwortzurücksetzung verfügbar ab dem ${ boldDate }. Dies gibt dir Zeit, alle betrügerischen Anfragen zu abzubrechen."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -11420,11 +11465,23 @@
       ],
       "Use recovery method": [
         "Wiederherstellungsmethode verwenden"
+      ],
+      "Request password reset": [
+        "Passwortzurücksetzung anfordern"
       ]
     },
     "session_recovery:initiation:info": {
       "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
         "Du kannst den Status deiner Anfrage jederzeit in der ${ accountAndPasswordSectionLink } in den Einstellungen überprüfen."
+      ],
+      "For security reasons, you’ll have to wait **72 hours** before you can change your password.": [
+        "Aus Sicherheitsgründen musst du **72 Stunden** warten, bevor du dein Passwort ändern kannst."
+      ],
+      "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
+        "Wenn du eine **Wiederherstellungsmethode** eingerichtet hast, versuche stattdessen die Kontowiederherstellung. Damit kannst du dein Passwort sofort ändern."
+      ],
+      "We will contact you again when the password reset is available.": [
+        "Wir werden dich kontaktieren, sobald die Passwortzurücksetzung verfügbar ist."
       ]
     },
     "session_recovery:initiation:link": {
@@ -11441,6 +11498,9 @@
       "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
         "In ${ gracePeriodHoursRemaining } Stunde kannst du dein Passwort zurücksetzen.",
         "In ${ gracePeriodHoursRemaining } Stunden kannst du dein Passwort zurücksetzen."
+      ],
+      "Request password reset?": [
+        "Passwortzurücksetzung anfordern?"
       ]
     },
     "session_recovery:sign_out:action": {
@@ -11463,7 +11523,7 @@
         "Wenn du dich abmeldest, bevor du dein Passwort zurücksetzt, kannst du den Zugang zu deinem Konto verlieren."
       ],
       "If you sign out without resetting your password, you could lose access to your account.": [
-        "Wenn du dich abmeldest, bevor du dein Passwort zurücksetzt, kannst du den Zugang zu deinem Konto verlieren."
+        "Wenn du dich abmeldest, ohne dass du dein Passwort zurücksetzt, kannst du den Zugang zu deinem Konto verlieren."
       ],
       "You will be able to reset your password in ${ boldTimeLeft }.": [
         "Du kannst dein Passwort in ${ boldTimeLeft } zurücksetzen."
@@ -11471,7 +11531,7 @@
     },
     "session_recovery:sign_out:link": {
       "Password reset": [
-        "Passwort zurückgesetzt"
+        "Passwort zurücksetzen"
       ]
     },
     "session_recovery:sign_out:title": {
@@ -11795,6 +11855,10 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardpreis: ${ amount } für 30 Monate"
+      ],
+      "${ n } month": [
+        "${ n } Monat",
+        "${ n } Monate"
       ]
     },
     "specialoffer: Title": {
@@ -13457,6 +13521,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du wurdest eingeladen, ${ MAIL_APP_NAME } zu testen."
+      ],
+      "Address and key verification": [
+        "Adress- und Schlüsselverifizierung"
+      ],
+      "Auto-reply and forward": [
+        "Automatisch antworten und weiterleiten"
+      ],
+      "Forward emails": [
+        "E-Mails weiterleiten"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13724,6 +13797,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Dein externes Konto könnte sein 24-Stunden-Bandbreitenlimit erreicht haben. ${ BRAND_NAME } wird versuchen, den Import so bald wie möglich fortzusetzen."
+      ],
+      "This key is used for email forwarding": [
+        "Dieser Schlüssel wird zur E-Mail-Weiterleitung verwendet."
       ]
     },
     "tooltip": {
@@ -14255,6 +14331,370 @@
       ],
       "Yearly, ${ untilString }": [
         "Jährlich, ${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } Speicherplatz"
+      ],
+      "1 user": [
+        "1 Benutzer"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Mehr als 3.000 Server verteilt über 65 Länder"
+      ],
+      "6 users": [
+        "6 Benutzer"
+      ],
+      "Ad-blocker and malware protection": [
+        "Werbeblocker & Malware-Schutz"
+      ],
+      "Extended version history": [
+        "Erweiterter Versionsverlauf"
+      ],
+      "Fast BitTorrent downloads": [
+        "Schnelle BitTorrent-Downloads"
+      ],
+      "High speed streaming": [
+        "Hochgeschwindigkeits-Steaming"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium-${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium-${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium-${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium Passwort-Manager"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Greife auf blockierte Inhalte zu und surfe privat. Enthält über 3.000 Server verteilt über 65 Länder, höchste VPN-Geschwindigkeiten, weltweite Streaming-Dienste, Malware- und Werbeblocker, schnelle BitTorrent-Downloads und mehr."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Greife von überall aus auf Inhalte von Streaming-Diensten zu, darunter Netflix, Disney+, Prime Video und andere."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, ${ aliases } hide-my-email aliases, calendar sharing, and more.": [
+        "Beinhaltet Unterstützung für ${ domains } eigene E-Mail-Domains, ${ addresses } E-Mail-Adressen, ${ aliases } hide-my-email-Aliasse, Kalenderfreigabe und mehr."
+      ],
+      "Includes support for ${ domains } custom email domain, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Beinhaltet Unterstützung für ${ domains } eigene E-Mail-Domains, ${ addresses } E-Mail-Adressen, unbegrenzte hide-my-email-Aliasse, Kalenderfreigabe und mehr."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, vaults, integrated 2FA and more.": [
+        "Sichere Anmeldungen auf all deinen Geräten. Mit unbegrenzten Aliassen, Freigaben, Tresoren, integrierter 2FA und mehr."
+      ],
+      "Secure your files, folders and photos with end-to-end and zero-access encryption. Includes version history, encrypted file sharing, and more.": [
+        "Sichere deine Dateien, Ordner und Fotos mit Ende-zu-Ende- und Zero-Access-Verschlüsselung. Enthält Versionsverläufe, verschlüsselte Dateifreigaben und mehr."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Das speziell entwickelte NetShield schützt deine Geräte und beschleunigt das Surfen durch das Blockieren von Werbung, Trackern und Malware."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Der Speicherplatz wird von allen ${ BRAND_NAME }-Apps gemeinsam genutzt."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Speichere bis zu 200 Versionen jeder Datei für bis zu 10 Jahre."
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Wenn"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Annehmen"
+      ],
+      "Add condition": [
+        "Bedingung hinzufügen"
+      ],
+      "Add forwarding rule": [
+        "Weiterleitungsregel hinzufügen"
+      ],
+      "Back": [
+        "Zurück"
+      ],
+      "Cancel": [
+        "Abbrechen"
+      ],
+      "Decline": [
+        "Ablehnen"
+      ],
+      "Delete": [
+        "Löschen"
+      ],
+      "Delete this condition": [
+        "Diese Bedingung löschen"
+      ],
+      "Edit conditions": [
+        "Bedingungen bearbeiten"
+      ],
+      "Next": [
+        "Weiter"
+      ],
+      "Pause": [
+        "Pausieren"
+      ],
+      "Re-enable": [
+        "Wieder aktivieren"
+      ],
+      "Re-send confirmation email": [
+        "Bestätigungs-E-Mail erneut senden"
+      ],
+      "Remove “${ value }”": [
+        "\"${ value }\" entfernen"
+      ],
+      "Request confirmation": [
+        "Bestätigung anfordern"
+      ],
+      "Resume": [
+        "Fortsetzen"
+      ],
+      "Save": [
+        "Speichern"
+      ],
+      "Send confirmation email": [
+        "Bestätigungs-E-Mail senden"
+      ],
+      "Set up email forwarding": [
+        "E-Mail-Weiterleitung einrichten"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Schalte die E-Mail-Weiterleitung für die einfache Verwaltung eingehender Informationen und weitere Premium-Funktionen frei, wenn du upgradest."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Bedingung unvollständig, bitte füge einen Token hinzu."
+      ],
+      "Token already exists": [
+        "Token existiert bereits"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Bitte versuche erneut, den Link zu öffnen."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "E-Mails, die an dich weitergeleitet wurden, sind davon ausgeschlossen und werden nicht weitergeleitet."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Aktionen"
+      ],
+      "From": [
+        "Von"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "To": [
+        "An"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Von mir"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Eine Bestätigungs-E-Mail wird an ${ boldForwardeeEmail } gesendet."
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Ein neuer Verschlüsselungsschlüssel wird für ${ boldForwarderEmail } generiert."
+      ],
+      "Forwarding is active": [
+        "Weiterleitung ist aktiv"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Bei der Weiterleitung an ${ BRAND_NAME }-Adressen bleibt deine Kommunikation Ende-zu-Ende-verschlüsselt. Bei der Weiterleitung an externe Adressen muss die Verschlüsselung möglicherweise entfernt werden."
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Die Weiterleitung an diese Adresse wird aktiviert, sobald der Empfänger sie akzeptiert."
+      ],
+      "No incoming forwarding rules": [
+        "Keine eingehenden Weiterleitungsregeln"
+      ],
+      "No outgoing forwarding rules": [
+        "Keine ausgehenden Weiterleitungsregeln"
+      ],
+      "Please update your forwarding keys": [
+        "Bitte aktualisiere deine Weiterleitungsschlüssel"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Der Empfänger hat die Weiterleitungsanfrage abgelehnt."
+      ],
+      "The forwarding is temporarily paused": [
+        "Die Weiterleitung ist vorübergehend pausiert."
+      ],
+      "You can safely close this tab.": [
+        "Du kannst diesen Tab bedenkenlos schließen."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Du wirst keine E-Mails erhalten, die automatisch von ${ boldForwarderEmail } weitergeleitet wurden."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Und"
+      ],
+      "Forward from": [
+        "Weitergeleitet von"
+      ],
+      "Forward to": [
+        "Weiterleiten an"
+      ],
+      "or": [
+        "oder"
+      ],
+      "Or": [
+        "Oder"
+      ],
+      "With attachment": [
+        "Mit Anhang"
+      ],
+      "Without attachment": [
+        "Ohne Anhang"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Mehr erfahren"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "An mich"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Bedingung:"
+      ],
+      "Enter email address": [
+        "E‐Mail‐Adresse eingeben"
+      ],
+      "Type text or keyword": [
+        "Text oder Schlüsselwort eingeben"
+      ],
+      "Type text or keyword for this condition:": [
+        "Gib einen Text oder ein Schlüsselwort für diese Bedingung ein:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Die Weiterleitung an die Zieladresse wird beendet."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Aktiv"
+      ],
+      "Declined": [
+        "Abgelehnt"
+      ],
+      "Outdated": [
+        "Veraltet"
+      ],
+      "Paused": [
+        "Pausiert"
+      ],
+      "Pending": [
+        "Ausstehend"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "Ein neuer Verschlüsselungsschlüssel wurde für ${ forwarderEmail } generiert."
+      ],
+      "Changes saved": [
+        "Änderungen gespeichert"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "E-Mail gesendet an ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "E-Mail gesendet an ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Weiterleitung akzeptiert"
+      ],
+      "Forwarding declined": [
+        "Weiterleitung abgelehnt"
+      ],
+      "Forwarding deleted": [
+        "Weiterleitung gelöscht"
+      ],
+      "Forwarding paused": [
+        "Weiterleitung pausiert"
+      ],
+      "Forwarding resumed": [
+        "Weiterleitung fortgesetzt"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Leite E-Mails automatisch an andere Konten weiter."
+      ],
+      "Delete forwarding?": [
+        "Weiterleitung löschen?"
+      ],
+      "Email forwarding deactivated": [
+        "Weiterleitung deaktiviert"
+      ],
+      "Forwarding activated": [
+        "Weiterleitung aktiviert"
+      ],
+      "Request confirmation": [
+        "Bestätigung anfordern"
+      ],
+      "Set up forwarding": [
+        "Weiterleitung einrichten"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Warnung"
+      ]
+    },
+    "session_recovery:disable:info": {
+      "Make sure you have access to a recovery method.": [
+        "Stellen Sie sicher, dass Sie Zugriff auf eine Wiederherstellungsmethode haben."
+      ],
+      "You will no longer be able to request a password reset from your account settings.": [
+        "Sie werden in Ihren Kontoeinstellungen nicht mehr die Möglichkeit haben, ein neues Passwort anzufordern."
+      ]
+    },
+    "session_recovery:settings:action": {
+      "Allow password reset from settings": [
+        "Erlauben Sie das Zurücksetzen des Passworts über die Einstellungen"
+      ],
+      "Request a password reset from your Account settings. No recovery method needed.": [
+        "Beantragen Sie die Zurücksetzung Ihres Passworts über Ihre Kontoeinstellungen. Keine Wiederherstellungsmethode erforderlich."
+      ],
+      "Request password reset": [
+        "Passwortzurücksetzung anfordern"
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "Um das Zurücksetzen des Passworts zu verbieten, müssen Sie eine Wiederherstellungsmethode einrichten."
+      ]
+    },
+    "session_recovery:status:title": {
+      "Password reset request": [
+        "Anfrage zur Passwortzurücksetzung"
       ]
     }
   }

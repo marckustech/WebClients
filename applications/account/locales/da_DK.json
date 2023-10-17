@@ -1128,6 +1128,21 @@
       ],
       "Set as default": [
         "Angiv som standard"
+      ],
+      "Disable E2EE mail": [
+        "Deaktivér E2EE-mail"
+      ],
+      "Disallow unsigned mail": [
+        "Tillad ikke usigneret mail"
+      ],
+      "Edit": [
+        "Redigér"
+      ],
+      "Edit address": [
+        "Redigér adresse"
+      ],
+      "Enable E2EE mail": [
+        "Aktivér E2EE-mail"
       ]
     },
     "Address status": {
@@ -1148,6 +1163,12 @@
       ],
       "Orphan": [
         "Forældreløs"
+      ],
+      "Allow unsigned mail": [
+        "Tillad usigneret mail"
+      ],
+      "No E2EE mail": [
+        "Ingen E2EE-mail"
       ]
     },
     "Alert": {
@@ -5006,7 +5027,7 @@
         "${ discountPercentage } for evigt"
       ],
       "${ DRIVE_APP_NAME } will no longer keep previous versions of your files.": [
-        "${ DRIVE_APP_NAME } vil ikke gemme tidligere versioner af dine filer længere."
+        "${ DRIVE_APP_NAME } vil ikke længere gemme tidligere versioner af dine filer."
       ],
       "${ emailAddress } is invalid": [
         "${ emailAddress } er ugyldig"
@@ -6715,7 +6736,7 @@
         "Opgradér for at tilføje en kortere @pm.me-adresse til din konto, som er nemmere at dele. Det står for \"${ MAIL_APP_NAME } me\" eller \"Private Message me\"."
       ],
       "Upgrade to unlock": [
-        "Opgradér for at låse op"
+        "Opgrader for at låse op"
       ],
       "Upload picture": [
         "Upload billede"
@@ -7121,6 +7142,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dit abonnement håndteres af Mozilla. Kontakt venligst Mozilla-support."
+      ],
+      "Copy the link to clipboard": [
+        "Kopiér linket til udklipsholder"
+      ],
+      "Link expired": [
+        "Link udløbet"
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "Du kan straks låse op for ovenstående opsætning ved at tilføje ${ specificCountryCount } til antallet af IP-adresser i dit abonnement eller kontakte os for skræddersyede løsninger."
       ]
     },
     "info": {
@@ -8432,6 +8462,9 @@
       ],
       "Your referral link": [
         "Dit henvisningslink"
+      ],
+      "Verify keys with Key Transparency": [
+        "Bekræft nøgler med Key Transparency"
       ]
     },
     "label": {
@@ -9560,6 +9593,12 @@
       ],
       "You’re enjoying a promotional price on your current plan. If you downgrade your account, you will lose your promotional price and it won’t be available if you try to subscribe again.": [
         "Du drager fordel af en kampagnepris for dit nuværende abonnement. Hvis du nedgraderer din konto, mister du din kampagnepris og den vil ikke være tilgængelig hvis du forsøger at abonnere igen."
+      ],
+      "For next-level password management and identity protection.": [
+        "For avanceret adgangskodehåndtering og identitetsbeskyttelse."
+      ],
+      "Set automatic replies to inform senders you are out of the office or unable to respond.": [
+        "Brug automatiske svar til at informere afsendere om, at du ikke er på kontoret eller på anden måde ikke er i stand til at svare."
       ]
     },
     "new_plans: Info": {
@@ -9813,6 +9852,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "To-faktor-godkendelseskode er ikke længere påkrævet."
+      ],
+      "Link copied to clipboard": [
+        "Link kopieret til udklipsholder"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10916,6 +10958,9 @@
       ],
       "Learn more": [
         "Få mere at vide"
+      ],
+      "Cancel password reset": [
+        "Annullér nulstilling af adgangskode"
       ]
     },
     "session_recovery:in_progress:info": {
@@ -10963,6 +11008,12 @@
       ],
       "Request a password reset from your Account settings. No recovery method needed.": [
         "Anmod om nulstilling af adgangskode fra dine kontoindstillinger. Ingen gendannelsesmetode nødvendig."
+      ],
+      "Request password reset": [
+        "Anmod om nulstilling af adgangskode"
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "Hvis du ikke vil tillade nulstilling af adgangskoden, skal du have opsat en gendannelsesmetode."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -13010,6 +13061,9 @@
       ],
       "Role": [
         "Rolle"
+      ],
+      "Email": [
+        "E-mail"
       ]
     },
     "Title subscription": {
@@ -13188,6 +13242,15 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Din eksterne konto har muligvis nået sin 24-timers båndbreddegrænse. ${ BRAND_NAME } vil forsøge at genoptage importen så hurtig som muligt."
+      ],
+      "Any protection applied to suspicious activity": [
+        "Enhver form for beskyttelse mod mistænkelig aktivitet"
+      ],
+      "The Internet Service Provider of the IP address": [
+        "IP-adressens Internetudbyder"
+      ],
+      "This feature is only available on Beta": [
+        "Denne funktion er kun tilgængelig på Beta"
       ]
     },
     "Tooltip automatically attach public key": {
@@ -13671,6 +13734,56 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Admin": {
+      "admin": [
+        "admin"
+      ]
+    },
+    "Alias promotion": {
+      "Get 10 aliases for free!": [
+        "Få 10 aliasser gratis!"
+      ],
+      "Get unlimited aliases!": [
+        "Få ubegrænsede aliasser!"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Prøv ${ PASS_APP_NAME }"
+      ],
+      "With ${ PASS_APP_NAME } you can generate unique aliases to hide your identity and forward emails to your main inbox.": [
+        "Med ${ PASS_APP_NAME } kan du oprette unikke aliasser for at skjule din identitet og videresende e-mails til din primære indbakke."
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } måned",
+        "${ n } måneder"
+      ]
+    },
+    "Checkout summary": {
+      "Users": [
+        "Brugere"
+      ]
+    },
+    "Enabled 2FA": {
+      "2FA": [
+        "2FA"
+      ]
+    },
+    "Label to  inform a feature is only available on Beta": {
+      "Beta": [
+        "Beta"
+      ]
+    },
+    "Tooltip default pgp scheme": {
+      "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
+        "Vælg de PGP-standardindstillinger, der bruges til at signere eller kryptere beskeder med brugere, som ikke benytter ${ BRAND_NAME }. Bemærk at Inline PGP fremtvinger almindelige tekstbeskeder."
+      ]
+    },
+    "vpn_2step: discount": {
+      "1-year": [
+        "1 år"
       ]
     }
   }

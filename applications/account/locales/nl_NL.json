@@ -4390,6 +4390,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "Uw tweestapsverificatiesleutel is klaar voor gebruik."
+      ],
+      "Allows you to register built-in security keys (like Windows Hello, Face ID, Touch ID, or internal TPMs)": [
+        "Het toevoegen van beveiligingssleutels wordt toegestaan (bijv. Windows Hello, gezichts- of vingerafdrukherkenning, ingebouwde TPM's)"
       ]
     },
     "fido2: Label": {
@@ -7345,6 +7348,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Uw abonnement wordt beheerd door Mozilla. Neem contact op met Mozilla support."
+      ],
+      "Link expired": [
+        "Link is vervallen"
+      ],
+      "We just sent you a new link.": [
+        "We hebben u een nieuwe link verzonden."
+      ],
+      "You can immediately unlock the setup above by adding ${ specificCountryCount } to the number of IP addresses in your plan or reach us for tailor-made solutions.": [
+        "U kunt meteen de installatie ontgrendelen door ${ specificCountryCount } toe te voegen aan de hoeveelheid IP-adressen in uw abonnement of neem contact op met ons voor oplossingen op maat."
       ]
     },
     "info": {
@@ -7509,6 +7521,9 @@
       ],
       "Primary": [
         "Primair"
+      ],
+      "Forwarding": [
+        "Doorsturen"
       ]
     },
     "Key type option": {
@@ -8659,6 +8674,9 @@
       ],
       "Your referral link": [
         "Uw doorverwijslink"
+      ],
+      "Verify keys with Key Transparency": [
+        "Verifieer sleutels met Key Transparency"
       ]
     },
     "label": {
@@ -9724,6 +9742,15 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Kluis en delen van items (binnenkort beschikbaar)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } programma"
+      ],
+      "SMTP submission": [
+        "SMTP-indiening"
+      ],
+      "SMTP submission for select organizations": [
+        "SMTP-indiening voor beperkte organisaties"
       ]
     },
     "new_plans: feature info": {
@@ -10119,6 +10146,9 @@
       ],
       "Included with multiple users ${ BRAND_NAME } for Business plans.": [
         "Inbegrepen bij verschillende gebruikers ${ BRAND_NAME } voor Bedrijven-abonnementen."
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "Inbegrepen met ${ BRAND_NAME } voor Business, ${ familyPlanName } en ${ mailProPlanName }."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -11255,6 +11285,12 @@
       "This permission expires in ${ timeRemaining.inHours } hour": [
         "Deze toestemming verloopt binnen ${ timeRemaining.inHours } uur",
         "Deze toestemming verloopt binnen ${ timeRemaining.inHours } uren"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "U kan uw wachtwoord vrijelijk wijzigen voor de account ${ boldEmail } gedurende ${ boldDaysRemaining }."
+      ],
+      "You can now reset your password": [
+        "U kunt uw wachtwoord nu opnieuw instellen"
       ]
     },
     "session_recovery:available:link": {
@@ -11276,6 +11312,9 @@
       ],
       "Learn more": [
         "Kom meer te weten"
+      ],
+      "Cancel password reset": [
+        "Wachtwoord reset annuleren"
       ]
     },
     "session_recovery:in_progress:info": {
@@ -11284,12 +11323,42 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "We ontvingen een wachtwoord reset aanvraag voor ${ boldEmail }."
+      ],
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } uur",
+        "${ gracePeriodHoursRemaining } uren"
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "Wachtwoord reset beschikbaar vanaf ${ boldDate }. Dit geeft u de tijd om frauduleuze aanvragen te annuleren."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Wachtwoord reset aangevraagd (${ user.Email }). Uw wachtwoord kan gewijzigd worden in ${ hoursRemaining } uur.",
+        "Wachtwoord reset aangevraagd (${ user.Email }). Uw wachtwoord kan gewijzigd worden in ${ hoursRemaining } uren."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Om er zeker van te zijn dat u het bent die probeert uw wachtwoord te resetten, wachten we 72 uur voordat we verzoeken goedkeuren. U kan uw wachtwoord wijzigen in ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hour": [
+        "U kan uw wachtwoord wijzigen in ${ gracePeriodHoursRemaining } uren",
+        "U kan uw wachtwoord wijzigen in ${ gracePeriodHoursRemaining } uur"
       ]
     },
     "session_recovery:sign_out:info": {
       "${ gracePeriodHoursRemaining } hour": [
         "${ gracePeriodHoursRemaining } uur",
         "${ gracePeriodHoursRemaining } uren"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } is nu beschikbaar"
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Als u uitlogt voordat u uw wachtwoord reset, kan u de toegang tot uw account verliezen."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Als u uitlogt zonder uw wachtwoord te resetten, kan u de toegang tot uw account verliezen."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "U kan uw wachtwoord resetten in ${ boldTimeLeft }."
       ]
     },
     "Settings description": {
@@ -13259,6 +13328,18 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "U bent uitgenodigd om ${ MAIL_APP_NAME } te proberen"
+      ],
+      "Address and key verification": [
+        "Verificatie van adres en sleutel"
+      ],
+      "Auto-reply and forward": [
+        "Automatisch beantwoorden en doorsturen"
+      ],
+      "Forward emails": [
+        "Stuur e-mails door"
+      ],
+      "Password reset": [
+        "Wachtwoord reset"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13523,6 +13604,12 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Uw externe account heeft mogelijk 24-uurs bandbreedtelimiet bereikt. ${ BRAND_NAME } zal proberen de import zo snel mogelijk te hervatten."
+      ],
+      "This feature is only available on Beta": [
+        "Deze functionaliteit is alleen beschikbaar in Beta"
+      ],
+      "This key is used for email forwarding": [
+        "Deze sleutel wordt gebruikt voor e-mail doorsturen"
       ]
     },
     "tooltip": {
@@ -14054,6 +14141,146 @@
       ],
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } maand",
+        "${ n } maanden"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Als"
+      ]
+    },
+    "Label to  inform a feature is only available on Beta": {
+      "Beta": [
+        "Beta"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Accountherstel niet beschikbaar voor verouderde adressleutels"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Genereer sleutels voordat u uw wachtwoord probeert te wijzigen"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Wachtwoord opgeslagen"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Uw wachtwoord opnieuw instellen"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Wachtwoord reset annuleren"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Vul uw huidig wachtwoord in om uw het resetten van uw wachtwoord te annuleren. Er zullen geen veranderingen plaatsvinden."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Wachtwoord reset geannuleerd"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Wachtwoord reset annuleren?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Aanvraag wijziging wachtwoord (${ user.Email }) geannuleerd. Als u deze aanvraag niet hebt gemaakt, ${ changePasswordLink }"
+      ]
+    },
+    "session_recovery:disable:action": {
+      "Disable password reset": [
+        "Wachtwoord reset uitschakelen"
+      ]
+    },
+    "session_recovery:disable:info": {
+      "Make sure you have access to a recovery method.": [
+        "Zorg ervoor dat u toegang heeft tot een herstelmethode."
+      ],
+      "You will no longer be able to request a password reset from your account settings.": [
+        "U zult niet langer een wachtwoord reset kunnen aanvragen vanuit uw accountinstellingen"
+      ]
+    },
+    "session_recovery:disable:title": {
+      "Disable password reset?": [
+        "Wachtwoord reset uitschakelen?"
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Aanvraag bekijken"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Wachtwoord reset aangevraagd"
+      ]
+    },
+    "session_recovery:initiation:action": {
+      "Got it": [
+        "Begrepen"
+      ]
+    },
+    "session_recovery:initiation:link": {
+      "account and password section": [
+        "accountinstellingen"
+      ]
+    },
+    "session_recovery:initiation:title": {
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
+        "U kan uw wachtwoord resetten in ${ gracePeriodHoursRemaining } uur",
+        "U kan uw wachtwoord resetten in ${ gracePeriodHoursRemaining } uren"
+      ]
+    },
+    "session_recovery:settings:action": {
+      "Allow password reset from settings": [
+        "Sta wachtwoord reset toe vanuit instellingen"
+      ],
+      "Request a password reset from your Account settings. No recovery method needed.": [
+        "Vraag een wachtwoord reset aan vanuit uw accountinstellingen. Geen herstelmethode vereist."
+      ],
+      "Request password reset": [
+        "Nieuw wachtwoord aanvragen"
+      ],
+      "To disallow password reset, you must have a recovery method set up.": [
+        "Om wachtwoord reset uit te schakelen, moet u een herstelmethode ingesteld hebben."
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Uitloggen"
+      ],
+      "Stay signed in": [
+        "Blijf ingelogd"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Wachtwoord reset"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Uitloggen zonder wachtwoord reset?"
+      ]
+    },
+    "session_recovery:status:info": {
+      "Available": [
+        "Beschikbaar"
       ]
     }
   }

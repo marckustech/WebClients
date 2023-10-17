@@ -6605,7 +6605,7 @@
         "Ställer in din organisation"
       ],
       "Settings update failed": [
-        "Uppdatering av inställningar misslyckades"
+        "Misslyckades att uppdatera inställningar"
       ],
       "Settings updated": [
         "Inställningar uppdaterade"
@@ -7372,6 +7372,21 @@
       ],
       "Your subscription will automatically renew on ${ renewalTime }.": [
         "Din prenumeration kommer förnyas automatiskt den ${ renewalTime }."
+      ],
+      "Copy the link to clipboard": [
+        "Kopiera länken till urklipp"
+      ],
+      "Link expired": [
+        "Länk löpt ut"
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "SMTP-inlämning tillåter tredjepartstjänster eller enheter att skicka e-post via ${ MAIL_APP_NAME } för dina anpassade domänadresser. Denna funktion är endast tillgänglig för ${ BRAND_NAME } för Business-användare med anpassade domäner."
+      ],
+      "We just sent you a new link.": [
+        "Vi har precis skickat en ny länk till dig."
+      ],
+      "Your next billing date is ${ renewalTime }.": [
+        "Ditt nästa faktureringsdatum är${ renewalTime }."
       ]
     },
     "info": {
@@ -7536,6 +7551,9 @@
       ],
       "Primary": [
         "Primär"
+      ],
+      "Forwarding": [
+        "Vidarebefordran"
       ]
     },
     "Key type option": {
@@ -8689,6 +8707,9 @@
       ],
       "Your referral link": [
         "Din hänvisningslänk"
+      ],
+      "New plan": [
+        "Nytt paket"
       ]
     },
     "label": {
@@ -9765,6 +9786,12 @@
       ],
       "Vault and Item sharing (coming soon)": [
         "Valv och objektdelning (kommer snart)"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "Program ${ PROTON_SENTINEL_NAME }"
+      ],
+      "Ad-blocker and malware protection": [
+        "Annonsblockerare och skydd mot skadlig kod"
       ]
     },
     "new_plans: feature info": {
@@ -10264,6 +10291,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Tvåfaktorsautentisering är inte längre obligatoriskt"
+      ],
+      "Link copied to clipboard": [
+        "Länk kopierad till urklipp"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10879,6 +10909,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Din organisation har åtkomst till ${ free }. Om du vill komma åt premiumfunktioner för ${ appName }, be din organisations administratör att uppgradera."
+      ],
+      "per month": [
+        "per månad"
       ]
     },
     "pass_signup_2023: Onboarding": {
@@ -11772,6 +11805,9 @@
       ],
       "Support online privacy": [
         "Stöder integritet online"
+      ],
+      "1 user": [
+        "1 användare"
       ]
     },
     "specialoffer: Footer": {
@@ -11867,6 +11903,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Ordinarie pris ${ amount } för 30 månader"
+      ],
+      "${ n } month": [
+        "${ n } månad",
+        "${ n } månader"
+      ],
+      "15 months": [
+        "15 månader"
+      ],
+      "30 months": [
+        "30 månader"
       ]
     },
     "specialoffer: Title": {
@@ -13532,6 +13578,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du har blivit inbjuden att prova ${ MAIL_APP_NAME }"
+      ],
+      "Auto-reply and forward": [
+        "Svara automatiskt och vidarebefordra"
+      ],
+      "Forward emails": [
+        "Vidarebefordra e-post"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13799,6 +13851,9 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Ditt externa konto kan ha nått sin bandbreddsgräns för det här dygnet. ${ BRAND_NAME } kommer att försöka återuppta importen så snart som möjligt."
+      ],
+      "This key is used for email forwarding": [
+        "Denna nyckel används för vidarebefordran av e-post"
       ]
     },
     "tooltip": {
@@ -13965,6 +14020,12 @@
       ],
       "monthly": [
         "månadsvis"
+      ],
+      "15-month": [
+        "15 månader"
+      ],
+      "30-month": [
+        "30 månader"
       ]
     },
     "vpn_2step: feature": {
@@ -14330,6 +14391,324 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Lägg till ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Lägg till ${ plan } för ${ price } per månad"
+      ],
+      "Remove": [
+        "Ta bort"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Ta bort ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } lagringsutrymme"
+      ],
+      "1 user": [
+        "1 användare"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 användare"
+      ],
+      "Ad-blocker and malware protection": [
+        "Annonsblockerare och skydd mot skadlig kod"
+      ],
+      "Extended version history": [
+        "Utökad versionshistorik"
+      ],
+      "High speed streaming": [
+        "Höghastighetsstreaming"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Lagra upp till 200 versioner av varje fil i upp till 10 år."
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Om"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Acceptera"
+      ],
+      "Add condition": [
+        "Lägg till villkor"
+      ],
+      "Add forwarding rule": [
+        "Lägg till regel för vidarebefordran"
+      ],
+      "Back": [
+        "Tillbaka"
+      ],
+      "Cancel": [
+        "Avbryt"
+      ],
+      "Decline": [
+        "Avböj"
+      ],
+      "Delete": [
+        "Ta bort"
+      ],
+      "Delete this condition": [
+        "Ta bort detta villkor"
+      ],
+      "Edit conditions": [
+        "Redigera villkor"
+      ],
+      "Next": [
+        "Nästa"
+      ],
+      "Pause": [
+        "Pausa"
+      ],
+      "Re-enable": [
+        "Aktivera igen"
+      ],
+      "Re-send confirmation email": [
+        "Skicka e-postbekräftelse igen"
+      ],
+      "Remove “${ value }”": [
+        "Ta bort “${ value }“"
+      ],
+      "Request confirmation": [
+        "Begär bekräftelse"
+      ],
+      "Resume": [
+        "Återuppta"
+      ],
+      "Save": [
+        "Spara"
+      ],
+      "Send confirmation email": [
+        "Skicka e-postbekräftelse"
+      ],
+      "Set up email forwarding": [
+        "Ställ in vidarebefordran av e-post"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Lås upp vidarebefordran av e-post för att enkelt hantera inkommande information och fler premiumfunktioner när du uppgraderar."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Villkor ofullständigt, lägg till en token"
+      ],
+      "Token already exists": [
+        "Token finns redan"
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Försök att öppna länken igen."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "E-post vidarebefordrad till dig är exkluderade och kommer inte att vidarebefordras."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Åtgärder"
+      ],
+      "From": [
+        "Från"
+      ],
+      "Status": [
+        "Status"
+      ],
+      "To": [
+        "Till"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Från mig"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "En e-postbekräftelse kommer att skickas till ${ boldForwardeeEmail }"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "En ny krypteringsnyckel kommer att genereras för ${ boldForwarderEmail }."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Mottagaren är inbjuden och måste acceptera/avvisa inbjudan eller uppdatera"
+      ],
+      "Forwarding is active": [
+        "Vidarebefordran är aktiv"
+      ],
+      "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, encryption might need to be removed.": [
+        "Vidarebefordran till ${ BRAND_NAME }-adresser kommer att behålla din kommunikation end-to-end krypterad. Vid extern vidarebefordran kan kryptering behöva tas bort."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Vidarebefordran till en adress utan end-to-end-kryptering kräver att du inaktiverar end-to-end-kryptering för din e-postadress ${ boldForwarderEmail }. "
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Vidarebefordran till denna adress blir aktiv när mottagaren accepterar vidarebefordran."
+      ],
+      "No incoming forwarding rules": [
+        "Inga regler för inkommande vidarebefordran"
+      ],
+      "No outgoing forwarding rules": [
+        "Inga regler för utgående vidarebefordran"
+      ],
+      "Please update your forwarding keys": [
+        "Uppdatera dina nycklar för vidarebefordran"
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Mottagaren avvisade begäran om vidarebefordran"
+      ],
+      "The forwarding is temporarily paused": [
+        "Vidarebefordran är tillfälligt pausad"
+      ],
+      "You can safely close this tab.": [
+        "Du kan stänga denna flik säkert."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Du kommer inte få e-post vidarebefordrade automatiskt från ${ boldForwarderEmail }."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Och"
+      ],
+      "Forward from": [
+        "Vidarebefordran från"
+      ],
+      "Forward to": [
+        "Vidarebefordra till"
+      ],
+      "or": [
+        "eller"
+      ],
+      "Or": [
+        "Eller"
+      ],
+      "With attachment": [
+        "Med bilaga"
+      ],
+      "Without attachment": [
+        "Utan bilaga"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Lär dig mer"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Till mig"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Villkor:"
+      ],
+      "Enter email address": [
+        "Ange e-postadress"
+      ],
+      "Type text or keyword": [
+        "Skriv text eller nyckelord"
+      ],
+      "Type text or keyword for this condition:": [
+        "Skriv text eller nyckelord för detta villkor:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Vidarebefordran till destinationsadressen kommer att avslutas."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Aktiv"
+      ],
+      "Declined": [
+        "Avböjd"
+      ],
+      "Outdated": [
+        "Föråldrad"
+      ],
+      "Paused": [
+        "Pausad"
+      ],
+      "Pending": [
+        "Väntande"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "En ny krypteringsnyckel har genererats för ${ forwarderEmail }."
+      ],
+      "Changes saved": [
+        "Ändringar sparade"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "E-post skickas till ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "E-post skickas till ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Vidarebefordran accepterad"
+      ],
+      "Forwarding declined": [
+        "Vidarebefordran avböjd"
+      ],
+      "Forwarding deleted": [
+        "Vidarebefordran borttagen"
+      ],
+      "Forwarding paused": [
+        "Vidarebefordran pausad"
+      ],
+      "Forwarding resumed": [
+        "Vidarebefordran återupptagen"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Vidarebefordra automatiskt e-post till andra konton"
+      ],
+      "Delete forwarding?": [
+        "Ta bort vidarebefordran?"
+      ],
+      "Email forwarding deactivated": [
+        "Vidarebefordran av e-post inaktiverat"
+      ],
+      "Forwarding activated": [
+        "Vidarebefordran aktiverad"
+      ],
+      "Request confirmation": [
+        "Begär bekräftelse"
+      ],
+      "Set up forwarding": [
+        "Ställ in vidarebefordran"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Varning"
       ]
     }
   }

@@ -56,7 +56,6 @@ export interface MailSettings {
     SwipeLeft: number;
     SwipeRight: number;
     AlsoArchive: number;
-    PageSize: MailPageSize;
     HideEmbeddedImages: SHOW_IMAGES;
     HideRemoteImages: SHOW_IMAGES;
     /** @deprecated use Shortcuts instead */

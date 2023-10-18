@@ -1,5 +1,6 @@
 import { ChangeEvent, Fragment, ReactNode, Ref, RefObject, forwardRef, memo, useEffect, useMemo } from 'react';
 
+
 import { c, msgid } from 'ttag';
 
 import { useConversationCounts, useItemsDraggable, useMailSettings, useMessageCounts } from '@proton/components';
@@ -255,7 +256,7 @@ const List = (
 
                                 {total > 1 && (
                                     <div className="p-5 flex flex-column flex-align-items-center flex-item-noshrink">
-                                        <ListPagination {...pagingHandlers} loading={loading} />
+                                        <ListPagination {...pagingHandlers} disabled={loading} />
                                     </div>
                                 )}
                             </>

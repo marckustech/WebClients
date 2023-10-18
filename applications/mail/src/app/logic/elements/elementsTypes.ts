@@ -122,7 +122,6 @@ export interface QueryResults {
 
 export interface NewStateParams {
     page?: number;
-    pageSize?: number;
     params?: Partial<ElementsStateParams>;
     retry?: RetryData;
     beforeFirstLoad?: boolean;

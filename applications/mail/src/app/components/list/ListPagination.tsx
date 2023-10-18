@@ -18,10 +18,10 @@ interface Props {
     onPage: (pageNumber: number) => void;
     page: number;
     total: number;
-    loading?: boolean;
+    disabled?: boolean;
 }
 
-const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Props) => {
+const ListPagination = ({ onPrevious, onNext, onPage, page, disabled, total }: Props) => {
     const isPageSizeSettingEnabled = useFlag('WebMailPageSizeSetting');
 
     const [{ ViewMode = VIEW_MODE.GROUP } = {}] = useMailSettings();
@@ -60,7 +60,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Pr
                         icon
                         shape="ghost"
                         className="on-rtl-mirror"
-                        disabled={loading || disablePrevious}
+                        disabled={disabled || disablePrevious}
                         onClick={() => onPrevious()}
                         data-testid="pagination-row:go-to-previous-page"
                     >
@@ -81,7 +81,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Pr
                                 aria-current={isActive}
                                 shape={isActive ? 'solid' : 'ghost'}
                                 className={clsx([isActive && 'text-bold no-pointer-events', 'px-2'])}
-                                disabled={loading}
+                                disabled={disabled}
                                 onClick={() => onPage(pageNumber)}
                                 data-testid={`pagination-row:go-to-page-${pageNumber}`}
                             >
@@ -97,7 +97,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Pr
                         shape="ghost"
                         className="on-rtl-mirror"
                         icon
-                        disabled={loading || disableNext}
+                        disabled={disabled || disableNext}
                         onClick={() => onNext()}
                         data-testid="pagination-row:go-to-next-page"
                     >
@@ -116,7 +116,7 @@ const ListPagination = ({ onPrevious, onNext, onPage, page, loading, total }: Pr
                         </span>
                     </label>
 
-                    <PageSizeSelector loading={loading} id="pageSizeSelector" />
+                    <PageSizeSelector id="pageSizeSelector" />
                 </div>
             )}
         </div>

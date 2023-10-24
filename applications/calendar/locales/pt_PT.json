@@ -619,6 +619,29 @@
       ],
       "Yes, I'll attend": [
         "Sim, estarei presente"
+      ],
+      "Add birthday": [
+        "Adicionar data de nascimento"
+      ],
+      "Add note": [
+        "Adicionar uma nota"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "É permitido no máximo ${ maxContacts } contacto por grupo de contactos",
+        "São permitidos no máximo ${ maxContacts } contactos por grupo de contactos"
+      ],
+      "Don't know your password?": [
+        "Não sabe a sua palavra-passe?"
+      ],
+      "Ok": [
+        "Ok"
+      ],
+      "See how": [
+        "Ver como"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contacto.",
+        "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contactos."
       ]
     },
     "Action subline": {
@@ -1150,6 +1173,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Nome exibido"
+      ],
+      "Enter a display name or nickname": [
+        "Introduza um nome de exibição ou uma alcunha"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Último nome"
       ]
     },
     "Contact type label": {
@@ -2555,6 +2590,22 @@
       ],
       "Your import will not be processed.": [
         "A sua importação não será processada."
+      ],
+      "First name is too long": [
+        "O primeiro nome é demasiado longo"
+      ],
+      "Incorrect username": [
+        "Nome de utilizador incorreto"
+      ],
+      "Last name is too long": [
+        "O último nome é demasiado longo."
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Por favor, forneça um primeiro nome, um último nome ou um nome de exibição"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Não pode enviar um e-mail para mais de ${ maxContacts } destinatário.",
+        "Não pode enviar um e-mail para mais de ${ maxContacts } destinatários."
       ]
     },
     "Error accepting calendar invitation": {
@@ -2901,6 +2952,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Até 6 utilizadores"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -4153,6 +4213,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Parece que o fuso horário do seu sistema mudou para ${ timezone }. Deseja atualizar a sua preferência de fuso horário?"
+      ],
+      "Copy the link to clipboard": [
+        "Copiar o \"link\" para a área de transferência"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Por favor, note que os endereços atribuídos a estes grupos NÃO serão eliminados."
       ]
     },
     "Info calendar search": {
@@ -5033,6 +5099,9 @@
       ],
       "Contact group updated": [
         "Grupo de contactos actualizado"
+      ],
+      "Link copied to clipboard": [
+        "Ligação copiada para a área de transferência"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5401,6 +5470,12 @@
       ],
       "Start typing an email address": [
         "Comece a escrever um endereço de e-mail"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Último nome"
       ]
     },
     "Placeholder for contact group name": {
@@ -5621,6 +5696,18 @@
       ],
       "Support online privacy": [
         "Apoiar a privacidade online"
+      ],
+      "1 user": [
+        "1 utilizador"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -5704,6 +5791,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Preço padrão ${ amount } por 30 meses"
+      ],
+      "${ n } month": [
+        "${ n } mês",
+        "${ n } meses"
+      ],
+      "15 months": [
+        "15 meses"
+      ],
+      "30 months": [
+        "30 meses"
       ]
     },
     "specialoffer: Title": {
@@ -5964,6 +6061,12 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "Versão premium do gestor de palavras-passe"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Tooltip": {
@@ -6051,6 +6154,12 @@
       ],
       "vCard field": [
         "Campo vCard"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Último nome"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -6454,6 +6563,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
+      ],
+      "Birthday": [
+        "Data de nascimento"
+      ],
+      "Notes": [
+        "Notas"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6644,6 +6759,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "O seu teste gratuito termina em ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Tem a certeza que deseja eliminar permanentemente estes grupos de contactos?"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -6889,6 +7007,175 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Cancelar reposição"
+      ],
+      "Reset password": [
+        "Repor a palavra-passe"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Recuperação de conta indisponível para chaves de endereços antigos"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Por favor, crie chaves antes de tentar alterar a sua palavra-passe."
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } dia",
+        "${ timeRemaining.inDays } dias"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } hora",
+        "${ timeRemaining.inHours } horas"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Pedido de reposição de palavra-passe aprovado (${ user.Email }). Tem ${ timeRemaining.inDays } dia para repor a sua palavra-passe.",
+        "Pedido de reposição de palavra-passe aprovado (${ user.Email }). Tem ${ timeRemaining.inDays } dias para repor a sua palavra-passe."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Pedido de reposição de palavra-passe aprovado (${ user.Email }). Tem ${ timeRemaining.inHours } hora para repor a sua palavra-passe.",
+        "Pedido de reposição de palavra-passe aprovado (${ user.Email }). Tem ${ timeRemaining.inHours } horas para repor a sua palavra-passe."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Por favor, vá ao dispositivo com sessão iniciada (na sessão onde o pedido foi iniciado) para mudar a sua palavra-passe."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Esta permissão expira em ${ timeRemaining.inDays } dia",
+        "Esta permissão expira em ${ timeRemaining.inDays } dias"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Esta permissão expira em ${ timeRemaining.inHours } hora",
+        "Esta permissão expira em ${ timeRemaining.inHours } horas"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Agora pode mudar a sua palavra-passe para a conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Ver como"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Palavra-passe guardada"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Repor a sua palavra-passe"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Cancelar a reposição da palavra-passe"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Introduza a sua palavra-passe atual para cancelar o processo de reposição de palavra-passe. Nenhuma outra mudança terá efeito."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Reposição de palavra-passe cancelada"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Cancelar a reposição da palavra-passe?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Pedido de reposição de palavra-passe cancelado (${ user.Email }). Se não fez este pedido, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "altere a sua palavra-passe agora"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Cancelar pedido"
+      ],
+      "Got it": [
+        "Entendi"
+      ],
+      "Learn more": [
+        "Saiba mais"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } hora restante",
+        "${ gracePeriodHoursRemaining } horas restantes"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Se não pediu para repor a sua palavra-passe, cancele este pedido agora."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Reposição de palavra-passe pedida (${ user.Email }). Pode mudar a sua palavra-passe em ${ hoursRemaining } hora.",
+        "Reposição de palavra-passe pedida (${ user.Email }). Pode mudar a sua palavra-passe em ${ hoursRemaining } horas."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Para ter a certeza que é realmente você a tentar repor a sua palavra-passe, vamos esperar 72 horas antes de aprovar pedidos. Pode repor a sua palavra-passe em ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Recebemos um pedido de reposição de palavra-passe para ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Ver pedido"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Reposição da palavra-passe pedida"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Terminar sessão"
+      ],
+      "Stay signed in": [
+        "Manter sessão iniciada"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } hora",
+        "${ gracePeriodHoursRemaining } horas"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } está agora disponível."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Se terminar sessão antes de repor a sua palavra-passe, poderá perder acesso à sua conta."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Se terminar sessão sem repor a sua palavra-passe, poderá perder acesso à sua conta."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Poderá repor a sua palavra-passe em ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Repor a palavra-passe"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Terminar sessão sem repor a palavra-passe?"
       ]
     }
   }

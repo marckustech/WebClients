@@ -2656,6 +2656,9 @@
       ],
       "Your import will not be processed.": [
         "Ваша імпартаванне не будзе апрацавана."
+      ],
+      "Failed to get event": [
+        "Не ўдалося атрымаць падзею"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3164,6 +3167,9 @@
       ],
       "MB": [
         "МБ"
+      ],
+      "TB": [
+        "ТБ"
       ]
     },
     "file size format, long": {
@@ -3190,6 +3196,12 @@
         "Мегабайты",
         "Мегабайтаў",
         "Мегабайты"
+      ],
+      "Terabyte": [
+        "тэрабайт",
+        "тэрабайты",
+        "тэрабайтаў",
+        "тэрабайтаў"
       ]
     },
     "Filter notification": {

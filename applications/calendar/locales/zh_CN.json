@@ -1013,6 +1013,9 @@
     "Calendar view selector": {
       "Change time range to": [
         "将时间范围改为"
+      ],
+      "Change time range": [
+        "更改时间范围"
       ]
     },
     "Calendar view; more events collapsed": {
@@ -4544,6 +4547,9 @@
       ],
       "Your password (admin)": [
         "您的密码(管理员)"
+      ],
+      "Time zone": [
+        "时区"
       ]
     },
     "Label for contact group color": {
@@ -6625,6 +6631,9 @@
     "View event button tooltip": {
       "Open in a new tab": [
         "在新标签页中打开"
+      ],
+      "Navigate to event": [
+        "浏览至事件"
       ]
     },
     "Warning": {
@@ -6908,6 +6917,39 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "Don't ask to update timezone checkbox label": {
+      "Don't ask again": [
+        "不再询问"
+      ]
+    },
+    "esCalendar": {
+      "No result": [
+        "无结果"
+      ],
+      "Results": [
+        "结果"
+      ]
+    },
+    "Info calendar search": {
+      "You can either update your search query or close search to go back to calendar views": [
+        "您可以更新搜索查询或关闭搜索，返回日历视图"
+      ]
+    },
+    "Info message": {
+      "No results found": [
+        "未找到结果"
+      ]
+    },
+    "Info; calendar sharing pop-up": {
+      "Invite others with a ${ BRAND_NAME } account to view or edit events in your calendar.": [
+        "邀请拥有 ${ BRAND_NAME } 账户的其他人查看或编辑日历中的事件。"
+      ]
+    },
+    "Title; calendar sharing pop-up": {
+      "Planning just got easier!": [
+        "规划变得更容易了！"
       ]
     }
   }

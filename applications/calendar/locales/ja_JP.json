@@ -5824,6 +5824,12 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "標準価格では 30 か月毎に ${ amount }"
+      ],
+      "15 months": [
+        "15 か月"
+      ],
+      "30 months": [
+        "30 か月"
       ]
     },
     "specialoffer: Title": {

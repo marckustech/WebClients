@@ -2606,6 +2606,9 @@
       ],
       "Your import will not be processed.": [
         "La vostra importació no es processarà."
+      ],
+      "Failed to get event": [
+        "No s'ha pogut obtenir l'esdeveniment."
       ]
     },
     "Error accepting calendar invitation": {
@@ -2952,6 +2955,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Fins a 6 usuaris"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -5860,6 +5872,18 @@
       ],
       "Support online privacy": [
         "Doneu suport a la privacitat en línia"
+      ],
+      "1 user": [
+        "1 usuari"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "specialoffer: Footer": {
@@ -5943,6 +5967,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "El preu estàndard és ${ amount } durant 30 mesos"
+      ],
+      "${ n } month": [
+        "${ n } mes",
+        "${ n } mesos"
+      ],
+      "15 months": [
+        "15 mesos"
+      ],
+      "30 months": [
+        "30 mesos"
       ]
     },
     "specialoffer: Title": {
@@ -6203,6 +6237,12 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "Gestor de Contrasenyes prèmium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
       ]
     },
     "summer2023: Tooltip": {

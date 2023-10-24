@@ -51,6 +51,7 @@ const ExpandableRow = ({
             >
                 <td className="flex flex-align-items-center flex-nowrap m-0 pl-custom relative">
                     <div
+                        data-testid="test-ci-runs"
                         className={clsx([
                             `folder-tree-list-item-selected flex flex-item-noshrink`,
                             !isSelected && 'folder-tree-list-item-selected-hidden',

@@ -1,4 +1,5 @@
 import { CryptoProxy, PrivateKeyReference, SessionKey, serverTime, updateServerTime } from '@proton/crypto';
+import { SafeErrorObject, getSafeErrorObject } from '@proton/utils/getSafeErrorObject';
 
 import type {
     EncryptedBlock,
@@ -127,7 +128,7 @@ type ErrorMessage = {
 
 type NotifySentryMessage = {
     command: 'notify_sentry';
-    error: Error;
+    error: SafeErrorObject;
 };
 
 /**
@@ -329,7 +330,7 @@ export class UploadWorker {
     postNotifySentry(error: Error) {
         this.worker.postMessage({
             command: 'notify_sentry',
-            error,
+            error: getSafeErrorObject(error),
         } as NotifySentryMessage);
     }
 }

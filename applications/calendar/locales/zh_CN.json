@@ -4110,6 +4110,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系统时区似乎已更改为 ${ timezone }。您想要更新您的时区偏好吗？"
+      ],
+      "${ storage } storage": [
+        "${ storage } 存储空间"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "价格包括所有适用的基于周期的折扣与保存在您账户中的未过期的优惠券。"
+      ],
+      "Total email addresses": [
+        "邮箱地址总数"
+      ],
+      "Total storage": [
+        "存储空间总量"
+      ],
+      "Total supported domains": [
+        "自有域名总数"
+      ],
+      "Total VPN connections": [
+        "VPN 同时在线设备总数"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "最多 ${ FAMILY_MAX_USERS } 个用户"
       ]
     },
     "Info on errors": {
@@ -6950,6 +6971,22 @@
     "Title; calendar sharing pop-up": {
       "Planning just got easier!": [
         "规划变得更容易了！"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } 个自定义域"
+      ],
+      "${ ips } servers": [
+        "${ ips } 个服务器"
+      ],
+      "${ users } users": [
+        "${ users } 位用户"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 位用户"
       ]
     }
   }

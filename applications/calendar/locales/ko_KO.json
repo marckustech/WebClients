@@ -2581,6 +2581,9 @@
       ],
       "Your import will not be processed.": [
         "가져오기가 처리되지 않았습니다."
+      ],
+      "Failed to get event": [
+        "이벤트 게시 실패"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3077,6 +3080,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3091,6 +3097,9 @@
       ],
       "Megabytes": [
         "메가바이트"
+      ],
+      "Terabytes": [
+        "테라바이트"
       ]
     },
     "Filter notification": {
@@ -4153,6 +4162,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "시스템 시간대가 ${ timezone } 로 변경된 것 같습니다. 여기의 시간대도 변경하시겠습니까?"
+      ],
+      "${ storage } storage": [
+        "${ storage } 저장공간"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "가격에는 귀하의 계정에 저장된 모든 적용 가능한 주기 기반 할인과 만료되지 않은 쿠폰이 포함되어 있습니다."
+      ],
+      "Total email addresses": [
+        "총 이메일 주소"
+      ],
+      "Total storage": [
+        "총 저장공간"
+      ],
+      "Total supported domains": [
+        "총 지원 도메인"
+      ],
+      "Total VPN connections": [
+        "총 VPN 연결"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "최대 ${ FAMILY_MAX_USERS }명 구성원"
       ]
     },
     "Info calendar search": {
@@ -7010,6 +7040,22 @@
       ],
       "Yearly, ${ untilString }": [
         "년간, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } 개 사용자 지정 이메일 도메인"
+      ],
+      "${ ips } servers": [
+        "${ ips }개 서버"
+      ],
+      "${ users } users": [
+        "${ users }명 사용자"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 사용자"
       ]
     }
   }

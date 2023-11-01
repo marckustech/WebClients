@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Δεν μπορείτε να στείλετε αρχεία vCard για περισσότερη από ${ maxAttachments } επαφή",
         "Δεν μπορείτε να στείλετε αρχεία vCard για περισσότερες από ${ maxAttachments } επαφές"
+      ],
+      "Continue with Outlook": [
+        "Συνεχίστε με Outlook"
+      ],
+      "Import from Google": [
+        "Εισαγωγή από Google"
+      ],
+      "Import from Outlook": [
+        "Εισαγωγή από Outlook"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Μπορείτε να επισημάνετε για διαγραφή τις επαφές που δεν θέλετε να συγχωνεύσετε ούτε να διατηρήσετε. Η διαγραφή θα πραγματοποιηθεί μόνο αφού πατηθεί το κουμπί συγχώνευσης"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Για εισαγωγή μέσω αρχείου CSV και VCF, βεβαιωθείτε ότι το αρχείο δεν υπερβαίνει ${ MAX_IMPORT_FILE_SIZE_STRING } ή τις ${ MAX_IMPORT_CONTACTS_STRING } επαφές. Εάν το αρχείο σας είναι μεγαλύτερο, παρακαλούμε χωρίστε το σε μικρότερα αρχεία. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Για να εισαγάγετε τις επαφές σας από την Google ή το Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -4229,6 +4244,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Η ζώνη ώρας του συστήματός σας φαίνεται να έχει αλλάξει σε ${ timezone }. Θέλετε να ενημερώσετε τις προτιμήσεις ζώνης ώρας;"
+      ],
+      "${ storage } storage": [
+        "${ storage } αποθηκευτικού χώρου"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Η τιμή περιλαμβάνει όλες τις ισχύουσες εκπτώσεις βάσει κύκλου καθώς και τα κουπόνια που δεν έχουν λήξει και είναι αποθηκευμένα στον λογαριασμό σας."
+      ],
+      "Total email addresses": [
+        "Σύνολο διευθύνσεων ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Total storage": [
+        "Συνολικός αποθηκευτικός χώρος"
+      ],
+      "Total supported domains": [
+        "Σύνολο υποστηριζόμενων τομέων"
+      ],
+      "Total VPN connections": [
+        "Σύνολο συνδέσεων VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Μέχρι και ${ FAMILY_MAX_USERS } χρήστες"
       ]
     },
     "Info calendar search": {
@@ -7190,6 +7226,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Ετησίως, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } προσαρμοσμένος τομέας",
+        "${ domains } προσαρμοσμένοι τομείς"
+      ],
+      "${ ips } server": [
+        "${ ips } διακομιστής",
+        "${ ips } διακομιστές"
+      ],
+      "${ users } user": [
+        "${ users } χρήστης",
+        "${ users } χρήστες"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } χρήστης",
+        "${ users } χρήστες"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "χρησιμοποιήστε το βοηθό εισαγωγής Easy Switch"
       ]
     }
   }

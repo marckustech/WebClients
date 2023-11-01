@@ -2606,6 +2606,9 @@
       ],
       "Your import will not be processed.": [
         "Tuontiasi ei käsitellä."
+      ],
+      "Failed to get event": [
+        "Tapahtuman lataus epäonnistui"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3106,6 +3109,9 @@
       ],
       "MB": [
         "Mt"
+      ],
+      "TB": [
+        "Tt"
       ]
     },
     "file size format, long": {
@@ -3124,6 +3130,10 @@
       "Megabyte": [
         "Megatavu",
         "Megatavua"
+      ],
+      "Terabyte": [
+        "Teratavu",
+        "Teratavua"
       ]
     },
     "Filter notification": {
@@ -4219,6 +4229,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Järjestelmäsi aikavyöhykkeeksi näyttää vaihtuneen ${ timezone }. Haluatko päivittää aikavyöhykeasetuksesi?"
+      ],
+      "${ storage } storage": [
+        "${ storage } tallennustilaa"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Hinta sisältää kaikki tilillesi tallennetut soveltuvat tilausjaksopohjaiset alennukset sekä etukoodit."
+      ],
+      "Total email addresses": [
+        "Sähköpostiosoitteita yhteensä"
+      ],
+      "Total storage": [
+        "Tallennustilaa yhteensä"
+      ],
+      "Total supported domains": [
+        "Tuettuja verkkotunnuksia yhteensä"
+      ],
+      "Total VPN connections": [
+        "VPN-yhteyksiä yhteensä"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Enintään ${ FAMILY_MAX_USERS } käyttäjää"
       ]
     },
     "Info calendar search": {
@@ -7180,6 +7211,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } oma verkkotunnus",
+        "${ domains } omaa verkkotunnusta"
+      ],
+      "${ ips } server": [
+        "${ ips } palvelin",
+        "${ ips } palvelinta"
+      ],
+      "${ users } user": [
+        "${ users } käyttäjä",
+        "${ users } käyttäjää"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } käyttäjä",
+        "${ users } käyttäjää"
       ]
     }
   }

@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakt",
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakter"
+      ],
+      "Continue with Outlook": [
+        "Fortsätt med Outlook"
+      ],
+      "Import from Google": [
+        "Importera från Google"
+      ],
+      "Import from Outlook": [
+        "Importera från Outlook"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markera för att radera de kontakter som du varken slå ihop eller behålla. Radering kommer endast att ske efter att du klickat på sammanslagningsknappen"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "För import via CSV- och VCF-fil, se till att filen inte överstiger ${ MAX_IMPORT_FILE_SIZE_STRING } eller ${ MAX_IMPORT_CONTACTS_STRING } kontakter. Om din fil är större, dela upp den i mindre filer. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "För att importera dina kontakter från Google eller Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2609,6 +2624,9 @@
       ],
       "Failed to get event": [
         "Misslyckades att hämta händelse"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Avsedd mottagare stöder inte kalenderdelning"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4063,7 +4081,7 @@
         "För att återställa dina data måste du återaktivera kontonyckeln som användes vid den tidpunkt då data skapades. Detta kräver att du kommer ihåg lösenordet som användes när nyckeln skapades."
       ],
       "To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.": [
-        "För att använda adressverifikation, måste lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar förfalskade krypteringsnycklar."
+        "För att använda adressverifiering måste du lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar krypteringsnycklarna att förfalskas."
       ],
       "Try new ${ BRAND_NAME } features, updates and products before they are released to the public. This will reload the application": [
         "Prova nya ${ BRAND_NAME }-funktioner, uppdateringar och produkter innan de släpps för allmänheten. Detta kommer ladda om applikationen"
@@ -4229,6 +4247,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "${ storage } storage": [
+        "${ storage } lagringsutrymme"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Pris inkluderar alla tillämpbara återkommande rabatter och icke-utgångna kuponger som finns lagrat på ditt konto."
+      ],
+      "Total email addresses": [
+        "Totalt antal e-postadresser"
+      ],
+      "Total storage": [
+        "Totalt lagringsutrymme"
+      ],
+      "Total supported domains": [
+        "Totalt antal domäner som stöds"
+      ],
+      "Total VPN connections": [
+        "Totalt antal VPN-anslutningar"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Upp till ${ FAMILY_MAX_USERS } användare"
       ]
     },
     "Info calendar search": {
@@ -7190,6 +7229,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } anpassad domän",
+        "${ domains } anpassade domäner"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servrar"
+      ],
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "använd importassistenten Easy Switch"
       ]
     }
   }

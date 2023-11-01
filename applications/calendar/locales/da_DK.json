@@ -4229,6 +4229,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszone ser ud til at være ændret til ${ timezone }. Vil du opdatere din tidszone præferencer?"
+      ],
+      "${ storage } storage": [
+        "${ storage } lagerplads"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Prisen inkluderer alle gældende cyklusbaserede rabatter og kuponer, der ikke er udløbet, og som er gemt på din konto."
+      ],
+      "Total email addresses": [
+        "Samlet antal e-mailadresser"
+      ],
+      "Total storage": [
+        "Lagerplads i alt"
+      ],
+      "Total supported domains": [
+        "Samlet antal understøttede domæner"
+      ],
+      "Total VPN connections": [
+        "Samlet antal VPN-forbindelser"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Op til ${ FAMILY_MAX_USERS } brugere"
       ]
     },
     "Info calendar search": {
@@ -7190,6 +7211,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } brugerdomæne",
+        "${ domains } brugerdomæner"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servere"
+      ],
+      "${ users } user": [
+        "${ users } bruger",
+        "${ users } brugere"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } bruger",
+        "${ users } brugere"
       ]
     }
   }

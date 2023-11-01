@@ -638,6 +638,15 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "${ maxAttachments }件を超える連絡先のvCardファイルを送信できません。"
+      ],
+      "Continue with Outlook": [
+        "Outlook を続行する"
+      ],
+      "Import from Google": [
+        "Googleからインポート"
+      ],
+      "Import from Outlook": [
+        "Outlook からインポート"
       ]
     },
     "Action subline": {
@@ -2099,6 +2108,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "結合または保持する必要のない連絡先を削除するためにマークができます。 削除はマージボタンがクリックされた後にのみ行われます"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV および VCF ファイル経由でインポートする場合は、ファイルが ${ MAX_IMPORT_FILE_SIZE_STRING } または ${ MAX_IMPORT_CONTACTS_STRING } の連絡先を超えないようにしてください。 ファイルが大きい場合は、より小さいファイルに分割してください。 ${ learnMoreLink }。"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2581,6 +2593,9 @@
       ],
       "Your import will not be processed.": [
         "インポートできませんでした。"
+      ],
+      "Failed to get event": [
+        "イベントの取得に失敗しました"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2924,6 +2939,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "最大6人のユーザー"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } と ${ CALENDAR_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3068,6 +3092,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3082,6 +3109,9 @@
       ],
       "Megabytes": [
         "メガバイト"
+      ],
+      "Terabytes": [
+        "テラバイト"
       ]
     },
     "Filter notification": {
@@ -4144,6 +4174,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "システムのタイムゾーンが${ timezone }に変更されたようです。タイムゾーンの設定を更新しますか？"
+      ],
+      "${ storage } storage": [
+        "${ storage } ストレージ"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "価格には、適用されるすべてのサイクルベースの割引と、お客様のアカウントに保存されている有効期限内のクーポンが含まれています。"
+      ],
+      "Total email addresses": [
+        "総メールアドレス数"
+      ],
+      "Total storage": [
+        "総ストレージ容量"
+      ],
+      "Total supported domains": [
+        "総対応ドメイン数"
+      ],
+      "Total VPN connections": [
+        "総VPN接続数"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "最大 ${ FAMILY_MAX_USERS } ユーザーまで"
       ]
     },
     "Info calendar search": {
@@ -5741,6 +5792,18 @@
       ],
       "Support online privacy": [
         "オンラインプライバシーをサポート"
+      ],
+      "1 user": [
+        "1ユーザー"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } と ${ CALENDAR_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME }、${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
       ]
     },
     "specialoffer: Footer": {
@@ -5830,6 +5893,9 @@
       ],
       "30 months": [
         "30 か月"
+      ],
+      "${ n } months": [
+        "${ n } ヶ月"
       ]
     },
     "specialoffer: Title": {
@@ -6084,6 +6150,12 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "プレミアムパスワードマネージャー"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }と${ CALENDAR_SHORT_APP_NAME }プレミアム"
       ]
     },
     "summer2023: Tooltip": {
@@ -6980,6 +7052,27 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } のカスタム ドメイン"
+      ],
+      "${ ips } servers": [
+        "${ ips } のサーバー"
+      ],
+      "${ users } users": [
+        "${ users } のユーザー"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 人のユーザー"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switchインポートアシスタントを使用する"
       ]
     }
   }

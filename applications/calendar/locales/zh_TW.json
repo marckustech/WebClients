@@ -638,6 +638,15 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "您不能傳送有超過 ${ maxAttachments } 個聯絡人的 vCard 檔案"
+      ],
+      "Continue with Outlook": [
+        "使用 Outlook 繼續"
+      ],
+      "Import from Google": [
+        "從 Google 匯入"
+      ],
+      "Import from Outlook": [
+        "從 Outlook 匯入"
       ]
     },
     "Action subline": {
@@ -2099,6 +2108,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "您可以把既不合併也不保留的聯絡人標記為刪除。唯有在點擊「合併」按鈕時，才會執行刪除"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "從 Google 或 Outlook, ${ easySwitchLink } 來匯入你的聯絡人"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2581,6 +2593,9 @@
       ],
       "Your import will not be processed.": [
         "將不會處理您的匯入。"
+      ],
+      "Failed to get event": [
+        "取得活動失敗"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3077,6 +3092,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3091,6 +3109,9 @@
       ],
       "Megabytes": [
         "百萬位元組"
+      ],
+      "Terabytes": [
+        "TB"
       ]
     },
     "Filter notification": {
@@ -4153,6 +4174,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系統時區似乎已更改為 ${ timezone }。您要更新您的時區喜好設定嗎？"
+      ],
+      "${ storage } storage": [
+        "${ storage } 儲存空間"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "價格計入週期之下所有適用的折扣，以及儲存在您的帳號內未逾期的優惠券。"
+      ],
+      "Total email addresses": [
+        "可使用的電郵位址總數"
+      ],
+      "Total storage": [
+        "總儲存量"
+      ],
+      "Total supported domains": [
+        "可支援的網域總數"
+      ],
+      "Total VPN connections": [
+        "總 VPN 連線數量"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "多達 ${ FAMILY_MAX_USERS } 位使用者"
       ]
     },
     "Info calendar search": {
@@ -7010,6 +7052,22 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } 個自訂網域"
+      ],
+      "${ ips } servers": [
+        "${ ips } 台伺服器"
+      ],
+      "${ users } users": [
+        "${ users } 個使用者"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 個使用者"
       ]
     }
   }

@@ -3780,6 +3780,18 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Izḍi usrid n unagraw-inek·inem yettban yettusenfel ɣer ${ timezone }. Tebɣiḍ ad tleqqmeḍ asmenyif-inek·inem n yizḍi usrid?"
+      ],
+      "${ storage } storage": [
+        "${ storage } n uḥraz"
+      ],
+      "Total email addresses": [
+        "Asemday n tansiwin n yimayl"
+      ],
+      "Total storage": [
+        "Amḍiq n usekles amatu"
+      ],
+      "Total VPN connections": [
+        "Asemday n tuqqniwin VPN"
       ]
     },
     "Info message": {
@@ -6203,6 +6215,26 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } taɣult tudmawant",
+        "${ domains } tiɣula tudmawanin"
+      ],
+      "${ ips } server": [
+        "Aqeddac ${ ips }",
+        "${ ips } yiqeddacen"
+      ],
+      "${ users } user": [
+        "${ users } n useqdac",
+        "${ users } yiseqdacen"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } n useqdac",
+        "${ users } n yiseqdacen"
       ]
     }
   }

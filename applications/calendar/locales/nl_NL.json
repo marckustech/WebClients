@@ -4219,6 +4219,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Uw systeemtijdzone lijkt te zijn veranderd naar ${ timezone }. Wilt u uw voorkeur voor uw tijdzone bijwerken?"
+      ],
+      "${ storage } storage": [
+        "${ storage } opslag"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "De prijs is inclusief alle toepasselijke cyclusgebonden kortingen en geldige coupons die in uw account zijn opgeslagen."
+      ],
+      "Total email addresses": [
+        "Totaal e-mailadressen"
+      ],
+      "Total storage": [
+        "Totale opslagruimte"
+      ],
+      "Total supported domains": [
+        "Totaal ondersteunde domeinen"
+      ],
+      "Total VPN connections": [
+        "Totale VPN-verbindingen"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Tot ${ FAMILY_MAX_USERS } gebruikers"
       ]
     },
     "Info calendar search": {
@@ -7209,6 +7230,24 @@
       ],
       "High speed streaming": [
         "Streamen met hoge snelheid"
+      ],
+      "Access content worldwide": [
+        "Wereldwijd toegang tot content"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Alle betaalde functies van ${ MAIL_SHORT_APP_NAME } en ${ CALENDAR_APP_NAME }"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } en ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium wachtwoordmanager"
       ]
     },
     "bf2023: Footer": {
@@ -7251,6 +7290,39 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Bewaar tot 200 versies van elk bestand tot wel 10 jaar."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Bekijk geblokkeerde inhoud en surf privé. Met meer dan 3.000 servers in meer dan 65 landen, de hoogste VPN-snelheid, toegang tot wereldwijde streamingdiensten, malware- en advertentieblokkering, snelle BitTorrent-downloads en meer."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Omzeil plaatselijke internetblokkades en censuur met ons wereldwijde serversnetwerk."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Ondersteuning voor 1 aangepast e-maildomein, 10 e-mailadressen, 10 hide-my-email-aliassen, gedeelde agenda's en meer."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Ondersteuning voor 3 aangepaste e-maildomeinen, ${ addresses } e-mailadres, onbeperkt hide-my-email-aliassen, gedeelde agenda's en meer.",
+        "Ondersteuning voor 3 aangepaste e-maildomeinen, ${ addresses } e-mailadressen, onbeperkt hide-my-email-aliassen, gedeelde agenda's en meer."
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } eigen domein",
+        "${ domains } eigen domeinen"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servers"
+      ],
+      "${ users } user": [
+        "${ users } gebruiker",
+        "${ users } gebruikers"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } gebruiker",
+        "${ users } gebruikers"
       ]
     }
   }

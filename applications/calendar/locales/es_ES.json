@@ -238,7 +238,7 @@
         "Configuración del correo electrónico"
       ],
       "enable desktop notifications": [
-        "habilitar las notificaciones de escritorio"
+        "activar las notificaciones de escritorio"
       ],
       "Export": [
         "Exportar"
@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos.",
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos."
+      ],
+      "Continue with Outlook": [
+        "Continuar con Outlook"
+      ],
+      "Import from Google": [
+        "Importar desde Google"
+      ],
+      "Import from Outlook": [
+        "Importar desde Outlook"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puedes marcar los contactos que no quieres ni combinar ni mantener para eliminarlos. Se eliminarán solo después de que pulses el botón."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Para importar mediante CSV y VCF, asegúrate que el archivo no exceda de ${ MAX_IMPORT_FILE_SIZE_STRING } o de ${ MAX_IMPORT_CONTACTS_STRING } contactos. Si el archivo es grande, divídelo en archivos pequeños. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Para importar tus contactos desde Google u Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2124,17 +2139,17 @@
     },
     "Disabled calendar": {
       "Disabled": [
-        "Deshabilitado"
+        "Desactivado"
       ]
     },
     "Disabled calendar name suffix": {
       "Disabled": [
-        "Deshabilitado"
+        "Desactivado"
       ]
     },
     "Disabled calendar tooltip": {
       "The event belongs to a disabled calendar.": [
-        "El evento pertenece a un calendario deshabilitado."
+        "El evento pertenece a un calendario desactivado."
       ]
     },
     "Don't ask to update timezone checkbox label": {
@@ -2300,7 +2315,7 @@
         "Firma del contacto no verificada"
       ],
       "Content search cannot be enabled in this browser. Please quit private browsing mode or use another browser.": [
-        "No puedes habilitar la búsqueda de contenido en este navegador. Sal del modo de navegación privada o utiliza otro navegador."
+        "No puedes activar la búsqueda de contenido en este navegador. Sal del modo de navegación privada o utiliza otro navegador."
       ],
       "Decryption error: Decryption of this event's content failed.": [
         "Error de descifrado: no se ha podido descifrar el contenido de este evento."
@@ -2317,7 +2332,7 @@
         "Dominio no disponible. Inténtalo de nuevo más tarde."
       ],
       "Email address disabled": [
-        "Dirección de correo electrónico deshabilitada"
+        "Dirección de correo electrónico desactivada"
       ],
       "Email address is required": [
         "Dirección de correo electrónico requerida"
@@ -3331,16 +3346,16 @@
         "${ BRAND_NAME } no ha podido conectarse a tu cuenta de Yahoo. Asegúrate de que:"
       ],
       "2-step verification is enabled in your external account.": [
-        "La verificación en dos pasos está habilitada en tu cuenta externa."
+        "La verificación en dos pasos está activada en tu cuenta externa."
       ],
       "2-step verification is enabled in your external email account.": [
-        "La verificación en dos pasos está habilitada en tu cuenta de correo externa."
+        "La verificación en dos pasos está activada en tu cuenta de correo externa."
       ],
       "IMAP access is enabled in your external account.": [
-        "El acceso IMAP está habilitado en tu cuenta externa."
+        "El acceso IMAP está activado en tu cuenta externa."
       ],
       "IMAP access is enabled in your Yahoo account.": [
-        "El acceso IMAP está habilitado en tu cuenta de Yahoo Mail."
+        "El acceso IMAP está activado en tu cuenta de Yahoo Mail."
       ],
       "Too many recent requests. Please try again in a few moments.": [
         "Demasiadas solicitudes recientes. Inténtalo de nuevo en unos momentos."
@@ -3435,7 +3450,7 @@
         "contraseña de la aplicación"
       ],
       "app password or enable IMAP": [
-        "contraseña de la aplicación o habilitar IMAP"
+        "contraseña de la aplicación o activar IMAP"
       ],
       "CSV or a VCF (vCard) file": [
         "CSV o un archivo VCF (vCard)"
@@ -3591,7 +3606,7 @@
         "Se notificarán a los participantes añadidos y eliminados."
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
-        "La verificación de dirección con claves de confianza está habilitada para esta dirección. Para poder enviar a esta dirección, primero verifica las claves públicas que se pueden utilizar para enviar."
+        "La verificación de dirección con claves de confianza está activada para esta dirección. Para poder enviar a esta dirección, primero verifica las claves públicas que se pueden utilizar para enviar."
       ],
       "All (${ totalFoldersCount } folder)": [
         "Todo (${ totalFoldersCount } carpeta)",
@@ -4027,7 +4042,7 @@
         "Esta cuenta ha sido suspendida debido a una posible violación de los términos y condiciones."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Esta dirección está deshabilitada. Para enviar correos esta dirección, el propietario debe en primer lugar habilitar la dirección."
+        "Esta dirección está desactivada. Para enviar correos esta dirección, el propietario debe en primer lugar activar la dirección."
       ],
       "This event has been updated by the organizer. Would you like to change your answer only for this occurrence in this series?": [
         "El organizador ha actualizado este evento. ¿Quieres cambiar tu respuesta solo para este evento en esta serie?"
@@ -4204,10 +4219,10 @@
         "Tu cuenta tiene al menos una factura vencida. Tu cuenta está restringida. Las faltas de pago continuadas implicarán el bloqueo de tus correos y enlaces compartidos. ${ payInvoiceLink }"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete all events in this series anyway?": [
-        "Tu dirección está deshabilitada. No se puede enviar un correo electrónico de cancelación a los participantes del evento. ¿Quieres eliminar todos los eventos de esta serie de todos modos?"
+        "Tu dirección está desactivada. No se puede enviar un correo electrónico de cancelación a los participantes del evento. ¿Quieres eliminar todos los eventos de esta serie de todos modos?"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete this event anyway?": [
-        "Tu dirección está deshabilitada. No se puede enviar un correo electrónico de cancelación a los participantes del evento. ¿Quieres eliminar este evento de todos modos?"
+        "Tu dirección está desactivada. No se puede enviar un correo electrónico de cancelación a los participantes del evento. ¿Quieres eliminar este evento de todos modos?"
       ],
       "Your data is ready to import from ${ importedEmailAddressStrong } to your ${ BRAND_NAME } account.": [
         "Tus datos están listos para ser importados desde ${ importedEmailAddressStrong } a tu cuenta ${ BRAND_NAME }."
@@ -4229,6 +4244,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "La zona horaria del sistema parece haber cambiado a ${ timezone }. ¿Quieres actualizar tu preferencia de zona horaria?"
+      ],
+      "${ storage } storage": [
+        "${ storage } de almacenamiento"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "El precio incluye todos los descuentos aplicables según el ciclo de facturación y cupones sin expirar guardados en tu cuenta."
+      ],
+      "Total email addresses": [
+        "Direcciones de correo electrónico totales"
+      ],
+      "Total storage": [
+        "Almacenamiento total"
+      ],
+      "Total supported domains": [
+        "Total de dominios compatibles"
+      ],
+      "Total VPN connections": [
+        "Conexiones VPN totales"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Hasta ${ FAMILY_MAX_USERS } usuarios"
       ]
     },
     "Info calendar search": {
@@ -4276,7 +4312,7 @@
     },
     "Info; reshare calendar modal; part 1": {
       "Calendar sharing was disabled following your recent password reset.": [
-        "Se ha deshabilitado la compartición de calendarios al reciente restablecimiento de tu contraseña."
+        "Se ha desactivado la compartición de calendarios al reciente restablecimiento de tu contraseña."
       ]
     },
     "Info; reshare calendar modal; part 2": {
@@ -4825,7 +4861,7 @@
         "Re:"
       ],
       "Your free trial has ended. Access to your account will soon be disabled. ${ action }": [
-        "Tu periodo de prueba gratuito ha terminado. El acceso a tu cuenta será deshabilitado pronto. ${ action }"
+        "Tu periodo de prueba gratuito ha terminado. El acceso a tu cuenta será desactivado pronto. ${ action }"
       ]
     },
     "Message display when a new app version is available": {
@@ -6952,7 +6988,7 @@
         "Para acceder a este calendario compartido, activa esta dirección o pide a ${ boldCalendarOwnerEmail } que te envía una invitación a una dirección activa."
       ],
       "You cannot join this calendar because your invited email address (${ boldInvitedAddress }) is disabled.": [
-        "No puedes unirte a este calendario porque la dirección de correo invitada (${ boldInvitedAddress }) está deshabilitada."
+        "No puedes unirte a este calendario porque la dirección de correo invitada (${ boldInvitedAddress }) está desactivada."
       ]
     },
     "Weekly recurring event, frequency": {
@@ -7219,6 +7255,24 @@
       ],
       "High speed streaming": [
         "Transmisión de alta velocidad"
+      ],
+      "Access content worldwide": [
+        "Accede a contenido en todo el mundo"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Todas las funciones de pago de ${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_APP_NAME }"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
+      ],
+      "Premium Password Manager": [
+        "Administrador de contraseñas premium"
       ]
     },
     "bf2023: Footer": {
@@ -7261,6 +7315,44 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Almacena hasta 200 versiones de cada archivo durante 10 años como máximo."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Accede a contenido bloqueado y navega en privado. Tendrás a tu disposición más de 3000 servidores en más de 65 países, VPN de máxima velocidad, acceso a servicios de transmisión de todo el mundo, bloqueadores de malware y de anuncios, descargas rápidas de BitTorrent y mucho más."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Sortea la censura y bloqueos locales de Internet con nuestra red global de servidores."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Incluye compatibilidad con 1 dominio de correo electrónico personalizado, 10 direcciones de correo electrónico, 10 alias de hide-my-email, posibilidad de compartir calendario, etc."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } dirección de correo electrónico, alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc.",
+        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } direcciones de correo electrónico, alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc."
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } dominio personalizado",
+        "${ domains } dominios personalizados"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidores"
+      ],
+      "${ users } user": [
+        "${ users } usuario",
+        "${ users } usuarios"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuario",
+        "${ users } usuarios"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "utiliza el asistente de importación Easy Switch"
       ]
     }
   }

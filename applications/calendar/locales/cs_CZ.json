@@ -650,6 +650,12 @@
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
+      ],
+      "Import from Google": [
+        "Importovat z Google"
+      ],
+      "Import from Outlook": [
+        "Importovat z Outlooku"
       ]
     },
     "Action subline": {
@@ -2656,6 +2662,9 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude zpracován."
+      ],
+      "Failed to get event": [
+        "Nepodařilo se získat událost"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3164,6 +3173,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3190,6 +3202,12 @@
         "Megabajty",
         "Megabajtů",
         "Megabajtů"
+      ],
+      "Terabyte": [
+        "Terabajt",
+        "Terabajty",
+        "Terabajtů",
+        "Terabajtů"
       ]
     },
     "Filter notification": {
@@ -4351,6 +4369,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá se, že se vaše systémové časové pásmo změnilo na ${ timezone }. Chcete aktualizovat nastavení časového pásma?"
+      ],
+      "${ storage } storage": [
+        "${ storage } úložiště"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Cena zahrnuje všechny příslušné slevy na základě cyklu a kupóny, které nevypršely a jsou uložené na vašem účtu."
+      ],
+      "Total email addresses": [
+        "Celkem e-mailových adres"
+      ],
+      "Total storage": [
+        "Celkem prostoru"
+      ],
+      "Total supported domains": [
+        "Celkem vlastních domén"
+      ],
+      "Total VPN connections": [
+        "Celkem VPN připojení"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Až ${ FAMILY_MAX_USERS } uživatelů"
       ]
     },
     "Info calendar search": {
@@ -5899,10 +5938,10 @@
     },
     "session_recovery:in_progress:info": {
       "${ gracePeriodHoursRemaining } more hour": [
-        "Zbývá ${ gracePeriodHoursRemaining } hodina",
-        "Zbývají ${ gracePeriodHoursRemaining } hodiny",
-        "Zbývá ${ gracePeriodHoursRemaining } hodin",
-        "Zbývá ${ gracePeriodHoursRemaining } hodin"
+        "${ gracePeriodHoursRemaining } další hodina",
+        "${ gracePeriodHoursRemaining } další hodiny",
+        "${ gracePeriodHoursRemaining } dalších hodin",
+        "${ gracePeriodHoursRemaining } dalších hodin"
       ],
       "If you didn’t ask to reset your password, cancel this request now.": [
         "Pokud jste o obnovení hesla nepožádali, ihned zrušte tento požadavek."
@@ -7514,6 +7553,34 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } vlastní doména",
+        "${ domains } vlastní domény",
+        "${ domains } vlastních domén",
+        "${ domains } vlastních domén"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servery",
+        "${ ips } serverů",
+        "${ ips } serverů"
+      ],
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
       ]
     }
   }

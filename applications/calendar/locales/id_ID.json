@@ -638,6 +638,15 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Anda tidak dapat mengirim berkas vCard ke lebih dari ${ maxAttachments } kontak"
+      ],
+      "Continue with Outlook": [
+        "Lanjut dengan Outlook"
+      ],
+      "Import from Google": [
+        "Impor dari Google"
+      ],
+      "Import from Outlook": [
+        "Impor dari Outlook"
       ]
     },
     "Action subline": {
@@ -2099,6 +2108,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Anda dapat menandai kontak-kontak yang tidak ingin digabung atau disimpan. Penghapusan akan dilakukan setelah Anda menekan tombol gabung"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Untuk mengimpor kontak melalui berkas CSV dan VCF, pastikan berkas Anda tidak melebihi batas ukuran ${ MAX_IMPORT_FILE_SIZE_STRING } atau batas jumlah ${ MAX_IMPORT_CONTACTS_STRING } kontak. Apabila berkas Anda melebihi batas ukuran yang ada, silakan pecahkan berkas Anda ke beberapa berkas yang lebih kecil. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Untuk mengimpor kontak Anda dari Google atau Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2584,6 +2599,9 @@
       ],
       "Failed to get event": [
         "Acara gagal diperoleh"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Penerima yang dituju tidak mendukung berbagi kalender"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3080,6 +3098,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3094,6 +3115,9 @@
       ],
       "Megabytes": [
         "Megabyte"
+      ],
+      "Terabytes": [
+        "Terabyte"
       ]
     },
     "Filter notification": {
@@ -3256,7 +3280,7 @@
     },
     "Import contact. Contact identifier": {
       "unknown": [
-        "tidak dikenal"
+        "tidak diketahui"
       ]
     },
     "Import contacts warning": {
@@ -4156,6 +4180,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zona waktu sistem Anda sepertinya telah diubah menjadi ${ timezone }. Apakah Anda ingin memperbarui preferensi zona waktu Anda?"
+      ],
+      "${ storage } storage": [
+        "Kuota penyimpanan ${ storage }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Harga termasuk seluruh diskon berbasis siklus yang berlaku dan kupon tanpa tanggal berakhir yang disimpan di akun Anda."
+      ],
+      "Total email addresses": [
+        "Total alamat surel"
+      ],
+      "Total storage": [
+        "Total kuota penyimpanan"
+      ],
+      "Total supported domains": [
+        "Total domain yang didukung"
+      ],
+      "Total VPN connections": [
+        "Total koneksi VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Hingga ${ FAMILY_MAX_USERS } pengguna"
       ]
     },
     "Info calendar search": {
@@ -7013,6 +7058,27 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } domain khusus"
+      ],
+      "${ ips } servers": [
+        "${ ips } server"
+      ],
+      "${ users } users": [
+        "${ users } pengguna"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } pengguna"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "gunakan alat bantu impor Easy Switch"
       ]
     }
   }

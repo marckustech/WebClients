@@ -3109,6 +3109,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4222,6 +4225,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sembla que el fus horari del sistema ha canviat a ${ timezone }. Voleu actualitzar la vostra preferència de fus horari?"
+      ],
+      "${ storage } storage": [
+        "${ storage } d'emmagatzematge"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "El preu inclou tots els descomptes basats en cicles aplicables i els cupons no caducats desats al vostre compte."
+      ],
+      "Total email addresses": [
+        "Adreces de correu totals"
+      ],
+      "Total storage": [
+        "Emmagatzematge"
+      ],
+      "Total supported domains": [
+        "Dominis suportats totals"
+      ],
+      "Total VPN connections": [
+        "Connexions VPN totals"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Fins a ${ FAMILY_MAX_USERS } usuaris"
       ]
     },
     "Info calendar search": {
@@ -7183,6 +7207,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domini personalitzat",
+        "${ domains } dominis personalitzats"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidors"
+      ],
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
       ]
     }
   }

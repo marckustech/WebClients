@@ -650,6 +650,15 @@
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам",
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам",
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам"
+      ],
+      "Continue with Outlook": [
+        "Працягнуць з Outlook"
+      ],
+      "Import from Google": [
+        "Імпартаваць з Google"
+      ],
+      "Import from Outlook": [
+        "Імпартаваць з Outlook"
       ]
     },
     "Action subline": {
@@ -2138,6 +2147,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можаце пазначыць тыя кантакты, якія вы не хочаце аб'яднаць і пакідаць. Выдаленне адбываецца толькі пасля націску кнопкі аб'яднання"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Пераканайцеся, што файл не перавышае аб'ем у ${ MAX_IMPORT_FILE_SIZE_STRING } або ${ MAX_IMPORT_CONTACTS_STRING } кантакты для імпартавання праз файл CSV і VCF. Раздзяліце яго на меншыя часткі, калі файл перавышае максімальны аб'ём. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Для імпартавання вашых кантактаў з Google або Outlook, ${ easySwitchLink }"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -4363,6 +4378,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Падобна, што ваш часавы пояс змяніўся на ${ timezone }. Вы сапраўды хочаце абнавіць налады вашага часавога пояса?"
+      ],
+      "${ storage } storage": [
+        "${ storage } сховішча"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Кошт уключае ўсе падыходзячыя (не пратэрмінаваныя) купоны, якія захаваны ў вашым уліковым запісе."
+      ],
+      "Total email addresses": [
+        "Колькасць адрасоў электроннай пошты"
+      ],
+      "Total storage": [
+        "Агульны аб'ём сховішча"
+      ],
+      "Total supported domains": [
+        "Колькасць даменаў, якія падтрымліваюцца"
+      ],
+      "Total VPN connections": [
+        "Колькасць падключэнняў па VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Да ${ FAMILY_MAX_USERS } карыстальнікаў"
       ]
     },
     "Info calendar search": {
@@ -7526,6 +7562,39 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } карыстальніцкі дамен",
+        "${ domains } карыстальніцкія дамены",
+        "${ domains } карыстальніцкіх даменаў",
+        "${ domains } карыстальніцкіх даменаў"
+      ],
+      "${ ips } server": [
+        "${ ips } сервер",
+        "${ ips } серверы",
+        "${ ips } сервераў",
+        "${ ips } сервераў"
+      ],
+      "${ users } user": [
+        "${ users } карыстальнік",
+        "${ users } карыстальнікі",
+        "${ users } карыстальнікаў",
+        "${ users } карыстальнікаў"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } карыстальнік",
+        "${ users } карыстальнікі",
+        "${ users } карыстальнікаў",
+        "${ users } карыстальнікі"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "скарыстайцеся памочнікам імпартавання Easy Switch"
       ]
     }
   }

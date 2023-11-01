@@ -4219,6 +4219,27 @@
       ],
       "Please note that addresses assigned to these groups will NOT be deleted.": [
         "Por favor, note que os endereços atribuídos a estes grupos NÃO serão eliminados."
+      ],
+      "${ storage } storage": [
+        "${ storage } de armazenamento"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "O preço inclui todos os descontos aplicáveis com base no ciclo e cupões não expirados guardados na sua conta."
+      ],
+      "Total email addresses": [
+        "Total de endereços de e-mail"
+      ],
+      "Total storage": [
+        "Total de armazenamento"
+      ],
+      "Total supported domains": [
+        "Total de domínios suportados"
+      ],
+      "Total VPN connections": [
+        "Total de ligações VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Até ${ FAMILY_MAX_USERS } utilizadores"
       ]
     },
     "Info calendar search": {
@@ -7176,6 +7197,26 @@
     "session_recovery:sign_out:title": {
       "Sign out without password reset?": [
         "Terminar sessão sem repor a palavra-passe?"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domínio personalizado",
+        "${ domains } domínios personalizados"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidores"
+      ],
+      "${ users } user": [
+        "${ users } utilizador",
+        "${ users } utilizadores"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } utilizador",
+        "${ users } utilizadores"
       ]
     }
   }

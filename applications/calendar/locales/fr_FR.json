@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Vous ne pouvez pas envoyer de fichiers vCard contenant plus de ${ maxAttachments } contact.",
         "Vous ne pouvez pas envoyer de fichiers vCard contenant plus de ${ maxAttachments } contacts."
+      ],
+      "Continue with Outlook": [
+        "Continuer avec Outlook"
+      ],
+      "Import from Google": [
+        "Importer depuis Google"
+      ],
+      "Import from Outlook": [
+        "Importer depuis Outlook"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Vous pouvez marquer pour suppression les contacts que vous ne voulez ni fusionner ni conserver. Leur suppression n'aura lieu qu'après avoir cliqué sur le bouton de fusion."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Pour effectuer une importation à l'aide d'un fichier CSV ou VCF, assurez-vous que le fichier ne dépasse pas ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contacts. Si votre fichier est plus grand, découpez-le en fichiers plus petits. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Pour importer vos contacts depuis Google ou Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -4229,6 +4244,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Le fuseau horaire de votre système semble avoir changé pour ${ timezone }. Voulez-vous mettre à jour votre préférence de fuseau horaire ?"
+      ],
+      "${ storage } storage": [
+        "${ storage } d'espace de stockage"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Le prix comprend toutes les réductions applicables et les codes promotionnels non expirés qui sont enregistrés sur votre compte."
+      ],
+      "Total email addresses": [
+        "Nombre total d'adresses e-mail"
+      ],
+      "Total storage": [
+        "Espace de stockage total"
+      ],
+      "Total supported domains": [
+        "Nombre total de domaines pris en charge"
+      ],
+      "Total VPN connections": [
+        "Nombre total de connexions VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Jusqu'à ${ FAMILY_MAX_USERS } utilisateurs"
       ]
     },
     "Info calendar search": {
@@ -7216,6 +7252,27 @@
       ],
       "High speed streaming": [
         "Streaming ultra rapide"
+      ],
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus et ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Access content worldwide": [
+        "Accès aux contenus dans le monde entier"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Toutes les fonctionnalités payantes de ${ MAIL_SHORT_APP_NAME } et ${ CALENDAR_APP_NAME }"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } version premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } et ${ CALENDAR_SHORT_APP_NAME } version premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } version premium"
+      ],
+      "Premium Password Manager": [
+        "Gestionnaire de mots de passe version premium"
       ]
     },
     "bf2023: Footer": {
@@ -7247,6 +7304,55 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Conservez jusqu'à 200 versions de chaque fichier pendant 10 ans."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Accédez aux contenus bloqués et naviguez de manière privée. Comprend plus de 3 000 serveurs répartis dans plus de 65 pays, les vitesses VPN les plus élevées, l'accès aux services de streaming dans le monde entier, un bloqueur de publicité, la protection contre les logiciels malveillants, des téléchargements BitTorrent rapides et bien d'autres fonctionnalités."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Contournez les blocages et la censure locale sur internet grâce à notre réseau mondial de serveurs."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Comprend la prise en charge de 1 domaine de messagerie personnalisé, de 10 adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Cela comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresse e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités.",
+        "Cela comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Sécurisez vos connexions sur tous vos appareils. Comprend un nombre illimité d'alias, le partage, l'authentification à deux facteurs (A2F) intégrée et bien d'autres fonctionnalités."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Sécurisez vos fichiers grâce au stockage cloud chiffré. Comprend l'historique des versions, le partage de fichiers chiffrés et de bien d'autres fonctionnalités."
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domaine personnalisé",
+        "${ domains } domaines personnalisés"
+      ],
+      "${ ips } server": [
+        "${ ips } serveur",
+        "${ ips } serveurs"
+      ],
+      "${ users } user": [
+        "${ users } utilisateur",
+        "${ users } utilisateurs"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantie satisfait ou remboursé pendant 30 jours"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } utilisateur",
+        "${ users } utilisateurs"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "utilisez l'assistant d'importation Easy Switch"
       ]
     }
   }

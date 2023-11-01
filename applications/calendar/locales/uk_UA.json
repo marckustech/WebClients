@@ -1036,7 +1036,7 @@
     },
     "Calendar view selector": {
       "Change time range": [
-        "Діапазон зміни часу"
+        "Змінити проміжок часу"
       ],
       "Change time range to": [
         "Змінити проміжок часу на"
@@ -2128,7 +2128,7 @@
         "Файл повинен мати максимальний розмір ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_CONTACTS_STRING } контактів. Якщо ваш файл більший, розділіть його на менші файли."
       ],
       "This can take a few minutes. Meanwhile, you can continue using Calendar as usual.": [
-        "Це може зайняти декілька хвилин. Тим часом можете продовжувати користуватися Proton Calendar."
+        "Це може тривати декілька хвилин. Тим часом можете користуватися Proton Calendar."
       ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Використовуйте перетягування для пріоритету об'єднання між контактами. Приберіть позначку з тих контактів, які ви не хочете об'єднувати."
@@ -4339,11 +4339,32 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Схоже, системний часовий пояс змінено на ${ timezone }. Хочете оновити налаштування часового поясу?"
+      ],
+      "${ storage } storage": [
+        "${ storage } сховища"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Ціна включає усі повторювані знижки та чинні купони вашого облікового запису."
+      ],
+      "Total email addresses": [
+        "Усього адрес електронної пошти"
+      ],
+      "Total storage": [
+        "Усього сховища"
+      ],
+      "Total supported domains": [
+        "Усього підтримуваних доменів"
+      ],
+      "Total VPN connections": [
+        "Усього VPN-з'єднань"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "До ${ FAMILY_MAX_USERS } користувачів"
       ]
     },
     "Info calendar search": {
       "You can either update your search query or close search to go back to calendar views": [
-        "Ви можете або оновити ваш пошуковий запит, або закрити пошук та перейти назад до перегляду календаря."
+        "Ви можете оновити пошуковий запит або закрити пошук та повернутися до перегляду календаря."
       ]
     },
     "Info message": {
@@ -4742,10 +4763,10 @@
         "Показати пароль"
       ],
       "Secondary": [
-        "Другий"
+        "Додатковий"
       ],
       "Secondary time zone": [
-        "Другий часовий пояс"
+        "Додатковий часовий пояс"
       ],
       "Show week numbers": [
         "Показати номери тижня"
@@ -5835,7 +5856,7 @@
     },
     "Shared calendar; Info about calendar owner": {
       "Shared by ${ ownerName }": [
-        "Спільне використання ${ ownerName }"
+        "Надано спільний доступ від ${ ownerName }"
       ]
     },
     "Sidebar calendar edit tooltip": {
@@ -7316,6 +7337,34 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } власний домен",
+        "${ domains } власні домени",
+        "${ domains } власних доменів",
+        "${ domains } власних доменів"
+      ],
+      "${ ips } server": [
+        "${ ips } сервер",
+        "${ ips } сервери",
+        "${ ips } серверів",
+        "${ ips } серверів"
+      ],
+      "${ users } user": [
+        "${ users } користувач",
+        "${ users } користувачі",
+        "${ users } користувачів",
+        "${ users } користувачів"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } користувач",
+        "${ users } користувачі",
+        "${ users } користувачів",
+        "${ users } користувача"
       ]
     }
   }

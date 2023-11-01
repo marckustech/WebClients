@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kannst nur vCard-Dateien versenden, die höchstens ${ maxAttachments } Kontakt enthalten.",
         "Du kannst nur vCard-Dateien versenden, die höchstens ${ maxAttachments } Kontakte enthalten."
+      ],
+      "Continue with Outlook": [
+        "Mit Outlook fortfahren"
+      ],
+      "Import from Google": [
+        "Von Google importieren"
+      ],
+      "Import from Outlook": [
+        "Von Outlook importieren"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kannst Kontakte, die du weder zusammenführen noch behalten willst, zum Löschen vormerken. Das Löschen erfolgt erst, wenn du auf die Schaltfläche „Zusammenführen“ klickst."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Achte beim Import von CSV- und VCF-Dateien darauf, dass die Datei nicht größer ist als ${ MAX_IMPORT_FILE_SIZE_STRING } oder mehr als ${ MAX_IMPORT_CONTACTS_STRING } Kontakte enthält. Falls deine Datei größer ist, teile sie bitte in kleinere Dateien auf. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Verwende zum Importieren deiner Kontakte von Google oder Outlook ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3133,7 +3148,7 @@
       ],
       "Terabyte": [
         "Terabyte",
-        "Terabytes"
+        "Terabyte"
       ]
     },
     "Filter notification": {
@@ -4229,6 +4244,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Deine Systemzeitzone scheint sich auf ${ timezone } geändert zu haben. Möchtest du deine Zeitzoneneinstellung aktualisieren?"
+      ],
+      "${ storage } storage": [
+        "${ storage } Speicherplatz"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Der Preis beinhaltet alle anwendbaren zyklusbasierten Rabatte und nicht abgelaufenen Coupons, die auf deinem Konto gespeichert sind."
+      ],
+      "Total email addresses": [
+        "Anzahl E-Mail-Adressen"
+      ],
+      "Total storage": [
+        "Gesamter Speicherplatz"
+      ],
+      "Total supported domains": [
+        "Anzahl unterstützter Domains"
+      ],
+      "Total VPN connections": [
+        "Anzahl VPN‐Verbindungen"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Bis zu ${ FAMILY_MAX_USERS } Benutzer"
       ]
     },
     "Info calendar search": {
@@ -7219,6 +7255,24 @@
       ],
       "High speed streaming": [
         "Hochgeschwindigkeits-Streaming"
+      ],
+      "Access content worldwide": [
+        "Weltweit auf Inhalte zugreifen"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Alle kostenpflichtigen ${ MAIL_SHORT_APP_NAME }- und ${ CALENDAR_APP_NAME }-Funktionen"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium-${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium-${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium-${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium-Passwortmanager"
       ]
     },
     "bf2023: Footer": {
@@ -7261,6 +7315,44 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Speichere bis zu 200 Versionen jeder Datei für einen Zeitraum von bis zu 10 Jahren."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Greife auf blockierte Inhalte zu und surfe privat. Umfasst mehr als 3.000 Server in über 65 Ländern, höchste VPN-Geschwindigkeiten, Zugriff auf weltweite Streaming-Dienste, Malware- und Werbeblocker, schnelle BitTorrent-Downloads und mehr."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Umgehe lokale Internetsperren und Zensuren mit unserem globalen Servernetz."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Beinhaltet Unterstützung für eine eigene E-Mail-Domain, 10 E-Mail-Adressen, 10 „hide-my-email“-Aliasse, Kalenderfreigabe und mehr."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Beinhaltet Unterstützung für 3 benutzerdefinierte E-Mail-Domänen, ${ addresses } E-Mail-Adresse, unbegrenzte „hide-my-email“-Aliase, Kalenderfreigabe und mehr.",
+        "Beinhaltet Unterstützung für 3 benutzerdefinierte E-Mail-Domänen, ${ addresses } E-Mail-Adressen, unbegrenzte „hide-my-email“-Aliase, Kalenderfreigabe und mehr."
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } eigene Domain",
+        "${ domains } eigene Domains"
+      ],
+      "${ ips } server": [
+        "${ ips } Server",
+        "${ ips } Server"
+      ],
+      "${ users } user": [
+        "${ users } Benutzer",
+        "${ users } Benutzer"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } Benutzer",
+        "${ users } Benutzer"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "den Easy Switch-Importassistenten"
       ]
     }
   }

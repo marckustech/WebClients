@@ -4333,6 +4333,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Похоже, что ваш часовой пояс изменился на ${ timezone }. Вы хотите обновить настройки часового пояса?"
+      ],
+      "${ storage } storage": [
+        "${ storage } хранилища"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Стоимость указана с учетом всех применимых циклических скидок и не истекших купонов, сохраненных в вашем аккаунте."
+      ],
+      "Total email addresses": [
+        "Всего адресов электронной почты"
+      ],
+      "Total storage": [
+        "Общий объем хранилища"
+      ],
+      "Total supported domains": [
+        "Всего поддерживаемых доменов"
+      ],
+      "Total VPN connections": [
+        "Всего подключений к VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "До ${ FAMILY_MAX_USERS } пользователей"
       ]
     },
     "Info calendar search": {
@@ -7404,6 +7425,24 @@
       ],
       "High speed streaming": [
         "Высокоскоростной стриминг"
+      ],
+      "Access content worldwide": [
+        "Доступ к контенту по всему миру"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Все платные функции ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_APP_NAME }"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Платная версия ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Платные версии ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Платная версия ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Платная версия менеджера паролей"
       ]
     },
     "bf2023: Footer": {
@@ -7446,6 +7485,37 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Храните до 200 версий каждого файла сроком до 10 лет."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Сохраняйте конфиденциальность в Интернете и получайте доступ к заблокированному контенту. Мы предлагаем свыше 3000 серверов более чем в 65 странах, высокую скорость VPN-подключения, доступ к стриминговым платформам со всего мира, защиту от вирусов, блокировщик рекламы, быстрое скачивание через BitTorrent и многое другое."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Обходите локальные блокировки Интернета и цензуру с помощью нашей глобальной сети серверов."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Включает поддержку 1 пользовательского домена, 10 адресов электронной почты, 10 алиасов hide-my-email, совместный доступ к календарю и другие преимущества."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адрес электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адреса электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адресов электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адресов электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества."
+      ]
+    },
+    "Addon": {
+      "${ users } user": [
+        "${ users } пользователь",
+        "${ users } пользователя",
+        "${ users } пользователей",
+        "${ users } пользователей"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } пользователь",
+        "${ users } пользователя",
+        "${ users } пользователей",
+        "${ users } пользователей"
       ]
     }
   }

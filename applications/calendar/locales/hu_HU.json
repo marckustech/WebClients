@@ -642,6 +642,15 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt",
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt"
+      ],
+      "Continue with Outlook": [
+        "Folytassa az Outlookkal"
+      ],
+      "Import from Google": [
+        "Importálás a Google-ból"
+      ],
+      "Import from Outlook": [
+        "Importálás az Outlookból"
       ]
     },
     "Action subline": {
@@ -2112,6 +2121,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Amelyekből egyiket sem szeretné megtartani, azokat törlésre jelölheti. A törlés az egyesítés gomb megnyomása után fog megtörténni"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV- és VCF-fájlon keresztüli importálás esetén ügyeljen arra, hogy a fájl ne haladja meg a ${ MAX_IMPORT_FILE_SIZE_STRING } vagy a ${ MAX_IMPORT_CONTACTS_STRING } névjegyet. Ha a fájl nagyobb, ossza fel kisebb fájlokra. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Névjegyeinek importálásához a Google-ból vagy az Outlookból: ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2606,6 +2621,12 @@
       ],
       "Your import will not be processed.": [
         "Az importálás nem lesz feldolgozva."
+      ],
+      "Failed to get event": [
+        "Nem sikerült betölteni az eseményt"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "A kívánt címzett nem támogatja a naptármegosztást"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3106,6 +3127,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3124,6 +3148,10 @@
       "Megabyte": [
         "Megabájt",
         "Megabájt"
+      ],
+      "Terabyte": [
+        "Terabájt",
+        "Terabájt"
       ]
     },
     "Filter notification": {
@@ -4216,6 +4244,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Úgy tűnik, hogy a rendszer időzónája ${ timezone } -re változott. Szeretne erre az időzónára frissíteni?"
+      ],
+      "${ storage } storage": [
+        "${ storage } tárhely"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Az ár tartalmaz minden vonatkozó, megújulás-alapú kedvezményt és a fiókjában mentett, le nem járt kupont."
+      ],
+      "Total email addresses": [
+        "Összes e-mail cím"
+      ],
+      "Total storage": [
+        "Összes tárhely"
+      ],
+      "Total supported domains": [
+        "Összes támogatott domain név"
+      ],
+      "Total VPN connections": [
+        "Összes VPN kapcsolat"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Legfeljebb ${ FAMILY_MAX_USERS } felhasználó"
       ]
     },
     "Info calendar search": {
@@ -7177,6 +7226,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } saját domain név",
+        "${ domains } saját domain név"
+      ],
+      "${ ips } server": [
+        "${ ips } szerver",
+        "${ ips } szerver"
+      ],
+      "${ users } user": [
+        "${ users } felhasználó",
+        "${ users } felhasználó"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } felhasználó",
+        "${ users } felhasználó"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "használja az Easy Switch importálási asszisztenst"
       ]
     }
   }

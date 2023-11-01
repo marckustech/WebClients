@@ -2606,6 +2606,9 @@
       ],
       "Your import will not be processed.": [
         "თქვენი შემოტანა არ დამუშავდება."
+      ],
+      "Failed to get event": [
+        "მოვლენის მიღება ჩავარდა"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3106,6 +3109,9 @@
       ],
       "MB": [
         "მბ"
+      ],
+      "TB": [
+        "ტბ"
       ]
     },
     "file size format, long": {
@@ -3124,6 +3130,10 @@
       "Megabyte": [
         "მეგაბაიტი",
         "მეგაბაიტი"
+      ],
+      "Terabyte": [
+        "ტერაბაიტი",
+        "ტერაბაიტი"
       ]
     },
     "Filter notification": {
@@ -4219,6 +4229,27 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "თქვენი სისტემის დროის სარტყელი, როგორც ჩანს, შეიცვალა ${ timezone }-ზე. გსურთ, განაახლოთ თქვენი დროის სარტყელის პარამეტრი?"
+      ],
+      "${ storage } storage": [
+        "${ storage } საცავი"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "ფასი შეიცავს ყველა შესაბამის ციკლზე-ბაზირებულ ფასდაკლებებს და ვადაგაუსვლელ კუპონებს, რომლებიც თქვენს ანგარიშზე გაქვთ შენახული."
+      ],
+      "Total email addresses": [
+        "ელფოსტები სულ"
+      ],
+      "Total storage": [
+        "სრული საცავი"
+      ],
+      "Total supported domains": [
+        "მხარდაჭერილი დომენები სულ"
+      ],
+      "Total VPN connections": [
+        "VPN შეერთებები სულ"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "${ FAMILY_MAX_USERS }-მდე მომხმარებელი"
       ]
     },
     "Info calendar search": {
@@ -7180,6 +7211,26 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } მომხმარებლის დომენი",
+        "${ domains } მომხმარებლის დომენი"
+      ],
+      "${ ips } server": [
+        "${ ips } სერვერი",
+        "${ ips } სერვერი"
+      ],
+      "${ users } user": [
+        "${ users } მომხმარებელი",
+        "${ users } მომხმარებელი"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } მომხმარებელი",
+        "${ users } მომხმარებელი"
       ]
     }
   }

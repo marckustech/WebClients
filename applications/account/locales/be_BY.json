@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Keep my Plus subscription": [
+        "Пакінуць падпіску на Plus"
       ]
     },
     "action": {
@@ -3974,6 +3977,9 @@
       ],
       "Zero keys reactivated": [
         "Нуль ключоў паўторна актывавана"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "У прызначанага атрымальніка недаступна функцыя абагулення календара"
       ]
     },
     "Error importing calendar": {
@@ -5728,10 +5734,10 @@
         "яшчэ ${ remainingAddresses.length }"
       ],
       "${ remainingAddresses.length } more address": [
-        "Яшчэ ${ remainingAddresses.length } адрас",
-        "Яшчэ ${ remainingAddresses.length } адрасы",
-        "Яшчэ ${ remainingAddresses.length } адрасоў",
-        "Яшчэ ${ remainingAddresses.length } адрасоў"
+        "яшчэ ${ remainingAddresses.length } адрас",
+        "яшчэ ${ remainingAddresses.length } адрасы",
+        "яшчэ ${ remainingAddresses.length } адрасоў",
+        "яшчэ ${ remainingAddresses.length } адрасоў"
       ],
       "${ selectedCalendarsTotal } of ${ providerCalendars.length } calendar": [
         "${ selectedCalendarsTotal } з ${ providerCalendars.length } календара",
@@ -7892,6 +7898,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Калі вы скасуеце, ваша падпіска ${ planTitle } не будзе падоўжана пасля завяршэння тэрміну яе дзеяння ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Вы страціце доступ да функцыі Plus пасля наступлення гэтай даты."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Вы страціце доступ да сервераў і функцыі Plus пасля наступлення гэтай даты."
       ]
     },
     "info": {
@@ -11300,6 +11315,15 @@
       ],
       "Upgrade my plan": [
         "Палепшыць мой тарыфны план"
+      ],
+      "Continue to ${ appName } without upgrading": [
+        "Працягнуць у ${ appName } без паляпшэння"
+      ],
+      "Keep this plan": [
+        "Пакінуць гэты тарыфны план"
+      ],
+      "Upgrade": [
+        "Палепшыць"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11489,6 +11513,21 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "У вашай арганізацыі ёсць доступ да ${ free }. Калі вы хочаце атрымаць прэміяльныя функцыі ${ appName }, папрасіце адміністратара сваёй арганізацыі абнавіць тарыфны план."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "Палепшыце свой тарыфны план да **${ upsellPlanTitle }** і атрымайце скідку ў памеры ${ discount }. Гэта ўсяго на ${ relativePrice } больш, чым вы плаціце цяпер."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "Палепшыце свой тарыфны план да **${ upsellPlanTitle }** і атрымайце скідку ў памеры ${ discount }."
+      ],
+      "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }**.": [
+        "Але вы можаце разблакіраваць **${ unlockPlanTitle }** і ўсе прэміяльныя функцыі сэрвісаў ${ BRAND_NAME } , палепшыўшы да **${ upsellPlanTitle }**."
+      ],
+      "Includes:": [
+        "Уключае:"
+      ],
+      "Welcome to ${ shortName } Plus": [
+        "Вітаем у ${ shortName } Plus"
       ]
     },
     "pass_signup_2023: Title": {

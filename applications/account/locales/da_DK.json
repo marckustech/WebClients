@@ -7329,6 +7329,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dit abonnement håndteres af Mozilla. Kontakt venligst Mozilla-support."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Hvis du annullerer, vil dit ${ planTitle }-abonnement ikke blive fornyet, når det udløber ${ expiryDate }."
+      ],
+      "This promotion link has expired.": [
+        "Dette promoveringslink er udløbet."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Du vil miste adgangen til Plus-funktioner på denne dato."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Du vil miste adgangen til Plus-servere og funktioner på denne dato."
       ]
     },
     "info": {

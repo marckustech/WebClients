@@ -1335,6 +1335,12 @@
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
         "Abonnez-vous pour 15 mois et profitez de notre **gestionnaire de mots de passe chiffré** pour seulement ${ priceNoSuffix } de plus par mois."
+      ],
+      "Cancel": [
+        "Annuler"
+      ],
+      "Close": [
+        "Fermer"
       ]
     },
     "bf2023: Deal details": {
@@ -1406,6 +1412,12 @@
       ],
       "Secure browsing and premium VPN features.": [
         "Navigation sécurisée et fonctionnalités premium du VPN."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Désolé, cette offre n'est pas disponible avec ton plan actuel."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Désolé, cette offre n'est pas disponible avec ton plan actuel. Mais tu peux obtenir **${ discountPercentage } de réduction sur ${ plan.Title }** lorsque tu t'abonnes pour **${ months }**."
       ]
     },
     "bf2023: Info": {
@@ -4124,6 +4136,9 @@
       ],
       "Zero keys reactivated": [
         "Aucune clé n'est réactivée."
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Votre destinataire ne prend pas en charge le partage de calendrier."
       ]
     },
     "Error importing calendar": {
@@ -11442,6 +11457,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Votre organisation a accès à ${ free }. Pour profiter des fonctionnalités premium de ${ appName }, demandez à l'administrateur de votre organisation de changer d'abonnement."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "Vous pouvez toutefois obtenir -${ discount } en passant à **${ upsellPlanTitle }** pour seulement ${ relativePrice } en plus par mois."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "Vous pouvez toutefois obtenir -${ discount } en passant à **${ upsellPlanTitle }**."
       ]
     },
     "pass_signup_2023: Title": {
@@ -14888,6 +14909,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Offre non disponible"
       ]
     }
   }

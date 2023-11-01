@@ -666,6 +666,12 @@
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
         "15 aylık abone olarak **şifrelenmiş parola yöneticimizi** ayda tarifenize ek sadece ${ priceNoSuffix } ile edinin!"
+      ],
+      "Cancel": [
+        "İptal"
+      ],
+      "Close": [
+        "Kapat"
       ]
     },
     "bf2023: Deal details": {
@@ -737,6 +743,12 @@
       ],
       "Secure browsing and premium VPN features.": [
         "İnternette güvenli gezinin ve ücretli VPN özelliklerine erişin."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Üzgünüz, bu teklif mevcut tarifeniz için geçerli değil."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Üzgünüz, bu teklif mevcut tarifeniz için geçerli değil fakat **${ months }** için **${ plan.Title } tarifesine abone olduğunuzda ${ discountPercentage }** indirim elde edebilirsiniz."
       ]
     },
     "bf2023: Offers": {
@@ -7477,6 +7489,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Teklif bulunamadı"
       ]
     }
   }

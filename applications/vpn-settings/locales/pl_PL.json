@@ -675,6 +675,12 @@
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
         "Subskrybuj na 15 miesięcy i uzyskaj **menedżer haseł szyfrowanych** za jedyne ${ priceNoSuffix } dodatkowo miesięcznie!"
+      ],
+      "Cancel": [
+        "Anuluj"
+      ],
+      "Close": [
+        "Zamknij"
       ]
     },
     "bf2023: Deal details": {
@@ -746,6 +752,12 @@
       ],
       "Secure browsing and premium VPN features.": [
         "Bezpieczne przeglądanie i funkcje VPN premium."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Przepraszamy, ta oferta nie jest dostępna w ramach bieżącego planu."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Przepraszamy, ta oferta nie jest dostępna w ramach bieżącego planu. Możesz jednak otrzymać **${ discountPercentage }} zniżki od ${ plan.Title }** przy subskrypcji na **${ months }**."
       ]
     },
     "bf2023: Offers": {
@@ -7723,6 +7735,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Darmowa wersja próbna zakończy się ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Oferta niedostępna"
       ]
     }
   }

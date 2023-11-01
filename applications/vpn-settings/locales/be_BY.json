@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Keep my Plus subscription": [
+        "Пакінуць падпіску на Plus"
       ]
     },
     "Action subscription": {
@@ -2647,10 +2650,10 @@
         "яшчэ ${ remainingAddresses.length }"
       ],
       "${ remainingAddresses.length } more address": [
-        "Яшчэ ${ remainingAddresses.length } адрас",
-        "Яшчэ ${ remainingAddresses.length } адрасы",
-        "Яшчэ ${ remainingAddresses.length } адрасоў",
-        "Яшчэ ${ remainingAddresses.length } адрасоў"
+        "яшчэ ${ remainingAddresses.length } адрас",
+        "яшчэ ${ remainingAddresses.length } адрасы",
+        "яшчэ ${ remainingAddresses.length } адрасоў",
+        "яшчэ ${ remainingAddresses.length } адрасоў"
       ],
       "${ storage } storage": [
         "${ storage } сховішча"
@@ -3824,6 +3827,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Калі вы скасуеце, ваша падпіска ${ planTitle } не будзе падоўжана пасля завяршэння тэрміну яе дзеяння ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Вы страціце доступ да функцыі Plus пасля наступлення гэтай даты."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Вы страціце доступ да сервераў і функцыі Plus пасля наступлення гэтай даты."
       ]
     },
     "Info for cash payment method": {

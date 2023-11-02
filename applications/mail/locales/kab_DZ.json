@@ -5394,6 +5394,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Uṭṭun-ik n tiliɣṛi ad yettwaseqdec kan tikkelt deg usenqed-agi."
+      ],
+      "${ storage } storage": [
+        "${ storage } n uḥraz"
+      ],
+      "Total email addresses": [
+        "Asemday n tansiwin n yimayl"
+      ],
+      "Total storage": [
+        "Amḍiq n usekles amatu"
+      ],
+      "Total VPN connections": [
+        "Asemday n tuqqniwin VPN"
       ]
     },
     "info": {
@@ -8647,6 +8659,26 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } taɣult tudmawant",
+        "${ domains } tiɣula tudmawanin"
+      ],
+      "${ ips } server": [
+        "Aqeddac ${ ips }",
+        "${ ips } yiqeddacen"
+      ],
+      "${ users } user": [
+        "${ users } n useqdac",
+        "${ users } yiseqdacen"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } n useqdac",
+        "${ users } n yiseqdacen"
       ]
     }
   }

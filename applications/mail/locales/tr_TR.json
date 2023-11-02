@@ -1161,6 +1161,24 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Close the checklist": [
+        "Kontrol listesini kapat"
+      ],
+      "Continue with Outlook": [
+        "Outlook ile ilerle"
+      ],
+      "Go to first page": [
+        "İlk sayfaya git"
+      ],
+      "Go to last page": [
+        "Son sayfaya git"
+      ],
+      "Import from Google": [
+        "Google üzerinden içe aktar"
+      ],
+      "Import from Outlook": [
+        "Outlook üzerinden içe aktar"
       ]
     },
     "action": {
@@ -2964,6 +2982,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Birleştirmek veya tutmak istemediğiniz kişileri silinmek üzere işaretleyebilirsiniz. Silme işlemi yalnızca birleştirme düğmesine tıkladıktan sonra yapılır"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV ve VCF dosyası ile içe aktarma için, ${ MAX_IMPORT_FILE_SIZE_STRING } dosya boyutunu ya da ${ MAX_IMPORT_CONTACTS_STRING } kişiyi aşmadığınızdan emin olun. Dosyanız büyükse lütfen daha küçük dosyalara bölün. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Kişilerinizi Google ya da Outlook üzerinden içe aktarmak için ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3986,6 +4010,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4004,6 +4031,10 @@
       "Megabyte": [
         "Megabayt",
         "Megabayt"
+      ],
+      "Terabyte": [
+        "Terabayt",
+        "Terabayt"
       ]
     },
     "Filter": {
@@ -4284,6 +4315,9 @@
       ],
       "You've unlocked 1 GB": [
         "Depolama alanınızı 1 GB boyutuna çıkardınız"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Bunu kapatırsanız ücretsiz depolama alanı hediyenizden vazgeçmiş olursunuz."
       ]
     },
     "Gmail forwarding": {
@@ -6054,6 +6088,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacak."
+      ],
+      "${ storage } storage": [
+        "${ storage } depolama alanı"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Aradığınızı bulamadınız mı? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Ücrete, hesabınızda kayıtlı tüm geçerli dönemsel indirimler ve geçerlilik süresi dolmamış kuponlar katılmıştır."
+      ],
+      "Total email addresses": [
+        "Toplam e-posta adresi"
+      ],
+      "Total storage": [
+        "Toplam depolama alanı"
+      ],
+      "Total supported domains": [
+        "Toplam etki alanı"
+      ],
+      "Total VPN connections": [
+        "Toplam VPN bağlantısı"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "En fazla ${ FAMILY_MAX_USERS } kullanıcı"
       ]
     },
     "info": {
@@ -7010,6 +7068,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Güncellenen daveti görmek için anahtarlarınızı yeniden kullanıma almalısınız"
+      ],
+      "Set up email forwarding": [
+        "E-posta iletici kurun"
       ]
     },
     "Link to calendar event": {
@@ -8329,6 +8390,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Artık iletileri daha sonra gönderilmek üzere zamanlayabilirsiniz"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Artık e-postalarınızı otomatik olarak herkese iletebilirsiniz!"
       ]
     },
     "Status": {
@@ -9756,6 +9820,132 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } özel etki alanı",
+        "${ domains } özel etki alanı"
+      ],
+      "${ ips } server": [
+        "${ ips } sunucu",
+        "${ ips } sunucu"
+      ],
+      "${ users } user": [
+        "${ users } kullanıcı",
+        "${ users } kullanıcı"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } depolama alanı"
+      ],
+      "1 user": [
+        "1 kullanıcı"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65'ten fazla ülkede 3,000'den fazla sunucu"
+      ],
+      "6 users": [
+        "6 kullanıcı"
+      ],
+      "Access content worldwide": [
+        "Dünyadaki her içeriğe erişin"
+      ],
+      "Ad-blocker and malware protection": [
+        "Reklam engelleyici ve kötü amaçlı yazılım koruması"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Tüm ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_APP_NAME } özellikleri"
+      ],
+      "Extended version history": [
+        "Genişletilmiş sürüm geçmişi"
+      ],
+      "High speed streaming": [
+        "Yüksek hızda yayın akışı"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Ücretli ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Ücretli ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Ücretli Parola Yöneticisi"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "İndirimler aylık standart ücretlendirmeye göredir."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Aboneliğiniz, faturalama döneminizin sonunda otomatik olarak standart tarife ve süre üzerinden yenilenir."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 gün içinde ücret iade garantisi"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Yasaklı içeriklere erişin ve gizlice gezinin. 65'ten fazla ülkede 3,000 üzerinde sunucu, en yüksek VPN hızlarını, dünya çapındaki yayın hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmelerini ve daha fazlasını içerir."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Netflix, Disney+, Prime Video ve daha fazla yayın hizmetlerindeki içeriklere herhangi bir yerden erişin."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Yerel internet engellemelerini ve sansürü küresel sunucu ağlarımız ile aşın."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1 özel e-posta etki alanı, 10 e-posta adresi, 10 hide-my-email takma adı, takvim paylaşma ve daha fazlası için destek içerir."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir.",
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve daha fazlası."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "E-postalarınızı ve takviminizi uçtan uca şifreleme ile güvene alın. özel e-posta etki alanı, 15 e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Dosyalarınızı şifrelenmiş bulut depolama alanı ile koruyun. Sürüm geçmişi, şifrelenmiş dosya paylaşımı ve diğer özellikler."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Özel olarak tasarlanmış NetShield cihazlarınızı korur ve reklamları, etkinlik izleyicileri, kötü amaçlı yazılımları engelleyerek internette gezinme hızınızı artırır."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Depolama alanı tüm ${ BRAND_NAME } uygulamaları arasında paylaşılır."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Her dosyanın 200'e kadar sürümünü 10 yıla kadar tutun."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } kullanıcı",
+        "${ users } kullanıcı"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switch içe aktarma yardımcısını kullanın"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Sıfır erişim ile şifrelenmiş. Alıcı, hesabında uçtan uca şifrelemeyi kapattı."
       ]
     }
   }

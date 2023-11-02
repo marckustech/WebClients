@@ -1167,6 +1167,18 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Close the checklist": [
+        "Stäng checklistan"
+      ],
+      "Continue with Outlook": [
+        "Fortsätt med Outlook"
+      ],
+      "Import from Google": [
+        "Importera från Google"
+      ],
+      "Import from Outlook": [
+        "Importera från Outlook"
       ]
     },
     "action": {
@@ -1714,7 +1726,7 @@
         "maskros"
       ],
       "dark cerulean": [
-        "mörk azurblå"
+        "mörk cerulean"
       ],
       "dark midnight blue": [
         "mörk midnattsblå"
@@ -1880,7 +1892,7 @@
         "End-to-end-krypterat"
       ],
       "End-to-end encrypted to verified recipient": [
-        "End-to-end-krypterad till verifierad mottagare"
+        "End-to-end-krypterat till verifierad mottagare"
       ],
       "End-to-end encrypted. ${ warningsText }": [
         "End-to-end-krypterat. ${ warningsText }"
@@ -2970,6 +2982,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markera för att radera de kontakter som du varken slå ihop eller behålla. Radering kommer endast att ske efter att du klickat på sammanslagningsknappen"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "För import via CSV- och VCF-fil, se till att filen inte överstiger ${ MAX_IMPORT_FILE_SIZE_STRING } eller ${ MAX_IMPORT_CONTACTS_STRING } kontakter. Om din fil är större, dela upp den i mindre filer. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "För att importera dina kontakter från Google eller Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3997,6 +4015,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4015,6 +4036,10 @@
       "Megabyte": [
         "Kilobyte",
         "Megabyte"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabyte"
       ]
     },
     "Filter": {
@@ -4295,6 +4320,9 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst upp 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Att stänga detta innebär att du avstår från gratisbonusen för lagringsutrymme."
       ]
     },
     "Gmail forwarding": {
@@ -5788,7 +5816,7 @@
         "För att avsluta prenumeration från denna e-postlista kommer du att tas till följande URL där instruktioner kommer att ges av avsändaren av nyhetsbrevet:"
       ],
       "To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.": [
-        "För att använda adressverifikation, måste lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar förfalskade krypteringsnycklar."
+        "För att använda adressverifiering måste du lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar krypteringsnycklarna att förfalskas."
       ],
       "Too many messages waiting to be sent. Please wait until another message has been sent to schedule this one.": [
         "Många meddelanden väntar på att skickas. Vänta tills ett annat meddelande har skickats för att schemalägga detta."
@@ -6068,6 +6096,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ditt telefonnummer kommer endast att användas för denna engångsverifiering."
+      ],
+      "${ storage } storage": [
+        "${ storage } lagringsutrymme"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Pris inkluderar alla tillämpbara återkommande rabatter och icke-utgångna kuponger som finns lagrat på ditt konto."
+      ],
+      "Total email addresses": [
+        "Totalt antal e-postadresser"
+      ],
+      "Total storage": [
+        "Totalt lagringsutrymme"
+      ],
+      "Total supported domains": [
+        "Totalt antal domäner som stöds"
+      ],
+      "Total VPN connections": [
+        "Totalt antal VPN-anslutningar"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Upp till ${ FAMILY_MAX_USERS } användare"
       ]
     },
     "info": {
@@ -7737,10 +7786,10 @@
         "PGP-signerat meddelande. Avsändarverifieringen misslyckades"
       ],
       "Sent by ${ MAIL_APP_NAME } with zero-access encryption": [
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering"
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst"
       ],
       "Stored with zero-access encryption": [
-        "Lagras med nollåtkomst-kryptering"
+        "Lagrad med kryptering med noll åtkomst"
       ]
     },
     "Remaining days before the message expire": {
@@ -7844,16 +7893,16 @@
         "Krypterad av ${ MAIL_APP_NAME } till verifierad mottagare"
       ],
       "End-to-end encrypted": [
-        "End-to-end krypterad"
+        "End-to-end-krypterat"
       ],
       "End-to-end encrypted to PGP recipient": [
-        "End-to-end-krypterad till verifierad PGP-mottagare"
+        "End-to-end-krypterat till verifierad PGP-mottagare"
       ],
       "End-to-end encrypted to verified PGP recipient": [
-        "End-to-end-krypterad till verifierad PGP-mottagare"
+        "End-to-end-krypterat till verifierad PGP-mottagare"
       ],
       "End-to-end encrypted to verified recipient": [
-        "End-to-end krypterad till verifierad mottagare"
+        "End-to-end-krypterat till verifierad mottagare"
       ],
       "PGP-signed": [
         "PGP-signerad"
@@ -7862,8 +7911,8 @@
         "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering"
       ],
       "Sent by ${ MAIL_APP_NAME } with zero-access encryption to verified recipient": [
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering till verifierad mottagare",
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering till verifierade mottagare"
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst till verifierad mottagare",
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst till verifierade mottagare"
       ],
       "Sent by you with end-to-end encryption": [
         "Skickat av dig med end-to-end-kryptering"
@@ -7873,7 +7922,7 @@
         "Skickat av dig med end-to-end-kryptering till verifierade mottagare"
       ],
       "Stored with zero-access encryption": [
-        "Lagras med nollåtkomst-kryptering"
+        "Lagrad med kryptering med noll åtkomst"
       ]
     },
     "session_recovery:available:action": {
@@ -9776,6 +9825,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } anpassad domän",
+        "${ domains } anpassade domäner"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servrar"
+      ],
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "använd importassistenten Easy Switch"
       ]
     }
   }

@@ -1173,6 +1173,24 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Close the checklist": [
+        "Закрыць кантрольны спіс"
+      ],
+      "Continue with Outlook": [
+        "Працягнуць з Outlook"
+      ],
+      "Go to first page": [
+        "Перайсці на першую старонку"
+      ],
+      "Go to last page": [
+        "Перайсці на апошнюю старонку"
+      ],
+      "Import from Google": [
+        "Імпартаваць з Google"
+      ],
+      "Import from Outlook": [
+        "Імпартаваць з Outlook"
       ]
     },
     "action": {
@@ -1649,7 +1667,7 @@
         "Вы ўжо ўмоўна прынялі гэта запрашэнне."
       ],
       "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
-        "Вы не зможаце адказаць на запрашэнне ${ BRAND_NAME }, калі ў дадзены момант вы адсутнічае ў спісе ўдзельнікаў."
+        "Вы не зможаце адказаць на запрашэнне ${ BRAND_NAME }, калі ў дадзены момант вы адсутнічаеце ў спісе ўдзельнікаў."
       ],
       "Your email address is not in the original participants list.": [
         "Ваш адрас электроннай пошты не знаходзіцца ў першапачатковым спісе ўдзельнікаў."
@@ -2988,6 +3006,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можаце пазначыць тыя кантакты, якія вы не хочаце аб'яднаць і пакідаць. Выдаленне адбываецца толькі пасля націску кнопкі аб'яднання"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Пераканайцеся, што файл не перавышае аб'ем у ${ MAX_IMPORT_FILE_SIZE_STRING } або ${ MAX_IMPORT_CONTACTS_STRING } кантакты для імпартавання праз файл CSV і VCF. Раздзяліце яго на меншыя часткі, калі файл перавышае максімальны аб'ём. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Для імпартавання вашых кантактаў з Google або Outlook, ${ easySwitchLink }"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -4047,6 +4071,9 @@
       ],
       "MB": [
         "МБ"
+      ],
+      "TB": [
+        "ТБ"
       ]
     },
     "file size format, long": {
@@ -4073,6 +4100,12 @@
         "Мегабайты",
         "Мегабайтаў",
         "Мегабайты"
+      ],
+      "Terabyte": [
+        "тэрабайт",
+        "тэрабайты",
+        "тэрабайтаў",
+        "тэрабайтаў"
       ]
     },
     "Filter": {
@@ -4180,7 +4213,7 @@
     },
     "Font Face Default": {
       "Default": [
-        "Прадвызначана"
+        "Прадвызначаны"
       ]
     },
     "Font face option": {
@@ -4193,7 +4226,7 @@
     },
     "Font Size Default": {
       "Default": [
-        "Прадвызначана"
+        "Прадвызначаны"
       ]
     },
     "Font size option": {
@@ -4353,6 +4386,9 @@
       ],
       "You've unlocked 1 GB": [
         "Вы разблакіравалі 1 ГБ"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Закрыццё будзе азначаць адмову ад бонусу ў выглядзе бясплатнага сховішча."
       ]
     },
     "Gmail forwarding": {
@@ -6276,6 +6312,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш нумар тэлефона будзе выкарыстаны толькі для бягучай аднаразовай праверкі."
+      ],
+      "${ storage } storage": [
+        "${ storage } сховішча"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Кошт уключае ўсе падыходзячыя (не пратэрмінаваныя) купоны, якія захаваны ў вашым уліковым запісе."
+      ],
+      "Total email addresses": [
+        "Колькасць адрасоў электроннай пошты"
+      ],
+      "Total storage": [
+        "Агульны аб'ём сховішча"
+      ],
+      "Total supported domains": [
+        "Колькасць даменаў, якія падтрымліваюцца"
+      ],
+      "Total VPN connections": [
+        "Колькасць падключэнняў па VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Да ${ FAMILY_MAX_USERS } карыстальнікаў"
       ]
     },
     "info": {
@@ -7238,6 +7295,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Вам неабходна паўторна актываваць ключы, каб паглядзець абноўленае запрашэнне"
+      ],
+      "Set up email forwarding": [
+        "Наладзіць перасылку лістоў"
       ]
     },
     "Link to calendar event": {
@@ -8623,6 +8683,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Цяпер вы можаце запланаваць адпраўку паведамленняў на больш позні час"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Цяпер вы можаце аўтаматычна перасылаць свае лісты каму заўгодна!"
       ]
     },
     "Status": {
@@ -10200,6 +10263,39 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } карыстальніцкі дамен",
+        "${ domains } карыстальніцкія дамены",
+        "${ domains } карыстальніцкіх даменаў",
+        "${ domains } карыстальніцкіх даменаў"
+      ],
+      "${ ips } server": [
+        "${ ips } сервер",
+        "${ ips } серверы",
+        "${ ips } сервераў",
+        "${ ips } сервераў"
+      ],
+      "${ users } user": [
+        "${ users } карыстальнік",
+        "${ users } карыстальнікі",
+        "${ users } карыстальнікаў",
+        "${ users } карыстальнікаў"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } карыстальнік",
+        "${ users } карыстальнікі",
+        "${ users } карыстальнікаў",
+        "${ users } карыстальнікі"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "скарыстайцеся памочнікам імпартавання Easy Switch"
       ]
     }
   }

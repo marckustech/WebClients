@@ -1161,6 +1161,24 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Close the checklist": [
+        "საკონტროლო სიის დახურვა"
+      ],
+      "Continue with Outlook": [
+        "Outlook-ით გაგრძელება"
+      ],
+      "Go to first page": [
+        "პირველ გვერდზე გადასვლა"
+      ],
+      "Go to last page": [
+        "ბოლო გვერდზე გადასვლა"
+      ],
+      "Import from Google": [
+        "Google-დან შემოტანა"
+      ],
+      "Import from Outlook": [
+        "Outlook-დან შემოტანა"
       ]
     },
     "action": {
@@ -3991,6 +4009,9 @@
       ],
       "MB": [
         "მბ"
+      ],
+      "TB": [
+        "ტბ"
       ]
     },
     "file size format, long": {
@@ -4009,6 +4030,10 @@
       "Megabyte": [
         "მეგაბაიტი",
         "მეგაბაიტი"
+      ],
+      "Terabyte": [
+        "ტერაბაიტი",
+        "ტერაბაიტი"
       ]
     },
     "Filter": {
@@ -4289,6 +4314,9 @@
       ],
       "You've unlocked 1 GB": [
         "განბლოკეთ 1 გბ"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "ამის დახურვით უფასო საცავზე უარს იძახით."
       ]
     },
     "Gmail forwarding": {
@@ -6062,6 +6090,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "თქვენი ტელეფონის ნომერი, მხოლოდ, ერთხელ, შესამოწმებლად იქნება გამოყენებული."
+      ],
+      "${ storage } storage": [
+        "${ storage } საცავი"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "ფასი შეიცავს ყველა შესაბამის ციკლზე-ბაზირებულ ფასდაკლებებს და ვადაგაუსვლელ კუპონებს, რომლებიც თქვენს ანგარიშზე გაქვთ შენახული."
+      ],
+      "Total email addresses": [
+        "ელფოსტები სულ"
+      ],
+      "Total storage": [
+        "სრული საცავი"
+      ],
+      "Total supported domains": [
+        "მხარდაჭერილი დომენები სულ"
+      ],
+      "Total VPN connections": [
+        "VPN შეერთებები სულ"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "${ FAMILY_MAX_USERS }-მდე მომხმარებელი"
       ]
     },
     "info": {
@@ -7018,6 +7067,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "განახლებული მოსაწვევის სანახავად საჭიროა თქვენი გასაღების თავიდან გააქტიურება"
+      ],
+      "Set up email forwarding": [
+        "ელფოსტის გადაგზავნის მორგება"
       ]
     },
     "Link to calendar event": {
@@ -8337,6 +8389,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "ახლა შეგიძლიათ, შექმნათ შეტყობინებების განრიგი, რომელიც დანიშნულ დროს აგზავნის ელფოსტას"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "ახლა შეგძლიათ თქვენი ელფოსტა ავტომატურად გადაუგზავნოთ, ვისაც გსურთ!"
       ]
     },
     "Status": {
@@ -9764,6 +9819,31 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } მომხმარებლის დომენი",
+        "${ domains } მომხმარებლის დომენი"
+      ],
+      "${ ips } server": [
+        "${ ips } სერვერი",
+        "${ ips } სერვერი"
+      ],
+      "${ users } user": [
+        "${ users } მომხმარებელი",
+        "${ users } მომხმარებელი"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } მომხმარებელი",
+        "${ users } მომხმარებელი"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "გამოიყენეთ Easy Switch-ის შემოტანის დამხმარე"
       ]
     }
   }

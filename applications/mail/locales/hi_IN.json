@@ -5526,6 +5526,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "आपके फ़ोन नंबर का उपयोग केवल इस एक बार के सत्यापन के लिए किया जाएगा।"
+      ],
+      "${ storage } storage": [
+        "${ storage } स्टोरेज"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "दाम में आपके खाते में सेव किए चक्र वाले छूट और खत्म-नहीं कूपन, जो लागू हो सकते है, शामिल है।"
+      ],
+      "Total email addresses": [
+        "कुल ईमेल पते"
+      ],
+      "Total storage": [
+        "कुल स्टोरेज"
+      ],
+      "Total supported domains": [
+        "कुल सपोर्ट किए डोमेन"
+      ],
+      "Total VPN connections": [
+        "कुल VPN कनेक्शन"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "${ FAMILY_MAX_USERS } यूज़र तक"
       ]
     },
     "info": {
@@ -8750,6 +8771,12 @@
       ],
       "Yearly, ${ untilString }": [
         "वार्षिक, ${ untilString }"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } यूज़र",
+        "${ users } यूज़र"
       ]
     }
   }

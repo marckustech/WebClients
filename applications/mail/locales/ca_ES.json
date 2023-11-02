@@ -1161,6 +1161,12 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Go to first page": [
+        "Aneu a la primera pàgina"
+      ],
+      "Go to last page": [
+        "Aneu a l'última pàgina"
       ]
     },
     "action": {
@@ -3832,6 +3838,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Fins a 6 usuaris"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3977,6 +3992,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -6045,6 +6063,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "${ storage } storage": [
+        "${ storage } d'emmagatzematge"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "No podeu trobar el que esteu buscant? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "El preu inclou tots els descomptes basats en cicles aplicables i els cupons no caducats desats al vostre compte."
+      ],
+      "Total email addresses": [
+        "Adreces de correu totals"
+      ],
+      "Total storage": [
+        "Emmagatzematge"
+      ],
+      "Total supported domains": [
+        "Dominis suportats totals"
+      ],
+      "Total VPN connections": [
+        "Connexions VPN totals"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Fins a ${ FAMILY_MAX_USERS } usuaris"
       ]
     },
     "info": {
@@ -7001,6 +7043,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Heu de reactivar les vostres claus per veure la invitació actualitzada"
+      ],
+      "Set up email forwarding": [
+        "Configura el reenviament de correu electrònic"
       ]
     },
     "Link to calendar event": {
@@ -8131,6 +8176,18 @@
       ],
       "Support online privacy": [
         "Doneu suport a la privacitat en línia"
+      ],
+      "1 user": [
+        "1 usuari"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "specialoffer: Footer": {
@@ -8214,6 +8271,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "El preu estàndard és ${ amount } durant 30 mesos"
+      ],
+      "${ n } month": [
+        "${ n } mes",
+        "${ n } mesos"
+      ],
+      "15 months": [
+        "15 mesos"
+      ],
+      "30 months": [
+        "30 mesos"
       ]
     },
     "specialoffer: Title": {
@@ -8602,6 +8669,12 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "Gestor de Contrasenyes prèmium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
       ]
     },
     "summer2023: Tooltip": {
@@ -9719,6 +9792,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domini personalitzat",
+        "${ domains } dominis personalitzats"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidors"
+      ],
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
       ]
     }
   }

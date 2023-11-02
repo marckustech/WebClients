@@ -1161,6 +1161,18 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Close the checklist": [
+        "Tutup daftar centang"
+      ],
+      "Continue with Outlook": [
+        "Lanjut dengan Outlook"
+      ],
+      "Import from Google": [
+        "Impor dari Google"
+      ],
+      "Import from Outlook": [
+        "Impor dari Outlook"
       ]
     },
     "action": {
@@ -2958,6 +2970,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Anda dapat menandai kontak-kontak yang tidak ingin digabung atau disimpan. Penghapusan akan dilakukan setelah Anda menekan tombol gabung"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Untuk mengimpor kontak melalui berkas CSV dan VCF, pastikan berkas Anda tidak melebihi batas ukuran ${ MAX_IMPORT_FILE_SIZE_STRING } atau batas jumlah ${ MAX_IMPORT_CONTACTS_STRING } kontak. Apabila berkas Anda melebihi batas ukuran yang ada, silakan pecahkan berkas Anda ke beberapa berkas yang lebih kecil. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Untuk mengimpor kontak Anda dari Google atau Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3969,6 +3987,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3983,6 +4004,9 @@
       ],
       "Megabytes": [
         "Megabyte"
+      ],
+      "Terabytes": [
+        "Terabyte"
       ]
     },
     "Filter": {
@@ -4169,16 +4193,16 @@
         "Ubah ${ strongText } ke alamat ${ BRAND_NAME } Anda"
       ],
       "Changed accounts": [
-        "Berubah akun"
+        "Akun yang diubah"
       ],
       "Checklist complete": [
-        "Daftar ceklis selesai"
+        "Daftar centang selesai"
       ],
       "Close": [
         "Tutup"
       ],
       "Congratulation, you completed all the steps!": [
-        "Selamat, Anda menyelesaikan semua tahap!"
+        "Selamat, Anda telah menyelesaikan seluruh tahapan!"
       ],
       "Congratulation, you finished!": [
         "Selamat, Anda sudah selesai!"
@@ -4214,7 +4238,7 @@
         "Terus gunakan ${ MAIL_APP_NAME } untuk menemukan lebih banyak cara ${ BRAND_NAME } melindungi privasi Anda dan menyederhanakan pengiriman surel."
       ],
       "Learn more": [
-        "Lebih lanjut"
+        "Pelajari lebih lanjut"
       ],
       "Maybe later": [
         "Mungkin nanti"
@@ -4223,10 +4247,10 @@
         "Bagus! Anda telah memperbarui seluruh layanan pada kategori ini."
       ],
       "Open checklist": [
-        "Buka daftar ceklis"
+        "Buka daftar centang"
       ],
       "Open checklist and get free storage": [
-        "Buka daftar centang dan dapatkan penyimpanan gratis"
+        "Buka daftar centang dan dapatkan kuota penyimpanan gratis"
       ],
       "Popular online services": [
         "Layanan online populer"
@@ -4263,6 +4287,9 @@
       ],
       "You've unlocked 1 GB": [
         "Anda telah memperoleh 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Dengan menutup daftar ini, Anda tidak akan lagi dapat memperoleh bonus kuota cuma-cuma yang ditawarkan."
       ]
     },
     "Gmail forwarding": {
@@ -4420,7 +4447,7 @@
     },
     "Import contact. Contact identifier": {
       "unknown": [
-        "tidak dikenal"
+        "tidak diketahui"
       ]
     },
     "Import contacts warning": {
@@ -5336,7 +5363,7 @@
         "Sistem kami telah menandai pesan ini sebagai surel mencurigakan. Silakan diperiksa jika surelnya asli sebelum mengeklik tautan atau lampiran apa pun."
       ],
       "PGP/Inline is only compatible with Plain Text format.": [
-        "Enkripsi PGP/Inline hanya kompatibel dengan format Plain Text."
+        "Enkripsi PGP/Inline hanya kompatibel dengan format teks polos."
       ],
       "PGP/MIME automatically sends the message using the current composer mode.": [
         "Enkripsi PGP/MIME akan secara otomatis mengirim pesan dengan mode komposer yang saat ini digunakan."
@@ -5345,7 +5372,7 @@
         "Nomor telepon"
       ],
       "Plain text": [
-        "Teks biasa"
+        "Teks polos"
       ],
       "Please add at least one recipient.": [
         "Harap tentukan setidaknya satu orang penerima."
@@ -5961,6 +5988,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Nomor telepon Anda hanya akan dipakai satu kali ini untuk keperluan verifikasi."
+      ],
+      "${ storage } storage": [
+        "Kuota penyimpanan ${ storage }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Harga termasuk seluruh diskon berbasis siklus yang berlaku dan kupon tanpa tanggal berakhir yang disimpan di akun Anda."
+      ],
+      "Total email addresses": [
+        "Total alamat surel"
+      ],
+      "Total storage": [
+        "Total kuota penyimpanan"
+      ],
+      "Total supported domains": [
+        "Total domain yang didukung"
+      ],
+      "Total VPN connections": [
+        "Total koneksi VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Hingga ${ FAMILY_MAX_USERS } pengguna"
       ]
     },
     "info": {
@@ -7035,7 +7083,7 @@
         "Otomatis"
       ],
       "Plain text": [
-        "Teks biasa"
+        "Teks polos"
       ]
     },
     "Modal title": {
@@ -7353,7 +7401,7 @@
         "Makanan dan minuman"
       ],
       "Gaming": [
-        "Bermain Game"
+        "Permainan"
       ],
       "Most popular": [
         "Terpopuler"
@@ -8135,7 +8183,7 @@
         "Penawaran Akhir Tahun"
       ],
       "Get our premium bundle and save more": [
-        "Dapatkan paket premium kami dan hemat lebih banyak"
+        "Dapatkan bundel premium kami dan hemat lebih banyak"
       ],
       "Our discontinued Visionary plan is back for a limited time only": [
         "Paket Visionary berakhir kami telah kembali untuk waktu terbatas"
@@ -9211,7 +9259,7 @@
         "Sembunyikan panel samping"
       ],
       "Select the PGP scheme to be used when signing or encrypting to a user. Note that PGP/Inline forces plain text messages": [
-        "Pilih skema PGP untuk menandatangani atau mengenkripsi pesan. PGP/Inline mewajibkan penggunaan pesan teks polos"
+        "Pilih skema PGP yang akan digunakan untuk menandatangani atau mengenkripsi pesan kepada pengguna. Mohon diperhatikan bahwa PGP/Inline mewajibkan penggunaan pesan teks polos"
       ],
       "Show side panel": [
         "Tampilkan panel samping"
@@ -9555,6 +9603,27 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } domain khusus"
+      ],
+      "${ ips } servers": [
+        "${ ips } server"
+      ],
+      "${ users } users": [
+        "${ users } pengguna"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } pengguna"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "gunakan alat bantu impor Easy Switch"
       ]
     }
   }

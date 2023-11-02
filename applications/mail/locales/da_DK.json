@@ -3838,6 +3838,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Op til 6 brugere"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3983,6 +3992,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4001,6 +4013,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabyte"
       ]
     },
     "Filter": {
@@ -6051,6 +6067,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Dit telefonnummer vil kun blive anvendt til denne engangsbekræftelse."
+      ],
+      "${ storage } storage": [
+        "${ storage } lagerplads"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Prisen inkluderer alle gældende cyklusbaserede rabatter og kuponer, der ikke er udløbet, og som er gemt på din konto."
+      ],
+      "Total email addresses": [
+        "Samlet antal e-mailadresser"
+      ],
+      "Total storage": [
+        "Lagerplads i alt"
+      ],
+      "Total supported domains": [
+        "Samlet antal understøttede domæner"
+      ],
+      "Total VPN connections": [
+        "Samlet antal VPN-forbindelser"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Op til ${ FAMILY_MAX_USERS } brugere"
       ]
     },
     "info": {
@@ -8143,6 +8180,15 @@
       ],
       "Support online privacy": [
         "Støt online privatlivsbeskyttelse"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -8627,11 +8673,17 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "Premium Adgangskodeadministrator"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Tooltip": {
       "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
-        "Opret sikre login-oplysninger på alle dine enheder. Inkludere ubegrænsede aliasser, 20 bokse, integreret 2FA, betalingskort-autofyld og meget mere."
+        "Opret sikre login-oplysninger på alle dine enheder. Inkluderer ubegrænsede aliasser, 20 bokse, integreret 2FA, betalingskort-autofyld og meget mere."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
         "Inkluderer 2950+ servere i 65+ lande, forbind op til 10 enheder, tilgå verdensomspændende streamingtjenester, malware- og ad-blocker og meget mere."
@@ -9744,6 +9796,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } brugerdomæne",
+        "${ domains } brugerdomæner"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servere"
+      ],
+      "${ users } user": [
+        "${ users } bruger",
+        "${ users } brugere"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } bruger",
+        "${ users } brugere"
       ]
     }
   }

@@ -1161,6 +1161,15 @@
       ],
       "Zoom out": [
         "Loitonna"
+      ],
+      "Close the checklist": [
+        "Sulje tarkistuslista"
+      ],
+      "Go to first page": [
+        "Siirry ensimmäiselle sivulle"
+      ],
+      "Go to last page": [
+        "Siirry viimeiselle sivulle"
       ]
     },
     "action": {
@@ -3991,6 +4000,9 @@
       ],
       "MB": [
         "Mt"
+      ],
+      "TB": [
+        "Tt"
       ]
     },
     "file size format, long": {
@@ -4009,6 +4021,10 @@
       "Megabyte": [
         "Megatavu",
         "Megatavua"
+      ],
+      "Terabyte": [
+        "Teratavu",
+        "Teratavua"
       ]
     },
     "Filter": {
@@ -4289,6 +4305,9 @@
       ],
       "You've unlocked 1 GB": [
         "Olet vapauttanut 1 Gt"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Menetät ilmaisen tallennustilabonuksen jos suljet tämän."
       ]
     },
     "Gmail forwarding": {
@@ -6059,6 +6078,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Puhelinnumeroasi käytetään vain tähän kertaluontoiseen vahvistukseen."
+      ],
+      "${ storage } storage": [
+        "${ storage } tallennustilaa"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Etkö löydä etsimääsi? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Hinta sisältää kaikki tilillesi tallennetut soveltuvat tilausjaksopohjaiset alennukset sekä etukoodit."
+      ],
+      "Total email addresses": [
+        "Sähköpostiosoitteita yhteensä"
+      ],
+      "Total storage": [
+        "Tallennustilaa yhteensä"
+      ],
+      "Total supported domains": [
+        "Tuettuja verkkotunnuksia yhteensä"
+      ],
+      "Total VPN connections": [
+        "VPN-yhteyksiä yhteensä"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Enintään ${ FAMILY_MAX_USERS } käyttäjää"
       ]
     },
     "info": {
@@ -7015,6 +7058,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Sinun on aktivoitava avaimesi uudelleen nähdäksesi päivitetyn kutsun"
+      ],
+      "Set up email forwarding": [
+        "Määritä sähköpostin ohjaus"
       ]
     },
     "Link to calendar event": {
@@ -8334,6 +8380,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Voit nyt ajoittaa viestiesi lähetyksen myöhempään ajankohtaan"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Voit nyt välittää sähköpostisi automaattisesti kenelle tahansa!"
       ]
     },
     "Status": {
@@ -9761,6 +9810,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } oma verkkotunnus",
+        "${ domains } omaa verkkotunnusta"
+      ],
+      "${ ips } server": [
+        "${ ips } palvelin",
+        "${ ips } palvelinta"
+      ],
+      "${ users } user": [
+        "${ users } käyttäjä",
+        "${ users } käyttäjää"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } käyttäjä",
+        "${ users } käyttäjää"
       ]
     }
   }

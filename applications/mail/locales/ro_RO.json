@@ -1167,6 +1167,15 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Close the checklist": [
+        "Închidere listă de sarcini"
+      ],
+      "Go to first page": [
+        "Prima pagină"
+      ],
+      "Go to last page": [
+        "Ultima pagină"
       ]
     },
     "action": {
@@ -4014,6 +4023,9 @@
       ],
       "MB": [
         "MiB"
+      ],
+      "TB": [
+        "TiB"
       ]
     },
     "file size format, long": {
@@ -4036,6 +4048,11 @@
         "Megabait",
         "Megabaiți",
         "Megabaiți"
+      ],
+      "Terabyte": [
+        "Terabait",
+        "Terabaiți",
+        "Terabaiți"
       ]
     },
     "Filter": {
@@ -4316,6 +4333,9 @@
       ],
       "You've unlocked 1 GB": [
         "Ați deblocat 1 GiB de spațiu"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Dacă o închideți renunțați la bonusul de stocare gratuită."
       ]
     },
     "Gmail forwarding": {
@@ -5510,10 +5530,10 @@
         "Sistemul nostru a etichetat acest mesaj ca fiind suspect. Verificați legitimitatea acestuia înainte de a accesa orice legătură sau fișier atașat."
       ],
       "PGP/Inline is only compatible with Plain Text format.": [
-        "PGP / Inline este compatibil doar cu formatul de text simplu."
+        "PGP/Inline este compatibil doar cu formatul de text simplu."
       ],
       "PGP/MIME automatically sends the message using the current composer mode.": [
-        "PGP / MIME trimite automat mesajul folosind modul curent de compunere."
+        "PGP/MIME trimite automat mesajul folosind modul curent de compunere."
       ],
       "Phone number": [
         "Număr de telefon"
@@ -5725,7 +5745,7 @@
         "Acest mesaj a expirat."
       ],
       "The original message you are trying to forward / reply to is in the process of being sent. If you continue, you will not be able to undo sending of the original message any longer.": [
-        "Mesajul original pe care încercați să-l redirecționați / să-i răspundeți este în curs de a fi trimis. Dacă continuați, nu veți mai putea anula trimiterea mesajului original."
+        "Mesajul original pe care încercați să-l redirecționați/să-i răspundeți este în curs de a fi trimis. Dacă continuați, nu veți mai putea anula trimiterea mesajului original."
       ],
       "The original sender of this message is no longer valid. Your message will be sent from your default address ${ defaultEmail }.": [
         "Expeditorul original al acestui mesaj nu mai este valid. Mesajul va fi trimis de la adresa implicită ${ defaultEmail }."
@@ -6161,6 +6181,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numărul de telefon va fi folosit doar pentru această verificare unică."
+      ],
+      "${ storage } storage": [
+        "Stocare ${ storage }"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Nu găsiți ceea ce căutați? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Prețul include toate reducerile ciclice aplicabile și cupoanele neexpirate salvate în cont."
+      ],
+      "Total email addresses": [
+        "Total adrese de e-mail"
+      ],
+      "Total storage": [
+        "Spațiu total"
+      ],
+      "Total supported domains": [
+        "Total domenii suportate"
+      ],
+      "Total VPN connections": [
+        "Total conexiuni VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Până la ${ FAMILY_MAX_USERS } utilizatori"
       ]
     },
     "info": {
@@ -6301,7 +6345,7 @@
         "Marcare ca necitit"
       ],
       "Minimize / maximize composer": [
-        "Micșorare / mărire panou editare"
+        "Micșorare/mărire panou editare"
       ],
       "Move down": [
         "Mutare în jos"
@@ -7120,6 +7164,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Trebuie să activați cheile pentru a vedea invitația actualizată"
+      ],
+      "Set up email forwarding": [
+        "Setare redirecționare mesaje"
       ]
     },
     "Link to calendar event": {
@@ -7690,7 +7737,7 @@
         "Nume"
       ],
       "Name or email address": [
-        "Nume utilizator / adresa de e-mail"
+        "Nume utilizator/adresa de e-mail"
       ],
       "Password": [
         "Parola"
@@ -8472,6 +8519,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Acum puteți să vă programați mesajele pentru a fi trimise mai târziu."
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Acum vă puteți redirecționa automat mesajele către oricine!"
       ]
     },
     "Status": {
@@ -9974,6 +10024,30 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domeniu personal",
+        "${ domains } domenii personale",
+        "${ domains } de domenii personale"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servere",
+        "${ ips } de servere"
+      ],
+      "${ users } user": [
+        "${ users } utilizator",
+        "${ users } utilizatori",
+        "${ users } de utilizatori"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "un utilizator",
+        "${ users } utilizatori",
+        "${ users } de utilizatori"
       ]
     }
   }

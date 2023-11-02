@@ -1155,6 +1155,24 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Close the checklist": [
+        "チェックリストを閉じる"
+      ],
+      "Continue with Outlook": [
+        "Outlook を続行する"
+      ],
+      "Go to first page": [
+        "最初のページに移動"
+      ],
+      "Go to last page": [
+        "最後のページに移動"
+      ],
+      "Import from Google": [
+        "Googleからインポート"
+      ],
+      "Import from Outlook": [
+        "Outlook からインポート"
       ]
     },
     "action": {
@@ -2952,6 +2970,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "結合または保持する必要のない連絡先を削除するためにマークができます。 削除はマージボタンがクリックされた後にのみ行われます"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV および VCF ファイル経由でインポートする場合は、ファイルが ${ MAX_IMPORT_FILE_SIZE_STRING } または ${ MAX_IMPORT_CONTACTS_STRING } の連絡先を超えないようにしてください。 ファイルが大きい場合は、より小さいファイルに分割してください。 ${ learnMoreLink }。"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3810,6 +3831,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "最大6人のユーザー"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } と ${ CALENDAR_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3954,6 +3984,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3968,6 +4001,9 @@
       ],
       "Megabytes": [
         "メガバイト"
+      ],
+      "Terabytes": [
+        "テラバイト"
       ]
     },
     "Filter": {
@@ -4248,6 +4284,9 @@
       ],
       "You've unlocked 1 GB": [
         "1GBのロックを解除しました"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "これを終了すると、無料ストレージ ボーナスを放棄することになります。"
       ]
     },
     "Gmail forwarding": {
@@ -5943,6 +5982,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "電話番号は、この一度限りの認証にのみ使用されます。"
+      ],
+      "${ storage } storage": [
+        "${ storage } ストレージ"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "探しているものが見つかりませんか? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "価格には、適用されるすべてのサイクルベースの割引と、お客様のアカウントに保存されている有効期限内のクーポンが含まれています。"
+      ],
+      "Total email addresses": [
+        "総メールアドレス数"
+      ],
+      "Total storage": [
+        "総ストレージ容量"
+      ],
+      "Total supported domains": [
+        "総対応ドメイン数"
+      ],
+      "Total VPN connections": [
+        "総VPN接続数"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "最大 ${ FAMILY_MAX_USERS } ユーザーまで"
       ]
     },
     "info": {
@@ -6896,6 +6959,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "更新された招待を表示するには、鍵を再度有効にする必要があります"
+      ],
+      "Set up email forwarding": [
+        "メール転送の設定"
       ]
     },
     "Link to calendar event": {
@@ -7994,6 +8060,18 @@
       ],
       "Support online privacy": [
         "オンラインプライバシーをサポート"
+      ],
+      "1 user": [
+        "1ユーザー"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } と ${ CALENDAR_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME }、${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
       ]
     },
     "specialoffer: Footer": {
@@ -8077,6 +8155,15 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "標準価格では 30 か月毎に ${ amount }"
+      ],
+      "${ n } months": [
+        "${ n } ヶ月"
+      ],
+      "15 months": [
+        "15 か月"
+      ],
+      "30 months": [
+        "30 か月"
       ]
     },
     "specialoffer: Title": {
@@ -8161,6 +8248,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "メッセージの送信を予約できます"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "メールを誰にでも自動的に転送できるようになりました。"
       ]
     },
     "Status": {
@@ -8438,6 +8528,12 @@
     "summer2023: Deal details": {
       "Premium Password Manager": [
         "プレミアムパスワードマネージャー"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }と${ CALENDAR_SHORT_APP_NAME }プレミアム"
       ]
     },
     "summer2023: Tooltip": {
@@ -9504,6 +9600,27 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } のカスタム ドメイン"
+      ],
+      "${ ips } servers": [
+        "${ ips } のサーバー"
+      ],
+      "${ users } users": [
+        "${ users } のユーザー"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 人のユーザー"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switchインポートアシスタントを使用する"
       ]
     }
   }

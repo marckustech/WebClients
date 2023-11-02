@@ -1155,6 +1155,24 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Close the checklist": [
+        "關閉清單"
+      ],
+      "Continue with Outlook": [
+        "使用 Outlook 繼續"
+      ],
+      "Go to first page": [
+        "前往第一頁"
+      ],
+      "Go to last page": [
+        "前往最後一頁"
+      ],
+      "Import from Google": [
+        "從 Google 匯入"
+      ],
+      "Import from Outlook": [
+        "從 Outlook 匯入"
       ]
     },
     "action": {
@@ -2952,6 +2970,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "您可以把既不合併也不保留的聯絡人標記為刪除。唯有在點擊「合併」按鈕時，才會執行刪除"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "從 Google 或 Outlook, ${ easySwitchLink } 來匯入你的聯絡人"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3958,6 +3979,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3972,6 +3996,9 @@
       ],
       "Megabytes": [
         "百萬位元組"
+      ],
+      "Terabytes": [
+        "TB"
       ]
     },
     "Filter": {
@@ -4252,6 +4279,9 @@
       ],
       "You've unlocked 1 GB": [
         "您解鎖1GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "關閉此視同放棄免費的額外儲存空間。"
       ]
     },
     "Gmail forwarding": {
@@ -5947,6 +5977,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "您的手機號碼只會用於此一次性驗證。"
+      ],
+      "${ storage } storage": [
+        "${ storage } 儲存空間"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "找不到你要找的嗎?${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "價格計入週期之下所有適用的折扣，以及儲存在您的帳號內未逾期的優惠券。"
+      ],
+      "Total email addresses": [
+        "可使用的電郵位址總數"
+      ],
+      "Total storage": [
+        "總儲存量"
+      ],
+      "Total supported domains": [
+        "可支援的網域總數"
+      ],
+      "Total VPN connections": [
+        "總 VPN 連線數量"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "多達 ${ FAMILY_MAX_USERS } 位使用者"
       ]
     },
     "info": {
@@ -6900,6 +6954,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "您需要先重新啟用您的金鑰，才可查看已更新的邀請"
+      ],
+      "Set up email forwarding": [
+        "設置電子郵件轉發"
       ]
     },
     "Link to calendar event": {
@@ -8186,6 +8243,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "您現在可以安排稍後傳送訊息"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "您可以自動轉寄您的電子郵件給任何人!"
       ]
     },
     "Status": {
@@ -9535,6 +9595,22 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } 個自訂網域"
+      ],
+      "${ ips } servers": [
+        "${ ips } 台伺服器"
+      ],
+      "${ users } users": [
+        "${ users } 個使用者"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 個使用者"
       ]
     }
   }

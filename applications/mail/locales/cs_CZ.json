@@ -1173,6 +1173,24 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Close the checklist": [
+        "Uzavření kontrolního seznamu"
+      ],
+      "Continue with Outlook": [
+        "Pokračovat s Outlookem"
+      ],
+      "Go to first page": [
+        "Jít na první stránku"
+      ],
+      "Go to last page": [
+        "Jít na poslední stránku"
+      ],
+      "Import from Google": [
+        "Importovat z Google"
+      ],
+      "Import from Outlook": [
+        "Importovat z Outlooku"
       ]
     },
     "action": {
@@ -2988,6 +3006,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, které nechcete sloučit ani zachovat, označte pro smazání. Ke smazání dojde po kliknutí na tlačítko pro sloučení"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Při importování prostřednictvím souborů CSV a VCF zajistěte, aby velikost souboru nepřesáhla ${ MAX_IMPORT_FILE_SIZE_STRING } nebo ${ MAX_IMPORT_CONTACTS_STRING } kontaktů. Pokud je váš soubor větší, rozdělte jej na menší soubory. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Pro import kontaktů ze služby Google nebo Outlook ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3885,13 +3909,13 @@
     },
     "familyOffer_2023:Deal details": {
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
-        "Prémiové funkce ${ DRIVE_SHORT_APP_NAME }"
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
       ],
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
         "Prémiové funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
-        "Prémiové funkce ${ VPN_SHORT_APP_NAME }"
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
       ],
       "Up to 6 users": [
         "Až 6 uživatelů"
@@ -4042,6 +4066,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4068,6 +4095,12 @@
         "Megabajty",
         "Megabajtů",
         "Megabajtů"
+      ],
+      "Terabyte": [
+        "Terabajt",
+        "Terabajty",
+        "Terabajtů",
+        "Terabajtů"
       ]
     },
     "Filter": {
@@ -4348,6 +4381,9 @@
       ],
       "You've unlocked 1 GB": [
         "Odemkli jste 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Zavřením se vzdáte bezplatného bonusového úložiště."
       ]
     },
     "Gmail forwarding": {
@@ -6268,6 +6304,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "${ storage } storage": [
+        "${ storage } úložiště"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Nemůžete najít to, co hledáte? ${ displayAllMailButton }"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Cena zahrnuje všechny příslušné slevy na základě cyklu a kupóny, které nevypršely a jsou uložené na vašem účtu."
+      ],
+      "Total email addresses": [
+        "Celkem e-mailových adres"
+      ],
+      "Total storage": [
+        "Celkem prostoru"
+      ],
+      "Total supported domains": [
+        "Celkem vlastních domén"
+      ],
+      "Total VPN connections": [
+        "Celkem VPN připojení"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Až ${ FAMILY_MAX_USERS } uživatelů"
       ]
     },
     "info": {
@@ -7230,6 +7290,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Pro zobrazení upravené pozvánky musíte znovu aktivovat své klíče"
+      ],
+      "Set up email forwarding": [
+        "Nastavení přeposílání e-mailů"
       ]
     },
     "Link to calendar event": {
@@ -8233,10 +8296,10 @@
     },
     "session_recovery:in_progress:info": {
       "${ gracePeriodHoursRemaining } more hour": [
-        "Zbývá ${ gracePeriodHoursRemaining } hodina",
-        "Zbývají ${ gracePeriodHoursRemaining } hodiny",
-        "Zbývá ${ gracePeriodHoursRemaining } hodin",
-        "Zbývá ${ gracePeriodHoursRemaining } hodin"
+        "${ gracePeriodHoursRemaining } další hodina",
+        "${ gracePeriodHoursRemaining } další hodiny",
+        "${ gracePeriodHoursRemaining } dalších hodin",
+        "${ gracePeriodHoursRemaining } dalších hodin"
       ],
       "If you didn’t ask to reset your password, cancel this request now.": [
         "Pokud jste o obnovení hesla nepožádali, ihned zrušte tento požadavek."
@@ -8423,7 +8486,7 @@
         "Prémiové funkce ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }"
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
-        "Prémiové funkce ${ VPN_SHORT_APP_NAME }"
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
       ],
       "Premium early access": [
         "Prémiový předběžný přístup"
@@ -8615,6 +8678,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Nyní můžete naplánovat odesílání zpráv na později"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Nyní můžete automaticky přeposílat e-maily komukoli!"
       ]
     },
     "Status": {
@@ -8966,7 +9032,7 @@
     },
     "summer2023: Deal details": {
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
-        "Prémiové funkce ${ DRIVE_SHORT_APP_NAME }"
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
       ],
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
         "Prémiové funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
@@ -10192,6 +10258,44 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } vlastní doména",
+        "${ domains } vlastní domény",
+        "${ domains } vlastních domén",
+        "${ domains } vlastních domén"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servery",
+        "${ ips } serverů",
+        "${ ips } serverů"
+      ],
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "použijte asistenta pro import Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Šifrováno s nulovým přístupem. Příjemce má na svém účtu vypnuto end-to-end šifrování."
       ]
     }
   }

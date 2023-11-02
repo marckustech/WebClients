@@ -231,7 +231,7 @@
         "Pokračovat skrze Google"
       ],
       "Continue with Outlook": [
-        "Pokračovat s Outlookem"
+        "Pokračovat skrze Outlook"
       ],
       "Continue with this password": [
         "Pokračovat s tímto heslem"
@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Keep my Plus subscription": [
+        "Zachovat mé Plus předplatné"
       ]
     },
     "action": {
@@ -3220,7 +3223,7 @@
         "Zpět"
       ],
       "Cancel": [
-        "Zpět"
+        "Zrušit"
       ],
       "Decline": [
         "Odmítnout"
@@ -3244,7 +3247,7 @@
         "Znovu povolit"
       ],
       "Re-send confirmation email": [
-        "Znovu zaslat ověřovací email"
+        "Znovu odeslat potvrzovací e-mail"
       ],
       "Remove “${ value }”": [
         "Odstranit “${ value }”"
@@ -3259,15 +3262,15 @@
         "Uložit"
       ],
       "Send confirmation email": [
-        "Odeslat ověřovací e-mail"
+        "Odeslat potvrzovací e-mail"
       ],
       "Set up email forwarding": [
-        "Nastavit přeposílání"
+        "Nastavit přeposílání e-mailů"
       ]
     },
     "email_forwarding_2023: Description": {
       "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
-        "Po aktualizaci budete moci dostávat e-maily na individuální bázi, abyste mohli poskytovat informace a poskytovat prémiovou funkci."
+        "Navýšením tarifu odemknete prémiové funkce jako je přesměrování e-mailů pro snadnou správu příchozích informací."
       ]
     },
     "email_forwarding_2023: Error": {
@@ -3280,7 +3283,7 @@
     },
     "email_forwarding_2023: Error message, recovery": {
       "Please try opening the link again.": [
-        "Zkuste odkaz otevřít znovu."
+        "Prosím, zkuste odkaz otevřít znovu."
       ]
     },
     "email_forwarding_2023: Forwarding tooltip": {
@@ -3309,34 +3312,34 @@
     },
     "email_forwarding_2023: Info": {
       "A confirmation email will be sent to ${ boldForwardeeEmail }": [
-        "Potvrzující email byl odeslán na adresu ${ boldForwardeeEmail }"
+        "Potvrzovací e-mail bude odeslán na ${ boldForwardeeEmail }"
       ],
       "A new encryption key will be generated for ${ boldForwarderEmail }.": [
-        "Pro ${ boldForwarderEmail } byl vygenerován nový šifrovací klíč."
+        "Pro ${ boldForwarderEmail } bude vygenerován nový šifrovací klíč."
       ],
       "Forwardee is invited and needs to accept/reject the invitation or update": [
-        "Příjemce přeposílání byl pozván a nyní musí přijmout/odmítnout pozvánku nebo aktualizovat"
+        "Příjemce přeposílání byl pozván a nyní musí přijmout/odmítnout pozvánku nebo aktualizaci"
       ],
       "Forwarding is active": [
-        "Přeposílání je aktivováno"
+        "Přeposílání je aktivní"
       ],
       "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, end-to-end encryption for the forwarding address will be disabled.": [
         "Při přeposílání na ${ BRAND_NAME } adresy bude vaše komunikace koncově šifrovaná. Při externím přeposílání bude koncové šifrování pro přeposílanou adresu vypnuto."
       ],
       "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
-        "Přeposlání na adresu bez end-to-end šifrování vyžaduje vypnutí end-to-end šifrování pro vaši e-mailovou adresu ${ boldForwarderEmail }. "
+        "Přeposlání na adresu bez koncového šifrování vyžaduje vypnutí koncového šifrování pro vaši e-mailovou adresu ${ boldForwarderEmail }. "
       ],
       "Forwarding to this address will become active once the recipient accepts the forwarding.": [
-        "Přeposílání na tuto adresu bude aktivní, když příjemce přeposílání akceptuje."
+        "Přeposílání na tuto adresu bude aktivováno, jakmile příjemce přeposílání přijme."
       ],
       "No incoming forwarding rules": [
-        "Žádná pravidla příchozího přesměrování"
+        "Žádná příchozí pravidla přeposílání"
       ],
       "No outgoing forwarding rules": [
-        "Žádná pravidla odchozího přesměrování"
+        "Žádná odchozí pravidla přeposílání"
       ],
       "Please update your forwarding keys": [
-        "Aktualizujte své přeposílací klíče"
+        "Prosím, aktualizujte své klíče pro přeposílání"
       ],
       "The forwardee rejected the forwarding request": [
         "Příjemce přeposílané pošty odmítl žádost k přeposílání"
@@ -3348,7 +3351,7 @@
         "Tuto kartu můžete bezpečně zavřít."
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
-        "E-maily automaticky přeposílané z adresy ${ boldForwarderEmail } nebudete dostávat."
+        "Nebudete dostávat e-maily automaticky přeposílané z ${ boldForwarderEmail }."
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3356,10 +3359,10 @@
         "A"
       ],
       "Forward from": [
-        "Přeposlat z adresy"
+        "Přeposlat z"
       ],
       "Forward to": [
-        "Přeposlat"
+        "Přeposlat na"
       ],
       "or": [
         "nebo"
@@ -3428,10 +3431,10 @@
         "Změny byly uloženy"
       ],
       "Email sent to ${ forward.ForwardeeEmail }": [
-        "Email byl odeslán na ${ forward.ForwardeeEmail }"
+        "E-mail byl odeslán na ${ forward.ForwardeeEmail }"
       ],
       "Email sent to ${ forwardeeEmail }.": [
-        "Email byl odeslán na ${ forwardeeEmail }"
+        "E-mail byl odeslán na ${ forwardeeEmail }"
       ],
       "Forwarding accepted": [
         "Přeposílání bylo přijato"
@@ -3440,7 +3443,7 @@
         "Přeposílání bylo zamítnuto"
       ],
       "Forwarding deleted": [
-        "Přeposílání bylo odstraněno"
+        "Přeposílání bylo smazáno"
       ],
       "Forwarding paused": [
         "Přeposílání bylo pozastaveno"
@@ -3451,7 +3454,7 @@
     },
     "email_forwarding_2023: Title": {
       "Automatically forward emails to other accounts": [
-        "Automaticky přeposílá e-maily na jiné účty"
+        "Automaticky přeposílat e-maily na jiné účty"
       ],
       "Delete forwarding?": [
         "Vymazat přeposílání?"
@@ -7892,6 +7895,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Pokud zrušíte vaše předplatné ${ planTitle }, nebude už obnoveno po vypršení jeho platnosti ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
       ]
     },
     "info": {
@@ -11637,6 +11649,9 @@
       ],
       "yourdomain.com": [
         "vasedomena.cz"
+      ],
+      "Thomas Anderson": [
+        "Thomas Anderson"
       ]
     },
     "Placeholder for custom invoice text": {

@@ -2915,6 +2915,9 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "შეგიძლიათ, შემოიტანოთ ფაილები iCAL ფორმატში (ICS ფაილები). ფაილის მაქსიმალური ზომაა ${ MAX_IMPORT_FILE_SIZE_STRING } და შეიძლება შეიცავდეს ${ MAX_IMPORT_EVENTS_STRING }-მდე მოვლენას. თუ თქვენი ფაილი უფრო დიდია, სცადეთ, ის უფრო პატარა ფაილებად დახლიჩოთ."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Google-დან ან Outlook-დან კონტაქტების შემოსატანად, ${ easySwitchLink }."
       ]
     },
     "description": {
@@ -3936,6 +3939,9 @@
       ],
       "Zero keys reactivated": [
         "თავიდან გააქტიურდა 0 გასაღები"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "სამიზნე მიმღებს კალენდრის გაზიარების მხარდაჭერა არ გააჩნია"
       ]
     },
     "Error importing calendar": {
@@ -11235,6 +11241,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "თქვენს ორგანიზაციას აქვს წვდომა ${ free }-სთან. თუ გნებავთ ${ appName }-ის ფასიან ფუნქციებთან წვდომაც, ტარიფის ასაწევად ორგანიზაციის ადმინისტრატორს დაუკავშირდით."
+      ],
+      "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }**.": [
+        "მაგრამ, შეგიძლიათ, განბლოკოთ **${ unlockPlanTitle }** და ყველა ფასიანი ${ BRAND_NAME }-ის სერვისი **${ upsellPlanTitle }** ტარიფზე გადასვლით."
       ]
     },
     "pass_signup_2023: Title": {

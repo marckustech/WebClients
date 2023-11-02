@@ -3879,6 +3879,9 @@
       ],
       "Zero keys reactivated": [
         "0 個の鍵が再有効化されました"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "対象の受信者はカレンダーの共有をサポートしていません"
       ]
     },
     "Error importing calendar": {

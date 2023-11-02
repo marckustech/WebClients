@@ -1337,7 +1337,7 @@
         "Zamknij"
       ],
       "Get the deal": [
-        "Skorzystaj z oferty"
+        "Uzyskaj ofertę"
       ],
       "Remove": [
         "Usuń"
@@ -1375,7 +1375,7 @@
         "Blokada reklam i ochrona przed złośliwym oprogramowaniem"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Wszystkie płatne funkcje ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
+        "Wszystkie płatne funkcje usług ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
       ],
       "Extended version history": [
         "Rozszerzona historia wersji"
@@ -1409,7 +1409,7 @@
         "Oszczędź na szybkich, szwajcarskich usługach VPN z okazji Czarnego Piątku"
       ],
       "Select your Black Friday offer": [
-        "Wybierz ofertę na Czarny Piątek"
+        "Wybierz ofertę z okazji Czarnego Piątku"
       ]
     },
     "bf2023: info": {
@@ -1420,7 +1420,7 @@
         "Bezpieczne przeglądanie i funkcje VPN premium."
       ],
       "Sorry, this offer is not available with your current plan.": [
-        "Przepraszamy, ta oferta nie jest dostępna w ramach bieżącego planu."
+        "Oferta nie jest dostępna w obecnym planie."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
         "Przepraszamy, ta oferta nie jest dostępna w ramach bieżącego planu. Możesz jednak otrzymać **${ discountPercentage }} zniżki od ${ plan.Title }** przy subskrypcji na **${ months }**."
@@ -1428,7 +1428,7 @@
     },
     "bf2023: Info": {
       "6 TB storage (2x more than any other plan)": [
-        "6 TB przestrzeni dyskowej (2 razy więcej niż w innych planach)"
+        "6 TB przestrzeni dyskowej (2x więcej niż w innych planach)"
       ],
       "6 users": [
         "6 użytkowników"
@@ -1443,7 +1443,7 @@
         "Pomóż nam walczyć o prywatność w Internecie"
       ],
       "Premium versions of all ${ BRAND_NAME } services": [
-        "Wersje premium wszystkich usług ${ BRAND_NAME }"
+        "Wszystkie usługi ${ BRAND_NAME } w wersji premium"
       ],
       "The ${ plan } plan is back for a limited time only": [
         "Plan ${ plan } wraca w ograniczonej czasowo ofercie"
@@ -1473,7 +1473,7 @@
     },
     "bf2023: Title": {
       "Offer unavailable": [
-        "Oferta niedostępna"
+        "Oferta jest niedostępna"
       ]
     },
     "bf2023: Tooltip": {
@@ -1496,19 +1496,19 @@
         "Zawiera obsługę 3 niestandardowych domen, ${ addresses } adresów e-mail, nieograniczoną liczbę aliasów hide-my-email, udostępnianie kalendarza i wiele więcej."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
-        "Loguj się bezpiecznie na wszystkich urządzeniach. Obejmuje nieograniczoną liczbę aliasów, udostępnianie, zintegrowane uwierzytelnianie dwustopniowe i nie tylko."
+        "Bezpieczne logowanie na wszystkich urządzeniach. Zawiera nieograniczoną liczbę aliasów, udostępnianie, zintegrowaną aplikację uwierzytelniającą i wiele więcej."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
         "Zabezpiecz swoje e-maile i harmonogram dzięki szyfrowaniu end-to-end. Obejmuje obsługę niestandardowych domen e-mail, 15 adresów e-mail, nieograniczonej liczby aliasów hide-my-email, udostępniania kalendarza i wiele więcej."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Zabezpiecz pliki dzięki zaszyfrowanej przestrzeni dyskowej w chmurze. Obejmuje historię wersji, zaszyfrowane udostępnianie plików i nie tylko."
+        "Zabezpiecz pliki dzięki szyfrowanej przestrzeni dyskowej w chmurze. Zawiera historię wersji, szyfrowane udostępnianie plików i wiele więcej."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
         "Specjalnie zaprojektowana funkcja NetShield chroni Twoje urządzenia oraz przyśpiesza przeglądanie Internetu poprzez blokowanie reklam, elementów śledzących i złośliwego oprogramowania."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
-        "Przestrzeń dyskowa jest dzielona pomiędzy wszystkimi aplikacjami ${ BRAND_NAME }."
+        "Przestrzeń dyskowa jest dzielona pomiędzy wszystkimi usługami ${ BRAND_NAME }."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Przechowuj do 200 wersji każdego pliku przez okres aż do 10 lat."
@@ -12751,7 +12751,7 @@
     },
     "specialoffer: Title": {
       "Black Friday Sale": [
-        "Wyprzedaż Black Friday"
+        "Wyprzedaż z okazji Czarnego Piątku"
       ],
       "Cyber Week Sale": [
         "Wyprzedaż Cyber Week"

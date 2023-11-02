@@ -1069,6 +1069,15 @@
       ],
       "Zoom out": [
         "Loitonna"
+      ],
+      "Continue with Outlook": [
+        "Jatka Outlookilla"
+      ],
+      "Import from Google": [
+        "Tuo Googlesta"
+      ],
+      "Import from Outlook": [
+        "Tuo Outlookista"
       ]
     },
     "action": {
@@ -2906,6 +2915,12 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Voit tuoda tapahtumia iCal-muodossa (ICS-tiedostosta). Tiedosto voi olla enintään ${ MAX_IMPORT_FILE_SIZE_STRING } kokoinen ja sisältää enintään ${ MAX_IMPORT_EVENTS_STRING } tapahtumaa. Jos tiedosto on suurempi, jaa se pienempiin tiedostoihin."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Tuodaksesi CSV- ja VCF-tiedostoista, varmista ettei tiedoston koko ylitä ${ MAX_IMPORT_FILE_SIZE_STRING } tai yhteystietojen määrä ${ MAX_IMPORT_CONTACTS_STRING } yhteystietoa. Jos tiedostosi on suurempi, jaa se pienempiin osiin. ${ learnMoreLink }"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Tuo yhteystietosi Googlesta tai Outlookista ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3922,6 +3937,9 @@
       ],
       "Zero keys reactivated": [
         "Yhtään avainta ei aktivoitu uudelleen"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Tarkoitettu vastaanottaja ei tue kalenterijakoa"
       ]
     },
     "Error importing calendar": {
@@ -14673,6 +14691,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switch -tuontiapurilla"
       ]
     }
   }

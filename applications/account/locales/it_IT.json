@@ -207,7 +207,7 @@
         "Conferma l'apertura del link ${ linkToShow }"
       ],
       "Contact support": [
-        "Contatta il supporto"
+        "Contatta l'assistenza"
       ],
       "Contact us": [
         "Contattaci"
@@ -336,7 +336,7 @@
         "Disabilitare frase di recupero?"
       ],
       "Discard": [
-        "Annulla"
+        "Scarta"
       ],
       "Don't know your password?": [
         "Non sai la password?"
@@ -624,7 +624,7 @@
         "Hai bisogno di aiuto?"
       ],
       "Next": [
-        "Successivo"
+        "Avanti"
       ],
       "Next month": [
         "Mese successivo"
@@ -1322,7 +1322,7 @@
         "Aggiungi ${ plan } al tuo piano abbonandoti per 15 mesi"
       ],
       "Become a Visionary": [
-        "Scegli Visionary"
+        "Diventa un Visionario"
       ],
       "Cancel": [
         "Annulla"
@@ -1331,7 +1331,7 @@
         "Chiudi"
       ],
       "Get the deal": [
-        "Scegli"
+        "Approfitta dell'offerta"
       ],
       "Remove": [
         "Rimuovi"
@@ -1357,7 +1357,7 @@
         "3 TB"
       ],
       "3,000+ servers across 65+ countries": [
-        "Oltre 3.000 server in più di 65 Paesi"
+        "Oltre 3,000 server in più di 65 Paesi"
       ],
       "6 users": [
         "6 utenti"
@@ -1366,25 +1366,25 @@
         "Accedi ai contenuti in tutto il mondo"
       ],
       "Ad-blocker and malware protection": [
-        "Ad-blocker e anti-malware"
+        "Ad-blocker e protezione da malware"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Tutte le funzioni a pagamento di ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME }"
+        "Tutte le funzionalità a pagamento di ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME }"
       ],
       "Extended version history": [
-        "Cronologia estesa della versione"
+        "Cronologia delle versioni estesa"
       ],
       "High speed streaming": [
         "Streaming ad alta velocità"
       ],
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
-        "Premium ${ DRIVE_SHORT_APP_NAME }"
+        "${ DRIVE_SHORT_APP_NAME } premium"
       ],
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
-        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+        "${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME } premium"
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
-        "Premium ${ VPN_SHORT_APP_NAME }"
+        "${ VPN_SHORT_APP_NAME } premium"
       ],
       "Premium Password Manager": [
         "Password manager premium"
@@ -1445,7 +1445,7 @@
     },
     "bf2023: Offers": {
       "30-day money-back guarantee": [
-        "Garanzia 30 giorni soddisfatti o rimborsati"
+        "Garanzia di rimborso entro 30 giorni"
       ]
     },
     "bf2023: renew": {
@@ -1470,29 +1470,29 @@
     },
     "bf2023: Tooltip": {
       "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "Accedi ai contenuti bloccati e naviga in modalità privata. Sono inclusi: più di 3.000 server in oltre 65 Paesi, VPN ad altissima velocità, accesso ai servizi di streaming in tutto il mondo, anti-malware, ad-blocker, download BitTorrent veloci e altro ancora."
+        "Accedi a contenuti bloccati e naviga in modalità privata. Include oltre 3,000 server in più di 65 Paesi, le più elevate velocità VPN, l'accesso ai servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
       ],
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Accedi ai contenuti di servizi di streaming come Netflix, Disney+, Prime Video e altro ancora, ovunque ti trovi."
+        "Accedi ai contenuti dei servizi di streaming, tra cui Netflix, Disney+, Prime Video e altri ancora, da qualsiasi luogo."
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
-        "Aggira i blocchi e la censura a internet imposti dai singoli Paesi grazie alla nostra rete globale di server."
+        "Supera i blocchi e la censura di internet a livello locale con la nostra rete globale di server."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Include il supporto per 1 dominio email personalizzato, 10 indirizzi email, 10 alias hide-my-email, condivisione del calendario e altro ancora."
+        "Include il supporto per 1 dominio email personalizzato, 10 indirizzi email, 10 alias hide-my-email, condivisione del calendario e molto altro."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzo email, alias hide-my-email illimitati, condivisione del calendario e altro ancora.",
-        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
+        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzo email, alias Hide-my-email illimitati, condivisione dei calendari e molto altro.",
+        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzi email, alias Hide-my-email illimitati, condivisione dei calendari e molto altro."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
         "Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrato e molto altro."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Proteggi le tue email e il tuo calendario con la crittografia end-to-end. Sono inclusi: supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
+        "Proteggi le tue email e i tuoi impegni con la crittografia end-to-end. Include il supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Proteggi i tuoi file con l'archiviazione in cloud crittografata. Sono incluse la cronologia delle versioni, la sincronizzazione automatica, la condivisione di file crittografati e altre funzioni ancora."
+        "Proteggi i tuoi file con l'archiviazione su cloud crittografata. Include la cronologia delle versioni, la condivisione di file crittografati e molto altro."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
         "NetShield è progettato su misura per proteggere i dispositivi e accelerare la navigazione bloccando annunci, tracker e malware."
@@ -1501,7 +1501,7 @@
         "Lo spazio di archiviazione è condiviso tra tutte le app ${ BRAND_NAME }."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
-        "Archivia oltre 200 versioni di ciascun file per un massimo di 10 anni."
+        "Archivia fino a 200 versioni di ogni file per un massimo di 10 anni."
       ]
     },
     "Billing cycle": {
@@ -5627,7 +5627,7 @@
         "password per le app o abilitare IMAP"
       ],
       "CSV or a VCF (vCard) file": [
-        "un file CSV o VCF (vCard)"
+        "file CSV o VCF (vCard)"
       ],
       "full calendar view": [
         "vista calendario completa"
@@ -6102,7 +6102,7 @@
         "Sei sicuro di voler disabilitare l'autenticazione a due fattori?"
       ],
       "Are you sure you want to discard your changes?": [
-        "Sei sicuro di voler annullare le modifiche?"
+        "Sei sicuro di voler annullare le tue modifiche?"
       ],
       "Are you sure you want to discard your import?": [
         "Sei sicuro di voler annullare la tua importazione?"
@@ -6774,7 +6774,7 @@
         "Deve iniziare con una lettera."
       ],
       "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
-        "Dai un nome alla tua cartella e seleziona la cartella principale nella quale deve verrà contenuta. Se non selezioni una cartella principale, questa nuova cartella verrà creata come una cartella di primo livello."
+        "Dai un nome alla tua cartella e seleziona la cartella principale nella quale verrà contenuta. Se non selezioni una cartella principale, questa nuova cartella verrà creata come una cartella di primo livello."
       ],
       "New": [
         "Nuovo"
@@ -7600,10 +7600,10 @@
         "Abbiamo bisogno di verificare il tuo pagamento con la tua banca."
       ],
       "We recommend having at least 2 servers in order to provide redundancy.": [
-        "Ti consigliamo di disporre di almeno 2 server per garantire la ridondanza."
+        "Ti consigliamo di avere almeno 2 server per garantire la ridondanza."
       ],
       "We recommend having multiple servers in different locations to provide redundancy.": [
-        "Si consiglia di disporre di più server in posizioni diverse per fornire ridondanza."
+        "Ti consigliamo di avere più server in località differenti per garantire la ridondanza."
       ],
       "We recommend notifying the organization members and asking them to set up 2FA for their accounts before enforcing the use of 2FA.": [
         "Raccomandiamo di notificare i membri di una organizzazione e invitarli ad impostare una autenticazione a due fattori, prima di forzarne l'uso."
@@ -7912,7 +7912,7 @@
         "Le informazioni di accesso non verranno salvate dopo il completamento dell'importazione."
       ],
       "Your next billing date is ${ renewalTime }.": [
-        "La tua prossima data di fatturazione è ${ renewalTime }."
+        "La tua prossima data di fatturazione è il ${ renewalTime }."
       ],
       "Your organization password can be shared with other users you wish to give administrative privileges. It is also an emergency recovery code to gain access to your organization in case you lose access to your account. Please save this password and keep it safe.": [
         "La password dell'organizzazione può essere condivisa con altri utenti a cui desideri concedere i privilegi di amministrazione. È anche un codice di recupero di emergenza per ottenere l'accesso alla tua organizzazione nel caso in cui perdi l'accesso al tuo account. Salva questa password e tienila al sicuro."
@@ -8587,7 +8587,7 @@
         "Contatti"
       ],
       "Conversation grouping": [
-        "Raggruppamento conversazioni"
+        "Raggruppamento delle conversazioni"
       ],
       "Copy": [
         "Copia"
@@ -8722,7 +8722,7 @@
         "Giorno finale del mese"
       ],
       "End time": [
-        "Orario di fine"
+        "Ora di fine"
       ],
       "End weekday": [
         "Giorno finale della settimana"
@@ -9361,7 +9361,7 @@
         "Comodo"
       ],
       "Compact": [
-        "Compatta"
+        "Compatto"
       ]
     },
     "Label to change view layout": {
@@ -11042,7 +11042,7 @@
         "Chiedi ogni volta"
       ],
       "Auto": [
-        "Auto"
+        "Automatico"
       ],
       "Automatic (${ defaultDay })": [
         "Automatico (${ defaultDay })"
@@ -13102,7 +13102,7 @@
         "Valori"
       ],
       "vCard field": [
-        "campo vCard"
+        "Campo vCard"
       ]
     },
     "TableRow": {
@@ -13725,7 +13725,7 @@
         "Vuoi abbandonare ${ organisationName }?"
       ],
       "Link confirmation": [
-        "Conferma dei link"
+        "Conferma link"
       ],
       "Login password": [
         "Password di accesso"
@@ -13923,7 +13923,7 @@
         "Imposta la password dell'organizzazione"
       ],
       "Set up forwarding": [
-        "Imposta l'inoltro"
+        "Configura l'inoltro"
       ],
       "Set up two-factor authentication": [
         "Abilita l'autenticazione in due fattori"
@@ -14258,7 +14258,7 @@
         "Modifica i nomi delle etichette"
       ],
       "Enable/disable desktop and mobile notifications": [
-        "Attiva/disattiva le notifiche desktop e mobile"
+        "Abilita/disabilita le notifiche desktop e mobile"
       ],
       "Enabling advanced logs records the IP address for each event in the security log.": [
         "L'abilitazione dei log avanzati registra l'indirizzo IP per ogni evento nei log di sicurezza."

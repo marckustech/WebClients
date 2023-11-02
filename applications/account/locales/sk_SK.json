@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Keep my Plus subscription": [
+        "Ponechať moje predplatné Plus"
       ]
     },
     "action": {
@@ -2996,7 +2999,7 @@
     },
     "Domain spam notification": {
       "${ name } added": [
-        "Doména ${ name } pridaná"
+        "${ name } pridaná"
       ],
       "${ name } deletion failed": [
         "${ name } sa nepodarilo odstrániť"
@@ -3008,7 +3011,7 @@
         "${ name } sa nepodarilo presunúť do zoznamu blokovaných"
       ],
       "${ name } failed to move to spam list": [
-        "Doménu ${ name } sa nepodarilo presunúť do zoznamu nevyžiadaných"
+        "${ name } sa nepodarilo presunúť na zoznam spamov"
       ],
       "${ name } moved to allow list": [
         "${ name } presunutý do zoznamu povolených"
@@ -3147,7 +3150,7 @@
         "${ name } sa nepodarilo presunúť do zoznamu blokovaných"
       ],
       "${ name } failed to move to spam list": [
-        "${ name } sa nepodarilo presunúť na zoznam nevyžiadaných"
+        "${ name } sa nepodarilo presunúť na zoznam spamov"
       ],
       "${ name } moved to allow list": [
         "${ name } presunutý do zoznamu povolených"
@@ -3156,7 +3159,7 @@
         "${ name } presunuté do zoznamu blokovaných"
       ],
       "${ name } moved to spam list": [
-        "${ name } bol presunutý do zoznamu nevyžiadaných"
+        "${ name } bola presunutá na zoznam spamov"
       ],
       "${ name } successfully deleted": [
         "${ name } úspešne odstránený"
@@ -6418,7 +6421,7 @@
         "Získať ${ upsellPlanName }"
       ],
       "Get access by creating a ${ BRAND_NAME } account and accepting the invitation.": [
-        "Získajte prístup vytvorením účtu v ${ BRAND_NAME } a prijatím pozvánky."
+        "Získajte prístup vytvorením ${ BRAND_NAME } účtu a prijatím pozvánky."
       ],
       "Give the token a descriptive name, such as the service you plan to use it with, and select one of your active custom domain addresses. Only this address will be able to send emails with this token.": [
         "Dajte tokenu popisný názov, napríklad službu, s ktorou ho plánujete používať a vyberte jednu z vašich aktívnych adries vlastnej domény. Iba táto adresa bude môcť odosielať emaily s týmto tokenom."
@@ -6640,7 +6643,7 @@
         "Odkaz odstránený"
       ],
       "Link expired": [
-        "Platnosť odkazu skončila"
+        "Platnosť odkazu vypršala"
       ],
       "Link type": [
         "Typ odkazu"
@@ -7615,7 +7618,7 @@
         "S balíkom Business alebo Enterprise si môžete zakúpiť ${ boldDedicatedServers } pre vašu organizáciu a nastaviť ${ boldGateways }, aby ste mohli kontrolovať, ktorí používatelia k nim majú prístup."
       ],
       "With an encrypted ${ BRAND_NAME } address, you can use all ${ BRAND_NAME } services": [
-        "So zašifrovanou adresou ${ BRAND_NAME } môžete používať všetky služby ${ BRAND_NAME }"
+        "So šifrovanou ${ BRAND_NAME } adresou môžete používať všetky služby ${ BRAND_NAME }"
       ],
       "With your current plan, you can only receive messages with your @pm.me address. Upgrade to send messages and create additional addresses using @pm.me.": [
         "S vašim súčasným plánom môžete iba dostávať správy s vašou @pm.me adresou. Upgradujte ho, aby ste mohli správy odosielať a vytvárať ďalšie adresy použitím @pm.me."
@@ -7889,6 +7892,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Vaše predplatné je spravované Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Zrušením vaše predplatné ${ planTitle } nebude obnovené, keď dňa ${ expiryDate } uplynie jeho platnosť."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "V tento deň stratíte prístup k funkciám Plus."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "V tento deň stratíte prístup k Plus serverom a funkciám služby Plus."
       ]
     },
     "info": {
@@ -8340,7 +8352,7 @@
         "(Dočasne nedostupné. Skúste to neskôr.)"
       ],
       "Account storage": [
-        "Priestor pre účet"
+        "Úložisko účtu"
       ],
       "Actions": [
         "Akcia"
@@ -8382,7 +8394,7 @@
         "Povoliť obnovenie pomocou dôveryhodného zariadenia"
       ],
       "Amount": [
-        "Počet"
+        "Čiastka"
       ],
       "Amount due": [
         "Čiastka k zaplateniu"
@@ -8415,7 +8427,7 @@
         "Aplikácia 2FA"
       ],
       "Auto show embedded images": [
-        "Automaticky zobraziť vložené obrázky"
+        "Automaticky zobrazovať vložené obrázky"
       ],
       "Auto show remote images": [
         "Automaticky zobrazovať vzdialené obrázky"
@@ -8508,7 +8520,7 @@
         "Editor"
       ],
       "Composer default font/size": [
-        "Predvolený typ písma/veľkosť v editore"
+        "Predvolené písmo/veľkosť v editore"
       ],
       "Composer mode": [
         "Režim editácie"
@@ -8541,7 +8553,7 @@
         "Potvrďte heslo organizácie"
       ],
       "Confirm password": [
-        "Potvrdiť heslo"
+        "Potvrďte heslo"
       ],
       "Contacts": [
         "Kontakty"
@@ -8967,7 +8979,7 @@
         "Pridajte prosím nasledujúcí TXT záznam. Pamätajte, že zmena v DNS záznamoch se môže prejaviť až za niekoľko hodín."
       ],
       "Please select files to upload": [
-        "Vyberte prosím súbory pre nahratie"
+        "Vyberte, prosím, súbory pre nahratie"
       ],
       "Please share any feedback to help us improve.": [
         "Prosím zdieľajte akúkoľvek spätnú väzbu, aby ste nám pomohli zlepšiť sa."
@@ -9027,7 +9039,7 @@
         "Vyberte vašu krajinu"
       ],
       "Select your plan": [
-        "Vyberte tarifu"
+        "Vyberte plán"
       ],
       "Send auto-reply": [
         "Poslať automatickú odpoveď"
@@ -9057,7 +9069,7 @@
         "Podpis"
       ],
       "SMTP port": [
-        "Port SMTP"
+        "SMTP port"
       ],
       "SMTP server": [
         "SMTP server"
@@ -9090,7 +9102,7 @@
         "Podmienka"
       ],
       "Sticky labels": [
-        "Samolepiace etikety"
+        "Pripnuté štítky"
       ],
       "Subscription options": [
         "Možnosti predplatného"
@@ -9159,7 +9171,7 @@
         "Používateľ"
       ],
       "User's new password": [
-        "Nové heslo užívateľa"
+        "Nové heslo používateľa"
       ],
       "Username": [
         "Používateľské meno"
@@ -9171,7 +9183,7 @@
         "Overenie kľúčov cez funkciu Transparentnosť kľúčov"
       ],
       "We are sorry to see you go. Please explain why you are leaving to help us improve.": [
-        "Je nám ľúto, že odchádzate. Napíšte nám svoj dôvod, aby sme mohli zlepšiť naše služby."
+        "Je nám ľúto, že odchádzate. Napíšte nám svoj dôvod, prečo odchádzate, aby sme mohli zlepšiť naše služby."
       ],
       "Week start": [
         "Týždeň začína v"
@@ -9183,7 +9195,7 @@
         "Aký je hlavný dôvod zrušenia?"
       ],
       "What is the main reason you are deleting your account?": [
-        "Aký je hlavný dôvod, prečo mažete svôj účet?"
+        "Aký je hlavný dôvod, prečo mažete svoj účet?"
       ],
       "Why would you like to cancel?": [
         "Prečo chcete zrušiť?"
@@ -9204,7 +9216,7 @@
         "bez príloh"
       ],
       "Yes, I want to permanently delete this account and all its data.": [
-        "Áno, chcem trvale zmazať tento účet a všeky údaje s ním spojené."
+        "Áno, chcem trvale zmazať tento účet a všetky údaje s ním spojené."
       ],
       "Your calendar URL": [
         "URL adresa vášho kalendára"
@@ -11498,6 +11510,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Vaša organizácia má prístup k ${ free }. Ak chcete získať prístup k prémiovým funkciám ${ appName }, požiadajte správcu vašej organizácie o upgrade."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "Ale môžete získať zľavu ${ discount } prechodom na **${ upsellPlanTitle }** - je to len ${ relativePrice } mesačne navyše."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "Ale môžete získať zľavu ${ discount } prechodom na **${ upsellPlanTitle }**."
       ]
     },
     "pass_signup_2023: Title": {
@@ -11634,6 +11652,9 @@
       ],
       "yourdomain.com": [
         "vasadomena.com"
+      ],
+      "Thomas Anderson": [
+        "Ján Kováč"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -13350,7 +13371,7 @@
         "Pridať do zoznamu blokovaných"
       ],
       "Add to spam list": [
-        "Pridať do zoznamu nevyžiadaných"
+        "Pridať do zoznamu spamov"
       ],
       "Add user accounts": [
         "Spravovať používateľské účty"
@@ -14061,7 +14082,7 @@
         "Prihláste sa a povoľte prístup"
       ],
       "Sign in to join the Beta program": [
-        "Prihláste sa a pripojte sa k beta programu"
+        "Prihláste sa a pripojte k beta programu"
       ],
       "Sign in to your organization": [
         "Prihláste sa do svojej organizácie"

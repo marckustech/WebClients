@@ -412,13 +412,13 @@
         "Obtenir codi de verificació"
       ],
       "Go to first page": [
-        "Ves a la primera pàgina"
+        "Aneu a la primera pàgina"
       ],
       "Go to label": [
         "Ves a l'etiqueta"
       ],
       "Go to last page": [
-        "Vés a l'última pàgina"
+        "Aneu a l'última pàgina"
       ],
       "Go to next page": [
         "Ves a la pàgina següent"
@@ -1144,6 +1144,29 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Add birthday": [
+        "Afegir una data de naixement"
+      ],
+      "Add note": [
+        "Afegeix una nota"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "Es permet un màxim d'${ maxContacts } contacte per grup de contactes.",
+        "Es permet un màxim de ${ maxContacts } contactes per grup de contactes."
+      ],
+      "Don't know your password?": [
+        "No sabeu la vostra contrasenya?"
+      ],
+      "Ok": [
+        "OK"
+      ],
+      "See how": [
+        "Mira com"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "No podeu enviar fitxers vCard de més d'${ maxAttachments } contacte.",
+        "No podeu enviar fitxers vCard de més de ${ maxAttachments } contactes."
       ]
     },
     "action": {
@@ -1621,6 +1644,12 @@
       ],
       "Your email address is not in the participants list": [
         "La vostra adreça de correu electrònic no es troba a la llista de participants"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "No podeu respondre a les invitacions de ${ BRAND_NAME } si no esteu a la llista de participants en aquest moment."
+      ],
+      "Your email address is not in the original participants list.": [
+        "La vostra adreça de correu electrònic no es troba a la llista original de participants."
       ]
     },
     "Calendar widget banner": {
@@ -1983,6 +2012,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Nom a mostrar"
+      ],
+      "Enter a display name or nickname": [
+        "Introduïu un nom a mostrar o un sobrenom"
+      ],
+      "First name": [
+        "Nom"
+      ],
+      "Last name": [
+        "Cognom"
       ]
     },
     "Contact type label": {
@@ -2884,8 +2925,8 @@
         "Combinant contactes... Pot trigar uns minuts. Quan el procés s'hagi completat, podreu tancar aquest diàleg."
       ],
       "New emails from ${ senderEmailAddress } and ${ otherSendersCount } other won't be delivered and will be permanently deleted.": [
-        "Els nous correus de ${ senderEmailAddress } i ${ otherSendersCount } remitent més no s'entregaran i seran eliminats permanentment.",
-        "Els nous correus de ${ senderEmailAddress } i ${ otherSendersCount } remitents més no s'entregaran i seran eliminats permanentment."
+        "Els nous correus de ${ senderEmailAddress } i ${ otherSendersCount } altre no s'entregaran i seran eliminats permanentment.",
+        "Els nous correus de ${ senderEmailAddress } i ${ otherSendersCount } altres no s'entregaran i seran eliminats permanentment."
       ],
       "New emails from ${ senderEmailAddress } won't be delivered and will be permanently deleted.": [
         "Els correus nous de ${ senderEmailAddress } no s'entregaran i seran eliminats permanentment."
@@ -3136,12 +3177,12 @@
         "S'ha produït un error de desxifratge: no s'ha pogut desxifrar el contingut xifrat d’aquest missatge."
       ],
       "Deselect at least ${ calendarsToFixCount } calendar": [
-        "Desseleccioneu almenys ${ calendarsToFixCount } calendari",
-        "Desseleccioneu almenys ${ calendarsToFixCount } calendaris"
+        "Desmarqueu almenys ${ calendarsToFixCount } calendari.",
+        "Desmarqueu almenys ${ calendarsToFixCount } calendaris."
       ],
       "Deselect at least ${ calendarsToFixCount } calendar or": [
-        "Desseleccioneu almenys ${ calendarsToFixCount } calendari o",
-        "Desseleccioneu almenys ${ calendarsToFixCount } calendaris o"
+        "Desmarqueu almenys ${ calendarsToFixCount } calendari o",
+        "Desmarqueu almenys ${ calendarsToFixCount } calendaris o"
       ],
       "Domain not available, try again later": [
         "El domini no està disponible, torneu-ho a provar més tard"
@@ -3461,6 +3502,25 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La vostra cerca coincideix amb massa resultats. Limiteu la cerca i torneu-ho a provar."
+      ],
+      "First name is too long": [
+        "El nom és massa llarg."
+      ],
+      "Incorrect username": [
+        "Nom d'usuari incorrecte"
+      ],
+      "Last name is too long": [
+        "El cognom és massa llarg."
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Proporcioneu un nom , un cognom o un nom a mostrar."
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "No podeu enviar un correu a més d'${ maxContacts } destinatari.",
+        "No podeu enviar un correu a més de ${ maxContacts } destinataris."
+      ],
+      "You have reached the contacts limit for your account": [
+        "Heu arribat al límit de contactes per al vostre compte."
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3784,6 +3844,15 @@
       ],
       "Up to 6 users": [
         "Fins a 6 usuaris"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3929,6 +3998,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4212,6 +4284,21 @@
       ],
       "You've unlocked 1 GB": [
         "Heu desbloquejat 1 GB"
+      ],
+      "Changed accounts": [
+        "Els comptes han estat canviats."
+      ],
+      "Congratulation, you finished!": [
+        "Felicitats! Heu acabat."
+      ],
+      "Open checklist and get free storage": [
+        "Obreu la llista de verificació i gaudiu de més espai d'emmagatzematge de manera gratuïta."
+      ],
+      "Storage unlocked": [
+        "S'ha desbloquejat l'emmagatzematge."
+      ],
+      "This feature is currently unavailable": [
+        "Aquesta característica actualment no està disponible."
       ]
     },
     "Gmail forwarding": {
@@ -4675,8 +4762,8 @@
         "${ selectedCalendarsTotal } de ${ providerCalendars.length } calendaris"
       ],
       "${ selectedContactsLength }/${ contactsLength } contact selected": [
-        "${ selectedContactsLength }/${ contactsLength } contacte seleccionat",
-        "${ selectedContactsLength }/${ contactsLength } contactes seleccionats"
+        "${ selectedContactsLength } contacte seleccionat de ${ contactsLength }",
+        "${ selectedContactsLength } contactes seleccionats de ${ contactsLength }"
       ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } carpeta seleccionada",
@@ -5967,6 +6054,48 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "La tecnologia d'encriptació de ${ BRAND_NAME } significa que ningú pot accedir a la vostra contrasenya, ni tan sols nosaltres."
+      ],
+      "${ storage } storage": [
+        "${ storage } d'emmagatzematge"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "No podeu trobar el que esteu buscant? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Copia l'enllaç al porta-retalls"
+      ],
+      "Edit email address": [
+        "Edita l'adreça de correu"
+      ],
+      "Join ${ PROTON_SENTINEL_NAME } program for the highest level of account security and support.": [
+        "Uniu-vos al programa ${ PROTON_SENTINEL_NAME } per obtenir el més alt nivell de seguretat i suport del compte."
+      ],
+      "Open shortcut cheat sheet": [
+        "Obre el resum de dreceres"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Teniu en compte que les adreces assignades a aquests grups NO se suprimiran."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "El preu inclou tots els descomptes basats en cicles aplicables i els cupons no caducats desats al vostre compte."
+      ],
+      "Total email addresses": [
+        "Adreces de correu totals"
+      ],
+      "Total storage": [
+        "Emmagatzematge"
+      ],
+      "Total supported domains": [
+        "Dominis suportats totals"
+      ],
+      "Total VPN connections": [
+        "Connexions VPN totals"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Fins a ${ FAMILY_MAX_USERS } usuaris"
       ]
     },
     "info": {
@@ -6691,6 +6820,12 @@
       ],
       "Your password (admin)": [
         "La seva contrasenya (admin)"
+      ],
+      "Confirm password": [
+        "Confirmeu la contrasenya"
+      ],
+      "New password": [
+        "Contrasenya nova"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6917,6 +7052,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Heu de reactivar les vostres claus per veure la invitació actualitzada"
+      ],
+      "Set up email forwarding": [
+        "Configura el reenviament de correu electrònic"
       ]
     },
     "Link to calendar event": {
@@ -7283,6 +7421,9 @@
       ],
       "Senders blocked": [
         "S'han bloquejat els remitents"
+      ],
+      "Link copied to clipboard": [
+        "S'ha copiat l'enllaç al porta-retalls."
       ]
     },
     "Oauth instructions": {
@@ -7519,6 +7660,12 @@
       ],
       "Type text or keyword": [
         "Escrigui text o paraula clau"
+      ],
+      "First name": [
+        "Nom"
+      ],
+      "Last name": [
+        "Cognom"
       ]
     },
     "Placeholder for contact group name": {
@@ -7881,6 +8028,18 @@
       ],
       "Support online privacy": [
         "Doneu suport a la privacitat en línia"
+      ],
+      "1 user": [
+        "1 usuari"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } prèmium"
       ]
     },
     "specialoffer: Footer": {
@@ -7971,6 +8130,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "El preu estàndard és ${ amount } durant 30 mesos"
+      ],
+      "${ n } month": [
+        "${ n } mes",
+        "${ n } mesos"
+      ],
+      "15 months": [
+        "15 mesos"
+      ],
+      "30 months": [
+        "30 mesos"
       ]
     },
     "specialoffer: Title": {
@@ -8058,6 +8227,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ara podeu programar els vostres missatges per tal que s'enviïn més tard"
+      ],
+      "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
+        "Els correus brossa i a la paperera ara s'exclouen automàticament de Tot el correu. ${ settingsLink }"
       ]
     },
     "Status": {
@@ -8368,6 +8540,12 @@
       ],
       "Premium Password Manager": [
         "Gestor de Contrasenyes prèmium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } prèmium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME } prèmium"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8465,6 +8643,15 @@
       ],
       "vCard field": [
         "Camp vCard"
+      ],
+      "Display name": [
+        "Nom a mostrar"
+      ],
+      "First name": [
+        "Nom"
+      ],
+      "Last name": [
+        "Cognom"
       ]
     },
     "Time": {
@@ -9054,6 +9241,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La prova gratuïta de Mail Plus finalitza el ${ textDate }"
+      ],
+      "Birthday": [
+        "Data de naixement"
+      ],
+      "Change password": [
+        "Canvia la contrasenya"
+      ],
+      "Notes": [
+        "Notes"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9240,6 +9436,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "La prova gratuïta acaba el ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Esteu segur que voleu eliminar aquests grups de contacte permanentment?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9477,6 +9676,201 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domini personalitzat",
+        "${ domains } dominis personalitzats"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidors"
+      ],
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuari",
+        "${ users } usuaris"
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Es permet un màxim d'${ maxAttendees } participant per invitació.",
+        "Es permet un màxim de ${ maxAttendees } participants per invitació."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Cancel·la el restabliment"
+      ],
+      "Reset password": [
+        "Restableix la contrasenya"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "La recuperació de compte no està disponible per a les claus d'adreces antigues."
+      ],
+      "Please generate keys before you try to change your password": [
+        "Genereu les claus abans d’intentar canviar la vostra contrasenya."
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } dia",
+        "${ timeRemaining.inDays } dies"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } hora",
+        "${ timeRemaining.inHours } hores"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inDays } dia per restablir la vostra contrasenya.",
+        "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inDays } dies per restablir la vostra contrasenya."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inHours } hora per restablir la vostra contrasenya.",
+        "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inHours } hores per restablir la vostra contrasenya."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Aneu a l'aparell connectat (a la sessió on es va iniciar la sol·licitud) per canviar la vostra contrasenya."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Aquest permís caduca en ${ timeRemaining.inDays } dia.",
+        "Aquest permís caduca en ${ timeRemaining.inDays } dies."
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Aquest permís caduca en ${ timeRemaining.inHours } hora.",
+        "Aquest permís caduca en ${ timeRemaining.inHours } hores."
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Ara podeu canviar la vostra contrasenya per al compte ${ boldEmail } lliurement durant ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Mira com"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "S'ha desat la contrasenya."
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Restableix la contrasenya"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Cancel·la el restabliment de contrasenya"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Introduïu la vostra contrasenya actual per cancel·lar el procés de restabliment de contrasenya. No es tindran en compte cap altre canvi."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "S'ha cancel·lat el restabliment de la contrasenya."
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Cancel·la el restabliment de contrasenya?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "S'ha cancel·lat la sol·licitud de restabliment de contrasenya (${ user.Email }). Si no heu sol·licitat aquesta sol·licitud, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "canvieu la vostra contrasenya ara"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Cancel·la la petició"
+      ],
+      "Got it": [
+        "Entesos"
+      ],
+      "Learn more": [
+        "Saber-ne més"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } hora més",
+        "${ gracePeriodHoursRemaining } hores més"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Si no heu demanat restablir la teva contrasenya, cancel·leu aquesta sol·licitud ara mateix."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hora.",
+        "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hores."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Per assegurar-nos que sou vosaltres qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la vostra contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Hem rebut una sol·licitud de restabliment de contrasenya per a ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Mostra la petició "
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "S'ha sol·licitat un restabliment de la contrasenya."
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Tanca la sessió"
+      ],
+      "Stay signed in": [
+        "Mantén la sessió iniciada"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } hora",
+        "${ gracePeriodHoursRemaining } hores"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } ara està disponible."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Si tanqueu la sessió abans de restablir la contrasenya, podríeu perdre l'accés al vostre compte."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Si tanqueu la sessió sense restablir la contrasenya, podríeu perdre l'accés al vostre compte."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Podreu restablir la vostra contrasenya en ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Restabliment de contrasenya"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Tancar la sessió sense restabliment de contrasenya?"
       ]
     }
   }

@@ -4235,6 +4235,12 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "Confirm password": [
+        "Potvrdi lozinku"
+      ],
+      "New password": [
+        "Nova lozinka"
       ]
     },
     "Label for contact group color": {
@@ -5282,6 +5288,9 @@
       ],
       "vCard field": [
         "vCard polje"
+      ],
+      "Display name": [
+        "Zaslonski naziv"
       ]
     },
     "Time": {
@@ -5672,6 +5681,9 @@
       ],
       "What's new": [
         "Što je novo"
+      ],
+      "Change password": [
+        "Promjena lozinke"
       ]
     },
     "Today icon tooltip in mini calendar": {

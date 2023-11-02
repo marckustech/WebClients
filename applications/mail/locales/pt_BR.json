@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Add birthday": [
+        "Adicionar aniversário"
+      ],
+      "Add note": [
+        "Adicionar nota"
+      ],
+      "Close the checklist": [
+        "Fechar o checklist"
+      ],
+      "Continue with Outlook": [
+        "Continuar com Outlook"
+      ],
+      "Don't know your password?": [
+        "Não sabe sua senha?"
+      ],
+      "Import from Google": [
+        "Importar do Google"
+      ],
+      "Import from Outlook": [
+        "Importar do Outlook"
+      ],
+      "Ok": [
+        "Ok"
+      ],
+      "See how": [
+        "Veja como"
       ]
     },
     "action": {
@@ -1629,6 +1656,12 @@
       ],
       "Your email address is not in the participants list": [
         "Seu endereço de e-mail não está na lista de participantes"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Você não poderá responder aos convites de ${ BRAND_NAME } se no momento não estiver na lista de participantes."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Seu endereço de e-mail não está na lista original de participantes."
       ]
     },
     "Calendar widget banner": {
@@ -1991,6 +2024,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Nome de exibição"
+      ],
+      "Enter a display name or nickname": [
+        "Informe um nome de exibição ou apelido"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Sobrenome"
       ]
     },
     "Contact type label": {
@@ -3476,6 +3521,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A sua pesquisa correspondeu a muitos resultados. Limite sua busca e tente novamente."
+      ],
+      "First name is too long": [
+        "Primeiro nome é muito longo"
+      ],
+      "Incorrect username": [
+        "Nome de usuário incorreto"
+      ],
+      "Last name is too long": [
+        "Sobrenome é muito longo"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Informe o primeiro nome, o sobrenome ou nome de exibição"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3805,6 +3862,15 @@
       ],
       "Up to 6 users": [
         "Até 6 usuários"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3950,6 +4016,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3968,6 +4037,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter": {
@@ -4229,7 +4302,7 @@
         "Configure ${ strongText } a partir do Gmail"
       ],
       "Sign in to the mobile app to complete this step": [
-        "Faça login no aplicativo para completar esta etapa"
+        "Inicie sessão no aplicativo para completar esta etapa"
       ],
       "Storage unlocked": [
         "Armazenamento desbloqueado"
@@ -4248,6 +4321,9 @@
       ],
       "You've unlocked 1 GB": [
         "Você desbloqueou 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Fechar isso significa abrir mão do bônus de armazenamento gratuito."
       ]
     },
     "Gmail forwarding": {
@@ -4360,7 +4436,7 @@
         "${ CALENDAR_APP_NAME } atualmente não oferece suporte para algumas categorias de eventos, detalhes e formatos."
       ],
       "vCard versions < 3.0": [
-        "versões vCard < 3.0"
+        "Versões vCard < 3.0"
       ]
     },
     "Import calendar; import invitation": {
@@ -6015,6 +6091,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Seu número de telefone somente será usado nessa verificação única."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "A tecnologia de criptografia da ${ BRAND_NAME } significa que ninguém pode acessar sua senha - nem mesmo nós."
+      ],
+      "${ storage } storage": [
+        "${ storage } de armazenamento"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Não consegue encontrar o que procura? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Copiar link para a área de transferência"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "O preço inclui todos os descontos baseados em ciclos aplicáveis ​​e cupons não expirados salvos em sua conta."
+      ],
+      "Total email addresses": [
+        "Endereços de e-mail adicionais"
+      ],
+      "Total storage": [
+        "Total de armazenamento"
+      ],
+      "Total supported domains": [
+        "Total de domínios suportados"
+      ],
+      "Total VPN connections": [
+        "Conexões VPN adicionais"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Até ${ FAMILY_MAX_USERS } usuários"
       ]
     },
     "info": {
@@ -6739,6 +6845,12 @@
       ],
       "Your password (admin)": [
         "Sua senha (admin)"
+      ],
+      "Confirm password": [
+        "Confirmar senha"
+      ],
+      "New password": [
+        "Nova senha"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6965,6 +7077,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Você precisa reativar suas chaves para ver o convite atualizado"
+      ],
+      "Set up email forwarding": [
+        "Configurar encaminhamento de e-mail"
       ]
     },
     "Link to calendar event": {
@@ -7331,6 +7446,9 @@
       ],
       "Senders blocked": [
         "Remetentes bloqueados"
+      ],
+      "Link copied to clipboard": [
+        "Link copiado para área de transferência"
       ]
     },
     "Oauth instructions": {
@@ -7567,6 +7685,12 @@
       ],
       "Type text or keyword": [
         "Digite o texto ou a palavra-chave"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Sobrenome"
       ]
     },
     "Placeholder for contact group name": {
@@ -7932,6 +8056,18 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "1 user": [
+        "1 usuário"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
       ]
     },
     "specialoffer: Footer": {
@@ -8022,6 +8158,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Preço padrão ${ amount } por 30 meses"
+      ],
+      "${ n } month": [
+        "${ n } mês",
+        "${ n } meses"
+      ],
+      "15 months": [
+        "15 meses"
+      ],
+      "30 months": [
+        "30 meses"
       ]
     },
     "specialoffer: Title": {
@@ -8102,7 +8248,7 @@
         "A pesquisa ficou mais inteligente e rápida"
       ],
       "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
-        "E-mails de Spam e Lixeira agora são removidos automaticamente do All Mail. ${ settingsLink }"
+        "Os e-mails nas pastas Spam e Lixo agora são removidos automaticamente da pasta Todos os e-mails. ${ settingsLink }"
       ],
       "Try it today.": [
         "Experimente hoje mesmo."
@@ -8112,6 +8258,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Agora você pode agendar suas mensagens para serem enviadas depois"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Agora você pode encaminhar automaticamente seus e-mails para qualquer pessoa!"
       ]
     },
     "Status": {
@@ -8422,6 +8571,12 @@
       ],
       "Premium Password Manager": [
         "Gerenciador de senhas premium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium de ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8519,6 +8674,15 @@
       ],
       "vCard field": [
         "Campo vCard"
+      ],
+      "Display name": [
+        "Nome de exibição"
+      ],
+      "First name": [
+        "Primeiro nome"
+      ],
+      "Last name": [
+        "Sobrenome"
       ]
     },
     "Time": {
@@ -9108,6 +9272,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Birthday": [
+        "Data de nascimento"
+      ],
+      "Change password": [
+        "Alterar senha"
+      ],
+      "Notes": [
+        "Notas"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9534,6 +9707,301 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domínio personalizado",
+        "${ domains } domínios personalizados"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidores"
+      ],
+      "${ users } user": [
+        "${ users } usuário",
+        "${ users } usuários"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } armazenamento"
+      ],
+      "1 user": [
+        "1 usuário"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Mais de 3.000 servidores em mais de 65 países"
+      ],
+      "6 users": [
+        "6 usuários"
+      ],
+      "Access content worldwide": [
+        "Acesse conteúdo em todo o mundo"
+      ],
+      "Ad-blocker and malware protection": [
+        "Bloqueador de anúncios e proteção contra malware"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Todos os recursos ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME } pagos"
+      ],
+      "Extended version history": [
+        "Histórico de versão estendido"
+      ],
+      "High speed streaming": [
+        "Streaming de alta velocidade"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Gerenciador de senha premium"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Os descontos são baseados no preço mensal padrão."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Sua assinatura será renovada automaticamente, com desconto da taxa e da duração padrão, ao final do seu ciclo de faturamento."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantia de devolução do seu dinheiro por até 30 dias"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Acesse conteúdo bloqueado e navegue com privacidade. Inclui mais de 3.000 servidores em mais de 65 países, velocidades VPN mais altas, acesso a serviços de streaming em todo o mundo, malware e bloqueador de anúncios, downloads rápidos de BitTorrent e muito mais."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Acesse conteúdo de serviços de streaming, como Netflix, Disney+, Prime Video e mais, de qualquer lugar."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Ignore os bloqueios locais da Internet e a censura com nossa rede global de servidores."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui suporte para 1 domínio de e-mail personalizado, 10 endereços de e-mail, 10 aliases do hide-my-email, compartilhamento de calendário e muito mais."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui suporte para 3 domínios de e-mail personalizados, ${ addresses } endereço de e-mail, aliases ilimitados do hide-my-email, compartilhamento de calendário e muito mais.",
+        "Inclui suporte para 3 domínios de e-mail personalizados, ${ addresses } endereços de e-mail, aliases ilimitados do hide-my-email, compartilhamento de calendário e muito mais."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Logins seguros em todos os seus dispositivos. Inclui aliases ilimitados, compartilhamento, 2FA integrado e muito mais."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Proteja seus e-mails e sua agenda com criptografia de ponta a ponta. Inclui compatibilidade para domínios de e-mail personalizados, 15 endereços de e-mail, aliases ilimitados do hide-my-email, compartilhamento de calendário e muito mais."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Proteja seus arquivos com armazenamento em nuvem criptografado. Inclui histórico de versões, compartilhamento de arquivo criptografado e muito mais."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Especialmente projetado, o NetShield protege os dispositivos e acelera sua navegação ao bloquear anúncios, rastreadores e malware."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "O espaço de armazenamento é compartilhado entre todos os apps ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Armazene até 200 versões de cada arquivo por até 10 anos."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuário",
+        "${ users } usuários"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "use o assistente de importação Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Acesso zero criptografado. O destinatário desativou a criptografia de ponta a ponta em sua conta."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Cancelar redefinição"
+      ],
+      "Reset password": [
+        "Redefinir senha"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "A recuperação de conta não está disponível para chaves de endereço herdadas"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Por favor, gere chaves antes de tentar alterar sua senha"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } dia",
+        "${ timeRemaining.inDays } dias"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } hora",
+        "${ timeRemaining.inHours } horas"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Solicitação de redefinição de senha aprovada (${ user.Email }). Você tem ${ timeRemaining.inDays } dia para alterar a senha.",
+        "Solicitação de redefinição de senha aprovada (${ user.Email }). Você tem ${ timeRemaining.inDays } dias para alterar a senha."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Solicitação de redefinição de senha aprovada (${ user.Email }). Você tem ${ timeRemaining.inHours } hora para alterar a senha.",
+        "Solicitação de redefinição de senha aprovada (${ user.Email }). Você tem ${ timeRemaining.inHours } horas para alterar a senha."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Vá ao dispositivo onde a solicitação (na sessão iniciada) para mudar a sua senha."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Essa permissão expira em ${ timeRemaining.inDays } dia",
+        "Essa permissão expira em ${ timeRemaining.inDays } dias"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Essa permissão expira em ${ timeRemaining.inHours } hora",
+        "Essa permissão expira em ${ timeRemaining.inHours } horas"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Agora você pode alterar a senha da conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Veja como"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Senha salva"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Redefinir sua senha"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Cancelar redefinição de senha"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Digite sua senha atual para cancelar o processo de redefinição de senha. Nenhuma outra alteração será salva."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "A redefinição de senha foi cancelada"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Cancelar redefinição de senha?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Solicitação de redefinição de senha cancelada (${ user.Email }). Se você não fez esta solicitação, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "altere sua senha agora"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Cancelar solicitação"
+      ],
+      "Got it": [
+        "Entendi"
+      ],
+      "Learn more": [
+        "Saiba mais"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } hora mais",
+        "${ gracePeriodHoursRemaining } horas mais"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Se você não pediu para alterar sua senha, cancele esta solicitação agora."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Solicitação de redefinição de senha (${ user.Email }). Você pode alterar sua senha em ${ hoursRemaining } horas.",
+        "Solicitação de redefinição de senha (${ user.Email }). Você pode alterar sua senha em ${ hoursRemaining } horas."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Para ter certeza de que é realmente você quem está tentando redefinir sua senha, aguardamos 72 horas antes de aprovar as solicitações. Você poderá alterar a senha em ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Recebemos a solicitação de redefinição de senha para ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Ver solicitação"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "A redefinição de senha foi solicitada"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Encerrar sessão"
+      ],
+      "Stay signed in": [
+        "Manter sessão iniciada"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } hora",
+        "${ gracePeriodHoursRemaining } horas"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } está agora disponível"
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Se você sair antes de redefinir sua senha, você poderá perder o acesso à sua conta."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Se você sair sem redefinir sua senha, você poderá perder o acesso à sua conta."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Você poderá alterar sua senha em ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Redefinição de senha"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Encerrar sessão sem redefinir senha?"
       ]
     }
   }

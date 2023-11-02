@@ -1144,6 +1144,41 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Add birthday": [
+        "Doğum günü ekle"
+      ],
+      "Add note": [
+        "Not ekle"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "Bir kişi grubunda en fazla ${ maxContacts } kişi bulunabilir",
+        "Bir kişi grubunda en fazla ${ maxContacts } kişi bulunabilir"
+      ],
+      "Close the checklist": [
+        "Kontrol listesini kapat"
+      ],
+      "Continue with Outlook": [
+        "Outlook ile ilerle"
+      ],
+      "Don't know your password?": [
+        "Parolanızı bilmiyor musunuz?"
+      ],
+      "Import from Google": [
+        "Google üzerinden içe aktar"
+      ],
+      "Import from Outlook": [
+        "Outlook üzerinden içe aktar"
+      ],
+      "Ok": [
+        "Tamam"
+      ],
+      "See how": [
+        "Nasıl yapıldığını görün"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz",
+        "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz"
       ]
     },
     "action": {
@@ -1621,6 +1656,12 @@
       ],
       "Your email address is not in the participants list": [
         "E-posta adresiniz katılımcılar listesinde yok"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Şu anda katılımcı listesinde değilseniz ${ BRAND_NAME } davetlerine yanıt veremezsiniz."
+      ],
+      "Your email address is not in the original participants list.": [
+        "E-posta adresiniz özgün katılımcılar listesinde değil."
       ]
     },
     "Calendar widget banner": {
@@ -1983,6 +2024,18 @@
       ],
       "URL": [
         "İnternet adresi"
+      ],
+      "Display name": [
+        "Görüntülenecek ad"
+      ],
+      "Enter a display name or nickname": [
+        "Bir görüntülenecek ad ya da takma ad yazın"
+      ],
+      "First name": [
+        "Ad"
+      ],
+      "Last name": [
+        "Soyad"
       ]
     },
     "Contact type label": {
@@ -2932,6 +2985,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Birleştirmek veya tutmak istemediğiniz kişileri silinmek üzere işaretleyebilirsiniz. Silme işlemi yalnızca birleştirme düğmesine tıkladıktan sonra yapılır"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV ve VCF dosyası ile içe aktarma için, ${ MAX_IMPORT_FILE_SIZE_STRING } dosya boyutunu ya da ${ MAX_IMPORT_CONTACTS_STRING } kişiyi aşmadığınızdan emin olun. Dosyanız büyükse lütfen daha küçük dosyalara bölün. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Kişilerinizi Google ya da Outlook üzerinden içe aktarmak için ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3464,6 +3523,22 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Aramanız çok fazla sonuç döndürdü. Lütfen aramanızı sınırlandırıp yeniden deneyin."
+      ],
+      "First name is too long": [
+        "Ad çok uzun"
+      ],
+      "Incorrect username": [
+        "Kullanıcı adı yanlış"
+      ],
+      "Last name is too long": [
+        "Soyad çok uzun"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Lütfen bir ad, bir soyad ya da bir görüntülenecek ad yazın."
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Bir e-postayı ${ maxContacts } üzerinde alıcıya gönderemezsiniz",
+        "Bir e-postayı ${ maxContacts } üzerinde alıcıya gönderemezsiniz"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3787,6 +3862,15 @@
       ],
       "Up to 6 users": [
         "6 kullanıcıya kadar"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Ücretli ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Ücretli ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3932,6 +4016,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3950,6 +4037,10 @@
       "Megabyte": [
         "Megabayt",
         "Megabayt"
+      ],
+      "Terabyte": [
+        "Terabayt",
+        "Terabayt"
       ]
     },
     "Filter": {
@@ -4227,6 +4318,12 @@
       ],
       "You've unlocked 1 GB": [
         "Depolama alanınızı 1 GB boyutuna çıkardınız"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Bunu kapatırsanız ücretsiz depolama alanı hediyenizden vazgeçmiş olursunuz."
+      ],
+      "This feature is currently unavailable": [
+        "Bu özellik şu anda kullanılamıyor"
       ]
     },
     "Gmail forwarding": {
@@ -5537,7 +5634,7 @@
         "Konu: "
       ],
       "Subscription ending: Reactivate by ${ byDate } to keep your ${ planName } benefits. ${ reactivateLink }": [
-        "Abonelik sona eriyor: ${ planName } tarifesinin ek özelliklerini korumak için ${ byDate } tarihine kadar yenileyin. ${ reactivateLink }"
+        "Abonelik sona eriyor: ${ planName } tarifesinin ek özelliklerini tutmak için ${ byDate } tarihine kadar yenileyin. ${ reactivateLink }"
       ],
       "support team": [
         "destek ekibi"
@@ -5991,6 +6088,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacak."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "${ BRAND_NAME } şifreleme teknolojisi kimsenin parolanıza erişememesini sağlar. Biz bile erişemeyiz."
+      ],
+      "${ storage } storage": [
+        "${ storage } depolama alanı"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Aradığınızı bulamadınız mı? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Bağlantıyı panoya kopyala"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Lütfen bu gruplara atanan adreslerin SİLİNMEYECEĞİNİ unutmayın."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Ücrete, hesabınızda kayıtlı tüm geçerli dönemsel indirimler ve geçerlilik süresi dolmamış kuponlar katılmıştır."
+      ],
+      "Total email addresses": [
+        "Toplam e-posta adresi"
+      ],
+      "Total storage": [
+        "Toplam depolama alanı"
+      ],
+      "Total supported domains": [
+        "Toplam etki alanı"
+      ],
+      "Total VPN connections": [
+        "Toplam VPN bağlantısı"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "En fazla ${ FAMILY_MAX_USERS } kullanıcı"
       ]
     },
     "info": {
@@ -6715,6 +6845,12 @@
       ],
       "Your password (admin)": [
         "Parolanız (yönetici)"
+      ],
+      "Confirm password": [
+        "Parolayı onayla"
+      ],
+      "New password": [
+        "Yeni parola"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6941,6 +7077,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Güncellenen daveti görmek için anahtarlarınızı yeniden kullanıma almalısınız"
+      ],
+      "Set up email forwarding": [
+        "E-posta iletici kurun"
       ]
     },
     "Link to calendar event": {
@@ -7307,6 +7446,9 @@
       ],
       "Senders blocked": [
         "Göndericiler engellendi"
+      ],
+      "Link copied to clipboard": [
+        "Bağlantı panoya kopyalandı"
       ]
     },
     "Oauth instructions": {
@@ -7543,6 +7685,12 @@
       ],
       "Type text or keyword": [
         "Metin ya da anahtar sözcük yazın"
+      ],
+      "First name": [
+        "Ad"
+      ],
+      "Last name": [
+        "Soyad"
       ]
     },
     "Placeholder for contact group name": {
@@ -7905,6 +8053,18 @@
       ],
       "Support online privacy": [
         "Çevrim içi gizliliği destekleyin"
+      ],
+      "1 user": [
+        "1 kullanıcı"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } ve ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Ücretli ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -7995,6 +8155,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "30 aylık standart ücret ${ amount }"
+      ],
+      "${ n } month": [
+        "${ n } ay",
+        "${ n } ay"
+      ],
+      "15 months": [
+        "15 ay"
+      ],
+      "30 months": [
+        "30 ay"
       ]
     },
     "specialoffer: Title": {
@@ -8085,6 +8255,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Artık iletileri daha sonra gönderilmek üzere zamanlayabilirsiniz"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Artık e-postalarınızı otomatik olarak herkese iletebilirsiniz!"
       ]
     },
     "Status": {
@@ -8395,6 +8568,12 @@
       ],
       "Premium Password Manager": [
         "Ücretli Parola Yöneticisi"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Ücretli ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8492,6 +8671,15 @@
       ],
       "vCard field": [
         "vCard alanı"
+      ],
+      "Display name": [
+        "Görüntülenecek ad"
+      ],
+      "First name": [
+        "Ad"
+      ],
+      "Last name": [
+        "Soyad"
       ]
     },
     "Time": {
@@ -9081,6 +9269,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Birthday": [
+        "Doğum günü"
+      ],
+      "Change password": [
+        "Parolayı değiştir"
+      ],
+      "Notes": [
+        "Notlar"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9267,6 +9464,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Bu kişi grubunu kalıcı olarak silmek istediğinize emin misiniz?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9504,6 +9704,307 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } özel etki alanı",
+        "${ domains } özel etki alanı"
+      ],
+      "${ ips } server": [
+        "${ ips } sunucu",
+        "${ ips } sunucu"
+      ],
+      "${ users } user": [
+        "${ users } kullanıcı",
+        "${ users } kullanıcı"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } depolama alanı"
+      ],
+      "1 user": [
+        "1 kullanıcı"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65'ten fazla ülkede 3,000'den fazla sunucu"
+      ],
+      "6 users": [
+        "6 kullanıcı"
+      ],
+      "Access content worldwide": [
+        "Dünyadaki her içeriğe erişin"
+      ],
+      "Ad-blocker and malware protection": [
+        "Reklam engelleyici ve kötü amaçlı yazılım koruması"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Tüm ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_APP_NAME } özellikleri"
+      ],
+      "Extended version history": [
+        "Genişletilmiş sürüm geçmişi"
+      ],
+      "High speed streaming": [
+        "Yüksek hızda yayın akışı"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Ücretli ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Ücretli ${ MAIL_SHORT_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Ücretli ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Ücretli Parola Yöneticisi"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "İndirimler aylık standart ücretlendirmeye göredir."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Aboneliğiniz, faturalama döneminizin sonunda otomatik olarak standart tarife ve süre üzerinden yenilenir."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 gün içinde ücret iade garantisi"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Yasaklı içeriklere erişin ve gizlice gezinin. 65'ten fazla ülkede 3,000 üzerinde sunucu, en yüksek VPN hızlarını, dünya çapındaki yayın hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmelerini ve daha fazlasını içerir."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Netflix, Disney+, Prime Video ve daha fazla yayın hizmetlerindeki içeriklere herhangi bir yerden erişin."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Yerel internet engellemelerini ve sansürü küresel sunucu ağlarımız ile aşın."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1 özel e-posta etki alanı, 10 e-posta adresi, 10 hide-my-email takma adı, takvim paylaşma ve daha fazlası için destek içerir."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir.",
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve daha fazlası."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "E-postalarınızı ve takviminizi uçtan uca şifreleme ile güvene alın. özel e-posta etki alanı, 15 e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Dosyalarınızı şifrelenmiş bulut depolama alanı ile koruyun. Sürüm geçmişi, şifrelenmiş dosya paylaşımı ve diğer özellikler."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Özel olarak tasarlanmış NetShield cihazlarınızı korur ve reklamları, etkinlik izleyicileri, kötü amaçlı yazılımları engelleyerek internette gezinme hızınızı artırır."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Depolama alanı tüm ${ BRAND_NAME } uygulamaları arasında paylaşılır."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Her dosyanın 200'e kadar sürümünü 10 yıla kadar tutun."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } kullanıcı",
+        "${ users } kullanıcı"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switch içe aktarma yardımcısını kullanın"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Sıfır erişim ile şifrelenmiş. Alıcı, hesabında uçtan uca şifrelemeyi kapattı."
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Bir davette en fazla ${ maxAttendees } katılımcı bulunabilir",
+        "Bir davette en fazla ${ maxAttendees } katılımcı bulunabilir"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Sıfırlamayı iptal et"
+      ],
+      "Reset password": [
+        "Parolayı sıfırla"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Eski adres anahtarları ile hesap kurtarma işlemi yapılamaz"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Lütfen parolanızı değiştirmeyi denemeden önce anahtarlar oluşturun"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } gün",
+        "${ timeRemaining.inDays } gün"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } saat",
+        "${ timeRemaining.inHours } saat"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Parola sıfırlama isteği onaylandı (${ user.Email }). Parolanızı sıfırlamak için ${ timeRemaining.inDays } gününüz var.",
+        "Parola sıfırlama isteği onaylandı (${ user.Email }). Parolanızı sıfırlamak için ${ timeRemaining.inDays } gününüz var."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Parola sıfırlama isteği onaylandı (${ user.Email }). Parolanızı sıfırlamak için ${ timeRemaining.inHours } saatiniz var.",
+        "Parola sıfırlama isteği onaylandı (${ user.Email }). Parolanızı sıfırlamak için ${ timeRemaining.inHours } saatiniz var."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Parolanızı değiştirmek için oturumunuzun açık olduğu (isteğin yapıldığı oturum) aygıta geçin."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Bu iznin süresi ${ timeRemaining.inDays } gün sonra dolacak",
+        "Bu iznin süresi ${ timeRemaining.inDays } gün sonra dolacak"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Bu iznin süresi ${ timeRemaining.inHours } saat sonra dolacak",
+        "Bu iznin süresi ${ timeRemaining.inHours } saat sonra dolacak"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "${ boldEmail } hesabınızın parolasını ${ boldDaysRemaining } içinde değiştirebilirsiniz."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Nasıl yapıldığını görün"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Parola kaydedildi"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Parolanızı sıfırlayın"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Parola sıfırlama işlemini iptal et"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Parola sıfırlama işlemini iptal etmek için geçerli parolanızı yazın. Başka bir değişiklik yapılmayacak."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Parola sıfırlama işlemi iptal edildi"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Parola sıfırlama işlemi iptal edilsin mi?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Parola sıfırlama isteği iptal edildi (${ user.Email }). Bu isteği siz yapmadıysanız, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "hemen parolanızı değiştirin"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "İsteği iptal et"
+      ],
+      "Got it": [
+        "Anladım"
+      ],
+      "Learn more": [
+        "Ayrıntılı bilgi alın"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } saat kaldı",
+        "${ gracePeriodHoursRemaining } saat kaldı"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Parola sıfırlama isteğinde bulunmadıysanız, bu isteği şimdi iptal edebilirsiniz."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Parola sıfırlama isteğinde bulunuldu (${ user.Email }). Parolanızı ${ hoursRemaining } saat içinde değiştirebilirsiniz.",
+        "Parola sıfırlama isteğinde bulunuldu (${ user.Email }). Parolanızı ${ hoursRemaining } saat içinde değiştirebilirsiniz."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Parolanızı sıfırlamaya çalışan kişinin gerçekten siz olduğunuzdan emin olmak için istekleri onaylamadan önce 72 saat bekleriz. Parolanızı ${ boldTimeLeft } içinde değiştirebilirsiniz. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "${ boldEmail } için bir parola sıfırlama isteğinde bulunuldu."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "İsteği görüntüle"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Parola sıfırlama isteğinde bulunuldu"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Oturumu kapat"
+      ],
+      "Stay signed in": [
+        "Oturum açık kalsın"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } saat",
+        "${ gracePeriodHoursRemaining } saat"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } işlemi yapılabilir."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Parolanızı sıfırlamadan önce oturumu kapattıysanız, hesabınıza erişimi kaybedebilirsiniz."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Parolanızı sıfırlamadan oturumu kapattıysanız, hesabınıza erişimi kaybedebilirsiniz."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Parolanızı ${ boldTimeLeft } içinde sıfırlayabilirsiniz."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Parola sıfırlama"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Parolayı sıfırlamadan oturum kapatılsın mı?"
       ]
     }
   }

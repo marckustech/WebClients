@@ -992,7 +992,7 @@
         "Tăiat cu o linie"
       ],
       "Submit": [
-        "Trimite"
+        "Trimitere"
       ],
       "Switch or add account": [
         "Schimbare sau adăugare cont"
@@ -1148,6 +1148,34 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Add birthday": [
+        "Adăugare dată naștere"
+      ],
+      "Add note": [
+        "Adăugare notă"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "Este permis cel mult ${ maxContacts } contact per grup de contact.",
+        "Sunt permise cel mult ${ maxContacts } contacte per grup de contact.",
+        "Sunt permise cel mult ${ maxContacts } de contacte per grup de contact."
+      ],
+      "Close the checklist": [
+        "Închidere listă de sarcini"
+      ],
+      "Don't know your password?": [
+        "Nu vă cunoașteți parola?"
+      ],
+      "Ok": [
+        "OK"
+      ],
+      "See how": [
+        "Vedeți cum"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contact.",
+        "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contacte.",
+        "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } de contacte."
       ]
     },
     "action": {
@@ -1625,6 +1653,12 @@
       ],
       "Your email address is not in the participants list": [
         "Adresa dvs. de e-mail nu se află în lista de participanți."
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Nu puteți răspunde la invitații ${ BRAND_NAME } dacă nu sunteți pe lista de participanți."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Adresa dvs. de e-mail nu se află în lista originală de participanți."
       ]
     },
     "Calendar widget banner": {
@@ -1987,6 +2021,18 @@
       ],
       "URL": [
         "Adresa URL"
+      ],
+      "Display name": [
+        "Nume afișat"
+      ],
+      "Enter a display name or nickname": [
+        "Introduceți un nume de afișare sau poreclă"
+      ],
+      "First name": [
+        "Prenume"
+      ],
+      "Last name": [
+        "Nume de familie"
       ]
     },
     "Contact type label": {
@@ -3486,6 +3532,23 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Căutarea a găsit prea multe rezultate. Limitați căutarea și reîncercați."
+      ],
+      "First name is too long": [
+        "Prenumele este prea lung."
+      ],
+      "Incorrect username": [
+        "Nume de utilizator incorect."
+      ],
+      "Last name is too long": [
+        "Numele este prea lung."
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Furnizați fie prenumele, numele sau numele afișat."
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Nu puteți trimite mesaje la mai mult de ${ maxContacts } destinatar.",
+        "Nu puteți trimite mesaje la mai mult de ${ maxContacts } destinatari.",
+        "Nu puteți trimite mesaje la mai mult de ${ maxContacts } de destinatari."
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3810,6 +3873,15 @@
       ],
       "Up to 6 users": [
         "Până la 6 utilizatori"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } și ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3956,6 +4028,9 @@
       ],
       "MB": [
         "MiB"
+      ],
+      "TB": [
+        "TiB"
       ]
     },
     "file size format, long": {
@@ -3978,6 +4053,11 @@
         "Megabait",
         "Megabaiți",
         "Megabaiți"
+      ],
+      "Terabyte": [
+        "Terabait",
+        "Terabaiți",
+        "Terabaiți"
       ]
     },
     "Filter": {
@@ -4255,6 +4335,12 @@
       ],
       "You've unlocked 1 GB": [
         "Ați deblocat 1 GiB de spațiu"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Dacă o închideți renunțați la bonusul de stocare gratuită."
+      ],
+      "This feature is currently unavailable": [
+        "Această funcție momentan nu este disponibilă."
       ]
     },
     "Gmail forwarding": {
@@ -5446,10 +5532,10 @@
         "Sistemul nostru a etichetat acest mesaj ca fiind suspect. Verificați legitimitatea acestuia înainte de a accesa orice legătură sau fișier atașat."
       ],
       "PGP/Inline is only compatible with Plain Text format.": [
-        "PGP / Inline este compatibil doar cu formatul de text simplu."
+        "PGP/Inline este compatibil doar cu formatul de text simplu."
       ],
       "PGP/MIME automatically sends the message using the current composer mode.": [
-        "PGP / MIME trimite automat mesajul folosind modul curent de compunere."
+        "PGP/MIME trimite automat mesajul folosind modul curent de compunere."
       ],
       "Phone number": [
         "Număr de telefon"
@@ -5658,7 +5744,7 @@
         "Acest mesaj a expirat."
       ],
       "The original message you are trying to forward / reply to is in the process of being sent. If you continue, you will not be able to undo sending of the original message any longer.": [
-        "Mesajul original pe care încercați să-l redirecționați / să-i răspundeți este în curs de a fi trimis. Dacă continuați, nu veți mai putea anula trimiterea mesajului original."
+        "Mesajul original pe care încercați să-l redirecționați/să-i răspundeți este în curs de a fi trimis. Dacă continuați, nu veți mai putea anula trimiterea mesajului original."
       ],
       "The original sender of this message is no longer valid. Your message will be sent from your default address ${ defaultEmail }.": [
         "Expeditorul original al acestui mesaj nu mai este valid. Mesajul va fi trimis de la adresa implicită ${ defaultEmail }."
@@ -6094,6 +6180,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numărul de telefon va fi folosit doar pentru această verificare unică."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "Tehnologia de criptare ${ BRAND_NAME } semnifică faptul că nimeni nu vă poate accesa parola - nici măcar noi."
+      ],
+      "${ storage } storage": [
+        "Stocare ${ storage }"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Nu găsiți ceea ce căutați? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Copiați legătura în memorie"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Rețineți că adresele atribuite acestor grupuri NU vor fi șterse."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Prețul include toate reducerile ciclice aplicabile și cupoanele neexpirate salvate în cont."
+      ],
+      "Total email addresses": [
+        "Total adrese de e-mail"
+      ],
+      "Total storage": [
+        "Spațiu total"
+      ],
+      "Total supported domains": [
+        "Total domenii suportate"
+      ],
+      "Total VPN connections": [
+        "Total conexiuni VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Până la ${ FAMILY_MAX_USERS } utilizatori"
       ]
     },
     "info": {
@@ -6234,7 +6353,7 @@
         "Marcare ca necitit"
       ],
       "Minimize / maximize composer": [
-        "Micșorare / mărire panou editare"
+        "Micșorare/mărire panou editare"
       ],
       "Move down": [
         "Mutare în jos"
@@ -6742,7 +6861,7 @@
         "Strada"
       ],
       "Sync with system": [
-        "Sincronizare cu cea din sistem"
+        "Ca cea din sistem"
       ],
       "Synchronize with system": [
         "Sincronizare cu sistemul"
@@ -6821,6 +6940,12 @@
       ],
       "Your password (admin)": [
         "Parola dvs. (administrator)"
+      ],
+      "Confirm password": [
+        "Confirmare parolă"
+      ],
+      "New password": [
+        "Parola nouă"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7047,6 +7172,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Trebuie să activați cheile pentru a vedea invitația actualizată"
+      ],
+      "Set up email forwarding": [
+        "Setare redirecționare mesaje"
       ]
     },
     "Link to calendar event": {
@@ -7421,6 +7549,9 @@
       ],
       "Senders blocked": [
         "Expeditori blocați"
+      ],
+      "Link copied to clipboard": [
+        "Legătura a fost copiată în memorie."
       ]
     },
     "Oauth instructions": {
@@ -7608,7 +7739,7 @@
         "Nume"
       ],
       "Name or email address": [
-        "Nume utilizator / adresa de e-mail"
+        "Nume utilizator/adresa de e-mail"
       ],
       "Password": [
         "Parola"
@@ -7657,6 +7788,12 @@
       ],
       "Type text or keyword": [
         "Scrieți un text sau cuvânt cheie"
+      ],
+      "First name": [
+        "Prenume"
+      ],
+      "Last name": [
+        "Nume de familie"
       ]
     },
     "Placeholder for contact group name": {
@@ -8034,6 +8171,18 @@
       ],
       "Support online privacy": [
         "Susțineți confidențialitatea online"
+      ],
+      "1 user": [
+        "Un utilizator"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } și ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } și ${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -8125,6 +8274,17 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Preț standard ${ amount } pentru 30 de luni"
+      ],
+      "${ n } month": [
+        "${ n } lună",
+        "${ n } luni",
+        "${ n } de luni"
+      ],
+      "15 months": [
+        "15 luni"
+      ],
+      "30 months": [
+        "30 de luni"
       ]
     },
     "specialoffer: Title": {
@@ -8215,6 +8375,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Acum puteți să vă programați mesajele pentru a fi trimise mai târziu."
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Acum vă puteți redirecționa automat mesajele către oricine!"
       ]
     },
     "Status": {
@@ -8549,6 +8712,12 @@
       ],
       "Premium Password Manager": [
         "Gestionare parole premium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } și ${ CALENDAR_SHORT_APP_NAME } premium"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8646,6 +8815,15 @@
       ],
       "vCard field": [
         "Câmp vCard"
+      ],
+      "Display name": [
+        "Nume afișat"
+      ],
+      "First name": [
+        "Prenume"
+      ],
+      "Last name": [
+        "Nume de familie"
       ]
     },
     "Time": {
@@ -9252,6 +9430,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Birthday": [
+        "Data nașterii"
+      ],
+      "Change password": [
+        "Schimbare parolă"
+      ],
+      "Notes": [
+        "Note"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9442,6 +9629,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Perioada de probare se încheie în curând la ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Sigur doriți să ștergeți definitiv acest grupuri de contacte?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9709,6 +9899,215 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } domeniu personal",
+        "${ domains } domenii personale",
+        "${ domains } de domenii personale"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servere",
+        "${ ips } de servere"
+      ],
+      "${ users } user": [
+        "${ users } utilizator",
+        "${ users } utilizatori",
+        "${ users } de utilizatori"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "un utilizator",
+        "${ users } utilizatori",
+        "${ users } de utilizatori"
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Este permis cel mult ${ maxAttendees } participant per invitație.",
+        "Sunt permiși cel mult ${ maxAttendees } participanți per invitație.",
+        "Sunt permiși cel mult ${ maxAttendees } de participanți per invitație."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Anulare resetare"
+      ],
+      "Reset password": [
+        "Resetare parolă"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Recuperarea contului nu este disponibilă pentru cheile vechi ale adreselor."
+      ],
+      "Please generate keys before you try to change your password": [
+        "Generați cheile înainte de a încerca să vă schimbați parola."
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } zi",
+        "${ timeRemaining.inDays } zile",
+        "${ timeRemaining.inDays } de zile"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } oră",
+        "${ timeRemaining.inHours } ore",
+        "${ timeRemaining.inHours } de ore"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inDays } zi pentru a reseta parola.",
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inDays } zile pentru a reseta parola.",
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inDays } de zile pentru a reseta parola."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inHours } oră pentru a reseta parola.",
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inHours } ore pentru a reseta parola.",
+        "Solicitate de resetare parolă acceptată (${ user.Email }). Aveți la dispoziție ${ timeRemaining.inHours } de ore pentru a reseta parola."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Accesați dispozitivul conectat (în sesiunea de unde a fost inițiată solicitarea) pentru a vă schimba parola."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Această permisiune expiră peste ${ timeRemaining.inDays } zi.",
+        "Această permisiune expiră peste ${ timeRemaining.inDays } zile.",
+        "Această permisiune expiră peste ${ timeRemaining.inDays } de zile."
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Această permisiune expiră peste ${ timeRemaining.inHours } oră.",
+        "Această permisiune expiră peste ${ timeRemaining.inHours } ore.",
+        "Această permisiune expiră peste ${ timeRemaining.inHours } de ore."
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Acum vă puteți schimba parola pentru contul ${ boldEmail } timp de ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Vedeți cum"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Parola a fost salvată."
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Resetați-vă parola"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Anulare resetare parolă"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Introduceți parola curentă pentru a anula procesul de resetare a parolei. Nu vor fi efectuate alte modificări."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Resetarea parolei a fost anulată."
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Anulați resetarea parolei?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Solicitare de resetare parolă anulată (${ user.Email }). Dacă nu ați solicitat această anulare, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "schimbați-vă acum parola"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Anulare solicitare"
+      ],
+      "Got it": [
+        "Am înțeles"
+      ],
+      "Learn more": [
+        "Detalii"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "A mai rămas ${ gracePeriodHoursRemaining } oră.",
+        "Au mai rămas ${ gracePeriodHoursRemaining } ore.",
+        "Au mai rămas ${ gracePeriodHoursRemaining } de ore."
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Dacă nu ați solicitat resetarea parolei, anulați această solicitare acum."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Solicitare de resetare parolă (${ user.Email }). Puteți să vă schimbați parola timp de ${ hoursRemaining } oră.",
+        "Solicitare de resetare parolă (${ user.Email }). Puteți să vă schimbați parola timp de ${ hoursRemaining } ore.",
+        "Solicitare de resetare parolă (${ user.Email }). Puteți să vă schimbați parola timp de ${ hoursRemaining } de ore."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Pentru a ne asigura că însuși deținătorul contului încearcă să reseteze parola, așteptăm 72 de ore înainte de a aproba astfel de solicitări. Vă puteți schimba parola peste ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "S-a primit o solicitare de resetare a parolei pentru ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Vizualizare solicitare"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Solicitare resetare parolă"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Deconectare"
+      ],
+      "Stay signed in": [
+        "Nu mă deconectez"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } oră",
+        "${ gracePeriodHoursRemaining } ore",
+        "${ gracePeriodHoursRemaining } de ore"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } este acum posibilă."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Dacă vă deconectați înainte de a vă reseta parola, ați putea să vă pierdeți accesul la cont."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Dacă vă deconectați fără a vă reseta parola, ați putea să vă pierdeți accesul la cont."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Veți putea să vă resetați parola peste ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Resetarea parolei"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Vă deconectați fără a vă reseta parola?"
       ]
     }
   }

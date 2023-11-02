@@ -1140,6 +1140,21 @@
       ],
       "Zoom out": [
         "缩小"
+      ],
+      "Add birthday": [
+        "添加生日"
+      ],
+      "Add note": [
+        "添加备注"
+      ],
+      "Don't know your password?": [
+        "忘记密码？"
+      ],
+      "Ok": [
+        "确定"
+      ],
+      "See how": [
+        "详细了解"
       ]
     },
     "action": {
@@ -1979,6 +1994,18 @@
       ],
       "URL": [
         "网址"
+      ],
+      "Display name": [
+        "称呼"
+      ],
+      "Enter a display name or nickname": [
+        "输入一个称呼或昵称"
+      ],
+      "First name": [
+        "名"
+      ],
+      "Last name": [
+        "姓"
       ]
     },
     "Contact type label": {
@@ -3442,6 +3469,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "搜索结果过多，请缩小搜索范围后再试。"
+      ],
+      "First name is too long": [
+        "名字太长。"
+      ],
+      "Incorrect username": [
+        "用户名不正确"
+      ],
+      "Last name is too long": [
+        "姓氏太长。"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "请提供名字、姓氏或一个称呼"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3499,6 +3538,9 @@
       ],
       "vCard versions < 3.0 not supported": [
         "不支持 vCard 3.0 以下版本"
+      ],
+      "Missing FN property": [
+        "缺少 FN 属性"
       ]
     },
     "Error importing contacts": {
@@ -5837,6 +5879,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "您的电话号码将只会用于此一次性验证。"
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "${ BRAND_NAME } 的前沿加密技术意味着没有人能够窃取您的密码，包括我们自己。"
+      ],
+      "${ storage } storage": [
+        "${ storage } 存储空间"
+      ],
+      "**${ elementsFoundCount }** results found in ${ labelName }": [
+        "在 ${ labelName } 中找到了 **${ elementsFoundCount }** 个结果"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "请注意，分配给这些组的地址不会被删除。"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "价格包括所有适用的基于周期的折扣与保存在您账户中的未过期的优惠券。"
+      ],
+      "Total email addresses": [
+        "邮箱地址总数"
+      ],
+      "Total storage": [
+        "存储空间总量"
+      ],
+      "Total supported domains": [
+        "自有域名总数"
+      ],
+      "Total VPN connections": [
+        "VPN 同时在线设备总数"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "最多 ${ FAMILY_MAX_USERS } 个用户"
       ]
     },
     "info": {
@@ -6558,6 +6630,12 @@
       ],
       "Your password (admin)": [
         "您的密码(管理员)"
+      ],
+      "Confirm password": [
+        "确认密码"
+      ],
+      "New password": [
+        "新密码"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7372,6 +7450,12 @@
       ],
       "Type text or keyword": [
         "输入文本或关键词"
+      ],
+      "First name": [
+        "名"
+      ],
+      "Last name": [
+        "姓"
       ]
     },
     "Placeholder for contact group name": {
@@ -8278,6 +8362,15 @@
       ],
       "vCard field": [
         "vCard 字段"
+      ],
+      "Display name": [
+        "称呼"
+      ],
+      "First name": [
+        "名"
+      ],
+      "Last name": [
+        "姓"
       ]
     },
     "Time": {
@@ -8850,6 +8943,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免费体验期将于 ${ textDate } 结束"
+      ],
+      "Birthday": [
+        "生日"
+      ],
+      "Change password": [
+        "更改密码"
+      ],
+      "Notes": [
+        "备注"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9032,6 +9134,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "您的免费体验期将于 ${ textDate } 结束。${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "您确定要永久删除这些联系人群组吗？"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9239,6 +9344,182 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domains": [
+        "${ domains } 个自定义域"
+      ],
+      "${ ips } servers": [
+        "${ ips } 个服务器"
+      ],
+      "${ users } users": [
+        "${ users } 位用户"
+      ]
+    },
+    "Checkout row": {
+      "${ users } users": [
+        "${ users } 位用户"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "取消重置请求"
+      ],
+      "Reset password": [
+        "重置密码"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "传统地址密钥无法恢复帐户"
+      ],
+      "Please generate keys before you try to change your password": [
+        "更改密码前请先生成密钥"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } days": [
+        "${ timeRemaining.inDays } 天"
+      ],
+      "${ timeRemaining.inHours } hours": [
+        "${ timeRemaining.inHours } 小时"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } days to reset your password.": [
+        "密码重置请求已获批准(${ user.Email })。您有${ timeRemaining.inDays } 天的时间来重置您的密码"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hours to reset your password.": [
+        "密码重置请求已获批准(${ user.Email })。您有${ timeRemaining.inHours } 小时的时间来重置您的密码"
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "请转到已登录的设备（在发起请求的会话中）更改您的密码。"
+      ],
+      "This permission expires in ${ timeRemaining.inDays } days": [
+        "此权限将在 ${ timeRemaining.inDays } 天后过期"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hours": [
+        "此权限将在 ${ timeRemaining.inHours } 小时后过期"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "从现在起 ${ boldDaysRemaining }内您可以自由更改 ${ boldEmail } 账户的密码。"
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "详细了解"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "密码已保存"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "重置密码"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "取消密码重置"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "输入您当前的密码以取消密码重置进程。 其他更改将不会生效。"
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "密码重置已取消"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "取消密码重置？"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "密码重置请求已取消 (${ user.Email })。 如果您没有提出此请求，则${ changePasswordLink }。"
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "立即更改您的密码"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "取消请求"
+      ],
+      "Got it": [
+        "好的"
+      ],
+      "Learn more": [
+        "了解详情"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hours": [
+        "还有${ gracePeriodHoursRemaining } 小时"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "如果您没有要求重置密码，请立刻取消此请求。"
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hours.": [
+        "重置密码的请求已收到 (${ user.Email })。 您可以在 ${ hoursRemaining } 小时内更改密码。"
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "为了确保是您本人重置密码，申请提交 72 小时后才能通过。${ boldTimeLeft }后您就可以更改密码了。${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "我们收到了${ boldEmail }的密码重置请求。"
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "查看请求"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "已申请重置密码"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "退出"
+      ],
+      "Stay signed in": [
+        "保持登录"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hours": [
+        "${ gracePeriodHoursRemaining } 小时"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset }现已可用。"
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "如果您在重置密码完成之前退出，您可能会失去对账户的访问权限。"
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "如果您未重置密码就退出，您可能会失去对账户的访问权限。"
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "您可以在${ boldTimeLeft }之内重置密码。"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "重置密码"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "退出而不重置密码？"
       ]
     }
   }

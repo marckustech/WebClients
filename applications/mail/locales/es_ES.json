@@ -359,10 +359,10 @@
         "Emoji"
       ],
       "Enable": [
-        "Habilitar"
+        "Activar"
       ],
       "enable desktop notifications": [
-        "habilitar las notificaciones de escritorio"
+        "activar las notificaciones de escritorio"
       ],
       "Encryption": [
         "Cifrado"
@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Add birthday": [
+        "Añadir una fecha de nacimiento"
+      ],
+      "Add note": [
+        "Añadir una nota"
+      ],
+      "Close the checklist": [
+        "Cerrar la lista de verificación"
+      ],
+      "Continue with Outlook": [
+        "Continuar con Outlook"
+      ],
+      "Don't know your password?": [
+        "¿No sabes tu contraseña?"
+      ],
+      "Import from Google": [
+        "Importar desde Google"
+      ],
+      "Import from Outlook": [
+        "Importar desde Outlook"
+      ],
+      "Ok": [
+        "OK"
+      ],
+      "See how": [
+        "Ver cómo"
       ]
     },
     "action": {
@@ -1629,6 +1656,12 @@
       ],
       "Your email address is not in the participants list": [
         "Tu dirección de correo electrónico no está en la lista de participantes."
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "No puedes responder a las invitaciones de ${ BRAND_NAME } si no estás en la lista de participantes en este momento."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Tu dirección de correo electrónico no está en la lista original de participantes."
       ]
     },
     "Calendar widget banner": {
@@ -1991,6 +2024,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Nombre a mostrar"
+      ],
+      "Enter a display name or nickname": [
+        "Introduce un nombre a mostrar o un apodo"
+      ],
+      "First name": [
+        "Nombre"
+      ],
+      "Last name": [
+        "Apellido"
       ]
     },
     "Contact type label": {
@@ -2940,6 +2985,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puedes marcar los contactos que no quieres ni combinar ni mantener para eliminarlos. Se eliminarán solo después de que pulses el botón."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Para importar mediante CSV y VCF, asegúrate que el archivo no exceda de ${ MAX_IMPORT_FILE_SIZE_STRING } o de ${ MAX_IMPORT_CONTACTS_STRING } contactos. Si el archivo es grande, divídelo en archivos pequeños. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Para importar tus contactos desde Google u Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3079,7 +3130,7 @@
     },
     "Error": {
       "${ error.message } for <${ email }>. You can add another key or disable encryption for this contact to resolve the issue.": [
-        "${ error.message } para <${ email }>. Puedes añadir otra clave o deshabilitar el cifrado para este contacto para resolver el problema."
+        "${ error.message } para &lt;${ email }&gt;. Puedes añadir otra clave o desactivar el cifrado para este contacto para resolver el problema."
       ],
       "${ errorMessage }. You can also check our ${ statusPageLink }": [
         "${ errorMessage }. También puedes comprobar nuestra ${ statusPageLink }"
@@ -3138,7 +3189,7 @@
         "Contacta con el administrador de tu organización para resolver esto."
       ],
       "Content search cannot be enabled in this browser. Please quit private browsing mode or use another browser.": [
-        "No puedes habilitar la búsqueda de contenido en este navegador. Sal del modo de navegación privada o utiliza otro navegador."
+        "No puedes activar la búsqueda de contenido en este navegador. Sal del modo de navegación privada o utiliza otro navegador."
       ],
       "Decryption error: decryption of this message's encrypted content failed.": [
         "Error al descifrar: no se ha podido descifrar el contenido de este mensaje."
@@ -3158,7 +3209,7 @@
         "No se ha podido guardar el borrador. Inténtalo de nuevo."
       ],
       "Email address disabled": [
-        "Dirección de correo electrónico deshabilitada"
+        "Dirección de correo electrónico desactivada"
       ],
       "Email address is required": [
         "Dirección de correo electrónico requerida"
@@ -3476,6 +3527,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Tu búsqueda ha coincidido con muchos resultados. Limita tu búsqueda e inténtalo de nuevo."
+      ],
+      "First name is too long": [
+        "El nombre es demasiado largo."
+      ],
+      "Incorrect username": [
+        "Nombre de usuario incorrecto"
+      ],
+      "Last name is too long": [
+        "El apellido es demasiado largo."
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Proporciona al menos un nombre, apellido o nombre a mostrar"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3805,6 +3868,15 @@
       ],
       "Up to 6 users": [
         "Hasta 6 usuarios"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3857,7 +3929,7 @@
         "Te has unido correctamente al plan familiar"
       ],
       "You're invited to link your ${ BRAND_NAME } Account to this group plan and together enjoy all ${ BRAND_NAME_TWO } premium features.": [
-        "Has recibido una invitación para que vincules tu cuenta de ${ BRAND_NAME } a este plan grupal y disfrutes así de todas las funciones prémium de ${ BRAND_NAME_TWO }."
+        "Has recibido una invitación para que vincules tu cuenta de ${ BRAND_NAME } a este plan grupal y disfrutes así de todas las funciones premium de ${ BRAND_NAME_TWO }."
       ],
       "Your account has more email addresses than what's available to you in this plan. ${ addressSettingsLink }": [
         "Tu cuenta tiene más direcciones de correo electrónico que las que tienes disponibles en este plan. ${ addressSettingsLink }"
@@ -3950,6 +4022,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3968,6 +4043,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter": {
@@ -4248,6 +4327,9 @@
       ],
       "You've unlocked 1 GB": [
         "Has desbloqueado 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Al cerrar esto renuncias al bono de almacenamiento gratuito."
       ]
     },
     "Gmail forwarding": {
@@ -4441,16 +4523,16 @@
         "${ BRAND_NAME } no ha podido conectarse a tu cuenta de Yahoo. Asegúrate de que:"
       ],
       "2-step verification is enabled in your external account.": [
-        "La verificación en dos pasos está habilitada en tu cuenta externa."
+        "La verificación en dos pasos está activada en tu cuenta externa."
       ],
       "2-step verification is enabled in your external email account.": [
-        "La verificación en dos pasos está habilitada en tu cuenta de correo externa."
+        "La verificación en dos pasos está activada en tu cuenta de correo externa."
       ],
       "IMAP access is enabled in your external account.": [
-        "El acceso IMAP está habilitado en tu cuenta externa."
+        "El acceso IMAP está activado en tu cuenta externa."
       ],
       "IMAP access is enabled in your Yahoo account.": [
-        "El acceso IMAP está habilitado en tu cuenta de Yahoo Mail."
+        "El acceso IMAP está activado en tu cuenta de Yahoo Mail."
       ],
       "Too many recent requests. Please try again in a few moments.": [
         "Demasiadas solicitudes recientes. Inténtalo de nuevo en unos momentos."
@@ -4553,7 +4635,7 @@
         "contraseña de la aplicación"
       ],
       "app password or enable IMAP": [
-        "contraseña de la aplicación o habilitar IMAP"
+        "contraseña de la aplicación o activar IMAP"
       ],
       "CSV or a VCF (vCard) file": [
         "CSV o un archivo VCF (vCard)"
@@ -4795,7 +4877,7 @@
         "Añadir URL de la imagen"
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
-        "La verificación de dirección con claves de confianza está habilitada para esta dirección. Para poder enviar a esta dirección, primero verifica las claves públicas que se pueden utilizar para enviar."
+        "La verificación de dirección con claves de confianza está activada para esta dirección. Para poder enviar a esta dirección, primero verifica las claves públicas que se pueden utilizar para enviar."
       ],
       "Align left": [
         "Alinear a la izquierda"
@@ -4818,7 +4900,7 @@
         "Todos los mensajes guardados con esta etiqueta se eliminarán permanentemente."
       ],
       "All your calendars are disabled.": [
-        "Todos tus calendarios están deshabilitados."
+        "Todos tus calendarios están desactivados."
       ],
       "All your changes will be lost.": [
         "Todos los cambios se perderán."
@@ -4891,7 +4973,7 @@
         "Color de fondo"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén habilitados o no en la configuración."
+        "La navegación básica y las acciones siguen estando disponibles independientemente de que los atajos de teclado estén activados o no en la configuración."
       ],
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Antes de solicitar un nuevo código de verificación, verifica tu carpeta de spam y verifica que ${ strong } la dirección es correcta."
@@ -5052,7 +5134,7 @@
         "El correo electrónico se reenvía a tu bandeja de entrada mientras que tu dirección de correo se mantiene oculta."
       ],
       "Email tracker protection is disabled": [
-        "Protección contra rastreo para el correo electrónico deshabilitada"
+        "Protección contra rastreo para el correo electrónico desactivada"
       ],
       "Emails are automatically signed": [
         "Los correos electrónicos son firmados automáticamente."
@@ -5504,7 +5586,7 @@
         "Selecciona lo que quieres importar."
       ],
       "Select which calendars to import. A new calendar will be created for each imported calendar according to the number of calendars available in your plan.": [
-        "Selecciona los calendarios que deseas importar. Se creará un calendario para cada calendario importado de acuerdo con el número de calendarios disponibles en tu plan."
+        "Selecciona los calendarios que quieres importar. Se creará un calendario para cada calendario importado de acuerdo con el número de calendarios disponibles en tu plan."
       ],
       "Send an encrypted, password protected message to a ${ boldText } email address.": [
         "Enviar un mensaje encriptado y protegido por contraseña a una dirección de correo electrónico que no es de ${ boldText }."
@@ -5619,7 +5701,7 @@
         "Esta cuenta ha sido suspendida debido a una posible violación de los términos y condiciones."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Esta dirección está deshabilitada. Para enviar correos esta dirección, el propietario debe en primer lugar habilitar la dirección."
+        "Esta dirección está desactivada. Para enviar correos esta dirección, el propietario debe en primer lugar activar la dirección."
       ],
       "This browser does not support previewing PDF documents. Please download the file.": [
         "Este navegador no admite la previsualización de documentos PDF. Descarga el archivo."
@@ -5644,7 +5726,7 @@
         "Este correo no ha superado los requisitos de autenticación de su dominio. Puede ser una suplantación de identidad o un reenvío incorrecto."
       ],
       "This invitation is saved in a disabled calendar.": [
-        "Esta invitación está guardada en un calendario deshabilitado."
+        "Esta invitación está guardada en un calendario desactivado."
       ],
       "This link leads to a website that might be trying to steal your information, such as passwords and credit card details.": [
         "Este enlace conduce a un sitio web que podría estar intentando robar tus datos, como contraseñas y datos de tarjetas de crédito."
@@ -5765,7 +5847,7 @@
         "Actualizando búsqueda de contenido de mensaje..."
       ],
       "Upgrade now to get premium features, products and storage at a special price": [
-        "Pasa a un plan superior ahora para obtener funciones prémium, productos y almacenamiento a un precio especial."
+        "Pasa a un plan superior ahora para obtener funciones premium, productos y almacenamiento a un precio especial."
       ],
       "Upgrade to add more addresses to your account.": [
         "Mejora tu plan para añadir más direcciones a tu cuenta."
@@ -5849,7 +5931,7 @@
         "Semana"
       ],
       "When do you want your message to be automatically deleted from the recipient's inbox and your sent folder?": [
-        "¿Cuándo deseas que se borre automáticamente tu mensaje de la bandeja de entrada del destinatario y de tu carpeta de enviados?"
+        "¿Cuándo quieres que se borre automáticamente tu mensaje de la bandeja de entrada del destinatario y de tu carpeta de enviados?"
       ],
       "When do you want your message to be sent?": [
         "¿Cuándo quieres que se envíe tu mensaje?"
@@ -5861,7 +5943,7 @@
         "Cuando des tu correo electrónico, utiliza un alias de Hide-my-email único y desechable en vez de tu dirección de correo real."
       ],
       "When you enabled trusted keys for ${ senderName }, the public keys were added to the contact details.": [
-        "Cuando has habilitado las claves de confianza para ${ senderName }, las claves públicas se han añadido a los datos del contacto."
+        "Cuando has activado las claves de confianza para ${ senderName }, las claves públicas se han añadido a los datos del contacto."
       ],
       "When you set up two-factor authentication, we provide recovery codes which you can use to sign in if you lose access to your authenticator app.": [
         "Cuando configuras la autenticación de doble factor, te proporcionamos códigos de recuperación que puedes utilizar para iniciar sesión si pierdes el acceso a tu aplicación de autenticación."
@@ -6015,6 +6097,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Tu número de teléfono se utilizará solo para esta verificación única."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "La tecnología de cifrado de ${ BRAND_NAME } conlleva que nadie tiene acceso a tu contraseña - ni siquiera nosotros."
+      ],
+      "${ storage } storage": [
+        "${ storage } de almacenamiento"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "¿No encuentras lo que buscas? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Copiar el enlace al portapapeles"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "El precio incluye todos los descuentos aplicables según el ciclo de facturación y cupones sin expirar guardados en tu cuenta."
+      ],
+      "Total email addresses": [
+        "Direcciones de correo electrónico totales"
+      ],
+      "Total storage": [
+        "Almacenamiento total"
+      ],
+      "Total supported domains": [
+        "Total de dominios compatibles"
+      ],
+      "Total VPN connections": [
+        "Conexiones VPN totales"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Hasta ${ FAMILY_MAX_USERS } usuarios"
       ]
     },
     "info": {
@@ -6063,8 +6175,8 @@
         "¿Quieres confiar en las claves públicas principales con la siguientes huellas digitales?"
       ],
       "You have enabled Address Verification with Trusted Keys for this email address,\nbut no active encryption key has been trusted.\nYou must trust a key valid for sending in order to send a message to this email address.": [
-        "Has habilitado la verificación de dirección con claves de confianza para esta dirección de correo,\npero no se han confiado claves de cifrado activas.\nDebes confiar en una clave válida para poder enviar mensajes a esta dirección.",
-        "Has habilitado la verificación de dirección con claves de confianza para estas direcciones de correo,\npero no se han confiado claves de cifrado activas.\nDebes confiar en las claves válidas para poder enviar mensajes a estas direcciones."
+        "Has activado la verificación de dirección con claves de confianza para esta dirección de correo,\npero no se han confiado claves de cifrado activas.\nDebes confiar en una clave válida para poder enviar mensajes a esta dirección.",
+        "Has activado la verificación de dirección con claves de confianza para estas direcciones de correo,\npero no se han confiado claves de cifrado activas.\nDebes confiar en las claves válidas para poder enviar mensajes a estas direcciones."
       ]
     },
     "Key validation warning": {
@@ -6739,6 +6851,12 @@
       ],
       "Your password (admin)": [
         "Tu contraseña (admin)"
+      ],
+      "Confirm password": [
+        "Confirmar contraseña"
+      ],
+      "New password": [
+        "Nueva contraseña"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6826,7 +6944,7 @@
         "limpiando la memoria caché de tu navegador"
       ],
       "Create a calendar linked to an active email address.": [
-        "Crear un calendario vinculado a una dirección de correo electrónico habilitada."
+        "Crear un calendario vinculado a una dirección de correo electrónico activada."
       ],
       "Create a new calendar to add this event": [
         "Crea un calendario para añadir este evento."
@@ -6841,19 +6959,19 @@
         "Borradores"
       ],
       "Enable an email address linked to one of your calendars.": [
-        "Habilitar una dirección de correo electrónico vinculada a uno de tus calendarios."
+        "Activar una dirección de correo electrónico vinculada a uno de tus calendarios."
       ],
       "Enable the email address linked to the disabled calendar to cancel the event.": [
-        "Habilita la dirección de correo electrónico vinculada al calendario deshabilitado para cancelar el evento."
+        "Activa la dirección de correo electrónico vinculada al calendario desactivado para cancelar el evento."
       ],
       "Enable the email address linked to the disabled calendar to modify your answer.": [
-        "Habilita la dirección de correo electrónico vinculada al calendario deshabilitado para modificar tu respuesta."
+        "Activa la dirección de correo electrónico vinculada al calendario desactivado para modificar tu respuesta."
       ],
       "Enable your address again to modify your answer.": [
-        "Habilita tu dirección de nuevo para modificar tu respuesta."
+        "Activa tu dirección de nuevo para modificar tu respuesta."
       ],
       "Enable your address to answer this invitation.": [
-        "Habilita tu dirección para responder a esta invitación."
+        "Activa tu dirección para responder a esta invitación."
       ],
       "Folders": [
         "Carpetas"
@@ -6886,7 +7004,7 @@
         "Abrir evento actualizado en ${ CALENDAR_APP_NAME }"
       ],
       "Or you can delete one of your calendars and create a new one linked to an active email address.": [
-        "Puedes también eliminar uno de tus calendarios y crear uno vinculado a una dirección de correo electrónico habilitada."
+        "Puedes también eliminar uno de tus calendarios y crear uno vinculado a una dirección de correo electrónico activada."
       ],
       "Outbox": [
         "Bandeja de salida"
@@ -6898,10 +7016,10 @@
         "Política de privacidad"
       ],
       "Re-enable the address linked to this calendar to manage your invitation.": [
-        "Rehabilita la dirección vinculada a este calendario para gestionar tu invitación."
+        "Reactiva la dirección vinculada a este calendario para gestionar tu invitación."
       ],
       "Re-enable the address linked to this calendar to update your invitation.": [
-        "Rehabilita la dirección vinculada a este calendario para actualizar tu invitación."
+        "Reactiva la dirección vinculada a este calendario para actualizar tu invitación."
       ],
       "Reactivate now": [
         "Reactivar"
@@ -6946,7 +7064,7 @@
         "Necesitas activar las claves del calendario para añadir este evento."
       ],
       "You need to activate your calendar keys to answer this invitation": [
-        "Necesitas habilitar las claves del calendario para responder a esta invitación."
+        "Necesitas activar las claves del calendario para responder a esta invitación."
       ],
       "You need to activate your calendar keys to manage this invitation": [
         "Necesitas activar tus claves del calendario para gestionar esta invitación."
@@ -6955,7 +7073,7 @@
         "Necesitas activar las claves del calendario para ver el evento actualizado."
       ],
       "You need to activate your calendar keys to see the updated invitation": [
-        "Necesitas habilitar las claves del calendario para ver la invitación actualizada."
+        "Necesitas activar las claves del calendario para ver la invitación actualizada."
       ],
       "You need to reactivate your keys to manage this invitation": [
         "Necesitas reactivar tus claves para gestionar esta invitación."
@@ -6965,6 +7083,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Necesitas reactivar tus claves para ver la invitación actualizada."
+      ],
+      "Set up email forwarding": [
+        "Configurar el reenvío de correo electrónico"
       ]
     },
     "Link to calendar event": {
@@ -7053,7 +7174,7 @@
         "Re:"
       ],
       "Your free trial has ended. Access to your account will soon be disabled. ${ action }": [
-        "Tu periodo de prueba gratuito ha terminado. El acceso a tu cuenta será deshabilitado pronto. ${ action }"
+        "Tu periodo de prueba gratuito ha terminado. El acceso a tu cuenta será desactivado pronto. ${ action }"
       ]
     },
     "Message display when a new app version is available": {
@@ -7331,6 +7452,9 @@
       ],
       "Senders blocked": [
         "Remitentes bloqueados"
+      ],
+      "Link copied to clipboard": [
+        "El enlace ha sido copiado al portapapeles."
       ]
     },
     "Oauth instructions": {
@@ -7567,6 +7691,12 @@
       ],
       "Type text or keyword": [
         "Escribe el texto o palabra clave."
+      ],
+      "First name": [
+        "Nombre"
+      ],
+      "Last name": [
+        "Apellido"
       ]
     },
     "Placeholder for contact group name": {
@@ -7929,6 +8059,18 @@
       ],
       "Support online privacy": [
         "Apoya la privacidad en línea"
+      ],
+      "1 user": [
+        "1 usuario"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } y ${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -8019,6 +8161,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Precio estándar ${ amount } durante 30 meses"
+      ],
+      "${ n } month": [
+        "${ n } mes",
+        "${ n } meses"
+      ],
+      "15 months": [
+        "15 meses"
+      ],
+      "30 months": [
+        "30 meses"
       ]
     },
     "specialoffer: Title": {
@@ -8035,7 +8187,7 @@
         "Oferta de final de año"
       ],
       "Get our premium bundle and save more": [
-        "Contrata nuestro paquete prémium y ahorra más dinero"
+        "Contrata nuestro paquete premium y ahorra más dinero"
       ],
       "Our discontinued Visionary plan is back for a limited time only": [
         "Nuestro económico plan Visionary está de nuevo disponible por tiempo limitado"
@@ -8109,6 +8261,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ahora puedes programar tus mensajes para que sean enviados más tarde."
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Ahora puedes reenviar automáticamente tus correos a cualquiera."
       ]
     },
     "Status": {
@@ -8312,7 +8467,7 @@
         "Mensaje añadido a ${ labelName }."
       ],
       "Message content search enabled": [
-        "Búsqueda de contenido de mensajes habilitada"
+        "Búsqueda de contenido de mensajes activada"
       ],
       "Message deleted": [
         "Mensaje eliminado"
@@ -8419,6 +8574,12 @@
       ],
       "Premium Password Manager": [
         "Administrador de contraseñas premium"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME } premium"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8516,6 +8677,15 @@
       ],
       "vCard field": [
         "Campo vCard"
+      ],
+      "Display name": [
+        "Nombre para mostrar"
+      ],
+      "First name": [
+        "Nombre"
+      ],
+      "Last name": [
+        "Apellido"
       ]
     },
     "Time": {
@@ -8759,7 +8929,7 @@
         "Ajustes del correo"
       ],
       "Enable message content search": [
-        "Habilitar la búsqueda de contenido de mensajes"
+        "Activar la búsqueda de contenido de mensajes"
       ],
       "Enter your password": [
         "Introduce tu contraseña."
@@ -9105,6 +9275,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Tu prueba gratuita de Mail Plus termina el ${ textDate }."
+      ],
+      "Birthday": [
+        "Fecha de nacimiento"
+      ],
+      "Change password": [
+        "Cambiar contraseña"
+      ],
+      "Notes": [
+        "Notas"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9531,6 +9710,301 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } dominio personalizado",
+        "${ domains } dominios personalizados"
+      ],
+      "${ ips } server": [
+        "${ ips } servidor",
+        "${ ips } servidores"
+      ],
+      "${ users } user": [
+        "${ users } usuario",
+        "${ users } usuarios"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus y ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } de almacenamiento"
+      ],
+      "1 user": [
+        "1 usuario"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Más de 3000 servidores en más de 65 países"
+      ],
+      "6 users": [
+        "6 usuarios"
+      ],
+      "Access content worldwide": [
+        "Accede a contenido en todo el mundo"
+      ],
+      "Ad-blocker and malware protection": [
+        "Bloqueador de anuncios y protección contra malware"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Todas las funciones de pago de ${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Historial de versiones extendido"
+      ],
+      "High speed streaming": [
+        "Transmisión de alta velocidad"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME } premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } premium"
+      ],
+      "Premium Password Manager": [
+        "Administrador de contraseñas premium"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Los descuentos se basan en la cuota estándar mensual."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Tu suscripción se renovará automáticamente con el mismo precio reducido y duración al término del ciclo de facturación."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantía de reembolso durante 30 días"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Accede a contenido bloqueado y navega en privado. Tendrás a tu disposición más de 3000 servidores en más de 65 países, VPN de máxima velocidad, acceso a servicios de transmisión de todo el mundo, bloqueadores de malware y de anuncios, descargas rápidas de BitTorrent y mucho más."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Accede desde cualquier lugar al contenido de servicios de transmisión como Netflix, Disney+ o Prime Video, entre otros."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Sortea la censura y bloqueos locales de Internet con nuestra red global de servidores."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Incluye compatibilidad con 1 dominio de correo electrónico personalizado, 10 direcciones de correo electrónico, 10 alias de hide-my-email, posibilidad de compartir calendario, etc."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } dirección de correo electrónico, alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc.",
+        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } direcciones de correo electrónico, alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Inicio de sesión seguro en todos tus dispositivos. Incluye alias ilimitados, uso compartido, 2FA integrado y más."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Protege tus correos electrónicos y tu agenda con cifrado de extremo a extremo. Incluye compatibilidad con dominios personalizados de correo electrónico, 15 direcciones de correo electrónico, alias ilimitados de hide-my-email, la posibilidad de compartir calendarios y mucho más."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Protege tus archivos con el almacenamiento cifrado en la nube. Incluye historial de versiones, posibilidad de compartir archivos cifrados, etc."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "La tecnología NetShield tiene como fin proteger tus dispositivos y que puedas navegar mucho más rápido bloqueando anuncios, rastreadores y malware."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "El espacio de almacenamiento se distribuye entre todas las aplicaciones de ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Almacena hasta 200 versiones de cada archivo durante 10 años como máximo."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } usuario",
+        "${ users } usuarios"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "utiliza el asistente de importación Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Acceso cero cifrado. El destinatario ha desactivado el cifrado de extremo a extremo en su cuenta."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Cancelar el restablecimiento"
+      ],
+      "Reset password": [
+        "Restablecer la contraseña"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "La recuperación de la cuenta no está disponible para claves de direcciones heredadas."
+      ],
+      "Please generate keys before you try to change your password": [
+        "Genera claves antes de intentar cambiar tu contraseña."
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } día",
+        "${ timeRemaining.inDays } días"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } hora",
+        "${ timeRemaining.inHours } horas"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "El restablecimiento de contraseña ha sido aprobado (${ user.Email }). Tienes ${ timeRemaining.inDays } día para restablecer tu contraseña.",
+        "El restablecimiento de contraseña ha sido aprobado (${ user.Email }). Tienes ${ timeRemaining.inDays } días para restablecer tu contraseña."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "El restablecimiento de contraseña ha sido aprobado (${ user.Email }). Tienes ${ timeRemaining.inHours } hora para restablecer tu contraseña.",
+        "El restablecimiento de contraseña ha sido aprobado (${ user.Email }). Tienes ${ timeRemaining.inHours } horas para restablecer tu contraseña."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Ve al dispositivo en el que se ha iniciado sesión y donde se ha realizado la solicitud para cambiar tu contraseña."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Este permiso expira en ${ timeRemaining.inDays } día.",
+        "Este permiso expira en ${ timeRemaining.inDays } días."
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Este permiso expira en ${ timeRemaining.inHours } hora.",
+        "Este permiso expira en ${ timeRemaining.inHours } horas."
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Ahora puedes cambiar la contraseña para la cuenta ${ boldEmail } durante ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Ver cómo"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "La contraseña ha sido guardada."
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Restablecer tu contraseña"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Cancelar el restablecimiento de contraseña"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Introduce tu contraseña actual para cancelar el proceso de restablecimiento. No se aplicará ningún otro cambio."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "El restablecimiento de contraseña ha sido cancelado."
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "¿Cancelar el restablecimiento de contraseña?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "La solicitud de restablecimiento de contraseña ha sido cancelada (${ user.Email }). Si no ha hecho esta solicitud, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "cambia tu contraseña ahora."
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Cancelar la solicitud"
+      ],
+      "Got it": [
+        "Entiendo"
+      ],
+      "Learn more": [
+        "Más información"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } hora más",
+        "${ gracePeriodHoursRemaining } horas más"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Si no has solicitado restablecer la contraseña, cancélala ahora."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "El restablecimiento de contraseña ha sido solicitado (${ user.Email }). Puedes cambiar tu contraseña en ${ hoursRemaining } hora.",
+        "El restablecimiento de contraseña ha sido solicitado (${ user.Email }). Puedes cambiar tu contraseña en ${ hoursRemaining } horas."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Para asegurarte de que realmente eres tú quien intenta restablecer tu contraseña, esperamos 72 horas antes de aprobar las solicitudes. Podrás cambiar tu contraseña en ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Hemos recibido una solicitud de restablecimiento de contraseña para ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Ver la solicitud"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "El restablecimiento de contraseña ha sido solicitado."
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Cerrar sesión"
+      ],
+      "Stay signed in": [
+        "Seguir conectado"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } hora",
+        "${ gracePeriodHoursRemaining } horas"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } está ahora disponible."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Si cierras la sesión antes de restablecer su contraseña, podrías perder el acceso a tu cuenta."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Si cierras la sesión sin restablecer tu contraseña, podrías perder el acceso a tu cuenta."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Podrás restablecer tu contraseña en ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Restablecimiento de contraseña"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "¿Quieres cerrar sesión sin restablecimiento de contraseña?"
       ]
     }
   }

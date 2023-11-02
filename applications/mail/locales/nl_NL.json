@@ -1144,6 +1144,29 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Add birthday": [
+        "Verjaardag toevoegen"
+      ],
+      "Add note": [
+        "Notitie toevoegen"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "Ten hoogste ${ maxContacts } contact is toegelaten per contactgroep",
+        "Ten hoogste ${ maxContacts } contacten zijn toegelaten per contactgroep"
+      ],
+      "Don't know your password?": [
+        "Wachtwoord vergeten?"
+      ],
+      "Ok": [
+        "Ok"
+      ],
+      "See how": [
+        "Zie hoe"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "U kunt geen vCard-bestanden met meer dan ${ maxAttachments } contact verzenden",
+        "U kunt geen vCard-bestand met meer dan ${ maxAttachments } contacten verzenden"
       ]
     },
     "action": {
@@ -1621,6 +1644,12 @@
       ],
       "Your email address is not in the participants list": [
         "Het e-mailadres staat niet in de lijst met deelnemers"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Op dit moment kan u niet reageren op ${ BRAND_NAME } uitnodigingen als u geen deelnemer bent."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Het e-mailadres staat niet in de originele lijst met deelnemers."
       ]
     },
     "Calendar widget banner": {
@@ -1983,6 +2012,18 @@
       ],
       "URL": [
         "Website"
+      ],
+      "Display name": [
+        "Weergavenaam"
+      ],
+      "Enter a display name or nickname": [
+        "Voer een weergavenaam of bijnaam in"
+      ],
+      "First name": [
+        "Voornaam"
+      ],
+      "Last name": [
+        "Familienaam"
       ]
     },
     "Contact type label": {
@@ -3464,6 +3505,22 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Uw zoekopdracht leverde te veel resultaten op. Verfijn uw zoekopdracht en probeer het opnieuw."
+      ],
+      "First name is too long": [
+        "Voornaam is te lang"
+      ],
+      "Incorrect username": [
+        "Onjuiste gebruikersnaam"
+      ],
+      "Last name is too long": [
+        "Achternaam is te lang"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Bied ofwel een voornaam, een achternaam of een weergavenaam aan"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "U kunt geen e-mail verzenden naar meer dan${ maxContacts } ontvanger",
+        "U kunt geen e-mail verzenden naar meer dan ${ maxContacts } ontvangers"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3787,6 +3844,15 @@
       ],
       "Up to 6 users": [
         "Tot 6 gebruikers"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -4227,6 +4293,9 @@
       ],
       "You've unlocked 1 GB": [
         "U heeft 1 GB ontgrendeld"
+      ],
+      "This feature is currently unavailable": [
+        "Deze functie is momenteel niet beschikbaar."
       ]
     },
     "Gmail forwarding": {
@@ -5991,6 +6060,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "${ BRAND_NAME }'s versleutelingstechnologie betekent dat niemand toegang heeft tot uw wachten - zelfs wij niet."
+      ],
+      "${ storage } storage": [
+        "${ storage } opslag"
+      ],
+      "Copy the link to clipboard": [
+        "Link kopiëren naar klembord"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Houd er rekening mee dat de adressen die aan deze groepen zijn toegewezen NIET zullen worden verwijderd."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "De prijs is inclusief alle toepasselijke cyclusgebonden kortingen en geldige coupons die in uw account zijn opgeslagen."
+      ],
+      "Total email addresses": [
+        "Totaal e-mailadressen"
+      ],
+      "Total storage": [
+        "Totale opslagruimte"
+      ],
+      "Total supported domains": [
+        "Totaal ondersteunde domeinen"
+      ],
+      "Total VPN connections": [
+        "Totale VPN-verbindingen"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Tot ${ FAMILY_MAX_USERS } gebruikers"
       ]
     },
     "info": {
@@ -6715,6 +6814,12 @@
       ],
       "Your password (admin)": [
         "Uw wachtwoord (admin)"
+      ],
+      "Confirm password": [
+        "Bevestig wachtwoord"
+      ],
+      "New password": [
+        "Nieuw wachtwoord"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7307,6 +7412,9 @@
       ],
       "Senders blocked": [
         "Afzenders geblokkeerd"
+      ],
+      "Link copied to clipboard": [
+        "Link gekopieerd naar klembord"
       ]
     },
     "Oauth instructions": {
@@ -7543,6 +7651,12 @@
       ],
       "Type text or keyword": [
         "Voer tekst of trefwoord in"
+      ],
+      "First name": [
+        "Voornaam"
+      ],
+      "Last name": [
+        "Familienaam"
       ]
     },
     "Placeholder for contact group name": {
@@ -7905,6 +8019,18 @@
       ],
       "Support online privacy": [
         "Ondersteun online privacy"
+      ],
+      "1 user": [
+        "1 gebruiker"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -7995,6 +8121,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standaardprijs ${ amount } voor 30 maanden"
+      ],
+      "${ n } month": [
+        "${ n } maand",
+        "${ n } maanden"
+      ],
+      "15 months": [
+        "15 maanden"
+      ],
+      "30 months": [
+        "30 maanden"
       ]
     },
     "specialoffer: Title": {
@@ -8395,6 +8531,12 @@
       ],
       "Premium Password Manager": [
         "Premium wachtwoordmanager"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8492,6 +8634,15 @@
       ],
       "vCard field": [
         "vCard-veld"
+      ],
+      "Display name": [
+        "Weergavenaam"
+      ],
+      "First name": [
+        "Voornaam"
+      ],
+      "Last name": [
+        "Familienaam"
       ]
     },
     "Time": {
@@ -9081,6 +9232,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uw Mail Plus proefversie eindigt op ${ textDate }"
+      ],
+      "Birthday": [
+        "Verjaardag"
+      ],
+      "Change password": [
+        "Wachtwoord wijzigen"
+      ],
+      "Notes": [
+        "Notities"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9267,6 +9427,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Weet u zeker dat u deze contactgroepen permanent wilt verwijderen?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9504,6 +9667,297 @@
       ],
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } eigen domein",
+        "${ domains } eigen domeinen"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servers"
+      ],
+      "${ users } user": [
+        "${ users } gebruiker",
+        "${ users } gebruikers"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus en ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } opslagruimte"
+      ],
+      "1 user": [
+        "1 gebruiker"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Meer dan 3.000 servers in meer dan 65 landen"
+      ],
+      "6 users": [
+        "6 gebruikers"
+      ],
+      "Access content worldwide": [
+        "Wereldwijd toegang tot content"
+      ],
+      "Ad-blocker and malware protection": [
+        "Advertentieblokkering en bescherming tegen malware"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Alle betaalde functies van ${ MAIL_SHORT_APP_NAME } en ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Uitgebreide versiegeschiedenis bekijken"
+      ],
+      "High speed streaming": [
+        "Streamen met hoge snelheid"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } en ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium wachtwoordmanager"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Kortingen zijn gebaseerd op standaardprijzen per maand."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Uw abonnement wordt aan het einde van uw factureringscyclus automatisch verlengd tegen het standaard aanbiedingstarief met bijbehorende tijdsduur."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 dagen geld-terug-garantie"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Bekijk geblokkeerde inhoud en surf privé. Met meer dan 3.000 servers in meer dan 65 landen, de hoogste VPN-snelheid, toegang tot wereldwijde streamingdiensten, malware- en advertentieblokkering, snelle BitTorrent-downloads en meer."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Bekijk content van streamingdiensten, waaronder Netflix, Disney+, Prime Video en meer, waar u maar wilt."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Omzeil plaatselijke internetblokkades en censuur met ons wereldwijde serversnetwerk."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Ondersteuning voor 1 aangepast e-maildomein, 10 e-mailadressen, 10 hide-my-email-aliassen, gedeelde agenda's en meer."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Ondersteuning voor 3 aangepaste e-maildomeinen, ${ addresses } e-mailadres, onbeperkt hide-my-email-aliassen, gedeelde agenda's en meer.",
+        "Ondersteuning voor 3 aangepaste e-maildomeinen, ${ addresses } e-mailadressen, onbeperkt hide-my-email-aliassen, gedeelde agenda's en meer."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Beveiligd inloggen op al uw apparaten. Inclusief ongelimiteerde aliassen, delen, geïntegreerde 2FA en meer."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Beveilig uw e-mails en plan met end-to-end versleuteling. Inclusief ondersteuning voor aangepaste e-maildomeinen, 15 e-mailadressen, een onbeperkt aantal hide-my-email-aliassen, agenda delen en meer."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Beveilig uw bestanden met versleutelde cloudopslag. Inclusief versiegeschiedenis, versleuteld bestanden delen en meer."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Het speciaal ontworpen NetShield beschermt uw apparaten en versnelt uw browsen door advertenties, trackers en malware te blokkeren."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Opslagruimte wordt gedeeld binnen alle ${ BRAND_NAME }-apps."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Bewaar tot 200 versies van elk bestand tot wel 10 jaar."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } gebruiker",
+        "${ users } gebruikers"
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Maximaal ${ maxAttendees } deelnemer toegelaten per uitnodiging",
+        "Maximaal ${ maxAttendees } deelnemers toegelaten per uitnodiging"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Reset annuleren"
+      ],
+      "Reset password": [
+        "Wachtwoord resetten"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Accountherstel niet beschikbaar voor verouderde adressleutels"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Genereer sleutels voordat u uw wachtwoord probeert te wijzigen"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } dag",
+        "${ timeRemaining.inDays } dagen"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } uur",
+        "${ timeRemaining.inHours } uren"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Wachtwoord reset aanvraag goedgekeurd (${ user.Email }). U heeft ${ timeRemaining.inDays } dag om uw wachtwoord te resetten.",
+        "Wachtwoord reset aanvraag goedgekeurd (${ user.Email }). U heeft ${ timeRemaining.inDays } dagen om uw wachtwoord te resetten."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Wachtwoord reset aanvraag goedgekeurd (${ user.Email }). U heeft ${ timeRemaining.inHours } uur om uw wachtwoord te resetten.",
+        "Wachtwoord reset aanvraag goedgekeurd (${ user.Email }). U heeft ${ timeRemaining.inHours } ure om uw wachtwoord te resetten."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "\"Ga naar het ingelogde apparaat (in de sessie waarin de aanvraag is gestart) om uw wachtwoord te wijzigen.\""
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Deze toestemming verloopt binnen ${ timeRemaining.inDays } dag",
+        "Deze toestemming verloopt binnen ${ timeRemaining.inDays } dagen"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Deze toestemming verloopt binnen ${ timeRemaining.inHours } uur",
+        "Deze toestemming verloopt binnen ${ timeRemaining.inHours } uren"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "U kan uw wachtwoord vrijelijk wijzigen voor de account ${ boldEmail } gedurende ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Zie hoe"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Wachtwoord opgeslagen"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Uw wachtwoord opnieuw instellen"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Wachtwoord reset annuleren"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Vul uw huidig wachtwoord in om uw het resetten van uw wachtwoord te annuleren. Er zullen geen veranderingen plaatsvinden."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Wachtwoord reset geannuleerd"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Wachtwoord reset annuleren?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Aanvraag wijziging wachtwoord (${ user.Email }) geannuleerd. Als u deze aanvraag niet hebt gemaakt, ${ changePasswordLink }"
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "wijzig uw wachtwoord nu"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Aanvraag annuleren"
+      ],
+      "Got it": [
+        "Ik begrijp het"
+      ],
+      "Learn more": [
+        "Kom meer te weten"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } uur",
+        "${ gracePeriodHoursRemaining } uren"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Indien u geen wachtwoord reset hebt aangevraagd, annuleer deze aanvraag dan nu."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Wachtwoord reset aangevraagd (${ user.Email }). Uw wachtwoord kan gewijzigd worden in ${ hoursRemaining } uur.",
+        "Wachtwoord reset aangevraagd (${ user.Email }). Uw wachtwoord kan gewijzigd worden in ${ hoursRemaining } uren."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Om er zeker van te zijn dat u het bent die probeert uw wachtwoord te resetten, wachten we 72 uur voordat we verzoeken goedkeuren. U kan uw wachtwoord wijzigen in ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "We ontvingen een wachtwoord reset aanvraag voor ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Aanvraag bekijken"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Wachtwoord reset aangevraagd"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Uitloggen"
+      ],
+      "Stay signed in": [
+        "Blijf ingelogd"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } uur",
+        "${ gracePeriodHoursRemaining } uren"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } is nu beschikbaar"
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Als u uitlogt voordat u uw wachtwoord reset, kan u de toegang tot uw account verliezen."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Als u uitlogt zonder uw wachtwoord te resetten, kan u de toegang tot uw account verliezen."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "U kan uw wachtwoord resetten in ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Wachtwoord reset"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Uitloggen zonder wachtwoord reset?"
       ]
     }
   }

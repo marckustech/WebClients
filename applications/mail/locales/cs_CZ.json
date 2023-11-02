@@ -1152,6 +1152,45 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Add birthday": [
+        "Přidat datum narození"
+      ],
+      "Add note": [
+        "Přidat poznámku"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "Na jednu skupinu kontaktů je povolen maximálně ${ maxContacts } kontakt",
+        "Na jednu skupinu kontaktů jsou povoleny maximálně ${ maxContacts } kontakty",
+        "Na jednu skupinu kontaktů je povoleno maximálně ${ maxContacts } kontaktů",
+        "Na jednu skupinu kontaktů je povoleno maximálně ${ maxContacts } kontaktů"
+      ],
+      "Close the checklist": [
+        "Uzavření kontrolního seznamu"
+      ],
+      "Continue with Outlook": [
+        "Pokračovat s Outlookem"
+      ],
+      "Don't know your password?": [
+        "Neznáte své heslo?"
+      ],
+      "Import from Google": [
+        "Importovat z Google"
+      ],
+      "Import from Outlook": [
+        "Importovat z Outlooku"
+      ],
+      "Ok": [
+        "Ok"
+      ],
+      "See how": [
+        "Podívejte se, jak"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktu",
+        "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
+        "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
+        "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
       ]
     },
     "action": {
@@ -1629,6 +1668,12 @@
       ],
       "Your email address is not in the participants list": [
         "Vaše e-mailová adresa není v seznamu účastníků"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Na pozvánky ${ BRAND_NAME } nemůžete reagovat, pokud právě nejste na seznamu účastníků."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Vaše e-mailová adresa není v původním seznamu účastníků."
       ]
     },
     "Calendar widget banner": {
@@ -1991,6 +2036,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Zobrazované jméno"
+      ],
+      "Enter a display name or nickname": [
+        "Zadejte zobrazované jméno nebo přezdívku"
+      ],
+      "First name": [
+        "Křestní jméno"
+      ],
+      "Last name": [
+        "Příjmení"
       ]
     },
     "Contact type label": {
@@ -2952,6 +3009,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, které nechcete sloučit ani zachovat, označte pro smazání. Ke smazání dojde po kliknutí na tlačítko pro sloučení"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Při importování prostřednictvím souborů CSV a VCF zajistěte, aby velikost souboru nepřesáhla ${ MAX_IMPORT_FILE_SIZE_STRING } nebo ${ MAX_IMPORT_CONTACTS_STRING } kontaktů. Pokud je váš soubor větší, rozdělte jej na menší soubory. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Pro import kontaktů ze služby Google nebo Outlook ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3508,6 +3571,24 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhledávání našlo příliš mnoho výsledků. Upřesněte hledání a zkuste to prosím znovu."
+      ],
+      "First name is too long": [
+        "Křestní jméno je příliš dlouhé"
+      ],
+      "Incorrect username": [
+        "Nesprávné uživatelské jméno"
+      ],
+      "Last name is too long": [
+        "Příjmení je příliš dlouhé"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Uveďte prosím jméno, příjmení nebo zobrazované jméno."
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Nemůžete odeslat e-mail více než ${ maxContacts } příjemci najednou",
+        "Nemůžete odeslat e-mail více než ${ maxContacts } příjemcům najednou",
+        "Nemůžete odeslat e-mail více než ${ maxContacts } příjemcům najednou",
+        "Nemůžete odeslat e-mail více než ${ maxContacts } příjemcům najednou"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3833,6 +3914,15 @@
       ],
       "Up to 6 users": [
         "Až 6 uživatelů"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiové funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3980,6 +4070,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4006,6 +4099,12 @@
         "Megabajty",
         "Megabajtů",
         "Megabajtů"
+      ],
+      "Terabyte": [
+        "Terabajt",
+        "Terabajty",
+        "Terabajtů",
+        "Terabajtů"
       ]
     },
     "Filter": {
@@ -4286,6 +4385,9 @@
       ],
       "You've unlocked 1 GB": [
         "Odemkli jste 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Zavřením se vzdáte bezplatného bonusového úložiště."
       ]
     },
     "Gmail forwarding": {
@@ -6200,6 +6302,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "Díky šifrovací technologii ${ BRAND_NAME } se k vašemu heslu nikdo nedostane - ani my ne."
+      ],
+      "${ storage } storage": [
+        "${ storage } úložiště"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Nemůžete najít to, co hledáte? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Kopírovat odkaz do schránky"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Upozorňujeme, že adresy přiřazené k těmto skupinám NEBUDOU smazány."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Cena zahrnuje všechny příslušné slevy na základě cyklu a kupóny, které nevypršely a jsou uložené na vašem účtu."
+      ],
+      "Total email addresses": [
+        "Celkem e-mailových adres"
+      ],
+      "Total storage": [
+        "Celkem prostoru"
+      ],
+      "Total supported domains": [
+        "Celkem vlastních domén"
+      ],
+      "Total VPN connections": [
+        "Celkem VPN připojení"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Až ${ FAMILY_MAX_USERS } uživatelů"
       ]
     },
     "info": {
@@ -6930,6 +7065,12 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "Confirm password": [
+        "Potvrdit heslo"
+      ],
+      "New password": [
+        "Nové heslo"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7156,6 +7297,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Pro zobrazení upravené pozvánky musíte znovu aktivovat své klíče"
+      ],
+      "Set up email forwarding": [
+        "Nastavení přeposílání e-mailů"
       ]
     },
     "Link to calendar event": {
@@ -7538,6 +7682,9 @@
       ],
       "Senders blocked": [
         "Odesílatelé zablokováni"
+      ],
+      "Link copied to clipboard": [
+        "Odkaz zkopírován do schránky"
       ]
     },
     "Oauth instructions": {
@@ -7774,6 +7921,12 @@
       ],
       "Type text or keyword": [
         "Zadejte text nebo klíčové slovo"
+      ],
+      "First name": [
+        "Křestní jméno"
+      ],
+      "Last name": [
+        "Příjmení"
       ]
     },
     "Placeholder for contact group name": {
@@ -8166,6 +8319,18 @@
       ],
       "Support online privacy": [
         "Podpořte online soukromí"
+      ],
+      "1 user": [
+        "1 uživatel"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiové funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiové funkce ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -8258,6 +8423,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardní cena ${ amount } za 30 měsíců"
+      ],
+      "${ n } month": [
+        "${ n } měsíc",
+        "${ n } měsíce",
+        "${ n } měsíců",
+        "${ n } měsíců"
+      ],
+      "15 months": [
+        "15 měsíců"
+      ],
+      "30 months": [
+        "30 měsíců"
       ]
     },
     "specialoffer: Title": {
@@ -8348,6 +8525,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Nyní můžete naplánovat odesílání zpráv na později"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Nyní můžete automaticky přeposílat e-maily komukoli!"
       ]
     },
     "Status": {
@@ -8706,6 +8886,12 @@
       ],
       "Premium Password Manager": [
         "Prémiový správce hesel"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiové funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8803,6 +8989,15 @@
       ],
       "vCard field": [
         "vCard položka"
+      ],
+      "Display name": [
+        "Zobrazované jméno"
+      ],
+      "First name": [
+        "Křestní jméno"
+      ],
+      "Last name": [
+        "Příjmení"
       ]
     },
     "Time": {
@@ -9426,6 +9621,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Birthday": [
+        "Narozeniny"
+      ],
+      "Change password": [
+        "Změnit heslo"
+      ],
+      "Notes": [
+        "Poznámky"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9620,6 +9824,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná zkušební verze končí ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Opravdu chcete tyto skupiny kontaktů trvale smazat?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9917,6 +10124,239 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } vlastní doména",
+        "${ domains } vlastní domény",
+        "${ domains } vlastních domén",
+        "${ domains } vlastních domén"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servery",
+        "${ ips } serverů",
+        "${ ips } serverů"
+      ],
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } uživatel",
+        "${ users } uživatelé",
+        "${ users } uživatelů",
+        "${ users } uživatelů"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "použijte asistenta pro import Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Šifrováno s nulovým přístupem. Příjemce má na svém účtu vypnuto end-to-end šifrování."
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Na jednu pozvánku je povolen nejvýše ${ maxAttendees } účastník",
+        "Na jednu pozvánku jsou povoleni nejvýše ${ maxAttendees } účastníci",
+        "Na jednu pozvánku je povoleno nejvýše ${ maxAttendees } účastníků",
+        "Na jednu pozvánku je povoleno nejvýše ${ maxAttendees } účastníků"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Zrušit resetování"
+      ],
+      "Reset password": [
+        "Resetovat heslo"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Obnovení účtu není k dispozici pro starší klíče adres"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Než se pokusíte změnit si heslo, vygenerujte si prosím klíče"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } den",
+        "${ timeRemaining.inDays } dny",
+        "${ timeRemaining.inDays } dní",
+        "${ timeRemaining.inDays } dní"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } hodina",
+        "${ timeRemaining.inHours } hodiny",
+        "${ timeRemaining.inHours } hodin",
+        "${ timeRemaining.inHours } hodin"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inDays } den.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inDays } dny.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inDays } dní.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inDays } dní."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inHours } hodinu.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inHours } hodiny.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inHours } hodin.",
+        "Žádost o reset hesla schválena (${ user.Email }). Na resetování hesla máte ${ timeRemaining.inHours } hodin."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Přejděte do přihlášeného zařízení (v relaci, ve které byl požadavek iniciován) a změňte heslo."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Toto oprávnění vyprší za ${ timeRemaining.inDays } den",
+        "Toto oprávnění vyprší za ${ timeRemaining.inDays } dny",
+        "Toto oprávnění vyprší za ${ timeRemaining.inDays } dní",
+        "Toto oprávnění vyprší za ${ timeRemaining.inDays } dní"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Toto oprávnění vyprší za ${ timeRemaining.inHours } hodinu",
+        "Toto oprávnění vyprší za ${ timeRemaining.inHours } hodiny",
+        "Toto oprávnění vyprší za ${ timeRemaining.inHours } hodin",
+        "Toto oprávnění vyprší za ${ timeRemaining.inHours } hodin"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Nyní si můžete libovolně změnit heslo k účtu ${ boldEmail } po dobu ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Podívejte se, jak"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Heslo uloženo"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Resetování hesla"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Zrušit resetování hesla"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Chcete-li proces resetování hesla zrušit, zadejte své aktuální heslo. Žádné další změny se neprojeví."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Resetování hesla zrušeno"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Zrušit resetování hesla?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Žádost o resetování hesla zrušena (${ user.Email }). Pokud nešlo o vaši žádost, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "změňte si teď své heslo"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Zrušit žádost"
+      ],
+      "Got it": [
+        "Rozumím"
+      ],
+      "Learn more": [
+        "Zjistit více"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } další hodina",
+        "${ gracePeriodHoursRemaining } další hodiny",
+        "${ gracePeriodHoursRemaining } dalších hodin",
+        "${ gracePeriodHoursRemaining } dalších hodin"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Pokud jste o obnovení hesla nepožádali, ihned zrušte tento požadavek."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Požadavek na obnovení hesla (${ user.Email }). Heslo můžete změnit za ${ hoursRemaining } hodinu.",
+        "Požadavek na obnovení hesla (${ user.Email }). Heslo můžete změnit za ${ hoursRemaining } hodiny.",
+        "Požadavek na obnovení hesla (${ user.Email }). Heslo můžete změnit za ${ hoursRemaining } hodin.",
+        "Požadavek na obnovení hesla (${ user.Email }). Heslo můžete změnit za ${ hoursRemaining } hodin."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Abychom měli jistotu, že se o obnovení hesla pokoušíte skutečně vy, čekáme před schválením žádosti 72 hodin. Heslo si můžete změnit v ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Obdrželi jsme žádost o resetování hesla pro ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Zobrazit požadavek"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Vyžádáno resetování hesla"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Odhlásit se"
+      ],
+      "Stay signed in": [
+        "Zůstat přihlášen(a)"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } hodina",
+        "${ gracePeriodHoursRemaining } hodiny",
+        "${ gracePeriodHoursRemaining } hodin",
+        "${ gracePeriodHoursRemaining } hodin"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } je nyní k dispozici."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Pokud se před resetováním hesla odhlásíte, můžete ztratit přístup ke svému účtu."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Pokud se bez resetování hesla odhlásíte, můžete ztratit přístup ke svému účtu."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Heslo budete moci resetovat za ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Reset hesla"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Odhlásit se bez resetování hesla?"
       ]
     }
   }

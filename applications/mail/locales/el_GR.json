@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Σμίκρυνση"
+      ],
+      "Add birthday": [
+        "Προσθήκη γενεθλίων"
+      ],
+      "Add note": [
+        "Προσθήκη σημείωσης"
+      ],
+      "Close the checklist": [
+        "Κλείσιμο της λίστας ελέγχου"
+      ],
+      "Continue with Outlook": [
+        "Συνεχίστε με Outlook"
+      ],
+      "Don't know your password?": [
+        "Δε γνωρίζετε τον κωδικό πρόσβασης σας;"
+      ],
+      "Import from Google": [
+        "Εισαγωγή από Google"
+      ],
+      "Import from Outlook": [
+        "Εισαγωγή από Outlook"
+      ],
+      "Ok": [
+        "OK"
+      ],
+      "See how": [
+        "Δείτε πως"
       ]
     },
     "action": {
@@ -1629,6 +1656,12 @@
       ],
       "Your email address is not in the participants list": [
         "Η ηλ. διεύθυνσή σας δεν βρίσκεται στη λίστα συμμετεχόντων"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Δεν μπορείτε να απαντήσετε σε προσκλήσεις ${ BRAND_NAME } εάν δε βρίσκεστε στη λίστα συμμετεχόντων αυτήν τη στιγμή."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Η διεύθυνση ηλεκτρονικού ταχυδρομείου σας δεν περιλαμβάνεται στην αρχική λίστα συμμετεχόντων."
       ]
     },
     "Calendar widget banner": {
@@ -1991,6 +2024,18 @@
       ],
       "URL": [
         "Διεύθυνση URL"
+      ],
+      "Display name": [
+        "Εμφανιζόμενο Όνομα"
+      ],
+      "Enter a display name or nickname": [
+        "Εισαγάγετε ένα εμφανιζόμενο όνομα ή ψευδώνυμο"
+      ],
+      "First name": [
+        "Όνομα"
+      ],
+      "Last name": [
+        "Επώνυμο"
       ]
     },
     "Contact type label": {
@@ -2940,6 +2985,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Μπορείτε να επισημάνετε για διαγραφή τις επαφές που δεν θέλετε να συγχωνεύσετε ούτε να διατηρήσετε. Η διαγραφή θα πραγματοποιηθεί μόνο αφού πατηθεί το κουμπί συγχώνευσης"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Για εισαγωγή μέσω αρχείου CSV και VCF, βεβαιωθείτε ότι το αρχείο δεν υπερβαίνει ${ MAX_IMPORT_FILE_SIZE_STRING } ή τις ${ MAX_IMPORT_CONTACTS_STRING } επαφές. Εάν το αρχείο σας είναι μεγαλύτερο, παρακαλούμε χωρίστε το σε μικρότερα αρχεία. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Για να εισαγάγετε τις επαφές σας από την Google ή το Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3284,7 +3335,7 @@
         "Οι κωδικοί πρόσβασης δεν ταυτίζονται"
       ],
       "Please activate your search again": [
-        "Ενεργοποιήστε ξανά την αναζήτησή σας"
+        "Παρακαλούμε ενεργοποιήστε ξανά την αναζήτησή σας"
       ],
       "Please fix the highlighted conflict to proceed.": [
         "Παρακαλούμε επιλύστε την τονισμένη διένεξη προς συνέχιση.",
@@ -3346,7 +3397,7 @@
         "Κάποια από τα ονόματα φακέλων σας υπερβαίνουν το μέγιστο όριο χαρακτήρων του ${ MAIL_APP_NAME }. Παρακαλούμε προσαρμόστε την εισαγωγή για να διορθώσετε αυτά τα ονόματα."
       ],
       "Some of your label names are reserved. Please customize the import to edit these names.": [
-        "Ορισμένα από τα ονόματα των ετικετών σας είναι δεσμευμένα. Προσαρμόστε την εισαγωγή για να επεξεργαστείτε αυτά τα ονόματα."
+        "Ορισμένα από τα ονόματα των ετικετών σας είναι δεσμευμένα. Παρακαλούμε προσαρμόστε την εισαγωγή για να επεξεργαστείτε αυτά τα ονόματα."
       ],
       "Some of your label names are unavailable. Please customize the import to edit these names.": [
         "Ορισμένα από τα ονόματα ετικετών σας δεν είναι διαθέσιμα. Προσαρμόστε την εισαγωγή για να επεξεργαστείτε αυτά τα ονόματα."
@@ -3476,6 +3527,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Η αναζήτησή σας ταίριαξε με υπερβολικό αριθμό αποτελεσμάτων. Παρακαλούμε περιορίστε την αναζήτησή σας και δοκιμάστε ξανά."
+      ],
+      "First name is too long": [
+        "Το όνομα είναι πολύ μεγάλο"
+      ],
+      "Incorrect username": [
+        "Εσφαλμένο όνομα χρήστη"
+      ],
+      "Last name is too long": [
+        "Το επώνυμο είναι πολύ μεγάλο"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Παρακαλούμε καταχωρίστε είτε όνομα, επώνυμο ή εμφανιζόμενο όνομα"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3805,6 +3868,15 @@
       ],
       "Up to 6 users": [
         "Έως 6 χρήστες"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3950,6 +4022,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3968,6 +4043,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter": {
@@ -4248,6 +4327,9 @@
       ],
       "You've unlocked 1 GB": [
         "Έχετε ξεκλειδώσει 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Το κλείσιμο αυτού σημαίνει εγκατάλειψη του μπόνους δωρεάν αποθήκευσης."
       ]
     },
     "Gmail forwarding": {
@@ -5398,7 +5480,7 @@
         "Παρακαλούμε λάβετε υπόψη ότι οι διευθύνσεις που έχουν εκχωρηθεί σε αυτές τις ομάδες ΔΕΝ θα διαγραφούν."
       ],
       "Please note that addresses assigned to this group will NOT be deleted.": [
-        "Σημειώστε ότι οι διευθύνσεις που έχουν αντιστοιχιστεί σε αυτήν την ομάδα ΔΕ θα διαγραφούν."
+        "Παρακαλούμε σημειώστε ότι οι διευθύνσεις που έχουν αντιστοιχιστεί σε αυτήν την ομάδα ΔΕ θα διαγραφούν."
       ],
       "Please note that this process may take some time depending on the size of your address book.": [
         "Παρακαλείστε να σημειώσετε ότι αυτή η διαδικασία μπορεί να διαρκέσει κάποιο χρόνο, ανάλογα με το μέγεθος του βιβλίου διευθύνσεών σας."
@@ -5417,7 +5499,7 @@
         "Επιλέξτε ποια διεύθυνση ή διευθύνσεις email θα προσθέσετε σε ${ groupCount } ομάδες."
       ],
       "Please select which email address or addresses to add to ${ groupName }.": [
-        "Επιλέξτε ποια διεύθυνση ή διευθύνσεις email θα προσθέσετε στην ομάδα ${ groupName }."
+        "Παρακαλούμε επιλέξτε ποια διεύθυνση ή διευθύνσεις email θα προσθέσετε στην ομάδα ${ groupName }."
       ],
       "Please wait till your changes are synced with the server.": [
         "Παρακαλούμε να περιμένετε έως ότου οι αλλαγές σας συγχρονιστούν με τον διακομιστή."
@@ -6015,6 +6097,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ο αριθμός τηλεφώνου σας θα χρησιμοποιηθεί μόνο για αυτή την εφάπαξ επαλήθευση."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "Η τεχνολογία κρυπτογράφησης του ${ BRAND_NAME } σημαίνει ότι κανείς δεν μπορεί να έχει πρόσβαση στον κωδικό πρόσβασής σας - ούτε καν εμείς."
+      ],
+      "${ storage } storage": [
+        "${ storage } αποθηκευτικού χώρου"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Δε βρίσκετε αυτό που ψάχνετε; ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Αντιγραφή του συνδέσμου στο πρόχειρο"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Η τιμή περιλαμβάνει όλες τις ισχύουσες εκπτώσεις βάσει κύκλου καθώς και τα κουπόνια που δεν έχουν λήξει και είναι αποθηκευμένα στον λογαριασμό σας."
+      ],
+      "Total email addresses": [
+        "Σύνολο διευθύνσεων ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Total storage": [
+        "Συνολικός αποθηκευτικός χώρος"
+      ],
+      "Total supported domains": [
+        "Σύνολο υποστηριζόμενων τομέων"
+      ],
+      "Total VPN connections": [
+        "Σύνολο συνδέσεων VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Μέχρι και ${ FAMILY_MAX_USERS } χρήστες"
       ]
     },
     "info": {
@@ -6739,6 +6851,12 @@
       ],
       "Your password (admin)": [
         "Ο κωδικός σας (διαχειριστής)"
+      ],
+      "Confirm password": [
+        "Επιβεβαίωση κωδικού πρόσβασης"
+      ],
+      "New password": [
+        "Νέος κωδικός"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6965,6 +7083,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Πρέπει να επανενεργοποιήσετε τα κλειδιά σας για να δείτε την ενημερωμένη πρόσκληση"
+      ],
+      "Set up email forwarding": [
+        "Ρύθμιση προώθησης μηνυμάτων ηλεκτρονικού ταχυδρομείου"
       ]
     },
     "Link to calendar event": {
@@ -7331,6 +7452,9 @@
       ],
       "Senders blocked": [
         "Οι αποστολείς αποκλείστηκαν"
+      ],
+      "Link copied to clipboard": [
+        "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο"
       ]
     },
     "Oauth instructions": {
@@ -7567,6 +7691,12 @@
       ],
       "Type text or keyword": [
         "Πληκτρολόγηση κειμένου ή λέξης-κλειδιού"
+      ],
+      "First name": [
+        "Όνομα"
+      ],
+      "Last name": [
+        "Επώνυμο"
       ]
     },
     "Placeholder for contact group name": {
@@ -7929,6 +8059,18 @@
       ],
       "Support online privacy": [
         "Υποστήριξη ηλεκτρονικού απορρήτου"
+      ],
+      "1 user": [
+        "1 χρήστης"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -8019,6 +8161,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Τυπική τιμή ${ amount } για 30 μήνες"
+      ],
+      "${ n } month": [
+        "${ n } μήνα",
+        "${ n } μήνες"
+      ],
+      "15 months": [
+        "15 μήνες"
+      ],
+      "30 months": [
+        "30 μήνες"
       ]
     },
     "specialoffer: Title": {
@@ -8109,6 +8261,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Τώρα μπορείτε να χρονοδιαγραφήσετε την αποστολή των μηνυμάτων σας αργότερα"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Τώρα μπορείτε να προωθήσετε αυτόματα τα μηνύματα ηλεκτρονικού ταχυδρομείου σας σε οποιονδήποτε!"
       ]
     },
     "Status": {
@@ -8419,6 +8574,12 @@
       ],
       "Premium Password Manager": [
         "Premium Διαχειριστής Κωδικών Πρόσβασης"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8516,6 +8677,15 @@
       ],
       "vCard field": [
         "πεδίο vCard"
+      ],
+      "Display name": [
+        "Εμφανιζόμενο Όνομα"
+      ],
+      "First name": [
+        "Όνομα"
+      ],
+      "Last name": [
+        "Επώνυμο"
       ]
     },
     "Time": {
@@ -9105,6 +9275,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Η δωρεάν δοκιμή του Mail Plus λήγει στις ${ textDate }"
+      ],
+      "Birthday": [
+        "Γενέθλια"
+      ],
+      "Change password": [
+        "Αλλαγή κωδικού πρόσβασης"
+      ],
+      "Notes": [
+        "Σημειώσεις"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9531,6 +9710,205 @@
       ],
       "Yearly, ${ untilString }": [
         "Ετησίως, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } προσαρμοσμένος τομέας",
+        "${ domains } προσαρμοσμένοι τομείς"
+      ],
+      "${ ips } server": [
+        "${ ips } διακομιστής",
+        "${ ips } διακομιστές"
+      ],
+      "${ users } user": [
+        "${ users } χρήστης",
+        "${ users } χρήστες"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } χρήστης",
+        "${ users } χρήστες"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "χρησιμοποιήστε το βοηθό εισαγωγής Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Κρυπτογράφηση μηδενικής πρόσβασης. Ο παραλήπτης έχει απενεργοποιήσει την κρυπτογράφηση από άκρο σε άκρο στον λογαριασμό του."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Ακύρωση επαναφοράς"
+      ],
+      "Reset password": [
+        "Επαναφορά κωδικού πρόσβασης"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Η ανάκτηση λογαριασμού δεν είναι διαθέσιμη για κλειδιά διευθύνσεων παλαιού τύπου"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Πριν δοκιμάσετε την αλλαγή των κωδικών πρόσβασής σας, παρακαλούμε δημιουργήστε κλειδιά"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } ημέρα",
+        "${ timeRemaining.inDays } ημέρες"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } ώρα",
+        "${ timeRemaining.inHours } ώρες"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Το αίτημα επαναφοράς κωδικού πρόσβασης εγκρίθηκε (${ user.Email }). Έχετε ${ timeRemaining.inDays } ημέρα για να επαναφέρετε τον κωδικό πρόσβασής σας.",
+        "Το αίτημα επαναφοράς κωδικού πρόσβασης εγκρίθηκε (${ user.Email }). Έχετε ${ timeRemaining.inDays } ημέρες για να επαναφέρετε τον κωδικό πρόσβασής σας."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Το αίτημα επαναφοράς κωδικού πρόσβασης εγκρίθηκε (${ user.Email }). Έχετε ${ timeRemaining.inHours } ώρα για να επαναφέρετε τον κωδικό πρόσβασής σας.",
+        "Το αίτημα επαναφοράς κωδικού πρόσβασης εγκρίθηκε (${ user.Email }). Έχετε ${ timeRemaining.inHours } ώρες για να επαναφέρετε τον κωδικό πρόσβασής σας."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Παρακαλούμε μεταβείτε στη συνδεδεμένη συσκευή (στη συνεδρία όπου ξεκίνησε το αίτημα) για να αλλάξετε τον κωδικό πρόσβασής σας."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Αυτό το δικαίωμα λήγει σε ${ timeRemaining.inDays } ημέρα",
+        "Αυτό το δικαίωμα λήγει σε ${ timeRemaining.inDays } ημέρες"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Αυτό το δικαίωμα λήγει σε ${ timeRemaining.inHours } ώρα",
+        "Αυτό το δικαίωμα λήγει σε ${ timeRemaining.inHours } ώρες"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Τώρα μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας για τον λογαριασμό ${ boldEmail } ελεύθερα για ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Δείτε πως"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Ο κωδικός πρόσβασης αποθηκεύτηκε"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Επαναφορά κωδικού πρόσβασης"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Ακύρωση επαναφοράς κωδικού πρόσβασης"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Εισαγάγετε τον τρέχοντα κωδικό πρόσβασής σας για να ακυρώσετε τη διαδικασία επαναφοράς κωδικού πρόσβασης. Καμία άλλη αλλαγή δε θα τεθεί σε ισχύ."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Η επαναφορά κωδικού πρόσβασης ακυρώθηκε"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Ακύρωση επαναφοράς κωδικού πρόσβασης;"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Το αίτημα επαναφοράς κωδικού πρόσβασης ακυρώθηκε (${ user.Email }). Εάν δεν υποβάλατε αυτό το αίτημα, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "αλλάξτε τον κωδικό πρόσβασής σας τώρα"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Ακύρωση αιτήματος"
+      ],
+      "Got it": [
+        "Το κατάλαβα"
+      ],
+      "Learn more": [
+        "Μάθετε περισσότερα"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } περισσότερη ώρα",
+        "${ gracePeriodHoursRemaining } περισσότερες ώρες"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Εάν δε ζητήσατε να επαναφέρετε τον κωδικό πρόσβασής σας, ακυρώστε αυτό το αίτημα τώρα."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Ζητήθηκε επαναφορά κωδικού πρόσβασης (${ user.Email }). Μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας σε ${ hoursRemaining } ώρα.",
+        "Ζητήθηκε επαναφορά κωδικού πρόσβασης (${ user.Email }). Μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας σε ${ hoursRemaining } ώρες."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "Για να βεβαιωθούμε ότι προσπαθείτε πραγματικά να επαναφέρετε τον κωδικό πρόσβασής σας, περιμένουμε 72 ώρες πριν εγκρίνουμε τα αιτήματα. Μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας σε ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Λάβαμε ένα αίτημα επαναφοράς κωδικού πρόσβασης για το ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Προβολή αίτησης"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Ζητήθηκε επαναφορά κωδικού πρόσβασης"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Αποσύνδεση"
+      ],
+      "Stay signed in": [
+        "Παραμείνετε συνδεδεμένος"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } ώρα",
+        "${ gracePeriodHoursRemaining } ώρες"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } είναι τώρα διαθέσιμο."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Εάν αποσυνδεθείτε πριν επαναφέρετε τον κωδικό πρόσβασής σας, ενδέχεται να χάσετε την πρόσβαση στον λογαριασμό σας."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Εάν αποσυνδεθείτε χωρίς να επαναφέρετε τον κωδικό πρόσβασής σας, ενδέχεται να χάσετε την πρόσβαση στον λογαριασμό σας."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Θα μπορείτε να επαναφέρετε τον κωδικό πρόσβασής σας στο ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Επαναφορά κωδικού πρόσβασης"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Αποσύνδεση χωρίς επαναφορά κωδικού πρόσβασης;"
       ]
     }
   }

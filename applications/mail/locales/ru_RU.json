@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Add birthday": [
+        "Добавить день рождения"
+      ],
+      "Add note": [
+        "Добавить заметку"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "В группе может быть не больше ${ maxContacts } контакта",
+        "В группе может быть не больше ${ maxContacts } контактов",
+        "В группе может быть не больше ${ maxContacts } контактов",
+        "В группе может быть не больше ${ maxContacts } контактов"
+      ],
+      "Don't know your password?": [
+        "Не знаете свой пароль?"
+      ],
+      "Ok": [
+        "OK"
+      ],
+      "See how": [
+        "Посмотреть, как"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контакта",
+        "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
+        "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
+        "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов"
       ]
     },
     "action": {
@@ -1991,6 +2018,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Отображаемое имя"
+      ],
+      "Enter a display name or nickname": [
+        "Введите отображаемое имя или псевдоним"
+      ],
+      "First name": [
+        "Имя"
+      ],
+      "Last name": [
+        "Фамилия"
       ]
     },
     "Contact type label": {
@@ -3508,6 +3547,24 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Ваш поиск дал слишком много результатов. Пожалуйста, ограничьте поиск и повторите попытку."
+      ],
+      "First name is too long": [
+        "Имя слишком длинное"
+      ],
+      "Incorrect username": [
+        "Некорректное имя пользователя"
+      ],
+      "Last name is too long": [
+        "Фамилия слишком длинная"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Пожалуйста, укажите имя, фамилию или отображаемое имя"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Нельзя отправить письмо более чем ${ maxContacts } получателю",
+        "Нельзя отправить письмо более чем ${ maxContacts } получателям",
+        "Нельзя отправить письмо более чем ${ maxContacts } получателям",
+        "Нельзя отправить письмо более чем ${ maxContacts } получателям"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -4256,6 +4313,15 @@
       ],
       "You've unlocked 1 GB": [
         "Вы разблокировали 1 ГБ"
+      ],
+      "${ MAIL_APP_NAME } app": [
+        "приложение ${ MAIL_APP_NAME }"
+      ],
+      "Change ${ strongText } to your ${ BRAND_NAME } address": [
+        "Измените ${ strongText } на ваш адрес ${ BRAND_NAME }."
+      ],
+      "This feature is currently unavailable": [
+        "Эта функция временно недоступна"
       ]
     },
     "Gmail forwarding": {
@@ -4783,10 +4849,10 @@
         "${ selectedCalendarsTotal } из ${ providerCalendars.length } календарей"
       ],
       "${ selectedContactsLength }/${ contactsLength } contact selected": [
-        "Выбран ${ selectedContactsLength } контакт из ${ contactsLength }",
-        "Выбрано ${ selectedContactsLength } контакта из ${ contactsLength }",
-        "Выбрано ${ selectedContactsLength } контактов из ${ contactsLength }",
-        "Выбрано ${ selectedContactsLength } контакта из ${ contactsLength }"
+        "Выбраны контакты: ${ selectedContactsLength } из ${ contactsLength }",
+        "Выбраны контакты: ${ selectedContactsLength } из ${ contactsLength }",
+        "Выбраны контакты: ${ selectedContactsLength } из ${ contactsLength }",
+        "Выбраны контакты: ${ selectedContactsLength } из ${ contactsLength }"
       ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } папка выбрана",
@@ -6170,6 +6236,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "Технология шифрования ${ BRAND_NAME } означает, что никто не сможет получить доступ к вашему паролю, даже мы."
+      ],
+      "${ storage } storage": [
+        "${ storage } хранилища"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Стоимость указана с учетом всех применимых циклических скидок и не истекших купонов, сохраненных в вашем аккаунте."
+      ],
+      "Total email addresses": [
+        "Всего адресов электронной почты"
+      ],
+      "Total storage": [
+        "Общий объем хранилища"
+      ],
+      "Total supported domains": [
+        "Всего поддерживаемых доменов"
+      ],
+      "Total VPN connections": [
+        "Всего подключений к VPN"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "До ${ FAMILY_MAX_USERS } пользователей"
       ]
     },
     "info": {
@@ -6900,6 +6990,12 @@
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
+      ],
+      "Confirm password": [
+        "Подтвердить пароль"
+      ],
+      "New password": [
+        "Новый пароль"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7126,6 +7222,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Вам нужно повторно активировать ключи, чтобы увидеть обновленное приглашение"
+      ],
+      "Set up email forwarding": [
+        "Настройка пересылки писем"
       ]
     },
     "Link to calendar event": {
@@ -7744,6 +7843,12 @@
       ],
       "Type text or keyword": [
         "Введите текст или ключевое слово"
+      ],
+      "First name": [
+        "Имя"
+      ],
+      "Last name": [
+        "Фамилия"
       ]
     },
     "Placeholder for contact group name": {
@@ -8318,6 +8423,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Теперь вы можете запланировать отправку сообщений на более позднее время"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Теперь вы можете автоматически пересылать свои письма кому угодно!"
       ]
     },
     "Status": {
@@ -8773,6 +8881,15 @@
       ],
       "vCard field": [
         "Поле vCard-файла"
+      ],
+      "Display name": [
+        "Отображаемое имя"
+      ],
+      "First name": [
+        "Имя"
+      ],
+      "Last name": [
+        "Фамилия"
       ]
     },
     "Time": {
@@ -9396,6 +9513,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Birthday": [
+        "День рождения"
+      ],
+      "Change password": [
+        "Изменить пароль"
+      ],
+      "Notes": [
+        "Заметки"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9590,6 +9716,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ваш бесплатный пробный период заканчивается ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Вы уверены, что хотите безвозвратно удалить эти группы контактов?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9887,6 +10016,233 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ users } user": [
+        "${ users } пользователь",
+        "${ users } пользователя",
+        "${ users } пользователей",
+        "${ users } пользователей"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus и ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } хранилища"
+      ],
+      "1 user": [
+        "1 пользователь"
+      ],
+      "3 TB": [
+        "3 ТБ"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Свыше 3000 серверов более чем в 65 странах"
+      ],
+      "6 users": [
+        "6 пользователей"
+      ],
+      "Access content worldwide": [
+        "Доступ к контенту по всему миру"
+      ],
+      "Ad-blocker and malware protection": [
+        "Блокировщик рекламы и защита от вредоносных программ"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Все платные функции ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Подробная история версий"
+      ],
+      "High speed streaming": [
+        "Высокоскоростной стриминг"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Платная версия ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Платные версии ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Платная версия ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Платная версия менеджера паролей"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Скидки рассчитываются исходя из стандартной платы за месяц."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Подписка автоматически продлится на обычный срок по стандартной цене с учетом скидки в конце платёжного цикла."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Гарантия возврата средств в течение 30 дней"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Сохраняйте конфиденциальность в Интернете и получайте доступ к заблокированному контенту. Мы предлагаем свыше 3000 серверов более чем в 65 странах, высокую скорость VPN-подключения, доступ к стриминговым платформам со всего мира, защиту от вирусов, блокировщик рекламы, быстрое скачивание через BitTorrent и многое другое."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Получайте доступ к стриминговым сервисам, включая Netflix, Disney+, Prime Video и другие, из любой точки мира."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Обходите локальные блокировки Интернета и цензуру с помощью нашей глобальной сети серверов."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Включает поддержку 1 пользовательского домена, 10 адресов электронной почты, 10 алиасов hide-my-email, совместный доступ к календарю и другие преимущества."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адрес электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адреса электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адресов электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества.",
+        "Включает поддержку трех пользовательских доменов, ${ addresses } адресов электронной почты, неограниченного числа алиасов hide-my-email, совместный доступ к календарю и другие преимущества."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Защитите свои материалы при помощи зашифрованного облачного хранилища. Вам будут доступны история версий, зашифрованный обмен файлами и многое другое."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Защитите переписку и данные в календаре сквозным шифрованием. Вам также будут доступны такие преимущества, как собственные домены, 15 адресов электронной почты, неограниченное количество псевдонимов hide-my-email, совместный доступ к календарю и не только."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Защитите свои материалы при помощи зашифрованного облачного хранилища. Вам будут доступны история версий, зашифрованный обмен файлами и многое другое."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Специально разработанная функция NetShield защищает ваше устройство и ускоряет загрузку страниц, блокируя рекламу, трекеры и вредоносные программы."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Объём хранилища распределяется между всеми приложениями ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Храните до 200 версий каждого файла сроком до 10 лет."
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } пользователь",
+        "${ users } пользователя",
+        "${ users } пользователей",
+        "${ users } пользователей"
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Приглашение можно отправить не более чем ${ maxAttendees } участнику",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Отменить сброс"
+      ],
+      "Reset password": [
+        "Сбросить пароль"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } день",
+        "${ timeRemaining.inDays } дня",
+        "${ timeRemaining.inDays } дней",
+        "${ timeRemaining.inDays } дня"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } час",
+        "${ timeRemaining.inHours } часа",
+        "${ timeRemaining.inHours } часов",
+        "${ timeRemaining.inHours } часа"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inDays } день, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inDays } дня, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inDays } дней, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inDays } дня, чтобы сбросить свой пароль."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inHours } час, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inHours } часа, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inHours } часов, чтобы сбросить свой пароль.",
+        "Запрос на сброс пароля одобрен (${ user.Email }). У вас есть ${ timeRemaining.inHours } часа, чтобы сбросить свой пароль."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Это разрешение истекает в течение ${ timeRemaining.inDays } дня",
+        "Это разрешение истекает в течение ${ timeRemaining.inDays } дней",
+        "Это разрешение истекает в течение ${ timeRemaining.inDays } дней",
+        "Это разрешение истекает в течение ${ timeRemaining.inDays } дней"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Это разрешение истекает в течение ${ timeRemaining.inHours } часа",
+        "Это разрешение истекает в течение ${ timeRemaining.inHours } часов",
+        "Это разрешение истекает в течение ${ timeRemaining.inHours } часов",
+        "Это разрешение истекает в течение ${ timeRemaining.inHours } часов"
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Посмотреть, как"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Отменить сброс пароля"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Отменить сброс пароля?"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Отменить запрос"
+      ],
+      "Got it": [
+        "Понятно"
+      ],
+      "Learn more": [
+        "Подробнее"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "ещё ${ gracePeriodHoursRemaining } час",
+        "ещё ${ gracePeriodHoursRemaining } часа",
+        "ещё ${ gracePeriodHoursRemaining } часов",
+        "ещё ${ gracePeriodHoursRemaining } часа"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Если вы не просили сбросить пароль, отмените этот запрос сейчас."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Запрошен сброс пароля (${ user.Email }). Вы можете изменить свой пароль в течение ${ hoursRemaining } часа.",
+        "Запрошен сброс пароля (${ user.Email }). Вы можете изменить свой пароль в течение ${ hoursRemaining } часов.",
+        "Запрошен сброс пароля (${ user.Email }). Вы можете изменить свой пароль в течение ${ hoursRemaining } часов.",
+        "Запрошен сброс пароля (${ user.Email }). Вы можете изменить свой пароль в течение ${ hoursRemaining } часов."
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Мы получили запрос на сброс пароля для ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Посмотреть запрос"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } час",
+        "${ gracePeriodHoursRemaining } часа",
+        "${ gracePeriodHoursRemaining } часов",
+        "${ gracePeriodHoursRemaining } часа"
       ]
     }
   }

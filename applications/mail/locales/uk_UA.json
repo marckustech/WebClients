@@ -899,7 +899,7 @@
         "Встановити"
       ],
       "Set ${ MAIL_APP_NAME } as default email application": [
-        "Встановити ${ MAIL_APP_NAME } як типову поштову програму"
+        "Встановити ${ MAIL_APP_NAME } типовою програмою для електронної пошти"
       ],
       "Set as default": [
         "Встановити типовим"
@@ -992,7 +992,7 @@
         "Залишитися"
       ],
       "Strikethrough": [
-        "Закреслення"
+        "Закреслений"
       ],
       "Submit": [
         "Відправити"
@@ -1016,7 +1016,7 @@
         "Відкрити контакти"
       ],
       "Toggle settings": [
-        "Перемикання налаштувань"
+        "Перемкнути налаштування"
       ],
       "Tomorrow": [
         "Завтра"
@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Add birthday": [
+        "Додати день народження"
+      ],
+      "Add note": [
+        "Додати нотатку"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "До групи можна додати не більше ${ maxContacts } контакту",
+        "До групи можна додати не більше ${ maxContacts } контактів",
+        "До групи можна додати не більше ${ maxContacts } контактів",
+        "До групи можна додати не більше ${ maxContacts } контактів"
+      ],
+      "Don't know your password?": [
+        "Не знаєте свій пароль?"
+      ],
+      "Ok": [
+        "Гаразд"
+      ],
+      "See how": [
+        "Подивитись як"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контакт",
+        "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контакти",
+        "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контактів",
+        "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контактів"
       ]
     },
     "action": {
@@ -1629,6 +1656,9 @@
       ],
       "Your email address is not in the participants list": [
         "Ваша адреса електронної пошти відсутня в переліку учасників"
+      ],
+      "Your email address is not in the original participants list.": [
+        "Ваша адреса електронної пошти відсутня в переліку учасників."
       ]
     },
     "Calendar widget banner": {
@@ -1991,6 +2021,18 @@
       ],
       "URL": [
         "URL-адреса"
+      ],
+      "Display name": [
+        "Ім'я"
+      ],
+      "Enter a display name or nickname": [
+        "Введіть ім'я або псевдонім"
+      ],
+      "First name": [
+        "Ім'я"
+      ],
+      "Last name": [
+        "Прізвище"
       ]
     },
     "Contact type label": {
@@ -3096,7 +3138,7 @@
         "${ error.message } для <${ email }>. Щоб розв'язати проблему, можете додати інший ключ або вимкнути шифрування для цього контакту."
       ],
       "${ errorMessage }. You can also check our ${ statusPageLink }": [
-        "${ errorMessage }. Ви також можете перевірити наші ${ statusPageLink }"
+        "${ errorMessage }. Ви також можете перевірити нашу ${ statusPageLink }"
       ],
       "A group with this name already exists": [
         "Група з такою назвою вже існує"
@@ -3393,7 +3435,7 @@
         "Перепрошуємо, але ${ BRAND_NAME } не може розшифрувати ваше повідомлення. Переконайтеся, що всі ваші ключі активні."
       ],
       "status page": [
-        "сторінка стану"
+        "сторінку стану"
       ],
       "The attachment could not be decrypted.\nIf you have the corresponding private key, you will still be able to decrypt\nthe file with a program such as GnuPG.": [
         "Не вдалося розшифрувати вкладення.\nЯкщо у вас є відповідний приватний ключ, ви зможете розшифрувати\nфайл за допомогою програми, наприклад, GnuPG.",
@@ -3489,7 +3531,7 @@
         "Ви не надали файл."
       ],
       "You have reached the contacts limit for your account": [
-        "Ви досягли максимальної кількості контактів для Вашого облікового запису"
+        "Ви досягли максимальної кількості контактів для облікового запису"
       ],
       "You have reached the maximum number of calendars. Some calendars couldn't be imported.": [
         "Ви досягли максимальної кількості календарів. Деякі календарі не можна імпортувати."
@@ -3508,6 +3550,24 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "За вашим пошуковим запитом знайдено надто багато результатів. Обмежте пошуковий запит і спробуйте знову."
+      ],
+      "First name is too long": [
+        "Ім'я занадто довге"
+      ],
+      "Incorrect username": [
+        "Неправильне ім'я користувача"
+      ],
+      "Last name is too long": [
+        "Прізвище занадто довге"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Введіть ім'я, прізвище або псевдонім"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "Ви можете надіслати лист щонайбільше ${ maxContacts } отримувачу",
+        "Ви можете надіслати лист щонайбільше ${ maxContacts } отримувачам",
+        "Ви можете надіслати лист щонайбільше ${ maxContacts } отримувачам",
+        "Ви можете надіслати лист щонайбільше ${ maxContacts } отримувачам"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -4171,7 +4231,7 @@
         "${ MAIL_APP_NAME } у Play Маркеті"
       ],
       "account logins": [
-        "облікові записи"
+        "імена користувачів"
       ],
       "Auto-forward Gmail": [
         "Автопересилання Gmail"
@@ -4180,16 +4240,16 @@
         "автопересилання"
       ],
       "Block email communications from scammers permanently.": [
-        "Блокуйте електронні листи від шахраїв постійно."
+        "Остаточно заблокуйте електронні листи від шахраїв."
       ],
       "Block unsavory senders": [
         "Блокувати небажаних відправників"
       ],
       "Bravo for making your email even more secure, convenient, and relevant! We've upped your free storage to a total of 1 GB.": [
-        "Браво! Ми за те, що ваша електронна пошта стала ще безпечнішою, зручнішою та актуальнішою! Ми збільшили ваш безплатний обсяг пам'яті до 1 ГБ."
+        "Браво! Ви зробили свою електронну пошту ще безпечнішою, зручнішою та актуальнішою! Ми збільшили безплатний обсяг вашого сховища до 1 ГБ."
       ],
       "Change ${ strongText } to your ${ BRAND_NAME } address": [
-        "Змініть ${ strongText } на адресу ${ BRAND_NAME }"
+        "Змініть ${ strongText } на свою адресу ${ BRAND_NAME }"
       ],
       "Changed accounts": [
         "Змінено обліковий запис"
@@ -4204,25 +4264,25 @@
         "Вітаємо, ви виконали всі кроки!"
       ],
       "Congratulation, you finished!": [
-        "Вітаємо, ви закінчили!"
+        "Вітаємо, ви впоралися!"
       ],
       "Continue setting up your email": [
         "Продовжити налаштування електронної пошти"
       ],
       "Discover how our ${ strongText } protect you": [
-        "Дізнайтеся, як наш ${ strongText } захищає вас"
+        "Дізнайтеся, як наші ${ strongText } захищають вас"
       ],
       "Discover privacy features": [
         "Відкрийте для себе функції приватності"
       ],
       "Double your free storage to 1 GB when you complete the following:": [
-        "Подвоїть обсяг безплатного сховища до 1 ГБ, виконавши наведені нижче дії:"
+        "Збільште безплатний обсяг сховища до 1 ГБ, виконавши наведені нижче дії:"
       ],
       "Encryption so strong, only you and intended recipients can view your emails.": [
-        "Шифрування настільки надійне, що лише ви та очікувані одержувачі можете переглядати ваші електронні листи."
+        "Шифрування настільки надійне, що ніхто крім вас і ваших отримувачів не зможе переглядати ваші листи."
       ],
       "For your eyes only": [
-        "Тільки для ваших очей"
+        "Ніхто крім вас"
       ],
       "Get the ${ MAIL_APP_NAME } mobile app": [
         "Отримайте програму ${ MAIL_APP_NAME } для мобільного пристрою"
@@ -4234,7 +4294,7 @@
         "Отримати програму"
       ],
       "Keep using ${ MAIL_APP_NAME } to discover more ways ${ BRAND_NAME } protects your privacy and simplifies emailing.": [
-        "Продовжуйте використовувати ${ MAIL_APP_NAME }, щоб дізнатися більше про те, як ${ BRAND_NAME } захищає вашу конфіденційність та спрощує надсилання листів."
+        "Користуйтеся ${ MAIL_APP_NAME }, щоб дізнатися більше про те, як ${ BRAND_NAME } захищає вашу приватність і спрощує роботу з електронною поштою."
       ],
       "Learn more": [
         "Докладніше"
@@ -4258,13 +4318,13 @@
         "функції приватності"
       ],
       "Protect and simplify your email": [
-        "Захист та спрощення електронної пошти"
+        "Захистіть свою електронну пошту і спростіть роботу"
       ],
       "Protection from trackers": [
         "Захист від стеження"
       ],
       "Set up ${ strongText } from Gmail": [
-        "Налаштуйте ${ strongText } із Gmail"
+        "Налаштуйте ${ strongText } з Gmail"
       ],
       "Sign in to the mobile app to complete this step": [
         "Виконайте вхід у програмі для мобільного пристрою, щоб завершити цей крок"
@@ -4276,13 +4336,16 @@
         "Оновіть свої записи входу"
       ],
       "Using your mobile device, scan this QR code or visit the iOS or Android store.": [
-        "За допомогою мобільного пристрою проскануйте цей QR-код або відвідайте магазин iOS чи Android."
+        "Скануйте цей QR-код за допомогою мобільного пристрою, або відвідайте магазин iOS чи Android."
       ],
       "We stop advertisers and data collectors from profiling you.": [
-        "Ми не дозволяємо рекламодавцям і збирачам даних формулювати ваш профіль."
+        "Ми не дозволяємо рекламодавцям і збирачам даних формувати ваш профіль."
       ],
       "You've unlocked 1 GB": [
         "Ви розблокували 1 ГБ"
+      ],
+      "This feature is currently unavailable": [
+        "Ця функція наразі недоступна"
       ]
     },
     "Gmail forwarding": {
@@ -4810,10 +4873,10 @@
         "${ selectedCalendarsTotal } з ${ providerCalendars.length } календарі"
       ],
       "${ selectedContactsLength }/${ contactsLength } contact selected": [
-        "${ selectedContactsLength }/${ contactsLength } контакту вибрано",
-        "${ selectedContactsLength }/${ contactsLength } контактів вибрано",
-        "${ selectedContactsLength }/${ contactsLength } контактів вибрано",
-        "${ selectedContactsLength }/${ contactsLength } контактів вибрано"
+        "Вибрано ${ selectedContactsLength } контакт із ${ contactsLength }",
+        "Вибрано ${ selectedContactsLength } контакти з ${ contactsLength }",
+        "Вибрано ${ selectedContactsLength } контактів з ${ contactsLength }",
+        "Вибрано ${ selectedContactsLength } контактів з ${ contactsLength }"
       ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } вибрана тека",
@@ -4984,10 +5047,10 @@
         "Ви справді хочете відхилити зміни?"
       ],
       "Are you sure you want to discard your import?": [
-        "Ви впевнені, що хочете відмовитися від імпорту?"
+        "Ви дійсно хочете відхилити імпортування?"
       ],
       "Are you sure you want to move all messages in this location to Archive?": [
-        "Ви впевнені, що хочете перемістити всі повідомлення в цьому місці в Архів?"
+        "Ви справді хочете перемістити всі повідомлення з цього розташування до архіву?"
       ],
       "Are you sure you want to move all messages in this location to Trash?": [
         "Ви справді хочете перемістити всі повідомлення з цього розташування до смітника?"
@@ -5350,7 +5413,7 @@
         "Імпортування ваших даних із ${ importedEmailAddress } до ${ toEmail }."
       ],
       "Include Spam/Trash in your search results.": [
-        "Включити Спам/Смітник до результатів пошуку."
+        "Показувати в результатах пошуку повідомлення зі спаму та смітника."
       ],
       "Inherited from parent folder": [
         "Успадковано від теки вищого рівня"
@@ -5371,7 +5434,7 @@
         "З'єднання з інтернетом відновлено."
       ],
       "Join ${ PROTON_SENTINEL_NAME } program for the highest level of account security and support.": [
-        "Приєднуйтесь до програми ${ PROTON_SENTINEL_NAME } для отримання найвищого рівня безпеки та підтримки облікових записів."
+        "Приєднуйтесь до програми ${ PROTON_SENTINEL_NAME } для отримання найвищого рівня безпеки облікового запису та підтримки."
       ],
       "Just confirm your selection and we'll do the rest.": [
         "Просто підтвердьте свій вибір, а ми зробимо решту."
@@ -5527,7 +5590,7 @@
         "Власник одного або кількох ваших довірених ключів позначив їх \"скомпрометованими\". Ми радимо вам \"скасувати довіру\" для цих ключів."
       ],
       "Open shortcut cheat sheet": [
-        "Відкрити командну панель комбінацією клавіш"
+        "Відкрити довідку з комбінацій клавіш"
       ],
       "Our system flagged this message as a phishing attempt. Please check that it is legitimate.": [
         "Наша система позначила це повідомлення спробою шахрайства. Переконайтеся, що воно надійне."
@@ -5560,7 +5623,7 @@
         "Зверніть увагу, що цей процес може тривати деякий час, залежно від розміру вашої адресної книги."
       ],
       "Please provide a name and an email address for creating a group.": [
-        "Будь ласка, вкажіть ім'я та адресу пошти для створення групи."
+        "Щоб створити групу, вкажіть ім'я та адресу електронної пошти."
       ],
       "Please select the folders you would like to import:": [
         "Оберіть теки, які ви бажаєте імпортувати:"
@@ -5911,7 +5974,7 @@
         "Спробуйте нові функції, оновлення та продукти ${ BRAND_NAME } до того, як вони будуть випущені для широкого загалу. Це призведе до перезапуску програми"
       ],
       "Turn off to only search by date, name, email address, or subject line. To disable search message content and delete downloaded messages, go to settings.": [
-        "Вимкніть, щоб шукати лише за датою, іменем, адресою електронної пошти або темою повідомлення. Щоб вимкнути пошук вмісту повідомлень і видалення завантажених повідомлень, перейдіть до налаштувань."
+        "Вимкніть, щоб шукати лише за датою, іменем, адресою електронної пошти або темою повідомлення. Щоб вимкнути пошук вмісту повідомлень і видалити завантажені повідомлення, перейдіть до налаштувань."
       ],
       "Turn on to search the content of your messages": [
         "Увімкніть, щоб шукати вміст своїх повідомлень"
@@ -6197,6 +6260,33 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "Технологія шифрування ${ BRAND_NAME } гарантує неможливість доступу до вашого пароля, навіть для нас."
+      ],
+      "${ storage } storage": [
+        "${ storage } сховища"
+      ],
+      "Please note that addresses assigned to these groups will NOT be deleted.": [
+        "Зауважте, що адреси, призначені цим групам, НЕ будуть видалені."
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Ціна включає усі повторювані знижки та чинні купони вашого облікового запису."
+      ],
+      "Total email addresses": [
+        "Усього адрес електронної пошти"
+      ],
+      "Total storage": [
+        "Усього сховища"
+      ],
+      "Total supported domains": [
+        "Усього підтримуваних доменів"
+      ],
+      "Total VPN connections": [
+        "Усього VPN-з'єднань"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "До ${ FAMILY_MAX_USERS } користувачів"
       ]
     },
     "info": {
@@ -6521,7 +6611,7 @@
         "Прихована копія"
       ],
       "Beta Access": [
-        "Бета доступ"
+        "Бета-доступ"
       ],
       "Blind Carbon Copy": [
         "Прихована копія"
@@ -6927,6 +7017,12 @@
       ],
       "Your password (admin)": [
         "Новий пароль (адмін)"
+      ],
+      "Confirm password": [
+        "Підтвердити пароль"
+      ],
+      "New password": [
+        "Новий пароль"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7590,7 +7686,7 @@
     },
     "Online accounts": {
       "Have an account with one of these services? Just click to change the email address to your ${ MAIL_APP_NAME } address.": [
-        "Маєте обліковий запис в одному з цих сервісів? Просто натисніть, щоб змінити електронну адресу на адресу ${ MAIL_APP_NAME }."
+        "Маєте обліковий запис в одному з цих сервісів? Просто натисніть, щоб змінити на адресу електронної пошти ${ MAIL_APP_NAME }."
       ]
     },
     "Online Accounts Name": {
@@ -7771,6 +7867,12 @@
       ],
       "Type text or keyword": [
         "Введіть текст чи ключове слово"
+      ],
+      "First name": [
+        "Ім'я"
+      ],
+      "Last name": [
+        "Прізвище"
       ]
     },
     "Placeholder for contact group name": {
@@ -8717,37 +8819,37 @@
     },
     "summer2023: Tooltip": {
       "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
-        "Створюйте захищені дані для входу на всіх своїх пристроях. Включає необмежену кількість псевдонімів, 20 сховищ, інтегровану 2FA, автоматичне заповнення кредитної картки тощо."
+        "Створюйте надійні дані для входу на всіх своїх пристроях з необмеженою кількістю псевдонімів, 20 сховищами, інтегрованою 2FA, автозаповненням кредитних карток та іншими можливостями."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
         "Включає понад 2950 серверів у більш ніж 65 країнах, під'єднання до 10 пристроїв, доступ до світових сервісів потокової трансляції, блокування зловмисних програм і реклами та багато інших можливостей."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Включає підтримку 1 власного домену електронної пошти, 10 адрес електронної пошти, 10 псевдонімів hide-my-email, спільний доступ до календаря тощо."
+        "Включає підтримку 1 власного домену, 10 адрес електронної пошти, 10 псевдонімів hide-my-email, спільний доступ до календаря та інші можливості."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Захистіть свої файли за допомогою зашифрованого хмарного сховища. Включає історію версій, спільний доступ до зашифрованих файлів тощо."
+        "Безпечно зберігайте свої файли у зашифрованому хмарному сховищі з історією версій, спільним доступом та іншими можливостями."
       ]
     },
     "summer2023:Footer": {
       "*Your subscription will automatically renew at the standard discounted rate at the end of your billing cycle.": [
-        "*Ваша підписка буде автоматично поновлюватися за стандартною зниженою ставкою в кінці вашого розрахункового циклу."
+        "*Ваша передплата автоматично поновиться за стандартною ціною з врахуванням знижки в кінці платіжного циклу."
       ],
       "Discounts are based on the standard monthly pricing. This offer is only available to first-time subscribers.": [
-        "Знижки розраховуються на основі стандартної місячної ціни. Ця пропозиція доступна лише тим, хто підписався вперше."
+        "Знижки розраховуються на основі стандартної місячної ціни. Ця пропозиція доступна лише новим передплатникам."
       ]
     },
     "summer2023:Info": {
       "For a limited time, get the best ${ BRAND_NAME } has to offer at an exclusive discount.": [
-        "Протягом обмеженого часу отримуйте найліпші пропозиції від ${ BRAND_NAME } з ексклюзивною знижкою."
+        "Протягом обмеженого часу отримайте найкраще від ${ BRAND_NAME } з ексклюзивною знижкою."
       ],
       "We’re celebrating the nine-year anniversary of our crowdfunding!": [
-        "Ми святкуємо дев'ятирічну річницю нашого краудфандингу!"
+        "Ми святкуємо дев'яту річницю нашого краудфандингу!"
       ]
     },
     "summer2023:Offer title": {
       "${ BRAND_NAME } Anniversary Sale": [
-        "${ BRAND_NAME } Святковий розпродаж"
+        "Святковий розпродаж ${ BRAND_NAME }"
       ]
     },
     "Table header": {
@@ -8800,6 +8902,15 @@
       ],
       "vCard field": [
         "Поле vCard"
+      ],
+      "Display name": [
+        "Ім'я"
+      ],
+      "First name": [
+        "Ім'я"
+      ],
+      "Last name": [
+        "Прізвище"
       ]
     },
     "Time": {
@@ -9188,7 +9299,7 @@
         "Інші варіанти вибору"
       ],
       "Move all messages to Archive": [
-        "Перемістити всі повідомлення до Архіву"
+        "Перемістити всі повідомлення до архіву"
       ],
       "Move all messages to Trash": [
         "Перемістити всі повідомлення до смітника"
@@ -9423,6 +9534,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Birthday": [
+        "День народження"
+      ],
+      "Change password": [
+        "Змінити пароль"
+      ],
+      "Notes": [
+        "Нотатки"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9617,6 +9737,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Час безплатної пробної версії завершиться ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to permanently delete these contact groups?": [
+        "Ви дійсно бажаєте остаточно видалити ці групи контактів?"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9914,6 +10037,76 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } власний домен",
+        "${ domains } власні домени",
+        "${ domains } власних доменів",
+        "${ domains } власних доменів"
+      ],
+      "${ ips } server": [
+        "${ ips } сервер",
+        "${ ips } сервери",
+        "${ ips } серверів",
+        "${ ips } серверів"
+      ],
+      "${ users } user": [
+        "${ users } користувач",
+        "${ users } користувачі",
+        "${ users } користувачів",
+        "${ users } користувачів"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } користувач",
+        "${ users } користувачі",
+        "${ users } користувачів",
+        "${ users } користувача"
+      ]
+    },
+    "Error adding participants to a calendar event": {
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "До запрошення можна додати не більше ${ maxAttendees } учасника",
+        "До запрошення можна додати не більше ${ maxAttendees } учасників",
+        "До запрошення можна додати не більше ${ maxAttendees } учасників",
+        "До запрошення можна додати не більше ${ maxAttendees } учасників"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Reset password": [
+        "Скинути пароль"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Пароль збережено"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Скасувати запит"
+      ],
+      "Got it": [
+        "Зрозуміло"
+      ],
+      "Learn more": [
+        "Докладніше"
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Переглянути запит"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Вийти"
+      ],
+      "Stay signed in": [
+        "Залишатися в системі"
       ]
     }
   }

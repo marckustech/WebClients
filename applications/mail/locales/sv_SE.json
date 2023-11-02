@@ -1152,6 +1152,33 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Add birthday": [
+        "Lägg till födelsedag"
+      ],
+      "Add note": [
+        "Lägg till anteckning"
+      ],
+      "Close the checklist": [
+        "Stäng checklistan"
+      ],
+      "Continue with Outlook": [
+        "Fortsätt med Outlook"
+      ],
+      "Don't know your password?": [
+        "Vet du inte ditt lösenord?"
+      ],
+      "Import from Google": [
+        "Importera från Google"
+      ],
+      "Import from Outlook": [
+        "Importera från Outlook"
+      ],
+      "Ok": [
+        "Ok"
+      ],
+      "See how": [
+        "Se hur"
       ]
     },
     "action": {
@@ -1629,6 +1656,12 @@
       ],
       "Your email address is not in the participants list": [
         "Din e-postadress finns inte i deltagarlistan"
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "Du kan inte svara på ${ BRAND_NAME }-inbjudningar om du inte finns med på deltagarlistan just nu."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Din e-postadress finns inte i den ursprungliga deltagarlistan."
       ]
     },
     "Calendar widget banner": {
@@ -1696,7 +1729,7 @@
         "maskros"
       ],
       "dark cerulean": [
-        "mörk azurblå"
+        "mörk cerulean"
       ],
       "dark midnight blue": [
         "mörk midnattsblå"
@@ -1862,7 +1895,7 @@
         "End-to-end-krypterat"
       ],
       "End-to-end encrypted to verified recipient": [
-        "End-to-end-krypterad till verifierad mottagare"
+        "End-to-end-krypterat till verifierad mottagare"
       ],
       "End-to-end encrypted. ${ warningsText }": [
         "End-to-end-krypterat. ${ warningsText }"
@@ -1991,6 +2024,18 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Visningsnamn"
+      ],
+      "Enter a display name or nickname": [
+        "Ange ett visningsnamn eller smeknamn"
+      ],
+      "First name": [
+        "Förnamn"
+      ],
+      "Last name": [
+        "Efternamn"
       ]
     },
     "Contact type label": {
@@ -2892,8 +2937,8 @@
         "Sammanfogar kontakter... Detta kan ta några minuter. När processen är slutförd kan du stänga detta fönster."
       ],
       "New emails from ${ senderEmailAddress } and ${ otherSendersCount } other won't be delivered and will be permanently deleted.": [
-        "Nya e-postmeddelanden från ${ senderEmailAddress } och ${ otherSendersCount } övrigt kommer inte att levereras och kommer att tas bort permanent.",
-        "Nya e-postmeddelanden från ${ senderEmailAddress } och ${ otherSendersCount } övriga kommer inte att levereras och kommer att tas bort permanent."
+        "Nya e-postmeddelanden från ${ senderEmailAddress } och ${ otherSendersCount } annan kommer inte att levereras och kommer att tas bort permanent.",
+        "Nya e-postmeddelanden från ${ senderEmailAddress } och ${ otherSendersCount } andra kommer inte att levereras och kommer att tas bort permanent."
       ],
       "New emails from ${ senderEmailAddress } won't be delivered and will be permanently deleted.": [
         "Nya e-postmeddelanden från ${ senderEmailAddress } kommer inte att levereras och kommer att tas bort permanent."
@@ -2940,6 +2985,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markera för att radera de kontakter som du varken slå ihop eller behålla. Radering kommer endast att ske efter att du klickat på sammanslagningsknappen"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "För import via CSV- och VCF-fil, se till att filen inte överstiger ${ MAX_IMPORT_FILE_SIZE_STRING } eller ${ MAX_IMPORT_CONTACTS_STRING } kontakter. Om din fil är större, dela upp den i mindre filer. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "För att importera dina kontakter från Google eller Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3476,6 +3527,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din sökning matchade för många resultat. Begränsa din sökning och försök igen."
+      ],
+      "First name is too long": [
+        "Förnamn är för långt"
+      ],
+      "Incorrect username": [
+        "Felaktigt användarnamn"
+      ],
+      "Last name is too long": [
+        "Efternamn är för långt"
+      ],
+      "Please provide either a first name, a last name or a display name": [
+        "Ange antingen ett förnamn, ett efternamn eller ett visningsnamn"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3805,6 +3868,15 @@
       ],
       "Up to 6 users": [
         "Upp till 6 användare"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3950,6 +4022,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3968,6 +4043,10 @@
       "Megabyte": [
         "Kilobyte",
         "Megabyte"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabyte"
       ]
     },
     "Filter": {
@@ -4248,6 +4327,9 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst upp 1 GB"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Att stänga detta innebär att du avstår från gratisbonusen för lagringsutrymme."
       ]
     },
     "Gmail forwarding": {
@@ -4421,7 +4503,7 @@
         "${ CONTACTS_APP_NAME } stöder inte ${ forNow }:"
       ],
       "for now": [
-        "för närvarande"
+        "tills vidare"
       ]
     },
     "Import error": {
@@ -4918,7 +5000,7 @@
         "Rensa data"
       ],
       "Clearing browser data also deactivates message content search on this device. All messages will need to be downloaded again to search within them.": [
-        "Vid rensning av webbläsardata så deaktiveras också sökning av meddelandeinnehåll på den här enheten. Alla meddelanden kommer att behöva laddas ned igen för att kunna söka inom dem."
+        "Genom att rensa webbläsardata inaktiverades även sökning av meddelandeinnehåll på denna enhet. Alla meddelanden måste laddas ner igen för att kunna söka i dem."
       ],
       "Clears browser data related to message content search including downloaded messages": [
         "Rensar webbläsardata relaterad till sökning av meddelandeinnehåll inklusive nedladdade meddelanden"
@@ -5579,7 +5661,7 @@
         "Text att visa"
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
-        "Applikationen måste avkryptera dina kontakter lokalt innan de kan exporteras. I slutet av processen kommer en VCF-fil att genereras som du sedan kan ladda ner."
+        "Applikationen måste dekryptera dina kontakter lokalt innan de kan exporteras. I slutet av processen kommer en VCF-fil att genereras och du kommer att kunna ladda ner den."
       ],
       "The data you have entered in the draft may not be saved if you leave the page.": [
         "De data du har angett i utkastet kanske inte sparas om du lämnar sidan."
@@ -5653,7 +5735,7 @@
         "Denna länk kan vara en homograf-attack och kan inte öppnas av Edge-webbläsaren. Om du är säker på att länken är legitim, använd en annan webbläsare för att öppna den."
       ],
       "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Denna länk kan vara en homograf-attack. Vänligen verifiera att detta är länken du vill besöka, annars öppna den ej."
+        "Denna länk kan vara en homografisk attack. Kontrollera att det är denna länk du vill besöka, eller öppna den inte."
       ],
       "This message has been adjusted to comply with a dark background.": [
         "Detta meddelande har justerats för att överensstämma med en mörk bakgrund."
@@ -5668,7 +5750,7 @@
         "Detta meddelande är signerat med en nyckel som inte är betrodd ännu."
       ],
       "This message is signed by the key attached, that has not been trusted yet.": [
-        "Detta meddelande är signerat med den bifogade nyckeln, som ännu inte är betrodd."
+        "Detta meddelande är signerat med den bifogade nyckeln som inte har blivit betrodd ännu."
       ],
       "This message will be automatically deleted on ${ longDateMEssage }": [
         "Detta meddelande kommer tas bort automatiskt den ${ longDateMEssage }"
@@ -5723,7 +5805,7 @@
         "För att importera händelser, skapa först en kalender i ${ CALENDAR_APP_NAME }. Det är här händelserna kommer att visas efter importen."
       ],
       "To re-sign your contacts, we need to check every contact against the list of encryption keys available in your account. If no match is found, your contact will be re-signed with the primary encryption key.": [
-        "För att signera om dina kontakter måste vi kontrollera varje kontakt mot listan över krypteringsnycklar som finns på ditt konto. Om ingen matchning hittas, kommer din kontakt att signeras om med den primära krypteringsnyckeln."
+        "För att signera om dina kontakter måste vi kontrollera varje kontakt mot listan över tillgängliga krypteringsnycklar på ditt konto. Om ingen matchning hittas kommer din kontakt att signeras om med den primära krypteringsnyckeln."
       ],
       "To recover your data, you need to re-activate the account key used at the time when the data was created. This will require you to remember the password used when the key was generated.": [
         "För att återställa dina data måste du återaktivera kontonyckeln som användes vid den tidpunkt då data skapades. Detta kräver att du kommer ihåg lösenordet som användes när nyckeln skapades."
@@ -5735,7 +5817,7 @@
         "För att avsluta prenumeration från denna e-postlista kommer du att tas till följande URL där instruktioner kommer att ges av avsändaren av nyhetsbrevet:"
       ],
       "To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.": [
-        "För att använda adressverifikation, måste lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar förfalskade krypteringsnycklar."
+        "För att använda adressverifiering måste du lita på en eller flera tillgängliga offentliga nycklar, inklusive den du vill använda för att skicka. Detta förhindrar krypteringsnycklarna att förfalskas."
       ],
       "Too many messages waiting to be sent. Please wait until another message has been sent to schedule this one.": [
         "Många meddelanden väntar på att skickas. Vänta tills ett annat meddelande har skickats för att schemalägga detta."
@@ -5864,7 +5946,7 @@
         "När du aktiverade betrodda nycklar för ${ senderName } lades de offentliga nycklarna till i kontaktuppgifterna."
       ],
       "When you set up two-factor authentication, we provide recovery codes which you can use to sign in if you lose access to your authenticator app.": [
-        "När du aktiverar tvåfaktors-autentisering kommer vi att erbjuda återställningskoder som du kan använda för att logga in om du förlorar åtkomst till din autentiserings-app."
+        "När du ställer in tvåfaktorsautentisering tillhandahåller vi återställningskoder som du kan använda för att logga in om du förlorar åtkomsten till din autentiseringsapp."
       ],
       "Would you like to receive a new verification code or use an alternative verification method?": [
         "Vill du få en ny verifieringskod eller använda en alternativ verifieringsmetod?"
@@ -5937,7 +6019,7 @@
         "Du har inte angett något ämne för din e-post. Vill du skicka meddelandet ändå?"
       ],
       "You have reached 100% of your storage capacity. Consider freeing up some space or upgrading your account with additional storage space to compose new messages.": [
-        "Du har nått 100% av din lagringskapacitet. Överväg att frigöra lite utrymme eller uppgradera ditt konto med ytterligare lagringsutrymme för att komponera nya meddelanden."
+        "Du har nått 100 % av din lagringskapacitet. Överväg att frigöra lite utrymme eller uppgradera ditt konto med ytterligare lagringsutrymme för att skriva nya meddelanden."
       ],
       "You have reached the maximum number of 5 replies.": [
         "Du har nått gränsen på maximalt 5 svar."
@@ -6015,6 +6097,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ditt telefonnummer kommer endast att användas för denna engångsverifiering."
+      ],
+      "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
+        "${ BRAND_NAME }s krypteringsteknologi innebär att ingen kan få åtkomst till dina lösenord - inte ens vi."
+      ],
+      "${ storage } storage": [
+        "${ storage } lagringsutrymme"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Kan du inte hitta det du letar efter? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Kopiera länken till urklipp"
+      ],
+      "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
+        "Pris inkluderar alla tillämpbara återkommande rabatter och icke-utgångna kuponger som finns lagrat på ditt konto."
+      ],
+      "Total email addresses": [
+        "Totalt antal e-postadresser"
+      ],
+      "Total storage": [
+        "Totalt lagringsutrymme"
+      ],
+      "Total supported domains": [
+        "Totalt antal domäner som stöds"
+      ],
+      "Total VPN connections": [
+        "Totalt antal VPN-anslutningar"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Upp till ${ FAMILY_MAX_USERS } användare"
       ]
     },
     "info": {
@@ -6739,6 +6851,12 @@
       ],
       "Your password (admin)": [
         "Ditt lösenord (admin)"
+      ],
+      "Confirm password": [
+        "Bekräfta lösenord"
+      ],
+      "New password": [
+        "Nytt lösenord"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6965,6 +7083,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Du måste återaktivera dina nycklar för att se den uppdaterade inbjudan"
+      ],
+      "Set up email forwarding": [
+        "Ställ in vidarebefordran av e-post"
       ]
     },
     "Link to calendar event": {
@@ -7071,7 +7192,7 @@
     },
     "Message notification": {
       "Scheduled sending undone": [
-        "Schemalagd sändning avbruten"
+        "Schemalagd sändning ångrad"
       ],
       "Scheduling canceled. Message has been moved to Drafts.": [
         "Schemaläggning avbruten. Meddelandet har flyttats till Utkast."
@@ -7331,6 +7452,9 @@
       ],
       "Senders blocked": [
         "Avsändare blockerad"
+      ],
+      "Link copied to clipboard": [
+        "Länk kopierad till urklipp"
       ]
     },
     "Oauth instructions": {
@@ -7567,6 +7691,12 @@
       ],
       "Type text or keyword": [
         "Skriv text eller nyckelord"
+      ],
+      "First name": [
+        "Förnamn"
+      ],
+      "Last name": [
+        "Efternamn"
       ]
     },
     "Placeholder for contact group name": {
@@ -7666,10 +7796,10 @@
         "PGP-signerat meddelande. Avsändarverifieringen misslyckades"
       ],
       "Sent by ${ MAIL_APP_NAME } with zero-access encryption": [
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering"
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst"
       ],
       "Stored with zero-access encryption": [
-        "Lagras med nollåtkomst-kryptering"
+        "Lagrad med kryptering med noll åtkomst"
       ]
     },
     "Remaining days before the message expire": {
@@ -7742,8 +7872,8 @@
         "Vill du skicka e-post ändå?"
       ],
       "If you decide to send the message anyway, the following recipient will receive the email without expiration:": [
-        "Om du väljer att skicka meddelandet ändå, kommer det inte att förfalla för följande mottagare:",
-        "Om du väljer att skicka meddelandet ändå, kommer det inte att förfalla för följande mottagare:"
+        "Om du bestämmer dig för att skicka meddelandet ändå kommer följande mottagare att få e-postmeddelandet utan att det löper ut:",
+        "Om du bestämmer dig för att skicka meddelandet ändå kommer följande mottagare att få e-postmeddelandet utan att det löper ut:"
       ],
       "The following address is not valid: ${ invalidAddresses }": [
         "Följande adress är inte giltig: ${ invalidAddresses }",
@@ -7773,16 +7903,16 @@
         "Krypterad av ${ MAIL_APP_NAME } till verifierad mottagare"
       ],
       "End-to-end encrypted": [
-        "End-to-end krypterad"
+        "End-to-end-krypterat"
       ],
       "End-to-end encrypted to PGP recipient": [
-        "End-to-end-krypterad till verifierad PGP-mottagare"
+        "End-to-end-krypterat till verifierad PGP-mottagare"
       ],
       "End-to-end encrypted to verified PGP recipient": [
-        "End-to-end-krypterad till verifierad PGP-mottagare"
+        "End-to-end-krypterat till verifierad PGP-mottagare"
       ],
       "End-to-end encrypted to verified recipient": [
-        "End-to-end krypterad till verifierad mottagare"
+        "End-to-end-krypterat till verifierad mottagare"
       ],
       "PGP-signed": [
         "PGP-signerad"
@@ -7791,8 +7921,8 @@
         "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering"
       ],
       "Sent by ${ MAIL_APP_NAME } with zero-access encryption to verified recipient": [
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering till verifierad mottagare",
-        "Skickat med ${ MAIL_APP_NAME } med noll-åtkomstkryptering till verifierade mottagare"
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst till verifierad mottagare",
+        "Skickat med ${ MAIL_APP_NAME } med kryptering med noll åtkomst till verifierade mottagare"
       ],
       "Sent by you with end-to-end encryption": [
         "Skickat av dig med end-to-end-kryptering"
@@ -7802,7 +7932,7 @@
         "Skickat av dig med end-to-end-kryptering till verifierade mottagare"
       ],
       "Stored with zero-access encryption": [
-        "Lagras med nollåtkomst-kryptering"
+        "Lagrad med kryptering med noll åtkomst"
       ]
     },
     "Signature verification warning": {
@@ -7929,6 +8059,18 @@
       ],
       "Support online privacy": [
         "Stöder integritet online"
+      ],
+      "1 user": [
+        "1 användare"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -8019,6 +8161,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Ordinarie pris ${ amount } för 30 månader"
+      ],
+      "${ n } month": [
+        "${ n } månad",
+        "${ n } månader"
+      ],
+      "15 months": [
+        "15 månader"
+      ],
+      "30 months": [
+        "30 månader"
       ]
     },
     "specialoffer: Title": {
@@ -8109,6 +8261,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kan nu schemalägga dina meddelanden för att skickas senare"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Du kan nu automatiskt vidarebefordra din e-post till vem som helst!"
       ]
     },
     "Status": {
@@ -8170,7 +8325,7 @@
         "${ elementsCount } konversationer markerade som lästa."
       ],
       "${ elementsCount } conversation marked as Starred.": [
-        "${ elementsCount } konversation markerad som Stjärnmärkt.",
+        "${ elementsCount } konversation markerad som stjärnmärkt.",
         "${ elementsCount } konversationer markerade som stjärnmärkta."
       ],
       "${ elementsCount } conversation marked as unread.": [
@@ -8202,7 +8357,7 @@
         "${ elementsCount } meddelanden markerade som lästa."
       ],
       "${ elementsCount } message marked as Starred.": [
-        "${ elementsCount } meddelande markerat som Stjärnmärkt.",
+        "${ elementsCount } meddelande markerat som stjärnmärkt.",
         "${ elementsCount } meddelanden markerade som stjärnmärkta."
       ],
       "${ elementsCount } message marked as unread.": [
@@ -8419,6 +8574,12 @@
       ],
       "Premium Password Manager": [
         "Premium lösenordshanterare"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "summer2023: Describe Proton Pass": {
@@ -8516,6 +8677,15 @@
       ],
       "vCard field": [
         "vCard-fält"
+      ],
+      "Display name": [
+        "Visningsnamn"
+      ],
+      "First name": [
+        "Förnamn"
+      ],
+      "Last name": [
+        "Efternamn"
       ]
     },
     "Time": {
@@ -9105,6 +9275,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Birthday": [
+        "Födelsedag"
+      ],
+      "Change password": [
+        "Ändra lösenord"
+      ],
+      "Notes": [
+        "Anteckningar"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9114,7 +9293,7 @@
     },
     "Tooltip": {
       "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
-        "Automatisk indikerar att formatet i kompositören används för att skicka till den här användaren. Enkel text indikerar att meddelandet alltid kommer att konverteras till vanlig text vid sändning."
+        "Indikerar automatisk att formatet i skrivfönstret används för att skicka till denna användare. Oformaterad text indikerar att meddelandet alltid kommer att konverteras till oformaterad text vid sändning."
       ],
       "Automatically switch between your preferred themes for day and night in sync with your system’s day and night modes": [
         "Växla automatiskt mellan dina föredragna teman för dag och natt i synk med ditt systems dag- och nattlägen"
@@ -9531,6 +9710,205 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } anpassad domän",
+        "${ domains } anpassade domäner"
+      ],
+      "${ ips } server": [
+        "${ ips } server",
+        "${ ips } servrar"
+      ],
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "Checkout row": {
+      "${ users } user": [
+        "${ users } användare",
+        "${ users } användare"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "använd importassistenten Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Krypterad med noll åtkomst. Mottagaren har inaktiverat end-to-end-kryptering på sitt konto."
+      ]
+    },
+    "session_recovery:available:action": {
+      "Cancel reset": [
+        "Avbryt återställning"
+      ],
+      "Reset password": [
+        "Återställ lösenord"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Account recovery not available for legacy address keys": [
+        "Kontoåterställning är inte tillgänglig för äldre adressnycklar"
+      ],
+      "Please generate keys before you try to change your password": [
+        "Generera nycklar innan du försöker ändra ditt lösenord"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } dag",
+        "${ timeRemaining.inDays } dagar"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } timme",
+        "${ timeRemaining.inHours } timmar"
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Begäran om lösenordsåterställning godkänd (${ user.Email }). Du har ${ timeRemaining.inDays } dag för att återställa ditt lösenord.",
+        "Begäran om lösenordsåterställning godkänd (${ user.Email }). Du har ${ timeRemaining.inDays } dagar för att återställa ditt lösenord."
+      ],
+      "Password reset request approved (${ user.Email }). You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Begäran om lösenordsåterställning godkänd (${ user.Email }). Du har ${ timeRemaining.inHours } timme för att återställa ditt lösenord.",
+        "Begäran om lösenordsåterställning godkänd (${ user.Email }). Du har ${ timeRemaining.inHours } timmar för att återställa ditt lösenord."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Gå till den inloggade enheten (i den session där begäran initierades) för att ändra ditt lösenord."
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "Denna tillåtelse löper ut om ${ timeRemaining.inDays } dag",
+        "Denna tillåtelse löper ut om ${ timeRemaining.inDays } dagar"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "Denna tillåtelse löper ut om ${ timeRemaining.inHours } timme",
+        "Denna tillåtelse löper ut om ${ timeRemaining.inHours } timmar"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Du kan nu ändra ditt lösenord för kontot ${ boldEmail } fritt i ${ boldDaysRemaining }."
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Se hur"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Lösenord sparat"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Återställ ditt lösenord"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Avbryt lösenordsåterställning"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Ange ditt nuvarande lösenord för att avbryta återställningsprocessen. Inga andra ändringar kommer att träda i kraft."
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Lösenordsåterställning avbruten"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Avbryt lösenordsåterställning?"
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Begäran om lösenordsåterställning avbröts (${ user.Email }). Om du inte gjorde denna begäran, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "ändra ditt lösenord nu"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Avbryt begäran"
+      ],
+      "Got it": [
+        "Jag förstår"
+      ],
+      "Learn more": [
+        "Lär dig mer"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "${ gracePeriodHoursRemaining } more hour": [
+        "${ gracePeriodHoursRemaining } timme till",
+        "${ gracePeriodHoursRemaining } timmar till"
+      ],
+      "If you didn’t ask to reset your password, cancel this request now.": [
+        "Om du inte bett om att få återställa ditt lösenord, avbryt denna begäran nu."
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "Lösenordsåterställning begärd (${ user.Email }). Du kan ändra ditt lösenord inom ${ hoursRemaining } timme.",
+        "Lösenordsåterställning begärd (${ user.Email }). Du kan ändra ditt lösenord inom ${ hoursRemaining } timmar."
+      ],
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "För att säkerställa att det verkligen är du som försöker återställa ditt lösenord väntar vi 72 timmar innan vi godkänner begäran. Du kan ändra ditt lösenord i ${ boldTimeLeft }. ${ viewRequest }"
+      ],
+      "We received a password reset request for ${ boldEmail }.": [
+        "Vi fick en begäran om lösenordsåterställning för ${ boldEmail }."
+      ]
+    },
+    "session_recovery:in_progress:link": {
+      "View request": [
+        "Visa begäran"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Lösenordsåterställning begärd"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Logga ut"
+      ],
+      "Stay signed in": [
+        "Förbli inloggad"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } timme",
+        "${ gracePeriodHoursRemaining } timmar"
+      ],
+      "${ passwordReset } is now available.": [
+        "${ passwordReset } är nu tillgängligt."
+      ],
+      "If you sign out before you reset your password, you could lose access to your account.": [
+        "Om du loggar ut innan du återställer ditt lösenord kan du förlora åtkomst till ditt konto."
+      ],
+      "If you sign out without resetting your password, you could lose access to your account.": [
+        "Om du loggar ut utan att återställa ditt lösenord kan du förlora åtkomst till ditt konto."
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "Du kommer att kunna återställa ditt lösenord i ${ boldTimeLeft }."
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Lösenordsåterställning"
+      ]
+    },
+    "session_recovery:sign_out:title": {
+      "Sign out without password reset?": [
+        "Logga ut utan lösenordsåterställning?"
       ]
     }
   }

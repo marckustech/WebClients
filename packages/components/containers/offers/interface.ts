@@ -51,6 +51,7 @@ export interface Operation {
     config: OfferConfig;
     isValid: boolean;
     isLoading: boolean;
+    isEligible: boolean;
 }
 
 export interface OfferImages {
@@ -59,6 +60,7 @@ export interface OfferImages {
     bannerImage?: string;
     bannerImage2x?: string;
 }
+
 export interface OfferConfig {
     ID: OfferId;
     icon?: IconName;

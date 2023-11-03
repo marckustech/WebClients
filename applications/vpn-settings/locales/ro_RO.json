@@ -7435,6 +7435,22 @@
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Perioada de probare se încheie în curând la ${ textDate }. ${ action }"
       ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Toate serviciile ${ BRAND_NAME } premium. Un singur abonament simplu."
+      ]
+    },
+    "bf2023: renew": {
+      "the first month": [
+        "prima lună"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Prețul special redus de ${ discountedPrice } este valabil pentru ${ discountedMonths }. Apoi va fi reînnoit automat la prețul redus de ${ nextPrice } pentru ${ nextMonths }. Puteți anula oricând."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Prețul cu reducere specială de ${ discountedPrice } este valabil pentru prima lună. Apoi va fi reînnoit automat cu ${ nextPrice } în fiecare lună. Puteți anula oricând."
+      ]
     }
   }
 }

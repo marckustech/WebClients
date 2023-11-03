@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Keep my Plus subscription": [
+        "Ponechať moje predplatné Plus"
       ]
     },
     "Action subscription": {
@@ -1679,7 +1682,7 @@
         "Proton Mail logo a znamienko plus"
       ],
       "Separate different aspects of your life with multiple email addresses and unlock more premium features when you upgrade.": [
-        "Oddeľte rôzne aspekty svojho života pomocou viacerých emailových adries a odomknite viac prémiových funkcií ak sa rozhodnete pre upgrade."
+        "Oddeľte rôzne aspekty svojho života pomocou viacerých emailových adries a odomknite viac prémiových funkcií, ak sa rozhodnete pre upgrade."
       ]
     },
     "Downgrade account reason": {
@@ -3649,7 +3652,7 @@
         "S balíkom Business alebo Enterprise si môžete zakúpiť ${ boldDedicatedServers } pre vašu organizáciu a nastaviť ${ boldGateways }, aby ste mohli kontrolovať, ktorí používatelia k nim majú prístup."
       ],
       "With an encrypted ${ BRAND_NAME } address, you can use all ${ BRAND_NAME } services": [
-        "So zašifrovanou adresou ${ BRAND_NAME } môžete používať všetky služby ${ BRAND_NAME }"
+        "So šifrovanou ${ BRAND_NAME } adresou môžete používať všetky služby ${ BRAND_NAME }"
       ],
       "Without activation you will not be able to create new users, add addresses to existing users, or access non-private user accounts.": [
         "Bez aktivácie nebudete môcť vytvárať nových užívateľov, pridávať adresy existujúcim utívateľom, alebo pristupovať k verejným užívateľským účtom."
@@ -3818,6 +3821,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Vaše predplatné je spravované Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Zrušením nebude vaše predplatné ${ planTitle } obnovené, keď uplynie dňa ${ expiryDate } jeho platnosť."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "V tento deň stratíte prístup k funkciám Plus."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "V tento deň stratíte prístup k Plus serverom a funkciám služby Plus."
       ]
     },
     "Info for cash payment method": {
@@ -3936,7 +3948,7 @@
         "${ UsedAddresses } z ${ MaxAddresses } e-mail adries"
       ],
       "Account storage": [
-        "Priestor pre účet"
+        "Úložisko účtu"
       ],
       "Address": [
         "Adresa"
@@ -3951,7 +3963,7 @@
         "Povoliť obnovenie telefónom"
       ],
       "Amount": [
-        "Počet"
+        "Čiastka"
       ],
       "Amount due": [
         "Čiastka k zaplateniu"
@@ -4029,7 +4041,7 @@
         "Potvrďte heslo organizácie"
       ],
       "Confirm password": [
-        "Potvrdiť heslo"
+        "Potvrďte heslo"
       ],
       "Copy": [
         "Kopírovať"
@@ -4257,7 +4269,7 @@
         "Vyberte vašu krajinu"
       ],
       "Select your plan": [
-        "Vyberte tarifu"
+        "Vyberte plán"
       ],
       "Start date": [
         "Dátum začiatku"
@@ -4278,7 +4290,7 @@
         "Používateľ"
       ],
       "User's new password": [
-        "Nové heslo užívateľa"
+        "Nové heslo používateľa"
       ],
       "Username": [
         "Používateľské meno"
@@ -4287,7 +4299,7 @@
         "Overovací kód"
       ],
       "We are sorry to see you go. Please explain why you are leaving to help us improve.": [
-        "Je nám ľúto, že odchádzate. Napíšte nám svoj dôvod, aby sme mohli zlepšiť naše služby."
+        "Je nám ľúto, že odchádzate. Napíšte nám svoj dôvod, prečo odchádzate, aby sme mohli zlepšiť naše služby."
       ],
       "What happened?": [
         "Čo sa stalo?"
@@ -4296,13 +4308,13 @@
         "Aký je hlavný dôvod zrušenia?"
       ],
       "What is the main reason you are deleting your account?": [
-        "Aký je hlavný dôvod, prečo mažete svôj účet?"
+        "Aký je hlavný dôvod, prečo mažete svoj účet?"
       ],
       "Why would you like to cancel?": [
         "Prečo chcete zrušiť?"
       ],
       "Yes, I want to permanently delete this account and all its data.": [
-        "Áno, chcem trvale zmazať tento účet a všeky údaje s ním spojené."
+        "Áno, chcem trvale zmazať tento účet a všetky údaje s ním spojené."
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
@@ -4693,7 +4705,7 @@
         "${ size } veľkosť prílohy"
       ],
       "${ size } storage": [
-        "${ size } uložisko"
+        "${ size } úložisko"
       ],
       "${ size } storage per user": [
         "${ size } úložisko na používateľa"
@@ -5590,6 +5602,9 @@
       ],
       "Select a reason": [
         "Vyberte dôvod"
+      ],
+      "Thomas Anderson": [
+        "Ján Kováč"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -6494,7 +6509,7 @@
     },
     "Success": {
       "${ server.Domain } copied to your clipboard": [
-        "${ server.Domain } bol skopírovaný do vašej schránky"
+        "${ server.Domain } bol skopírovaný do schránky"
       ],
       "Account deleted. Signing out...": [
         "Účet vymazaný. Odhlasovanie..."
@@ -6569,10 +6584,10 @@
         "Nastavenie uložené"
       ],
       "User created": [
-        "Užívateľ vytvorený"
+        "Používateľ vytvorený"
       ],
       "User updated": [
-        "Užívateľ aktualizovaný"
+        "Používateľ aktualizovaný"
       ],
       "Verification successful": [
         "Overenie prebehlo úspešne"
@@ -6810,10 +6825,10 @@
         "Pridať používateľov"
       ],
       "Allocate storage": [
-        "Priradiť úložisko"
+        "Prideliť úložisko"
       ],
       "Amount": [
-        "Počet"
+        "Čiastka"
       ],
       "Amount due": [
         "Čiastka k zaplateniu"
@@ -6948,7 +6963,7 @@
         "Zariadenie pripojené!"
       ],
       "Disable ${ email }": [
-        "Zakázať ${ email }"
+        "Deaktivovať ${ email }"
       ],
       "Disable two-factor authentication": [
         "Vypnúť dvojstupňové overenie"
@@ -7182,7 +7197,7 @@
         "Prihlásiť sa"
       ],
       "Sign in to join the Beta program": [
-        "Prihláste sa a pripojte sa k beta programu"
+        "Prihláste sa a pripojte k beta programu"
       ],
       "Sign in to your organization": [
         "Prihláste sa do svojej organizácie"
@@ -7542,6 +7557,180 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Pridať nášho šifrovaného správcu hesiel** len za ${ price }"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Pridať ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Pridať ${ plan } za ${ price } mesačne"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Pridajte ${ plan } do vášho plánu predplatením na 15 mesiacov"
+      ],
+      "Cancel": [
+        "Zrušiť"
+      ],
+      "Close": [
+        "Zavrieť"
+      ],
+      "Get the deal": [
+        "Využiť ponuku"
+      ],
+      "Remove": [
+        "Odstrániť"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Odstrániť ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Predplaťte si 15 mesiacov a získajte nášho **šifrovaného správcu hesiel** len za ${ priceNoSuffix } mesačne navyše!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } úložisko"
+      ],
+      "1 user": [
+        "1 používateľ"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3000+ serverov v 65+ krajinách"
+      ],
+      "6 users": [
+        "6 používateľov"
+      ],
+      "Access content worldwide": [
+        "Prístup k obsahu z celého sveta"
+      ],
+      "Ad-blocker and malware protection": [
+        "Ad-blocker a ochrana pred škodlivým softvérom"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Všetky funkcie plateného ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Rozšírená história verzií"
+      ],
+      "High speed streaming": [
+        "Vysokorýchlostné streamovanie"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiový ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Prémiový správca hesiel"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Zľavy sú tvorené na základe štandardných mesačných cien."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Vaše predplatné sa automaticky obnoví za štandardnú zľavnenú sadzbu a trvanie na konci vášho fakturačného cyklu."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Ušetrite so zľavami Čierneho piatku na vysokorýchlostnú švajčiarsku sieť VPN"
+      ],
+      "Select your Black Friday offer": [
+        "Vyberte si svoju čiernopiatkovú ponuku"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Všetky prémiové služby ${ BRAND_NAME }. Jedno jednoduché predplatné."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "Bezpečné prehliadanie a prémiové funkcie VPN."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Je nám ľúto, ale táto ponuka nie je s vaším aktuálnym plánom dostupná."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Je nám ľúto, ale táto ponuka nie je s vaším aktuálnym plánom dostupná. Ale môžete získať **${ discountPercentage } z ${ plan.Title }** pri predplatení na **${ months }**."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30-dňová záruka vrátenia peňazí"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } mesiac",
+        "prvé ${ n } mesiace",
+        "prvých ${ n } mesiacov",
+        "prvých ${ n } mesiacov"
+      ],
+      "the first month": [
+        "prvý mesiac"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Špeciálne zľavnená cena ${ discountedPrice } platí počas ${ discountedMonths }. Potom sa automaticky obnoví za zvýhodnenú cenu ${ nextPrice } na ${ nextMonths }. Službu môžete kedykoľvek zrušiť."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Špeciálne zľavnená cena ${ discountedPrice } platí prvý mesiac. Potom sa každý mesiac automaticky obnoví za ${ nextPrice }. Službu môžete kedykoľvek zrušiť."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Ponuka je nedostupná"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Získajte prístup k blokovanému obsahu a surfujte v súkromí. Obsahuje 3000+ serverov v 65+ krajinách, najvyššie rýchlosti VPN, prístup k celosvetovým streamovacím službám, blokovanie malvéru a reklám, rýchle sťahovanie cez BitTorrent a ďalšie."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Získajte prístup k obsahu na streamovacích službách vrátane Netflix, Disney+ a Prime Video odkiaľkoľvek."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Obíďte obmedzenia a cenzúru miestneho internetu pomocou našej globálnej siete serverov."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Zahŕňa podporu pre 1 vlastnú emailovú doménu, 10 emailových adries, 10 hide-my-email aliasov, zdieľanie kalendára a ďalšie."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailová adresa, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailové adresy, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Bezpečné prihlásenie na všetkých zariadeniach. Zahŕňa neobmedzený počet aliasov, zdieľanie, integrované 2FA a ďalšie funkcie."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zabezpečte svoje emaily pomocou end-to-end šifrovania. Súčasťou je podpora vlastných emailových domén, 15 emailových adries, neobmedzený počet ide-my-email aliasov a ďalšie."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Zabezpečte svoje súbory pomocou šifrovaného cloudového úložiska. Zahŕňa históriu verzií, zdieľanie šifrovaných súborov a ďalšie."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Špeciálne navrhnutý NetShield chráni vaše zariadenia a zrýchľuje vaše prehliadanie tým, že blokuje reklamy, sledovače a malvér."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Úložný priestor je zdieľaný medzi všetkými aplikáciami ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Uložte až 200 verzií každého súboru až na 10 rokov."
       ]
     }
   }

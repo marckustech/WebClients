@@ -78,7 +78,7 @@
         "Conferma"
       ],
       "Contact support": [
-        "Contatta il supporto"
+        "Contatta l'assistenza"
       ],
       "Contact us": [
         "Contattaci"
@@ -144,7 +144,7 @@
         "Disabilita"
       ],
       "Discard": [
-        "Annulla"
+        "Scarta"
       ],
       "Don't know your password?": [
         "Non sai la password?"
@@ -288,7 +288,7 @@
         "Hai bisogno di aiuto?"
       ],
       "Next": [
-        "Successivo"
+        "Avanti"
       ],
       "OK": [
         "OK"
@@ -2894,7 +2894,7 @@
         "Sei sicuro di voler disabilitare l'autenticazione a due fattori?"
       ],
       "Are you sure you want to discard your changes?": [
-        "Sei sicuro di voler annullare le modifiche?"
+        "Sei sicuro di voler annullare le tue modifiche?"
       ],
       "Are you sure you want to remove administrative privileges from this user?": [
         "Sei sicuro di voler rimuovere i privilegi amministrativi a questo utente?"
@@ -3712,10 +3712,10 @@
         "Abbiamo bisogno di verificare il tuo pagamento con la tua banca."
       ],
       "We recommend having at least 2 servers in order to provide redundancy.": [
-        "Ti consigliamo di disporre di almeno 2 server per garantire la ridondanza."
+        "Ti consigliamo di avere almeno 2 server per garantire la ridondanza."
       ],
       "We recommend having multiple servers in different locations to provide redundancy.": [
-        "Si consiglia di disporre di più server in posizioni diverse per fornire ridondanza."
+        "Ti consigliamo di avere più server in località differenti per garantire la ridondanza."
       ],
       "We recommend notifying the organization members and asking them to set up 2FA for their accounts before enforcing the use of 2FA.": [
         "Raccomandiamo di notificare i membri di una organizzazione e invitarli ad impostare una autenticazione a due fattori, prima di forzarne l'uso."
@@ -3911,7 +3911,7 @@
         "La tua informazione è al sicuro con noi. Ti contatteremo solo quando sarà necessario per fornire i nostri servizi."
       ],
       "Your next billing date is ${ renewalTime }.": [
-        "La tua prossima data di fatturazione è ${ renewalTime }."
+        "La tua prossima data di fatturazione è il ${ renewalTime }."
       ],
       "Your organization password can be shared with other users you wish to give administrative privileges. It is also an emergency recovery code to gain access to your organization in case you lose access to your account. Please save this password and keep it safe.": [
         "La password dell'organizzazione può essere condivisa con altri utenti a cui desideri concedere i privilegi di amministrazione. È anche un codice di recupero di emergenza per ottenere l'accesso alla tua organizzazione nel caso in cui perdi l'accesso al tuo account. Salva questa password e tienila al sicuro."

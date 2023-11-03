@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "축소"
+      ],
+      "Keep my Plus subscription": [
+        "나의 Plus 구독 유지"
       ]
     },
     "Action subscription": {
@@ -3701,6 +3704,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "유료 구독은 Mozilla에서 관리합니다. Mozilla 지원에 연락하세요."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "취소시, 만료일인 ${ expiryDate }에 ${ planTitle } 구독이 더 이상 갱신되지 않습니다."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "오늘 부터 Plus 기능을 잃게 됩니다."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "오늘 부터 Plus 서버 및 기능들에 접근할 수 없게 됩니다."
       ]
     },
     "Info for cash payment method": {
@@ -5389,6 +5401,9 @@
       ],
       "Select a reason": [
         "사유 선택"
+      ],
+      "Thomas Anderson": [
+        "홍길동"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -7203,6 +7218,174 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "무료 체험이 ${ textDate } 에 종료됩니다. ${ action }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "단 ${ price }으로 **암호화된 비밀번호 관리자를 추가하세요**"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } 추가"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "${ price } 당 개월로 ${ plan } 추가"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "15개월 구독하여 ${ plan }을(를) 사용자의 플랜에 추가"
+      ],
+      "Cancel": [
+        "취소"
+      ],
+      "Close": [
+        "닫기"
+      ],
+      "Get the deal": [
+        "혜택 얻기"
+      ],
+      "Remove": [
+        "제거"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } 삭제"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "오직 ${ priceNoSuffix } 당 개월만 추가하여 15개월 동안 **암호화된 비밀번호 관리자**를 구독하세요!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus 및 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } 저장공간"
+      ],
+      "1 user": [
+        "사용자 1명"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65개 국가에서 3,000개 이상의 서버"
+      ],
+      "6 users": [
+        "사용자 6명"
+      ],
+      "Access content worldwide": [
+        "전세계의 콘텐츠 접근"
+      ],
+      "Ad-blocker and malware protection": [
+        "광고 차단기 및 멀웨어 보호"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "모든 ${ MAIL_SHORT_APP_NAME } 및 ${ CALENDAR_APP_NAME } 유료 기능"
+      ],
+      "Extended version history": [
+        "연장된 버전 기록"
+      ],
+      "High speed streaming": [
+        "고속 스트리밍"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "프리미엄 암호 관리자"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "할인은 표준 월별 가격을 기본으로 합니다."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "구독은 결제일 주기가 끝날 때 표준 할인율 요금으로 자동 갱신됩니다."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "빠른 속도의 스위스 VPN 혜택을 블랙 프라이데이로 할인되게 누리세요."
+      ],
+      "Select your Black Friday offer": [
+        "당신의 블랙 프라이데이 제안 선택"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "모든 프리미엄 ${ BRAND_NAME } 서비스. 쉬운 구독."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "브라우징을 보호하고 프리미엄 VPN 기능을 누리세요."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "죄송합니다, 현재 사용자의 플랜에서는 이 제안이 제공되지 않습니다."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "죄송합니다, 현재 사용자의 플랜에서는 이 제안이 제공되지 않습니다. 다만 **${ months }**로 구독할 때 **${ plan.Title }을(를) ${ discountPercentage }** 할인된 가격으로 구매 가능합니다."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30일 무료체험"
+      ]
+    },
+    "bf2023: renew": {
+      "the first ${ n } months": [
+        "${ n }개월"
+      ],
+      "the first month": [
+        "첫 달"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "이 특별 할인가 (${ discountedPrice })는 ${ discountedMonths }개월에 한합니다. 그 이후로는 ${ nextMonths }개월 동안 ${ nextPrice }으로 갱신됩니다. 언제든지 취소 가능합니다."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "이 특별 할인가 (${ discountedPrice })는 첫 달에 한합니다. 자동으로 다음 달 부터는 ${ nextPrice }으로 갱신됩니다. 언제든지 취소 가능합니다."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "제안 사용 불가"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "65개 이상의 국가의 3,000여개 서버로 차단된 콘텐츠에 접근하고 비공개적으로 브라우징 하고, 빠른 VPN 속도, 개 VPN 연결, 월드와이드 스트리밍 서비스, 멀웨어 및 광고 차단기 등을 누리십시오."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "어디서든지 스트리밍 서비스에서 콘텐츠를 접근하세요, Netflix, Disney+, Prime Video 등이 포함됩니다."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Proton의 글로벌 서버 네트워크로 인터넷 차단 및 검열을 우회하세요."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1개 커스텀 이메일 도메인, 10개 이메일 주소, 10개 Hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "3개 커스텀 이메일 도메인, ${ addresses }개 이메일 주소, 무제한 hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "무제한 별명, 공유, 통합된 2FA 등을 포함하는 비밀번호 관리자로 모든 기기에서 로그인을 보호하세요."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "사용자 지정 이메일 도메인, 15개 이메일 주소, 무제한 hide-my-email 별명 등 기능을 포함하는 이메일과 공유 캘린더를 지원하는 보안 캘린더로 보호하세요."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "버전 기록, 암호화 파일 공유 등을 포함한 암호화된 클라우드 저장공간으로 파일을 보호하세요."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "특별히 설계된 NetShield는 광고, 추적기 및 맬웨어를 차단하여 장치를 보호하고 브라우징 속도를 높입니다."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "스토리지 공간은 모든 ${ BRAND_NAME } 앱 전반적으로 공유됩니다."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "최대 10년간 각 파일의 최대 200개의 버전을 저장하세요."
       ]
     }
   }

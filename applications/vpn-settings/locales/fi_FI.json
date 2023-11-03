@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "Loitonna"
+      ],
+      "Keep my Plus subscription": [
+        "Säilytä Plus-tilaukseni"
       ]
     },
     "Action subscription": {
@@ -3742,6 +3745,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tilaustasi hallinnoi Mozilla. Ota yhteyttä Mozillan tukeen."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Jos perut ${ planTitle } -tilauksesi, sitä ei uudisteta sen päättyessä ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Menetät pääsyn Plus-ominaisuuksiin tänä päivänä."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Menetät pääsyn Plus-palvelimiin ja -ominaisuuksiin tänä päivänä."
       ]
     },
     "Info for cash payment method": {
@@ -5458,6 +5470,9 @@
       ],
       "Select a reason": [
         "Valitse syy"
+      ],
+      "Thomas Anderson": [
+        "Matti Meikäläinen"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -7320,6 +7335,164 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ilmainen kokeilusi päättyy ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Lisää salattu salasananhallintamme** vain ${ price } lisähintaan"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Lisää ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Lisää ${ plan }, ${ price } kuukausihintaan"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Lisää ${ plan } tilaukseesi hankkimalla 15 kuukauden tilaus"
+      ],
+      "Cancel": [
+        "Peruuta"
+      ],
+      "Close": [
+        "Sulje"
+      ],
+      "Get the deal": [
+        "Hanki tarjous"
+      ],
+      "Remove": [
+        "Poista"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Poista ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Hanki 15 kuukauden tilaus, ja saat **salatun salasananhallintamme** vain ${ priceNoSuffix } lisähintaan kuukaudessa!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus ja ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } tallennustilaa"
+      ],
+      "1 user": [
+        "1 käyttäjä"
+      ],
+      "3 TB": [
+        "3 Tt"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3,000+ palvelinta 65+ maassa"
+      ],
+      "6 users": [
+        "6 käyttäjää"
+      ],
+      "Access content worldwide": [
+        "Pääsy sisältöön kaikkialla maailmassa"
+      ],
+      "Ad-blocker and malware protection": [
+        "Mainos- ja haittaohjelmaesto"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Kaikki maksulliset ${ MAIL_SHORT_APP_NAME } ja ${ CALENDAR_APP_NAME } -ominaisuudet"
+      ],
+      "Extended version history": [
+        "Laajennettu versiohistoria"
+      ],
+      "High speed streaming": [
+        "Nopea suoratoisto"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } ja ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium salasanahallinta"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Alennukset perustuvat normaaliin kuukausihintaan."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Tilauksesi uusitaan automaattisesti samalla alennetulla hinnalla ja kestolla laskutuskautesi lopussa."
+      ]
+    },
+    "bf2023: header": {
+      "Select your Black Friday offer": [
+        "Valitse Black Friday -tarjouksesi"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Kaikki premium ${ BRAND_NAME } -palvelut.Yksi helppo tilaus."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "Turvallinen selailu ja premium VPN-ominaisuudet."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Valitettavasti tämä tarjous ei ole saatavilla nykyisen tilauksesi kanssa."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 päivän rahat takaisin -takuu"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } kuukaudeksi",
+        "ensimmäisten ${ n } kuukauden ajan"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Erikoisalennettu hinta ${ discountedPrice } on voimassa vain ensimmäisen kuukauden ajan. Sen jälkeen se uusitaan automaattisesti ${ nextPrice } kuukausihintaan. Voit peruuttaa sen milloin tahansa."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Tarjous ei ole saatavilla"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Käytä estettyä sisältöä ja selaa yksityisesti. Sisältää 3000+ palvelinta 65+ maassa, suurimmat VPN-nopeudet, pääsyn maailmanlaajuisiin suoratoistopalveluihin, haittaohjelmien ja mainosten eston, nopeat BitTorrent-lataukset ja muuta."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Käytä mm. Netflixin, Disney+:n ja Prime Videon kaltaisten suoratoistopalveluiden sisältöä mistä tahansa."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Ohita paikalliset Internet-estot ja sensuuri maailmanlaajuisen palvelinverkostomme avulla."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Sisältää tuen yhdelle omalle sähköpostiverkkotunnukselle, 10 sähköpostiosoitetta, 10 hide-my-email-aliasta kalenterijaon ja paljon muuta."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Sisältää tuen 3 omalle sähköpostiverkkotunnukselle, ${ addresses } sähköpostiosoitteen, rajattomasti hide-my-email-aliaksia, kalenterijaon ja paljon muuta.",
+        "Sisältää tuen 3 omalle sähköpostiverkkotunnukselle, ${ addresses } sähköpostiosoitetta, rajattomasti hide-my-email-aliaksia, kalenterijaon ja paljon muuta."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Suojaa kirjautumistietosi kaikilla laitteillasi. Sisältää rajoittamattoman määrän aliaksia, jakamisen, integroidun 2FA:n ja paljon muuta."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Suojaa sähköpostisi ja aikataulusi päästä päähän -salauksella. Sisältää tuen omille sähköpostiverkkotunnuksille, 15 sähköpostiosoitetta, rajattomasti hide-my-email-aliaksia, kalenterijaon ja paljon muuta."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Suojaa tiedostosi salatulla pilvitallennustilalla. Sisältää versiohistorian, salatun tiedostojen jakamisen ja paljon muuta."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Erityisesti suunniteltu NetShield suojaa laitteitasi ja nopeuttaa selaamistasi estämällä mainoksia, seuraajia ja haittaohjelmia."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Tallennustila jaetaan kaikkien ${ BRAND_NAME } -sovellusten välillä."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Säilytä jopa 200 versiota kustakin tiedostosta jopa 10 vuoden ajan."
       ]
     }
   }

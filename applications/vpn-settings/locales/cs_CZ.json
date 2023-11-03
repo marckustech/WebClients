@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Keep my Plus subscription": [
+        "Zachovat mé Plus předplatné"
       ]
     },
     "Action subscription": {
@@ -3824,6 +3827,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Pokud zrušíte vaše předplatné ${ planTitle }, nebude už obnoveno po vypršení jeho platnosti ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
       ]
     },
     "Info for cash payment method": {
@@ -5596,6 +5608,9 @@
       ],
       "Select a reason": [
         "Vyberte důvod"
+      ],
+      "Thomas Anderson": [
+        "Thomas Anderson"
       ]
     },
     "Placeholder for custom invoice text": {

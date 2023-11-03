@@ -19,10 +19,10 @@ import { useLoading } from '@proton/hooks';
 import metrics, { observeApiError } from '@proton/metrics';
 import { WebPaymentsSubscriptionStepsTotal } from '@proton/metrics/types/web_payments_subscription_steps_total_v1.schema';
 import { checkSubscription, deleteSubscription, subscribe } from '@proton/shared/lib/api/payments';
+import { ProductParam } from '@proton/shared/lib/apps/product';
 import { getShouldCalendarPreventSubscripitionChange, willHavePaidMail } from '@proton/shared/lib/calendar/plans';
 import {
     APPS,
-    APP_NAMES,
     COUPON_CODES,
     CYCLE,
     DEFAULT_CURRENCY,
@@ -136,7 +136,7 @@ interface RenderProps {
 
 export interface SubscriptionContainerProps {
     topRef?: RefObject<HTMLDivElement>;
-    app: APP_NAMES;
+    app: ProductParam;
     step?: SUBSCRIPTION_STEPS;
     cycle?: Cycle;
     currency?: Currency;

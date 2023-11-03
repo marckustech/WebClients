@@ -1310,19 +1310,19 @@
     },
     "bf2023: Action": {
       "**Add our encrypted password manager** for only ${ price }": [
-        "**Aggiungi il nostro password manager crittografato** ad appena ${ price }"
+        "**Aggiungi il nostro gestore di password crittografato** per soli ${ price }"
       ],
       "Add ${ PASS_APP_NAME }": [
         "Aggiungi ${ PASS_APP_NAME }"
       ],
       "Add ${ plan } for ${ price } per month": [
-        "Aggiungi ${ plan } al costo di ${ price } al mese"
+        "Aggiungi ${ plan } per ${ price } al mese"
       ],
       "Add ${ plan } to your plan by subscribing to 15 months": [
         "Aggiungi ${ plan } al tuo piano abbonandoti per 15 mesi"
       ],
       "Become a Visionary": [
-        "Diventa un Visionario"
+        "Scegli Visionary"
       ],
       "Cancel": [
         "Annulla"
@@ -1331,7 +1331,7 @@
         "Chiudi"
       ],
       "Get the deal": [
-        "Approfitta dell'offerta"
+        "Ottieni l'offerta"
       ],
       "Remove": [
         "Rimuovi"
@@ -1340,7 +1340,7 @@
         "Rimuovi ${ PASS_APP_NAME }"
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
-        "Abbonati per 15 mesi e avrai il nostro **password manager crittografato**: il costo aggiuntivo è di solo ${ priceNoSuffix } al mese!"
+        "Abbonati per 15 mesi e ottieni il nostro **gestore di password crittografato** per soli ${ priceNoSuffix } in più al mese!"
       ]
     },
     "bf2023: Deal details": {
@@ -1357,7 +1357,7 @@
         "3 TB"
       ],
       "3,000+ servers across 65+ countries": [
-        "Oltre 3,000 server in più di 65 Paesi"
+        "Oltre 3.000 server in più di 65 Paesi"
       ],
       "6 users": [
         "6 utenti"
@@ -1366,25 +1366,25 @@
         "Accedi ai contenuti in tutto il mondo"
       ],
       "Ad-blocker and malware protection": [
-        "Ad-blocker e protezione da malware"
+        "Ad-blocker e anti-malware"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Tutte le funzionalità a pagamento di ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME }"
+        "Tutte le funzioni a pagamento di ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME }"
       ],
       "Extended version history": [
-        "Cronologia delle versioni estesa"
+        "Cronologia estesa della versione"
       ],
       "High speed streaming": [
         "Streaming ad alta velocità"
       ],
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
-        "${ DRIVE_SHORT_APP_NAME } premium"
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
       ],
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
-        "${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME } premium"
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
-        "${ VPN_SHORT_APP_NAME } premium"
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ],
       "Premium Password Manager": [
         "Password manager premium"
@@ -1400,10 +1400,10 @@
     },
     "bf2023: header": {
       "Save with Black Friday deals on a high-speed Swiss VPN": [
-        "Per il Black Friday hai una VPN svizzera ad alta velocità a prezzo scontato"
+        "Risparmia con le offerte del Black Friday su una VPN svizzera ad alta velocità"
       ],
       "Select your Black Friday offer": [
-        "Seleziona l'offerta del Black Friday"
+        "Seleziona la tua offerta del Black Friday"
       ]
     },
     "bf2023: info": {
@@ -1414,10 +1414,10 @@
         "Navigazione sicura e funzionalità VPN premium."
       ],
       "Sorry, this offer is not available with your current plan.": [
-        "Siamo spiacenti, questa offerta non è disponibile con il suo piano attuale."
+        "Scusa, questa offerta non è disponibile con il tuo piano attuale."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Siamo spiacenti, questa offerta non è disponibile con il suo piano attuale. Ma puoi ottenere uno sconto di **${ discountPercentage } su ${ plan.Title }** quando ti abboni per **${ months }**."
+        "Scusa, questa offerta non è disponibile con il tuo piano attuale. Ma puoi ottenere uno sconto del **${ discountPercentage } su ${ plan.Title }** quando ti abboni per **${ months }**."
       ]
     },
     "bf2023: Info": {
@@ -1445,7 +1445,7 @@
     },
     "bf2023: Offers": {
       "30-day money-back guarantee": [
-        "Garanzia di rimborso entro 30 giorni"
+        "Garanzia 30 giorni soddisfatti o rimborsati"
       ]
     },
     "bf2023: renew": {
@@ -1457,10 +1457,10 @@
         "il primo mese"
       ],
       "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
-        "La tariffa scontata, con prezzo speciale di ${ discountedPrice }, è valida per ${ discountedMonths }. Il piano si rinnoverà poi automaticamente al prezzo agevolato di ${ nextPrice } per ${ nextMonths }. Puoi disdire quando vuoi."
+        "La tariffa scontata, con un prezzo speciale di ${ discountedPrice }, è valida per ${ discountedMonths }. Il piano si rinnoverà poi automaticamente al prezzo agevolato di ${ nextPrice } per ${ nextMonths }. Puoi annullare in qualsiasi momento."
       ],
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
-        "La tariffa scontata, con prezzo speciale di ${ discountedPrice } è valida per il primo mese. Il piano si rinnoverà poi automaticamente al prezzo di ${ nextPrice } per mese. Puoi disdire quando vuoi."
+        "La tariffa scontata, con un prezzo speciale di ${ discountedPrice }, è valida per il primo mese. Il piano si rinnoverà poi automaticamente a ${ nextPrice } al mese. Puoi annullare in qualsiasi momento."
       ]
     },
     "bf2023: Title": {
@@ -1470,29 +1470,29 @@
     },
     "bf2023: Tooltip": {
       "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "Accedi a contenuti bloccati e naviga in modalità privata. Include oltre 3,000 server in più di 65 Paesi, le più elevate velocità VPN, l'accesso ai servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
+        "Accedi ai contenuti bloccati e naviga in modalità privata. Sono inclusi: più di 3.000 server in oltre 65 Paesi, VPN ad altissima velocità, accesso ai servizi di streaming in tutto il mondo, anti-malware, ad-blocker, download BitTorrent veloci e altro ancora."
       ],
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Accedi ai contenuti dei servizi di streaming, tra cui Netflix, Disney+, Prime Video e altri ancora, da qualsiasi luogo."
+        "Accedi ai contenuti di servizi di streaming come Netflix, Disney+, Prime Video e altro ancora, ovunque ti trovi."
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
-        "Supera i blocchi e la censura di internet a livello locale con la nostra rete globale di server."
+        "Aggira i blocchi e la censura a internet imposti dai singoli Paesi grazie alla nostra rete globale di server."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Include il supporto per 1 dominio email personalizzato, 10 indirizzi email, 10 alias hide-my-email, condivisione del calendario e molto altro."
+        "Include il supporto per 1 dominio email personalizzato, 10 indirizzi email, 10 alias hide-my-email, condivisione del calendario e altro ancora."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzo email, alias Hide-my-email illimitati, condivisione dei calendari e molto altro.",
-        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzi email, alias Hide-my-email illimitati, condivisione dei calendari e molto altro."
+        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzo email, alias hide-my-email illimitati, condivisione del calendario e altro ancora.",
+        "Include il supporto per 3 domini email personalizzati, ${ addresses } indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
         "Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrato e molto altro."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Proteggi le tue email e i tuoi impegni con la crittografia end-to-end. Include il supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
+        "Proteggi le tue email e il tuo calendario con la crittografia end-to-end. Sono inclusi: supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati, condivisione del calendario e altro ancora."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Proteggi i tuoi file con l'archiviazione su cloud crittografata. Include la cronologia delle versioni, la condivisione di file crittografati e molto altro."
+        "Proteggi i tuoi file con l'archiviazione in cloud crittografata. Sono incluse la cronologia delle versioni, la sincronizzazione automatica, la condivisione di file crittografati e altre funzioni ancora."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
         "NetShield è progettato su misura per proteggere i dispositivi e accelerare la navigazione bloccando annunci, tracker e malware."
@@ -1501,7 +1501,7 @@
         "Lo spazio di archiviazione è condiviso tra tutte le app ${ BRAND_NAME }."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
-        "Archivia fino a 200 versioni di ogni file per un massimo di 10 anni."
+        "Archivia oltre 200 versioni di ciascun file per un massimo di 10 anni."
       ]
     },
     "Billing cycle": {
@@ -3577,7 +3577,7 @@
     },
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
-        "L'inoltro al destinatario verrà terminato."
+        "L'inoltro all'indirizzo di destinazione verrà terminato."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -3640,10 +3640,10 @@
         "Inoltro delle email attivato"
       ],
       "Request confirmation": [
-        "Conferma della richiesta"
+        "Chiedi la conferma"
       ],
       "Set up forwarding": [
-        "Configurazione dell'inoltro"
+        "Configura l'inoltro"
       ]
     },
     "email_forwarding_2023: Warning": {

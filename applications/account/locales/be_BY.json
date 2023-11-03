@@ -12551,7 +12551,7 @@
     },
     "specialoffer: Title": {
       "Black Friday Sale": [
-        "Распродаж з нагоды \"Чорнай Пятніцы\""
+        "Распродаж з нагоды \"Чорнай пятніцы\""
       ],
       "Cyber Week Sale": [
         "Распродаж з нагоды \"Кібертыдня\""
@@ -15139,6 +15139,206 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Дадайце наш менеджар пароляў з шыфраваннем** усяго за ${ price }"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Дадайце ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Дадайце ${ plan } за ${ price } у месяц"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Дадайце ${ plan } у свой тарыфны план падпісаўшыся на 15 месяцаў"
+      ],
+      "Become a Visionary": [
+        "Атрымаць тарыфны план Visionary"
+      ],
+      "Cancel": [
+        "Скасаваць"
+      ],
+      "Close": [
+        "Закрыць"
+      ],
+      "Get the deal": [
+        "Скарыстацца прапановай"
+      ],
+      "Remove": [
+        "Выдаліць"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Выдаліць ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Падпішыцеся на 15 месяцаў і атрымайце наш **менеджар пароляў з шыфраваннем** усяго за ${ priceNoSuffix } дадатковай платы ў месяц!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } прасторы ў сховішчы"
+      ],
+      "1 user": [
+        "1 карыстальнік"
+      ],
+      "3 TB": [
+        "3 ТБ"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Больш за 3000 сервераў у больш як 65 краінах"
+      ],
+      "6 users": [
+        "6 карыстальнікаў"
+      ],
+      "Access content worldwide": [
+        "Доступ да змесціва па ўсім свеце"
+      ],
+      "Ad-blocker and malware protection": [
+        "Блакіроўшчык рэкламы і абарона ад шкодных праграм"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Усе платныя функцыі ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Пашыраная гісторыя версій"
+      ],
+      "High speed streaming": [
+        "Высакахуткасныя трансляцыі"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Прэміяльны ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Прэміяльны ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Прэміяльны ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Прэміяльны менеджар пароляў"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Скідкі разлічваюцца на падставе стандартнай платы за месяц."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Ваша падпіска будзе аўтаматычна падаўжацца са стандартнай скідкай і працягвацца ў канцы перыяду аплаты."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Эканомце з прапановамі \"Чорнай пятніцы\" на высакахуткасным швейцарскім VPN"
+      ],
+      "Select your Black Friday offer": [
+        "Выберыце прапанову \"Чорнай пятніцы\""
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Усе прэміяльныя сэрвісы ${ BRAND_NAME }. Адна простая падпіска."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "Бяспечны прагляд і прэміяльныя функцыі VPN."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Гэта прапанова недаступна з вашым бягучым тарыфным планам."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Гэта прапанова недаступна з вашым бягучым тарыфным планам, але вы можаце атрымаць скідку ў памеры **${ discountPercentage } на тарыфны план ${ plan.Title }** пры падпісцы на **${ months }**."
+      ]
+    },
+    "bf2023: Info": {
+      "6 TB storage (2x more than any other plan)": [
+        "Сховішча памерам у 6 ТБ (у 2 разы больш, чым на іншых тарыфных планах)"
+      ],
+      "6 users": [
+        "6 карыстальнікаў"
+      ],
+      "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
+        "Станьце самым заўзятым падтрымальнікам. Атрымайце доступ да ўсіх бягучых і будучых сэрвісаў ${ BRAND_NAME }."
+      ],
+      "Exclusive features and early access": [
+        "Эксклюзіўныя функцыі і ранні доступ"
+      ],
+      "Help us fight for online privacy": [
+        "Дапамажыце нам у барацьбе за прыватнасць у інтэрнэце"
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "Прэміяльныя функцыі ўсіх сэрвісаў ${ BRAND_NAME }"
+      ],
+      "The ${ plan } plan is back for a limited time only": [
+        "Тарыфны план ${ plan } вярнуўся на абмежаваны час."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Гарантыя вяртання грашовых сродкаў на працягу 30 дзён"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } месяц",
+        "першыя ${ n } месяцы",
+        "першыя ${ n } месяцаў",
+        "першыя ${ n } месяцаў"
+      ],
+      "the first month": [
+        "першы месяц"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Спецыяльны зніжаны кошт у памеры ${ discountedPrice } дзейнічае за ${ discountedMonths }. Пасля гэтага будзе выканана аўтаматычнае падаўжэнне са зніжаным коштам у памеры ${ nextPrice } за ${ nextMonths }. Скасаваць можна ў любы момант."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Спецыяльны зніжаны кошт у памеры ${ discountedPrice } дзейнічае за першы месяц аплаты. Пасля гэтага будзе выканана аўтаматычнае падаўжэнне з коштам у памеры ${ nextPrice } за кожны месяц. Скасаваць можна ў любы момант."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Прапанова недаступна"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Доступ да заблакіраванага змесціва і прыватны прагляд старонак у інтэрнэце. Уключае 3000 сервераў, якія ахопліваюць 65 краін, найвышэйшую хуткасць VPN, доступ да сэрвісаў з трансляцыямі па ўсім свеце, блакіроўку шкодных праграм і рэкламы, хуткія спампоўванні ў BitTorrent, а таксама іншыя функцыі."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Атрымлівайце доступ да змесціва сэрвісаў з трансляцыямі, такіх як Netflix, Disney+, Prime Video з любой краіны ў свеце."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Абыходзьце блакіроўкі і цэнзуру ў сваёй краіне з дапамогай нашай глабальнай сеткі сервераў."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку 1 карыстальніцкага дамена электроннай пошты, 10 адрасоў электроннай пошты, 10 псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, ${ addresses } адраса электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Бяспечныя запісы ўваходу на ўсіх вашых прыладах. Уключае неабмежаваную колькасць псеўданімаў, абагульненне, інтэграцыю з 2ФА і іншыя функцыі."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Абараніце свае лісты і расклад з дапамогай скразнога шыфравання. Уключае падтрымку карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў электроннай пошты hide-my-email, абагульванне календара, а таксама іншыя функцыі."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае гісторыю версій, абагулены доступ да зашыфраваных файлаў і іншыя функцыі."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Адмыслова распрацаваная функцыя NetShield абароніць вашы прылады і паскорыць прагляд старонак, дзякуючы блакіраванню рэкламы, праграм сачэння і шкодных праграм."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Прастора сховішча размеркавана паміж усімі праграмамі ${ BRAND_NAME }"
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Захоўвайце да 200 версій кожнага файла да 10 гадоў."
       ]
     }
   }

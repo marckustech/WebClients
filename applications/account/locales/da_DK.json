@@ -10011,6 +10011,9 @@
       ],
       "Set up filters to automatically reply to, sort, and/or label your emails": [
         "Opsæt filtre til automatisk at besvare, sortere og/eller sætte etiketter på dine e-mails"
+      ],
+      "When sending to other ${ MAIL_APP_NAME } users, encryption is automatic. Sending to non-${ MAIL_APP_NAME_TWO } users requires setting a password prior to sending.": [
+        "Når du sender til andre ${ MAIL_APP_NAME } brugere, er krypteringen automatisk. Afsendelse til ikke-${ MAIL_APP_NAME_TWO } brugere kræver en adgangskode før afsendelse."
       ]
     },
     "new_plans: upgrade": {

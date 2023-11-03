@@ -14788,6 +14788,9 @@
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
         "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium lösenordshanterare"
       ]
     },
     "bf2023: header": {
@@ -14830,6 +14833,9 @@
       ],
       "The ${ plan } plan is back for a limited time only": [
         "Paketet ${ plan } är tillbaka endast under en begränsad tid"
+      ],
+      "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
+        "Bli en supersupporter. Få åtkomst till alla nuvarande och framtida ${ BRAND_NAME }-tjänster."
       ]
     },
     "bf2023: Offers": {
@@ -14888,6 +14894,17 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Lagra upp till 200 versioner av varje fil i upp till 10 år."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Säkra din e-post och kalender med end-to-end-kryptering. Inkluderar stöd för anpassade e-postdomäner, 15 e-postadresser, obegränsat antal hide-my-email-alias, kalenderdelning och mer."
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Rabatterna är baserade på ordinarie månadspriser."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Din prenumeration kommer förnyas automatiskt till det rabatterade standardpriset i slutet av din faktureringsperiod."
       ]
     }
   }

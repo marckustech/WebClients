@@ -1069,6 +1069,18 @@
       ],
       "Zoom out": [
         "축소"
+      ],
+      "Continue with Outlook": [
+        "Outlook으로 계속하기"
+      ],
+      "Import from Google": [
+        "Google에서 가져오기"
+      ],
+      "Import from Outlook": [
+        "Outlook에서 가져오기"
+      ],
+      "Keep my Plus subscription": [
+        "나의 Plus 구독 유지"
       ]
     },
     "action": {
@@ -2895,6 +2907,12 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "iCal 포맷 (ICS 파일)으로 이벤트를 불러올 수 있습니다. 파일 크기가 최대 ${ MAX_IMPORT_FILE_SIZE_STRING } 및 최대 ${ MAX_IMPORT_EVENTS_STRING } 이벤트를 가지고 있어야 합니다. 만약 파일이 너무 크다면, 작은 파일들로 분할해 주십시오."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV 파일 및 VCF 파일을 통한 불러오기를 위해, 파일이 ${ MAX_IMPORT_FILE_SIZE_STRING } 또는 ${ MAX_IMPORT_CONTACTS_STRING } 연락처를 초과하지 않도록 하십시오. 파일이 더 크면, 더 작은 파일로 나누세요. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Google 및 Outlook에서 콘텐츠를 불러오려면, ${ easySwitchLink }"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3204,6 +3222,12 @@
       ],
       "Set up email forwarding": [
         "이메일 가져오기 설정"
+      ],
+      "Delete this condition": [
+        "이 조건 삭제"
+      ],
+      "Remove “${ value }”": [
+        "\"${ value }\" 삭제"
       ]
     },
     "email_forwarding_2023: Error": {
@@ -3226,6 +3250,36 @@
       ],
       "Forwarding to this address will become active once the recipient accepts the forwarding.": [
         "수신자가 전달을 수락하면 이 주소로의 전달이 활성화됩니다."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "전달자가 초대되었고 초대를 수락/거부하거나 업데이트해야 합니다."
+      ],
+      "Forwarding is active": [
+        "포워딩이 활성 상태입니다."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "주소를 종단간 암호화 없이 가져오려면 사용자의 ${ boldForwarderEmail } 이메일 주소에 종단간 암호화 비활성화가 필요합니다. "
+      ],
+      "No incoming forwarding rules": [
+        "들어오는 포워딩 규칙 없음."
+      ],
+      "No outgoing forwarding rules": [
+        "나가는 포워딩 규칙 없음."
+      ],
+      "Please update your forwarding keys": [
+        "포워딩 키를 업데이트 하세요."
+      ],
+      "The forwardee rejected the forwarding request": [
+        "전달자가 포워딩 요청을 거절했습니다."
+      ],
+      "The forwarding is temporarily paused": [
+        "이 포워딩이 일시적으로 중단되었습니다."
+      ],
+      "You can safely close this tab.": [
+        "이 탭을 닫아도 안전합니다."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "${ boldForwarderEmail }으로 부터 전송된 이메일을 자동으로 받지 않습니다."
       ]
     },
     "email_forwarding_2023: Placeholder": {
@@ -3776,6 +3830,9 @@
       ],
       "Zero keys reactivated": [
         "제로 키 재활성화됨"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "지정한 수신자가 캘린더 공유를 지원하지 않습니다."
       ]
     },
     "Error importing calendar": {
@@ -7493,6 +7550,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "유료 구독은 Mozilla에서 관리합니다. Mozilla 지원에 연락하세요."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "취소시, 만료일인 ${ expiryDate }에 ${ planTitle } 구독이 더 이상 갱신되지 않습니다."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "오늘 부터 Plus 기능을 잃게 됩니다."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "오늘 부터 Plus 서버 및 기능들에 접근할 수 없게 됩니다."
       ]
     },
     "info": {
@@ -10970,6 +11036,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "사용자의 조직이 ${ free }에 접근했습니다. 프리미엄 ${ appName } 기능에 접근하려면, 조직 관리자로 업그레이드를 요청하시기 바랍니다."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "다만 **${ upsellPlanTitle }**으로 업그레이드 하여 ${ discount } 할인된 가로 사용할 수 있습니다. - 오직 ${ relativePrice } 당 개월만 추가하면 됩니다."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "다만 **${ upsellPlanTitle }**으로 업그레이드 하여 ${ discount } 할인된 가로 사용할 수 있습니다."
       ]
     },
     "pass_signup_2023: Title": {
@@ -11106,6 +11178,9 @@
       ],
       "yourdomain.com": [
         "yourdomain.com"
+      ],
+      "Thomas Anderson": [
+        "홍길동"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -14329,6 +14404,299 @@
       ],
       "Yearly, ${ untilString }": [
         "년간, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "단 ${ price }으로 **암호화된 비밀번호 관리자를 추가하세요**"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } 추가"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "${ price } 당 개월로 ${ plan } 추가"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "15개월 구독하여 ${ plan }을(를) 사용자의 플랜에 추가"
+      ],
+      "Become a Visionary": [
+        "Visionary가 되기"
+      ],
+      "Cancel": [
+        "취소"
+      ],
+      "Close": [
+        "닫기"
+      ],
+      "Get the deal": [
+        "혜택 얻기"
+      ],
+      "Remove": [
+        "제거"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } 삭제"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "오직 ${ priceNoSuffix } 당 개월만 추가하여 15개월 동안 **암호화된 비밀번호 관리자**를 구독하세요!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus 및 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } 저장공간"
+      ],
+      "1 user": [
+        "사용자 1명"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65개 국가에서 3,000개 이상의 서버"
+      ],
+      "6 users": [
+        "사용자 6명"
+      ],
+      "Access content worldwide": [
+        "전세계의 콘텐츠 접근"
+      ],
+      "Ad-blocker and malware protection": [
+        "광고 차단기 및 멀웨어 보호"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "모든 ${ MAIL_SHORT_APP_NAME } 및 ${ CALENDAR_APP_NAME } 유료 기능"
+      ],
+      "Extended version history": [
+        "연장된 버전 기록"
+      ],
+      "High speed streaming": [
+        "고속 스트리밍"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "프리미엄 암호 관리자"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "할인은 표준 월별 가격을 기본으로 합니다."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "구독은 결제일 주기가 끝날 때 표준 할인율 요금으로 자동 갱신됩니다."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "빠른 속도의 스위스 VPN 혜택을 블랙 프라이데이로 할인되게 누리세요."
+      ],
+      "Select your Black Friday offer": [
+        "당신의 블랙 프라이데이 제안 선택"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "모든 프리미엄 ${ BRAND_NAME } 서비스. 쉬운 구독."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "브라우징을 보호하고 프리미엄 VPN 기능을 누리세요."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "죄송합니다, 현재 사용자의 플랜에서는 이 제안이 제공되지 않습니다."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "죄송합니다, 현재 사용자의 플랜에서는 이 제안이 제공되지 않습니다. 다만 **${ months }**로 구독할 때 **${ plan.Title }을(를) ${ discountPercentage }** 할인된 가격으로 구매 가능합니다."
+      ]
+    },
+    "bf2023: Info": {
+      "6 TB storage (2x more than any other plan)": [
+        "6 TB 스토리지 (다른 플랜 보다 두 배 많음)"
+      ],
+      "6 users": [
+        "사용자 6명"
+      ],
+      "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
+        "슈퍼 서포터가 되세요. 현재 및 미래의 ${ BRAND_NAME } 서비스에 접근하세요."
+      ],
+      "Exclusive features and early access": [
+        "특별 기능 및 얼리 엑세스"
+      ],
+      "Help us fight for online privacy": [
+        "온라인 프라이버시와 함께 싸우는데 동참해 주세요."
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "모든 ${ BRAND_NAME } 서비스의 프리미엄 기능"
+      ],
+      "The ${ plan } plan is back for a limited time only": [
+        "${ plan } 플랜은 제한된 시간에만 적용됩니다."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30일 무료체험"
+      ]
+    },
+    "bf2023: renew": {
+      "the first ${ n } months": [
+        "${ n }개월"
+      ],
+      "the first month": [
+        "첫 달"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "이 특별 할인가 (${ discountedPrice })는 ${ discountedMonths }개월에 한합니다. 그 이후로는 ${ nextMonths }개월 동안 ${ nextPrice }으로 갱신됩니다. 언제든지 취소 가능합니다."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "이 특별 할인가 (${ discountedPrice })는 첫 달에 한합니다. 자동으로 다음 달 부터는 ${ nextPrice }으로 갱신됩니다. 언제든지 취소 가능합니다."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "제안 사용 불가"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "65개 이상의 국가의 3,000여개 서버로 차단된 콘텐츠에 접근하고 비공개적으로 브라우징 하고, 빠른 VPN 속도, 개 VPN 연결, 월드와이드 스트리밍 서비스, 멀웨어 및 광고 차단기 등을 누리십시오."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "어디서든지 스트리밍 서비스에서 콘텐츠를 접근하세요, Netflix, Disney+, Prime Video 등이 포함됩니다."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Proton의 글로벌 서버 네트워크로 인터넷 차단 및 검열을 우회하세요."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1개 커스텀 이메일 도메인, 10개 이메일 주소, 10개 Hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "3개 커스텀 이메일 도메인, ${ addresses }개 이메일 주소, 무제한 hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "무제한 별명, 공유, 통합된 2FA 등을 포함하는 비밀번호 관리자로 모든 기기에서 로그인을 보호하세요."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "사용자 지정 이메일 도메인, 15개 이메일 주소, 무제한 hide-my-email 별명 등 기능을 포함하는 이메일과 공유 캘린더를 지원하는 보안 캘린더로 보호하세요."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "버전 기록, 암호화 파일 공유 등을 포함한 암호화된 클라우드 저장공간으로 파일을 보호하세요."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "특별히 설계된 NetShield는 광고, 추적기 및 맬웨어를 차단하여 장치를 보호하고 브라우징 속도를 높입니다."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "스토리지 공간은 모든 ${ BRAND_NAME } 앱 전반적으로 공유됩니다."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "최대 10년간 각 파일의 최대 200개의 버전을 저장하세요."
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switch 불러오기 마법사를 사용하세요."
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "업그레이드하여 이메일 포워딩을 통해 다가오는 정보를 쉽게 관리하면서 프리미엄 기능들도 누려보세요."
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "이 링크 열기를 다시 시도하세요."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "사용자로 전달된 이메일은 제외되며 전달되지 않습니다."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "동작"
+      ],
+      "From": [
+        "보낸 사람"
+      ],
+      "Status": [
+        "상태"
+      ],
+      "To": [
+        "받는 사람"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "내가 보낸 항목"
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "그리고"
+      ],
+      "Forward from": [
+        "전달한 사람:"
+      ],
+      "Forward to": [
+        "다음으로 전달:"
+      ],
+      "or": [
+        "또는"
+      ],
+      "Or": [
+        "또는"
+      ],
+      "With attachment": [
+        "첨부 파일 있음"
+      ],
+      "Without attachment": [
+        "첨부 파일 없음"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "더 알아보기"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "내가 받은 항목"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "해당 경로 주소의 포워딩이 중단됩니다."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "활성"
+      ],
+      "Declined": [
+        "거부됨"
+      ],
+      "Outdated": [
+        "만료"
+      ],
+      "Paused": [
+        "일시 정지됨"
+      ],
+      "Pending": [
+        "보류 중"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "경고"
       ]
     }
   }

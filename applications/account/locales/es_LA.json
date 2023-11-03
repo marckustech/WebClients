@@ -1310,16 +1310,16 @@
     },
     "bf2023: Action": {
       "**Add our encrypted password manager** for only ${ price }": [
-        "**Agregue nuestro administrador de contraseñas cifradas** solo por ${ price }"
+        "**Añada nuestro gestor cifrado de contraseñas** por solo ${ price }"
       ],
       "Add ${ PASS_APP_NAME }": [
-        "Agregue ${ PASS_APP_NAME }"
+        "Añadir ${ PASS_APP_NAME }"
       ],
       "Add ${ plan } for ${ price } per month": [
-        "Agregue ${ plan } por ${ price } al mes"
+        "Añada ${ plan } por ${ price } al mes"
       ],
       "Add ${ plan } to your plan by subscribing to 15 months": [
-        "Agregue ${ plan } a su plan suscribiéndose por 15 meses"
+        "Añada ${ plan } a su plan al suscribirse durante 15 meses"
       ],
       "Become a Visionary": [
         "Elija Visionary"
@@ -1340,7 +1340,7 @@
         "Eliminar ${ PASS_APP_NAME }"
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
-        "Suscríbase durante 15 meses y obtenga nuestro **administrador de contraseñas cifradas** por solo ${ priceNoSuffix } adicionales cada mes."
+        "Suscríbase durante 15 meses y obtenga nuestro **gestor cifrado de contraseñas** por solo ${ priceNoSuffix } adicionales cada mes."
       ]
     },
     "bf2023: Deal details": {
@@ -1414,21 +1414,21 @@
         "Navegación segura y funciones VPN premium."
       ],
       "Sorry, this offer is not available with your current plan.": [
-        "Lo sentimos, esta oferta no está disponible con tu plan actual."
+        "Lo sentimos, esta oferta no está disponible con su plan actual."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Lo sentimos, esta oferta no está disponible con tu plan actual. Pero puedes obtener **${ discountPercentage } de ${ plan.Title }** al suscribirte durante **${ months }**."
+        "Lo sentimos, esta oferta no está disponible con su plan actual. Pero puede obtener **${ discountPercentage } de ${ plan.Title }** al suscribirse durante **${ months }**."
       ]
     },
     "bf2023: Info": {
       "6 TB storage (2x more than any other plan)": [
-        "6 TB de almacenamiento (2 veces más que cualquier otro plan)"
+        "6 TB de almacenamiento (el doble que cualquier otro plan)"
       ],
       "6 users": [
         "6 usuarios"
       ],
       "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
-        "Denos todo su apoyo y acceda a todos los servicios actuales y futuros de ${ BRAND_NAME }."
+        "Denos su apoyo y acceda a todos los servicios actuales y futuros de ${ BRAND_NAME }."
       ],
       "Exclusive features and early access": [
         "Funciones exclusivas y acceso anticipado"
@@ -4198,7 +4198,7 @@
         "Ocurrió un error al cargar el archivo ${ formattedFilename }. El tamaño máximo del archivo es ${ MAX_IMPORT_FILE_SIZE_STRING }."
       ],
       "An error occurred uploading your file ${ formattedFilename }. No .csv or .vcf file selected": [
-        "Ocurrió un error al subir el archivo ${ formattedFilename }. No se seleccionó un archivo .csv o .vcf"
+        "Ocurrió un error al cargar el archivo ${ formattedFilename }. No se seleccionó un archivo .csv o .vcf"
       ],
       "An error occurred uploading your file. No file has been selected.": [
         "Ocurrió un error al cargar el archivo. Ningún archivo fue seleccionado."
@@ -9007,7 +9007,7 @@
         "Añada el siguiente registro TXT. Tome en cuenta que los registros DNS pueden tomar varias horas para actualizarse."
       ],
       "Please select files to upload": [
-        "Seleccione archivos para subir"
+        "Seleccione archivos para cargar"
       ],
       "Please share any feedback to help us improve.": [
         "Compártanos cualquier comentario para ayudarnos a mejorar."
@@ -11828,7 +11828,7 @@
         "Buscar"
       ],
       "Upload": [
-        "Subir"
+        "Cargar"
       ],
       "Upload additional files": [
         "Cargar archivos adicionales"

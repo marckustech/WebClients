@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Keep my Plus subscription": [
+        "ჩემი Plus გამოწერის შენარჩუნება"
       ]
     },
     "action": {
@@ -7723,6 +7726,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "თქვენი გამოწერა Mozilla-ს მიერ იმართება. დაუკავშირდით მათ მხარდაჭერის გუნდს."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "თუ გააუქმებთ, თქვენი გამოწერა ${ planTitle } არ განახლდება, როცა ვადა გაუვა თარიღზე ${ expiryDate }."
+      ],
+      "You will lose access to Plus features on this date.": [
+        "ამ თარიღის დადგომისას Plus-ის თვისებებთან წვდომას დაკარგავთ."
       ]
     },
     "info": {
@@ -11380,6 +11389,9 @@
       ],
       "yourdomain.com": [
         "yourdomain.com"
+      ],
+      "Thomas Anderson": [
+        "ნაზიბროლა ღობეგლეჯიაშვილი"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -14690,6 +14702,144 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME }-ის დამატება"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "დაამატეთ ${ plan } თვეში ${ price }-ად"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "დაამატეთ ${ plan } თქვენს ტარიფს, 15 თვით გამოწერით"
+      ],
+      "Become a Visionary": [
+        "გახდით Visionary"
+      ],
+      "Cancel": [
+        "გაუქმება"
+      ],
+      "Close": [
+        "დახურვა"
+      ],
+      "Get the deal": [
+        "ფასდაკლების მიღება"
+      ],
+      "Remove": [
+        "წაშლა"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME }-ის წაშლა"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } საცავი"
+      ],
+      "1 user": [
+        "1 მომხმარებელი"
+      ],
+      "3 TB": [
+        "3 ტბ"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3,000+ სერვერი 65+ ქვეყანაში"
+      ],
+      "6 users": [
+        "6 მომხმარებელი"
+      ],
+      "Access content worldwide": [
+        "იქონიეთ წვდომა შემცველობასთან მთელი დედამიწიდან"
+      ],
+      "Ad-blocker and malware protection": [
+        "რეკლამების ბლოკირება და არასასურველი პროგრამებისგან დაცვა"
+      ],
+      "Extended version history": [
+        "გაფართოებული ვერსიის ისტორია"
+      ],
+      "High speed streaming": [
+        "ჩქაროსნული სტრიმინგი"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "პაროლების მმართველის ფასიანი ვერსია"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "ფასდაკლებები თვეში ერთხელ გადახდის ფასებს ეყრდნობა."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "თქვენი გამოწერა გადახდის ციკლის ბოლოს სტანდარტული ფასდაკლების ტარიფით და ხანგრძლივობით განახლდება."
+      ]
+    },
+    "bf2023: header": {
+      "Select your Black Friday offer": [
+        "აირჩიეთ თქვენი შავი პარასკევის შეთავაზება"
+      ]
+    },
+    "bf2023: info": {
+      "Secure browsing and premium VPN features.": [
+        "ინტერნეტში უსაფრთხოდ მუშაობა და ფასიანი VPN-ის თვისებები."
+      ]
+    },
+    "bf2023: Info": {
+      "6 TB storage (2x more than any other plan)": [
+        "6 ტბ საცავი (2-ჯერ მეტი, ვიდრე ნებისმიერი სხვა ტარიფი)"
+      ],
+      "6 users": [
+        "6 მომხმარებელი"
+      ],
+      "Exclusive features and early access": [
+        "ექსკლუზიური თვისებები და ადრეული წვდომა"
+      ],
+      "Help us fight for online privacy": [
+        "დაგვეხმარეთ, ვებრძოლოთ ონლაინ-ცენზურას"
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "ყველა ${ BRAND_NAME }-ის სერვისის ფასიანი ვერსია"
+      ],
+      "The ${ plan } plan is back for a limited time only": [
+        "ტარიფი ${ plan } მოკლე დროით დაგვიბრუნდა"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 დღიანი გარანტირებული ფულის დაბრუნება"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } თვე",
+        "პირველი ${ n } თვე"
+      ],
+      "the first month": [
+        "პირველი თვე"
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "შეთავაზება ხელმიუწვდომელია"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "შეიცავს 1 თქვენი ელფოსტის დომენის, 10 ელფოსტის მისამართის, 10 Hide-my-email-ის მეტსახელს, კალენდრის გაზიარებას და სხვ."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "უსაფრთხო შესვლა ყველა თქვენს მოწყობილობაზე. შეიცავს განუსაზღვრელ ფსევდონიმებს, გაზიარებას, ჩაშენებულ 2FA-ს და სხვ."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "დაიცავით თქვენი ფაილები დაშიფრული ღრუბლოვანი საცავით. ეს შეიცავს ვერსიების ისტორიას, დაშიფრულ ფაილების გაზიარებას და ბევრ სხვას."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "NetShield-ი იცავს თქვენს მოწყობილობებს და აჩქარებს ინტერნეტში მუშაობას რეკლამების, ტრეკერების და არასასურველი პროგრამების დაბლოკვით."
       ]
     }
   }

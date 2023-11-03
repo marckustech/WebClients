@@ -4600,7 +4600,7 @@
     },
     "familyOffer_2023:Tooltip": {
       "Includes 2700 servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
-        "Beserta 2700 server di 65+ negara, hubungan sampai 10 perangkat, akses layanan streaming seluruh dunia, pemblokiran malware dan iklan, dan lebih banyak lagi."
+        "Beserta 2700 server di 65+ negara, hubungan sampai 10 perangkat, akses layanan streaming seluruh dunia, pemblokiran perangkat lunak jahat dan iklan, dan lebih banyak lagi."
       ],
       "Includes support for 3 custom email domains, 90 email addresses, unlimited hide-my-email aliases, calendar sharing and more.": [
         "Beserta dukungan untuk 3 domain surel kustom, 90 alamat surel, alias Hide-my-email tidak terbatas, pembagian kalender, dan lebih banyak lagi."
@@ -9764,7 +9764,7 @@
         "99.95% SLA"
       ],
       "Ad-blocker and malware protection": [
-        "Pemblokiran iklan dan perlindungan malware"
+        "Pemblokiran iklan dan perlindungan perangkat lunak jahat"
       ],
       "Admin console": [
         "Konsol admin"
@@ -10230,7 +10230,7 @@
         "${ MAIL_APP_NAME }: Amankan surel Anda dengan enkripsi ujung ke ujung. Meliputi dukungan domain surel kustom, 15 alamat surel, alias hide-my-email tak terbatas, dan masih banyak lagi."
       ],
       "${ VPN_APP_NAME }: Access blocked content and browse privately. Includes ${ serversAndCountries }, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "${ VPN_APP_NAME }: Akses konten yang terblokir dan jelajahi secara privat. Meliputi ${ serversAndCountries }, kecepatan VPN tertinggi, akses layanan streaming di seluruh dunia, pemblokir malware dan iklan, unduhan BitTorrent yang cepat, dan masih banyak lagi."
+        "${ VPN_APP_NAME }: Akses konten yang terblokir dan jelajahi secara privat. Meliputi ${ serversAndCountries }, kecepatan VPN tertinggi, akses layanan streaming di seluruh dunia, pemblokir perangkat lunak jahat dan iklan, unduhan BitTorrent yang cepat, dan masih banyak lagi."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere": [
         "Akses berbagai konten streaming seperti Netflix, Disney+, dan Prime Video di mana pun Anda berada"
@@ -11277,6 +11277,9 @@
       ],
       "yourdomain.com": [
         "domainanda.com"
+      ],
+      "Thomas Anderson": [
+        "Andi Setiawan"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -12136,10 +12139,10 @@
     },
     "specialoffer: Tooltip": {
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections per user, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Akses konten terblokir dan jelajahi secara pribadi. Beserta 1700 server di 60+ negara, kecepatan VPN tertinggi, 10 koneksi VPN per pengguna, layanan streaming seluruh dunia, pemblokir malware dan iklan, dan lebih banyak lagi."
+        "Akses konten terblokir dan jelajahi secara pribadi. Beserta 1700 server di 60+ negara, kecepatan VPN tertinggi, 10 koneksi VPN per pengguna, layanan streaming seluruh dunia, pemblokir perangkat lunak jahat dan iklan, dan lebih banyak lagi."
       ],
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Akses konten terblokir dan jelajahi secara pribadi. Beserta 1700 server di 60+ negara, kecepatan VPN tertinggi, 10 koneksi VPN, layanan streaming seluruh dunia, pemblokir malware dan iklan, dan lebih banyak lagi."
+        "Akses konten terblokir dan jelajahi secara pribadi. Beserta 1700 server di 60+ negara, kecepatan VPN tertinggi, 10 koneksi VPN, layanan streaming seluruh dunia, pemblokir perangkat lunak jahat dan iklan, dan lebih banyak lagi."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere.": [
         "Akses konten di layanan streaming, termasuk Netflix, Disney+, dan Prime Video, dari mana pun."
@@ -14503,6 +14506,200 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Tambahkan pengelola kata sandi terenkripsi kami** dengan harga ${ price } saja"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Tambah ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Tambahkan ${ plan } seharga ${ price } per bulan"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Tambahkan ${ plan } ke paket Anda dengan berlangganan selama 15 bulan"
+      ],
+      "Become a Visionary": [
+        "Tingkatkan ke Visionary"
+      ],
+      "Cancel": [
+        "Batal"
+      ],
+      "Close": [
+        "Tutup"
+      ],
+      "Get the deal": [
+        "Dapatkan penawaran ini"
+      ],
+      "Remove": [
+        "Hapus"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Hapus ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Berlangganan selama 15 bukan dan dapatkan **pengelola kata sandi terenkripsi** kami dengan harga ${ priceNoSuffix } tambahan per bulan!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus dan ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "Penyimpanan ${ storageSize }"
+      ],
+      "1 user": [
+        "1 pengguna"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3000+ server di 65+ negara"
+      ],
+      "6 users": [
+        "6 pengguna"
+      ],
+      "Access content worldwide": [
+        "Akses konten di seluruh dunia"
+      ],
+      "Ad-blocker and malware protection": [
+        "Pemblokir iklan dan perlindungan perangkat lunak jahat"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Semua fitur ${ MAIL_SHORT_APP_NAME } dan ${ CALENDAR_APP_NAME } yang berbayar"
+      ],
+      "Extended version history": [
+        "Riwayat versi lebih mendalam"
+      ],
+      "High speed streaming": [
+        "Streaming berkecepatan tinggi"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME } Premium"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } Premium"
+      ],
+      "Premium Password Manager": [
+        "Pengelola Kata Sandi Premium"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Diskon berdasarkan penetapan harga standar per bulan."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Langganan Anda akan diperbarui secara otomatis dengan tarif dan durasi diskon standar di akhir siklus tagihan Anda."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Hemat dengan penawaran Jumat Hitam di VPN Swiss berkecepatan tinggi"
+      ],
+      "Select your Black Friday offer": [
+        "Pilih penawaran Jumat Hitam Anda"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Semua layanan ${ BRAND_NAME } premium. Satu langganan mudah."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "Penjelajahan aman dan fitur VPN premium."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Maaf, penawaran ini tidak tersedia dengan paket Anda saat ini."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Maaf, penawaran ini tidak tersedia dengan paket Anda saat ini. Tetapi, Anda bisa mendapatkan **diskon ${ discountPercentage } untuk ${ plan.Title }** jika Anda berlangganan selama **${ months }**."
+      ]
+    },
+    "bf2023: Info": {
+      "6 TB storage (2x more than any other plan)": [
+        "Penyimpanan 6 TB (2x lebih dari paket lainnya)"
+      ],
+      "6 users": [
+        "6 pengguna"
+      ],
+      "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
+        "Jadilah pendukung super. Dapatkan akses ke semua layanan ${ BRAND_NAME } saat ini dan di masa depan."
+      ],
+      "Exclusive features and early access": [
+        "Fitur ekslusif dan akses awal"
+      ],
+      "Help us fight for online privacy": [
+        "Bantu kami berjuang untuk privasi daring"
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "Versi premium layanan ${ BRAND_NAME }"
+      ],
+      "The ${ plan } plan is back for a limited time only": [
+        "Paket ${ plan } kembali dalam waktu yang terbatas"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Jaminan uang kembali dalam 30 hari"
+      ]
+    },
+    "bf2023: renew": {
+      "the first ${ n } months": [
+        "dalam ${ n } bulan pertama"
+      ],
+      "the first month": [
+        "bulan pertama"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Harga ${ discountedPrice } yang didiskon masih valid untuk ${ discountedMonths }. Lalu akan diperbarui secara otomatis dengan harga ${ nextPrice } untuk ${ nextMonths }. Anda dapat membatalkan kapan pun."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Harga ${ discountedPrice } yang didiskon masih valid untuk bulan pertama. Lalu akan diperbarui secara otomatis dengan harga ${ nextPrice } setiap bulan. Anda dapat membatalkan kapan pun."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Penawaran tidak tersedia"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Akses konten terblokir dan jelajahi secara privat. Termasuk 3000+ server di 65+ negara, kecepatan VPN tertinggi, akses layanan streaming di seluruh dunia, pemblokir perangkat lunak jahat dan pemblokir iklan, unduhan BitTorrent yang cepat, dan lainnya."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Akses konten di layanan streaming termasuk Netflix, Disney+, Prime Video, dan lainnya, dari mana pun."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Lewati pemblokiran dan penyensoran internet lokal dengan jaringan server global kami."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Termasuk dukungan untuk 1 domain surel kustom, 10 alamat surel, 10 alias hide-my-email, pembagian kalender, dan lainnya."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Termasuk dukungan untuk 3 alamat surel kustom, ${ addresses } alamat surel, alias hide-my-email tak terbatas, pembagian kalender, dan lainnya."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Masuk secara aman di semua perangkat Anda. Termasuk alias terbatas, pembagian, 2FA terintegrasi, dan lainnya."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Amankan surel Anda dan jadwalkan dengan enkripsi ujung ke ujung. Termasuk dukungan untuk beberapa domain surel kustom, 15 alamat surel, alias hide-my-email tak terbatas, pembagian kalender, dan lainnya."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Amankan berkas Anda dengan penyimpanan awan aman. Termasuk riwayat versi, pembagian berkas terenkripsi, dan lainnya."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Dirancang secara khusus, NetShield melindungi perangkat Anda dan mempercepat penjelajahan Anda dengan memblokir iklan, pelacak, dan perangkat lunak jahat."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Ruang penyimpanan dibagikan dengan semua aplikasi ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Simpan hingga 200 versi berkas sampai 10 tahun."
       ]
     }
   }

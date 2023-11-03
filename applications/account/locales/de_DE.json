@@ -1310,16 +1310,16 @@
     },
     "bf2023: Action": {
       "**Add our encrypted password manager** for only ${ price }": [
-        "**Füge unseren verschlüsselten Passwortmanager** für nur ${ price } hinzu"
+        "**Füge unseren verschlüsselten Passwortmanager** für nur ${ price } hinzu."
       ],
       "Add ${ PASS_APP_NAME }": [
         "${ PASS_APP_NAME } hinzufügen"
       ],
       "Add ${ plan } for ${ price } per month": [
-        "Füge ${ plan } für ${ price } pro Monat hinzu"
+        "Füge ${ plan } für ${ price } pro Monat hinzu."
       ],
       "Add ${ plan } to your plan by subscribing to 15 months": [
-        "Füge ${ plan } zu deinem Abonnement hinzu, indem du 15 Monate abonnierst"
+        "Füge ${ plan } zu deinem Abonnement hinzu, indem du 15 Monate abonnierst."
       ],
       "Become a Visionary": [
         "Werde ein Visionary"
@@ -1340,7 +1340,7 @@
         "${ PASS_APP_NAME } entfernen"
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
-        "Für 15 Monate abonnieren und unseren **verschlüsselten Passwortmanager** für nur ${ priceNoSuffix } extra pro Monat erhalten!"
+        "Schließe ein Abonnement für 15 Monate ab und erhalte unseren **verschlüsselten Passwortmanager** für nur ${ priceNoSuffix } zusätzlich pro Monat!"
       ]
     },
     "bf2023: Deal details": {
@@ -1414,10 +1414,10 @@
         "Sicheres Surfen und Premium-VPN-Funktionen."
       ],
       "Sorry, this offer is not available with your current plan.": [
-        "Dieses Angebot ist mit deinem aktuellen Tarif leider nicht verfügbar."
+        "Dieses Angebot ist mit deinem aktuellen Abonnement leider nicht verfügbar."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Dieses Angebot ist mit deinem aktuellen Tarif leider nicht verfügbar. Aber du kannst **${ discountPercentage } auf ${ plan.Title }** bekommen, wenn du dich für **${ months }** anmeldest."
+        "Dieses Angebot ist mit deinem aktuellen Abonnement leider nicht verfügbar. Du kannst aber **${ discountPercentage } auf ${ plan.Title }** erhalten, wenn du dich für **${ months }** anmeldest."
       ]
     },
     "bf2023: Info": {

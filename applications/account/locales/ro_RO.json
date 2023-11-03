@@ -1069,6 +1069,15 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Continue with Outlook": [
+        "Continuare cu Outlook"
+      ],
+      "Import from Google": [
+        "Importare din Google"
+      ],
+      "Import from Outlook": [
+        "Importare din Outlook"
       ]
     },
     "action": {
@@ -2917,6 +2926,12 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Puteți importa evenimente în format iCal (fișier ICS). Fișierul ar trebui să aibă dimensiunea maximă de ${ MAX_IMPORT_FILE_SIZE_STRING } și să aibă până la ${ MAX_IMPORT_EVENTS_STRING } evenimente. Dacă fișierul este mai mare, împărțiți-l în fișiere mai mici."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Pentru a importa prin fișier CSV sau VCF, asigurați-vă că fișierul nu depășește ${ MAX_IMPORT_FILE_SIZE_STRING } sau ${ MAX_IMPORT_CONTACTS_STRING } de contacte. Dacă fișierul este mai mare, împărțiți-l în fișiere mai mici. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Pentru a vă importa contactele din Google sau Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3178,6 +3193,45 @@
     "email_forwarding_2023: Info": {
       "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, end-to-end encryption for the forwarding address will be disabled.": [
         "Redirecționarea către adresele ${ BRAND_NAME } vă va menține criptate comunicațiile în ambele părți. La redirecționarea externă, criptarea în ambele părți pentru adresa de redirecționare va fi dezactivată."
+      ],
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "Va fi trimis un mesaj de confirmare pe adresa ${ boldForwardeeEmail }"
+      ],
+      "A new encryption key will be generated for ${ boldForwarderEmail }.": [
+        "Va fi generată o cheie nouă de criptare pentru ${ boldForwarderEmail }."
+      ],
+      "Forwardee is invited and needs to accept/reject the invitation or update": [
+        "Destinatarul redirecționării este invitat și trebuie să accepte/refuze invitația sau să actualizeze."
+      ],
+      "Forwarding is active": [
+        "Redirecționarea este activă."
+      ],
+      "Forwarding to an address without end-to-end encryption requires disabling end-to-end encryption for your ${ boldForwarderEmail } email address. ": [
+        "Redirecționarea spre o adresă cu criptare în ambele părți necesită dezactivarea criptării la ambele capete pentru adresa de e-mail ${ boldForwarderEmail }."
+      ],
+      "Forwarding to this address will become active once the recipient accepts the forwarding.": [
+        "Redirecționarea către această adresă se va activa după ce destinatarul acceptă redirecționarea."
+      ],
+      "No incoming forwarding rules": [
+        "Nu există reguli de intrare pentru redirecționare."
+      ],
+      "No outgoing forwarding rules": [
+        "Nu există reguli de ieșire pentru redirecționare."
+      ],
+      "Please update your forwarding keys": [
+        "Actualizați-vă cheile de redirecționare."
+      ],
+      "The forwardee rejected the forwarding request": [
+        "Destinatarul redirecționării a refuzat solicitarea de redirecționare."
+      ],
+      "The forwarding is temporarily paused": [
+        "Redirecționarea este temporar suspendată."
+      ],
+      "You can safely close this tab.": [
+        "Puteți închide această filă în siguranță."
+      ],
+      "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
+        "Nu veți primi automat mesajele redirecționate de la ${ boldForwarderEmail }."
       ]
     },
     "Enabled 2FA": {
@@ -3675,6 +3729,9 @@
       ],
       "Zero keys reactivated": [
         "Zero taste reactivate."
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Destinatarul vizat nu are suport pentru partajare de calendare."
       ]
     },
     "Error importing calendar": {
@@ -14618,6 +14675,246 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Toate serviciile ${ BRAND_NAME } premium. Un singur abonament simplu."
+      ]
+    },
+    "bf2023: renew": {
+      "the first month": [
+        "prima lună"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Prețul special redus de ${ discountedPrice } este valabil pentru ${ discountedMonths }. Apoi va fi reînnoit automat la prețul redus de ${ nextPrice } pentru ${ nextMonths }. Puteți anula oricând."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Prețul cu reducere specială de ${ discountedPrice } este valabil pentru prima lună. Apoi va fi reînnoit automat cu ${ nextPrice } în fiecare lună. Puteți anula oricând."
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "folosiți asistentul de importare Easy Switch"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "Acceptare"
+      ],
+      "Add condition": [
+        "Adăugare condiție"
+      ],
+      "Add forwarding rule": [
+        "Adăugare regulă redirecționare"
+      ],
+      "Back": [
+        "Înapoi"
+      ],
+      "Cancel": [
+        "Anulare"
+      ],
+      "Decline": [
+        "Refuzare"
+      ],
+      "Delete": [
+        "Ștergere"
+      ],
+      "Delete this condition": [
+        "Ștergere această condiție"
+      ],
+      "Edit conditions": [
+        "Editare condiții"
+      ],
+      "Next": [
+        "Înainte"
+      ],
+      "Pause": [
+        "Suspendare"
+      ],
+      "Re-enable": [
+        "Reactivare"
+      ],
+      "Re-send confirmation email": [
+        "Retrimitere e-mail de confirmare"
+      ],
+      "Remove “${ value }”": [
+        "Eliminare „${ value }”"
+      ],
+      "Request confirmation": [
+        "Cererea de confirmare"
+      ],
+      "Resume": [
+        "Reluare"
+      ],
+      "Save": [
+        "Salvare"
+      ],
+      "Send confirmation email": [
+        "Trimitere e-mail confirmare"
+      ],
+      "Set up email forwarding": [
+        "Setare redirecționare mesaje"
+      ]
+    },
+    "email_forwarding_2023: Description": {
+      "Unlock email forwarding to easily manage incoming information and more premium features when you upgrade.": [
+        "Modificați-vă abonamentul pentru a debloca opțiunea de redirecționare a mesajelor și a vă gestiona cu ușurință informațiile primite și a accesa alte funcții premium."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Condition incomplete, please add a token": [
+        "Condiție incompletă. Adăugați un token."
+      ],
+      "Token already exists": [
+        "Tokenul există deja."
+      ]
+    },
+    "email_forwarding_2023: Forwarding tooltip": {
+      "Emails forwarded to you are excluded and will not be forwarded.": [
+        "Mesajele redirecționate către dvs. sunt excluse și nu vor fi redirecționate."
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Acțiuni"
+      ],
+      "From": [
+        "De la"
+      ],
+      "Status": [
+        "Stare"
+      ],
+      "To": [
+        "Către"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "De la mine"
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "And": [
+        "Și"
+      ],
+      "Forward from": [
+        "Redirecționare de la"
+      ],
+      "Forward to": [
+        "Redirecționare către"
+      ],
+      "or": [
+        "sau"
+      ],
+      "Or": [
+        "Sau"
+      ],
+      "With attachment": [
+        "Cu atașamente"
+      ],
+      "Without attachment": [
+        "Fără atașamente"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Detalii"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Către mine"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Condition:": [
+        "Condiție:"
+      ],
+      "Enter email address": [
+        "Introduceți adresa de e-mail"
+      ],
+      "Type text or keyword": [
+        "Scrieți un text sau cuvânt cheie"
+      ],
+      "Type text or keyword for this condition:": [
+        "Scrieți un text sau un cuvânt cheie pentru această condiție:"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "Forwarding to the destination address will end.": [
+        "Redirecționarea către adresa de destinație se va încheia."
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "Activă"
+      ],
+      "Declined": [
+        "Refuzată"
+      ],
+      "Outdated": [
+        "Învechită"
+      ],
+      "Paused": [
+        "Suspendată"
+      ],
+      "Pending": [
+        "În așteptare"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "A new encryption key has been generated for ${ forwarderEmail }.": [
+        "A fost generată o cheie nouă de criptare pentru ${ forwarderEmail }."
+      ],
+      "Changes saved": [
+        "Modificările au fost salvate."
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "Mesaj trimis către ${ forward.ForwardeeEmail }."
+      ],
+      "Email sent to ${ forwardeeEmail }.": [
+        "Mesaj trimis către ${ forwardeeEmail }."
+      ],
+      "Forwarding accepted": [
+        "Redirecționare acceptată."
+      ],
+      "Forwarding declined": [
+        "Redirecționare refuzată."
+      ],
+      "Forwarding deleted": [
+        "Redirecționare ștearsă."
+      ],
+      "Forwarding paused": [
+        "Redirecționare suspendată."
+      ],
+      "Forwarding resumed": [
+        "Redirecționare reluată."
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Automatically forward emails to other accounts": [
+        "Redirecționare automată mesaje spre alte conturi"
+      ],
+      "Delete forwarding?": [
+        "Ștergere redirecționare?"
+      ],
+      "Email forwarding deactivated": [
+        "Redirecționare e-mail reactivată"
+      ],
+      "Forwarding activated": [
+        "Redirecționare activată"
+      ],
+      "Request confirmation": [
+        "Solicitare confirmare"
+      ],
+      "Set up forwarding": [
+        "Setare redirecționare"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Avertizare"
       ]
     }
   }

@@ -22,7 +22,7 @@ import {
     decryptMemberToken,
     getAddressKeyToken,
     getDefaultKeyFlags,
-    getSignedKeyList,
+    getSignedKeyListWithDeferredPublish,
     splitKeys,
 } from '@proton/shared/lib/keys';
 import { getActiveKeyObject, getActiveKeys, getNormalizedActiveKeys } from '@proton/shared/lib/keys/getActiveKeys';
@@ -129,8 +129,11 @@ export const generateForwardingAddressKey = async ({
         flags: getDefaultKeyFlags(address),
     });
     const updatedActiveKeys = getNormalizedActiveKeys(address, [newActiveKey]);
-    const SignedKeyList = await getSignedKeyList(activeKeys, address, keyTransparencyVerify);
-
+    const [SignedKeyList, onSKLPublishSuccess] = await getSignedKeyListWithDeferredPublish(
+        activeKeys,
+        address,
+        keyTransparencyVerify
+    );
     const { Key } = await api(
         createAddressKeyRouteV2({
             AddressID: address.ID,
@@ -142,6 +145,7 @@ export const generateForwardingAddressKey = async ({
             AddressForwardingID: addressForwardingID,
         })
     );
+    await onSKLPublishSuccess();
     newActiveKey.ID = Key.ID;
 
     return [newActiveKey, updatedActiveKeys] as const;

@@ -5406,6 +5406,7 @@ __metadata:
     "@proton/cross-storage": "workspace:packages/cross-storage"
     "@proton/crypto": "workspace:packages/crypto"
     "@proton/eslint-config-proton": "workspace:packages/eslint-config-proton"
+    "@proton/i18n": "workspace:packages/i18n"
     "@proton/shared": "workspace:packages/shared"
     "@types/jasmine": ^5.1.0
     "@types/pkijs": 0.0.14

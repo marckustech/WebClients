@@ -1115,7 +1115,7 @@
         "Aktualizujte frázu na obnovenie"
       ],
       "Upgrade": [
-        "Aktualizovať"
+        "Prejsť na platený plán"
       ],
       "Upgrade now": [
         "Aktualizovať teraz"
@@ -1912,7 +1912,7 @@
         "Prejsť do zložky Odoslané"
       ],
       "Go to Spam": [
-        "Prejsť do zložky nevyžiadanej pošty"
+        "Prejsť do zložky Spam"
       ],
       "Go to Starred": [
         "Prejsť do zložky Obľúbené"
@@ -4227,7 +4227,7 @@
     },
     "Filter option to only show message with attachments": {
       "Has file": [
-        "Má súbor"
+        "S prílohou"
       ]
     },
     "Filter preview": {
@@ -4267,7 +4267,7 @@
         "Malé"
       ],
       "Very large": [
-        "Veľmi veľká"
+        "Veľmi veľké"
       ],
       "Very small": [
         "Veľmi malé"
@@ -5336,7 +5336,7 @@
         "Emailová adresa"
       ],
       "Email is forwarded to your mailbox; your email address stays hidden.": [
-        "Email je preposielaný do vašej poštovej schránky, vaša emailová adresa zostáva skrytá."
+        "Email je preposielaný do vašej poštovej schránky a vaša emailová adresa zostáva skrytá."
       ],
       "Email tracker protection is disabled": [
         "Ochrana sledovania emailov je vypnutá"
@@ -5921,7 +5921,7 @@
         "Je tam chyba v podpise používania na overenie detailu kontaktu, kedy je to možno dôvod na resetovanie hesla."
       ],
       "They can't spam you if they don't know your email address. Protect your inbox with hide-my-email aliases.": [
-        "Nemôžu vám posielať spam, ak nepoznajú vašu emailovú adresu. Chráňte svoju doručenú poštu s hide-my-email aliasmi."
+        "Ak nepoznajú vašu emailovú adresu, nemôžu vám posielať spam. Chráňte svoju emailovú schránku pomocou aliasov na skrytie emailu (hide-my-email)."
       ],
       "This account has been suspended due to a potential policy violation.": [
         "Tento účet bol zablokovaný kvôli možnému porušeniu pravidiel."
@@ -6360,6 +6360,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefónne číslo bude použité iba pre toto jednorazové overenie."
+      ],
+      "Please use another browser or download the file.": [
+        "Použite iný prehliadač alebo si súbor stiahnite."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Náhľad tohto typu súboru nie je v súčasnosti v tomto prehliadači podporovaný."
       ]
     },
     "info": {
@@ -6470,13 +6476,13 @@
         "Prejsť do zložky Odoslané"
       ],
       "Go to Spam": [
-        "Prejsť na zložku nevyžiadanej pošty"
+        "Prejsť do zložky Spam"
       ],
       "Go to Starred": [
         "Prejsť do zložky Obľúbené"
       ],
       "Go to Trash": [
-        "Prejsť do koša"
+        "Prejsť do zložky Kôš"
       ],
       "Insert link": [
         "Vložiť odkaz"
@@ -6545,7 +6551,7 @@
         "Otvoriť predchádzajúcu správu"
       ],
       "Open this modal": [
-        "Otvorte tento spôsob"
+        "Otvoriť tento spôsob"
       ],
       "Reply": [
         "Odpovedať"
@@ -6575,7 +6581,7 @@
         "Zobraziť pôvodnú správu"
       ],
       "Show unread emails": [
-        "Zobrazenie neprečítaných emailov"
+        "Zobraziť neprečítané emaily"
       ],
       "Star": [
         "Hviezdička"
@@ -6729,7 +6735,7 @@
         "Podmienky"
       ],
       "Confirm password": [
-        "Potvrdiť heslo"
+        "Potvrďte heslo"
       ],
       "Contacts": [
         "Kontakty"
@@ -9408,7 +9414,7 @@
         "Mazanie kontaktov"
       ],
       "Don't give spam a chance": [
-        "Nedávajte spamu šancu"
+        "Nedajte spamu šancu"
       ],
       "Edit contact": [
         "Upraviť kontakt"
@@ -10287,6 +10293,104 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } úložisko"
+      ],
+      "1 user": [
+        "1 používateľ"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3000+ serverov v 65+ krajinách"
+      ],
+      "6 users": [
+        "6 používateľov"
+      ],
+      "Access content worldwide": [
+        "Prístup k obsahu z celého sveta"
+      ],
+      "Ad-blocker and malware protection": [
+        "Ad-blocker a ochrana pred škodlivým softvérom"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Všetky funkcie plateného ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Rozšírená história verzií"
+      ],
+      "High speed streaming": [
+        "Vysokorýchlostné streamovanie"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiový ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Prémiový správca hesiel"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Zľavy sú tvorené na základe štandardných mesačných cien."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Vaše predplatné sa automaticky obnoví za štandardnú zľavnenú sadzbu a trvanie na konci vášho fakturačného cyklu."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30-dňová záruka vrátenia peňazí"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Získajte prístup k blokovanému obsahu a surfujte v súkromí. Obsahuje 3000+ serverov v 65+ krajinách, najvyššie rýchlosti VPN, prístup k celosvetovým streamovacím službám, blokovanie malvéru a reklám, rýchle sťahovanie cez BitTorrent a ďalšie."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Získajte prístup k obsahu na streamovacích službách vrátane Netflix, Disney+ a Prime Video odkiaľkoľvek."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Obíďte obmedzenia a cenzúru miestneho internetu pomocou našej globálnej siete serverov."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Zahŕňa podporu pre 1 vlastnú emailovú doménu, 10 emailových adries, 10 hide-my-email aliasov, zdieľanie kalendára a ďalšie."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailová adresa, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailové adresy, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Bezpečné prihlásenie na všetkých zariadeniach. Zahŕňa neobmedzený počet aliasov, zdieľanie, integrované 2FA a ďalšie funkcie."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zabezpečte svoje emaily pomocou end-to-end šifrovania. Súčasťou je podpora vlastných emailových domén, 15 emailových adries, neobmedzený počet ide-my-email aliasov a ďalšie."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Zabezpečte svoje súbory pomocou šifrovaného cloudového úložiska. Zahŕňa históriu verzií, zdieľanie šifrovaných súborov a ďalšie."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Špeciálne navrhnutý NetShield chráni vaše zariadenia a zrýchľuje vaše prehliadanie tým, že blokuje reklamy, sledovače a malvér."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Úložný priestor je zdieľaný medzi všetkými aplikáciami ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Uložte až 200 verzií každého súboru až na 10 rokov."
       ]
     }
   }

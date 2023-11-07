@@ -9612,6 +9612,38 @@
       "${ users } users": [
         "${ users } 個使用者"
       ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } 儲存空間"
+      ],
+      "1 user": [
+        "1 位使用者"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 個使用者"
+      ],
+      "Extended version history": [
+        "展開版本紀錄"
+      ],
+      "High speed streaming": [
+        "高速串流"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "進階版 ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "進階版 ${ MAIL_SHORT_APP_NAME } 與 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "進階版 ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "進階版密碼管理器"
+      ]
     }
   }
 }

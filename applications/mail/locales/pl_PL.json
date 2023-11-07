@@ -6333,6 +6333,12 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "Do ${ FAMILY_MAX_USERS } użytkowników"
+      ],
+      "Please use another browser or download the file.": [
+        "Użyj innej przeglądarki lub pobierz plik."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Podgląd tego pliku nie jest obsługiwany w tej przeglądarce."
       ]
     },
     "info": {
@@ -8603,7 +8609,7 @@
     },
     "specialoffer: Title": {
       "Black Friday Sale": [
-        "Wyprzedaż Black Friday"
+        "Wyprzedaż z okazji Czarnego Piątku"
       ],
       "Cyber Week Sale": [
         "Wyprzedaż Cyber Week"

@@ -10395,6 +10395,12 @@
         "Zdieľanie trezora (s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendár na používateľa",
+        "${ n } kalendáre na používateľa",
+        "${ n } kalendárov na používateľa",
+        "${ n } kalendárov na používateľa"
       ]
     },
     "new_plans: feature info": {
@@ -11698,6 +11704,18 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Vyberte počet IP adries, ktoré chcete zahrnúť do svojho plánu. Každá ďalšia IP stojí ${ price }. Ak potrebujete viac ako ${ maxIPs } IP, prosím ${ contactHref } náš obchodný tím"
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } náš Predajný tím, prosím."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Vyberte počet IP, ktoré chcete zahrnúť do svojho plánu. Každá ďalšia IP stojí ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {

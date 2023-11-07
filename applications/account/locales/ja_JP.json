@@ -9894,6 +9894,9 @@
       ],
       "User session management": [
         "ユーザーセッション管理"
+      ],
+      "${ n } calendars": [
+        "${ n } カレンダー"
       ]
     },
     "new_plans: feature info": {

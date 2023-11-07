@@ -1428,7 +1428,7 @@
         "6 utilisateurs"
       ],
       "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
-        "Apportez-nous tout votre soutien et accédez à tous les services actuels et futurs de ${ BRAND_NAME }."
+        "Rejoignez ceux qui nous soutiennent le plus. Accédez à tous les services existants et à venir de ${ BRAND_NAME }."
       ],
       "Exclusive features and early access": [
         "Des fonctionnalités exclusives et un accès en avant-première"
@@ -3080,7 +3080,7 @@
         "Chiffrement et importation des contacts en cours, ceci peut prendre quelques minutes. Une fois le processus terminé, vous pourrez fermer cette fenêtre."
       ],
       "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
-        "Pour effectuer une importation à l'aide d'un fichier CSV ou VCF, assurez-vous que le fichier ne dépasse pas ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contacts. Si votre fichier est plus grand, découpez-le en fichiers plus petits. ${ learnMoreLink }"
+        "Pour importer à partir d'un fichier CSV ou VCF, assurez-vous que le fichier ne dépasse pas ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contacts. Si votre fichier est plus volumineux, divisez-le en plusieurs fichiers plus petits. ${ learnMoreLink }"
       ],
       "Get up to ${ credits } in credits by inviting friends to ${ BRAND_NAME }.": [
         "Recevez jusqu'à ${ credits } de crédits en invitant vos amis à rejoindre ${ BRAND_NAME }."
@@ -10365,6 +10365,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Partage du coffre-fort (${ n } personne)",
         "Partage du coffre-fort (jusqu'à ${ n } personnes)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendrier par utilisateur",
+        "${ n } calendriers par utilisateur"
       ]
     },
     "new_plans: feature info": {
@@ -11355,16 +11359,16 @@
         "Tous les services premium de ${ BRAND_NAME }."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
-        "Vous pouvez toutefois obtenir -${ discount } en passant à **${ upsellPlanTitle }** pour seulement ${ relativePrice } en plus par mois."
+        "Vous pouvez quand même profiter de -${ discount } en passant à **${ upsellPlanTitle }** pour seulement ${ relativePrice } en plus par mois."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
-        "Vous pouvez toutefois obtenir -${ discount } en passant à **${ upsellPlanTitle }**."
+        "Vous pouvez quand même profiter de -${ discount } en passant à **${ upsellPlanTitle }**."
       ],
       "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
         "Vous pouvez tout de même débloquer **${ unlockPlanTitle }** et tous les services premium de ${ BRAND_NAME } en passant à **${ upsellPlanTitle }**, pour seulement ${ relativePrice } de plus par mois."
       ],
       "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }**.": [
-        "Vous pouvez toutefois débloquer **${ unlockPlanTitle }** et tous les services premium de ${ BRAND_NAME } en passant à l'abonnement **${ upsellPlanTitle }**."
+        "Vous pouvez quand même profiter de **${ unlockPlanTitle }** et tous les services premium de ${ BRAND_NAME } en passant à l'abonnement **${ upsellPlanTitle }**."
       ],
       "By continuing, you agree to our ${ termsAndConditions }": [
         "En continuant, vous acceptez nos ${ termsAndConditions }."
@@ -11646,6 +11650,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Sélectionnez le nombre d'adresses IP à inclure dans votre abonnement. Chaque adresse IP supplémentaire coûte ${ price }. Si vous avez besoin de plus de ${ maxIPs } adresses IP, ${ contactHref } notre équipe commerciale."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } notre équipe commerciale."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Sélectionnez le nombre d'IP à inclure dans votre abonnement. Chaque IP supplémentaire coûte ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si vous avez besoin de plus de ${ maxIPs } IP, ",
+        "Si vous avez besoin de plus de ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {

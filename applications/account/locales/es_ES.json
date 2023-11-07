@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "action": {
@@ -7955,6 +7958,9 @@
       ],
       "They will be removed from your organization": [
         "Se eliminarán de tu organización."
+      ],
+      "View, download, and manage your invoices.": [
+        "Ve, descarga y gestiona tus facturas."
       ]
     },
     "info": {
@@ -7994,6 +8000,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Añade tu nombre (o nombre de la empresa) y dirección a tus facturas."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Ingresa un nombre y dirección para ti o tu organización. Estos datos se agregarán tanto a las facturas personales como a las facturas de la organización."
       ]
     },
     "Info on errors": {
@@ -9272,6 +9281,9 @@
       ],
       "Your referral link": [
         "Tu enlace de referido"
+      ],
+      "Name and address": [
+        "Nombre y dirección"
       ]
     },
     "label": {
@@ -10365,6 +10377,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartir la caja fuerte (hasta ${ n } persona)",
         "Compartir la caja fuerte (hasta ${ n } personas)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario por usuario",
+        "${ n } calendarios por usuario"
       ]
     },
     "new_plans: feature info": {
@@ -11646,6 +11662,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Selecciona el número de IPs por incluir en tu plan. Cada IP adicional cuesta ${ price }. Si necesitas más de ${ maxIPs } IPs, ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "contacta ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Elige el número de IP para incluir en tu plan. Cada IP adicional cuesta ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si necesitas más de ${ maxIPs } IP, ",
+        "Si necesitas más de ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -14142,6 +14168,9 @@
       ],
       "Forward and Auto-reply": [
         "Reenvío y respuesta automática"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

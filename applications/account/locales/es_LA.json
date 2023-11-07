@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "action": {
@@ -7955,6 +7958,9 @@
       ],
       "They will be removed from your organization": [
         "Se eliminarán de su organización"
+      ],
+      "View, download, and manage your invoices.": [
+        "Vea, descargue y gestione sus facturas."
       ]
     },
     "info": {
@@ -7994,6 +8000,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Añada su nombre (o nombre de la empresa) y dirección a sus facturas."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Ingrese un nombre y dirección para usted o su organización. Estos datos se agregarán tanto a las facturas personales como a las facturas de la organización."
       ]
     },
     "Info on errors": {
@@ -9272,6 +9281,9 @@
       ],
       "Your referral link": [
         "Su enlace de referencia"
+      ],
+      "Name and address": [
+        "Nombre y dirección"
       ]
     },
     "label": {
@@ -10365,6 +10377,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartir bóveda (hasta ${ n } persona)",
         "Compartir bóveda (hasta ${ n } personas)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario por usuario",
+        "${ n } calendarios por usuario"
       ]
     },
     "new_plans: feature info": {
@@ -11652,6 +11668,10 @@
       ],
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
         "Elija el número de IPs para incluir en su plan. Cada IP adicional cuesta ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si necesita más de ${ maxIPs } IP, ",
+        "Si necesita más de ${ maxIPs } IPs, "
       ]
     },
     "plan customizer, users": {
@@ -14148,6 +14168,9 @@
       ],
       "Forward and Auto-reply": [
         "Reenvío y respuesta automática"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

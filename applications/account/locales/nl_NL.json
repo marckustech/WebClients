@@ -4734,6 +4734,10 @@
       "Megabyte": [
         "Megabyt",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter Actions": {
@@ -7675,6 +7679,18 @@
       ],
       "Your account was successfully updated with this promotion": [
         "Uw account werd succesvol bijgewerkt met deze promotie."
+      ],
+      "${ amountOfAddresses } address": [
+        "${ amountOfAddresses } adres",
+        "${ amountOfAddresses } adressen"
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } meer",
+        "${ remainingAddresses.length } meer"
+      ],
+      "${ remainingAddresses.length } more address": [
+        "${ remainingAddresses.length } extra adres",
+        "${ remainingAddresses.length } extra adressen"
       ]
     },
     "info": {
@@ -10085,6 +10101,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kluis delen (tot ${ n } persoon)",
         "Kluis delen (tot ${ n } personen)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } agenda per gebruiker",
+        "${ n } agenda's per gebruiker"
       ]
     },
     "new_plans: feature info": {

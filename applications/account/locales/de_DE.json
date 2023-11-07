@@ -10365,6 +10365,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Tresor teilen (bis zu ${ n } Person)",
         "Tresor teilen (bis zu ${ n } Personen)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } Kalender je Benutzer",
+        "${ n } Kalender je Benutzer"
       ]
     },
     "new_plans: feature info": {
@@ -11646,6 +11650,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Wähle die Anzahl der IPs, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }. Solltest du mehr als ${ maxIPs } IPs benötigen, kontaktiere bitte ${ contactHref } unser Vertriebsteam."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } bitte unser Verkaufsteam."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Wähle die Anzahl der IP''s aus, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Solltest du mehr als ${ maxIPs } IP benötigen, ",
+        "Solltest du mehr als ${ maxIPs } IP's benötigen, "
       ]
     },
     "plan customizer, users": {

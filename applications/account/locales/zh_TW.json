@@ -7325,6 +7325,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "您的訂閱是由 Mozilla 管理。請聯絡 Mozilla 支援。"
+      ],
+      "${ amountOfAddresses } addresses": [
+        "${ amountOfAddresses } 個電郵位址"
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } 以上"
+      ],
+      "${ remainingAddresses.length } more addresses": [
+        "${ remainingAddresses.length }更多的電子郵件地址"
       ]
     },
     "info": {
@@ -14215,6 +14224,11 @@
     "email_forwarding_2023: Placeholder": {
       "Enter email address": [
         "輸入電子郵件地址"
+      ]
+    },
+    "bf2023: renew": {
+      "the first ${ n } months": [
+        "${ n }月"
       ]
     }
   }

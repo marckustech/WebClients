@@ -1057,6 +1057,18 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Download our CSV template": [
+        "Descarrega la nostra plantilla CSV"
+      ],
+      "Keep my Plus subscription": [
+        "Mantén la meva subscripció Plus"
+      ],
+      "Sign in with SSO": [
+        "Inicieu la sessió amb SSO"
+      ],
+      "sign up for free": [
+        "creeu un compte gratuïtament"
       ]
     },
     "action": {
@@ -3167,6 +3179,12 @@
       ],
       "Set up email forwarding": [
         "Configura el reenviament de correu electrònic"
+      ],
+      "Add forwarding rule": [
+        "Afegeix una regla de reenviament"
+      ],
+      "Re-send confirmation email": [
+        "Torna a enviar el correu de confirmació"
       ]
     },
     "email_forwarding_2023: Header": {
@@ -3232,6 +3250,9 @@
       ],
       "Enter email address": [
         "Introduïu la vostra adreça de correu electrònic."
+      ],
+      "Type text or keyword": [
+        "Escrigui text o una paraula clau."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -3771,6 +3792,9 @@
       ],
       "Zero keys reactivated": [
         "Cap clau s'ha reactivat"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "El destinatari escollit no admet la compartició de calendari."
       ]
     },
     "Error importing calendar": {
@@ -4604,6 +4628,10 @@
       "Megabyte": [
         "megabyte",
         "megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter Actions": {
@@ -7366,6 +7394,22 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "La vostra subscripció és gestionada per Mozilla. Contacteu amb el suport de Mozilla."
+      ],
+      "${ remainingAddresses.length } more address": [
+        "${ remainingAddresses.length } adreça més",
+        "${ remainingAddresses.length } adreces més"
+      ],
+      "Billed at ${ price }": [
+        "Facturat a ${ price }"
+      ],
+      "Promotion expired": [
+        "La promoció ha caducat."
+      ],
+      "Save ${ percentage }": [
+        "Deseu ${ percentage }"
+      ],
+      "Your account has been successfully updated": [
+        "S'ha actualitzat correctament el vostre compte."
       ]
     },
     "info": {
@@ -8739,6 +8783,12 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Missatges de benvinguda de ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Enquesta als usuaris de ${ BRAND_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Noves característiques de ${ MAIL_APP_NAME } i de ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -9101,6 +9151,9 @@
       ],
       "Try ${ planName } for free with this link": [
         "Proveu ${ planName } de forma gratuïta amb aquest enllaç."
+      ],
+      "Find your ${ BRAND_NAME } Account username": [
+        "Troba el vostre nom d'usuari del compte ${ BRAND_NAME }"
       ]
     },
     "Modal title": {
@@ -9728,6 +9781,10 @@
       ],
       "User session management": [
         "Gestió de sessions d'usuari"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendari per usuari",
+        "${ n } calendaris per usuari"
       ]
     },
     "new_plans: feature info": {
@@ -10593,6 +10650,12 @@
       ],
       "Upgrade my plan": [
         "Millora el meu pla"
+      ],
+      "Keep this plan": [
+        "Mantén aquest pla"
+      ],
+      "Upgrade": [
+        "Millora"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -10779,6 +10842,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "La vostra organització té accés a ${ free }. Si voleu accedir a les característiques prèmium de ${ appName }, demaneu a l'administrador de la vostra organització que ho millori."
+      ],
+      "Includes:": [
+        "Inclou:"
+      ],
+      "Welcome to ${ shortName } Plus": [
+        "Us donem la benvinguda a ${ shortName } Plus"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10909,6 +10978,9 @@
       ],
       "yourdomain.com": [
         "elteudomini.com"
+      ],
+      "Thomas Anderson": [
+        "Adrià Pujol"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -11209,6 +11281,9 @@
       ],
       "You can now reset your password": [
         "Ja podeu restablir la vostra contrasenya."
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "Si no heu demanat restablir la teva contrasenya, cancel·leu la sol·licitud ara mateix."
       ]
     },
     "session_recovery:available:link": {
@@ -11301,6 +11376,9 @@
       "You can change your password in ${ gracePeriodHoursRemaining } hour": [
         "Podreu canviar la vostra contrasenya en ${ gracePeriodHoursRemaining } hora.",
         "Podreu canviar la vostra contrasenya en ${ gracePeriodHoursRemaining } hores."
+      ],
+      "If you didn’t ask to reset your password, cancel the request now.": [
+        "Si no heu demanat restablir la teva contrasenya, cancel·leu la sol·licitud ara mateix."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -13307,6 +13385,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Heu estat convidat a provar ${ MAIL_APP_NAME }."
+      ],
+      "Address and key verification": [
+        "Verificació de l'adreça i de la clau"
+      ],
+      "Forward and Auto-reply": [
+        "Reenviament i resposta automàtica"
+      ],
+      "Sign in to your organization": [
+        "Inicieu la sessió a la vostra organització"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13670,6 +13757,9 @@
       ],
       "Other": [
         "Altre"
+      ],
+      "It’s missing a key feature": [
+        "Li falta una característica clau."
       ]
     },
     "VPN info": {
@@ -14078,6 +14168,69 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Afegeix ${ PASS_APP_NAME }"
+      ],
+      "Become a Visionary": [
+        "Trieu Visionary"
+      ],
+      "Cancel": [
+        "Cancel·la"
+      ],
+      "Close": [
+        "Tanca"
+      ],
+      "Get the deal": [
+        "Obtingui l’oferta"
+      ],
+      "Remove": [
+        "Suprimeix"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Suprimeix ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 usuari"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 usuaris"
+      ]
+    },
+    "bf2023: Info": {
+      "6 users": [
+        "6 usuaris"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } mes",
+        "els primers ${ n } mesos"
+      ],
+      "the first month": [
+        "el primer mes"
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "L'oferta no està disponible."
+      ]
+    },
+    "email_forwarding_2023: Error": {
+      "Token already exists": [
+        "El token ja existeix."
+      ]
+    },
+    "mail_signup_2023: Info": {
+      "Secure email that protects your privacy": [
+        "Correu electrònic segur que protegeix la vostra privadesa"
       ]
     }
   }

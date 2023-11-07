@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Pomniejsz"
+      ],
+      "Edit invoice details": [
+        "Edytuj szczegóły faktury"
       ]
     },
     "action": {
@@ -8125,6 +8128,9 @@
       ],
       "They will be removed from your organization": [
         "Spowoduje to usunięcie użytkownika z organizacji"
+      ],
+      "View, download, and manage your invoices.": [
+        "Wyświetlaj, pobieraj i zarządzaj fakturami."
       ]
     },
     "info": {
@@ -8164,6 +8170,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Dodaj swoje imię i nazwisko (lub nazwę firmy) oraz adres do faktury."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Wpisz nazwę i adres organizacji. Te szczegóły zostaną dodane do faktur."
       ]
     },
     "Info on errors": {
@@ -9450,6 +9459,9 @@
       ],
       "Your referral link": [
         "Twój link polecający"
+      ],
+      "Name and address": [
+        "Nazwa i adres"
       ]
     },
     "label": {
@@ -10601,6 +10613,12 @@
         "Udostępnianie sejfu (do ${ n } użytkowników)",
         "Udostępnianie sejfu (do ${ n } użytkowników)",
         "Udostępnianie sejfu (do ${ n } użytkowników)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendarz na użytkownika",
+        "${ n } kalendarze na użytkownika",
+        "${ n } kalendarzy na użytkownika",
+        "${ n } kalendarzy na użytkownika"
       ]
     },
     "new_plans: feature info": {
@@ -11907,6 +11925,15 @@
       ],
       "please ${ contactHref } our Sales team.": [
         "${ contactHref } z naszym zespołem sprzedaży."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Wybierz liczbę adresów IP w planie. Każdy dodatkowy adres IP kosztuje ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Jeśli potrzebujesz więcej niż ${ maxIPs } adres IP, ",
+        "Jeśli potrzebujesz więcej niż ${ maxIPs } adresy IP, ",
+        "Jeśli potrzebujesz więcej niż ${ maxIPs } adresów IP, ",
+        "Jeśli potrzebujesz więcej niż ${ maxIPs } adresów IP, "
       ]
     },
     "plan customizer, users": {
@@ -11917,10 +11944,10 @@
         "Wybierz liczbę użytkowników w planie. Każdy dodatkowy użytkownik kosztuje ${ price }."
       ],
       "Should you need more than ${ maxUsers } user account, please ${ contact } our Sales team.": [
-        "Jeśli potrzebujesz ponad ${ maxUsers } użytkownika, ${ contact } z naszym zespołem sprzedaży.",
-        "Jeśli potrzebujesz ponad ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży.",
-        "Jeśli potrzebujesz ponad ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży.",
-        "Jeśli potrzebujesz ponad ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży."
+        "Jeśli potrzebujesz więcej niż ${ maxUsers } użytkownika, ${ contact } z naszym zespołem sprzedaży.",
+        "Jeśli potrzebujesz więcej niż ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży.",
+        "Jeśli potrzebujesz więcej niż ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży.",
+        "Jeśli potrzebujesz więcej niż ${ maxUsers } użytkowników, ${ contact } z naszym zespołem sprzedaży."
       ]
     },
     "Price": {
@@ -14493,6 +14520,9 @@
       ],
       "Forward and Auto-reply": [
         "Przekierowanie i autoresponder"
+      ],
+      "Edit invoice details": [
+        "Edytuj szczegóły faktury"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

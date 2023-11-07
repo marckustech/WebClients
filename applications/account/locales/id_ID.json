@@ -3319,6 +3319,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Anda tidak akan menerima email yang diteruskan secara otomatis dari ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Meneruskan email secara otomatis ke alamat email lainnya."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Penerusan ke alamat tanpa enkripsi end-to-end akan menonaktifkan enkripsi end-to-end pada alamat ${ boldForwarderEmail } Anda. Meskipun demikian, enkripsi zero-access akan tetap aktif. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3417,6 +3423,9 @@
       ],
       "Forwarding resumed": [
         "Penerusan dilanjutkan"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Email dikirim ke ${ model.forwardeeEmail }"
       ]
     },
     "email_forwarding_2023: Title": {
@@ -4047,16 +4056,16 @@
         "Entri jurnal"
       ],
       "Malformed all-day event": [
-        "Acara sepanjang hari tidak diformat dengan benar"
+        "Acara sepanjang hari tidak terformat dengan benar"
       ],
       "Malformed end time": [
-        "Waktu akhir tidak diformat dengan benar"
+        "Waktu akhir tidak terformat dengan benar"
       ],
       "Malformed recurring event": [
-        "Acara berulang tidak diformat dengan benar"
+        "Acara berulang tidak terformat dengan benar"
       ],
       "Malformed start time": [
-        "Waktu mulai tidak diformat dengan benar"
+        "Waktu mulai tidak terformat dengan benar"
       ],
       "Missing start time": [
         "Waktu mulai hilang"
@@ -4184,7 +4193,7 @@
     },
     "Error notification in the bug report modal when the user upload file": {
       "No image selected": [
-        "Gambar belum dipilih"
+        "Tidak ada gambar yang dipilih"
       ]
     },
     "Error when exporting event from calendar": {
@@ -7658,6 +7667,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Langganan Anda dikelola oleh Mozilla. Silakan hubungi layanan dukungan Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Silakan gunakan browser lain atau unduh berkas yang bersangkutan."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Pratinjau untuk tipe berkas ini untuk sementara belum didukung pada browser ini."
+      ],
+      "They will be removed from your organization": [
+        "Nama-nama ini akan dikeluarkan dari organisasi Anda"
       ]
     },
     "info": {
@@ -9039,6 +9057,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } surel datang"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Survei pengguna ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Pembaruan produk ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Fitur baru ${ MAIL_APP_NAME } dan ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Pembaruan produk ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Pembaruan produk ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -13738,6 +13771,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Anda telah diundang untuk mencoba ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Teruskan dan Balas Otomatis"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14628,7 +14664,7 @@
         "6 pengguna"
       ],
       "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
-        "Jadilah pendukung super. Dapatkan akses ke semua layanan ${ BRAND_NAME } saat ini dan di masa depan."
+        "Jadilah pendukung super kami. Dapatkan akses ke seluruh layanan ${ BRAND_NAME } baik yang saat ini tersedia maupun yang akan datang."
       ],
       "Exclusive features and early access": [
         "Fitur ekslusif dan akses awal"
@@ -14700,6 +14736,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Simpan hingga 200 versi berkas sampai 10 tahun."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Dapatkan berita privasi terkini dan informasi seputar apa-apa saja yang terjadi di semesta ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Isi survei untuk meningkatkan layanan ${ BRAND_NAME }"
       ]
     }
   }

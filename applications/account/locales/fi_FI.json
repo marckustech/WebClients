@@ -3325,6 +3325,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Et vastaanota osoitteesta ${ boldForwarderEmail } ohjattuja viestejä automaattisesti."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Välitä sähköpostit automaattisesti toiseen sähköpostiosoitteeseen."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Edelleenlähetys osoitteeseen, jossa ei ole päästä päähän -salausta, poistaa päästä päähän -salauksen käytöstä ${ boldForwarderEmail } osoitteesttasi, mutta zero-access -salaus pysyy käytössä. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3423,6 +3429,9 @@
       ],
       "Forwarding resumed": [
         "Ohjausta jatkettiin"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Viesti lähetettiin osoitteeseen ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -7736,6 +7745,9 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "Menetät pääsyn Plus-palvelimiin ja -ominaisuuksiin tänä päivänä."
+      ],
+      "They will be removed from your organization": [
+        "Heidät poistetaan organisaatiostasi"
       ]
     },
     "info": {
@@ -9121,6 +9133,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }in tervetuloviestit"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } käyttäjäkysely"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } tuotepäivitykset"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } ja ${ CALENDAR_SHORT_APP_NAME } uusia ominaisuuksia"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } tuotepäivitykset"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } tuotepäivitykset"
       ]
     },
     "Label in domain modal": {
@@ -11257,6 +11284,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Organisaatiollasi on ${ free }-palvelu. Jos haluat käyttää ${ appName } -premium-ominaisuuksia, pyydä organisaatiosi ylläpitoa päivittämään tilaus."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "Mutta voit saada ${ discount } allennusta päivittämällä hintaan **${ upsellPlanTitle }** - se on vain ${ relativePrice } lisää kuukaudessa."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "Mutta voit saada ${ discount } allennusta päivittämällä hintaan **${ upsellPlanTitle }**."
       ]
     },
     "pass_signup_2023: Title": {
@@ -13899,6 +13932,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Sinut on kutsuttu kokeilemaan ${ MAIL_APP_NAME }ia"
+      ],
+      "Forward and Auto-reply": [
+        "Välitä ja automaattivastaa"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14806,6 +14842,9 @@
     "bf2023: header": {
       "Select your Black Friday offer": [
         "Valitse Black Friday -tarjouksesi"
+      ],
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Säästä mustan perjantain tarjouksilla nopeasta sveitsiläisestä VPN:stä"
       ]
     },
     "bf2023: info": {
@@ -14817,6 +14856,9 @@
       ],
       "Sorry, this offer is not available with your current plan.": [
         "Valitettavasti tämä tarjous ei ole saatavilla nykyisen tilauksesi kanssa."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Valitettavasti tämä tarjous ei ole saatavilla nykyisellä tilauksellasi. Mutta voit saada **${ discountPercentage } alennuksen ${ plan.Title }**, kun tilaat **${ months }**."
       ]
     },
     "bf2023: Info": {
@@ -14854,6 +14896,12 @@
       ],
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "Erikoisalennettu hinta ${ discountedPrice } on voimassa vain ensimmäisen kuukauden ajan. Sen jälkeen se uusitaan automaattisesti ${ nextPrice } kuukausihintaan. Voit peruuttaa sen milloin tahansa."
+      ],
+      "the first month": [
+        "ensimmäinen kuukausi"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Erikoisalennettu hinta ${ discountedPrice } on voimassa vain ${ discountedMonths } ajan. Sen jälkeen se uusitaan automaattisesti ${ nextMonths } kuukaudeksi ${ nextPrice } kuukausihintaan. Voit peruuttaa sen milloin tahansa."
       ]
     },
     "bf2023: Title": {
@@ -14895,6 +14943,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Säilytä jopa 200 versiota kustakin tiedostosta jopa 10 vuoden ajan."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Saa viimeisimmät tietosuojauutiset ja mitä tapahtuu ${ BRAND_NAME } -universumissa"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Osallistu kyselyihin parantaaksesi ${ BRAND_NAME } -palveluita"
       ]
     }
   }

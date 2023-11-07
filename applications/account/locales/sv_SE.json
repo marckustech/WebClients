@@ -3330,6 +3330,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Du kommer inte få e-post vidarebefordrade automatiskt från ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Vidarebefordra automatiskt e-post till annan e-postadress."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Vidarebefordran till en adress utan end-to-end-kryptering kommer inaktivera end-to-end-kryptering för din ${ boldForwarderEmail }-adress, men kryptering med noll åtkomst förblir aktiverad. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3428,6 +3434,9 @@
       ],
       "Forwarding resumed": [
         "Vidarebefordran återupptagen"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "E-post skickas till ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -7733,6 +7742,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Din prenumeration hanteras av Mozilla. Kontakta Mozillas support."
+      ],
+      "Please use another browser or download the file.": [
+        "Använd en annan webbläsare eller ladda ner filen."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Förhandsgranskning för denna filtyp stöds för närvarande inte i denna webbläsare."
+      ],
+      "They will be removed from your organization": [
+        "De kommer att tas bort från din organisation"
       ]
     },
     "info": {
@@ -9118,6 +9136,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }-välkomstmeddelande"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Användarundersökning för ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nya funktioner för ${ MAIL_APP_NAME } och ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -11409,6 +11442,12 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Välj antalet IP:n som ska inkluderas i ditt paket. Varje ytterligare IP kostar ${ price }. Skulle du behöva fler än ${ maxIPs } IP:n, ${ contactHref } vårt säljteam."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } vårt säljteam."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Välj antalet IP som ska inkluderas i ditt paket. Varje ytterligare IP kostar ${ price }."
       ]
     },
     "plan customizer, users": {
@@ -13902,6 +13941,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du har blivit inbjuden att prova ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Vidarebefordran och autosvar"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14905,6 +14947,14 @@
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
         "Din prenumeration kommer förnyas automatiskt till det rabatterade standardpriset i slutet av din faktureringsperiod."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Få de senaste integritetsnyheterna och vad som händer i ${ BRAND_NAME }-universumet"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Delta i undersökningar för att förbättra ${ BRAND_NAME }-tjänsterna"
       ]
     }
   }

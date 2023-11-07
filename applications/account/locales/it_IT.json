@@ -66,7 +66,7 @@
         "Aggiungi"
       ],
       "Add ${ BRAND_NAME } Account": [
-        "Aggiungi un Account ${ BRAND_NAME }"
+        "Aggiungi un account ${ BRAND_NAME }"
       ],
       "Add address": [
         "Aggiungi indirizzo"
@@ -438,7 +438,7 @@
         "Esporta chiave"
       ],
       "Export key before deleting": [
-        "Esporta chiave prima di eliminare"
+        "Esporta la chiave prima di eliminarla"
       ],
       "Extend": [
         "Estendi"
@@ -588,7 +588,7 @@
         "Carica di più"
       ],
       "Loading verification": [
-        "Caricamento verifica"
+        "Caricamento della verifica in corso"
       ],
       "Manage communication preferences": [
         "Gestisci le preferenze di comunicazione"
@@ -1331,7 +1331,7 @@
         "Chiudi"
       ],
       "Get the deal": [
-        "Ottieni l'offerta"
+        "Approfitta dell'offerta"
       ],
       "Remove": [
         "Rimuovi"
@@ -1551,13 +1551,13 @@
         "Problema con Bridge"
       ],
       "Calendar problem": [
-        "Problema con il calendario"
+        "Problema con Calendar"
       ],
       "Connection problem": [
         "Problema di connessione"
       ],
       "Contacts problem": [
-        "Problema con i contatti"
+        "Problema con Contacts"
       ],
       "Custom domain problem": [
         "Problema con un dominio personalizzato"
@@ -1566,7 +1566,7 @@
         "Problema con Drive"
       ],
       "Feature request": [
-        "Richiedi Funzionalità"
+        "Richiedi una funzionalità"
       ],
       "Import / export problem": [
         "Problema di importazione/esportazione"
@@ -3220,7 +3220,7 @@
         "Abbonamento troppo costoso"
       ],
       "Switching to a different provider": [
-        "Passaggio a un altro provider"
+        "Passaggio a un fornitore differente"
       ],
       "Temporary need, may come back in the future": [
         "Necessità temporanea, potrei tornare in futuro"
@@ -3526,6 +3526,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Non riceverai email inoltrate automaticamente da ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Inoltra automaticamente le email a un altro indirizzo email."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Inoltrare a un indirizzo senza crittografia end-to-end disabiliterà la crittografia end-to-end per il tuo indirizzo ${ boldForwarderEmail }, ma la crittografia zero access rimane abilitata. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3624,6 +3630,9 @@
       ],
       "Forwarding resumed": [
         "Inoltro ripreso"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Email inviata a ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -3792,7 +3801,7 @@
         "Codice ${ name } non valido"
       ],
       "Invalid card number": [
-        "Numero carta non valido"
+        "Numero della carta non valido"
       ],
       "Invalid code": [
         "Codice non valido"
@@ -4056,7 +4065,7 @@
         "Questo nome dell'etichetta non è disponibile. Scegli un nome diverso."
       ],
       "This message may contain some links URL that cannot be properly opened by your current browser.": [
-        "Questo messaggio potrebbe contenere alcuni link URL che non possono essere aperti correttamente dal browser corrente."
+        "Questo messaggio potrebbe contenere alcuni link URL che non possono essere aperti correttamente dal browser attuale."
       ],
       "Trusted keys are not valid for sending": [
         "Le chiavi attendibili non sono valide per l'invio"
@@ -4131,7 +4140,7 @@
         "È necessario impostare un nome"
       ],
       "You need to have a custom domain address in order to generate an SMTP submission token.": [
-        "È necessario disporre di un indirizzo di dominio personalizzato per generare un token di invio SMTP."
+        "Devi avere un indirizzo di dominio personalizzato per poter generare un token di inoltro SMTP."
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Il tuo account o la tua organizzazione ha una fattura scaduta. Paga tutte le fatture non pagate."
@@ -4481,7 +4490,7 @@
         "Scopri come ripristinare gli eventi crittografati con la vecchia password"
       ],
       "Loading events": [
-        "Caricamento eventi"
+        "Caricamento degli eventi in corso"
       ],
       "None of the events could be exported.": [
         "Nessuno degli eventi può essere esportato."
@@ -6445,7 +6454,7 @@
         "Inserisci il tuo numero di telefono di recupero e ti invieremo il tuo nome utente o indirizzo email."
       ],
       "Event invitations and RSVPs will be sent in this language.": [
-        "Gli inviti agli eventi e gli RSVP verranno inviati in questa lingua."
+        "Gli inviti agli eventi e le richieste di confermazione di partecipazione verranno inviati in questa lingua."
       ],
       "Expired": [
         "Scaduto"
@@ -6505,7 +6514,7 @@
         "qui"
       ],
       "Hides identifying information by loading remote content through a proxy. Option to store content as attachments.": [
-        "Nasconde le informazioni di identificazione caricando il contenuto remoto tramite un proxy. Possibilità di memorizzare i contenuti come allegati."
+        "Nasconde le informazioni di identificazione caricando i contenuti remoti tramite un proxy. Possibilità di memorizzare i contenuti come allegati."
       ],
       "If another administrator changed this password, you will need to ask them for the new Organization Password.": [
         "Se un altro amministratore cambia questa password, sarà necessario chiedergli una nuova password dell'organizzazione."
@@ -6723,13 +6732,13 @@
         "Il contenuto caricato viene protetto dal nostro proxy quando la protezione dai tracker è attiva."
       ],
       "Loading": [
-        "Caricamento"
+        "Caricamento in corso"
       ],
       "Loading ${ appName }": [
-        "Caricamento di ${ appName }"
+        "Caricamento di ${ appName } in corso"
       ],
       "Loading preview": [
-        "Caricamento anteprima"
+        "Caricamento dell'anteprima in corso"
       ],
       "Loading...": [
         "Caricamento in corso..."
@@ -6975,7 +6984,7 @@
         "Riprova utilizzando un altro metodo di pagamento oppure contatta PayPal per assistenza."
       ],
       "Please try again, use a different payment method, or contact PayPal for assistance.": [
-        "Per favore riprova, usa un altro metodo di pagamento o contatta PayPal per assistenza."
+        "Riprova, usa un metodo di pagamento differente o contatta PayPal per assistenza."
       ],
       "Please verify payment at the new tab which was opened.": [
         "Per favore verifica il pagamento nella nuova scheda che è stata aperta."
@@ -7029,7 +7038,7 @@
         "I file di recupero sono stati invalidati"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Le informazioni di ripristino rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
+        "Le informazioni di recupero rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
       ],
       "Recovery kit copied to clipboard": [
         "Il kit di recupero è copiato negli appunti."
@@ -7158,10 +7167,10 @@
         "L'inoltro tramite SMTP consente a servizi o dispositivi di terze parti di inviare email dai tuoi indirizzi di dominio personalizzati tramite ${ MAIL_APP_NAME }. Questa funzionalità è disponibile solamente agli utenti ${ BRAND_NAME } for Business con domini personalizzati."
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To request access, please ${ createTicket } describing your use cases, what custom domains you would like to use, and expected hourly and daily email volumes.": [
-        "L'invio SMTP consente a servizi o dispositivi di terze parti di inviare email attraverso ${ MAIL_APP_NAME } per gli indirizzi di dominio personalizzati. Per richiedere l'accesso, ${ createTicket } descrivendo i casi d'uso, i domini personalizzati che desideri utilizzare e i volumi di email previsti ogni ora e ogni giorno."
+        "L'inoltro tramite SMTP consente a servizi o dispositivi di terze parti di inviare email dai tuoi indirizzi di dominio personalizzati tramite ${ MAIL_APP_NAME }. Per richiedere l'accesso, ${ createTicket } descrivendo i casi d'uso, quali domini personalizzati desideri usare e il volume di email previste ogni ora e ogni giorno."
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To use this feature, start by generating a new token.": [
-        "L'invio SMTP consente a servizi o dispositivi di terze parti di inviare email attraverso ${ MAIL_APP_NAME } per gli indirizzi di dominio personalizzati. Per utilizzare questa funzione, inizia generando un nuovo token."
+        "L'inoltro tramite SMTP consente a servizi o dispositivi di terze parti di inviare email dai tuoi indirizzi di dominio personalizzati tramite ${ MAIL_APP_NAME }. Per usare questa funzione, inizia generando un nuovo token."
       ],
       "Some keys successfully reactivated": [
         "Alcune chiavi sono state riattivate con successo"
@@ -7399,7 +7408,7 @@
         "per continuare su ${ product }"
       ],
       "to continue to ${ toAppName }": [
-        "continua su ${ toAppName }"
+        "per continuare su ${ toAppName }"
       ],
       "To continuously improve our services, we sometimes collect data to monitor the proper functioning of our applications. This information is not shared with any 3rd-party services.": [
         "Per migliorare continuamente i nostri servizi, a volte raccogliamo dati per monitorare il corretto funzionamento delle nostre applicazioni. Queste informazioni non sono condivise con servizi di terze parti."
@@ -7657,7 +7666,7 @@
         "Quando le notifiche sono abilitate, invieremo un avviso al tuo indirizzo email di recupero se hai nuovi messaggi nel tuo account ${ MAIL_APP_NAME }."
       ],
       "When they subscribe to a plan, you'll get credits to use on your subscription.": [
-        "Quando sottoscriveranno un piano, riceverai dei crediti da usare nella tua sottoscrizione."
+        "Quando si abboneranno a un piano, riceverai dei crediti da usare nel tuo abbonamento."
       ],
       "When you set up two-factor authentication, we provide recovery codes which you can use to sign in if you lose access to your authenticator app.": [
         "Quando configuri l'autenticazione a due fattori, forniamo dei codici di recupero che puoi usare per accedere se perdi l'accesso alla tua app di autenticazione."
@@ -7936,7 +7945,16 @@
         "La tua frase di recupero è una serie di 12 parole in un ordine specifico."
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
-        "La tua sottoscrizione è gestita da Mozilla. Per favore, contatta il supporto di Mozilla."
+        "Il tuo abbonamento è gestito da Mozilla. Contatta l'assistenza di Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Usa un altro browser o scarica il file."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "L'anteprima per questo tipo di file non è attualmente supportata su questo browser."
+      ],
+      "They will be removed from your organization": [
+        "Verranno rimossi dalla tua organizzazione"
       ]
     },
     "info": {
@@ -8013,7 +8031,7 @@
     },
     "Invoice state display as badge": {
       "Billed": [
-        "Fatturato"
+        "Addebitato"
       ],
       "Gifted": [
         "Regalato"
@@ -8185,7 +8203,7 @@
         "Carica le immagini incorporate"
       ],
       "Load remote content": [
-        "Carica il contenuto remoto"
+        "Carica i contenuti remoti"
       ],
       "Mark as read": [
         "Segna come letto"
@@ -8315,7 +8333,7 @@
         "Esporta la chiave privata"
       ],
       "Export public key": [
-        "Esporta chiave pubblica"
+        "Esporta questa chiave pubblica"
       ],
       "Make primary": [
         "Rendi principale"
@@ -8515,7 +8533,7 @@
         "Dettagli della carta"
       ],
       "Card holder": [
-        "Titolare carta"
+        "Titolare della carta"
       ],
       "Card number": [
         "Numero della carta"
@@ -8548,7 +8566,7 @@
         "Compositore"
       ],
       "Composer default font/size": [
-        "Carattere/dimensioni del compositore predefiniti"
+        "Dimensione e carattere predefinito del compositore"
       ],
       "Composer mode": [
         "Modalità del compositore"
@@ -9322,6 +9340,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Email di benvenuto di ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Sondaggio utente di ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nuove funzionalità di ${ MAIL_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -9399,7 +9432,7 @@
         "${ label.Name } aggiornato"
       ],
       "Preference saved": [
-        "Preferenze salvate"
+        "Preferenza salvata"
       ]
     },
     "Limit of calendars reached": {
@@ -9545,7 +9578,7 @@
         "Totale calendari creati: ${ createdCalendarCount } di ${ calendarsToBeCreated }"
       ],
       "Connecting to your email provider": [
-        "Connessione al tuo provider email"
+        "Connessione al tuo fornitore di email in corso"
       ],
       "Creating new calendars": [
         "Creazione nuovi calendari"
@@ -9554,7 +9587,7 @@
         "Raccolta dei tuoi dati"
       ],
       "We're gathering your data from your provider": [
-        "Stiamo raccogliendo i tuoi dati dal tuo provider"
+        "Stiamo raccogliendo i tuoi dati dal tuo fornitore"
       ],
       "Your import is starting": [
         "La tua importazione sta iniziando"
@@ -10546,7 +10579,7 @@
         "${ MAIL_APP_NAME }: Proteggi le tue email con la crittografia end-to-end. Include il supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati e molto altro."
       ],
       "${ VPN_APP_NAME }: Access blocked content and browse privately. Includes ${ serversAndCountries }, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "${ VPN_APP_NAME }: Accedi a contenuti bloccati e naviga privatamente. Include ${ serversAndCountries }, le più elevate velocità VPN, accesso a servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
+        "${ VPN_APP_NAME }: Accedi a contenuti bloccati e naviga privatamente. Include ${ serversAndCountries }, VPN ad altissima velocità, l'accesso a servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere": [
         "Accedi ai contenuti dei servizi di streaming, tra cui Netflix, Disney+ e Prime Video, ovunque"
@@ -10561,7 +10594,7 @@
         "Ti permette di impostare risposte automatiche per i messaggi in arrivo"
       ],
       "Bulk promotional or programmatic email sending is currently not supported. We recommend using a dedicated email service provider for this use case.": [
-        "L'invio massiccio di email promozionali o programmatiche non è attualmente supportato. Consigliamo di utilizzare un provider di servizi email dedicato per questo caso d'uso."
+        "L'invio massiccio di email promozionali o programmatiche non è attualmente supportato. Consigliamo di utilizzare un fornitore di servizi email dedicato per questo caso d'uso."
       ],
       "Control access to your shared files by adding password protection and link expiration dates": [
         "Controlla l’accesso ai file condivisi aggiungendo una protezione con password e date di scadenza dei link"
@@ -10619,10 +10652,10 @@
         "Gestisci il tuo abbonamento, compresa la personalizzazione del tuo piano. I metodi di pagamento accettati sono carta di credito, PayPal, criptovaluta e bonifico bancario."
       ],
       "On business days, receive support from the ${ BRAND_NAME } Customer Support team within 24 hours of requests": [
-        "Nei giorni lavorativi, ricevi assistenza dal team di assistenza clienti ${ BRAND_NAME } entro 24 ore dalle richieste"
+        "Nei giorni lavorativi, ricevi assistenza dal team di assistenza clienti di ${ BRAND_NAME } entro 24 ore dalle richieste"
       ],
       "One VPN connection allows one device to connect to ${ BRAND_NAME } VPN at any given time. For instance, to connect a phone and a laptop to ${ BRAND_NAME_TWO } VPN at the same time, you need two VPN connections.": [
-        "Una connessione VPN permette a un dispositivo di connettersi a ${ BRAND_NAME } VPN in qualsiasi momento. Ad esempio, per collegare un telefono e un computer portatile a ${ BRAND_NAME_TWO } VPN allo stesso tempo, sono necessarie due connessioni VPN."
+        "Una connessione VPN consente, in qualsiasi momento, la connessione di un singolo dispositivo a ${ BRAND_NAME } VPN. Ad esempio, per connettere contemporaneamente un telefono e un computer portatile a ${ BRAND_NAME_TWO } VPN, sono necessarie due connessioni VPN."
       ],
       "Option to view non-private user inboxes as the user would, including full message and contact details": [
         "Opzione di visualizzare le caselle di posta degli utenti non privati come farebbe l'utente, compresi i dettagli completi dei messaggi e dei contatti"
@@ -10661,7 +10694,7 @@
         "Imposta rapidamente i messaggi \"non sono in ufficio\""
       ],
       "Quickly transfer your emails, calendars or contacts from any provider": [
-        "Trasferisci rapidamente le tue email, calendari o contatti da qualsiasi provider"
+        "Trasferisci rapidamente le email, i calendari o i contatti da qualsiasi fornitore"
       ],
       "Requires a code sent to a mobile phone to sign in. This ensures even if a password is compromised, the account stays secure.": [
         "Richiede un codice inviato a un telefono cellulare per accedere. Questo assicura che anche se una password viene compromessa, l'account rimane sicuro."
@@ -11616,6 +11649,12 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Seleziona il numero di IP da includere nel tuo piano. Ogni IP aggiuntivo costa ${ price }. Se hai bisogno di più di ${ maxIPs } IP, ${ contactHref } il nostro team di vendita."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } il nostro team di vendita."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Seleziona il numero di IP da includere nel piano. Ogni IP aggiuntivo costa ${ price }."
       ]
     },
     "plan customizer, users": {
@@ -12113,7 +12152,7 @@
         "${ gracePeriodHoursRemaining } ore"
       ],
       "${ passwordReset } is now available.": [
-        "${ passwordReset } è ora disponibile."
+        "La ${ passwordReset } è ora disponibile."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
         "Se esci prima di reimpostare la password, potresti perdere l'accesso al tuo account."
@@ -12127,7 +12166,7 @@
     },
     "session_recovery:sign_out:link": {
       "Password reset": [
-        "Reimpostazione password"
+        "reimpostazione della password"
       ]
     },
     "session_recovery:sign_out:title": {
@@ -12414,19 +12453,19 @@
         "30 mesi"
       ],
       "Billed at ${ amount } for 1 month": [
-        "Addebito di ${ amount } per 1 mese"
+        "Addebitato a ${ amount } per 1 mese"
       ],
       "Billed at ${ amount } for 12 months": [
-        "Addebito di ${ amount } per 12 mesi"
+        "Addebitato a ${ amount } per 12 mesi"
       ],
       "Billed at ${ amount } for 15 months": [
-        "Addebito di ${ amount } per 15 mesi"
+        "Addebitato a ${ amount } per 15 mesi"
       ],
       "Billed at ${ amount } for 24 months": [
-        "Addebito di ${ amount } per 24 mesi"
+        "Addebitato a ${ amount } per 24 mesi"
       ],
       "Billed at ${ amount } for 30 months": [
-        "Addebito di ${ amount } per 30 mesi"
+        "Addebitato a ${ amount } per 30 mesi"
       ],
       "Get the deal": [
         "Acquista"
@@ -12572,13 +12611,13 @@
     },
     "Subscription": {
       "Billed every 2 years": [
-        "Fatturato ogni 2 anni"
+        "Fatturazione biennale"
       ],
       "Billed for 15 months": [
-        "Fatturato per 15 mesi"
+        "Addebitato per 15 mesi"
       ],
       "Billed for 30 months": [
-        "Fatturato per 30 mesi"
+        "Addebitato per 30 mesi"
       ],
       "Billed monthly": [
         "Fatturazione mensile"
@@ -13160,7 +13199,7 @@
         "1. Seleziona la piattaforma"
       ],
       "2. Select platform": [
-        "2. Seleziona una piattaforma"
+        "2. Seleziona la piattaforma"
       ],
       "2. Select protocol": [
         "2. Seleziona il protocollo"
@@ -13564,7 +13603,7 @@
         "Compositore email"
       ],
       "Email encryption keys": [
-        "Chiavi di crittografia dell'email"
+        "Chiavi di crittografia delle email"
       ],
       "Email privacy": [
         "Privacy email"
@@ -13594,10 +13633,10 @@
         "Esporta calendario"
       ],
       "Export private key": [
-        "Esporta la chiave privata"
+        "Esporta questa chiave privata"
       ],
       "Export public key": [
-        "Esporta chiave pubblica"
+        "Esporta questa chiave pubblica"
       ],
       "External PGP settings": [
         "Impostazioni PGP esterno"
@@ -13725,7 +13764,7 @@
         "Vuoi abbandonare ${ organisationName }?"
       ],
       "Link confirmation": [
-        "Conferma link"
+        "Conferma il link"
       ],
       "Login password": [
         "Password di accesso"
@@ -13965,7 +14004,7 @@
         "Accesso all'account membro"
       ],
       "SMTP submission": [
-        "Invio SMTP"
+        "Inoltro tramite SMTP"
       ],
       "Sort folders alphabetically": [
         "Ordina le cartelle in modo alfabetico"
@@ -14109,6 +14148,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Sei stato invitato a provare ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Inoltro e risposta automatica"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14285,7 +14327,7 @@
         "Imposta l'aspetto predefinito del tuo elenco di messaggi."
       ],
       "Set the default Composer popup size as small or full screen.": [
-        "Imposta la dimensione predefinita del pop-up del Compositore come piccolo o a schermo intero."
+        "Imposta la dimensione predefinita del pop-up del compositore come piccolo o a schermo intero."
       ],
       "Set the default layout for your Inbox.": [
         "Imposta il layout predefinito per la tua Posta in arrivo."
@@ -14383,7 +14425,7 @@
     },
     "tooltip": {
       "${ PASS_APP_NAME }: Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
-        "${ PASS_APP_NAME }: Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrato e molto altro."
+        "${ PASS_APP_NAME }: Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrata e molto altro."
       ]
     },
     "Tooltip automatically attach public key": {
@@ -14393,7 +14435,7 @@
     },
     "Tooltip default pgp scheme": {
       "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
-        "Seleziona le impostazioni PGP predefinite utilizzate per firmare o crittografare i messaggi con utenti PGP che non utilizzano ${ BRAND_NAME }. Nota che PGP/Inline forza i messaggi in testo semplice."
+        "Seleziona le impostazioni PGP predefinite usate per firmare o crittografare i messaggi con utenti PGP che non utilizzano ${ BRAND_NAME }. Nota che PGP/Inline forza i messaggi in testo semplice."
       ]
     },
     "Tooltip prompt to trust keys": {
@@ -14916,6 +14958,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Ricevi le ultime novità in tema privacy e scopri cosa succede nell'ecosistema di ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Partecipa ai sondaggi per migliorare i servizi di ${ BRAND_NAME }"
       ]
     }
   }

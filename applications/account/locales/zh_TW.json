@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Keep my Plus subscription": [
+        "保持進階版訂閱"
       ]
     },
     "action": {
@@ -14132,6 +14135,86 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Cancel": [
+        "取消"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } 儲存空間"
+      ],
+      "1 user": [
+        "1 位使用者"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 個使用者"
+      ],
+      "Extended version history": [
+        "展開版本紀錄"
+      ],
+      "High speed streaming": [
+        "高速串流"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "進階版 ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "進階版 ${ MAIL_SHORT_APP_NAME } 與 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "進階版 ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "進階版密碼管理器"
+      ]
+    },
+    "email_forwarding_2023: Action": {
+      "Accept": [
+        "接受"
+      ],
+      "Back": [
+        "返回"
+      ],
+      "Cancel": [
+        "取消"
+      ],
+      "Decline": [
+        "拒絕"
+      ],
+      "Delete": [
+        "刪除"
+      ],
+      "Edit conditions": [
+        "編輯條件"
+      ],
+      "Next": [
+        "下一個"
+      ],
+      "Pause": [
+        "暫停"
+      ],
+      "Resume": [
+        "繼續"
+      ],
+      "Save": [
+        "儲存"
+      ],
+      "Send confirmation email": [
+        "發送確認郵件"
+      ],
+      "Set up email forwarding": [
+        "設置電子郵件轉發"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Enter email address": [
+        "輸入電子郵件地址"
       ]
     }
   }

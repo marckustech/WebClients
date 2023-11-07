@@ -417,7 +417,7 @@
         "이모지"
       ],
       "enable desktop notifications": [
-        "데스크톱 알림 활성화"
+        "데스크톱 알림을 활성화"
       ],
       "Enable multi-user support": [
         "다중 사용자 지원 활성화"
@@ -564,7 +564,7 @@
         "보관"
       ],
       "label emails as": [
-        "다음으로 레이블 지정"
+        "다음으로 라벨 지정"
       ],
       "Leave": [
         "나가기"
@@ -1237,7 +1237,7 @@
         "5개 트래커 삭제됨"
       ],
       "Auto forwarded": [
-        "자동 진행"
+        "자동 포워딩"
       ],
       "Email received": [
         "이메일 수신됨"
@@ -3739,7 +3739,7 @@
         "이 폴더 이름을 사용할 수 없어요. 다른 이름을 선택하세요."
       ],
       "This label name is not available. Please choose a different name.": [
-        "이 레이블 이름은 사용할 수 없어요. 다른 이름을 선택하세요."
+        "이 라벨 이름은 사용할 수 없어요. 다른 이름을 선택하세요."
       ],
       "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "이 메시지는 현재 브라우저에서 제대로 열 수 없는 URL 링크있을 수 있습니다."
@@ -4835,7 +4835,7 @@
         "Gmail 자동 포워딩"
       ],
       "auto-forwarding": [
-        "자동 전달"
+        "자동 포워딩"
       ],
       "Change ${ strongText } to your ${ BRAND_NAME } address": [
         "${ BRAND_NAME } 주소에 ${ strongText } 변경"
@@ -5401,7 +5401,7 @@
         "${ amountOfAddresses } 주소들"
       ],
       "${ appName } needs your permission to ${ enableDesktopNotifications }.": [
-        "${ appName } 이 ${ enableDesktopNotifications } 하려면 권한이 필요합니다."
+        "${ appName }에서 ${ enableDesktopNotifications }하려면 권한이 필요합니다."
       ],
       "${ boldWarning } You will lose access to all current encrypted data in your account if you continue.": [
         "${ boldWarning } 이 작업을 계속하면 현재 계정에 저장된 모든 암호화된 데이터에 접근할 수 없습니다."
@@ -6412,7 +6412,7 @@
         "새 폴더의 이름을 지정하고 넣고 싶은 상위 폴더를 선택하세요. 상위 폴더를 선택하지 않으면, 이 새 폴더는 최상위 폴더로 생성됩니다."
       ],
       "New": [
-        "새로운"
+        "신규"
       ],
       "No account keys exist": [
         "계정 키가 존재하지 않음"
@@ -6478,7 +6478,7 @@
         "이전 암호"
       ],
       "Once you reset your password:": [
-        "비밀번호를 재설정하세요:"
+        "지금 비밀번호를 재설정하면 다음 사항이 적용됩니다:"
       ],
       "One account. All ${ BRAND_NAME } services.": [
         "하나의 계정, 모든 ${ BRAND_NAME } 서비스."
@@ -6685,7 +6685,7 @@
         "클립보드에 추천인 코드가 복사되었습니다"
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "페이지를 새로고침하거나 ${ link } 는 대부분의 문제가 자동으로 해결됩니다."
+        "페이지를 새로고침하거나 ${ link } 대부분의 문제가 자동으로 해결됩니다."
       ],
       "Remember to share the user's sign in details with them.": [
         "사용자의 로그인 세부 사항을 공유하는 것을 잊지 마세요."
@@ -7501,7 +7501,7 @@
         "${ importedEmailAddressStrong } 에서 ${ BRAND_NAME } 계정으로 데이터를 불러올 준비가 되었습니다."
       ],
       "Your data recovery method is set": [
-        "데이터 복구 방법이 설정되었어요"
+        "데이터 복구 방법이 설정되었습니다."
       ],
       "Your email will only be used for this one-time verification.": [
         "귀하의 이메일 주소는 이번 인증에만 사용돼요."
@@ -7641,7 +7641,7 @@
         "선물됨"
       ],
       "Paid": [
-        "결제됨"
+        "결제 완료"
       ],
       "Unpaid": [
         "결제되지 않음"
@@ -8034,10 +8034,10 @@
         "스마트폰을 통한 복구 허용"
       ],
       "Allow recovery by recovery phrase": [
-        "복구 문구로 복구 허용"
+        "복구 문구를 통한 복구 허용"
       ],
       "Allow recovery using a trusted device": [
-        "승인된 기기로 복구 허용"
+        "승인된 기기를 사용한 복구 허용"
       ],
       "Amount": [
         "양"
@@ -8457,7 +8457,7 @@
         "라벨 추가"
       ],
       "Label messages as": [
-        "메시지에 다음으로 레이블 지정"
+        "메시지에 다음으로 라벨 지정"
       ],
       "Language": [
         "언어"
@@ -8694,7 +8694,7 @@
         "오류 보고서 전송"
       ],
       "Send in": [
-        "에 전송"
+        "다음 언어로 전송:"
       ],
       "Show secondary time zone": [
         "보조 시간 지역 보기"
@@ -9045,7 +9045,7 @@
         "캘린더"
       ],
       "clearing your browser cache": [
-        "브라우저 캐시 삭제 중"
+        "브라우저 캐시를 삭제하면"
       ],
       "click here": [
         "여기를 클릭"
@@ -13143,7 +13143,7 @@
         "이메일 주소 또는 사용자 이름 찾기"
       ],
       "Folders": [
-        "폴더함"
+        "폴더"
       ],
       "Folders and labels": [
         "폴더와 라벨"
@@ -13395,7 +13395,7 @@
         "비밀번호 재설정"
       ],
       "Reset password?": [
-        "비밀번호 재설정?"
+        "비밀번호를 재설정 하시겠습니까?"
       ],
       "Restore administrator privileges": [
         "관리자 권한 복구"

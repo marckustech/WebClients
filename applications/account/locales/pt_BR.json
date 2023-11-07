@@ -3114,6 +3114,9 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Você pode importar eventos no formato iCal (arquivo ICS). O arquivo deve ter o tamanho máximo de ${ MAX_IMPORT_FILE_SIZE_STRING } e ter até ${ MAX_IMPORT_EVENTS_STRING } eventos. Se o seu arquivo for maior, divida-o em arquivos menores."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Para importar seus contatos do Google o Outlook, ${ easySwitchLink }."
       ]
     },
     "description": {
@@ -9274,6 +9277,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "E-mails de boas-vindas da ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Pesquisa de usuário da ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Atualizações de produto da ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Novos recursos da ${ MAIL_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Atualizações de produto da ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Atualizações de produto da ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -11218,6 +11236,9 @@
       ],
       "Upgrade my plan": [
         "Fazer upgrade do meu plano"
+      ],
+      "Continue to ${ appName } without upgrading": [
+        "Continuar no ${ appName } sem fazer upgrade"
       ]
     },
     "pass_signup_2023: Feature": {

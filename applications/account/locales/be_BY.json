@@ -3065,7 +3065,7 @@
         "Зашыфраванае воблачнае сховішча для ўсіх вашых файлаў"
       ],
       "Secure cloud storage and file sharing that protects your data": [
-        "Бяспечнае воблачнае сховішча і абмен файламі для абароны вашых даных"
+        "Бяспечнае воблачнае сховішча і абагуленне файлаў для абароны вашых даных"
       ]
     },
     "Duration": {
@@ -3318,7 +3318,7 @@
         "Новы ключ будзе згенерыраваны для ${ boldForwarderEmail }"
       ],
       "Forwardee is invited and needs to accept/reject the invitation or update": [
-        "Атрымальнік перасылкі запрошаны і яму/ёй неабходна прыняць/адхіліць запрашэнне або абнавіць"
+        "Атрымальнік перасылкі запрошаны і неабходна прыняць/адхіліць запрашэнне або абнавіць"
       ],
       "Forwarding is active": [
         "Перасылка актыўная"
@@ -3352,6 +3352,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Вы не атрымаеце аўтаматычна перасланыя лісты ад ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Аўтаматычна перасылаць лісты на іншы адрас электроннай пошты."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Перасылка на адрас без скразнога шыфравання прывядзе да адключэння скразнога шыфравання для вашага адраса ${ boldForwarderEmail }, але шыфраванне нулявога доступу застанецца ўключаным.${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3450,6 +3456,9 @@
       ],
       "Forwarding resumed": [
         "Перасылка ўзноўлена"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Ліст адпраўлены на ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -4657,10 +4666,10 @@
         "Уключае 2700 сервераў у больш чым 65 краінах, магчымасць падключаць да 10 прылад, сэрвісы з трансляцыямі па ўсім свеце, блакіроўку шкодных праграм і рэкламы, а таксама іншыя функцыі."
       ],
       "Includes support for 3 custom email domains, 90 email addresses, unlimited hide-my-email aliases, calendar sharing and more.": [
-        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, 90 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі."
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, 90 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагуленне календара і іншыя функцыі."
       ],
       "Secure your files with encrypted cloud storage. Includes automatic sync, encrypted file sharing, and more.": [
-        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, шыфраванае абагульванне файлаў і іншыя функцыі."
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, абагуленне зашыфраваных файлаў і іншыя функцыі."
       ]
     },
     "Feature": {
@@ -7907,6 +7916,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Скарыстайцеся іншым браўзерам або спампуйце файл."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Папярэдні прагляд для гэтага тыпу файла ў цяперашні час не падтрымліваецца ў гэтым браўзеры."
+      ],
+      "They will be removed from your organization": [
+        "Яны будуць выдалены з вашай арганізацыі"
       ]
     },
     "info": {
@@ -9300,6 +9318,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Прывітальныя лісты ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Апытанне карыстальнікаў ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Абнаўленні прадукту ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Новыя функцыі ${ MAIL_APP_NAME } і ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Абнаўленні прадукту ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Абнаўленні прадукту ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -10109,7 +10142,7 @@
         "Пашыраная бяспека сеткі"
       ],
       "Advanced sharing security": [
-        "Дадатковая бяспека пры абагульванні"
+        "Дадатковая бяспека пры абагуленні"
       ],
       "Auto-delete spam and trashed messages": [
         "Аўтаматычна выдаляць паведамленні ў спаме і сметніцы"
@@ -10283,7 +10316,7 @@
         "Абагуліць каляндар праз спасылку"
       ],
       "Share files and folders via link": [
-        "Абагульванне файлаў і папак праз спасылкі"
+        "Абагуленне файлаў і папак праз спасылкі"
       ],
       "Sign in as user": [
         "Увайсці як карыстальнік"
@@ -10400,7 +10433,7 @@
         "Для працягу выкарыстання ${ MAIL_APP_NAME } з прэміяльнымі функцыямі, выберыце вашу падпіску і спосаб аплаты."
       ],
       "Your trial ends ${ formattedPeriodEndDate }": [
-        "Ваш выпрабавальны перыяд завершыцца ${ formattedPeriodEndDate }"
+        "Ваш пробны перыяд завершыцца ${ formattedPeriodEndDate }"
       ]
     },
     "new_plans: info": {
@@ -10647,7 +10680,7 @@
         "Меткі - гэта простыя тэгі, якія можна дадаваць да паведамленняў. Яны дазваляюць прасцей знаходзіць неабходныя лісты або ўжываць фільтры"
       ],
       "Like a folder, a vault is a convenient way to organize your items. Sharing vaults with friends and family is in the works.": [
-        "Сховішча, як і папкі, з'яўляюцца зручным спосабам арганізаваць вашы элементы. Абагульванне сховішчаў з сябрамі і сям'ёй знаходзіцца ў стадыі распрацоўкі."
+        "Сховішча, як і папкі, з'яўляюцца зручным спосабам арганізаваць вашы элементы. Абагуленне сховішчаў з сябрамі і сям'ёй знаходзіцца ў стадыі распрацоўкі."
       ],
       "Lock down your company resources from the public internet and make them accessible only via your private gateways": [
         "Ізалюйце рэсурсы сваёй кампаніі ад агульнадаступнага інтэрнэту і зрабіце іх даступнымі толькі праз вашы прыватныя шлюзы"
@@ -10710,7 +10743,7 @@
         "Накіроўвайце свой трафік праз сетку Tor адным націскам"
       ],
       "Secure your files with encrypted cloud storage. Includes automatic sync, encrypted file sharing, and more.": [
-        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, шыфраванае абагульванне файлаў і іншыя функцыі."
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, абагуленне зашыфраваных файлаў і іншыя функцыі."
       ],
       "Securely store your contacts’ details, such as phone number, address, birthday, and personal notes. Zero-access encryption ensures even ${ BRAND_NAME } can't access them.": [
         "Бяспечна захоўвайце кантактныя звесткі, такія як нумары тэлефонаў, адрасы, дні нараджэнні і іншыя асабістыя нататкі. Шыфраванне з нулявым доступам гарантуе, што даныя не будуць даступны нікому, нават супрацоўнікам ${ BRAND_NAME }."
@@ -10746,7 +10779,7 @@
         "Падтрымка пратаколаў абмену файламі, такіх як BitTorrent"
       ],
       "Unique, on-the-fly email addresses that protect your online identity and let you control what lands in your inbox. From SimpleLogin by ${ BRAND_NAME }.": [
-        "Унікальныя, дынамічныя адрасы электроннай пошты, якія абараняюць вашы асабістыя даныя ў інтэрнэце і дазваляюць кантраляваць, што трапляе ў вашу паштовую скрыню. З SimpleLogin ад ${ BRAND_NAME }."
+        "Унікальныя, імгненныя адрасы электроннай пошты, якія абараняюць вашы асабістыя даныя ў інтэрнэце і дазваляюць кантраляваць, што трапляе ў вашу паштовую скрыню. З SimpleLogin ад ${ BRAND_NAME }."
       ],
       "Use your own custom email domain addresses, e.g., you@yourname.com": [
         "Выкарыстоўвайце свой уласны карыстальніцкі дамен электроннай пошты. Напрыклад, you@yourname.com"
@@ -11380,16 +11413,16 @@
         "Усе прэміяльныя сэрвісы ${ BRAND_NAME }."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
-        "Палепшыце свой тарыфны план да **${ upsellPlanTitle }** і атрымайце скідку ў памеры ${ discount }. Гэта ўсяго на ${ relativePrice } больш, чым вы плаціце цяпер."
+        "Вы можаце палепшыць свой тарыфны план да **${ upsellPlanTitle }** і атрымаць скідку ў памеры ${ discount }. Гэта ўсяго на ${ relativePrice } больш, чым вы плаціце цяпер."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
-        "Палепшыце свой тарыфны план да **${ upsellPlanTitle }** і атрымайце скідку ў памеры ${ discount }."
+        "Вы можаце палепшыць свой тарыфны план да **${ upsellPlanTitle }** і атрымаць скідку ў памеры ${ discount }."
       ],
       "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
         "Але вы можаце разблакіраваць **${ unlockPlanTitle }** і ўсе прэміяльныя функцыі сэрвісаў ${ BRAND_NAME } , палепшыўшы да **${ upsellPlanTitle }** . І гэта ўсяго за ${ relativePrice } у месяц дадатковай платы."
       ],
       "But you can unlock **${ unlockPlanTitle }** and all premium ${ BRAND_NAME } services by upgrading to **${ upsellPlanTitle }**.": [
-        "Але вы можаце разблакіраваць **${ unlockPlanTitle }** і ўсе прэміяльныя функцыі сэрвісаў ${ BRAND_NAME } , палепшыўшы да **${ upsellPlanTitle }**."
+        "Вы можаце разблакіраваць **${ unlockPlanTitle }** і ўсе прэміяльныя функцыі сэрвісаў ${ BRAND_NAME } , палепшыўшы да **${ upsellPlanTitle }**."
       ],
       "By continuing, you agree to our ${ termsAndConditions }": [
         "Працягнуўшы, вы пагаджаецеся з нашымі ${ termsAndConditions }"
@@ -12586,10 +12619,10 @@
         "Атрымлівайце доступ да змесціва сэрвісаў з трансляцыямі, такіх як Netflix, Disney+ і Prime Video з любой краіны ў свеце."
       ],
       "All our premium services with their highest limits: 100 email addresses, support for 10 custom domains, unlimited hide-my-email aliases, calendar sharing, encrypted cloud storage and file sharing, and more.": [
-        "Усе нашы прэміяльныя сэрвісы з іх найвышэйшымі квотамі: 100 адрасоў электроннай пошты, падтрымка для 10 карыстальніцкіх даменаў, неабмежаваная колькасць псеўданімаў Hide-my-email, абагульванне календара, зашыфраванае воблачнае сховішча і абагульванне файлаў, а таксама іншыя функцыі."
+        "Усе нашы прэміяльныя сэрвісы з іх найвышэйшымі квотамі: 100 адрасоў электроннай пошты, падтрымка для 10 карыстальніцкіх даменаў, неабмежаваная колькасць псеўданімаў Hide-my-email, абагуленне календара, зашыфраванае воблачнае сховішча, абагуленне файлаў і іншыя функцыі."
       ],
       "Includes support for 3 custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі."
+        "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагуленне календара і іншыя функцыі."
       ],
       "Perfect for families or small teams, each can have their own inbox and aliases. Requires a custom domain.": [
         "Ідэальна пасуе для сем'яў або невялікіх каманд. У кожнага карыстальніка будзе свая ўласная паштовая скрыня і псеўданімы. Патрабуецца карыстальніцкі дамен."
@@ -12598,7 +12631,7 @@
         "Атрымлівайце платныя версіі ўсіх сэрвісаў, якія будуць выпушчаны ў будучым, а таксама ранні доступ да ўсіх будучых функцый і прадуктаў без дадатковай платы."
       ],
       "Secure your files with encrypted cloud storage. Includes automatic sync, encrypted file sharing, and more.": [
-        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, шыфраванае абагульванне файлаў і іншыя функцыі."
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае аўтаматычную сінхранізацыю, абагуленне зашыфраваных файлаў і іншыя функцыі."
       ]
     },
     "Spotlight": {
@@ -13116,10 +13149,10 @@
         "Уключае больш за 2950 сервераў у больш чым 65 краінах, магчымасць падключаць да 10 прылад, сэрвісы з трансляцыямі па ўсім свеце, блакіроўку шкодных праграм і рэкламы, а таксама іншыя функцыі."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Уключае падтрымку 1 карыстальніцкага дамена электроннай пошты, 10 адрасоў электроннай пошты, 10 псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі."
+        "Уключае падтрымку 1 карыстальніцкага дамена электроннай пошты, 10 адрасоў электроннай пошты, 10 псеўданімаў hide-my-email, абагуленне календара і іншыя функцыі."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае гісторыю версій, абагулены доступ да зашыфраваных файлаў і іншыя функцыі."
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае гісторыю версій, абагуленне зашыфраваных файлаў і іншыя функцыі."
       ]
     },
     "summer2023:Footer": {
@@ -14254,6 +14287,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Вы былі запрошаны паспрабаваць ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Перасылка і аўтаматычны адказ"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15261,7 +15297,7 @@
         "6 карыстальнікаў"
       ],
       "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
-        "Станьце самым заўзятым падтрымальнікам. Атрымайце доступ да ўсіх бягучых і будучых сэрвісаў ${ BRAND_NAME }."
+        "Станьце самым заўзятым прыхільнікам. Атрымайце доступ да ўсіх бягучых і будучых сэрвісаў ${ BRAND_NAME }."
       ],
       "Exclusive features and early access": [
         "Эксклюзіўныя функцыі і ранні доступ"
@@ -15314,7 +15350,7 @@
         "Абыходзьце блакіроўкі і цэнзуру ў сваёй краіне з дапамогай нашай глабальнай сеткі сервераў."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Уключае падтрымку 1 карыстальніцкага дамена электроннай пошты, 10 адрасоў электроннай пошты, 10 псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі."
+        "Уключае падтрымку 1 карыстальніцкага дамена электроннай пошты, 10 адрасоў электроннай пошты, 10 псеўданімаў hide-my-email, абагуленне календара і іншыя функцыі."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
         "Уключае падтрымку для 3 карыстальніцкіх даменаў электроннай пошты, ${ addresses } адраса электроннай пошты, неабмежаваную колькасць псеўданімаў Hide-my-email, абагульванне календара і іншыя функцыі.",
@@ -15326,19 +15362,27 @@
         "Бяспечныя запісы ўваходу на ўсіх вашых прыладах. Уключае неабмежаваную колькасць псеўданімаў, абагульненне, інтэграцыю з 2ФА і іншыя функцыі."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Абараніце свае лісты і расклад з дапамогай скразнога шыфравання. Уключае падтрымку карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў электроннай пошты hide-my-email, абагульванне календара, а таксама іншыя функцыі."
+        "Абараніце свае лісты і расклад з дапамогай скразнога шыфравання. Уключае падтрымку карыстальніцкіх даменаў электроннай пошты, 15 адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў электроннай пошты hide-my-email, абагуленне календара і іншыя функцыі."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
-        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае гісторыю версій, абагулены доступ да зашыфраваных файлаў і іншыя функцыі."
+        "Абараніце свае файлы з дапамогай зашыфраванага воблачнага сховішча. Уключае гісторыю версій, абагуленне зашыфраваных файлаў і іншыя функцыі."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "Адмыслова распрацаваная функцыя NetShield абароніць вашы прылады і паскорыць прагляд старонак, дзякуючы блакіраванню рэкламы, праграм сачэння і шкодных праграм."
+        "Адмыслова распрацаваная функцыя NetShield абароніць вашы прылады і паскорыць прагляд старонак пры дапамозе блакіравання рэкламы, праграм сачэння і шкодных праграм."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "Прастора сховішча размеркавана паміж усімі праграмамі ${ BRAND_NAME }"
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Захоўвайце да 200 версій кожнага файла да 10 гадоў."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Атрымлівайце апошнія навіны прыватнасці і падзеі, якія адбываюцца ў сусвеце ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Удзельнічайце ў апытанні, каб удасканаліць сэрвісы ${ BRAND_NAME }"
       ]
     }
   }

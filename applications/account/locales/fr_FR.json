@@ -573,7 +573,7 @@
         "Conserver"
       ],
       "Keep my Plus subscription": [
-        "Garder mon abonnement à Plus"
+        "Conserver mon abonnement à Plus"
       ],
       "label emails as": [
         "labelliser les messages comme"
@@ -1414,10 +1414,10 @@
         "Navigation sécurisée et fonctionnalités premium du VPN."
       ],
       "Sorry, this offer is not available with your current plan.": [
-        "Désolé, cette offre n'est pas disponible avec ton plan actuel."
+        "Cette offre n'est pas disponible avec votre abonnement actuel."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Désolé, cette offre n'est pas disponible avec ton plan actuel. Mais tu peux obtenir **${ discountPercentage } de réduction sur ${ plan.Title }** lorsque tu t'abonnes pour **${ months }**."
+        "Cette offre n'est pas disponible avec votre abonnement actuel. Mais vous pouvez profiter de **${ discountPercentage } de réduction sur ${ plan.Title }** en vous abonnant pour **${ months }**."
       ]
     },
     "bf2023: Info": {
@@ -1437,7 +1437,7 @@
         "Aidez-nous à défendre la vie privée en ligne"
       ],
       "Premium versions of all ${ BRAND_NAME } services": [
-        "Versions premium de tous les services de ${ BRAND_NAME }"
+        "Versions premium de tous les services ${ BRAND_NAME }"
       ],
       "The ${ plan } plan is back for a limited time only": [
         "L'abonnement ${ plan } est de retour pour une durée limitée."
@@ -1551,19 +1551,19 @@
         "Problème avec Bridge"
       ],
       "Calendar problem": [
-        "Problème avec Calendar"
+        "Problème avec Proton Calendar"
       ],
       "Connection problem": [
         "Problème de connexion"
       ],
       "Contacts problem": [
-        "Problème avec Contacts"
+        "Problème avec Proton Contacts"
       ],
       "Custom domain problem": [
         "Problème avec les domaines personnalisés"
       ],
       "Drive problem": [
-        "Problème avec Drive"
+        "Problème avec Proton Drive"
       ],
       "Feature request": [
         "Demande de fonctionnalité"
@@ -1575,7 +1575,7 @@
         "Problème d'installation"
       ],
       "Mail problem": [
-        "Problème avec Mail"
+        "Problème avec Proton Mail"
       ],
       "Manual setup problem": [
         "Problème avec la configuration manuelle"
@@ -1611,7 +1611,7 @@
         "Problème de mise à jour"
       ],
       "VPN problem": [
-        "Problème avec le VPN"
+        "Problème avec Proton VPN"
       ],
       "Website access problem": [
         "Problème d'accès au site web"
@@ -3526,6 +3526,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Vous ne recevrez pas les messages transférés automatiquement depuis ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Transférer automatiquement les messages vers une autre adresse électronique."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Transférer à une adresse sans chiffrement de bout en bout désactivera le chiffrement de bout en bout pour votre adresse ${ boldForwarderEmail }, mais le chiffrement zéro accès restera activé. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3624,6 +3630,9 @@
       ],
       "Forwarding resumed": [
         "Le transfert a été relancé."
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Le message a été envoyé à ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -5128,13 +5137,13 @@
     },
     "Frequency of news": {
       "(1 email per month)": [
-        "(une fois par mois)"
+        "(1 message par mois)"
       ],
       "(1 email per quarter)": [
-        "(une fois par trimestre)"
+        "(1 message par trimestre)"
       ],
       "(1-2 emails per month)": [
-        "(une à deux fois par mois)"
+        "(1 ou 2 messages par mois)"
       ],
       "(2-4 emails per year)": [
         "(2 à 4 messages par an)"
@@ -6999,7 +7008,7 @@
         "Assistance prioritaire"
       ],
       "Promotion expired": [
-        "La promotion est expirée."
+        "La promotion a expiré."
       ],
       "Protected by Swiss privacy laws": [
         "Protégé par les lois suisses sur la vie privée"
@@ -7240,7 +7249,7 @@
         "Merci"
       ],
       "Thanks for supporting our mission to build a better internet where privacy and freedom come first.": [
-        "Merci de soutenir notre mission : créer un meilleur internet fondé sur la protection de la vie privée et la liberté."
+        "Merci de soutenir notre mission de créer un meilleur internet qui donne la priorité à la protection de la vie privée et à la liberté."
       ],
       "The ${ boldDataLocked } message will no longer be shown, but you can still unlock your data under ${ encryptionAndKeysLink }.": [
         "Le message ${ boldDataLocked } n'apparaîtra plus, mais vous pouvez toujours déverrouiller vos données sous ${ encryptionAndKeysLink }."
@@ -7333,7 +7342,7 @@
         "Ce lien pourrait être une attaque homographique. Assurez-vous qu'il s'agit bien du lien que vous souhaitez visiter, ou ne l'ouvrez pas."
       ],
       "This promotion link has expired.": [
-        "Le lien de cette promotion est expiré."
+        "Ce lien promotionnel a expiré."
       ],
       "This token won’t be available after you close this window, and you should not share it with anyone.": [
         "Ce jeton ne sera plus disponible une fois que vous aurez fermé cette fenêtre, et vous ne devez le partager avec personne."
@@ -7878,7 +7887,7 @@
         "Votre méthode de récupération de compte est définie."
       ],
       "Your account was successfully updated with this promotion": [
-        "La promotion a été prise en compte et votre compte a été mis à jour."
+        "Votre compte a été mis à jour avec cette promotion."
       ],
       "Your account will be updated once the payment is cleared.": [
         "Votre compte sera mis à jour une fois le paiement effectué."
@@ -7937,6 +7946,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Nous vous invitons à utiliser un autre navigateur ou à télécharger le fichier."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La prévisualisation de ce type de fichier n'est pas encore possible avec ce navigateur."
+      ],
+      "They will be removed from your organization": [
+        "Ils seront retirés de votre organisation."
       ]
     },
     "info": {
@@ -9322,6 +9340,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Messages de bienvenue ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Enquête utilisateurs de ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Mises à jour du produit ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nouvelles fonctionnalités de ${ MAIL_APP_NAME } et ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Mises à jour du produit ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Mises à jour du produit ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -11223,7 +11256,7 @@
         "Continuer"
       ],
       "Continue to ${ appName } without upgrading": [
-        "Continuer ers ${ appName } sans changer d'abonnement"
+        "Continuer vers ${ appName } sans changer d'abonnement"
       ],
       "Continue to ${ free }": [
         "Continuer avec ${ free }"
@@ -14106,6 +14139,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Vous avez été invité à essayer ${ MAIL_APP_NAME }."
+      ],
+      "Forward and Auto-reply": [
+        "Transfert et réponse automatique"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14913,6 +14949,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Recevez les actualités sur la protection de la vie privée et découvrez ce qui se passe dans l'écosystème ${ BRAND_NAME }."
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Participez aux enquêtes pour améliorer les services ${ BRAND_NAME }."
       ]
     }
   }

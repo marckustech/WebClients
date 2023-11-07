@@ -3526,6 +3526,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "No recibirás correos reenviados automáticamente desde ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Reenvía automáticamente los correos a otra dirección de correo."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "El reenvío a una dirección sin cifrado de extremo a extremo desactivará el cifrado para tu dirección ${ boldForwarderEmail }, pero el cifrado de acceso cero se mantendrá activado. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3624,6 +3630,9 @@
       ],
       "Forwarding resumed": [
         "El reenvío ha sido reaunado."
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "El correo ha sido enviado a ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -7167,7 +7176,7 @@
         "Se han reactivado algunas claves."
       ],
       "Some of your available servers can only be used in specific countries due to recent removals": [
-        "Algunos de tus servidores disponibles solo pueden usarse en países específicos debido a eliminaciones recientes."
+        "Algunos de tus servidores disponibles solo pueden utilizarse en países específicos debido a eliminaciones recientes."
       ],
       "SPF is used to specify who is allowed to send email for the domain so we strongly recommend including ${ MAIL_APP_NAME } in your SPF record. Please add the following TXT record into your DNS. This can typically be done in the control panel of your domain name registrar.": [
         "Se utiliza el metodo SPF para especificar a quién està autorizado a enviar correo electrónico para el dominio. Recomendamos encarecidamente incluir ${ MAIL_APP_NAME } en tu registro SPF. Añade el siguiente registro TXT en tu DNS. Esto puede hacerse normalmente en el panel de control de tu registrador de nombres de dominio."
@@ -7937,6 +7946,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tu suscripción está gestionada por Mozilla. Contacta con el soporte de Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Usa otro navegador o descarga el archivo."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La vista previa para este tipo de archivo no está admitida en este navegador."
+      ],
+      "They will be removed from your organization": [
+        "Se eliminarán de tu organización."
       ]
     },
     "info": {
@@ -9322,6 +9340,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Correos electrónicos de bienvenida ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Encuesta a los usuarios de ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Funciones nuevas de ${ MAIL_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -9661,7 +9694,7 @@
         "Cuenta de ${ BRAND_NAME }"
       ],
       "Create a ${ BRAND_NAME } Account to use all encrypted ${ BRAND_NAME } services such as ${ MAIL_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, and more, with just one login. Get a Free ${ BRAND_NAME } Account.": [
-        "Crea una cuenta de ${ BRAND_NAME } para usar todos los servicios cifrados de ${ BRAND_NAME } como ${ MAIL_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } y más con solo un inicio de sesión. Obtén una cuenta de ${ BRAND_NAME } gratuita."
+        "Crea una cuenta de ${ BRAND_NAME } para utilizar todos los servicios cifrados de ${ BRAND_NAME } como ${ MAIL_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } y más con solo un inicio de sesión. Obtén una cuenta de ${ BRAND_NAME } gratuita."
       ],
       "Create a ${ BRAND_NAME } Account | Take back your privacy": [
         "Crea una cuenta de ${ BRAND_NAME } | Recupera Tu privacidad."
@@ -14106,6 +14139,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Estás invitado a probar ${ MAIL_APP_NAME }."
+      ],
+      "Forward and Auto-reply": [
+        "Reenvío y respuesta automática"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14913,6 +14949,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Obtén las últimas noticias de privacidad y lo que sucede en ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Participa en las encuestas para mejorar los servicios de ${ BRAND_NAME }"
       ]
     }
   }

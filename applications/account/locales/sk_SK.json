@@ -993,7 +993,7 @@
         "Aktualizujte frázu na obnovenie"
       ],
       "Upgrade": [
-        "Aktualizovať"
+        "Prejsť na platený plán"
       ],
       "Upgrade now": [
         "Aktualizovať teraz"
@@ -1182,7 +1182,7 @@
     },
     "Address status": {
       "Active": [
-        "Aktivní"
+        "Aktívny"
       ],
       "Allow unsigned mail": [
         "Povoliť nepodpísanú poštu"
@@ -3352,6 +3352,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "E-maily automaticky preposielané z adresy ${ boldForwarderEmail } nebudete dostávať."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Automaticky preposiela emaily na iné emailové adresy."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Preposielanie na adresu bez koncového šifrovania vypne koncové šifrovanie pre vašu adresu ${ boldForwarderEmail }, ale šifrovanie s nulovým prístupom zostane zapnuté. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3450,6 +3456,9 @@
       ],
       "Forwarding resumed": [
         "Preposielanie bolo obnovené"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Email bol odoslaný na ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -4913,10 +4922,10 @@
         "Pridajte vlastný filter, ktorý automaticky vykoná určité akcie, napríklad označovanie alebo archiváciu správ."
       ],
       "Allow:": [
-        "Povoliť:"
+        "Povolené:"
       ],
       "Block:": [
-        "Blokovať:"
+        "Blokované:"
       ],
       "Search list": [
         "Vyhľadať v zozname"
@@ -4978,7 +4987,7 @@
         "Malé"
       ],
       "Very large": [
-        "Veľmi veľká"
+        "Veľmi veľké"
       ],
       "Very small": [
         "Veľmi malé"
@@ -6055,7 +6064,7 @@
         "Automatická odpoveď je vždy aktívna vo vybrané dni v týždni medzi vybranými hodinami."
       ],
       "Available on macOS, Windows, and Linux.": [
-        "Dostupné v macOS, Windows a Linuxe."
+        "Dostupné pre macOS, Windows a Linux."
       ],
       "Awaiting transaction": [
         "Čakanie na transakciu"
@@ -6460,7 +6469,7 @@
         "Ak email v priečinku doručenej pošty nenájdete, skontrolujte priečinok so spamom, prosím."
       ],
       "If you have a custom domain with ${ MAIL_APP_NAME }, you can set a catch-all email address to receive messages sent to your domain but to an invalid email address (e.g., because of typos).": [
-        "Ak máte vlastnú doménu s ${ MAIL_APP_NAME }, môžete nastaviť univerzálnu emailovú adresu na prijímanie správ odoslaných na vašu doménu, ale na neplatnú emailovú adresu (napr. z dôvodu preklepov)."
+        "Ak máte vlastnú doménu s ${ MAIL_APP_NAME }, môžete nastaviť emailovú adresu doménového koša na prijímanie správ odoslaných na vašu doménu okrem neplatných emailových adries (napr. z dôvodu preklepov)."
       ],
       "If you have a gift code, enter it below to apply your discount.": [
         "Ak máte darčekový kód, zadajte ho nižšie, aby ste mohli uplatniť zľavu."
@@ -6523,7 +6532,7 @@
         "Importovať poštovú schránku"
       ],
       "Import your emails, calendars, and contacts from another service to ${ BRAND_NAME }.": [
-        "Importujte svoje emaily, kalendáre a kontakty z inej služby do ${ BRAND_NAME }."
+        "Importujte svoje emaily, kalendáre a kontakty z inej služby do ${ BRAND_NAME }u."
       ],
       "Important: Please make sure you save the recovery codes. Otherwise you can permanently lose access to your account if you lose your two-factor authentication device.": [
         "Dôležité: Uistite sa, že máte uložené kódy pre obnovenie. V opačnom prípade sa už nikdy nebudete môcť prihlásiť, ak stratíte zariadenie určené pre 2FA."
@@ -7090,7 +7099,7 @@
         "Vzhľadom k tomu, že ste verný používateľ, má váš účet povolené ďalšie funkcie."
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
-        "Odosielanie SMTP umožňuje službám alebo zariadeniam tretích strán odosielať emaily prostredníctvom ${ MAIL_APP_NAME } pre vaše vlastné doménové adresy. Táto funkcia je dostupná len pre ${ BRAND_NAME } pre firemných používateľov s vlastnými doménami."
+        "SMTP odosielanie umožňuje službám alebo zariadeniam tretích strán odosielať emaily prostredníctvom ${ MAIL_APP_NAME } pre vaše vlastné doménové adresy. Táto funkcia je dostupná len pre firemných používateľov ${ BRAND_NAME } s vlastnou doménou."
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To request access, please ${ createTicket } describing your use cases, what custom domains you would like to use, and expected hourly and daily email volumes.": [
         "Odoslanie SMTP umožňuje službám alebo zariadeniam tretích strán odosielať emaily cez ${ MAIL_APP_NAME } pre adresy vašich vlastných domén. Ak chcete požiadať o prístup, ${ createTicket }, opíšte svoje prípady použitia, aké vlastné domény by ste chceli použiť a očakávané hodinové a denné objemy emailov."
@@ -7456,7 +7465,7 @@
         "Upgradujte na ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, alebo ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } a získajte prístup do ${ PROTON_SENTINEL_NAME }."
       ],
       "Upgrade to add a shorter @pm.me address to your account that is easier to share. It stands for “${ MAIL_APP_NAME } me” or “Private Message me”.": [
-        "Upgradujte, aby ste pridali kratšiu @pm.me adresu k vášmu účtu, ktorá sa zdieľa jednoduchšie. To znamená „${ MAIL_APP_NAME } me“ alebo „Private message me“."
+        "Upgradujte, ak chcete pridať kratšiu @pm.me adresu k vášmu účtu, ktorá sa jednoduchšie zdieľa. To znamená „${ MAIL_APP_NAME } me“ alebo „Private message me“."
       ],
       "Upgrade to unlock": [
         "Pre odomknutie inovujte"
@@ -7901,6 +7910,15 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "V tento deň stratíte prístup k Plus serverom a funkciám služby Plus."
+      ],
+      "Please use another browser or download the file.": [
+        "Použite iný prehliadač alebo si súbor stiahnite."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Náhľad tohto typu súboru nie je v súčasnosti v tomto prehliadači podporovaný."
+      ],
+      "They will be removed from your organization": [
+        "Budú z vašej organizácie odstránené."
       ]
     },
     "info": {
@@ -8049,7 +8067,7 @@
     },
     "Key state badge": {
       "Active": [
-        "Aktivní"
+        "Aktívny"
       ],
       "Compromised": [
         "Kompromitovaný"
@@ -8125,13 +8143,13 @@
         "Prejsť do zložky Odoslané"
       ],
       "Go to Spam": [
-        "Prejsť na zložku nevyžiadanej pošty"
+        "Prejsť do zložky Spam"
       ],
       "Go to Starred": [
         "Prejsť do zložky Obľúbené"
       ],
       "Go to Trash": [
-        "Prejsť do koša"
+        "Prejsť do zložky Kôš"
       ],
       "Insert link": [
         "Vložiť odkaz"
@@ -8200,7 +8218,7 @@
         "Otvoriť predchádzajúcu správu"
       ],
       "Open this modal": [
-        "Otvorte tento spôsob"
+        "Otvoriť tento spôsob"
       ],
       "Reply": [
         "Odpovedať"
@@ -8230,7 +8248,7 @@
         "Zobraziť pôvodnú správu"
       ],
       "Show unread emails": [
-        "Zobrazenie neprečítaných emailov"
+        "Zobraziť neprečítané emaily"
       ],
       "Star": [
         "Hviezdička"
@@ -8508,7 +8526,7 @@
         "Kód je 6 čísiel bez medzier"
       ],
       "Collect usage diagnostics": [
-        "Zbrierať diagnostiku používania"
+        "Zbierať diagnostiku používania"
       ],
       "Color": [
         "Farba"
@@ -9294,6 +9312,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } uvítacie emaily"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Používateľský prieskum ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nové funkcie ${ MAIL_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -9414,7 +9447,7 @@
         "Kontaktujte nás"
       ],
       "create a ticket": [
-        "vytvorte požiadavku"
+        "vytvoriť požiadavku"
       ],
       "Create account": [
         "Vytvoriť účet"
@@ -9486,7 +9519,7 @@
         "Navýšiť účet"
       ],
       "Upgrade your plan": [
-        "Inovujte svoj plán"
+        "Prejsť na vyšší plán"
       ],
       "View guide": [
         "Zobraziť sprievodcu"
@@ -9871,7 +9904,7 @@
         "Všetky"
       ],
       "Allow": [
-        "Povoliť"
+        "Povolené"
       ],
       "Back": [
         "Späť"
@@ -9886,7 +9919,7 @@
         "Späť do doručenej pošty"
       ],
       "Block": [
-        "Blokovať"
+        "Blokované"
       ],
       "Calendar": [
         "Kalendár"
@@ -10094,7 +10127,7 @@
         "99,95 % SLA"
       ],
       "Ad-blocker and malware protection": [
-        "Ad-blocker a ochrana pred škodlivým softvérom"
+        "Blokovanie reklám a ochrana pred škodlivým softvérom"
       ],
       "Admin console": [
         "Admin konzola"
@@ -10121,7 +10154,7 @@
         "Zdieľanie kalendára"
       ],
       "Catch-all": [
-        "Catch-all"
+        "Doménový kôš"
       ],
       "Centralized billing": [
         "Centralizovaná fakturácia"
@@ -10154,7 +10187,7 @@
         "Dedikované servery a IP"
       ],
       "DNS leak prevention": [
-        "Predchádzanie úniku DNS"
+        "Prevencia úniku DNS"
       ],
       "Document editors (docs, sheets, slides)": [
         "Editory dokumentov (dokumenty, tabuľky, prezentácie)"
@@ -10229,7 +10262,7 @@
         "Politika žiadnych logov"
       ],
       "Organize items with multiple vaults": [
-        "Usporiadajte položky s viacerými trezormi"
+        "Usporiadanie položiek pomocou viacerých trezorov"
       ],
       "Password-protected Emails": [
         "Heslom chránené emaily"
@@ -10842,10 +10875,10 @@
         "${ PROTON_SENTINEL_NAME } bol povolený"
       ],
       "A disabled address cannot be default": [
-        "Deaktivovaná adresa nemôže byť východzia"
+        "Deaktivovaná adresa nemôže byť predvolená"
       ],
       "An external address cannot be default": [
-        "Externá adresa nemôže byť východzia"
+        "Externá adresa nemôže byť predvolená"
       ],
       "Invalid code": [
         "Neplatný kód"
@@ -10860,19 +10893,19 @@
         "Odkaz bol skopírovaný do schránky"
       ],
       "OpenVPN / IKEv2 credentials regenerated": [
-        "OpenVPN / IKEv2 údaje boli obnovené"
+        "OpenVPN / IKEv2 poverenia boli obnovené"
       ],
       "Reminder has been sent": [
         "Pripomienka bola odoslaná"
       ],
       "Two-factor authentication has been enforced for administrators": [
-        "Dvojstupňové overenie bolo vynútené pre správcov"
+        "Pre správcov bolo zavedené dvojstupňové overovanie"
       ],
       "Two-factor authentication has been enforced for all members": [
-        "Dvojstupňové overenie bolo vynútené pre všetkých členov"
+        "Dvojstupňové overovanie bolo zavedené pre všetkých členov"
       ],
       "Two-factor authentication is not required anymore": [
-        "Dvojstupňové overenie sa už nevyžaduje"
+        "Dvojstupňové overovanie sa už nevyžaduje"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -12828,7 +12861,7 @@
     },
     "Subscription saving": {
       "Save": [
-        "Uložiť"
+        "Ušetríte"
       ]
     },
     "Subscription status": {
@@ -13053,7 +13086,7 @@
         "Certifikát predĺžený do ${ formattedExpirationDate }"
       ],
       "Config \"${ name }\" created, note that the private key is not stored and won't be shown again, you should copy or download this config.": [
-        "Konfigurácia „${ name }“ uložená, nezabudnite, že súkromný kľúč nie je uložený a nebude zobrazený znovu, mali by ste si túto konfiguráciu skopírovať alebo stiahnuť."
+        "Konfigurácia „${ name }“ vytvorená, nezabudnite, že súkromný kľúč nie je uložený a nebude zobrazený znovu, mali by ste si túto konfiguráciu skopírovať alebo stiahnuť."
       ],
       "Creating config file for ${ serverName }": [
         "Vytvorenie konfiguračného súboru pre ${ serverName }"
@@ -14248,6 +14281,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Boli ste pozvaní vyskúšať ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Preposlať a automaticky odpovedať"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14406,10 +14442,10 @@
         "Gmail automaticky triedi niektoré emaily do kategórií ako Siete alebo Reklamy. Môžete si vybrať, kam chcete importovať tieto emaily."
       ],
       "Group emails in the same conversation together in your Inbox or display them separately.": [
-        "Zoskupí emaily v rovnakej konverzácii vo vašej Doručenej pošte, alebo ich zobrazí samostatne."
+        "Emaily v rovnakej konverzácii môžete v priečinku Doručená pošta zoskupiť alebo zobraziť samostatne."
       ],
       "If you purchased a gift code or received one from our support team, you can enter it here.": [
-        "Ak ste zakúpili darčekový kód alebo ste ho obdržali od našej podpory, môžete ho vložiť sem."
+        "Ak ste zakúpili darčekový kód alebo ste ho obdržali od našej podpory, môžete ho sem vložiť."
       ],
       "Members who do not use 2FA will get an email asking them to enable it as soon as possible.": [
         "Členovia, ktorí nepoužívajú 2FA dostanú email s výzvou, aby 2FA čo najskôr povolili "
@@ -14460,10 +14496,10 @@
         "Vybraný motív bude aktívny, kým je systém nastavený na „svetlý režim“"
       ],
       "This address has been disabled": [
-        "Táto adresa bola zakázaná"
+        "Táto adresa bola deaktivovaná"
       ],
       "This feature delays sending your emails, giving you the opportunity to undo send during the selected time frame.": [
-        "Táto funkcia oneskoruje posielanie Vašich emailov, dáva možnosť prerušiť zasielanie správy, ktorá už bola na ceste a vrátiť ju späť."
+        "Táto funkcia oneskoruje odosielanie emailov a dáva vám možnosť zrušiť odoslanie počas zvoleného časového rámca."
       ],
       "This feature is only available for paid users": [
         "Táto funkcia je k dispozícii iba užívateľom s prémiovým účtom"
@@ -14499,10 +14535,10 @@
         "Keď je zapnuté, animácie a prechody sa nezobrazia"
       ],
       "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
-        "Keď pridáte štítok ku správe v konverzácii, bude automaticky aplikovaný na všetky budúce správy, ktoré v tejto konverzácii odošlete alebo obdržíte."
+        "Keď pridáte štítok ku správe v konverzácii, bude automaticky aplikovaný na všetky budúce správy, ktoré v tejto konverzácii odošlete alebo prijmete."
       ],
       "When you click on a link, this anti-phishing feature will ask you to confirm the URL of the web page.": [
-        "Akonáhle kliknete na odkaz, funkcia anti-phishing Vás vyzve na odsúhlasenie URL webovej stránky."
+        "Keď kliknete na odkaz, táto funkcia proti phishingu vás požiada o potvrdenie adresy URL webovej stránky."
       ],
       "When you move an email to spam, you’ll automatically be unsubscribed from the sender’s mailing lists.": [
         "Keď presuniete email do spamu, automaticky sa odhlásite z mailingových zoznamov odosielateľa."
@@ -15333,6 +15369,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Uložte až 200 verzií každého súboru až na 10 rokov."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Získajte najnovšie správy o ochrane osobných údajov a dianí vo svete ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Zapojte sa do prieskumov s cieľom zlepšiť služby ${ BRAND_NAME }"
       ]
     }
   }

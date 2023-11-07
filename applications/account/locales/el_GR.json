@@ -3330,6 +3330,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Δε θα λαμβάνετε μηνύματα ηλεκτρονικού ταχυδρομείου που προωθούνται αυτόματα από το ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Αυτόματη προώθηση μηνυμάτων ηλεκτρονικού ταχυδρομείου σε μια άλλη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Η προώθηση σε μια διεύθυνση χωρίς διατερματική κρυπτογράφηση θα απενεργοποιήσει την κρυπτογράφηση από άκρο σε άκρο για τη διεύθυνση ${ boldForwarderEmail }, αλλά η κρυπτογράφηση μηδενικής πρόσβασης παραμένει ενεργοποιημένη. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3428,6 +3434,9 @@
       ],
       "Forwarding resumed": [
         "Η προώθηση συνεχίστηκε"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "Το Email στάλθηκε στο ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -7741,6 +7750,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Η συνδρομή σας διαχειρίζεται απο το Mozilla. Επικοινωνήστε με την υποστήριξη του Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Χρησιμοποιήστε άλλο πρόγραμμα περιήγησης ή κατεβάστε το αρχείο."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Η προεπισκόπηση για αυτόν τον τύπο αρχείου δεν υποστηρίζεται προς το παρόν σε αυτό το πρόγραμμα περιήγησης."
+      ],
+      "They will be removed from your organization": [
+        "Θα καταργηθούν από τον οργανισμό σας"
       ]
     },
     "info": {
@@ -9126,6 +9144,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Emails καλωσορίσματος ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } έρευνα χρηστών"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } ενημερώσεις προϊόντων"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } και ${ CALENDAR_SHORT_APP_NAME } νέες δυνατότητες"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } ενημερώσεις προϊόντων"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } ενημερώσεις προϊόντων"
       ]
     },
     "Label in domain modal": {
@@ -11417,6 +11450,12 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Επιλέξτε τον αριθμό των διευθύνσεων IP που θα συμπεριλάβετε στο πλάνο σας. Κάθε επιπλέον IP κοστίζει ${ price }. Εάν χρειάζεστε περισσότερα από ${ maxIPs } IPs, παρακαλούμε ${ contactHref } την ομάδα πωλήσεών μας."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "παρακαλούμε ${ contactHref } την ομάδα Πωλήσεών μας."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Επιλέξτε τον αριθμό διευθύνσεων IP που θα περιλαμβάνει το πρόγραμμά σας. Κάθε επιπλέον διεύθυνση IP κοστίζει ${ price }."
       ]
     },
     "plan customizer, users": {
@@ -13907,6 +13946,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Έχετε προσκληθεί να δοκιμάσετε το ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Προώθηση και Αυτόματη απάντηση"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14906,6 +14948,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Αποθηκεύστε έως 200 εκδόσεις κάθε αρχείου για έως και 10 χρόνια."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Λάβετε τα τελευταία νέα απορρήτου και τι συμβαίνει στον κόσμο του ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Συμμετοχή σε έρευνες για τη βελτίωση των υπηρεσιών ${ BRAND_NAME }"
       ]
     }
   }

@@ -4728,7 +4728,7 @@
     },
     "Info": {
       "${ appName } needs your permission to ${ enableDesktopNotifications }.": [
-        "${ appName } 需要您的权限来${ enableDesktopNotifications }。"
+        "${ appName } 需要您授权${ enableDesktopNotifications }。"
       ],
       "${ boldWarning } You will lose access to all current encrypted data in your account if you continue.": [
         "${ boldWarning } 如果继续，您将无法访问您账户中的所有当前加密数据。"
@@ -6015,10 +6015,10 @@
         "作为 Proton 忠实用户，您拥有以下特权。"
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To request access, please ${ createTicket } describing your use cases, what custom domains you would like to use, and expected hourly and daily email volumes.": [
-        "SMTP 提交允许第 三方服务或设备通过 ${ MAIL_APP_NAME } 为您的自定义域地址发送电子邮件。要请求访问权限，请 ${ createTicket } 并描述您的用例、您想要使用的自定义域以及预期的每小时和每日电子邮件量。"
+        "第三方服务或设备可以使用 SMTP 投递功能通过您的 ${ MAIL_APP_NAME } 自有域名地址发送邮件。如需开通此功能，请${ createTicket }并说明您的用途、希望使用的自有域名，以及每小时与每天的预计邮件数量。"
       ],
       "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To use this feature, start by generating a new token.": [
-        "SMTP 提交允许第三方服务或设备通过 ${ MAIL_APP_NAME } 为您的自定义域地址发送电子邮件。要使用此功能，请先新生成一个令牌。"
+        "第三方服务或设备可以使用 SMTP 投递功能通过您的 ${ MAIL_APP_NAME } 自有域名地址发送邮件。如需使用此功能，请先生成 SMTP 专用密码。"
       ],
       "Some keys successfully reactivated": [
         "已成功重新激活某些密钥"
@@ -8863,10 +8863,10 @@
         "代替用户登录"
       ],
       "SMTP submission": [
-        "提交 SMTP"
+        "SMTP 投递邮件"
       ],
       "SMTP submission for select organizations": [
-        "为特定组织提交 SMTP"
+        "特定机构可通过 SMTP 投递邮件"
       ],
       "Split tunneling (Android and Windows)": [
         "线路分离（支持 Android 与 Windows）"
@@ -9245,6 +9245,9 @@
     "new_plans: upgrade": {
       "Included with ${ plus }, ${ bundle }, and ${ BRAND_NAME } for Business.": [
         "开通 ${ plus }、${ bundle } 或 ${ BRAND_NAME } 企业版即可使用此功能。"
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "${ BRAND_NAME } for Business、${ familyPlanName } 和 ${ mailProPlanName } 账户提供此功能。"
       ]
     },
     "new_plans: Upsell attribute": {
@@ -10375,7 +10378,7 @@
         "不再显示此活动"
       ],
       "Special offer": [
-        "特价"
+        "限时特惠"
       ]
     },
     "specialoffer: Action, Unlimited is a plan name": {
@@ -10432,6 +10435,18 @@
       ],
       "Support online privacy": [
         "支持网络隐私保护"
+      ],
+      "1 user": [
+        "1 位用户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME } 与 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "高级 ${ VPN_SHORT_APP_NAME } 账户"
       ]
     },
     "specialoffer: Footer": {
@@ -11850,7 +11865,7 @@
         "已登录成员账户"
       ],
       "SMTP submission": [
-        "SMTP提交"
+        "SMTP 投递"
       ],
       "Sort folders alphabetically": [
         "按名称排列文件夹"
@@ -12665,6 +12680,45 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus 与 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } 存储空间"
+      ],
+      "1 user": [
+        "1 位用户"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 位用户"
+      ],
+      "Access content worldwide": [
+        "畅游全球各类网站"
+      ],
+      "Ad-blocker and malware protection": [
+        "广告拦截与恶意软件防护"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_APP_NAME } 的所有付费功能"
+      ],
+      "High speed streaming": [
+        "高速看视频"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "折扣基于标准月费计算。"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "所有 ${ BRAND_NAME } 服务共用同一存储空间。"
       ]
     }
   }

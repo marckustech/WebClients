@@ -3526,6 +3526,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Du wirst keine E-Mails erhalten, die automatisch von ${ boldForwarderEmail } weitergeleitet wurden."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Leite E-Mails automatisch an andere Konten weiter."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Durch die Weiterleitung an eine Adresse ohne Ende-zu-Ende-Verschlüsselung wird die Ende-zu-Ende-Verschlüsselung für deine ${ boldForwarderEmail }-Adresse deaktiviert, aber die Zero-Access-Verschlüsselung bleibt aktiviert. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3624,6 +3630,9 @@
       ],
       "Forwarding resumed": [
         "Weiterleitung fortgesetzt"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "E-Mail an ${ model.forwardeeEmail } gesendet."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -7937,6 +7946,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dein Abonnement wird von Mozilla verwaltet. Bitte kontaktiere den Mozilla-Support."
+      ],
+      "Please use another browser or download the file.": [
+        "Bitte verwende einen anderen Browser oder lade die Datei herunter."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Die Vorschau für diesen Dateityp wird derzeit von diesem Browser nicht unterstützt."
+      ],
+      "They will be removed from your organization": [
+        "Sie werden aus deiner Organisation entfernt"
       ]
     },
     "info": {
@@ -9322,6 +9340,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }-Willkommens-E-Mails"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME }-Benutzerumfrage"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME }-Produktaktualisierungen"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } und ${ CALENDAR_SHORT_APP_NAME } neue Funktionen"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME }-Produktaktualisierungen"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME }-Produktaktualisierungen"
       ]
     },
     "Label in domain modal": {
@@ -14106,6 +14139,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du wurdest eingeladen, ${ MAIL_APP_NAME } zu testen."
+      ],
+      "Forward and Auto-reply": [
+        "Weiterleiten und automatische Antworten"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14913,6 +14949,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Jährlich, ${ untilString }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Erhalte die neuesten Nachrichten zum Thema Privatsphäre und was im ${ BRAND_NAME }-Universum vor sich geht."
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Nimm an Umfragen teil, um die Dienstleistungen von ${ BRAND_NAME } zu verbessern."
       ]
     }
   }

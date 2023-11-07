@@ -1080,7 +1080,7 @@
         "Oddálit"
       ],
       "Keep my Plus subscription": [
-        "Zachovat mé Plus předplatné"
+        "Zachovat mé předplatné Plus"
       ]
     },
     "action": {
@@ -3352,6 +3352,12 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Nebudete dostávat e-maily automaticky přeposílané z ${ boldForwarderEmail }."
+      ],
+      "Automatically forward emails to another email address.": [
+        "Automatické přeposílání e-mailů na jinou e-mailovou adresu."
+      ],
+      "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
+        "Přeposílání na adresu bez koncového šifrování deaktivuje koncové šifrování pro vaši adresu ${ boldForwarderEmail }, ale šifrování s nulovým přístupem zůstane zapnuté. ${ learnMoreLink }"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3450,6 +3456,9 @@
       ],
       "Forwarding resumed": [
         "Přeposílání bylo obnoveno"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "E-mail odeslán na ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -6229,7 +6238,7 @@
         "Dedikované servery"
       ],
       "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control.": [
-        "K privátním branám lze přidat dedikované servery s vyhrazenými IP adresami, které umožňují podrobnější nastavení přístupu."
+        "K soukromým branám lze přidat dedikované servery s vyhrazenými IP adresami, které umožňují podrobnější nastavení přístupu."
       ],
       "Delete any other MX records or make sure ${ MAIL_APP_NAME }'s Priority is the lowest number.": [
         "Odstraňte všechny ostatní MX záznamy, nebo se ujistěte, že ${ MAIL_APP_NAME } záznam má nejnižší prioritu."
@@ -7900,10 +7909,22 @@
         "Pokud zrušíte vaše předplatné ${ planTitle }, nebude už obnoveno po vypršení jeho platnosti ${ expiryDate }."
       ],
       "You will lose access to Plus features on this date.": [
-        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím."
       ],
       "You will lose access to Plus servers and features on this date.": [
-        "K tomuto datu ztratíte přístup k Plus serverům a funkcím ."
+        "K tomuto datu ztratíte přístup k Plus serverům a funkcím."
+      ],
+      "Please use another browser or download the file.": [
+        "Použijte jiný prohlížeč nebo si soubor stáhněte."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Náhled tohoto typu souboru není v tomto prohlížeči aktuálně podporován."
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "SMTP odesílání umožňuje službám nebo zařízením třetích stran odesílat e-maily prostřednictvím ${ MAIL_APP_NAME } pro vaše vlastní doménové adresy. Tato funkce je k dispozici pouze uživatele ${ BRAND_NAME } for Business s vlastními doménami."
+      ],
+      "They will be removed from your organization": [
+        "Budou odebráni z vaší organizace"
       ]
     },
     "info": {
@@ -9297,6 +9318,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } uvítací e-maily"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Uživatelský průzkum ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Aktualizace produktu ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nové funkce ${ MAIL_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Aktualizace produktu ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Aktualizace produktu ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -10611,7 +10647,7 @@
         "Vytvořte si až ${ n } e-mailových adres/aliasů, které můžete přiřadit členům rodiny. Používejte je pro online identity, např. HonzaNakupy@${ domain } při nakupování."
       ],
       "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control": [
-        "K privátním branám lze přidat dedikované servery s vyhrazenými IP adresami, které umožňují jemně vyladěné řízení přístupu"
+        "K soukromým branám lze přidat dedikované servery s vyhrazenými IP adresami, které umožňují jemně vyladěné řízení přístupu"
       ],
       "Defends against the threat to VPN privacy by passing your internet traffic through multiple servers": [
         "Chrání před hrozbami pro soukromí VPN předáváním vašeho internetového provozu přes více serverů"
@@ -11513,6 +11549,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Vaše organizace má přístup k ${ free }. Pokud chcete mít přístup k prémiovým funkcím ${ appName }, požádejte správce své organizace o navýšení."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
+        "Ale můžete získat slevu ${ discount } navýšením na **${ upsellPlanTitle }** — je to jen ${ relativePrice } měsíčně navíc."
+      ],
+      "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
+        "Ale můžete získat slevu ${ discount } navýšením na **${ upsellPlanTitle }**."
       ]
     },
     "pass_signup_2023: Title": {
@@ -14245,6 +14287,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Byli jste pozváni k vyzkoušení ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "Přeposlat a automaticky odpovědět"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15130,6 +15175,202 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**Přidejte našeho správce šifrovaných hesel** za pouhých ${ price }"
+      ],
+      "Add ${ PASS_APP_NAME }": [
+        "Přidat ${ PASS_APP_NAME }"
+      ],
+      "Add ${ plan } for ${ price } per month": [
+        "Přidejte ${ plan } za ${ price } měsíčně"
+      ],
+      "Add ${ plan } to your plan by subscribing to 15 months": [
+        "Přidejte ${ plan } do svého tarifu předplacením na 15 měsíců"
+      ],
+      "Become a Visionary": [
+        "Staňte se Vizionářem"
+      ],
+      "Cancel": [
+        "Zrušit"
+      ],
+      "Close": [
+        "Zavřít"
+      ],
+      "Get the deal": [
+        "Využít nabídku"
+      ],
+      "Remove": [
+        "Odebrat"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Odebrat ${ PASS_APP_NAME }"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "Přihlaste se k odběru na 15 měsíců a získejte našeho **správce šifrovaných hesel** za pouhých ${ priceNoSuffix } měsíčně navíc!"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } úložiště"
+      ],
+      "1 user": [
+        "1 uživatel"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Více než 3 000 serverů ve více než 65 zemích světa"
+      ],
+      "6 users": [
+        "6 uživatelů"
+      ],
+      "Access content worldwide": [
+        "Přístup k obsahu z celého světa"
+      ],
+      "Ad-blocker and malware protection": [
+        "Blokování reklam a ochrana před malwarem"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Všechny placené funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Rozšířená historie verzí"
+      ],
+      "High speed streaming": [
+        "Vysokorychlostní streamování"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiový ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Prémiový správce hesel"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Slevy se vztahují na standardní měsíční ceny."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Vaše předplatné se automaticky obnoví za standardní zvýhodněnou sazbu a dobu trvání na konci vašeho fakturačního cyklu."
+      ]
+    },
+    "bf2023: header": {
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Ušetřete s nabídkami na Black Friday na vysokorychlostní švýcarskou VPN"
+      ],
+      "Select your Black Friday offer": [
+        "Vyberte si nabídku Black Friday"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Všechny prémiové služby ${ BRAND_NAME }. Jedno snadné předplatné."
+      ],
+      "Secure browsing and premium VPN features.": [
+        "Bezpečné prohlížení a prémiové funkce VPN."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "Je nám líto, ale tato nabídka není s vaším aktuálním tarifem k dispozici."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Je nám líto, ale tato nabídka není k dispozici s vaším aktuálním tarifem. Můžete však získat **${ discountPercentage } z ${ plan.Title }** když si předplatíte **${ months }**."
+      ]
+    },
+    "bf2023: Info": {
+      "6 TB storage (2x more than any other plan)": [
+        "6 TB úložiště (2x více než jakýkoli jiný tarif)"
+      ],
+      "6 users": [
+        "6 uživatelů"
+      ],
+      "Become a super-supporter. Get access to all current and future ${ BRAND_NAME } services.": [
+        "Staňte se superpodporovatelem. Získejte přístup ke všem současným i budoucím službám ${ BRAND_NAME }."
+      ],
+      "Exclusive features and early access": [
+        "Exkluzivní funkce a předběžný přístup"
+      ],
+      "Help us fight for online privacy": [
+        "Pomozte nám bojovat za soukromí online"
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "Prémiové verze všech služeb ${ BRAND_NAME }"
+      ],
+      "The ${ plan } plan is back for a limited time only": [
+        "Tarif ${ plan } je zpět pouze po omezenou dobu"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30denní záruka vrácení peněz"
+      ]
+    },
+    "bf2023: renew": {
+      "the first month": [
+        "první měsíc"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Speciální zvýhodněná cena ${ discountedPrice } platí po dobu ${ discountedMonths }. Poté se tarif automaticky obnoví za zvýhodněnou cenu ${ nextPrice } na ${ nextMonths }. Službu můžete kdykoliv zrušit."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "Speciálně zvýhodněná cena ${ discountedPrice } platí první měsíc. Poté bude každý měsíc automaticky obnovena za cenu ${ nextPrice }. Službu můžete kdykoli zrušit."
+      ]
+    },
+    "bf2023: Title": {
+      "Offer unavailable": [
+        "Nabídka je nedostupná"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Přístup k blokovanému obsahu a soukromé prohlížení. Zahrnuje více než 3 000 serverů ve více než 65 zemích, nejvyšší rychlosti VPN, přístup k celosvětovým streamovacím službám, blokování malwaru a reklam, rychlé stahování BitTorrentu a další funkce."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Přístup k obsahu streamovacích služeb, včetně Netflix, Disney+, Prime Video a dalších, odkudkoli."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Obcházejte místní blokování internetu a cenzuru pomocí naší globální sítě serverů."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Obsahuje podporu 1 vlastní e-mailové domény, 10 e-mailových adres, 10 aliasů hide-my-email, sdílení kalendáře a další funkce."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Bezpečené přihlašování na všech zařízeních. Zahrnuje neomezený počet aliasů, sdílení, integrované 2FA a další funkce."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zabezpečte své e-maily a plánování pomocí koncového šifrování. Obsahuje podporu vlastních e-mailových domén, 15 e-mailových adres, neomezený počet hide-my-email aliasů, sdílení kalendáře a další."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Zabezpečte své soubory pomocí šifrovaného cloudového úložiště. Obsahuje historii verzí souborů, šifrované sdílení souborů a další funkce."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "NetShield chrání vaše zařízení a zrychluje prohlížení tím, že blokuje reklamy, sledovací prvky a malware."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Úložný prostor je sdílen mezi všemi aplikacemi ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Uchovávejte až 200 verzí každého souboru po dobu až 10 let."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Získejte nejnovější zprávy o ochraně soukromí ${ BRAND_NAME } a dění ve světě"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Účastněte se průzkumů ke zlepšení služeb ${ BRAND_NAME }"
       ]
     }
   }

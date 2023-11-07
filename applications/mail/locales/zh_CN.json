@@ -380,7 +380,7 @@
         "展开"
       ],
       "Expiration time": [
-        "失效时间"
+        "邮件有效期"
       ],
       "Export": [
         "导出"
@@ -782,7 +782,7 @@
         "移除加密"
       ],
       "Remove expiration time": [
-        "移除失效时间"
+        "移除邮件有效期"
       ],
       "Remove self-destruction": [
         "取消自动销毁"
@@ -1186,7 +1186,7 @@
     },
     "Adding expiration to a message will create an expiring message": {
       "Expiring message": [
-        "过期邮件"
+        "邮件有效期"
       ]
     },
     "Alert": {
@@ -4537,7 +4537,7 @@
         "${ addressCount } 个邮箱地址"
       ],
       "${ appName } needs your permission to ${ enableDesktopNotifications }.": [
-        "${ appName } 需要您的权限来${ enableDesktopNotifications }。"
+        "${ appName } 需要您授权${ enableDesktopNotifications }。"
       ],
       "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
         "${ BRAND_NAME } 的前沿加密技术意味着没有人能够窃取您的密码，包括我们自己。"
@@ -7873,7 +7873,7 @@
         "不再显示此活动"
       ],
       "Special offer": [
-        "特价"
+        "限时特惠"
       ]
     },
     "specialoffer: Action, Unlimited is a plan name": {
@@ -7930,6 +7930,18 @@
       ],
       "Support online privacy": [
         "支持网络隐私保护"
+      ],
+      "1 user": [
+        "1 位用户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME } 与 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "高级 ${ VPN_SHORT_APP_NAME } 账户"
       ]
     },
     "specialoffer: Footer": {
@@ -9456,6 +9468,45 @@
     "Checkout row": {
       "${ users } users": [
         "${ users } 位用户"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus 与 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } 存储空间"
+      ],
+      "1 user": [
+        "1 位用户"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 位用户"
+      ],
+      "Access content worldwide": [
+        "畅游全球各类网站"
+      ],
+      "Ad-blocker and malware protection": [
+        "广告拦截与恶意软件防护"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_APP_NAME } 的所有付费功能"
+      ],
+      "High speed streaming": [
+        "高速看视频"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "折扣基于标准月费计算。"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "所有 ${ BRAND_NAME } 服务共用同一存储空间。"
       ]
     }
   }

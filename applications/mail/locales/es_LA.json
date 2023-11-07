@@ -2890,7 +2890,7 @@
     },
     "Default encryption scheme": {
       "Use global default (${ defaultValueText })": [
-        "Uar global por defecto (${ defaultValueText })"
+        "Usar global por defecto (${ defaultValueText })"
       ]
     },
     "Default signing preference": {
@@ -3238,7 +3238,7 @@
         "Error al enviar el mensaje. El mensaje no se ha enviado."
       ],
       "Error while uploading attachments. Message is not sent.": [
-        "Error al subir los archivos adjuntos. El mensaje no se ha enviado."
+        "Error al cargar los archivos adjuntos. El mensaje no se ha enviado."
       ],
       "Failed to encrypt attachment. Please try again.": [
         "Error al cifrar el adjunto. Intente nuevamente."
@@ -3253,7 +3253,7 @@
         "El nombre de la carpeta no puede estar vacío."
       ],
       "Image upload failed": [
-        "Error al subir la imagen"
+        "Error al cargar la imagen"
       ],
       "IMAP server is required": [
         "Servidor IMAP requerido"
@@ -3618,7 +3618,7 @@
         "Ocurrió un error al cargar el archivo ${ formattedFilename }. El tamaño máximo del archivo es ${ MAX_IMPORT_FILE_SIZE_STRING }."
       ],
       "An error occurred uploading your file ${ formattedFilename }. No .csv or .vcf file selected": [
-        "Ocurrió un error al subir el archivo ${ formattedFilename }. No se seleccionó un archivo .csv o .vcf"
+        "Ocurrió un error al cargar el archivo ${ formattedFilename }. No se seleccionó un archivo .csv o .vcf"
       ],
       "An error occurred uploading your file. No file has been selected.": [
         "Ocurrió un error al cargar el archivo. Ningún archivo fue seleccionado."
@@ -6117,6 +6117,12 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "Hasta ${ FAMILY_MAX_USERS } usuarios"
+      ],
+      "Please use another browser or download the file.": [
+        "Use otro navegador o descargue el archivo."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La vista previa para este tipo de archivo no está admitida en este navegador."
       ]
     },
     "info": {
@@ -6819,7 +6825,7 @@
         "Destinatarios ocultos"
       ],
       "Upload picture": [
-        "Subir imagen"
+        "Cargar imagen"
       ],
       "Verification code": [
         "Código de verificación"
@@ -7837,7 +7843,7 @@
     },
     "Select files": {
       "Upload": [
-        "Subir"
+        "Cargar"
       ]
     },
     "Send email with changed preferences": {
@@ -9474,7 +9480,7 @@
         "Esta función solo está disponible para usuarios de pago"
       ],
       "Upload a public key to enable sending end-to-end encrypted emails to this email": [
-        "Subir una clave pública para permitir el envío de correos electrónicos cifrados de extremo a extemo a este correo electrónico"
+        "Cargue una clave pública para permitir el envío de correos electrónicos cifrados de extremo a extremo a este correo electrónico"
       ],
       "You do not have any contacts to export": [
         "No tiene ningún contacto para exportar"
@@ -9912,11 +9918,11 @@
         "Evite la censura y los bloqueos locales de Internet con nuestra red global de servidores."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Incluye compatibilidad con 1 dominio de correo electrónico personalizado, 10 direcciones de correo electrónico, 10 seudónimos de hide-my-email, posibilidad de compartir calendario, etc."
+        "Incluye compatibilidad con 1 dominio de correo personalizado, 10 direcciones de correo, 10 alias de hide-my-email, posibilidad de compartir calendario, etc."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } dirección de correo electrónico, seudónimos ilimitados de hide-my-email, posibilidad de compartir calendario, etc.",
-        "Incluye compatibilidad con 3 dominios de correo electrónico personalizado, ${ addresses } direcciones de correo electrónico, seudónimos ilimitados de hide-my-email, posibilidad de compartir calendario, etc."
+        "Incluye compatibilidad con 3 dominios de correo personalizado, ${ addresses } dirección de correo , alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc.",
+        "Incluye compatibilidad con 3 dominios de correo personalizado, ${ addresses } direcciones de correo, alias ilimitados de hide-my-email, posibilidad de compartir calendario, etc."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
         "Inicios de sesión seguros en todos sus dispositivos. Incluye alias ilimitados, uso compartido, 2FA integrado y más."

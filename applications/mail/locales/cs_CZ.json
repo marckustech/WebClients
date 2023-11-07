@@ -1178,7 +1178,7 @@
         "Uzavření kontrolního seznamu"
       ],
       "Continue with Outlook": [
-        "Pokračovat s Outlookem"
+        "Pokračovat skrze Outlook"
       ],
       "Go to first page": [
         "Jít na první stránku"
@@ -6328,6 +6328,12 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "Až ${ FAMILY_MAX_USERS } uživatelů"
+      ],
+      "Please use another browser or download the file.": [
+        "Použijte jiný prohlížeč nebo si soubor stáhněte."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Náhled tohoto typu souboru není v tomto prohlížeči aktuálně podporován."
       ]
     },
     "info": {
@@ -10295,7 +10301,105 @@
     },
     "email_forwarding_2023: Composer email icon": {
       "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
-        "Šifrováno s nulovým přístupem. Příjemce má na svém účtu vypnuto end-to-end šifrování."
+        "Šifrováno s nulovým přístupem. Příjemce má na svém účtu vypnuto koncové šifrování."
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } úložiště"
+      ],
+      "1 user": [
+        "1 uživatel"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Více než 3 000 serverů ve více než 65 zemích světa"
+      ],
+      "6 users": [
+        "6 uživatelů"
+      ],
+      "Access content worldwide": [
+        "Přístup k obsahu z celého světa"
+      ],
+      "Ad-blocker and malware protection": [
+        "Blokování reklam a ochrana před malwarem"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Všechny placené funkce ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Rozšířená historie verzí"
+      ],
+      "High speed streaming": [
+        "Vysokorychlostní streamování"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiový ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Prémiový správce hesel"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Slevy se vztahují na standardní měsíční ceny."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Vaše předplatné se automaticky obnoví za standardní zvýhodněnou sazbu a dobu trvání na konci vašeho fakturačního cyklu."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30denní záruka vrácení peněz"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Přístup k blokovanému obsahu a soukromé prohlížení. Zahrnuje více než 3 000 serverů ve více než 65 zemích, nejvyšší rychlosti VPN, přístup k celosvětovým streamovacím službám, blokování malwaru a reklam, rychlé stahování BitTorrentu a další funkce."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Přístup k obsahu streamovacích služeb, včetně Netflix, Disney+, Prime Video a dalších, odkudkoli."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Obcházejte místní blokování internetu a cenzuru pomocí naší globální sítě serverů."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Obsahuje podporu 1 vlastní e-mailové domény, 10 e-mailových adres, 10 aliasů hide-my-email, sdílení kalendáře a další funkce."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zahrnuje podporu 3 vlastních e-mailových domén, ${ addresses } e-mailovou adresu, neomezený počet aliasů hide-my-email, sdílení kalendáře a další.",
+        "Zahrnuje podporu 3 vlastních e-mailových domén, ${ addresses } e-mailové adresy, neomezený počet aliasů hide-my-email, sdílení kalendáře a další.",
+        "Zahrnuje podporu 3 vlastních e-mailových domén, ${ addresses } e-mailových adres, neomezený počet aliasů hide-my-email, sdílení kalendáře a další.",
+        "Zahrnuje podporu 3 vlastních e-mailových domén, ${ addresses } e-mailových adres, neomezený počet aliasů hide-my-email, sdílení kalendáře a další."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Bezpečené přihlašování na všech zařízeních. Zahrnuje neomezený počet aliasů, sdílení, integrované 2FA a další funkce."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zabezpečte své e-maily a plánování pomocí koncového šifrování. Obsahuje podporu vlastních e-mailových domén, 15 e-mailových adres, neomezený počet hide-my-email aliasů, sdílení kalendáře a další."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Zabezpečte své soubory pomocí šifrovaného cloudového úložiště. Obsahuje historii verzí souborů, šifrované sdílení souborů a další funkce."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "NetShield chrání vaše zařízení a zrychluje prohlížení tím, že blokuje reklamy, sledovací prvky a malware."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Úložný prostor je sdílen mezi všemi aplikacemi ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Uchovávejte až 200 verzí každého souboru po dobu až 10 let."
       ]
     }
   }

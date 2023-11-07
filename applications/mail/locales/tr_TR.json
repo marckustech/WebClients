@@ -9850,13 +9850,13 @@
         "3 TB"
       ],
       "3,000+ servers across 65+ countries": [
-        "65'ten fazla ülkede 3,000'den fazla sunucu"
+        "65 üzerindeki ülkede 3.000 üzerinde sunucu"
       ],
       "6 users": [
         "6 kullanıcı"
       ],
       "Access content worldwide": [
-        "Dünyadaki her içeriğe erişin"
+        "Dünya'daki tüm içeriklere erişin"
       ],
       "Ad-blocker and malware protection": [
         "Reklam engelleyici ve kötü amaçlı yazılım koruması"
@@ -9868,7 +9868,7 @@
         "Genişletilmiş sürüm geçmişi"
       ],
       "High speed streaming": [
-        "Yüksek hızda yayın akışı"
+        "Yüksek hızlı yayın akışı izleme"
       ],
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
         "Ücretli ${ DRIVE_SHORT_APP_NAME }"
@@ -9880,12 +9880,12 @@
         "Ücretli ${ VPN_SHORT_APP_NAME }"
       ],
       "Premium Password Manager": [
-        "Ücretli Parola Yöneticisi"
+        "Ücretli parola yöneticisi"
       ]
     },
     "bf2023: Footer": {
       "Discounts are based on standard monthly pricing.": [
-        "İndirimler aylık standart ücretlendirmeye göredir."
+        "İndirimler standart aylık ücretlendirmeye göre yapılır."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
         "Aboneliğiniz, faturalama döneminizin sonunda otomatik olarak standart tarife ve süre üzerinden yenilenir."
@@ -9893,43 +9893,43 @@
     },
     "bf2023: Offers": {
       "30-day money-back guarantee": [
-        "30 gün içinde ücret iade garantisi"
+        "30 gün içinde ücreti geri ödeme garantisi"
       ]
     },
     "bf2023: Tooltip": {
       "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "Yasaklı içeriklere erişin ve gizlice gezinin. 65'ten fazla ülkede 3,000 üzerinde sunucu, en yüksek VPN hızlarını, dünya çapındaki yayın hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmelerini ve daha fazlasını içerir."
+        "Engellenen içeriğe erişin ve gizliliğinizi koruyarak gezinin. 65 üzerindeki ülkede 3.000 üzerinde sunucu, en yüksek VPN hızları, tüm Dünya'daki yayın akışı hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmeleri ve diğer özellikler."
       ],
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Netflix, Disney+, Prime Video ve daha fazla yayın hizmetlerindeki içeriklere herhangi bir yerden erişin."
+        "Netflix, Disney+ ve Prime Video ve diğer yayın akışı hizmetlerindeki içeriğe her yerden erişin."
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
-        "Yerel internet engellemelerini ve sansürü küresel sunucu ağlarımız ile aşın."
+        "Yerel İnternet engellemelerini ve sansürü küresel sunucu ağlarımız ile aşın."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "1 özel e-posta etki alanı, 10 e-posta adresi, 10 hide-my-email takma adı, takvim paylaşma ve daha fazlası için destek içerir."
+        "1 özel e-posta etki alanı, 10 e-posta adresi, 10 hide-my-email takma adı, takvim paylaşma ve diğer özellikler."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir.",
-        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve diğer özellikler.",
+        "3 özel e-posta etki alanı, ${ addresses } e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve diğer özellikler."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
-        "Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve daha fazlası."
+        "Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve diğer özellikler."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "E-postalarınızı ve takviminizi uçtan uca şifreleme ile güvene alın. özel e-posta etki alanı, 15 e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşımı ve daha fazlasını içerir."
+        "E-postalarınızı ve zaman planınızı uçtan uca şifrelemeyle koruyun. Özel e-posta etki alanları, 15 e-posta adresi, sınırsız hide-my-email takma adı, takvim paylaşma ve diğer özellikler."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
         "Dosyalarınızı şifrelenmiş bulut depolama alanı ile koruyun. Sürüm geçmişi, şifrelenmiş dosya paylaşımı ve diğer özellikler."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "Özel olarak tasarlanmış NetShield cihazlarınızı korur ve reklamları, etkinlik izleyicileri, kötü amaçlı yazılımları engelleyerek internette gezinme hızınızı artırır."
+        "Özel olarak tasarlanmış NetShield aygıtlarınızı korur ve reklamları, etkinlik izleyicileri, kötü amaçlı yazılımları engelleyerek İnternet üzerinde gezinme hızınızı artırır."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "Depolama alanı tüm ${ BRAND_NAME } uygulamaları arasında paylaşılır."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
-        "Her dosyanın 200'e kadar sürümünü 10 yıla kadar tutun."
+        "Her dosyanın 200 taneye kadar sürümünü 10 yıla kadar tutun."
       ]
     },
     "Checkout row": {

@@ -1161,6 +1161,24 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Close the checklist": [
+        "Sluit de controlelijst"
+      ],
+      "Continue with Outlook": [
+        "Ga verder met Outlook"
+      ],
+      "Go to first page": [
+        "Ga naar de eerste pagina"
+      ],
+      "Go to last page": [
+        "Ga naar de laatste pagina"
+      ],
+      "Import from Google": [
+        "Importeren uit Google"
+      ],
+      "Import from Outlook": [
+        "Importeren uit Outlook"
       ]
     },
     "action": {
@@ -2964,6 +2982,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "U kunt contactpersonen markeren die u niet wilt samenvoegen of behouden. Ze worden pas verwijderd na het klikken op 'samenvoegen'"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Voor importeren via CSV- en VCF-bestand, zorg ervoor dat het bestand niet ${ MAX_IMPORT_FILE_SIZE_STRING } of ${ MAX_IMPORT_CONTACTS_STRING } contacten overschrijdt. Als uw bestand groter is, splits het dan in kleinere bestanden. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Importeer uw contacten uit Google of Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -3986,6 +4010,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4004,6 +4031,10 @@
       "Megabyte": [
         "Megabyt",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter": {
@@ -4284,6 +4315,9 @@
       ],
       "You've unlocked 1 GB": [
         "U heeft 1 GB ontgrendeld"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Dit sluiten betekent het opgeven van de gratis opslagbonus."
       ]
     },
     "Gmail forwarding": {
@@ -6075,6 +6109,9 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "Tot ${ FAMILY_MAX_USERS } gebruikers"
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Vindt u niet wat u zoekt? ${ displayAllMailButton }"
       ]
     },
     "info": {
@@ -7031,6 +7068,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "U moet uw sleutels opnieuw activeren om de bijgewerkte uitnodiging te zien"
+      ],
+      "Set up email forwarding": [
+        "E-mail doorsturen instellen"
       ]
     },
     "Link to calendar event": {
@@ -9893,6 +9933,11 @@
       "${ users } user": [
         "${ users } gebruiker",
         "${ users } gebruikers"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "gebruik de Easy Switch-importhulp"
       ]
     }
   }

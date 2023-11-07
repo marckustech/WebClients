@@ -235,7 +235,7 @@
         "이메일 설정"
       ],
       "enable desktop notifications": [
-        "데스크톱 알림 활성화"
+        "데스크톱 알림을 활성화"
       ],
       "Export": [
         "내보내기"
@@ -638,6 +638,15 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "vCard 파일을 ${ maxAttachments }개 이상 연락처로 보낼 수 없습니다"
+      ],
+      "Continue with Outlook": [
+        "Outlook으로 계속하기"
+      ],
+      "Import from Google": [
+        "Google에서 가져오기"
+      ],
+      "Import from Outlook": [
+        "Outlook에서 가져오기"
       ]
     },
     "Action subline": {
@@ -2099,6 +2108,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "병합하거나 유지하고 싶지 않은 연락처를 삭제하도록 표시할 수 있습니다. 삭제는 병합 버튼을 클릭한 후에만 이루어집니다."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV 파일 및 VCF 파일을 통한 불러오기를 위해, 파일이 ${ MAX_IMPORT_FILE_SIZE_STRING } 또는 ${ MAX_IMPORT_CONTACTS_STRING } 연락처를 초과하지 않도록 하십시오. 파일이 더 크면, 더 작은 파일로 나누세요. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Google 및 Outlook에서 콘텐츠를 불러오려면, ${ easySwitchLink }"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2541,7 +2556,7 @@
         "이 폴더 이름을 사용할 수 없어요. 다른 이름을 선택하세요."
       ],
       "This label name is not available. Please choose a different name.": [
-        "이 레이블 이름은 사용할 수 없어요. 다른 이름을 선택하세요."
+        "이 라벨 이름은 사용할 수 없어요. 다른 이름을 선택하세요."
       ],
       "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "이 메시지는 현재 브라우저에서 제대로 열 수 없는 URL 링크있을 수 있습니다."
@@ -2584,6 +2599,9 @@
       ],
       "Failed to get event": [
         "이벤트 게시 실패"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "지정한 수신자가 캘린더 공유를 지원하지 않습니다."
       ]
     },
     "Error accepting calendar invitation": {
@@ -3447,7 +3465,7 @@
         "${ addressCount } 이메일 주소"
       ],
       "${ appName } needs your permission to ${ enableDesktopNotifications }.": [
-        "${ appName } 이 ${ enableDesktopNotifications } 하려면 권한이 필요합니다."
+        "${ appName }에서 ${ enableDesktopNotifications }하려면 권한이 필요합니다."
       ],
       "${ BRAND_NAME }'s encryption technology means that nobody can access your password - not even us.": [
         "${ BRAND_NAME }의 암호화 기술은 그 누구도 당신의 비밀번호에 접근할 수 없음을 뜻합니다 - 심지어 우리도요."
@@ -3813,7 +3831,7 @@
         "새 폴더의 이름을 지정하고 넣고 싶은 상위 폴더를 선택하세요. 상위 폴더를 선택하지 않으면, 이 새 폴더는 최상위 폴더로 생성됩니다."
       ],
       "New": [
-        "새로운"
+        "신규"
       ],
       "No contacts added yet": [
         "아직 추가된 연락처가 없습니다"
@@ -3891,7 +3909,7 @@
         "복구 정보는 삭제하도록 설정하지 않는 한 이 장치에 남아있어요."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "페이지를 새로고침하거나 ${ link } 는 대부분의 문제가 자동으로 해결됩니다."
+        "페이지를 새로고침하거나 ${ link } 대부분의 문제가 자동으로 해결됩니다."
       ],
       "Removed participants will be notified.": [
         "삭제된 참가자들에게 알림이 전송됩니다."
@@ -4472,7 +4490,7 @@
         "가져오기:"
       ],
       "Label messages as": [
-        "메시지에 다음으로 레이블 지정"
+        "메시지에 다음으로 라벨 지정"
       ],
       "Language": [
         "언어"
@@ -4690,7 +4708,7 @@
         "캘린더"
       ],
       "clearing your browser cache": [
-        "브라우저 캐시 삭제 중"
+        "브라우저 캐시를 삭제하면"
       ],
       "Learn more": [
         "더 알아보기"
@@ -7056,6 +7074,106 @@
     "Checkout row": {
       "${ users } users": [
         "${ users } 사용자"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus 및 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } 저장공간"
+      ],
+      "1 user": [
+        "사용자 1명"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65개 국가에서 3,000개 이상의 서버"
+      ],
+      "6 users": [
+        "사용자 6명"
+      ],
+      "Access content worldwide": [
+        "전세계의 콘텐츠 접근"
+      ],
+      "Ad-blocker and malware protection": [
+        "광고 차단기 및 멀웨어 보호"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "모든 ${ MAIL_SHORT_APP_NAME } 및 ${ CALENDAR_APP_NAME } 유료 기능"
+      ],
+      "Extended version history": [
+        "연장된 버전 기록"
+      ],
+      "High speed streaming": [
+        "고속 스트리밍"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "프리미엄 암호 관리자"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "할인은 표준 월별 가격을 기본으로 합니다."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "구독은 결제일 주기가 끝날 때 표준 할인율 요금으로 자동 갱신됩니다."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30일 무료체험"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "65개 이상의 국가의 3,000여개 서버로 차단된 콘텐츠에 접근하고 비공개적으로 브라우징 하고, 빠른 VPN 속도, 개 VPN 연결, 월드와이드 스트리밍 서비스, 멀웨어 및 광고 차단기 등을 누리십시오."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "어디서든지 스트리밍 서비스에서 콘텐츠를 접근하세요, Netflix, Disney+, Prime Video 등이 포함됩니다."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Proton의 글로벌 서버 네트워크로 인터넷 차단 및 검열을 우회하세요."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1개 커스텀 이메일 도메인, 10개 이메일 주소, 10개 Hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "3개 커스텀 이메일 도메인, ${ addresses }개 이메일 주소, 무제한 hide-my-email 별명, 캘린더 공유 등 지원 포함."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "무제한 별명, 공유, 통합된 2FA 등을 포함하는 비밀번호 관리자로 모든 기기에서 로그인을 보호하세요."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "사용자 지정 이메일 도메인, 15개 이메일 주소, 무제한 hide-my-email 별명 등 기능을 포함하는 이메일과 공유 캘린더를 지원하는 보안 캘린더로 보호하세요."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "버전 기록, 암호화 파일 공유 등을 포함한 암호화된 클라우드 저장공간으로 파일을 보호하세요."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "특별히 설계된 NetShield는 광고, 추적기 및 맬웨어를 차단하여 장치를 보호하고 브라우징 속도를 높입니다."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "스토리지 공간은 모든 ${ BRAND_NAME } 앱 전반적으로 공유됩니다."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "최대 10년간 각 파일의 최대 200개의 버전을 저장하세요."
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "Easy Switch 불러오기 마법사를 사용하세요."
       ]
     }
   }

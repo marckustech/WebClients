@@ -2596,6 +2596,9 @@
       ],
       "Failed to get event": [
         "イベントの取得に失敗しました"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "対象の受信者はカレンダーの共有をサポートしていません"
       ]
     },
     "Error accepting calendar invitation": {

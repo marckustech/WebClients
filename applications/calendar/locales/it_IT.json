@@ -208,7 +208,7 @@
         "Deseleziona tutto"
       ],
       "Discard": [
-        "Annulla"
+        "Scarta"
       ],
       "Don't know your password?": [
         "Non sai la password?"
@@ -316,7 +316,7 @@
         "Aderisci al calendario"
       ],
       "Keep current time zone": [
-        "Mantieni il fuso orario corrente"
+        "Mantieni il fuso orario attuale"
       ],
       "Load": [
         "Carica"
@@ -367,7 +367,7 @@
         "Nuovo messaggio"
       ],
       "Next": [
-        "Successivo"
+        "Avanti"
       ],
       "Next day": [
         "Giorno seguente"
@@ -796,13 +796,13 @@
         "Problema con Bridge"
       ],
       "Calendar problem": [
-        "Problema con il calendario"
+        "Problema con Calendar"
       ],
       "Connection problem": [
         "Problema di connessione"
       ],
       "Contacts problem": [
-        "Problema con i contatti"
+        "Problema con Contacts"
       ],
       "Custom domain problem": [
         "Problema con un dominio personalizzato"
@@ -811,7 +811,7 @@
         "Problema con Drive"
       ],
       "Feature request": [
-        "Richiedi Funzionalità"
+        "Richiedi una funzionalità"
       ],
       "Import / export problem": [
         "Problema di importazione/esportazione"
@@ -2583,7 +2583,7 @@
         "Questo nome dell'etichetta non è disponibile. Scegli un nome diverso."
       ],
       "This message may contain some links URL that cannot be properly opened by your current browser.": [
-        "Questo messaggio potrebbe contenere alcuni link URL che non possono essere aperti correttamente dal browser corrente."
+        "Questo messaggio potrebbe contenere alcuni link URL che non possono essere aperti correttamente dal browser attuale."
       ],
       "Trusted keys are not valid for sending": [
         "Le chiavi attendibili non sono valide per l'invio"
@@ -3456,7 +3456,7 @@
         "password per le app o abilitare IMAP"
       ],
       "CSV or a VCF (vCard) file": [
-        "un file CSV o VCF (vCard)"
+        "file CSV o VCF (vCard)"
       ],
       "full calendar view": [
         "vista calendario completa"
@@ -3873,10 +3873,10 @@
         "Link creato"
       ],
       "Loading": [
-        "Caricamento"
+        "Caricamento in corso"
       ],
       "Loading ${ appName }": [
-        "Caricamento di ${ appName }"
+        "Caricamento di ${ appName } in corso"
       ],
       "Loading event": [
         "Caricamento evento"
@@ -3894,7 +3894,7 @@
         "Mensile ${ onDayString }"
       ],
       "Name your new folder and select the parent folder you want to put it in. If you do not select a parent folder, this new folder will be created as a top level folder.": [
-        "Dai un nome alla tua cartella e seleziona la cartella principale nella quale deve verrà contenuta. Se non selezioni una cartella principale, questa nuova cartella verrà creata come una cartella di primo livello."
+        "Dai un nome alla tua cartella e seleziona la cartella principale nella quale verrà contenuta. Se non selezioni una cartella principale, questa nuova cartella verrà creata come una cartella di primo livello."
       ],
       "New": [
         "Nuovo"
@@ -3973,7 +3973,7 @@
         "Principale"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Le informazioni di ripristino rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
+        "Le informazioni di recupero rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Aggiornare la pagina o ${ link } risolverà automaticamente la maggior parte dei problemi."
@@ -3982,7 +3982,7 @@
         "I partecipanti rimossi saranno notificati."
       ],
       "Select the email format you want to be used by default when sending an email to this email address.": [
-        "Seleziona il formato email che desideri utilizzare per impostazione predefinita quando invii un'email a questo indirizzo email."
+        "Seleziona il formato email che desideri usare per impostazione predefinita quando invii un'email a questo indirizzo email."
       ],
       "Select what you want to import.": [
         "Seleziona cosa vuoi importare."
@@ -4823,7 +4823,7 @@
         "Totale calendari creati: ${ createdCalendarCount } di ${ calendarsToBeCreated }"
       ],
       "Connecting to your email provider": [
-        "Connessione al tuo provider email"
+        "Connessione al tuo fornitore di email in corso"
       ],
       "Creating new calendars": [
         "Creazione nuovi calendari"
@@ -4832,7 +4832,7 @@
         "Raccolta dei tuoi dati"
       ],
       "We're gathering your data from your provider": [
-        "Stiamo raccogliendo i tuoi dati dal tuo provider"
+        "Stiamo raccogliendo i tuoi dati dal tuo fornitore"
       ],
       "Your import is starting": [
         "La tua importazione sta iniziando"
@@ -5358,7 +5358,7 @@
         "Tutti gli eventi"
       ],
       "Auto": [
-        "Auto"
+        "Automatico"
       ],
       "Automatic (${ defaultDay })": [
         "Automatico (${ defaultDay })"
@@ -5769,7 +5769,7 @@
         "${ gracePeriodHoursRemaining } ore"
       ],
       "${ passwordReset } is now available.": [
-        "${ passwordReset } è ora disponibile."
+        "La ${ passwordReset } è ora disponibile."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
         "Se esci prima di reimpostare la password, potresti perdere l'accesso al tuo account."
@@ -5783,7 +5783,7 @@
     },
     "session_recovery:sign_out:link": {
       "Password reset": [
-        "Reimpostazione password"
+        "reimpostazione della password"
       ]
     },
     "session_recovery:sign_out:title": {
@@ -5983,19 +5983,19 @@
         "30 mesi"
       ],
       "Billed at ${ amount } for 1 month": [
-        "Addebito di ${ amount } per 1 mese"
+        "Addebitato a ${ amount } per 1 mese"
       ],
       "Billed at ${ amount } for 12 months": [
-        "Addebito di ${ amount } per 12 mesi"
+        "Addebitato a ${ amount } per 12 mesi"
       ],
       "Billed at ${ amount } for 15 months": [
-        "Addebito di ${ amount } per 15 mesi"
+        "Addebitato a ${ amount } per 15 mesi"
       ],
       "Billed at ${ amount } for 24 months": [
-        "Addebito di ${ amount } per 24 mesi"
+        "Addebitato a ${ amount } per 24 mesi"
       ],
       "Billed at ${ amount } for 30 months": [
-        "Addebito di ${ amount } per 30 mesi"
+        "Addebitato a ${ amount } per 30 mesi"
       ],
       "Get the deal": [
         "Acquista"
@@ -6381,7 +6381,7 @@
         "Valori"
       ],
       "vCard field": [
-        "campo vCard"
+        "Campo vCard"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -6537,7 +6537,7 @@
         "Elimina evento"
       ],
       "Delete recurring event": [
-        "Elimina evento ricorrente"
+        "Elimina l'evento ricorrente"
       ],
       "Deleting contacts": [
         "Eliminazione dei contatti"
@@ -6610,7 +6610,7 @@
         "Codice di verifica non valido"
       ],
       "Link confirmation": [
-        "Conferma dei link"
+        "Conferma il link"
       ],
       "Merge contacts": [
         "Unisci contatti"
@@ -6724,7 +6724,7 @@
         "Scegli quando vuoi inviare questa notifica"
       ],
       "Select which calendar to add this event to": [
-        "Seleziona su quale calendario aggiungere questo evento"
+        "Seleziona in quale calendario aggiungere questo evento"
       ],
       "Send feedback": [
         "Invia il tuo feedback"
@@ -6754,7 +6754,7 @@
         "Avvia il processo d'importazione"
       ],
       "Unlock contacts groups": [
-        "Sblocca gruppi di contatti"
+        "Sblocca i gruppi di contatti"
       ],
       "Update event": [
         "Aggiorna evento"
@@ -6820,7 +6820,7 @@
     },
     "Tooltip": {
       "Automatic indicates that the format in the composer is used to send to this user. Plain text indicates that the message will always be converted to plain text on send.": [
-        "Automatico indica che il formato nel compositore è usato per inviare a questo utente. Testo semplice indica che il messaggio sarà sempre convertito in testo semplice all'invio."
+        "\"Automatico\" indica che ogni messaggio inviato a questo utente userà il formato del compositore. \"Testo semplice\" indica che il messaggio verrà sempre convertito in testo semplice all'invio."
       ],
       "Automatically switch between your preferred themes for day and night in sync with your system’s day and night modes": [
         "Passa automaticamente tra i tuoi temi preferiti per il giorno e per la notte sincronizzandoli con le modalità di giorno e di notte del tuo sistema."

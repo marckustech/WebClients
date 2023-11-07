@@ -2624,6 +2624,9 @@
       ],
       "Failed to get event": [
         "Error al obtener el evento"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "El destinatario previsto no admite compartir calendarios."
       ]
     },
     "Error accepting calendar invitation": {

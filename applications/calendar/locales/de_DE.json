@@ -2624,6 +2624,9 @@
       ],
       "Failed to get event": [
         "Fehler beim Abrufen des Termins."
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Der vorgesehene Empfänger unterstützt freigegebene Kalendern nicht."
       ]
     },
     "Error accepting calendar invitation": {

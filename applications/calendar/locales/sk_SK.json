@@ -604,7 +604,7 @@
         "Aktualizujte frázu na obnovenie"
       ],
       "Upgrade": [
-        "Aktualizovať"
+        "Prejsť na platený plán"
       ],
       "Upgrade now": [
         "Aktualizovať teraz"
@@ -2128,7 +2128,7 @@
         "Proton Mail logo a znamienko plus"
       ],
       "Save time by sending emails or invitations to everyone at once, a premium feature amongst many others. Upgrade today.": [
-        "Ušetrite čas posielaním e-mailov alebo pozvánok všetkým naraz, čo je prémiová funkcia medzi mnohými ďalšími. Inovujte ešte dnes."
+        "Ušetrite čas posielaním emailov alebo pozvánok všetkým naraz, čo je prémiová funkcia medzi mnohými ďalšími. Inovujte ešte dnes."
       ],
       "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
         "Súbor by mal mať maximálnu veľkosť ${ MAX_IMPORT_FILE_SIZE_STRING } a mal by mať ${ MAX_IMPORT_CONTACTS_STRING } kontakt. Ak je váš súbor väčší, rozdeľte ho na menšie súbory.",
@@ -2674,6 +2674,9 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude spracovaný."
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "Zamýšľaný príjemca nepodporuje zdieľanie kalendára"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3243,7 +3246,7 @@
         "Malé"
       ],
       "Very large": [
-        "Veľmi veľká"
+        "Veľmi veľké"
       ],
       "Very small": [
         "Veľmi malé"
@@ -3344,7 +3347,7 @@
     },
     "Import calendar; import invitation": {
       "Imported invitations appear in ${ CALENDAR_APP_NAME } as simple events without organizer and participant details. To get event updates and see participants, ask organizers to invite you using your ${ BRAND_NAME } email address.": [
-        "Importované pozvánky nájdete v ${ CALENDAR_APP_NAME } ako jednoduché udalosti bez podrobností o organizátoroch a účastníkoch. Pre aktualizácie udalostí a zobrazenie účastníkov požiadajte organizátorov o pozvánku pomocou svojej ${ BRAND_NAME } e-mailovej adresy."
+        "Importované pozvánky nájdete v ${ CALENDAR_APP_NAME } ako jednoduché udalosti bez podrobností o organizátoroch a účastníkoch. Pre aktualizácie udalostí a zobrazenie účastníkov požiadajte organizátorov o pozvánku pomocou svojej ${ BRAND_NAME } emailovej adresy."
       ],
       "This file contains an event invitation:": [
         "Tento súbor obsahuje pozvánku na udalosť:",
@@ -3416,13 +3419,13 @@
         "${ BRAND_NAME } sa nemôže pripojiť k vášmu účtu. Uistite sa, že:"
       ],
       "${ BRAND_NAME } can't connect to your external account. Please make sure that the mail server address and port number are correct.": [
-        "${ BRAND_NAME } sa nemôže pripojiť k vášmu vzdialenému účtu. Uistite sa prosím, že adresa e-mailového servera a číslo portu sú správne."
+        "${ BRAND_NAME } sa nemôže pripojiť k vášmu vzdialenému účtu. Uistite sa prosím, že adresa emailového servera a číslo portu sú správne."
       ],
       "${ BRAND_NAME } can't connect to your external account. Please make sure that:": [
         "${ BRAND_NAME } sa nemôže pripojiť k vášmu vzdialenému účtu. Uistite sa, že:"
       ],
       "${ BRAND_NAME } can't connect to your Yahoo account. Please make sure that the mail server address and port number are correct.": [
-        "${ BRAND_NAME } sa nemôže pripojiť k vášmu účtu Yahoo. Skontrolujte prosím, že adresa e-mailového servu a číslo portu sú správne."
+        "${ BRAND_NAME } sa nemôže pripojiť k vášmu účtu Yahoo. Skontrolujte prosím, že adresa emailového servu a číslo portu sú správne."
       ],
       "${ BRAND_NAME } can't connect to your Yahoo account. Please make sure that:": [
         "${ BRAND_NAME } sa nemôže pripojiť k vášmu účtu Yahoo. Uistite sa, že:"
@@ -3431,7 +3434,7 @@
         "Dvojstupňové overenie je zapnuté vo vašom vzdialenom účte."
       ],
       "2-step verification is enabled in your external email account.": [
-        "Dvojfázové overovanie je zapnuté vo vašom vzdialenom e-mailovom účte."
+        "Dvojfázové overovanie je zapnuté vo vašom vzdialenom emailovom účte."
       ],
       "IMAP access is enabled in your external account.": [
         "IMAP prístup je zapnutý vo vašom externom účte."
@@ -3452,16 +3455,16 @@
         "Vaše heslo pre aplikáciu je správne. ${ boldNot } používajte vaše bežné heslo."
       ],
       "Your email account requires an app password to export your data.": [
-        "Váš e-mailový účet vyžaduje heslo aplikácie pre export vašich dát."
+        "Váš emailový účet vyžaduje heslo aplikácie pre export vašich dát."
       ],
       "Your email account requires one to export your data.": [
-        "Váš e-mailový účet toto vyžaduje na export vašich dát."
+        "Váš emailový účet toto vyžaduje na export vašich dát."
       ],
       "Your email address and app password are correct. Do ${ boldNot } use your regular password.": [
-        "Vaša e-mailová adresa a heslo aplikácie sú správne. ${ boldNot } používajte vaše bežné heslo."
+        "Vaša emailová adresa a heslo aplikácie sú správne. ${ boldNot } používajte vaše bežné heslo."
       ],
       "Your email address and password are correct.": [
-        "Vaša e-mailová adresa a heslo sú správne."
+        "Vaša emailová adresa a heslo sú správne."
       ],
       "Your password is correct.": [
         "Vaše heslo je správne."
@@ -3474,7 +3477,7 @@
     },
     "Import instructions": {
       "Depending on your email service provider, you may need to generate an ${ knowledgeBaseLink } first before you can import to ${ BRAND_NAME }.": [
-        "V závislosti od vášho poskytovateľa e-mailovej služby bude možno potrebné najprv vygenerovať ${ knowledgeBaseLink } kým budete môcť vykonať import do ${ BRAND_NAME }."
+        "V závislosti od vášho poskytovateľa emailovej služby bude možno potrebné najprv vygenerovať ${ knowledgeBaseLink } kým budete môcť vykonať import do ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
         "Rozbaľte rozbaľovaciu ponuku kliknutím na 3 bodky (...)."
@@ -3507,7 +3510,7 @@
         "Ak chcete importovať kontakty do ${ BRAND_NAME }, potrebujete ${ knowledgeBaseLink }. Stiahnite si ho pred začatím importu."
       ],
       "To import emails to ${ BRAND_NAME }, you need an ${ appPasswordLink } from Yahoo. Get it by following these steps:": [
-        "Na import e-mailov do ${ BRAND_NAME } potrebujete ${ appPasswordLink } od Yahoo. Získate ho pomocou nasledujúcich krokov:"
+        "Na import emailov do ${ BRAND_NAME } potrebujete ${ appPasswordLink } od Yahoo. Získate ho pomocou nasledujúcich krokov:"
       ]
     },
     "Import instructions emphasis": {
@@ -4574,7 +4577,7 @@
         "Farby"
       ],
       "Confirm password": [
-        "Potvrdiť heslo"
+        "Potvrďte heslo"
       ],
       "Contacts": [
         "Kontakty"
@@ -5275,7 +5278,7 @@
     },
     "new_plans: feature info": {
       "Create multiple email addresses for your online identities e.g. JohnShopper@${ domain } for shopping accounts, JohnNews@${ domain2 } for news subscription": [
-        "Vytvorte si viacero e-mailových adries pre svoje online identity, napr. JohnShopper@${ domain } pre nákupné účty, JohnNews@${ domain2 } pre odber noviniek"
+        "Vytvorte si viacero emailových adries pre svoje online identity, napr. JohnShopper@${ domain } pre nákupné účty, JohnNews@${ domain2 } pre odber noviniek"
       ],
       "Get unlimited aliases with SimpleLogin by ${ BRAND_NAME }": [
         "Získajte neobmedzené množstvo aliasov so službou SimpleLogin od ${ BRAND_NAME }"
@@ -5284,7 +5287,7 @@
         "Úložný priestor zdieľajú ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } a ${ DRIVE_APP_NAME }"
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
-        "Použite svoju vlastnú e-mailovú doménovú adresu, napr. vy@vasemeno.com"
+        "Použite svoju vlastnú emailovú doménovú adresu, napr. vy@vasemeno.com"
       ]
     },
     "new_plans: label": {
@@ -5808,7 +5811,7 @@
         "Oficiálny"
       ],
       "Official email from ${ BRAND_NAME }": [
-        "Oficiálny e-mail od ${ BRAND_NAME }"
+        "Oficiálny email od ${ BRAND_NAME }"
       ]
     },
     "Reload event button tooltip": {
@@ -7102,7 +7105,7 @@
         "Digitálne podpisovanie emailov pomáha overiť, že sú správy zaslané vami"
       ],
       "Each imported email will have this label": [
-        "Každý importovaný e-mail bude mať tento štítok"
+        "Každý importovaný email bude mať tento štítok"
       ],
       "Edit folder names": [
         "Upraviť názvy priečinkov"
@@ -7144,7 +7147,7 @@
         "Import začne najnovšími správami."
       ],
       "Upload a public key to enable sending end-to-end encrypted emails to this email": [
-        "Pre zasielanie e-mailov s koncovým šifrovaním na túto e-mailovú adresu, nahrajte prosím verejný kľúč"
+        "Pre zasielanie emailov s koncovým šifrovaním na túto emailovú adresu, nahrajte prosím verejný kľúč"
       ],
       "You do not have any contacts to export": [
         "Nemáte žiadne kontakty na export"
@@ -7595,6 +7598,104 @@
     "description": {
       "use the Easy Switch import assistant": [
         "použite asistenta pre import Easy Switch"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } úložisko"
+      ],
+      "1 user": [
+        "1 používateľ"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "3000+ serverov v 65+ krajinách"
+      ],
+      "6 users": [
+        "6 používateľov"
+      ],
+      "Access content worldwide": [
+        "Prístup k obsahu z celého sveta"
+      ],
+      "Ad-blocker and malware protection": [
+        "Ad-blocker a ochrana pred škodlivým softvérom"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Všetky funkcie plateného ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
+      ],
+      "Extended version history": [
+        "Rozšírená história verzií"
+      ],
+      "High speed streaming": [
+        "Vysokorýchlostné streamovanie"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Prémiový ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Prémiový ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Prémiová ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Prémiový správca hesiel"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Zľavy sú tvorené na základe štandardných mesačných cien."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "Vaše predplatné sa automaticky obnoví za štandardnú zľavnenú sadzbu a trvanie na konci vášho fakturačného cyklu."
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30-dňová záruka vrátenia peňazí"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Získajte prístup k blokovanému obsahu a surfujte v súkromí. Obsahuje 3000+ serverov v 65+ krajinách, najvyššie rýchlosti VPN, prístup k celosvetovým streamovacím službám, blokovanie malvéru a reklám, rýchle sťahovanie cez BitTorrent a ďalšie."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Získajte prístup k obsahu na streamovacích službách vrátane Netflix, Disney+ a Prime Video odkiaľkoľvek."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Obíďte obmedzenia a cenzúru miestneho internetu pomocou našej globálnej siete serverov."
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Zahŕňa podporu pre 1 vlastnú emailovú doménu, 10 emailových adries, 10 hide-my-email aliasov, zdieľanie kalendára a ďalšie."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailová adresa, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailové adresy, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie.",
+        "Súčasťou je podpora 3 vlastných emailových domén, ${ addresses } emailových adries, neobmedzený počet ide-my-email aliasov, zdieľanie kalendára a ďalšie funkcie."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Bezpečné prihlásenie na všetkých zariadeniach. Zahŕňa neobmedzený počet aliasov, zdieľanie, integrované 2FA a ďalšie funkcie."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Zabezpečte svoje emaily pomocou end-to-end šifrovania. Súčasťou je podpora vlastných emailových domén, 15 emailových adries, neobmedzený počet ide-my-email aliasov a ďalšie."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Zabezpečte svoje súbory pomocou šifrovaného cloudového úložiska. Zahŕňa históriu verzií, zdieľanie šifrovaných súborov a ďalšie."
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "Špeciálne navrhnutý NetShield chráni vaše zariadenia a zrýchľuje vaše prehliadanie tým, že blokuje reklamy, sledovače a malvér."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "Úložný priestor je zdieľaný medzi všetkými aplikáciami ${ BRAND_NAME }."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Uložte až 200 verzií každého súboru až na 10 rokov."
       ]
     }
   }

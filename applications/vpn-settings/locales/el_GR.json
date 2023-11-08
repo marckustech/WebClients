@@ -7511,9 +7511,10 @@
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "Η ειδικά μειωμένη τιμή ${ discountedPrice } ισχύει για τον πρώτο μήνα. Στη συνέχεια, θα ανανεώνεται αυτόματα σε ${ nextPrice } κάθε μήνα. Μπορείτε να ακυρώσετε ανά πάσα στιγμή."
       ],
-      "${ n } month": [
-        "${ n } μήνα"
-      ]
+        "${ n } month": [
+            "${ n } μήνα",
+            "${ n } μήνες"
+        ]
     },
     "bf2023: Title": {
       "Offer unavailable": [

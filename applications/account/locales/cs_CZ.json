@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "Zachovat mé předplatné Plus"
+      ],
+      "Edit invoice details": [
+        "Upravit fakturační údaje"
       ]
     },
     "action": {
@@ -7925,6 +7928,9 @@
       ],
       "They will be removed from your organization": [
         "Budou odebráni z vaší organizace"
+      ],
+      "View, download, and manage your invoices.": [
+        "Prohlížení, stahování a správa faktur."
       ]
     },
     "info": {
@@ -7964,6 +7970,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Přidejte své jméno (nebo název společnosti) a adresu do faktur."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Zadejte své jméno a adresu nebo vaši organizaci. Tyto údaje budou přidány do osobních faktur i faktur organizace."
       ]
     },
     "Info on errors": {
@@ -9250,6 +9259,9 @@
       ],
       "Your referral link": [
         "Váš doporučující odkaz"
+      ],
+      "Name and address": [
+        "Jméno a adresa"
       ]
     },
     "label": {
@@ -11710,6 +11722,18 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Vyberte počet IP adres, které chcete zahrnout do tarifu. Každá další IP stojí ${ price }. Pokud potřebujete více než ${ maxIPs } IP, prosím ${ contactHref } náš obchodní tým."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } prosím náš obchodní tým."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Vyberte počet IP adres, které mají být do tarifu zahrnuty. Každá další IP adresa stojí ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Pokud potřebujete více než ${ maxIPs } IP, ",
+        "Pokud potřebujete více než ${ maxIPs } IP, ",
+        "Pokud potřebujete více než ${ maxIPs } IP, ",
+        "Pokud potřebujete více než ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -14296,6 +14320,9 @@
       ],
       "Forward and Auto-reply": [
         "Přeposlat a automaticky odpovědět"
+      ],
+      "Edit invoice details": [
+        "Upravit fakturační údaje"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15215,7 +15242,7 @@
         "Odebrat ${ PASS_APP_NAME }"
       ],
       "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
-        "Přihlaste se k odběru na 15 měsíců a získejte našeho **správce šifrovaných hesel** za pouhých ${ priceNoSuffix } měsíčně navíc!"
+        "Pořiďte si předplatné na 15 měsíců a za příplatek pouhých ${ priceNoSuffix } měsíčně získejte našeho **šifrovaného správce hesel**!"
       ]
     },
     "bf2023: Deal details": {
@@ -15275,7 +15302,7 @@
     },
     "bf2023: header": {
       "Save with Black Friday deals on a high-speed Swiss VPN": [
-        "Ušetřete s nabídkami na Black Friday na vysokorychlostní švýcarskou VPN"
+        "Ušetřete na vysokorychlostní švýcarské VPN s nabídkami Black Friday"
       ],
       "Select your Black Friday offer": [
         "Vyberte si nabídku Black Friday"
@@ -15292,7 +15319,7 @@
         "Je nám líto, ale tato nabídka není s vaším aktuálním tarifem k dispozici."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Je nám líto, ale tato nabídka není k dispozici s vaším aktuálním tarifem. Můžete však získat **${ discountPercentage } z ${ plan.Title }** když si předplatíte **${ months }**."
+        "Je nám líto, ale tato nabídka není k dispozici v rámci vašeho aktuálního tarifu. Můžete však získat slevu **${ discountPercentage } na tarif ${ plan.Title }** v případě předplacení na **${ months }**."
       ]
     },
     "bf2023: Info": {
@@ -15385,7 +15412,7 @@
     },
     "Tooltip for news": {
       "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
-        "Získejte nejnovější zprávy o ochraně soukromí ${ BRAND_NAME } a dění ve světě"
+        "Získejte nejnovější zprávy o ochraně soukromí a o dění v ekosystému ${ BRAND_NAME }"
       ],
       "Participate in surveys to improve ${ BRAND_NAME } services": [
         "Účastněte se průzkumů ke zlepšení služeb ${ BRAND_NAME }"

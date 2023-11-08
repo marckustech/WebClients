@@ -1051,6 +1051,9 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Or": [
+        "Або"
       ]
     },
     "action": {
@@ -4464,6 +4467,9 @@
       ],
       "MB": [
         "МБ"
+      ],
+      "TB": [
+        "ТБ"
       ]
     },
     "file size format, long": {
@@ -14206,6 +14212,24 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "6 users": [
+        "6 користувачів"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Якщо"
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "or": [
+        "або"
+      ],
+      "Or": [
+        "Або"
       ]
     }
   }

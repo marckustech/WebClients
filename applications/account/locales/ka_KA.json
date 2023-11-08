@@ -7753,6 +7753,12 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "ამ თარიღის მოსვლისას Plus სერვერებთან და მის ფუნქციებთან წვდომას დაკარგავთ."
+      ],
+      "Please use another browser or download the file.": [
+        "სცადეთ სხვა ბრაუზერი ან ფაილი გადმოწერეთ."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "ამ ფაილის მინიატურის შექმნა, ამჟამად, ამ ბრაუზერში, მხარდაჭერილი არაა."
       ]
     },
     "info": {

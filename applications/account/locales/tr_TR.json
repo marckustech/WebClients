@@ -7946,6 +7946,12 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "Bu tarihte Plus sunucularına ve özelliklerine erişiminizi kaybedeceksiniz."
+      ],
+      "Please use another browser or download the file.": [
+        "Lütfen başka bir tarayıcı kullanın ya da dosyayı indirin."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Bu tarayıcı şu anda bu dosya türünün ön izlenmesini desteklemiyor."
       ]
     },
     "info": {
@@ -10356,6 +10362,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kasa paylaşma (${ n } kişiye kadar)",
         "Kasa paylaşma (${ n } kişiye kadar)"
+      ],
+      "${ n } calendar per user": [
+        "Her kullanıcı için ${ n } takvim",
+        "Her kullanıcı için ${ n } takvim"
       ]
     },
     "new_plans: feature info": {

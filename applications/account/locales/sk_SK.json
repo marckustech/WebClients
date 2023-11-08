@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "Ponechať moje predplatné Plus"
+      ],
+      "Edit invoice details": [
+        "Upraviť fakturačné údaje"
       ]
     },
     "action": {
@@ -7919,6 +7922,9 @@
       ],
       "They will be removed from your organization": [
         "Budú z vašej organizácie odstránené."
+      ],
+      "View, download, and manage your invoices.": [
+        "Zobrazujte, sťahujte a spravujte svoje faktúry."
       ]
     },
     "info": {
@@ -7958,6 +7964,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Pridajte meno (alebo názov spoločnosti) a adresu pre fakturáciu."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Zadajte vaše meno a adresu alebo adresu vašej organizácie. Tieto údaje sa pridajú do faktúr pre osoby aj organizácie."
       ]
     },
     "Info on errors": {
@@ -9244,6 +9253,9 @@
       ],
       "Your referral link": [
         "Váš odkaz na odporúčanie"
+      ],
+      "Name and address": [
+        "Meno a adresa"
       ]
     },
     "label": {
@@ -14302,6 +14314,9 @@
       ],
       "Forward and Auto-reply": [
         "Preposlať a automaticky odpovedať"
+      ],
+      "Edit invoice details": [
+        "Upraviť fakturačné údaje"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

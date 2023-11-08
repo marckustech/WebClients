@@ -10053,6 +10053,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "Berbagi berkas (hingga ${ n } pengguna)"
+      ],
+      "${ n } calendars per user": [
+        "${ n } kalender per pengguna"
       ]
     },
     "new_plans: feature info": {

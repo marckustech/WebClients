@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Verkleinern"
+      ],
+      "Edit invoice details": [
+        "Rechnungsdetails bearbeiten"
       ]
     },
     "action": {
@@ -7955,6 +7958,9 @@
       ],
       "They will be removed from your organization": [
         "Sie werden aus deiner Organisation entfernt"
+      ],
+      "View, download, and manage your invoices.": [
+        "Rechnungen anzeigen, herunterladen und verwalten."
       ]
     },
     "info": {
@@ -7994,6 +8000,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Füge deinen Namen (oder Firmennamen) und deine Adresse zu deinen Rechnungen hinzu."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Gib einen Namen und eine Adresse für dich oder deine Organisation ein. Diese Angaben werden sowohl den persönlichen als auch den Organisationsrechnungen hinzugefügt."
       ]
     },
     "Info on errors": {
@@ -9272,6 +9281,9 @@
       ],
       "Your referral link": [
         "Dein Empfehlungslink"
+      ],
+      "Name and address": [
+        "Name und Adresse"
       ]
     },
     "label": {
@@ -11655,7 +11667,7 @@
         "${ contactHref } bitte unser Verkaufsteam."
       ],
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
-        "Wähle die Anzahl der IP''s aus, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }."
+        "Wähle die Anzahl der IP's aus, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }."
       ],
       "Should you need more than ${ maxIPs } IP, ": [
         "Solltest du mehr als ${ maxIPs } IP benötigen, ",
@@ -14156,6 +14168,9 @@
       ],
       "Forward and Auto-reply": [
         "Weiterleiten und automatische Antworten"
+      ],
+      "Edit invoice details": [
+        "Rechnungsdetails bearbeiten"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

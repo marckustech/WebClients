@@ -1083,7 +1083,7 @@
         "Zoom indietro"
       ],
       "Edit invoice details": [
-        "Modifica i dettagli della fattura"
+        "Modifica i dettagli delle fatture"
       ]
     },
     "action": {
@@ -8002,7 +8002,7 @@
         "Aggiungi il tuo nome (o il nome dell'azienda) e l'indirizzo alle tue fatture."
       ],
       "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
-        "Inserisci un nome e un indirizzo per te o per la tua organizzazione. Questi dati verranno aggiunti alle fatture personali e a quelle dell'organizzazione."
+        "Inserisci un nome e un indirizzo per te o per la tua organizzazione. Questi dati verranno aggiunti sia alle fatture personali sia a quelle dell'organizzazione."
       ]
     },
     "Info on errors": {
@@ -14173,7 +14173,7 @@
         "Inoltro e risposta automatica"
       ],
       "Edit invoice details": [
-        "Modifica i dettagli della fattura"
+        "Modifica i dettagli delle fatture"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

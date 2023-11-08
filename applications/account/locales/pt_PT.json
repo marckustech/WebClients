@@ -1054,6 +1054,9 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Edit invoice details": [
+        "Editar os detalhes da fatura"
       ]
     },
     "action": {
@@ -3147,6 +3150,12 @@
       ],
       "Save": [
         "Guardar"
+      ],
+      "Add condition": [
+        "Adicionar uma condição"
+      ],
+      "Decline": [
+        "Recusar"
       ]
     },
     "email_forwarding_2023: Header": {
@@ -3158,6 +3167,9 @@
       ],
       "To": [
         "Para"
+      ],
+      "Actions": [
+        "Ações"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3198,6 +3210,12 @@
       ],
       "Paused": [
         "Em pausa"
+      ],
+      "Declined": [
+        "Recusado"
+      ],
+      "Pending": [
+        "Pendente"
       ]
     },
     "Enabled 2FA": {
@@ -4520,6 +4538,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter Actions": {
@@ -7377,6 +7399,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "A sua subscrição é gerida pela Mozilla. Contacte o suporte da Mozilla."
+      ],
+      "Version history": [
+        "Histórico das versões"
       ]
     },
     "info": {
@@ -8688,6 +8713,9 @@
       ],
       "Your referral link": [
         "A sua ligação de referência"
+      ],
+      "New plan": [
+        "Novo plano"
       ]
     },
     "label": {
@@ -9742,6 +9770,9 @@
       ],
       "User session management": [
         "Gestão de sessões de utilizador"
+      ],
+      "SMTP submission": [
+        "Envio SMTP"
       ]
     },
     "new_plans: feature info": {
@@ -10962,6 +10993,9 @@
       ],
       "yourdomain.com": [
         "oseudomínio.com"
+      ],
+      "Thomas Anderson": [
+        "Andrea Silva"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -11415,6 +11449,9 @@
     "session_recovery:status:info": {
       "Available": [
         "Disponível"
+      ],
+      "Pending": [
+        "Pendente"
       ]
     },
     "Settings description": {
@@ -13354,6 +13391,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Foi convidado a experimentar ${ MAIL_APP_NAME }"
+      ],
+      "Password reset": [
+        "Redefinir a palavra-passe"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14142,6 +14182,52 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Adicionar ${ PASS_APP_NAME }"
+      ],
+      "Cancel": [
+        "Cancelar"
+      ],
+      "Close": [
+        "Fechar"
+      ],
+      "Remove": [
+        "Remover"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Remover ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 utilizador"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 utilizadores"
+      ],
+      "High speed streaming": [
+        "Streaming de alta velocidade"
+      ]
+    },
+    "bf2023: Info": {
+      "6 users": [
+        "6 utilizadores"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Set up forwarding": [
+        "Configurar o encaminhamento"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Aviso"
       ]
     }
   }

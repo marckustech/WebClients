@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Edit invoice details": [
+        "Editar de fatura de crédito"
       ]
     },
     "action": {
@@ -3588,6 +3591,9 @@
       ],
       "Forwarding resumed": [
         "Encaminhamento retomado"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "E-mail enviado para ${ model.forwardeeEmail }."
       ]
     },
     "email_forwarding_2023: Title": {
@@ -9209,6 +9215,9 @@
       ],
       "Your referral link": [
         "Seu link de referência"
+      ],
+      "Name and address": [
+        "Nome e endereço"
       ]
     },
     "label": {
@@ -10302,6 +10311,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartilhar do cofre (até ${ n } pessoa)",
         "Compartilhar cofre (até ${ n } pessoa)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendário por usuário",
+        "${ n } calendários por usuário"
       ]
     },
     "new_plans: feature info": {
@@ -14076,6 +14089,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Você foi convidado a experimentar o ${ MAIL_APP_NAME }."
+      ],
+      "Edit invoice details": [
+        "Editar de fatura de crédito"
+      ],
+      "Forward and Auto-reply": [
+        "Encaminhamento e resposta automática"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

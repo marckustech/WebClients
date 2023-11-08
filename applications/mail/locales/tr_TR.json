@@ -6112,6 +6112,12 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "En fazla ${ FAMILY_MAX_USERS } kullanıcı"
+      ],
+      "Please use another browser or download the file.": [
+        "Lütfen başka bir tarayıcı kullanın ya da dosyayı indirin."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Bu tarayıcı şu anda bu dosya türünün ön izlenmesini desteklemiyor."
       ]
     },
     "info": {

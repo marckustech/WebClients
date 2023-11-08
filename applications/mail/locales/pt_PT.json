@@ -1161,6 +1161,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contacto.",
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contactos."
+      ],
+      "Go to last page": [
+        "Ir para a última página"
       ]
     },
     "action": {
@@ -4001,6 +4004,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter": {
@@ -9800,6 +9807,20 @@
     "session_recovery:sign_out:title": {
       "Sign out without password reset?": [
         "Terminar sessão sem repor a palavra-passe?"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 utilizador"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 utilizadores"
+      ],
+      "High speed streaming": [
+        "Streaming de alta velocidade"
       ]
     }
   }

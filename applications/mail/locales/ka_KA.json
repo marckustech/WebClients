@@ -6117,6 +6117,12 @@
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "${ FAMILY_MAX_USERS }-მდე მომხმარებელი"
+      ],
+      "Please use another browser or download the file.": [
+        "სცადეთ სხვა ბრაუზერი ან ფაილი გადმოწერეთ."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "ამ ფაილის მინიატურის შექმნა, ამჟამად, ამ ბრაუზერში, მხარდაჭერილი არაა."
       ]
     },
     "info": {

@@ -529,6 +529,21 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Keep my Plus subscription": [
+        "Behoud mijn Plus-abonnement"
+      ],
+      "Or": [
+        "Of"
+      ],
+      "Sign in with password": [
+        "Aanmelden met wachtwoord"
+      ],
+      "Sign in with SSO": [
+        "Inloggen met SSO"
+      ],
+      "sign up for free": [
+        "gratis inschrijven"
       ]
     },
     "Action subscription": {
@@ -2554,6 +2569,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -2572,6 +2590,10 @@
       "Megabyte": [
         "Megabyt",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Font face option": {
@@ -3866,6 +3888,45 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Uw abonnement wordt beheerd door Mozilla. Neem contact op met Mozilla support."
+      ],
+      "${ amountOfAddresses } address": [
+        "${ amountOfAddresses } adres",
+        "${ amountOfAddresses } adressen"
+      ],
+      "${ plan } removed. Bundle deal not available on a 1-month plan.": [
+        "${ plan } verwijderd. Bundelpromotie niet beschikbaar op een 1-maand-abonnement."
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } meer",
+        "${ remainingAddresses.length } meer"
+      ],
+      "${ remainingAddresses.length } more address": [
+        "${ remainingAddresses.length } extra adres",
+        "${ remainingAddresses.length } extra adressen"
+      ],
+      "Billed at ${ price }": [
+        "Gefactureerd aan ${ price }"
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Als u opzegt, zal uw ${ planTitle }-abonnement niet verlengen wanneer het verloopt op ${ expiryDate }."
+      ],
+      "Save ${ percentage }": [
+        "Bespaar ${ percentage }"
+      ],
+      "Thanks for supporting our mission to build a better internet where privacy and freedom come first.": [
+        "Bedankt voor het ondersteunen van onze missie om een beter internet te bouwen waar privacy en vrijheid op de eerste plaats staan."
+      ],
+      "They will be removed from your organization": [
+        "Ze zullen worden verwijderd uit uw organisatie"
+      ],
+      "You will lose access to Plus features on this date.": [
+        "U zult toegang verliezen tot Plus-functies op deze datum."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "U zult toegang verliezen tot Plus-servers en -functies op deze datum."
+      ],
+      "Your account was successfully updated with this promotion": [
+        "Uw account werd succesvol bijgewerkt met deze promotie."
       ]
     },
     "Info for cash payment method": {
@@ -4387,6 +4448,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } welkomst-e-mail"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } gebruikersbevraging"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } productupdates"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } en ${ CALENDAR_SHORT_APP_NAME } nieuwe functies"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } productupdates"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } productupdates"
       ]
     },
     "Label on payment method": {
@@ -4562,6 +4638,9 @@
       ],
       "Sign in to access your ${ appName } account": [
         "Log in om toegang te krijgen tot uw ${ appName }-account"
+      ],
+      "Find your ${ BRAND_NAME } Account username": [
+        "Vind uw ${ BRAND_NAME }-account gebruikersnaam"
       ]
     },
     "Monetary unit": {
@@ -4980,6 +5059,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kluis delen (tot ${ n } persoon)",
         "Kluis delen (tot ${ n } personen)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } agenda per gebruiker",
+        "${ n } agenda's per gebruiker"
       ]
     },
     "new_plans: feature info": {
@@ -5579,6 +5662,9 @@
       ],
       "Select a reason": [
         "Selecteer een reden"
+      ],
+      "Thomas Anderson": [
+        "Thomas Anderson"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -7197,6 +7283,9 @@
       ],
       "Your subscriptions": [
         "Uw abonnementen"
+      ],
+      "Sign in to your organization": [
+        "Aanmelden bij uw organisatie"
       ]
     },
     "Title for payment methods table": {
@@ -7433,6 +7522,19 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Ontvang het meest recente privacynieuws en wat er gaande is in het ${ BRAND_NAME }-universum"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Neem deel aan bevragingen om ${ BRAND_NAME }-diensten te verbeteren"
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Toegang tot Secure Core-servers, snelle P2P/BitTorrent-downloads, Tor over VPN, en meer."
       ]
     }
   }

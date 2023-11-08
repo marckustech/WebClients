@@ -3754,6 +3754,9 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "Menetät pääsyn Plus-palvelimiin ja -ominaisuuksiin tänä päivänä."
+      ],
+      "They will be removed from your organization": [
+        "Heidät poistetaan organisaatiostasi"
       ]
     },
     "Info for cash payment method": {
@@ -4275,6 +4278,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }in tervetuloviestit"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } käyttäjäkysely"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } tuotepäivitykset"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } ja ${ CALENDAR_SHORT_APP_NAME } uusia ominaisuuksia"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } tuotepäivitykset"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } tuotepäivitykset"
       ]
     },
     "Label on payment method": {
@@ -4871,6 +4889,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Holvin jakaminen (enintään ${ n } henkilö)",
         "Holvin jakaminen (enintään ${ n } henkilöä)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalenteri per käyttäjä",
+        "${ n } kalenteria per käyttäjä"
       ]
     },
     "new_plans: feature info": {
@@ -7427,6 +7449,9 @@
     "bf2023: header": {
       "Select your Black Friday offer": [
         "Valitse Black Friday -tarjouksesi"
+      ],
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "Säästä mustan perjantain tarjouksilla nopeasta sveitsiläisestä VPN:stä"
       ]
     },
     "bf2023: info": {
@@ -7438,6 +7463,9 @@
       ],
       "Sorry, this offer is not available with your current plan.": [
         "Valitettavasti tämä tarjous ei ole saatavilla nykyisen tilauksesi kanssa."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "Valitettavasti tämä tarjous ei ole saatavilla nykyisellä tilauksellasi. Mutta voit saada **${ discountPercentage } alennuksen ${ plan.Title }**, kun tilaat **${ months }**."
       ]
     },
     "bf2023: Offers": {
@@ -7452,6 +7480,12 @@
       ],
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "Erikoisalennettu hinta ${ discountedPrice } on voimassa vain ensimmäisen kuukauden ajan. Sen jälkeen se uusitaan automaattisesti ${ nextPrice } kuukausihintaan. Voit peruuttaa sen milloin tahansa."
+      ],
+      "the first month": [
+        "ensimmäinen kuukausi"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "Erikoisalennettu hinta ${ discountedPrice } on voimassa vain ${ discountedMonths } ajan. Sen jälkeen se uusitaan automaattisesti ${ nextMonths } kuukaudeksi ${ nextPrice } kuukausihintaan. Voit peruuttaa sen milloin tahansa."
       ]
     },
     "bf2023: Title": {
@@ -7493,6 +7527,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Säilytä jopa 200 versiota kustakin tiedostosta jopa 10 vuoden ajan."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Saa viimeisimmät tietosuojauutiset ja mitä tapahtuu ${ BRAND_NAME } -universumissa"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Osallistu kyselyihin parantaaksesi ${ BRAND_NAME } -palveluita"
       ]
     }
   }

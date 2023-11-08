@@ -276,7 +276,7 @@
         "Carica di più"
       ],
       "Loading verification": [
-        "Caricamento verifica"
+        "Caricamento della verifica in corso"
       ],
       "Mark as default": [
         "Segna come predefinito"
@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Edit invoice details": [
+        "Modifica i dettagli delle fatture"
       ]
     },
     "Action subscription": {
@@ -852,13 +855,13 @@
         "Problema con Bridge"
       ],
       "Calendar problem": [
-        "Problema con il calendario"
+        "Problema con Calendar"
       ],
       "Connection problem": [
         "Problema di connessione"
       ],
       "Contacts problem": [
-        "Problema con i contatti"
+        "Problema con Contacts"
       ],
       "Custom domain problem": [
         "Problema con un dominio personalizzato"
@@ -867,7 +870,7 @@
         "Problema con Drive"
       ],
       "Feature request": [
-        "Richiedi Funzionalità"
+        "Richiedi una funzionalità"
       ],
       "Import / export problem": [
         "Problema di importazione/esportazione"
@@ -1863,7 +1866,7 @@
         "Abbonamento troppo costoso"
       ],
       "Switching to a different provider": [
-        "Passaggio a un altro provider"
+        "Passaggio a un fornitore differente"
       ],
       "Temporary need, may come back in the future": [
         "Necessità temporanea, potrei tornare in futuro"
@@ -1952,7 +1955,7 @@
         "Codice ${ name } non valido"
       ],
       "Invalid card number": [
-        "Numero carta non valido"
+        "Numero della carta non valido"
       ],
       "Invalid code": [
         "Codice non valido"
@@ -3196,13 +3199,13 @@
         "Link copiato negli appunti"
       ],
       "Loading": [
-        "Caricamento"
+        "Caricamento in corso"
       ],
       "Loading ${ appName }": [
-        "Caricamento di ${ appName }"
+        "Caricamento di ${ appName } in corso"
       ],
       "Loading preview": [
-        "Caricamento anteprima"
+        "Caricamento dell'anteprima in corso"
       ],
       "Loading...": [
         "Caricamento in corso..."
@@ -3348,7 +3351,7 @@
         "Riprova utilizzando un altro metodo di pagamento oppure contatta PayPal per assistenza."
       ],
       "Please try again, use a different payment method, or contact PayPal for assistance.": [
-        "Per favore riprova, usa un altro metodo di pagamento o contatta PayPal per assistenza."
+        "Riprova, usa un metodo di pagamento differente o contatta PayPal per assistenza."
       ],
       "Please verify payment at the new tab which was opened.": [
         "Per favore verifica il pagamento nella nuova scheda che è stata aperta."
@@ -3381,7 +3384,7 @@
         "Consigliato su dispositivi affidabili. ${ keepMeSignedInLearnMoreLink }"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Le informazioni di ripristino rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
+        "Le informazioni di recupero rimarranno su questo dispositivo a meno che tu non decida di eliminarle."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Aggiornare la pagina o ${ link } risolverà automaticamente la maggior parte dei problemi."
@@ -3586,7 +3589,7 @@
         "per continuare su ${ product }"
       ],
       "to continue to ${ toAppName }": [
-        "continua su ${ toAppName }"
+        "per continuare su ${ toAppName }"
       ],
       "To fight spam and abuse, please verify you are human.": [
         "Per contrastare spam e abusi, verifica di essere umano."
@@ -3820,7 +3823,7 @@
         "Ora puoi accedere e gestire l'account come amministratore."
       ],
       "You can only have one chat instance open at a time. Please close previous conversations before starting a new one.": [
-        "Puoi avere solo un'istanza di chat aperta alla volta. Chiudi le conversazioni precedenti prima di avviarne una nuova."
+        "Puoi avere solamente una chat aperta alla volta. Chiudi le conversazioni precedenti prima di avviarne una nuova."
       ],
       "You can use the following credentials to connect to a ${ VPN_APP_NAME } server using a third-party, open source VPN app, like Tunnelblick for macOS or OpenVPN for GNU/Linux.": [
         "Puoi usare le seguenti credenziali per connetterti a un server ${ VPN_APP_NAME } usando un'app VPN open source di terze parti, come Tunnelblick per macOS o OpenVPN per GNU/Linux."
@@ -3923,7 +3926,19 @@
         "Il tuo numero di telefono sarà utilizzato solo per questa verifica una tantum."
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
-        "La tua sottoscrizione è gestita da Mozilla. Per favore, contatta il supporto di Mozilla."
+        "Il tuo abbonamento è gestito da Mozilla. Contatta l'assistenza di Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Usa un altro browser o scarica il file."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "L'anteprima per questo tipo di file non è attualmente supportata su questo browser."
+      ],
+      "They will be removed from your organization": [
+        "Verranno rimossi dalla tua organizzazione"
+      ],
+      "View, download, and manage your invoices.": [
+        "Visualizza, scarica e gestisci le tue fatture."
       ]
     },
     "Info for cash payment method": {
@@ -3939,6 +3954,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Aggiungi il tuo nome (o il nome dell'azienda) e l'indirizzo alle tue fatture."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Inserisci un nome e un indirizzo per te o per la tua organizzazione. Questi dati verranno aggiunti sia alle fatture personali sia a quelle dell'organizzazione."
       ]
     },
     "Info subscription": {
@@ -3958,7 +3976,7 @@
     },
     "Invoice state display as badge": {
       "Billed": [
-        "Fatturato"
+        "Addebitato"
       ],
       "Gifted": [
         "Regalato"
@@ -4090,7 +4108,7 @@
         "Dettagli della carta"
       ],
       "Card holder": [
-        "Titolare carta"
+        "Titolare della carta"
       ],
       "Card number": [
         "Numero della carta"
@@ -4406,6 +4424,9 @@
       ],
       "Your password (admin)": [
         "La tua password (admin)"
+      ],
+      "Name and address": [
+        "Nome e indirizzo"
       ]
     },
     "label": {
@@ -4445,6 +4466,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Email di benvenuto di ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Sondaggio utente di ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nuove funzionalità di ${ MAIL_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Aggiornamenti sul prodotto ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5077,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Condivisione delle casseforti (fino a ${ n } persona)",
         "Condivisione delle casseforti (fino a ${ n } persone)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario per utente",
+        "${ n } calendari per utente"
       ]
     },
     "new_plans: feature info": {
@@ -5207,7 +5247,7 @@
         "${ MAIL_APP_NAME }: Proteggi le tue email con la crittografia end-to-end. Include il supporto per domini email personalizzati, 15 indirizzi email, alias hide-my-email illimitati e molto altro."
       ],
       "${ VPN_APP_NAME }: Access blocked content and browse privately. Includes ${ serversAndCountries }, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "${ VPN_APP_NAME }: Accedi a contenuti bloccati e naviga privatamente. Include ${ serversAndCountries }, le più elevate velocità VPN, accesso a servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
+        "${ VPN_APP_NAME }: Accedi a contenuti bloccati e naviga privatamente. Include ${ serversAndCountries }, VPN ad altissima velocità, l'accesso a servizi di streaming in tutto il mondo, blocco di malware e annunci, download BitTorrent veloci e molto altro."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere": [
         "Accedi ai contenuti dei servizi di streaming, tra cui Netflix, Disney+ e Prime Video, ovunque"
@@ -5222,7 +5262,7 @@
         "Ti permette di impostare risposte automatiche per i messaggi in arrivo"
       ],
       "Bulk promotional or programmatic email sending is currently not supported. We recommend using a dedicated email service provider for this use case.": [
-        "L'invio massiccio di email promozionali o programmatiche non è attualmente supportato. Consigliamo di utilizzare un provider di servizi email dedicato per questo caso d'uso."
+        "L'invio massiccio di email promozionali o programmatiche non è attualmente supportato. Consigliamo di utilizzare un fornitore di servizi email dedicato per questo caso d'uso."
       ],
       "Control access to your shared files by adding password protection and link expiration dates": [
         "Controlla l’accesso ai file condivisi aggiungendo una protezione con password e date di scadenza dei link"
@@ -5280,10 +5320,10 @@
         "Gestisci il tuo abbonamento, compresa la personalizzazione del tuo piano. I metodi di pagamento accettati sono carta di credito, PayPal, criptovaluta e bonifico bancario."
       ],
       "On business days, receive support from the ${ BRAND_NAME } Customer Support team within 24 hours of requests": [
-        "Nei giorni lavorativi, ricevi assistenza dal team di assistenza clienti ${ BRAND_NAME } entro 24 ore dalle richieste"
+        "Nei giorni lavorativi, ricevi assistenza dal team di assistenza clienti di ${ BRAND_NAME } entro 24 ore dalle richieste"
       ],
       "One VPN connection allows one device to connect to ${ BRAND_NAME } VPN at any given time. For instance, to connect a phone and a laptop to ${ BRAND_NAME_TWO } VPN at the same time, you need two VPN connections.": [
-        "Una connessione VPN permette a un dispositivo di connettersi a ${ BRAND_NAME } VPN in qualsiasi momento. Ad esempio, per collegare un telefono e un computer portatile a ${ BRAND_NAME_TWO } VPN allo stesso tempo, sono necessarie due connessioni VPN."
+        "Una connessione VPN consente, in qualsiasi momento, la connessione di un singolo dispositivo a ${ BRAND_NAME } VPN. Ad esempio, per connettere contemporaneamente un telefono e un computer portatile a ${ BRAND_NAME_TWO } VPN, sono necessarie due connessioni VPN."
       ],
       "Option to view non-private user inboxes as the user would, including full message and contact details": [
         "Opzione di visualizzare le caselle di posta degli utenti non privati come farebbe l'utente, compresi i dettagli completi dei messaggi e dei contatti"
@@ -5322,7 +5362,7 @@
         "Imposta rapidamente i messaggi \"non sono in ufficio\""
       ],
       "Quickly transfer your emails, calendars or contacts from any provider": [
-        "Trasferisci rapidamente le tue email, calendari o contatti da qualsiasi provider"
+        "Trasferisci rapidamente le email, i calendari o i contatti da qualsiasi fornitore"
       ],
       "Requires a code sent to a mobile phone to sign in. This ensures even if a password is compromised, the account stays secure.": [
         "Richiede un codice inviato a un telefono cellulare per accedere. Questo assicura che anche se una password viene compromessa, l'account rimane sicuro."
@@ -5656,6 +5696,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Seleziona il numero di IP da includere nel tuo piano. Ogni IP aggiuntivo costa ${ price }. Se hai bisogno di più di ${ maxIPs } IP, ${ contactHref } il nostro team di vendita."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } il nostro team di vendita."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Seleziona il numero di IP da includere nel piano. Ogni IP aggiuntivo costa ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Se hai bisogno di più di ${ maxIPs } IP, ",
+        "Se hai bisogno di più di ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -6020,7 +6070,7 @@
         "${ gracePeriodHoursRemaining } ore"
       ],
       "${ passwordReset } is now available.": [
-        "${ passwordReset } è ora disponibile."
+        "La ${ passwordReset } è ora disponibile."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
         "Se esci prima di reimpostare la password, potresti perdere l'accesso al tuo account."
@@ -6034,7 +6084,7 @@
     },
     "session_recovery:sign_out:link": {
       "Password reset": [
-        "Reimpostazione password"
+        "reimpostazione della password"
       ]
     },
     "session_recovery:sign_out:title": {
@@ -6209,19 +6259,19 @@
         "30 mesi"
       ],
       "Billed at ${ amount } for 1 month": [
-        "Addebito di ${ amount } per 1 mese"
+        "Addebitato a ${ amount } per 1 mese"
       ],
       "Billed at ${ amount } for 12 months": [
-        "Addebito di ${ amount } per 12 mesi"
+        "Addebitato a ${ amount } per 12 mesi"
       ],
       "Billed at ${ amount } for 15 months": [
-        "Addebito di ${ amount } per 15 mesi"
+        "Addebitato a ${ amount } per 15 mesi"
       ],
       "Billed at ${ amount } for 24 months": [
-        "Addebito di ${ amount } per 24 mesi"
+        "Addebitato a ${ amount } per 24 mesi"
       ],
       "Billed at ${ amount } for 30 months": [
-        "Addebito di ${ amount } per 30 mesi"
+        "Addebitato a ${ amount } per 30 mesi"
       ],
       "Get the deal": [
         "Acquista"
@@ -6332,13 +6382,13 @@
     },
     "Subscription": {
       "Billed every 2 years": [
-        "Fatturato ogni 2 anni"
+        "Fatturazione biennale"
       ],
       "Billed for 15 months": [
-        "Fatturato per 15 mesi"
+        "Addebitato per 15 mesi"
       ],
       "Billed for 30 months": [
-        "Fatturato per 30 mesi"
+        "Addebitato per 30 mesi"
       ],
       "Billed monthly": [
         "Fatturazione mensile"
@@ -6745,7 +6795,7 @@
         "1. Seleziona la piattaforma"
       ],
       "2. Select platform": [
-        "2. Seleziona una piattaforma"
+        "2. Seleziona la piattaforma"
       ],
       "2. Select protocol": [
         "2. Seleziona il protocollo"
@@ -7267,6 +7317,9 @@
       ],
       "Your subscriptions": [
         "I tuoi abbonamenti"
+      ],
+      "Edit invoice details": [
+        "Modifica i dettagli delle fatture"
       ]
     },
     "Title for payment methods table": {
@@ -7341,7 +7394,7 @@
     },
     "tooltip": {
       "${ PASS_APP_NAME }: Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
-        "${ PASS_APP_NAME }: Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrato e molto altro."
+        "${ PASS_APP_NAME }: Login sicuri su tutti i tuoi dispositivi. Include alias illimitati, condivisione, 2FA integrata e molto altro."
       ]
     },
     "Tor out of date": {
@@ -7508,6 +7561,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "La tua prova gratuita termina il ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Ricevi le ultime novità in tema privacy e scopri cosa succede nell'ecosistema di ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Partecipa ai sondaggi per migliorare i servizi di ${ BRAND_NAME }"
       ]
     }
   }

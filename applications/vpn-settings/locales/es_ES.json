@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Action subscription": {
@@ -729,7 +732,7 @@
         "Los descuentos se basan en la cuota estándar mensual."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "Tu suscripción se renovará automáticamente con el mismo precio reducido y duración al término del ciclo de facturación."
+        "Tu suscripción se renovará automáticamente con el precio reducido estándar y duración al final del ciclo de facturación."
       ]
     },
     "bf2023: header": {
@@ -3447,7 +3450,7 @@
         "Como eres un usuario leal, tu cuenta tiene activadas funciones adicionales."
       ],
       "Some of your available servers can only be used in specific countries due to recent removals": [
-        "Algunos de tus servidores disponibles solo pueden usarse en países específicos debido a eliminaciones recientes."
+        "Algunos de tus servidores disponibles solo pueden utilizarse en países específicos debido a eliminaciones recientes."
       ],
       "Step ${ step }": [
         "Paso ${ step }",
@@ -3924,6 +3927,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tu suscripción está gestionada por Mozilla. Contacta con el soporte de Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Usa otro navegador o descarga el archivo."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La vista previa para este tipo de archivo no está admitida en este navegador."
+      ],
+      "They will be removed from your organization": [
+        "Se eliminarán de tu organización."
+      ],
+      "View, download, and manage your invoices.": [
+        "Ve, descarga y gestiona tus facturas."
       ]
     },
     "Info for cash payment method": {
@@ -3939,6 +3954,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Añade tu nombre (o nombre de la empresa) y dirección a tus facturas."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Ingresa un nombre y dirección para ti o tu organización. Estos datos se agregarán tanto a las facturas personales como a las facturas de la organización."
       ]
     },
     "Info subscription": {
@@ -4406,6 +4424,9 @@
       ],
       "Your password (admin)": [
         "Tu contraseña (admin)"
+      ],
+      "Name and address": [
+        "Nombre y dirección"
       ]
     },
     "label": {
@@ -4445,6 +4466,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Correos electrónicos de bienvenida ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Encuesta a los usuarios de ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Funciones nuevas de ${ MAIL_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5077,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartir la caja fuerte (hasta ${ n } persona)",
         "Compartir la caja fuerte (hasta ${ n } personas)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario por usuario",
+        "${ n } calendarios por usuario"
       ]
     },
     "new_plans: feature info": {
@@ -5653,6 +5693,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Selecciona el número de IPs por incluir en tu plan. Cada IP adicional cuesta ${ price }. Si necesitas más de ${ maxIPs } IPs, ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "contacta ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Elige el número de IP para incluir en tu plan. Cada IP adicional cuesta ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si necesitas más de ${ maxIPs } IP, ",
+        "Si necesitas más de ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -7264,6 +7314,9 @@
       ],
       "Your subscriptions": [
         "Tus suscripciones"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Title for payment methods table": {
@@ -7505,6 +7558,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Tu periodo de prueba gratuito acaba el ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Obtén las últimas noticias de privacidad y lo que sucede en ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Participa en las encuestas para mejorar los servicios de ${ BRAND_NAME }"
       ]
     }
   }

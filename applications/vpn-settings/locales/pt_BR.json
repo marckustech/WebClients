@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Edit invoice details": [
+        "Editar de fatura de crédito"
       ]
     },
     "Action subscription": {
@@ -4406,6 +4409,9 @@
       ],
       "Your password (admin)": [
         "Sua senha (admin)"
+      ],
+      "Name and address": [
+        "Nome e endereço"
       ]
     },
     "label": {
@@ -4445,6 +4451,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "E-mails de boas-vindas da ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Pesquisa de usuário da ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Atualizações de produto da ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Novos recursos da ${ MAIL_APP_NAME } e ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Atualizações de produto da ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Atualizações de produto da ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5062,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartilhar do cofre (até ${ n } pessoa)",
         "Compartilhar cofre (até ${ n } pessoa)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendário por usuário",
+        "${ n } calendários por usuário"
       ]
     },
     "new_plans: feature info": {
@@ -7273,6 +7298,9 @@
       ],
       "Your subscriptions": [
         "Suas assinaturas"
+      ],
+      "Edit invoice details": [
+        "Editar de fatura de crédito"
       ]
     },
     "Title for payment methods table": {

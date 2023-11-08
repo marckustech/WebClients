@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Edit invoice details": [
+        "Redigera fakturadetaljer"
       ]
     },
     "Action subscription": {
@@ -3746,6 +3749,26 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Din prenumeration hanteras av Mozilla. Kontakta Mozillas support."
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } till",
+        "${ remainingAddresses.length } till"
+      ],
+      "${ remainingAddresses.length } more address": [
+        "${ remainingAddresses.length } adress till",
+        "${ remainingAddresses.length } adresser till"
+      ],
+      "Please use another browser or download the file.": [
+        "Använd en annan webbläsare eller ladda ner filen."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Förhandsgranskning för denna filtyp stöds för närvarande inte i denna webbläsare."
+      ],
+      "They will be removed from your organization": [
+        "De kommer att tas bort från din organisation"
+      ],
+      "View, download, and manage your invoices.": [
+        "Visa, ladda ner och hantera dina fakturor."
       ]
     },
     "Info for cash payment method": {
@@ -3761,6 +3784,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Lägg till ditt namn (eller företagsnamn) och adress till dina fakturor."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Ange ett namn och adress för dig själv eller din organisation. Dessa detaljer kommer att läggas till på både personliga och organisationsfakturor."
       ]
     },
     "Info subscription": {
@@ -4228,6 +4254,9 @@
       ],
       "Your password (admin)": [
         "Ditt lösenord (admin)"
+      ],
+      "Name and address": [
+        "Namn och adress"
       ]
     },
     "label": {
@@ -4267,6 +4296,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }-välkomstmeddelande"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Användarundersökning för ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nya funktioner för ${ MAIL_APP_NAME } och ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Produktuppdateringar för ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -4863,6 +4907,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Valvdelning (upp till ${ n } person)",
         "Valvdelning (upp till ${ n } personer)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender per användare",
+        "${ n } kalendrar per användare"
       ]
     },
     "new_plans: feature info": {
@@ -5475,6 +5523,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Välj antalet IP:n som ska inkluderas i ditt paket. Varje ytterligare IP kostar ${ price }. Skulle du behöva fler än ${ maxIPs } IP:n, ${ contactHref } vårt säljteam."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } vårt säljteam."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Välj antalet IP som ska inkluderas i ditt paket. Varje ytterligare IP kostar ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Skulle du behöva mer än ${ maxIPs } IP, ",
+        "Skulle du behöva mer än ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -7086,6 +7144,9 @@
       ],
       "Your subscriptions": [
         "Din prenumeration"
+      ],
+      "Edit invoice details": [
+        "Redigera fakturadetaljer"
       ]
     },
     "Title for payment methods table": {
@@ -7497,6 +7558,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Lagra upp till 200 versioner av varje fil i upp till 10 år."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Få de senaste integritetsnyheterna och vad som händer i ${ BRAND_NAME }-universumet"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Delta i undersökningar för att förbättra ${ BRAND_NAME }-tjänsterna"
       ]
     }
   }

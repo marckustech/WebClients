@@ -204,7 +204,7 @@
         "사용자 편집"
       ],
       "enable desktop notifications": [
-        "데스크톱 알림 활성화"
+        "데스크톱 알림을 활성화"
       ],
       "Enable multi-user support": [
         "다중 사용자 지원 활성화"
@@ -2551,7 +2551,7 @@
         "${ amountOfAddresses } 주소들"
       ],
       "${ appName } needs your permission to ${ enableDesktopNotifications }.": [
-        "${ appName } 이 ${ enableDesktopNotifications } 하려면 권한이 필요합니다."
+        "${ appName }에서 ${ enableDesktopNotifications }하려면 권한이 필요합니다."
       ],
       "${ boldWarning } You will lose access to all current encrypted data in your account if you continue.": [
         "${ boldWarning } 이 작업을 계속하면 현재 계정에 저장된 모든 암호화된 데이터에 접근할 수 없습니다."
@@ -3067,7 +3067,7 @@
         "이전 암호"
       ],
       "Once you reset your password:": [
-        "비밀번호를 재설정하세요:"
+        "지금 비밀번호를 재설정하면 다음 사항이 적용됩니다:"
       ],
       "Open source": [
         "오픈 소스"
@@ -3181,7 +3181,7 @@
         "복구 정보는 삭제하도록 설정하지 않는 한 이 장치에 남아있어요."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "페이지를 새로고침하거나 ${ link } 는 대부분의 문제가 자동으로 해결됩니다."
+        "페이지를 새로고침하거나 ${ link } 대부분의 문제가 자동으로 해결됩니다."
       ],
       "Remember to share the user's sign in details with them.": [
         "사용자의 로그인 세부 사항을 공유하는 것을 잊지 마세요."
@@ -3713,6 +3713,9 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "오늘 부터 Plus 서버 및 기능들에 접근할 수 없게 됩니다."
+      ],
+      "They will be removed from your organization": [
+        "사용자의 조직에서 삭제됩니다."
       ]
     },
     "Info for cash payment method": {
@@ -3753,7 +3756,7 @@
         "선물됨"
       ],
       "Paid": [
-        "결제됨"
+        "결제 완료"
       ],
       "Unpaid": [
         "결제되지 않음"
@@ -4231,6 +4234,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } 환영 이메일"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } 사용자 설문"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } 제품 업데이트"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } 및 ${ CALENDAR_SHORT_APP_NAME } 새 기능"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } 제품 업데이트"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } 제품 업데이트"
       ]
     },
     "Label on payment method": {
@@ -4254,7 +4272,7 @@
         "기프트 코드 추가"
       ],
       "clearing your browser cache": [
-        "브라우저 캐시 삭제 중"
+        "브라우저 캐시를 삭제하면"
       ],
       "click here": [
         "여기를 클릭"
@@ -4808,6 +4826,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "금고 공유 (최대 ${ n }명)"
+      ],
+      "${ n } calendars per user": [
+        "사용자 당 ${ n }개 캘린더"
       ]
     },
     "new_plans: feature info": {
@@ -6849,7 +6870,7 @@
         "비밀번호 재설정"
       ],
       "Reset password?": [
-        "비밀번호 재설정?"
+        "비밀번호를 재설정 하시겠습니까?"
       ],
       "Restore administrator privileges": [
         "관리자 권한 복구"
@@ -7386,6 +7407,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "최대 10년간 각 파일의 최대 200개의 버전을 저장하세요."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "${ BRAND_NAME } 생태계의 새 기능 및 제품과 따끈따근한 프라이버시 뉴스를 받아보세요."
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "${ BRAND_NAME } 서비스 개선을 위한 설문 조사 참여"
       ]
     }
   }

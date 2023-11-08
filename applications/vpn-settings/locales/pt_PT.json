@@ -532,6 +532,9 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Edit invoice details": [
+        "Editar os detalhes da fatura"
       ]
     },
     "Action subscription": {
@@ -2393,6 +2396,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Font face option": {
@@ -4151,6 +4158,9 @@
       ],
       "Your password (admin)": [
         "A sua palavra-passe (admin)"
+      ],
+      "New plan": [
+        "Novo plano"
       ]
     },
     "label": {
@@ -4767,6 +4777,9 @@
       ],
       "User session management": [
         "Gestão de sessões de utilizador"
+      ],
+      "SMTP submission": [
+        "Envio SMTP"
       ]
     },
     "new_plans: feature info": {
@@ -5357,6 +5370,9 @@
       ],
       "Select a reason": [
         "Selecione um motivo"
+      ],
+      "Thomas Anderson": [
+        "Andrea Silva"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -5696,6 +5712,9 @@
     "session_recovery:status:info": {
       "Available": [
         "Disponível"
+      ],
+      "Pending": [
+        "Pendente"
       ]
     },
     "Shared calendar; Info about calendar owner": {
@@ -7131,6 +7150,37 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "O seu teste gratuito termina em ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Adicionar ${ PASS_APP_NAME }"
+      ],
+      "Cancel": [
+        "Cancelar"
+      ],
+      "Close": [
+        "Fechar"
+      ],
+      "Remove": [
+        "Remover"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Remover ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 utilizador"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 utilizadores"
+      ],
+      "High speed streaming": [
+        "Streaming de alta velocidade"
       ]
     }
   }

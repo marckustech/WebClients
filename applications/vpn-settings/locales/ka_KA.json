@@ -3748,6 +3748,21 @@
       ],
       "You will lose access to Plus features on this date.": [
         "ამ თარიღის დადგომისას Plus-ის თვისებებთან წვდომას დაკარგავთ."
+      ],
+      "Please use another browser or download the file.": [
+        "სცადეთ სხვა ბრაუზერი ან ფაილი გადმოწერეთ."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "ამ ფაილის მინიატურის შექმნა, ამჟამად, ამ ბრაუზერში, მხარდაჭერილი არაა."
+      ],
+      "Thanks for supporting our mission to build a better internet where privacy and freedom come first.": [
+        "მადლობა, რომ მხარი დაგვიჭირეთ ჩვენს მისიაში, ავაგოთ უკეთესი ინტერნეტ, სადაც კონფიდენციალობა და თავისუფლება რიგში პირველია."
+      ],
+      "They will be removed from your organization": [
+        "ისინი წაიშლება თქვენი ორგანიზაციიდან"
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "ამ თარიღის მოსვლისას Plus სერვერებთან და მის ფუნქციებთან წვდომას დაკარგავთ."
       ]
     },
     "Info for cash payment method": {
@@ -4269,6 +4284,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }-ის მისალმების ელფოსტები"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } მომხმარებლის მიმოხილვა"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME }-ის პროდუქტის განახლებები"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME }-ის და ${ CALENDAR_SHORT_APP_NAME }-ის ახალი ფუნქციები"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME }-ის პროდუქტის განახლებები"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME }-ის პროდუქტის განახლებები"
       ]
     },
     "Label on payment method": {
@@ -4865,6 +4895,10 @@
       "Vault sharing (up to ${ n } person)": [
         "საცავის გაზიარება (${ n }-მდე პიროვნებასთან)",
         "საცავის გაზიარება (${ n }-მდე პიროვნებასთან)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } კალენდარი თითოეული მომხმარებლისათვის",
+        "${ n } კალენდარი თითოეული მომხმარებლისათვის"
       ]
     },
     "new_plans: feature info": {
@@ -7355,6 +7389,12 @@
       ],
       "Remove ${ PASS_APP_NAME }": [
         "${ PASS_APP_NAME }-ის წაშლა"
+      ],
+      "**Add our encrypted password manager** for only ${ price }": [
+        "**დაამატეთ ჩვენი დაშიფრული პაროლების მმართველი** მხოლოდ ${ price }-ად"
+      ],
+      "Subscribe for 15 months and get our **encrypted password manager** for only ${ priceNoSuffix } extra per month!": [
+        "გამოიწერეთ 15 თვით და მიიღეთ ჩვენი **დაშიფრული პაროლების მმართველი**, მხოლოდ, ${ priceNoSuffix } დამატებით თვეში!"
       ]
     },
     "bf2023: Deal details": {
@@ -7393,6 +7433,15 @@
       ],
       "Premium Password Manager": [
         "პაროლების მმართველის ფასიანი ვერსია"
+      ],
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME } Plus და ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "ყველა ${ MAIL_SHORT_APP_NAME }-ის და ${ CALENDAR_APP_NAME }-ის ფასიანი ფუნქცია"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
       ]
     },
     "bf2023: Footer": {
@@ -7406,11 +7455,23 @@
     "bf2023: header": {
       "Select your Black Friday offer": [
         "აირჩიეთ თქვენი შავი პარასკევის შეთავაზება"
+      ],
+      "Save with Black Friday deals on a high-speed Swiss VPN": [
+        "დაზოგეთ შავი პარასკევის ფასდაკლებებით ჩქაროსნულ VPN-ზე"
       ]
     },
     "bf2023: info": {
       "Secure browsing and premium VPN features.": [
         "ინტერნეტში უსაფრთხოდ მუშაობა და ფასიანი VPN-ის თვისებები."
+      ],
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "ყველა ფასიანი ${ BRAND_NAME }-ის სერვისი. ერთი იოლი გამოწერა."
+      ],
+      "Sorry, this offer is not available with your current plan.": [
+        "უკაცრავად, ეს შემოთავაზება ხელმიუწვდომელია თქვენი მიმდინარე სატარიფო გეგმით."
+      ],
+      "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
+        "უკაცრავად, ეს შეთავაზება თქვენს მიმდინარე სატარიფო გეგმასთან ხელმისაწვდომი არაა. მაგრამ შეგიძლიათ მიიღოთ **${ discountPercentage } ფასდაკლება ${ plan.Title }-დან**, თუ გამოწერა **${ months }** იქნება."
       ]
     },
     "bf2023: Offers": {
@@ -7425,6 +7486,12 @@
       ],
       "the first month": [
         "პირველი თვე"
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for ${ discountedMonths }. Then it will automatically be renewed at the discounted price of ${ nextPrice } for ${ nextMonths }. You can cancel at any time.": [
+        "საგანგებოდ დაკლებული ფასი ${ discountedPrice } ხელმისაწვდომია კიდევ ${ discountedMonths }. ამის შემდეგ ის ავტომატურად განახლდება დაკლებულ ფასზე ${ nextPrice } ${ nextMonths }-თვის. გაუქმება ყოველთვის შეგიძლიათ."
+      ],
+      "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
+        "საგანგებოდ დაკლებული ფასი ${ discountedPrice }-სთვის პირველ თვეშია ხელმისაწვდომი. ამის შემდეგ ის ავტომატურად განახლდება ${ nextPrice } ფასით ყოველთვე. გაუქმება ყოველთვის შეგიძლიათ."
       ]
     },
     "bf2023: Title": {
@@ -7444,6 +7511,36 @@
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
         "NetShield-ი იცავს თქვენს მოწყობილობებს და აჩქარებს ინტერნეტში მუშაობას რეკლამების, ტრეკერების და არასასურველი პროგრამების დაბლოკვით."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "წვდომა დაბლოკილ შემცველობასთან და ინტერნეტში ანონიმურად მუშაობა. შეიცავს 3,000 სერვერს 65+ ქვეყანაში, ჩქაროსნულ VPN-ს, სტრიმინგის სერვისებs, არასასურველი პროგრამების და რეკლამების დაბლოკვs, სწრაფ BitTorrent-ის გადმოწერებს და სხვ."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "იქონიეთ წვდომა სტრიმინგის სერვისებთან, Netflix, Display+, Prime Video- და სხვ. ნებისმიერი ადგილიდან."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "აუარეთ გვერდი ლოკალური ინტერნეტის დაბლოკვებს და ცენზურას ჩვენი სერვერების გლობალური ქსელით."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "შეიცავს 3 თქვენი ელფოსტის დომენის, ${ addresses } ელფოსტის მისამართს, შეუზღუდავ Hide-my-email-ის მეტსახელს, კალენდრის გაზიარებას და სხვ.",
+        "შეიცავს 3 თქვენი ელფოსტის დომენის, ${ addresses } ელფოსტის მისამართს, შეუზღუდავ Hide-my-email-ის მეტსახელს, კალენდრის გაზიარებას და სხვ."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "დაიცავით თქვენი ელფოსტა და განრიგი გამჭოლი შიფრაციით. შეიცავს მომხმარებლის დომენების მხარდაჭერას, 15 ელფოსტის მისამართს, განუსაზღვრელ hide-my-email-ის ფსევდონიმს, კალენდრის გაზიარებას და სხვ."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "საცავის სივრცე გაზიარებულია ყველა ${ BRAND_NAME }-ის აპს შორის."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "დაიმახსოვრეთ თითოეული ფაილის 200 ვერსიამდე, 10 წლამდე ვადით."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "მიიღეთ უკანასკნელი კონფიდენციალობის სიახლეები და რა ხდება ${ BRAND_NAME }-ის სამყაროში"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "მიიღეთ მონაწილეობა გამოკითხვებში, რათა ${ BRAND_NAME }-ის სერვისები გააუმჯობესოთ"
       ]
     }
   }

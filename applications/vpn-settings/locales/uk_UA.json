@@ -529,6 +529,9 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Or": [
+        "Або"
       ]
     },
     "Action subscription": {
@@ -2389,6 +2392,9 @@
       ],
       "MB": [
         "МБ"
+      ],
+      "TB": [
+        "ТБ"
       ]
     },
     "file size format, long": {
@@ -7114,6 +7120,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Час безплатної пробної версії завершиться ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "6 users": [
+        "6 користувачів"
       ]
     }
   }

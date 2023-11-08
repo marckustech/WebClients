@@ -477,7 +477,7 @@
         "Odomknúť"
       ],
       "Upgrade": [
-        "Aktualizovať"
+        "Prejsť na platený plán"
       ],
       "Upgrade now": [
         "Aktualizovať teraz"
@@ -544,6 +544,9 @@
       ],
       "Keep my Plus subscription": [
         "Ponechať moje predplatné Plus"
+      ],
+      "Edit invoice details": [
+        "Upraviť fakturačné údaje"
       ]
     },
     "Action subscription": {
@@ -617,7 +620,7 @@
     },
     "Address status": {
       "Active": [
-        "Aktivní"
+        "Aktívny"
       ],
       "Allow unsigned mail": [
         "Povoliť nepodpísanú poštu"
@@ -2475,7 +2478,7 @@
         "Malé"
       ],
       "Very large": [
-        "Veľmi veľká"
+        "Veľmi veľké"
       ],
       "Very small": [
         "Veľmi malé"
@@ -3830,6 +3833,18 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "V tento deň stratíte prístup k Plus serverom a funkciám služby Plus."
+      ],
+      "Please use another browser or download the file.": [
+        "Použite iný prehliadač alebo si súbor stiahnite."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Náhľad tohto typu súboru nie je v súčasnosti v tomto prehliadači podporovaný."
+      ],
+      "They will be removed from your organization": [
+        "Budú z vašej organizácie odstránené."
+      ],
+      "View, download, and manage your invoices.": [
+        "Zobrazujte, sťahujte a spravujte svoje faktúry."
       ]
     },
     "Info for cash payment method": {
@@ -3845,6 +3860,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Pridajte meno (alebo názov spoločnosti) a adresu pre fakturáciu."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Zadajte vaše meno a adresu alebo adresu vašej organizácie. Tieto údaje sa pridajú do faktúr pre osoby aj organizácie."
       ]
     },
     "Info subscription": {
@@ -4318,6 +4336,9 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "Name and address": [
+        "Meno a adresa"
       ]
     },
     "label": {
@@ -4357,6 +4378,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } uvítacie emaily"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Používateľský prieskum ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nové funkcie ${ MAIL_APP_NAME } a ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Aktualizácie produktu ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -4446,7 +4482,7 @@
         "Navýšiť účet"
       ],
       "Upgrade your plan": [
-        "Inovujte svoj plán"
+        "Prejsť na vyšší plán"
       ],
       "View guide": [
         "Zobraziť sprievodcu"
@@ -4723,7 +4759,7 @@
         "99,95 % SLA"
       ],
       "Ad-blocker and malware protection": [
-        "Ad-blocker a ochrana pred škodlivým softvérom"
+        "Blokovanie reklám a ochrana pred škodlivým softvérom"
       ],
       "Admin console": [
         "Admin konzola"
@@ -4750,7 +4786,7 @@
         "Zdieľanie kalendára"
       ],
       "Catch-all": [
-        "Catch-all"
+        "Doménový kôš"
       ],
       "Centralized billing": [
         "Centralizovaná fakturácia"
@@ -4783,7 +4819,7 @@
         "Dedikované servery a IP"
       ],
       "DNS leak prevention": [
-        "Predchádzanie úniku DNS"
+        "Prevencia úniku DNS"
       ],
       "Document editors (docs, sheets, slides)": [
         "Editory dokumentov (dokumenty, tabuľky, prezentácie)"
@@ -4858,7 +4894,7 @@
         "Politika žiadnych logov"
       ],
       "Organize items with multiple vaults": [
-        "Usporiadajte položky s viacerými trezormi"
+        "Usporiadanie položiek pomocou viacerých trezorov"
       ],
       "Password-protected Emails": [
         "Heslom chránené emaily"
@@ -4991,6 +5027,12 @@
         "Zdieľanie trezora (s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendár na používateľa",
+        "${ n } kalendáre na používateľa",
+        "${ n } kalendárov na používateľa",
+        "${ n } kalendárov na používateľa"
       ]
     },
     "new_plans: feature info": {
@@ -5408,10 +5450,10 @@
     },
     "Notification": {
       "A disabled address cannot be default": [
-        "Deaktivovaná adresa nemôže byť východzia"
+        "Deaktivovaná adresa nemôže byť predvolená"
       ],
       "An external address cannot be default": [
-        "Externá adresa nemôže byť východzia"
+        "Externá adresa nemôže byť predvolená"
       ],
       "Invalid code": [
         "Neplatný kód"
@@ -5420,19 +5462,19 @@
         "IP adresa bola skopírovaná do schránky"
       ],
       "OpenVPN / IKEv2 credentials regenerated": [
-        "OpenVPN / IKEv2 údaje boli obnovené"
+        "OpenVPN / IKEv2 poverenia boli obnovené"
       ],
       "Reminder has been sent": [
         "Pripomienka bola odoslaná"
       ],
       "Two-factor authentication has been enforced for administrators": [
-        "Dvojstupňové overenie bolo vynútené pre správcov"
+        "Pre správcov bolo zavedené dvojstupňové overovanie"
       ],
       "Two-factor authentication has been enforced for all members": [
-        "Dvojstupňové overenie bolo vynútené pre všetkých členov"
+        "Dvojstupňové overovanie bolo zavedené pre všetkých členov"
       ],
       "Two-factor authentication is not required anymore": [
-        "Dvojstupňové overenie sa už nevyžaduje"
+        "Dvojstupňové overovanie sa už nevyžaduje"
       ]
     },
     "Onboarding": {
@@ -5615,6 +5657,18 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Vyberte počet IP adries, ktoré chcete zahrnúť do svojho plánu. Každá ďalšia IP stojí ${ price }. Ak potrebujete viac ako ${ maxIPs } IP, prosím ${ contactHref } náš obchodný tím"
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } náš Predajný tím, prosím."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Vyberte počet IP, ktoré chcete zahrnúť do svojho plánu. Každá ďalšia IP stojí ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, ",
+        "Potrebujete viac ako ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -6496,7 +6550,7 @@
     },
     "Subscription saving": {
       "Save": [
-        "Uložiť"
+        "Ušetríte"
       ]
     },
     "Subscription status": {
@@ -6624,7 +6678,7 @@
         "Certifikát predĺžený do ${ formattedExpirationDate }"
       ],
       "Config \"${ name }\" created, note that the private key is not stored and won't be shown again, you should copy or download this config.": [
-        "Konfigurácia „${ name }“ uložená, nezabudnite, že súkromný kľúč nie je uložený a nebude zobrazený znovu, mali by ste si túto konfiguráciu skopírovať alebo stiahnuť."
+        "Konfigurácia „${ name }“ vytvorená, nezabudnite, že súkromný kľúč nie je uložený a nebude zobrazený znovu, mali by ste si túto konfiguráciu skopírovať alebo stiahnuť."
       ],
       "Creating config file for ${ serverName }": [
         "Vytvorenie konfiguračného súboru pre ${ serverName }"
@@ -6939,7 +6993,7 @@
         "Denný motív"
       ],
       "Delete": [
-        "Odstrániť"
+        "Vymazať"
       ],
       "Delete ${ email }": [
         "Vymazať ${ email }"
@@ -7300,6 +7354,9 @@
       ],
       "Your subscriptions": [
         "Vaše predplatné"
+      ],
+      "Edit invoice details": [
+        "Upraviť fakturačné údaje"
       ]
     },
     "Title for payment methods table": {
@@ -7354,7 +7411,7 @@
         "Automaticky prepínať medzi preferovanými motívmi počas dňa a noci, synchronizovane s motívmi vášho systému"
       ],
       "If you purchased a gift code or received one from our support team, you can enter it here.": [
-        "Ak ste zakúpili darčekový kód alebo ste ho obdržali od našej podpory, môžete ho vložiť sem."
+        "Ak ste zakúpili darčekový kód alebo ste ho obdržali od našej podpory, môžete ho sem vložiť."
       ],
       "Members who do not use 2FA will get an email asking them to enable it as soon as possible.": [
         "Členovia, ktorí nepoužívajú 2FA dostanú email s výzvou, aby 2FA čo najskôr povolili "
@@ -7731,6 +7788,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Uložte až 200 verzií každého súboru až na 10 rokov."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Získajte najnovšie správy o ochrane osobných údajov a dianí vo svete ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Zapojte sa do prieskumov s cieľom zlepšiť služby ${ BRAND_NAME }"
       ]
     }
   }

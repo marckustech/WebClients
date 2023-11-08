@@ -541,6 +541,9 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Keep my Plus subscription": [
+        "Plus aboneliğimi koru"
       ]
     },
     "Action subscription": {
@@ -3912,6 +3915,24 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Aboneliğiniz Mozilla tarafından yönetiliyor. Lütfen Mozilla destek ekibi ile görüşün."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "İptal ederseniz, ${ planTitle } aboneliğiniz ${ expiryDate } tarihinde sona erdiğinde yenilenmeyecek."
+      ],
+      "Please use another browser or download the file.": [
+        "Lütfen başka bir tarayıcı kullanın ya da dosyayı indirin."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Bu tarayıcı şu anda bu dosya türünün ön izlenmesini desteklemiyor."
+      ],
+      "They will be removed from your organization": [
+        "Bunlar kuruluşunuzdan kaldırılacak"
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Bu tarihte Plus özelliklerine erişiminizi kaybedeceksiniz."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Bu tarihte Plus sunucularına ve özelliklerine erişiminizi kaybedeceksiniz."
       ]
     },
     "Info for cash payment method": {
@@ -4433,6 +4454,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } karşılama e-postaları"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } kullanıcı anketi"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } ürün güncellemeleri"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Yeni ${ MAIL_APP_NAME } ve ${ CALENDAR_SHORT_APP_NAME } özellikleri"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } ürün güncellemeleri"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } ürün güncellemeleri"
       ]
     },
     "Label on payment method": {
@@ -4796,7 +4832,7 @@
         "Takvim paylaşımı"
       ],
       "Catch-all": [
-        "Tümünü toplayan e-posta"
+        "Tümünü toplama"
       ],
       "Centralized billing": [
         "Tek merkezden faturalama"
@@ -5029,6 +5065,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kasa paylaşma (${ n } kişiye kadar)",
         "Kasa paylaşma (${ n } kişiye kadar)"
+      ],
+      "${ n } calendar per user": [
+        "Her kullanıcı için ${ n } takvim",
+        "Her kullanıcı için ${ n } takvim"
       ]
     },
     "new_plans: feature info": {
@@ -5192,7 +5232,7 @@
         "${ MAIL_APP_NAME }: E-postalarınızı uçtan uca şifrelemeyle koruyun. Özel e-posta etki alanları, 15 e-posta adresi, sınırsız hide-my-email takma adları ve diğer özellikler."
       ],
       "${ VPN_APP_NAME }: Access blocked content and browse privately. Includes ${ serversAndCountries }, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "${ VPN_APP_NAME }: Engellenen içeriğe erişin ve gizliliğinizi koruyarak gezinin. ${ serversAndCountries }, en yüksek VPN hızları, tüm Dünya'daki yayın akışı hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmeleri ve daha fazlası."
+        "${ VPN_APP_NAME }: Engellenen içeriğe erişin ve gizliliğinizi koruyarak gezinin. ${ serversAndCountries }, en yüksek VPN hızları, tüm Dünya'daki yayın akışı hizmetlerine erişim, kötü amaçlı yazılım ve reklam engelleyici, hızlı BitTorrent indirmeleri ve diğer özellikler."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere": [
         "Netflix, Disney+ ve Prime Video gibi yayın akışı hizmetlerindeki içeriğe her yerden erişin"
@@ -5628,6 +5668,9 @@
       ],
       "Select a reason": [
         "Bir neden seçin"
+      ],
+      "Thomas Anderson": [
+        "Thomas Anderson"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -7323,7 +7366,7 @@
     },
     "tooltip": {
       "${ PASS_APP_NAME }: Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
-        "${ PASS_APP_NAME }: Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve daha fazlası."
+        "${ PASS_APP_NAME }: Tüm aygıtlarınızda oturum açma işlemlerinin güvenliğini sağlayın. Sınırsız takma ad, paylaşım, bütünleşik iki adımlı doğrulama ve diğer özellikler."
       ]
     },
     "Tor out of date": {
@@ -7376,7 +7419,7 @@
     },
     "VPN info": {
       "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now, and more.": [
-        "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now ve daha fazlası."
+        "Netflix, Amazon Prime Video, BBC iPlayer, ESPN+, Disney+, HBO Now ve diğerleri."
       ]
     },
     "VPN Plan Feature": {
@@ -7490,6 +7533,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Son gizlilik haberlerini alın ve ${ BRAND_NAME } evreninde neler olduğunu öğrenin"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "${ BRAND_NAME } hizmetlerini geliştirmek için anketlere katılın"
       ]
     }
   }

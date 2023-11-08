@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Σμίκρυνση"
+      ],
+      "Edit invoice details": [
+        "Επεξεργασία στοιχείων τιμολογίου"
       ]
     },
     "Action subscription": {
@@ -3754,6 +3757,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Η συνδρομή σας διαχειρίζεται απο το Mozilla. Επικοινωνήστε με την υποστήριξη του Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Χρησιμοποιήστε άλλο πρόγραμμα περιήγησης ή κατεβάστε το αρχείο."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Η προεπισκόπηση για αυτόν τον τύπο αρχείου δεν υποστηρίζεται προς το παρόν σε αυτό το πρόγραμμα περιήγησης."
+      ],
+      "They will be removed from your organization": [
+        "Θα καταργηθούν από τον οργανισμό σας"
+      ],
+      "View, download, and manage your invoices.": [
+        "Προβολή, λήψη και διαχείριση των τιμολογίων σας."
       ]
     },
     "Info for cash payment method": {
@@ -3769,6 +3784,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Προσθέστε το όνομα (ή το όνομα της εταιρείας σας) και τη διεύθυνση στο λογαριασμό σας."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Εισαγάγετε ένα όνομα και μια διεύθυνση για εσάς ή τον οργανισμό σας. Αυτές οι λεπτομέρειες θα προστεθούν τόσο στα προσωπικά όσο και στα εταιρικά τιμολόγια."
       ]
     },
     "Info subscription": {
@@ -4236,6 +4254,9 @@
       ],
       "Your password (admin)": [
         "Ο κωδικός σας (διαχειριστής)"
+      ],
+      "Name and address": [
+        "Όνομα και διεύθυνση"
       ]
     },
     "label": {
@@ -4275,6 +4296,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Emails καλωσορίσματος ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME } έρευνα χρηστών"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME } ενημερώσεις προϊόντων"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } και ${ CALENDAR_SHORT_APP_NAME } νέες δυνατότητες"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME } ενημερώσεις προϊόντων"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME } ενημερώσεις προϊόντων"
       ]
     },
     "Label on payment method": {
@@ -4871,6 +4907,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Κοινή χρήση κρύπτης (έως ${ n } άτομο)",
         "Κοινή χρήση κρύπτης (έως ${ n } άτομα)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } ημερολόγιο ανά χρήστη",
+        "${ n } ημερολόγια ανά χρήστη"
       ]
     },
     "new_plans: feature info": {
@@ -5483,6 +5523,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Επιλέξτε τον αριθμό των διευθύνσεων IP που θα συμπεριλάβετε στο πλάνο σας. Κάθε επιπλέον IP κοστίζει ${ price }. Εάν χρειάζεστε περισσότερα από ${ maxIPs } IPs, παρακαλούμε ${ contactHref } την ομάδα πωλήσεών μας."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "παρακαλούμε ${ contactHref } την ομάδα Πωλήσεών μας."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Επιλέξτε τον αριθμό διευθύνσεων IP που θα περιλαμβάνει το πρόγραμμά σας. Κάθε επιπλέον διεύθυνση IP κοστίζει ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Εάν χρειάζεστε περισσότερη από ${ maxIPs } διεύθυνση IP, ",
+        "Εάν χρειάζεστε περισσότερες από ${ maxIPs } διευθύνσεις IP, "
       ]
     },
     "plan customizer, users": {
@@ -7091,6 +7141,9 @@
       ],
       "Your subscriptions": [
         "Οι συνδρομές σας"
+      ],
+      "Edit invoice details": [
+        "Επεξεργασία στοιχείων τιμολογίου"
       ]
     },
     "Title for payment methods table": {
@@ -7457,6 +7510,9 @@
       ],
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "Η ειδικά μειωμένη τιμή ${ discountedPrice } ισχύει για τον πρώτο μήνα. Στη συνέχεια, θα ανανεώνεται αυτόματα σε ${ nextPrice } κάθε μήνα. Μπορείτε να ακυρώσετε ανά πάσα στιγμή."
+      ],
+      "${ n } month": [
+        "${ n } μήνα"
       ]
     },
     "bf2023: Title": {
@@ -7498,6 +7554,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Αποθηκεύστε έως 200 εκδόσεις κάθε αρχείου για έως και 10 χρόνια."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Λάβετε τα τελευταία νέα απορρήτου και τι συμβαίνει στον κόσμο του ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Συμμετοχή σε έρευνες για τη βελτίωση των υπηρεσιών ${ BRAND_NAME }"
       ]
     }
   }

@@ -532,6 +532,9 @@
       ],
       "Zoom out": [
         "Zoom ud"
+      ],
+      "Contact us": [
+        "Kontakt os"
       ]
     },
     "Action subscription": {
@@ -1650,6 +1653,9 @@
     "Description": {
       "Separate different aspects of your life with multiple email addresses and unlock more premium features when you upgrade.": [
         "Adskil forskellige aspekter af dit liv, med flere e-mailadresser, og lås op for flere premium-funktioner, når du opgraderer."
+      ],
+      "ProtonMail logo and a plus sign": [
+        "ProtonMail-logo og et plustegn"
       ]
     },
     "Downgrade account reason": {
@@ -4775,6 +4781,9 @@
     "new_plans: heading": {
       "Team management": [
         "Brugeradministration"
+      ],
+      "Support": [
+        "Støtte"
       ]
     },
     "new_plans: info": {
@@ -5035,6 +5044,9 @@
       ],
       "When sending to other ${ MAIL_APP_NAME } users, encryption is automatic. Sending to non-${ MAIL_APP_NAME_TWO } users requires setting a password prior to sending.": [
         "Når du sender til andre ${ MAIL_APP_NAME } brugere, er krypteringen automatisk. Afsendelse til ikke-${ MAIL_APP_NAME_TWO } brugere kræver en adgangskode før afsendelse."
+      ],
+      "SMTP allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME }.": [
+        "SMTP gør det muligt for tredjepartstjenester eller -enheder at sende e-mail via ${ MAIL_APP_NAME }."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -5619,6 +5631,9 @@
       ],
       "Username": [
         "Brugernavn"
+      ],
+      "Confirm password": [
+        "Bekræft adgangskode"
       ]
     },
     "specialoffer: Action": {
@@ -5982,6 +5997,9 @@
       ],
       "Your plan was purchased using an iOS app. So to make changes to your plan or update your payment details, you’ll need to go to the Apple App Store.": [
         "Dit abonnement blev købt via en iOS app. For at lave ændringer i dit abonnement eller opdatere dine betalingsoplysninger, skal du gå til Apple App Store."
+      ],
+      "Got it": [
+        "Forstået"
       ]
     },
     "Subscription price": {
@@ -6001,6 +6019,9 @@
       ],
       "Our system will no longer auto-charge you using this payment method, but your subscription will still renew at the end of the billing cycle. If you want to downgrade or change your subscription, you still need to do that yourself before the end of the billing period. We cannot auto-downgrade you because if you are over free plan storage quota or using other paid features, we cannot auto delete files, emails, or other data for you. If you disable automatic payment, remember to pay your next subscription invoice before the due date to prevent account suspension.": [
         "Vores system vil ikke længere automatisk opkræve dig ved hjælp af denne betalingsmetode, men dit abonnement vil stadig blive fornyet ved slutningen af faktureringsperioden. Hvis du ønsker at nedgradere eller ændre dit abonnement, skal du stadig selv gøre det inden slutningen af faktureringsperioden. Vi kan ikke automatisk nedgradere dig, for hvis du har overskredet lagerpladsen for det gratis abonnement eller bruger andre betalte funktioner, kan vi ikke automatisk slette filer, e-mails eller andre data for dig. Hvis du deaktiverer automatisk betaling, skal du huske at betale din næste abonnementsfakture inden forfaldsdatoen for at forhindre suspendering af kontoen."
+      ],
+      "Disable": [
+        "Deaktivér"
       ]
     },
     "Subscription saving": {
@@ -6793,6 +6814,12 @@
       ],
       "Your subscriptions": [
         "Dine abonnementer"
+      ],
+      "Payment failed": [
+        "Betaling mislykkedes"
+      ],
+      "Verifying your payment...": [
+        "Verificerer din betaling..."
       ]
     },
     "Title for payment methods table": {
@@ -6998,6 +7025,60 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Din gratis prøveperiode udløber den ${ textDate }. ${ action }"
+      ],
+      "Are you sure you want to delete this address?": [
+        "Er du sikker på, at du vil slette denne adresse?"
+      ]
+    },
+    "bf2023: Action": {
+      "Cancel": [
+        "Annuller"
+      ],
+      "Close": [
+        "Luk"
+      ],
+      "Remove": [
+        "Fjern"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } lagerplads"
+      ],
+      "1 user": [
+        "1 bruger"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 brugere"
+      ],
+      "Extended version history": [
+        "Udvidet versionshistorik"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Premium Adgangskodeadministrator"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Inkluderer support til 3 bruger-e-maildomæner, ${ addresses } e-mailadresse, ubegrænsede Hide-my-email-aliasser, kalenderdeling med mere.",
+        "Inkluderer support til 3 bruger-e-maildomæner, ${ addresses } e-mailadresser, ubegrænsede Hide-my-email-aliasser, kalenderdeling med mere."
+      ]
+    },
+    "Label, credit card": {
+      "ZIP code": [
+        "Postnummer"
       ]
     }
   }

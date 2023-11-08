@@ -1976,7 +1976,7 @@
     },
     "Error notification in the bug report modal when the user upload file": {
       "No image selected": [
-        "Gambar belum dipilih"
+        "Tidak ada gambar yang dipilih"
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -3713,6 +3713,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Langganan Anda dikelola oleh Mozilla. Silakan hubungi layanan dukungan Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Silakan gunakan browser lain atau unduh berkas yang bersangkutan."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Pratinjau untuk tipe berkas ini untuk sementara belum didukung pada browser ini."
+      ],
+      "They will be removed from your organization": [
+        "Nama-nama ini akan dikeluarkan dari organisasi Anda"
       ]
     },
     "Info for cash payment method": {
@@ -4231,6 +4240,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME } surel datang"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Survei pengguna ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Pembaruan produk ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Fitur baru ${ MAIL_APP_NAME } dan ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Pembaruan produk ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Pembaruan produk ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -4808,6 +4832,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "Berbagi berkas (hingga ${ n } pengguna)"
+      ],
+      "${ n } calendars per user": [
+        "${ n } kalender per pengguna"
       ]
     },
     "new_plans: feature info": {
@@ -7389,6 +7416,14 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Simpan hingga 200 versi berkas sampai 10 tahun."
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Dapatkan berita privasi terkini dan informasi seputar apa-apa saja yang terjadi di semesta ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Isi survei untuk meningkatkan layanan ${ BRAND_NAME }"
       ]
     }
   }

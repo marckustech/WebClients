@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Action subscription": {
@@ -729,7 +732,7 @@
         "Los descuentos se basan en la cuota estándar mensual."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "Su suscripción se renovará automáticamente con el mismo precio reducido y duración al término del ciclo de facturación."
+        "Su suscripción se renovará automáticamente con la misma tarifa estándar con descuento y duración al término del ciclo de facturación."
       ]
     },
     "bf2023: header": {
@@ -3526,7 +3529,7 @@
         "Estos archivos de configuración le permiten elegir a qué servidor de ${ VPN_APP_NAME } se conecta cuando usa una aplicación VPN de terceros o configura una conexión VPN en un enrutador."
       ],
       "These configurations are provided to work with WireGuard routers and official clients.": [
-        "Estas configuraciones son brindadas para funcionar con ruteadores WireGuard y clientes oficiales."
+        "Estas configuraciones son proporcionadas para funcionar con ruteadores WireGuard y clientes oficiales."
       ],
       "These credentials cannot be used to sign in to our official ${ VPN_APP_NAME } apps. ${ learnMore }": [
         "Estas credenciales no pueden usarse para iniciar sesión en nuestras apps oficiales de ${ VPN_APP_NAME }. ${ learnMore }"
@@ -3712,10 +3715,10 @@
         "Necesitamos autenticar su pago con su banco."
       ],
       "We recommend having at least 2 servers in order to provide redundancy.": [
-        "Recomendamos tener al menos 2 servidores para brindar redundancia."
+        "Recomendamos tener al menos 2 servidores para ofrecer redundancia."
       ],
       "We recommend having multiple servers in different locations to provide redundancy.": [
-        "Recomendamos tener múltiples servidores en diferentes ubicaciones para brindar redundancia."
+        "Recomendamos tener múltiples servidores en diferentes ubicaciones para ofrecer redundancia."
       ],
       "We recommend notifying the organization members and asking them to set up 2FA for their accounts before enforcing the use of 2FA.": [
         "Recomendamos notificar a los miembros de la organización y pedirles que configuren 2FA para sus cuentas antes de requerir el uso de 2FA."
@@ -3924,6 +3927,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Su suscripción es gestionada por Mozilla. Contacte con el soporte de Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Use otro navegador o descargue el archivo."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La vista previa para este tipo de archivo no está admitida en este navegador."
+      ],
+      "They will be removed from your organization": [
+        "Se eliminarán de su organización"
+      ],
+      "View, download, and manage your invoices.": [
+        "Vea, descargue y gestione sus facturas."
       ]
     },
     "Info for cash payment method": {
@@ -3939,6 +3954,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Añada su nombre (o nombre de la empresa) y dirección a sus facturas."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Ingrese un nombre y dirección para usted o su organización. Estos datos se agregarán tanto a las facturas personales como a las facturas de la organización."
       ]
     },
     "Info subscription": {
@@ -4406,6 +4424,9 @@
       ],
       "Your password (admin)": [
         "Su contraseña (admin)"
+      ],
+      "Name and address": [
+        "Nombre y dirección"
       ]
     },
     "label": {
@@ -4445,6 +4466,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Correos de bienvenida de ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Encuesta a los usuarios de ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Funciones nuevas de ${ MAIL_APP_NAME } y ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Actualizaciones del producto ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5077,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartir bóveda (hasta ${ n } persona)",
         "Compartir bóveda (hasta ${ n } personas)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario por usuario",
+        "${ n } calendarios por usuario"
       ]
     },
     "new_plans: feature info": {
@@ -5121,7 +5161,7 @@
         "Soluciones a medida para organizaciones más grandes con necesidades de seguridad específicas"
       ],
       "The dedicated VPN solution that provides secure, unrestricted, high-speed access to the internet.": [
-        "La solución VPN dedicada que brinda acceso seguro, sin restricciones y de alta velocidad a Internet."
+        "La solución VPN dedicada que ofrece acceso seguro, sin restricciones y de alta velocidad a Internet."
       ],
       "The no-cost starter account designed to empower everyone with privacy by default.": [
         "La cuenta inicial gratuita diseñada para potenciar a todos con la privacidad por defecto."
@@ -5653,6 +5693,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Seleccione el número de IPs por incluir en su plan. Cada IP adicional cuesta ${ price }. Si necesita más de ${ maxIPs } IPs, ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "contacte ${ contactHref } con nuestro equipo de ventas."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Elija el número de IPs para incluir en su plan. Cada IP adicional cuesta ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si necesita más de ${ maxIPs } IP, ",
+        "Si necesita más de ${ maxIPs } IPs, "
       ]
     },
     "plan customizer, users": {
@@ -7264,6 +7314,9 @@
       ],
       "Your subscriptions": [
         "Sus suscripciones"
+      ],
+      "Edit invoice details": [
+        "Editar los datos de la factura"
       ]
     },
     "Title for payment methods table": {
@@ -7505,6 +7558,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Su prueba gratuita termina en ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Obtenga las últimas noticias de privacidad y lo que sucede en ${ BRAND_NAME }"
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Participe en las encuestas para mejorar los servicios de ${ BRAND_NAME }"
       ]
     }
   }

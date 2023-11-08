@@ -586,6 +586,9 @@
       ],
       "Saving": [
         "保存中"
+      ],
+      "Set as default": [
+        "デフォルトとして設定"
       ]
     },
     "Address status": {
@@ -1943,6 +1946,9 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "このページをロードできません。ページを再読み込みするかインターネットの接続状況を確認してください。"
+      ],
+      "Something went wrong": [
+        "不具合が発生しました"
       ]
     },
     "Error notification": {
@@ -4719,6 +4725,9 @@
       ],
       "User session management": [
         "ユーザーセッション管理"
+      ],
+      "${ n } calendars": [
+        "${ n } カレンダー"
       ]
     },
     "new_plans: feature info": {
@@ -6051,6 +6060,9 @@
       ],
       "Your plan was purchased using an iOS app. So to make changes to your plan or update your payment details, you’ll need to go to the Apple App Store.": [
         "お客様のプランはiOSアプリを使用して購入されました。そのため、プランの変更やお支払いの詳細を更新するには、Apple App Storeにアクセスする必要があります。"
+      ],
+      "Got it": [
+        "了承"
       ]
     },
     "Subscription price": {
@@ -6079,6 +6091,9 @@
       ],
       "Our system will no longer auto-charge you using this payment method, but your subscription will still renew at the end of the billing cycle. If you want to downgrade or change your subscription, you still need to do that yourself before the end of the billing period. We cannot auto-downgrade you because if you are over free plan storage quota or using other paid features, we cannot auto delete files, emails, or other data for you. If you disable automatic payment, remember to pay your next subscription invoice before the due date to prevent account suspension.": [
         "この支払い方法による自動課金はなくなりますが、課金サイクルの終了時に購読は更新されます。サブスクリプションをダウングレードまたは変更したい場合は、請求期間の終了前にご自身で行う必要があります。無料プランのストレージ容量を超過している場合、またはその他の有料機能を使用している場合、ファイル、Eメール、その他のデータを自動削除できないため、自動ダウングレードはできません。自動支払いを無効にした場合は、アカウントの停止を防ぐために、期日までに次回の請求書を支払うことを忘れないでください。"
+      ],
+      "Disable": [
+        "無効化"
       ]
     },
     "Subscription saving": {
@@ -6866,6 +6881,9 @@
       ],
       "Your subscriptions": [
         "あなたのサブスクリプション"
+      ],
+      "Payment failed": [
+        "支払いに失敗しました"
       ]
     },
     "Title for payment methods table": {
@@ -7086,6 +7104,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "無料トライアルは ${ textDate } に終了します。${ action }"
+      ],
+      "Are you sure you want to delete this address?": [
+        "本当にこのアドレスを削除してよいですか。"
+      ]
+    },
+    "Label, credit card": {
+      "ZIP code": [
+        "郵便番号"
       ]
     }
   }

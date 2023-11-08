@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Verkleinern"
+      ],
+      "Edit invoice details": [
+        "Rechnungsdetails bearbeiten"
       ]
     },
     "Action subscription": {
@@ -3924,6 +3927,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dein Abonnement wird von Mozilla verwaltet. Bitte kontaktiere den Mozilla-Support."
+      ],
+      "Please use another browser or download the file.": [
+        "Bitte verwende einen anderen Browser oder lade die Datei herunter."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Die Vorschau für diesen Dateityp wird derzeit von diesem Browser nicht unterstützt."
+      ],
+      "They will be removed from your organization": [
+        "Sie werden aus deiner Organisation entfernt"
+      ],
+      "View, download, and manage your invoices.": [
+        "Rechnungen anzeigen, herunterladen und verwalten."
       ]
     },
     "Info for cash payment method": {
@@ -3939,6 +3954,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Füge deinen Namen (oder Firmennamen) und deine Adresse zu deinen Rechnungen hinzu."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Gib einen Namen und eine Adresse für dich oder deine Organisation ein. Diese Angaben werden sowohl den persönlichen als auch den Organisationsrechnungen hinzugefügt."
       ]
     },
     "Info subscription": {
@@ -4406,6 +4424,9 @@
       ],
       "Your password (admin)": [
         "Dein Passwort (Admin)"
+      ],
+      "Name and address": [
+        "Name und Adresse"
       ]
     },
     "label": {
@@ -4445,6 +4466,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "${ BRAND_NAME }-Willkommens-E-Mails"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "${ BRAND_NAME }-Benutzerumfrage"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "${ DRIVE_APP_NAME }-Produktaktualisierungen"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "${ MAIL_APP_NAME } und ${ CALENDAR_SHORT_APP_NAME } neue Funktionen"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "${ PASS_APP_NAME }-Produktaktualisierungen"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "${ VPN_APP_NAME }-Produktaktualisierungen"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5077,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Tresor teilen (bis zu ${ n } Person)",
         "Tresor teilen (bis zu ${ n } Personen)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } Kalender je Benutzer",
+        "${ n } Kalender je Benutzer"
       ]
     },
     "new_plans: feature info": {
@@ -5653,6 +5693,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Wähle die Anzahl der IPs, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }. Solltest du mehr als ${ maxIPs } IPs benötigen, kontaktiere bitte ${ contactHref } unser Vertriebsteam."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } bitte unser Verkaufsteam."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Wähle die Anzahl der IP's aus, die in deinem Abonnement enthalten sein sollen. Jede zusätzliche IP kostet ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Solltest du mehr als ${ maxIPs } IP benötigen, ",
+        "Solltest du mehr als ${ maxIPs } IP's benötigen, "
       ]
     },
     "plan customizer, users": {
@@ -7264,6 +7314,9 @@
       ],
       "Your subscriptions": [
         "Deine Abonnements"
+      ],
+      "Edit invoice details": [
+        "Rechnungsdetails bearbeiten"
       ]
     },
     "Title for payment methods table": {
@@ -7505,6 +7558,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Deine kostenlose Testversion endet am ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Erhalte die neuesten Nachrichten zum Thema Privatsphäre und was im ${ BRAND_NAME }-Universum vor sich geht."
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Nimm an Umfragen teil, um die Dienstleistungen von ${ BRAND_NAME } zu verbessern."
       ]
     }
   }

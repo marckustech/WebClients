@@ -267,7 +267,7 @@
         "Inviter un utilisateur"
       ],
       "Keep my Plus subscription": [
-        "Garder mon abonnement à Plus"
+        "Conserver mon abonnement à Plus"
       ],
       "Let's talk": [
         "Parlons-nous"
@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Zoom arrière"
+      ],
+      "Edit invoice details": [
+        "Modifier les informations de la facture"
       ]
     },
     "Action subscription": {
@@ -852,19 +855,19 @@
         "Problème avec Bridge"
       ],
       "Calendar problem": [
-        "Problème avec Calendar"
+        "Problème avec Proton Calendar"
       ],
       "Connection problem": [
         "Problème de connexion"
       ],
       "Contacts problem": [
-        "Problème avec Contacts"
+        "Problème avec Proton Contacts"
       ],
       "Custom domain problem": [
         "Problème avec les domaines personnalisés"
       ],
       "Drive problem": [
-        "Problème avec Drive"
+        "Problème avec Proton Drive"
       ],
       "Feature request": [
         "Demande de fonctionnalité"
@@ -876,7 +879,7 @@
         "Problème d'installation"
       ],
       "Mail problem": [
-        "Problème avec Mail"
+        "Problème avec Proton Mail"
       ],
       "Manual setup problem": [
         "Problème avec la configuration manuelle"
@@ -912,7 +915,7 @@
         "Problème de mise à jour"
       ],
       "VPN problem": [
-        "Problème avec le VPN"
+        "Problème avec Proton VPN"
       ],
       "Website access problem": [
         "Problème d'accès au site web"
@@ -2623,13 +2626,13 @@
     },
     "Frequency of news": {
       "(1 email per month)": [
-        "(une fois par mois)"
+        "(1 message par mois)"
       ],
       "(1 email per quarter)": [
-        "(une fois par trimestre)"
+        "(1 message par trimestre)"
       ],
       "(1-2 emails per month)": [
-        "(une à deux fois par mois)"
+        "(1 ou 2 messages par mois)"
       ],
       "(2-4 emails per year)": [
         "(2 à 4 messages par an)"
@@ -3493,7 +3496,7 @@
         "Merci"
       ],
       "Thanks for supporting our mission to build a better internet where privacy and freedom come first.": [
-        "Merci de soutenir notre mission : créer un meilleur internet fondé sur la protection de la vie privée et la liberté."
+        "Merci de soutenir notre mission de créer un meilleur internet qui donne la priorité à la protection de la vie privée et à la liberté."
       ],
       "The following address is invalid.": [
         "L'adresse suivante n'est pas valide.",
@@ -3893,7 +3896,7 @@
         "Votre compte ayant au moins une facture en retard, il est restreint. Vos messages et liens de partage seront bloqués en cas de non-paiement. ${ payInvoiceLink }"
       ],
       "Your account was successfully updated with this promotion": [
-        "La promotion a été prise en compte et votre compte a été mis à jour."
+        "Votre compte a été mis à jour avec cette promotion."
       ],
       "Your account will be updated once the payment is cleared.": [
         "Votre compte sera mis à jour une fois le paiement effectué."
@@ -3924,6 +3927,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Nous vous invitons à utiliser un autre navigateur ou à télécharger le fichier."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La prévisualisation de ce type de fichier n'est pas encore possible avec ce navigateur."
+      ],
+      "They will be removed from your organization": [
+        "Ils seront retirés de votre organisation."
+      ],
+      "View, download, and manage your invoices.": [
+        "Consultez, téléchargez et gérez vos factures."
       ]
     },
     "Info for cash payment method": {
@@ -3939,6 +3954,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Ajoutez votre nom (ou celui de votre entreprise) et votre adresse à vos factures."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Saisissez un nom et une adresse pour vous ou votre organisation. Ces informations seront ajoutées aux factures personnelles et à celles de l'organisation."
       ]
     },
     "Info subscription": {
@@ -4406,6 +4424,9 @@
       ],
       "Your password (admin)": [
         "Votre mot de passe (admin)"
+      ],
+      "Name and address": [
+        "Nom et adresse"
       ]
     },
     "label": {
@@ -4445,6 +4466,21 @@
       ],
       "${ BRAND_NAME } welcome emails": [
         "Messages de bienvenue ${ BRAND_NAME }"
+      ],
+      "${ BRAND_NAME } user survey": [
+        "Enquête utilisateurs de ${ BRAND_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Mises à jour du produit ${ DRIVE_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
+        "Nouvelles fonctionnalités de ${ MAIL_APP_NAME } et ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Mises à jour du produit ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Mises à jour du produit ${ VPN_APP_NAME }"
       ]
     },
     "Label on payment method": {
@@ -5041,6 +5077,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Partage du coffre-fort (${ n } personne)",
         "Partage du coffre-fort (jusqu'à ${ n } personnes)"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendrier par utilisateur",
+        "${ n } calendriers par utilisateur"
       ]
     },
     "new_plans: feature info": {
@@ -5653,6 +5693,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Sélectionnez le nombre d'adresses IP à inclure dans votre abonnement. Chaque adresse IP supplémentaire coûte ${ price }. Si vous avez besoin de plus de ${ maxIPs } adresses IP, ${ contactHref } notre équipe commerciale."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } notre équipe commerciale."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Sélectionnez le nombre d'IP à inclure dans votre abonnement. Chaque IP supplémentaire coûte ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Si vous avez besoin de plus de ${ maxIPs } IP, ",
+        "Si vous avez besoin de plus de ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -7264,6 +7314,9 @@
       ],
       "Your subscriptions": [
         "Vos abonnements"
+      ],
+      "Edit invoice details": [
+        "Modifier les informations de la facture"
       ]
     },
     "Title for payment methods table": {
@@ -7505,6 +7558,14 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Votre essai gratuit se termine le ${ textDate }. ${ action }"
+      ]
+    },
+    "Tooltip for news": {
+      "Get the latest privacy news and what is going on in the ${ BRAND_NAME } universe": [
+        "Recevez les actualités sur la protection de la vie privée et découvrez ce qui se passe dans l'écosystème ${ BRAND_NAME }."
+      ],
+      "Participate in surveys to improve ${ BRAND_NAME } services": [
+        "Participez aux enquêtes pour améliorer les services ${ BRAND_NAME }."
       ]
     }
   }

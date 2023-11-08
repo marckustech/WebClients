@@ -3391,6 +3391,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Vidarebefordran till destinationsadressen kommer att avslutas."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "End-to-end-kryptering kommer att återaktiveras för avsändaradressen."
       ]
     },
     "email_forwarding_2023: Status": {

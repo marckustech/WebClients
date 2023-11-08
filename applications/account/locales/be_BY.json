@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Edit invoice details": [
+        "Рэдагаваць падрабязнасці рахунка"
       ]
     },
     "action": {
@@ -3410,6 +3413,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Перасылка на адрас прызначэння будзе скасавана."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Скразное шыфраванне будзе паўторна ўключана для адраса адпраўніка."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7925,6 +7931,9 @@
       ],
       "They will be removed from your organization": [
         "Яны будуць выдалены з вашай арганізацыі"
+      ],
+      "View, download, and manage your invoices.": [
+        "Прагляд, спампоўванне і кіраванне вашымі рахункамі."
       ]
     },
     "info": {
@@ -7964,6 +7973,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Дадайце сваё імя (або назву кампаніі) і адрас у вашы рахункі."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Увядзіце сваё імя і адрас або рэквізіты сваёй арганізацыі. Гэтыя падрабязнасці будуць дадзены да асабістых рахункаў, а таксама рахункаў арганізацыі."
       ]
     },
     "Info on errors": {
@@ -9250,6 +9262,9 @@
       ],
       "Your referral link": [
         "Ваша рэферальная спасылка"
+      ],
+      "Name and address": [
+        "Імя і адрас"
       ]
     },
     "label": {
@@ -11710,6 +11725,18 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Выберыце колькасць IP, якія будуць уключаны ў ваш тарыфны план. Кожны дадатковы IP будзе каштаваць ${ price }. У выпадку, калі вам спатрэбіцца больш чым ${ maxIPs } IP, звярніцеся ў нашу службу падтрымкі ${ contactHref }"
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } звяжыцеся з нашай камандай па продажах."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Выберыце колькасць IP для ўключэння ў ваш тарыфны план. Кожны дадатковы IP каштуе ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -14296,6 +14323,9 @@
       ],
       "Forward and Auto-reply": [
         "Перасылка і аўтаматычны адказ"
+      ],
+      "Edit invoice details": [
+        "Рэдагаваць падрабязнасці рахунка"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

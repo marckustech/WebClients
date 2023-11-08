@@ -3587,6 +3587,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "El reenvío a la dirección de destino finalizará."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Se reactivará el cifrado de extremo a extremo para la dirección del remitente."
       ]
     },
     "email_forwarding_2023: Status": {

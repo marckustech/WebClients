@@ -3127,6 +3127,10 @@
       "Megabyte": [
         "Megabyte",
         "Megabytes"
+      ],
+      "Terabyte": [
+        "Terabyte",
+        "Terabytes"
       ]
     },
     "Filter notification": {
@@ -7220,6 +7224,20 @@
       "${ users } user": [
         "${ users } utilizador",
         "${ users } utilizadores"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 utilizador"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 utilizadores"
+      ],
+      "High speed streaming": [
+        "Streaming de alta velocidade"
       ]
     }
   }

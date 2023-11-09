@@ -17,7 +17,7 @@ const RevisionList = ({ currentRevision, categorizedRevisions }: Props) => {
         <ul className="unstyled">
             <li data-testid="current-revision">
                 <span className="text-lg text-semibold revisions-modal-list-title--current">{c('Info')
-                    .t`Current version`}</span>
+                    .t`Current version `}</span>
 
                 <ul className="unstyled my-4 ml-4">
                     <RevisionListItem formatType={currentRevisionFormat} revision={currentRevision} isCurrent />

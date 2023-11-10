@@ -1822,7 +1822,7 @@
         "Sembra che al tuo file manchi l'intestazione '${ options.fieldName }'."
       ],
       "We detected errors in multiple rows during import, please review your CSV file.": [
-        "Durante l'importazione abbiamo rilevato righe multiple, per favore verifica il tuo file CSV."
+        "Abbiamo rilevato errori in più righe. Controlla il tuo file CSV."
       ]
     },
     "Cycle": {
@@ -2112,6 +2112,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Il tuo account o la tua organizzazione ha una fattura scaduta. Paga tutte le fatture non pagate."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Devi attivare le chiavi della tua organizzazione. Senza l'attivazione non potrai creare o accedere agli utenti non privati."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Si devono privatizzare tutti gli account prima di generare nuove chiavi dell'organizzazione"
       ]
     },
     "Error importing users": {
@@ -5803,10 +5809,10 @@
     },
     "Restore administrator panel": {
       "Changing organization keys": [
-        "Cambiando le chiavi dell'organizzazione"
+        "Cambiamento delle chiavi dell'organizzazione in corso"
       ],
       "Changing organization password": [
-        "Cambiando la password dell'organizzazione"
+        "Cambiamento della password dell'organizzazione in corso"
       ],
       "Creating new users": [
         "Creazione nuovi utenti"
@@ -5816,6 +5822,9 @@
       ],
       "Reading emails of non-private users": [
         "Leggendo le email degli utenti non privati"
+      ],
+      "Creating or accessing non-private users": [
+        "Creazione o accesso a utenti non privati in corso"
       ]
     },
     "Role": {

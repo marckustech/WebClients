@@ -1942,6 +1942,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Ditt konto eller organisation har en förfallen faktura. Vänligen betala alla obetalda fakturor."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Du måste aktivera dina organisationsnycklar. Utan aktivering kommer du inte att kunna skapa eller komma åt icke-privata användare."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Du måste privatisera alla användare innan du genererar nya organisationsnycklar"
       ]
     },
     "Error importing users": {
@@ -5643,6 +5649,9 @@
       ],
       "Reading emails of non-private users": [
         "Läsa e-post för icke-privata underanvändare"
+      ],
+      "Creating or accessing non-private users": [
+        "Skapar eller åtkomst till icke-privata användare"
       ]
     },
     "Role": {

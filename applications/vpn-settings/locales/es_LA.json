@@ -2112,6 +2112,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Su cuenta u organización tiene una factura vencida. Pague todas las facturas pendientes."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Debe activar las claves de su organización. Sin la activación no podrá crear o acceder a usuarios no privados."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Debe privatizar todos los usuarios antes de generar claves nuevas de la organización"
       ]
     },
     "Error importing users": {
@@ -5813,6 +5819,9 @@
       ],
       "Reading emails of non-private users": [
         "Leyendo correos de usuarios no privados"
+      ],
+      "Creating or accessing non-private users": [
+        "Creando o accediendo a usuarios no privados"
       ]
     },
     "Role": {

@@ -2112,6 +2112,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Sua conta ou organização tem uma fatura vencida. Pague todas as faturas pendentes."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Você deve tornar privados todos os usuários antes de gerar novas chaves de organização"
       ]
     },
     "Error importing users": {

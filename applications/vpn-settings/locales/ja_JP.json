@@ -1915,6 +1915,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "あなたのアカウントあるいは組織には未払いの請求があります。すべての未払いの請求をお支払いください。"
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "新しい組織キーを生成する前に、すべてのユーザーをプライベート化する必要があります"
       ]
     },
     "Error importing users": {

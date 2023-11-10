@@ -1924,6 +1924,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "El vostre compte o organització té una factura vençuda. Pagueu totes les factures pendents."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Heu de privatitzar tots els usuaris abans de generar claus d'organització noves"
       ]
     },
     "Error importing users": {

@@ -2007,6 +2007,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Ваш аккаунт или организация имеет просроченный счет. Пожалуйста, оплатите все неоплаченные счета."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Вы должны приватизировать всех пользователей перед генерированием новых ключей организации"
       ]
     },
     "Error importing users": {

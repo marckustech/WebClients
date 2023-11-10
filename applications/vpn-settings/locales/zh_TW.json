@@ -1927,6 +1927,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "您的帳號或組織有待繳清的繳款單。請儘速繳納所有未付繳款單。"
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "在產生新的組織金鑰前，必須將所有使用者私有化"
       ]
     },
     "Error importing users": {

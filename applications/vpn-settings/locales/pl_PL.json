@@ -2128,6 +2128,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Twoje konto lub organizacja posiada obecnie zaległe faktury. Ureguluj wszystkie zobowiązania."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Wszyscy użytkownicy muszą posiadać konta prywatne, zanim będziesz mógł wygenerować nowe klucze organizacji"
       ]
     },
     "Error importing users": {

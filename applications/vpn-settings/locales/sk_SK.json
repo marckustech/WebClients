@@ -641,7 +641,7 @@
         "Žiadna E2EE pošta"
       ],
       "Orphan": [
-        "Sirota"
+        "Osirelý"
       ]
     },
     "Admin": {
@@ -1954,6 +1954,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Vo vašom účte alebo organizácii sú vedené faktúry po splatnosti. Zaplaťte prosím všetky neuhradené faktúry."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Skôr než vytvoríte nové kľúče pre organizáciu, musíte privatizovať všetkých užívateľov"
       ]
     },
     "Error importing users": {
@@ -1992,7 +1995,7 @@
     },
     "Error notification": {
       "Certificate ${ name } not found or already revoked": [
-        "Certifikát ${ name } sa nenašiel alebo bol zrušený"
+        "Certifikát ${ name } sa nenašiel, alebo bol zrušený"
       ]
     },
     "Error notification in the bug report modal when the user upload file": {
@@ -2137,7 +2140,7 @@
         "Dosiahli ste limit 10 prijatých pozvánok za 6 mesiacov."
       ],
       "You have reached the limit of 10 accepted invitations in 6 months. The button will become clickable when you can invite additional users.": [
-        "Dosiahli ste limit 10 prijatých pozvánok za 6 mesiacov. Na tlačítko budete môcť kliknúť, keď bude možné pozvať ďalších používateľov."
+        "Dosiahli ste limit 10 prijatých pozvánok za 6 mesiacov. Na tlačidlo budete môcť kliknúť, keď bude možné pozvať ďalších používateľov."
       ],
       "You have successfully joined the Family plan": [
         "Úspešne ste sa pripojili k rodinnému plánu."
@@ -3835,7 +3838,7 @@
         "V tento deň stratíte prístup k Plus serverom a funkciám služby Plus."
       ],
       "Please use another browser or download the file.": [
-        "Použite iný prehliadač alebo si súbor stiahnite."
+        "Použite iný prehliadač alebo si súbor stiahnite, prosím."
       ],
       "Preview for this file type is currently not supported on this browser.": [
         "Náhľad tohto typu súboru nie je v súčasnosti v tomto prehliadači podporovaný."
@@ -3844,7 +3847,7 @@
         "Budú z vašej organizácie odstránené."
       ],
       "View, download, and manage your invoices.": [
-        "Zobrazujte, sťahujte a spravujte svoje faktúry."
+        "Prehliadanie, sťahovanie a správa faktúr."
       ]
     },
     "Info for cash payment method": {
@@ -5665,10 +5668,10 @@
         "Vyberte počet IP, ktoré chcete zahrnúť do svojho plánu. Každá ďalšia IP stojí ${ price }."
       ],
       "Should you need more than ${ maxIPs } IP, ": [
-        "Potrebujete viac ako ${ maxIPs } IP, ",
-        "Potrebujete viac ako ${ maxIPs } IP, ",
-        "Potrebujete viac ako ${ maxIPs } IP, ",
-        "Potrebujete viac ako ${ maxIPs } IP, "
+        "Ak potrebujete viac ako ${ maxIPs } IP, ",
+        "Ak potrebujete viac ako ${ maxIPs } IP, ",
+        "Ak potrebujete viac ako ${ maxIPs } IP, ",
+        "Ak potrebujete viac ako ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -5709,10 +5712,10 @@
         "Overiť"
       ],
       "Verify now this recovery email address: ${ email.Value }": [
-        "Overte emailovú adresu na obnovenie teraz: ${ email.Value }"
+        "Overiť túto emailovú adresu určenú pre obnovenie: ${ email.Value }"
       ],
       "Verify recovery email?": [
-        "Overiť email na obnovenie?"
+        "Overiť email pre obnovenie?"
       ],
       "Verify with email": [
         "Overiť emailom"
@@ -5752,7 +5755,7 @@
         "Overiť číslo na obnovenie?"
       ],
       "Verify this recovery phone number now: ${ phone.Value }": [
-        "Overte toto telefónne číslo na obnovenie teraz: ${ phone.Value }"
+        "Overiť toto telefónne číslo určené pre obnovenie: ${ phone.Value }"
       ],
       "Verifying your phone number increases your account security and allows additional options for recovery.": [
         "Overenie vášho telefónneho čísla zvyšuje bezpečnosť vášho účtu a umožňuje ďalšie možnosti obnovenia."
@@ -7598,7 +7601,7 @@
         "Zakázaním tejto adresy už nebudete môcť odosielať ani prijímať emaily pomocou tejto adresy a všetky prepojené produkty ${ BRAND_NAME } budú tiež zakázané. Naozaj chcete zakázať túto adresu?"
       ],
       "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
-        "Berte prosím na vedomie, že výberom tejto platobnej metódy nemôže byť váš účet navýšený na iné predplatné okamžite. Predplatné vašeho účtu aktualizujeme v momente, až bude proces platobnej transakcie ukončený."
+        "Upozorňujeme, že pri výbere tohto spôsobu platby nie je možné váš účet okamžite navýšiť. Váš účet aktualizujeme po zúčtovaní platby."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
         "Hlásenia nie sú zabezpečené end-to-end šifrovaním, neposielajte žiadne citlivé informácie, prosím."
@@ -7610,7 +7613,7 @@
         "Bohužiaľ nie sme momentálne dostupní. Ak chcete popísať svoj problém, vyplňte nižšie uvedený formulár. Budeme sa ním zaoberať a kontaktovať vás, až budeme opäť online."
       ],
       "You must ${ activateLink } organization keys before adding an email address to a non-private member.": [
-        "Musíte ${ activateLink } kľúče organizácie predtým, ako pridáte e-mailovú adresu verejnému členovi."
+        "Musíte ${ activateLink } kľúče organizácie predtým, ako pridáte emailovú adresu verejnému členovi."
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
@@ -7671,7 +7674,7 @@
         "Prístup k obsahu z celého sveta"
       ],
       "Ad-blocker and malware protection": [
-        "Ad-blocker a ochrana pred škodlivým softvérom"
+        "Ad-blocker a ochrana pred malvérom"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
         "Všetky funkcie plateného ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
@@ -7700,7 +7703,7 @@
         "Zľavy sú tvorené na základe štandardných mesačných cien."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "Vaše predplatné sa automaticky obnoví za štandardnú zľavnenú sadzbu a trvanie na konci vášho fakturačného cyklu."
+        "Vaše predplatné sa automaticky obnoví so štandardnou zľavnenou sadzbou a trvaním na konci vášho fakturačného cyklu."
       ]
     },
     "bf2023: header": {
@@ -7722,7 +7725,7 @@
         "Je nám ľúto, ale táto ponuka nie je s vaším aktuálnym plánom dostupná."
       ],
       "Sorry, this offer is not available with your current plan. But you can get **${ discountPercentage } off ${ plan.Title }** when you subscribe for **${ months }**.": [
-        "Je nám ľúto, ale táto ponuka nie je s vaším aktuálnym plánom dostupná. Ale môžete získať **${ discountPercentage } z ${ plan.Title }** pri predplatení na **${ months }**."
+        "Je nám ľúto, ale táto ponuka nie je s vaším aktuálnym plánom dostupná. Môžete však získať **${ discountPercentage } z ${ plan.Title }** pri predplatení na **${ months }**."
       ]
     },
     "bf2023: Offers": {
@@ -7754,10 +7757,10 @@
     },
     "bf2023: Tooltip": {
       "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
-        "Získajte prístup k blokovanému obsahu a surfujte v súkromí. Obsahuje 3000+ serverov v 65+ krajinách, najvyššie rýchlosti VPN, prístup k celosvetovým streamovacím službám, blokovanie malvéru a reklám, rýchle sťahovanie cez BitTorrent a ďalšie."
+        "Získajte prístup k blokovanému obsahu a vyhľadávajte v súkromí. Obsahuje 3000+ serverov v 65+ krajinách, najvyššie rýchlosti VPN, prístup k celosvetovým streamovacím službám, blokovanie malvéru a reklám, rýchle sťahovanie cez BitTorrent a ďalšie."
       ],
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Získajte prístup k obsahu na streamovacích službách vrátane Netflix, Disney+ a Prime Video odkiaľkoľvek."
+        "Získajte prístup k obsahu na streamovacích službách vrátane Netflix, Disney+, Prime Video a ďalších odkiaľkoľvek."
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
         "Obíďte obmedzenia a cenzúru miestneho internetu pomocou našej globálnej siete serverov."
@@ -7775,7 +7778,7 @@
         "Bezpečné prihlásenie na všetkých zariadeniach. Zahŕňa neobmedzený počet aliasov, zdieľanie, integrované 2FA a ďalšie funkcie."
       ],
       "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Zabezpečte svoje emaily pomocou end-to-end šifrovania. Súčasťou je podpora vlastných emailových domén, 15 emailových adries, neobmedzený počet ide-my-email aliasov a ďalšie."
+        "Zabezpečte svoje emaily a harmonogram pomocou end-to-end šifrovania. Súčasťou je podpora vlastných emailových domén, 15 emailových adries, neobmedzený počet hide-my-email aliasov, zdieľanie kalendára a ďalšie."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
         "Zabezpečte svoje súbory pomocou šifrovaného cloudového úložiska. Zahŕňa históriu verzií, zdieľanie šifrovaných súborov a ďalšie."

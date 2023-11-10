@@ -1936,6 +1936,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "У вашому обліковому записі чи вашій організації є прострочений рахунок. Будь ласка, сплатіть усі рахунки."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Ви повинні зробити приватними всіх користувачів перед генеруванням нових ключів організації"
       ]
     },
     "Error importing users": {

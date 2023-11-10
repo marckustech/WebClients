@@ -1942,6 +1942,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Ο λογαριασμός ή ο οργανισμός σας έχει μια εκπρόθεσμη οικονομική εκκρεμότητα. Παρακαλούμε πληρώστε όλες τις εκκρεμότητες."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Πρέπει να ενεργοποιήσετε τα κλειδιά του οργανισμού σας. Χωρίς ενεργοποίηση δε θα μπορείτε να δημιουργήσετε ή να αποκτήσετε πρόσβαση σε μη ιδιωτικούς χρήστες."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Πρέπει να ιδιωτικοποιήσετε όλους τους λογαριασμούς χρηστών πριν δημιουργήσετε νέα κλειδιά οργανισμού"
       ]
     },
     "Error importing users": {
@@ -5643,6 +5649,9 @@
       ],
       "Reading emails of non-private users": [
         "Γίνεται ανάγνωση μηνυμάτων μη ιδιωτικών χρηστών"
+      ],
+      "Creating or accessing non-private users": [
+        "Δημιουργία ή πρόσβαση σε μη ιδιωτικούς χρήστες"
       ]
     },
     "Role": {
@@ -7511,10 +7520,10 @@
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "Η ειδικά μειωμένη τιμή ${ discountedPrice } ισχύει για τον πρώτο μήνα. Στη συνέχεια, θα ανανεώνεται αυτόματα σε ${ nextPrice } κάθε μήνα. Μπορείτε να ακυρώσετε ανά πάσα στιγμή."
       ],
-        "${ n } month": [
-            "${ n } μήνα",
-            "${ n } μήνες"
-        ]
+      "${ n } month": [
+        "${ n } μήνα",
+        "${ n } μήνες"
+      ]
     },
     "bf2023: Title": {
       "Offer unavailable": [

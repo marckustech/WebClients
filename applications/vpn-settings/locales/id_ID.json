@@ -544,6 +544,9 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "Action subscription": {
@@ -1933,6 +1936,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Anda memiliki tagihan yang telah jatuh tempo pada akun atau organisasi Anda. Mohon lunasi seluruh tagihan yang belum dibayar."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Anda harus membuat status semua pengguna menjadi privat sebelum Anda dapat membuat kunci organisasi baru"
       ]
     },
     "Error importing users": {
@@ -3722,6 +3728,9 @@
       ],
       "They will be removed from your organization": [
         "Nama-nama ini akan dikeluarkan dari organisasi Anda"
+      ],
+      "View, download, and manage your invoices.": [
+        "Tampilkan, unduh, dan kelola faktur Anda."
       ]
     },
     "Info for cash payment method": {
@@ -3737,6 +3746,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Masukkan nama dan alamat Anda (atau perusahaan Anda) ke tagihan."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Masukkan nama dan alamat untuk Anda sendiri atau organisasi Anda. Detail ini akan ditambahkan ke faktur personal dan organisasi."
       ]
     },
     "Info subscription": {
@@ -4201,6 +4213,9 @@
       ],
       "Your password (admin)": [
         "Kata sandi Anda (admin)"
+      ],
+      "Name and address": [
+        "Nama dan alamat"
       ]
     },
     "label": {
@@ -5441,6 +5456,15 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Tentukan jumlah alamat IP yang akan diikutsertakan pada paket Anda. Setiap alamat IP tambahan akan dikenakan biaya sebesar ${ price }. Apabila Anda memerlukan lebih dari ${ maxIPs } alamat IP, mohon ${ contactHref } tim Sales kami."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "silakan ${ contactHref } tim Pemasaran kami."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Pilih jumlah IP untuk disertakan dalam paket Anda. Setiap IP tambahan seharga ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IPs, ": [
+        "Jika Anda perlu lebih dari ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -7015,6 +7039,9 @@
       ],
       "Your subscriptions": [
         "Langganan Anda"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "Title for payment methods table": {

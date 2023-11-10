@@ -544,6 +544,9 @@
       ],
       "sign up for free": [
         "gratis inschrijven"
+      ],
+      "Edit invoice details": [
+        "Factuurgegevens wijzigen"
       ]
     },
     "Action subscription": {
@@ -2109,6 +2112,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Uw account of organisatie heeft een openstaande factuur. Betaal alle openstaande facturen."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "U moet alle gebruikers loskoppelen voordat u nieuwe organisatiesleutels genereert"
       ]
     },
     "Error importing users": {
@@ -3927,6 +3933,9 @@
       ],
       "Your account was successfully updated with this promotion": [
         "Uw account werd succesvol bijgewerkt met deze promotie."
+      ],
+      "View, download, and manage your invoices.": [
+        "Bekijk, download, en beheer uw facturen."
       ]
     },
     "Info for cash payment method": {
@@ -3942,6 +3951,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Voeg uw naam (of bedrijfsnaam) en adres toe aan uw facturen."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Voer een naam en adres in voor uzelf of uw organisatie. Deze gegevens worden toegevoegd aan zowel persoonlijke als zakelijke facturen."
       ]
     },
     "Info subscription": {
@@ -4409,6 +4421,9 @@
       ],
       "Your password (admin)": [
         "Uw wachtwoord (admin)"
+      ],
+      "Name and address": [
+        "Naam en adres"
       ]
     },
     "label": {
@@ -7286,6 +7301,9 @@
       ],
       "Sign in to your organization": [
         "Aanmelden bij uw organisatie"
+      ],
+      "Edit invoice details": [
+        "Factuurgegevens wijzigen"
       ]
     },
     "Title for payment methods table": {

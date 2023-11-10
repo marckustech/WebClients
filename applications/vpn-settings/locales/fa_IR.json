@@ -1628,6 +1628,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "حساب یا سازمان شما دارای یک صورت‌ حساب به تعویق افتاده است. لطفا تمام صورت‌ حساب‌های پرداخت نشده را پرداخت کنید."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "شما باید پیش از تولید کلیدهای سازمانی نو، همه کاربران را به حالت خصوصی دربیاورید"
       ]
     },
     "Error importing users": {

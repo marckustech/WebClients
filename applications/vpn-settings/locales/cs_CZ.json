@@ -1954,6 +1954,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "U Vašeho účtu nebo organizace jsou vedeny faktury po splatnosti. Zaplaťte prosím všechny neuhrazené faktury."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Musíte aktivovat klíče organizace. Bez aktivace nebudete moci vytvářet nesoukromé uživatele ani k nim přistupovat."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Než vytvoříte nové klíče pro organizaci, musíte privatizovat všechny uživatele"
       ]
     },
     "Error importing users": {
@@ -5787,6 +5793,9 @@
       ],
       "Reading emails of non-private users": [
         "Čtení e-mailových zpráv nesoukromých uživatelů"
+      ],
+      "Creating or accessing non-private users": [
+        "Vytváření nebo přístup k nesoukromých uživatelům"
       ]
     },
     "Role": {

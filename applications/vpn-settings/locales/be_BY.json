@@ -1954,6 +1954,12 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "Ваш уліковы запіс або арганізацыя мае пратэрмінаваны рахунак. Аплаціце ўсе неаплачаныя рахункі."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Вы павінны актываваць ключы вашай арганізацыі. Без іх актывацыі ў вас не будзе магчымасці ствараць або атрымліваць доступ да непрыватных карыстальнікаў."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "Вы павінны прыватызаваць усіх карыстальнікаў перад генерацыяй новых ключоў арганізацыі"
       ]
     },
     "Error importing users": {
@@ -5665,7 +5671,7 @@
         "Выберыце колькасць IP, якія будуць уключаны ў ваш тарыфны план. Кожны дадатковы IP будзе каштаваць ${ price }. У выпадку, калі вам спатрэбіцца больш чым ${ maxIPs } IP, звярніцеся ў нашу службу падтрымкі ${ contactHref }"
       ],
       "please ${ contactHref } our Sales team.": [
-        "${ contactHref } звяжыцеся з нашай камандай па продажах."
+        "звяжыцеся з нашай камандай па продажу ${ contactHref }."
       ],
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
         "Выберыце колькасць IP для ўключэння ў ваш тарыфны план. Кожны дадатковы IP каштуе ${ price }."
@@ -5787,6 +5793,9 @@
       ],
       "Reading emails of non-private users": [
         "Чытанне лістоў непрыватных карыстальнікаў"
+      ],
+      "Creating or accessing non-private users": [
+        "Стварэнне або доступ да непрыватных карыстальнікаў"
       ]
     },
     "Role": {

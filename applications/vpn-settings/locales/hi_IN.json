@@ -1731,6 +1731,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "आपके खाते या संगठन का इनवॉइस बकाया है. कृपया सभी बकाया चालानों का भुगतान करें।"
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "नई संगठन कुंजी बनाने से पहले आपको सभी उपयोगकर्ताओं का निजीकरण करना होगा"
       ]
     },
     "Error importing users": {

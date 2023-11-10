@@ -544,6 +544,9 @@
       ],
       "Keep my Plus subscription": [
         "나의 Plus 구독 유지"
+      ],
+      "Edit invoice details": [
+        "신용 청구서 세부 정보 편집"
       ]
     },
     "Action subscription": {
@@ -1933,6 +1936,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "사용자의 계정 및 조직에 연체된 요금이 존재합니다. 연체된 요금을 지불해 주세요."
+      ],
+      "You must privatize all users before generating new organization keys": [
+        "새 조직 키를 생성하기 전에 모든 계정을 민영화해야합니다"
       ]
     },
     "Error importing users": {
@@ -3532,7 +3538,7 @@
         "환영합니다"
       ],
       "We’ll send a reset code to the email address you provided for account recovery.": [
-        "계정 복구를 제공하기 위해 이메일 주소로 재설정 코드를 보내드렸습니다."
+        "계정 복구를 위해 제공하신 이메일 주소로 재설정 코드를 보내드립니다."
       ],
       "We’ll send a reset code to the phone number you provided for account recovery.": [
         "계정 복구를 위해 제공하신 휴대폰 번호로 재설정 코드를 보내드립니다."
@@ -3716,6 +3722,15 @@
       ],
       "They will be removed from your organization": [
         "사용자의 조직에서 삭제됩니다."
+      ],
+      "Please use another browser or download the file.": [
+        "파일을 다운로드 하거나 다른 브라우저를 사용하세요."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "이 브라우저에서는 이 파일 유형을 열 수 없습니다."
+      ],
+      "View, download, and manage your invoices.": [
+        "청구서를 보고 다운로드 하고 관리하십시오."
       ]
     },
     "Info for cash payment method": {
@@ -3731,6 +3746,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "송장에 이름 (또는 회사 이름)과 주소를 추가하십시오."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "내 자신 및 조직의 이름 및 주소를 입력하세요. 이 사항들은 개인 및 조직 청구서 양쪽에 추가됩니다."
       ]
     },
     "Info subscription": {
@@ -4195,6 +4213,9 @@
       ],
       "Your password (admin)": [
         "사용자의 비밀번호 (관리자)"
+      ],
+      "Name and address": [
+        "이름 및 주소"
       ]
     },
     "label": {
@@ -5435,6 +5456,15 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "요금제에 포함할 IP의 수를 선택해주세요. 각 추가 IP는 ${ price }의 비용이 발생합니다. ${ maxIPs } 개 이상의 IP가 필요한 경우, 별도로 ${ contactHref }해주세요."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "이러한 경우 지원 팀에 ${ contactHref }하십시오."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "플랜이 포함되는 IP 수를 선택하세요. 각 추가 IP 가격은 ${ price } 입니다."
+      ],
+      "Should you need more than ${ maxIPs } IPs, ": [
+        "${ maxIPs } IP 이상이여야 합니다, "
       ]
     },
     "plan customizer, users": {
@@ -6284,7 +6314,7 @@
         "키 업데이트됨"
       ],
       "Locale updated": [
-        "로컬 업데이트됨"
+        "언어를 변경했습니다."
       ],
       "Organization activated": [
         "조직 활성화됨"
@@ -7006,6 +7036,9 @@
       ],
       "Your subscriptions": [
         "구독"
+      ],
+      "Edit invoice details": [
+        "신용 청구서 세부 정보 편집"
       ]
     },
     "Title for payment methods table": {

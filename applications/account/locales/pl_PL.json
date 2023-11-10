@@ -3613,6 +3613,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Przekierowywanie zostanie zakończone."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Szyfrowanie end-to-end zostanie ponownie włączone dla tego nadawcy."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -8131,6 +8134,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Wyświetlaj, pobieraj i zarządzaj fakturami."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Ulepsz plan do wersji ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } lub ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }, aby uzyskać dostęp do ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {

@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "Plus aboneliğimi koru"
+      ],
+      "Edit invoice details": [
+        "Fatura ayrıntılarını düzenle"
       ]
     },
     "action": {
@@ -3584,6 +3587,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Hedef adrese iletme sona erecek."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Gönderici adresi için uçtan uca şifreleme yeniden açılacak."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7952,6 +7958,9 @@
       ],
       "Preview for this file type is currently not supported on this browser.": [
         "Bu tarayıcı şu anda bu dosya türünün ön izlenmesini desteklemiyor."
+      ],
+      "View, download, and manage your invoices.": [
+        "Faturalarınızı görüntüleyin, indirin ve yönetin."
       ]
     },
     "info": {
@@ -7991,6 +8000,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Faturalarınıza adınızı (veya şirket adınızı) ve adresinizi ekleyin."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Kendiniz veya kuruluşunuz için bir ad ve adres yazın. Bu bilgiler hem kişisel hem de kurumsal faturalara eklenecek."
       ]
     },
     "Info on errors": {
@@ -9269,6 +9281,9 @@
       ],
       "Your referral link": [
         "Öneri bağlantınız"
+      ],
+      "Name and address": [
+        "Ad ve adres"
       ]
     },
     "label": {
@@ -11647,6 +11662,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Tarifenize katılacak IP sayısını seçin. Bir ek IP adresinin maliyeti ${ price }. ${ maxIPs } IP adresinden fazlasına gerek duyuyorsanız, lütfen ${ contactHref } üzerinden satış ekibimiz ile görüşün."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "lütfen ${ contactHref } satış ekibimizle görüşün."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Tarifenizde bulunacak IP adresi sayısını seçin. Her ek IP adresinin maliyeti ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "${ maxIPs } IP adresinden fazlasına gerek duyuyorsanız, ",
+        "${ maxIPs } IP adresinden fazlasına gerek duyuyorsanız, "
       ]
     },
     "plan customizer, users": {
@@ -14143,6 +14168,9 @@
       ],
       "Forward and Auto-reply": [
         "İletme ve otomatik yanıtlama"
+      ],
+      "Edit invoice details": [
+        "Fatura ayrıntılarını düzenle"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

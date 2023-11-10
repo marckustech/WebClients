@@ -2976,7 +2976,7 @@
         "Sembra che al tuo file manchi l'intestazione '${ options.fieldName }'."
       ],
       "We detected errors in multiple rows during import, please review your CSV file.": [
-        "Durante l'importazione abbiamo rilevato righe multiple, per favore verifica il tuo file CSV."
+        "Abbiamo rilevato errori in più righe. Controlla il tuo file CSV."
       ]
     },
     "Cycle": {
@@ -3587,6 +3587,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "L'inoltro all'indirizzo di destinazione verrà terminato."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Verrà abilitata nuovamente la crittografia end-to-end per l'indirizzo mittente."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -4156,6 +4159,9 @@
       ],
       "Zero keys reactivated": [
         "Chiavi zero riattivate"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Devi attivare le chiavi della tua organizzazione. Senza l'attivazione non potrai creare o accedere agli utenti non privati."
       ]
     },
     "Error importing calendar": {
@@ -7207,7 +7213,7 @@
         "Memoria utilizzata da questo utente"
       ],
       "Store this password and file in a safe place. You’ll need them again to import your key.": [
-        "Conserva questa password e file in un luogo sicuro. Ti serviranno di nuovo per importare la tua chiave."
+        "Conserva questo file e password in un luogo sicuro. Ti serviranno di nuovo per importare la tua chiave."
       ],
       "Submit a deposit using the following address or scan the QR code. Your deposit will be reflected in your account after confirmation.": [
         "Invia un deposito utilizzando il seguente indirizzo, oppure scansionando il codice QR fornito. Il tuo deposito verrà correttamente accreditato una volta confermato."
@@ -7961,6 +7967,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Visualizza, scarica e gestisci le tue fatture."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Effettua l'upgrade al piano ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } o ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } per ottenere l'accesso a ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -8339,10 +8348,10 @@
         "Abilita la verifica della firma e la crittografia con questa chiave"
       ],
       "Export private key": [
-        "Esporta la chiave privata"
+        "Esporta chiave privata"
       ],
       "Export public key": [
-        "Esporta questa chiave pubblica"
+        "Esporta chiave pubblica"
       ],
       "Make primary": [
         "Rendi principale"
@@ -11374,7 +11383,7 @@
         "Tutti i servizi premium di ${ BRAND_NAME }."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }** — it’s just ${ relativePrice } extra per month.": [
-        "Ma puoi ottenere uno sconto di ${ discount } effettuando l'upgrade a **${ upsellPlanTitle }** - costa solo ${ relativePrice } in più al mese."
+        "Ma puoi ottenere uno sconto del ${ discount } effettuando l'upgrade a **${ upsellPlanTitle }** - costa solo ${ relativePrice } in più al mese."
       ],
       "But you can get ${ discount } off by upgrading to **${ upsellPlanTitle }**.": [
         "Ma puoi ottenere uno sconto del ${ discount } effettuando l'upgrade a **${ upsellPlanTitle }**."
@@ -11854,10 +11863,10 @@
     },
     "Restore administrator panel": {
       "Changing organization keys": [
-        "Cambiando le chiavi dell'organizzazione"
+        "Cambiamento delle chiavi dell'organizzazione in corso"
       ],
       "Changing organization password": [
-        "Cambiando la password dell'organizzazione"
+        "Cambiamento della password dell'organizzazione in corso"
       ],
       "Creating new users": [
         "Creazione nuovi utenti"
@@ -11867,6 +11876,9 @@
       ],
       "Reading emails of non-private users": [
         "Leggendo le email degli utenti non privati"
+      ],
+      "Creating or accessing non-private users": [
+        "Creazione o accesso a utenti non privati in corso"
       ]
     },
     "Role": {
@@ -13653,10 +13665,10 @@
         "Esporta calendario"
       ],
       "Export private key": [
-        "Esporta questa chiave privata"
+        "Esporta chiave privata"
       ],
       "Export public key": [
-        "Esporta questa chiave pubblica"
+        "Esporta chiave pubblica"
       ],
       "External PGP settings": [
         "Impostazioni PGP esterno"

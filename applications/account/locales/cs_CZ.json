@@ -3413,6 +3413,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Přeposílání na cílovou adresu bude ukončeno."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Pro adresu odesílatele bude znovu povoleno koncové šifrování."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -3992,6 +3995,9 @@
       ],
       "Zero keys reactivated": [
         "Žádné klíče nebyly znovu aktivovány"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Musíte aktivovat klíče organizace. Bez aktivace nebudete moci vytvářet nesoukromé uživatele ani k nim přistupovat."
       ]
     },
     "Error importing calendar": {
@@ -7931,6 +7937,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Prohlížení, stahování a správa faktur."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Navyšte na tarif ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, nebo ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } a získejte přístup k ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11928,6 +11937,9 @@
       ],
       "Reading emails of non-private users": [
         "Čtení e-mailových zpráv nesoukromých uživatelů"
+      ],
+      "Creating or accessing non-private users": [
+        "Vytváření nebo přístup k nesoukromých uživatelům"
       ]
     },
     "Role": {

@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "action": {
@@ -3377,6 +3380,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Penerusan ke alamat yang dituju akan berakhir."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Enkripsi ujung ke ujung akan diaktifkan ulang untuk alamat pengirim."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7676,6 +7682,12 @@
       ],
       "They will be removed from your organization": [
         "Nama-nama ini akan dikeluarkan dari organisasi Anda"
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Tingkatkan ke ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, atau ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } untuk memperoleh akses ke ${ PROTON_SENTINEL_NAME }."
+      ],
+      "View, download, and manage your invoices.": [
+        "Tampilkan, unduh, dan kelola faktur Anda."
       ]
     },
     "info": {
@@ -7715,6 +7727,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Masukkan nama dan alamat Anda (atau perusahaan Anda) ke tagihan."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Masukkan nama dan alamat untuk Anda sendiri atau organisasi Anda. Detail ini akan ditambahkan ke faktur personal dan organisasi."
       ]
     },
     "Info on errors": {
@@ -8989,6 +9004,9 @@
       ],
       "Your referral link": [
         "Tautan rujukan Anda"
+      ],
+      "Name and address": [
+        "Nama dan alamat"
       ]
     },
     "label": {
@@ -11326,6 +11344,15 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Tentukan jumlah alamat IP yang akan diikutsertakan pada paket Anda. Setiap alamat IP tambahan akan dikenakan biaya sebesar ${ price }. Apabila Anda memerlukan lebih dari ${ maxIPs } alamat IP, mohon ${ contactHref } tim Sales kami."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "silakan ${ contactHref } tim Pemasaran kami."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Pilih jumlah IP untuk disertakan dalam paket Anda. Setiap IP tambahan seharga ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IPs, ": [
+        "Jika Anda perlu lebih dari ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -13777,6 +13804,9 @@
       ],
       "Forward and Auto-reply": [
         "Teruskan dan Balas Otomatis"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

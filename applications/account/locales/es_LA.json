@@ -4159,6 +4159,9 @@
       ],
       "Zero keys reactivated": [
         "Ninguna clave reactivada"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Debe activar las claves de su organización. Sin la activación no podrá crear o acceder a usuarios no privados."
       ]
     },
     "Error importing calendar": {
@@ -7964,6 +7967,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Vea, descargue y gestione sus facturas."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Mejore al plan ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } o ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } para obtener ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11867,6 +11873,9 @@
       ],
       "Reading emails of non-private users": [
         "Leyendo correos de usuarios no privados"
+      ],
+      "Creating or accessing non-private users": [
+        "Creando o accediendo a usuarios no privados"
       ]
     },
     "Role": {

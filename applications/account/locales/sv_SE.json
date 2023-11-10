@@ -3963,6 +3963,9 @@
       ],
       "Zero keys reactivated": [
         "Noll nycklar återaktiverade"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Du måste aktivera dina organisationsnycklar. Utan aktivering kommer du inte att kunna skapa eller komma åt icke-privata användare."
       ]
     },
     "Error importing calendar": {
@@ -7768,6 +7771,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Visa, ladda ner och hantera dina fakturor."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Uppgradera till ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } eller ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }-paket för att få åtkomst till ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11671,6 +11677,9 @@
       ],
       "Reading emails of non-private users": [
         "Läsa e-post för icke-privata underanvändare"
+      ],
+      "Creating or accessing non-private users": [
+        "Skapar eller åtkomst till icke-privata användare"
       ]
     },
     "Role": {

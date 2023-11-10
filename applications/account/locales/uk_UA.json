@@ -3652,6 +3652,9 @@
       ],
       "Zero keys reactivated": [
         "Нуль ключів повторно активовано"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "У призначеного отримувача функція поширення календаря не підтримується"
       ]
     },
     "Error importing calendar": {

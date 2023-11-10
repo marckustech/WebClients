@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "Säilytä Plus-tilaukseni"
+      ],
+      "Edit invoice details": [
+        "Muokkaa laskun tietoja"
       ]
     },
     "action": {
@@ -3383,6 +3386,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Ohjaus kohdeosoitteeseen päättyy."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Päästä päähän -salaus otetaan uudelleen käyttöön lähettäjän osoitteessa."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7748,6 +7754,15 @@
       ],
       "They will be removed from your organization": [
         "Heidät poistetaan organisaatiostasi"
+      ],
+      "Please use another browser or download the file.": [
+        "Käytä toista selainta tai lataa tiedosto."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Tämän tiedostotyypin esikatselua ei tällä hetkellä tueta tässä selaimessa."
+      ],
+      "View, download, and manage your invoices.": [
+        "Tarkastele, lataa ja hallinnoi laskujasi."
       ]
     },
     "info": {
@@ -7787,6 +7802,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Lisää laskuihin nimesi (tai yrityksen nimi) ja osoitteesi."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Anna itsesi tai organisaatiosi nimi ja osoite. Nämä tiedot lisätään sekä henkilökohtaisiin että organisaation laskuihin."
       ]
     },
     "Info on errors": {
@@ -9065,6 +9083,9 @@
       ],
       "Your referral link": [
         "Suosituslinkkisi"
+      ],
+      "Name and address": [
+        "Nimi ja osoite"
       ]
     },
     "label": {
@@ -11443,6 +11464,13 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Valitse tilauksesi IP-osoitteiden määrä. Jokainen lisäosoite maksaa ${ price }. Jos tarvitset enemmän kuin ${ maxIPs } osoitetta, ${ contactHref } myyntiimme."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Valitse tilauksesi sisältyvien IP-osoitteiden määrä. Jokainen lisäosoite maksaa ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Jos tarvitset enemmän kuin ${ maxIPs } IP-osoitteen, ",
+        "Jos tarvitset enemmän kuin ${ maxIPs } IP-osoitetta, "
       ]
     },
     "plan customizer, users": {
@@ -13939,6 +13967,9 @@
       ],
       "Forward and Auto-reply": [
         "Välitä ja automaattivastaa"
+      ],
+      "Edit invoice details": [
+        "Muokkaa laskun tietoja"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

@@ -18,6 +18,9 @@
       ],
       "Require at least one condition": [
         "Add at least one condition"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "You must activate your organization keys. Without activation, you will not be able to create or access non-private users."
       ]
     },
     "familyOffer_2023:Action": {
@@ -149,6 +152,11 @@
       ],
       "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
         "Your recovery phrase is outdated. It can't recover new data if you reset your password again."
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Access to Secure Core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more."
       ]
     }
   }

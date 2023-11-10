@@ -897,7 +897,7 @@
         "პაროლით შესვლა"
       ],
       "Sign in with SSO": [
-        "SSO-ით შესვლა"
+        "Sign in with SSO"
       ],
       "Sign out": [
         "გასვლა"
@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "ჩემი Plus გამოწერის შენარჩუნება"
+      ],
+      "Edit invoice details": [
+        "ინვოისის დეტალების ჩასწორება"
       ]
     },
     "action": {
@@ -3388,6 +3391,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "სამიზნე მისამართზე გადაგზავნა დასრულდება."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "გამჭოლი დაშიფვრა გამგზავნის მისამართისთვის თავიდან ჩაირთვება."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7759,6 +7765,9 @@
       ],
       "Preview for this file type is currently not supported on this browser.": [
         "ამ ფაილის მინიატურის შექმნა, ამჟამად, ამ ბრაუზერში, მხარდაჭერილი არაა."
+      ],
+      "View, download, and manage your invoices.": [
+        "ნახეთ, გადმოწერეთ და მართეთ თქვენი ინვოისები."
       ]
     },
     "info": {
@@ -7798,6 +7807,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "თქვენი (ან კომპანიის) სახელისა და მისამართის ინვოისებზე დამატება."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "შეიყვანეთ თქვენი ან თქვენი ორგანიზაციის სახელი და მისამართი. ეს დეტალები, ორივე, პირად და ორგანიზაციის ინვოისებში ჩაემატება."
       ]
     },
     "Info on errors": {
@@ -9076,6 +9088,9 @@
       ],
       "Your referral link": [
         "თქვენი მოწვევის ბმული"
+      ],
+      "Name and address": [
+        "სახელი და მისამართი"
       ]
     },
     "label": {
@@ -11454,6 +11469,16 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "აირჩიეთ IP მისამართების რაოდენობა, რამდენსაც გნებავთ, თქვენი ტარიფი შეიცავდეს. თითოეული დამატებითი IP ${ price } ღირს. თუ გჭირდებათ ${ maxIPs } IP-ზე მეტი, ${ contactHref } ჩვენი გაყიდვების გუნდს."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } ჩვენს გაყიდვების გუნდს."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "თქვენს სატარიფო გეგმაში ჩასასმელი IP-ების რაოდენობა. თითოეული დამატებითი IP-ის ფასია ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "თუ დაგჭირდათ ${ maxIPs }-ზე მეტი IP, ",
+        "თუ დაგჭირდათ ${ maxIPs }-ზე მეტი IP, "
       ]
     },
     "plan customizer, users": {
@@ -13950,6 +13975,9 @@
       ],
       "Forward and Auto-reply": [
         "გადაგზავნა და ავტომოპასუხე"
+      ],
+      "Edit invoice details": [
+        "ინვოისის დეტალების ჩასწორება"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

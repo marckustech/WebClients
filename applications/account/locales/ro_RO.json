@@ -1081,6 +1081,9 @@
       ],
       "Keep my Plus subscription": [
         "Păstrez abonamentul Plus"
+      ],
+      "Edit invoice details": [
+        "Editare detalii factură"
       ]
     },
     "action": {
@@ -7601,6 +7604,15 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "Veți pierde accesul la serverele Plus și la funcții la această dată."
+      ],
+      "Please use another browser or download the file.": [
+        "Folosiți alt tip de navigator web sau descărcați fișierul."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Examinarea pentru acest tip de fișier nu este suportată de acest navigator web."
+      ],
+      "View, download, and manage your invoices.": [
+        "Examinați, descărcați și gestionați facturile personale."
       ]
     },
     "info": {
@@ -7640,6 +7652,9 @@
     "Info message for custom invoice modal": {
       "Add your name (or company name) and address to your invoices.": [
         "Adăugare nume (sau nume companie) și adresă pe facturi."
+      ],
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Introduceți un nume și o adresă pentru dvs. sau organizația proprie. Aceste detalii vor fi adăugate atât pe facturile personale, cât și pe cele ale organizației."
       ]
     },
     "Info on errors": {
@@ -8922,6 +8937,9 @@
       ],
       "Your referral link": [
         "Legătură de recomandare"
+      ],
+      "Name and address": [
+        "Nume și adresă"
       ]
     },
     "label": {
@@ -11341,6 +11359,17 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }. Should you need more than ${ maxIPs } IPs, please ${ contactHref } our Sales team.": [
         "Selectați numărul de IP-uri de inclus în plan. Fiecare IP suplimentar costă ${ price }. Dacă aveți nevoie de mai mult de ${ maxIPs } adrese IP, ${ contactHref } echipa noastră de vânzări."
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "vă rugăm să ${ contactHref } echipa noastră de vânzări."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Selectați numărul de adrese IP de inclus în plan. Fiecare Adresă IP adițională costă ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Dacă aveți nevoie de mai mult de ${ maxIPs } adresă IP, ",
+        "Dacă aveți nevoie de mai mult de ${ maxIPs } adrese IP, ",
+        "Dacă aveți nevoie de mai mult de ${ maxIPs } de adrese IP, "
       ]
     },
     "plan customizer, users": {
@@ -13882,6 +13911,9 @@
       ],
       "Forward and Auto-reply": [
         "Redirecționare și răspuns automat"
+      ],
+      "Edit invoice details": [
+        "Editare detalii factură"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14911,6 +14943,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Redirecționarea către adresa de destinație se va încheia."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Activarea în ambele părți va fi reactivată pentru adresa de expediere."
       ]
     },
     "email_forwarding_2023: Status": {

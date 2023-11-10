@@ -1339,7 +1339,7 @@
         "Bloquejador d'anuncis i publicitat i protecció contra programari maliciós"
       ],
       "Extended version history": [
-        "Historial de versions esteso"
+        "Historial de versions ampliat"
       ],
       "High speed streaming": [
         "Streaming d'alta velocitat"
@@ -1986,7 +1986,7 @@
         "Aniversari"
       ],
       "Display name": [
-        "Nom a mostrar"
+        "Nom que es mostrarà"
       ],
       "Email": [
         "Correu electrònic"
@@ -4099,7 +4099,7 @@
         "Error: ${ errorMessage }"
       ],
       "Invalid URL": [
-        "URL no vàlida"
+        "L'URL no és vàlid."
       ],
       "Oops, something went wrong": [
         "Vaja, alguna cosa ha anat malament"
@@ -6491,7 +6491,7 @@
         "No s'ha trobat cap resultat."
       ],
       "Not a valid URL": [
-        "No és una URL vàlida"
+        "No és un URL vàlid."
       ],
       "Not your device? Use a private browsing window to sign in and close it when done. ${ learnMore }": [
         "No és el vostre dispositiu? Utilitzeu una finestra de navegació privada per iniciar la sessió i tanqueu-la en acabar. ${ learnMore }"
@@ -7146,7 +7146,7 @@
         "El fitxer carregat no és una clau privada vàlida. Verifiqueu-la i torneu-ho a provar."
       ],
       "URL link": [
-        "Enllaç URL"
+        "Enllaç de l'URL"
       ],
       "Use the best server according to current load and position: ${ formattedBestServerName }": [
         "Utilitzeu el millor servidor segons la càrrega i la ubicació actuals: ${ formattedBestServerName }"
@@ -8122,7 +8122,7 @@
         "Confirma el correu electrònic"
       ],
       "Confirm link URLs": [
-        "Confirma els enllaços URL"
+        "Confirma els enllaços de l'URL"
       ],
       "Confirm login password": [
         "Confirma la contrasenya d'inici de sessió"
@@ -11759,7 +11759,7 @@
         "Emmagatzematge al núvol segur"
       ],
       "Secure streaming": [
-        "Retransmissió segura"
+        "Streaming segur"
       ],
       "Support online privacy": [
         "Doneu suport a la privacitat en línia"

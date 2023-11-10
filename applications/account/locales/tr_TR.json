@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Edit invoice details": [
+        "Fatura ayrıntılarını düzenle"
       ]
     },
     "action": {
@@ -3578,6 +3581,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Hedef adrese iletme sona erecek."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Gönderici adresi için uçtan uca şifreleme yeniden açılacak."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7916,6 +7922,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Aboneliğiniz Mozilla tarafından yönetiliyor. Lütfen Mozilla destek ekibi ile görüşün."
+      ],
+      "View, download, and manage your invoices.": [
+        "Faturalarınızı görüntüleyin, indirin ve yönetin."
       ]
     },
     "info": {
@@ -9225,6 +9234,9 @@
       ],
       "Your referral link": [
         "Öneri bağlantınız"
+      ],
+      "Name and address": [
+        "Ad ve adres"
       ]
     },
     "label": {
@@ -14030,6 +14042,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } uygulamasını denemeye davet edildiniz"
+      ],
+      "Edit invoice details": [
+        "Fatura ayrıntılarını düzenle"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14845,6 +14860,23 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Kendiniz veya kuruluşunuz için bir ad ve adres yazın. Bu bilgiler hem kişisel hem de kurumsal faturalara eklenecek."
+      ]
+    },
+    "plan customizer, ips": {
+      "please ${ contactHref } our Sales team.": [
+        "lütfen ${ contactHref } satış ekibimizle görüşün."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Tarifenizde bulunacak IP adresi sayısını seçin. Her ek IP adresinin maliyeti ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "${ maxIPs } IP adresinden fazlasına gerek duyuyorsanız, ",
+        "${ maxIPs } IP adresinden fazlasına gerek duyuyorsanız, "
       ]
     }
   }

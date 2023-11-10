@@ -3580,6 +3580,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Η προώθηση στη διεύθυνση προορισμού θα τερματιστεί."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Η κρυπτογράφηση από άκρο σε άκρο θα ενεργοποιηθεί ξανά για τη διεύθυνση αποστολέα."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -4146,6 +4149,9 @@
       ],
       "Zero keys reactivated": [
         "Τα Μηδενικά κλειδιά ενεργοποιήθηκαν ξανά"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Πρέπει να ενεργοποιήσετε τα κλειδιά του οργανισμού σας. Χωρίς ενεργοποίηση δε θα μπορείτε να δημιουργήσετε ή να αποκτήσετε πρόσβαση σε μη ιδιωτικούς χρήστες."
       ]
     },
     "Error importing calendar": {
@@ -7924,6 +7930,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Η συνδρομή σας διαχειρίζεται απο το Mozilla. Επικοινωνήστε με την υποστήριξη του Mozilla."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Αναβαθμίστε στο ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, ή ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } πλάνο για να αποκτήσετε πρόσβαση στο ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11813,6 +11822,9 @@
       ],
       "Reading emails of non-private users": [
         "Γίνεται ανάγνωση μηνυμάτων μη ιδιωτικών χρηστών"
+      ],
+      "Creating or accessing non-private users": [
+        "Δημιουργία ή πρόσβαση σε μη ιδιωτικούς χρήστες"
       ]
     },
     "Role": {

@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "action": {
@@ -3565,6 +3568,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Penerusan ke alamat yang dituju akan berakhir."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Enkripsi ujung ke ujung akan diaktifkan ulang untuk alamat pengirim."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7834,6 +7840,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Langganan Anda dikelola oleh Mozilla. Silakan hubungi layanan dukungan Mozilla."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Tingkatkan ke ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, atau ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } untuk memperoleh akses ke ${ PROTON_SENTINEL_NAME }."
+      ],
+      "View, download, and manage your invoices.": [
+        "Tampilkan, unduh, dan kelola faktur Anda."
       ]
     },
     "info": {
@@ -9139,6 +9151,9 @@
       ],
       "Your referral link": [
         "Tautan rujukan Anda"
+      ],
+      "Name and address": [
+        "Nama dan alamat"
       ]
     },
     "label": {
@@ -13858,6 +13873,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Anda telah diundang untuk mencoba ${ MAIL_APP_NAME }"
+      ],
+      "Edit invoice details": [
+        "Sunting detail faktur"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14634,6 +14652,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Masukkan nama dan alamat untuk Anda sendiri atau organisasi Anda. Detail ini akan ditambahkan ke faktur personal dan organisasi."
+      ]
+    },
+    "plan customizer, ips": {
+      "please ${ contactHref } our Sales team.": [
+        "silakan ${ contactHref } tim Pemasaran kami."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Pilih jumlah IP untuk disertakan dalam paket Anda. Setiap IP tambahan seharga ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IPs, ": [
+        "Jika Anda perlu lebih dari ${ maxIPs } IP, "
       ]
     }
   }

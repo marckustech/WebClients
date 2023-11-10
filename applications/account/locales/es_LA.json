@@ -3581,6 +3581,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "El reenvío a la dirección de destino finalizará."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Se reactivará el cifrado de extremo a extremo para la dirección del remitente."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -4147,6 +4150,9 @@
       ],
       "Zero keys reactivated": [
         "Ninguna clave reactivada"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Debe activar las claves de su organización. Sin la activación no podrá crear o acceder a usuarios no privados."
       ]
     },
     "Error importing calendar": {
@@ -7925,6 +7931,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Su suscripción es gestionada por Mozilla. Contacte con el soporte de Mozilla."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Mejore al plan ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } o ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } para obtener ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11814,6 +11823,9 @@
       ],
       "Reading emails of non-private users": [
         "Leyendo correos de usuarios no privados"
+      ],
+      "Creating or accessing non-private users": [
+        "Creando o accediendo a usuarios no privados"
       ]
     },
     "Role": {

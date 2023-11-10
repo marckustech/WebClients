@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Edit invoice details": [
+        "Factuurgegevens wijzigen"
       ]
     },
     "action": {
@@ -7896,6 +7899,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Uw abonnement wordt beheerd door Mozilla. Neem contact op met Mozilla support."
+      ],
+      "View, download, and manage your invoices.": [
+        "Bekijk, download, en beheer uw facturen."
       ]
     },
     "info": {
@@ -9205,6 +9211,9 @@
       ],
       "Your referral link": [
         "Uw doorverwijslink"
+      ],
+      "Name and address": [
+        "Naam en adres"
       ]
     },
     "label": {
@@ -14010,6 +14019,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "U bent uitgenodigd om ${ MAIL_APP_NAME } te proberen"
+      ],
+      "Edit invoice details": [
+        "Factuurgegevens wijzigen"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14825,6 +14837,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "End-to-end versleuteling zal opnieuw worden ingeschakeld voor het adres van de afzender."
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Voer een naam en adres in voor uzelf of uw organisatie. Deze gegevens worden toegevoegd aan zowel persoonlijke als zakelijke facturen."
       ]
     }
   }

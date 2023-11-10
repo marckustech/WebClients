@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Edit invoice details": [
+        "Рэдагаваць падрабязнасці рахунка"
       ]
     },
     "action": {
@@ -3604,6 +3607,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Перасылка на адрас прызначэння будзе скасавана."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "Скразное шыфраванне будзе паўторна ўключана для адраса адпраўніка."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -4180,6 +4186,9 @@
       ],
       "Zero keys reactivated": [
         "Нуль ключоў паўторна актывавана"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Вы павінны актываваць ключы вашай арганізацыі. Без іх актывацыі ў вас не будзе магчымасці ствараць або атрымліваць доступ да непрыватных карыстальнікаў."
       ]
     },
     "Error importing calendar": {
@@ -8089,6 +8098,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Палепшыце да тарыфнага плана ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } або ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }, каб атрымаць доступ да ${ PROTON_SENTINEL_NAME }."
+      ],
+      "View, download, and manage your invoices.": [
+        "Прагляд, спампоўванне і кіраванне вашымі рахункамі."
       ]
     },
     "info": {
@@ -9406,6 +9421,9 @@
       ],
       "Your referral link": [
         "Ваша рэферальная спасылка"
+      ],
+      "Name and address": [
+        "Імя і адрас"
       ]
     },
     "label": {
@@ -12050,6 +12068,9 @@
       ],
       "Reading emails of non-private users": [
         "Чытанне лістоў непрыватных карыстальнікаў"
+      ],
+      "Creating or accessing non-private users": [
+        "Стварэнне або доступ да непрыватных карыстальнікаў"
       ]
     },
     "Role": {
@@ -14383,6 +14404,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Вы былі запрошаны паспрабаваць ${ MAIL_APP_NAME }"
+      ],
+      "Edit invoice details": [
+        "Рэдагаваць падрабязнасці рахунка"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15276,6 +15300,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Увядзіце сваё імя і адрас або рэквізіты сваёй арганізацыі. Гэтыя падрабязнасці будуць дадзены да асабістых рахункаў, а таксама рахункаў арганізацыі."
+      ]
+    },
+    "plan customizer, ips": {
+      "please ${ contactHref } our Sales team.": [
+        "звяжыцеся з нашай камандай па продажу ${ contactHref }."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Выберыце колькасць IP для ўключэння ў ваш тарыфны план. Кожны дадатковы IP каштуе ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, ",
+        "Калі вам неабходна больш за ${ maxIPs } IP, "
       ]
     }
   }

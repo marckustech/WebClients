@@ -3581,6 +3581,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "Vidarebefordran till destinationsadressen kommer att avslutas."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "End-to-end-kryptering kommer att återaktiveras för avsändaradressen."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -4147,6 +4150,9 @@
       ],
       "Zero keys reactivated": [
         "Noll nycklar återaktiverade"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Du måste aktivera dina organisationsnycklar. Utan aktivering kommer du inte att kunna skapa eller komma åt icke-privata användare."
       ]
     },
     "Error importing calendar": {
@@ -7925,6 +7931,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Din prenumeration hanteras av Mozilla. Kontakta Mozillas support."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Uppgradera till ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } eller ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }-paket för att få åtkomst till ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -11814,6 +11823,9 @@
       ],
       "Reading emails of non-private users": [
         "Läsa e-post för icke-privata underanvändare"
+      ],
+      "Creating or accessing non-private users": [
+        "Skapar eller åtkomst till icke-privata användare"
       ]
     },
     "Role": {

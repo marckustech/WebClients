@@ -900,7 +900,7 @@
         "პაროლით შესვლა"
       ],
       "Sign in with SSO": [
-        "SSO-ით შესვლა"
+        "Sign in with SSO"
       ],
       "Sign out": [
         "გასვლა"
@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Edit invoice details": [
+        "ინვოისის დეტალების ჩასწორება"
       ]
     },
     "action": {
@@ -3578,6 +3581,9 @@
     "email_forwarding_2023: Prompt": {
       "Forwarding to the destination address will end.": [
         "სამიზნე მისამართზე გადაგზავნა დასრულდება."
+      ],
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "გამჭოლი დაშიფვრა გამგზავნის მისამართისთვის თავიდან ჩაირთვება."
       ]
     },
     "email_forwarding_2023: Status": {
@@ -7916,6 +7922,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "თქვენი გამოწერა Mozilla-ს მიერ იმართება. დაუკავშირდით მათ მხარდაჭერის გუნდს."
+      ],
+      "View, download, and manage your invoices.": [
+        "ნახეთ, გადმოწერეთ და მართეთ თქვენი ინვოისები."
       ]
     },
     "info": {
@@ -9225,6 +9234,9 @@
       ],
       "Your referral link": [
         "თქვენი მოწვევის ბმული"
+      ],
+      "Name and address": [
+        "სახელი და მისამართი"
       ]
     },
     "label": {
@@ -14030,6 +14042,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "თქვენ მიგიწვიეს, სცადოთ ${ MAIL_APP_NAME }"
+      ],
+      "Edit invoice details": [
+        "ინვოისის დეტალების ჩასწორება"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14845,6 +14860,23 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "შეიყვანეთ თქვენი ან თქვენი ორგანიზაციის სახელი და მისამართი. ეს დეტალები, ორივე, პირად და ორგანიზაციის ინვოისებში ჩაემატება."
+      ]
+    },
+    "plan customizer, ips": {
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } ჩვენს გაყიდვების გუნდს."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "თქვენს სატარიფო გეგმაში ჩასასმელი IP-ების რაოდენობა. თითოეული დამატებითი IP-ის ფასია ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "თუ დაგჭირდათ ${ maxIPs }-ზე მეტი IP, ",
+        "თუ დაგჭირდათ ${ maxIPs }-ზე მეტი IP, "
       ]
     }
   }

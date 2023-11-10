@@ -18,6 +18,9 @@
       ],
       "Require at least one condition": [
         "Add at least one condition"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "You must activate your organization keys. Without activation, you will not be able to create or access non-private users."
       ]
     },
     "familyOffer_2023:Action": {
@@ -72,6 +75,9 @@
       ],
       "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device-recovery information.": [
         "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device recovery information."
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "SMTP submission allows third-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for Business users with custom domains."
       ]
     },
     "Label": {
@@ -146,6 +152,11 @@
       ],
       "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
         "Your recovery phrase is outdated. It can't recover new data if you reset your password again."
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Access to Secure Core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more."
       ]
     }
   }

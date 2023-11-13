@@ -17,7 +17,7 @@
         "完整檢視（檢視所有事件的詳細資訊）"
       ],
       "Limited view": [
-        "有限檢視"
+        "限制檢視"
       ],
       "Limited view (see only free/busy)": [
         "有限制的檢視（僅檢視有空／忙碌）"
@@ -1075,6 +1075,12 @@
       ],
       "Keep my Plus subscription": [
         "保持進階版訂閱"
+      ],
+      "Or": [
+        "或"
+      ],
+      "sign up for free": [
+        "免費註冊"
       ]
     },
     "action": {
@@ -1508,7 +1514,7 @@
         "分享外部 ${ BRAND_NAME }"
       ],
       "Share with ${ BRAND_NAME } users": [
-        "與 ${ BRAND_NAME } 使用者共享"
+        "與 ${ BRAND_NAME } 使用者分享"
       ],
       "Share with anyone": [
         "與任何人分享"
@@ -1521,7 +1527,7 @@
     },
     "Calendar share permission label": {
       "Edit event details": [
-        "編輯事件詳細資訊"
+        "編輯行程詳細資訊"
       ],
       "See all event details": [
         "查看所有行程詳情"
@@ -1542,18 +1548,18 @@
     },
     "Calendar sharing permission change notification": {
       "Permissions changed for ${ email }": [
-        "權限已變更到 ${ email }"
+        "${ email }的權限已變更"
       ]
     },
     "Calendar status": {
       "Active": [
-        "使用中"
+        "啟用"
       ],
       "Default": [
         "預設"
       ],
       "Disabled": [
-        "已停用"
+        "停用"
       ],
       "Not synced": [
         "未同步"
@@ -3976,7 +3982,7 @@
         "由於密碼重設，您的部份行程無法解密和匯出。"
       ],
       "Error decrypting event": [
-        "解密行程時發生錯誤"
+        "解密時發生錯誤"
       ],
       "Learn how to restore encrypted events with old password": [
         "瞭解如何以舊密碼還原加密過的事件"
@@ -3994,10 +4000,10 @@
         "密碼重設 - 無法解密多個事件"
       ],
       "Please don't close the tab before the exporting process is finished.": [
-        "在匯出過程完成之前，請勿關閉此索引標籤。"
+        "在匯出過程完成之前，請勿關閉此分頁。"
       ],
       "Some of your events could not be exported.": [
-        "您的部份事件無法匯出。"
+        "您部份的事件無法匯出。"
       ],
       "The internet connection was interrupted, causing the export process to fail. Please try again.": [
         "網際網路連線中斷，因此匯出過程失敗。請再試一次。"
@@ -7334,6 +7340,21 @@
       ],
       "${ remainingAddresses.length } more addresses": [
         "${ remainingAddresses.length }更多的電子郵件地址"
+      ],
+      "Billed at ${ price }": [
+        "以 ${ price } 計費"
+      ],
+      "Please use another browser or download the file.": [
+        "請使用其他瀏覽器或下載檔案。"
+      ],
+      "Promotion expired": [
+        "促銷已過期"
+      ],
+      "Save ${ percentage }": [
+        "省下 ${ percentage }"
+      ],
+      "Tor": [
+        "洋蔥路由器"
       ]
     },
     "info": {
@@ -7735,7 +7756,7 @@
         "就是這樣"
       ],
       "Learn more": [
-        "瞭解詳情"
+        "了解更多"
       ]
     },
     "Label": {
@@ -8079,7 +8100,7 @@
         "不要再次詢問"
       ],
       "Don't keep versions": [
-        "不要保留版本紀錄"
+        "不要保留版本"
       ],
       "Duration": [
         "期間"
@@ -8647,6 +8668,9 @@
       ],
       "Your referral link": [
         "您的推薦連結"
+      ],
+      "Name and address": [
+        "名稱及地址"
       ]
     },
     "label": {
@@ -8675,7 +8699,7 @@
     },
     "Label for default event settings": {
       "Duration": [
-        "期間"
+        "為期"
       ]
     },
     "Label for domain modal": {
@@ -9696,6 +9720,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "保管共享(每人至多${ n })"
+      ],
+      "${ n } calendars per user": [
+        "${ n } 個行事曆分配給每位使用者"
       ]
     },
     "new_plans: feature info": {
@@ -10604,6 +10631,12 @@
       ],
       "Upgrade my plan": [
         "升級我的方案"
+      ],
+      "Keep this plan": [
+        "保持此方案"
+      ],
+      "Upgrade": [
+        "升級"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11092,7 +11125,7 @@
     },
     "Remove calendar section text": {
       "If you leave this calendar, you'll have to ask the owner to join again.": [
-        "如果您離開此行事曆，您必須詢問擁有者才能再次加入。"
+        "如果您退出此行事曆，爾後需再請擁有者協助才能加入。"
       ],
       "This calendar will be removed from your account.": [
         "此行事曆將會從您的帳號中移除。"
@@ -11539,7 +11572,7 @@
     },
     "Shared calendar label input placeholder": {
       "Add label": [
-        "加入標籤"
+        "新增標籤"
       ]
     },
     "Shared calendar; Info about calendar owner": {
@@ -12043,7 +12076,7 @@
         "行事曆資訊已更新"
       ],
       "Calendar removed": [
-        "行事曆已移除"
+        "已移除行事曆"
       ],
       "Calendar updated": [
         "行事曆已更新"
@@ -12327,7 +12360,7 @@
     },
     "Table header; invitations to share calendar": {
       "Shared with me": [
-        "與我分享"
+        "與我共用"
       ]
     },
     "TableHeader": {
@@ -13381,6 +13414,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "您已獲邀試用 ${ MAIL_APP_NAME }"
+      ],
+      "Forward and Auto-reply": [
+        "轉寄及自動回覆"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14149,6 +14185,15 @@
     "bf2023: Action": {
       "Cancel": [
         "取消"
+      ],
+      "Close": [
+        "關閉"
+      ],
+      "Get the deal": [
+        "取得優惠"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "移除 ${ PASS_APP_NAME }"
       ]
     },
     "bf2023: Deal details": {
@@ -14181,6 +14226,21 @@
       ],
       "Premium Password Manager": [
         "進階版密碼管理器"
+      ],
+      "${ MAIL_SHORT_APP_NAME } Plus and ${ CALENDAR_SHORT_APP_NAME }": [
+        "進階版 ${ MAIL_SHORT_APP_NAME } 與 ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "超過 3500 臺伺服器，遍布於 65 以上個國家"
+      ],
+      "Access content worldwide": [
+        "存取跨國內容"
+      ],
+      "Ad-blocker and malware protection": [
+        "廣告攔截與惡意程式保護"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "全部${ MAIL_SHORT_APP_NAME }付費及${ CALENDAR_APP_NAME }功能"
       ]
     },
     "email_forwarding_2023: Action": {
@@ -14229,6 +14289,104 @@
     "bf2023: renew": {
       "the first ${ n } months": [
         "${ n }月"
+      ]
+    },
+    "bf2023: Info": {
+      "6 users": [
+        "6 位使用者"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 3 custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "包含對 3 組自訂電子郵件網域、${ addresses } 組電子郵件位址、無限組 hide-my-email 別名、行事曆分享與更多功能的支援。"
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "動作"
+      ],
+      "From": [
+        "寄件者"
+      ],
+      "Status": [
+        "狀態"
+      ],
+      "To": [
+        "收件者"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "來自我"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "A confirmation email will be sent to ${ boldForwardeeEmail }": [
+        "確認電子郵件將寄至${ boldForwardeeEmail }"
+      ],
+      "Forwarding is active": [
+        "轉寄已啟用"
+      ],
+      "Please update your forwarding keys": [
+        "請更新您的轉寄金鑰"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "寄給我的"
+      ]
+    },
+    "email_forwarding_2023: Prompt": {
+      "End-to-end encryption will be re-enabled for the sender address.": [
+        "為寄件者地址的端對端加密將重新啟用。"
+      ]
+    },
+    "email_forwarding_2023: Status": {
+      "Active": [
+        "啟用"
+      ],
+      "Declined": [
+        "已拒絕"
+      ],
+      "Outdated": [
+        "已過時"
+      ],
+      "Paused": [
+        "已暫停"
+      ],
+      "Pending": [
+        "擱置中"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "Changes saved": [
+        "更改已保存"
+      ],
+      "Email sent to ${ forward.ForwardeeEmail }": [
+        "電子郵件寄件至 ${ forward.ForwardeeEmail }"
+      ],
+      "Email sent to ${ model.forwardeeEmail }.": [
+        "電子郵件寄件至 ${ model.forwardeeEmail }。"
+      ],
+      "Forwarding accepted": [
+        "轉寄已接受"
+      ],
+      "Forwarding declined": [
+        "轉寄已拒絕"
+      ],
+      "Forwarding deleted": [
+        "轉寄已刪除"
+      ],
+      "Forwarding paused": [
+        "轉寄已暫停"
+      ],
+      "Forwarding resumed": [
+        "轉寄已接續"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "警告"
       ]
     }
   }

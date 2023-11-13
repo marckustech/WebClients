@@ -7447,6 +7447,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша передплата керується Mozilla. Зв'яжіться зі службою підтримки Mozilla."
+      ],
+      "These credentials cannot be used to sign in to our official ${ VPN_APP_NAME } apps. ${ learnMore }": [
+        "Ці облікові дані не можуть бути використані для входу у наші офіційні програми ${ VPN_APP_NAME }. ${ learnMore }"
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {

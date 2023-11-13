@@ -1482,11 +1482,11 @@
         "Contournez les blocages et la censure locale sur internet grâce à notre réseau mondial de serveurs."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Comprend la prise en charge de 1 domaine de messagerie personnalisé, de 10 adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
+        "Comprend la prise en charge d'un domaine de messagerie personnalisé, de 10 adresses e-mail, de 10 alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
       ],
       "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
-        "Cela comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresse e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités.",
-        "Cela comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
+        "Comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresse e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités.",
+        "Comprend la prise en charge de 3 domaines de messagerie personnalisés, de ${ addresses } adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
       ],
       "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
         "Sécurisez vos connexions sur tous vos appareils. Comprend un nombre illimité d'alias, le partage, l'authentification à deux facteurs (A2F) intégrée et bien d'autres fonctionnalités."
@@ -1662,10 +1662,10 @@
     },
     "Calendar invite status label": {
       "Declined": [
-        "Refusée"
+        "Refusé"
       ],
       "Invite sent": [
-        "Invitation envoyée"
+        "L'invitation a été envoyée."
       ]
     },
     "Calendar link purpose update success message": {
@@ -1731,7 +1731,7 @@
     },
     "Calendar share permission label": {
       "Edit event details": [
-        "Modifier les détails de l'événement"
+        "Modifier les informations de l'événement"
       ],
       "See all event details": [
         "Voir toutes les informations sur l'événement"
@@ -4477,14 +4477,14 @@
     },
     "Export calendar": {
       "${ totalProcessed }/${ totalToProcess } event exported": [
-        "${ totalProcessed }/${ totalToProcess } événement exporté",
-        "${ totalProcessed }/${ totalToProcess } événements exportés"
+        "Nombre d'événements exportés : ${ totalProcessed } sur ${ totalToProcess }",
+        "Nombre d'événements exportés : ${ totalProcessed } sur ${ totalToProcess }"
       ],
       "Calendar successfully exported. You can now save the ICS file.": [
         "Le calendrier a été exporté. Vous pouvez maintenant enregistrer le fichier ICS."
       ],
       "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
-        "Déchiffrement des événements de votre calendrier : ${ totalProcessed }/${ totalToProcess }"
+        "Déchiffrement des événements de votre calendrier : ${ totalProcessed } sur ${ totalToProcess }."
       ],
       "Due to a password reset, none of your events could be decrypted and exported.": [
         "Aucun de vos événements n'a pu être déchiffré et exporté en raison d'une réinitialisation du mot de passe."
@@ -4496,10 +4496,10 @@
         "Une erreur s'est produite lors du déchiffrement de l'événement."
       ],
       "Learn how to restore encrypted events with old password": [
-        "Apprenez comment restaurer des événements chiffrés avec l'ancien mot de passe."
+        "Découvrez comment restaurer des événements chiffrés avec un ancien mot de passe."
       ],
       "Loading events": [
-        "Les événements sont en cours de chargement."
+        "Chargement des événements"
       ],
       "None of the events could be exported.": [
         "Aucun événement n'a pu être exporté."
@@ -4517,10 +4517,10 @@
         "Certains de vos événements n'ont pas pu être exportés."
       ],
       "The internet connection was interrupted, causing the export process to fail. Please try again.": [
-        "L'exportation n'a pas abouti en raison d'une interruption de la connexion internet. Nous vous invitons à réessayer."
+        "L'exportation n'a pas abouti suite à une interruption de la connexion internet. Nous vous invitons à réessayer."
       ],
       "You can save an ICS file of the events that were successfully exported.": [
-        "Vous pouvez enregistrer un fichier ICS des événements exportés."
+        "Vous pouvez enregistrer un fichier ICS des événements qui ont été exportés."
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -6087,7 +6087,7 @@
         "Toute personne ayant ce lien peut voir sur votre calendrier si vous êtes libre ou occupé. Les informations de l'événement (comme le titre, le lieu ou les participants) ne sont pas visibles."
       ],
       "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "Toute personne disposant de ce lien ne pourra pas synchroniser ou obtenir les futures mises à jour de votre calendrier. Pour redonner accès, vous devrez créer un nouveau lien."
+        "Les personnes qui disposent de ce lien ne pourront pas synchroniser votre calendrier ni recevoir ses futures mises à jour. Si vous voulez leur redonner l'accès, vous devrez créer un nouveau lien."
       ],
       "Are you sure you want to delete this address?": [
         "Voulez-vous vraiment supprimer cette adresse ?"
@@ -6099,7 +6099,7 @@
         "Voulez-vous vraiment supprimer ce calendrier ? Toutes les adresses avec lesquelles vous avez partagé ce calendrier ne pourront plus y accéder."
       ],
       "Are you sure you want to delete this calendar? All events in it will be deleted.": [
-        "Voulez-vous vraiment supprimer ce calendrier ? Tous les événements qu'il contient seront également supprimés."
+        "Voulez-vous vraiment supprimer ce calendrier ? Tous les événements qu'il contient seront supprimés."
       ],
       "Are you sure you want to delete this calendar? You can add the holidays calendar back later.": [
         "Voulez-vous vraiment supprimer ce calendrier de jours fériés ? Vous pourrez l'ajouter à nouveau plus tard."
@@ -6870,7 +6870,7 @@
         "Ne modifiez ces paramètres que si vous utilisez PGP avec des destinataires qui n'utilisent pas ${ BRAND_NAME }."
       ],
       "Only you can see the labels.": [
-        "Les labels ne sont visibles que par vous."
+        "Personne d'autre que vous ne peut voir les labels."
       ],
       "Open source": [
         "Open source"
@@ -7077,7 +7077,7 @@
         "Pensez à partager les informations de connexion avec l'utilisateur concerné."
       ],
       "Remove one of your calendars to join this one": [
-        "Retirez un de vos calendriers pour rejoindre celui-ci."
+        "Supprimez un de vos calendriers pour rejoindre celui-ci."
       ],
       "Report link expired": [
         "Le lien a expiré"
@@ -7264,7 +7264,7 @@
         "Le message ${ boldDataLocked } n'apparaîtra plus, mais vous pouvez toujours déverrouiller vos données sous ${ encryptionAndKeysLink }."
       ],
       "The calendar will be removed from your account.": [
-        "Le calendrier sera retiré de votre compte."
+        "Le calendrier sera supprimé de votre compte."
       ],
       "The email verification link has expired. Please sign in to resend a verification link.": [
         "Le lien de vérification par e-mail a expiré. Nous vous invitons à vous connecter pour renvoyer un lien de vérification."
@@ -7534,7 +7534,7 @@
         "Changez d'abonnement pour ajouter une adresse plus courte @pm.me à votre compte, plus facile à partager (« pm » pour « ${ MAIL_APP_NAME } me » ou « Private Message me »)."
       ],
       "Upgrade to unlock": [
-        "Changez d'abonnement pour débloquer de cette fonctionnalité."
+        "Changez d'abonnement pour débloquer cette fonctionnalité."
       ],
       "Upload picture": [
         "Importer une image"
@@ -7970,6 +7970,9 @@
       ],
       "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
         "Passez à ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } ou ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } pour bénéficier de ${ PROTON_SENTINEL_NAME }."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -9658,14 +9661,14 @@
     },
     "Maximum calendar links reached warning": {
       "You can create up to ${ MAX_LINKS_PER_CALENDAR } link per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "Vous pouvez créer ${ MAX_LINKS_PER_CALENDAR } lien par calendrier. Pour créer un nouveau lien vers ce calendrier, supprimez-en un de la liste ci-dessous.",
-        "Vous pouvez créer jusqu'à ${ MAX_LINKS_PER_CALENDAR } liens par calendrier. Pour créer un nouveau lien vers ce calendrier, supprimez-en un de la liste ci-dessous."
+        "Vous pouvez créer ${ MAX_LINKS_PER_CALENDAR } lien par calendrier. Pour créer un nouveau lien vers ce calendrier, supprimez-en un parmi la liste ci-dessous.",
+        "Vous pouvez créer jusqu'à ${ MAX_LINKS_PER_CALENDAR } liens par calendrier. Pour créer un nouveau lien vers ce calendrier, supprimez-en un parmi la liste ci-dessous."
       ]
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member.": [
-        "Vous avez atteint le maximum d'${ MAX_CALENDAR_MEMBERS } membre.",
-        "Vous avez atteint le maximum de ${ MAX_CALENDAR_MEMBERS } membres."
+        "Vous avez atteint le nombre maximum de ${ MAX_CALENDAR_MEMBERS } membre.",
+        "Vous avez atteint le nombre maximum de ${ MAX_CALENDAR_MEMBERS } membres."
       ]
     },
     "Member action": {
@@ -11841,7 +11844,7 @@
         "Si vous quittez ce calendrier, vous devrez à nouveau demander au propriétaire de le rejoindre."
       ],
       "This calendar will be removed from your account.": [
-        "Ce calendrier sera retiré de votre compte."
+        "Ce calendrier sera supprimé de votre compte."
       ]
     },
     "Remove calendar section title": {
@@ -11852,7 +11855,7 @@
         "Quitter le calendrier ?"
       ],
       "Remove calendar": [
-        "Retirer le calendrier"
+        "Supprimer le calendrier"
       ],
       "Unsubscribe?": [
         "Se désabonner ?"
@@ -13060,10 +13063,10 @@
         "Créez des identifiants de connexion sécurisés sur tous vos appareils. Profitez d'un nombre illimité d'alias, de 20 coffres-forts, de l'authentification à deux facteurs (2FA) intégrée, du remplissage automatique des cartes de paiement et de bien d'autres fonctionnalités."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
-        "Cela comprend 2 950 serveurs répartis dans plus de 65 pays, la possibilité de connecter jusqu'à 10 appareils, l'accès aux services de streaming du monde entier, un bloqueur de logiciels malveillants et de publicités et bien d'autres fonctionnalités."
+        "Comprend 2 950 serveurs répartis dans plus de 65 pays, la possibilité de connecter jusqu'à 10 appareils, l'accès aux services de streaming du monde entier, un bloqueur de logiciels malveillants et de publicités et bien d'autres fonctionnalités."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
-        "Cela comprend la prise en charge de 1 domaines de messagerie personnalisés, de 10 adresses e-mail, d'un nombre illimité d'alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
+        "Comprend la prise en charge d'un domaine de messagerie personnalisé, de 10 adresses e-mail, de 10 alias « hide-my-email », du partage de calendriers et bien d'autres fonctionnalités."
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
         "Sécurisez vos fichiers grâce au stockage cloud chiffré. Profitez de l'historique des versions, du partage chiffré des fichiers et de bien d'autres fonctionnalités."
@@ -14513,7 +14516,7 @@
       ],
       "Upgrade to ${ planName } to connect up to ${ n } device to the VPN at once": [
         "Passez à ${ planName } pour connecter ${ n } appareil au VPN.",
-        "Passez à ${ planName } pour connecter en même temps jusqu'à ${ n } appareils au VPN."
+        "Passez à ${ planName } pour connecter jusqu'à ${ n } appareils en même temps au VPN."
       ]
     },
     "Upgrade notice": {

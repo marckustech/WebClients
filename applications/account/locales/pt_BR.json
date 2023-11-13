@@ -1706,7 +1706,7 @@
     },
     "Calendar settings private share description": {
       "Share your calendar with other ${ BRAND_NAME } users. Enable collaboration by allowing them to add and edit events in your calendar. You can modify the user permissions anytime.": [
-        "Compartilhe seu calendário com outros usuários do ${ BRAND_NAME }. Ative a colaboração, permitindo que eles adicionem e editem eventos em seu calendário. Você pode modificar as permissões dos usuários a qualquer momento."
+        "Compartilhe seu calendário com outros usuários da ${ BRAND_NAME }. Ative a colaboração, permitindo que eles adicionem e editem eventos em seu calendário. Você pode modificar as permissões dos usuários a qualquer momento."
       ]
     },
     "Calendar settings section title": {
@@ -1714,10 +1714,10 @@
         "Compartilhar calendário"
       ],
       "Share outside ${ BRAND_NAME }": [
-        "Compartilhe fora de ${ BRAND_NAME }"
+        "Compartilhe fora da ${ BRAND_NAME }"
       ],
       "Share with ${ BRAND_NAME } users": [
-        "Compartilhar com usuários do ${ BRAND_NAME }"
+        "Compartilhar com usuários da ${ BRAND_NAME }"
       ],
       "Share with anyone": [
         "Compartilhar com o qualquer pessoa"
@@ -6406,7 +6406,7 @@
         "Digite o seu número de telefone de recuperação e nós enviaremos o seu nome de usuário ou endereço de e-mail."
       ],
       "Event invitations and RSVPs will be sent in this language.": [
-        "Os convites para eventos e as confirmações de presença serão enviados nesta língua."
+        "Os convites para eventos e as confirmações de presença serão enviados nesse idioma."
       ],
       "Expired": [
         "Expirado"

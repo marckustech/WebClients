@@ -363,7 +363,7 @@
         "CSV მაგალითის გადმოწერა"
       ],
       "Download ICS": [
-        "ყველას გადმოწერა"
+        "ICS-ის გადმოწერა"
       ],
       "Download our CSV template": [
         "გადმოწერეთ ჩვენი CSV ნიმუში"
@@ -3963,6 +3963,9 @@
       ],
       "Intended recipient does not support calendar sharing": [
         "სამიზნე მიმღებს კალენდრის გაზიარების მხარდაჭერა არ გააჩნია"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "თქვენი ორგანიზაციის გასაღებების გააქტიურება აუცილებელია. მათი გააქტიურების გარეშე არაკონფიდენციალური მომხმარებლების შექმნა ან მათზე წვდომა შეუძლებელი იქნება."
       ]
     },
     "Error importing calendar": {
@@ -6668,7 +6671,7 @@
         "პარამეტრებები, მხოლოდ, მაშინ შეცვალეთ, თუ თქვენ იყენებთ PGP-ს არა${ BRAND_NAME }-ის მიმღებებით."
       ],
       "Only you can see the labels.": [
-        "ჭდეების დანახვა მხოლოდ თქვენ შეგიძლიათ."
+        "ჭდეების დანახვა, მხოლოდ, თქვენ შეგიძლიათ."
       ],
       "Open source": [
         "ღია კოდი"
@@ -7404,7 +7407,7 @@
         "თქვენთვის ძლიერი პაროლი შევქმენით"
       ],
       "We just sent you a new link.": [
-        "ახლახანს ახალი ბმული გამოგიგზავნეთ."
+        "ახლახან ახალი ბმული გამოგიგზავნეთ."
       ],
       "We need to authenticate your payment method with your bank.": [
         "ჩვენ თქვენი გადახდის მეთოდის ავთენტიკაცია გვჭირდება თქვენს ბანკში."
@@ -7768,6 +7771,12 @@
       ],
       "View, download, and manage your invoices.": [
         "ნახეთ, გადმოწერეთ და მართეთ თქვენი ინვოისები."
+      ],
+      "Tor": [
+        "Tor"
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "ასწიეთ ტარიფი ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } ან ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } გეგმამდე, რათა ${ PROTON_SENTINEL_NAME }-სთან წვდომა მიიღოთ."
       ]
     },
     "info": {
@@ -8172,7 +8181,7 @@
         "აი, ასე"
       ],
       "Learn more": [
-        "მეტის ნახვა"
+        "გაიგეთ მეტი"
       ]
     },
     "Label": {
@@ -8913,7 +8922,7 @@
         "გაგზავნა"
       ],
       "Show secondary time zone": [
-        "დროის მეორადი სარტყლის ჩვენება"
+        "დამხმარე დროის სარტყლის ჩვენება"
       ],
       "Show sender images": [
         "გამომგზავნის გამოსახულებების ჩვენება"
@@ -9114,7 +9123,7 @@
         "მთელი დღის მოვლენის შეტყობინებები"
       ],
       "Notifications": [
-        "შეტყობინებები"
+        "გაფრთხილებები"
       ]
     },
     "Label for default event settings": {
@@ -11079,7 +11088,7 @@
         "გაგრძელება"
       ],
       "Continue to ${ appName } without upgrading": [
-        "${ appName }-ზე გაგრძლებეა სატარიფო გეგმის აწევის გარეშე"
+        "${ appName }-ზე გაგრძლება სატარიფო გეგმის აწევის გარეშე"
       ],
       "Continue to ${ free }": [
         "${ free }-ზე გაგრძელება"
@@ -11500,10 +11509,10 @@
     },
     "Primary timezone": {
       "Primary time zone": [
-        "დროის ძირითადი სარტყელი"
+        "ძირითადი დროის სარტყელი"
       ],
       "Secondary time zone": [
-        "დროის მეორადი სარტყელი"
+        "მეორადი დროის სარტყელი"
       ]
     },
     "Private Member": {
@@ -11671,6 +11680,9 @@
       ],
       "Reading emails of non-private users": [
         "არაკონფიდენციალური მომხმარებლების ელფოსტის კითხვა"
+      ],
+      "Creating or accessing non-private users": [
+        "არაკონფიდენციალური მომხმარებლების შექმნა ან მათთან წვდომა"
       ]
     },
     "Role": {
@@ -14304,7 +14316,7 @@
     },
     "Upgrade": {
       "Upgrade to ${ passPlusPlanName } to get unlimited hide-my-email aliases": [
-        "განახლდით ${ passPlusPlanName }-ზე Hide My Email-ის მეტსახელების ულიმიტო რაოდენობის მისაღებად"
+        "განახლდით ${ passPlusPlanName }-ზე Hide-my-email-ის მეტსახელების ულიმიტო რაოდენობის მისაღებად"
       ],
       "Upgrade to ${ planName } to connect up to ${ n } device to the VPN at once": [
         "${ n } მოწყობილობის VPN-ზე მისაერთებლად თქვენი სატარიფო გეგმა ${ planName }-მდე გააუმჯობესეთ",
@@ -14910,7 +14922,7 @@
         "ექსკლუზიური თვისებები და ადრეული წვდომა"
       ],
       "Help us fight for online privacy": [
-        "დაგვეხმარეთ, ვებრძოლოთ ონლაინ-ცენზურას"
+        "დაგვეხმარეთ, ვებრძოლოთ ონლაინცენზურას"
       ],
       "Premium versions of all ${ BRAND_NAME } services": [
         "ყველა ${ BRAND_NAME }-ის სერვისის ფასიანი ვერსია"

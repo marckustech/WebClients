@@ -4303,7 +4303,7 @@
         "Lär dig hur du återställer krypterade händelser med gammalt lösenord"
       ],
       "Loading events": [
-        "Laddar händelser"
+        "Laddar in händelser"
       ],
       "None of the events could be exported.": [
         "Ingen av händelserna kunde exporteras."
@@ -4312,7 +4312,7 @@
         "Lösenordsåterställning - händelse kan inte dekrypteras"
       ],
       "Password reset - multiple events cannot be decrypted": [
-        "Lösenordsåterställning – flera händelser kan inte dekrypteras"
+        "Lösenordsåterställning - flera händelser kan inte dekrypteras"
       ],
       "Please don't close the tab before the exporting process is finished.": [
         "Stäng inte fliken innan exportprocessen är klar."
@@ -7774,6 +7774,12 @@
       ],
       "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
         "Uppgradera till ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } eller ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }-paket för att få åtkomst till ${ PROTON_SENTINEL_NAME }."
+      ],
+      "P2P": [
+        "P2P"
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -9097,6 +9103,9 @@
       ],
       "Name and address": [
         "Namn och adress"
+      ],
+      "VPN Accelerator": [
+        "VPN Accelerator"
       ]
     },
     "label": {
@@ -9468,7 +9477,7 @@
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member.": [
-        "Du har nått det maximala antalet för ${ MAX_CALENDAR_MEMBERS } medlem.",
+        "Du har nått det maximala antalet av ${ MAX_CALENDAR_MEMBERS } medlem.",
         "Du har nått det maximala antalet av ${ MAX_CALENDAR_MEMBERS } medlemmar."
       ]
     },
@@ -10986,6 +10995,27 @@
       ],
       "The whole organization": [
         "Hela organisationen"
+      ],
+      "Android": [
+        "Android"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "TCP": [
+        "TCP"
+      ],
+      "UDP": [
+        "UDP"
+      ],
+      "Windows": [
+        "Windows"
       ]
     },
     "Option delay send seconds": {
@@ -14998,6 +15028,29 @@
       ],
       "Participate in surveys to improve ${ BRAND_NAME } services": [
         "Delta i undersökningar för att förbättra ${ BRAND_NAME }-tjänsterna"
+      ]
+    },
+    "VPNClient": {
+      "Android": [
+        "Android"
+      ],
+      "Android TV": [
+        "Android TV"
+      ],
+      "Chromebook": [
+        "Chromebook"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "Windows": [
+        "Windows"
       ]
     }
   }

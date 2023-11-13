@@ -3081,7 +3081,7 @@
         "Wszystkie wydarzenia w tym kalendarzu zostaną usunięte."
       ],
       "You will no longer have access to this calendar.": [
-        "Nie posiadasz już dostępu do tego kalendarza."
+        "Nie będziesz posiadać dostępu do tego kalendarza."
       ]
     },
     "Delinquent modal title": {
@@ -4195,6 +4195,9 @@
       ],
       "Zero keys reactivated": [
         "Brak reaktywowanych kluczy"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Musisz aktywować klucze organizacji. Nie możesz utworzyć lub uzyskać dostępu do służbowych użytkowników bez aktywacji kluczy."
       ]
     },
     "Error importing calendar": {
@@ -6066,7 +6069,7 @@
         "Użytkownikiem jest konto skojarzone z nazwą użytkownika, skrzynką pocztową lub osobą"
       ],
       "Access your passwords and protect your online identities seamlessly across your devices. Download and install the relevant ${ PASS_APP_NAME } apps and extensions.": [
-        "Uzyskaj dostęp do swoich haseł i chroń swoje tożsamości internetowe na wszystkich urządzeniach. Pobierz i zainstaluj odpowiednie aplikacje i rozszerzenia ${ PASS_APP_NAME }."
+        "Uzyskaj dostęp do swoich haseł i chroń swoje tożsamości internetowe na wszystkich urządzeniach. Pobierz i zainstaluj odpowiednie aplikacje oraz rozszerzenia ${ PASS_APP_NAME }."
       ],
       "Account access restricted due to unpaid invoices. Please contact your administrator.": [
         "Dostęp do konta został ograniczony z powodu niezapłaconych faktur. Skontaktuj się ze swoim administratorem."
@@ -8137,6 +8140,9 @@
       ],
       "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
         "Ulepsz plan do wersji ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } lub ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }, aby uzyskać dostęp do ${ PROTON_SENTINEL_NAME }."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -11658,7 +11664,7 @@
         "Poznaj ${ PASS_APP_NAME },${ br }czyli nasz nowy szyfrowany menedżer haseł"
       ],
       "Download and install the relevant apps and extensions to start using ${ PASS_APP_NAME }": [
-        "Aby korzystać z ${ PASS_APP_NAME }, pobierz i zainstaluj odpowiednie aplikacje i rozszerzenia"
+        "Aby korzystać z ${ PASS_APP_NAME }, pobierz i zainstaluj odpowiednie aplikacje oraz rozszerzenia"
       ],
       "Download the ${ PASS_APP_NAME } app from Google Play and install it to start using ${ PASS_APP_NAME2 } on your phone.": [
         "Pobierz aplikację ${ PASS_APP_NAME } ze sklepu Google Play i zainstaluj ją, aby korzystać z ${ PASS_APP_NAME2 } na telefonie."
@@ -12094,7 +12100,7 @@
         "Anulując subskrypcję, stracisz dostęp do tego kalendarza. Wszystkie wydarzenia z tego kalendarza zostaną usunięte z konta Proton, ale pozostaną dostępne za pomocą publicznego linku."
       ],
       "You will no longer have access to this calendar.": [
-        "Nie posiadasz już dostępu do tego kalendarza."
+        "Nie będziesz posiadać dostępu do tego kalendarza."
       ]
     },
     "Remove calendar section text": {
@@ -12134,6 +12140,9 @@
       ],
       "Reading emails of non-private users": [
         "Czytanie wiadomości służbowych użytkowników"
+      ],
+      "Creating or accessing non-private users": [
+        "Tworzenie lub uzyskiwanie dostępu do służbowych użytkowników"
       ]
     },
     "Role": {

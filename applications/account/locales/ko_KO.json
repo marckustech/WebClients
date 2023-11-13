@@ -705,7 +705,7 @@
         "라벨 삭제"
       ],
       "Remove this member": [
-        "이 일원을 제거"
+        "이 회원 제거"
       ],
       "Remove this notification": [
         "이 알림 삭제"
@@ -1520,7 +1520,7 @@
         "${ BRAND_NAME } 사용자와 공유"
       ],
       "Share with anyone": [
-        "아무나 공유"
+        "모두와 공유"
       ]
     },
     "Calendar settings sidebar": {
@@ -1556,7 +1556,7 @@
     },
     "Calendar status": {
       "Active": [
-        "활성화"
+        "활성"
       ],
       "Default": [
         "기본"
@@ -3845,6 +3845,9 @@
       ],
       "Intended recipient does not support calendar sharing": [
         "지정한 수신자가 캘린더 공유를 지원하지 않습니다."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "조직 키를 활성화 해야만 합니다. 활성화 없이는 비공개가 아닌 사용자를 만들거나 접근할 수 없습니다."
       ]
     },
     "Error importing calendar": {
@@ -4102,10 +4105,10 @@
     },
     "Error when exporting event from calendar": {
       "Event @ ${ timeString }": [
-        "이벤트 @ ${ timeString }"
+        "@ ${ timeString } 이벤트"
       ],
       "Event from ${ timeString }, ${ rruleString }": [
-        "${ timeString }, ${ rruleString } 의 이벤트"
+        "${ timeString }, ${ rruleString }의 이벤트"
       ]
     },
     "Event invitation error": {
@@ -4917,7 +4920,7 @@
     },
     "Header": {
       "Access": [
-        "접속"
+        "접근"
       ],
       "Action": [
         "동작"
@@ -5434,7 +5437,7 @@
         "${ BRAND_NAME }의 암호화 기술은 그 누구도 당신의 비밀번호에 접근할 수 없음을 뜻합니다 - 심지어 우리도요."
       ],
       "${ calendarName } will be set as default calendar.": [
-        "${ calendarName } 이(가) 기본 일정으로 설정됩니다."
+        "${ calendarName }이(가) 기본 일정으로 설정됩니다."
       ],
       "${ calendarsToBeCreatedCount } new calendars": [
         "${ calendarsToBeCreatedCount }개 새 달력"
@@ -5461,7 +5464,7 @@
         "${ fileName }: 저화질 미리보기"
       ],
       "${ firstRemainingCalendarName } will be set as default calendar.": [
-        "${ firstRemainingCalendarName } 이(가) 기본 일정으로 설정됩니다."
+        "${ firstRemainingCalendarName }이(가) 기본 일정으로 설정됩니다."
       ],
       "${ inviterEmailJSX } wants to share data with you in ${ PASS_APP_NAME }": [
         "${ inviterEmailJSX }이(가) ${ PASS_APP_NAME }에서 사용자와 데이터 공유를 요청했습니다."
@@ -6661,7 +6664,7 @@
         "대기열에 추가됨"
       ],
       "read our two-factor authentication guide first": [
-        "먼저 2단계 인증 가이드를 읽어보세요"
+        "이중 인증에 대한 가이드를 먼저 읽은 뒤에"
       ],
       "Recommended on trusted devices. ${ keepMeSignedInLearnMoreLink }": [
         "신뢰하는 기기에서 권장됩니다. ${ keepMeSignedInLearnMoreLink }"
@@ -7586,6 +7589,12 @@
       ],
       "View, download, and manage your invoices.": [
         "청구서를 보고 다운로드 하고 관리하십시오."
+      ],
+      "P2P": [
+        "P2P"
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -8905,6 +8914,9 @@
       ],
       "Name and address": [
         "이름 및 주소"
+      ],
+      "VPN Accelerator": [
+        "VPN Accelerator"
       ]
     },
     "label": {
@@ -10756,6 +10768,27 @@
       ],
       "The whole organization": [
         "전체 조직"
+      ],
+      "Android": [
+        "Android"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "TCP": [
+        "TCP"
+      ],
+      "UDP": [
+        "UDP"
+      ],
+      "Windows": [
+        "Windows"
       ]
     },
     "Option delay send seconds": {
@@ -11274,7 +11307,7 @@
         "기본 시간 지역"
       ],
       "Secondary time zone": [
-        "보조 시간 지역"
+        "보조 시간대"
       ]
     },
     "Private Member": {
@@ -11442,6 +11475,9 @@
       ],
       "Reading emails of non-private users": [
         "비공개 사용자의 이메일 읽기"
+      ],
+      "Creating or accessing non-private users": [
+        "비공개가 아닌 사용자 생성 및 접근"
       ]
     },
     "Role": {
@@ -12358,7 +12394,7 @@
         "캘린더 정보 업데이트됨"
       ],
       "Calendar removed": [
-        "캘린더 삭제됨"
+        "달력이 제거되었습니다."
       ],
       "Calendar updated": [
         "캘린더 업데이트됨"
@@ -14774,6 +14810,29 @@
       ],
       "Participate in surveys to improve ${ BRAND_NAME } services": [
         "${ BRAND_NAME } 서비스 개선을 위한 설문 조사 참여"
+      ]
+    },
+    "VPNClient": {
+      "Android": [
+        "Android"
+      ],
+      "Android TV": [
+        "Android TV"
+      ],
+      "Chromebook": [
+        "Chromebook"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "Windows": [
+        "Windows"
       ]
     }
   }

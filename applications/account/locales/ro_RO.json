@@ -1470,7 +1470,7 @@
     },
     "Calendar invite status label": {
       "Declined": [
-        "Refuzat"
+        "Refuzată"
       ],
       "Invite sent": [
         "Invitație trimisă"
@@ -1569,10 +1569,10 @@
         "Activ"
       ],
       "Default": [
-        "Implicită"
+        "Implicit"
       ],
       "Disabled": [
-        "Dezactivată"
+        "Dezactivat"
       ],
       "Not synced": [
         "Nesincronizat"
@@ -3744,6 +3744,9 @@
       ],
       "Intended recipient does not support calendar sharing": [
         "Destinatarul vizat nu are suport pentru partajare de calendare."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Trebuie să activați cheile de organizare. Fără activare, nu veți putea crea sau accesa utilizatori non-privați."
       ]
     },
     "Error importing calendar": {
@@ -4003,7 +4006,7 @@
     },
     "Error when exporting event from calendar": {
       "Event @ ${ timeString }": [
-        "Evenimentul din ${ timeString }"
+        "Eveniment @ ${ timeString }"
       ],
       "Event from ${ timeString }, ${ rruleString }": [
         "Evenimentul din ${ timeString }, ${ rruleString }"
@@ -4060,7 +4063,7 @@
     },
     "Export calendar": {
       "${ totalProcessed }/${ totalToProcess } event exported": [
-        "S-a exportat un eveniment.",
+        "S-a exportat ${ totalProcessed }/${ totalToProcess } eveniment.",
         "S-au exportat ${ totalProcessed }/${ totalToProcess } evenimente.",
         "S-au exportat ${ totalProcessed }/${ totalToProcess } de evenimente."
       ],
@@ -4095,7 +4098,7 @@
         "Resetare parolă - mai multe evenimente nu pot fi decriptate."
       ],
       "Please don't close the tab before the exporting process is finished.": [
-        "Nu închideţi fila înainte de terminarea procesului de exportare."
+        "Nu închideți fila înainte de terminarea procesului de exportare."
       ],
       "Some of your events could not be exported.": [
         "Unele evenimente nu au putut fi exportate."
@@ -4978,7 +4981,7 @@
         "Sărbători"
       ],
       "Other": [
-        "Alta"
+        "Altul"
       ],
       "Subscribed": [
         "Abonat"
@@ -7168,7 +7171,7 @@
         "Modernizați contul pentru a adăuga o adresă @pm.me mai scurtă în cont, care este mai ușor de partajat. Înseamnă „${ MAIL_APP_NAME } al meu” sau „Mesaj privat mie”."
       ],
       "Upgrade to unlock": [
-        "Modernizați contul pentru deblocare."
+        "Treceți la alt tip de cont pentru deblocare."
       ],
       "Upload picture": [
         "Încărcare imagine"
@@ -7613,6 +7616,15 @@
       ],
       "View, download, and manage your invoices.": [
         "Examinați, descărcați și gestionați facturile personale."
+      ],
+      "P2P": [
+        "P2P"
+      ],
+      "Tor": [
+        "Tor"
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Treceți la ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } sau ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } pentru a obține acces la ${ PROTON_SENTINEL_NAME }."
       ]
     },
     "info": {
@@ -8540,7 +8552,7 @@
         "Nivelul pentru filtrarea blocatorului NetShield"
       ],
       "Link label": [
-        "Etichetă legătură"
+        "Etichetă legătură web"
       ],
       "Mail Server (IMAP)": [
         "Server e-mail (IMAP)"
@@ -8940,6 +8952,9 @@
       ],
       "Name and address": [
         "Nume și adresă"
+      ],
+      "VPN Accelerator": [
+        "VPN Accelerator"
       ]
     },
     "label": {
@@ -8960,7 +8975,7 @@
     },
     "Label for default event notifications": {
       "All-day event notifications": [
-        "Notificări evenimente toată ziua"
+        "Notificări eveniment toată ziua"
       ],
       "Notifications": [
         "Notificări"
@@ -9311,14 +9326,14 @@
     },
     "Maximum calendar links reached warning": {
       "You can create up to ${ MAX_LINKS_PER_CALENDAR } link per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "Puteți crea până la o legătură per calendar. Pentru a crea o legătură nouă către acest calendar, ștergeți una din lista de mai jos.",
+        "Puteți crea până la ${ MAX_LINKS_PER_CALENDAR } legătură per calendar. Pentru a crea o legătură nouă către acest calendar, ștergeți una din lista de mai jos.",
         "Puteți crea până la ${ MAX_LINKS_PER_CALENDAR } legături per calendar. Pentru a crea o legătură nouă către acest calendar, ștergeți una din lista de mai jos.",
         "Puteți crea până la ${ MAX_LINKS_PER_CALENDAR } de legături per calendar. Pentru a crea o legătură nouă către acest calendar, ștergeți una din lista de mai jos."
       ]
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member.": [
-        "Ați atins numărul maxim de un membru.",
+        "Ați atins numărul maxim de ${ MAX_CALENDAR_MEMBERS } membru.",
         "Ați atins numărul maxim de ${ MAX_CALENDAR_MEMBERS } membri.",
         "Ați atins numărul maxim de ${ MAX_CALENDAR_MEMBERS } de membri."
       ]
@@ -10867,6 +10882,27 @@
       ],
       "The whole organization": [
         "Întreaga organizație"
+      ],
+      "Android": [
+        "Android"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "TCP": [
+        "TCP"
+      ],
+      "UDP": [
+        "UDP"
+      ],
+      "Windows": [
+        "Windows"
       ]
     },
     "Option delay send seconds": {
@@ -11563,6 +11599,9 @@
       ],
       "Reading emails of non-private users": [
         "Citirea mesajelor utilizatorilor non-privați"
+      ],
+      "Creating or accessing non-private users": [
+        "Creare sau accesare utilizatori non-privați"
       ]
     },
     "Role": {
@@ -12543,7 +12582,7 @@
         "Informațiile calendarului s-au actualizat."
       ],
       "Calendar removed": [
-        "Calendar a fost eliminat."
+        "Calendarul a fost eliminat."
       ],
       "Calendar updated": [
         "Calendar actualizat"
@@ -12755,7 +12794,7 @@
     },
     "Summary of errors during export calendar": {
       "Details about events that couldn't be exported": [
-        "Detalii despre evenimentele care nu au putut fi exportate"
+        "Detalii despre evenimentele care nu au putut fi exportate."
       ]
     },
     "summer2023: Billing cycle option": {
@@ -12827,7 +12866,7 @@
     },
     "Table header; invitations to share calendar": {
       "Shared with me": [
-        "Partajat cu mine"
+        "Partajate cu mine"
       ]
     },
     "TableHeader": {
@@ -14240,10 +14279,10 @@
     },
     "Upgrade": {
       "Upgrade to ${ passPlusPlanName } to get unlimited hide-my-email aliases": [
-        "Treceți la ${ passPlusPlanName } pentru a obține aliasuri nelimitate „Hide-my-email”"
+        "Treceți la ${ passPlusPlanName } pentru a obține aliasuri nelimitate „hide-my-email”"
       ],
       "Upgrade to ${ planName } to connect up to ${ n } device to the VPN at once": [
-        "Treceți la ${ planName } pentru a conecta un dispozitiv la VPN.",
+        "Treceți la ${ planName } pentru a conecta ${ n } dispozitiv la VPN.",
         "Treceți la ${ planName } pentru a conecta simultan până la ${ n } dispozitive la VPN.",
         "Treceți la ${ planName } pentru a conecta simultan până la ${ n } de dispozitive la VPN."
       ]
@@ -15201,6 +15240,29 @@
       ],
       "Participate in surveys to improve ${ BRAND_NAME } services": [
         "Participați la sondaje pentru a îmbunătăți serviciile ${ BRAND_NAME }"
+      ]
+    },
+    "VPNClient": {
+      "Android": [
+        "Android"
+      ],
+      "Android TV": [
+        "Android TV"
+      ],
+      "Chromebook": [
+        "Chromebook"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "Windows": [
+        "Windows"
       ]
     }
   }

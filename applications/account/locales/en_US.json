@@ -21,6 +21,9 @@
       ],
       "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
         "You must activate your organization keys. Without activation, you will not be able to create or access non-private users."
+      ],
+      "You have reached the contacts limit for your account": [
+        "You have reached the number of contacts limit for your account"
       ]
     },
     "familyOffer_2023:Action": {
@@ -78,6 +81,9 @@
       ],
       "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device-recovery information.": [
         "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device recovery information."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "Label": {
@@ -157,6 +163,11 @@
     "vpn_2step: tooltip": {
       "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
         "Access to Secure Core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more."
+      ]
+    },
+    "Calendar sharing access option label": {
+      "Edit (view, create and edit event details)": [
+        "Edit (view, create or edit event details)"
       ]
     }
   }

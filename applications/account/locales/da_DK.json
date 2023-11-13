@@ -1066,6 +1066,15 @@
       ],
       "Import from Outlook": [
         "Importér fra Outlook"
+      ],
+      "Edit invoice details": [
+        "Rediger fakturadetaljer"
+      ],
+      "Sign in with SSO": [
+        "Log ind med SSO"
+      ],
+      "sign up for free": [
+        "tilmeld dig gratis"
       ]
     },
     "Action for user session": {
@@ -8700,6 +8709,9 @@
       ],
       "Time zone": [
         "Tidszone"
+      ],
+      "Name and address": [
+        "Navn og adresse"
       ]
     },
     "label": {
@@ -10874,6 +10886,9 @@
       ],
       "yourdomain.com": [
         "ditdomæne.com"
+      ],
+      "Thomas Anderson": [
+        "Thomas Andersen"
       ]
     },
     "Placeholder for custom invoice text": {
@@ -13319,6 +13334,9 @@
       ],
       "Verifying your payment...": [
         "Verificerer din betaling..."
+      ],
+      "Edit invoice details": [
+        "Rediger fakturadetaljer"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

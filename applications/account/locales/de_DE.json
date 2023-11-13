@@ -11,13 +11,13 @@
     },
     "Access level": {
       "Full view": [
-        "Voller Lesezugriff"
+        "Vollansicht"
       ],
       "Full view (see all event details)": [
         "Voller Lesezugriff (alle Termindetails anzeigen)"
       ],
       "Limited view": [
-        "Eingeschränkter Lesezugriff"
+        "Eingeschränkte Einsicht"
       ],
       "Limited view (see only free/busy)": [
         "Eingeschränkter Lesezugriff (nur Verfügbar/Beschäftigt anzeigen)"
@@ -1711,7 +1711,7 @@
     },
     "Calendar settings section title": {
       "Share calendar": [
-        "Kalender freigeben"
+        "Kalender teilen"
       ],
       "Share outside ${ BRAND_NAME }": [
         "Außerhalb von ${ BRAND_NAME } teilen"
@@ -1720,7 +1720,7 @@
         "Mit ${ BRAND_NAME }-Benutzern teilen"
       ],
       "Share with anyone": [
-        "Für andere freigeben"
+        "Mit anderen teilen"
       ]
     },
     "Calendar settings sidebar": {
@@ -3709,7 +3709,7 @@
         "Automatische Antworten sind eine kostenpflichtige Funktion. Bitte führe ein Umstieg auf ein kostenpflichtiges Konto durch, um diese Funktion nutzen zu können."
       ],
       "Calendar cannot be found": [
-        "Kalender konnte nicht gefunden werden"
+        "Kalender kann nicht gefunden werden"
       ],
       "Calendar limit reached": [
         "Max. Anzahl von Kalendern erreicht"
@@ -4474,8 +4474,8 @@
     },
     "Export calendar": {
       "${ totalProcessed }/${ totalToProcess } event exported": [
-        "${ totalProcessed }/${ totalToProcess } Termin exportiert",
-        "${ totalProcessed }/${ totalToProcess } Termine exportiert"
+        "${ totalProcessed }/${ totalToProcess } Ereignis exportiert",
+        "${ totalProcessed }/${ totalToProcess } Ereignisse exportiert"
       ],
       "Calendar successfully exported. You can now save the ICS file.": [
         "Der Kalender wurde erfolgreich exportiert. Die ICS-Datei kann nun gespeichert werden."
@@ -4517,7 +4517,7 @@
         "Der Exportvorgang ist fehlgeschlagen, da die Internetverbindung unterbrochen wurde. Bitte versuche es erneut."
       ],
       "You can save an ICS file of the events that were successfully exported.": [
-        "Nachdem die Termine erfolgreich exportiert wurden, kann eine ICS-Datei gespeichert werden."
+        "Du kannst eine ICS-Datei der von dir erfolgreich exportierten Termine speichern."
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -5382,7 +5382,7 @@
         "Feiertage"
       ],
       "Other": [
-        "Weitere"
+        "Andere"
       ],
       "Subscribed": [
         "Abonniert"
@@ -5785,7 +5785,7 @@
         "Dauerhaft ${ discountPercentage }"
       ],
       "${ DRIVE_APP_NAME } will no longer keep previous versions of your files.": [
-        "${ DRIVE_APP_NAME } wird frühere Versionen deiner Dateien nicht mehr speichern."
+        "${ DRIVE_APP_NAME } wird frühere Versionen deiner Dateien nicht mehr behalten."
       ],
       "${ emailAddress } is invalid": [
         "${ emailAddress } ist ungültig"
@@ -6084,7 +6084,7 @@
         "Jeder mit diesem Link kann in deinem Kalender sehen, ob du „Verfügbar“ oder „Beschäftigt“ bist. Es können jedoch keine Details zum Termin wie z. B. Titel, Ort oder Teilnehmer eingesehen werden."
       ],
       "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "Jeder, der über diesen Link verfügt, kann deinen Kalender nicht mehr synchronisieren und erhält keine zukünftigen Aktualisierungen mehr. Wenn du ihnen erneut Zugriff gewähren möchtest, musst du einen neuen Link erstellen."
+        "Alle, die über diesen Link verfügen, können deinen Kalender weder synchronisieren noch erhalten sie zukünftige Aktualisierungen. Wenn du ihnen erneut Zugriff gewähren möchtest, musst du einen neuen Link erstellen."
       ],
       "Are you sure you want to delete this address?": [
         "Möchtest du diese Adresse wirklich löschen?"
@@ -6093,7 +6093,7 @@
         "Bist du dir sicher, dass du diesen Kalender löschen möchtest?"
       ],
       "Are you sure you want to delete this calendar? All addresses you shared this calendar with will lose access to it.": [
-        "Bist du dir sicher, dass du diesen Kalender löschen möchtest? Alle Adressen, für die du diesen Kalender freigegeben hast, verlieren den Zugriff auf ihn."
+        "Bist du dir sicher, dass du diesen Kalender löschen möchtest? Alle Adressen, für die du diesen Kalender freigegeben hast, verlieren den Zugriff darauf."
       ],
       "Are you sure you want to delete this calendar? All events in it will be deleted.": [
         "Bist du sicher, dass du diesen Kalender löschen möchtest? Alle darin enthaltenen Termine werden ebenfalls gelöscht."
@@ -6403,7 +6403,7 @@
         "E-Mails, die mit dieser Kategorie gekennzeichnet sind, werden nicht gelöscht und sind weiterhin im entsprechenden Ordner zu finden."
       ],
       "Enable this address to join this calendar": [
-        "Diese Adresse aktivieren, um diesem Kalender beizutreten"
+        "Aktiviere diese Adresse, um diesem Kalender beizutreten"
       ],
       "Enable TLS or SSL on the external service if it is supported.": [
         "Aktiviere TLS oder SSL für den externen Dienst, falls dies unterstützt wird."
@@ -6460,7 +6460,7 @@
         "Gib deine Wiederherstellungs-Telefonnummer ein und es wird dir dein Benutzername oder deine E-Mail-Adresse zugesendet."
       ],
       "Event invitations and RSVPs will be sent in this language.": [
-        "Termin-Einladungen und Antwortschreiben werden in dieser Sprache versendet."
+        "Termin-Einladungen und Antworten darauf werden in dieser Sprache versendet."
       ],
       "Expired": [
         "Abgelaufen"
@@ -7964,6 +7964,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Rechnungen anzeigen, herunterladen und verwalten."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -9307,7 +9310,7 @@
     },
     "Label for default event notifications": {
       "All-day event notifications": [
-        "Benachrichtigungen zu ganztägigem Termin"
+        "Benachrichtigungen zu Ganztagsterminen"
       ],
       "Notifications": [
         "Benachrichtigungen"
@@ -9652,8 +9655,8 @@
     },
     "Maximum calendar links reached warning": {
       "You can create up to ${ MAX_LINKS_PER_CALENDAR } link per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "Du kannst bis zu ${ MAX_LINKS_PER_CALENDAR } Link pro Kalender erstellen. Um einen neuen Link zu erstellen, musst du einen Link aus der folgenden Liste löschen.",
-        "Du kannst bis zu ${ MAX_LINKS_PER_CALENDAR } Links pro Kalender erstellen. Um einen neuen Link zu erstellen, musst du einen Link aus der folgenden Liste löschen."
+        "Du kannst bis zu ${ MAX_LINKS_PER_CALENDAR } Link pro Kalender erstellen. Um einen neuen Link für diesen Kalender zu erstellen, musst du einen Link aus der untenstehenden Liste löschen.",
+        "Du kannst bis zu ${ MAX_LINKS_PER_CALENDAR } Links pro Kalender erstellen. Um einen neuen Link für diesen Kalender zu erstellen, musst du einen Link aus der untenstehenden Liste löschen."
       ]
     },
     "Maximum shared calendar members reached alert": {
@@ -12291,7 +12294,7 @@
     },
     "Shared calendar label input placeholder": {
       "Add label": [
-        "Kategorie hinzuf."
+        "Kategorie hinzufügen"
       ]
     },
     "Shared calendar; Info about calendar owner": {
@@ -12623,7 +12626,7 @@
     },
     "Subscribed calendar section description": {
       "Add public, external, or shared calendars using a URL.": [
-        "Füge öffentliche, externe oder gemeinsame Kalender über eine URL hinzu."
+        "Füge öffentliche, externe oder geteilte Kalender über eine URL hinzu."
       ],
       "Add public, external, or shared calendars.": [
         "Füge öffentliche, externe oder geteilte Kalender hinzu."

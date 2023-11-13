@@ -1078,6 +1078,9 @@
       ],
       "Import from Outlook": [
         "Importa des de Outlook"
+      ],
+      "Edit invoice details": [
+        "Edita les dades de la factura"
       ]
     },
     "action": {
@@ -2894,6 +2897,15 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Pots importar esdeveniments en format iCal (fitxer ICS).\nEl fitxer ha de tenir una mida màxima de ${ MAX_IMPORT_FILE_SIZE_STRING } i tenir fins a ${ MAX_IMPORT_EVENTS_STRING } esdeveniments. Si el fitxer és més gran, dividiu-lo en fitxers més petits."
+      ],
+      "Enable ${ PROTON_SENTINEL_NAME } to access these features": [
+        "Activa ${ PROTON_SENTINEL_NAME } per accedir a aquestes funcions"
+      ],
+      "Enable advanced logs and ${ PROTON_SENTINEL_NAME } to access these features": [
+        "Activa els registres avançats i ${ PROTON_SENTINEL_NAME } per accedir a aquestes funcions."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Per Importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2919,6 +2931,12 @@
       ],
       "You can safely close this tab.": [
         "Podeu tancar aquesta pestanya amb seguretat."
+      ],
+      "Didn't create an account?": [
+        "No heu creat un compte?"
+      ],
+      "I didn't create this account": [
+        "No heu creat aquest compte."
       ]
     },
     "Domain label": {
@@ -3218,6 +3236,15 @@
     "email_forwarding_2023: Info": {
       "Forwarding is active": [
         "El reenviament està actiu."
+      ],
+      "No incoming forwarding rules": [
+        "No hi ha regles de reenviament entrants."
+      ],
+      "No outgoing forwarding rules": [
+        "No hi ha regles de reenviament de sortida."
+      ],
+      "You can safely close this tab.": [
+        "Podeu tancar aquesta pestanya amb seguretat."
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3313,6 +3340,9 @@
       ],
       "Set up forwarding": [
         "Configura el reenviament"
+      ],
+      "Email forwarding deactivated": [
+        "S'ha desactivat el reenviament de correu."
       ]
     },
     "email_forwarding_2023: Warning": {
@@ -7419,6 +7449,24 @@
       ],
       "Your account has been successfully updated": [
         "S'ha actualitzat correctament el vostre compte."
+      ],
+      "This promotion link has expired.": [
+        "L'enllaç de la promoció ha caducat."
+      ],
+      "Tor": [
+        "Tor"
+      ],
+      "We just sent you a new link.": [
+        "Us acabem d'enviar un enllaç nou."
+      ],
+      "Whole organization": [
+        "Tota l'organització"
+      ],
+      "You will lose access to Plus features on this date.": [
+        "Perdreu accés a les funcions Plus en aquesta data."
+      ],
+      "You will lose access to Plus servers and features on this date.": [
+        "Perdreu accés a servidors i funcions Plus aquesta data."
       ]
     },
     "info": {
@@ -8724,6 +8772,12 @@
       ],
       "Your referral link": [
         "Enllaç de la vostra recomanació"
+      ],
+      "Name and address": [
+        "Nom i adreça"
+      ],
+      "Why would you like to cancel?": [
+        "Per què voleu cancel·lar el vostre pla?"
       ]
     },
     "label": {
@@ -8798,6 +8852,15 @@
       ],
       "${ MAIL_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME } new features": [
         "Noves característiques de ${ MAIL_APP_NAME } i de ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } product updates": [
+        "Actualitzacions del producte ${ DRIVE_APP_NAME }"
+      ],
+      "${ PASS_APP_NAME } product updates": [
+        "Actualitzacions del producte ${ PASS_APP_NAME }"
+      ],
+      "${ VPN_APP_NAME } product updates": [
+        "Actualitzacions del producte ${ VPN_APP_NAME }"
       ]
     },
     "Label in domain modal": {
@@ -10207,6 +10270,9 @@
       ],
       "Require 2FA": [
         "Requereix 2FA"
+      ],
+      "Dedicated Account manager": [
+        "Gestor de comptes dedicat"
       ]
     },
     "Notification": {
@@ -10532,6 +10598,9 @@
       ],
       "Standard server configs": [
         "Configuracions estàndard de servidor"
+      ],
+      "The whole organization": [
+        "Tota l'organització"
       ]
     },
     "Option delay send seconds": {
@@ -10857,6 +10926,9 @@
       ],
       "Welcome to ${ shortName } Plus": [
         "Us donem la benvinguda a ${ shortName } Plus"
+      ],
+      "You have been invited to join ${ PASS_APP_NAME }": [
+        "Se us ha convidat a unir-vos a ${ PASS_APP_NAME }."
       ]
     },
     "pass_signup_2023: Title": {
@@ -10874,6 +10946,9 @@
       ],
       "Secure your account": [
         "Protegiu el vostre compte"
+      ],
+      "Create a ${ PASS_APP_NAME } account": [
+        "Crea un compte de ${ PASS_APP_NAME }"
       ]
     },
     "Payment method option": {
@@ -10990,6 +11065,9 @@
       ],
       "Thomas Anderson": [
         "Adrià Pujol"
+      ],
+      "Please select the main reason": [
+        "Seleccioneu el motiu principal."
       ]
     },
     "Placeholder for custom invoice text": {
@@ -11293,6 +11371,9 @@
       ],
       "If you didn’t ask to reset your password, cancel the request now.": [
         "Si no heu demanat restablir la teva contrasenya, cancel·leu la sol·licitud ara mateix."
+      ],
+      "Didn’t make this request?": [
+        "No heu fet aquesta petició?"
       ]
     },
     "session_recovery:available:link": {
@@ -11388,6 +11469,9 @@
       ],
       "If you didn’t ask to reset your password, cancel the request now.": [
         "Si no heu demanat restablir la teva contrasenya, cancel·leu la sol·licitud ara mateix."
+      ],
+      "Didn’t make this request?": [
+        "No heu fet aquesta petició?"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -13403,6 +13487,9 @@
       ],
       "Sign in to your organization": [
         "Inicieu la sessió a la vostra organització"
+      ],
+      "Edit invoice details": [
+        "Edita les dades de la factura"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14238,11 +14325,20 @@
       ],
       "Premium Password Manager": [
         "Gestor de contrasenyes prèmium"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "Més de 3 000 servidors en més de 65 països"
+      ],
+      "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Totes les funcions de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
       ]
     },
     "bf2023: Info": {
       "6 users": [
         "6 usuaris"
+      ],
+      "Premium versions of all ${ BRAND_NAME } services": [
+        "Versions prèmium de tots els serveis de ${ BRAND_NAME }"
       ]
     },
     "bf2023: renew": {
@@ -14272,6 +14368,9 @@
     "bf2023: Footer": {
       "Discounts are based on standard monthly pricing.": [
         "Els descomptes es basen en els preus mensuals estàndard."
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "La vostra subscripció es renovarà automàticament a la tarifa estàndard amb descompte i durada al final del cicle de facturació."
       ]
     },
     "bf2023: Offers": {
@@ -14288,6 +14387,41 @@
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
         "NetShield, dissenyat especialment, protegeix els vostres dispositius i accelera la navegació bloquejant anuncis, rastrejadors i programari maliciós."
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+ i Prime Video i més des de qualsevol lloc."
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Inclou suport per a 3 dominis de correu electrònic personalitzats, ${ addresses } adreça de correu electrònic, àlies il·limitats de hide-my-email, compartició de calendari i més.",
+        "Inclou suport per a 3 dominis de correu electrònic personalitzats, ${ addresses } adreces de correu electrònic, àlies il·limitats de hide-my-email, compartició de calendari i més."
+      ],
+      "Storage space is shared across all ${ BRAND_NAME } apps.": [
+        "L'espai d'emmagatzematge està compartit entre totes les aplicacions de ${ BRAND_NAME }."
+      ]
+    },
+    "bf2023: header": {
+      "Select your Black Friday offer": [
+        "Seleccioneu la vostra oferta de Black Friday"
+      ]
+    },
+    "bf2023: info": {
+      "All premium ${ BRAND_NAME } services. One easy subscription.": [
+        "Tots els serveis prèmium de ${ BRAND_NAME }. Una subscripció senzilla."
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "utilitzeu l'assistent d'importació Easy Switch"
+      ]
+    },
+    "session_recovery:initiation:link": {
+      "account and password section": [
+        "secció de compte i contrasenya"
+      ]
+    },
+    "Tooltip default pgp scheme": {
+      "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
+        "Seleccioneu les preferències PGP per defecte utilitzades per a signar o xifrar missatges amb usuaris PGP de fora de ${ BRAND_NAME }. Tingueu en compte que Inline PGP implica missatges de text sense format."
       ]
     }
   }

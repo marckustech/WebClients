@@ -1518,7 +1518,7 @@
     },
     "Calendar settings private share description": {
       "Share your calendar with other ${ BRAND_NAME } users. Enable collaboration by allowing them to add and edit events in your calendar. You can modify the user permissions anytime.": [
-        "Абагуліць ваш каляндар з іншымі карыстальнікамі ${ BRAND_NAME }. Арганізуйце сумесную працу, дазволіўшы ім дадаваць і рэдагаваць падзеі ў сваім календары. Вы можаце змяніць дазволы карыстальніка ў любы момант."
+        "Абагуліце ваш каляндар з іншымі карыстальнікамі ${ BRAND_NAME }. Арганізуйце сумесную працу, дазволіўшы ім дадаваць і рэдагаваць падзеі ў сваім календары. Вы можаце змяніць дазволы карыстальніка ў любы момант."
       ]
     },
     "Calendar settings section title": {
@@ -1574,7 +1574,7 @@
         "Актыўны"
       ],
       "Default": [
-        "Прадвызначана"
+        "Прадвызначаны"
       ],
       "Disabled": [
         "Адключаны"
@@ -4318,7 +4318,7 @@
         "${ totalProcessed }/${ totalToProcess } падзея экспартавана",
         "${ totalProcessed }/${ totalToProcess } падзеі экспартаваны",
         "${ totalProcessed }/${ totalToProcess } падзей экспартаваны",
-        "${ totalProcessed }/${ totalToProcess } падзеі экспартаваны"
+        "${ totalProcessed }/${ totalToProcess } падзей экспартаваны"
       ],
       "Calendar successfully exported. You can now save the ICS file.": [
         "Каляндар паспяхова экспартаваны. Цяпер вы можаце захаваць файл ICS."
@@ -4351,7 +4351,7 @@
         "Скіданне пароля — некалькі падзей немагчыма расшыфраваць"
       ],
       "Please don't close the tab before the exporting process is finished.": [
-        "Не закрывайце старонку да завяршэння экспартавання."
+        "Не закрывайце ўкладку да завяршэння працэсу экспартавання."
       ],
       "Some of your events could not be exported.": [
         "Некаторыя з вашых падзей немагчыма экспартаваць."
@@ -5647,7 +5647,7 @@
         "Тэхналогія шыфравання ${ BRAND_NAME } азначае, што ніхто не зможа атрымаць доступ да вашага пароля - нават мы."
       ],
       "${ calendarName } will be set as default calendar.": [
-        "${ calendarName } будзе прадвызначаным календаром."
+        "${ calendarName } будзе зададзены ў якасці прадвызначанага календара."
       ],
       "${ calendarsToBeCreatedCount } new calendar": [
         "${ calendarsToBeCreatedCount } новы каляндар",
@@ -5680,7 +5680,7 @@
         "${ fileName }: папярэдні прагляд у нізкай раздзяляльнасці"
       ],
       "${ firstRemainingCalendarName } will be set as default calendar.": [
-        "${ firstRemainingCalendarName } будзе прызначаны прадвызначаным календаром."
+        "${ firstRemainingCalendarName } будзе зададзены ў якасці прадвызначанага календара."
       ],
       "${ inviterEmailJSX } wants to share data with you in ${ PASS_APP_NAME }": [
         "${ inviterEmailJSX } хоча абагуліць даныя з вамі ў ${ PASS_APP_NAME }"
@@ -6013,7 +6013,7 @@
         "Любы чалавек з гэтай спасылкай зможа ўбачыць у вашым календары, ці маеце вы вольны час або заняты ўвесь дзень. Аднак, ён не зможа ўбачыць падрабязнасці падзеі, напрыклад, загаловак, размяшчэнне або ўдзельнікаў."
       ],
       "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "Любы чалавек з гэтай спасылкай не зможа сінхранізаваць або атрымліваць будучыя абнаўленні для вашага календара. Калі вы зноў захочаце даць ім доступ, вам неабходна будзе стварыць новую спасылку."
+        "Любы карыстальнік з гэтай спасылкай не зможа сінхранізаваць або атрымліваць будучыя абнаўленні для вашага календара. Калі вы зноў захочаце даць ім доступ, вам неабходна будзе стварыць новую спасылку."
       ],
       "Are you sure you want to delete this address?": [
         "Вы сапраўды хочаце выдаліць гэты адрас?"
@@ -6316,7 +6316,7 @@
         "Рэдагаваць адрас электроннай пошты"
       ],
       "Edit label": [
-        "Рэдагаванне меткі"
+        "Рэдагаваць метку"
       ],
       "Edit link": [
         "Рэдагаваць спасылку"
@@ -6808,7 +6808,7 @@
         "Змяняйце гэтыя налады толькі ў тым выпадку, калі ўжываеце PGP для перапіскі з атрымальнікамі, якія не карыстаюцца ${ BRAND_NAME }."
       ],
       "Only you can see the labels.": [
-        "Толькі вы будзеце бачыць гэтыя меткі."
+        "Толькі вы будзеце бачыць меткі."
       ],
       "Open source": [
         "Адкрыты зыходны код"
@@ -7940,6 +7940,9 @@
       ],
       "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
         "Палепшыце да тарыфнага плана ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } або ${ PLAN_NAMES[PLANS.BUNDLE_PRO] }, каб атрымаць доступ да ${ PROTON_SENTINEL_NAME }."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -11733,7 +11736,7 @@
         "Выберыце колькасць IP, якія будуць уключаны ў ваш тарыфны план. Кожны дадатковы IP будзе каштаваць ${ price }. У выпадку, калі вам спатрэбіцца больш чым ${ maxIPs } IP, звярніцеся ў нашу службу падтрымкі ${ contactHref }"
       ],
       "please ${ contactHref } our Sales team.": [
-        "звяжыцеся з нашай камандай па продажу ${ contactHref }."
+        "${ contactHref } з нашай камандай па продажам."
       ],
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
         "Выберыце колькасць IP для ўключэння ў ваш тарыфны план. Кожны дадатковы IP каштуе ${ price }."
@@ -11747,7 +11750,7 @@
     },
     "plan customizer, users": {
       "contact": [
-        "кантакт"
+        "звяжыцеся"
       ],
       "Select the number of users to include in your plan. Each additional user costs ${ price }.": [
         "Выберыце колькасць карыстальнікаў для ўключэння ў ваш тарыфны план. Кожны дадатковы карыстальнік каштуе ${ price }."

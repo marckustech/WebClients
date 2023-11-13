@@ -11,7 +11,7 @@
     },
     "Access level": {
       "Full view": [
-        "Vista completa"
+        "Visualizzazione completa"
       ],
       "Full view (see all event details)": [
         "Vista completa (vedi tutti i dettagli dell'evento)"
@@ -75,7 +75,7 @@
         "Aggiungi un indirizzo o un dominio"
       ],
       "Add calendar from URL": [
-        "Aggiungi calendario da un URL"
+        "Aggiungi un calendario da un URL"
       ],
       "Add condition": [
         "Aggiungi condizione"
@@ -303,7 +303,7 @@
         "Elimina gateway"
       ],
       "Delete link": [
-        "Elimina link"
+        "Elimina il link"
       ],
       "Delete permanently": [
         "Elimina definitivamente"
@@ -363,7 +363,7 @@
         "Scarica un campione CSV"
       ],
       "Download ICS": [
-        "Scarica ICS"
+        "Scarica il file ICS"
       ],
       "Download our CSV template": [
         "Scarica il nostro modello CSV"
@@ -708,7 +708,7 @@
         "Rimuovi bonus"
       ],
       "Remove calendar": [
-        "Rimuovi calendario"
+        "Rimuovi il calendario"
       ],
       "Remove gift code": [
         "Rimuovi codice regalo"
@@ -798,7 +798,7 @@
         "Salva le modifiche"
       ],
       "Save ICS file": [
-        "Salva file ICS"
+        "Salva il file ICS"
       ],
       "Save selected": [
         "Salva selezionato"
@@ -1647,7 +1647,7 @@
     },
     "Calendar edit button tooltip": {
       "Edit calendar": [
-        "Modifica calendario"
+        "Modifica il calendario"
       ]
     },
     "Calendar export section description": {
@@ -1657,7 +1657,7 @@
     },
     "Calendar import section description": {
       "You can import ICS files from another calendar to ${ CALENDAR_APP_NAME }. This lets you quickly import one event or your entire agenda.": [
-        "È possibile importare i file ICS da un altro calendario su ${ CALENDAR_APP_NAME }. Questo consente di importare rapidamente un evento o un'intera agenda."
+        "Puoi importare i file ICS da un altro calendario su ${ CALENDAR_APP_NAME }. Questo ti consente di importare rapidamente un evento o un'intera agenda."
       ]
     },
     "Calendar invite status label": {
@@ -1665,7 +1665,7 @@
         "Rifiutato"
       ],
       "Invite sent": [
-        "Invito inviato"
+        "Invito spedito"
       ]
     },
     "Calendar link purpose update success message": {
@@ -1701,23 +1701,23 @@
     },
     "Calendar settings link share description": {
       "Create a link to your calendar and share it with anyone outside ${ BRAND_NAME }. Only you can add or remove events.": [
-        "Crea un link al tuo calendario e condividilo con chiunque al di fuori di ${ BRAND_NAME }. Soltanto tu puoi aggiungere o rimuovere eventi."
+        "Crea un link al tuo calendario e condividilo con chiunque al di fuori di ${ BRAND_NAME }. Solamente tu puoi aggiungere o rimuovere eventi."
       ]
     },
     "Calendar settings private share description": {
       "Share your calendar with other ${ BRAND_NAME } users. Enable collaboration by allowing them to add and edit events in your calendar. You can modify the user permissions anytime.": [
-        "Condividi il tuo calendario con altri utenti ${ BRAND_NAME }. Abilita la collaborazione permettendo loro di aggiungere e modificare eventi al tuo calendario. Potrai modificare le autorizzazioni degli utenti in qualsiasi momento."
+        "Condividi il tuo calendario con altri utenti di ${ BRAND_NAME }. Abilita la collaborazione consentendoli di aggiungere e modificare eventi nel tuo calendario. Potrai modificare le autorizzazioni degli utenti in qualsiasi momento."
       ]
     },
     "Calendar settings section title": {
       "Share calendar": [
-        "Condividi calendario"
+        "Condividi il calendario"
       ],
       "Share outside ${ BRAND_NAME }": [
         "Condividi all'esterno di ${ BRAND_NAME }"
       ],
       "Share with ${ BRAND_NAME } users": [
-        "Condividi con gli utenti di ${ BRAND_NAME }"
+        "Condividi con utenti di ${ BRAND_NAME }"
       ],
       "Share with anyone": [
         "Condividi con chiunque"
@@ -1752,18 +1752,18 @@
     },
     "Calendar sharing permission change notification": {
       "Permissions changed for ${ email }": [
-        "Le autorizzazioni per ${ email } sono cambiate"
+        "Autorizzazioni cambiate per ${ email }"
       ]
     },
     "Calendar status": {
       "Active": [
-        "Attiva"
+        "Attivo"
       ],
       "Default": [
         "Predefinito"
       ],
       "Disabled": [
-        "Disabilitata"
+        "Disabilitato"
       ],
       "Not synced": [
         "Non sincronizzato"
@@ -1814,7 +1814,7 @@
     },
     "Calendar table settings button tooltip": {
       "Open settings": [
-        "Apri impostazioni"
+        "Apri le impostazioni"
       ]
     },
     "Calendar view": {
@@ -4420,10 +4420,10 @@
     },
     "Error when exporting event from calendar": {
       "Event @ ${ timeString }": [
-        "Evento @ ${ timeString }"
+        "Evento alle ${ timeString }"
       ],
       "Event from ${ timeString }, ${ rruleString }": [
-        "Evento da ${ timeString }, ${ rruleString }"
+        "Evento dalle ${ timeString }, ${ rruleString }"
       ]
     },
     "Event invitation error": {
@@ -4484,40 +4484,40 @@
         "Calendario esportato con successo. Ora puoi salvare il file ICS."
       ],
       "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
-        "Decrittografando gli eventi dal tuo calendario: ${ totalProcessed }/${ totalToProcess }"
+        "Decrittografia degli eventi nel tuo calendario: ${ totalProcessed }/${ totalToProcess }"
       ],
       "Due to a password reset, none of your events could be decrypted and exported.": [
-        "A causa di un ripristino della password, non è stato possibile decrittografare ed esportare alcuni dei tuoi eventi."
+        "A causa di una reimpostazione della password, non è stato possibile decrittografare ed esportare nessuno dei tuoi eventi."
       ],
       "Due to a password reset, some of your events could not be decrypted and exported.": [
-        "A causa di un ripristino della password, non è stato possibile decrittografare ed esportare alcuni dei tuoi eventi."
+        "A causa di una reimpostazione della password, non è stato possibile decrittografare ed esportare alcuni dei tuoi eventi."
       ],
       "Error decrypting event": [
-        "Errore decrittografando l'evento"
+        "Errore nella decrittografia dell'evento"
       ],
       "Learn how to restore encrypted events with old password": [
-        "Scopri come ripristinare gli eventi crittografati con la vecchia password"
+        "Scopri come ripristinare gli eventi crittografati con una vecchia password"
       ],
       "Loading events": [
         "Caricamento degli eventi in corso"
       ],
       "None of the events could be exported.": [
-        "Nessuno degli eventi può essere esportato."
+        "Impossibile esportare alcun evento."
       ],
       "Password reset - event cannot be decrypted": [
-        "Ripristino della password - impossibile decrittografare l'evento"
+        "Reimpostazione della password - impossibile decrittografare l'evento"
       ],
       "Password reset - multiple events cannot be decrypted": [
-        "Ripristino della password - impossibile decrittografare eventi multipli"
+        "Reimpostazione della password - impossibile decrittografare più eventi"
       ],
       "Please don't close the tab before the exporting process is finished.": [
         "Non chiudere la scheda prima che il processo di esportazione sia terminato."
       ],
       "Some of your events could not be exported.": [
-        "Non è stato possibile esportare alcuni dei tuoi eventi."
+        "Impossibile esportare alcuni dei tuoi eventi."
       ],
       "The internet connection was interrupted, causing the export process to fail. Please try again.": [
-        "La connessione internet è stata interrotta, causando il fallimento del processo di esportazione. Riprova."
+        "La connessione a Internet è stata interrotta. Il processo di esportazione non è riuscito. Riprova."
       ],
       "You can save an ICS file of the events that were successfully exported.": [
         "È possibile salvare un file ICS degli eventi che sono stati esportati correttamente."
@@ -5065,7 +5065,7 @@
         "leggi"
       ],
       "starred": [
-        "preferita"
+        "importante"
       ]
     },
     "FilterSettings": {
@@ -5788,7 +5788,7 @@
         "${ discountPercentage } per sempre"
       ],
       "${ DRIVE_APP_NAME } will no longer keep previous versions of your files.": [
-        "${ DRIVE_APP_NAME } non salverà più le versioni precedenti dei tuoi file."
+        "${ DRIVE_APP_NAME } non salverà più versioni precedenti dei tuoi file."
       ],
       "${ emailAddress } is invalid": [
         "${ emailAddress } non è valido"
@@ -5997,7 +5997,7 @@
         "Aggiungi URL immagine"
       ],
       "Add label": [
-        "Aggiungi etichetta"
+        "Aggiungi un'etichetta"
       ],
       "Add multiple users to your organization at once.": [
         "Aggiungi più utenti per volta alla tua organizzazione."
@@ -6087,7 +6087,7 @@
         "Chiunque abbia questo link può vedere se sei libero o occupato sul tuo calendario. Non può vedere i dettagli dell'evento, come titolo, posizione o partecipanti."
       ],
       "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
-        "Chiunque con questo link non sarà in grado di sincronizzare o ottenere aggiornamenti futuri per il tuo calendario. Se vuoi dare loro nuovamente accesso, dovrai creare un nuovo link."
+        "Chiunque abbia questo link non potrà più sincronizzare o ottenere aggiornamenti futuri per il tuo calendario. Per concederli nuovamente l'accesso, dovrai creare un nuovo link."
       ],
       "Are you sure you want to delete this address?": [
         "Sei sicuro di voler eliminare questo indirizzo?"
@@ -6096,13 +6096,13 @@
         "Sei sicuro di voler eliminare questo calendario?"
       ],
       "Are you sure you want to delete this calendar? All addresses you shared this calendar with will lose access to it.": [
-        "Sei sicuro di voler cancellare questo calendario? Tutti gli indirizzi con cui hai condiviso questo calendario ne perderanno l'accesso."
+        "Sei sicuro di voler eliminare questo calendario? Tutti gli indirizzi con cui hai condiviso questo calendario ne perderanno l'accesso."
       ],
       "Are you sure you want to delete this calendar? All events in it will be deleted.": [
         "Sei sicuro di voler eliminare questo calendario? Tutti gli eventi in esso contenuti verranno eliminati."
       ],
       "Are you sure you want to delete this calendar? You can add the holidays calendar back later.": [
-        "Sei sicuro di voler eliminare definitivamente questo calendario? Puoi aggiungere nuovamente il calendario dei giorni festivi più tardi."
+        "Sei sicuro di voler eliminare questo calendario? Potrai aggiungere nuovamente il calendario delle festività più tardi."
       ],
       "Are you sure you want to delete this domain?": [
         "Sei sicuro di voler eliminare questo dominio?"
@@ -6382,7 +6382,7 @@
         "Modifica l'indirizzo email"
       ],
       "Edit label": [
-        "Modifica etichetta"
+        "Modifica l'etichetta"
       ],
       "Edit link": [
         "Modifica link"
@@ -6406,7 +6406,7 @@
         "Le email etichettate con quest'etichetta non saranno eliminate e possono ancora essere trovate nella rispettiva cartella."
       ],
       "Enable this address to join this calendar": [
-        "Abilita questo indirizzo per aderire a questo calendario"
+        "Abilita questo indirizzo per partecipare a questo calendario"
       ],
       "Enable TLS or SSL on the external service if it is supported.": [
         "Abilita TLS o SSL sul servizio esterno se è supportato."
@@ -6463,7 +6463,7 @@
         "Inserisci il tuo numero di telefono di recupero e ti invieremo il tuo nome utente o indirizzo email."
       ],
       "Event invitations and RSVPs will be sent in this language.": [
-        "Gli inviti agli eventi e le richieste di confermazione di partecipazione verranno inviati in questa lingua."
+        "Gli inviti agli eventi e le richieste di risposta verranno inviati in questa lingua."
       ],
       "Expired": [
         "Scaduto"
@@ -7077,7 +7077,7 @@
         "Ricordati di condividere con loro i dettagli di accesso dell'utente."
       ],
       "Remove one of your calendars to join this one": [
-        "Per aderire a questo calendario devi prima rimuovere uno dei tuoi calendari"
+        "Rimuovi uno dei tuoi calendari per poter partecipare a questo"
       ],
       "Report link expired": [
         "Link di segnalazione scaduto"
@@ -7824,7 +7824,7 @@
         "Devi avere una carta di credito o un conto bancario collegato al tuo conto PayPal. Se il tuo account PayPal non lo ha, clicca sul pulsante qui sotto."
       ],
       "You need to have an active personal calendar to import your events from ICS.": [
-        "Devi avere un calendario personale attivo per importare i tuoi eventi da ICS."
+        "Devi avere un calendario personale attivo per poter importare i tuoi eventi da un file ICS."
       ],
       "You reached ${ spaceDisplayed }% of your storage capacity. ${ freeUpMessage } ${ upgradeLink }": [
         "Hai raggiunto ${ spaceDisplayed }% della tua capacità di archiviazione. ${ freeUpMessage } ${ upgradeLink }"
@@ -7970,6 +7970,12 @@
       ],
       "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
         "Effettua l'upgrade al piano ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] } o ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } per ottenere l'accesso a ${ PROTON_SENTINEL_NAME }."
+      ],
+      "P2P": [
+        "P2P"
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -8200,7 +8206,7 @@
         "Vai a spam"
       ],
       "Go to Starred": [
-        "Vai alla posta preferita"
+        "Vai alla posta importante"
       ],
       "Go to Trash": [
         "Vai al cestino"
@@ -8224,10 +8230,10 @@
         "Carica i contenuti remoti"
       ],
       "Mark as read": [
-        "Segna come letto"
+        "Segna come letta"
       ],
       "Mark as unread": [
-        "Segna come non letto"
+        "Segna come non letta"
       ],
       "Minimize / maximize composer": [
         "Minimizza / massimizza il compositore"
@@ -8305,7 +8311,7 @@
         "Mostra email non lette"
       ],
       "Star": [
-        "Preferita"
+        "Importante"
       ]
     },
     "Keyboard shortcut section name": {
@@ -8722,7 +8728,7 @@
         "Non chiederlo più"
       ],
       "Don't keep versions": [
-        "Non salvare versioni"
+        "Non conservare le versioni"
       ],
       "Duration": [
         "Durata"
@@ -8893,7 +8899,7 @@
         "Livello di filtro per NetShield"
       ],
       "Link label": [
-        "Link etichetta"
+        "Etichetta del link"
       ],
       "Mail Server (IMAP)": [
         "Server di posta (IMAP)"
@@ -9067,7 +9073,7 @@
         "Modalità di protezione"
       ],
       "Read": [
-        "Letto"
+        "Letta"
       ],
       "Recovery email address": [
         "Indirizzo email di recupero"
@@ -9082,7 +9088,7 @@
         "Frase di recupero"
       ],
       "Repeat password": [
-        "Ripeti la password"
+        "Conferma la password"
       ],
       "Require 2FA for administrators": [
         "Richiedi 2FA per gli amministratori"
@@ -9115,13 +9121,13 @@
         "Invia in"
       ],
       "Show secondary time zone": [
-        "Mostra fuso orario secondario"
+        "Mostra il fuso orario secondario"
       ],
       "Show sender images": [
         "Mostra l'immagine dei mittenti"
       ],
       "Show unread count in Favicon": [
-        "Mostra il conteggio non letti nella Favicon"
+        "Mostra il conteggio della posta non letta nella Favicon"
       ],
       "Show week numbers": [
         "Mostra i numeri delle settimane"
@@ -9148,7 +9154,7 @@
         "Spam"
       ],
       "Starred": [
-        "Preferita"
+        "Importante"
       ],
       "Start date": [
         "Data di inizio"
@@ -9293,6 +9299,9 @@
       ],
       "Name and address": [
         "Nome e indirizzo"
+      ],
+      "VPN Accelerator": [
+        "VPN Accelerator"
       ]
     },
     "label": {
@@ -9313,7 +9322,7 @@
     },
     "Label for default event notifications": {
       "All-day event notifications": [
-        "Notifiche evento tutto il giorno"
+        "Notifiche degli eventi per tutto il giorno"
       ],
       "Notifications": [
         "Notifiche"
@@ -9664,8 +9673,8 @@
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member.": [
-        "Hai raggiunto il numero massimo di ${ MAX_CALENDAR_MEMBERS } membro.",
-        "Hai raggiunto il numero massimo di ${ MAX_CALENDAR_MEMBERS } membri."
+        "Hai raggiunto il massimo di ${ MAX_CALENDAR_MEMBERS } membro.",
+        "Hai raggiunto il massimo di ${ MAX_CALENDAR_MEMBERS } membri."
       ]
     },
     "Member action": {
@@ -11185,6 +11194,27 @@
       ],
       "The whole organization": [
         "Tutta l'organizzazione"
+      ],
+      "Android": [
+        "Android"
+      ],
+      "GNU/Linux": [
+        "GNU/Linux"
+      ],
+      "iOS": [
+        "iOS"
+      ],
+      "macOS": [
+        "macOS"
+      ],
+      "TCP": [
+        "TCP"
+      ],
+      "UDP": [
+        "UDP"
+      ],
+      "Windows": [
+        "Windows"
       ]
     },
     "Option delay send seconds": {
@@ -11557,7 +11587,7 @@
     },
     "Personal calendar section description": {
       "Create a calendar to stay on top of your schedule while keeping your data secure.": [
-        "Crea un calendario per essere sempre aggiornato sulla tua pianificazione mantenendo i tuoi dati al sicuro."
+        "Crea un calendario per essere sempre aggiornato sulla tua pianificazione, mantenendo i tuoi dati al sicuro."
       ]
     },
     "PGP key warning": {
@@ -11833,7 +11863,7 @@
     },
     "Remove calendar section description": {
       "By unsubscribing, you will no longer have access to this calendar. All events in this calendar will be deleted from your account, but they'll remain in the original public link.": [
-        "Annullando l'iscrizione non avrai più accesso a questo calendario. Tutti gli eventi di questo calendario saranno eliminati dal tuo account, ma rimarranno visibili nel link pubblico originale."
+        "Annullando l'iscrizione non avrai più accesso a questo calendario. Tutti gli eventi in questo calendario verranno eliminati dal tuo account, ma rimarranno accessibili dal link pubblico originale."
       ],
       "You will no longer have access to this calendar.": [
         "Non avrai più accesso a questo calendario."
@@ -11841,21 +11871,21 @@
     },
     "Remove calendar section text": {
       "If you leave this calendar, you'll have to ask the owner to join again.": [
-        "Se abbandoni questo calendario sarà necessario chiedere al proprietario per partecipare nuovamente."
+        "Se abbandoni questo calendario, dovrai chiedere al proprietario per partecipare nuovamente."
       ],
       "This calendar will be removed from your account.": [
-        "Questo calendario sarà rimosso dal tuo account."
+        "Questo calendario verrà rimosso dal tuo account."
       ]
     },
     "Remove calendar section title": {
       "Delete calendar?": [
-        "Elimina calendario?"
+        "Eliminare il calendario?"
       ],
       "Leave calendar?": [
         "Abbandonare il calendario?"
       ],
       "Remove calendar": [
-        "Rimuovi calendario"
+        "Rimuovi il calendario"
       ],
       "Unsubscribe?": [
         "Vuoi disiscriverti?"
@@ -12303,7 +12333,7 @@
     },
     "Shared calendar label input placeholder": {
       "Add label": [
-        "Aggiungi etichetta"
+        "Aggiungi un'etichetta"
       ]
     },
     "Shared calendar; Info about calendar owner": {
@@ -12635,7 +12665,7 @@
     },
     "Subscribed calendar section description": {
       "Add public, external, or shared calendars using a URL.": [
-        "Aggiungi calendari pubblici, esterni o condivisi utilizzando un URL."
+        "Aggiungi calendari condivisi, esterni o pubblici usando un URL."
       ],
       "Add public, external, or shared calendars.": [
         "Aggiungi calendari pubblici, esterni o condivisi."
@@ -13111,7 +13141,7 @@
     },
     "Table header; invitations to share calendar": {
       "Shared with me": [
-        "Condiviso con me"
+        "Condivisi con me"
       ]
     },
     "TableHeader": {
@@ -13550,7 +13580,7 @@
         "Elimina account"
       ],
       "Delete calendar": [
-        "Elimina calendario"
+        "Elimina il calendario"
       ],
       "Delete key permanently?": [
         "Eliminare definitivamente la chiave?"
@@ -13662,7 +13692,7 @@
         "Esporta"
       ],
       "Export calendar": [
-        "Esporta calendario"
+        "Esporta il calendario"
       ],
       "Export private key": [
         "Esporta chiave privata"
@@ -13913,7 +13943,7 @@
         "Segnala un amico"
       ],
       "Remove calendar": [
-        "Rimuovi calendario"
+        "Rimuovi il calendario"
       ],
       "Remove user?": [
         "Rimuovere l'utente?"
@@ -14521,7 +14551,7 @@
     },
     "Upgrade notice": {
       "Upgrade to a ${ MAIL_SHORT_APP_NAME } paid plan to share your calendar.": [
-        "Passa a un piano a pagamento ${ MAIL_SHORT_APP_NAME } per condividere il tuo calendario."
+        "Effettua l'upgrade a un piano a pagamento di ${ MAIL_SHORT_APP_NAME } per condividere il tuo calendario."
       ]
     },
     "upsell panel": {
@@ -15001,6 +15031,14 @@
       ],
       "Participate in surveys to improve ${ BRAND_NAME } services": [
         "Partecipa ai sondaggi per migliorare i servizi di ${ BRAND_NAME }"
+      ]
+    },
+    "VPNClient": {
+      "Android": [
+        "Android"
+      ],
+      "iOS": [
+        "iOS"
       ]
     }
   }

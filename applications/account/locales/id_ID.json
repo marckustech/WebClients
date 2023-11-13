@@ -75,7 +75,7 @@
         "Tambah alamat atau domain"
       ],
       "Add calendar from URL": [
-        "Tambahkan kalender dari URL"
+        "Tambah kalender dari URL"
       ],
       "Add condition": [
         "Tambahkan syarat"
@@ -828,7 +828,7 @@
         "Pilih berkas"
       ],
       "Select language for invitation emails": [
-        "Tentukan bahasa surel undangan"
+        "Tentukan bahasa email undangan"
       ],
       "Select time zone": [
         "Pilih zona waktu"
@@ -4261,7 +4261,7 @@
     },
     "Export calendar": {
       "${ totalProcessed }/${ totalToProcess } events exported": [
-        "${ totalProcessed }/${ totalToProcess } acara diekspor"
+        "${ totalProcessed }/${ totalToProcess } jadwal diekspor"
       ],
       "Calendar successfully exported. You can now save the ICS file.": [
         "Kalender berhasil diekspor. Anda kini dapat menyimpan berkas ICS yang bersangkutan."
@@ -4638,7 +4638,7 @@
         "Tambah (${ numberOfAddedServers })"
       ],
       "Connection for up to ${ plusVpnConnections } devices": [
-        "Koneksi hingga ${ plusVpnConnections } perangkat"
+        "Koneksi untuk hingga ${ plusVpnConnections } perangkat"
       ],
       "Fastest VPN servers": [
         "Server VPN tercepat"
@@ -5551,7 +5551,7 @@
         "${ discountPercentage } selamanya"
       ],
       "${ DRIVE_APP_NAME } will no longer keep previous versions of your files.": [
-        "${ DRIVE_APP_NAME } tidak akan lagi menyimpan versi berkas sebelumnya."
+        "${ DRIVE_APP_NAME } tidak lagi menyimpan versi lawas berkas Anda."
       ],
       "${ emailAddress } is invalid": [
         "${ emailAddress } tidak valid"
@@ -5563,7 +5563,7 @@
         "${ fileName }: pratinjau resolusi rendah"
       ],
       "${ firstRemainingCalendarName } will be set as default calendar.": [
-        "${ firstRemainingCalendarName } akan diatur sebagai kalendar default."
+        "${ firstRemainingCalendarName } akan diatur sebagai kalender bawaan."
       ],
       "${ inviterEmailJSX } wants to share data with you in ${ PASS_APP_NAME }": [
         "${ inviterEmailJSX } ingin berbagi data dengan Anda pada ${ PASS_APP_NAME }"
@@ -5836,13 +5836,13 @@
         "Apakah Anda yakin untuk menghapus kalender ini?"
       ],
       "Are you sure you want to delete this calendar? All addresses you shared this calendar with will lose access to it.": [
-        "Apakah Anda yakin untuk menghapus kalender ini? Seluruh alamat yang telah diundang untuk dapat mengakses kalender ini tidak akan lagi dapat mengakses kalender ini ke depannya."
+        "Yakin hapus kalender ini? Semua alamat yang Anda bagikan bersama kalender ini akan kehilangan akses."
       ],
       "Are you sure you want to delete this calendar? All events in it will be deleted.": [
-        "Apakah Anda yakin untuk menghapus kalender ini? Seluruh acara yang terkandung di dalamnya juga akan ikut terhapus."
+        "Yakin hapus kalender ini? Semua jadwal di dalamnya akan dihapus."
       ],
       "Are you sure you want to delete this calendar? You can add the holidays calendar back later.": [
-        "Apakah Anda ingin menghapus kalender ini? Anda dapat menambahkan ulang kalender liburan di lain waktu."
+        "Yakin hapus kalender ini? Anda dapat menambahkan kalender libur kemudian."
       ],
       "Are you sure you want to delete this domain?": [
         "Apakah Anda yakin untuk menghapus domain ini?"
@@ -6199,7 +6199,7 @@
         "Masukkan nomor telepon pemulihan Anda dan kami akan mengirimkan nama pengguna atau alamat surel Anda."
       ],
       "Event invitations and RSVPs will be sent in this language.": [
-        "Undangan dan permintaan konfirmasi kehadiran acara (RSVP) akan dikirim dalam bahasa ini."
+        "Undangan acara dan reservasi akan dikirim dalam bahasa ini."
       ],
       "Expired": [
         "Kedaluwarsa"
@@ -6268,7 +6268,7 @@
         "Jika tidak pas untuk Anda, kami akan mengembalikan uang Anda."
       ],
       "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
-        "Apabila zona waktu sistem tidak cocok dengan preferensi zona waktu saat ini, Anda akan diminta untuk memperbaruinya (paling banyak sekali per hari)."
+        "Jika zona waktu sistem tidak sesuai dengan pengaturan zona waktu saat ini, Anda akan diminta untuk memperbaruinya (biasanya sekali sehari)."
       ],
       "If this domain is currently receiving emails, select the ${ boldAddresses } tab and add all active email addresses before changing the MX record to ensure a smooth transition.": [
         "Jika domain ini saat ini menerima surel, pilih tab ${ boldAddresses } dan tambahkan semua alamat surel aktif sebelum mengubah data MX untuk memastikan kelancaran transisi."
@@ -6604,7 +6604,7 @@
         "Kami menyarankan Anda untuk mengubah pengaturan ini hanya apabila Anda menggunakan PGP untuk saling bertukar pesan dengan pengguna non-${ BRAND_NAME }."
       ],
       "Only you can see the labels.": [
-        "Label ini hanya akan dapat dilihat oleh Anda."
+        "Label yang ada hanya akan dapat dilihat oleh Anda."
       ],
       "Open source": [
         "Open source"
@@ -6886,7 +6886,7 @@
         "Menyiapkan organisasi Anda"
       ],
       "Settings update failed": [
-        "Pengaturan gagal diperbarui"
+        "Pembaruan pengaturan gagal"
       ],
       "Settings updated": [
         "Pengaturan diperbarui"
@@ -7039,7 +7039,7 @@
         "Konfigurasi berikut dapat digunakan dengan router WireGuard dan klien resmi."
       ],
       "These credentials cannot be used to sign in to our official ${ VPN_APP_NAME } apps. ${ learnMore }": [
-        "Kredensiala tidak dapat digunakan untuk masuk ke aplikasi ${ VPN_APP_NAME } resmi kami. ${ learnMore }"
+        "Kredensial berikut tidak dapat digunakan untuk masuk ke aplikasi ${ VPN_APP_NAME } resmi kami. ${ learnMore }"
       ],
       "They'll receive a free month of ${ planName }.": [
         "Mereka akan memperoleh langganan ${ planName } selama satu bulan secara cuma-cuma."
@@ -7096,10 +7096,10 @@
         "Tindakan ini akan membatalkan langganan berbayar yang Anda miliki saat ini beserta seluruh keuntungan loyalitas yang telah Anda kumpulkan. Saldo yang tersisa dari langganan Anda akan dikembalikan dalam bentuk kredit akun."
       ],
       "This will delete all previous versions of your files older than ${ rententionLabel }.": [
-        "Ini akan menghapus semua versi berkas sebelumnya yang lebih lama dari ${ rententionLabel }."
+        "Ini akan menghapus semua versi lawas berkas Anda lebih dari ${ rententionLabel }."
       ],
       "This will delete all previous versions of your files.": [
-        "Tindakan ini akan menghapus seluruh versi berkas terdahulu."
+        "Ini akan menghapus semua versi lawas berkas Anda."
       ],
       "This will disable your current recovery phrase. You won't be able to use it to access your account or decrypt your data.": [
         "Tindakan ini akan menonaktifkan frasa pemulihan Anda saat ini. Anda tidak akan lagi dapat menggunakan frasa pemulihan tersebut untuk mengakses akun Anda atau mendekripsi data-data Anda."
@@ -7519,7 +7519,7 @@
         "Anda memiliki ${ availableCount } server khusus yang tersedia."
       ],
       "You have no calendars to export.": [
-        "Anda tidak memiliki kalender untuk diekspor."
+        "Tidak ada kalender untuk diekspor."
       ],
       "You have no saved payment methods.": [
         "Anda tidak memiliki metode pembayaran yang tersimpan."
@@ -7543,7 +7543,7 @@
         "Anda harus memiliki kartu kredit atau akun bank yang terhubung dengan akun Paypal Anda. Jika akun Paypal Anda tidak memiliki kartu yang terhubung, silakan klik tombol di bawah ini."
       ],
       "You need to have an active personal calendar to import your events from ICS.": [
-        "Anda harus memiliki kalender personal yang aktif untuk dapat mengimpor acara dari berkas ICS."
+        "Anda harus punya kalender pribadi aktif untuk mengimpor jadwal dari ICS."
       ],
       "You reached ${ spaceDisplayed }% of your storage capacity. ${ freeUpMessage } ${ upgradeLink }": [
         "Kapasitas penyimpanan Anda telah mencapai ${ spaceDisplayed }%. ${ freeUpMessage } ${ upgradeLink }"
@@ -7688,6 +7688,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Tampilkan, unduh, dan kelola faktur Anda."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -9366,12 +9369,12 @@
     },
     "Maximum calendar links reached warning": {
       "You can create up to ${ MAX_LINKS_PER_CALENDAR } links per calendar. To create a new link to this calendar, delete one from the list below.": [
-        "Anda dapat membuat hingga ${ MAX_LINKS_PER_CALENDAR } tautan per kalender. Untuk dapat membuat tautan baru bagi kalender ini, hapus salah satu tautan di bawah ini."
+        "Anda dapat membuat sampai dengan ${ MAX_LINKS_PER_CALENDAR } tautan per kalender. Untuk membuat tautan di kalender ini, hapus salah satu dari daftar di bawah ini."
       ]
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } members.": [
-        "Anda telah mencapai batas maksimum ${ MAX_CALENDAR_MEMBERS } pengguna."
+        "Anda telah mencapai batas maksimum ${ MAX_CALENDAR_MEMBERS } anggota."
       ]
     },
     "Member action": {
@@ -14136,7 +14139,7 @@
         "Tingkatkan ke ${ passPlusPlanName } untuk memperoleh alias Hide-my-email tanpa batasan jumlah"
       ],
       "Upgrade to ${ planName } to connect up to ${ n } devices to the VPN at once": [
-        "Tingkatkan akun Anda ke ${ planName } untuk dapat menghubungkan ${ n } perangkat ke jaringan VPN secara bersamaan"
+        "Tingkatkan ke ${ planName } untuk menghubungkan ${ n } perangkat ke VPN sekaligus."
       ]
     },
     "Upgrade notice": {

@@ -220,7 +220,7 @@ const SubscribeAccount = ({ app, redirect, searchParams }: Props) => {
         return (
             <div className="h-full flex flex-column flex-justify-center flex-align-items-center bg-norm text-center">
                 <div className="max-w-custom p-11" style={{ '--max-w-custom': '33.3rem' }}>
-                    <InAppText subscription={subscription} />;
+                    <InAppText subscription={subscription} />
                 </div>
             </div>
         );

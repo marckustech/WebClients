@@ -33,7 +33,7 @@ import {
     useAuthentication,
     useEventManager,
     useGetAddressKeys,
-    useGetPublicKeys,
+    useGetPublicKeysForInbox,
     useGetUser,
     useGetUserKeys,
     useNotifications,
@@ -92,7 +92,7 @@ const ForwardModal = ({ forward, onClose, ...rest }: Props) => {
     const silentApi = <T,>(config: any) => api<T>({ ...config, silence: true });
     const { keyTransparencyVerify, keyTransparencyCommit } = useKTVerifier(silentApi, getUser);
     const authentication = useAuthentication();
-    const getPublicKeys = useGetPublicKeys();
+    const getPublicKeysForInbox = useGetPublicKeysForInbox();
     const getUserKeys = useGetUserKeys();
     const { createNotification } = useNotifications();
     const { call } = useEventManager();
@@ -174,7 +174,7 @@ const ForwardModal = ({ forward, onClose, ...rest }: Props) => {
             }
             const [forwarderAddressKeys, { RecipientType, publicKeys, Errors }] = await Promise.all([
                 getAddressKeys(model.addressID),
-                getPublicKeys(model.email),
+                getPublicKeysForInbox({ email: model.email }),
             ]);
             const { privateKeys } = splitKeys(forwarderAddressKeys);
             const [forwarderKey] = privateKeys;

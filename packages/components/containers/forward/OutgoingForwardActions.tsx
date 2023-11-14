@@ -10,7 +10,7 @@ import { ForwardingState, ForwardingType, OutgoingAddressForwarding, UserModel }
 import isTruthy from '@proton/utils/isTruthy';
 
 import { DropdownActions, useModalState, useModalTwo } from '../../components';
-import { useApi, useEventManager, useGetAddressKeys, useGetPublicKeys, useNotifications } from '../../hooks';
+import { useApi, useEventManager, useGetAddressKeys, useGetPublicKeysForInbox, useNotifications } from '../../hooks';
 import ConfirmDeleteForwarding from './ConfirmDeleteForwarding';
 import ForwardModal from './ForwardModal';
 import { enableForwarding } from './helpers';
@@ -31,7 +31,7 @@ const OutgoingForwardActions = ({ user, forward }: Props) => {
     const isExternal = forward.Type === ForwardingType.ExternalUnencrypted;
 
     const api = useApi();
-    const getPublicKeys = useGetPublicKeys();
+    const getPublicKeysForInbox = useGetPublicKeysForInbox();
     const getAddressKeys = useGetAddressKeys();
     const { call } = useEventManager();
     const { createNotification } = useNotifications();
@@ -61,7 +61,7 @@ const OutgoingForwardActions = ({ user, forward }: Props) => {
                 onClick: async () => {
                     const [forwarderAddressKeys, forwardeePublicKeys] = await Promise.all([
                         getAddressKeys(forward.ForwarderAddressID),
-                        getPublicKeys(forward.ForwardeeEmail),
+                        getPublicKeysForInbox({ email: forward.ForwardeeEmail }),
                     ]);
                     await enableForwarding({
                         api,

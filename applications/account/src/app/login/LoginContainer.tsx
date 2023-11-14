@@ -11,8 +11,10 @@ import {
     useConfig,
     useErrorHandler,
     useFeature,
+    useIsInboxElectronApp,
 } from '@proton/components';
 import { startUnAuthFlow } from '@proton/components/containers/api/unAuthenticatedApi';
+import ElectronBlockedContainer from '@proton/components/containers/app/ElectronBlockedContainer';
 import useKTActivation from '@proton/components/containers/keyTransparency/useKTActivation';
 import { AuthActionResponse, AuthCacheResult, AuthStep } from '@proton/components/containers/login/interface';
 import {
@@ -92,6 +94,7 @@ const LoginContainer = ({
 }: Props) => {
     const { state } = useLocation<{ username?: string } | undefined>();
     const { APP_NAME } = useConfig();
+    const { isElectronDisabled } = useIsInboxElectronApp();
 
     useMetaTags(metaTags);
 
@@ -189,6 +192,10 @@ const LoginContainer = ({
             subTitle,
         };
     })();
+
+    if (isElectronDisabled) {
+        return <ElectronBlockedContainer />;
+    }
 
     const children = (
         <>

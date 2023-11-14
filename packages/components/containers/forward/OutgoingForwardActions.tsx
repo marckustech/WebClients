@@ -21,7 +21,7 @@ import {
     useApi,
     useEventManager,
     useGetAddressKeys,
-    useGetPublicKeys,
+    useGetPublicKeysForInbox,
     useNotifications,
 } from '../../hooks';
 import ConfirmDeleteForwarding from './ConfirmDeleteForwarding';
@@ -51,7 +51,7 @@ const OutgoingForwardActions = ({ user, forward, addresses, forwardings }: Props
 
     const api = useApi();
     const addressFlags = useAddressFlags(address);
-    const getPublicKeys = useGetPublicKeys();
+    const getPublicKeysForInbox = useGetPublicKeysForInbox();
     const getAddressKeys = useGetAddressKeys();
     const { call } = useEventManager();
     const { createNotification } = useNotifications();
@@ -87,7 +87,7 @@ const OutgoingForwardActions = ({ user, forward, addresses, forwardings }: Props
                 onClick: async () => {
                     const [forwarderAddressKeys, forwardeePublicKeys] = await Promise.all([
                         getAddressKeys(forward.ForwarderAddressID),
-                        getPublicKeys({ email: forward.ForwardeeEmail }),
+                        getPublicKeysForInbox({ email: forward.ForwardeeEmail }),
                     ]);
                     await enableForwarding({
                         api,

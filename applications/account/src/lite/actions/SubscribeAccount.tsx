@@ -51,6 +51,7 @@ import LiteLoaderPage from '../components/LiteLoaderPage';
 import PromotionAlreadyApplied from '../components/PromotionAlreadyApplied';
 import PromotionExpired from '../components/PromotionExpired';
 import SubscribeAccountDone from '../components/SubscribeAccountDone';
+import { SupportedActions } from '../helper';
 import { SubscribeType } from '../types/SubscribeType';
 
 import './SubscribeAccount.scss';
@@ -60,11 +61,12 @@ interface Props {
     fullscreen?: boolean;
     searchParams: URLSearchParams;
     app: ProductParam;
+    action: SupportedActions;
 }
 
 const plusPlans = [PLANS.VPN, PLANS.MAIL, PLANS.DRIVE, PLANS.PASS_PLUS, PLANS.VPN_PASS_BUNDLE];
 
-const SubscribeAccount = ({ app, redirect, searchParams }: Props) => {
+const SubscribeAccount = ({ action, app, redirect, searchParams }: Props) => {
     const onceCloseRef = useRef(false);
     const topRef = useRef<HTMLDivElement>(null);
     const [user] = useUser();
@@ -80,7 +82,7 @@ const SubscribeAccount = ({ app, redirect, searchParams }: Props) => {
     const [error, setError] = useState({ title: '', message: '', error: '' });
 
     const bf2023IsExpiredFlag = useFlag('BF2023IsExpired');
-    const bf2023OfferCheck = useFlag('BF2023OfferCheck');
+    const bf2023OfferCheck = useFlag('BF2023OfferCheck') && action === SupportedActions.SubscribeAccountLink;
 
     const canEdit = canPay(user);
 
@@ -288,7 +290,7 @@ const SubscribeAccount = ({ app, redirect, searchParams }: Props) => {
                                             // Ignore visionary since it doesn't require a BF coupon
                                             !data.model.planIDs[PLANS.NEW_VISIONARY] &&
                                             // Tried to apply the BF coupon, but the API responded without it.
-                                            data.model.coupon === COUPON_CODES.BLACK_FRIDAY_2023 &&
+                                            coupon?.toUpperCase() === COUPON_CODES.BLACK_FRIDAY_2023 &&
                                             data.result.Coupon?.Code !== COUPON_CODES.BLACK_FRIDAY_2023
                                         ) {
                                             setError(offerUnavailableError);

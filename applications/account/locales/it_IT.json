@@ -84,7 +84,7 @@
         "Aggiungi carta di credito/debito"
       ],
       "Add credits": [
-        "Aggiungi credito"
+        "Aggiungi crediti"
       ],
       "Add domain": [
         "Aggiungi dominio"
@@ -318,7 +318,7 @@
         "Elimina senza esportare"
       ],
       "Delete your account": [
-        "Elimina il tuo account"
+        "Elimina il mio account"
       ],
       "Details": [
         "Dettagli"
@@ -1053,7 +1053,7 @@
         "Visualizza i dettagli del piano"
       ],
       "Void": [
-        "Nullo"
+        "Invalida"
       ],
       "Void all recovery files": [
         "Invalida tutti i file di recupero"
@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Modifica i dettagli delle fatture"
+      ],
+      "Authenticating": [
+        "Autenticazione"
       ]
     },
     "action": {
@@ -6559,7 +6562,7 @@
         "Se hai un codice regalo, inseriscilo qui sotto per applicare lo sconto."
       ],
       "If you have never used two-factor authentication before, we strongly recommend you ${ guideButton }.": [
-        "Se non hai mai usato l'autenticazione a 2 fattori prima, ti raccomandiamo fortemente ${ guideButton }."
+        "Se non hai mai usato l'autenticazione a 2 fattori prima, ti consigliamo vivamente di leggere ${ guideButton }."
       ],
       "If you have set both SPF and DKIM, DMARC allows you to specify how other email services should deliver email for your domain if both SPF and DKIM checks have failed. This can make it harder for spammers pretending to be you but may also cause delivery issues if not done properly.": [
         "Se hai impostato sia SPF che DKIM, DMARC ti permette di specificare come gli altri servizi email dovrebbero consegnare le email per il tuo dominio nel caso falliscano sia i controlli SPF che DKIM. Questo può rendere più difficile agli spammer fingere di essere te, ma potrebbe creare problemi di consegna se non è fatto correttamente."
@@ -6753,7 +6756,7 @@
         "Caricamento in corso..."
       ],
       "Logs include authentication attempts for all ${ BRAND_NAME } services that use your ${ BRAND_NAME_TWO } credentials.": [
-        "I log includono i tentativi di accesso di tutti i servizi ${ BRAND_NAME } che usano le tue credenziali ${ BRAND_NAME_TWO }."
+        "I log includono i tentativi di accesso a tutti i servizi di ${ BRAND_NAME } che usano le tue credenziali ${ BRAND_NAME_TWO }."
       ],
       "Make sure you ${ addARecoveryMethod } so that you can get back into your account if you forget your password.": [
         "Assicurati di ${ addARecoveryMethod } in modo da poter tornare al tuo account se dimentichi la password."
@@ -7035,7 +7038,7 @@
         "Accodato"
       ],
       "read our two-factor authentication guide first": [
-        "leggi prima la nostra guida all'autenticazione a due fattori"
+        "leggere la nostra guida sull'autenticazione a due fattori"
       ],
       "Recommended on trusted devices. ${ keepMeSignedInLearnMoreLink }": [
         "Consigliato su dispositivi affidabili. ${ keepMeSignedInLearnMoreLink }"
@@ -8188,16 +8191,16 @@
         "Inoltra"
       ],
       "Go to All Mail": [
-        "Vai a Tutta la posta"
+        "Vai a tutta la posta"
       ],
       "Go to Archive": [
         "Vai all'archivio"
       ],
       "Go to Drafts": [
-        "Vai alle Bozze"
+        "Vai alle bozze"
       ],
       "Go to Inbox": [
-        "Vai alla posta in entrata"
+        "Vai alla posta in arrivo"
       ],
       "Go to Sent": [
         "Vai alla posta inviata"
@@ -8263,7 +8266,7 @@
         "Sposta in..."
       ],
       "Move up": [
-        "Sposta su"
+        "Sposta in alto"
       ],
       "New message": [
         "Nuovo messaggio"
@@ -8272,7 +8275,7 @@
         "Apri il pannello dei comandi"
       ],
       "Open next message": [
-        "Apri il prossimo messaggio"
+        "Apri messaggio successivo"
       ],
       "Open previous message": [
         "Apri messaggio precedente"
@@ -8287,7 +8290,7 @@
         "Rispondi a tutti"
       ],
       "Save draft": [
-        "Salva la bozza"
+        "Salva bozza"
       ],
       "Search": [
         "Cerca"
@@ -8311,7 +8314,7 @@
         "Mostra email non lette"
       ],
       "Star": [
-        "Importante"
+        "Segna come importante"
       ]
     },
     "Keyboard shortcut section name": {
@@ -13249,7 +13252,7 @@
         "${ appName } Free"
       ],
       "${ MAIL_APP_NAME } Keyboard Shortcuts": [
-        "${ MAIL_APP_NAME } Scorciatoie da tastiera"
+        "Scorciatoie da tastiera di ${ MAIL_APP_NAME }"
       ],
       "(active)": [
         "(attivo)"
@@ -13315,7 +13318,7 @@
         "Aggiungi carta di credito/debito"
       ],
       "Add credits": [
-        "Aggiungi credito"
+        "Aggiungi crediti"
       ],
       "Add domain": [
         "Aggiungi dominio"
@@ -14027,7 +14030,7 @@
         "Configura l'inoltro"
       ],
       "Set up two-factor authentication": [
-        "Abilita l'autenticazione in due fattori"
+        "Abilita l'autenticazione a due fattori"
       ],
       "Set your password": [
         "Scegli la tua password"

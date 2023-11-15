@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Fatura ayrıntılarını düzenle"
+      ],
+      "Authenticating": [
+        "Kimlik doğrulanıyor"
       ]
     },
     "action": {
@@ -1714,7 +1717,7 @@
         "Takvimi paylaş"
       ],
       "Share outside ${ BRAND_NAME }": [
-        "${ BRAND_NAME } dışındakilerle paylaş"
+        "${ BRAND_NAME } kullanmayanlarla paylaş"
       ],
       "Share with ${ BRAND_NAME } users": [
         "${ BRAND_NAME } kullanıcıları ile paylaş"
@@ -3052,7 +3055,7 @@
     },
     "Delete calendar section description": {
       "All events in this calendar will be deleted.": [
-        "Bu takvimdeki tün etkinlikler silinecek."
+        "Bu takvimdeki tüm etkinlikler silinecek."
       ],
       "You will no longer have access to this calendar.": [
         "Bu takvime artık erişiminiz yok."
@@ -9244,7 +9247,7 @@
         "Doğrulama kodu"
       ],
       "Verify keys with Key Transparency": [
-        "Anahtar Saydamlığı ile anahtarları doğrulayın"
+        "Anahtarları Anahtar Saydamlığı ile doğrulayın"
       ],
       "We are sorry to see you go. Please explain why you are leaving to help us improve.": [
         "Gitmenize üzüldük. Lütfen kendimizi geliştirmemize yardımcı olmak için neden ayrıldığınızı açıklayın."
@@ -9664,8 +9667,8 @@
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member.": [
-        "Bu takvime eklenebilecek en fazla ${ MAX_CALENDAR_MEMBERS } üye sayısına ulaştınız.",
-        "Bu takvime eklenebilecek en fazla ${ MAX_CALENDAR_MEMBERS } üye sayısına ulaştınız."
+        "Eklenebilecek en fazla ${ MAX_CALENDAR_MEMBERS } üye sayısına ulaştınız.",
+        "Eklenebilecek en fazla ${ MAX_CALENDAR_MEMBERS } üye sayısına ulaştınız."
       ]
     },
     "Member action": {
@@ -11849,7 +11852,7 @@
         "Takvim silinsin mi?"
       ],
       "Leave calendar?": [
-        "Takvimden ayrıl?"
+        "Takvimden ayrılınsın mı?"
       ],
       "Remove calendar": [
         "Takvimi kaldır"

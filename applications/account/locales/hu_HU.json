@@ -1091,6 +1091,9 @@
       ],
       "Edit address": [
         "Cím szerkesztése"
+      ],
+      "Set as default": [
+        "Beállítás alapértelmezettként"
       ]
     },
     "Address status": {
@@ -3933,6 +3936,9 @@
     "familyOffer_2023:Title": {
       "Introducing ${ planName }": [
         "${ planName } csomag bemutatása"
+      ],
+      "Delete organization?": [
+        "Szervezet törlése?"
       ]
     },
     "familyOffer_2023:Tooltip": {
@@ -4374,6 +4380,9 @@
       ],
       "Servers": [
         "Szerver"
+      ],
+      "App version": [
+        "Alkalmazás verzió"
       ]
     },
     "Header for addresses table": {
@@ -4738,6 +4747,9 @@
       ],
       "Canceling": [
         "Megszakítás alatt"
+      ],
+      "Active": [
+        "Aktív"
       ]
     },
     "Import type": {
@@ -6759,6 +6771,9 @@
       ],
       "Welcome": [
         "Üdvözöljük"
+      ],
+      "Billing cycle: ${ text }": [
+        "Számlázási ciklus: ${ text }"
       ]
     },
     "info": {
@@ -8357,6 +8372,9 @@
       ],
       "Enable authentication logs": [
         "Hitelesítési naplók engedélyezése"
+      ],
+      "Enable ${ PROTON_SENTINEL_NAME }": [
+        "${ PROTON_SENTINEL_NAME } engedélyezése"
       ]
     },
     "Mail import summary": {
@@ -8993,6 +9011,16 @@
       ],
       "Unlimited logins and notes": [
         "Korlátlan számú bejelentkezés és jegyzet"
+      ],
+      "${ n } calendar per user": [
+        "${ n } naptár felhasználónként",
+        "${ n } naptár felhasználónként"
+      ],
+      "Custom domains for email aliases": [
+        "Saját domain név használata e-mail álnevekhez"
+      ],
+      "No-logs policy": [
+        "Nincs naplózás"
       ]
     },
     "new_plans: feature info": {
@@ -11105,6 +11133,9 @@
       ],
       "Role": [
         "Szerepkör"
+      ],
+      "List": [
+        "Lista"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -12052,6 +12083,9 @@
       ],
       "Users": [
         "Felhasználók"
+      ],
+      "Forward and Auto-reply": [
+        "Továbbít és automatikus válasz"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -12738,6 +12772,9 @@
       ],
       "Remove ${ PASS_APP_NAME }": [
         "${ PASS_APP_NAME } eltávolítása"
+      ],
+      "Get the deal": [
+        "Érdekel az ajánlat"
       ]
     },
     "bf2023: Deal details": {
@@ -12761,6 +12798,12 @@
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
         "Prémium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } tárhely"
+      ],
+      "Premium Password Manager": [
+        "Prémium jelszókezelő"
       ]
     },
     "bf2023: Info": {
@@ -12787,6 +12830,9 @@
       ],
       "Users": [
         "Felhasználók"
+      ],
+      "month": [
+        "hónap"
       ]
     },
     "Condition label": {
@@ -12797,6 +12843,12 @@
     "Disable account": {
       "You can safely close this tab.": [
         "Most már nyugodtan bezárhatja ezt az ablakot."
+      ],
+      "Back to ${ signIn }.": [
+        "Vissza a ${ signIn }."
+      ],
+      "sign in": [
+        "bejelentkezéshez"
       ]
     },
     "drive_signup_2023: Info": {
@@ -12947,6 +12999,12 @@
       ],
       "Select your plan": [
         "Válasszon csomagot"
+      ],
+      "Recommended": [
+        "Ajánlott"
+      ],
+      "Upgrade your plan": [
+        "Váltson nagyobb csomagra"
       ]
     },
     "pass_signup_2023: Info": {
@@ -12970,6 +13028,9 @@
       ],
       "You currently have": [
         "Jelenleg a következővel rendelkezik"
+      ],
+      "Protected by Swiss privacy laws": [
+        "Svájc adatvédelmi törvényei által védve"
       ]
     },
     "pass_signup_2023: Title": {
@@ -12994,6 +13055,9 @@
     "session_recovery:initiation:action": {
       "Request password reset": [
         "Jelszóváltoztatás kérése"
+      ],
+      "Got it": [
+        "Rendben"
       ]
     },
     "session_recovery:settings:action": {
@@ -13022,6 +13086,9 @@
       ],
       "Plan": [
         "Csomag"
+      ],
+      "Status": [
+        "Állapot"
       ]
     },
     "Tooltip default pgp scheme": {
@@ -13032,11 +13099,67 @@
     "VPN B2B cancellation reason": {
       "I found another service that I like better": [
         "Találtam egy másik szolgáltatást, ami jobban tetszik"
+      ],
+      "It’s too expensive": [
+        "Túl drága"
       ]
     },
     "vpn_2step: feature": {
       "No ads": [
         "Nincsenek hirdetések"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "A kedvezmények a standard havi árazás alapján kerülnek kiszámításra."
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } hónap",
+        "az első ${ n } hónapban"
+      ]
+    },
+    "familyOffer_2023:Settings section title": {
+      "Family": [
+        "Család"
+      ]
+    },
+    "pass_signup_2023: Feature": {
+      "End-to-end encrypted": [
+        "Végpontok közt titkosított"
+      ],
+      "Open source": [
+        "Nyílt forráskódú"
+      ],
+      "Protected by Swiss privacy laws": [
+        "Svájc adatvédelmi törvényei által védve"
+      ],
+      "Swiss based": [
+        "Svájci székhelyű"
+      ]
+    },
+    "Server-Info": {
+      "active": [
+        "aktív"
+      ],
+      "pending": [
+        "függőben"
+      ]
+    },
+    "Subscription": {
+      "Billed monthly": [
+        "Havonta számlázva"
+      ]
+    },
+    "Subscription change warning": {
+      "Got it": [
+        "Rendben"
+      ]
+    },
+    "vpn_2step: billing": {
+      "Billed monthly": [
+        "Havonta számlázva"
       ]
     }
   }

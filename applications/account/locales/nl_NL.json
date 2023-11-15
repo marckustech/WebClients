@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Factuurgegevens wijzigen"
+      ],
+      "Authenticating": [
+        "Aan het inloggen"
       ]
     },
     "action": {
@@ -6362,7 +6365,7 @@
         "inactief"
       ],
       "Increase your account security by verifying your email address.": [
-        "Verhoog de beveiliging van uw account door uw e-mail adres te verifiëren."
+        "Verhoog de beveiliging van uw account door uw e-mailadres te verifiëren."
       ],
       "Inherited from parent folder": [
         "Overgenomen van bovenliggende map"
@@ -7216,10 +7219,10 @@
         "Niet-ondersteund bestand"
       ],
       "Unverified": [
-        "Niet geverifieerde"
+        "Niet geverifieerd"
       ],
       "Unverified email address.": [
-        "Niet-geverifieerd e-mail adres."
+        "Niet-geverifieerd e-mailadres."
       ],
       "Up to ${ FAMILY_MAX_USERS } users": [
         "Tot ${ FAMILY_MAX_USERS } gebruikers"
@@ -11857,7 +11860,7 @@
     },
     "session_recovery:in_progress:title": {
       "Password reset requested": [
-        "Wachtwoord reset aangevraagd"
+        "Wachtwoordherstel aangevraagd"
       ]
     },
     "session_recovery:initiation:action": {
@@ -13395,7 +13398,7 @@
         "Versleuteling en sleutels"
       ],
       "Enter your ${ BRAND_NAME } Account details to join the ${ app } Beta program": [
-        "Vul uw ${ BRAND_NAME } Account gegevens in om deel te nemen aan het ${ app } Beta programma"
+        "Vul uw ${ BRAND_NAME } Account gegevens in om deel te nemen aan het ${ app } Bèta programma"
       ],
       "Enter your password": [
         "Voer uw wachtwoord in"
@@ -13763,7 +13766,7 @@
         "Inloggen en toegang verlenen"
       ],
       "Sign in to join the Beta program": [
-        "Log in om deel te nemen aan het Beta programma"
+        "Log in om deel te nemen aan het Bèta programma"
       ],
       "Sign in with 2FA": [
         "Inloggen met 2FA"
@@ -13888,7 +13891,7 @@
         "Waarschuwing: vermoedelijk valse website"
       ],
       "We'll send an email to your new address with instructions on completing the change.": [
-        "We zullen een e-mail naar uw nieuwe e-mail adres sturen met instructies voor het voltooien van de wijziging."
+        "We zullen een e-mail naar uw nieuwe e-mailadres sturen met instructies voor het voltooien van de wijziging."
       ],
       "What would you like to import?": [
         "Wat zou u willen importeren?"
@@ -14170,7 +14173,7 @@
         "Gebruik de standaard schuifbalken van uw browser. Deze zijn meestal groter en gemakkelijker te gebruiken"
       ],
       "Verified email address": [
-        "Geverifieerd e-mail adres"
+        "Geverifieerd e-mailadres"
       ],
       "We detected a problem with your DNS configuration. Please make sure your records match the instructions below. If the problem persists, we will have to switch DKIM signing off.": [
         "We hebben een probleem met uw DNS-configuratie ontdekt. Zorg ervoor dat uw records overeenkomen met de instructies hieronder. Als het probleem zich blijft voordoen, moeten we het ondertekenen met DKIM stopzetten."

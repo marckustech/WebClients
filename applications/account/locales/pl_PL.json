@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Edytuj szczegóły faktury"
+      ],
+      "Authenticating": [
+        "Uwierzytelnianie"
       ]
     },
     "action": {

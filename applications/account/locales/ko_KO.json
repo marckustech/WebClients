@@ -705,7 +705,7 @@
         "라벨 삭제"
       ],
       "Remove this member": [
-        "이 회원 제거"
+        "이 일원을 제거"
       ],
       "Remove this notification": [
         "이 알림 삭제"
@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "신용 청구서 세부 정보 편집"
+      ],
+      "Authenticating": [
+        "인증 중"
       ]
     },
     "action": {
@@ -4108,7 +4111,7 @@
         "@ ${ timeString } 이벤트"
       ],
       "Event from ${ timeString }, ${ rruleString }": [
-        "${ timeString }, ${ rruleString }의 이벤트"
+        "${ timeString }, ${ rruleString }에 있는 이벤트"
       ]
     },
     "Event invitation error": {
@@ -6502,7 +6505,7 @@
         "비 ${ BRAND_NAME } 수신자와 PGP를 사용하는 경우에만 이 설정을 변경하십시오."
       ],
       "Only you can see the labels.": [
-        "오직 사용자만 이 라벨을 확인할 수 있어요."
+        "오직 사용자만 이 라벨을 확인할 수 있습니다."
       ],
       "Open source": [
         "오픈 소스"
@@ -9281,7 +9284,7 @@
     },
     "Maximum shared calendar members reached alert": {
       "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } members.": [
-        "최대 ${ MAX_CALENDAR_MEMBERS }명 멤버 수에 도달했습니다."
+        "최대 ${ MAX_CALENDAR_MEMBERS }명 구성원 수에 도달했습니다."
       ]
     },
     "Member action": {

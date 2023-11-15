@@ -678,7 +678,7 @@
         "Цытаваць"
       ],
       "Reactivate keys": [
-        "Паўторная актывацыя ключоў"
+        "Паўторна актываваць ключы"
       ],
       "Reconnect": [
         "Перападключыцца"
@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Рэдагаваць падрабязнасці рахунка"
+      ],
+      "Authenticating": [
+        "Аўтэнтыфікацыя"
       ]
     },
     "action": {
@@ -3256,7 +3259,7 @@
         "Выдаліць “${ value }”"
       ],
       "Request confirmation": [
-        "Запытваць пацвярджэнне"
+        "Запытаць пацвярджэнне"
       ],
       "Resume": [
         "Узнавіць"
@@ -3371,7 +3374,7 @@
         "Пераслана ад"
       ],
       "Forward to": [
-        "Пераслаць"
+        "Пераслаць на"
       ],
       "or": [
         "або"
@@ -3532,7 +3535,7 @@
         "Памылка аўтэнтыфікацыі."
       ],
       "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
-        "Аўтаматычны адказ з'яўляецца платнай функцыяй. Перайдзіце на платны ўліковы запіс, каб карыстацца ёй."
+        "Аўтаматычныя адказы з'яўляюцца платнай функцыяй. Перайдзіце на платны ўліковы запіс, каб карыстацца ёй."
       ],
       "Calendar cannot be found": [
         "Не атрымалася знайсці каляндар"
@@ -4205,6 +4208,15 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Немагчыма загрузіць старонку. Абнавіце старонку або праверце злучэнне з інтэрнэтам."
+      ],
+      "App currently unavailable": [
+        "Праграма часова недаступна"
+      ],
+      "Open in browser": [
+        "Адкрыць у браўзеры"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Пераключыцеся на вэб-версію, каб выкарыстоўваць ${ MAIL_APP_NAME } або ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error message, Disable account": {
@@ -4315,10 +4327,10 @@
     },
     "Export calendar": {
       "${ totalProcessed }/${ totalToProcess } event exported": [
-        "${ totalProcessed }/${ totalToProcess } падзея экспартавана",
-        "${ totalProcessed }/${ totalToProcess } падзеі экспартаваны",
-        "${ totalProcessed }/${ totalToProcess } падзей экспартаваны",
-        "${ totalProcessed }/${ totalToProcess } падзей экспартаваны"
+        "Падзей экспартавана: ${ totalProcessed }/${ totalToProcess }",
+        "Падзей экспартавана: ${ totalProcessed }/${ totalToProcess }",
+        "Падзей экспартавана: ${ totalProcessed }/${ totalToProcess }",
+        "Падзей экспартавана: ${ totalProcessed }/${ totalToProcess }"
       ],
       "Calendar successfully exported. You can now save the ICS file.": [
         "Каляндар паспяхова экспартаваны. Цяпер вы можаце захаваць файл ICS."
@@ -8094,13 +8106,13 @@
     },
     "Key state badge": {
       "Active": [
-        "Актыўны"
+        "Актыўна"
       ],
       "Compromised": [
         "Скампраметаваны"
       ],
       "Disabled": [
-        "Адключаны"
+        "Адключана"
       ],
       "Forwarding": [
         "Перасылка"
@@ -8478,7 +8490,7 @@
         "Аўтаматычна паказваць аддаленыя відарысы"
       ],
       "Auto-delete unwanted messages": [
-        "Аўтаматычна выдаляць непажаданыя паведамленні"
+        "Аўтавыдаленне непажаданых паведамленняў"
       ],
       "Auto-detect primary time zone": [
         "Аўтаматычнае вызначэнне асноўнага часавога пояса"
@@ -8703,7 +8715,7 @@
         "Больш не пытаць"
       ],
       "Don't keep versions": [
-        "Не пакідаць версіі"
+        "Не захоўваць версіі"
       ],
       "Duration": [
         "Працягласць"
@@ -8838,7 +8850,7 @@
         "Заставацца ў сістэме"
       ],
       "Keep messages in Sent/Drafts": [
-        "Пакідаць паведамленні ў Адпраўленых/Чарнавіках"
+        "Захоўваць паведамленні ў Адпраўленых/Чарнавіках"
       ],
       "Key": [
         "Ключ"
@@ -11329,6 +11341,9 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (для іншых дыстрыбутываў)"
+      ],
+      ".exe (64-bit)": [
+        ".exe (64-бітны)"
       ]
     },
     "Participant name": {
@@ -13809,7 +13824,7 @@
         "Экспартаваць каляндар"
       ],
       "Export private key": [
-        "Экспартаванне прыватнага ключа"
+        "Экспартаваць прыватны ключ"
       ],
       "Export public key": [
         "Экспартаванне публічнага ключа"
@@ -14394,7 +14409,7 @@
         "Дзеянні"
       ],
       "Fingerprint": [
-        "Адбітак"
+        "Адбітак пальца"
       ],
       "Key type": [
         "Тып ключа"
@@ -14472,7 +14487,7 @@
         "Наладзьце імпартаванне, каб паменшыць колькасць метак"
       ],
       "Delete trash and spam messages after 30 days. Turning on auto-delete gives messages already in trash/spam a deletion date based on the date they were moved there.": [
-        "Выдаліць смецце і спам праз 30 дзён. Пры ўключэнні аўтаматычнага выдалення паведамленні, якія ўжо знаходзяцца ў сметніцы/спаме, атрымаюць дату выдалення на аснове даты іх перамяшчэння туды."
+        "Выдаліць смецце і спам праз 30 дзён. Пры ўключэнні аўтаматычнага выдалення паведамленняў, якія ўжо знаходзяцца ў сметніцы/спаме, атрымаюць дату выдалення на аснове даты іх перамяшчэння туды."
       ],
       "Device information such as operating system": [
         "Звесткі пра прыладу, такія як аперацыйная сістэма"
@@ -14496,7 +14511,7 @@
         "Пошта Gmail аўтаматычна класіфікуе некаторыя лісты, такія як \"Сацыяльныя\" і \"Рэклама\". Вы можаце выбраць куды імпартаваць гэтыя лісты."
       ],
       "Group emails in the same conversation together in your Inbox or display them separately.": [
-        "Групуйце лісты ў адну размову ў папцы \"Уваходныя\" або адлюстроўвайце іх асобна."
+        "Групуйце лісты ў адну размову ў папцы Уваходныя або адлюстроўвайце іх асобна."
       ],
       "If you purchased a gift code or received one from our support team, you can enter it here.": [
         "Калі вы купілі падарункавы код або атрымалі яго ад нашай службы падтрымкі, то можаце ўвесці яго тут."
@@ -14879,7 +14894,7 @@
         "Налады даты і часу на вашай прыладзе не сінхранізуюцца. ${ learnMore }"
       ],
       "The device or service using this token will no longer be able to send email through ${ MAIL_APP_NAME }.": [
-        "Прылада або сэрвіс, якія выкарыстоўваюць гэты токен, больш не змогуць адпраўляць лісты праз ${ MAIL_APP_NAME }."
+        "Прылада або сэрвіс, якія выкарыстоўваюць гэты токен больш не змогуць адпраўляць лісты праз ${ MAIL_APP_NAME }."
       ],
       "This import may exceed the storage capacity currently available in your ${ BRAND_NAME } account. Please consider customizing your import.": [
         "Гэта імпартаванне можа перавысіць ёмістасць сховішча, якое цяпер даступна для вашага ўліковага запісу ${ BRAND_NAME }. Змяніце налады імпартавання."

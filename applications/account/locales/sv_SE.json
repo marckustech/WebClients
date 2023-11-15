@@ -405,7 +405,7 @@
         "Redigera servrar"
       ],
       "Edit sieve": [
-        "Redigera sieve"
+        "Redigera Sieve"
       ],
       "Edit sign-in details": [
         "Redigera inloggningsdetaljer"
@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Redigera fakturadetaljer"
+      ],
+      "Authenticating": [
+        "Autentisering"
       ]
     },
     "action": {
@@ -1218,7 +1221,7 @@
     },
     "Alias promotion": {
       "Get 10 aliases for free!": [
-        "Skaffa 10 alias gratis!"
+        "Få 10 alias gratis!"
       ],
       "Get unlimited aliases!": [
         "Skaffa obegränsat antal alias!"
@@ -1227,7 +1230,7 @@
         "Prova ${ PASS_APP_NAME }"
       ],
       "With ${ PASS_APP_NAME } you can generate unique aliases to hide your identity and forward emails to your main inbox.": [
-        "Med ${ PASS_APP_NAME } kan du skapa unika alias för att dölja din identitet och vidarebefordra e-post till din primära inkorg."
+        "Med ${ PASS_APP_NAME } kan du generera unika alias för att dölja din identitet och vidarebefordra e-post till din primära inkorg."
       ]
     },
     "Alter": {
@@ -4171,6 +4174,15 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Vi kunde inte ladda denna sida. Uppdatera sidan eller kontrollera din Internetanslutning."
+      ],
+      "App currently unavailable": [
+        "App är för närvarande inte tillgänglig"
+      ],
+      "Open in browser": [
+        "Öppna i webbläsare"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Byt till webbversionen för att använda ${ MAIL_APP_NAME } eller ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error message, Disable account": {
@@ -5940,7 +5952,7 @@
         "Autosvar är aktivt varje vecka mellan vald start- och sluttid."
       ],
       "Auto-reply is active from the start time to the end time.": [
-        "Auto-svar är aktivt från starttiden till sluttiden."
+        "Autosvar är aktivt från starttiden till sluttiden."
       ],
       "Auto-reply is active until you turn it off.": [
         "Autosvar är aktivt tills att du stänger av det."
@@ -6310,7 +6322,7 @@
         "Få åtkomst genom att skapa ett ${ BRAND_NAME }-konto och acceptera inbjudan."
       ],
       "Give the token a descriptive name, such as the service you plan to use it with, and select one of your active custom domain addresses. Only this address will be able to send emails with this token.": [
-        "Ge detta token ett beskrivande namn, tex. vilken tjänst du avser att använda det med och välj en av dina aktiva anpassade domänadresser. Endast denna adress kan skicka e-post med denna token."
+        "Ge detta token ett beskrivande namn, t.ex. vilken tjänst du avser att använda det med och välj en av dina aktiva anpassade domänadresser. Endast denna adress kan skicka e-post med denna token."
       ],
       "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
         "Ge din offentliga nyckel till dina vänner eller publicera den online så att alla kan skicka dig end-to-end-krypterad e-post!"
@@ -6727,7 +6739,7 @@
         "per månad, faktureras var 24:e månad"
       ],
       "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
-        "PGP-klienter är mer benägna att automatiskt upptäcka dina PGP-nycklar om utgående meddelanden signeras."
+        "PGP klienter är mer benägna att automatiskt upptäcka dina PGP-nycklar om utgående meddelanden är signerade."
       ],
       "Phone number": [
         "Telefonnummer"
@@ -6951,7 +6963,7 @@
         "Ställer in din organisation"
       ],
       "Settings update failed": [
-        "Misslyckades att uppdatera inställningar"
+        "Misslyckades uppdatera inställningar"
       ],
       "Settings updated": [
         "Inställningar uppdaterade"
@@ -7946,7 +7958,7 @@
         "Inaktiv"
       ],
       "Obsolete": [
-        "Inaktuell"
+        "Föråldrad"
       ],
       "Primary": [
         "Primär"
@@ -8164,7 +8176,7 @@
         "Exportera offentlig nyckel"
       ],
       "Make primary": [
-        "Gör till primär"
+        "Gör primär"
       ],
       "Mark compromised": [
         "Markera som komprometterad"
@@ -8565,7 +8577,7 @@
         "Slutdatum"
       ],
       "End day of month": [
-        "Sista dagen i månaden"
+        "Slutdag i månaden"
       ],
       "End time": [
         "Sluttid"
@@ -8964,7 +8976,7 @@
         "Startdatum"
       ],
       "Start day of month": [
-        "Första dagen i månaden"
+        "Startdag i månaden"
       ],
       "Start time": [
         "Starttid"
@@ -12087,7 +12099,7 @@
         "Namn"
       ],
       "Order": [
-        "Ordning"
+        "Sortera"
       ],
       "Status": [
         "Status"
@@ -14205,7 +14217,7 @@
         "Visa varje avsändares bild i meddelandelistan. Avsändarens initialer kommer att visas om ett foto inte finns tillgängligt."
       ],
       "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
-        "Signaturer skapade med den här nyckeln behandlas som ogiltiga, och den här nyckeln kan inte användas för kryptering"
+        "Signaturer skapade med denna nyckel behandlas som ogiltiga och den här nyckeln kan inte användas för kryptering"
       ],
       "System subfolders will show up as separate folders in ${ MAIL_APP_NAME }": [
         "Systemundermappar kommer att visas som separata mappar i ${ MAIL_APP_NAME }"
@@ -14244,7 +14256,7 @@
         "Denna nyckel kan inte användas för kryptering"
       ],
       "This key is encrypted with an old password": [
-        "Den här nyckeln är krypterad med ett gammalt lösenord"
+        "Denna nyckel är krypterad med ett gammalt lösenord"
       ],
       "This key is used by ${ MAIL_APP_NAME } to encrypt your contact's data": [
         "Denna nyckel används av ${ MAIL_APP_NAME } for att kryptera din kontakts uppgifter"
@@ -14277,7 +14289,7 @@
         "När du flyttar ett e-postmeddelande till skräppost kommer du automatiskt avsluta prenumeration från avsändarens e-postlistor."
       ],
       "You have locally decrypted this key": [
-        "Du har avkrypterat denna nyckel lokalt"
+        "Du har dekrypterat denna nyckel lokalt"
       ],
       "Your ${ MAIL_APP_NAME } inbox is almost full": [
         "Din inkorg för ${ MAIL_APP_NAME } är nästan full"

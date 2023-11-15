@@ -1081,6 +1081,9 @@
       ],
       "Edit invoice details": [
         "Edita les dades de la factura"
+      ],
+      "Authenticating": [
+        "Autenticació"
       ]
     },
     "action": {
@@ -2906,6 +2909,9 @@
       ],
       "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
         "Per Importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
+      ],
+      "Enable advanced logs to access these features": [
+        "Activeu els registres avançats per accedir a aquestes funcions."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -7467,6 +7473,22 @@
       ],
       "You will lose access to Plus servers and features on this date.": [
         "Perdreu accés a servidors i funcions Plus aquesta data."
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } més",
+        "${ remainingAddresses.length } més"
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Si ho cancel·leu, la subscripció ${ planTitle } no es renovarà en caducar el ${ expiryDate }."
+      ],
+      "Secure your ${ BRAND_NAME } Account": [
+        "Protegiu el vostre compte de ${ BRAND_NAME }"
+      ],
+      "Stay tuned for future promotions.": [
+        "No us perdeu les pròximes promocions."
+      ],
+      "We'll get back to you shortly.": [
+        "Ens posarem en contacte amb vostè tan aviat com puguem."
       ]
     },
     "info": {
@@ -9857,6 +9879,16 @@
       "${ n } calendar per user": [
         "${ n } calendari per usuari",
         "${ n } calendaris per usuari"
+      ],
+      "Centralized settings and billings": [
+        "Preferències i facturació centralitzades"
+      ],
+      "Start protecting your organization": [
+        "Comenceu a protegir la vostra organització"
+      ],
+      "Vault sharing (up to ${ n } person)": [
+        "Compartició de la caixa forta (fins a ${ n } persona)",
+        "Compartició de la caixa forta (fins a ${ n } persones)"
       ]
     },
     "new_plans: feature info": {
@@ -10214,6 +10246,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Podeu tenir més d'un administrador. Tots els administradors poden afegir i gestionar usuaris, però només l'administrador principal té control sobre la facturació."
+      ],
+      "${ DRIVE_APP_NAME }: Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "${ DRIVE_APP_NAME }: Protegiu els vostres fitxers amb emmagatzematge xifrat al núvol. Inclou, entre d'altres, historial de versions i compartició de fitxers xifrats."
       ]
     },
     "new_plans: upgrade": {
@@ -11512,6 +11547,9 @@
     "session_recovery:settings:action": {
       "Request password reset": [
         "Sol·licita el restabliment de contrasenya"
+      ],
+      "Allow password reset from settings": [
+        "Permet el restabliment de la contrasenya des de les preferències"
       ]
     },
     "session_recovery:sign_out:action": {
@@ -13490,6 +13528,9 @@
       ],
       "Edit invoice details": [
         "Edita les dades de la factura"
+      ],
+      "Sign in to join the Beta program": [
+        "Inicieu la sessió per unir-vos al programa Beta"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14422,6 +14463,16 @@
     "Tooltip default pgp scheme": {
       "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
         "Seleccioneu les preferències PGP per defecte utilitzades per a signar o xifrar missatges amb usuaris PGP de fora de ${ BRAND_NAME }. Tingueu en compte que Inline PGP implica missatges de text sense format."
+      ]
+    },
+    "email_forwarding_2023: Error message, recovery": {
+      "Please try opening the link again.": [
+        "Proveu d'obrir l'enllaç de nou."
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Accés a servidors Secure Core, descàrregues ràpides P2P/BitTorrent, Tor sobre VPN i moltes més funcions."
       ]
     }
   }

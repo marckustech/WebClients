@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Editare detalii factură"
+      ],
+      "Authenticating": [
+        "Se autentifică"
       ]
     },
     "action": {
@@ -6040,7 +6043,7 @@
         "Mesajele primite etichetate cu această etichetă nu vor fi șterse și pot fi găsite în continuare în folderul respectiv."
       ],
       "Enable this address to join this calendar": [
-        "Activare această adresă pentru alăturarea la acest calendar"
+        "Permiteți acestei adrese să se alăture acestui calendar"
       ],
       "Enable TLS or SSL on the external service if it is supported.": [
         "Activați TLS sau SSL în serviciul extern dacă se poate."
@@ -14934,7 +14937,7 @@
     },
     "email_forwarding_2023: Label": {
       "And": [
-        "Și"
+        "ȘI"
       ],
       "Forward from": [
         "Redirecționare de la"
@@ -14943,10 +14946,10 @@
         "Redirecționare către"
       ],
       "or": [
-        "sau"
+        "SAU"
       ],
       "Or": [
-        "Sau"
+        "SAU"
       ],
       "With attachment": [
         "Cu atașamente"

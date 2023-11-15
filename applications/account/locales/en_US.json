@@ -169,6 +169,11 @@
       "Edit (view, create and edit event details)": [
         "Edit (view, create or edit event details)"
       ]
+    },
+    "Action": {
+      "Ok": [
+        "OK"
+      ]
     }
   }
 }

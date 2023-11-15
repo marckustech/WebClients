@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Editar de fatura de crédito"
+      ],
+      "Authenticating": [
+        "Autenticando"
       ]
     },
     "action": {
@@ -4313,6 +4316,12 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Não foi possível carregar esta página. Atualize a página ou verifique sua conexão com a Internet."
+      ],
+      "App currently unavailable": [
+        "Aplicativo atualmente indisponível"
+      ],
+      "Open in browser": [
+        "Abrir no navegador"
       ]
     },
     "Error message, Disable account": {
@@ -5314,7 +5323,7 @@
         "Ações"
       ],
       "Created": [
-        "Criação"
+        "Criado"
       ],
       "Email address": [
         "Endereço de e-mail"
@@ -6810,7 +6819,7 @@
         "Uma conta. Todos os serviços da ${ BRAND_NAME }."
       ],
       "Only change these settings if you are using PGP with non-${ BRAND_NAME } recipients.": [
-        "Altere essas configurações apenas se você estiver usando o PGP com destinatários que não usam o ${ BRAND_NAME }."
+        "Altere essas configurações apenas se você estiver usando o PGP com destinatários que não usam a ${ BRAND_NAME }."
       ],
       "Only you can see the labels.": [
         "Somente você pode ver os marcadores."
@@ -7898,6 +7907,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Sua assinatura é gerenciada pela Mozilla. Entre em contato com o suporte da Mozilla."
+      ],
+      "Please use another browser or download the file.": [
+        "Use outro navegador ou baixe o arquivo."
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Fazer upgrade para o plano ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, ou ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } para acessar a ${ PROTON_SENTINEL_NAME }."
+      ],
+      "View, download, and manage your invoices.": [
+        "Ver, baixar e gerenciar suas notas ficais"
       ]
     },
     "info": {
@@ -9340,7 +9358,7 @@
         "Confortável"
       ],
       "Compact": [
-        "Compacta"
+        "Compacto"
       ]
     },
     "Label to change view layout": {
@@ -11082,7 +11100,7 @@
         "Permanente"
       ],
       "Plain text": [
-        "Texto Simples"
+        "Texto sem formatação"
       ],
       "Repeat daily": [
         "Repetir diariamente"
@@ -11200,6 +11218,9 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (para outras distribuições)"
+      ],
+      ".exe (64-bit)": [
+        ".exe (64-bit)"
       ]
     },
     "Participant name": {

@@ -1466,7 +1466,7 @@
     },
     "Calendar invite status label": {
       "Declined": [
-        "Kieltäydytty"
+        "Hylätty"
       ],
       "Invite sent": [
         "Kutsu lähetetty"
@@ -1561,13 +1561,13 @@
     },
     "Calendar status": {
       "Active": [
-        "Käytössä"
+        "Aktiiviset"
       ],
       "Default": [
         "Oletus"
       ],
       "Disabled": [
-        "Ei käytössä"
+        "Pois käytöstä"
       ],
       "Not synced": [
         "Synkronoimaton"
@@ -2859,7 +2859,7 @@
         "Kaikki kalenterin tapahtumat poistetaan."
       ],
       "You will no longer have access to this calendar.": [
-        "Sinulla ei ole enää tämän kalenterin käyttöoikeutta."
+        "Sinulla ei ole enää pääsyä tähän kalenteriin."
       ]
     },
     "Delinquent modal title": {
@@ -3208,7 +3208,7 @@
         "Poista"
       ],
       "Delete this condition": [
-        "Poista ehto"
+        "Poista tämä ehto"
       ],
       "Edit conditions": [
         "Muokkaa ehtoja"
@@ -3297,7 +3297,7 @@
         "Ohjauksen vastaanottaja on kutsuttu ja hänen on hyväksyttävä/hylättävä kutsu tai päivitettävä"
       ],
       "Forwarding is active": [
-        "Ohjaus on käytössä"
+        "Välitys on käytössä"
       ],
       "Forwarding to ${ BRAND_NAME } addresses will keep your communication end-to-end encrypted. When forwarding externally, end-to-end encryption for the forwarding address will be disabled.": [
         "Uudellenohjaus ${ BRAND_NAME }-osoitteisiin pitää viestintäsi päästä päähän -salattuna. Ulkoisiin palveluihin Uudellenohjattaessa salaus täytyy mahdollisesti poistaa."
@@ -3422,13 +3422,13 @@
         "Viesti lähetettiin osoitteeseen ${ forwardeeEmail }."
       ],
       "Forwarding accepted": [
-        "Ohjaus hyväksyttiin"
+        "Välitys hyväksyttiin"
       ],
       "Forwarding declined": [
-        "Ohjaus hylättiin"
+        "Välitys hylättiin"
       ],
       "Forwarding deleted": [
-        "Ohjaus poistettiin"
+        "Välitys poistettiin"
       ],
       "Forwarding paused": [
         "Ohjaus keskeytettiin"
@@ -5041,7 +5041,7 @@
     },
     "Header": {
       "Access": [
-        "Käyttöoikeus"
+        "Pääsy"
       ],
       "Action": [
         "Toiminto"
@@ -6119,7 +6119,7 @@
         "Poista kaikki muut MX-tietueet tai varmista, että ${ MAIL_APP_NAME }in painotus on pienin numero."
       ],
       "Delete link?": [
-        "Poistetaanko linkki?"
+        "Poista linkki?"
       ],
       "Deleting ${ deletedServerCount } gateway server": [
         "Poistetaan ${ deletedServerCount } yhdyskäytäväpalvelinta",
@@ -6948,10 +6948,10 @@
         "Määritetään organisaatiotasi"
       ],
       "Settings update failed": [
-        "Asetusten päivittäminen epäonnistui"
+        "Asetusten päivitys epäonnistui"
       ],
       "Settings updated": [
-        "Asetukset päivitetty"
+        "Asetukset päivitettiin"
       ],
       "Show original message": [
         "Näytä alkuperäinen viesti"
@@ -7763,6 +7763,9 @@
       ],
       "View, download, and manage your invoices.": [
         "Tarkastele, lataa ja hallinnoi laskujasi."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -11623,7 +11626,7 @@
         "Peruessasi tilauksen, menetät kalenterin käyttöoikeuden ja tililtäsi poistetaan kaikki sen tapahtumat. Tapahtumat kuitenkin säilyvät alkuperäisessä julkisessa linkissä."
       ],
       "You will no longer have access to this calendar.": [
-        "Sinulla ei ole enää tämän kalenterin käyttöoikeutta."
+        "Sinulla ei ole enää pääsyä tähän kalenteriin."
       ]
     },
     "Remove calendar section text": {
@@ -11636,16 +11639,16 @@
     },
     "Remove calendar section title": {
       "Delete calendar?": [
-        "Poistetaanko kalenteri?"
+        "Poista kalenteri?"
       ],
       "Leave calendar?": [
-        "Poistutaanko kalenterista?"
+        "Poistu kalenterista?"
       ],
       "Remove calendar": [
         "Poista kalenteri"
       ],
       "Unsubscribe?": [
-        "Perutaanko tilaus?"
+        "Peru tilaus?"
       ]
     },
     "Restore administrator panel": {
@@ -14191,7 +14194,7 @@
         "Ominaisuus on vain maksavien käyttäjien käytettävissä"
       ],
       "This feature is only available on Beta": [
-        "Ominaisuus on käytettävissä vain Beta-versiossa"
+        "Tämä ominaisuus on käytettävissä vain Beta-versiossa"
       ],
       "This key cannot be used for encryption": [
         "Avainta ei voi käyttää salaukseen"

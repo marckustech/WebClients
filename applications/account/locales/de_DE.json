@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Rechnungsdetails bearbeiten"
+      ],
+      "Authenticating": [
+        "Authentifiziere"
       ]
     },
     "action": {
@@ -4159,6 +4162,9 @@
       ],
       "Zero keys reactivated": [
         "Kein Schüssel wiederhergestellt"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Du musst deine Organisationsschlüssel aktivieren. Ohne Aktivierung kannst du keine nicht-privaten Benutzer erstellen oder auf diese zugreifen."
       ]
     },
     "Error importing calendar": {
@@ -4364,6 +4370,15 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Diese Seite konnte nicht geladen werden. Bitte aktualisiere die Seite oder überprüfe deine Internetverbindung."
+      ],
+      "App currently unavailable": [
+        "Die App ist derzeit nicht verfügbar."
+      ],
+      "Open in browser": [
+        "Im Browser öffnen"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Bitte wechsle zur Webversion, um ${ MAIL_APP_NAME } oder ${ CALENDAR_APP_NAME } zu verwenden."
       ]
     },
     "Error message, Disable account": {
@@ -7967,6 +7982,9 @@
       ],
       "Tor": [
         "Tor"
+      ],
+      "Upgrade to ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, or ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } plan to get access to ${ PROTON_SENTINEL_NAME }.": [
+        "Führe eine Abonnementaufwertung auf ${ PLAN_NAMES[PLANS.PASS_PLUS] }, ${ PLAN_NAMES[PLANS.BUNDLE] }, ${ PLAN_NAMES[PLANS.FAMILY] }, oder ${ PLAN_NAMES[PLANS.BUNDLE_PRO] } durch um Zugang zu ${ PROTON_SENTINEL_NAME } zu erhalten."
       ]
     },
     "info": {
@@ -11870,6 +11888,9 @@
       ],
       "Reading emails of non-private users": [
         "E-Mails von nicht-privaten Nutzern lesen"
+      ],
+      "Creating or accessing non-private users": [
+        "Erstelle oder greife auf nicht-private Benutzer zu"
       ]
     },
     "Role": {

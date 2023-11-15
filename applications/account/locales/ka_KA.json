@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "ინვოისის დეტალების ჩასწორება"
+      ],
+      "Authenticating": [
+        "ავტორიზაცია"
       ]
     },
     "action": {
@@ -2846,7 +2849,7 @@
     },
     "Default calendar event settings section title": {
       "Default event settings": [
-        "ნაგულისხმები მოვლენის პარამეტრები"
+        "ნაგულისხმევი მოვლენის პარამეტრები"
       ]
     },
     "Default display name vcard": {
@@ -5604,7 +5607,7 @@
         "${ fileName }: დაბალი გაფართოების მინიატურა"
       ],
       "${ firstRemainingCalendarName } will be set as default calendar.": [
-        "${ firstRemainingCalendarName } გამოყენებული იქნება, როგორც ნაგულისხმები კალენდარი."
+        "${ firstRemainingCalendarName } გამოყენებული იქნება, როგორც ნაგულისხმევი კალენდარი."
       ],
       "${ inviterEmailJSX } wants to share data with you in ${ PASS_APP_NAME }": [
         "${ inviterEmailJSX }-ს უნდა, მონაცემები გაგიზიაროთ ${ PASS_APP_NAME }-ში"
@@ -7332,7 +7335,7 @@
         "აწიეთ ტარიფი, რათა უფრო მოკლე, @pm.me მისამართები გქონდეთ, რომლებიც გასაზიარებლად უფრო ადვილია. ის ნიშნავს \"${ MAIL_APP_NAME } მე\", ანუ \"პირადად მომწერე\"."
       ],
       "Upgrade to unlock": [
-        "განაახლეთ გასახსნელად"
+        "განსაბლოკად ასწიეთ ტარიფი"
       ],
       "Upload picture": [
         "სურათის ატვრთვა"
@@ -8481,7 +8484,7 @@
         "ნაგულისხმები ენა"
       ],
       "Default language (${ defaultLanguage })": [
-        "ნაგულისხმები ენა (${ defaultLanguage })"
+        "ნაგულისხმევი ენა (${ defaultLanguage })"
       ],
       "Default PGP scheme": [
         "PGP-ის ნაგულისხმები სქემა"
@@ -10740,7 +10743,7 @@
     },
     "Notification success": {
       "Event defaults updated": [
-        "მოვლენის ნაგულისხმები პარამეტრები განახლდა"
+        "მოვლენის ნაგულისხმევი პარამეტრები განახლდა"
       ]
     },
     "Notification time input": {
@@ -11656,7 +11659,7 @@
         "წავშალო კალენდარი?"
       ],
       "Leave calendar?": [
-        "გავიდე კალენდარიდან?"
+        "გავიდე კალენდრიდან?"
       ],
       "Remove calendar": [
         "კალენდრის წაშლა"
@@ -12649,7 +12652,7 @@
         "სახსრები დამატებულია"
       ],
       "Default calendar updated": [
-        "ნაგულისხმევი კალენდარი განახლებულია"
+        "ნაგულისხმევი კალენდარი განახლდა"
       ],
       "Display name updated": [
         "საჩვენებელი სახელი განახლდა"

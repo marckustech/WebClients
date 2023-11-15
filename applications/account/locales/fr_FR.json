@@ -483,13 +483,13 @@
         "Bénéficiez de plus d'adresses"
       ],
       "Get more filters": [
-        "Bénéficiez de plus de filtres"
+        "Obtenir plus de filtres"
       ],
       "Get more folders": [
-        "Bénéficiez de plus de dossiers"
+        "Obtenir plus de dossiers"
       ],
       "Get more labels": [
-        "Bénéficiez de plus de labels"
+        "Obtenir plus de labels"
       ],
       "Get more licenses": [
         "Obtenir plus de licences"
@@ -1084,6 +1084,9 @@
       ],
       "Edit invoice details": [
         "Modifier les informations de la facture"
+      ],
+      "Authenticating": [
+        "Authentification en cours"
       ]
     },
     "action": {
@@ -1662,7 +1665,7 @@
     },
     "Calendar invite status label": {
       "Declined": [
-        "Refusé"
+        "Refusée"
       ],
       "Invite sent": [
         "L'invitation a été envoyée."
@@ -3397,7 +3400,7 @@
         "Ajouter une règle de transfert"
       ],
       "Back": [
-        "Précédent"
+        "Retour"
       ],
       "Cancel": [
         "Annuler"
@@ -3531,7 +3534,7 @@
         "Vous ne recevrez pas les messages transférés automatiquement depuis ${ boldForwarderEmail }."
       ],
       "Automatically forward emails to another email address.": [
-        "Transférer automatiquement les messages vers une autre adresse électronique."
+        "Transférez automatiquement les messages vers une autre adresse électronique."
       ],
       "Forwarding to an address without end-to-end encryption will disable end-to-end encryption for your ${ boldForwarderEmail } address, but zero-access encryption remains enabled. ${ learnMoreLink }": [
         "Transférer à une adresse sans chiffrement de bout en bout désactivera le chiffrement de bout en bout pour votre adresse ${ boldForwarderEmail }, mais le chiffrement zéro accès restera activé. ${ learnMoreLink }"
@@ -3575,7 +3578,7 @@
         "Condition :"
       ],
       "Enter email address": [
-        "Saisissez l'adresse e-mail"
+        "Saisissez l'adresse e-mail."
       ],
       "Type text or keyword": [
         "Saisissez un texte ou un mot-clé"
@@ -3706,7 +3709,7 @@
         "Erreur d'authentification"
       ],
       "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
-        "Les réponses automatiques sont une fonctionnalité proposée dans le cadre d'un abonnement payant. Nous vous invitons à passer à un abonnement supérieur."
+        "Les réponses automatiques sont une fonctionnalité proposée dans le cadre d'un abonnement payant. Nous vous invitons à changer d'abonnement pour utiliser cette fonctionnalité."
       ],
       "Calendar cannot be found": [
         "Le calendrier est introuvable."
@@ -4367,6 +4370,15 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Nous n'avons pas pu charger cette page. Actualisez la page ou vérifiez votre connexion internet."
+      ],
+      "App currently unavailable": [
+        "L'application n'est pas disponible actuellement."
+      ],
+      "Open in browser": [
+        "Ouvrir dans le navigateur"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pour utiliser ${ MAIL_APP_NAME } ou ${ CALENDAR_APP_NAME }, passez sur la version web."
       ]
     },
     "Error message, Disable account": {
@@ -4420,10 +4432,10 @@
     },
     "Error when exporting event from calendar": {
       "Event @ ${ timeString }": [
-        "Événement @ ${ timeString }"
+        "Événement à ${ timeString }"
       ],
       "Event from ${ timeString }, ${ rruleString }": [
-        "Événement à partir de ${ timeString }, ${ rruleString }"
+        "Événement depuis ${ timeString }, ${ rruleString }"
       ]
     },
     "Event invitation error": {
@@ -4511,7 +4523,7 @@
         "Réinitialisation du mot de passe : plusieurs événements ne peuvent pas être déchiffrés."
       ],
       "Please don't close the tab before the exporting process is finished.": [
-        "Ne fermez pas l'onglet avant la fin de l'exportation."
+        "Ne fermez pas l'onglet avant que l'exportation ne soit terminée."
       ],
       "Some of your events could not be exported.": [
         "Certains de vos événements n'ont pas pu être exportés."
@@ -5368,7 +5380,7 @@
         "Actions"
       ],
       "Created": [
-        "Créé le"
+        "Création"
       ],
       "Email address": [
         "Adresse e-mail"
@@ -5667,7 +5679,7 @@
     },
     "Import key": {
       "Are you sure you want to import a private key? Importing an insecurely generated or leaked private key can harm the security of your emails.\n\nPlease also note that the public key corresponding to this private key will be publicly available from our key server. If the key contains personal details (such as your full name) which you do not want to publish, please edit the key before importing it.": [
-        "Voulez-vous vraiment importer une clé privée ? L'importation d'une clé privée, divulguée ou générée de manière non sécurisée, peut compromettre la sécurité de vos messages.\n\nNotez que la clé publique correspondant à cette clé privée sera disponible publiquement à partir de notre serveur de clés. Si la clé contient des informations personnelles (comme votre nom complet par exemple) que vous ne voulez pas publier, nous vous invitons à modifier la clé avant de l'importer."
+        "Voulez-vous vraiment importer une clé privée ? Importer une clé privée qui a été divulguée ou générée de manière non sécurisée peut compromettre la sécurité de vos messages.\n\nNotez que la clé publique correspondant à cette clé privée sera disponible publiquement à partir de notre serveur de clés. Si la clé contient des informations personnelles (comme votre nom complet par exemple) que vous ne voulez pas publier, nous vous invitons à modifier la clé avant de l'importer."
       ]
     },
     "Import provider": {
@@ -6141,7 +6153,7 @@
         "La réponse automatique est active chaque mois entre l'heure de début et l'heure de fin sélectionnées."
       ],
       "Auto-reply is active each week between the selected start and end time.": [
-        "La réponse automatique s'active chaque semaine entre l'heure de début et l'heure de fin."
+        "La réponse automatique est active chaque semaine entre l'heure de début et l'heure de fin sélectionnées."
       ],
       "Auto-reply is active from the start time to the end time.": [
         "La réponse automatique est active entre l'heure de début et l'heure de fin."
@@ -6198,7 +6210,7 @@
         "Cycle de facturation : ${ text }"
       ],
       "Blocks senders from seeing if and when you opened a message.": [
-        "Empêche les expéditeurs de voir si et quand vous avez ouvert un message."
+        "Empêche les expéditeurs de voir si vous avez ouvert un message et à quel moment vous l'avez ouvert."
       ],
       "By downgrading to a Free plan, you will permanently lose these benefits, even if you upgrade again in the future.": [
         "En passant à l'abonnement Free, vous perdrez définitivement ces avantages, même si vous repassez par la suite à un abonnement supérieur."
@@ -6409,7 +6421,7 @@
         "Activez cette adresse pour rejoindre ce calendrier."
       ],
       "Enable TLS or SSL on the external service if it is supported.": [
-        "Activer les protocoles TLS ou SSL sur le service externe si comptable."
+        "Activez TLS ou SSL sur le service externe s'il est pris en charge."
       ],
       "Enabling recovery by phrase again will generate a new recovery phrase.": [
         "Réactiver la récupération par phrase générera une nouvelle phrase de récupération."
@@ -6517,13 +6529,13 @@
         "Donnez un nom descriptif au jeton, comme le service avec lequel vous prévoyez de l'utiliser, et sélectionnez une de vos adresses de domaine personnalisées actives. Seule cette adresse pourra envoyer des messages avec ce jeton."
       ],
       "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
-        "Transmettez votre clé publique à vos amis ou publiez-la en ligne pour que tout le monde puisse vous envoyer des messages chiffrés de bout en bout !"
+        "Communiquez votre clé publique à vos amis ou publiez-la en ligne pour que tout le monde puisse vous envoyer des messages chiffrés de bout en bout."
       ],
       "here": [
         "ici"
       ],
       "Hides identifying information by loading remote content through a proxy. Option to store content as attachments.": [
-        "Masque les informations d'identification en chargeant du contenu distant via un proxy. Option pour stocker le contenu en tant que pièces jointes."
+        "Masque les informations d'identification en chargeant le contenu distant à travers un proxy. Possibilité de conserver le contenu sous forme de pièces jointes."
       ],
       "If another administrator changed this password, you will need to ask them for the new Organization Password.": [
         "Si un autre administrateur a modifié ce mot de passe, vous devrez lui demander le nouveau mot de passe de l'organisation."
@@ -6693,7 +6705,7 @@
         "Conservez cet enregistrement dans votre DNS aussi longtemps que vous souhaiterez utiliser DKIM."
       ],
       "Key deletion is irreversible!": [
-        "La suppression de clé est irréversible."
+        "Attention, la suppression de clé est irréversible."
       ],
       "Label all imported messages as": [
         "Labelliser tous les messages importés comme"
@@ -6843,7 +6855,7 @@
         "L'URL n'est pas valide."
       ],
       "Not yet available in our Android mobile app.": [
-        "Pas encore disponible sur notre application mobile Android"
+        "Pas encore disponible sur notre application mobile pour Android."
       ],
       "Not your device? Use a private browsing window to sign in and close it when done. ${ learnMore }": [
         "Ce n'est pas votre appareil ? Utilisez une fenêtre de navigation privée pour vous connecter et fermez-la lorsque vous avez terminé. ${ learnMore }"
@@ -6931,7 +6943,7 @@
         "par mois (facturation tous les 24 mois)"
       ],
       "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
-        "Les clients PGP sont plus susceptibles de détecter automatiquement vos clés PGP si les messages sortants sont signés."
+        "Il est plus probable que les clients PGP détectent automatiquement vos clés PGP si les messages sortants sont signés."
       ],
       "Phone number": [
         "Numéro de téléphone"
@@ -7354,7 +7366,7 @@
         "Ce lien promotionnel a expiré."
       ],
       "This token won’t be available after you close this window, and you should not share it with anyone.": [
-        "Ce jeton ne sera plus disponible une fois que vous aurez fermé cette fenêtre, et vous ne devez le partager avec personne."
+        "Ce jeton ne sera plus disponible une fois que vous aurez fermé cette fenêtre. Nous vous recommandons de ne le partager avec personne."
       ],
       "This unsubscribe link has expired. Please open a more recent email from this mailing list.": [
         "Ce lien de désinscription a expiré. Nous vous invitons à ouvrir un message plus récent provenant de cette liste de diffusion."
@@ -7402,7 +7414,7 @@
         "dans ${ product } Business"
       ],
       "To avoid data loss, only delete it if you know what you’re doing or have exported a copy.": [
-        "Pour éviter toute perte de données, ne le supprimez que si vous maîtrisez la situation ou si vous en avez exporté une copie."
+        "Pour éviter toute perte de données, ne la supprimez que si vous avez une bonne connaissance de la situation ou si vous avez exporté une copie."
       ],
       "To cancel your subscription, please reach out to us.": [
         "Contactez-nous pour annuler votre abonnement."
@@ -8113,10 +8125,10 @@
         "La clé avec l’empreinte ${ fp } a été créée."
       ],
       "The encryption keys are being generated. This may take several minutes and temporarily freeze your browser.": [
-        "Les clés de chiffrement sont en cours de génération. Ceci peut prendre plusieurs minutes et geler temporairement votre navigateur."
+        "Les clés de chiffrement sont en cours de génération. Ceci peut prendre plusieurs minutes et figer temporairement votre navigateur."
       ],
       "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
-        "Les clés de chiffrement de votre adresse sont en cours de génération. Ceci peut prendre plusieurs minutes et geler temporairement votre navigateur."
+        "Les clés de chiffrement de votre adresse sont en cours de génération. Ceci peut prendre plusieurs minutes et figer temporairement votre navigateur."
       ],
       "You can generate a new encryption key if you think your previous key has been compromised.": [
         "Vous pouvez générer une nouvelle clé de chiffrement si vous pensez que votre clé précédente a été compromise."
@@ -8524,7 +8536,7 @@
         "Adresses bloquées"
       ],
       "Block email tracking": [
-        "Bloquer le suivi des e-mails"
+        "Bloquer le suivi des messages"
       ],
       "Block malware only": [
         "Bloquer uniquement les logiciels malveillants"
@@ -9169,7 +9181,7 @@
         "Requête"
       ],
       "Sticky labels": [
-        "Activer les labels automatiques pour les conversations"
+        "Labelliser tous les messages au sein d'une conversation"
       ],
       "Subscription options": [
         "Options de l'abonnement"
@@ -9214,7 +9226,7 @@
         "Mode deux mots de passe"
       ],
       "Undo send": [
-        "Délai d'annulation de l'envoi"
+        "Annulation de l'envoi"
       ],
       "Upload 1 or more encryption keys": [
         "Chargez une ou plusieurs clés de chiffrement."
@@ -9407,7 +9419,7 @@
     },
     "Label to change composer mode": {
       "Maximized": [
-        "Maximisé"
+        "Grand"
       ],
       "Normal": [
         "Normal"
@@ -9415,7 +9427,7 @@
     },
     "Label to change density": {
       "Comfortable": [
-        "Confortable"
+        "Confort"
       ],
       "Compact": [
         "Compact"
@@ -11222,10 +11234,10 @@
     },
     "Option protection mode": {
       "Load content via proxy (recommended)": [
-        "Charger le contenu via un proxy (recommandé)"
+        "Charger le contenu en utilisant un proxy (recommandé)"
       ],
       "Load content via proxy and store as attachments": [
-        "Charger du contenu via un proxy et stocker en tant que pièces jointes"
+        "Charger le contenu en utilisant un proxy et conserver sous forme de pièces jointes"
       ]
     },
     "Organization capacity error": {
@@ -11269,6 +11281,9 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (pour les autres distributions)"
+      ],
+      ".exe (64-bit)": [
+        ".exe (64 bits)"
       ]
     },
     "Participant name": {
@@ -12259,7 +12274,7 @@
         "Ordre"
       ],
       "Status": [
-        "État"
+        "Statut"
       ]
     },
     "Settings/labels": {
@@ -13668,7 +13683,7 @@
         "Exporter la clé privée"
       ],
       "Export public key": [
-        "Exporter une clé publique"
+        "Exporter la clé publique"
       ],
       "External PGP settings": [
         "Paramètres PGP externes"
@@ -14057,7 +14072,7 @@
         "État"
       ],
       "Success": [
-        "Succès"
+        "Opération réussie"
       ],
       "Successfully created ${ localSuccessfullyCreatedUsers.length } user account": [
         "Le compte utilisateur ${ localSuccessfullyCreatedUsers.length } a été créé.",
@@ -14248,7 +14263,7 @@
         "Type de clé"
       ],
       "Status": [
-        "État"
+        "Statut"
       ]
     },
     "Title header for members table": {
@@ -14437,13 +14452,13 @@
         "Les animations et les transitions ne s'afficheront pas."
       ],
       "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
-        "Lorsque vous ajoutez un label à un message dans une conversation, il sera automatiquement appliqué à tous les messages que vous enverrez ou recevrez dans cette conversation."
+        "Quand vous ajoutez un label à un message dans une conversation, il sera automatiquement appliqué à tous les messages que vous enverrez ou recevrez dans cette conversation."
       ],
       "When you click on a link, this anti-phishing feature will ask you to confirm the URL of the web page.": [
-        "Quand vous cliquez sur un lien, cette fonctionnalité anti-phishing/hameçonnage vous montre le détail de l'URL de la page web pour que vous puissiez la vérifier avant de l'ouvrir dans votre navigateur."
+        "Quand vous cliquez sur un lien, cette fonctionnalité contre le phishing/hameçonnage vous demande de confirmer l'URL de la page web."
       ],
       "When you move an email to spam, you’ll automatically be unsubscribed from the sender’s mailing lists.": [
-        "Lorsque vous déplacez un message dans le dossier Indésirables/spam, vous êtes automatiquement désinscrit des listes de diffusion de l'expéditeur."
+        "Quand vous déplacez un message dans le dossier Indésirables/spam, vous êtes automatiquement désinscrit des listes de diffusion de l'expéditeur."
       ],
       "You have locally decrypted this key": [
         "Vous avez déchiffré localement cette clé."
@@ -14470,7 +14485,7 @@
     },
     "Tooltip default pgp scheme": {
       "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
-        "Sélectionnez les paramètres PGP utilisés par défaut pour signer ou chiffrer les messages avec les utilisateurs PGP qui n'utilisent pas ${ BRAND_NAME }. Notez que le jeu d'encodage PGP/Inline force les messages en texte brut."
+        "Sélectionnez les paramètres PGP utilisés par défaut pour signer ou chiffrer les messages avec les utilisateurs PGP qui n'utilisent pas ${ BRAND_NAME }. Notez que PGP/Inline impose des messages en texte brut."
       ]
     },
     "Tooltip prompt to trust keys": {
@@ -14709,7 +14724,7 @@
         "Les paramètres de date et heure de votre appareil ne sont pas synchronisés. ${ learnMore }"
       ],
       "The device or service using this token will no longer be able to send email through ${ MAIL_APP_NAME }.": [
-        "L'appareil ou le service utilisant ce jeton ne pourra plus envoyer de messages via ${ MAIL_APP_NAME }."
+        "L'appareil ou le service utilisant ce jeton ne pourra plus envoyer de messages en utilisant ${ MAIL_APP_NAME }."
       ],
       "This import may exceed the storage capacity currently available in your ${ BRAND_NAME } account. Please consider customizing your import.": [
         "Cette importation peut dépasser la capacité de stockage actuellement disponible sur votre compte ${ BRAND_NAME }. Nous vous invitons à personnaliser votre importation."

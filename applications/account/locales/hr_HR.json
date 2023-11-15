@@ -622,6 +622,18 @@
       ],
       "Zoom out": [
         "Smanji"
+      ],
+      "Emoji": [
+        "Emotikoni"
+      ],
+      "Help": [
+        "Pomoć"
+      ],
+      "Ok": [
+        "U redu"
+      ],
+      "Settings": [
+        "Postavke"
       ]
     },
     "Action for user session": {
@@ -946,6 +958,15 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Zaslonski naziv"
+      ],
+      "Last name": [
+        "Prezime"
+      ],
+      "Time zone": [
+        "Vremenska zona"
       ]
     },
     "Contact type label": {
@@ -2115,6 +2136,12 @@
       ],
       "Unsupported event": [
         "Događaj nije podržan"
+      ],
+      "Calendar": [
+        "Kalendar"
+      ],
+      "Time zone": [
+        "Vremenska zona"
       ]
     },
     "Error importing users": {
@@ -3264,6 +3291,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Vašom pretplatom upravlja Mozilla. Molimo kontaktirajte Mozilla podršku."
+      ],
+      "Unsaved changes": [
+        "Nespremljene promjene"
       ]
     },
     "Info - folder colouring feature": {
@@ -4117,6 +4147,18 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "Don't ask again": [
+        "Ne pitaj ponovno"
+      ],
+      "From: ${ from }": [
+        "Od: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Za: ${ to }"
+      ],
+      "To: ${ toEmail }": [
+        "Za: ${ toEmail }"
       ]
     },
     "Label for default event notifications": {
@@ -5694,6 +5736,12 @@
       ],
       "Your plan": [
         "Vaš plan"
+      ],
+      "(active)": [
+        "(aktivno)"
+      ],
+      "Sign in with 2FA": [
+        "Prijavite se sa 2FA"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6185,6 +6233,88 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Animation": {
+      "New email": [
+        "Nova e-pošta"
+      ]
+    },
+    "bf2023: Deal details": {
+      "1 user": [
+        "1 korisnik"
+      ],
+      "3 TB": [
+        "3 TB"
+      ]
+    },
+    "familyOffer_2023:Action": {
+      "Got it": [
+        "Shvaćam"
+      ]
+    },
+    "file size format": {
+      "GB": [
+        "GB"
+      ],
+      "KB": [
+        "KB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "TB": [
+        "TB"
+      ]
+    },
+    "Font size option": {
+      "Large": [
+        "Veliko"
+      ],
+      "Small": [
+        "Malo"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Reset password": [
+        "Ponovno postavljanje lozinke"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Cancel request": [
+        "Poništi zahtjev"
+      ],
+      "Got it": [
+        "Shvaćam"
+      ],
+      "Learn more": [
+        "Više informacija"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Odjavite se"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Poništavanje lozinke"
+      ]
+    },
+    "specialoffer: Action": {
+      "Close": [
+        "Zatvori"
+      ]
+    },
+    "specialoffer: Deal details": {
+      "1 user": [
+        "1 korisnik"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "Secure streaming": [
+        "Siguran streaming"
       ]
     }
   }

@@ -39,7 +39,6 @@ const addApiKeysMock = () => {
                     SignedKeyList: null,
                 },
                 Unverified: { Keys: externalKeys },
-                ProtonMX: apiKey.isInternal,
             };
         }
         console.log('api keys', args, email);

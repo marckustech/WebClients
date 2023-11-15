@@ -146,16 +146,13 @@ const verifyPublicKeys = async (
     api: Api,
     saveSKLToLS: SaveSKLToLS,
     getLatestEpoch: GetLatestEpoch,
-    /**
-     * Optimisations for apps where users with external domains do not have valid keys (e.g. Mail)
-     */
-    skipVerificationOfExternalDomains: boolean,
+    keysIntendedForEmail: boolean,
     isCatchall?: boolean
 ): Promise<KeyTransparencyVerificationResult> => {
     try {
         if (!signedKeyList || !signedKeyList.Signature) {
             // Absent or obsolete address
-            if (skipVerificationOfExternalDomains && NO_KT_DOMAINS.includes(getEmailDomain(email))) {
+            if (keysIntendedForEmail && NO_KT_DOMAINS.includes(getEmailDomain(email))) {
                 return { status: KT_VERIFICATION_STATUS.UNVERIFIED_KEYS };
             }
         }
@@ -260,7 +257,7 @@ export const verifyPublicKeysAddressAndCatchall = async (
     saveSKLToLS: SaveSKLToLS,
     getLatestEpoch: GetLatestEpoch,
     email: string,
-    skipVerificationOfExternalDomains: boolean,
+    keysIntendendedForEmail: boolean,
     address: {
         keyList: ProcessedApiAddressKey[];
         signedKeyList: FetchedSignedKeyList | null;
@@ -280,7 +277,7 @@ export const verifyPublicKeysAddressAndCatchall = async (
         api,
         saveSKLToLS,
         getLatestEpoch,
-        skipVerificationOfExternalDomains
+        keysIntendendedForEmail
     );
     let catchAllKTStatusPromise: Promise<KeyTransparencyVerificationResult> | undefined;
     if (address.keyList.length == 0 || catchAll) {
@@ -291,7 +288,7 @@ export const verifyPublicKeysAddressAndCatchall = async (
             api,
             saveSKLToLS,
             getLatestEpoch,
-            skipVerificationOfExternalDomains,
+            keysIntendendedForEmail,
             true
         );
     }

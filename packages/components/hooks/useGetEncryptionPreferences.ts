@@ -17,7 +17,7 @@ import useApi from './useApi';
 import useCache from './useCache';
 import { getPromiseValue } from './useCachedModelResult';
 import { useGetAddressKeys } from './useGetAddressKeys';
-import useGetPublicKeysForInbox from './useGetPublicKeysForInbox';
+import useGetPublicKeys from './useGetPublicKeys';
 import { useGetMailSettings } from './useMailSettings';
 import { useGetUserKeys } from './useUserKeys';
 
@@ -28,8 +28,7 @@ const DEFAULT_LIFETIME = 5 * MINUTE;
 /**
  * Given an email address and the user mail settings, return the encryption preferences for sending to that email.
  * The logic for how those preferences are determined is laid out in the
- * Confluence document 'Encryption preferences for outgoing email'.
- * NB: the current logic does not handle internal address keys belonging to external accounts, since these keys are not used by Inbox.
+ * Confluence document 'Encryption preferences for outgoing email'
  */
 const useGetEncryptionPreferences = () => {
     const api = useApi();
@@ -37,11 +36,11 @@ const useGetEncryptionPreferences = () => {
     const getAddresses = useGetAddresses();
     const getUserKeys = useGetUserKeys();
     const getAddressKeys = useGetAddressKeys();
-    const getPublicKeysForInbox = useGetPublicKeysForInbox();
+    const getPublicKeys = useGetPublicKeys();
     const getMailSettings = useGetMailSettings();
 
     const getEncryptionPreferences = useCallback<GetEncryptionPreferences>(
-        async ({ email, lifetime, contactEmailsMap, intendedForEmail = true }) => {
+        async ({ email, lifetime, contactEmailsMap }) => {
             const [addresses, mailSettings] = await Promise.all([getAddresses(), getMailSettings()]);
             const canonicalEmail = canonicalizeInternalEmail(email);
             const selfAddress = getSelfSendAddresses(addresses).find(
@@ -62,6 +61,7 @@ const useGetEncryptionPreferences = () => {
                 selfSend = { address: selfAddress, publicKey: selfPublicKey, canSend };
                 // For own addresses, we use the decrypted keys in selfSend and do not fetch any data from the API
                 apiKeysConfig = {
+                    Keys: [],
                     publicKeys: [],
                     RecipientType: RECIPIENT_TYPES.TYPE_INTERNAL,
                     ktVerificationResult: { status: KT_VERIFICATION_STATUS.VERIFIED_KEYS },
@@ -69,10 +69,8 @@ const useGetEncryptionPreferences = () => {
                 pinnedKeysConfig = { pinnedKeys: [], isContact: false };
             } else {
                 const { publicKeys } = splitKeys(await getUserKeys());
-                apiKeysConfig = await getPublicKeysForInbox({
+                apiKeysConfig = await getPublicKeys({
                     email,
-                    internalKeysOnly: intendedForEmail === false,
-                    includeInternalKeysWithE2EEDisabledForMail: intendedForEmail === false,
                     lifetime,
                     noCache: !lifetime,
                 });
@@ -86,11 +84,11 @@ const useGetEncryptionPreferences = () => {
             });
             return extractEncryptionPreferences(publicKeyModel, mailSettings, selfSend);
         },
-        [api, getAddressKeys, getAddresses, getPublicKeysForInbox, getMailSettings]
+        [api, getAddressKeys, getAddresses, getPublicKeys, getMailSettings]
     );
 
     return useCallback<GetEncryptionPreferences>(
-        ({ email, lifetime = DEFAULT_LIFETIME, contactEmailsMap, intendedForEmail }) => {
+        ({ email, lifetime = DEFAULT_LIFETIME, contactEmailsMap }) => {
             if (!cache.has(CACHE_KEY)) {
                 cache.set(CACHE_KEY, new Map());
             }
@@ -102,7 +100,6 @@ const useGetEncryptionPreferences = () => {
             const miss = () =>
                 getEncryptionPreferences({
                     email: canonicalEmail,
-                    intendedForEmail,
                     lifetime,
                     contactEmailsMap,
                 });

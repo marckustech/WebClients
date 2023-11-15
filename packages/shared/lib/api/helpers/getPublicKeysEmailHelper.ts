@@ -21,7 +21,6 @@ export const KEY_VERIFICATION_ERROR_MESSAGE = c('loc_nightly: Key verification e
 const getPublicKeysEmailHelper = async ({
     email,
     internalKeysOnly = false,
-    includeInternalKeysWithE2EEDisabledForMail = false,
     api,
     ktActivation,
     verifyOutboundPublicKeys,
@@ -33,11 +32,6 @@ const getPublicKeysEmailHelper = async ({
     api: Api;
     ktActivation: KeyTransparencyActivation;
     verifyOutboundPublicKeys: VerifyOutboundPublicKeys;
-    /**
-     * Whether to return internal keys which cannot be used for email encryption, as the owner has disabled E2EE.
-     * These keys may still be used for e.g. calendar sharing or message verification.
-     **/
-    includeInternalKeysWithE2EEDisabledForMail?: boolean;
     silence?: boolean;
     noCache?: boolean;
 }): Promise<ApiKeysConfig> => {
@@ -45,7 +39,6 @@ const getPublicKeysEmailHelper = async ({
         const { ktVerificationResult, ...resultWithoutKT } = await getPublicKeysEmailHelperWithKT({
             email,
             internalKeysOnly,
-            includeInternalKeysWithE2EEDisabledForMail,
             api,
             verifyOutboundPublicKeys: null, // skip KT verification
             silence,
@@ -57,7 +50,6 @@ const getPublicKeysEmailHelper = async ({
     const result = await getPublicKeysEmailHelperWithKT({
         email,
         internalKeysOnly,
-        includeInternalKeysWithE2EEDisabledForMail,
         api,
         verifyOutboundPublicKeys,
         silence,

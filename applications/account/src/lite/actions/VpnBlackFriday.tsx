@@ -10,7 +10,7 @@ import {
     useFetchOffer,
 } from '@proton/components/containers/offers';
 import { SUBSCRIPTION_STEPS } from '@proton/components/containers/payments/subscription/constants';
-import { DEFAULT_CURRENCY } from '@proton/shared/lib/constants';
+import { DEFAULT_CURRENCY, PLANS } from '@proton/shared/lib/constants';
 import { replaceUrl } from '@proton/shared/lib/helpers/browser';
 import { Currency } from '@proton/shared/lib/interfaces';
 import { canPay } from '@proton/shared/lib/user/helpers';
@@ -100,8 +100,8 @@ const VpnBlackFriday = ({ redirect, fullscreen }: { redirect?: string; fullscree
                     open({
                         step: SUBSCRIPTION_STEPS.CHECKOUT,
                         disablePlanSelection: true,
-                        plan: deal.planName,
-                        planIDs: { [deal.planName]: 1 },
+                        plan: deal.dealName as PLANS,
+                        planIDs: deal.planIDs,
                         cycle: deal.cycle,
                         coupon: deal.couponCode,
                         currency,

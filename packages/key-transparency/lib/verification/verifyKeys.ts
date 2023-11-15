@@ -204,7 +204,7 @@ const verifyPublicKeys = async (
             }
         }
 
-        let epoch = await getLatestEpoch();
+        let epoch = await getLatestEpoch(true);
 
         if (!signedKeyList) {
             const proof = await fetchProof(epoch.EpochID, identifier, 1, api);

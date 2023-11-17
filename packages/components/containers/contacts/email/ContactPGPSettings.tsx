@@ -40,7 +40,6 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
     const hasCompromisedPinnedKeys = model.publicKeys.pinnedKeys.some((key) =>
         model.compromisedFingerprints.has(key.getFingerprint())
     );
-    const canUploadKeys = model.isPGPExternalWithoutWKDKeys;
 
     /**
      * Add / update keys to model
@@ -98,7 +97,7 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
 
     return (
         <>
-            {!hasApiKeys && (
+            {!hasApiKeys && !model.isInternalWithDisabledE2EEForMail && (
                 <Alert className="mb-4">
                     {c('Info')
                         .t`Setting up PGP allows you to send end-to-end encrypted emails with a non-${BRAND_NAME} user that uses a PGP compatible service.`}
@@ -123,7 +122,7 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
                 <Alert className="mb-4" type="warning">{c('Info')
                     .t`The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.`}</Alert>
             )}
-            {hasApiKeys && !hasPinnedKeys && !model.isInternalWithDisabledE2EEForMail && (
+            {hasApiKeys && !hasPinnedKeys && (
                 <Alert className="mb-4">
                     {c('Info')
                         .t`To use Address Verification, you must trust one or more available public keys, including the one you want to use for sending. This prevents the encryption keys from being faked.`}
@@ -141,7 +140,7 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
                     </div>
                 </Alert>
             )}
-            {model.isPGPExternal && (
+            {model.isPGPExternal && !model.isInternalWithDisabledE2EEForMail && (
                 <>
                     <Row>
                         <Label htmlFor="encrypt-toggle">
@@ -208,7 +207,7 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
                     </Row>
                 </>
             )}
-            {canUploadKeys && (
+            {model.isPGPExternalWithoutWKDKeys && !model.isInternalWithDisabledE2EEForMail && (
                 <Row>
                     <Label>
                         {c('Label').t`Public keys`}
@@ -225,12 +224,14 @@ const ContactPGPSettings = ({ model, setModel, mailSettings }: Props) => {
                     </Field>
                 </Row>
             )}
-            {!canUploadKeys && (
-                <Row>
-                    <Label>{c('Label').t`Public keys`}</Label>
-                </Row>
+            {(hasApiKeys || hasPinnedKeys) && (
+                <>
+                    <Row>
+                        <Label>{c('Label').t`Public keys`}</Label>
+                    </Row>
+                    <ContactKeysTable model={model} setModel={setModel} />
+                </>
             )}
-            {(hasApiKeys || hasPinnedKeys) && <ContactKeysTable model={model} setModel={setModel} />}
         </>
     );
 };

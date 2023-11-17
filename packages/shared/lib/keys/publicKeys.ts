@@ -168,6 +168,7 @@ export const getContactPublicKeyModel = async ({
     const encryptionCapableFingerprints = new Set<string>();
     const obsoleteFingerprints = new Set<string>();
     const compromisedFingerprints = new Set<string>();
+    const disabledEncryptionFingerprints = new Set<string>();
 
     // prepare keys retrieved from the API
     const isInternalUser = getIsInternalUser(apiKeysConfig);
@@ -186,6 +187,9 @@ export const getContactPublicKeyModel = async ({
             }
             if (!hasBit(flags, KEY_FLAG.FLAG_NOT_OBSOLETE)) {
                 obsoleteFingerprints.add(fingerprint);
+            }
+            if (hasBit(flags, KEY_FLAG.FLAG_EMAIL_NO_ENCRYPT)) {
+                disabledEncryptionFingerprints.add(fingerprint);
             }
         })
     );
@@ -218,7 +222,7 @@ export const getContactPublicKeyModel = async ({
     let encrypt: boolean | undefined = undefined;
     if (pinnedKeys.length > 0) {
         // Some old contacts with pinned WKD keys did not store the `x-pm-encrypt` flag,
-        // since encryption was always enabled, so we treat an 'undefined' flag as 'true'.
+        // since encryption was always enabled.
         encrypt = encryptToPinned !== false;
     } else if (isExternalUser && apiKeys.length > 0) {
         // Enable encryption by default for contacts with no `x-pm-encrypt-untrusted` flag.
@@ -236,10 +240,10 @@ export const getContactPublicKeyModel = async ({
             pinnedKeys: orderedPinnedKeys,
             verifyingPinnedKeys: getVerifyingKeys(orderedPinnedKeys, compromisedFingerprints),
         },
-        isInternalWithDisabledE2EEForMail: !!apiKeysConfig.isInternalWithDisabledE2EEForMail,
         trustedFingerprints,
         obsoleteFingerprints,
         compromisedFingerprints,
+        disabledEncryptionFingerprints,
         encryptionCapableFingerprints,
         isPGPExternal: isExternalUser,
         isPGPInternal: isInternalUser,

@@ -1,4 +1,4 @@
-# Release 5.0.16.0 - October 11, 2023
+# Release 5.0.16.0
 
 ## Improved
 

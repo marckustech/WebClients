@@ -34,7 +34,7 @@ import {
     useAuthentication,
     useEventManager,
     useGetAddressKeys,
-    useGetPublicKeysForInbox,
+    useGetPublicKeys,
     useGetUser,
     useGetUserKeys,
     useNotifications,
@@ -109,7 +109,7 @@ const ForwardModal = ({ forward, onClose, ...rest }: Props) => {
     const silentApi = <T,>(config: any) => api<T>({ ...config, silence: true });
     const { keyTransparencyVerify, keyTransparencyCommit } = useKTVerifier(silentApi, getUser);
     const authentication = useAuthentication();
-    const getPublicKeysForInbox = useGetPublicKeysForInbox();
+    const getPublicKeys = useGetPublicKeys();
     const getAddressKeys = useGetAddressKeys();
     const getUserKeys = useGetUserKeys();
     const { createNotification } = useNotifications();
@@ -182,7 +182,7 @@ const ForwardModal = ({ forward, onClose, ...rest }: Props) => {
     const handleSetup = async () => {
         const [forwarderAddressKeys, forwardeeKeysConfig] = await Promise.all([
             getAddressKeys(model.addressID),
-            getPublicKeysForInbox({ email: model.forwardeeEmail }),
+            getPublicKeys({ email: model.forwardeeEmail }),
         ]);
 
         // Abort the setup if e.g. the given address is internal but does not exist

@@ -1,10 +1,12 @@
 import { CryptoProxy, PrivateKeyReference, PublicKeyReference, SessionKey } from '@proton/crypto';
 import { generatePassphrase } from '@proton/shared/lib/calendar/crypto/keys/calendarKeys';
-import { ENCRYPTION_CONFIGS, ENCRYPTION_TYPES, KEY_FLAG } from '@proton/shared/lib/constants';
+import { ENCRYPTION_CONFIGS, ENCRYPTION_TYPES, KEY_FLAG, RECIPIENT_TYPES } from '@proton/shared/lib/constants';
 
 import { base64ToArray } from '../base64';
 import { addApiMock } from './api';
 import { addressKeysCache, mockCache, resolvedRequest } from './cache';
+
+const { TYPE_INTERNAL, TYPE_EXTERNAL } = RECIPIENT_TYPES;
 
 export interface GeneratedKey {
     name: string;
@@ -23,26 +25,20 @@ export interface ApiKey {
 export const apiKeys = new Map<string, ApiKey>();
 
 const addApiKeysMock = () => {
-    addApiMock('core/v4/keys/all', (args) => {
+    addApiMock('core/v4/keys', (args) => {
         const email = args.params.Email;
         if (apiKeys.has(email)) {
             const apiKey = apiKeys.get(email) as ApiKey;
-            const publicKeysWithMetadata = apiKey.keys.map((key) => ({
-                Flags: KEY_FLAG.FLAG_NOT_OBSOLETE | KEY_FLAG.FLAG_NOT_COMPROMISED,
-                PublicKey: key.publicKeyArmored
-            }));
-            const internalKeys = apiKey.isInternal ? publicKeysWithMetadata : [];
-            const externalKeys = apiKey.isInternal ? [] : publicKeysWithMetadata;
             return {
-                Address: {
-                    Keys: internalKeys,
-                    SignedKeyList: null
-                },
-                Unverified: { Keys: externalKeys }
+                RecipientType: apiKey.isInternal ? TYPE_INTERNAL : TYPE_EXTERNAL,
+                Keys: apiKey.keys.map((key) => ({
+                    Flags: KEY_FLAG.FLAG_NOT_OBSOLETE | KEY_FLAG.FLAG_NOT_COMPROMISED,
+                    PublicKey: key.publicKeyArmored,
+                })),
             };
         }
         console.log('api keys', args, email);
-        return { Address: { Keys: [] } };
+        return {};
     });
 };
 

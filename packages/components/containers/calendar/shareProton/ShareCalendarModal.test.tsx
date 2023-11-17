@@ -34,7 +34,6 @@ const mockedEncryptionPreferences: EncryptionPreferences = {
     sign: true,
     scheme: PGP_SCHEMES.PGP_INLINE,
     mimeType: MIME_TYPES.PLAINTEXT,
-    isInternalWithDisabledE2EEForMail: false,
     sendKey: 'anything' as unknown as PublicKeyReference,
     apiKeys: [],
     pinnedKeys: [],

@@ -137,7 +137,6 @@ const getPublicKeysForCalendarSharing = async ({
     // potential errors thrown in the code below are handled in a custom way by loadRecipient
     const { sendKey, isSendKeyPinned, error, isInternal } = await getEncryptionPreferences({
         email,
-        intendedForEmail: false,
         lifetime: 0,
         contactEmailsMap,
     });

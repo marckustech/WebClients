@@ -14713,6 +14713,16 @@
       "Yearly, ${ untilString }": [
         "년간, ${ untilString }"
       ]
+    },
+    "Users table: single sign-on enabled": {
+      "SSO": [
+        "SSO"
+      ]
+    },
+    "Users table: single sign-on tooltip": {
+      "SSO user provided by your Identity Provider": [
+        "SSO가 사용자의 정보 제공사로 부터 제공되었습니다."
+      ]
     }
   }
 }

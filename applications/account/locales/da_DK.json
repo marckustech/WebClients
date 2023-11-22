@@ -7029,6 +7029,36 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dit abonnement håndteres af Mozilla. Kontakt venligst Mozilla-support."
+      ],
+      "Add a @pm.me email address to your account. This simple, shorter domain stands for \"${ MAIL_APP_NAME } me\" or \"Private Message me.\"": [
+        "Tilføj en @pm.me e-mailadresse til din konto. Dette simple, kortere domæne står for \"${ MAIL_APP_NAME } me\" eller \"Private Message me.\""
+      ],
+      "Add label": [
+        "Tilføj etikette"
+      ],
+      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
+        "Alle med dette link vil ikke kunne synkronisere eller få fremtidige opdateringer til din kalender. Hvis du vil give dem adgang igen, skal du oprette et nyt link."
+      ],
+      "Delete link?": [
+        "Slet link?"
+      ],
+      "Edit label": [
+        "Rediger etikette"
+      ],
+      "Enable this address to join this calendar": [
+        "Aktivér denne adresse for at blive medlem af denne kalender"
+      ],
+      "Link deleted": [
+        "Linket er slettet"
+      ],
+      "Only you can see the labels.": [
+        "Kun du kan se etiketterne."
+      ],
+      "Upgrade to add a shorter @pm.me address to your account that is easier to share. It stands for “${ MAIL_APP_NAME } me” or “Private Message me”.": [
+        "Opgrader for at tilføje en kortere @pm.me adresse til din konto, som er lettere at dele. Det står for “${ MAIL_APP_NAME } me” eller “Private Message me”."
+      ],
+      "With your current plan, you can only receive messages with your @pm.me address. Upgrade to send messages and create additional addresses using @pm.me.": [
+        "Med dit nuværende abonnement kan du kun modtage beskeder med din @pm.me-adresse. Opgrader for at sende beskeder og oprette yderligere adresser med @pm.me."
       ]
     },
     "info": {

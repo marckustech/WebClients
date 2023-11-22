@@ -1084,6 +1084,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Create a link to share with anyone outside ${ BRAND_NAME }": [
+        "Стварыць спасылку для абагулення з любым карыстальнікам па-за межамі ${ BRAND_NAME }"
       ]
     },
     "action": {
@@ -14435,6 +14438,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Вы былі запрошаны паспрабаваць ${ MAIL_APP_NAME }"
+      ],
+      "Set up a recovery method": [
+        "Наладзіць метад аднаўлення"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

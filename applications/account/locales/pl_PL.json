@@ -1084,6 +1084,9 @@
       ],
       "Zoom out": [
         "Pomniejsz"
+      ],
+      "Create a link to share with anyone outside ${ BRAND_NAME }": [
+        "Utwórz link, aby udostępnić go poza usługą ${ BRAND_NAME }"
       ]
     },
     "action": {

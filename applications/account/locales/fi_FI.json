@@ -9171,6 +9171,15 @@
       ],
       "Your referral link": [
         "Suosituslinkkisi"
+      ],
+      "End weekday": [
+        "Viikon lopetuspäivä"
+      ],
+      "Start day of month": [
+        "Kuukauden aloituspäivä"
+      ],
+      "Start weekday": [
+        "Viikon aloituspäivä"
       ]
     },
     "label": {

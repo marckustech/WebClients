@@ -14083,6 +14083,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Você foi convidado a experimentar o ${ MAIL_APP_NAME }."
+      ],
+      "Set up a recovery method": [
+        "Definir um método de recuperação"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

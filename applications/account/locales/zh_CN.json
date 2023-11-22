@@ -995,6 +995,18 @@
       ],
       "Zoom out": [
         "缩小"
+      ],
+      "Add label": [
+        "创建标签"
+      ],
+      "Authenticating": [
+        "认证中"
+      ],
+      "Keep my Plus subscription": [
+        "保留 Plus 订阅"
+      ],
+      "sign up for free": [
+        "免费注册"
       ]
     },
     "Action for user session": {
@@ -3148,7 +3160,7 @@
         "域名不可用，请稍后再试"
       ],
       "Email address disabled": [
-        "邮件地址已禁用"
+        "邮箱地址已停用"
       ],
       "Email address is invalid": [
         "电子邮箱地址不可用"
@@ -6858,6 +6870,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "您的账户是由 Mozilla 管理的，请联系 Mozilla 获取帮助。"
+      ],
+      "Country code": [
+        "国家/地区代码"
+      ],
+      "This promotion link has expired.": [
+        "促销链接已过期"
       ]
     },
     "info": {
@@ -8086,6 +8104,12 @@
       ],
       "Your referral link": [
         "您的邀请链接"
+      ],
+      "Inbox": [
+        "收件箱"
+      ],
+      "Signature": [
+        "落款"
       ]
     },
     "label": {
@@ -9744,7 +9768,7 @@
         "升级"
       ],
       "Upgrade my plan": [
-        "升级帐户套餐"
+        "升级账户"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -9938,6 +9962,9 @@
       ],
       "yourdomain.com": [
         "你的域名.com"
+      ],
+      "Thomas Anderson": [
+        "ZHANG SAN"
       ]
     },
     "plan customizer, users": {
@@ -11530,7 +11557,7 @@
         "更改域名设置"
       ],
       "Edit email address": [
-        "编辑电子邮件地址"
+        "更改邮箱地址"
       ],
       "Edit filter": [
         "更改规则"

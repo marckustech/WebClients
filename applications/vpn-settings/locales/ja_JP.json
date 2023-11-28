@@ -1937,6 +1937,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "あなたのアカウントあるいは組織には未払いの請求があります。すべての未払いの請求をお支払いください。"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "組織キーをアクティブ化する必要があります。 アクティベーションを行わないと、非プライベート ユーザーを作成したりアクセスしたりすることはできません。"
       ]
     },
     "Error importing users": {
@@ -3687,6 +3690,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "あなたのサブスクリプションはMozillaによって管理されています。Mozillaのサポートへお問い合わせください。"
+      ],
+      "Your account was successfully updated with this promotion": [
+        "Android モバイル アプリではまだ利用できません。"
       ]
     },
     "Info for cash payment method": {

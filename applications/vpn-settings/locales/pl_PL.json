@@ -744,6 +744,18 @@
       ],
       "Select your Black Friday offer": [
         "Wybierz ofertę na Czarny Piątek"
+      ],
+      "Save with Cyber Week deals on a high-speed Swiss VPN": [
+        "Oszczędź na szybkich, szwajcarskich usługach VPN z okazji Cyber Tygodnia"
+      ],
+      "Save with End of Year deals on a high-speed Swiss VPN": [
+        "Oszczędzaj dzięki ofertom na koniec roku na szybką szwajcarską sieć VPN"
+      ],
+      "Select your Cyber Week offer": [
+        "Wybierz ofertę Cyber Tygodnia"
+      ],
+      "Select your End of Year offer": [
+        "Wybierz ofertę na koniec roku"
       ]
     },
     "bf2023: info": {
@@ -5763,6 +5775,12 @@
       ],
       "You currently have": [
         "Obecnie masz"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium password manager!": [
+        "Za jedyne **${ relativePrice } miesięcznie** więcej, otrzymasz dostęp do menedżera haseł premium ${ BRAND_NAME }!"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium VPN service!": [
+        "Za jedyne **${ relativePrice } miesięcznie** więcej, otrzymasz dostęp do najwyższej jakości usługi VPN ${ BRAND_NAME }!"
       ]
     },
     "pass_signup_2023: Title": {

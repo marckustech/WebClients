@@ -2285,7 +2285,7 @@
     },
     "fido2: Error": {
       "Please disable 2FA via security key before disabling TOTP": [
-        "Desative a autenticação 2FA através da chave de segurança antes de desativar o TOTP"
+        "Desative a autenticação A2F através da chave de segurança antes de desativar o TOTP"
       ],
       "Something went wrong authenticating with your security key. Please try again.": [
         "Algo correu mal ao autenticar com a sua chave de segurança. Por favor, tente novamente."
@@ -2351,13 +2351,13 @@
         "Dê um nome à sua chave de segurança"
       ],
       "Register your security key": [
-        "Registre a sua chave de segurança"
+        "Registe a sua chave de segurança"
       ],
       "Registered security keys": [
         "As chaves de segurança foram registradas."
       ],
       "Security key registered": [
-        "A chave de segurança foi registrada."
+        "A chave de segurança foi registada."
       ]
     },
     "file size format": {

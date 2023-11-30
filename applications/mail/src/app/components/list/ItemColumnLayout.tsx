@@ -174,7 +174,7 @@ const ItemColumnLayout = ({
 
                         <div className="item-icons flex flex-item-noshrink flex-nowrap no-mobile">
                             <span className="flex item-meta-infos">
-                                {hasLabels && isCompactView && (
+                                {hasLabels && isCompactView && !isSnoozeDropdownOpen && (
                                     <ItemLabels
                                         className="ml-2"
                                         labels={labels}
@@ -183,7 +183,7 @@ const ItemColumnLayout = ({
                                         maxNumber={1}
                                     />
                                 )}
-                                {hasExpiration && (
+                                {hasExpiration && !isSnoozeDropdownOpen && (
                                     <ItemExpiration
                                         expirationTime={expirationTime}
                                         className="ml-1 flex-align-self-center"
@@ -191,13 +191,15 @@ const ItemColumnLayout = ({
                                         labelID={labelID}
                                     />
                                 )}
-                                <ItemAttachmentIcon
-                                    icon={hasOnlyIcsAttachments ? 'calendar-grid' : undefined}
-                                    element={element}
-                                    className="ml-1 flex-align-self-center"
-                                />
+                                {!isSnoozeDropdownOpen && (
+                                    <ItemAttachmentIcon
+                                        icon={hasOnlyIcsAttachments ? 'calendar-grid' : undefined}
+                                        element={element}
+                                        className="ml-1 flex-align-self-center"
+                                    />
+                                )}
                                 <span className="ml-1 flex-flex-children flex-item-centered-vert hidden-empty">
-                                    {isStarred && <ItemStar element={element} />}
+                                    {isStarred && !isSnoozeDropdownOpen && <ItemStar element={element} />}
                                 </span>
                             </span>
                         </div>

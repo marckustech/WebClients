@@ -44,7 +44,7 @@
         "Aggiungi email"
       ],
       "Add group": [
-        "Aggiungi gruppo"
+        "Aggiungi un gruppo"
       ],
       "Add new contact": [
         "Aggiungi nuovo contatto"
@@ -86,7 +86,7 @@
         "Tutta la posta importante"
       ],
       "All Unread": [
-        "Tutti la posta non letta"
+        "Tutta la posta non letta"
       ],
       "All Unstarred": [
         "Tutta la posta non importante"
@@ -401,7 +401,7 @@
         "Esporta gruppo di contatti"
       ],
       "Export contacts": [
-        "Esporta contatti"
+        "Esporta i contatti"
       ],
       "External encryption": [
         "Crittografia esterna"
@@ -672,7 +672,7 @@
         "Sposta in spam"
       ],
       "Move to spam and unsubscribe": [
-        "Sposta in spam e annulla iscrizione"
+        "Sposta in spam e disiscrivi"
       ],
       "Move to trash": [
         "Sposta nel cestino"
@@ -1050,8 +1050,8 @@
         "Considera attendibile"
       ],
       "Trust key": [
-        "Chiave attendibile",
-        "Chiavi attendibili"
+        "Considera attendibile la chiave",
+        "Considera attendibili le chiavi"
       ],
       "Trust public key": [
         "Chiave pubblica attendibile"
@@ -1087,10 +1087,10 @@
         "Segna come non importante"
       ],
       "Unsubscribe": [
-        "Disiscriviti"
+        "Disiscrivi"
       ],
       "Unsubscribing": [
-        "Disiscrizione"
+        "Disiscrizione in corso"
       ],
       "Untrust": [
         "Non considerare attendibile"
@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Later this week": [
+        "Più tardi questa settimana"
+      ],
+      "Manage Snooze": [
+        "Gestisci la posticipazione"
+      ],
+      "Next week": [
+        "Settimana seguente"
+      ],
+      "Select date and time": [
+        "Seleziona la data e l'ora"
+      ],
+      "Snooze": [
+        "Posticipa"
+      ],
+      "This weekend": [
+        "Questo fine settimana"
+      ],
+      "Unsnooze": [
+        "Non posticipare"
       ]
     },
     "action": {
@@ -1197,10 +1218,10 @@
         "Ritenta con un altro termine."
       ],
       "You don't have any contacts.": [
-        "Non hai nessun contatto."
+        "Non hai contatti."
       ],
       "You don't have any groups.": [
-        "Non hai nessun gruppo."
+        "Non hai gruppi."
       ]
     },
     "Add participant to calendar event": {
@@ -1840,7 +1861,7 @@
         "grigio tenue"
       ],
       "enzian": [
-        "enzian"
+        "genziana"
       ],
       "fern": [
         "felce"
@@ -1965,13 +1986,13 @@
         "Crea una nuova etichetta"
       ],
       "Go to Archive": [
-        "Vai all'Archivio"
+        "Vai all'archivio"
       ],
       "Go to Drafts": [
-        "Vai alle Bozze"
+        "Vai alle bozze"
       ],
       "Go to Inbox": [
-        "Vai alla posta in entrata"
+        "Vai alla posta in arrivo"
       ],
       "Go to Sent": [
         "Vai alla posta inviata"
@@ -3024,7 +3045,7 @@
         "Cancella automaticamente i messaggi indesiderati e cestinati più vecchi di 30 giorni. Usufruisci di questo e altri benefici quando effettui l'upgrade."
       ],
       "Decrypting contacts… This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
-        "Decriptazione dei contatti... Questa operazione potrebbe richiedere alcuni minuti. Al termine del processo, sarai in grado di scaricare il file con tutti i tuoi contatti esportati."
+        "Decrittografia dei contatti in corso. Questa operazione potrebbe richiedere alcuni minuti. Al termine del processo, potrai scaricare il file con tutti i tuoi contatti esportati."
       ],
       "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
         "Eliminando i contatti... Questo potrebbe richiedere qualche minuto. Quando il processo è completato, puoi chiudere questo modale."
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puoi selezionare i contatti che non vuoi unire né mantenere per l'eliminazione.\nLa cancellazione avverrà solo dopo aver fatto clic sul pulsante Unisci"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Sblocca i periodi di posticipazione personalizzati quando effettui l'upgrade del tuo piano."
       ]
     },
     "description": {
@@ -3300,7 +3324,7 @@
         "Impossibile abilitare la ricerca nel contenuto in questo browser. Esci dalla modalità in incognito o usa un altro browser."
       ],
       "Decryption error: decryption of this message's encrypted content failed.": [
-        "Errore di decriptazione: decriptazione del contenuto crittografato di questo messaggio non riuscita."
+        "Errore di decrittografia: decrittografia del contenuto crittografato di questo messaggio non riuscita."
       ],
       "Deselect at least ${ calendarsToFixCount } calendar": [
         "Deseleziona almeno ${ calendarsToFixCount } calendario",
@@ -3529,14 +3553,14 @@
         "Qualcosa è andato storto, ${ refresh } per procedere. Se continui a vedere questo errore contatta il nostro ${ supportTeam }."
       ],
       "Sorry, ${ BRAND_NAME } can't decrypt your message. Please check that all your keys are active.": [
-        "Siamo spiacenti, ${ BRAND_NAME } non può decriptare il messaggio. Controlla che tutte le tue chiavi siano attive."
+        "Siamo spiacenti, ${ BRAND_NAME } non può decrittografare il messaggio. Controlla che tutte le tue chiavi siano attive."
       ],
       "status page": [
         "pagina di stato"
       ],
       "The attachment could not be decrypted.\nIf you have the corresponding private key, you will still be able to decrypt\nthe file with a program such as GnuPG.": [
-        "L'allegato non può essere decriptato.\nSe hai la chiave privata corrispondente, sarai comunque in grado di decriptare il file con un programma come GnuPG.",
-        "Alcuni allegati non possono essere decriptati.\nSe hai la chiave privata corrispondente, sarai comunque in grado di decriptare i file con un programma come GnuPG."
+        "L'allegato non può essere decrittografato.\nSe hai la chiave privata corrispondente, potrai comunque decrittografare il file con un programma come GnuPG.",
+        "Alcuni allegati non possono essere decrittografati.\nSe hai la chiave privata corrispondente, potrai comunque decrittografare i file con un programma come GnuPG."
       ],
       "The email addresses do not match": [
         "Gli indirizzi email non corrispondono."
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Non hai ancora alcun contatto. Inizia creandone uno nuovo"
+      ],
+      "App currently unavailable": [
+        "App attualmente non disponibile"
+      ],
+      "Open in browser": [
+        "Apri nel browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Per utilizzare ${ MAIL_APP_NAME } o ${ CALENDAR_APP_NAME }, passa alla versione web."
       ]
     },
     "Error notification": {
@@ -4207,7 +4240,7 @@
         "Mostra messaggio spostato"
       ],
       "Unread": [
-        "Non letti"
+        "Non letta"
       ]
     },
     "Filter option to only show message with attachments": {
@@ -4942,7 +4975,7 @@
         "Un numero di telefono può essere utilizzato solo per verificare un account ${ BRAND_NAME }"
       ],
       "A request to unsubscribe from this mailing list will be sent to the sender of the newsletter and automatically processed.": [
-        "Una richiesta di disiscrizione dalla mailing list sarà inviata al mittente della newsletter ed elaborata automaticamente."
+        "Verrà inviata una richiesta di disiscrizione dalla mailing list al mittente della newsletter, verrà elaborata automaticamente."
       ],
       "Account access restricted due to unpaid invoices. Please contact your administrator.": [
         "A causa di fatture non pagate, l'accesso all'account è stato limitato. Per favore, contatta il tuo amministratore."
@@ -4954,7 +4987,7 @@
         "Aggiungi URL immagine"
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
-        "La verifica dell’indirizzo con le chiavi attendibili è abilitata per questo indirizzo. Per poter inviare a questo indirizzo, prima considera attendibili le chiavi pubbliche che possono essere usate per l'invio."
+        "La verifica dell'indirizzo con le chiavi attendibili è abilitata per questo indirizzo. Per poter inviare a questo indirizzo, prima considera attendibili le chiavi pubbliche che possono essere usate per l'invio."
       ],
       "Align left": [
         "Allinea a sinistra"
@@ -5227,7 +5260,7 @@
         "immagini incorporate"
       ],
       "Encrypt message": [
-        "Cripta messaggio"
+        "Crittografa messaggio"
       ],
       "Enter the code from your authenticator app": [
         "Inserisci il codice dalla tua app di autenticazione"
@@ -5684,7 +5717,7 @@
         "Invio in corso"
       ],
       "Sending message...": [
-        "Inviando il messaggio..."
+        "Invio del messaggio in corso"
       ],
       "Sending messages from @pm.me address is a paid feature. Your message will be sent from your default address ${ email }": [
         "L'invio dei messaggi dall'indirizzo @pm.me è una funzionalità a pagamento. Il tuo messaggio sarà inviato dal tuo indirizzo predefinito ${ email }"
@@ -5747,7 +5780,7 @@
         "Testo da visualizzare"
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
-        "L'applicazione deve decriptare localmente i tuoi contatti prima di poterli esportare. Alla fine del processo, verrà generato un file VCF e sarai in grado di scaricarlo."
+        "L'applicazione deve decrittografare localmente i tuoi contatti prima di poterli esportare. Alla fine del processo verrà generato un file VCF che potrai scaricare."
       ],
       "The data you have entered in the draft may not be saved if you leave the page.": [
         "I dati inseriti nella bozza non possono essere salvati se si lascia la pagina."
@@ -5790,7 +5823,7 @@
         "Questo account è stato sospeso a causa di una potenziale violazione delle politiche."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Questo indirizzo è disabilitato. Per essere in grado di inviare a questo indirizzo il proprietario deve prima attivarlo."
+        "Questo indirizzo è disabilitato. Per poter inviare a questo indirizzo il proprietario deve prima abilitarlo."
       ],
       "This browser does not support previewing PDF documents. Please download the file.": [
         "Questo browser non supporta l'anteprima dei documenti PDF. Scarica il file."
@@ -6095,7 +6128,7 @@
         "Non puoi rispondere dall'indirizzo invitato."
       ],
       "You do not have any messages here": [
-        "Non hai nessun messaggio qui"
+        "Non hai messaggi qui"
       ],
       "You have ${ totalLabel } in your inbox.": [
         "Hai ${ totalLabel } nella tua casella di posta."
@@ -6201,6 +6234,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Il tuo numero di telefono sarà utilizzato solo per questa verifica una tantum."
+      ],
+      "Include Spam/Trash.": [
+        "Includi spam/cestino."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sab, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Seleziona un fornitore di servizi per iniziare"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Posticipata fino alle ${ formattedTime } del ${ dateString }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Posticipata fino alle ${ formattedTime } di oggi"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Posticipata fino alle ${ formattedTime } di domani"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "La posticipazione di questa conversazione verrà annullata."
+      ],
+      "This file is too large to preview": [
+        "Questo file è troppo grande per l'anteprima"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Domani, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Effettua l'upgrade a ${ MAIL_APP_NAME } Plus per sbloccare"
       ]
     },
     "info": {
@@ -6210,6 +6273,9 @@
       ],
       "Optional": [
         "Facoltativo"
+      ],
+      "Selected color:": [
+        "Colore selezionato:"
       ]
     },
     "Info on errors": {
@@ -6290,16 +6356,16 @@
         "Inoltra"
       ],
       "Go to All Mail": [
-        "Vai a Tutta la posta"
+        "Vai a tutta la posta"
       ],
       "Go to Archive": [
         "Vai all'archivio"
       ],
       "Go to Drafts": [
-        "Vai alle Bozze"
+        "Vai alle bozze"
       ],
       "Go to Inbox": [
-        "Vai alla posta in entrata"
+        "Vai alla posta in arrivo"
       ],
       "Go to Sent": [
         "Vai alla posta inviata"
@@ -6365,7 +6431,7 @@
         "Sposta in..."
       ],
       "Move up": [
-        "Sposta su"
+        "Sposta in alto"
       ],
       "New message": [
         "Nuovo messaggio"
@@ -6374,7 +6440,7 @@
         "Apri il pannello dei comandi"
       ],
       "Open next message": [
-        "Apri il prossimo messaggio"
+        "Apri messaggio successivo"
       ],
       "Open previous message": [
         "Apri messaggio precedente"
@@ -6389,7 +6455,7 @@
         "Rispondi a tutti"
       ],
       "Save draft": [
-        "Salva la bozza"
+        "Salva bozza"
       ],
       "Search": [
         "Cerca"
@@ -6413,7 +6479,7 @@
         "Mostra email non lette"
       ],
       "Star": [
-        "Importante"
+        "Segna come importante"
       ]
     },
     "Keyboard shortcut section name": {
@@ -6462,7 +6528,7 @@
         "Aggiungi URL immagine"
       ],
       "Add to group": [
-        "Aggiungi ad un gruppo"
+        "Aggiungi a un gruppo"
       ],
       "Address": [
         "Indirizzo"
@@ -6627,7 +6693,7 @@
         "Email crittografate"
       ],
       "Export contacts": [
-        "Esporta contatti"
+        "Esporta i contatti"
       ],
       "Extended address": [
         "Indirizzo completo"
@@ -7160,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Devi riattivare le tue chiavi per visualizzare l'invito aggiornato"
+      ],
+      "Snooze": [
+        "Posticipa"
+      ],
+      "Snoozed": [
+        "Posticipato"
       ]
     },
     "Link to calendar event": {
@@ -7479,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "Fino a 3 TB di spazio di archiviazione"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendario",
+        "${ maximumNumberOfCalendars } calendari"
+      ],
+      "Calendar sharing": [
+        "Condivisione del calendario"
+      ],
+      "Custom snooze time": [
+        "Periodo di posticipazione personalizzato"
       ]
     },
     "new_plans: feature info": {
@@ -7493,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Usa l'indirizzo del tuo dominio email personalizzato, ad esempio tu@il-tuo-nome.it"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Posticipa i messaggi e ricevili quando vuoi"
       ]
     },
     "new_plans: label": {
@@ -7580,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Usa il raccoglitore delle app in alto a sinistra per accedere a tutti i servizi di ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Scegli un tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Usa il raccoglitore delle app in alto a sinistra per accedere a tutti i servizi di ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } e ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Potrai cambiare il tema in qualsiasi momento dalle impostazioni."
       ]
     },
     "Online accounts": {
@@ -7917,6 +8011,9 @@
       ],
       "No unread messages found": [
         "Nessun messaggio non letto trovato"
+      ],
+      "No snoozed messages": [
+        "Nessun messaggio posticipato"
       ]
     },
     "Select files": {
@@ -8230,7 +8327,7 @@
         "Chiudi"
       ],
       "Don't show this offer again": [
-        "Non mostrare più quest’offerta"
+        "Non mostrare più quest'offerta"
       ],
       "Special offer": [
         "Offerta speciale"
@@ -8396,7 +8493,7 @@
         "Sconti di fine anno"
       ],
       "Upgrade and save more with 2 years of ${ planName }": [
-        "Effettua l’upgrade e risparmia ancora di più con 2 anni di ${ planName }"
+        "Effettua l'upgrade e risparmia ancora di più con 2 anni di ${ planName }"
       ]
     },
     "specialoffer: Tooltip": {
@@ -8458,6 +8555,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ora puoi programmare i tuoi messaggi da inviare più tardi"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Imposta quando un'email dovrebbe riapparire nella tua posta in arrivo con la nuova funzionalità di posticipazione."
+      ],
+      "Snooze it for later": [
+        "Posticipa per dopo"
       ]
     },
     "Status": {
@@ -8739,6 +8842,14 @@
       ],
       "Verification successful": [
         "Verifica riuscita"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } conversazione posticipata",
+        "${ elementsCount } conversazioni posticipate"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } conversazione non posticipata",
+        "${ elementsCount } conversazioni non posticipate"
       ]
     },
     "Success notification": {
@@ -8870,7 +8981,7 @@
         "${ emailsCount } indirizzi email"
       ],
       "${ MAIL_APP_NAME } Keyboard Shortcuts": [
-        "${ MAIL_APP_NAME } Scorciatoie da tastiera"
+        "Scorciatoie da tastiera di ${ MAIL_APP_NAME }"
       ],
       "${ unreads } unread message": [
         "${ unreads } messaggio non letto",
@@ -8920,7 +9031,7 @@
         "Compleanno"
       ],
       "Blind Carbon Copy": [
-        "Copia carbone nascosta"
+        "Copia conoscenza nascosta"
       ],
       "Block sender": [
         "Blocca mittente"
@@ -8929,7 +9040,7 @@
         "Impossibile aggiungere più indirizzi"
       ],
       "Carbon Copy": [
-        "Copia carbone"
+        "Copia conoscenza"
       ],
       "CC": [
         "CC"
@@ -8998,7 +9109,7 @@
         "Tema giorno"
       ],
       "Decryption error": [
-        "Errore di decriptazione"
+        "Errore di decrittografia"
       ],
       "Delete ${ count } contact": [
         "Elimina ${ count } contatto",
@@ -9392,7 +9503,7 @@
         "Sblocca i gruppi di contatti"
       ],
       "Unsubscribe": [
-        "Disiscriviti"
+        "Disiscrivi"
       ],
       "Unsubscribe request sent": [
         "Richiesta di disiscrizione inviata"
@@ -9427,6 +9538,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La tua prova gratuita di Mail Plus termina il giorno ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Spostamento di un messaggio posticipato in corso"
+      ],
+      "Snooze": [
+        "Posticipazione"
+      ],
+      "Snooze message": [
+        "Posticipa messaggio"
+      ],
+      "Want to snooze any time?": [
+        "Vuoi posticipare in qualsiasi momento?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9484,10 +9607,10 @@
         "Le sottocartelle di sistema verranno visualizzate come cartelle separate in ${ MAIL_APP_NAME }"
       ],
       "The image could not be loaded": [
-        "Impossibile caricare l’immagine"
+        "Impossibile caricare l'immagine"
       ],
       "The image could not be loaded using proxy": [
-        "Impossibile caricare l’immagine usando il proxy."
+        "Impossibile caricare l'immagine usando il proxy"
       ],
       "The import will start with the most recent messages.": [
         "L'importazione inizierà con i messaggi più recenti."
@@ -9594,7 +9717,7 @@
         "Le impostazioni di data e ora sul dispositivo non sono sincronizzate. ${ learnMore }"
       ],
       "The decryption of the encrypted content failed.": [
-        "Decriptazione del contenuto crittografato non riuscita."
+        "Decrittografia del contenuto crittografato non riuscita."
       ],
       "The verification of the contact details' signature failed.": [
         "La verifica della firma dei dati del contatto non è riuscita."
@@ -9853,6 +9976,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Inoltra automaticamente le email"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blocca definitivamente le comunicazioni email dai truffatori. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blocca i mittenti non desiderati"
+      ],
+      "Congratulations on choosing privacy": [
+        "Congratulazioni per aver scelto la privacy"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Una crittografia così resistente che non consente a nessuno oltre a te e i destinatari previsti di visualizzare le tue email. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Solo per i tuoi occhi"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Inoltra i messaggi di Gmail alla tua posta in arrivo."
+      ],
+      "Next": [
+        "Avanti"
+      ],
+      "Protection from trackers": [
+        "Protezione dai tracker"
+      ],
+      "Skip": [
+        "Salta"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Impediamo agli inserzionisti e ai raccoglitori di dati di ottenere informazioni su di te. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Posticipa messaggio"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Quando dovrebbe il messaggio riapparire nella tua posta in arrivo?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Lun, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sab, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Dom, ${ formatTime }"
       ]
     }
   }

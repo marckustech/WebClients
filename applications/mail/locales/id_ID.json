@@ -1173,6 +1173,27 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Later this week": [
+        "Selama minggu ini"
+      ],
+      "Manage Snooze": [
+        "Atur penundaan"
+      ],
+      "Next week": [
+        "Minggu berikutnya"
+      ],
+      "Select date and time": [
+        "Pilih tanggal dan jam"
+      ],
+      "Snooze": [
+        "Tunda"
+      ],
+      "This weekend": [
+        "Minggu ini"
+      ],
+      "Unsnooze": [
+        "Buka kembali"
       ]
     },
     "action": {
@@ -3073,6 +3094,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Anda dapat menandai kontak-kontak yang tidak ingin digabung atau disimpan. Penghapusan akan dilakukan setelah Anda menekan tombol gabung"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Buka pilih sendiri waktu penundaan setelah meningkatkan langganan"
       ]
     },
     "description": {
@@ -3830,6 +3854,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Anda belum mempunyai kontak. Buat kontak baru sekarang"
+      ],
+      "App currently unavailable": [
+        "Aplikasi saat ini tidak tersedia"
+      ],
+      "Open in browser": [
+        "Buka di browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Untuk menggunakan ${ MAIL_APP_NAME } atau ${ CALENDAR_APP_NAME }, beralihlah ke versi web."
       ]
     },
     "Error notification": {
@@ -4606,7 +4639,7 @@
         "Tergantung dari layanan surel Anda sebelumnya, Anda mungkin akan perlu untuk membuat ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
-        "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengklik tombol 3 titik (...)."
+        "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengeklik tombol 3 titik (...)."
       ],
       "Generate the ${ boldAppPassword } and use it in place of your regular password when prompted by ${ BRAND_NAME }.": [
         "Buat ${ boldAppPassword } dan gunakan kata sandi tersebut ketika diminta oleh ${ BRAND_NAME }."
@@ -5599,7 +5632,7 @@
         "Masa berlaku sesi telah berakhir"
       ],
       "Set ${ MAIL_APP_NAME } as your default email application for this browser. ${ MAIL_APP_NAME } will open automatically when you click an email link.": [
-        "Tentukan ${ MAIL_APP_NAME } sebagai aplikasi surel default untuk browser ini. ${ MAIL_APP_NAME } akan terbuka secara otomatis ketika Anda mengklik tautan surel."
+        "Tentukan ${ MAIL_APP_NAME } sebagai aplikasi surel bawaan untuk browser ini. ${ MAIL_APP_NAME } akan terbuka secara otomatis ketika Anda mengeklik tautan surel."
       ],
       "Setting up PGP allows you to send end-to-end encrypted emails with a non-${ BRAND_NAME } user that uses a PGP compatible service.": [
         "Memasang PGP memungkinkan Anda untuk saling bertukar surel yang terenkripsi secara ujung ke ujung dengan para pengguna non-${ BRAND_NAME } yang juga mendukung PGP."
@@ -6089,6 +6122,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Nomor telepon Anda hanya akan dipakai satu kali ini untuk keperluan verifikasi."
+      ],
+      "Include Spam/Trash.": [
+        "Sertakan Spam/Sampah."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sab, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Pilih layanan surel yang Anda gunakan untuk memulai"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Tunda sampai ${ dateString } pada ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Tunda sampai hari ini, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Tunda sampai besok, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Penundaan percakapan ini akan dibatalkan."
+      ],
+      "This file is too large to preview": [
+        "Berkas ini terlalu besar untuk dipratinjau"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Besok, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Tingkatkan ke ${ MAIL_APP_NAME } Plus untuk membuka"
       ]
     },
     "info": {
@@ -6097,6 +6160,9 @@
       ],
       "Optional": [
         "Opsional"
+      ],
+      "Selected color:": [
+        "Warna terpilih:"
       ]
     },
     "Info on errors": {
@@ -7045,6 +7111,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Anda perlu mengaktifkan ulang kunci Anda untuk melihat undangan yang diperbarui"
+      ],
+      "Snooze": [
+        "Tunda"
+      ],
+      "Snoozed": [
+        "Ditunda"
       ]
     },
     "Link to calendar event": {
@@ -7356,6 +7428,15 @@
       ],
       "Up to 3 TB of storage": [
         "Kuota penyimpanan hingga 3 TB"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } kalender"
+      ],
+      "Calendar sharing": [
+        "Berbagi kalender"
+      ],
+      "Custom snooze time": [
+        "Pilih sendiri waktu tunda"
       ]
     },
     "new_plans: feature info": {
@@ -7370,6 +7451,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Gunakan domain surel khusus milik Anda sendiri, mis. anda@namaanda.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Tunda pesan dan ingatkan saat Anda mau"
       ]
     },
     "new_plans: label": {
@@ -7457,6 +7541,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Gunakan pemindah aplikasi yang terdapat pada pojok kiri atas layar untuk mengakses seluruh layanan ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, dan ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Pilih tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Gunakan pemilih aplikasi di kiri atas untuk mengakses layanan ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } dan ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Anda akan dapat mengubah tema Anda kapan pun pada menu pengaturan."
       ]
     },
     "Online accounts": {
@@ -7790,6 +7883,9 @@
       ],
       "No unread messages found": [
         "Tidak ada pesan yang belum dibaca yang ditemukan"
+      ],
+      "No snoozed messages": [
+        "Tidak ada pesan tertunda"
       ]
     },
     "Select files": {
@@ -8310,6 +8406,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Kini Anda dapat menjadwalkan pengiriman pesan"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Tentukan kapan email akan kembali muncul pada kotak masuk Anda dengan fitur tunda baru kami."
+      ],
+      "Snooze it for later": [
+        "Tunda untuk nanti"
       ]
     },
     "Status": {
@@ -8564,6 +8666,12 @@
       ],
       "Verification successful": [
         "Verifikasi berhasil"
+      ],
+      "${ elementsCount } conversations snoozed": [
+        "${ elementsCount } percakapan ditunda"
+      ],
+      "${ elementsCount } conversations unsnoozed": [
+        "${ elementsCount } percakapan dibuka kembali"
       ]
     },
     "Success notification": {
@@ -9235,6 +9343,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uji coba Mail Plus Anda akan berakhir pada ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Pindah pesan tertunda"
+      ],
+      "Snooze": [
+        "Tunda"
+      ],
+      "Snooze message": [
+        "Tunda pesan"
+      ],
+      "Want to snooze any time?": [
+        "Ingin menunda kapan pun?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9383,7 +9503,7 @@
         "Lewati verifikasi?"
       ],
       "Some of the attachments' signatures failed verification.\nYou can still download these attachments but they might have been tampered with.": [
-        "Tanda tangan lampiran gagal diverifikasi.\nAnda tetap dapat mengunduh lampiran ini tapi mungkin saja sudah rusak."
+        "Tanda tangan lampiran gagal diverifikasi.\nAnda akan tetap dapat mengunduh lampiran ini, namun lampiran ini mungkin saja telah dimodifikasi."
       ],
       "Some of the contacts to be merged display errors. Please review them individually": [
         "Sebagian kontak yang akan digabung rusak. Mohon periksa satu per satu"
@@ -9627,6 +9747,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Teruskan email secara otomatis"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blokir komunikasi email dari para penipu secara permanen. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blokir pengirim yang tidak dikehendaki"
+      ],
+      "Congratulations on choosing privacy": [
+        "Selamat karena telah memilih privasi"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Enkripsi yang teramat kuat, sampai-sampai hanya Anda dan para penerima yang dapat membaca isi email Anda. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Khusus untuk Anda"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Teruskan pesan Gmail ke kotak masuk Anda."
+      ],
+      "Next": [
+        "Berikutnya"
+      ],
+      "Protection from trackers": [
+        "Perlindungan pelacak"
+      ],
+      "Skip": [
+        "Lewati"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Kami menghentikan para pengiklan dan pengumpul data untuk dapat memprofil Anda. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Pesan tertunda"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Kapan Anda ingin pesan ini muncul kembali pada kotak masuk Anda?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Sen, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sab, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Ming, ${ formatTime }"
       ]
     }
   }

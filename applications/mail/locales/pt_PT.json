@@ -1164,6 +1164,12 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Import from Google": [
+        "Importar do Google"
+      ],
+      "Next week": [
+        "Semana seguinte"
       ]
     },
     "action": {
@@ -1327,6 +1333,21 @@
       ],
       "High speed streaming": [
         "Streaming de alta velocidade"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } de armazenamento"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Versão premium do gestor de palavras-passe"
       ]
     },
     "Bug category": {
@@ -4985,7 +5006,7 @@
         "Copiado para a área de transferência"
       ],
       "Copy the link to clipboard": [
-        "Copiar o \"link\" para a área de transferência"
+        "Copiar a ligação para a área de transferência"
       ],
       "Country code": [
         "Código de país"
@@ -6073,6 +6094,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "O seu telefone só será utilizado para esta verificação única."
+      ],
+      "Select a service provider to start": [
+        "Selecione um provedor de serviços para iniciar"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Amanhã, às ${ formattedTime }"
       ]
     },
     "info": {
@@ -7348,6 +7375,13 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3 TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
+      ],
+      "Calendar sharing": [
+        "Partilha de calendário"
       ]
     },
     "new_plans: feature info": {
@@ -7995,7 +8029,7 @@
         "Reposição de palavra-passe pedida (${ user.Email }). Pode mudar a sua palavra-passe em ${ hoursRemaining } horas."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Para ter a certeza que é realmente você a tentar repor a sua palavra-passe, vamos esperar 72 horas antes de aprovar pedidos. Pode repor a sua palavra-passe em ${ boldTimeLeft }. ${ viewRequest }"
+        "Para termos a certeza de que é realmente o utilizador que está a tentar redefinir a sua palavra-passe, esperamos 72 horas antes de aprovar os pedidos. Pode alterar a sua palavra-passe em ${ boldTimeLeft }. ${ viewRequest }"
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Recebemos um pedido de reposição de palavra-passe para ${ boldEmail }."
@@ -9711,6 +9745,33 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantia de devolução do seu dinheiro em até 30 dias"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui o suporte para 1 domínio de e-mail personalizado, 10 endereços de e-mail, 10 aliases Hide-my-email, partilha de calendário e muito mais."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Proteja os seus ficheiros com armazenamento encriptado na nuvem. Inclui histórico de versões, partilha de ficheiros encriptados e muito mais."
+      ]
+    },
+    "Onboarding modal": {
+      "Block unsavory senders": [
+        "Bloqueie remetentes indesejados"
+      ],
+      "Congratulations on choosing privacy": [
+        "Parabéns por escolher a privacidade"
+      ],
+      "For your eyes only": [
+        "Só para si"
+      ],
+      "Protection from trackers": [
+        "Proteção contra rastreadores"
       ]
     }
   }

@@ -1173,6 +1173,18 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Next week": [
+        "次の週"
+      ],
+      "Select date and time": [
+        "日時を選択"
+      ],
+      "Snooze": [
+        "スヌーズを設定"
+      ],
+      "Unsnooze": [
+        "スヌーズを解除"
       ]
     },
     "action": {
@@ -3732,6 +3744,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "連絡先がありません。新しい連絡先を作成して始めましょう"
+      ],
+      "Open in browser": [
+        "ブラウザで開く"
       ]
     },
     "Error notification": {
@@ -5982,6 +5997,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "電話番号は、この一度限りの認証にのみ使用されます。"
+      ],
+      "Select a service provider to start": [
+        "サービスプロバイダーを選択して開始"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "明日、${ formattedTime }"
       ]
     },
     "info": {
@@ -7249,6 +7270,12 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB のストレージ"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 件のカレンダー"
+      ],
+      "Calendar sharing": [
+        "カレンダー共有"
       ]
     },
     "new_plans: feature info": {
@@ -7263,6 +7290,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "独自ドメインのメールアドレスを使用する（例：you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "メッセージをスヌーズし、必要なときに再通知します"
       ]
     },
     "new_plans: label": {
@@ -8198,6 +8228,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "メッセージの送信を予約できます"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "新しいスヌーズ機能で、メールが受信トレイに再表示されるタイミングを設定できます。"
+      ],
+      "Snooze it for later": [
+        "スヌーズで再通知する"
       ]
     },
     "Status": {
@@ -9120,6 +9156,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "Snooze message": [
+        "メッセージのスヌーズ"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9512,6 +9551,61 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } ストレージ"
+      ],
+      "Ad-blocker and malware protection": [
+        "広告ブロッカーとマルウェア防止"
+      ],
+      "Extended version history": [
+        "拡張バージョン履歴"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }と${ CALENDAR_SHORT_APP_NAME }プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium Password Manager": [
+        "プレミアムパスワードマネージャー"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 日間返金保証"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1 件の独自メールドメイン対応、10 件のメールアドレス、10 件の hide-my-email エイリアス、カレンダー共有などが含まれます。"
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "暗号化されたクラウドストレージでファイルの安全性を保ちましょう。バージョン履歴、暗号化済みファイル共有などが含まれています。"
+      ]
+    },
+    "Onboarding modal": {
+      "Block unsavory senders": [
+        "不適切な送信者をブロックする"
+      ],
+      "For your eyes only": [
+        "あなたの目だけに"
+      ],
+      "Protection from trackers": [
+        "トラッカーからの保護"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "メッセージのスヌーズ"
+      ],
+      "When should the message reappear in your inbox?": [
+        "いつメッセージを受信トレイに再表示しますか？"
       ]
     }
   }

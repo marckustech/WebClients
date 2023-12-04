@@ -839,7 +839,7 @@
         "Oznámit phishing"
       ],
       "Request a feature": [
-        "Požádat o funkci"
+        "Požádejte o funkci"
       ],
       "Request new code": [
         "Vyžádejte si nový kód"
@@ -1191,6 +1191,27 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Later this week": [
+        "Koncem tohoto týdne"
+      ],
+      "Manage Snooze": [
+        "Spravovat odložení"
+      ],
+      "Next week": [
+        "Následující týden"
+      ],
+      "Select date and time": [
+        "Vyberte datum a čas"
+      ],
+      "Snooze": [
+        "Odložit"
+      ],
+      "This weekend": [
+        "Tento víkend"
+      ],
+      "Unsnooze": [
+        "Zrušit odložení"
       ]
     },
     "action": {
@@ -2042,7 +2063,7 @@
     },
     "Composer size": {
       "Maximized": [
-        "Maximalizováno"
+        "Maximální"
       ],
       "Normal": [
         "Normální"
@@ -3121,6 +3142,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, které nechcete sloučit ani zachovat, označte pro smazání. Ke smazání dojde po kliknutí na tlačítko pro sloučení"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Odemkněte si vlastní časy odložení navýšením tarifu."
       ]
     },
     "description": {
@@ -3923,6 +3947,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Zatím nemáte žádný kontakt. Začněte vytvořením nového kontaktu"
+      ],
+      "App currently unavailable": [
+        "Aplikace je momentálně nedostupná"
+      ],
+      "Open in browser": [
+        "Otevřít v prohlížeči"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Chcete-li použít ${ MAIL_APP_NAME } nebo ${ CALENDAR_APP_NAME }, přejděte na webovou verzi."
       ]
     },
     "Error notification": {
@@ -6425,6 +6458,33 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "Include Spam/Trash.": [
+        "Zahrnout spam/koš."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sobota, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Vyberte poskytovatele služeb a začněte"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Odloženo do ${ dateString }, ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Odloženo do dneška, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Odložení této konverzace bude zrušeno."
+      ],
+      "This file is too large to preview": [
+        "Tento soubor je pro náhled příliš velký"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Zítra, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Pro odemknutí navyšte tarif na ${ MAIL_APP_NAME } Plus"
       ]
     },
     "info": {
@@ -6436,6 +6496,9 @@
       ],
       "Optional": [
         "Volitelné"
+      ],
+      "Selected color:": [
+        "Vybraná barva:"
       ]
     },
     "Info on errors": {
@@ -6944,7 +7007,7 @@
         "Rozložení"
       ],
       "Location": [
-        "Poloha"
+        "Umístění"
       ],
       "Mail Server (IMAP)": [
         "E-mailový server (IMAP)"
@@ -7390,6 +7453,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Pro zobrazení upravené pozvánky musíte znovu aktivovat své klíče"
+      ],
+      "Snooze": [
+        "Odložit"
+      ],
+      "Snoozed": [
+        "Odloženo"
       ]
     },
     "Link to calendar event": {
@@ -7725,6 +7794,18 @@
       ],
       "Up to 3 TB of storage": [
         "Až 3 TB úložného prostoru"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendář",
+        "${ maximumNumberOfCalendars } kalendáře",
+        "${ maximumNumberOfCalendars } kalendářů",
+        "${ maximumNumberOfCalendars } kalendářů"
+      ],
+      "Calendar sharing": [
+        "Sdílení kalendáře"
+      ],
+      "Custom snooze time": [
+        "Vlastní čas odložení"
       ]
     },
     "new_plans: feature info": {
@@ -7739,6 +7820,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Používejte vlastní e-mailovou doménu, např. vy@vasejmeno.cz"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odložte zprávy a nechte si je připomenout, kdy chcete"
       ]
     },
     "new_plans: label": {
@@ -8171,6 +8255,9 @@
       ],
       "No unread messages found": [
         "Nebyly nalezeny žádné nepřečtené zprávy"
+      ],
+      "No snoozed messages": [
+        "Žádné odložené zprávy"
       ]
     },
     "Select files": {
@@ -9083,6 +9170,18 @@
       ],
       "Verification successful": [
         "Ověření proběhlo úspěšně"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } konverzace odložena",
+        "${ elementsCount } konverzace odloženy",
+        "${ elementsCount } konverzací odloženo",
+        "${ elementsCount } konverzací odloženo"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } konverzaci zrušeno odložení",
+        "${ elementsCount } konverzacím zrušeno odložení",
+        "${ elementsCount } konverzacím zrušeno odložení",
+        "${ elementsCount } konverzacím zrušeno odložení"
       ]
     },
     "Success notification": {
@@ -9805,6 +9904,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Přesunutí odložené zprávy"
+      ],
+      "Snooze": [
+        "Odložit"
+      ],
+      "Snooze message": [
+        "Odložit zprávu"
+      ],
+      "Want to snooze any time?": [
+        "Chcete odložit kdykoliv?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10299,6 +10410,45 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Block unsavory senders": [
+        "Blokování nevhodných odesílatelů"
+      ],
+      "Congratulations on choosing privacy": [
+        "Gratulujeme k volbě soukromí"
+      ],
+      "For your eyes only": [
+        "Pouze pro vaše oči"
+      ],
+      "Next": [
+        "Další"
+      ],
+      "Protection from trackers": [
+        "Ochrana před sledováním"
+      ],
+      "Skip": [
+        "Přeskočit"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Odložit zprávu"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Kdy se má zpráva znovu zobrazit v doručené poště?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Pondělí, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sobota, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Neděle, ${ formatTime }"
       ]
     }
   }

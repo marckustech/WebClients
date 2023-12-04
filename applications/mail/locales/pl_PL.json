@@ -1191,6 +1191,27 @@
       ],
       "Zoom out": [
         "Pomniejsz"
+      ],
+      "Later this week": [
+        "W tym tygodniu"
+      ],
+      "Manage Snooze": [
+        "Zarządzaj odłożeniem"
+      ],
+      "Next week": [
+        "Następny tydzień"
+      ],
+      "Select date and time": [
+        "Wybierz datę i godzinę"
+      ],
+      "Snooze": [
+        "Odłóż"
+      ],
+      "This weekend": [
+        "Ten weekend"
+      ],
+      "Unsnooze": [
+        "Anuluj odłożenie"
       ]
     },
     "action": {
@@ -3121,6 +3142,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Możesz oznaczyć do usunięcia te kontakty, których nie chcesz scalić ani zachować. Usunięcie nastąpi dopiero po kliknięciu przycisku Scal"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Ulepsz plan, aby odblokować niestandardowy czas odłożenia"
       ]
     },
     "description": {
@@ -3923,6 +3947,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Nie masz jeszcze żadnego kontaktu. Zacznij od utworzenia nowego kontaktu"
+      ],
+      "App currently unavailable": [
+        "Aplikacja jest niedostępna"
+      ],
+      "Open in browser": [
+        "Otwórz w przeglądarce"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Otwórz przeglądarkę, aby korzystać z ${ MAIL_APP_NAME } i ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -6268,7 +6301,7 @@
         "Co rok"
       ],
       "You are about to open another browser tab and visit:": [
-        "Masz zamiar otworzyć nową kartę przeglądarki i przejść do:"
+        "Uruchomisz nową kartę przeglądarki i przejdziesz do:"
       ],
       "You are currently signed in as ${ user.Name } (${ user.Email }).": [
         "Zalogowano jako ${ user.Name } (${ user.Email })."
@@ -6425,6 +6458,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numer telefonu zostanie użyty tylko do jednorazowej weryfikacji."
+      ],
+      "Include Spam/Trash.": [
+        "Uwzględnij foldery Spam i Kosz."
+      ],
+      "Sat, ${ formatTime }": [
+        "sob., ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Aby rozpocząć, wybierz dostawcę usługi"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Odłożono: ${ dateString }, ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Odłożono: dzisiaj, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Odłożono: jutro, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Odłożenie wątku zostanie anulowane."
+      ],
+      "This file is too large to preview": [
+        "Plik jest zbyt duży do podglądu"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "jutro, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Ulepsz do planu ${ MAIL_APP_NAME } Plus, aby odblokować funkcję"
       ]
     },
     "info": {
@@ -6436,6 +6499,9 @@
       ],
       "Optional": [
         "Opcjonalnie"
+      ],
+      "Selected color:": [
+        "Wybrany kolor:"
       ]
     },
     "Info on errors": {
@@ -7390,6 +7456,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Musisz reaktywować klucze, aby zobaczyć zaktualizowane zaproszenie"
+      ],
+      "Snooze": [
+        "Odłóż"
+      ],
+      "Snoozed": [
+        "Odłożone"
       ]
     },
     "Link to calendar event": {
@@ -7725,6 +7797,18 @@
       ],
       "Up to 3 TB of storage": [
         "Do 3 TB przestrzeni dyskowej"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendarz",
+        "${ maximumNumberOfCalendars } kalendarze",
+        "${ maximumNumberOfCalendars } kalendarzy",
+        "${ maximumNumberOfCalendars } kalendarzy"
+      ],
+      "Calendar sharing": [
+        "Udostępnianie kalendarza"
+      ],
+      "Custom snooze time": [
+        "Niestandardowy czas odłożenia"
       ]
     },
     "new_plans: feature info": {
@@ -7739,6 +7823,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Korzystaj z adresu w niestandardowej domenie, np. ty@twojanazwa.pl"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odłóż wiadomości i otrzymaj powiadomienie o nich w dowolnym momencie"
       ]
     },
     "new_plans: label": {
@@ -7826,6 +7913,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Otwórz menu aplikacji w lewym górnym rogu, aby uzyskać dostęp do wszystkich usług ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Wybierz motyw"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Otwórz menu aplikacji w lewym górnym rogu, aby uzyskać dostęp do wszystkich usług ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Możesz w ustawieniach zmienić motyw w dowolnym momencie."
       ]
     },
     "Online accounts": {
@@ -8171,6 +8267,9 @@
       ],
       "No unread messages found": [
         "Brak nieprzeczytanych wiadomości"
+      ],
+      "No snoozed messages": [
+        "Brak odłożonych wiadomości"
       ]
     },
     "Select files": {
@@ -8754,6 +8853,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Możesz zaplanować wysyłanie wiadomości w późniejszym czasie"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Nowa funkcja pozwala ustawić, kiedy wiadomość ma ponownie pojawić się w skrzynce odbiorczej."
+      ],
+      "Snooze it for later": [
+        "Odłóż na później"
       ]
     },
     "Status": {
@@ -9083,6 +9188,18 @@
       ],
       "Verification successful": [
         "Weryfikacja powiodła się"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "Odłożono ${ elementsCount } wątek",
+        "Odłożono ${ elementsCount } wątki",
+        "Odłożono ${ elementsCount } wątków",
+        "Odłożono ${ elementsCount } wątków"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "Anulowano odłożenie ${ elementsCount } wątku",
+        "Anulowano odłożenie ${ elementsCount } wątków",
+        "Anulowano odłożenie ${ elementsCount } wątków",
+        "Anulowano odłożenie ${ elementsCount } wątków"
       ]
     },
     "Success notification": {
@@ -9105,7 +9222,7 @@
     },
     "summer2023: Tooltip": {
       "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
-        "Twórz bezpieczne dane logowania na wszystkich urządzeniach. Obejmuje nielimitowaną liczbę aliasów, 20 zabezpieczonych folderów, zintegrowane uwierzytelnianie dwustopniowe, automatyczne uzupełnianie danych karty kredytowej i nie tylko."
+        "Twórz bezpieczne dane logowania na wszystkich urządzeniach. Zawiera nieograniczoną liczbę aliasów, 20 sejfów, zintegrowaną aplikację uwierzytelniającą, autouzupełnianie kart płatniczych i wiele więcej."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
         "Zawiera 2950 serwerów w ponad 65 krajach z możliwością połączenia do 10 urządzeń, dostęp do globalnych usług streamingu, blokadę reklam, złośliwego oprogramowania i wiele więcej."
@@ -9805,6 +9922,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Darmowa wersja próbna planu Mail Plus zakończy się ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Przenoszenie do odłożonych wiadomości"
+      ],
+      "Snooze": [
+        "Odłóż"
+      ],
+      "Snooze message": [
+        "Odłóż wiadomość"
+      ],
+      "Want to snooze any time?": [
+        "Chcesz odłożyć w wybranym czasie?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10299,6 +10428,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Automatyczne przekierowanie wiadomości"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Zablokuj wiadomości od oszustów. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Zablokuj niechcianych nadawców"
+      ],
+      "Congratulations on choosing privacy": [
+        "Gratulujemy wyboru prywatności"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Szyfrowanie tak silne, że tylko Ty i odbiorcy mogę odczytać treść wiadomości. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Tylko dla Twoich oczu"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Przekierowanie wiadomości z Gmaila do skrzynki odbiorczej."
+      ],
+      "Next": [
+        "Dalej"
+      ],
+      "Protection from trackers": [
+        "Ochrona przed elementami śledzącymi"
+      ],
+      "Skip": [
+        "Pomiń"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Blokujemy reklamodawców i firmy zbierające dane, które profilują Cię. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Odłóż wiadomość"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Kiedy chcesz zobaczyć wiadomość w skrzynce odbiorczej?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "pon., ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "sob, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "nie., ${ formatTime }"
       ]
     }
   }

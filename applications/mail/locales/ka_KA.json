@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Later this week": [
+        "მოგვიანებით ამ კვირაში"
+      ],
+      "Manage Snooze": [
+        "დროებით დადუმების მართვა"
+      ],
+      "Next week": [
+        "შემდეგი კვირა"
+      ],
+      "Select date and time": [
+        "აირჩიეთ თარიღი და დრო"
+      ],
+      "Snooze": [
+        "დროებით დადუმება"
+      ],
+      "This weekend": [
+        "ამ კვირას"
+      ],
+      "Unsnooze": [
+        "დროებით დადუმების გაუქმება"
       ]
     },
     "action": {
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "წასაშლელად შეგიძლიათ, მონიშნოთ ის კონტაქტები, რომელთა შერწყმა და შენარჩუნება არ გსურთ. წაშლა მოხდება, მხოლოდ, შერწყმის ღილაკზე დაწკაპუნების შემდეგ"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "განბლოკეთ მომხმარებლის დროებით დადუმების დროებით, როცა თქვენს სატარიფო გეგმას ასწევთ."
       ]
     },
     "description": {
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "კონტაქტები ჯერ არ გაქვთ. დაიწყეთ მათი შექმნა"
+      ],
+      "App currently unavailable": [
+        "აპი ამჟამად ხელმიუწვდომელია"
+      ],
+      "Open in browser": [
+        "ბრაუზერში გახსნა"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "${ MAIL_APP_NAME } ან ${ CALENDAR_APP_NAME }-ს გამოსაყენებლად ვების ვერსიაზე გადაერთეთ."
       ]
     },
     "Error notification": {
@@ -6198,6 +6231,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "თქვენი ტელეფონის ნომერი, მხოლოდ, ერთხელ, შესამოწმებლად იქნება გამოყენებული."
+      ],
+      "Include Spam/Trash.": [
+        "სპამის/ნაგვის ყუთის ჩათვლა"
+      ],
+      "Sat, ${ formatTime }": [
+        "შაბათს, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "დასაწყებად აირჩიეთ მომსახურების მომწოდებელი"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "დროებით დადუმებულია ${ dateString } ${ formattedTime }-მდე"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "დროებით დადუმებულია დღევანდლამდე, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "დროებით დადუმებულია ხვალამდე, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "ამ საუბრის დროებით დადუმება გაუქმდება"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "ამ მისამართის მფლობელმა გამჭოლი დაშიფვრა გამორთო. იმისათვის, რომ შეგეძლოთ, ამ მისამართზე დაშიფრული შეტყობინებები გააგზავნოთ, მფლობელმა გამჭოლი დაშიფვრა თავიდან უნდა ჩართოს."
+      ],
+      "This file is too large to preview": [
+        "მინიატურისთვის ეს ფაილი მეტისმეტად დიდია"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "ხვალ, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "განბლოკვისთვის ასწიეთ ტარიფი ${ MAIL_APP_NAME } Plus-მდე"
       ]
     },
     "info": {
@@ -6207,6 +6273,9 @@
       ],
       "Optional": [
         "არასავალდებულო"
+      ],
+      "Selected color:": [
+        "არჩეული ფერი:"
       ]
     },
     "Info on errors": {
@@ -7157,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "განახლებული მოსაწვევის სანახავად საჭიროა თქვენი გასაღების თავიდან გააქტიურება"
+      ],
+      "Snooze": [
+        "დროებით დადუმება"
+      ],
+      "Snoozed": [
+        "დროებით დადუმებულია"
       ]
     },
     "Link to calendar event": {
@@ -7476,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "3ტბ-მდე საცავი"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } კალენდარი",
+        "${ maximumNumberOfCalendars } კალენდარი"
+      ],
+      "Calendar sharing": [
+        "კალენდრის გაზიარება"
+      ],
+      "Custom snooze time": [
+        "მომხმარებლის დროებით დადუმების დრო"
       ]
     },
     "new_plans: feature info": {
@@ -7490,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "გამოიყენეთ ელფოსტის თქვენი დომენი, მაგ: you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "დაადუმეთ დროებით შეტყობინებები და ჩვენ შეგახსენებთ, როცა გნებავთ"
       ]
     },
     "new_plans: label": {
@@ -7577,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "გამოიყენეთ აპის ამრჩევი ზედა მარცხენა კუთხეში ${ BRAND_NAME }-ის ყველა სერვისთან წვდომისთვის: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } და ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "აირჩიეთ თემა"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "გამოიყენეთ აპის ამრჩევი ზედა მარცხენა კუთხეში ${ BRAND_NAME }-ის ყველა სერვისთან წვდომისთვის: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } და ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "თქვენი თემის შეცვლა ნებისმიერ დროს შეგიძლიათ, მორგების ფანჯარაში."
       ]
     },
     "Online accounts": {
@@ -7914,6 +8011,9 @@
       ],
       "No unread messages found": [
         "წაუკითხავი შეტყობინებები ნაპოვნი არაა"
+      ],
+      "No snoozed messages": [
+        "დროებით დადუმებული შეტყობინებების გარეშე"
       ]
     },
     "Select files": {
@@ -8450,6 +8550,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "ახლა შეგიძლიათ, შექმნათ შეტყობინებების განრიგი, რომელიც დანიშნულ დროს აგზავნის ელფოსტას"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "დააყენეთ, როდის უნდა გამოჩნდეს ელფოსტა თქვენს საფოსტო ყუთში, ახალი დროებით დადუმების ფუნქციით."
+      ],
+      "Snooze it for later": [
+        "დაყოვნება"
       ]
     },
     "Status": {
@@ -8731,6 +8837,14 @@
       ],
       "Verification successful": [
         "გადამოწმება წარმატებულია"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } შეტყობინება დროებით დადუმებულია",
+        "${ elementsCount } შეტყობინება დროებით დადუმებულია"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } საუბრის დროებით დადუმება გაუქმდა",
+        "${ elementsCount } საუბრის დროებით დადუმება გაუქმდა"
       ]
     },
     "Success notification": {
@@ -9416,6 +9530,21 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "თქვენი Mail Plus-ის უფასო სატესტო პერიოდი ${ textDate }-ზე სრულდება"
+      ],
+      "Moving a snoozed message": [
+        "დროებით დადუმებული შეტყობინების გადატანა"
+      ],
+      "Send with encryption disabled?": [
+        "გავაგზავნო გათიშული დაშიფვრით?"
+      ],
+      "Snooze": [
+        "დროებით დადუმება"
+      ],
+      "Snooze message": [
+        "შეტყობინების დროებით დადუმება"
+      ],
+      "Want to snooze any time?": [
+        "გნებავთ, დროებით დაადუმოთ ნებისმიერ დროს?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9842,6 +9971,65 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "ელფოსტების ავტომატური გადაგზავნა"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "სამუდამოდ დაბლოკეთ ელფოსტით კომუნიკაცია სკამერებისგან. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "დაბლოკეთ უსიამოვნო მგზავნლები"
+      ],
+      "Congratulations on choosing privacy": [
+        "გილოცავთ კონფიდენციალობის დაცვის არჩევას"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "დაშიფვრა, რომელიც ისეთი ძლიერია, რომ თქვენი ელფოსტების გახსნა, მხოლოდ, მისთვის განკუთვნილ მიმღებებს შეუძლიათ. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "მხოლოდ, თქვენს დასანახად"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "გადმოაგზავნეთ Gmail-ის შეტყობინებები თქვენს საფოსტო ყუთში."
+      ],
+      "Next": [
+        "შემდეგი"
+      ],
+      "Protection from trackers": [
+        "ტრეკერებისგან დაცვა"
+      ],
+      "Skip": [
+        "გამოტოვება"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "ჩვენ ხელს ვუშლით რეკლამის გამავრცელებლებს და მონაცემების შემგროვებლებს თქვენს პროფილირებაში. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "ამ მისამართების შემცველმა კონტაქტებმა თავიანთ ანგარიშზე გამჭოლი დაშიფვრა გამორთეს, ასე რომ, შესაბამისი დაშიფვრის პარამეტრები განახლდა:"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "შეტყობინების დროებით დადუმება"
+      ],
+      "When should the message reappear in your inbox?": [
+        "როცა უნდა გამოჩნდეს შეტყობინება თავიდან, თქვენს საფოსტო ყუთში?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "ორშ, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "შაბათს, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "კვირას, ${ formatTime }"
       ]
     }
   }

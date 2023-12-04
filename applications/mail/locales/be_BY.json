@@ -491,7 +491,7 @@
         "псеўданімаў Hide-my-email"
       ],
       "Image could not be loaded with tracker protection.": [
-        "Немагчыма загрузіць відарыс з уключанай абаронай ад праграм сачэння."
+        "Не атрымалася загрузіць відарыс з уключанай абаронай ад праграм сачэння."
       ],
       "Image will be loaded without a proxy": [
         "Відарыс будзе загружаны без проксі-сервера"
@@ -935,7 +935,7 @@
         "Задаць ${ MAIL_APP_NAME } у якасці прадвызначанай праграмы электроннай пошты"
       ],
       "Set as default": [
-        "Зрабіць прадвызначаным"
+        "Зрабіць прадвызначанай"
       ],
       "Set encryption": [
         "Задаць шыфраванне"
@@ -1010,7 +1010,7 @@
         "Прапусціць праверку"
       ],
       "Some images could not be loaded with tracker protection.": [
-        "Немагчыма загрузіць некаторыя відарысы з уключанай абаронай ад адсочвання."
+        "Не атрымалася загрузіць некаторыя відарысы з уключанай абаронай ад адсочвання."
       ],
       "Star": [
         "Пазначыць зорачкай"
@@ -1191,6 +1191,27 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Later this week": [
+        "Пазней на гэтым тыдні"
+      ],
+      "Manage Snooze": [
+        "Кіраваць адкладаннем"
+      ],
+      "Next week": [
+        "Наступны тыдзень"
+      ],
+      "Select date and time": [
+        "Выберыце дату і час"
+      ],
+      "Snooze": [
+        "Адкласці"
+      ],
+      "This weekend": [
+        "На выхадных"
+      ],
+      "Unsnooze": [
+        "Скасаваць адкладанне"
       ]
     },
     "action": {
@@ -3121,6 +3142,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можаце пазначыць тыя кантакты, якія вы не хочаце аб'яднаць і пакідаць. Выдаленне адбываецца толькі пасля націску кнопкі аб'яднання"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Разблакіруйце карыстальніцкі час адкладання пасля паляпшэння тарыфнага плана."
       ]
     },
     "description": {
@@ -3923,6 +3947,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "У вас пакуль няма кантактаў. Пачніце са стварэння новага"
+      ],
+      "App currently unavailable": [
+        "Праграма часова недаступна"
+      ],
+      "Open in browser": [
+        "Адкрыць у браўзеры"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Пераключыцеся на вэб-версію, каб выкарыстоўваць ${ MAIL_APP_NAME } або ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -3947,10 +3980,10 @@
     },
     "Event invitation error": {
       "Attached ICS file could not be decrypted": [
-        "Немагчыма расшыфраваць далучаны файл ICS"
+        "Не атрымалася расшыфраваць далучаны файл ICS"
       ],
       "Attached ICS file could not be read": [
-        "Немагчыма прачытаць далучаны файл ICS"
+        "Не атрымалася прачытаць далучаны файл ICS"
       ],
       "Invalid invitation": [
         "Памылковае запрашэнне"
@@ -3959,10 +3992,10 @@
         "Памылковы адказ"
       ],
       "The event could not be added to your calendar. No answer was sent": [
-        "Немагчыма дадаць падзею ў ваш каляндар. Адказ не адпраўлены"
+        "Не атрымалася дадаць падзею ў ваш каляндар. Адказ не адпраўлены"
       ],
       "The event could not be updated in your calendar. No answer was sent": [
-        "Немагчыма абнавіць падзею ў вашым календары. Адказ не адпраўлены"
+        "Не атрымалася абнавіць падзею ў вашым календары. Адказ не адпраўлены"
       ],
       "Unexpected error": [
         "Нечаканая памылка"
@@ -4360,10 +4393,10 @@
         "даныя ўваходу ўліковага запісу"
       ],
       "Auto-forward Gmail": [
-        "Аўтаперасыланне Gmail"
+        "Аўтаперасылка Gmail"
       ],
       "auto-forwarding": [
-        "аўтаперасыланне"
+        "аўтаперасылка"
       ],
       "Block email communications from scammers permanently.": [
         "Цалкам блакіруйце электронныя лісты ад ашуканцаў."
@@ -5965,7 +5998,7 @@
         "Пачатковы адпраўнік гэтага паведамлення больш не з'яўляецца сапраўдным. Ваша паведамленне будзе адпраўлена з прадвызначанага адраса ${ defaultEmail }."
       ],
       "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
-        "Уладальнік гэтага адраса адключыў скразное шыфраванне. Яму неабходна паўторна ўключыць скразное шыфраванне, каб мець магчымасць адпраўляць зашыфраваныя лісты на гэты адрас."
+        "Уладальнік гэтага адраса адключыў скразное шыфраванне. Яму неабходна паўторна ўключыць яго, каб мець магчымасць адпраўляць зашыфраваныя лісты на гэты адрас."
       ],
       "The sender has requested a read receipt.": [
         "Адпраўнік запытаў апавяшчэнне пра прачытанне."
@@ -6425,6 +6458,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш нумар тэлефона будзе выкарыстаны толькі для бягучай аднаразовай праверкі."
+      ],
+      "Include Spam/Trash.": [
+        "Уключыць Спам/Сметніцу"
+      ],
+      "Sat, ${ formatTime }": [
+        "Субота ў ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Выберыце пастаўшчыка паслуг, каб пачаць"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Адкладзена да ${ dateString }, ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Адкладзена да сённяшняга дня, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Адкладзена да заўтрашняга дня, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Адкладанне гэтай размовы будзе скасавана."
+      ],
+      "This file is too large to preview": [
+        "Занадта вялікі файл для папярэдняга прагляду"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Заўтра у ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Палепшыце да ${ MAIL_APP_NAME } Plus, каб разблакіраваць"
       ]
     },
     "info": {
@@ -6436,6 +6499,9 @@
       ],
       "Optional": [
         "Неабавязкова"
+      ],
+      "Selected color:": [
+        "Выбраны колер:"
       ]
     },
     "Info on errors": {
@@ -7390,6 +7456,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Вам неабходна паўторна актываваць ключы, каб паглядзець абноўленае запрашэнне"
+      ],
+      "Snooze": [
+        "Адкласці"
+      ],
+      "Snoozed": [
+        "Адкладзена"
       ]
     },
     "Link to calendar event": {
@@ -7725,6 +7797,18 @@
       ],
       "Up to 3 TB of storage": [
         "Да 3 ТБ сховішча"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } каляндар",
+        "${ maximumNumberOfCalendars } календары",
+        "${ maximumNumberOfCalendars } календароў",
+        "${ maximumNumberOfCalendars } календароў"
+      ],
+      "Calendar sharing": [
+        "Абагулены каляндар"
+      ],
+      "Custom snooze time": [
+        "Карыстальніцкі час адкладання"
       ]
     },
     "new_plans: feature info": {
@@ -7739,6 +7823,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Выкарыстоўвайце свой уласны карыстальніцкі дамен адраса электроннай пошты. Напрыклад, you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Адкладайце паведамленні і атрымлівайце напаміны, калі вам гэта неабходна"
       ]
     },
     "new_plans: label": {
@@ -7826,6 +7913,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Скарыстайцеся выбарам праграм злева ўверсе для атрымання доступу да ўсіх сэрвісаў ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } і ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Выберыце тэму"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Скарыстайцеся выбарам праграм злева ўверсе для атрымання доступу да ўсіх сэрвісаў ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } і ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Вы зможаце змяніць тэму ў любы час праз налады."
       ]
     },
     "Online accounts": {
@@ -8171,6 +8267,9 @@
       ],
       "No unread messages found": [
         "Непрачытаныя паведамленні не знойдзены"
+      ],
+      "No snoozed messages": [
+        "Няма адкладзеных паведамленняў"
       ]
     },
     "Select files": {
@@ -8754,6 +8853,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Цяпер вы можаце запланаваць адпраўку паведамленняў на больш позні час"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Задаць, калі ліст павінен з'явіцца ў вашай паштовай скрыні паўторна з новай функцыяй адкладання."
+      ],
+      "Snooze it for later": [
+        "Адкласці гэта на потым"
       ]
     },
     "Status": {
@@ -9083,6 +9188,18 @@
       ],
       "Verification successful": [
         "Паспяхова праверана"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } размова адкладзена",
+        "${ elementsCount } размовы адкладзены",
+        "${ elementsCount } размоў адкладзены",
+        "${ elementsCount } размоў адкладзены"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "У ${ elementsCount } размове скасавана адкладанне",
+        "У ${ elementsCount } размовах скасавана адкладанне",
+        "У ${ elementsCount } размовах скасавана адкладанне",
+        "У ${ elementsCount } размовах скасавана адкладанне"
       ]
     },
     "Success notification": {
@@ -9805,6 +9922,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Перамяшчэнне адкладзенага паведамлення"
+      ],
+      "Snooze": [
+        "Адкладанне"
+      ],
+      "Snooze message": [
+        "Адкладанне паведамлення"
+      ],
+      "Want to snooze any time?": [
+        "Хочаце адкладаць у любы час?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9862,10 +9991,10 @@
         "Сістэмныя падпапкі будуць адлюстроўвацца ў якасці асобных папак у ${ MAIL_APP_NAME }"
       ],
       "The image could not be loaded": [
-        "Немагчыма загрузіць відарыс"
+        "Не атрымалася загрузіць відарыс"
       ],
       "The image could not be loaded using proxy": [
-        "Немагчыма загрузіць відарыс з выкарыстаннем проксі-сервера"
+        "Не атрымалася загрузіць відарыс з выкарыстаннем проксі-сервера"
       ],
       "The import will start with the most recent messages.": [
         "Імпартаванне пачнецца з самых апошніх паведамленняў."
@@ -9950,7 +10079,7 @@
         "Вы сапраўды хочаце незваротна выдаліць гэты кантакт?"
       ],
       "Contacts could not be merged": [
-        "Не ўдалося аб'яднаць кантакты"
+        "Не атрымалася аб'яднаць кантакты"
       ],
       "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
         "Калі вы не памятаеце свой пароль, то немагчыма паўторна актываваць ваш ключ. Мы можам дапамагчы вам ігнараваць банер папярэджання, але ў працэсе вы незваротна страціце доступ да ўсіх даных, якія зашыфраваны гэтым ключом."
@@ -10299,6 +10428,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Аўтаматычна перасылаць лісты"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Цалкам блакіруйце электронныя лісты ад ашуканцаў. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Блакіруйце адпраўнікоў з дрэннай рэпутацыяй"
+      ],
+      "Congratulations on choosing privacy": [
+        "Віншуем з выбарам прыватнасці"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "У нас настолькі надзейнае шыфраванне, што толькі вы і прызначаныя атрымальнікі змогуць прачытаць вашы лісты. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Толькі для вашых вачэй"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Перасылаць паведамленні Gmail у вашу паштовую скрыню."
+      ],
+      "Next": [
+        "Далей"
+      ],
+      "Protection from trackers": [
+        "Абарона ад праграм сачэння"
+      ],
+      "Skip": [
+        "Прапусціць"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Мы не дазваляем рэкламадаўцам і зборшчыкам даных фарміраваць ваш профіль. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Адкласці паведамленне"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Калі паведамленне павінна з'явіцца яшчэ раз у вашых уваходных?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Панядзелак у ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Субота ў ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Нядзеля ў ${ formatTime }"
       ]
     }
   }

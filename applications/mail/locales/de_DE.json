@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Verkleinern"
+      ],
+      "Later this week": [
+        "Später in dieser Woche"
+      ],
+      "Manage Snooze": [
+        "Verwalte stumme Nachrichten"
+      ],
+      "Next week": [
+        "Nächste Woche"
+      ],
+      "Select date and time": [
+        "Datum und Uhrzeit auswählen"
+      ],
+      "Snooze": [
+        "Stumm schalten"
+      ],
+      "This weekend": [
+        "Dieses Wochenende"
+      ],
+      "Unsnooze": [
+        "Stumm aus"
       ]
     },
     "action": {
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kannst Kontakte, die du weder zusammenführen noch behalten willst, zum Löschen vormerken. Das Löschen erfolgt erst, wenn du auf die Schaltfläche „Zusammenführen“ klickst."
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Entsperre eigene stumm Zeiten, wenn du dein Abo upgradest"
       ]
     },
     "description": {
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Noch keine Kontakte vorhanden. Lege jetzt einen neuen Kontakt an!"
+      ],
+      "App currently unavailable": [
+        "Die App ist derzeit nicht verfügbar."
+      ],
+      "Open in browser": [
+        "Im Browser öffnen"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Bitte wechsle zur Webversion, um ${ MAIL_APP_NAME } oder ${ CALENDAR_APP_NAME } zu verwenden."
       ]
     },
     "Error notification": {
@@ -6201,6 +6234,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Deine Telefonnummer wird nur für diese einmalige Überprüfung verwendet."
+      ],
+      "Include Spam/Trash.": [
+        "Spam/Papierkorb einschließen."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sa, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Wähle einen Dienstanbieter, um anzufangen"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Stumm geschaltet bis ${ dateString } um ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Bis heute Stumm geschaltet, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Bis morgen Stumm geschaltet, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Das Stummschalten dieser Unterhaltung wird abgebrochen."
+      ],
+      "This file is too large to preview": [
+        "Die Datei ist zu groß, um in der Vorschau angezeigt zu werden."
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Morgen, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Abonniere ${ MAIL_APP_NAME } Plus um folgendes freizuschalten"
       ]
     },
     "info": {
@@ -6210,6 +6273,9 @@
       ],
       "Optional": [
         "Optional"
+      ],
+      "Selected color:": [
+        "Ausgewählte Farbe:"
       ]
     },
     "Info on errors": {
@@ -7160,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Du musst deine Schlüssel erneut aktivieren, um die aktualisierte Einladung anzeigen zu können."
+      ],
+      "Snooze": [
+        "Stumm"
+      ],
+      "Snoozed": [
+        "Stumm geschaltet"
       ]
     },
     "Link to calendar event": {
@@ -7479,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "Bis zu 3 TB Speicherplatz"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } Kalender",
+        "${ maximumNumberOfCalendars } Kalender"
+      ],
+      "Calendar sharing": [
+        "Kalenderfreigabe"
+      ],
+      "Custom snooze time": [
+        "Eigene stumm Zeit"
       ]
     },
     "new_plans: feature info": {
@@ -7493,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Verwende deine eigenen E-Mail-Domain-Adressen, z. B. du@deinedomain.de"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Stumme die Nachricht und werde daran erinnert wann du möchtest"
       ]
     },
     "new_plans: label": {
@@ -7580,6 +7665,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Verwende die App-Auswahl oben links, um auf alle ${ BRAND_NAME }-Dienste zuzugreifen: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } und ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Wähle ein Theme"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Verwende die App-Auswahl oben links, um auf alle ${ BRAND_NAME }-Dienste zuzugreifen: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } und ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Online accounts": {
@@ -7917,6 +8008,9 @@
       ],
       "No unread messages found": [
         "Keine ungelesenen Nachrichten gefunden"
+      ],
+      "No snoozed messages": [
+        "Keine stumm geschalteten Nachrichten"
       ]
     },
     "Select files": {
@@ -8458,6 +8552,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kannst jetzt das Versenden deiner Nachrichten zu einem späteren Zeitpunkt planen."
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Lege mit der neuen Schlummerfunktion fest, wann eine E-Mail wieder in deinem Posteingang angezeigt werden soll."
+      ],
+      "Snooze it for later": [
+        "Stumm es für später"
       ]
     },
     "Status": {
@@ -8739,6 +8839,14 @@
       ],
       "Verification successful": [
         "Verifizierung erfolgreich"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } Unterhaltung stumm geschaltet",
+        "${ elementsCount } Unterhaltungen stumm geschaltet"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } Unterhaltung unverändert",
+        "${ elementsCount } Unterhaltungen stumm geschaltet"
       ]
     },
     "Success notification": {
@@ -9427,6 +9535,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Deine kostenlose Testversion von Mail Plus endet am ${ textDate }."
+      ],
+      "Moving a snoozed message": [
+        "Bewege eine stumm geschaltete Nachricht"
+      ],
+      "Snooze": [
+        "Stumm schalten"
+      ],
+      "Snooze message": [
+        "Nachricht stumm schalten"
+      ],
+      "Want to snooze any time?": [
+        "Möchtest du irgendwann Stumm schalten?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9853,6 +9973,54 @@
       ],
       "Yearly, ${ untilString }": [
         "Jährlich, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blockiere die E-Mail-Kommunikation von Betrügern dauerhaft. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blockiere unerwünschte Absender"
+      ],
+      "Congratulations on choosing privacy": [
+        "Herzlichen Glückwunsch zur Entscheidung für den Datenschutz"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Eine so starke Verschlüsselung, dass nur du und die beabsichtigten Empfänger deine E-Mails einsehen können. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Nur für dich"
+      ],
+      "Next": [
+        "Weiter"
+      ],
+      "Protection from trackers": [
+        "Schutz vor Trackern"
+      ],
+      "Skip": [
+        "Überspringen"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Wir hindern Werbetreibende und Datensammler daran, ein Profil von dir zu erstellen. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Stumme die Nachricht"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Wann soll diese Nachricht wieder in deinem Posteingang erscheinen?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Mo, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sa, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "So, ${ formatTime }"
       ]
     }
   }

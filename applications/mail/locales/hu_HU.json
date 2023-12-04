@@ -1179,6 +1179,15 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Next week": [
+        "Következő hét"
+      ],
+      "Snooze": [
+        "Szüneteltetés"
+      ],
+      "This weekend": [
+        "Ezen a hétvégén"
       ]
     },
     "action": {
@@ -1351,6 +1360,12 @@
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
         "Prémium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } tárhely"
+      ],
+      "Premium Password Manager": [
+        "Prémium jelszókezelő"
       ]
     },
     "bf2023: Offers": {
@@ -6127,6 +6142,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "A telefonszám csak erre az egyszeri ellenőrzésre lesz felhasználva."
+      ],
+      "Select a service provider to start": [
+        "Válaszon ki egy szolgáltatót a kezdéshez"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Holnap, ${ formattedTime }"
       ]
     },
     "info": {
@@ -7086,6 +7107,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "A frissített meghívó megtekintéséhez előbb újra kell aktiválnia a kulcsait"
+      ],
+      "Snooze": [
+        "Szüneteltetés"
       ]
     },
     "Link to calendar event": {
@@ -7405,6 +7429,13 @@
       ],
       "Up to 3 TB of storage": [
         "Akár 3 TB tárhely"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } naptár",
+        "${ maximumNumberOfCalendars } naptár"
+      ],
+      "Calendar sharing": [
+        "Naptár megosztás"
       ]
     },
     "new_plans: feature info": {
@@ -9345,6 +9376,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "A Mail Plus csomagjának próbaidőszaka lejár: ${ textDate }"
+      ],
+      "Snooze": [
+        "Szüneteltetés"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9771,6 +9805,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "A kedvezmények a standard havi árazás alapján kerülnek kiszámításra."
+      ]
+    },
+    "Onboarding modal": {
+      "Block unsavory senders": [
+        "Blokkolja a kellemetlen feladókat"
+      ],
+      "Congratulations on choosing privacy": [
+        "Gratulálunk, hogy a magánszféra védelmét választotta"
+      ],
+      "For your eyes only": [
+        "Csak Önnek látható"
+      ],
+      "Next": [
+        "Következő"
+      ],
+      "Protection from trackers": [
+        "Védelem a nyomkövetőkkel szemben"
+      ],
+      "Skip": [
+        "Kihagyás"
       ]
     }
   }

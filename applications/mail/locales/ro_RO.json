@@ -1185,6 +1185,27 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Later this week": [
+        "La sfârșitul săptămânii"
+      ],
+      "Manage Snooze": [
+        "Gestionare amânări"
+      ],
+      "Next week": [
+        "Săptămâna viitoare"
+      ],
+      "Select date and time": [
+        "Selectați data și ora"
+      ],
+      "Snooze": [
+        "Amânare"
+      ],
+      "This weekend": [
+        "În acest weekend"
+      ],
+      "Unsnooze": [
+        "Anulare amânare"
       ]
     },
     "action": {
@@ -3105,6 +3126,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puteți marca pentru ștergere contactele pe care nu doriți nici să le îmbinați, nici să le păstrați. Ștergerea va fi efectuată doar după apăsarea butonului de îmbinare."
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Deblocați amânări personalizate când treceți la un plan cu plată."
       ]
     },
     "description": {
@@ -3892,6 +3916,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Încă nu aveți niciun contact. Începeți prin a crea un contact nou."
+      ],
+      "App currently unavailable": [
+        "Aplicație momentan indisponibilă"
+      ],
+      "Open in browser": [
+        "Deschidere în navigator web"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pentru a folosi ${ MAIL_APP_NAME } sau ${ CALENDAR_APP_NAME }, comutați la versiunea web."
       ]
     },
     "Error notification": {
@@ -6310,6 +6343,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numărul de telefon va fi folosit doar pentru această verificare unică."
+      ],
+      "Include Spam/Trash.": [
+        "Includere Nedorite/Gunoi."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sâm, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Selectați un furnizor de servicii pentru a începe"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Amânat până ${ dateString } la ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Amânat până astăzi, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Amânat până mâine, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Amânarea acestei conversații va fi anulată."
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "Proprietarul acestei adrese a dezactivat criptarea în ambele părți. Pentru a putea trimite mesaje criptate la această adresă, proprietarul trebuie să reactiveze criptarea în ambele părți."
+      ],
+      "This file is too large to preview": [
+        "Acest fișier este prea mare pentru a fi examinat."
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Mâine, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Treceți la ${ MAIL_APP_NAME } Plus pentru a debloca"
       ]
     },
     "info": {
@@ -6320,6 +6386,9 @@
       ],
       "Optional": [
         "Opțional"
+      ],
+      "Selected color:": [
+        "Culoare selectată:"
       ]
     },
     "Info on errors": {
@@ -7272,6 +7341,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Trebuie să activați cheile pentru a vedea invitația actualizată"
+      ],
+      "Snooze": [
+        "Amânare"
+      ],
+      "Snoozed": [
+        "Amânat"
       ]
     },
     "Link to calendar event": {
@@ -7599,6 +7674,17 @@
       ],
       "Up to 3 TB of storage": [
         "Până la 3 TiB spațiu de stocare"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendar",
+        "${ maximumNumberOfCalendars } calendare",
+        "${ maximumNumberOfCalendars } de calendare"
+      ],
+      "Calendar sharing": [
+        "Partajare calendar"
+      ],
+      "Custom snooze time": [
+        "Timp amânare personal"
       ]
     },
     "new_plans: feature info": {
@@ -7613,6 +7699,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilizați propria adresă de domeniu pentru e-mail, de ex., nume@adresapersonala.com."
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Amânați mesajele și fiți notificat când doriți."
       ]
     },
     "new_plans: label": {
@@ -7700,6 +7789,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Folosiți meniul de selectare al aplicațiilor din stânga sus pentru a accesa toate serviciile ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } și ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Alegeți o temă"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Folosiți meniul de selectare al aplicațiilor din stânga sus pentru a accesa toate serviciile ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } și ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Veți putea să schimbați tema oricând din setări."
       ]
     },
     "Online accounts": {
@@ -8041,6 +8139,9 @@
       ],
       "No unread messages found": [
         "Nu au fost găsite mesaje necitite"
+      ],
+      "No snoozed messages": [
+        "Nu există mesaje amânate."
       ]
     },
     "Select files": {
@@ -8598,6 +8699,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Acum puteți să vă programați mesajele pentru a fi trimise mai târziu."
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Setați când un e-mail ar trebui să reapară în folderul de mesaje primite cu noua funcție de amânare."
+      ],
+      "Snooze it for later": [
+        "Amânare"
       ]
     },
     "Status": {
@@ -8903,6 +9010,16 @@
       ],
       "Verification successful": [
         "Verificare reușită"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } conversație este amânată.",
+        "${ elementsCount } conversații sunt amânate.",
+        "${ elementsCount } de conversații sunt amânate."
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } conversație este reluată.",
+        "${ elementsCount } conversații sunt reluate.",
+        "${ elementsCount } de conversații sunt reluate."
       ]
     },
     "Success notification": {
@@ -9605,6 +9722,21 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Moving a snoozed message": [
+        "Se mută un mesaj amânat"
+      ],
+      "Send with encryption disabled?": [
+        "Se trimite cu criptare dezactivată?"
+      ],
+      "Snooze": [
+        "Amânare"
+      ],
+      "Snooze message": [
+        "Amânare mesaj"
+      ],
+      "Want to snooze any time?": [
+        "Doriți să modificați perioada de amânare?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10065,6 +10197,65 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Redirecționare automată mesaje"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blocați permanent mesajele de la escroci. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blocați expeditorii nesăbuiți"
+      ],
+      "Congratulations on choosing privacy": [
+        "Felicitări pentru că ați ales o viață privată"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Criptare atât de puternică, încât doar dvs. și destinatarii doriți pot vedea conținutul acestora. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Doar pentru dumneavoastră"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Redirecționați mesajele de pe Gmail către adresa personală."
+      ],
+      "Next": [
+        "Înainte"
+      ],
+      "Protection from trackers": [
+        "Protecție împotriva monitorizării"
+      ],
+      "Skip": [
+        "Omitere"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Blocăm agenții de publicitate și colectorii de date pentru a-i împiedica să vă facă un profil. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "Persoanele de contact pentru următoarele adrese au dezactivat criptarea în ambele părți în contul lor, astfel încât preferințele de criptare corespunzătoare au fost actualizate în consecință:"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Mesaj amânare"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Când ar trebui să reapară acest mesaj în mesajele primite?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Lun, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sâm, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Dum, ${ formatTime }"
       ]
     }
   }

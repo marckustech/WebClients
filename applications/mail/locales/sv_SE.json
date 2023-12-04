@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Later this week": [
+        "Senare denna vecka"
+      ],
+      "Manage Snooze": [
+        "Hantera snooze"
+      ],
+      "Next week": [
+        "Nästa vecka"
+      ],
+      "Select date and time": [
+        "Välj datum och tid"
+      ],
+      "Snooze": [
+        "Snooza"
+      ],
+      "This weekend": [
+        "Denna helg"
+      ],
+      "Unsnooze": [
+        "Stäng av snooze"
       ]
     },
     "action": {
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markera de kontakter som du varken vill slå ihop eller behålla för borttagning. Borttagning kommer endast ske efter att ha klickat på knappen ”Slå ihop”"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Lås upp anpassade tider för snooze när du uppgraderar ditt paket."
       ]
     },
     "description": {
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Du har ingen kontakt ännu. Börja med att skapa en ny kontakt"
+      ],
+      "App currently unavailable": [
+        "App är för närvarande inte tillgänglig"
+      ],
+      "Open in browser": [
+        "Öppna i webbläsare"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Byt till webbversionen för att använda ${ MAIL_APP_NAME } eller ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -6044,7 +6077,7 @@
         "När vill du att ditt meddelande ska självförstöras?"
       ],
       "When giving out your email, use a unique, disposable hide-my-email alias instead of your real email address.": [
-        "När du delar ut din e-post, använd en unik engångs Hide-my-email-alias istället för din verkliga e-postadress."
+        "När du delar ut din e-post, använd ett unikt, engångs hide-my-email-alias istället för din riktiga e-postadress."
       ],
       "When you enabled trusted keys for ${ senderName }, the public keys were added to the contact details.": [
         "När du aktiverade betrodda nycklar för ${ senderName } lades de offentliga nycklarna till i kontaktuppgifterna."
@@ -6201,6 +6234,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ditt telefonnummer kommer endast att användas för denna engångsverifiering."
+      ],
+      "Include Spam/Trash.": [
+        "Inkludera skräppost/papperskorg."
+      ],
+      "Sat, ${ formatTime }": [
+        "Lör. ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Välj en tjänsteleverantör för att starta"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Snoozad till ${ dateString } kl. ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Snoozad till idag, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Snoozad till imorgon, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Snoozning av denna konversation kommer att avbrytas."
+      ],
+      "This file is too large to preview": [
+        "Denna fil är för stor för att förhandsgranska"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Imorgon, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Uppgradera till ${ MAIL_APP_NAME } Plus för att låsa upp"
       ]
     },
     "info": {
@@ -6210,6 +6273,9 @@
       ],
       "Optional": [
         "Valfritt"
+      ],
+      "Selected color:": [
+        "Vald färg:"
       ]
     },
     "Info on errors": {
@@ -7160,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Du måste återaktivera dina nycklar för att se den uppdaterade inbjudan"
+      ],
+      "Snooze": [
+        "Snooza"
+      ],
+      "Snoozed": [
+        "Snoozad"
       ]
     },
     "Link to calendar event": {
@@ -7479,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "Upp till 3 TB lagringsutrymme"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalender",
+        "${ maximumNumberOfCalendars } kalendrar"
+      ],
+      "Calendar sharing": [
+        "Kalenderdelning"
+      ],
+      "Custom snooze time": [
+        "Anpassad tid för snooza"
       ]
     },
     "new_plans: feature info": {
@@ -7493,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Använd din egen anpassade e-postdomänadress, t.ex. du@dittnamn.se"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Snooza meddelanden och bli påmind när du vill"
       ]
     },
     "new_plans: label": {
@@ -7580,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Använd appväljaren uppe till vänster för att komma åt alla ${ BRAND_NAME }-tjänster: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } och ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Välj ett tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Använd appväljaren uppe till vänster för att komma åt alla ${ BRAND_NAME }-tjänster: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } och ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Du kommer att kunna ändra ditt tema när som helst i dina inställningar."
       ]
     },
     "Online accounts": {
@@ -7917,6 +8011,9 @@
       ],
       "No unread messages found": [
         "Inga olästa meddelanden hittades"
+      ],
+      "No snoozed messages": [
+        "Inga snoozade meddelanden"
       ]
     },
     "Select files": {
@@ -8458,6 +8555,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kan nu schemalägga dina meddelanden för att skickas senare"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Ställ in när ett e-postmeddelande ska dyka upp igen i din inkorg med den nya snooze-funktionen."
+      ],
+      "Snooze it for later": [
+        "Snooza det till senare"
       ]
     },
     "Status": {
@@ -8739,6 +8842,14 @@
       ],
       "Verification successful": [
         "Verifiering lyckades"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } konversation snoozad",
+        "${ elementsCount } konversationer snoozade"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } konversation ej snoozad",
+        "${ elementsCount } konversationer ej snoozade"
       ]
     },
     "Success notification": {
@@ -9427,6 +9538,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Flyttar ett snoozat meddelande"
+      ],
+      "Snooze": [
+        "Snooza"
+      ],
+      "Snooze message": [
+        "Snooza meddelande"
+      ],
+      "Want to snooze any time?": [
+        "Vill du snooza valfri tid?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9853,6 +9976,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Vidarebefordra e-post automatiskt"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blockera e-postkommunikation från bedragare permanent. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blockera otrevliga avsändare"
+      ],
+      "Congratulations on choosing privacy": [
+        "Grattis till att du väljer integritet"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Kryptering så stark att endast du och avsedda mottagare kan visa dina e-postmeddelanden. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Bara för dina ögon"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Vidarebefordra Gmail-meddelanden till din inkorg."
+      ],
+      "Next": [
+        "Nästa"
+      ],
+      "Protection from trackers": [
+        "Skydd från spårare"
+      ],
+      "Skip": [
+        "Hoppa över"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Vi stoppar annonsörer och datainsamlare från att profilera dig. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Snooza meddelande"
+      ],
+      "When should the message reappear in your inbox?": [
+        "När ska meddelandet dyka upp igen i din inkorg?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Mån. ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Lör. ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Sön. ${ formatTime }"
       ]
     }
   }

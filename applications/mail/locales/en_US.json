@@ -11,6 +11,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "You can't send vCard files of more than ${ maxAttachments } contact",
         "You can't send vCard files of more than ${ maxAttachments } contacts"
+      ],
+      "Ok": [
+        "OK"
       ]
     },
     "Description": {
@@ -60,6 +63,9 @@
       ],
       "Upgrade to automatically delete messages that have been in trash and spam for more than 30 days.": [
         "Upgrade to automatically delete messages that have been in Trash or Spam for more than 30 days."
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Snoozed until ${ dateString } at ${ formattedTime }"
       ]
     },
     "Label": {

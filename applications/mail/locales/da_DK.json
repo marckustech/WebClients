@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Zoom ud"
+      ],
+      "Later this week": [
+        "Senere denne uge"
+      ],
+      "Manage Snooze": [
+        "Administrer udsættelse"
+      ],
+      "Next week": [
+        "Næste uge"
+      ],
+      "Select date and time": [
+        "Vælg dato og tid"
+      ],
+      "Snooze": [
+        "Udsæt"
+      ],
+      "This weekend": [
+        "Denne weekend"
+      ],
+      "Unsnooze": [
+        "Annullér udsættelse"
       ]
     },
     "action": {
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markere de kontakter til sletning, som du hverken ønsker at flette eller beholde.\nSletning vil kun ske, når der er klikket på fletningsknappen"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Lås op for brugerdefinerede udsættelsestider, når du opgraderer dit abonnement."
       ]
     },
     "description": {
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Du har ikke nogen kontakt endnu. Start med at oprette en ny kontakt"
+      ],
+      "App currently unavailable": [
+        "App ikke tilgængelig i øjeblikket"
+      ],
+      "Open in browser": [
+        "Åbn i browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Skift til webversionen for at bruge ${ MAIL_APP_NAME } eller ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -6198,6 +6231,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Dit telefonnummer vil kun blive anvendt til denne engangsbekræftelse."
+      ],
+      "Include Spam/Trash.": [
+        "Inkludér spam/papirkurv"
+      ],
+      "Sat, ${ formatTime }": [
+        "Lør, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Vælg en tjenesteudbyder for at starte"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Udsat indtil  ${ dateString } kl. ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Udsat indtil i dag, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Udsat indtil i morgen, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Udsættelse af denne samtale vil blive annulleret."
+      ],
+      "This file is too large to preview": [
+        "Denne fil er for stor til forhåndsvisning"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "I morgen, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Opgrader til ${ MAIL_APP_NAME } Plus for at få adgang"
       ]
     },
     "info": {
@@ -6207,6 +6270,9 @@
       ],
       "Optional": [
         "Valgfrit"
+      ],
+      "Selected color:": [
+        "Valgte farve:"
       ]
     },
     "Info on errors": {
@@ -7157,6 +7223,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Du skal genaktivere dine nøgler for at se den opdateret invitation"
+      ],
+      "Snooze": [
+        "Udsæt"
+      ],
+      "Snoozed": [
+        "Udsat"
       ]
     },
     "Link to calendar event": {
@@ -7476,6 +7548,16 @@
       ],
       "Up to 3 TB of storage": [
         "Op til 3 TB lagerplads"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalender",
+        "${ maximumNumberOfCalendars } kalendere"
+      ],
+      "Calendar sharing": [
+        "Kalenderdeling"
+      ],
+      "Custom snooze time": [
+        "Brugerdefineret udsættelsestid"
       ]
     },
     "new_plans: feature info": {
@@ -7490,6 +7572,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Brug din egen brugerdefinerede e-mail-domæneadresse, f.eks. dig@ditnavn.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Udsæt beskeder, og bliv mindet om dem, når du ønsker det"
       ]
     },
     "new_plans: label": {
@@ -7577,6 +7662,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Brug appvælgeren øverst til venstre for at få adgang til alle ${ BRAND_NAME }-tjenester: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } og ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vælg et tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Brug app-vælgeren øverst til venstre for at få adgang til alle ${ BRAND_NAME }-tjenester: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } og ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Du kan til enhver tid ændre dit tema i dine indstillinger."
       ]
     },
     "Online accounts": {
@@ -7914,6 +8008,9 @@
       ],
       "No unread messages found": [
         "Ingen ulæste beskeder fundet"
+      ],
+      "No snoozed messages": [
+        "Ingen udsatte beskeder"
       ]
     },
     "Select files": {
@@ -8450,6 +8547,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kan nu planlægge dine beskeder til senere afsendelse"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Indstil, hvornår en e-mail skal dukke op igen i din indbakke med den nye udsættelsesfunktion."
+      ],
+      "Snooze it for later": [
+        "Udsæt den til senere"
       ]
     },
     "Status": {
@@ -8731,6 +8834,14 @@
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } samtale udsat",
+        "${ elementsCount } samtaler udsat"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "Udsættelse annulleret for ${ elementsCount } samtale",
+        "Udsættelse annulleret for ${ elementsCount } samtaler"
       ]
     },
     "Success notification": {
@@ -9419,6 +9530,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din Mail Plus prøveperiode slutter ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Flytter en udsat besked"
+      ],
+      "Snooze": [
+        "Udsæt"
+      ],
+      "Snooze message": [
+        "Udsæt besked"
+      ],
+      "Want to snooze any time?": [
+        "Vil du frit kunne bestemme udsættelsestid?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9845,6 +9968,65 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Videresend e-mails automatisk"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Blokér e-mailkommunikation fra svindlere permanent. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Blokér ubehagelige afsendere"
+      ],
+      "Congratulations on choosing privacy": [
+        "Tillykke med valget af et beskyttet privatliv"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Kryptering så stærk, at kun du og de tiltænkte modtagere kan se dine e-mails. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Strengt fortroligt"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Videresend Gmail-beskeder til din indbakke."
+      ],
+      "Next": [
+        "Næste"
+      ],
+      "Protection from trackers": [
+        "Beskyttelse mod trackere"
+      ],
+      "Skip": [
+        "Spring over"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Vi forhindrer annoncører og dataopsamlere i at profilere dig. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "Kontakterne for følgende adresser har deaktiveret ende-til-ende-kryptering på deres konto, hvorved de tilsvarende krypteringspræferencer er blevet opdateret i overensstemmelse hermed:"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Udsæt besked"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Hvornår skal beskeden dukke op i din indbakke igen?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Man, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Lør, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Søn, ${ formatTime }"
       ]
     }
   }

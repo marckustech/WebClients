@@ -29,7 +29,7 @@
         "Afegeix destinatari CCO"
       ],
       "Add birthday": [
-        "Afegir una data de naixement"
+        "Afegeix una data de naixement"
       ],
       "Add Cc recipients": [
         "Afegeix destinatari CC"
@@ -389,7 +389,7 @@
         "Ampliar l'editor"
       ],
       "Expand URL": [
-        "Amplia l'URL"
+        "Mostra l'URL complet"
       ],
       "Expiration time": [
         "Data de caducitat"
@@ -515,7 +515,7 @@
         "Importa des de Google"
       ],
       "Import from Outlook": [
-        "Importa des de Outlook"
+        "Importa des d'Outlook"
       ],
       "In the morning": [
         "Al matí"
@@ -714,7 +714,7 @@
         "No s'ha desat"
       ],
       "Ok": [
-        "OK"
+        "D'acord"
       ],
       "OK": [
         "D'acord"
@@ -798,22 +798,22 @@
         "refresca la pàgina"
       ],
       "Remove": [
-        "Suprimeix"
+        "Esborra"
       ],
       "Remove ${ attachmentName }": [
-        "Esborrar ${ attachmentName }"
+        "Esborra ${ attachmentName }"
       ],
       "Remove encryption": [
-        "Elimina el xifrat"
+        "Esborra el xifratge"
       ],
       "Remove expiration time": [
-        "Elimina el temps de caducitat"
+        "Esborra el temps de caducitat"
       ],
       "Remove self-destruction": [
-        "Suprimeix la destrucció automàtica"
+        "Esborra la destrucció automàtica"
       ],
       "Remove this label": [
-        "Elimina aquesta etiqueta"
+        "Esborra aquesta etiqueta"
       ],
       "Reply": [
         "Respon"
@@ -882,7 +882,7 @@
         "Mostra els plans per a empreses"
       ],
       "See how": [
-        "Mira com"
+        "Veieu com"
       ],
       "See plan features": [
         "Mostra les característiques del pla"
@@ -924,7 +924,7 @@
         "Establir"
       ],
       "Set ${ MAIL_APP_NAME } as default email application": [
-        "Establir ${ MAIL_APP_NAME } com a aplicació de correu electrònic predeterminada"
+        "Estableix ${ MAIL_APP_NAME } com a aplicació de correu electrònic predeterminada"
       ],
       "Set as default": [
         "Estableix com a predeterminat"
@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Later this week": [
+        "Més tard aquesta setmana"
+      ],
+      "Manage Snooze": [
+        "Gestiona la posposició"
+      ],
+      "Next week": [
+        "Setmana següent"
+      ],
+      "Select date and time": [
+        "Selecciona la data i l'hora"
+      ],
+      "Snooze": [
+        "Posposa"
+      ],
+      "This weekend": [
+        "Aquest cap de setmana"
+      ],
+      "Unsnooze": [
+        "Deixa de posposar"
       ]
     },
     "action": {
@@ -1279,13 +1300,13 @@
     },
     "Animation": {
       "${ nameToDisplay }'s inbox": [
-        "Safata de ${ nameToDisplay }"
+        "Enviat a ${ nameToDisplay }"
       ],
       "5 trackers removed": [
-        "S'han eliminat 5 rastrejadors"
+        "S'han esborrat 5 rastrejadors"
       ],
       "Auto forwarded": [
-        "S'ha reenviat automàticament"
+        "Reenviat automàticament"
       ],
       "Email received": [
         "S'ha rebut el correu"
@@ -1353,7 +1374,7 @@
         "Bloquejador d'anuncis i publicitat i protecció contra programari maliciós"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Totes les funcions de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
+        "Totes les característiques de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
       ],
       "Extended version history": [
         "Historial de versions ampliat"
@@ -1389,7 +1410,7 @@
     },
     "bf2023: Tooltip": {
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+ i Prime Video i més des de qualsevol lloc."
+        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+, Prime Video i altres des de qualsevol lloc."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 1 domini de correu electrònic personalitzat, 10 adreces de correu electrònic, 10 àlies hide-my-email, compartició de calendari i més."
@@ -1402,7 +1423,7 @@
         "Protegiu els vostres fitxers amb emmagatzematge xifrat al núvol. Inclou, entre d'altres, historial de versions i compartició de fitxers xifrats."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "NetShield, dissenyat especialment, protegeix els vostres dispositius i accelera la navegació bloquejant anuncis, rastrejadors i programari maliciós."
+        "NetShield, dissenyat especialment, protegeix els vostres dispositius i accelera la navegació en bloquejar anuncis, rastrejadors i programari maliciós."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "L'espai d'emmagatzematge està compartit entre totes les aplicacions de ${ BRAND_NAME }."
@@ -3040,7 +3061,7 @@
         "Estalvieu temps enviant correus electrònics o invitacions a tothom alhora (una característica prèmium entre moltes altres). Milloreu avui."
       ],
       "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
-        "Per Importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
+        "Per a importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
       ],
       "Turn on email tracker protection to prevent advertisers and others from tracking your location and online activity.": [
         "Activeu la protecció del rastrejador de correu electrònic per evitar que els anunciants i altres persones facin un seguiment de la vostra ubicació i activitat en línia."
@@ -3433,7 +3454,7 @@
         "Arregleu els conflictes ressaltats per continuar."
       ],
       "Please provide either a first name, a last name or a display name": [
-        "Proporcioneu un nom , un cognom o un nom a mostrar."
+        "Proporcioneu un nom, un cognom o un nom per a mostrar."
       ],
       "Port is required": [
         "Es requereix el port"
@@ -3457,8 +3478,8 @@
         "tornar a activar la clau anterior"
       ],
       "Removed duplicate recipient: ${ recipents }": [
-        "Destinatari duplicat eliminat: ${ recipents }",
-        "Destinataris duplicats eliminats: ${ recipents }"
+        "Destinatari duplicat esborrat: ${ recipents }",
+        "Destinataris duplicats esborrats: ${ recipents }"
       ],
       "Request timed out": [
         "S'ha esgotat el temps d'espera"
@@ -3835,6 +3856,12 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "No ha creat cap contacte encara. Comença creant un nou contacte"
+      ],
+      "App currently unavailable": [
+        "L'aplicació no està disponible actualment."
+      ],
+      "Open in browser": [
+        "Obre al navegador"
       ]
     },
     "Error notification": {
@@ -4278,7 +4305,7 @@
         "Canvieu els ${ strongText } a la vostra adreça de ${ BRAND_NAME }"
       ],
       "Changed accounts": [
-        "Els comptes han estat canviats."
+        "S'han canviat els comptes."
       ],
       "Checklist complete": [
         "S'ha completat la llista de verificació"
@@ -4332,10 +4359,10 @@
         "Perfecte! Heu actualitzat tots els serveis d'aquesta categoria."
       ],
       "Open checklist": [
-        "Obre la llista de comprovacions"
+        "Obre la llista de verificació"
       ],
       "Open checklist and get free storage": [
-        "Obreu la llista de verificació i gaudiu de més espai d'emmagatzematge de manera gratuïta."
+        "Obriu la llista de verificació i obteniu emmagatzematge gratuït."
       ],
       "Popular online services": [
         "Serveis populars en línia"
@@ -5299,7 +5326,7 @@
         "URL de la imatge"
       ],
       "Images have been removed because they are not allowed in auto-reply": [
-        "Les imatges s'han eliminat perquè no estan permeses a les respostes automàtiques"
+        "Les imatges s'han esborrat perquè no estan permeses a les respostes automàtiques."
       ],
       "Import ${ calendarCount } of ${ totalCalendarsCount } calendar": [
         "Importa ${ calendarCount } calendari de ${ totalCalendarsCount }",
@@ -5982,7 +6009,7 @@
         "No hem pogut verificar les claus de confiança de l’emissor."
       ],
       "We removed tracking information from the following links to help protect you from advertisers and others trying to track your online activity.": [
-        "Hem suprimit la informació de seguiment dels enllaços següents per ajudar-vos a protegir-vos dels anunciants i d'altres persones que intenten fer un seguiment de la vostra activitat en línia."
+        "Hem esborrat la informació de seguiment dels enllaços següents per ajudar-vos a protegir-vos dels anunciants i d'altres persones que intenten fer un seguiment de la vostra activitat en línia."
       ],
       "We'll notify you when the import is done.": [
         "Us notificarem quan la importació s'hagi realitzat."
@@ -6163,6 +6190,24 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "Include Spam/Trash.": [
+        "Incloeu Correu brossa/Paperera"
+      ],
+      "Sat, ${ formatTime }": [
+        "Dissabte a les ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Seleccioneu un proveïdor de serveis per començar"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Posposició fins ${ dateString } a les ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Posposició fins avui a les ${ formattedTime }"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Demà a les ${ formattedTime }"
       ]
     },
     "info": {
@@ -6172,6 +6217,9 @@
       ],
       "Optional": [
         "Opcional"
+      ],
+      "Selected color:": [
+        "Color seleccionat:"
       ]
     },
     "Info on errors": {
@@ -6511,7 +6559,7 @@
         "Ciutat"
       ],
       "Cleaned": [
-        "S'ha netejat"
+        "Netejat"
       ],
       "Code is 6 digits without spaces": [
         "El codi consta de 6 dígits sense espais"
@@ -6673,7 +6721,7 @@
         "Només el darrer mes"
       ],
       "Layout": [
-        "Disposició"
+        "Disseny"
       ],
       "Location": [
         "Ubicació"
@@ -6957,10 +7005,10 @@
     },
     "Limit of calendars reached": {
       "To add a new calendar, remove an existing one.": [
-        "Per a afegir un nou calendari, suprimiu-ne un d'existent."
+        "Per a afegir un nou calendari, esborreu-ne un d'existent."
       ],
       "To add a new calendar, remove another calendar or upgrade your ${ BRAND_NAME } plan to a ${ MAIL_SHORT_APP_NAME } paid plan.": [
-        "Per afegir un nou calendari, suprimiu-ne un altre o milloreu el vostre pla de ${ BRAND_NAME } a un pla de pagament de ${ MAIL_SHORT_APP_NAME }."
+        "Per afegir un nou calendari, esborreu-ne un altre o milloreu el vostre pla de ${ BRAND_NAME } a un pla de pagament de ${ MAIL_SHORT_APP_NAME }."
       ],
       "You've reached the maximum number of calendars available in your plan.": [
         "Heu assolit el nombre màxim de calendaris disponibles amb el vostre pla."
@@ -7122,6 +7170,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Heu de reactivar les vostres claus per veure la invitació actualitzada"
+      ],
+      "Snooze": [
+        "Posposa"
+      ],
+      "Snoozed": [
+        "Posposada"
       ]
     },
     "Link to calendar event": {
@@ -7441,6 +7495,16 @@
       ],
       "Up to 3 TB of storage": [
         "Fins a 3 TB d'emmagatzematge"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendari",
+        "${ maximumNumberOfCalendars } calendaris"
+      ],
+      "Calendar sharing": [
+        "Compartició de calendari"
+      ],
+      "Custom snooze time": [
+        "Períodes de posposició personalitzats"
       ]
     },
     "new_plans: feature info": {
@@ -7472,7 +7536,7 @@
         "S'ha creat ${ Filter.Name }"
       ],
       "Block removed": [
-        "S'ha suprimit els bloqueig"
+        "S'ha esborrat els bloqueig."
       ],
       "Contact group created": [
         "Grup de contactes creat"
@@ -7542,6 +7606,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Escolliu un tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Online accounts": {
@@ -7879,6 +7949,9 @@
       ],
       "No unread messages found": [
         "No s'han trobat missatges sense llegir"
+      ],
+      "No snoozed messages": [
+        "No hi ha missatges posposats."
       ]
     },
     "Select files": {
@@ -8010,7 +8083,7 @@
         "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inHours } hores per a restablir la vostra contrasenya."
       ],
       "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
-        "Aneu a l'aparell connectat (a la sessió on es va iniciar la sol·licitud) per canviar la vostra contrasenya."
+        "Aneu al dispositiu en què heu iniciat la sessió (en la qual es va iniciar la sol·licitud) per canviar la vostra contrasenya."
       ],
       "This permission expires in ${ timeRemaining.inDays } day": [
         "Aquest permís caduca en ${ timeRemaining.inDays } dia.",
@@ -8026,7 +8099,7 @@
     },
     "session_recovery:available:link": {
       "See how": [
-        "Mira com"
+        "Veieu com"
       ]
     },
     "session_recovery:available:notification": {
@@ -8036,17 +8109,17 @@
     },
     "session_recovery:available:title": {
       "Reset your password": [
-        "Restableix la contrasenya"
+        "Restabliu la contrasenya"
       ]
     },
     "session_recovery:cancellation:action": {
       "Cancel password reset": [
-        "Cancel·la el restabliment de contrasenya"
+        "Cancel·la el restabliment de la contrasenya"
       ]
     },
     "session_recovery:cancellation:info": {
       "Enter your current password to cancel the password reset process. No other changes will take effect.": [
-        "Introduïu la vostra contrasenya actual per cancel·lar el procés de restabliment de contrasenya. No es tindran en compte cap altre canvi."
+        "Introduïu la vostra contrasenya actual per cancel·lar el procés de restabliment de contrasenya. Cap altre canvi tindrà efecte."
       ]
     },
     "session_recovery:cancellation:notification": {
@@ -8056,17 +8129,17 @@
     },
     "session_recovery:cancellation:title": {
       "Cancel password reset?": [
-        "Cancel·la el restabliment de contrasenya?"
+        "Voleu cancel·lar el restabliment de la contrasenya?"
       ]
     },
     "session_recovery:cancelled:info": {
       "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
-        "S'ha cancel·lat la sol·licitud de restabliment de contrasenya (${ user.Email }). Si no heu sol·licitat aquesta sol·licitud, ${ changePasswordLink }."
+        "S'ha cancel·lat la sol·licitud de restabliment de contrasenya (${ user.Email }). Si no heu fet aquesta sol·licitud, ${ changePasswordLink }."
       ]
     },
     "session_recovery:cancelled:link": {
       "change your password now": [
-        "canvieu la vostra contrasenya ara"
+        "canvieu la vostra contrasenya"
       ]
     },
     "session_recovery:in_progress:action": {
@@ -8086,14 +8159,14 @@
         "${ gracePeriodHoursRemaining } hores més"
       ],
       "If you didn’t ask to reset your password, cancel this request now.": [
-        "Si no heu demanat restablir la teva contrasenya, cancel·leu aquesta sol·licitud ara mateix."
+        "Si no heu demanat restablir la contrasenya, cancel·leu aquesta sol·licitud."
       ],
       "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hora.",
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hores."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Per assegurar-nos que sou vosaltres qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la vostra contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
+        "Per a assegurar-nos que sou vós qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Hem rebut una sol·licitud de restabliment de contrasenya per a ${ boldEmail }."
@@ -8123,7 +8196,7 @@
         "${ gracePeriodHoursRemaining } hores"
       ],
       "${ passwordReset } is now available.": [
-        "${ passwordReset } ara està disponible."
+        "${ passwordReset } està disponible."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
         "Si tanqueu la sessió abans de restablir la contrasenya, podríeu perdre l'accés al vostre compte."
@@ -8142,7 +8215,7 @@
     },
     "session_recovery:sign_out:title": {
       "Sign out without password reset?": [
-        "Tancar la sessió sense restabliment de contrasenya?"
+        "Voleu tancar la sessió sense restablir la contrasenya?"
       ]
     },
     "Signature verification warning": {
@@ -8366,13 +8439,13 @@
         "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de retransmissió a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de retransmissió a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de streaming a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere.": [
         "Accediu al contingut dels serveis de retransmissió, com ara Netflix, Disney+ i Prime Video, des de qualsevol lloc."
       ],
       "All our premium services with their highest limits: 100 email addresses, support for 10 custom domains, unlimited hide-my-email aliases, calendar sharing, encrypted cloud storage and file sharing, and more.": [
-        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, i més."
+        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, etc."
       ],
       "Includes support for 3 custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 3 dominis de correu electrònic personalitzats, 15 adreces de correu electrònic, àlies il·limitats de hide-my-email, compartició de calendari i més."
@@ -8417,6 +8490,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ara podeu programar els vostres missatges per tal que s'enviïn més tard"
+      ],
+      "Snooze it for later": [
+        "Posposa per més tard"
       ]
     },
     "Status": {
@@ -8688,7 +8764,7 @@
         "S'ha enviat la confirmació de lectura."
       ],
       "Self-destruction removed": [
-        "S'ha suprimit la destrucció automàtica"
+        "S'ha esborrat la destrucció automàtica."
       ],
       "Self-destruction set": [
         "S'ha establert la destrucció automàtica"
@@ -8698,11 +8774,19 @@
       ],
       "Verification successful": [
         "Èxit de verificació"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } conversa posposada",
+        "${ elementsCount } converses posposades"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } conversa sense posposar",
+        "${ elementsCount } converses sense posposar"
       ]
     },
     "Success notification": {
       "${ label.Name } removed": [
-        "${ label.Name } suprimit"
+        "${ label.Name } esborrat"
       ]
     },
     "Success notification when user send feedback": {
@@ -8900,7 +8984,7 @@
         "Canvia la contrasenya"
       ],
       "Clear out the junk": [
-        "Netegeu les escombraries"
+        "Netegeu els missatges innecessaris"
       ],
       "Clearing data": [
         "Netejant dades"
@@ -9386,6 +9470,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La prova gratuïta de Mail Plus finalitza el ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "S'està movent un missatge posposat."
+      ],
+      "Snooze": [
+        "Posposa"
+      ],
+      "Snooze message": [
+        "Posposa el missatge"
+      ],
+      "Want to snooze any time?": [
+        "Voleu posposar els vostres missatges quan vulgueu?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9516,7 +9612,7 @@
         "Estàs segur de que vols eliminar ${ count } contactes definitivament?"
       ],
       "Are you sure you want to permanently delete these contact groups?": [
-        "Esteu segur que voleu eliminar aquests grups de contacte permanentment?"
+        "Segur que voleu eliminar aquests grups de contacte de manera permanent?"
       ],
       "Are you sure you want to permanently delete this contact group?": [
         "N'esteu segur, de voler eliminar permanentment aquest grup de contactes?"
@@ -9531,7 +9627,7 @@
         "Si no recordeu la vostra contrasenya és impossible reactivar la vostra clau. Us podem ajudar a desactivar l'alerta però en el procés perdreu permanentment l'accés a totes les dades xifrades amb aquesta clau."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Els informes no estan xifrats d'extrem a extrem. No envieu informació confidencial."
+        "Els informes no estan xifrats d'extrem a extrem. No envieu informació sensible."
       ],
       "Skip verification?": [
         "Voleu ometre la verificació?"
@@ -9812,6 +9908,48 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Block unsavory senders": [
+        "Bloqueja els remitents no desitjats"
+      ],
+      "Congratulations on choosing privacy": [
+        "Felicitats per triar la privacitat"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Xifratge tan fort que només vós i els destinataris escollits poden veure els vostres correus electrònics. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Només per als vostres ulls"
+      ],
+      "Next": [
+        "Següent"
+      ],
+      "Protection from trackers": [
+        "Protecció contra els rastrejadors"
+      ],
+      "Skip": [
+        "Omet"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Impedim que els anunciants i els recopiladors de dades us perfilin. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Missatge de posposició"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Dilluns a les ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Dissabte a les ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Diumenge a les ${ formatTime }"
       ]
     }
   }

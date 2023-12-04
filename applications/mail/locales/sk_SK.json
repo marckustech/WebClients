@@ -26,13 +26,13 @@
         "Pridať adresu"
       ],
       "Add Bcc recipients": [
-        "Pridať príjemcov skrytej kópie"
+        "Pridať príjemcov skrytej kópie (Bcc)"
       ],
       "Add birthday": [
         "Pridať narodeniny"
       ],
       "Add Cc recipients": [
-        "Pridať príjemcov kópie"
+        "Pridať príjemcov kópie (Cc)"
       ],
       "Add condition": [
         "Pridať podmienku"
@@ -1191,6 +1191,27 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Later this week": [
+        "Neskôr tento týždeň"
+      ],
+      "Manage Snooze": [
+        "Spravovať odloženie"
+      ],
+      "Next week": [
+        "Nasledujúci týždeň"
+      ],
+      "Select date and time": [
+        "Vybrať dátum a čas"
+      ],
+      "Snooze": [
+        "Odložiť"
+      ],
+      "This weekend": [
+        "Tento víkend"
+      ],
+      "Unsnooze": [
+        "Zrušiť odloženie"
       ]
     },
     "action": {
@@ -3121,6 +3142,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, ktoré nechcete zlúčiť ani zachovať, označte pre zmazanie. K zmazaniu dôjde po kliknutí na tlačidlo pre zlúčenie"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Odomknite vlastné časy odloženia po upgrade plánu."
       ]
     },
     "description": {
@@ -3923,6 +3947,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Zatiaľ nemáte žiadny kontakt. Začnite vytvorením nového kontaktu"
+      ],
+      "App currently unavailable": [
+        "Aplikácia momentálne nie je k dispozícii"
+      ],
+      "Open in browser": [
+        "Otvoriť v prehliadači"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pre použitie ${ MAIL_APP_NAME } alebo ${ CALENDAR_APP_NAME }, prejdite na webovú verziu."
       ]
     },
     "Error notification": {
@@ -6304,10 +6337,10 @@
         "Nemáte tu žiadne správy"
       ],
       "You have ${ totalLabel } in your inbox.": [
-        "V doručenej pošte máte ${ totalLabel }."
+        "Vo vašej schránke máte ${ totalLabel }."
       ],
       "You have ${ unreadsLabel } in your inbox.": [
-        "V doručenej pošte máte ${ unreadsLabel }."
+        "Vo vašej schránke máte ${ unreadsLabel }."
       ],
       "You have **${ count } conversation** stored in this folder": [
         "V tomto priečinku máte uloženú **${ count } konverzáciu**",
@@ -6425,6 +6458,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefónne číslo bude použité iba pre toto jednorazové overenie."
+      ],
+      "Include Spam/Trash.": [
+        "Zahrnúť Spam/Kôš."
+      ],
+      "Sat, ${ formatTime }": [
+        "So, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Vyberte poskytovateľa služieb a začnite"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Odložené do ${ dateString }, ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Odložené do dnešného dňa, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Odložené do zajtra, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Odloženie tejto konverzácie bude zrušené."
+      ],
+      "This file is too large to preview": [
+        "Tento súbor je príliš veľký na zobrazenie náhľadu"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Zajtra, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Na odomknutie upgradujte na ${ MAIL_APP_NAME } Plus"
       ]
     },
     "info": {
@@ -6436,6 +6499,9 @@
       ],
       "Optional": [
         "Voliteľné"
+      ],
+      "Selected color:": [
+        "Vybraná farba:"
       ]
     },
     "Info on errors": {
@@ -6746,7 +6812,7 @@
         "Zlé"
       ],
       "BCC": [
-        "Skrytá kópia"
+        "Skrytá kópia (BCC)"
       ],
       "Beta Access": [
         "Beta prístup"
@@ -6773,7 +6839,7 @@
         "Kategória"
       ],
       "CC": [
-        "Kópia"
+        "Kópia (CC)"
       ],
       "City": [
         "Mesto"
@@ -7390,6 +7456,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Pre zobrazenie upravenej pozvánky musíte znovu aktivovať svoje kľúče"
+      ],
+      "Snooze": [
+        "Odložiť"
+      ],
+      "Snoozed": [
+        "Odložené"
       ]
     },
     "Link to calendar event": {
@@ -7725,6 +7797,18 @@
       ],
       "Up to 3 TB of storage": [
         "Až do 3 TB úložiska"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendár",
+        "${ maximumNumberOfCalendars } kalendáre",
+        "${ maximumNumberOfCalendars } kalendárov",
+        "${ maximumNumberOfCalendars } kalendárov"
+      ],
+      "Calendar sharing": [
+        "Zdieľanie kalendára"
+      ],
+      "Custom snooze time": [
+        "Vlastný čas odloženia"
       ]
     },
     "new_plans: feature info": {
@@ -7739,6 +7823,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Použite svoju vlastnú emailovú doménovú adresu, napr. vy@vasemeno.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odložte správy a pripomeňte si ich, keď chcete"
       ]
     },
     "new_plans: label": {
@@ -7826,6 +7913,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Pomocou výberu aplikácií v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vyberte si tému"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Výberom aplikácie v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Tému môžete kedykoľvek zmeniť v nastaveniach."
       ]
     },
     "Online accounts": {
@@ -8171,6 +8267,9 @@
       ],
       "No unread messages found": [
         "Neboli nájdené žiadne neprečítané správy"
+      ],
+      "No snoozed messages": [
+        "Žiadne odložené správy"
       ]
     },
     "Select files": {
@@ -8754,6 +8853,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Teraz môžete naplánovať odosielanie správ na neskôr"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Nastavte si, kedy sa má email znovu objaviť v doručenej pošte, pomocou novej funkcie odloženia."
+      ],
+      "Snooze it for later": [
+        "Odložiť na neskôr"
       ]
     },
     "Status": {
@@ -9083,6 +9188,18 @@
       ],
       "Verification successful": [
         "Overenie prebehlo úspešne"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } konverzácia odložená",
+        "${ elementsCount } konverzácie odložené",
+        "${ elementsCount } konverzácií odložených",
+        "${ elementsCount } konverzácií odložených"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "Odloženie zrušené pre ${ elementsCount } konverzáciu",
+        "Odloženie zrušené pre ${ elementsCount } konverzácie",
+        "Odloženie zrušené pre ${ elementsCount } konverzácií",
+        "Odloženie zrušené pre ${ elementsCount } konverzácií"
       ]
     },
     "Success notification": {
@@ -9276,7 +9393,7 @@
         "Prílohy"
       ],
       "BCC": [
-        "Skrytá kópia"
+        "Skrytá kópia (BCC)"
       ],
       "Birthday": [
         "Narodeniny"
@@ -9294,7 +9411,7 @@
         "Kópia"
       ],
       "CC": [
-        "Kópia"
+        "Kópia (CC)"
       ],
       "Change my answer": [
         "Zmeniť odpoveď"
@@ -9805,6 +9922,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Presunutie odloženej správy"
+      ],
+      "Snooze": [
+        "Odložiť"
+      ],
+      "Snooze message": [
+        "Odložiť správu"
+      ],
+      "Want to snooze any time?": [
+        "Chcete kedykoľvek odložiť?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10299,6 +10428,54 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Natrvalo zablokujte emailovú komunikáciu od podvodníkov. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Zablokujte nepríjemných odosielateľov"
+      ],
+      "Congratulations on choosing privacy": [
+        "Gratulujeme k výberu súkromia"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Šifrovanie je také silné, že emaily môžete zobraziť iba vy a určení príjemcovia. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Iba pre vaše oči"
+      ],
+      "Next": [
+        "Ďalej"
+      ],
+      "Protection from trackers": [
+        "Ochrana pred trackermi"
+      ],
+      "Skip": [
+        "Preskočiť"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Zabraňujeme inzerentom a zberačom dát v tom, aby vás profilovali. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Odložiť správu"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Kedy sa má správa znovu objaviť v doručenej pošte?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Po, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "So, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Ne, ${ formatTime }"
       ]
     }
   }

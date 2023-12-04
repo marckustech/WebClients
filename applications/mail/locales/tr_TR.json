@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Later this week": [
+        "Bu hafta daha sonra"
+      ],
+      "Manage Snooze": [
+        "Ertelemeyi yönet"
+      ],
+      "Next week": [
+        "Sonraki hafta"
+      ],
+      "Select date and time": [
+        "Tarih ve saat seçin"
+      ],
+      "Snooze": [
+        "Ertele"
+      ],
+      "This weekend": [
+        "Bu hafta sonu"
+      ],
+      "Unsnooze": [
+        "Ertelemeyi kaldır"
       ]
     },
     "action": {
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Birleştirmek veya tutmak istemediğiniz kişileri silinmek üzere işaretleyebilirsiniz. Silme işlemi yalnızca birleştirme düğmesine tıkladıktan sonra yapılır"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Özel erteleme zamanları ayarlayabilmek için tarifenizi yükseltin."
       ]
     },
     "description": {
@@ -3317,7 +3341,7 @@
         "Taslak kaydedilemedi. Yeniden deneyin."
       ],
       "Email address disabled": [
-        "E-posta adresi kullanımdan kaldırılmış"
+        "E-posta adresi kullanım dışı"
       ],
       "Email address is required": [
         "E-posta adresinin yazılması zorunludur"
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Henüz herhangi bir kişiniz yok. Bir kişi ekleyin"
+      ],
+      "App currently unavailable": [
+        "Uygulama şu anda kullanılamıyor"
+      ],
+      "Open in browser": [
+        "Tarayıcıda aç"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "${ MAIL_APP_NAME } ya da ${ CALENDAR_APP_NAME } kullanmak için İnternet sürümüne geçin."
       ]
     },
     "Error notification": {
@@ -4977,7 +5010,7 @@
         "Bu etiket ile kaydedilmiş tüm iletiler kalıcı olarak silinecek."
       ],
       "All your calendars are disabled.": [
-        "Tüm takvimleriniz kullanımdan kaldırılmış."
+        "Tüm takvimleriniz kullanım dışı bırakılmış."
       ],
       "All your changes will be lost.": [
         "Yaptığınız tüm değişiklikler kaybolacak."
@@ -5787,7 +5820,7 @@
         "Bu hesap, ilkeye aykırı kullanım olasılığı nedeniyle askıya alınmış."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Bu adres kullanımdan kaldırılmış. Bu adrese e-posta gönderebilmek için önce sahibi adresi kullanıma almalıdır."
+        "Bu adres kullanım dışı bırakılmış. Bu adrese e-posta gönderebilmek için önce sahibi adresi kullanıma almalıdır."
       ],
       "This browser does not support previewing PDF documents. Please download the file.": [
         "Bu tarayıcı, PDF belgelerinin ön izlemesini desteklemiyor. Lütfen dosyayı indirin."
@@ -5812,7 +5845,7 @@
         "Bu e-posta, etki alanının doğrulama gereksinimlerini karşılayamadı. E-posta, sahte ya da hatalı iletilmiş olabilir."
       ],
       "This invitation is saved in a disabled calendar.": [
-        "Bu davet, kullanımdan kaldırılmış bir takvime kaydedilmiş."
+        "Bu davet, kullanım dışı bırakılmış bir takvime kaydedilmiş."
       ],
       "This link leads to a website that might be trying to steal your information, such as passwords and credit card details.": [
         "Bu bağlantı, parola ve kredi kartı gibi bilgilerinizi çalmayı deneyen bir siteye gidiyor olabilir."
@@ -5951,19 +5984,19 @@
         "Ücretli özellikleri, ürünleri ve depolama alanını özel bir ücret ile almak için tarifenizi şimdi yükseltin"
       ],
       "Upgrade to add more addresses to your account.": [
-        "Hesabınıza daha fazla adres eklemek için yükseltin."
+        "Hesabınıza daha fazla adres eklemek için tarifenizi yükseltin."
       ],
       "Upgrade to automatically delete messages that have been in trash and spam for more than 30 days.": [
         "Çöp istenmeyen kutularında 30 günden uzun süredir duran iletilerin otomatik olarak silinmesi için tarifenizi yükseltin."
       ],
       "Upgrade to create more folders, filters, and addresses.": [
-        "Daha fazla klasör, süzgeç ve adres oluşturmak için yükseltin."
+        "Daha fazla klasör, süzgeç ve adres oluşturmak için tarifenizi yükseltin."
       ],
       "Upgrade to level up your privacy.": [
         "Gizliliğinizi artırmak için tarifenizi yükseltin."
       ],
       "Upgrade to send email from @pm.me addresses.": [
-        "@pm.me adreslerinden e-posta göndermek için yükseltin."
+        "@pm.me adreslerinden e-posta göndermek için tarifenizi yükseltin."
       ],
       "Upgrade to send emails from your custom email domain.": [
         "Kendi etki alanınızı kullanarak e-posta gönderebilmek için tarifenizi yükseltin."
@@ -6198,6 +6231,39 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacak."
+      ],
+      "Include Spam/Trash.": [
+        "İstenmeyen/Çöp katılsın"
+      ],
+      "Sat, ${ formatTime }": [
+        "Cmt, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Başlamak için bir hizmet sağlayıcı seçin"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "${ dateString } tarihine ${ formattedTime } saatine ertelendi"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Bugün ${ formattedTime } saatine ertelendi"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Yarın ${ formattedTime } saatine ertelendi"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Bu yazışmanın ertelemesi kaldırılacak."
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "Bu adresin sahibi uçtan uca şifrelemeyi kapatmış. Bu adrese şifrelenmiş e-postalar gönderebilmek için adres sahibi uçtan uca şifrelemeyi yeniden açmalıdır."
+      ],
+      "This file is too large to preview": [
+        "Bu dosya ön izleme için çok büyük"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Yarın, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Kullanabilmek içn ${ MAIL_APP_NAME } Plus tarifesine geçin"
       ]
     },
     "info": {
@@ -6207,6 +6273,9 @@
       ],
       "Optional": [
         "İsteğe bağlı"
+      ],
+      "Selected color:": [
+        "Seçilmiş renk:"
       ]
     },
     "Info on errors": {
@@ -7033,10 +7102,10 @@
         "Takvimlerinizden birine bağlı bir e-posta adresini kullanıma alın."
       ],
       "Enable the email address linked to the disabled calendar to cancel the event.": [
-        "Etkinliği iptal etmek için kullanımdan kaldırılan takvime bağlı e-posta adresini kullanıma alın."
+        "Etkinliği iptal etmek için kullanım dışı bırakılmış takvime bağlı e-posta adresini kullanıma alın."
       ],
       "Enable the email address linked to the disabled calendar to modify your answer.": [
-        "Yanıtınızı değiştirmek için kullanımdan kaldırılan takvime bağlı e-posta adresini kullanıma alın."
+        "Yanıtınızı değiştirmek için kullanım dışı bırakılmış takvime bağlı e-posta adresini kullanıma alın."
       ],
       "Enable your address again to modify your answer.": [
         "Yanıtınızı değiştirmek için adresinizi yeniden kullanıma alın."
@@ -7157,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Güncellenen daveti görmek için anahtarlarınızı yeniden kullanıma almalısınız"
+      ],
+      "Snooze": [
+        "Ertele"
+      ],
+      "Snoozed": [
+        "Ertelenmiş"
       ]
     },
     "Link to calendar event": {
@@ -7476,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB depolama alanına kadar"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } takvim",
+        "${ maximumNumberOfCalendars } takvim"
+      ],
+      "Calendar sharing": [
+        "Takvim paylaşımı"
+      ],
+      "Custom snooze time": [
+        "Özel erteleme zamanı"
       ]
     },
     "new_plans: feature info": {
@@ -7490,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Dilerseniz siz@sirketiniz.com gibi kendi özel etki alanınızla e-posta adresleri oluşturun"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "İletileri erteleyin ve istediğiniz zaman yeniden görün"
       ]
     },
     "new_plans: label": {
@@ -7577,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Tüm ${ BRAND_NAME } hizmetlerine erişmek için sol üstteki uygulama seçiciyi kullanın: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } ve ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Bir tema seçin"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Tüm ${ BRAND_NAME } hizmetlerine erişmek için sol üstteki uygulama seçiciyi kullanın: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } ve ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Temanızı istediğiniz zaman ayarlar bölümünden değiştirebilirsiniz."
       ]
     },
     "Online accounts": {
@@ -7914,6 +8011,9 @@
       ],
       "No unread messages found": [
         "Okunmamış bir ileti bulunamadı"
+      ],
+      "No snoozed messages": [
+        "Ertelenmiş bir ileti yok"
       ]
     },
     "Select files": {
@@ -8450,6 +8550,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Artık iletileri daha sonra gönderilmek üzere zamanlayabilirsiniz"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Erteleme özelliğiyle bir e-postanın gelen kutunuzda daha sonra yeniden görüntülenmesini sağlayabilirsiniz."
+      ],
+      "Snooze it for later": [
+        "Daha sonraya ertele"
       ]
     },
     "Status": {
@@ -8731,6 +8837,14 @@
       ],
       "Verification successful": [
         "Doğrulandı"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } yazışma ertelendi",
+        "${ elementsCount } yazışma ertelendi"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } yazışmanın ertelemesi kaldırıldı",
+        "${ elementsCount } yazışmanın ertelemesi kaldırıldı"
       ]
     },
     "Success notification": {
@@ -9416,6 +9530,21 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Moving a snoozed message": [
+        "Ertelenmiş bir ileti taşınıyor"
+      ],
+      "Send with encryption disabled?": [
+        "Şifreleme kapatılarak gönderilsin mi?"
+      ],
+      "Snooze": [
+        "Ertele"
+      ],
+      "Snooze message": [
+        "İletiyi ertele"
+      ],
+      "Want to snooze any time?": [
+        "İstediğiniz zamana ertelemek ister misiniz?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9842,6 +9971,65 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "E-postaları otomatik olarak iletin"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Dolandırıcılardan gelen e-postaları kalıcı olarak engelleyin. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "İstemediğiniz göndericileri engelleme"
+      ],
+      "Congratulations on choosing privacy": [
+        "Gizliliği korumayı seçtiğiniz için teşekkürler"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Kullanılan şifreleme o kadar güçlü ki e-postalarınızı yalnızca siz ve hedeflediğiniz alıcılar görebilir. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Yalnızca sizin gözleriniz için"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Gmail iletilerini gelen kutunuza iletin."
+      ],
+      "Next": [
+        "Sonraki"
+      ],
+      "Protection from trackers": [
+        "İzleyicilere karşı koruma"
+      ],
+      "Skip": [
+        "Atla"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Reklam verenlerin ve veri toplayıcıların profilinizi çıkarmasını durdurun. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "Şu adreslerin kişileri hesaplarında uçtan uca şifrelemeyi kapatmış. Bu nedenle ilgili şifreleme ayarları uygun şekilde güncellendi:"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "İletiyi ertele"
+      ],
+      "When should the message reappear in your inbox?": [
+        "İleti gelen kutunuzda ne zaman yeniden görüntülensin?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Pzt, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Cmt, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Paz, ${ formatTime }"
       ]
     }
   }

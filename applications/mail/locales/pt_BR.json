@@ -234,7 +234,7 @@
         "Continuar com Outlook"
       ],
       "Contract composer": [
-        "Rest. tamanho"
+        "Restaurar tamanho"
       ],
       "Copy address": [
         "Copiar endereço"
@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Later this week": [
+        "Mais tarde nesta semana"
+      ],
+      "Manage Snooze": [
+        "Gerenciar adiados"
+      ],
+      "Next week": [
+        "Próxima semana"
+      ],
+      "Select date and time": [
+        "Selecione data e hora"
+      ],
+      "Snooze": [
+        "Adiar"
+      ],
+      "This weekend": [
+        "Este fim de semana"
+      ],
+      "Unsnooze": [
+        "Retomar"
       ]
     },
     "action": {
@@ -3061,7 +3082,7 @@
         "Para importar seus contatos do Google o Outlook, ${ easySwitchLink }."
       ],
       "Turn on email tracker protection to prevent advertisers and others from tracking your location and online activity.": [
-        "Ative proteção de rastreador de e-mail para prevenir que anunciantes e outros de rastrear sua localização e atividade on-line."
+        "Ative a proteção do rastreador de e-mail para evitar que anunciantes e outras pessoas rastreiem sua localização e atividade online."
       ],
       "Unlock custom message scheduling and other benefits when you upgrade your plan.": [
         "Desbloqueie o agendamento de mensagens personalizado e outros benefícios ao fazer upgrade do seu plano."
@@ -3086,6 +3107,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Você pode marcar para exclusão os contatos que não quer mesclar nem manter. A exclusão somente ocorrerá após o botão de mesclagem ser clicado"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Para importação via arquivo CSV e VCF, certifique-se de que o arquivo não exceda ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contatos. Se o seu arquivo for maior, divida-o em arquivos menores. ${ learnMoreLink }."
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Desbloqueie tempos de adiamento personalizados ao fazer upgrade do seu plano."
       ]
     },
     "description": {
@@ -3858,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Você ainda não tem nenhum contato. Comece criando um novo contato"
+      ],
+      "App currently unavailable": [
+        "Aplicativo atualmente indisponível"
+      ],
+      "Open in browser": [
+        "Abrir no navegador"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Para usar o ${ MAIL_APP_NAME } ou ${ CALENDAR_APP_NAME } mude para a versão web."
       ]
     },
     "Error notification": {
@@ -4280,7 +4316,7 @@
         "${ MAIL_APP_NAME } na Play Store"
       ],
       "account logins": [
-        "os dados da conta"
+        "acessos da conta"
       ],
       "Auto-forward Gmail": [
         "Encaminhamento automático do Gmail"
@@ -6189,6 +6225,45 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Seu número de telefone somente será usado nessa verificação única."
+      ],
+      "Include Spam/Trash.": [
+        "Incluir Spam/Lixeira."
+      ],
+      "Please use another browser or download the file.": [
+        "Use outro navegador ou baixe o arquivo."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "No momento, a visualização deste tipo de arquivo não é compatível com este navegador."
+      ],
+      "Sat, ${ formatTime }": [
+        "Sábado, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Selecione um provedor de serviços para começar"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Adiado até ${ dateString } às ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Adiado até hoje, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Adiado até amanhã, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "O adiamento desta conversa será cancelado"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "O proprietário deste endereço desativou a criptografia de ponta a ponta. Para poder enviar e-mails criptografados para este endereço, o proprietário deve reativar a criptografia de ponta a ponta."
+      ],
+      "This file is too large to preview": [
+        "Este arquivo é muito grande para visualizar"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Amanhã, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Faça upgrade para ${ MAIL_APP_NAME } Plus para desbloquear"
       ]
     },
     "info": {
@@ -6198,6 +6273,9 @@
       ],
       "Optional": [
         "Opcional"
+      ],
+      "Selected color:": [
+        "Cor selecionada:"
       ]
     },
     "Info on errors": {
@@ -7148,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Você precisa reativar suas chaves para ver o convite atualizado"
+      ],
+      "Snooze": [
+        "Adiar"
+      ],
+      "Snoozed": [
+        "Adiado"
       ]
     },
     "Link to calendar event": {
@@ -7467,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
+      ],
+      "Calendar sharing": [
+        "Compartilhar o calendário"
+      ],
+      "Custom snooze time": [
+        "Adiamento personalizado"
       ]
     },
     "new_plans: feature info": {
@@ -7481,6 +7575,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Use seu próprio domínio de e-mail personalizado, por exemplo: voce@seunome.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Adie mensagens e receba lembretes quando quiser"
       ]
     },
     "new_plans: label": {
@@ -7568,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Use o seletor de aplicativos no canto superior esquerdo para acessar todos os serviços da ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Escolha um tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Use o seletor de aplicativos no canto superior esquerdo para acessar todos${ BRAND_NAME }Serviços:${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }e ${ PASS_SHORT_APP_NAME }"
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Você poderá alterar seu tema a qualquer momento nas configurações."
       ]
     },
     "Online accounts": {
@@ -7905,6 +8011,9 @@
       ],
       "No unread messages found": [
         "Nenhuma mensagem não lida encontrada"
+      ],
+      "No snoozed messages": [
+        "Nenhuma mensagem adiada"
       ]
     },
     "Select files": {
@@ -8441,6 +8550,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Agora você pode agendar suas mensagens para serem enviadas depois"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Defina quando um e-mail deve reaparecer na sua caixa de entrada com o novo recurso de adiamento."
+      ],
+      "Snooze it for later": [
+        "Adiar para mais tarde"
       ]
     },
     "Status": {
@@ -8722,6 +8837,14 @@
       ],
       "Verification successful": [
         "Verificado com sucesso"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } conversa adiada",
+        "${ elementsCount } conversas adiadas"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } conversa retomada",
+        "${ elementsCount } conversas retomadas"
       ]
     },
     "Success notification": {
@@ -9387,8 +9510,8 @@
         "Aviso: Site suspeito de ser falso"
       ],
       "We protected you from ${ trackersCount } tracker": [
-        "Temos protegidos você de ${ trackersCount } rastreador",
-        "Temos protegidos você de ${ trackersCount } rastreadores"
+        "Temos protegido você de ${ trackersCount } rastreador",
+        "Temos protegido você de ${ trackersCount } rastreadores"
       ],
       "Welcome": [
         "Bem-vindo"
@@ -9407,6 +9530,21 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Movendo uma mensagem adiada"
+      ],
+      "Send with encryption disabled?": [
+        "Enviar com criptografia desativado?"
+      ],
+      "Snooze": [
+        "Adiar"
+      ],
+      "Snooze message": [
+        "Adiar mensagem"
+      ],
+      "Want to snooze any time?": [
+        "Quer adiar a qualquer hora?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9833,6 +9971,65 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Encaminhar e-mails automaticamente"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Bloqueie permanentemente mensagens de golpistas. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Bloqueie remetentes indesejados"
+      ],
+      "Congratulations on choosing privacy": [
+        "Parabéns por escolher a privacidade"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Criptografia tão robusta, que somente você e seus destinatários reais podem visualizar os e-mails. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Somente para seus olhos"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Encaminhe mensagens do Gmail para sua caixa de entrada."
+      ],
+      "Next": [
+        "Próximo"
+      ],
+      "Protection from trackers": [
+        "Proteção contra rastreadores"
+      ],
+      "Skip": [
+        "Pular"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Nós impedimos que anunciantes e coletores de informações analisem os seus dados. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "Os contatos dos seguintes endereços desativaram a criptografia de ponta a ponta em suas contas, portanto, as preferências de criptografia correspondentes foram atualizadas adequadamente:"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Adiar mensagem"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Quando a mensagem deve reaparecer na sua caixa de entrada?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Segunda, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Sábado, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Domingo, ${ formatTime }"
       ]
     }
   }

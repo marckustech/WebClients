@@ -165,7 +165,7 @@
         "Effacer"
       ],
       "Clear all formatting": [
-        "Effacer toute mise en forme"
+        "Effacer toute la mise en forme"
       ],
       "Clear browser data": [
         "Effacer les données du navigateur"
@@ -798,22 +798,22 @@
         "actualiser la page"
       ],
       "Remove": [
-        "Supprimer"
+        "Retirer"
       ],
       "Remove ${ attachmentName }": [
-        "Enlever ${ attachmentName }"
+        "Retirer ${ attachmentName }"
       ],
       "Remove encryption": [
-        "Supprimer le chiffrement"
+        "Retirer le chiffrement"
       ],
       "Remove expiration time": [
-        "Supprimer le délai d'expiration"
+        "Retirer le délai d'expiration"
       ],
       "Remove self-destruction": [
-        "Annuler l'autodestruction"
+        "Retirer l'autodestruction"
       ],
       "Remove this label": [
-        "Supprimer ce label"
+        "Retirer ce label"
       ],
       "Reply": [
         "Répondre"
@@ -1179,6 +1179,27 @@
       ],
       "Zoom out": [
         "Zoom arrière"
+      ],
+      "Later this week": [
+        "Plus tard dans la semaine"
+      ],
+      "Manage Snooze": [
+        "Gérer la mise en attente"
+      ],
+      "Next week": [
+        "Semaine suivante"
+      ],
+      "Select date and time": [
+        "Sélectionner la date et l'heure"
+      ],
+      "Snooze": [
+        "Mettre en attente"
+      ],
+      "This weekend": [
+        "Ce week-end"
+      ],
+      "Unsnooze": [
+        "Arrêter la mise en attente"
       ]
     },
     "action": {
@@ -1282,7 +1303,7 @@
         "Envoyé à ${ nameToDisplay }"
       ],
       "5 trackers removed": [
-        "5 traqueurs supprimés"
+        "5 traqueurs retirés"
       ],
       "Auto forwarded": [
         "Transféré automatiquement"
@@ -1362,7 +1383,7 @@
         "Historique des versions plus détaillé"
       ],
       "High speed streaming": [
-        "Streaming ultra rapide"
+        "Streaming ultra-rapide"
       ],
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
         "${ DRIVE_SHORT_APP_NAME } version premium"
@@ -3089,6 +3110,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Vous pouvez marquer pour suppression les contacts que vous ne voulez ni fusionner ni conserver. Leur suppression n'aura lieu qu'après avoir cliqué sur le bouton de fusion."
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Changez d'abonnement pour personnaliser les périodes de mise en attente."
       ]
     },
     "description": {
@@ -3132,7 +3156,7 @@
         "${ eventTitle } a été mis à jour.\n${ eventDetailsText }"
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
-        "Vous êtes invité(e) à ${ eventTitle }\n${ eventDetailsText }"
+        "Vous êtes invité à ${ eventTitle }\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3225,10 +3249,10 @@
     },
     "empty messages: success": {
       "Folder cleared": [
-        "Le dossier a été vidé."
+        "Le dossier a été effacé."
       ],
       "Label cleared": [
-        "Le label a été retiré."
+        "Le label a été effacé."
       ]
     },
     "Encrypted Headers": {
@@ -3483,8 +3507,8 @@
         "réactiver la clé précédente"
       ],
       "Removed duplicate recipient: ${ recipents }": [
-        "Destinataire dupliqué supprimé : ${ recipents }",
-        "Destinataires dupliqués supprimés : ${ recipents }"
+        "Destinataire dupliqué retiré : ${ recipents }",
+        "Destinataires dupliqués retirés : ${ recipents }"
       ],
       "Request timed out": [
         "La requête a expiré."
@@ -3861,6 +3885,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "Vous n'avez pas encore de contact. Commencez par créer un nouveau contact."
+      ],
+      "App currently unavailable": [
+        "L'application n'est pas disponible actuellement."
+      ],
+      "Open in browser": [
+        "Ouvrir dans le navigateur"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pour utiliser ${ MAIL_APP_NAME } ou ${ CALENDAR_APP_NAME }, passez sur la version web."
       ]
     },
     "Error notification": {
@@ -4072,12 +4105,12 @@
         "Insérez une clé de sécurité liée à votre compte ${ BRAND_NAME }."
       ],
       "Security key": [
-        "Clef de sécurité"
+        "Clé de sécurité"
       ]
     },
     "fido2: Label": {
       "Security key": [
-        "Clef de sécurité"
+        "Clé de sécurité"
       ]
     },
     "file size format": {
@@ -5328,7 +5361,7 @@
         "URL de l'image"
       ],
       "Images have been removed because they are not allowed in auto-reply": [
-        "Les images ont été supprimées, elles ne sont pas autorisées dans la réponse automatique."
+        "Les images ont été retirées, elles ne sont pas autorisées dans la réponse automatique."
       ],
       "Import ${ calendarCount } of ${ totalCalendarsCount } calendar": [
         "Importer ${ calendarCount } calendrier sur ${ totalCalendarsCount }",
@@ -5353,7 +5386,7 @@
         "Ajoutez les dossiers Indésirables/spam et Corbeille dans les résultats de vos recherches."
       ],
       "Inherited from parent folder": [
-        "Hérité du dossier dans lequel il est placé."
+        "Similaire au dossier principal"
       ],
       "Insert image": [
         "Insérer une image"
@@ -6020,7 +6053,7 @@
         "Nous n'avons pas pu vérifier les clés approuvées de l'expéditeur."
       ],
       "We removed tracking information from the following links to help protect you from advertisers and others trying to track your online activity.": [
-        "Nous avons supprimé les informations de traçage des liens suivants pour vous protéger des entreprises qui tentent de suivre vos activités en ligne, qu'il s'agisse d'annonceurs ou d'autres entreprises."
+        "Nous avons retiré les informations de traçage des liens suivants pour vous protéger des entreprises qui tentent de suivre vos activités en ligne, qu'il s'agisse d'annonceurs ou d'autres entreprises."
       ],
       "We'll notify you when the import is done.": [
         "Nous vous informerons dès que l'importation sera terminée."
@@ -6201,6 +6234,36 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Votre numéro de téléphone ne sera utilisé que pour cette vérification."
+      ],
+      "Include Spam/Trash.": [
+        "Inclure les messages des dossiers Indésirables/spam et Corbeille."
+      ],
+      "Sat, ${ formatTime }": [
+        "Samedi, ${ formatTime }"
+      ],
+      "Select a service provider to start": [
+        "Commencez par sélectionner un service"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "En attente jusqu'au ${ dateString }, ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "En attente jusqu'à aujourd'hui, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "En attente jusqu'à demain, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "La mise en attente de cette conversation sera annulée."
+      ],
+      "This file is too large to preview": [
+        "Ce fichier est trop volumineux pour afficher un aperçu."
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Demain, ${ formattedTime }"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Passez à ${ MAIL_APP_NAME } Plus pour disposer de cette fonctionnalité."
       ]
     },
     "info": {
@@ -6210,6 +6273,9 @@
       ],
       "Optional": [
         "Facultatif"
+      ],
+      "Selected color:": [
+        "Couleur sélectionnée :"
       ]
     },
     "Info on errors": {
@@ -6995,10 +7061,10 @@
     },
     "Limit of calendars reached": {
       "To add a new calendar, remove an existing one.": [
-        "Pour ajouter un nouveau calendrier, supprimez d'abord un calendrier existant."
+        "Pour ajouter un nouveau calendrier, retirez d'abord un calendrier existant."
       ],
       "To add a new calendar, remove another calendar or upgrade your ${ BRAND_NAME } plan to a ${ MAIL_SHORT_APP_NAME } paid plan.": [
-        "Pour ajouter un nouveau calendrier, vous devez d'abord supprimer un calendrier existant ou faire évoluer votre abonnement ${ BRAND_NAME } vers un abonnement payant ${ MAIL_SHORT_APP_NAME }."
+        "Pour ajouter un nouveau calendrier, vous devez d'abord retirer un calendrier existant ou faire évoluer votre abonnement ${ BRAND_NAME } vers un abonnement payant ${ MAIL_SHORT_APP_NAME }."
       ],
       "You've reached the maximum number of calendars available in your plan.": [
         "Vous avez atteint le nombre maximum de calendriers prévus dans votre abonnement."
@@ -7160,6 +7226,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Vous devez réactiver vos clés pour voir l'invitation mise à jour."
+      ],
+      "Snooze": [
+        "Mettre en attente"
+      ],
+      "Snoozed": [
+        "En attente"
       ]
     },
     "Link to calendar event": {
@@ -7466,10 +7538,10 @@
         "Alias « hide-my-email »"
       ],
       "Schedule messages at any time": [
-        "Planifiez l'envoi de messages quand vous le voulez"
+        "Planification de l'envoi de messages quand vous le voulez"
       ],
       "Search message content": [
-        "Rechercher dans le contenu des messages"
+        "Recherche dans le contenu des messages"
       ],
       "Unlimited folders, labels, and filters": [
         "Nombre illimité de dossiers, de labels et de filtres"
@@ -7479,6 +7551,16 @@
       ],
       "Up to 3 TB of storage": [
         "Jusqu'à 3 To d'espace de stockage"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendrier",
+        "${ maximumNumberOfCalendars } calendriers"
+      ],
+      "Calendar sharing": [
+        "Partage de calendrier"
+      ],
+      "Custom snooze time": [
+        "Périodes de mise en attente personnalisées"
       ]
     },
     "new_plans: feature info": {
@@ -7489,10 +7571,13 @@
         "Profitez d'un nombre illimité d'alias avec SimpleLogin de ${ BRAND_NAME }"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
-        "L'espace de stockage est partagé entre ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } et ${ DRIVE_APP_NAME }."
+        "Espace de stockage partagé entre ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } et ${ DRIVE_APP_NAME }."
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilisez votre adresse e-mail personnalisée à partir de votre propre nom de domaine (vous@votrenom.com)."
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Mettez les messages en attente et recevez un rappel quand vous le voulez."
       ]
     },
     "new_plans: label": {
@@ -7510,7 +7595,7 @@
         "${ Filter.Name } a été créé."
       ],
       "Block removed": [
-        "Le blocage a été supprimé."
+        "Le blocage a été retiré."
       ],
       "Contact group created": [
         "Le groupe de contacts a été créé."
@@ -7580,6 +7665,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Utilisez le sélecteur d'applications en haut à gauche pour accéder à tous les services ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } et ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Choisissez un thème"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Utilisez le sélecteur d'applications en haut à gauche pour accéder à tous les services ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } et ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Vous pouvez changer de thème dans vos paramètres quand vous le voulez."
       ]
     },
     "Online accounts": {
@@ -7683,7 +7777,7 @@
         "Un moyen de vous contacter"
       ],
       "E.g., ": [
-        "p. ex., "
+        "Par exemple, "
       ],
       "Email address": [
         "Adresse e-mail"
@@ -7692,13 +7786,13 @@
         "Date de fin"
       ],
       "Filter folders": [
-        "Filtrer les dossiers"
+        "Filtrez les dossiers."
       ],
       "Filter groups": [
-        "Filtrer les groupes"
+        "Filtrez les groupes."
       ],
       "Filter labels": [
-        "Filtrer les labels"
+        "Filtrez les labels."
       ],
       "First name": [
         "Prénom"
@@ -7734,25 +7828,25 @@
         "Décrivez le problème et incluez les éventuels messages d'erreur."
       ],
       "Please insert link first": [
-        "Insérez d'abord le lien"
+        "Insérez d'abord le lien."
       ],
       "Search date, name, email address, or subject line": [
-        "Rechercher par date, nom, adresse e-mail ou objet du message"
+        "Recherchez par date, nom, adresse e-mail ou objet du message."
       ],
       "Search for group name": [
-        "Rechercher un nom de groupe"
+        "Recherchez un nom de groupe."
       ],
       "Search for name or email": [
-        "Rechercher par nom ou adresse e-mail"
+        "Recherchez par nom ou adresse e-mail."
       ],
       "Search messages": [
-        "Rechercher des messages"
+        "Recherchez des messages."
       ],
       "Search name, email or group": [
-        "Rechercher un nom, une adresse e-mail ou un groupe"
+        "Recherchez un nom, une adresse e-mail ou un groupe."
       ],
       "Select": [
-        "Sélectionner"
+        "Sélectionnez"
       ],
       "Start date": [
         "Date de début"
@@ -7917,6 +8011,9 @@
       ],
       "No unread messages found": [
         "Aucun message non lu n'a été trouvé."
+      ],
+      "No snoozed messages": [
+        "Aucun message en attente"
       ]
     },
     "Select files": {
@@ -8445,7 +8542,7 @@
         "La recherche est devenue plus intelligente et plus rapide."
       ],
       "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
-        "Le dossier « Tous les messages » exclut automatiquement les messages des dossiers « Indésirables/spam » et « Corbeille ». ${ settingsLink }"
+        "Le dossier Tous les messages exclut automatiquement les messages des dossiers Indésirables/spam et Corbeille. ${ settingsLink }"
       ],
       "Try it today.": [
         "Essayez dès maintenant."
@@ -8458,6 +8555,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Vous pouvez désormais programmer vos messages pour les envoyer plus tard."
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Définissez à quel moment un message doit réapparaître dans votre boite de réception grâce à la nouvelle fonctionnalité de mise en attente."
+      ],
+      "Snooze it for later": [
+        "Reportez-le à plus tard"
       ]
     },
     "Status": {
@@ -8729,7 +8832,7 @@
         "La confirmation de lecture a été envoyée."
       ],
       "Self-destruction removed": [
-        "L'autodestruction est annulée."
+        "L'autodestruction a été retirée."
       ],
       "Self-destruction set": [
         "L'autodestruction est programmée."
@@ -8739,11 +8842,19 @@
       ],
       "Verification successful": [
         "La vérification a abouti."
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } conversation est en attente.",
+        "${ elementsCount } conversations sont en attente."
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } conversation n'est plus en attente.",
+        "${ elementsCount } conversations ne sont plus en attente."
       ]
     },
     "Success notification": {
       "${ label.Name } removed": [
-        "${ label.Name } a été supprimé."
+        "${ label.Name } a été retiré."
       ]
     },
     "Success notification when user send feedback": {
@@ -9045,7 +9156,7 @@
         "Suppression des contacts"
       ],
       "Don't give spam a chance": [
-        "Ne laissez aucune chance aux indésirables/spam"
+        "Ne laissez aucune chance aux messages indésirables/spam"
       ],
       "Edit contact": [
         "Modifier le contact"
@@ -9427,6 +9538,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Votre essai gratuit Mail Plus se termine le ${ textDate }."
+      ],
+      "Moving a snoozed message": [
+        "Déplacement d'un message mis en attente"
+      ],
+      "Snooze": [
+        "Mise en attente"
+      ],
+      "Snooze message": [
+        "Mise en attente d'un message"
+      ],
+      "Want to snooze any time?": [
+        "Vous voulez personnaliser les périodes de mise en attente ?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9853,6 +9976,60 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "Onboarding modal": {
+      "Automatically forward emails": [
+        "Transférez automatiquement vos messages."
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Bloquez définitivement les messages envoyés par des personnes malveillantes. ${ kbLinkSender }"
+      ],
+      "Block unsavory senders": [
+        "Bloquez les expéditeurs indésirables"
+      ],
+      "Congratulations on choosing privacy": [
+        "Bienvenue sur un internet libre et respectueux de votre vie privée "
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Un chiffrement si puissant que personne d'autre que vous et vos destinataires ne peut consulter vos messages. ${ kbLinkEncryption }"
+      ],
+      "For your eyes only": [
+        "Strictement confidentiel"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Transférez les messages Gmail vers votre boite de réception."
+      ],
+      "Next": [
+        "Suivant"
+      ],
+      "Protection from trackers": [
+        "Protection contre les traqueurs"
+      ],
+      "Skip": [
+        "Ignorer"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Nous empêchons les professionnels de la publicité et les entreprises qui collectent des données d'établir votre profil. ${ kbLinkPrivacy }"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Mise en attente du message"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Quand le message doit-il réapparaître dans votre boite de réception ?"
+      ]
+    },
+    "WeekDay": {
+      "Mon, ${ formatTime }": [
+        "Lundi, ${ formatTime }"
+      ],
+      "Sat, ${ formatTime }": [
+        "Samedi, ${ formatTime }"
+      ],
+      "Sun, ${ formatTime }": [
+        "Dimanche, ${ formatTime }"
       ]
     }
   }

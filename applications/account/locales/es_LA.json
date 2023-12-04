@@ -7937,6 +7937,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Su suscripción es gestionada por Mozilla. Contacte con el soporte de Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "No podrá recuperar datos bloqueados usando sus archivos de recuperación descargados. Esto también desactivará la recuperación del dispositivo de confianza."
       ]
     },
     "info": {

@@ -8033,6 +8033,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "Cheia ${ fingerprint } a fost deja încărcată."
+      ],
+      "Selected color:": [
+        "Culoare selectată:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10467,6 +10470,11 @@
         "Partajare seif (maxim ${ n } persoană)",
         "Partajare seif (maxim ${ n } persoane)",
         "Partajare seif (maxim ${ n } de persoane)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendar",
+        "${ maximumNumberOfCalendars } calendare",
+        "${ maximumNumberOfCalendars } de calendare"
       ]
     },
     "new_plans: feature info": {

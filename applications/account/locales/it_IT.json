@@ -7940,6 +7940,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Il tuo abbonamento è gestito da Mozilla. Contatta l'assistenza di Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Non potrai più usare i file di recupero scaricati per recuperare i dati bloccati. Questo disabiliterà anche il recupero tramite dispositivo attendibile."
       ]
     },
     "info": {

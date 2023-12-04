@@ -920,6 +920,87 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Activate ${ Name }@pm.me": [
+        "Активувати ${ Name }@pm.me"
+      ],
+      "Activate ${ user.Name }@pm.me": [
+        "Активувати ${ user.Name }@pm.me"
+      ],
+      "Add calendar from URL": [
+        "Додати календар з URL-адреси"
+      ],
+      "Add sieve filter": [
+        "Додати фільтр Sieve"
+      ],
+      "Apply to existing messages": [
+        "Застосувати до наявних повідомлень"
+      ],
+      "Delete and confirm": [
+        "Видалити й підтвердити"
+      ],
+      "Delete without exporting": [
+        "Видалити без експортування"
+      ],
+      "Encrypt and export": [
+        "Зашифрувати й експортувати"
+      ],
+      "Export key before deleting": [
+        "Експортувати ключ перед видаленням"
+      ],
+      "Filters are being applied. This might take a few minutes.": [
+        "Застосовуються фільтри. Це може тривати кілька хвилин."
+      ],
+      "Get more filters": [
+        "Отримати більше фільтрів"
+      ],
+      "Get more folders": [
+        "Отримати більше тек"
+      ],
+      "Get more labels": [
+        "Отримати більше міток"
+      ],
+      "Import from Google": [
+        "Імпортувати з Google"
+      ],
+      "Import from ICS": [
+        "Імпорт з ICS"
+      ],
+      "More info: Keyboard shortcuts": [
+        "Більше інформації: Комбінації клавіш"
+      ],
+      "Reactivate keys": [
+        "Повторно активувати ключі"
+      ],
+      "Remove calendar": [
+        "Вилучити календар"
+      ],
+      "Remove this member": [
+        "Вилучити цього учасника"
+      ],
+      "Requires a verified recovery email address": [
+        "Потрібна підтверджена електронна адреса для відновлення"
+      ],
+      "Revoke this invitation": [
+        "Відкликати це запрошення"
+      ],
+      "Select language for invitation emails": [
+        "Виберіть мову для листів із запрошеннями"
+      ],
+      "Send messages with @pm.me": [
+        "Надсилайте повідомлення з адреси @pm.me"
+      ],
+      "Sign in with password": [
+        "Увійти за допомогою пароля"
+      ],
+      "Sign in with SSO": [
+        "Увійти за допомогою SSO"
+      ],
+      "sign up for free": [
+        "зареєструватися безплатно"
+      ],
+      "Use “${ label }” setting": [
+        "Використовувати налаштування“${ label }”"
       ]
     },
     "action": {
@@ -1136,6 +1217,12 @@
     "bf2023: Deal details": {
       "6 users": [
         "6 користувачів"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } сховища"
+      ],
+      "Premium Password Manager": [
+        "Premium Менеджер паролів"
       ]
     },
     "Billing cycle": {
@@ -2644,6 +2731,15 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Ви можете імпортувати події в форматі iCal (файл ICS). Максимальний розмір файлу повинен бути ${ MAX_IMPORT_FILE_SIZE_STRING } та містити до ${ MAX_IMPORT_EVENTS_STRING } подій. Якщо ваш файл більший, розділіть його на менші файли."
+      ],
+      "To remove the ${ MAIL_APP_NAME } footer, upgrade and unlock even more premium features.": [
+        "Передплатіть тарифний план, щоб вилучити нижній колонтитул ${ MAIL_APP_NAME } та отримати доступ до інших преміумфункцій."
+      ],
+      "Unlock shorter email addresses and other premium features by upgrading.": [
+        "Передплатіть тарифний план і розблокуйте короткі адреси електронної пошти та інші преміумфункції."
+      ],
+      "Upsell icon containing ${ BRAND_NAME } logo followed by a plus sign": [
+        "Піктограма Upsell, що містить логотип $${ BRAND_NAME } та знак плюс"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2897,6 +2993,12 @@
       ],
       "Or": [
         "Або"
+      ],
+      "With attachment": [
+        "Має вкладення"
+      ],
+      "Without attachment": [
+        "Без вкладення"
       ]
     },
     "Enabled 2FA": {
@@ -3375,6 +3477,27 @@
       ],
       "Zero keys reactivated": [
         "Нуль ключів повторно активовано"
+      ],
+      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
+        "Автоматична відповідь є платною функцією. Будь ласка, передплатіть тарифний план для її використання."
+      ],
+      "Calendar cannot be found": [
+        "Не вдалося знайти календар"
+      ],
+      "Could not save preference": [
+        "Не вдалося зберегти налаштування"
+      ],
+      "Invalid private key file": [
+        "Недійсний файл приватного ключа"
+      ],
+      "Invalid Sieve code": [
+        "Недійсний код Sieve"
+      ],
+      "Please set a recovery/notification email first": [
+        "Спершу вкажіть е-пошту для відновлення/сповіщень"
+      ],
+      "You need to have a custom domain address in order to generate an SMTP submission token.": [
+        "Щоб згенерувати токен надсилання SMTP, вам потрібно мати власну адресу домену."
       ]
     },
     "Error importing calendar": {
@@ -3688,6 +3811,45 @@
         "${ totalProcessed }/${ totalToProcess } події експортовано",
         "${ totalProcessed }/${ totalToProcess } подій експортовано",
         "${ totalProcessed }/${ totalToProcess } подій експортовано"
+      ],
+      "Calendar successfully exported. You can now save the ICS file.": [
+        "Календар успішно експортовано. Тепер ви можете зберегти ICS файл."
+      ],
+      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
+        "Розшифрування подій з вашого календаря: ${ totalProcessed }/${ totalToProcess }"
+      ],
+      "Due to a password reset, none of your events could be decrypted and exported.": [
+        "Через скидання пароля жодна з ваших подій не може бути розшифрована та експортована."
+      ],
+      "Due to a password reset, some of your events could not be decrypted and exported.": [
+        "Через скидання пароля деякі ваші події не можуть бути розшифровані та експортовані."
+      ],
+      "Error decrypting event": [
+        "Помилка розшифрування події"
+      ],
+      "Learn how to restore encrypted events with old password": [
+        "Дізнайтеся, як відновити зашифровані події зі старим паролем"
+      ],
+      "None of the events could be exported.": [
+        "Жодну з ваших подій не вдалося експортувати."
+      ],
+      "Password reset - event cannot be decrypted": [
+        "Скидання пароля — неможливо розшифрувати подію"
+      ],
+      "Password reset - multiple events cannot be decrypted": [
+        "Скидання пароля — неможливо розшифрувати кілька подій"
+      ],
+      "Please don't close the tab before the exporting process is finished.": [
+        "Не закривайте цю вкладку доки не завершиться процес експортування."
+      ],
+      "Some of your events could not be exported.": [
+        "Деякі з ваших подій не вдалося експортувати."
+      ],
+      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
+        "Інтернет-з'єднання було перервано, внаслідок чого процес експорту зазнав невдачі. Повторіть спробу."
+      ],
+      "You can save an ICS file of the events that were successfully exported.": [
+        "Ви можете зберегти ICS файл подій, які були успішно експортовані."
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -4241,6 +4403,15 @@
       ],
       "To stop phishing or suspicious emails from entering your organization's email system": [
         "Щоб шахрайські або підозрілі електронні листи не потрапляли до поштової скриньки вашої організації"
+      ],
+      "Add a custom filter to automatically perform certain actions, like labeling or archiving messages.": [
+        "Додайте власний фільтр для автоматичного виконання певних дій, наприклад, позначення міткою чи архівування повідомлень."
+      ],
+      "Take control over what lands in your inbox by creating the following lists:": [
+        "Контролюйте все, що перебуває у вашій поштовій скриньці, створивши такі списки:"
+      ],
+      "To stop phishing or suspicious emails from entering your email system": [
+        "Щоб шахрайські або підозрілі електронні листи не потрапляли до вашої поштової скриньки"
       ]
     },
     "Font Face Default": {
@@ -6853,6 +7024,204 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша передплата керується Mozilla. Зв'яжіться зі службою підтримки Mozilla."
+      ],
+      "${ amountOfAddresses } address": [
+        "${ amountOfAddresses } адреса",
+        "${ amountOfAddresses } адреси",
+        "${ amountOfAddresses } адрес",
+        "${ amountOfAddresses } адрес"
+      ],
+      "${ calendarName } will be set as default calendar.": [
+        "${ calendarName } буде встановлено типовим календарем."
+      ],
+      "${ DRIVE_APP_NAME } will no longer keep previous versions of your files.": [
+        "${ DRIVE_APP_NAME } більше не зберігатиме попередні версії ваших файлів."
+      ],
+      "${ firstRemainingCalendarName } will be set as default calendar.": [
+        "${ firstRemainingCalendarName } буде встановлено типовим календарем."
+      ],
+      "${ remainingAddresses.length } more": [
+        "ще ${ remainingAddresses.length }",
+        "ще ${ remainingAddresses.length }",
+        "ще ${ remainingAddresses.length }",
+        "ще ${ remainingAddresses.length }"
+      ],
+      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
+        "Ніхто з цим посиланням не зможе синхронізувати чи отримувати майбутні оновлення для вашого календаря. Якщо ви хочете надати їм доступ знову, вам необхідно створити нове посилання."
+      ],
+      "Are you sure you want to delete this calendar?": [
+        "Ви дійсно хочете видалити цей календар?"
+      ],
+      "Are you sure you want to delete this calendar? All addresses you shared this calendar with will lose access to it.": [
+        "Ви впевнені, що хочете видалити цей календар? Усі адреси, з якими ви поділилися цим календарем, втратять доступ до нього."
+      ],
+      "Are you sure you want to delete this calendar? All events in it will be deleted.": [
+        "Ви впевнені, що хочете видалити цей календар? З нього будуть видалені всі події."
+      ],
+      "Are you sure you want to delete this calendar? You can add the holidays calendar back later.": [
+        "Ви впевнені, що хочете видалити цей календар? Ви можете додати календар свят пізніше."
+      ],
+      "Are you sure you want to delete this filter?": [
+        "Ви дійсно хочете видалити цей фільтр?"
+      ],
+      "Auto-reply is active each month between the selected start and end time.": [
+        "Автовідповідач активний щомісяця між заданим початковим та кінцевим часом."
+      ],
+      "Auto-reply is active each week between the selected start and end time.": [
+        "Автовідповідач активний щотижня між заданим початковим та кінцевим часом."
+      ],
+      "Auto-reply is active from the start time to the end time.": [
+        "Автовідповідач активний з початкового по кінцевий час."
+      ],
+      "Auto-reply is active until you turn it off.": [
+        "Автовідповідач активний, доки ви його не вимкнете."
+      ],
+      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
+        "Автовідповідач завжди активний в обрані вами дні тижня та в обраний проміжок часу."
+      ],
+      "Available on macOS, Windows, and Linux.": [
+        "Доступно на macOS, Windows та Linux."
+      ],
+      "Blocks senders from seeing if and when you opened a message.": [
+        "Не дозволяє відправникам бачити чи ви відкрили повідомлення."
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        "Завантажте свої ключі PGP для використання з іншими службами, сумісними з PGP."
+      ],
+      "Enable this address to join this calendar": [
+        "Дозвольте цій адресі приєднатися до цього календаря"
+      ],
+      "Enable TLS or SSL on the external service if it is supported.": [
+        "Увімкнути TLS або SSL на зовнішньому сервісі, якщо підтримується."
+      ],
+      "Encryption setting updated": [
+        "Налаштування шифрування оновлено"
+      ],
+      "Event invitations and RSVPs will be sent in this language.": [
+        "Запрошення на події та RSVPs надсилатимуться цією мовою."
+      ],
+      "Give the token a descriptive name, such as the service you plan to use it with, and select one of your active custom domain addresses. Only this address will be able to send emails with this token.": [
+        "Дайте токену описову назву, наприклад, службу, з якою ви плануєте його використовувати, і виберіть одну з ваших активних власних доменних адрес. Лише на цю адресу можна буде надсилати електронні листи з цим токеном."
+      ],
+      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
+        "Надайте свій відкритий ключ друзям, або оприлюдніть його в інтернеті, щоб кожен зміг надіслати вам наскрізно зашифроване повідомлення!"
+      ],
+      "Hides identifying information by loading remote content through a proxy. Option to store content as attachments.": [
+        "Приховує інформацію, що може вас ідентифікувати, завантажуючи зовнішній вміст через проксі. Можливість зберігати вміст у вигляді вкладень."
+      ],
+      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
+        "Якщо часовий пояс системи не збігається з налаштуваннями поточного часового поясу, вам буде запропоновано його оновити (не частіше ніж один раз на день)."
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "Якщо ви скасуєте передплату ${ planTitle }, її не буде поновлено, коли вона завершиться ${ expiryDate }."
+      ],
+      "Key deletion is irreversible!": [
+        "Видалення ключа незворотне!"
+      ],
+      "learn more about Sieve programming language": [
+        "дізнатися докладніше про мову програмування Sieve"
+      ],
+      "Let your contacts know you care about their privacy.": [
+        "Дозвольте вашим контактам знати, що ви цінуєте приватність."
+      ],
+      "Loaded content is being protected by our proxy when tracker protection is activated.": [
+        "Якщо увімкнено захист від стеження, завантажений вміст захищається нашим проксі."
+      ],
+      "No account keys exist": [
+        "Немає ключів облікового запису"
+      ],
+      "Not yet available in our Android mobile app.": [
+        "Наразі недоступний у нашій мобільній програмі для Android."
+      ],
+      "Only change these settings if you are using PGP with non-${ BRAND_NAME } recipients.": [
+        "Змінюйте ці налаштування лише якщо ви використовуєте PGP з отримувачами поза ${ BRAND_NAME }."
+      ],
+      "Only you can see the labels.": [
+        "Лише ви можете бачити мітки."
+      ],
+      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
+        "PGP клієнти швидше за все автоматично виявляють ваші PGP ключі, якщо вихідні повідомлення підписані."
+      ],
+      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
+        "Зверніть увагу, якщо ви видалите цей фільтр, ми припинимо виконувати всі автоматизовані дії, які вони викликають."
+      ],
+      "Remove one of your calendars to join this one": [
+        "Вилучіть один з ваших календарів, щоб приєднатися до цього"
+      ],
+      "Save ${ percentage }": [
+        "Заощадьте ${ percentage }"
+      ],
+      "Settings update failed": [
+        "Не вдалося оновити налаштування"
+      ],
+      "Settings updated": [
+        "Налаштування оновлено"
+      ],
+      "Store this password and file in a safe place. You’ll need them again to import your key.": [
+        "Зберігайте цей пароль і файл у надійному місці. Вам потрібно буде знову імпортувати ваш ключ."
+      ],
+      "The calendar will be removed from your account.": [
+        "Календар буде вилучено з вашого облікового запису."
+      ],
+      "The Import-Export app allows you to export messages for local backups and to restore previous backups to your account.": [
+        "Додаток Іmport-Export дає змогу експортувати повідомлення до локальних резервних копій та відновлювати попередні резервні копії в обліковому записі."
+      ],
+      "This token won’t be available after you close this window, and you should not share it with anyone.": [
+        "Цей токен буде недоступний після того, як ви закриєте це вікно. Не діліться ним ні з ким."
+      ],
+      "This will delete all previous versions of your files older than ${ rententionLabel }.": [
+        "Це призведе до видалення всіх попередніх версій ваших файлів, що зберігаються понад ${ rententionLabel }"
+      ],
+      "This will delete all previous versions of your files.": [
+        "Це призведе до видалення всіх попередніх версій ваших файлів."
+      ],
+      "This will download a file containing your private key. Protect this file by encrypting it with a password.": [
+        "Це завантажить файл, що містить ваш приватний ключ. Захистіть цей файл, зашифрувавши його паролем."
+      ],
+      "To avoid data loss, only delete it if you know what you’re doing or have exported a copy.": [
+        "Щоб уникнути втрати даних, видаляйте його лише якщо впевнені у своїх діях або експортували копію."
+      ],
+      "To work properly, each filter must contain at least a name and a valid Sieve script. You can ${ link }.": [
+        "Для належної роботи кожен фільтр повинен містити принаймні назву й дійсний скрипт Sieve. Ви можете ${ link }."
+      ],
+      "Upgrade to add a shorter @pm.me address to your account that is easier to share. It stands for “${ MAIL_APP_NAME } me” or “Private Message me”.": [
+        "Передплатіть тарифний план, щоб додати до облікового запису коротку адресу @pm.me, якою легше ділитися. Вона розшифровується як \"${ MAIL_APP_NAME } me\" або \"Private Message me\"."
+      ],
+      "Upgrade to unlock": [
+        "Передплатіть для отримання доступу"
+      ],
+      "Use the selected email address as the SMTP username in the external service, and the generated token as the SMTP password.": [
+        "Використовуйте обрану адресу електронної пошти іменем користувача SMTP у зовнішній службі, а згенерований токен — паролем SMTP."
+      ],
+      "Version history": [
+        "Історія версій"
+      ],
+      "When disabled, this prevents image files from loading on your device without your knowledge.": [
+        "Якщо вимкнено, це запобігатиме завантаженню файлів зображень на вашому пристрої без вашої згоди.\t"
+      ],
+      "When notifications are enabled, we'll send an alert to your recovery email address if you have new messages in your ${ MAIL_APP_NAME } account.": [
+        "Якщо сповіщення увімкнено, ми надсилатимемо попередження на вашу адресу електронної пошти для поновлення паролю та повідомлень, якщо на вашу поштову скриньку ${ MAIL_APP_NAME } надійдуть нові повідомлення."
+      ],
+      "With an encrypted ${ BRAND_NAME } address, you can use all ${ BRAND_NAME } services": [
+        "Маючи зашифровану адресу ${ BRAND_NAME }, ви можете користуватися всіма службами ${ BRAND_NAME }"
+      ],
+      "With your current plan, you can only receive messages with your @pm.me address. Upgrade to send messages and create additional addresses using @pm.me.": [
+        "З вашим поточним тарифним планом ви можете лише отримувати повідомлення на адресу @pm.me. Оновіть тариф, щоб надсилати повідомлення та створювати додаткові адреси за допомогою @pm.me."
+      ],
+      "You can use ${ MAIL_APP_NAME } with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "Ви можете використовувати ${ MAIL_APP_NAME } з будь-яким поштовим клієнтом для комп'ютера, який підтримує IMAP/SMTP, наприклад, Outlook, Apple Mail та Thunderbird."
+      ],
+      "You have no calendars to export.": [
+        "У вас немає календарів для експорту."
+      ],
+      "You need to have an active personal calendar to import your events from ICS.": [
+        "Вам необхідно мати активний особистий календар для імпорту ваших подій з ICS."
+      ],
+      "You should export a backup of this key in case you need to restore data it encrypted.": [
+        "Ви повинні експортувати резервну копію цього ключа, якщо вам потрібно відновити дані, які ним зашифровані."
+      ],
+      "You still need to reply to invitations for the host to see your response.": [
+        "Вам усе одно необхідно відповісти на запрошення, щоб організатор побачив вашу відповідь."
       ]
     },
     "info": {
@@ -7904,6 +8273,102 @@
       ],
       "Your referral link": [
         "Ваше реферальне посилання"
+      ],
+      "${ MAIL_APP_NAME } footer": [
+        "Колонтитул ${ MAIL_APP_NAME }"
+      ],
+      "Allow notifications by email": [
+        "Дозволити сповіщення електронною поштою"
+      ],
+      "Attach public key": [
+        "Приєднати відкритий ключ"
+      ],
+      "Auto show embedded images": [
+        "Автопоказ вбудованих зображень"
+      ],
+      "Auto show remote images": [
+        "Автоматичний показ зовнішніх зображень"
+      ],
+      "Auto-delete unwanted messages": [
+        "Автовидалення небажаних повідомлень"
+      ],
+      "Auto-detect primary time zone": [
+        "Автовизначення основного часового поясу"
+      ],
+      "Auto-unsubscribe": [
+        "Автовідписка"
+      ],
+      "Block email tracking": [
+        "Блокування відстеження електронної пошти"
+      ],
+      "Composer default font/size": [
+        "Типовий шрифт редактора"
+      ],
+      "Composer text direction": [
+        "Напрямок тексту редактора"
+      ],
+      "Confirm link URLs": [
+        "Підтвердити URL-адреси посилань"
+      ],
+      "Conversation grouping": [
+        "Групування розмов"
+      ],
+      "Conversations per page": [
+        "Розмов на сторінку"
+      ],
+      "Daily email notifications": [
+        "Щоденні повідомлення електронною поштою"
+      ],
+      "Days of the week": [
+        "Дні тижня"
+      ],
+      "Default language (${ defaultLanguage })": [
+        "Мова (${ defaultLanguage })"
+      ],
+      "Default PGP scheme": [
+        "Типова схема PGP"
+      ],
+      "Don't keep versions": [
+        "Не зберігати версії"
+      ],
+      "End day of month": [
+        "Останній день місяця"
+      ],
+      "Exclude Spam/Trash from All mail": [
+        "Виключити Спам/Смітник з теки \"Уся пошта\""
+      ],
+      "Inherit color from parent folder": [
+        "Успадкувати колір від теки вищого рівня"
+      ],
+      "Keep messages in Sent/Drafts": [
+        "Зберігати повідомлення у Надісланих/Чернетках"
+      ],
+      "Messages per page": [
+        "Повідомлень на сторінку"
+      ],
+      "Please select files to upload": [
+        "Оберіть файли для вивантаження"
+      ],
+      "Prompt to trust keys": [
+        "Запитувати довірені ключі"
+      ],
+      "Protection mode": [
+        "Режим захисту"
+      ],
+      "Show secondary time zone": [
+        "Показати додатковий часовий пояс"
+      ],
+      "Show sender images": [
+        "Показувати зображення відправників"
+      ],
+      "Sign external messages": [
+        "Підписувати зовнішні повідомлення"
+      ],
+      "Start day of month": [
+        "Перший день місяця"
+      ],
+      "Use folder colors": [
+        "Використати кольори тек"
       ]
     },
     "label": {
@@ -8002,6 +8467,12 @@
     "label/folder notification": {
       "${ Label.Name } created": [
         "${ Label.Name } створено"
+      ],
+      "${ label.Name } updated": [
+        "${ label.Name } оновлено"
+      ],
+      "Preference saved": [
+        "Налаштування збережено"
       ]
     },
     "Limit of calendars reached": {
@@ -8129,6 +8600,9 @@
       ],
       "Why set recovery methods?": [
         "Навіщо додавати спосіб відновлення?"
+      ],
+      "Set email address": [
+        "Установити адресу е-пошти"
       ]
     },
     "Loading info": {
@@ -8250,6 +8724,9 @@
       ],
       "Your free trial has ended. Access to your account will soon be disabled. ${ action }": [
         "Час безплатної пробної версії вичерпано. Доступ до вашого облікового запису незабаром буде вимкнено. ${ action }"
+      ],
+      "All filter actions will be applied to all messages in your ${ MAIL_APP_NAME } account. No auto-reply emails will be sent.": [
+        "Усі дії фільтра буде застосовано до всіх повідомлень у вашому обліковому записі ${ MAIL_APP_NAME }. Електронні листи з автоматичною відповіддю не надсилатимуться."
       ]
     },
     "Message display when a new app version is available": {
@@ -8966,6 +9443,15 @@
       ],
       "User session management": [
         "Керування сеансами користувачів"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } календар",
+        "${ maximumNumberOfCalendars } календарі",
+        "${ maximumNumberOfCalendars } календарів",
+        "${ maximumNumberOfCalendars } календарів"
+      ],
+      "SMTP submission": [
+        "Надсилання через SMTP"
       ]
     },
     "new_plans: feature info": {
@@ -9450,6 +9936,12 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Двоетапна перевірка більше не обов'язкова"
+      ],
+      "Key with fingerprint ${ fp } has been deleted.": [
+        "Ключ з відбитком ${ fp } було видалено."
+      ],
+      "Link copied to clipboard": [
+        "Посилання скопійовано в буфер обміну"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -9469,6 +9961,12 @@
         "Учасників додано",
         "Учасників додано",
         "Учасників додано"
+      ],
+      "Invitation deleted": [
+        "Запрошення видалено"
+      ],
+      "Invitation revoked": [
+        "Запрошення відкликано"
       ]
     },
     "Notification in shared calendar modal": {
@@ -9604,6 +10102,99 @@
       ],
       "The whole organization": [
         "Вся організація"
+      ],
+      "10th of the month": [
+        "10-е число місяця"
+      ],
+      "11th of the month": [
+        "11-е число місяця"
+      ],
+      "12th of the month": [
+        "12-е число місяця"
+      ],
+      "13th of the month": [
+        "13-е число місяця"
+      ],
+      "14th of the month": [
+        "14-е число місяця"
+      ],
+      "15th of the month": [
+        "15-е число місяця"
+      ],
+      "16th of the month": [
+        "16-е число місяця"
+      ],
+      "17th of the month": [
+        "17-е число місяця"
+      ],
+      "18th of the month": [
+        "18-е число місяця"
+      ],
+      "19th of the month": [
+        "19-е число місяця"
+      ],
+      "1st of the month": [
+        "1-е число місяця"
+      ],
+      "20th of the month": [
+        "20-е число місяця"
+      ],
+      "21st of the month": [
+        "21-е число місяця"
+      ],
+      "22nd of the month": [
+        "22-е число місяця"
+      ],
+      "23rd of the month": [
+        "23-є число місяця"
+      ],
+      "24th of the month": [
+        "24-е число місяця"
+      ],
+      "25th of the month": [
+        "25-е число місяця"
+      ],
+      "26th of the month": [
+        "26-е число місяця"
+      ],
+      "27th of the month": [
+        "27-е число місяця"
+      ],
+      "28th of the month": [
+        "28-е число місяця"
+      ],
+      "29th of the month": [
+        "29-е число місяця"
+      ],
+      "2nd of the month": [
+        "2-е число місяця"
+      ],
+      "30th of the month": [
+        "30-е число місяця"
+      ],
+      "31st of the month": [
+        "31-е число місяця"
+      ],
+      "3rd of the month": [
+        "3-є число місяця"
+      ],
+      "4th of the month": [
+        "4-е число місяця"
+      ],
+      "5th of the month": [
+        "5-е число місяця"
+      ],
+      "6th of the month": [
+        "6-е число місяця"
+      ],
+      "7th of the month": [
+        "7-е число місяця"
+      ],
+      "8th of the month": [
+        "8-е число місяця"
+      ],
+      "9th of the month": [
+        "9-е число місяця"
       ]
     },
     "Option group": {
@@ -9878,6 +10469,15 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Ваша організація має доступ до ${ free }. Якщо ви хочете отримати доступ до преміальних функцій ${ appName }, попросіть адміністратора вашої організації передплатити тарифний план."
+      ],
+      "${ appName } benefits": [
+        "Переваги ${ appName }"
+      ],
+      "End-to-end encryption": [
+        "Наскрізне шифрування"
+      ],
+      "You have been invited to join ${ PASS_APP_NAME }": [
+        "Вас запросили приєднатися до ${ PASS_APP_NAME }"
       ]
     },
     "pass_signup_2023: Title": {
@@ -9895,6 +10495,9 @@
       ],
       "Secure your account": [
         "Захистіть свій обліковий запис"
+      ],
+      "Create a ${ PASS_APP_NAME } account": [
+        "Створіть обліковий запис ${ PASS_APP_NAME }"
       ]
     },
     "Payment method option": {
@@ -10207,6 +10810,9 @@
     "session_recovery:available:action": {
       "Reset password": [
         "Скинути пароль"
+      ],
+      "Cancel password reset": [
+        "Скасувати відновлення пароля"
       ]
     },
     "session_recovery:available:notification": {
@@ -10223,6 +10829,9 @@
       ],
       "Learn more": [
         "Докладніше"
+      ],
+      "Cancel password reset": [
+        "Скасувати відновлення пароля"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -10485,6 +11094,12 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Стандартна ціна ${ amount } за 30 місяців"
+      ],
+      "${ n } month": [
+        "${ n } місяць",
+        "${ n } місяці",
+        "${ n } місяців",
+        "${ n } місяців"
       ]
     },
     "specialoffer: Title": {
@@ -10898,6 +11513,36 @@
       ],
       "You have successfully unsubscribed": [
         "Ви успішно скасували передплату"
+      ],
+      "Address updated": [
+        "Адресу оновлено"
+      ],
+      "Auto-reply disabled": [
+        "Автовідповідь вимкнено"
+      ],
+      "Auto-reply updated": [
+        "Автоматичну відповідь оновлено"
+      ],
+      "Calendar removed": [
+        "Календар вилучено"
+      ],
+      "Default calendar updated": [
+        "Типовий календар оновлено"
+      ],
+      "Port copied to clipboard": [
+        "Порт скопійовано до буфера обміну"
+      ],
+      "Premium address created": [
+        "Преміум адресу створено"
+      ],
+      "Server copied to clipboard": [
+        "Сервер скопійовано до буфера обміну"
+      ],
+      "SMTP token deleted": [
+        "SMTP-токен видалено"
+      ],
+      "Token copied to clipboard": [
+        "Токен скопійовано до буфера обміну"
       ]
     },
     "Success message": {
@@ -11972,6 +12617,72 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Ви запрошені спробувати ${ MAIL_APP_NAME }"
+      ],
+      "Activate @pm.me": [
+        "Активувати @pm.me"
+      ],
+      "Add Sieve filter": [
+        "Додати фільтр Sieve"
+      ],
+      "Apply filter to existing messages": [
+        "Застосувати фільтр до наявних повідомлень"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Автоматично підписувати вихідні повідомлення?"
+      ],
+      "Bridge for ${ platform }": [
+        "Bridge для ${ platform }"
+      ],
+      "Delete ${ filterName }": [
+        "Видалити ${ filterName }"
+      ],
+      "Delete ${ tokenNameToRemove }?": [
+        "Видалити ${ tokenNameToRemove }?"
+      ],
+      "Delete calendar": [
+        "Видалити календар"
+      ],
+      "Delete key permanently?": [
+        "Видалити ключ остаточно?"
+      ],
+      "Delete version history?": [
+        "Видалити історію версій?"
+      ],
+      "Edit Sieve filter": [
+        "Редагувати фільтр Sieve"
+      ],
+      "Export calendar": [
+        "Експортувати календар"
+      ],
+      "Export private key": [
+        "Експорт приватного ключа"
+      ],
+      "Export public key": [
+        "Експортувати відкритий ключ"
+      ],
+      "Generate SMTP token": [
+        "Згенерувати SMTP-токен"
+      ],
+      "Keyboard shortcuts": [
+        "Комбінації клавіш"
+      ],
+      "Remove calendar": [
+        "Вилучити календар"
+      ],
+      "Set up a recovery method": [
+        "Встановити спосіб відновлення"
+      ],
+      "Sign in to your organization": [
+        "Увійдіть до своєї організації"
+      ],
+      "Sort folders alphabetically": [
+        "Сортувати теки за алфавітом"
+      ],
+      "Sort labels alphabetically": [
+        "Сортувати мітки за алфавітом"
+      ],
+      "Your SMTP token": [
+        "Ваш SMTP-токен"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -12165,6 +12876,63 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Схоже, ваш зовнішній обліковий запис досягнув 24-годинного обмеження пропускної здатності. ${ BRAND_NAME } спробує відновити імпортування одразу, як це стане можливим."
+      ],
+      "${ MAIL_APP_NAME } users will use this key by default for sending": [
+        "Користувачі ${ MAIL_APP_NAME } типово застосовуватимуть цей ключ для надсилання"
+      ],
+      "Delete trash and spam messages after 30 days. Turning on auto-delete gives messages already in trash/spam a deletion date based on the date they were moved there.": [
+        "Видаляти повідомлення зі спаму через 30 днів. Якщо ввімкнути автоматичне видалення, повідомлення, які вже знаходяться в смітнику/спамі, будуть видалені за датою їх переміщення туди."
+      ],
+      "Enable/disable desktop and mobile notifications": [
+        "Увімкнути/вимкнути сповіщення на стільниці й мобільному пристрої"
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        "Групуйте повідомлення в одній розмові або переглядайте їх окремо."
+      ],
+      "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
+        "Повідомлення в теці Надіслані або Чернетки й надалі з'являтимуться в тій теці, навіть якщо ви перемістите їх до іншої теки."
+      ],
+      "Set how your list of messages looks like by default.": [
+        "Установіть типовий вигляд списку повідомлень."
+      ],
+      "Set the default Composer popup size as small or full screen.": [
+        "Встановіть звичайний чи розгорнутий типовий розмір редактора."
+      ],
+      "Set the default layout for your Inbox.": [
+        "Встановіть типовий макет вигляду поштової скриньки."
+      ],
+      "Show each sender's image in the message list. The sender's initials will be shown if a photo is not available.": [
+        "Показувати зображення відправників у списку повідомлень. Якщо фото недоступне, показуватимуться ініціали відправника."
+      ],
+      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
+        "Підписи, створені з цим ключем вважаються недійсними, а цей ключ не можна використовувати для шифрування"
+      ],
+      "This address has been disabled": [
+        "Цю адресу було вимкнено"
+      ],
+      "This feature delays sending your emails, giving you the opportunity to undo send during the selected time frame.": [
+        "Ця функція затримує надсилання ваших листів, дозволяючи скасувати надсилання протягом вказаного проміжку часу."
+      ],
+      "This key cannot be used for encryption": [
+        "Цей ключ не можна використовувати для шифрування"
+      ],
+      "This key is encrypted with an old password": [
+        "Цей ключ зашифровано старим паролем"
+      ],
+      "This key is used by ${ MAIL_APP_NAME } to encrypt your contact's data": [
+        "${ MAIL_APP_NAME } використовує цей ключ для шифрування ваших контактних даних"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Коли ви додаєте мітку до повідомлення в розмові, вона автоматично застосується до всіх майбутніх повідомлень, які ви надсилаєте або отримуєте в цій розмові."
+      ],
+      "When you click on a link, this anti-phishing feature will ask you to confirm the URL of the web page.": [
+        "При переході за посиланням ця захисна функція попросить вас підтвердити URL-адресу вебсторінки."
+      ],
+      "When you move an email to spam, you’ll automatically be unsubscribed from the sender’s mailing lists.": [
+        "Коли ви переміщуєте електронний лист у спам, ви автоматично будете вилучені зі списків розсилки відправника."
+      ],
+      "You have locally decrypted this key": [
+        "Ви локально розшифрували цей ключ"
       ]
     },
     "Tooltip default pgp scheme": {
@@ -12205,6 +12973,9 @@
         "Передплатіть ${ planName }, щоб під'єднати ${ n } пристрої до VPN за раз",
         "Передплатіть ${ planName }, щоб під'єднати ${ n } пристроїв до VPN за раз",
         "Передплатіть ${ planName }, щоб під'єднати ${ n } пристроїв до VPN за раз"
+      ],
+      "Upgrade to ${ passPlusPlanName } to get unlimited hide-my-email aliases": [
+        "Передплатіть ${ passPlusPlanName }, щоб отримати необмежену кількість псевдонімів Hide-my-email"
       ]
     },
     "upsell panel": {
@@ -12428,6 +13199,9 @@
       ],
       "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
         "Ваша фраза відновлення застаріла. З її допомогою неможливо відновити нові дані за повторного скидання облікового запису."
+      ],
+      "The device or service using this token will no longer be able to send email through ${ MAIL_APP_NAME }.": [
+        "Пристрій або служба, що використовує цей токен, більше не зможе надсилати електронну пошту через ${ MAIL_APP_NAME }."
       ]
     },
     "Warning for domain modal": {
@@ -12733,6 +13507,356 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Auto import invitations setting": {
+      "Add to calendar and mark as pending": [
+        "Додати до календаря та в чергу"
+      ]
+    },
+    "Autoresponse": {
+      "I'm out of the office with limited access to my email.": [
+        "Я не на робочому місці з обмеженим доступом до електронної пошти."
+      ]
+    },
+    "bf2023: Action": {
+      "Remove ${ PASS_APP_NAME }": [
+        "Вилучити ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Гарантія повернення коштів протягом 30 днів"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Включає підтримку 1 власного домену, 10 адрес електронної пошти, 10 псевдонімів hide-my-email, спільний доступ до календаря та інші можливості."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Безпечно зберігайте свої файли у зашифрованому хмарному сховищі з історією версій, спільним доступом та іншими можливостями."
+      ]
+    },
+    "Bridge version load failed": {
+      "Failed to find latest version": [
+        "Не вдалося знайти найновішу версію"
+      ]
+    },
+    "Calendar export section description": {
+      "Download an ICS file with all the events from the selected calendar.": [
+        "Завантажити файл ICS з усіма подіями з вибраного календаря."
+      ]
+    },
+    "Calendar import section description": {
+      "You can import ICS files from another calendar to ${ CALENDAR_APP_NAME }. This lets you quickly import one event or your entire agenda.": [
+        "Ви можете імпортувати ICS файли з іншого календаря до ${ CALENDAR_APP_NAME }. Це дасть змогу швидко імпортувати одну подію або весь ваш порядок денний."
+      ]
+    },
+    "Calendar settings link share description": {
+      "Create a link to your calendar and share it with anyone outside ${ BRAND_NAME }. Only you can add or remove events.": [
+        "Створіть посилання на ваш календар і поділіться ним з будь-ким за межами ${ BRAND_NAME }. Лише ви можете додавати та вилучати події."
+      ]
+    },
+    "Calendar settings private share description": {
+      "Share your calendar with other ${ BRAND_NAME } users. Enable collaboration by allowing them to add and edit events in your calendar. You can modify the user permissions anytime.": [
+        "Діліться своїм календарем з іншими користувачами ${ BRAND_NAME }. Увімкніть спільну роботу, дозволивши їм додавати та змінювати події у вашому календарі. Ви можете будь-коли змінити дозволи користувача."
+      ]
+    },
+    "Calendar settings section title": {
+      "Share outside ${ BRAND_NAME }": [
+        "Поділитися за межами ${ BRAND_NAME }"
+      ],
+      "Share with ${ BRAND_NAME } users": [
+        "Поділитися з користувачами ${ BRAND_NAME }"
+      ],
+      "Share with anyone": [
+        "Поділіться з ким завгодно"
+      ]
+    },
+    "Calendar share permission label": {
+      "Edit event details": [
+        "Редагувати подію"
+      ],
+      "See all event details": [
+        "Переглянути всі подробиці події"
+      ]
+    },
+    "Calendar sharing permission change notification": {
+      "Permissions changed for ${ email }": [
+        "Змінено дозволи для ${ email }"
+      ]
+    },
+    "Default calendar event settings section title": {
+      "Default event settings": [
+        "Типові налаштування події"
+      ]
+    },
+    "Delete calendar section description": {
+      "All events in this calendar will be deleted.": [
+        "Усі події в цьому календарі будуть видалені."
+      ],
+      "You will no longer have access to this calendar.": [
+        "Ви більше не матимете доступу до цього календаря."
+      ]
+    },
+    "drive_signup_2023: Info": {
+      "Advanced sharing security": [
+        "Розширені можливості спільного доступу"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "You can safely close this tab.": [
+        "Тепер ви можете закрити цю вкладку."
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Enter email address": [
+        "Введіть адресу е-пошти"
+      ],
+      "Type text or keyword": [
+        "Введіть текст чи ключове слово"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Set up forwarding": [
+        "Налаштувати пересилання"
+      ]
+    },
+    "Error when exporting event from calendar": {
+      "Event @ ${ timeString }": [
+        "Подія @ ${ timeString }"
+      ],
+      "Event from ${ timeString }, ${ rruleString }": [
+        "Подія від ${ timeString }, ${ rruleString }"
+      ]
+    },
+    "Import key": {
+      "Are you sure you want to import a private key? Importing an insecurely generated or leaked private key can harm the security of your emails.\n\nPlease also note that the public key corresponding to this private key will be publicly available from our key server. If the key contains personal details (such as your full name) which you do not want to publish, please edit the key before importing it.": [
+        "Ви дійсно хочете імпортувати приватний ключ? Імпортування ненадійно згенерованого чи скомпрометованого приватного ключа може порушити безпеку вашої пошти.\n\nЗауважте, що відкритий ключ, пов'язаний з цим приватним ключем, буде загальнодоступним на нашому сервері ключів. Якщо ключ містить особисті дані (наприклад, ваше повне ім'я), які ви не хочете оприлюднювати, відредагуйте ключ перед імпортуванням."
+      ]
+    },
+    "Info - folder colouring feature": {
+      "When enabled, sub-folders inherit the color of the parent folder.": [
+        "Якщо увімкнено, підтеки успадковують колір теки вищого рівня."
+      ]
+    },
+    "Key generation": {
+      "A key with the same encryption algorithm already exists. Generating another key will cause slower account loading. Are you sure you want to continue?": [
+        "Ключ з таким самим алгоритмом шифрування вже існує. Генерування іншого ключа спричинить повільніше завантаження облікового запису. Ви дійсно хочете продовжити?"
+      ],
+      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
+        "Для цієї адреси вже активний ключ з таким самим алгоритмом шифрування. Генерування іншого ключа спричинить сповільнення завантаження облікового запису, а видалення цього ключа може викликати проблеми. Якщо ви генеруєте новий ключ, тому що ваш старий ключ був скомпрометований, будь ласка, позначте той ключ скомпрометованим. Ви дійсно хочете продовжити?"
+      ],
+      "Key with fingerprint ${ fp } successfully created.": [
+        "Ключ з відбитком ${ fp } успішно створено."
+      ],
+      "The encryption keys are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Триває генерування ключів шифрування. Це може тривати кілька хвилин та тимчасово блокувати роботу браузера."
+      ],
+      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Триває генерування ключів шифрування для вашої адреси. Це може тривати кілька хвилин та тимчасово блокувати роботу браузера."
+      ],
+      "You can generate a new encryption key if you think your previous key has been compromised.": [
+        "Ви можете генерувати новий ключ шифрування, якщо ви вважаєте, що попередній ключ був скомпрометований."
+      ]
+    },
+    "Keys actions": {
+      "Disables encryption with this key": [
+        "Вимикає шифрування з цим ключем"
+      ],
+      "Disables signature verification and encryption with this key": [
+        "Вимикає перевірку підпису і шифрування з цим ключем"
+      ],
+      "Enable encryption with this key": [
+        "Увімкнути шифрування з цим ключем"
+      ],
+      "Enable signature verification and encryption with this key": [
+        "Увімкнути перевірку підпису і шифрування з цим ключем"
+      ],
+      "Export private key": [
+        "Експорт приватного ключа"
+      ],
+      "Export public key": [
+        "Експортувати відкритий ключ"
+      ],
+      "Mark compromised": [
+        "Позначити скомпрометованим"
+      ],
+      "Mark not compromised": [
+        "Позначити не скомпрометованим"
+      ],
+      "Mark not obsolete": [
+        "Позначити не застарілим"
+      ]
+    },
+    "Label for default event notifications": {
+      "All-day event notifications": [
+        "Сповіщення про події за весь день"
+      ]
+    },
+    "Notification success": {
+      "Event defaults updated": [
+        "Типові параметри події оновлено"
+      ]
+    },
+    "Option protection mode": {
+      "Load content via proxy (recommended)": [
+        "Завантажувати вміст через проксі (рекомендовано)"
+      ],
+      "Load content via proxy and store as attachments": [
+        "Завантажувати вміст через проксі та зберігати як вкладення"
+      ]
+    },
+    "OS compatibility": {
+      ".deb (for Debian/Ubuntu)": [
+        ".deb (для Debian/Ubuntu)"
+      ],
+      ".dmg (10.12 or later)": [
+        ".dmg (10.12 або новіше)"
+      ],
+      ".rpm (for Fedora/openSUSE)": [
+        ".rpm (для Fedora/openSUSE)"
+      ],
+      "PKGBUILD (for other distributions)": [
+        "PKGBUILD (для інших дистрибутивів)"
+      ]
+    },
+    "Personal calendar section description": {
+      "Create a calendar to stay on top of your schedule while keeping your data secure.": [
+        "Створіть календар, щоб контролювати свій розклад, зберігаючи при цьому свої дані в безпеці."
+      ]
+    },
+    "Primary timezone": {
+      "Primary time zone": [
+        "Основний часовий пояс"
+      ],
+      "Secondary time zone": [
+        "Другий часовий пояс"
+      ]
+    },
+    "Remove calendar section description": {
+      "By unsubscribing, you will no longer have access to this calendar. All events in this calendar will be deleted from your account, but they'll remain in the original public link.": [
+        "Скасувавши підписку, ви більше не матимете доступу до цього календаря. Усі події в цьому календарі будуть видалені з вашого облікового запису, але вони залишаться в початковому загальнодоступному посиланні."
+      ],
+      "You will no longer have access to this calendar.": [
+        "Ви більше не матимете доступу до цього календаря."
+      ]
+    },
+    "Remove calendar section text": {
+      "If you leave this calendar, you'll have to ask the owner to join again.": [
+        "Якщо ви покинете цей календар, вам доведеться просити власника про повторне приєднання."
+      ],
+      "This calendar will be removed from your account.": [
+        "Цей календар буде вилучено з вашого облікового запису."
+      ]
+    },
+    "Remove calendar section title": {
+      "Delete calendar?": [
+        "Видалити календар?"
+      ],
+      "Leave calendar?": [
+        "Покинути календар?"
+      ],
+      "Remove calendar": [
+        "Вилучити календар"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "Згенеруйте ключі, перш ніж змінювати пароль"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } день",
+        "${ timeRemaining.inDays } дні",
+        "${ timeRemaining.inDays } днів",
+        "${ timeRemaining.inDays } днів"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } година",
+        "${ timeRemaining.inHours } години",
+        "${ timeRemaining.inHours } годин",
+        "${ timeRemaining.inHours } годин"
+      ],
+      "You can now reset your password": [
+        "Тепер ви можете скинути пароль"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Скинути пароль"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Скасувати скидання пароля"
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Скидання пароля скасовано"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Скасувати скидання пароля?"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Подано запит на скидання пароля"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } година",
+        "${ gracePeriodHoursRemaining } години",
+        "${ gracePeriodHoursRemaining } годин",
+        "${ gracePeriodHoursRemaining } годин"
+      ]
+    },
+    "Subscribed calendar section description": {
+      "Add public, external, or shared calendars using a URL.": [
+        "Додайте загальнодоступні, зовнішні чи спільні календарі за URL-адресою."
+      ],
+      "Add public, external, or shared calendars.": [
+        "Додайте загальнодоступні, зовнішні чи спільні календарі."
+      ]
+    },
+    "Summary of errors during export calendar": {
+      "Details about events that couldn't be exported": [
+        "Подробиці про події, які не вдалося експортувати"
+      ]
+    },
+    "TableRow": {
+      "No SMTP tokens found": [
+        "SMTP-токенів не знайдено"
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "Це автоматично додає ваш відкритий ключ до кожного повідомлення, яке ви надсилаєте. Отримувачі можуть використовувати його для перевірки надійності ваших повідомлень і надсилання вам зашифрованих повідомлень."
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ${ MAIL_APP_NAME } user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        "Отримавши листи від інших користувачів ${ MAIL_APP_NAME }, які не мають довірених ключів у ваших контактах, ви побачите банер із запитом про активацію довірених ключів."
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        "Автоматично підписуйте всі вихідні повідомлення, щоб користувачі могли перевірити їх надійність. Це виконується в комбінації з типовою конфігурацією PGP, яку можна налаштувати нижче."
+      ]
+    },
+    "Upgrade notice": {
+      "Upgrade to a ${ MAIL_SHORT_APP_NAME } paid plan to share your calendar.": [
+        "Щоб поділитися своїм календарем, передплатіть тарифний план ${ MAIL_SHORT_APP_NAME }."
+      ]
+    },
+    "Weak personal key warning": {
+      "This key no longer meets our security standards. We suggest you mark it as obsolete and generate a new key.": [
+        "Цей ключ більше не задовольняє наші стандарти безпеки. Ми пропонуємо вам позначити його застарілим і згенерувати новий."
       ]
     }
   }

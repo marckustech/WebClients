@@ -1075,6 +1075,9 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Copy key to the clipboard": [
+        "Copiado para a área de transferência"
       ]
     },
     "action": {
@@ -7937,6 +7940,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Sua assinatura é gerenciada pela Mozilla. Entre em contato com o suporte da Mozilla."
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "O envio SMTP permite que serviços ou dispositivos de terceiros enviem e-mails por meio do ${ MAIL_APP_NAME } para seus endereços de domínio personalizados. Este recurso está disponível apenas para usuários ${ BRAND_NAME } for Business com domínios personalizados."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Você não poderá recuperar dados bloqueados usando os arquivos de recuperação baixados. Isso também desativará a recuperação de dispositivos confiáveis."
       ]
     },
     "info": {
@@ -7945,6 +7954,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "Chave ${ fingerprint } já foi enviada"
+      ],
+      "Selected color:": [
+        "Cor selecionada:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10342,6 +10354,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartilhar do cofre (até ${ n } pessoa)",
         "Compartilhar cofre (até ${ n } pessoa)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
       ]
     },
     "new_plans: feature info": {
@@ -10850,6 +10866,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "A autenticação de dois fatores não é mais necessária"
+      ],
+      "Key copied to the clipboard": [
+        "Link copiado para a área de transferência"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11489,6 +11508,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Sua organização tem acesso a ${ free }. Se você deseja acesso a recursos premium do ${ appName }, solicite a atualização ao administrador da sua organização."
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium password manager!": [
+        "Por apenas mais **${ relativePrice } por mês**, você tem acesso ao gerenciador de senhas premium de ${ BRAND_NAME }!"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium VPN service!": [
+        "Por apenas mais **${ relativePrice } por mês**, você obtém acesso ao serviço VPN premium de ${ BRAND_NAME }!"
       ]
     },
     "pass_signup_2023: Title": {

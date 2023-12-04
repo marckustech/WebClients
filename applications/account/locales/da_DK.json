@@ -1019,6 +1019,30 @@
       ],
       "Zoom out": [
         "Zoom ud"
+      ],
+      "Activate ${ user.Name }@pm.me": [
+        "Aktivér ${ user.Name }@pm.me"
+      ],
+      "Add calendar from URL": [
+        "Tilføj kalender fra URL"
+      ],
+      "Download the Import-Export app": [
+        "Download Import-eksport-appen"
+      ],
+      "Filters are being applied. This might take a few minutes.": [
+        "Filtre anvendes. Dette kan tage et par minutter."
+      ],
+      "Import from ICS": [
+        "Importér fra ICS"
+      ],
+      "Reactivate keys": [
+        "Genaktivér nøgler"
+      ],
+      "Select language for invitation emails": [
+        "Vælg sprog for invitationsmails"
+      ],
+      "Use “${ label }” setting": [
+        "Brug “${ label }” indstilling"
       ]
     },
     "Action for user session": {
@@ -1574,6 +1598,9 @@
     "Calendar share permission label": {
       "Edit event details": [
         "Rediger begivenhedsdetaljer"
+      ],
+      "See all event details": [
+        "Se alle detaljer om begivenheden"
       ]
     },
     "Calendar sharing access option label": {
@@ -2879,6 +2906,9 @@
     "Delete calendar section description": {
       "You will no longer have access to this calendar.": [
         "Du vil ikke længere have adgang til denne kalender."
+      ],
+      "All events in this calendar will be deleted.": [
+        "Alle begivenheder i denne kalender vil blive slettet."
       ]
     },
     "Delinquent modal title": {
@@ -3184,6 +3214,9 @@
       ],
       "Set up email forwarding": [
         "Indstil videresendelse af e-mail"
+      ],
+      "Request confirmation": [
+        "Anmod om bekræftelse"
       ]
     },
     "email_forwarding_2023: Forwarding tooltip": {
@@ -3202,6 +3235,9 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Du vil ikke modtage e-mails, der videresendes automatisk fra ${ boldForwarderEmail }."
+      ],
+      "You can safely close this tab.": [
+        "Du kan godt lukke denne fane."
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3213,6 +3249,12 @@
       ],
       "Or": [
         "Eller"
+      ],
+      "With attachment": [
+        "Med vedhæftning"
+      ],
+      "Without attachment": [
+        "Uden vedhæftning"
       ]
     },
     "email_forwarding_2023: Link": {
@@ -3733,6 +3775,18 @@
       ],
       "Zero keys reactivated": [
         "Nul nøgler genaktiveret"
+      ],
+      "Invalid private key file": [
+        "Ugyldig privatnøglefil"
+      ],
+      "Invalid Sieve code": [
+        "Ugyldig Sieve-kode"
+      ],
+      "Please set a recovery/notification email first": [
+        "Angiv en gendannelses-/notifikations-e-mail"
+      ],
+      "You need to have a custom domain address in order to generate an SMTP submission token.": [
+        "Du skal have en brugerdomæneadresse for at kunne generere et SMTP-indsendelses-token."
       ]
     },
     "Error importing calendar": {
@@ -3961,6 +4015,9 @@
       ],
       "There was a problem verifying your email address.": [
         "Der opstod et problem med at bekræfte din e-mailadresse."
+      ],
+      "Contact ${ BRAND_NAME }": [
+        "Kontakt ${ BRAND_NAME }"
       ]
     },
     "Error message, unsubscribe": {
@@ -4043,6 +4100,45 @@
       ],
       "Loading events": [
         "Indlæser begivenheder"
+      ],
+      "Calendar successfully exported. You can now save the ICS file.": [
+        "Kalender eksporteret. Du kan nu gemme ICS-filen."
+      ],
+      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
+        "Dekrypterer begivenheder fra din kalender: ${ totalProcessed }/${ totalToProcess }"
+      ],
+      "Due to a password reset, none of your events could be decrypted and exported.": [
+        "På grund af en nulstilling af adgangskoden, kunne nogle af dine begivenheder ikke dekrypteres og eksporteres."
+      ],
+      "Due to a password reset, some of your events could not be decrypted and exported.": [
+        "På grund af en nulstilling af adgangskoden, kunne nogle af dine begivenheder ikke dekrypteres og eksporteres."
+      ],
+      "Error decrypting event": [
+        "Fejl under dekryptering af begivenhed"
+      ],
+      "Learn how to restore encrypted events with old password": [
+        "Lær at gendanne krypterede begivenheder med gammel adgangskode"
+      ],
+      "None of the events could be exported.": [
+        "Ingen af begivenhederne kunne eksporteres."
+      ],
+      "Password reset - event cannot be decrypted": [
+        "Nulstilling af adgangskode - begivenhed kan ikke dekrypteres"
+      ],
+      "Password reset - multiple events cannot be decrypted": [
+        "Nulstilling af adgangskode - flere begivenheder kan ikke dekrypteres"
+      ],
+      "Please don't close the tab before the exporting process is finished.": [
+        "Luk ikke fanen før eksportprocessen er afsluttet."
+      ],
+      "Some of your events could not be exported.": [
+        "Nogle af dine begivenheder kunne ikke eksporteres."
+      ],
+      "The internet connection was interrupted, causing the export process to fail. Please try again.": [
+        "Internetforbindelsen blev afbrudt, hvilket fik eksportprocessen til at mislykkes. Prøv venligst igen."
+      ],
+      "You can save an ICS file of the events that were successfully exported.": [
+        "Du kan gemme en ICS-fil med de begivenheder, der blev eksporteret."
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -4522,6 +4618,18 @@
       ],
       "To stop phishing or suspicious emails from entering your organization's email system": [
         "For at forhindre phishing eller mistænkelige e-mails i at komme ind i din organisations e-mailsystem"
+      ],
+      "Add a custom filter to automatically perform certain actions, like labeling or archiving messages.": [
+        "Brug et brugerdefineret filter til at udføre visse handlinger automatisk, så som at tilføje etiketter eller arkivere beskeder."
+      ],
+      "Take control over what lands in your inbox by creating the following lists:": [
+        "Tag kontrol over, hvad der lander i din indbakke, ved at oprette følgende lister:"
+      ],
+      "To prevent junk mail from clogging up your inbox": [
+        "For at forhindre junkmail i at fylde din indbakke."
+      ],
+      "To stop phishing or suspicious emails from entering your email system": [
+        "For at forhindre phishing eller mistænkelige e-mails i at komme ind i dit e-mailsystem"
       ]
     },
     "Font Face Default": {
@@ -7277,6 +7385,54 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dit abonnement håndteres af Mozilla. Kontakt venligst Mozilla-support."
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        "Download dine PGP-nøgler til brug sammen med andre PGP-kompatible tjenester."
+      ],
+      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
+        "Giv din offentlige nøgle til dine venner, eller offentliggør den online, så alle kan sende dig end-to-end krypterede e-mails!"
+      ],
+      "Key deletion is irreversible!": [
+        "Sletning af nøgle er uigenkaldelig!"
+      ],
+      "Loaded content is being protected by our proxy when tracker protection is activated.": [
+        "Indlæst indhold er beskyttet af vores proxy, når sporingsbeskyttelse er aktiveret."
+      ],
+      "No account keys exist": [
+        "Der findes ingen kontonøgler"
+      ],
+      "Only change these settings if you are using PGP with non-${ BRAND_NAME } recipients.": [
+        "Ændr kun disse indstillinger, hvis du benytter PGP ifm. ikke-${ BRAND_NAME }-modtagere."
+      ],
+      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
+        "PGP-klienter er mere tilbøjelige til automatisk at registrere dine PGP-nøgler, hvis udgående beskeder er signerede."
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To request access, please ${ createTicket } describing your use cases, what custom domains you would like to use, and expected hourly and daily email volumes.": [
+        "SMTP-indsendelse giver tredjepartstjenester eller -enheder mulighed for at sende e-mails via ${ MAIL_APP_NAME } for dine brugerdomæne-adresser. For at anmode om adgang, skal du ${ createTicket } der beskriver dine brugsscenarier, hvilke brugerdomæner, du gerne vil bruge, og forventede timemæssige og daglige e-mailmængder."
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. To use this feature, start by generating a new token.": [
+        "SMTP-indsendelse giver tredjepartstjenester eller -enheder mulighed for at sende e-mails via ${ MAIL_APP_NAME } for dine brugerdomæne-adresser. For at bruge denne funktion, skal du starte med at generere et nyt token."
+      ],
+      "Store this password and file in a safe place. You’ll need them again to import your key.": [
+        "Gem denne adgangskode og fil på et sikkert sted. Du skal bruge dem igen for at importere din nøgle."
+      ],
+      "The Import-Export app allows you to export messages for local backups and to restore previous backups to your account.": [
+        "Med appen Import-Eksport kan du eksportere beskeder til lokale sikkerhedskopier og genskabe tidligere sikkerhedskopier på din konto."
+      ],
+      "This will download a file containing your private key. Protect this file by encrypting it with a password.": [
+        "Dette vil downloade en fil med din private nøgle. Beskyt denne fil ved at kryptere den med en adgangskode."
+      ],
+      "To avoid data loss, only delete it if you know what you’re doing or have exported a copy.": [
+        "For at undgå tab af data skal du kun slette den, hvis du ved, hvad du gør, eller hvis du har eksporteret en kopi."
+      ],
+      "You can use ${ MAIL_APP_NAME } with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "Du kan bruge ${ MAIL_APP_NAME } med enhver desktop e-mail-klient, der understøtter IMAP/SMTP, herunder Outlook, Apple Mail, og Thunderbird."
+      ],
+      "You should export a backup of this key in case you need to restore data it encrypted.": [
+        "Du bør eksportere en sikkerhedskopi af denne nøgle, hvis du har brug for at gendanne data, som den krypterede nøgle har krypteret."
+      ],
+      "You will NOT be able to decrypt any messages, files, and other data encrypted with this key. All data signed with this key will no longer be verified by ${ BRAND_NAME } applications.": [
+        "Du vil IKKE kunne dekryptere meddelelser, filer og andre data, der er krypteret med denne nøgle. Alle data, der er signeret med denne nøgle, vil ikke længere være verificeret af ${ BRAND_NAME }-applikationer."
       ]
     },
     "info": {
@@ -7285,6 +7441,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "Nøgle ${ fingerprint } er allerede blevet uploadet"
+      ],
+      "Selected color:": [
+        "Valgte farve:"
       ]
     },
     "Info for cash payment method": {
@@ -7582,6 +7741,30 @@
     "Keys actions": {
       "Export public key": [
         "Eksportér offentlig nøgle"
+      ],
+      "Disables encryption with this key": [
+        "Deaktiverer kruptering med denne nøgle"
+      ],
+      "Disables signature verification and encryption with this key": [
+        "Deaktiverer signaturverifikation og kryptering med denne nøgle"
+      ],
+      "Enable encryption with this key": [
+        "Aktivér kryptering med denne nøgle"
+      ],
+      "Enable signature verification and encryption with this key": [
+        "Aktivér signaturbekræftelse og kryptering med denne nøgle"
+      ],
+      "Export private key": [
+        "Importér privat nøgle"
+      ],
+      "Mark compromised": [
+        "Markér som kompromitteret"
+      ],
+      "Mark not compromised": [
+        "Markér ikke-kompromitteret"
+      ],
+      "Mark not obsolete": [
+        "Markér som ikke-forældet"
       ]
     },
     "Knowledge base link label": {
@@ -8406,6 +8589,69 @@
       ],
       "Your referral link": [
         "Dit henvisningslink"
+      ],
+      "${ MAIL_APP_NAME } footer": [
+        "${ MAIL_APP_NAME } sidefod"
+      ],
+      "Attach public key": [
+        "Vedhæft offentlig nøgle"
+      ],
+      "Auto show embedded images": [
+        "Vis automatisk indlejrede billeder"
+      ],
+      "Auto show remote images": [
+        "Auto-vis eksterne billeder"
+      ],
+      "Auto-unsubscribe": [
+        "Auto-afmelding"
+      ],
+      "Block email tracking": [
+        "Blokér sporing af e-mail"
+      ],
+      "Composer default font/size": [
+        "Skrivevinduets standardfont/størrelse"
+      ],
+      "Composer text direction": [
+        "Skrivesession, tekstretning"
+      ],
+      "Confirm link URLs": [
+        "Bekræft link-URLs"
+      ],
+      "Conversation grouping": [
+        "Samtalegruppering"
+      ],
+      "Conversations per page": [
+        "Samtaler pr. side"
+      ],
+      "Default PGP scheme": [
+        "Standard PGP-metode"
+      ],
+      "Exclude Spam/Trash from All mail": [
+        "Ekskluder spam/papirkurv fra Alle e-mails"
+      ],
+      "Inherit color from parent folder": [
+        "Nedarv farve fra overordnet mappe"
+      ],
+      "Keep messages in Sent/Drafts": [
+        "Behold beskeder i Sendt/Kladder"
+      ],
+      "Messages per page": [
+        "Beskeder pr. side"
+      ],
+      "Please select files to upload": [
+        "Vælg filer til upload"
+      ],
+      "Prompt to trust keys": [
+        "Spørg om at stole på nøgler"
+      ],
+      "Protection mode": [
+        "Beskyttelsestilstand"
+      ],
+      "Sign external messages": [
+        "Signér eksterne beskeder"
+      ],
+      "Use folder colors": [
+        "Brug mappefarver"
       ]
     },
     "label": {
@@ -8519,6 +8765,12 @@
     "label/folder notification": {
       "${ Label.Name } created": [
         "${ Label.Name } oprettet"
+      ],
+      "${ label.Name } updated": [
+        "${ label.Name } opdateret"
+      ],
+      "Preference saved": [
+        "Præference gemt"
       ]
     },
     "Limit of calendars reached": {
@@ -8643,6 +8895,12 @@
       ],
       "Why set recovery methods?": [
         "Hvorfor indstille gendannelsesmetoder?"
+      ],
+      "create a ticket": [
+        "opret en sag"
+      ],
+      "Set email address": [
+        "Indstil e-mailadresse"
       ]
     },
     "Loading info": {
@@ -9422,6 +9680,14 @@
       "Vault sharing (up to ${ n } person)": [
         "Deling af boks (op til ${ n } person)",
         "Deling af boks (op til ${ n } person)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalender",
+        "${ maximumNumberOfCalendars } kalendere"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender pr. bruger",
+        "${ n } kalendere pr. bruger"
       ]
     },
     "new_plans: feature info": {
@@ -9749,6 +10015,15 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Du kan have mere end én administrator. Alle administratorer kan tilføje og administrere brugere, men kun den primære administrator har kontrol over fakturering."
+      ],
+      "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere": [
+        "Få adgang til indhold på streamingtjenester, herunder Netflix, Disney+ og Prime Video, hvor som helst"
+      ],
+      "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control": [
+        "Dedikerede servere med dedikerede IP adresse(r) kan tilføjes til private gateways for at finjustere adgangen"
+      ],
+      "Defends against the threat to VPN privacy by passing your internet traffic through multiple servers.": [
+        "Afværger trussel mod VPN-privatliv ved at sende din internettrafik gennem flere servere."
       ]
     },
     "new_plans: upgrade": {
@@ -9778,6 +10053,9 @@
       "Create up to ${ n } calendar": [
         "Opret op til ${ n } kalender",
         "Opret op til ${ n } kalendere"
+      ],
+      "Boost your storage space to ${ bundleStorage } per user": [
+        "Forøg din lagerplads til ${ bundleStorage } i alt"
       ]
     },
     "Notification": {
@@ -9819,6 +10097,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "To-faktor-godkendelseskode er ikke længere påkrævet."
+      ],
+      "Key with fingerprint ${ fp } has been deleted.": [
+        "Nøgle med fingeraftryk ${ fp } slettet."
       ]
     },
     "Notification in holidays calendar modal": {
@@ -9836,6 +10117,12 @@
       "Member added": [
         "Medlem tilføjet",
         "Medlemmer tilføjet"
+      ],
+      "Invitation deleted": [
+        "Invitation slettet"
+      ],
+      "Invitation revoked": [
+        "Invitation tilbagekaldt"
       ]
     },
     "Notification in shared calendar modal": {
@@ -9980,6 +10267,99 @@
       ],
       "The whole organization": [
         "Hele organisationen"
+      ],
+      "10th of the month": [
+        "Månedligt d. 10."
+      ],
+      "11th of the month": [
+        "Månedligt d. 11."
+      ],
+      "12th of the month": [
+        "Månedligt d. 12."
+      ],
+      "13th of the month": [
+        "Månedligt d. 13."
+      ],
+      "14th of the month": [
+        "Månedligt d. 14."
+      ],
+      "15th of the month": [
+        "Månedligt d. 15."
+      ],
+      "16th of the month": [
+        "Månedligt d. 16."
+      ],
+      "17th of the month": [
+        "Månedligt d. 17."
+      ],
+      "18th of the month": [
+        "Månedligt d. 18."
+      ],
+      "19th of the month": [
+        "Månedligt d. 19."
+      ],
+      "1st of the month": [
+        "Månedligt d. 1."
+      ],
+      "20th of the month": [
+        "Månedligt d. 20."
+      ],
+      "21st of the month": [
+        "Månedligt d. 21."
+      ],
+      "22nd of the month": [
+        "Månedligt d. 22."
+      ],
+      "23rd of the month": [
+        "Månedligt d. 23."
+      ],
+      "24th of the month": [
+        "Månedligt d. 24."
+      ],
+      "25th of the month": [
+        "Månedligt d. 25."
+      ],
+      "26th of the month": [
+        "Månedligt d. 26."
+      ],
+      "27th of the month": [
+        "Månedligt d. 27."
+      ],
+      "28th of the month": [
+        "Månedligt d. 28."
+      ],
+      "29th of the month": [
+        "Månedligt d. 29."
+      ],
+      "2nd of the month": [
+        "Månedligt d. 2."
+      ],
+      "30th of the month": [
+        "Månedligt d. 30."
+      ],
+      "31st of the month": [
+        "Månedligt d. 31."
+      ],
+      "3rd of the month": [
+        "Månedligt d. 3."
+      ],
+      "4th of the month": [
+        "Månedligt d. 4."
+      ],
+      "5th of the month": [
+        "Månedligt d. 5."
+      ],
+      "6th of the month": [
+        "Månedligt d. 6."
+      ],
+      "7th of the month": [
+        "Månedligt d. 7."
+      ],
+      "8th of the month": [
+        "Månedligt d. 8."
+      ],
+      "9th of the month": [
+        "Månedligt d. 9."
       ]
     },
     "Option group": {
@@ -10254,6 +10634,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Din organisation har adgang til ${ free }. Hvis du vil have adgang til premium ${ appName }-funktioner, skal du bede din organisations administrator om at opgradere."
+      ],
+      "You have been invited to join ${ PASS_APP_NAME }": [
+        "Du er blevet inviteret til at blive medlem af ${ PASS_APP_NAME }"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10811,6 +11194,9 @@
       "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
         "Du kan nulstille din adgangskode om ${ gracePeriodHoursRemaining } time",
         "Du kan nulstille din adgangskode om ${ gracePeriodHoursRemaining } timer"
+      ],
+      "Request password reset?": [
+        "Anmod om nulstilling af adgangskode?"
       ]
     },
     "session_recovery:settings:action": {
@@ -11229,6 +11615,9 @@
     "Subscribed calendar section description": {
       "Add public, external, or shared calendars.": [
         "Tilføj offentlige, eksterne eller delte kalendere."
+      ],
+      "Add public, external, or shared calendars using a URL.": [
+        "Tilføj offentlige, eksterne eller delte kalendere ved hjælp af en URL."
       ]
     },
     "Subscription": {
@@ -11526,6 +11915,27 @@
       ],
       "You have successfully unsubscribed": [
         "Du har afmeldt dig"
+      ],
+      "Address updated": [
+        "Adresse opdateret"
+      ],
+      "Default calendar updated": [
+        "Standardkalender opdateret"
+      ],
+      "Port copied to clipboard": [
+        "Port kopieret til udklipsholder."
+      ],
+      "Premium address created": [
+        "Premium-adresse oprettet"
+      ],
+      "Server copied to clipboard": [
+        "Server kopieret til Udklipsholder."
+      ],
+      "SMTP token deleted": [
+        "SMTP-token slettet"
+      ],
+      "Token copied to clipboard": [
+        "Token kopieret til udklipsholder."
       ]
     },
     "Success message": {
@@ -12611,6 +13021,60 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du er blevet inviteret til at prøve ${ MAIL_APP_NAME }"
+      ],
+      "Add Sieve filter": [
+        "Tilføj Sieve-filter"
+      ],
+      "Apply filter to existing messages": [
+        "Anvend filter på eksisterende beskeder"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Auto-signér udgående beskeder?"
+      ],
+      "Bridge for ${ platform }": [
+        "Bridge til ${ platform }"
+      ],
+      "Delete ${ filterName }": [
+        "Slet ${ filterName }"
+      ],
+      "Delete ${ tokenNameToRemove }?": [
+        "Slet ${ tokenNameToRemove }?"
+      ],
+      "Delete calendar": [
+        "Slet kalender"
+      ],
+      "Delete key permanently?": [
+        "Slet nøgle permanent?"
+      ],
+      "Edit Sieve filter": [
+        "Rediger Sieve-filter"
+      ],
+      "Export calendar": [
+        "Eksportér kalender"
+      ],
+      "Export private key": [
+        "Importér privat nøgle"
+      ],
+      "Export public key": [
+        "Eksportér offentlig nøgle"
+      ],
+      "Generate SMTP token": [
+        "Generér SMTP-token"
+      ],
+      "Keyboard shortcuts": [
+        "Tastaturgenveje"
+      ],
+      "Set up a recovery method": [
+        "Indstil gendannelsesmetode"
+      ],
+      "Sort folders alphabetically": [
+        "Sortér mapper alfabetisk"
+      ],
+      "Sort labels alphabetically": [
+        "Sortér etiketter alfabetisk"
+      ],
+      "Your SMTP token": [
+        "Dit SMTP-token"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -12821,6 +13285,57 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Din eksterne konto har muligvis nået sin 24-timers båndbreddegrænse. ${ BRAND_NAME } vil forsøge at genoptage importen så hurtig som muligt."
+      ],
+      "${ MAIL_APP_NAME } users will use this key by default for sending": [
+        "Brugere af ${ MAIL_APP_NAME } vil som standard bruge denne nøgle til afsendelse"
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        "Gruppér e-mails i den samme samtale sammen i din indbakke, eller vis dem separat."
+      ],
+      "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
+        "Beskeder i Sendt eller Kladder vil fortsætte med at blive vist i de mapper, selvom du flytter dem til en anden mappe."
+      ],
+      "Set how your list of messages looks like by default.": [
+        "Vælg hvordan din liste over beskeder ser ud som standard."
+      ],
+      "Set the default Composer popup size as small or full screen.": [
+        "Indstil standard-editorens popup-størrelse som lille eller fuld skærm."
+      ],
+      "Set the default layout for your Inbox.": [
+        "Indstil standardlayout for din indbakke."
+      ],
+      "Show each sender's image in the message list. The sender's initials will be shown if a photo is not available.": [
+        "Viser hver afsenders billede i meddelelseslisten. Afsenderens initialer vises, hvis der ikke er et billede til rådighed."
+      ],
+      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
+        "Signaturer genereret af denne nøgle behandles som ugyldige, og denne nøgle kan ikke benyttes til kryptering"
+      ],
+      "This address has been disabled": [
+        "Denne adresse er deaktiveret"
+      ],
+      "This feature delays sending your emails, giving you the opportunity to undo send during the selected time frame.": [
+        "Denne funktion forsinker afsendelse af dine e-mails. Du kan fortryde afsendelse inden for den valgte tidsramme."
+      ],
+      "This key cannot be used for encryption": [
+        "Nøglen kanm ikke benyttes til kryptering"
+      ],
+      "This key is encrypted with an old password": [
+        "Denne nøgle er krypteret med en gammel adgangskode"
+      ],
+      "This key is used by ${ MAIL_APP_NAME } to encrypt your contact's data": [
+        "Denne nøgle bruges af ${ MAIL_APP_NAME } til at kryptere dine kontaktdata"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Når du tilføjer en etikette til en besked i en samtale, vil den automatisk blive anvendt på alle fremtidige beskeder, du sender eller modtager i denne samtale."
+      ],
+      "When you click on a link, this anti-phishing feature will ask you to confirm the URL of the web page.": [
+        "Når du klikker på et link, vil denne anti-phishing-funktion bede dig om at bekræfte webadressen (URL) på websiden."
+      ],
+      "When you move an email to spam, you’ll automatically be unsubscribed from the sender’s mailing lists.": [
+        "Når du flytter en e-mail til spam, bliver du automatisk afmeldt fra afsenderens mailinglister."
+      ],
+      "You have locally decrypted this key": [
+        "Du har dekrypteres denne nøgle lokalt"
       ]
     },
     "Tooltip default pgp scheme": {
@@ -13057,6 +13572,9 @@
       ],
       "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
         "Din gendannelsessætning er forældet. Den kan ikke gendanne nye data, hvis du nulstiller din konto igen."
+      ],
+      "The device or service using this token will no longer be able to send email through ${ MAIL_APP_NAME }.": [
+        "Enheden eller tjenesten der bruger dette token vil ikke længere kunne sende e-mails gennem ${ MAIL_APP_NAME }."
       ]
     },
     "Warning for domain modal": {
@@ -13302,6 +13820,170 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Auto import invitations setting": {
+      "Add to calendar and mark as pending": [
+        "Føj til kalender og markér som afventende"
+      ]
+    },
+    "Autoresponse": {
+      "I'm out of the office with limited access to my email.": [
+        "Jeg har kun begrænset adgang til mine e-mails i øjeblikket."
+      ]
+    },
+    "Bridge version load failed": {
+      "Failed to find latest version": [
+        "Kunne ikke finde seneste version"
+      ]
+    },
+    "Calendar export section description": {
+      "Download an ICS file with all the events from the selected calendar.": [
+        "Download en ICS-fil med alle begivenhederne fra den valgte kalender."
+      ]
+    },
+    "Calendar import section description": {
+      "You can import ICS files from another calendar to ${ CALENDAR_APP_NAME }. This lets you quickly import one event or your entire agenda.": [
+        "Du kan importere ICS-filer fra en anden kalender til ${ CALENDAR_APP_NAME }. Dette lader dig hurtigt importere en begivenhed eller hele din dagsorden."
+      ]
+    },
+    "Calendar settings link share description": {
+      "Create a link to your calendar and share it with anyone outside ${ BRAND_NAME }. Only you can add or remove events.": [
+        "Opret et link til din kalender og del det med enhver uden for ${ BRAND_NAME }. Kun du kan tilføje eller fjerne begivenheder."
+      ]
+    },
+    "Calendar settings private share description": {
+      "Share your calendar with other ${ BRAND_NAME } users. Enable collaboration by allowing them to add and edit events in your calendar. You can modify the user permissions anytime.": [
+        "Del din kalender med andre brugere af ${ BRAND_NAME }. Gør det muligt at samarbejde ved at give dem mulighed for at tilføje og redigere begivenheder i din kalender. Du kan ændre brugertilladelserne når som helst."
+      ]
+    },
+    "Calendar settings section title": {
+      "Share outside ${ BRAND_NAME }": [
+        "Del uden for ${ BRAND_NAME }"
+      ],
+      "Share with ${ BRAND_NAME } users": [
+        "Del med ${ BRAND_NAME }-brugere"
+      ],
+      "Share with anyone": [
+        "Del med enhver"
+      ]
+    },
+    "Calendar sharing permission change notification": {
+      "Permissions changed for ${ email }": [
+        "Tilladelser ændret for ${ email }"
+      ]
+    },
+    "drive_signup_2023: Info": {
+      "Advanced sharing security": [
+        "Avanceret delingssikkerhed"
+      ]
+    },
+    "Email Unsubscribe Categories": {
+      "${ allCategoryTitlesExceptTheLastOne } and ${ lastCategoryTitle }": [
+        "${ allCategoryTitlesExceptTheLastOne } og ${ lastCategoryTitle }"
+      ]
+    },
+    "Error when exporting event from calendar": {
+      "Event @ ${ timeString }": [
+        "Begivenhed @ ${ timeString }"
+      ],
+      "Event from ${ timeString }, ${ rruleString }": [
+        "Begivenhed fra ${ timeString }, ${ rruleString }"
+      ]
+    },
+    "Import key": {
+      "Are you sure you want to import a private key? Importing an insecurely generated or leaked private key can harm the security of your emails.\n\nPlease also note that the public key corresponding to this private key will be publicly available from our key server. If the key contains personal details (such as your full name) which you do not want to publish, please edit the key before importing it.": [
+        "Er du sikker på, at du vil importere en privat nøgle? Hvis du importerer en usikkert genereret eller lækket privat nøgle, kan det skade dine e-mailes sikkerhed.\n\nBemærk også, at den offentlige nøgle, der svarer til denne private nøgle, vil være offentligt tilgængelig fra vores nøgleserver. Hvis nøglen indeholder personlige oplysninger (f.eks. dit fulde navn), som du ikke ønsker at offentliggøre, skal du redigere nøglen, før du importerer den."
+      ]
+    },
+    "Info - folder colouring feature": {
+      "When enabled, sub-folders inherit the color of the parent folder.": [
+        "Når aktiveret, arver undermapper farven på den overordnede mappe."
+      ]
+    },
+    "Key generation": {
+      "A key with the same encryption algorithm already exists. Generating another key will cause slower account loading. Are you sure you want to continue?": [
+        "Der findes allerede en nøgle med den samme krypteringsalgoritme. Hvis du genererer en ny nøgle, vil det medføre en langsommere indlæsning af kontoen. Er du sikker på, at du vil fortsætte?"
+      ],
+      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
+        "En nøgle med den samme krypteringsalgoritme er allerede aktiv på denne adresse.\nGenerering af en anden nøgle vil medføre langsommere kontoindlæsning, og sletning af denne nøgle kan forårsage problemer. Genererer du en ny nøgle, fordi den gamle er kompromitteret, så markér venligst din gamle nøgle som kompromitteret. Er du sikker på, at du vil fortsætte?"
+      ],
+      "Key with fingerprint ${ fp } successfully created.": [
+        "Nøgle med fingeraftryk ${ fp } er nu oprettet."
+      ],
+      "The encryption keys are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Krypteringsnøglerne genereres. Dette kan tage flere minutter og fastfryse din browser midlertidigt."
+      ],
+      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Krypteringsnøglerne til din adresse genereres. Dette kan tage flere minutter og fastfryse din browser midlertidigt."
+      ],
+      "You can generate a new encryption key if you think your previous key has been compromised.": [
+        "Du kan generere en ny krypteringsnøgle, hvis du tror, at din forrige nøgle er blevet kompromitteret."
+      ]
+    },
+    "Option protection mode": {
+      "Load content via proxy (recommended)": [
+        "Indlæs indhold via proxy (anbefales)"
+      ],
+      "Load content via proxy and store as attachments": [
+        "Indlæs indhold via proxy og gem som vedhæftede filer"
+      ]
+    },
+    "OS compatibility": {
+      ".deb (for Debian/Ubuntu)": [
+        ".deb (til Debian/Ubuntu)"
+      ],
+      ".dmg (10.12 or later)": [
+        ".dmg (10,12 eller senere)"
+      ],
+      ".rpm (for Fedora/openSUSE)": [
+        ".rpm (til Fedora/openSUSE)"
+      ],
+      "PKGBUILD (for other distributions)": [
+        "PKGBUILD (til andre distributioner)"
+      ]
+    },
+    "Personal calendar section description": {
+      "Create a calendar to stay on top of your schedule while keeping your data secure.": [
+        "Opret en kalender, så du kan holde styr på din tidsplan, samtidig med at dine data er sikre."
+      ]
+    },
+    "Primary timezone": {
+      "Primary time zone": [
+        "Primær tidszone"
+      ],
+      "Secondary time zone": [
+        "Sekundær tidszone"
+      ]
+    },
+    "Summary of errors during export calendar": {
+      "Details about events that couldn't be exported": [
+        "Detaljer om begivenheder, der ikke kunne eksporteres"
+      ]
+    },
+    "TableRow": {
+      "No SMTP tokens found": [
+        "Ingen SMTP-token fundet"
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "Dette føjer automatisk din offentlige nøgle til hver besked, du afsender. Modtagere kan benytte denne til at bekræfte ægtheden af dine beskeder og sende krypterede beskeder til dig."
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ${ MAIL_APP_NAME } user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        "Når du modtager en e-mail fra en anden bruger af ${ MAIL_APP_NAME }, som ikke har betroede nøgler i dine kontakter, vil et banner vil spørge, om du vil aktivere betroede nøgler."
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        "Signér automatisk alle dine udgående beskeder, så brugerne kan bekræfte ægtheden af dine beskeder. Dette gøres i kombination med den standard PGP-konfiguration, der kan vælges nedenfor."
+      ]
+    },
+    "Weak personal key warning": {
+      "This key no longer meets our security standards. We suggest you mark it as obsolete and generate a new key.": [
+        "Denne nøgle opfylder ikke længere vores sikkerhedsstandarder. Vi foreslår, at du markerer den som forældet og genererer en ny nøgle."
       ]
     }
   }

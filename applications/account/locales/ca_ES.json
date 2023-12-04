@@ -3033,6 +3033,9 @@
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Pots importar esdeveniments en format iCal (fitxer ICS).\nEl fitxer ha de tenir una mida màxima de ${ MAX_IMPORT_FILE_SIZE_STRING } i tenir fins a ${ MAX_IMPORT_EVENTS_STRING } esdeveniments. Si el fitxer és més gran, dividiu-lo en fitxers més petits."
+      ],
+      "Upsell icon containing ${ BRAND_NAME } logo followed by a plus sign": [
+        "Icona de venda addicional que conté el logotip de ${ BRAND_NAME } seguit d'un signe més"
       ]
     },
     "description": {
@@ -7592,6 +7595,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "La vostra subscripció és gestionada per Mozilla. Contacteu amb el suport de Mozilla."
+      ],
+      "Are you sure you want to delete this filter?": [
+        "Estàs segur que vols esborrar aquest filtre?"
+      ],
+      "Auto-reply is active until you turn it off.": [
+        "La resposta automàtica està activa fins que l'usuari la desactivi."
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        "Descarregueu les vostres claus PGP per utilitzar amb altres serveis compatibles amb PGP."
+      ],
+      "learn more about Sieve programming language": [
+        "obtenir més informació sobre el llenguatge de programació Sieve"
       ]
     },
     "info": {
@@ -7600,6 +7615,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "La clau ${ fingerprint } ja s'ha carregat"
+      ],
+      "Selected color:": [
+        "Color seleccionat:"
       ]
     },
     "Info for cash payment method": {
@@ -9975,6 +9993,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartició de la caixa forta (fins a ${ n } persona)",
         "Compartició de la caixa forta (fins a ${ n } persones)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendari",
+        "${ maximumNumberOfCalendars } calendaris"
       ]
     },
     "new_plans: feature info": {
@@ -13557,6 +13579,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Heu estat convidat a provar ${ MAIL_APP_NAME }."
+      ],
+      "Set a display name": [
+        "Estableix un nom a mostrar"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13797,6 +13822,18 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "És possible que el vostre compte extern hagi assolit el límit d'amplada de banda de 24 hores. ${ BRAND_NAME } intentarà reprendre la importació al més aviat possible."
+      ],
+      "${ MAIL_APP_NAME } users will use this key by default for sending": [
+        "Els usuaris de ${ MAIL_APP_NAME } utilitzaran aquesta clau per defecte per a l'enviament"
+      ],
+      "See number of unread messages in the tab icon": [
+        "Mostra el nombre de missatges sense llegir a la icona de la pestanya"
+      ],
+      "This key is encrypted with an old password": [
+        "Aquesta clau està xifrada amb una contrasenya antiga"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Quan afegiu una etiqueta a un missatge d'una conversa, aquesta s'aplicarà automàticament a tots els missatges futurs que envieu o rebeu dins d'aquesta conversa."
       ]
     },
     "Tooltip automatically attach public key": {
@@ -14334,6 +14371,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Info - folder colouring feature": {
+      "When enabled, sub-folders inherit the color of the parent folder.": [
+        "Si s'activa, les subcarpetes hereten el color de la carpeta principal."
       ]
     }
   }

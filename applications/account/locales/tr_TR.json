@@ -10336,6 +10336,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kasa paylaşma (${ n } kişiye kadar)",
         "Kasa paylaşma (${ n } kişiye kadar)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } takvim",
+        "${ maximumNumberOfCalendars } takvim"
       ]
     },
     "new_plans: feature info": {

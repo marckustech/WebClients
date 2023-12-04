@@ -1075,6 +1075,9 @@
       ],
       "Zoom out": [
         "축소"
+      ],
+      "Copy key to the clipboard": [
+        "클립보드에 키 복사"
       ]
     },
     "action": {
@@ -7857,6 +7860,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "${ fingerprint } 키가 업로드 되었습니다"
+      ],
+      "Selected color:": [
+        "선택한 색상:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10223,6 +10229,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "금고 공유 (최대 ${ n }명)"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 캘린더"
       ]
     },
     "new_plans: feature info": {
@@ -10728,6 +10737,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "이중 인증이 모두에게 필요하지 않습니다."
+      ],
+      "Key copied to the clipboard": [
+        "키가 클립보드에 복사됨"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11371,6 +11383,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "사용자의 조직이 ${ free }에 접근했습니다. 프리미엄 ${ appName } 기능에 접근하려면, 조직 관리자로 업그레이드를 요청하시기 바랍니다."
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium password manager!": [
+        "**월간 ${ relativePrice }**에 모든 ${ BRAND_NAME } 프리미엄 비밀번호 관리자를 사용하실 수 있습니다!"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium VPN service!": [
+        "**월간 ${ relativePrice }**에 모든 ${ BRAND_NAME } 프리미엄 서비스를 사용하실 수 있습니다!"
       ]
     },
     "pass_signup_2023: Title": {
@@ -13898,6 +13916,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } 초대를 시도했습니다"
+      ],
+      "Set a display name": [
+        "표시 이름 설정"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

@@ -7937,6 +7937,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Η συνδρομή σας διαχειρίζεται απο το Mozilla. Επικοινωνήστε με την υποστήριξη του Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Δε θα μπορείτε να ανακτήσετε κλειδωμένα δεδομένα χρησιμοποιώντας τα ληφθέντα αρχεία ανάκτησης. Αυτό θα απενεργοποιήσει επίσης την ανάκτηση αξιόπιστης συσκευής."
       ]
     },
     "info": {

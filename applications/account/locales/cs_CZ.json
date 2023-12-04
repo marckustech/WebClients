@@ -4168,6 +4168,9 @@
       ],
       "Zero keys reactivated": [
         "Žádné klíče nebyly znovu aktivovány"
+      ],
+      "Could not save preference": [
+        "Nelze uložit předvolbu"
       ]
     },
     "Error importing calendar": {
@@ -9399,6 +9402,12 @@
       ],
       "Your referral link": [
         "Váš doporučující odkaz"
+      ],
+      "Conversations per page": [
+        "Konverzace na stránku"
+      ],
+      "Messages per page": [
+        "Zprávy na stránku"
       ]
     },
     "label": {
@@ -10559,6 +10568,12 @@
         "Sdílení trezoru (až ${ n } osoby)",
         "Sdílení trezoru (až ${ n } osob)",
         "Sdílení trezoru (až ${ n } osob)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendář",
+        "${ maximumNumberOfCalendars } kalendáře",
+        "${ maximumNumberOfCalendars } kalendářů",
+        "${ maximumNumberOfCalendars } kalendářů"
       ]
     },
     "new_plans: feature info": {
@@ -14405,6 +14420,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Byli jste pozváni k vyzkoušení ${ MAIL_APP_NAME }"
+      ],
+      "Forward and auto-reply": [
+        "Přeposlat a automaticky odpovědět"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

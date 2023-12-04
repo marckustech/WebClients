@@ -8107,6 +8107,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "У вас не будзе магчымасці аднавіць заблакіраваныя даныя з дапамогай спампаваных файлаў аднаўлення. Гэта таксама адключыць аднаўленне даверанай прылады."
       ]
     },
     "info": {

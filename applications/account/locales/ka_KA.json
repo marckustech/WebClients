@@ -7939,6 +7939,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "გასაღები ${ fingerprint } უკვე ატვირთულია"
+      ],
+      "Selected color:": [
+        "არჩეული ფერი:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10336,6 +10339,10 @@
       "Vault sharing (up to ${ n } person)": [
         "საცავის გაზიარება (${ n }-მდე პიროვნებასთან)",
         "საცავის გაზიარება (${ n }-მდე პიროვნებასთან)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } კალენდარი",
+        "${ maximumNumberOfCalendars } კალენდარი"
       ]
     },
     "new_plans: feature info": {
@@ -14050,6 +14057,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "თქვენ მიგიწვიეს, სცადოთ ${ MAIL_APP_NAME }"
+      ],
+      "Set a display name": [
+        "საჩვენებელი სახელის დაყენება"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

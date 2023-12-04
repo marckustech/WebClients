@@ -931,6 +931,63 @@
       ],
       "Zoom out": [
         "Semẓi"
+      ],
+      "Activate ${ user.Name }@pm.me": [
+        "Rmed ${ user.Name }@pm.me"
+      ],
+      "Add sieve filter": [
+        "Rnu imsizdeg Sieve"
+      ],
+      "Delete without exporting": [
+        "Kkes s war asifeḍ"
+      ],
+      "Download the Import-Export app": [
+        "Sader asnas Kter-Sifeḍ"
+      ],
+      "Encrypt and export": [
+        "Wgelhen syen sifeḍ"
+      ],
+      "Export key before deleting": [
+        "Sifeḍ tasarut send tukksa"
+      ],
+      "Get more folders": [
+        "Awi ugar n yikaramen"
+      ],
+      "Import from Google": [
+        "Kter seg Google"
+      ],
+      "Import from ICS": [
+        "Kter seg ICS"
+      ],
+      "Reactivate keys": [
+        "Rmed tikelt-nniḍen tisura"
+      ],
+      "Remove calendar": [
+        "Kkes awitay"
+      ],
+      "Remove this member": [
+        "Kkes aɛeggal-a"
+      ],
+      "Requires a verified recovery email address": [
+        "Yesra tansa n yimayl n tririt yettwasneqden"
+      ],
+      "Revoke this invitation": [
+        "Ḥwi tinnubga-a"
+      ],
+      "Select language for invitation emails": [
+        "Fren tutlayt i yimaylen n tinnubga"
+      ],
+      "Sign in with password": [
+        "Qqen s wawal uffir"
+      ],
+      "Sign in with SSO": [
+        "Qqen s SSO"
+      ],
+      "sign up for free": [
+        "jerred baṭel"
+      ],
+      "Use “${ label }” setting": [
+        "Seqdec iɣewwaṛen n “${ label }”"
       ]
     },
     "action": {
@@ -3103,6 +3160,18 @@
       ],
       "Zero keys reactivated": [
         "Ilem n tsura remdent"
+      ],
+      "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
+        "Tiririyin tiwurmanin d tamahilt s lexlaṣ. Ttxil-k·m leqqem ɣer umiḍan s lexlaṣ i useqdec n tmahilt-a."
+      ],
+      "Invalid private key file": [
+        "Yir tasarut tusligt"
+      ],
+      "Invalid Sieve code": [
+        "Yir tangalt Sieve"
+      ],
+      "Please set a recovery/notification email first": [
+        "Ttxil sbadu qbel tansa imayl n tiririt/alɣu"
       ]
     },
     "Error importing calendar": {
@@ -3424,6 +3493,12 @@
       ],
       "You can save an ICS file of the events that were successfully exported.": [
         "Tzemreḍ ad teskelseḍ afaylu ICS n tedyanin i d-yettwasifḍen akken iwata."
+      ],
+      "Decrypting events from your calendar: ${ totalProcessed }/${ totalToProcess }": [
+        "Awgelhen n tedyanin seg uwitay-ik·im: ${ totalProcessed }/${ totalToProcess }"
+      ],
+      "Please don't close the tab before the exporting process is finished.": [
+        "Ttxil-k·m ur ttamdal ara iccer seld ad yekfu ukala n usifeḍ."
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -5612,6 +5687,107 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Amulteɣ-inek·m yettwasefrek s ɣur Mozilla. Ttxil-k·m nermes tallalt n Mozilla."
+      ],
+      "${ amountOfAddresses } address": [
+        "${ amountOfAddresses } tansa",
+        "${ amountOfAddresses } tansiwin"
+      ],
+      "${ calendarName } will be set as default calendar.": [
+        "${ calendarName } ad yettusbadu d awitay amezwer."
+      ],
+      "${ firstRemainingCalendarName } will be set as default calendar.": [
+        "${ firstRemainingCalendarName } ad yettusbadu d awitay amezwer."
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } d wugar",
+        "${ remainingAddresses.length } d wugar"
+      ],
+      "Add a @pm.me email address to your account. This simple, shorter domain stands for \"${ MAIL_APP_NAME } me\" or \"Private Message me.\"": [
+        "Rnu tansa n yimayl @pm.me ɣer umiḍan-ik·im. Taɣult-a fessusen, meẓẓiyen anamek-is d \"${ MAIL_APP_NAME } me\" neɣ \"Private Message me.\""
+      ],
+      "Anyone with this link won't be able to sync or get future updates for your calendar. If you want to give them access again, you will have to create a new link.": [
+        "Yal win yesεan aseɣwen-a ur yettizmir ara ad yemtawi neɣ ad yawi ileqman i d-iteddun n uwitay-inek·inem. Ma yella tebɣiḍ ad asen-tmuddeḍ anekcum i tikkelt-nniḍen, ilaq ad ternuḍ aseɣwen amaynut-nniḍen."
+      ],
+      "Are you sure you want to delete this calendar?": [
+        "D tidet tebɣiḍ ad tekkseḍ awitay-a?"
+      ],
+      "Are you sure you want to delete this filter?": [
+        "Tebɣiḍ ad tekkseḍ imsizdeg-agi?"
+      ],
+      "Auto-reply is active each month between the selected start and end time.": [
+        "Tiririt tawurmant ad termed yal aggur gar wakud n tazwara d taggara."
+      ],
+      "Auto-reply is active each week between the selected start and end time.": [
+        "Tiririt tawurmant ad termed yal dduṛt gar wakud n tazwara d taggara."
+      ],
+      "Auto-reply is active from the start time to the end time.": [
+        "Tiririt tawurmant ad termed gar wakud n tazwara d taggara."
+      ],
+      "Auto-reply is active until you turn it off.": [
+        "Tiririt tawurmant ad teqqim termed alamma tessenseḍ-tt."
+      ],
+      "Auto-reply is always active on the days of the week you select, between the selected hours.": [
+        "Tiririt tawurmant ad termed deg wussan n ddurt i tferneḍ, gar isragen yettwafernen."
+      ],
+      "Available on macOS, Windows, and Linux.": [
+        "Yella ɣef macOS, Windows akked Linux."
+      ],
+      "Blocks senders from seeing if and when you opened a message.": [
+        "Yessewḥal imazanen ɣef tmeẓriwt ma teldiḍ izen neɣ melmi t-teldiḍ."
+      ],
+      "Download your PGP keys for use with other PGP-compatible services.": [
+        "Sader tisura-k·m PGP i useqdec n yimeẓla-nniḍen yemṣadan d PGP."
+      ],
+      "Encryption setting updated": [
+        "Iɣewwaren n uwgelhen ttwaleqqmen"
+      ],
+      "Give your public key to your friends, or publish it online, so that everyone can send you end-to-end encrypted email!": [
+        "Mudd tasarut-ik·im tazayazt i yimeddukkal-ik·im, neɣ suffeɣ-t-id srid, akka yal yiwen ad yizmir ad ak·am-d-yazen imayl yettwawgelhen seg yixef ɣer yixef!"
+      ],
+      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
+        "Ma yella izḍi usrid n unagraw ur yemṣada ara d usmenyif n yizḍi usrid amiran, ad d-yettusuter deg-s ad t-tleqqmeḍ (ma aṭas yiwet n tikkelt i wass)."
+      ],
+      "Let your contacts know you care about their privacy.": [
+        "Eǧǧ inermisen-ik·im ad ẓren belli tettḥarabeḍ ɣef udert-nsen tabaḍnit."
+      ],
+      "Only change these settings if you are using PGP with non-${ BRAND_NAME } recipients.": [
+        "Beddel iɣewwaren-agi ma yella tesseqdaceḍ PGP akked iɣerwaḍen ur isseqdac ara ${ BRAND_NAME }."
+      ],
+      "Only you can see the labels.": [
+        "Ala kečč·kemm i izemren ad iwali tibzimin."
+      ],
+      "PGP clients are more likely to automatically detect your PGP keys if outgoing messages are signed.": [
+        "Imsaɣen PGP i yezemren ugar ad d-afen s wudem awurman tisura PGP inek ma yella iznan itteffɣen ttuzemlen."
+      ],
+      "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
+        "Ttxil-k·m ẓer belli ma yella tekkseḍ imsizdeg-a, ad nseḥbes asesfer n meṛṛa tigawin tiwurmanin i isenkar."
+      ],
+      "Save ${ percentage }": [
+        "Sekles ${ percentage }"
+      ],
+      "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME }, and ${ DRIVE_APP_NAME }.": [
+        "Tallunt n uḥraz tettwabḍa gar ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME }, d ${ DRIVE_APP_NAME }."
+      ],
+      "The calendar will be removed from your account.": [
+        "Awitay ad yettwakkes seg umiḍan-ik·im."
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Alamma d ${ FAMILY_MAX_USERS } yiseqdacen"
+      ],
+      "Uploaded file is not a valid private key. Please verify and try again.": [
+        "Ufaylu i d-yulin mačči d tasarut tusligt taɣellsant. Ttxil-k·m selken syen ɛreḍ tikkelt niḍen."
+      ],
+      "When disabled, this prevents image files from loading on your device without your knowledge.": [
+        "Mi ara yettusens, aya ad issewḥel ifuyla n tugniwin ad d-alin deg yibenk-ik·im s war ma teẓriḍ."
+      ],
+      "When notifications are enabled, we'll send an alert to your recovery email address if you have new messages in your ${ MAIL_APP_NAME } account.": [
+        "Ticki remden ilɣa, ad k-nazen tangedwit ɣer tansa-inek n yimayl ticki teṭṭfeḍ-d iznan imaynutn deg umiḍan-inek ${ MAIL_APP_NAME }."
+      ],
+      "You can use ${ MAIL_APP_NAME } with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "Tzemreḍ ad tesqedceḍ ${ MAIL_APP_NAME } akked yal amsaɣ n yimayl n tnarit issefraken IMAP/SMTP, ula akked Outlook, Apple Mail d Thunderbird."
+      ],
+      "You need to have an active personal calendar to import your events from ICS.": [
+        "Tesriḍ ad tesɛuḍ awitay urmid udmawen i uktar n yineḍruyen-ik·im seg ICS."
       ]
     },
     "info": {
@@ -5909,6 +6085,30 @@
     "Keys actions": {
       "Export public key": [
         "Sfeḍ tasarut tazayazt"
+      ],
+      "Disables encryption with this key": [
+        "Sens awgelhen s tsarut-agi"
+      ],
+      "Disables signature verification and encryption with this key": [
+        "Sens asenqed n uzmul akked uwgelhen s tsarut-agi"
+      ],
+      "Enable encryption with this key": [
+        "Rmed awgelhen s tsarut-agi"
+      ],
+      "Enable signature verification and encryption with this key": [
+        "Rmed asenqed n uzmul akked uwgelhen s tsarut-agi"
+      ],
+      "Export private key": [
+        "Sifeḍ tasarut tusligt"
+      ],
+      "Mark compromised": [
+        "Creḍ-itt tettwaker"
+      ],
+      "Mark not compromised": [
+        "Cerḍ-itt ur tettwaker ara"
+      ],
+      "Mark not obsolete": [
+        "Cerḍ-it mačči d aqbur"
       ]
     },
     "Label": {
@@ -6629,6 +6829,81 @@
       ],
       "Your password (admin)": [
         "Awal-ik uffir (anedbal)"
+      ],
+      "${ MAIL_APP_NAME } footer": [
+        "Aḍar n usebter ${ MAIL_APP_NAME }"
+      ],
+      "Attach public key": [
+        "Seddu tasarut tazayezt"
+      ],
+      "Auto show embedded images": [
+        "Sken-d tugna tusliγt s wudem awurman"
+      ],
+      "Auto-delete unwanted messages": [
+        "Tukksa tawurmant n yiznan ur tebɣiḍ ara"
+      ],
+      "Auto-detect primary time zone": [
+        "Suter aleqqem n yiẓdi usrid agejdan"
+      ],
+      "Auto-unsubscribe": [
+        "Asefsex awurman n umultaɣ"
+      ],
+      "Block email tracking": [
+        "Sewḥel aḍfar n yimaylen"
+      ],
+      "Composer default font/size": [
+        "Teɣzi n tsefsit tamezwert n umaru"
+      ],
+      "Composer text direction": [
+        "Tanila n uḍris deg imsuddes"
+      ],
+      "Confirm link URLs": [
+        "Sentem iseɣwan URL"
+      ],
+      "Conversation grouping": [
+        "Asdukkel n udiwenni"
+      ],
+      "Daily email notifications": [
+        "Ilɣa imayl imezwar"
+      ],
+      "Days of the week": [
+        "Ussan n dduṛt"
+      ],
+      "Default PGP scheme": [
+        "Azenziɣ PGP amezwer"
+      ],
+      "End day of month": [
+        "Ass aneggaru n waggur"
+      ],
+      "Inherit color from parent folder": [
+        "Ini yettwaɣellet seg ukaram agejdan"
+      ],
+      "Keep messages in Sent/Drafts": [
+        "Eǧǧ iznan deg Tuzna/Irewwayen"
+      ],
+      "Non-standard ports": [
+        "Tiwwura ur nelli d tiqburin"
+      ],
+      "Please select files to upload": [
+        "Ma ulac aɣilif fren ifuyla ara tessaliḍ"
+      ],
+      "Prompt to trust keys": [
+        "Uɣal ɣer tsura yettwamanen"
+      ],
+      "Protection mode": [
+        "Askar n umesten"
+      ],
+      "Show secondary time zone": [
+        "Sken izḍi usrid wis sin"
+      ],
+      "Sign external messages": [
+        "Zmel iznan uffiɣen"
+      ],
+      "Start day of month": [
+        "Ass amezwaru n waggur"
+      ],
+      "Use folder colors": [
+        "Seqdec initen n ukaram"
       ]
     },
     "label": {
@@ -6726,6 +7001,12 @@
     "label/folder notification": {
       "${ Label.Name } created": [
         "${ Label.Name } yettusnulfa-d"
+      ],
+      "${ label.Name } updated": [
+        "${ label.Name } yettwaleqqem"
+      ],
+      "Preference saved": [
+        "Ismenyifen ttwaskelsen"
       ]
     },
     "Link": {
@@ -6839,6 +7120,12 @@
       ],
       "Why set recovery methods?": [
         "Acimi ara tesbeddeḍ tarayin n tririt ?"
+      ],
+      "create a ticket": [
+        "snulfu-d atiki"
+      ],
+      "Set email address": [
+        "Sbadu tansa n yimayl"
       ]
     },
     "Loading info": {
@@ -7465,6 +7752,22 @@
       ],
       "User session management": [
         "Asefrek n tiɣimiyin n useqdac"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } uwitay",
+        "${ maximumNumberOfCalendars } yiwitayen"
+      ],
+      "Free VPN on a single device": [
+        "VPN baṭel ɣef yibenk asuf"
+      ],
+      "Integrated 2FA authenticator": [
+        "Yerna usesteb s snat tarrayin 2FA"
+      ],
+      "SMTP submission": [
+        "Assuter n SMTP"
+      ],
+      "Unlimited logins and notes": [
+        "Inekcam d tezmilin war tilas"
       ]
     },
     "new_plans: feature info": {
@@ -7640,6 +7943,12 @@
       ],
       "Reminder has been sent": [
         "Asmekti yettwazen"
+      ],
+      "Key with fingerprint ${ fp } has been deleted.": [
+        "Tasarut s udsil umḍin ${ fp } tettwakkes."
+      ],
+      "Link copied to clipboard": [
+        "Aseɣwen yettwanɣel ɣer ɣefwafus"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -7772,6 +8081,99 @@
       ],
       "The whole organization": [
         "Meṛṛa takebbanit"
+      ],
+      "10th of the month": [
+        "10 deg waggur"
+      ],
+      "11th of the month": [
+        "11 deg waggur"
+      ],
+      "12th of the month": [
+        "12 deg waggur"
+      ],
+      "13th of the month": [
+        "13 deg waggur"
+      ],
+      "14th of the month": [
+        "14 deg waggur"
+      ],
+      "15th of the month": [
+        "15 deg waggur"
+      ],
+      "16th of the month": [
+        "16 deg waggur"
+      ],
+      "17th of the month": [
+        "17 deg waggur"
+      ],
+      "18th of the month": [
+        "18 deg waggur"
+      ],
+      "19th of the month": [
+        "19 deg waggur"
+      ],
+      "1st of the month": [
+        "1 deg waggur"
+      ],
+      "20th of the month": [
+        "20 deg waggur"
+      ],
+      "21st of the month": [
+        "2 deg waggur"
+      ],
+      "22nd of the month": [
+        "22 deg waggur"
+      ],
+      "23rd of the month": [
+        "23 deg waggur"
+      ],
+      "24th of the month": [
+        "24 deg waggur"
+      ],
+      "25th of the month": [
+        "25 deg waggur"
+      ],
+      "26th of the month": [
+        "26 deg waggur"
+      ],
+      "27th of the month": [
+        "27 deg waggur"
+      ],
+      "28th of the month": [
+        "28 deg waggur"
+      ],
+      "29th of the month": [
+        "29 deg waggur"
+      ],
+      "2nd of the month": [
+        "2 deg waggur"
+      ],
+      "30th of the month": [
+        "30 deg waggur"
+      ],
+      "31st of the month": [
+        "31 deg waggur"
+      ],
+      "3rd of the month": [
+        "3 deg waggur"
+      ],
+      "4th of the month": [
+        "4 deg waggur"
+      ],
+      "5th of the month": [
+        "5 deg waggur"
+      ],
+      "6th of the month": [
+        "6 deg aggur"
+      ],
+      "7th of the month": [
+        "7 deg aggur"
+      ],
+      "8th of the month": [
+        "8 deg aggur"
+      ],
+      "9th of the month": [
+        "9 deg aggur"
       ]
     },
     "Option group": {
@@ -7933,6 +8335,12 @@
       ],
       "You currently have": [
         "Amultaɣ-ik tura"
+      ],
+      "End-to-end encryption": [
+        "Awgelhen seg yixef ɣer yixef"
+      ],
+      "You have been invited to join ${ PASS_APP_NAME }": [
+        "Tettwanecdeḍ ad ternuḍ i${ PASS_APP_NAME }"
       ]
     },
     "pass_signup_2023: Title": {
@@ -7950,6 +8358,9 @@
       ],
       "Secure your account": [
         "Seɣles n umiḍan-ik·im"
+      ],
+      "Create a ${ PASS_APP_NAME } account": [
+        "Rnu amiḍan ${ PASS_APP_NAME }"
       ]
     },
     "Payment method option": {
@@ -8183,6 +8594,9 @@
       ],
       "Unsubscribe?": [
         "Ffeɣ seg ujerred?"
+      ],
+      "Remove calendar": [
+        "Kkes awitay"
       ]
     },
     "Restore administrator panel": {
@@ -8412,6 +8826,10 @@
       ],
       "Save ${ discount }%": [
         "Sekles ${ discount }%"
+      ],
+      "${ n } month": [
+        "${ n } wayyur",
+        "${ n } wayyuren"
       ]
     },
     "specialoffer: Title": {
@@ -8730,6 +9148,30 @@
       ],
       "You have successfully unsubscribed": [
         "Teffɣeḍ seg ujerred akken iwata"
+      ],
+      "Address updated": [
+        "Tansa tettwaleqqem"
+      ],
+      "Auto-reply disabled": [
+        "Tiririt tawurmant tettwasens"
+      ],
+      "Auto-reply updated": [
+        "Tiririt tawurmant tettwasnifel"
+      ],
+      "Calendar removed": [
+        "Awitay yettwakkes"
+      ],
+      "Default calendar updated": [
+        "Awitay amezwer yettwalqem"
+      ],
+      "Premium address created": [
+        "Tansa Premium tettwasnulfa-d"
+      ],
+      "SMTP token deleted": [
+        "Ajuṭu SMTP yettwakkes"
+      ],
+      "Token copied to clipboard": [
+        "Ajuṭu yettwanɣel ɣer tecfawt"
       ]
     },
     "Success message": {
@@ -9719,6 +10161,60 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Tettwanecdeḍ ad tɛerḍeḍ ${ MAIL_APP_NAME }"
+      ],
+      "Add Sieve filter": [
+        "Rnu imsizdeg Sieve"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Ad tzemleḍ s wudem awurman iznan iteffɣen?"
+      ],
+      "Bridge for ${ platform }": [
+        "Tiqenṭert i ${ platform }"
+      ],
+      "Delete ${ filterName }": [
+        "Kkes ${ filterName }"
+      ],
+      "Delete ${ tokenNameToRemove }?": [
+        "Kkes ${ tokenNameToRemove }?"
+      ],
+      "Delete calendar": [
+        "Kkes awitay"
+      ],
+      "Delete key permanently?": [
+        "Kkes tasarut i lebda?"
+      ],
+      "Edit Sieve filter": [
+        "Ẓreg imsizdeg Sieve"
+      ],
+      "Export calendar": [
+        "Sifeḍ awitay"
+      ],
+      "Export private key": [
+        "Sifeḍ tasarut tusligt"
+      ],
+      "Export public key": [
+        "Sfeḍ tasarut tazayazt"
+      ],
+      "Generate SMTP token": [
+        "Sirew ajutun SMTP"
+      ],
+      "Keyboard shortcuts": [
+        "Inegzumen n unasiw"
+      ],
+      "Remove calendar": [
+        "Kkes awitay"
+      ],
+      "Set up a recovery method": [
+        "Sbadu tarrayt n tririt"
+      ],
+      "Sign in to your organization": [
+        "Kcem ɣer tkebbanit-ik"
+      ],
+      "Sort folders alphabetically": [
+        "Smizzwer ikaramen s ugemmay"
+      ],
+      "Sort labels alphabetically": [
+        "Smizzwer tibzimin s ugemmay"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -9861,6 +10357,51 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "Amiḍan-ik·im azɣaray yezmer ad yessaweḍ talast n tehri-ines n 24 yisragen. ${ BRAND_NAME } ad yeεreḍ ad ikemmel aktar s zzerb."
+      ],
+      "${ MAIL_APP_NAME } users will use this key by default for sending": [
+        "Iseqdacen n ${ MAIL_APP_NAME } ad sqedcen tasarut-agi s lexṣas i tuzzna"
+      ],
+      "Enable/disable desktop and mobile notifications": [
+        "Rmed/sens ilɣa n uselkim akked uziraz"
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        "Imaylen n ugraw deg udiwenni-nni kan akken akk deg tbewwaḍt-ik·im n yimaylen neɣ sken-iten-id yal yiwen weḥds."
+      ],
+      "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
+        "Iznan deg Tuzna neɣ deg Ukaram n yirewwayen ad qqimen ttbanen-d deg ukaram-a, ɣas ad ten-terreḍ ɣer ukaram-nniḍen."
+      ],
+      "Set how your list of messages looks like by default.": [
+        "Sbadu amek ara tettban tebdart n yiznan-inek•inem s lexṣas."
+      ],
+      "Set the default Composer popup size as small or full screen.": [
+        "Sbadu teɣzi n usfaylu udhim n umsuddes s wudem amezwer neɣ deg ugdil aččuran."
+      ],
+      "Set the default layout for your Inbox.": [
+        "Sbadu taneɣruft tamezwert i tbewwaḍt-ik·im n yimayl."
+      ],
+      "Signatures produced by this key are treated as invalid and this key cannot be used for encryption": [
+        "Izmulen yettwagan s tsarut-agi ad ttuneḥsaben d irameɣta yerna ulamek ara ttwasqedcen i uwgelhen"
+      ],
+      "This address has been disabled": [
+        "Tansa-agi tettwasens"
+      ],
+      "This feature delays sending your emails, giving you the opportunity to undo send during the selected time frame.": [
+        "Tamahilt-a tsaẓay tuzna n yiamylen-ik·im. Tzemreḍ ad tesfesxeḍ tuzna mi ara tferneḍ akud n tuzna."
+      ],
+      "This key cannot be used for encryption": [
+        "Tasarut-agi ulamek ara tettwaseqdec i uwgelhen"
+      ],
+      "This key is encrypted with an old password": [
+        "Tasarut-agi tewgelhen s wawal n uɛedi aqbur"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Mi ara ternuḍ tabzimt i yizen deg udiwenni, ad tettwernu s wudem awurman ɣef meṛṛaiznan i ar d-yernun ama i wid tuzneḍ, ama i wid i d-tremseḍ deg udiwenni-nni."
+      ],
+      "When you click on a link, this anti-phishing feature will ask you to confirm the URL of the web page.": [
+        "Mi ara tsiteḍ ɣef useɣwen, tamahilt-a n mgal takerḍa ad ak·am-d-tsuter ad tesnetmeḍ URL n usebter web."
+      ],
+      "You have locally decrypted this key": [
+        "Tewglehneḍ tasarut-agi s wudem adigan"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -10321,6 +10862,169 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Autoresponse": {
+      "I'm out of the office with limited access to my email.": [
+        "Aqliyin wbeṛṛa n tnarit, ɣuri kan anekcum s talast ar yimayl-i."
+      ]
+    },
+    "bf2023: Action": {
+      "Remove ${ PASS_APP_NAME }": [
+        "Kkes ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } n uḥraz"
+      ],
+      "Premium Password Manager": [
+        "Amsefrak n wawal uffir premium"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Aɣram ɣef 30 n wussan yettwaḍmen"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } wayyur",
+        "${ n } wayyuren"
+      ]
+    },
+    "Bridge version load failed": {
+      "Failed to find latest version": [
+        "Tifin n lqem aneggaru ur yeddi ara"
+      ]
+    },
+    "Calendar import section description": {
+      "You can import ICS files from another calendar to ${ CALENDAR_APP_NAME }. This lets you quickly import one event or your entire agenda.": [
+        "Tzemreḍ ad d-tketreḍ ifuyla ICS seg uwitay-nniḍen ɣer ${ CALENDAR_APP_NAME }. Aya ad ak·akem-yeǧǧ ad d-tketreḍ s tɣawla yiwe n uneḍru neɣ akk awitay-inek·inem."
+      ]
+    },
+    "drive_signup_2023: Info": {
+      "Advanced sharing security": [
+        "Taɣellist lqayen i beṭṭu"
+      ]
+    },
+    "Email verification": {
+      "Verification email sent to ${ address }": [
+        "Imayl n uselken yettwazen ɣer ${ address }"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "You can safely close this tab.": [
+        "Tzemreḍ ad tmedleḍ iccer-agi s tɣellist."
+      ]
+    },
+    "email_forwarding_2023: Label": {
+      "With attachment": [
+        "S ufaylu yeddan"
+      ],
+      "Without attachment": [
+        "War afaylu yeddan"
+      ]
+    },
+    "email_forwarding_2023: Placeholder": {
+      "Enter email address": [
+        "Sekcem tansa n yimayl"
+      ],
+      "Type text or keyword": [
+        "Aru aḍris neɣ awal ufrin"
+      ]
+    },
+    "email_forwarding_2023: Title": {
+      "Set up forwarding": [
+        "Sbadu awelleh"
+      ]
+    },
+    "Error when exporting event from calendar": {
+      "Event @ ${ timeString }": [
+        "Aneḍru @ ${ timeString }"
+      ],
+      "Event from ${ timeString }, ${ rruleString }": [
+        "Aneḍru si ${ timeString }, ${ rruleString }"
+      ]
+    },
+    "Info - folder colouring feature": {
+      "When enabled, sub-folders inherit the color of the parent folder.": [
+        "Mi yermed, ikaramen isnawanen ttawin ini n ukaram agejdan."
+      ]
+    },
+    "Key generation": {
+      "A key with the same encryption algorithm is already active for this address. Generating another key will cause slower account loading and deletion of this key can cause issues. If you are generating a new key because your old key is compromised, please mark that key as compromised. Are you sure you want to continue?": [
+        "Termed yakan tsarut i tansa-a s ulguritm n uwgelhen yecban wa. Asirew n tsarut nniḍen ad yessaẓi asali n umiḍan, ma d tukksa n tsarut-a tezmer ad d-teglu s wuguren. Ma yella tessaraweḍ-d tsarut nniḍen imi tasarut-ik taqburt tettwaker, ma ulac aɣilif creḍ tasarut-nni tettwaker. Tetḥeqqqeḍ belli tebɣiḍ ad tkemmeleḍ?"
+      ],
+      "Key with fingerprint ${ fp } successfully created.": [
+        "Tasarut s udsil umḍin ${ fp } tettwarna akken iwata."
+      ],
+      "The encryption keys are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Tisura n uwgelhen i ha-tan la ttusrwent. Aya ad yeṭṭef kra n tesdidin yerna ad ssegres iminig-ik·im i kra n wakud."
+      ],
+      "The encryption keys for your address are being generated. This may take several minutes and temporarily freeze your browser.": [
+        "Tisura n uwgelhen i tansa-ik·im ha-tan la ttusrwent. Aya ad yeṭṭef kra n tesdidin yerna ad ssegres iminig-ik·im i kra n wakud."
+      ],
+      "You can generate a new encryption key if you think your previous key has been compromised.": [
+        "Tzemreḍ ad tessirweḍ tasarut n uwgelhen tamaynut ma tcukkeḍ tasarut-ik n zik tettwaker."
+      ]
+    },
+    "OS compatibility": {
+      ".deb (for Debian/Ubuntu)": [
+        ".deb (i Debian/Ubuntu)"
+      ],
+      ".dmg (10.12 or later)": [
+        ".dmg (10.12 neɣ ticki)"
+      ],
+      ".rpm (for Fedora/openSUSE)": [
+        ".rpm (i Fedora/openSUSE)"
+      ],
+      "PKGBUILD (for other distributions)": [
+        "PKGBUILD (i yisdeggiren-nniḍen)"
+      ]
+    },
+    "Primary timezone": {
+      "Primary time zone": [
+        "Izḍi usrig agejdan"
+      ],
+      "Secondary time zone": [
+        "Izḍi usrid wis sin"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "Ttxil sirew-d tisura send ad tɛerḍeḍ ad tbeddeleḍ awal-inek n uɛeddi"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } n wass",
+        "${ timeRemaining.inDays } n wussan"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } n usrag",
+        "${ timeRemaining.inHours } n yisragen"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } n usrag",
+        "${ gracePeriodHoursRemaining } n yisragen"
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "Ayagi ad yernu s wudem awurman tasarut tazayezt ɣer yiznan i tettazneḍ. Iɣerwaḍen zemren ad tt-sqedcen iwakken ad selknen asesteb n yiznan-inek yerna ad k-d-aznen iznan iwgelhanen."
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ${ MAIL_APP_NAME } user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        "Mi ara d yettwaṭṭaf yimayl sɣur useqdac-nniḍen n ${ MAIL_APP_NAME } ur nesεi ara tisura yettwaḍmanen deg yinermisen-ik·im, ad yili uɣarrac ara ak·am-d-isutren ma yella tebɣiḍ ad tremdeḍ tisura n uḍman."
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        "Zmel s wudem awurman akk iznan-inek·inem itteffɣen i wakken iseqdacen-inek·inem ad izmiren ad selknen asesteb n yiznan-inek·inem. Ayagi yettili-d s usdukkel n yiɣewwaren PGP imezwer ara izemren ad ttusewlen ukessar-a."
       ]
     }
   }

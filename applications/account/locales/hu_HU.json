@@ -1009,6 +1009,15 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Download the Import-Export app": [
+        "Export-Import alkalmazás letöltése"
+      ],
+      "Import from ICS": [
+        "Importálás ICS fájlból"
+      ],
+      "sign up for free": [
+        "regisztráljon ingyenesen"
       ]
     },
     "Action for user session": {
@@ -3653,6 +3662,9 @@
       ],
       "Zero keys reactivated": [
         "Nulla kulcs újraaktiválva"
+      ],
+      "Could not save preference": [
+        "Nem sikerült menteni a preferenciát."
       ]
     },
     "Error importing calendar": {
@@ -3869,6 +3881,9 @@
       ],
       "There was a problem verifying your email address.": [
         "Probléma merült fel az e-mail címének ellenőrzésekor."
+      ],
+      "Contact ${ BRAND_NAME }": [
+        "Névjegy ${ BRAND_NAME }"
       ]
     },
     "Error message, unsubscribe": {
@@ -3898,6 +3913,9 @@
     "Error when exporting event from calendar": {
       "Event from ${ timeString }, ${ rruleString }": [
         "Esemény ekkortól: ${ timeString }, ${ rruleString }"
+      ],
+      "Event @ ${ timeString }": [
+        "Esemény @ ${ timeString }"
       ]
     },
     "Event invitation error": {
@@ -6916,6 +6934,42 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Az előfizetését a Mozilla kezeli. Kérjük, forduljon a Mozilla ügyfélszolgálatához az előfizetés lemondásához."
+      ],
+      "Add a @pm.me email address to your account. This simple, shorter domain stands for \"${ MAIL_APP_NAME } me\" or \"Private Message me.\"": [
+        "Hozzon létre @pm.me címet a fiókjához. Ez a rövid név a \"${ MAIL_APP_NAME } nekem\", vagy \"személyes üzenet nekem\" (Private Message me) rövidítésre utal"
+      ],
+      "Available on macOS, Windows, and Linux.": [
+        "Elérhető macOS, Windows és Linux rendszerekhez."
+      ],
+      "Get ${ upsellPlanName }": [
+        "${ upsellPlanName } beszerzése"
+      ],
+      "If the system time zone does not match the current time zone preference, you will be asked to update it (at most once per day).": [
+        "Amikor a rendszer időzónája eltér az aktuális időzóna beállításától, rákérdez, hogy frissítse-e a beállítást (maximum naponta egyszer)."
+      ],
+      "Loaded content is being protected by our proxy when tracker protection is activated.": [
+        "A betöltött tartalmat a proxy szervereink védik, amennyiben a követés elleni védelem be van kapcsolva."
+      ],
+      "Only change these settings if you are using PGP with non-${ BRAND_NAME } recipients.": [
+        "Csak akkor változtassa meg ezeket a beállításokat, ha PGP-t használ a nem ${ BRAND_NAME } címzettekhez."
+      ],
+      "Store this password and file in a safe place. You’ll need them again to import your key.": [
+        "Tárolja a jelszót és a fájlt egy biztos helyen. Szüksége lesz rá később a kulcsa importálásához."
+      ],
+      "to continue to ${ product }": [
+        "alkalmazás: ${ product }"
+      ],
+      "When notifications are enabled, we'll send an alert to your recovery email address if you have new messages in your ${ MAIL_APP_NAME } account.": [
+        "Amennyiben engedélyezi az értesítéseket, a ${ MAIL_APP_NAME } fiókjába érkező új üzenetekről a helyreállítási/értesítési címén tájékoztatjuk."
+      ],
+      "With an encrypted ${ BRAND_NAME } address, you can use all ${ BRAND_NAME } services": [
+        "Egy titkosított ${ BRAND_NAME } címmel hozzáférhet az összes ${ BRAND_NAME } szolgáltatáshoz"
+      ],
+      "You can use ${ MAIL_APP_NAME } with any desktop email client that supports IMAP/SMTP, including Outlook, Apple Mail, and Thunderbird.": [
+        "A ${ MAIL_APP_NAME } szolgáltatásait bármilyen e-mail kliens programmal használhatja, amik támogatják a IMAP/SMTP protokollt: ilyenek pl.: az Outlook, Apple Mail, és a Thunderbird alkalmazások."
+      ],
+      "You should export a backup of this key in case you need to restore data it encrypted.": [
+        "Exportáljon egy biztonsági mentést erről a kulcsról, abban az esetben, ha szüksége lenne visszaállítani azokat az adatokat, amelyeket titkosított vele."
       ]
     },
     "info": {
@@ -7047,6 +7101,9 @@
       ],
       "You can generate a new encryption key if you think your previous key has been compromised.": [
         "Új titkosítási kulcsot generálhat, ha úgy gondolja, hogy az előző kulcs kompromittálódott."
+      ],
+      "A key with the same encryption algorithm already exists. Generating another key will cause slower account loading. Are you sure you want to continue?": [
+        "Már létezik kulcs ugyanezzel a titkosítási algoritmussal. Újabb kulcs létrehozása lassítani fogja a fiók betöltését. Biztos benne, hogy folytatja?"
       ]
     },
     "Key state badge": {
@@ -7276,6 +7333,12 @@
       ],
       "Mark not obsolete": [
         "Megjelölés nem elavultként"
+      ],
+      "Disables encryption with this key": [
+        "Letiltja ezzel a kulccsal való titkosítást"
+      ],
+      "Mark not compromised": [
+        "Megjelölés nem kompromittáltként"
       ]
     },
     "Knowledge base link label": {
@@ -8130,6 +8193,24 @@
       ],
       "Your referral link": [
         "Ajánló hivatkozása"
+      ],
+      "${ MAIL_APP_NAME } footer": [
+        "${ MAIL_APP_NAME } lábléc"
+      ],
+      "Auto show embedded images": [
+        "Beágyazott képek automatikus megjelenítése"
+      ],
+      "Conversations per page": [
+        "Beszélgetések oldalanként."
+      ],
+      "Daily email notifications": [
+        "Napi e-mail értesítések"
+      ],
+      "Messages per page": [
+        "Üzenetek oldalanként."
+      ],
+      "Sign external messages": [
+        "Külső üzenetek aláírása"
       ]
     },
     "label": {
@@ -8261,6 +8342,9 @@
       ],
       "Preference saved": [
         "Beállítások mentve"
+      ],
+      "${ label.Name } updated": [
+        "${ label.Name } frissítve"
       ]
     },
     "Limit of calendars reached": {
@@ -8791,6 +8875,9 @@
       ],
       "Upgrade to ${ upsellPlanHumanSize }": [
         "Váltás ${ upsellPlanHumanSize } csomagra"
+      ],
+      "Get ${ mostPopularShortPlan.title }": [
+        "${ mostPopularShortPlan.title } beszerzése"
       ]
     },
     "new_plans: feature": {
@@ -9082,6 +9169,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Archívum megosztás (${ n } személyig).",
         "Archívum megosztás (${ n } személyig)."
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } naptár",
+        "${ maximumNumberOfCalendars } naptár"
       ]
     },
     "new_plans: feature info": {
@@ -9441,6 +9532,9 @@
       ],
       "Multi-platform support": [
         "Multi platform támogatás"
+      ],
+      "Boost your storage space to ${ bundleStorage } per user": [
+        "Emelje meg tárhelyét felhasználónként ${ bundleStorage } méretűre"
       ]
     },
     "Notification": {
@@ -9578,6 +9672,9 @@
     "Onboarding": {
       "Welcome to ${ VPN_APP_NAME }": [
         "Üdvözli a ${ VPN_APP_NAME }"
+      ],
+      "Welcome to ${ product }": [
+        "Üdvözli a ${ product }"
       ]
     },
     "Option": {
@@ -9685,6 +9782,54 @@
       ],
       "Standard server configs": [
         "Normál szerver konfigurációk"
+      ],
+      "14th of the month": [
+        "a hónap 14-ik napja"
+      ],
+      "15th of the month": [
+        "a hónap 15-ik napja"
+      ],
+      "16th of the month": [
+        "a hónap 16-ik napja"
+      ],
+      "17th of the month": [
+        "a hónap 17-ik napja"
+      ],
+      "18th of the month": [
+        "a hónap 18-ik napja"
+      ],
+      "19th of the month": [
+        "a hónap 19-ik napja"
+      ],
+      "20th of the month": [
+        "a hónap 20-ik napja"
+      ],
+      "21st of the month": [
+        "a hónap 21-ik napja"
+      ],
+      "22nd of the month": [
+        "a hónap 22-ik napja"
+      ],
+      "23rd of the month": [
+        "a hónap 23-ik napja"
+      ],
+      "24th of the month": [
+        "a hónap 24-ik napja"
+      ],
+      "25th of the month": [
+        "a hónap 25-ik napja"
+      ],
+      "26th of the month": [
+        "a hónap 26-ik napja"
+      ],
+      "27th of the month": [
+        "a hónap 27-ik napja"
+      ],
+      "28th of the month": [
+        "a hónap 28-ik napja"
+      ],
+      "29th of the month": [
+        "a hónap 29-ik napja"
       ]
     },
     "Option delay send seconds": {
@@ -9720,6 +9865,9 @@
     "Option protection mode": {
       "Load content via proxy (recommended)": [
         "Tartalmak betöltése proxy szerveren keresztül (javasolt)"
+      ],
+      "Load content via proxy and store as attachments": [
+        "Tartalmak betöltése proxy szerveren keresztül és tárolás mellékletként"
       ]
     },
     "Organization capacity error": {
@@ -9760,6 +9908,9 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (más disztribúciókhoz)"
+      ],
+      ".deb (for Debian/Ubuntu)": [
+        ".deb (Debian/Ubuntu)"
       ]
     },
     "Participant name": {
@@ -9836,6 +9987,9 @@
       ],
       "You currently have": [
         "Jelenleg a következővel rendelkezik"
+      ],
+      "You have been invited to join ${ PASS_APP_NAME }": [
+        "Meghívást kapott a következőhöz: ${ PASS_APP_NAME }"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10325,6 +10479,9 @@
       "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
         "A jelszavát ${ gracePeriodHoursRemaining } múlva tudja visszaállítani.",
         "A jelszavát ${ gracePeriodHoursRemaining } múlva tudja visszaállítani."
+      ],
+      "Request password reset?": [
+        "Jelszóváltoztatás kérése?"
       ]
     },
     "session_recovery:settings:action": {
@@ -12099,6 +12256,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Meghívás a ${ MAIL_APP_NAME } alkalmazás kipróbálására"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Automatikusan aláírja a kimenő üzeneteket?"
+      ],
+      "Delete ${ tokenNameToRemove }?": [
+        "${ tokenNameToRemove } törlése?"
+      ],
+      "Set up a recovery method": [
+        "Helyreállítási módszer hozzáadása"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -12306,6 +12472,24 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "A külső fiókja nagy eséllyel elérte a 24-órás sávszélesség korlátját. A ${ BRAND_NAME } meg fogja próbálni folytatni az importálást amilyen hamar csak lehetséges."
+      ],
+      "Group emails in the same conversation together in your Inbox or display them separately.": [
+        "A levelező csoportosítsa az e-maileket beszélgetésenként vagy jelenítse meg külön."
+      ],
+      "Messages in the Sent or Drafts folder will continue to appear in that folder, even if you move them to another folder.": [
+        "Az üzenetek továbbra is megjelennek az Elküldött elemek és a Piszkozatok közt, akkor is, ha áthelyezi őket egy másik mappába."
+      ],
+      "Set the default layout for your Inbox.": [
+        "A levelező alapértelmezett elrendezésének beállítása."
+      ],
+      "This address has been disabled": [
+        "Ez a cím van letiltva"
+      ],
+      "This key cannot be used for encryption": [
+        "Ez a kulcs nem használható titkosításhoz"
+      ],
+      "When you add a label to a message in a conversation, it will automatically be applied to all future messages you send or receive in that conversation.": [
+        "Ha egy beszélgetésben szereplő levélhez rendel címkét, akkor abban a beszélgetésben az összes fogadott és küldött új üzenetre érvényes lesz."
       ]
     },
     "Tooltip default pgp scheme": {
@@ -12778,6 +12962,31 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "Bridge version load failed": {
+      "Failed to find latest version": [
+        "Hiba a legutóbbi verzió megkeresésekor"
+      ]
+    },
+    "Email verification": {
+      "Verification email sent to ${ address }": [
+        "Az ellenőrző e-mailt elküldtük erre a címre: ${ address }"
+      ]
+    },
+    "Tooltip automatically attach public key": {
+      "This automatically adds your public key to each message you send. Recipients can use this to verify the authenticity of your messages and send encrypted messages to you.": [
+        "Bekapcsolásakor a nyilvános kulcs automatikusan csatolásra kerül minden kimenő üzenethez. A címzettek ezt használhatják a levél hitelességének ellenőrzésére és titkosított üzenetek küldésére önnek."
+      ]
+    },
+    "Tooltip prompt to trust keys": {
+      "When receiving an email from another ${ MAIL_APP_NAME } user who does not have trusted keys in your contacts, a banner will ask if you want to enable trusted keys.": [
+        "Ha egy olyan ${ MAIL_APP_NAME } felhasználótól kap levelet, akinek még nincs megbízható kulcsa a névjegyei közt, egy kérdés fog megjelenni a kulcsok megbízhatóként megjelöléséhez."
+      ]
+    },
+    "Tooltip sign external messages": {
+      "Automatically sign all your outgoing messages so users can verify the authenticity of your messages. This is done in combination with the default PGP settings which can be configured below.": [
+        "Bekapcsolásakor a kimenő üzenetek automatikusan aláírásra kerülnek, így a címzettek ellenőrizhetik az üzenet hitelességét. Ez együtt működik a lentebb beállított alapértelmezett PGP beállításokkal."
       ]
     }
   }

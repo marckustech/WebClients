@@ -7937,6 +7937,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Vous ne pourrez pas récupérer les données verrouillées en utilisant les fichiers de récupération que vous avez téléchargés. Cela désactivera aussi la récupération des appareils de confiance."
       ]
     },
     "info": {
@@ -7945,6 +7948,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "La clé ${ fingerprint } a déjà été chargée."
+      ],
+      "Selected color:": [
+        "Couleur sélectionnée :"
       ]
     },
     "Info - folder colouring feature": {
@@ -10342,6 +10348,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Partage du coffre-fort (${ n } personne)",
         "Partage du coffre-fort (jusqu'à ${ n } personnes)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendrier",
+        "${ maximumNumberOfCalendars } calendriers"
       ]
     },
     "new_plans: feature info": {

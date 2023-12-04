@@ -1075,6 +1075,9 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Copy key to the clipboard": [
+        "Salin ke papan klip"
       ]
     },
     "action": {
@@ -7846,6 +7849,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Langganan Anda dikelola oleh Mozilla. Silakan hubungi layanan dukungan Mozilla."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Anda tidak dapat mengembalikan data terkunci dengan berkas pemulihan yang Anda unduh. Ini juga menonaktifkan pemulihan perangkat tepercaya."
       ]
     },
     "info": {
@@ -7854,6 +7860,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "Kunci ${ fingerprint } sudah diunggah"
+      ],
+      "Selected color:": [
+        "Warna terpilih:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10217,6 +10226,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "Berbagi berkas (hingga ${ n } pengguna)"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } kalender"
       ]
     },
     "new_plans: feature info": {
@@ -10722,6 +10734,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Autentikasi dua faktor tidak lagi dibutuhkan"
+      ],
+      "Key copied to the clipboard": [
+        "Kunci tersalin ke papan klip"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -11344,6 +11359,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Organisasi Anda memiliki akses ke ${ free }. Apabila Anda ingin mengakses berbagai fitur premium ${ appName }, silakan minta administrator organisasi Anda untuk meningkatkan paket langganan."
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium password manager!": [
+        "Hanya dengan **${ relativePrice } lagi per bulan**, Anda mendapat akses pengatur sandi premium ${ BRAND_NAME }!"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium VPN service!": [
+        "Hanya dengan **${ relativePrice } lagi per bulan**, Anda mendapat akses layanan VPN premium ${ BRAND_NAME }!"
       ]
     },
     "pass_signup_2023: Title": {
@@ -13874,6 +13895,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Anda telah diundang untuk mencoba ${ MAIL_APP_NAME }"
+      ],
+      "Set a display name": [
+        "Tentukan nama tampilan"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

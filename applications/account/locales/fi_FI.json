@@ -4403,6 +4403,9 @@
     "Error when exporting event from calendar": {
       "Event @ ${ timeString }": [
         "Tapahtuma @ ${ timeString }"
+      ],
+      "Event from ${ timeString }, ${ rruleString }": [
+        "Tapahtuma ajalta ${ timeString }, ${ rruleString }"
       ]
     },
     "Event invitation error": {
@@ -7910,6 +7913,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tilaustasi hallinnoi Mozilla. Ota yhteyttä Mozillan tukeen."
+      ],
+      "learn more about Sieve programming language": [
+        "Lue lisää Sieve-ohjelmointikielestä"
       ]
     },
     "info": {
@@ -9209,6 +9215,9 @@
       ],
       "Your referral link": [
         "Suosituslinkkisi"
+      ],
+      "Default PGP scheme": [
+        "Oletus PGP-järjestelmä"
       ]
     },
     "label": {
@@ -10309,6 +10318,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Holvin jakaminen (enintään ${ n } henkilö)",
         "Holvin jakaminen (enintään ${ n } henkilöä)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalenteri",
+        "${ maximumNumberOfCalendars } kalenteria"
       ]
     },
     "new_plans: feature info": {

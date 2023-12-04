@@ -1075,6 +1075,9 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Copy key to the clipboard": [
+        "Skopírovať kľúč do schránky"
       ]
     },
     "action": {
@@ -8109,6 +8112,9 @@
       ],
       "Key ${ fingerprint } has already been uploaded": [
         "Kľúč ${ fingerprint } už bol nahraný"
+      ],
+      "Selected color:": [
+        "Vybraná farba:"
       ]
     },
     "Info - folder colouring feature": {
@@ -10574,6 +10580,12 @@
         "Zdieľanie trezora (s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)",
         "Zdieľanie trezora (až s ${ n } osobami)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendár",
+        "${ maximumNumberOfCalendars } kalendáre",
+        "${ maximumNumberOfCalendars } kalendárov",
+        "${ maximumNumberOfCalendars } kalendárov"
       ]
     },
     "new_plans: feature info": {
@@ -11088,6 +11100,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "Dvojstupňové overovanie sa už nevyžaduje"
+      ],
+      "Key copied to the clipboard": [
+        "Kľúč skopírovaný do schránky"
       ]
     },
     "Notification in holidays calendar modal": {

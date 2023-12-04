@@ -1012,6 +1012,39 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Activate ${ Name }@pm.me": [
+        "Ativar ${ Name }@pm.me"
+      ],
+      "Activate ${ user.Name }@pm.me": [
+        "Ativar ${ user.Name }@pm.me"
+      ],
+      "Add sieve filter": [
+        "Adicionar filtro Sieve"
+      ],
+      "Download the Import-Export app": [
+        "Transferir a aplicação Import-Export"
+      ],
+      "Get more folders": [
+        "Obter mais pastas"
+      ],
+      "Import from Google": [
+        "Importar do Google"
+      ],
+      "Reactivate keys": [
+        "Reativar as chaves"
+      ],
+      "Sign in with password": [
+        "Iniciar sessão com a palavra-passe"
+      ],
+      "Sign in with SSO": [
+        "Iniciar sessão com SSO"
+      ],
+      "sign up for free": [
+        "registe-se gratuitamente"
+      ],
+      "Use “${ label }” setting": [
+        "Usar a definição \"${ label }\""
       ]
     },
     "action": {
@@ -1271,6 +1304,21 @@
       ],
       "High speed streaming": [
         "Streaming de alta velocidade"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } de armazenamento"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Versão premium do gestor de palavras-passe"
       ]
     },
     "bf2023: Info": {
@@ -3172,6 +3220,12 @@
       ],
       "Or": [
         "Ou"
+      ],
+      "With attachment": [
+        "Com anexo"
+      ],
+      "Without attachment": [
+        "Sem anexo"
       ]
     },
     "email_forwarding_2023: Outgoing forwarding tab name": {
@@ -3182,6 +3236,12 @@
     "email_forwarding_2023: Placeholder": {
       "Condition:": [
         "Condição:"
+      ],
+      "Enter email address": [
+        "Introduza o endereço de e-mail"
+      ],
+      "Type text or keyword": [
+        "Introduza o texto ou palavra-chave"
       ]
     },
     "email_forwarding_2023: Status": {
@@ -3948,6 +4008,9 @@
     "Error when exporting event from calendar": {
       "Event from ${ timeString }, ${ rruleString }": [
         "Evento a partir de ${ timeString }, ${ rruleString }"
+      ],
+      "Event @ ${ timeString }": [
+        "Evento @ ${ timeString }"
       ]
     },
     "Event invitation error": {
@@ -7344,6 +7407,29 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "A sua subscrição é gerida pela Mozilla. Contacte o suporte da Mozilla."
+      ],
+      "${ amountOfAddresses } address": [
+        "${ amountOfAddresses } endereço",
+        "${ amountOfAddresses } endereços"
+      ],
+      "${ remainingAddresses.length } more": [
+        "${ remainingAddresses.length } mais",
+        "${ remainingAddresses.length } mais"
+      ],
+      "Available on macOS, Windows, and Linux.": [
+        "Disponível em macOS, Windows e Linux."
+      ],
+      "Enable this address to join this calendar": [
+        "Ative este endereço para aderir a este calendário"
+      ],
+      "No account keys exist": [
+        "Não existem chaves de conta."
+      ],
+      "Save ${ percentage }": [
+        "Poupe ${ percentage }"
+      ],
+      "Upgrade to unlock": [
+        "Actualize para desbloquear"
       ]
     },
     "info": {
@@ -7721,6 +7807,9 @@
       ],
       "Mark obsolete": [
         "Marcar como obsoleta"
+      ],
+      "Mark compromised": [
+        "Marcar como comprometida"
       ]
     },
     "Knowledge base link label": {
@@ -8563,6 +8652,48 @@
       ],
       "Your referral link": [
         "A sua ligação de referência"
+      ],
+      "Attach public key": [
+        "Anexar chave pública"
+      ],
+      "Auto-unsubscribe": [
+        "Cancelar inscrição automaticamente"
+      ],
+      "Confirm link URLs": [
+        "Confirmar as URLs da ligação"
+      ],
+      "Conversation grouping": [
+        "Agrupamento de conversas"
+      ],
+      "Days of the week": [
+        "Dias da semana"
+      ],
+      "Default PGP scheme": [
+        "Esquema PGP predefinido"
+      ],
+      "End day of month": [
+        "Último dia do mês"
+      ],
+      "Exclude Spam/Trash from All mail": [
+        "Excluir Spam/Lixo de Todos os emails"
+      ],
+      "Inherit color from parent folder": [
+        "Herdar cor da pasta principal"
+      ],
+      "Keep messages in Sent/Drafts": [
+        "Manter mensagens em Enviado/Rascunhos"
+      ],
+      "Prompt to trust keys": [
+        "Pedir para confiar em chaves"
+      ],
+      "Sign external messages": [
+        "Assinar mensagens externas"
+      ],
+      "Start day of month": [
+        "1º dia do mês"
+      ],
+      "Use folder colors": [
+        "Usar cores da pasta"
       ]
     },
     "label": {
@@ -8697,6 +8828,12 @@
     "label/folder notification": {
       "${ Label.Name } created": [
         "${ Label.Name } criada"
+      ],
+      "${ label.Name } updated": [
+        "${ label.Name } actualizada"
+      ],
+      "Preference saved": [
+        "Preferência guardada"
       ]
     },
     "Limit of calendars reached": {
@@ -8824,6 +8961,9 @@
       ],
       "Why set recovery methods?": [
         "Por que definir métodos de recuperação?"
+      ],
+      "create a ticket": [
+        "criar um ticket"
       ]
     },
     "Loading info": {
@@ -9609,6 +9749,10 @@
       ],
       "User session management": [
         "Gestão de sessões de utilizador"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
       ]
     },
     "new_plans: feature info": {
@@ -10347,6 +10491,45 @@
       ],
       "UDP": [
         "UDP"
+      ],
+      "10th of the month": [
+        "10º do mês"
+      ],
+      "11th of the month": [
+        "11º do mês"
+      ],
+      "12th of the month": [
+        "12º do mês"
+      ],
+      "13th of the month": [
+        "13º do mês"
+      ],
+      "1st of the month": [
+        "1º do mês"
+      ],
+      "2nd of the month": [
+        "2º do mês"
+      ],
+      "3rd of the month": [
+        "3º do mês"
+      ],
+      "4th of the month": [
+        "4º do mês"
+      ],
+      "5th of the month": [
+        "5º do mês"
+      ],
+      "6th of the month": [
+        "6º do mês"
+      ],
+      "7th of the month": [
+        "7º do mês"
+      ],
+      "8th of the month": [
+        "8º do mês"
+      ],
+      "9th of the month": [
+        "9º do mês"
       ]
     },
     "Option group": {
@@ -10371,6 +10554,9 @@
     "Option protection mode": {
       "Load content via proxy and store as attachments": [
         "Carregar o conteúdo com proxy e armazenar como anexos"
+      ],
+      "Load content via proxy (recommended)": [
+        "Carregar o conteúdo através de proxy (recomendado)"
       ]
     },
     "Organization capacity error": {
@@ -10411,6 +10597,12 @@
       ],
       ".rpm (for Fedora/openSUSE)": [
         ".rpm (para Fedora/openSUSE)"
+      ],
+      ".dmg (10.12 or later)": [
+        ".dmg (10.12 ou posterior)"
+      ],
+      "PKGBUILD (for other distributions)": [
+        "PKGBUILD (para outras distribuições)"
       ]
     },
     "Participant name": {
@@ -10640,6 +10832,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "A sua organização tem acesso a ${ free }. Se deseja acesso a funcionalidades premium do ${ appName }, solicite a atualização ao administrador da sua organização."
+      ],
+      "${ appName } benefits": [
+        "Benefícios do ${ appName }"
+      ],
+      "End-to-end encryption": [
+        "Encriptação de ponta a ponta"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10657,6 +10855,9 @@
       ],
       "Secure your account": [
         "Proteja a sua conta"
+      ],
+      "Create a ${ PASS_APP_NAME } account": [
+        "Criar uma conta do ${ PASS_APP_NAME }"
       ]
     },
     "Payment method option": {
@@ -11021,6 +11222,9 @@
       ],
       "Reset password": [
         "Repor a palavra-passe"
+      ],
+      "Cancel password reset": [
+        "Cancelar a reposição da palavra-passe"
       ]
     },
     "session_recovery:available:error": {
@@ -11064,6 +11268,9 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Agora pode mudar a sua palavra-passe para a conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ],
+      "You can now reset your password": [
+        "Pode reinicializar a sua palavra-passe"
       ]
     },
     "session_recovery:available:link": {
@@ -11133,6 +11340,9 @@
       ],
       "Learn more": [
         "Saiba mais"
+      ],
+      "Cancel password reset": [
+        "Cancelar a reposição da palavra-passe"
       ]
     },
     "session_recovery:in_progress:info": {
@@ -11925,6 +12135,21 @@
       ],
       "You have successfully unsubscribed": [
         "A sua subscrição foi cancelada."
+      ],
+      "Address updated": [
+        "Endereço atualizado"
+      ],
+      "Auto-reply disabled": [
+        "Resposta automática desativada"
+      ],
+      "Auto-reply updated": [
+        "Resposta automática atualizada"
+      ],
+      "Premium address created": [
+        "Endereço Premium criado"
+      ],
+      "SMTP token deleted": [
+        "O token SMTP foi eliminado."
       ]
     },
     "Success message": {
@@ -13049,6 +13274,30 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Foi convidado a experimentar ${ MAIL_APP_NAME }"
+      ],
+      "Add Sieve filter": [
+        "Adicionar filtro Sieve"
+      ],
+      "Automatically sign outgoing messages?": [
+        "Assinar automaticamente as mensagens de saída?"
+      ],
+      "Delete ${ tokenNameToRemove }?": [
+        "Eliminar ${ tokenNameToRemove }?"
+      ],
+      "Edit invoice details": [
+        "Editar os detalhes da fatura"
+      ],
+      "Edit Sieve filter": [
+        "Editar filtro Sieve"
+      ],
+      "Export public key": [
+        "Exportar a chave pública"
+      ],
+      "Generate SMTP token": [
+        "Gerar um token SMTP"
+      ],
+      "Sign in to your organization": [
+        "Faça o login na sua organização"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13298,6 +13547,18 @@
       ],
       "Your external account may have reached its 24-hour bandwidth limit. ${ BRAND_NAME } will try to resume the import as soon as possible.": [
         "A sua conta externa pode ter atingido o limite de largura de banda de 24 horas. ${ BRAND_NAME } tentará retomar a importação assim que possível."
+      ],
+      "Set the default layout for your Inbox.": [
+        "Predefina a disposição da sua caixa de entrada."
+      ],
+      "This address has been disabled": [
+        "Este endereço foi desativado."
+      ],
+      "This key cannot be used for encryption": [
+        "Esta chave não pode ser utilizada para a encriptação."
+      ],
+      "You have locally decrypted this key": [
+        "Desencriptou esta chave localmente"
       ]
     },
     "Tooltip automatically attach public key": {
@@ -13824,6 +14085,45 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantia de devolução do seu dinheiro em até 30 dias"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui o suporte para 1 domínio de e-mail personalizado, 10 endereços de e-mail, 10 aliases Hide-my-email, partilha de calendário e muito mais."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Proteja os seus ficheiros com armazenamento encriptado na nuvem. Inclui histórico de versões, partilha de ficheiros encriptados e muito mais."
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } mês",
+        "${ n } meses"
+      ]
+    },
+    "Bridge version load failed": {
+      "Failed to find latest version": [
+        "Erro ao encontrar a última versão"
+      ]
+    },
+    "email_forwarding_2023: Info": {
+      "You can safely close this tab.": [
+        "Pode fechar este separador com segurança."
+      ]
+    },
+    "session_recovery:disable:action": {
+      "Disable password reset": [
+        "Desativar a reposição da palavra-passe"
+      ]
+    },
+    "TableRow": {
+      "No SMTP tokens found": [
+        "Sem tokens de SMTP encontrados"
       ]
     }
   }

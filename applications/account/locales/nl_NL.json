@@ -4135,6 +4135,9 @@
       ],
       "Zero keys reactivated": [
         "Nul sleutels gereactiveerd"
+      ],
+      "Could not save preference": [
+        "Kon voorkeuren niet opslaan"
       ]
     },
     "Error importing calendar": {
@@ -8292,6 +8295,15 @@
       ],
       "Mark obsolete": [
         "Markeren als uitgelekt"
+      ],
+      "Mark compromised": [
+        "Markeren als"
+      ],
+      "Mark not compromised": [
+        "Markeren als"
+      ],
+      "Mark not obsolete": [
+        "Markeren als niet verouderd"
       ]
     },
     "Knowledge base link label": {
@@ -9194,6 +9206,12 @@
       ],
       "Your referral link": [
         "Uw doorverwijslink"
+      ],
+      "Conversations per page": [
+        "Gesprekken per pagina"
+      ],
+      "Messages per page": [
+        "Berichten per pagina"
       ]
     },
     "label": {
@@ -10291,6 +10309,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Kluis delen (tot ${ n } persoon)",
         "Kluis delen (tot ${ n } personen)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } agenda",
+        "${ maximumNumberOfCalendars } agenda's"
       ]
     },
     "new_plans: feature info": {
@@ -13996,6 +14018,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "U bent uitgenodigd om ${ MAIL_APP_NAME } te proberen"
+      ],
+      "Set up a recovery method": [
+        "Een herstelmethode instellen"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

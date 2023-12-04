@@ -7931,6 +7931,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dein Abonnement wird von Mozilla verwaltet. Bitte kontaktiere den Mozilla-Support."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Verschlüsselte Daten können mit den heruntergeladenen Wiederherstellungsdateien nicht wiederhergestellt werden. Dadurch werden auch vertrauenswürdige Informationen zur Wiederherstellung des Geräts ungültig."
       ]
     },
     "info": {
@@ -10336,6 +10339,10 @@
       "Vault sharing (up to ${ n } person)": [
         "Tresor teilen (bis zu ${ n } Person)",
         "Tresor teilen (bis zu ${ n } Personen)"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } Kalender",
+        "${ maximumNumberOfCalendars } Kalender"
       ]
     },
     "new_plans: feature info": {

@@ -995,6 +995,12 @@
       ],
       "Zoom out": [
         "缩小"
+      ],
+      "Apply to existing messages": [
+        "应用于现有邮件"
+      ],
+      "Export key before deleting": [
+        "删除前导出密钥"
       ]
     },
     "Action for user session": {
@@ -1241,6 +1247,12 @@
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
         "高级 ${ VPN_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium Password Manager": [
+        "高级密码管理器"
       ]
     },
     "bf2023: Footer": {
@@ -3181,6 +3193,9 @@
       ],
       "With attachment": [
         "含有附件"
+      ],
+      "Without attachment": [
+        "不含附件"
       ]
     },
     "email_forwarding_2023: Link": {
@@ -3689,6 +3704,9 @@
       ],
       "Zero keys reactivated": [
         "未重新激活任何密钥"
+      ],
+      "Could not save preference": [
+        "设置保存失败"
       ]
     },
     "Error importing calendar": {
@@ -3904,6 +3922,9 @@
       ],
       "There was a problem verifying your email address.": [
         "验证邮箱地址失败。"
+      ],
+      "Contact ${ BRAND_NAME }": [
+        "联系人 ${ BRAND_NAME }"
       ]
     },
     "Error message, unsubscribe": {
@@ -4073,6 +4094,9 @@
       ],
       "Up to 6 users": [
         "多达 6 位用户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
       ]
     },
     "familyOffer_2023:Error": {
@@ -7029,6 +7053,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "您的账户是由 Mozilla 管理的，请联系 Mozilla 获取帮助。"
+      ],
+      "Create your first Gateway": [
+        "创建您的第一个网关"
+      ],
+      "If you cancel, your ${ planTitle } subscription will not be renewed when it expires on ${ expiryDate }.": [
+        "如果您取消，您的 ${ planTitle } 订阅在 ${ expiryDate } 到期后将不会续订。"
+      ],
+      "Save ${ percentage }": [
+        "节省 ${ percentage }"
       ]
     },
     "info": {
@@ -7383,6 +7416,12 @@
       ],
       "Mark obsolete": [
         "作废"
+      ],
+      "Enable signature verification and encryption with this key": [
+        "允许使用此密钥加密及验证数字签名"
+      ],
+      "Mark compromised": [
+        "标为已泄露"
       ]
     },
     "Knowledge base link label": {
@@ -8251,6 +8290,12 @@
       ],
       "Your referral link": [
         "您的邀请链接"
+      ],
+      "Composer default font/size": [
+        "编辑窗默认字体与字号"
+      ],
+      "Conversations per page": [
+        "每页会话数量"
       ]
     },
     "label": {
@@ -8888,6 +8933,9 @@
       ],
       "Upgrade to ${ upsellPlanHumanSize }": [
         "开通 ${ upsellPlanHumanSize }"
+      ],
+      "Get ${ mostPopularShortPlan.title }": [
+        "开通 ${ mostPopularShortPlan.title }"
       ]
     },
     "new_plans: feature": {
@@ -9181,6 +9229,9 @@
       ],
       "Vault sharing (up to ${ n } people)": [
         "密码分享（最多${ n }个人）"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 个日历"
       ]
     },
     "new_plans: feature info": {
@@ -9285,6 +9336,9 @@
       ],
       "To continue to use ${ MAIL_APP_NAME } with premium features, choose your subscription and payment options.": [
         "如需继续使用 ${ MAIL_APP_NAME } 的高级功能，请选择您要开通的账户等级和支付方式。"
+      ],
+      "Your trial ends ${ formattedPeriodEndDate }": [
+        "您的体验期将于 ${ formattedPeriodEndDate } 结束"
       ]
     },
     "new_plans: Label": {
@@ -9354,6 +9408,9 @@
     "new_plans: Title": {
       "Your account's usage": [
         "您的账户使用情况"
+      ],
+      "${ shortPlan.title } Trial": [
+        "${ shortPlan.title } $ 试用"
       ]
     },
     "new_plans: tooltip": {
@@ -9537,6 +9594,12 @@
       ],
       "Multi-platform support": [
         "多平台支持"
+      ],
+      "Boost your storage space to ${ bundleStorage } per user": [
+        "每位用户存储空间可升至 ${ bundleStorage }"
+      ],
+      "Central control panel": [
+        "中央控制面板"
       ]
     },
     "Notification": {
@@ -9657,6 +9720,9 @@
     "Onboarding": {
       "Welcome to ${ VPN_APP_NAME }": [
         "欢迎来到 ${ VPN_APP_NAME }"
+      ],
+      "Welcome to ${ product }": [
+        "欢迎来到 ${ product }"
       ]
     },
     "Option": {
@@ -9899,6 +9965,12 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD（其他发行版）"
+      ],
+      ".dmg (10.12 or later)": [
+        ".dmg（10.12 或更高版本）"
+      ],
+      ".rpm (for Fedora/openSUSE)": [
+        ".rpm（Fedora/openSUSE）"
       ]
     },
     "Participant name": {
@@ -9927,6 +9999,9 @@
       ],
       "Upgrade my plan": [
         "升级账户"
+      ],
+      "Continue to ${ free }": [
+        "继续使用 ${ free }"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -10002,6 +10077,12 @@
       ],
       "You have been invited to join ${ PASS_APP_NAME }": [
         "有人邀请您加入 ${ PASS_APP_NAME }"
+      ],
+      "Creating your account": [
+        "正在为您创建账户"
+      ],
+      "End-to-end encryption": [
+        "端到端加密"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10288,6 +10369,9 @@
       ],
       "Remove calendar": [
         "删除日历"
+      ],
+      "Delete calendar?": [
+        "删除日历?"
       ]
     },
     "Restore administrator panel": {
@@ -10353,6 +10437,9 @@
       ],
       "Reset password": [
         "重置密码"
+      ],
+      "Cancel password reset": [
+        "取消密码重置"
       ]
     },
     "session_recovery:available:error": {
@@ -10507,6 +10594,9 @@
     "session_recovery:initiation:title": {
       "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hours": [
         "您可以在 ${ gracePeriodHoursRemaining } 小时内重置密码"
+      ],
+      "Request password reset?": [
+        "请求重置密码?"
       ]
     },
     "session_recovery:settings:action": {
@@ -10647,6 +10737,9 @@
       ],
       "Username": [
         "用户名"
+      ],
+      "Confirm password": [
+        "确认密码"
       ]
     },
     "Signup step": {
@@ -11181,6 +11274,9 @@
       ],
       "You have successfully unsubscribed": [
         "您已退订成功"
+      ],
+      "Server copied to clipboard": [
+        "服务器已复制"
       ]
     },
     "Success message": {
@@ -11260,6 +11356,9 @@
     "summer2023: Deal details": {
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
         "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
       ]
     },
     "summer2023: Tooltip": {
@@ -12279,6 +12378,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "诚邀您体验 ${ MAIL_APP_NAME }"
+      ],
+      "Set up a recovery method": [
+        "设置恢复方法"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -12973,6 +13075,11 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "Email Unsubscribe Categories": {
+      "${ allCategoryTitlesExceptTheLastOne } and ${ lastCategoryTitle }": [
+        "${ allCategoryTitlesExceptTheLastOne } 和 ${ lastCategoryTitle }"
       ]
     }
   }

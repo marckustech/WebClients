@@ -7934,6 +7934,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dein Abonnement wird von Mozilla verwaltet. Bitte kontaktiere den Mozilla-Support."
+      ],
+      "The ${ MAIL_APP_NAME } Export Tool lets you export decrypted emails from your ${ MAIL_APP_NAME } account to your device. You can then view the messages or import them into another email account or email client.": [
+        "Mit dem ${ MAIL_APP_NAME } Export Tool kannst du entschlüsselte E-Mails von deinem ${ MAIL_APP_NAME } Konto auf dein Gerät exportieren. Dann kannst du die Nachrichten ansehen oder sie in ein anderes E-Mail-Konto oder einen anderen E-Mail-Client importieren."
       ]
     },
     "info": {

@@ -3287,6 +3287,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Estás invitado a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta incidencia de ${ eventTitle } ha sido cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -12121,6 +12124,9 @@
     "session_recovery:settings:info": {
       "To disallow password reset, you must have a recovery method set up.": [
         "Para desactivar el restablecimiento de contraseña, debes configurar un método de recuperación."
+      ],
+      "To enhance the security of your account and protect your data, you can request a password reset from your account settings in the web application.": [
+        "Para mejorar la seguridad de tu cuenta y proteger tus datos, puedes solicitar un restablecimiento de contraseña desde los ajustes de tu cuenta en la aplicación web."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -14089,6 +14095,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Estás invitado a probar ${ MAIL_APP_NAME }."
+      ],
+      "Password reset settings": [
+        "Ajustes de restablecimiento de contraseña"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

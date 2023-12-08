@@ -1563,7 +1563,7 @@
         "Tilkoblingsproblem"
       ],
       "Contacts problem": [
-        "Kontakterproblem"
+        "Problem med kontakter"
       ],
       "Custom domain problem": [
         "Egendefinert domeneproblem"
@@ -1584,7 +1584,7 @@
         "E-postproblem"
       ],
       "Manual setup problem": [
-        "Manuelt oppsettsproblem"
+        "Problem med manuell installasjon"
       ],
       "Other": [
         "Annet"
@@ -1605,13 +1605,13 @@
         "Registreringsproblem"
       ],
       "Slow speed problem": [
-        "Problemer med lav hastighet"
+        "Problem med lav hastighet"
       ],
       "Speed problem": [
         "Hastighetsproblem"
       ],
       "Streaming problem": [
-        "Strømmeproblem"
+        "Problem med strømming"
       ],
       "Update problem": [
         "Problem med oppdatering"
@@ -1620,7 +1620,7 @@
         "VPN-problem"
       ],
       "Website access problem": [
-        "Tilgang til nettstedproblem"
+        "Problem med tilgang til nettsted"
       ]
     },
     "Button": {
@@ -4555,7 +4555,7 @@
         "Konfigurer familiegruppe"
       ],
       "Switch plans": [
-        "Bytte planer"
+        "Bytt plan"
       ],
       "View invitation": [
         "Se invitasjon"
@@ -4639,7 +4639,7 @@
         "Ventende invitasjoner"
       ],
       "Sorry, you can't switch plans at this time.": [
-        "Beklager, du kan ikke bytter planer på nåværende tidspunkt."
+        "Beklager, du kan ikke endre abonnementet på nåværende tidspunkt."
       ],
       "Storage assigned to you: ${ assignedStorage }": [
         "Lagringsplass tilordnet deg: ${ assignedStorage }"
@@ -8164,7 +8164,7 @@
         "Gå til innboks"
       ],
       "Go to Sent": [
-        "Gå til sendte"
+        "Gå til sendt"
       ],
       "Go to Spam": [
         "Gå til søppelpost"
@@ -10544,7 +10544,7 @@
         "Start å utforske ${ BRAND_NAME }-universet"
       ],
       "Switch plans?": [
-        "Bytte planer?"
+        "Bytte plan?"
       ],
       "Unlock premium features by upgrading": [
         "Lås opp premiumfunksjoner ved å oppgradere"
@@ -10922,7 +10922,7 @@
     },
     "Notification when": {
       "at time of event": [
-        "på tidspunktet for hendelse"
+        "på tidspunktet for hendelsen"
       ],
       "day before": [
         "dag før",

@@ -4153,6 +4153,9 @@
       ],
       "Zero keys reactivated": [
         "Chiavi zero riattivate"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Hai superato il limite di caratteri. Riduci il messaggio, per favore."
       ]
     },
     "Error importing calendar": {

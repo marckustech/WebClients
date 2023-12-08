@@ -792,6 +792,12 @@
       ],
       "Zoom out": [
         "Smanji"
+      ],
+      "Import from Outlook": [
+        "Uvoz iz Outlooka"
+      ],
+      "Select time zone": [
+        "Odaberite vremensku zonu"
       ]
     },
     "Action for user session": {
@@ -965,6 +971,12 @@
       ],
       "6 users": [
         "6 korisnika"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "bf2023: Info": {
@@ -2153,6 +2165,9 @@
       ],
       "Åland Islands": [
         "Ålandski otoci"
+      ],
+      "Tristan da Cunha": [
+        "Tristan da Cunha"
       ]
     },
     "CountryInfo": {
@@ -2729,6 +2744,12 @@
       ],
       "Your import will not be processed.": [
         "Vaš uvoz nije moguće obraditi."
+      ],
+      "Some of your folder names exceed ${ MAIL_APP_NAME }'s maximum character limit. Please customize the import to edit these names.": [
+        "Neki od vaših naziva mapa premašuju ${ MAIL_APP_NAME }ovo maksimalno ograničenje broja znakova. Prilagodite uvoz da biste uredili te nazive."
+      ],
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti."
       ]
     },
     "Error importing calendar": {
@@ -2743,6 +2764,9 @@
       ],
       "Your file ${ formattedFilename } is empty.": [
         "Vaša datoteka ${ formattedFilename } je prazna."
+      ],
+      "An error occurred uploading your file ${ formattedFilename }. Only ICS file formats are allowed.": [
+        "Došlo je do pogreške prilikom učitavanja vaše datoteke ${ formattedFilename }. Samo datoteke ICS formata su dopuštene."
       ]
     },
     "Error importing contact": {
@@ -2941,6 +2965,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Do 6 korisnika"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3312,6 +3345,9 @@
       ],
       "User": [
         "Korisnik"
+      ],
+      "Server load": [
+        "Opterećenje poslužitelja"
       ]
     },
     "Header for addresses table": {
@@ -3543,6 +3579,9 @@
     "Import provider": {
       "Other": [
         "Ostalo"
+      ],
+      "Import from ${ provider }": [
+        "Uvoz iz ${ provider }a"
       ]
     },
     "Import status": {
@@ -5417,6 +5456,12 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "SMTP server": [
+        "SMTP poslužitelj"
+      ],
+      "Start time": [
+        "Vrijeme početka"
       ]
     },
     "label": {
@@ -5601,6 +5646,9 @@
       ],
       "What’s this?": [
         "Što je ovo?"
+      ],
+      "Need help?": [
+        "Trebate pomoć?"
       ]
     },
     "Loading info": {
@@ -6439,6 +6487,9 @@
       ],
       "yourdomain.com": [
         "vasadomena.hr"
+      ],
+      "Printer": [
+        "Pisač"
       ]
     },
     "plan customizer, users": {
@@ -6788,6 +6839,15 @@
       ],
       "Secure streaming": [
         "Siguran streaming"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Link": {
@@ -6830,6 +6890,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardna cijena ${ amount } za 30 mjeseci"
+      ],
+      "Billed at ${ amount } for 12 months": [
+        "Naplaćeno ${ amount } za 12 mjeseci"
+      ],
+      "Billed at ${ amount } for 15 months": [
+        "Naplaćeno ${ amount } za 15 mjeseci"
+      ],
+      "Billed at ${ amount } for 24 months": [
+        "Naplaćeno ${ amount } za 24 mjeseca"
+      ],
+      "Billed at ${ amount } for 30 months": [
+        "Naplaćeno ${ amount } za 30 mjeseci"
       ]
     },
     "State": {
@@ -8384,6 +8456,24 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Import instructions": {
+      "Go to ${ boldAccountSecurity }.": [
+        "Idi na ${ boldAccountSecurity }"
+      ]
+    },
+    "specialoffer: Footer": {
+      "This subscription will automatically renew every 2 years at the same rate until it is cancelled.": [
+        "Ovaj se pretplatnički odnos automatski obnavlja svake dvije godine po istoj cijeni dok se ne otkaže."
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
       ]
     }
   }

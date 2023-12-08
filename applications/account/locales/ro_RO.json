@@ -3300,6 +3300,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Invitație la ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Desfășurarea evenimentului ${ eventTitle } a fost anulată."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4168,6 +4171,9 @@
       ],
       "Zero keys reactivated": [
         "Zero taste reactivate."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Ați atins numărul maxim de caractere. Scurtați mesajul."
       ]
     },
     "Error importing calendar": {

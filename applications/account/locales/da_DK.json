@@ -8855,6 +8855,9 @@
       ],
       "Your referral link": [
         "Dit henvisningslink"
+      ],
+      "Composer mode": [
+        "Skrivetilstand"
       ]
     },
     "label": {
@@ -8949,6 +8952,9 @@
     "Label to change composer mode": {
       "Normal": [
         "Normal"
+      ],
+      "Maximized": [
+        "Maksimeret"
       ]
     },
     "Label to change density": {

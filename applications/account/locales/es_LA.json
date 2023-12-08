@@ -3286,7 +3286,7 @@
         "${ eventTitle } ha sido actualizado.\n${ eventDetailsText }"
       ],
       "This occurrence of ${ eventTitle } has been canceled.": [
-        "Esta incidencia de ${ eventTitle } ha sido cancelada."
+        "Esta ocurrencia de ${ eventTitle } ha sido cancelada."
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Está invitado a ${ eventTitle }\n${ eventDetailsText }"
@@ -4153,6 +4153,9 @@
       ],
       "Zero keys reactivated": [
         "Ninguna clave reactivada"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Ha alcanzado el número máximo de caracteres, acorte su mensaje."
       ]
     },
     "Error importing calendar": {

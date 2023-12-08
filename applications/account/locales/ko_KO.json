@@ -6357,7 +6357,7 @@
         "${ BRAND_NAME } 계정 상세 정보를 입력하세요."
       ],
       "Enter your ${ BRAND_NAME } Account email address or username.": [
-        "${ BRAND_NAME } 계정 이메일 주소 및 사용자 이름을 입력하십시오."
+        "${ BRAND_NAME } 계정 이메일 주소 및 사용자 이름을 입력하세요."
       ],
       "Enter your own password (as organization admin).": [
         "자신의 비밀번호 입력 (조직 관리자와 같음)"
@@ -7806,7 +7806,7 @@
         "데이터 복구 방법이 설정되었습니다."
       ],
       "Your email will only be used for this one-time verification.": [
-        "귀하의 이메일 주소는 이번 인증에만 사용돼요."
+        "회원님의 이메일 주소는 이번 인증에만 사용됩니다."
       ],
       "Your existing messages, calendars, or contacts will be locked. To recover this data, you’ll need your ${ oldPassword }.": [
         "사용자의 존재하는 메시지, 캘린더 및 연락처가 잠깁니다. 이 데이터를 복구하려면, ${ oldPassword }가 필요합니다."

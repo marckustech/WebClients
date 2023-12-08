@@ -4132,6 +4132,9 @@
       ],
       "Zero keys reactivated": [
         "Tidak ada kunci yang diaktifkan ulang"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Anda telah mencapai batas jumlah karakter yang diperkenankan. Silakan persingkat isi pesan Anda."
       ]
     },
     "Error importing calendar": {

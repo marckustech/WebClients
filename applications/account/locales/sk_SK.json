@@ -12851,7 +12851,7 @@
         "URL kalendára"
       ],
       "To subscribe to an external or public calendar and its updates, enter the URL. A read-only version of the calendar will be added to your Other calendars.\n${ kbLink }": [
-        "Na odber externého alebo verejného kalendára a jeho aktualizácií zadajte jeho URL adresu. Jeho verzia na čítanie bude pridaná do vašich Ostatných kalendárov.\n${ kbLink }"
+        "Ak sa chcete prihlásiť na odber externého alebo verejného kalendára a jeho aktualizácií, zadajte URL adresu. Verzia kalendára len na čítanie sa pridá do vašich Ostatných kalendárov.\n${ kbLink }"
       ]
     },
     "Subscribe to calendar modal description": {

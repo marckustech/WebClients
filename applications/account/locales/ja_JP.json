@@ -1066,6 +1066,9 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Download the ${ MAIL_APP_NAME } Export Tool": [
+        "${ MAIL_APP_NAME } エクスポート ツールをダウンロード"
       ]
     },
     "action": {
@@ -1410,6 +1413,9 @@
       ],
       "The specially discounted price of ${ discountedPrice } is valid for the first month. Then it will automatically be renewed at ${ nextPrice } every month. You can cancel at any time.": [
         "特別割引価格 ${ discountedPrice } は最初の 1 か月間有効です。 その後、毎月 ${ nextPrice } で自動的に更新されます。 いつでもキャンセルできます。"
+      ],
+      "the first ${ n } months": [
+        "${ n } か月"
       ]
     },
     "bf2023: Title": {
@@ -3332,6 +3338,15 @@
       ],
       "Set up email forwarding": [
         "メール転送の設定"
+      ],
+      "Back": [
+        "戻る"
+      ],
+      "Next": [
+        "次へ"
+      ],
+      "Save": [
+        "保存"
       ]
     },
     "email_forwarding_2023: Description": {
@@ -5137,6 +5152,9 @@
       ],
       "User": [
         "ユーザー"
+      ],
+      "Action": [
+        "操作"
       ]
     },
     "Header for addresses table": {
@@ -5176,6 +5194,12 @@
     "Header for table": {
       "Actions": [
         "操作"
+      ],
+      "Email address": [
+        "メールアドレス"
+      ],
+      "Token name": [
+        "トークン名"
       ]
     },
     "Header; Table with list of calendars arranged by type": {
@@ -7691,6 +7715,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "あなたのサブスクリプションはMozillaによって管理されています。Mozillaのサポートへお問い合わせください。"
+      ],
+      "The ${ MAIL_APP_NAME } Export Tool lets you export decrypted emails from your ${ MAIL_APP_NAME } account to your device. You can then view the messages or import them into another email account or email client.": [
+        "${ MAIL_APP_NAME } エクスポート ツールを使用すると、復号化されたメールを ${ MAIL_APP_NAME } アカウントからデバイスにエクスポートできます。 その後、メッセージを表示したり、別の電子メール アカウントまたは電子メール クライアントにインポートしたりできます。"
       ]
     },
     "info": {
@@ -7832,11 +7859,29 @@
       ],
       "You can generate a new encryption key if you think your previous key has been compromised.": [
         "現在の鍵が侵害されたと思われる場合は、新しい暗号鍵を生成できます。"
+      ],
+      "Generate key": [
+        "キーの生成"
       ]
     },
     "Key state badge": {
       "Forwarding": [
         "転送"
+      ],
+      "Active": [
+        "アクティブ"
+      ],
+      "Disabled": [
+        "無効"
+      ],
+      "Inactive": [
+        "非アクティブ"
+      ],
+      "Obsolete": [
+        "廃止"
+      ],
+      "Primary": [
+        "プライマリー"
       ]
     },
     "Key type option": {
@@ -8058,6 +8103,9 @@
       ],
       "Mark not obsolete": [
         "廃止された印をはずす"
+      ],
+      "Mark obsolete": [
+        "廃止のマークを付ける"
       ]
     },
     "Knowledge base link label": {
@@ -10780,6 +10828,12 @@
       ],
       "The whole organization": [
         "組織全体"
+      ],
+      "Normal": [
+        "標準"
+      ],
+      "Permanent": [
+        "永続"
       ]
     },
     "Option delay send seconds": {
@@ -11267,6 +11321,12 @@
     "plan customizer, ips": {
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
         "プランに含める IP の数を選択します。 追加の IP ごとに ${ price } の費用がかかります。"
+      ],
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } 営業チームまでお問い合わせください。"
+      ],
+      "Should you need more than ${ maxIPs } IPs, ": [
+        "${ maxIPs } を超える IP が必要な場合は、 "
       ]
     },
     "plan customizer, users": {
@@ -13645,6 +13705,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } の試用に招待されました"
+      ],
+      "${ MAIL_APP_NAME } Export Tool": [
+        "${ MAIL_APP_NAME } エクスポート ツール"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14428,6 +14491,21 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "Label to change density": {
+      "Compact": [
+        "コンパクト"
+      ]
+    },
+    "Label to change view layout": {
+      "Column": [
+        "カラム"
+      ]
+    },
+    "Settings/labels": {
+      "Labels/Folders": [
+        "ラベル/フォルダー"
       ]
     }
   }

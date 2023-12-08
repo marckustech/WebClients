@@ -3287,6 +3287,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Vous êtes invité à ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Cette occurrence de ${ eventTitle } a été annulée."
       ]
     },
     "Email body for invitation (date part)": {
@@ -12823,7 +12826,7 @@
         "Les clés ont été mises à jour."
       ],
       "Link copied to clipboard": [
-        "Le lien est copié dans le presse-papiers."
+        "Le lien a été copié dans le presse-papiers."
       ],
       "Locale updated": [
         "La langue a été mise à jour."
@@ -14084,6 +14087,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Vous avez été invité à essayer ${ MAIL_APP_NAME }."
+      ],
+      "Password reset settings": [
+        "Paramètres de réinitialisation du mot de passe"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -14909,6 +14915,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "session_recovery:settings:info": {
+      "To disallow password reset, you must have a recovery method set up.": [
+        "Pour interdire la réinitialisation du mot de passe, vous devez disposer d'une méthode de récupération."
+      ],
+      "To enhance the security of your account and protect your data, you can request a password reset from your account settings in the web application.": [
+        "Pour renforcer la sécurité de votre compte et protéger vos données, vous pouvez demander une réinitialisation de votre mot de passe depuis les paramètres de votre compte dans l'application web."
       ]
     }
   }

@@ -14099,6 +14099,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Você foi convidado a experimentar o ${ MAIL_APP_NAME }."
+      ],
+      "Password reset settings": [
+        "Configurações de redefinição de senha"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

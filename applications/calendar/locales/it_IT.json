@@ -43,7 +43,7 @@
         "Aggiungi email"
       ],
       "Add group": [
-        "Aggiungi gruppo"
+        "Aggiungi un gruppo"
       ],
       "Add new contact": [
         "Aggiungi nuovo contatto"
@@ -250,7 +250,7 @@
         "Esporta gruppo di contatti"
       ],
       "Export contacts": [
-        "Esporta contatti"
+        "Esporta i contatti"
       ],
       "Forward as attachment": [
         "Inoltra come allegato"
@@ -680,10 +680,10 @@
         "Ritenta con un altro termine."
       ],
       "You don't have any contacts.": [
-        "Non hai nessun contatto."
+        "Non hai contatti."
       ],
       "You don't have any groups.": [
-        "Non hai nessun gruppo."
+        "Non hai gruppi."
       ]
     },
     "Addon": {
@@ -1078,7 +1078,7 @@
     },
     "Calendar subscription not synced error": {
       "Calendar could not be decrypted": [
-        "Impossibile decriptare il calendario"
+        "Impossibile decrittografare il calendario"
       ],
       "Calendar is syncing": [
         "Il calendario si sta sincronizzando"
@@ -1177,7 +1177,7 @@
         "rame"
       ],
       "enzian": [
-        "enzian"
+        "genziana"
       ],
       "fern": [
         "felce"
@@ -2191,7 +2191,7 @@
     },
     "Description": {
       "Decrypting contacts… This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
-        "Decriptazione dei contatti... Questa operazione potrebbe richiedere alcuni minuti. Al termine del processo, sarai in grado di scaricare il file con tutti i tuoi contatti esportati."
+        "Decrittografia dei contatti in corso. Questa operazione potrebbe richiedere alcuni minuti. Al termine del processo, potrai scaricare il file con tutti i tuoi contatti esportati."
       ],
       "Deleting contacts... This may take a few minutes. When the process is completed, you can close this modal.": [
         "Eliminando i contatti... Questo potrebbe richiedere qualche minuto. Quando il processo è completato, puoi chiudere questo modale."
@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puoi selezionare i contatti che non vuoi unire né mantenere per l'eliminazione.\nLa cancellazione avverrà solo dopo aver fatto clic sul pulsante Unisci"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Migliora l'efficienza e tieni traccia del tuo tempo classificando gli eventi per colore, in base alla categoria o alle tue energie. Ottieni questo e molto altro con un piano a pagamento."
       ]
     },
     "description": {
@@ -2306,6 +2309,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sei invitato a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Questa occorrenza di ${ eventTitle } è stata cancellata."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2926,6 +2932,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Hai bisogno di un calendario personale attivo per importare eventi"
+      ],
+      "App currently unavailable": [
+        "App attualmente non disponibile"
+      ],
+      "Open in browser": [
+        "Apri nel browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Per utilizzare ${ MAIL_APP_NAME } o ${ CALENDAR_APP_NAME }, passa alla versione web."
       ]
     },
     "Error notification": {
@@ -3690,7 +3705,7 @@
         "I partecipanti aggiunti e rimossi saranno notificati."
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
-        "La verifica dell’indirizzo con le chiavi attendibili è abilitata per questo indirizzo. Per poter inviare a questo indirizzo, prima considera attendibili le chiavi pubbliche che possono essere usate per l'invio."
+        "La verifica dell'indirizzo con le chiavi attendibili è abilitata per questo indirizzo. Per poter inviare a questo indirizzo, prima considera attendibili le chiavi pubbliche che possono essere usate per l'invio."
       ],
       "All (${ totalFoldersCount } folder)": [
         "Tutti (${ totalFoldersCount } cartella)",
@@ -3915,7 +3930,7 @@
         "Indicizzazione in pausa"
       ],
       "Inherited from parent folder": [
-        "Ereditato dalla cartella principale"
+        "Preso dalla cartella principale"
       ],
       "Internet connection lost": [
         "Connessione ad Internet interrotta"
@@ -4093,7 +4108,7 @@
         "Temporaneamente non disponibile. Sei pregato di ricontrollare in seguito."
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
-        "L'applicazione deve decriptare localmente i tuoi contatti prima di poterli esportare. Alla fine del processo, verrà generato un file VCF e sarai in grado di scaricarlo."
+        "L'applicazione deve decrittografare localmente i tuoi contatti prima di poterli esportare. Alla fine del processo verrà generato un file VCF che potrai scaricare."
       ],
       "The following participants cannot be notified about your changes:": [
         "I seguenti partecipanti non possono essere avvisati delle tue modifiche:"
@@ -4129,7 +4144,7 @@
         "Questo account è stato sospeso a causa di una potenziale violazione delle politiche."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Questo indirizzo è disabilitato. Per essere in grado di inviare a questo indirizzo il proprietario deve prima attivarlo."
+        "Questo indirizzo è disabilitato. Per poter inviare a questo indirizzo il proprietario deve prima abilitarlo."
       ],
       "This event has been updated by the organizer. Would you like to change your answer only for this occurrence in this series?": [
         "Questo evento è stato aggiornato dall'organizzatore. Vuoi modificare la tua risposta solo per questa occorrenza in questa serie?"
@@ -4346,6 +4361,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Il fuso orario di sistema sembra essere cambiato a ${ timezone }. Vuoi aggiornare la tua preferenza di fuso orario?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Tutti i partecipanti riceveranno un'email di cancellazione. Quale evento vorresti eliminare?"
+      ],
+      "Select a service provider to start": [
+        "Seleziona un fornitore di servizi per iniziare"
       ]
     },
     "Info calendar search": {
@@ -4462,7 +4483,7 @@
         "Aggiungi URL immagine"
       ],
       "Add to group": [
-        "Aggiungi ad un gruppo"
+        "Aggiungi a un gruppo"
       ],
       "All day": [
         "Tutto il giorno"
@@ -4591,7 +4612,7 @@
         "Titolo dell'evento"
       ],
       "Export contacts": [
-        "Esporta contatti"
+        "Esporta i contatti"
       ],
       "Extended address": [
         "Indirizzo completo"
@@ -4666,7 +4687,7 @@
         "Gestione delle categorie"
       ],
       "Move to Archive": [
-        "Sposta in archivio"
+        "Sposta nell'archivio"
       ],
       "Move to Inbox": [
         "Sposta nella posta in arrivo"
@@ -5198,6 +5219,16 @@
       ],
       "Up to 3 TB of storage": [
         "Fino a 3 TB di spazio di archiviazione"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendario",
+        "${ maximumNumberOfCalendars } calendari"
+      ],
+      "Calendar sharing": [
+        "Condivisione del calendario"
+      ],
+      "Custom snooze time": [
+        "Periodo di posticipazione personalizzato"
       ]
     },
     "new_plans: feature info": {
@@ -5212,6 +5243,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Usa l'indirizzo del tuo dominio email personalizzato, ad esempio tu@il-tuo-nome.it"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Posticipa i messaggi e ricevili quando vuoi"
       ]
     },
     "new_plans: label": {
@@ -5368,7 +5402,7 @@
         "${ value } settimane prima alle ${ time }"
       ],
       "At time of event": [
-        "All’ora dell’evento"
+        "Al momento dell'evento"
       ],
       "On the same day at ${ time }": [
         "Nello stesso giorno a ${ time }"
@@ -5426,6 +5460,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Usa il raccoglitore delle app in alto a sinistra per accedere a tutti i servizi di ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Scegli un tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Usa il raccoglitore delle app in alto a sinistra per accedere a tutti i servizi di ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } e ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Potrai cambiare il tema in qualsiasi momento dalle impostazioni."
       ]
     },
     "Option": {
@@ -5931,7 +5974,7 @@
         "Chiudi"
       ],
       "Don't show this offer again": [
-        "Non mostrare più quest’offerta"
+        "Non mostrare più quest'offerta"
       ],
       "Special offer": [
         "Offerta speciale"
@@ -6097,7 +6140,7 @@
         "Sconti di fine anno"
       ],
       "Upgrade and save more with 2 years of ${ planName }": [
-        "Effettua l’upgrade e risparmia ancora di più con 2 anni di ${ planName }"
+        "Effettua l'upgrade e risparmia ancora di più con 2 anni di ${ planName }"
       ]
     },
     "specialoffer: Tooltip": {
@@ -6144,6 +6187,12 @@
       ],
       "Search for events": [
         "Trova eventi"
+      ],
+      "Color-coding is here!": [
+        "La classificazione per colore è qui!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Con la classificazione degli eventi per colore, puoi risolvere il caos e conquistare la tua giornata."
       ]
     },
     "Storage": {
@@ -6805,6 +6854,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La tua prova gratuita di Mail Plus termina il giorno ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Aggiungi un po' di colore alla tua giornata"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6882,10 +6934,10 @@
         "Le sottocartelle di sistema verranno visualizzate come cartelle separate in ${ MAIL_APP_NAME }"
       ],
       "The image could not be loaded": [
-        "Impossibile caricare l’immagine"
+        "Impossibile caricare l'immagine"
       ],
       "The image could not be loaded using proxy": [
-        "Impossibile caricare l’immagine usando il proxy."
+        "Impossibile caricare l'immagine usando il proxy"
       ],
       "The import will start with the most recent messages.": [
         "L'importazione inizierà con i messaggi più recenti."
@@ -6976,7 +7028,7 @@
         "Le impostazioni di data e ora sul dispositivo non sono sincronizzate. ${ learnMore }"
       ],
       "The decryption of the encrypted content failed.": [
-        "Decriptazione del contenuto crittografato non riuscita."
+        "Decrittografia del contenuto crittografato non riuscita."
       ],
       "The verification of the contact details' signature failed.": [
         "La verifica della firma dei dati del contatto non è riuscita."
@@ -7243,6 +7295,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Colore selezionato:"
       ]
     }
   }

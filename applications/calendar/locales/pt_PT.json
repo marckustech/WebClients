@@ -642,6 +642,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contacto.",
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contactos."
+      ],
+      "Import from Google": [
+        "Importar do Google"
       ]
     },
     "Action subline": {
@@ -794,6 +797,21 @@
       ],
       "High speed streaming": [
         "Streaming de alta velocidade"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } de armazenamento"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Versão premium do gestor de palavras-passe"
       ]
     },
     "Bug category": {
@@ -990,7 +1008,7 @@
         "Não foi possível desencriptar o calendário."
       ],
       "Calendar is syncing": [
-        "Calendário a sincronizar"
+        "O calendário está a sincronizar."
       ],
       "Calendar is syncing: it may take several minutes for all of its events to show up.": [
         "O calendário está a sincronizar: a exibição de todos os eventos, poderá demorar vários minutos."
@@ -3663,7 +3681,7 @@
         "Contacto não atribuído ao grupo ${ contactGroupName }"
       ],
       "Copy the link to clipboard": [
-        "Copiar o \"link\" para a área de transferência"
+        "Copiar a ligação para a área de transferência"
       ],
       "Country code": [
         "Código de país"
@@ -4235,6 +4253,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Parece que o fuso horário do seu sistema mudou para ${ timezone }. Deseja atualizar a sua preferência de fuso horário?"
+      ],
+      "Select a service provider to start": [
+        "Selecione um provedor de serviços para iniciar"
       ]
     },
     "Info calendar search": {
@@ -4277,12 +4298,12 @@
     },
     "Info; reset calendar keys modal; part 3": {
       "You can recover your encrypted data with a recovery file, recovery phrase, or your old password.": [
-        "Pode recuperar os seus dados encriptados com um ficheiro ou frase de recuperação, ou com sua antiga palavra-passe."
+        "Pode recuperar os seus dados encriptados com um ficheiro ou frase de recuperação, ou com a sua antiga palavra-passe."
       ]
     },
     "Info; reshare calendar modal; part 1": {
       "Calendar sharing was disabled following your recent password reset.": [
-        "O partilhamento de calendário foi desabilitado após a sua redefinição de palavra-passe recente."
+        "A partilha de calendário foi desativada após a sua recente reposição da palavra-passe."
       ]
     },
     "Info; reshare calendar modal; part 2": {
@@ -4293,6 +4314,10 @@
     "Information about why calendar event cannot be saved": {
       "Creating invites in a shared calendar is not allowed": [
         "Não é permitido criar convites num calendário partilhado."
+      ],
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "É permitido no máximo ${ maxAttendees } participante por convite.",
+        "São permitidos no máximo ${ maxAttendees } participantes por convite."
       ]
     },
     "Input label": {
@@ -5083,6 +5108,13 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3 TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
+      ],
+      "Calendar sharing": [
+        "Partilha de calendário"
       ]
     },
     "new_plans: feature info": {
@@ -5125,7 +5157,7 @@
         "Erro ao adicionar o calendário de feriados"
       ],
       "Calendar added": [
-        "O calendário foi adicionado."
+        "Calendário adicionado"
       ],
       "Calendar updated": [
         "Calendário atualizado"
@@ -5702,7 +5734,7 @@
         "Reposição de palavra-passe pedida (${ user.Email }). Pode mudar a sua palavra-passe em ${ hoursRemaining } horas."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Para ter a certeza que é realmente você a tentar repor a sua palavra-passe, vamos esperar 72 horas antes de aprovar pedidos. Pode repor a sua palavra-passe em ${ boldTimeLeft }. ${ viewRequest }"
+        "Para termos a certeza de que é realmente o utilizador que está a tentar redefinir a sua palavra-passe, esperamos 72 horas antes de aprovar os pedidos. Pode alterar a sua palavra-passe em ${ boldTimeLeft }. ${ viewRequest }"
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Recebemos um pedido de reposição de palavra-passe para ${ boldEmail }."
@@ -7128,6 +7160,19 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantia de devolução do seu dinheiro em até 30 dias"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui o suporte para 1 domínio de e-mail personalizado, 10 endereços de e-mail, 10 aliases Hide-my-email, partilha de calendário e muito mais."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Proteja os seus ficheiros com armazenamento encriptado na nuvem. Inclui histórico de versões, partilha de ficheiros encriptados e muito mais."
       ]
     }
   }

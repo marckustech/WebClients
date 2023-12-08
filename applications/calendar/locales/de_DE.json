@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kannst Kontakte, die du weder zusammenführen noch behalten willst, zum Löschen vormerken. Das Löschen erfolgt erst, wenn du auf die Schaltfläche „Zusammenführen“ klickst."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Steigere deine Effizienz und verfolge deine Zeit, indem du Termine nach Kategorie oder Energielevel farblich kennzeichnest. Dies und vieles mehr erhältst du mit einem kostenpflichtigen Abonnement."
       ]
     },
     "description": {
@@ -2926,6 +2929,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Du musst einen aktiven persönlichen Kalender nutzen, um deine Termine importieren zu können"
+      ],
+      "App currently unavailable": [
+        "Die App ist derzeit nicht verfügbar."
+      ],
+      "Open in browser": [
+        "Im Browser öffnen"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Bitte wechsle zur Webversion, um ${ MAIL_APP_NAME } oder ${ CALENDAR_APP_NAME } zu verwenden."
       ]
     },
     "Error notification": {
@@ -4346,6 +4358,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Deine Systemzeitzone scheint sich auf ${ timezone } geändert zu haben. Möchtest du deine Zeitzoneneinstellung aktualisieren?"
+      ],
+      "Select a service provider to start": [
+        "Wähle einen Dienstanbieter, um anzufangen"
       ]
     },
     "Info calendar search": {
@@ -5198,6 +5213,16 @@
       ],
       "Up to 3 TB of storage": [
         "Bis zu 3 TB Speicherplatz"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } Kalender",
+        "${ maximumNumberOfCalendars } Kalender"
+      ],
+      "Calendar sharing": [
+        "Kalenderfreigabe"
+      ],
+      "Custom snooze time": [
+        "Eigene stumm Zeit"
       ]
     },
     "new_plans: feature info": {
@@ -5212,6 +5237,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Verwende deine eigenen E-Mail-Domain-Adressen, z. B. du@deinedomain.de"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Stumme die Nachricht und werde daran erinnert wann du möchtest"
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5454,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Verwende die App-Auswahl oben links, um auf alle ${ BRAND_NAME }-Dienste zuzugreifen: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } und ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Wähle ein Theme"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Verwende die App-Auswahl oben links, um auf alle ${ BRAND_NAME }-Dienste zuzugreifen: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } und ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Du kannst dein Farbschema jederzeit in den Einstellungen ändern."
       ]
     },
     "Option": {
@@ -6144,6 +6181,12 @@
       ],
       "Search for events": [
         "Nach Terminen suchen"
+      ],
+      "Color-coding is here!": [
+        "Die Farbanpassung ist da!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Mit anpassbaren Veranstaltungsfarben kannst du das Chaos einfärben und deinen Tag bewältigen."
       ]
     },
     "Storage": {
@@ -6805,6 +6848,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Deine kostenlose Testversion von Mail Plus endet am ${ textDate }."
+      ],
+      "Add some color to your day": [
+        "Bring etwas Farbe in deinen Tag"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7243,6 +7289,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Jährlich, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Ausgewählte Farbe:"
       ]
     }
   }

@@ -2262,6 +2262,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, ktoré nechcete zlúčiť ani zachovať, označte pre zmazanie. K zmazaniu dôjde po kliknutí na tlačidlo pre zlúčenie"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Zvýšte efektivitu a sledujte svoj čas pomocou farebného kódovania udalostí podľa kategórie alebo úrovne energie. Toto a oveľa viac získate s plateným plánom."
       ]
     },
     "description": {
@@ -2493,10 +2496,10 @@
         "Emailová adresa nie je platná"
       ],
       "Ends on date cannot be empty": [
-        "Konce dátumov nemôžu byť prázdne"
+        "Dátum ukončenia nemôže byť prázdny"
       ],
       "Ends on date must be after start time": [
-        "Koniec dátumu musí byť po dátume začiatku"
+        "Dátum ukončenia musí byť po dátume začiatku"
       ],
       "Enter 6 digits": [
         "Zadajte 6 číslic"
@@ -2514,7 +2517,7 @@
         "Nepodarilo sa získať udalosť"
       ],
       "Failed to get original occurrence in series": [
-        "Nepodarilo sa získať originál výskytov v sérii"
+        "Nepodarilo sa získať pôvodný výskyt v sérii"
       ],
       "First name is too long": [
         "Meno je príliš dlhé"
@@ -2604,7 +2607,7 @@
         "Žiadny WKD kľúč pre užívateľov nie je platný pre odosielanie"
       ],
       "Not a ${ BRAND_NAME } account": [
-        "Nejde o ${ BRAND_NAME } účet"
+        "Nie je ${ BRAND_NAME } účet"
       ],
       "Not a valid number": [
         "Neplatné číslo"
@@ -2986,6 +2989,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Na import udalostí potrebujete aktívny osobný kalendár"
+      ],
+      "App currently unavailable": [
+        "Aplikácia momentálne nie je k dispozícii"
+      ],
+      "Open in browser": [
+        "Otvoriť v prehliadači"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pre použitie ${ MAIL_APP_NAME } alebo ${ CALENDAR_APP_NAME }, prejdite na webovú verziu."
       ]
     },
     "Error notification": {
@@ -3848,10 +3860,10 @@
         "a"
       ],
       "Anyone with this link can see all the event details of this calendar such as title, location or participants.": [
-        "Kdokoľvek s týmto odkazom uvidí všetky podrobnosti udalostí v tomto kalendári, ako je názov, umiestnenie alebo účastníci."
+        "Ktokoľvek s týmto odkazom môže vidieť všetky podrobnosti o podujatí v tomto kalendári, ako je názov, miesto alebo účastníci."
       ],
       "Anyone with this link can see whether you’re free or busy on your calendar. They can’t see event details, such as title, location, or participants.": [
-        "Ktokoľvek s týmto odkazom uvidí, či ste vo vašom kalendári voľný alebo zaneprázdnený. Neuvidia podrobnosti o udalostiach, ako je názov, umiestnenie alebo účastníkov."
+        "Ktokoľvek s týmto odkazom môže vidieť, či ste voľní alebo zaneprázdnení vo vašom kalendári. Nemôže však vidieť podrobnosti o udalostiach, ako napríklad názov, miesto alebo účastníkov."
       ],
       "Are you sure you want to discard your import?": [
         "Naozaj chcete zahodiť váš import?"
@@ -3866,7 +3878,7 @@
         "Pred vyžiadaním nového overovacieho kódu skontrolujte priečinok spam a skontrolujte, či je adresa ${ strong } správna."
       ],
       "By sharing the full event details of this calendar, you accept to grant ${ BRAND_NAME } access to this calendar's encrypted information.": [
-        "Zdieľaním úplných údajov o udalostiach tohto kalendára súhlasíte s udelením prístupu ${ BRAND_NAME } Protonu k šifrovaným informáciam tohto kalendára."
+        "Zdieľaním úplných údajov o udalosti tohto kalendára súhlasíte s udelením prístupu ${ BRAND_NAME } k zašifrovaným informáciám tohto kalendára."
       ],
       "Calendar side panel": [
         "Bočný panel kalendára"
@@ -4187,7 +4199,7 @@
         "Prosím, počkajte kým zistíme kontakty, ktoré zahŕňajú šifrované dáta s neaktívnym kľúčom."
       ],
       "Previous modifications on this series will be lost.": [
-        "Predošlé úpravy tejto série budú stratené."
+        "Predchádzajúce úpravy tejto série sa stratia."
       ],
       "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
         "Cena zahŕňa všetky príslušné zľavy na základe cyklu a kupóny, ktorých platnosť nie je ukončená, uložené vo vašom účte."
@@ -4274,7 +4286,7 @@
         "Táto adresa nie je povolená. Ak chcete odosielať správy na túto adresu, musí ju majiteľ najskôr povoliť."
       ],
       "This event has been updated by the organizer. Would you like to change your answer only for this occurrence in this series?": [
-        "Táto udalosť bola aktualizovaná organizátorom. Chcete zmeniť svoju odpoveď iba pre tento výskyt v tejto sérii?"
+        "Táto udalosť bola aktualizovaná organizátorom. Chcete zmeniť svoju odpoveď len pre túto udalosť v tejto sérii?"
       ],
       "This event has been updated by the organizer. Would you like to delete this event?": [
         "Táto udalosť bola aktualizovaná organizátorom. Chcete túto udalosť zmazať?"
@@ -4361,7 +4373,7 @@
         "Chceli by ste napriek tomu pokračovať?"
       ],
       "Would you like to delete all the events in this series?": [
-        "Chcete zmazať všetky udalosti v tomto rade?"
+        "Chcete vymazať všetky udalosti z tejto série?"
       ],
       "Would you like to delete the event anyway?": [
         "Skutočne chcete udalosť vymazať?"
@@ -4379,7 +4391,7 @@
         "Prajete si aktualizovať všetky udalosti v tejto sérii?"
       ],
       "Would you like to update this event?": [
-        "Prajete si aktualilzovať udalosť?"
+        "Prajete si aktualizovať túto udalosť?"
       ],
       "Yearly": [
         "Ročne"
@@ -4466,7 +4478,7 @@
         "Vaša adresa je zablokovaná. Účastníkom udalosti nie je možné zaslať email o zrušení. Chcete všetky udalosti v tejto sérii napriek tomu zmazať?"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete this event anyway?": [
-        "Vaša adresa je zablokovaná. Účastníkom udalosti nie je možné zaslať email o zrušení. Chcete všetky udalosti v tejto sérii napriek tomu zmazať?"
+        "Vaša adresa je vypnutá. Účastníkom podujatia nie je možné zaslať email o zrušení podujatia. Chcete túto udalosť aj tak vymazať?"
       ],
       "Your data is ready to import from ${ importedEmailAddressStrong } to your ${ BRAND_NAME } account.": [
         "Vaše údaje sú pripravené na import z ${ importedEmailAddressStrong } do vášho účtu ${ BRAND_NAME }."
@@ -4488,6 +4500,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá sa, že vaše systémové časové pásmo sa zmenilo na ${ timezone }. Chcete aktualizovať nastavenia časového pásma?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Všetci účastníci dostanú email o zrušení udalosti. Ktorú udalosť chcete vymazať?"
+      ],
+      "Select a service provider to start": [
+        "Vyberte poskytovateľa služieb a začnite"
       ]
     },
     "Info calendar search": {
@@ -5127,7 +5145,7 @@
     },
     "Modal for received invitation to share calendar; text": {
       "${ calendarOwnerDisplayName } shared their calendar ${ boldCalendarName } with you.": [
-        "${ calendarOwnerDisplayName } s vami zdieľal/a svoj kalendár ${ boldCalendarName }."
+        "${ calendarOwnerDisplayName } s vami zdieľa svoj kalendár ${ boldCalendarName }."
       ]
     },
     "Modal for received invitation to share calendar; Title": {
@@ -5149,7 +5167,7 @@
         "Upraviť kalendár"
       ],
       "Get a country's official public holidays calendar.": [
-        "Získajte oficiálny kalendár štátnych sviatkov krajín."
+        "Získajte oficiálny kalendár sviatkov danej krajiny."
       ],
       "How to import calendars from another service": [
         "Ako importovať kalendáre z inej služby"
@@ -5360,6 +5378,18 @@
       ],
       "Up to 3 TB of storage": [
         "Až do 3 TB úložiska"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendár",
+        "${ maximumNumberOfCalendars } kalendáre",
+        "${ maximumNumberOfCalendars } kalendárov",
+        "${ maximumNumberOfCalendars } kalendárov"
+      ],
+      "Calendar sharing": [
+        "Zdieľanie kalendára"
+      ],
+      "Custom snooze time": [
+        "Vlastný čas odloženia"
       ]
     },
     "new_plans: feature info": {
@@ -5374,6 +5404,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Použite svoju vlastnú emailovú doménovú adresu, napr. vy@vasemeno.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odložte správy a pripomeňte si ich, keď chcete"
       ]
     },
     "new_plans: label": {
@@ -5630,6 +5663,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Pomocou výberu aplikácií v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vyberte si tému"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Výberom aplikácie v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Tému môžete kedykoľvek zmeniť v nastaveniach."
       ]
     },
     "Option": {
@@ -5767,7 +5809,7 @@
         "Pridať účastníkov"
       ],
       "Add title": [
-        "Pridať titul"
+        "Pridať názov"
       ],
       "E.g., ": [
         "Napr., "
@@ -6394,6 +6436,12 @@
       ],
       "Search for events": [
         "Vyhľadajte udalosti"
+      ],
+      "Color-coding is here!": [
+        "Farebné označovanie je tu!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Pomocou prispôsobiteľných farieb udalostí môžete farebne rozlíšiť chaos a ovládnuť svoj deň."
       ]
     },
     "Storage": {
@@ -6412,7 +6460,7 @@
         "URL kalendára"
       ],
       "To subscribe to an external or public calendar and its updates, enter the URL. A read-only version of the calendar will be added to your Other calendars.\n${ kbLink }": [
-        "Na odber externého alebo verejného kalendára a jeho aktualizácií zadajte jeho URL adresu. Jeho verzia na čítanie bude pridaná do vašich Ostatných kalendárov.\n${ kbLink }"
+        "Ak sa chcete prihlásiť na odber externého alebo verejného kalendára a jeho aktualizácií, zadajte URL adresu. Verzia kalendára len na čítanie sa pridá do vašich Ostatných kalendárov.\n${ kbLink }"
       ]
     },
     "Subscribe to calendar modal description": {
@@ -6428,7 +6476,7 @@
         "${ countMergeableContacts } kontaktov vyzerá rovnako."
       ],
       "A cancellation email will be sent to removed participants for all the events in this series.": [
-        "Odobraným účastníkom bude zaslaný email o zrušení všetkých akcií v tejto sérii."
+        "Odobraným účastníkom bude zaslaný email o zrušení všetkých udalostí v tejto sérii."
       ],
       "Address copied to clipboard": [
         "Adresa bola skopírovaná do schránky"
@@ -6443,7 +6491,7 @@
         "Pozvánka bude zaslaná pridaným účastníkom na všetky udalosti v tejto sérii."
       ],
       "Answer sent and all events deleted": [
-        "Odpoveď bola odoslaná a všetky udalosti zmazané"
+        "Odpoveď bola odoslaná a všetky udalosti boli vymazané"
       ],
       "Answer sent and event deleted": [
         "Odpoveď bola odoslaná a udalosť bola vymazaná"
@@ -6452,7 +6500,7 @@
         "Chyba nahlásená"
       ],
       "Calendar added. It might take a few minutes to sync.": [
-        "Kalendár je vytvorený. Synchronizácia zaberie pár minút."
+        "Kalendár je pridaný. Synchronizácia zaberie pár minút."
       ],
       "Calendar created": [
         "Kalendár bol vytvorený"
@@ -6467,7 +6515,7 @@
         "Prebieha zrušenie importu"
       ],
       "Cancellation sent and all events deleted": [
-        "Zrušenie odoslané a všetky udalosti zmazané"
+        "Zrušenie odoslané a všetky udalosti boli zmazané"
       ],
       "Cancellation sent and event deleted": [
         "Oznámenie o zrušení bolo odoslané a udalosť bola vymazaná"
@@ -6518,7 +6566,7 @@
         "Odtlačok skopírovaný do schránky"
       ],
       "Future events deleted": [
-        "Budúce udalosti zmazané"
+        "Budúce udalosti boli zmazané"
       ],
       "Future events updated": [
         "Budúce udalosti aktualizované"
@@ -6527,7 +6575,7 @@
         "Záznam o importe bol zmazaný"
       ],
       "Invitation sent and all events updated": [
-        "Pozvánka bola odoslaná a všetky udalosti aktualizované"
+        "Pozvánka bola odoslaná a všetky udalosti boli aktualizované"
       ],
       "Invitation sent and event created": [
         "Pozvánka bola odoslaná a udalosť vytvorená"
@@ -6539,7 +6587,7 @@
         "Pozvánka bola odoslaná a účastníci pridaní"
       ],
       "Invitation sent and participants added to all events": [
-        "Pozvánka odoslaná a účastníci pridanie ku všetkým udalostiam"
+        "Pozvánka bola odoslaná a účastníci boli pridaní do všetkých udalostí"
       ],
       "Participants notified and all events updated": [
         "Účastníci boli upozornení a všetky udalosti aktualizované"
@@ -6548,10 +6596,10 @@
         "Účastníci boli upozornení a zmeny uložené"
       ],
       "Participants notified and event updated": [
-        "Účastníci boli upozornení a udalosť aktualizovaná"
+        "Účastníci boli upozornení a udalosť bola aktualizovaná"
       ],
       "Participation status updated": [
-        "Status účasti bol aktualizovaný"
+        "Stav účasti bol aktualizovaný"
       ],
       "Participation status updated for all events": [
         "Stav účasti bol aktualizovaný pre všetky udalosti"
@@ -7083,6 +7131,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Dodajte svojmu dňu trochu farby"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7587,6 +7638,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Vybraná farba:"
       ]
     }
   }

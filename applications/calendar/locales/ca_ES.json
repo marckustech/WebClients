@@ -34,7 +34,7 @@
         "Afegeix una adreça"
       ],
       "Add birthday": [
-        "Afegir una data de naixement"
+        "Afegeix una data de naixement"
       ],
       "Add contact": [
         "Afegeix un contacte"
@@ -319,7 +319,7 @@
         "Importa des de Google"
       ],
       "Import from Outlook": [
-        "Importa des de Outlook"
+        "Importa des d'Outlook"
       ],
       "Join calendar": [
         "Uneix-me al calendari"
@@ -400,7 +400,7 @@
         "No, gràcies"
       ],
       "Ok": [
-        "OK"
+        "D'acord"
       ],
       "OK": [
         "D'acord"
@@ -454,13 +454,13 @@
         "refresca la pàgina"
       ],
       "Remove": [
-        "Suprimeix"
+        "Esborra"
       ],
       "Remove this notification": [
-        "Elimina aquesta notificació"
+        "Esborra aquesta notificació"
       ],
       "Remove this participant": [
-        "Eliminar aquest participant"
+        "Esborra aquest participant"
       ],
       "Report a problem": [
         "Notifica un problema"
@@ -490,7 +490,7 @@
         "Cerca països"
       ],
       "See how": [
-        "Mira com"
+        "Veieu com"
       ],
       "See plan features": [
         "Mostra les característiques del pla"
@@ -814,7 +814,7 @@
         "Bloquejador d'anuncis i publicitat i protecció contra programari maliciós"
       ],
       "All paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Totes les funcions de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
+        "Totes les característiques de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
       ],
       "Extended version history": [
         "Historial de versions ampliat"
@@ -850,7 +850,7 @@
     },
     "bf2023: Tooltip": {
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+ i Prime Video i més des de qualsevol lloc."
+        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+, Prime Video i altres des de qualsevol lloc."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 1 domini de correu electrònic personalitzat, 10 adreces de correu electrònic, 10 àlies hide-my-email, compartició de calendari i més."
@@ -863,7 +863,7 @@
         "Protegiu els vostres fitxers amb emmagatzematge xifrat al núvol. Inclou, entre d'altres, historial de versions i compartició de fitxers xifrats."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "NetShield, dissenyat especialment, protegeix els vostres dispositius i accelera la navegació bloquejant anuncis, rastrejadors i programari maliciós."
+        "NetShield, dissenyat especialment, protegeix els vostres dispositius i accelera la navegació en bloquejar anuncis, rastrejadors i programari maliciós."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "L'espai d'emmagatzematge està compartit entre totes les aplicacions de ${ BRAND_NAME }."
@@ -994,7 +994,7 @@
     },
     "Calendar permissions hint": {
       "You can change or remove permissions at any time.": [
-        "Podeu canviar o eliminar permisos en qualsevol moment."
+        "Podeu canviar o esborrar permisos en qualsevol moment."
       ]
     },
     "Calendar permissions label": {
@@ -2197,7 +2197,7 @@
         "Això pot trigar uns minuts. Mentrestant, podeu continuar utilitzant el calendari com de costum."
       ],
       "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
-        "Per Importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
+        "Per a importar els vostres contactes de Google o Outlook, ${ easySwitchLink }"
       ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Arrossegueu i solteu per a classificar la prioritat de combinació entre els contactes. Desmarqueu els contactes que no vulgueu combinar."
@@ -2568,7 +2568,7 @@
         "Arregleu els conflictes ressaltats per continuar."
       ],
       "Please provide either a first name, a last name or a display name": [
-        "Proporcioneu un nom , un cognom o un nom a mostrar."
+        "Proporcioneu un nom, un cognom o un nom per a mostrar."
       ],
       "Port is required": [
         "Es requereix el port"
@@ -2586,8 +2586,8 @@
         "La clau principal obtinguda per a l'usuari de ${ BRAND_NAME } no és vàlida per a l'enviament"
       ],
       "Removed duplicate recipient: ${ joinedRecipients }": [
-        "Destinatari duplicat eliminat: ${ joinedRecipients }",
-        "Destinataris duplicats eliminats: ${ joinedRecipients }"
+        "Destinatari duplicat esborrat: ${ joinedRecipients }",
+        "Destinataris duplicats esborrats: ${ joinedRecipients }"
       ],
       "Request timed out": [
         "S'ha esgotat el temps d'espera"
@@ -2905,6 +2905,12 @@
       ],
       "You need an active personal calendar to import events": [
         "Necessiteu tenir un calendari personal actiu per importar esdeveniments"
+      ],
+      "App currently unavailable": [
+        "L'aplicació no està disponible actualment."
+      ],
+      "Open in browser": [
+        "Obre al navegador"
       ]
     },
     "Error notification": {
@@ -3648,7 +3654,7 @@
         "(${ memberCount } membres)"
       ],
       "A cancellation email will be sent to removed participants.": [
-        "Tots els participants eliminats rebran un correu electrònic de cancel·lació."
+        "Tots els participants esborrats rebran un correu electrònic de cancel·lació."
       ],
       "A cancellation email will be sent to the event participants. Would you like to delete all events in this series?": [
         "Un correu electrònic serà enviat als participants de l'esdeveniment. Voleu esborrar tots els esdeveniments de la sèrie?"
@@ -3663,10 +3669,10 @@
         "L'accés al compte està restringit a causa de factures impagades. Contacteu amb el vostre administrador."
       ],
       "Added and removed participants will be notified about all the events in this series.": [
-        "Els participants afegits o eliminats seran notificats de tots els esdeveniments d'aquesta sèrie."
+        "Els participants afegits o esborrats seran notificats de tots els esdeveniments d'aquesta sèrie."
       ],
       "Added and removed participants will be notified.": [
-        "Els participants afegits i els suprimits seran notificats."
+        "Els participants afegits i els esborrats seran notificats."
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
         "La verificació d'adreça amb claus de confiança està habilitada per a aquesta adreça. Per tal de poder enviar a aquesta adreça, verifiqueu la confiança en les claus públiques que es poden utilitzar per enviar."
@@ -3717,7 +3723,7 @@
         "Panell lateral del calendari"
       ],
       "Can't find the events you're looking for? Some events in hidden calendars match your query. To see those results, turn on visibility for ${ hiddenWithItemsCalendarList }.": [
-        "No es pot trobar els esdeveniments que esteu buscant? Alguns esdeveniments en els calendaris ocults coincideixen amb la vostra consulta. Per veure aquests resultats, activeu la visibilitat per ${ hiddenWithItemsCalendarList }."
+        "No es poden trobar els esdeveniments que esteu buscant? Alguns esdeveniments en els calendaris ocults coincideixen amb la vostra consulta. Per veure aquests resultats, activeu la visibilitat per a ${ hiddenWithItemsCalendarList }."
       ],
       "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
         "No podeu recordar la vostra contrasenya? Us podem ajudar a netejar les dades xifrades de tots els contactes xifrats amb aquesta clau i en el procés desactivar l'alerta."
@@ -3842,10 +3848,10 @@
         "Els participants existents i els afegits seran notificats."
       ],
       "Existent and removed participants will be notified.": [
-        "Els participants existents i eliminats seran notificats."
+        "Els participants existents i esborrats seran notificats."
       ],
       "Existent, added and removed participants will be notified.": [
-        "Els participants existents, els afegits i els suprimits seran notificats."
+        "Els participants existents, els afegits i els esborrats seran notificats."
       ],
       "Free up some space or add more storage space.": [
         "Allibereu una mica d’espai o afegiu més espai d’emmagatzematge."
@@ -3888,10 +3894,10 @@
         "Important les vostres dades des de ${ importedEmailAddress } a ${ toEmail }."
       ],
       "Indexing events: ${ current }/${ total }": [
-        "Indexació d'esdeveniments: ${ current }/${ total }"
+        "S'estan indexant esdeveniments: ${ current }/${ total }"
       ],
       "Indexing paused": [
-        "Indexació pausada"
+        "S'ha posat en pausa la indexació"
       ],
       "Inherited from parent folder": [
         "Heretat d'una carpeta principal"
@@ -4005,7 +4011,7 @@
         "Proporcioneu un nom i una adreça de correu electrònic per crear un grup."
       ],
       "Please remove the duplicates and try again.": [
-        "Suprimiu els duplicats i proveu de nou."
+        "Esborreu els duplicats i proveu de nou."
       ],
       "Please select the folders you would like to import:": [
         "Seleccioneu les carpetes que voleu importar:"
@@ -4039,7 +4045,7 @@
         "Refrescar la pàgina o ${ link } resoldrà automàticament la majoria dels problemes."
       ],
       "Removed participants will be notified.": [
-        "Els participants suprimits seran notificats."
+        "Els participants esborrats seran notificats."
       ],
       "Select the email format you want to be used by default when sending an email to this email address.": [
         "Seleccioni el format de correu electronic que vols fer us per defecte quan enviis un correu electronic a aquesta direcció."
@@ -4258,7 +4264,7 @@
         "Perdreu tots els canvis sense desar."
       ],
       "You will update all the events in this series. Added and removed participants will be notified.": [
-        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants afegits i eliminats seran notificats."
+        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants afegits i esborrats seran notificats."
       ],
       "You will update all the events in this series. An invitation will be sent to the event participants.": [
         "Actualitzareu tots els esdeveniments d'aquesta sèrie. S'enviarà una invitació als participants de l'esdeveniment."
@@ -4267,13 +4273,13 @@
         "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants actuals i afegits seran notificats."
       ],
       "You will update all the events in this series. Existent and removed participants will be notified.": [
-        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants actuals i afegits seran notificats."
+        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants actuals i esborrats seran notificats."
       ],
       "You will update all the events in this series. Existent, added and removed participants will be notified.": [
-        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants actuals, afegits i eliminats seran notificats."
+        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants actuals, afegits i esborrats seran notificats."
       ],
       "You will update all the events in this series. Removed participants will be notified.": [
-        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants suprimits seran notificats."
+        "Actualitzareu tots els esdeveniments d'aquesta sèrie. Els participants esborrats seran notificats."
       ],
       "You've reached the maximum number of addresses in the contact group(s):": [
         "Heu assolit el nombre màxim d'adreces en el grup o els grups de contactes:"
@@ -4322,6 +4328,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sembla que el fus horari del sistema ha canviat a ${ timezone }. Voleu actualitzar la vostra preferència de fus horari?"
+      ],
+      "Select a service provider to start": [
+        "Seleccioneu un proveïdor de serveis per començar"
       ]
     },
     "Info calendar search": {
@@ -4721,7 +4730,7 @@
         "Mostra la contrasenya"
       ],
       "Secondary": [
-        "Secondari"
+        "Secundari"
       ],
       "Secondary time zone": [
         "Fus horari secundari"
@@ -4817,10 +4826,10 @@
     },
     "Limit of calendars reached": {
       "To add a new calendar, remove an existing one.": [
-        "Per a afegir un nou calendari, suprimiu-ne un d'existent."
+        "Per a afegir un nou calendari, esborreu-ne un d'existent."
       ],
       "To add a new calendar, remove another calendar or upgrade your ${ BRAND_NAME } plan to a ${ MAIL_SHORT_APP_NAME } paid plan.": [
-        "Per afegir un nou calendari, suprimiu-ne un altre o milloreu el vostre pla de ${ BRAND_NAME } a un pla de pagament de ${ MAIL_SHORT_APP_NAME }."
+        "Per afegir un nou calendari, esborreu-ne un altre o milloreu el vostre pla de ${ BRAND_NAME } a un pla de pagament de ${ MAIL_SHORT_APP_NAME }."
       ],
       "You've reached the maximum number of calendars available in your plan.": [
         "Heu assolit el nombre màxim de calendaris disponibles amb el vostre pla."
@@ -5174,6 +5183,16 @@
       ],
       "Up to 3 TB of storage": [
         "Fins a 3 TB d'emmagatzematge"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendari",
+        "${ maximumNumberOfCalendars } calendaris"
+      ],
+      "Calendar sharing": [
+        "Compartició de calendari"
+      ],
+      "Custom snooze time": [
+        "Períodes de posposició personalitzats"
       ]
     },
     "new_plans: feature info": {
@@ -5402,6 +5421,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Escolliu un tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Option": {
@@ -5549,7 +5574,7 @@
         "URL de la imatge"
       ],
       "Indexing...": [
-        "Indexació..."
+        "S'està indexant..."
       ],
       "Last name": [
         "Cognom"
@@ -5710,7 +5735,7 @@
         "S'ha aprovat la sol·licitud de restabliment de la contrasenya ( ${ user.Email } ). Teniu ${ timeRemaining.inHours } hores per a restablir la vostra contrasenya."
       ],
       "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
-        "Aneu a l'aparell connectat (a la sessió on es va iniciar la sol·licitud) per canviar la vostra contrasenya."
+        "Aneu al dispositiu en què heu iniciat la sessió (en la qual es va iniciar la sol·licitud) per canviar la vostra contrasenya."
       ],
       "This permission expires in ${ timeRemaining.inDays } day": [
         "Aquest permís caduca en ${ timeRemaining.inDays } dia.",
@@ -5726,7 +5751,7 @@
     },
     "session_recovery:available:link": {
       "See how": [
-        "Mira com"
+        "Veieu com"
       ]
     },
     "session_recovery:available:notification": {
@@ -5736,17 +5761,17 @@
     },
     "session_recovery:available:title": {
       "Reset your password": [
-        "Restableix la contrasenya"
+        "Restabliu la contrasenya"
       ]
     },
     "session_recovery:cancellation:action": {
       "Cancel password reset": [
-        "Cancel·la el restabliment de contrasenya"
+        "Cancel·la el restabliment de la contrasenya"
       ]
     },
     "session_recovery:cancellation:info": {
       "Enter your current password to cancel the password reset process. No other changes will take effect.": [
-        "Introduïu la vostra contrasenya actual per cancel·lar el procés de restabliment de contrasenya. No es tindran en compte cap altre canvi."
+        "Introduïu la vostra contrasenya actual per cancel·lar el procés de restabliment de contrasenya. Cap altre canvi tindrà efecte."
       ]
     },
     "session_recovery:cancellation:notification": {
@@ -5756,17 +5781,17 @@
     },
     "session_recovery:cancellation:title": {
       "Cancel password reset?": [
-        "Cancel·la el restabliment de contrasenya?"
+        "Voleu cancel·lar el restabliment de la contrasenya?"
       ]
     },
     "session_recovery:cancelled:info": {
       "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
-        "S'ha cancel·lat la sol·licitud de restabliment de contrasenya (${ user.Email }). Si no heu sol·licitat aquesta sol·licitud, ${ changePasswordLink }."
+        "S'ha cancel·lat la sol·licitud de restabliment de contrasenya (${ user.Email }). Si no heu fet aquesta sol·licitud, ${ changePasswordLink }."
       ]
     },
     "session_recovery:cancelled:link": {
       "change your password now": [
-        "canvieu la vostra contrasenya ara"
+        "canvieu la vostra contrasenya"
       ]
     },
     "session_recovery:in_progress:action": {
@@ -5786,14 +5811,14 @@
         "${ gracePeriodHoursRemaining } hores més"
       ],
       "If you didn’t ask to reset your password, cancel this request now.": [
-        "Si no heu demanat restablir la teva contrasenya, cancel·leu aquesta sol·licitud ara mateix."
+        "Si no heu demanat restablir la contrasenya, cancel·leu aquesta sol·licitud."
       ],
       "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hora.",
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hores."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Per assegurar-nos que sou vosaltres qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la vostra contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
+        "Per a assegurar-nos que sou vós qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Hem rebut una sol·licitud de restabliment de contrasenya per a ${ boldEmail }."
@@ -5823,7 +5848,7 @@
         "${ gracePeriodHoursRemaining } hores"
       ],
       "${ passwordReset } is now available.": [
-        "${ passwordReset } ara està disponible."
+        "${ passwordReset } està disponible."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
         "Si tanqueu la sessió abans de restablir la contrasenya, podríeu perdre l'accés al vostre compte."
@@ -5842,7 +5867,7 @@
     },
     "session_recovery:sign_out:title": {
       "Sign out without password reset?": [
-        "Tancar la sessió sense restabliment de contrasenya?"
+        "Voleu tancar la sessió sense restablir la contrasenya?"
       ]
     },
     "Settings update growler warning": {
@@ -6081,13 +6106,13 @@
         "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de retransmissió a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de retransmissió a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de streaming a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere.": [
         "Accediu al contingut dels serveis de retransmissió, com ara Netflix, Disney+ i Prime Video, des de qualsevol lloc."
       ],
       "All our premium services with their highest limits: 100 email addresses, support for 10 custom domains, unlimited hide-my-email aliases, calendar sharing, encrypted cloud storage and file sharing, and more.": [
-        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, i més."
+        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, etc."
       ],
       "Includes support for 3 custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 3 dominis de correu electrònic personalitzats, 15 adreces de correu electrònic, àlies il·limitats de hide-my-email, compartició de calendari i més."
@@ -6120,6 +6145,9 @@
       ],
       "Search for events": [
         "Cerca esdeveniments"
+      ],
+      "Color-coding is here!": [
+        "Podeu utilitzar les colors per als vostres esdeveniments!"
       ]
     },
     "Storage": {
@@ -6152,7 +6180,7 @@
         "${ countMergeableContacts } contactes semblen idèntics."
       ],
       "A cancellation email will be sent to removed participants for all the events in this series.": [
-        "Un correu de cancel·lació serà enviat als participants eliminats per a tots els esdeveniments d'aquesta sèrie."
+        "Un correu de cancel·lació serà enviat als participants esborrats per a tots els esdeveniments d'aquesta sèrie."
       ],
       "Address copied to clipboard": [
         "Adreça copiada al porta-retalls"
@@ -6197,10 +6225,10 @@
         "Cancel·lació enviada i esdeveniment eliminat"
       ],
       "Cancellation sent and participants removed": [
-        "Cancel·lació enviada i participants eliminats"
+        "S'ha enviat la cancel·lació i s'han esborrat els participants."
       ],
       "Cancellation sent and participants removed from all events": [
-        "Cancel·lació enviada i participants eliminats de tots els esdeveniments"
+        "S'ha enviat la cancel·lació i s'han esborrat els participants de tots els esdeveniments."
       ],
       "Code sent to ${ methodTo }": [
         "Codi enviat a ${ methodTo }"
@@ -6651,7 +6679,7 @@
         "Recuperar dades"
       ],
       "Remove participants": [
-        "Suprimeix participants"
+        "Esborra participants"
       ],
       "Report a problem": [
         "Notifica un problema"
@@ -6919,7 +6947,7 @@
         "Estàs segur de que vols eliminar ${ count } contactes definitivament?"
       ],
       "Are you sure you want to permanently delete these contact groups?": [
-        "Esteu segur que voleu eliminar aquests grups de contacte permanentment?"
+        "Segur que voleu eliminar aquests grups de contacte de manera permanent?"
       ],
       "Are you sure you want to permanently delete this contact group?": [
         "N'esteu segur, de voler eliminar permanentment aquest grup de contactes?"
@@ -6934,7 +6962,7 @@
         "Si no recordeu la vostra contrasenya és impossible reactivar la vostra clau. Us podem ajudar a desactivar l'alerta però en el procés perdreu permanentment l'accés a totes les dades xifrades amb aquesta clau."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Els informes no estan xifrats d'extrem a extrem. No envieu informació confidencial."
+        "Els informes no estan xifrats d'extrem a extrem. No envieu informació sensible."
       ],
       "Skip verification?": [
         "Voleu ometre la verificació?"
@@ -7219,6 +7247,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Color seleccionat:"
       ]
     }
   }

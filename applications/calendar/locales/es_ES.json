@@ -457,10 +457,10 @@
         "Eliminar"
       ],
       "Remove this notification": [
-        "Eliminar esta notificación"
+        "Borrar esta notificación"
       ],
       "Remove this participant": [
-        "Eliminar a este participante"
+        "Borrar a este participante"
       ],
       "Report a problem": [
         "Notificar un problema"
@@ -1012,7 +1012,7 @@
     },
     "Calendar permissions hint": {
       "You can change or remove permissions at any time.": [
-        "Puedes modificar o eliminar permisos en cualquier momento."
+        "Puedes modificar o borrar permisos en cualquier momento."
       ]
     },
     "Calendar permissions label": {
@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puedes marcar los contactos que no quieres ni combinar ni mantener para eliminarlos. Se eliminarán solo después de que pulses el botón."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Aumenta la eficiencia y gestiona tu tiempo codificando por colores los eventos por categoría o tus prioridades. Obtén esto y mucho más con un plan de pago."
       ]
     },
     "description": {
@@ -2306,6 +2309,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Estás invitado a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta incidencia de ${ eventTitle } ha sido cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2607,8 +2613,8 @@
         "La clave principal recuperada para el usuario ${ BRAND_NAME } no es válida para envíos."
       ],
       "Removed duplicate recipient: ${ joinedRecipients }": [
-        "Destinatario duplicado eliminado: ${ joinedRecipients }",
-        "Destinatarios duplicados eliminados: ${ joinedRecipients }"
+        "Destinatario duplicado borrado: ${ joinedRecipients }",
+        "Destinatarios duplicados borrados: ${ joinedRecipients }"
       ],
       "Request timed out": [
         "Tiempo de espera agotado"
@@ -2926,6 +2932,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Necesitas un calendario personal activo donde importar todos tus eventos."
+      ],
+      "App currently unavailable": [
+        "La aplicación no está disponible actualmente."
+      ],
+      "Open in browser": [
+        "Abrir en el navegador"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Para utilizar ${ MAIL_APP_NAME } o ${ CALENDAR_APP_NAME }, cambie a la versión web."
       ]
     },
     "Error notification": {
@@ -3669,7 +3684,7 @@
         "(${ memberCount } miembros)"
       ],
       "A cancellation email will be sent to removed participants.": [
-        "Se enviará un correo eléctronico de cancelación a los participantes eliminados."
+        "Se enviará un correo electrónico de cancelación a los participantes borrados."
       ],
       "A cancellation email will be sent to the event participants. Would you like to delete all events in this series?": [
         "Se enviará un correo electrónico de cancelación a los participantes del evento. ¿Quieres eliminar todos los eventos de esta serie?"
@@ -3684,10 +3699,10 @@
         "El acceso a la cuenta ha sido restringido debido a facturas impagadas. Contacta con tu administrador."
       ],
       "Added and removed participants will be notified about all the events in this series.": [
-        "Se notificarán a los participantes añadidos y eliminados de todos los eventos de esta serie."
+        "Se notificarán a los participantes añadidos y borrados de todos los eventos de esta serie."
       ],
       "Added and removed participants will be notified.": [
-        "Se notificarán a los participantes añadidos y eliminados."
+        "Se notificarán a los participantes añadidos y borrados."
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
         "La verificación de dirección con claves de confianza está activada para esta dirección. Para poder enviar a esta dirección, primero verifica las claves públicas que se pueden utilizar para enviar."
@@ -3863,10 +3878,10 @@
         "Se notificarán a los participantes existentes y añadidos."
       ],
       "Existent and removed participants will be notified.": [
-        "Se notificarán a los participantes existentes y eliminados."
+        "Se notificarán a los participantes existentes y borrados."
       ],
       "Existent, added and removed participants will be notified.": [
-        "Se notificarán a los participantes existentes, añadidos y eliminados."
+        "Se notificarán a los participantes existentes, añadidos y borrados."
       ],
       "Free up some space or add more storage space.": [
         "Libera algo de espacio o añade más espacio de almacenamiento."
@@ -4026,7 +4041,7 @@
         "Indica un nombre y una dirección de correo para crear un grupo."
       ],
       "Please remove the duplicates and try again.": [
-        "Elimina los duplicados y vuelve a intentarlo."
+        "Borra los duplicados y vuelve a intentarlo."
       ],
       "Please select the folders you would like to import:": [
         "Selecciona las carpetas que te gustaría importar:"
@@ -4060,7 +4075,7 @@
         "Actualiza la página o ${ link } para resolver automáticamente la mayoría de los problemas."
       ],
       "Removed participants will be notified.": [
-        "Se notificarán a los participantes eliminados."
+        "Se notificarán a los participantes borrados."
       ],
       "Select the email format you want to be used by default when sending an email to this email address.": [
         "Selecciona el formato de correo electrónico que quieres utilizar por defecto al enviar un correo electrónico a esta dirección."
@@ -4282,7 +4297,7 @@
         "Perderás todos los cambios no guardados."
       ],
       "You will update all the events in this series. Added and removed participants will be notified.": [
-        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes añadidos y eliminados."
+        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes añadidos y borrados."
       ],
       "You will update all the events in this series. An invitation will be sent to the event participants.": [
         "Actualizarás todos los eventos de esta serie. Se enviará una invitación a los participantes del evento."
@@ -4291,13 +4306,13 @@
         "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes existentes y añadidos."
       ],
       "You will update all the events in this series. Existent and removed participants will be notified.": [
-        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes existentes y eliminados."
+        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes existentes y borrados."
       ],
       "You will update all the events in this series. Existent, added and removed participants will be notified.": [
-        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes existentes, añadidos y eliminados."
+        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes existentes, añadidos y borrados."
       ],
       "You will update all the events in this series. Removed participants will be notified.": [
-        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes eliminados."
+        "Actualizarás todos los eventos de esta serie. Se notificarán a los participantes borrados."
       ],
       "You've reached the maximum number of addresses in the contact group(s):": [
         "Has alcanzado el número máximo de direcciones en el grupo o grupos de contactos:"
@@ -4346,6 +4361,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "La zona horaria del sistema parece haber cambiado a ${ timezone }. ¿Quieres actualizar tu preferencia de zona horaria?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Todos los participantes recibirán un correo electrónico de cancelación. ¿Qué evento quieres eliminar?"
+      ],
+      "Select a service provider to start": [
+        "Selecciona un proveedor de servicios para empezar"
       ]
     },
     "Info calendar search": {
@@ -4841,10 +4862,10 @@
     },
     "Limit of calendars reached": {
       "To add a new calendar, remove an existing one.": [
-        "Para añadir un calendario, elimina uno existente."
+        "Para añadir un calendario, borra uno existente."
       ],
       "To add a new calendar, remove another calendar or upgrade your ${ BRAND_NAME } plan to a ${ MAIL_SHORT_APP_NAME } paid plan.": [
-        "Para añadir un calendario, elimina otro calendario o mejora tu plan ${ BRAND_NAME } a un plan de pago ${ MAIL_SHORT_APP_NAME }."
+        "Para añadir un calendario, borra otro calendario o mejora tu plan ${ BRAND_NAME } a un plan de pago ${ MAIL_SHORT_APP_NAME }."
       ],
       "You've reached the maximum number of calendars available in your plan.": [
         "Has alcanzado el número máximo de calendarios disponibles en tu plan."
@@ -5198,6 +5219,16 @@
       ],
       "Up to 3 TB of storage": [
         "Hasta 3 TB de almacenamiento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendario",
+        "${ maximumNumberOfCalendars } calendarios"
+      ],
+      "Calendar sharing": [
+        "Compartir calendario"
+      ],
+      "Custom snooze time": [
+        "Tiempo de pausa personalizado"
       ]
     },
     "new_plans: feature info": {
@@ -5212,6 +5243,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utiliza tu propia dirección de correo personalizada, p. ej. tu@tunombre.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Pausa los mensajes y recibe un recordatorio cuando quieras."
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5460,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Utiliza el selector de aplicaciones de la parte superior izquierda para acceder a todos los servicios de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } y ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Elige un tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Utiliza el selector de aplicaciones en la esquina superior izquierda para acceder a todos los servicios de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } y ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Podrás cambiar tu tema en cualquier momento los ajustes."
       ]
     },
     "Option": {
@@ -6144,6 +6187,12 @@
       ],
       "Search for events": [
         "Buscar eventos"
+      ],
+      "Color-coding is here!": [
+        "¡La codificación por colores ya está aquí!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Con los colores personalizables de eventos, puedes codificar por colores el caos y conquistar tu día."
       ]
     },
     "Storage": {
@@ -6176,7 +6225,7 @@
         "${ countMergeableContacts } contactos parecen idénticos."
       ],
       "A cancellation email will be sent to removed participants for all the events in this series.": [
-        "Se enviará un correo electrónico de cancelación a los participantes eliminados para todos los eventos de esta serie."
+        "Se enviará un correo electrónico de cancelación a los participantes borrados para todos los eventos de esta serie."
       ],
       "Address copied to clipboard": [
         "Dirección copiada al portapapeles"
@@ -6221,10 +6270,10 @@
         "Cancelación enviada y evento eliminado"
       ],
       "Cancellation sent and participants removed": [
-        "Cancelación enviada y participantes eliminados"
+        "Cancelación enviada y participantes borrados"
       ],
       "Cancellation sent and participants removed from all events": [
-        "Cancelación enviada y participantes eliminados de todos los eventos"
+        "Cancelación enviada y participantes borrados de todos los eventos"
       ],
       "Code sent to ${ methodTo }": [
         "Código enviado a ${ methodTo }"
@@ -6383,7 +6432,7 @@
         "Campo CSV"
       ],
       "Display name": [
-        "Nombre para mostrar"
+        "Nombre a mostrar"
       ],
       "First name": [
         "Nombre"
@@ -6675,7 +6724,7 @@
         "Recuperar datos"
       ],
       "Remove participants": [
-        "Eliminar participantes"
+        "Borrar los participantes"
       ],
       "Report a problem": [
         "Notificar un problema"
@@ -6805,6 +6854,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Tu prueba gratuita de Mail Plus termina el ${ textDate }."
+      ],
+      "Add some color to your day": [
+        "Añade un poco de color a tu día"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7243,6 +7295,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Color seleccionado:"
       ]
     }
   }

@@ -2113,6 +2113,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "結合または保持する必要のない連絡先を削除するためにマークができます。 削除はマージボタンがクリックされた後にのみ行われます"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "カテゴリ別またはエネルギーレベル別にイベントを色分けすることで、効率を高め、時間を追跡します。 有料プランでは、これだけでなくさらに多くの機能を利用できます。"
       ]
     },
     "description": {
@@ -2798,6 +2801,9 @@
       ],
       "You need an active personal calendar to import events": [
         "予定をインポートするためにはアクティブな個人カレンダーが必要です"
+      ],
+      "Open in browser": [
+        "ブラウザで開く"
       ]
     },
     "Error notification": {
@@ -4174,6 +4180,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "システムのタイムゾーンが${ timezone }に変更されたようです。タイムゾーンの設定を更新しますか？"
+      ],
+      "Select a service provider to start": [
+        "サービスプロバイダーを選択して開始"
       ]
     },
     "Info calendar search": {
@@ -5016,6 +5025,12 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB のストレージ"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 件のカレンダー"
+      ],
+      "Calendar sharing": [
+        "カレンダー共有"
       ]
     },
     "new_plans: feature info": {
@@ -5030,6 +5045,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "独自ドメインのメールアドレスを使用する（例：you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "メッセージをスヌーズし、必要なときに再通知します"
       ]
     },
     "new_plans: label": {
@@ -5918,6 +5936,12 @@
       ],
       "Search for events": [
         "予定を検索"
+      ],
+      "Color-coding is here!": [
+        "色分けはこちら！"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "カスタマイズ可能なイベントの色を使用して、混乱を色分けして、一日を征服できます。"
       ]
     },
     "Storage": {
@@ -6562,6 +6586,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "Add some color to your day": [
+        "あなたの一日に彩りを添えましょう"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6967,6 +6994,42 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } ストレージ"
+      ],
+      "Ad-blocker and malware protection": [
+        "広告ブロッカーとマルウェア防止"
+      ],
+      "Extended version history": [
+        "拡張バージョン履歴"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }と${ CALENDAR_SHORT_APP_NAME }プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium Password Manager": [
+        "プレミアムパスワードマネージャー"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 日間返金保証"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1 件の独自メールドメイン対応、10 件のメールアドレス、10 件の hide-my-email エイリアス、カレンダー共有などが含まれます。"
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "暗号化されたクラウドストレージでファイルの安全性を保ちましょう。バージョン履歴、暗号化済みファイル共有などが含まれています。"
       ]
     }
   }

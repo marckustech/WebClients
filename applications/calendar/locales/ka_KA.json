@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "წასაშლელად შეგიძლიათ, მონიშნოთ ის კონტაქტები, რომელთა შერწყმა და შენარჩუნება არ გსურთ. წაშლა მოხდება, მხოლოდ, შერწყმის ღილაკზე დაწკაპუნების შემდეგ"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "აიმაღლეთ ეფექტურობა და ადევნეთ თვალყური თქვენს დროს მოვლენების ფერებით მონიშვნით, კატეგორიების ან თქვენი ენერგიის დონის მიხედვით. მიიღეთ ეს და ბევრი სხვა რამ ფასიან ტარიფთან ერთად."
       ]
     },
     "description": {
@@ -2926,6 +2929,15 @@
       ],
       "You need an active personal calendar to import events": [
         "მოვლენების შემოსატანად პირადი კალენდრების ქონაა საჭირო"
+      ],
+      "App currently unavailable": [
+        "აპი ამჟამად ხელმიუწვდომელია"
+      ],
+      "Open in browser": [
+        "ბრაუზერში გახსნა"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "${ MAIL_APP_NAME } ან ${ CALENDAR_APP_NAME }-ს გამოსაყენებლად ვების ვერსიაზე გადაერთეთ."
       ]
     },
     "Error notification": {
@@ -4343,6 +4355,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "თქვენი სისტემის დროის სარტყელი, როგორც ჩანს, შეიცვალა ${ timezone }-ზე. გსურთ, განაახლოთ თქვენი დროის სარტყელის პარამეტრი?"
+      ],
+      "Select a service provider to start": [
+        "დასაწყებად აირჩიეთ მომსახურების მომწოდებელი"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "ამ მისამართის მფლობელმა გამჭოლი დაშიფვრა გამორთო. იმისათვის, რომ შეგეძლოთ, ამ მისამართზე დაშიფრული შეტყობინებები გააგზავნოთ, მფლობელმა გამჭოლი დაშიფვრა თავიდან უნდა ჩართოს."
       ]
     },
     "Info calendar search": {
@@ -5195,6 +5213,16 @@
       ],
       "Up to 3 TB of storage": [
         "3ტბ-მდე საცავი"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } კალენდარი",
+        "${ maximumNumberOfCalendars } კალენდარი"
+      ],
+      "Calendar sharing": [
+        "კალენდრის გაზიარება"
+      ],
+      "Custom snooze time": [
+        "მომხმარებლის დროებით დადუმების დრო"
       ]
     },
     "new_plans: feature info": {
@@ -5209,6 +5237,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "გამოიყენეთ ელფოსტის თქვენი დომენი, მაგ: you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "დაადუმეთ დროებით შეტყობინებები და ჩვენ შეგახსენებთ, როცა გნებავთ"
       ]
     },
     "new_plans: label": {
@@ -5423,6 +5454,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "გამოიყენეთ აპის ამრჩევი ზედა მარცხენა კუთხეში ${ BRAND_NAME }-ის ყველა სერვისთან წვდომისთვის: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } და ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "აირჩიეთ თემა"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "გამოიყენეთ აპის ამრჩევი ზედა მარცხენა კუთხეში ${ BRAND_NAME }-ის ყველა სერვისთან წვდომისთვის: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } და ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "თქვენი თემის შეცვლა ნებისმიერ დროს შეგიძლიათ, მორგების ფანჯარაში."
       ]
     },
     "Option": {
@@ -6141,6 +6181,12 @@
       ],
       "Search for events": [
         "მოვლენების ძებნა"
+      ],
+      "Color-coding is here!": [
+        "ფერების-კოდირება აქაა!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "მორგებადი მოვლენის ფერებთან ერთად ასევე შეგიძლიათ ქაოსში ფერებით დალაგება შეიტანოთ და დღე თქვენს ნებაზე წარმართოთ."
       ]
     },
     "Storage": {
@@ -6802,6 +6848,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "თქვენი Mail Plus-ის უფასო სატესტო პერიოდი ${ textDate }-ზე სრულდება"
+      ],
+      "Add some color to your day": [
+        "დაამატეთ ფერები თქვენს დღეს"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7240,6 +7289,11 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "არჩეული ფერი:"
       ]
     }
   }

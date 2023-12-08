@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markere de kontakter til sletning, som du hverken ønsker at flette eller beholde.\nSletning vil kun ske, når der er klikket på fletningsknappen"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Øg effektiviteten, og hold styr på din tid ved at farvekode begivenheder efter kategori eller dit energiniveau. Få dette og meget mere med et betalt abonnement."
       ]
     },
     "description": {
@@ -2926,6 +2929,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Du skal have en aktiv personlig kalender for at importere begivenheder"
+      ],
+      "App currently unavailable": [
+        "App ikke tilgængelig i øjeblikket"
+      ],
+      "Open in browser": [
+        "Åbn i browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Skift til webversionen for at bruge ${ MAIL_APP_NAME } eller ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -4346,6 +4358,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszone ser ud til at være ændret til ${ timezone }. Vil du opdatere din tidszone præferencer?"
+      ],
+      "Select a service provider to start": [
+        "Vælg en tjenesteudbyder for at starte"
       ]
     },
     "Info calendar search": {
@@ -5198,6 +5213,16 @@
       ],
       "Up to 3 TB of storage": [
         "Op til 3 TB lagerplads"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalender",
+        "${ maximumNumberOfCalendars } kalendere"
+      ],
+      "Calendar sharing": [
+        "Kalenderdeling"
+      ],
+      "Custom snooze time": [
+        "Brugerdefineret udsættelsestid"
       ]
     },
     "new_plans: feature info": {
@@ -5212,6 +5237,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Brug din egen brugerdefinerede e-mail-domæneadresse, f.eks. dig@ditnavn.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Udsæt beskeder, og bliv mindet om dem, når du ønsker det"
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5454,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Brug appvælgeren øverst til venstre for at få adgang til alle ${ BRAND_NAME }-tjenester: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } og ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vælg et tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Brug app-vælgeren øverst til venstre for at få adgang til alle ${ BRAND_NAME }-tjenester: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } og ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Du kan til enhver tid ændre dit tema i dine indstillinger."
       ]
     },
     "Option": {
@@ -6144,6 +6181,12 @@
       ],
       "Search for events": [
         "Søg efter begivenheder"
+      ],
+      "Color-coding is here!": [
+        "Farvekodning er her!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Med brugerdefinerede begivenhedsfarver kan du farvekode kaosset og få styr på din dag."
       ]
     },
     "Storage": {
@@ -6805,6 +6848,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din Mail Plus prøveperiode slutter ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Sæt lidt kulør på din dag"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7243,6 +7289,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Valgte farve:"
       ]
     }
   }

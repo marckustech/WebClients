@@ -2211,6 +2211,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Anda dapat menandai kontak-kontak yang tidak ingin digabung atau disimpan. Penghapusan akan dilakukan setelah Anda menekan tombol gabung"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Tingkatkan efisiensi dan lacak waktu Anda dengan memberi kode warna pada acara berdasarkan kategori atau tingkat energi Anda. Dapatkan ini dan banyak lagi dengan paket berbayar."
       ]
     },
     "description": {
@@ -2896,6 +2899,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Anda harus memiliki kalender pribadi yang aktif untuk dapat mengimpor acara"
+      ],
+      "App currently unavailable": [
+        "Aplikasi saat ini tidak tersedia"
+      ],
+      "Open in browser": [
+        "Buka di browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Untuk menggunakan ${ MAIL_APP_NAME } atau ${ CALENDAR_APP_NAME }, beralihlah ke versi web."
       ]
     },
     "Error notification": {
@@ -3431,7 +3443,7 @@
         "Tergantung dari layanan surel Anda sebelumnya, Anda mungkin akan perlu untuk membuat ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
-        "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengklik tombol 3 titik (...)."
+        "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengeklik tombol 3 titik (...)."
       ],
       "Generate the ${ boldAppPassword } and use it in place of your regular password when prompted by ${ BRAND_NAME }.": [
         "Buat ${ boldAppPassword } dan gunakan kata sandi tersebut ketika diminta oleh ${ BRAND_NAME }."
@@ -3983,7 +3995,7 @@
         "Utama"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Informasi pemulihan akan tetap terdapat pada perangkat ini kecuali Anda memilih untuk menghapusnya."
+        "Informasi pemulihan akan tetap tersimpan pada perangkat ini kecuali Anda memilih untuk menghapusnya."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Memuat ulang halaman atau ${ link } akan secara otomatis mengatasi sebagian besar masalah."
@@ -4265,7 +4277,7 @@
         "Acara Anda akan dienkripsi dan disimpan."
       ],
       "Your files will be encrypted and then saved": [
-        "Berkas Anda akan dienkripsi lalu disimpan"
+        "Berkas Anda akan dienkripsi dan kemudian disimpan"
       ],
       "Your login information will not be saved after the import is completed.": [
         "Informasi seputar akun Anda tidak akan disimpan setelah impor selesai."
@@ -4275,6 +4287,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zona waktu sistem Anda sepertinya telah diubah menjadi ${ timezone }. Apakah Anda ingin memperbarui preferensi zona waktu Anda?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Seluruh peserta akan menerima email pembatalan. Acara mana yang ingin Anda hapus?"
+      ],
+      "Select a service provider to start": [
+        "Pilih layanan surel yang Anda gunakan untuk memulai"
       ]
     },
     "Info calendar search": {
@@ -5117,6 +5135,15 @@
       ],
       "Up to 3 TB of storage": [
         "Kuota penyimpanan hingga 3 TB"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } kalender"
+      ],
+      "Calendar sharing": [
+        "Berbagi kalender"
+      ],
+      "Custom snooze time": [
+        "Pilih sendiri waktu tunda"
       ]
     },
     "new_plans: feature info": {
@@ -5131,6 +5158,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Gunakan domain surel khusus milik Anda sendiri, mis. anda@namaanda.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Tunda pesan dan ingatkan saat Anda mau"
       ]
     },
     "new_plans: label": {
@@ -5324,6 +5354,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Gunakan pemindah aplikasi yang terdapat pada pojok kiri atas layar untuk mengakses seluruh layanan ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, dan ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Pilih tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Gunakan pemilih aplikasi di kiri atas untuk mengakses layanan ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } dan ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Anda akan dapat mengubah tema Anda kapan pun pada menu pengaturan."
       ]
     },
     "Option": {
@@ -6019,6 +6058,12 @@
       ],
       "Search for events": [
         "Cari acara"
+      ],
+      "Color-coding is here!": [
+        "Kode warna ada di sini!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Dengan warna acara yang dapat disesuaikan, Anda dapat memberi kode warna pada kekacauan dan menaklukkan hari Anda."
       ]
     },
     "Storage": {
@@ -6663,6 +6708,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uji coba Mail Plus Anda akan berakhir pada ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Tambahkan warna pada hari Anda"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7068,6 +7116,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Warna terpilih:"
       ]
     }
   }

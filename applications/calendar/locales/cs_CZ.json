@@ -472,7 +472,7 @@
         "Nahlásit problém"
       ],
       "Request a feature": [
-        "Požádat o funkci"
+        "Požádejte o funkci"
       ],
       "Request new code": [
         "Vyžádejte si nový kód"
@@ -2986,6 +2986,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Pro import událostí potřebujete aktivní osobní kalendář"
+      ],
+      "App currently unavailable": [
+        "Aplikace je momentálně nedostupná"
+      ],
+      "Open in browser": [
+        "Otevřít v prohlížeči"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Chcete-li použít ${ MAIL_APP_NAME } nebo ${ CALENDAR_APP_NAME }, přejděte na webovou verzi."
       ]
     },
     "Error notification": {
@@ -4406,7 +4415,7 @@
         "Můžete zapnout upozornění abyste obdrželi oznámení v případě, že do této složky přijde nový e-mail."
       ],
       "You cannot undo this action.": [
-        "Nemůžete vrátit zpět tuto akci."
+        "Tuto akci nemůžete vzít zpět."
       ],
       "You have reactivated your keys and events linked to the following calendars can now be decrypted.": [
         "Znovu jste aktivovali klíče a události spojené s následujícími kalendáři mohou být nyní dešifrovány."
@@ -4488,6 +4497,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá se, že se vaše systémové časové pásmo změnilo na ${ timezone }. Chcete aktualizovat nastavení časového pásma?"
+      ],
+      "Select a service provider to start": [
+        "Vyberte poskytovatele služeb a začněte"
       ]
     },
     "Info calendar search": {
@@ -4795,7 +4807,7 @@
         "Pouze minulý měsíc"
       ],
       "Location": [
-        "Poloha"
+        "Umístění"
       ],
       "Mail Server (IMAP)": [
         "E-mailový server (IMAP)"
@@ -5360,6 +5372,18 @@
       ],
       "Up to 3 TB of storage": [
         "Až 3 TB úložného prostoru"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendář",
+        "${ maximumNumberOfCalendars } kalendáře",
+        "${ maximumNumberOfCalendars } kalendářů",
+        "${ maximumNumberOfCalendars } kalendářů"
+      ],
+      "Calendar sharing": [
+        "Sdílení kalendáře"
+      ],
+      "Custom snooze time": [
+        "Vlastní čas odložení"
       ]
     },
     "new_plans: feature info": {
@@ -5374,6 +5398,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Používejte vlastní e-mailovou doménu, např. vy@vasejmeno.cz"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odložte zprávy a nechte si je připomenout, kdy chcete"
       ]
     },
     "new_plans: label": {
@@ -5630,6 +5657,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Pomocí výběru aplikací v levém horním rohu získáte přístup ke všem službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vyberte si téma"
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Téma můžete kdykoli změnit v nastaveních."
       ]
     },
     "Option": {
@@ -7587,6 +7620,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Vybraná barva:"
       ]
     }
   }

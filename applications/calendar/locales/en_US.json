@@ -11,6 +11,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "You can't send vCard files of more than ${ maxAttachments } contact",
         "You can't send vCard files of more than ${ maxAttachments } contacts"
+      ],
+      "Ok": [
+        "OK"
       ]
     },
     "Calendar sharing access option label": {

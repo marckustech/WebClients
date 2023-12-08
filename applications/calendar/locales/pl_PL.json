@@ -2262,6 +2262,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Możesz oznaczyć do usunięcia te kontakty, których nie chcesz scalić ani zachować. Usunięcie nastąpi dopiero po kliknięciu przycisku Scal"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Zwiększ wydajność i kontroluj swój czas, oznaczając wydarzenia kolorami. Ulepsz do płatnego planu, aby uzyskać dostęp do tej funkcji."
       ]
     },
     "description": {
@@ -2986,6 +2989,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Musisz posiadać aktywny osobisty kalendarz, aby zaimportować wydarzenia"
+      ],
+      "App currently unavailable": [
+        "Aplikacja jest niedostępna"
+      ],
+      "Open in browser": [
+        "Otwórz w przeglądarce"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Otwórz przeglądarkę, aby korzystać z ${ MAIL_APP_NAME } i ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -4388,7 +4400,7 @@
         "Posiadasz już dostęp do tego kalendarza"
       ],
       "You are about to open another browser tab and visit:": [
-        "Masz zamiar otworzyć nową kartę przeglądarki i przejść do:"
+        "Uruchomisz nową kartę przeglądarki i przejdziesz do:"
       ],
       "You are currently signed in as ${ user.Name } (${ user.Email }).": [
         "Zalogowano jako ${ user.Name } (${ user.Email })."
@@ -4488,6 +4500,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Twoja strefa czasowa w systemie zmieniła się na ${ timezone }. Czy chcesz zaktualizować ustawienia strefy czasowej?"
+      ],
+      "Select a service provider to start": [
+        "Aby rozpocząć, wybierz dostawcę usługi"
       ]
     },
     "Info calendar search": {
@@ -5360,6 +5375,18 @@
       ],
       "Up to 3 TB of storage": [
         "Do 3 TB przestrzeni dyskowej"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendarz",
+        "${ maximumNumberOfCalendars } kalendarze",
+        "${ maximumNumberOfCalendars } kalendarzy",
+        "${ maximumNumberOfCalendars } kalendarzy"
+      ],
+      "Calendar sharing": [
+        "Udostępnianie kalendarza"
+      ],
+      "Custom snooze time": [
+        "Niestandardowy czas odłożenia"
       ]
     },
     "new_plans: feature info": {
@@ -5374,6 +5401,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Korzystaj z adresu w niestandardowej domenie, np. ty@twojanazwa.pl"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Odłóż wiadomości i otrzymaj powiadomienie o nich w dowolnym momencie"
       ]
     },
     "new_plans: label": {
@@ -5630,6 +5660,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Otwórz menu aplikacji w lewym górnym rogu, aby uzyskać dostęp do wszystkich usług ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Wybierz motyw"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Otwórz menu aplikacji w lewym górnym rogu, aby uzyskać dostęp do wszystkich usług ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Możesz w ustawieniach zmienić motyw w dowolnym momencie."
       ]
     },
     "Option": {
@@ -6394,6 +6433,12 @@
       ],
       "Search for events": [
         "Szukaj wydarzeń"
+      ],
+      "Color-coding is here!": [
+        "Oznaczanie kolorami jest tutaj!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Wydarzenia możesz oznaczyć kolorami, aby zapanować nad chaosem i swoim dniem."
       ]
     },
     "Storage": {
@@ -7083,6 +7128,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Darmowa wersja próbna planu Mail Plus zakończy się ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Dodaj trochę koloru do swojego dnia"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7587,6 +7635,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Wybrany kolor:"
       ]
     }
   }

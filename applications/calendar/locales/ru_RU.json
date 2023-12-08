@@ -650,6 +650,15 @@
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов"
+      ],
+      "Continue with Outlook": [
+        "Продолжить с Outlook"
+      ],
+      "Import from Google": [
+        "Импортировать из Google"
+      ],
+      "Import from Outlook": [
+        "Импортировать из Outlook"
       ]
     },
     "Action subline": {
@@ -691,6 +700,18 @@
         "${ users } пользователя",
         "${ users } пользователей",
         "${ users } пользователей"
+      ],
+      "${ domains } custom domain": [
+        "${ domains } свой домен",
+        "${ domains } своих доменов",
+        "${ domains } своих домена",
+        "${ domains } своих домена"
+      ],
+      "${ ips } server": [
+        "${ ips } сервер",
+        "${ ips } сервера",
+        "${ ips } серверов",
+        "${ ips } серверов"
       ]
     },
     "Alarm notification": {
@@ -3097,6 +3118,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "До 6 пользователей"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Платная версия ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Платные версии ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Платная версия ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -4423,6 +4453,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Похоже, что ваш часовой пояс изменился на ${ timezone }. Вы хотите обновить настройки часового пояса?"
+      ],
+      "Select a service provider to start": [
+        "Выберите поставщика услуг, чтобы начать"
       ]
     },
     "Info calendar search": {
@@ -4481,6 +4514,12 @@
     "Information about why calendar event cannot be saved": {
       "Creating invites in a shared calendar is not allowed": [
         "Создание приглашений в общем календаре не разрешается"
+      ],
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "Приглашение можно отправить не более чем ${ maxAttendees } участнику",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам",
+        "Приглашение можно отправить не более чем ${ maxAttendees } участникам"
       ]
     },
     "Input label": {
@@ -5289,6 +5328,15 @@
       ],
       "Up to 3 TB of storage": [
         "До 3 ТБ хранилища"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } календарь",
+        "${ maximumNumberOfCalendars } календаря",
+        "${ maximumNumberOfCalendars } календарей",
+        "${ maximumNumberOfCalendars } календарей"
+      ],
+      "Calendar sharing": [
+        "Совместное использование календаря"
       ]
     },
     "new_plans: feature info": {
@@ -5321,6 +5369,9 @@
       ],
       "Contact group updated": [
         "Группа контактов обновлена"
+      ],
+      "Link copied to clipboard": [
+        "Ссылка скопирована в буфер обмена"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6091,6 +6142,12 @@
       ],
       "Support online privacy": [
         "Обеспечьте свою конфиденциальность в Интернете"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Платные версии ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Платная версия ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {
@@ -6157,6 +6214,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Цена без скидки: ${ amount } за 30 месяцев."
+      ],
+      "${ n } month": [
+        "первый ${ n } месяц",
+        "${ n } месяцев",
+        "${ n } месяца",
+        "${ n } месяца"
+      ],
+      "15 months": [
+        "15 месяца"
+      ],
+      "30 months": [
+        "30 месяца"
       ]
     },
     "specialoffer: Title": {
@@ -7402,6 +7471,29 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "Пожалуйста, сгенерируйте ключи, прежде чем пытаться изменить пароль"
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Сброс пароля отменен"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Получен запрос на сброс пароля"
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Платная версия ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Платные версии ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }"
       ]
     }
   }

@@ -589,6 +589,39 @@
       ],
       "Yes, I'll attend": [
         "हां, हम भाग लेंगे"
+      ],
+      "Add birthday": [
+        "जन्मदिन जोड़ें"
+      ],
+      "Add note": [
+        "नोट जोड़ें"
+      ],
+      "Copy email address": [
+        "ईमेल पता कॉपी करें"
+      ],
+      "Don't know your password?": [
+        "क्या आप अपना पासवर्ड नहीं जानते?"
+      ],
+      "Import from Google": [
+        "Google से आयात करे"
+      ],
+      "Import from Outlook": [
+        "Outlook से आयात करे"
+      ],
+      "Ok": [
+        "ठीक है"
+      ],
+      "See how": [
+        "देखें कैसे"
+      ],
+      "Settings": [
+        "सेटिंग"
+      ],
+      "Show side panel": [
+        "साइड पैनल दिखाएं"
+      ],
+      "Switch or add account": [
+        "खाता बदलें अथवा जोड़ें"
       ]
     },
     "Action subline": {
@@ -953,6 +986,9 @@
       ],
       "Week": [
         "हफ्ता"
+      ],
+      "Custom": [
+        "कस्टम"
       ]
     },
     "Calendar view selector": {
@@ -1109,6 +1145,18 @@
       ],
       "URL": [
         "यूआरएल"
+      ],
+      "Display name": [
+        "डिस्प्ले नाम"
+      ],
+      "Enter a display name or nickname": [
+        "एक डिस्प्ले नाम या उपनाम दर्ज करें"
+      ],
+      "First name": [
+        "पहला नाम"
+      ],
+      "Last name": [
+        "अंतिम नाम"
       ]
     },
     "Contact type label": {
@@ -2026,6 +2074,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "आप उन संपर्कों को हटाने के लिए चिह्नित कर सकते हैं जिन्हें आप न तो विलय करने के लिए नहीं चाहते हैं और न ही रखने के लिए। विलय बटन क्लिक करने के बाद ही हटाना होगा"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "CSV और VCF फ़ाइल के माध्यम से आयात के लिए, सुनिश्चित करें कि फ़ाइल ${ MAX_IMPORT_FILE_SIZE_STRING } या ${ MAX_IMPORT_CONTACTS_STRING } संपर्कों से अधिक न हो। यदि आपकी फ़ाइल बड़ी है, तो कृपया उसे छोटी फ़ाइलों में विभाजित करें। ${ learnMoreLink }।"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2492,6 +2543,19 @@
       ],
       "Your import will not be processed.": [
         "आपका आयात संसाधित नहीं किया जाएगा।"
+      ],
+      "Event not found": [
+        "इवेंट नहीं मिला"
+      ],
+      "First name is too long": [
+        "पहला नाम बहुत लंबा है"
+      ],
+      "Incorrect username": [
+        "गलत यूज़रनेम"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "आप ${ maxContacts } से अधिक प्राप्तकर्ता को मेल नहीं भेज सकते",
+        "आप ${ maxContacts } से अधिक प्राप्तकर्ता को मेल नहीं भेज सकते"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2679,6 +2743,9 @@
       ],
       "You need an active personal calendar to import events": [
         "इवेंट आयात करने के लिए आपको एक सक्रिय निजी कैलेंडर होना चाहिए"
+      ],
+      "Open in browser": [
+        "ब्राउज़र में खोलें"
       ]
     },
     "Error notification": {
@@ -2802,6 +2869,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "6 यूज़र तक"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "प्रीमियम ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "प्रीमियम ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -2825,6 +2901,15 @@
       ],
       "You have successfully joined the Family plan": [
         "आप परिवार प्लान से जुड़ गए है"
+      ],
+      "Visionary and family plans do not currently support external accounts. Create a ${ BRAND_NAME } address before joining. ${ addressSettingsLink }": [
+        "Visionary और पारिवारिक योजनाएँ वर्तमान में बाहरी खातों का समर्थन नहीं करती हैं। शामिल होने से पहले एक ${ BRAND_NAME } पता बनाएं। ${ addressSettingsLink }"
+      ],
+      "You're invited to link your ${ BRAND_NAME } Account to this group plan and together enjoy all ${ BRAND_NAME_TWO } premium features.": [
+        "आपको अपने ${ BRAND_NAME } खाते को इस समूह योजना से लिंक करने और साथ में सभी ${ BRAND_NAME_TWO } प्रीमियम सुविधाओं का आनंद लेने के लिए आमंत्रित किया जाता है।"
+      ],
+      "Your account is using ${ usedSpace } of storage, which exceeds the ${ inviteSpace } you were allocated. Delete some data or ask the plan admin to increase your storage.": [
+        "आपका खाता ${ usedSpace } स्टोरेज का उपयोग कर रहा है, जो आपको दिए गए ${ inviteSpace } से अधिक है। कुछ डेटा हटाएं या प्लान एडमिन से अपना स्टोरेज बढ़ाने के लिए कहें।"
       ]
     },
     "familyOffer_2023:Onboarding Proton": {
@@ -2871,6 +2956,9 @@
       ],
       "MB": [
         "एमबी"
+      ],
+      "TB": [
+        "टीबी"
       ]
     },
     "file size format, long": {
@@ -2889,6 +2977,10 @@
       "Megabyte": [
         "प्रयुताष्टक",
         "प्रयुताष्टक"
+      ],
+      "Terabyte": [
+        "टेराबाइट",
+        "टेराबाइट"
       ]
     },
     "Filter notification": {
@@ -3913,6 +4005,43 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "आपका सिस्टम समय क्षेत्र ${ timezone } में बदल गया है। अपने समय क्षेत्र पसंद को अपडेट करें?"
+      ],
+      "${ contactsLength } contact": [
+        "${ contactsLength } संपर्क",
+        "${ contactsLength } संपर्क"
+      ],
+      "${ firstItems } and ${ lastItem }": [
+        "${ firstItems } और ${ lastItem }"
+      ],
+      "Are you sure you want to discard your import?": [
+        "क्या आप वाकई अपना आयात छोड़ना चाहते हैं?"
+      ],
+      "Based on your time zone": [
+        "आपके समय क्षेत्र के हिसाब से"
+      ],
+      "Can't find the events you're looking for? Some events in hidden calendars match your query. To see those results, turn on visibility for ${ hiddenWithItemsCalendarList }.": [
+        "क्या वे इवेंट नहीं मिल रहे जिन्हें आप ढूंढ रहे हैं? छिपे हुए कैलेंडर में कुछ ईवेंट आपकी क्वेरी से मेल खाते हैं। उन परिणामों को देखने के लिए, ${ hiddenWithItemsCalendarList } के लिए दृश्यता चालू करें।"
+      ],
+      "Clearing browser data will clear the search index on this device. All calendar events would need to be re-indexed again to use the search functionality.": [
+        "ब्राउज़र डेटा साफ़ करने से इस डिवाइस पर खोज अनुक्रमणिका साफ़ हो जाएगी। खोज कार्यक्षमता का उपयोग करने के लिए सभी कैलेंडर ईवेंट को फिर से अनुक्रमित करने की आवश्यकता होगी।"
+      ],
+      "Edit email address": [
+        "ईमेल पता संपादित करें"
+      ],
+      "Indexing paused": [
+        "अनुक्रमण रोका गया"
+      ],
+      "Please provide a name and an email address for creating a group.": [
+        "कृपया ग्रुप बनाने के लिए एक नाम और एक ईमेल पता दें।"
+      ],
+      "Select a service provider to start": [
+        "शुरू करने के लिए एक सेवा प्रदाता का चयन करें"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "इस पते के स्वामी ने एंड-टू-एंड एन्क्रिप्शन अक्षम कर दिया है। इस पते पर एन्क्रिप्टेड ईमेल भेजने में सक्षम होने के लिए, स्वामी को एंड-टू-एंड एन्क्रिप्शन को फिर से सक्षम करना होगा।"
+      ],
+      "To recover your data, you need to re-activate the account key used at the time when the data was created. This will require you to remember the password used when the key was generated.": [
+        "अपना डेटा पुनर्प्राप्त करने के लिए, आपको उस समय उपयोग की गई खाता कुंजी को फिर से सक्रिय करना होगा जब डेटा बनाया गया था। इसके लिए आपको कुंजी उत्पन्न करते समय उपयोग किए गए पासवर्ड को याद रखना होगा।"
       ]
     },
     "Info on errors": {
@@ -3961,6 +4090,10 @@
     "Information about why calendar event cannot be saved": {
       "Creating invites in a shared calendar is not allowed": [
         "शेयर किए कैलेंडर में न्योता बनाने की अनुमति नहीं"
+      ],
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "हर न्योते पे ज़्यादा-से-ज़्यादा ${ maxAttendees } प्रतिभागी के होने की अनुमति है",
+        "हर न्योते पे ज़्यादा-से-ज़्यादा ${ maxAttendees } प्रतिभागीयों के होने की अनुमति है"
       ]
     },
     "Input label": {
@@ -4338,6 +4471,18 @@
       ],
       "Your password (admin)": [
         "आपका पासवर्ड (व्यवस्थापक)"
+      ],
+      "Beta Access": [
+        "बीटा एक्सेस"
+      ],
+      "Primary": [
+        "मुख्य"
+      ],
+      "Secondary time zone": [
+        "दूसरा समय क्षेत्र"
+      ],
+      "Theme": [
+        "थीम"
       ]
     },
     "Label for contact group color": {
@@ -4496,6 +4641,9 @@
       ],
       "Upgrade": [
         "अपग्रेड करें"
+      ],
+      "Cancel": [
+        "रद्द करें"
       ]
     },
     "Modal for received invitation to share calendar; text": {
@@ -4721,6 +4869,16 @@
       ],
       "Up to 15 email addresses": [
         "15 ईमेल पते तक"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } कैलेंडर",
+        "${ maximumNumberOfCalendars } कैलेंडर"
+      ],
+      "Calendar sharing": [
+        "कैलेंडर शेयर"
+      ],
+      "Up to 3 TB of storage": [
+        "3 टीबी तक स्टोरेज"
       ]
     },
     "new_plans: feature info": {
@@ -4729,6 +4887,9 @@
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "स्टोरेज जगह का इस्तेमाल ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME }, और ${ DRIVE_APP_NAME } करते है।"
+      ],
+      "Create multiple email addresses for your online identities e.g. JohnShopper@${ domain } for shopping accounts, JohnNews@${ domain2 } for news subscription": [
+        "अपनी ऑनलाइन पहचान के लिए एकाधिक ईमेल पते बनाएं, उदा. शॉपिंग खातों के लिए जॉनशॉपर@${ domain }, समाचार सदस्यता के लिए जॉनन्यूज@${ domain2 }"
       ]
     },
     "new_plans: label": {
@@ -4747,11 +4908,17 @@
       ],
       "Contact group updated": [
         "संपर्क समूह अपडेट किया गया"
+      ],
+      "Link copied to clipboard": [
+        "लिंक को क्लिपबोर्ड पर कॉपी किया गया"
       ]
     },
     "Notification in holidays calendar modal": {
       "Calendar added": [
         "कैलेंडर जोड़ा गया"
+      ],
+      "Calendar updated": [
+        "कैलेंडर अपडेट किया गया"
       ]
     },
     "Notification in share calendar modal": {
@@ -4931,6 +5098,9 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "अपने स्क्रीन के उपरी बाएं कोने में ऐप सलेक्टर से ${ BRAND_NAME } की सारे सेवाएं इस्तेमाल करें: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME },${ CALENDAR_SHORT_APP_NAME }, और ${ DRIVE_SHORT_APP_NAME }।"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "${ BRAND_NAME } की सभी सेवाओं तक पहुंचने के लिए ऊपर बाईं ओर ऐप चयनकर्ता का उपयोग करें: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } और ${ PASS_SHORT_APP_NAME }।"
       ]
     },
     "Option": {
@@ -5097,6 +5267,9 @@
       ],
       "Start typing an email address": [
         "ईमेल पता लिखना शुरू करें"
+      ],
+      "First name": [
+        "पहला नाम"
       ]
     },
     "Placeholder for contact group name": {
@@ -5309,6 +5482,18 @@
       ],
       "Support online privacy": [
         "ऑनलाइन निजता को बढ़ावा दें"
+      ],
+      "1 user": [
+        "1 यूज़र"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } और ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "प्रीमियम ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Link": {
@@ -5364,6 +5549,16 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "30 महीने के लिए मानक दाम ${ amount }"
+      ],
+      "${ n } month": [
+        "${ n } महीना",
+        "${ n } महीने"
+      ],
+      "15 months": [
+        "15 महीने"
+      ],
+      "30 months": [
+        "30 महीने"
       ]
     },
     "specialoffer: Title": {
@@ -5386,6 +5581,9 @@
       ],
       "Public holidays are here!": [
         "सार्वजनिक छुट्टियां है आई!"
+      ],
+      "Search for events": [
+        "इवेंट खोजें"
       ]
     },
     "Storage": {
@@ -5402,6 +5600,9 @@
     "Subscribe to calendar modal": {
       "Calendar URL": [
         "कैलेंडर यूआरएल"
+      ],
+      "To subscribe to an external or public calendar and its updates, enter the URL. A read-only version of the calendar will be added to your Other calendars.\n${ kbLink }": [
+        "किसी बाहरी या सार्वजनिक कैलेंडर और उसके अपडेट की सदस्यता लेने के लिए, यूआरएल दर्ज करें। कैलेंडर का केवल पढ़ने योग्य संस्करण आपके अन्य कैलेंडर में जोड़ा जाएगा।\n${ kbLink }"
       ]
     },
     "Subscribe to calendar modal description": {
@@ -5610,6 +5811,9 @@
       ],
       "vCard field": [
         "vCard फील्ड"
+      ],
+      "First name": [
+        "पहला नाम"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -5992,6 +6196,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "आपका Mail Plus ट्रायल ${ textDate } को खत्म होगा"
+      ],
+      "All settings": [
+        "सभी सेटिंग"
+      ],
+      "Birthday": [
+        "जन्मदिन"
+      ],
+      "Notes": [
+        "नोट"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6067,6 +6280,12 @@
       ],
       "You do not have any contacts to export": [
         "आपके पास निर्यात करने के लिए कोई संपर्क नहीं है"
+      ],
+      "Hide side panel": [
+        "साइड पैनल छुपाएं"
+      ],
+      "Show side panel": [
+        "साइड पैनल दिखाएं"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -6409,6 +6628,216 @@
       ],
       "Yearly, ${ untilString }": [
         "वार्षिक, ${ untilString }"
+      ]
+    },
+    "Addon": {
+      "${ domains } custom domain": [
+        "${ domains } कस्टम डोमेन",
+        "${ domains } कस्टम डोमेन"
+      ],
+      "${ ips } server": [
+        "${ ips } सर्वर",
+        "${ ips } सर्वर"
+      ],
+      "${ users } user": [
+        "${ users } यूज़र",
+        "${ users } यूज़र"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } स्टोरेज"
+      ],
+      "1 user": [
+        "1 यूज़र"
+      ],
+      "3 TB": [
+        "3 टीबी"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65+ देशों में 3,000+ सर्वर"
+      ],
+      "6 users": [
+        "6 यूज़र"
+      ],
+      "Ad-blocker and malware protection": [
+        "ऐड-ब्लॉकर और मालवेयर सुरक्षा"
+      ],
+      "High speed streaming": [
+        "तेज़ स्ट्रीमिंग"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "प्रीमियम ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "प्रीमियम ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "प्रीमियम पासवर्ड मैनेजर"
+      ]
+    },
+    "bf2023: Footer": {
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "आपकी सदस्यता आपके बिलिंग चक्र के अंत में मानक रियायती दर और अवधि पर स्वचालित रूप से नवीनीकृत हो जाएगी"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 दिन की पैसे-वापस गारंटी"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "अवरुद्ध सामग्री तक पहुंचें और निजी तौर पर ब्राउज़ करें। इसमें 65+ देशों में 3,000+ सर्वर, उच्चतम वीपीएन गति, दुनिया भर में स्ट्रीमिंग सेवाओं तक पहुंच, मैलवेयर और विज्ञापन-अवरोधक, तेज़ बिटटोरेंट डाउनलोड और बहुत कुछ शामिल है।"
+      ],
+      "Includes support for 3 custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "इसमें 3 कस्टम ईमेल डोमेन, ${ addresses } ईमेल पते, असीमित hide-my-email उपनाम, कैलेंडर साझाकरण और बहुत कुछ के लिए समर्थन शामिल है।",
+        "इसमें 3 कस्टम ईमेल डोमेन, ${ addresses } ईमेल पते, असीमित hide-my-email उपनाम, कैलेंडर साझाकरण और बहुत कुछ के लिए समर्थन शामिल है।"
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "अपने ईमेल और शेड्यूल को एंड-टू-एंड एन्क्रिप्शन के साथ सुरक्षित करें। इसमें कस्टम ईमेल डोमेन, 15 ईमेल पते, असीमित hide-my-email उपनाम, कैलेंडर साझाकरण और बहुत कुछ के लिए समर्थन शामिल है।"
+      ]
+    },
+    "Event info in search view; event duration": {
+      "All day": [
+        "पूरे दिन"
+      ]
+    },
+    "familyOffer_2023:Tooltip": {
+      "Includes 2700 servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
+        "इसमें 65+ देशों में 2700 सर्वर, 10 डिवाइस तक कनेक्ट, दुनिया भर में स्ट्रीमिंग सेवाओं तक पहुंच, मैलवेयर और विज्ञापन-अवरोधक और बहुत कुछ शामिल है।"
+      ]
+    },
+    "Font size option": {
+      "Large": [
+        "बड़ा"
+      ],
+      "Small": [
+        "छोटा"
+      ],
+      "Very large": [
+        "बहुत बड़ा"
+      ],
+      "Very small": [
+        "बहुत छोटा"
+      ]
+    },
+    "Info message": {
+      "No results found": [
+        "कोई नतीजा नहीं मिला"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Reset password": [
+        "पासवर्ड रीसेट करें"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "अपना पासवर्ड बदलने का प्रयास करने से पहले कृपया कुंजियाँ बनाएँ।"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } दिन",
+        "${ timeRemaining.inDays } दिन"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } घंटा",
+        "${ timeRemaining.inHours } घंटे"
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "देखें कैसे"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "पासवर्ड सहेजा गया"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "पासवर्ड रीसेट रद्द करें?"
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "अपना पासवर्ड अभी बदलें"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Got it": [
+        "समझ गया"
+      ],
+      "Learn more": [
+        "और जानें"
+      ]
+    },
+    "session_recovery:in_progress:info": {
+      "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
+        "यह सुनिश्चित करने के लिए कि वास्तव में आप ही अपना पासवर्ड रीसेट करने का प्रयास कर रहे हैं, हम अनुरोधों को स्वीकृत करने से पहले 72 घंटे तक प्रतीक्षा करते हैं। आप अपना पासवर्ड ${ boldTimeLeft } में बदल सकते हैं। ${ viewRequest }"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "पासवर्ड रीसेट का अनुरोध किया गया"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "साइन आउट करें"
+      ],
+      "Stay signed in": [
+        "साइन्ड इन रहें"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } घंटा",
+        "${ gracePeriodHoursRemaining } घंटे"
+      ],
+      "You will be able to reset your password in ${ boldTimeLeft }.": [
+        "आप अपना पासवर्ड ${ boldTimeLeft } में रीसेट कर पाएंगे।"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "पासवर्ड रिसेट करें"
+      ]
+    },
+    "specialoffer: Tooltip": {
+      "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections per user, worldwide streaming services, malware and ad-blocker, and more.": [
+        "अवरुद्ध सामग्री तक पहुंचें और निजी तौर पर ब्राउज़ करें। इसमें 60 से अधिक देशों में 1700 सर्वर, उच्चतम वीपीएन गति, प्रति उपयोगकर्ता 10 वीपीएन कनेक्शन, दुनिया भर में स्ट्रीमिंग सेवाएं, मैलवेयर और विज्ञापन-अवरोधक और बहुत कुछ शामिल है।"
+      ],
+      "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
+        "अवरुद्ध सामग्री तक पहुंचें और निजी तौर पर ब्राउज़ करें। इसमें 60 से अधिक देशों में 1700 सर्वर, उच्चतम वीपीएन गति, 10 वीपीएन कनेक्शन, दुनिया भर में स्ट्रीमिंग सेवाएं, मैलवेयर और विज्ञापन-अवरोधक और बहुत कुछ शामिल है।"
+      ],
+      "All our premium services with their highest limits: 100 email addresses, support for 10 custom domains, unlimited hide-my-email aliases, calendar sharing, encrypted cloud storage and file sharing, and more.": [
+        "हमारी सभी प्रीमियम सेवाएँ अपनी उच्चतम सीमा के साथ: 100 ईमेल पते, 10 कस्टम डोमेन के लिए समर्थन, असीमित hide-my-email उपनाम, कैलेंडर साझाकरण, एन्क्रिप्टेड क्लाउड स्टोरेज और फ़ाइल साझाकरण, और बहुत कुछ।"
+      ],
+      "Receive at no extra cost the paid versions of all new privacy services we release in the future, along with early access to all future features and products.": [
+        "भविष्य में हमारे द्वारा जारी की जाने वाली सभी नई गोपनीयता सेवाओं के भुगतान की आवश्यकता वाले संस्करण बिना किसी अतिरिक्त लागत के प्राप्त करें, साथ ही भविष्य की सभी सुविधाओं और उत्पादों तक शीघ्र पहुंच प्राप्त करें।"
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "प्रीमियम ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
+      ]
+    },
+    "summer2023: Tooltip": {
+      "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
+        "अपने सभी उपकरणों पर सुरक्षित लॉगिन विवरण बनाएं। इसमें असीमित उपनाम, 20 वॉल्ट, एकीकृत 2एफए, क्रेडिट कार्ड ऑटो-फिल और बहुत कुछ शामिल है।"
+      ],
+      "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
+        "इसमें 65+ देशों में 2950+ सर्वर, 10 डिवाइस तक कनेक्ट, दुनिया भर में स्ट्रीमिंग सेवाओं तक पहुंच, मैलवेयर और विज्ञापन-अवरोधक और बहुत कुछ शामिल है।"
       ]
     }
   }

@@ -632,6 +632,12 @@
       ],
       "Yes, I'll attend": [
         "是，我将参加"
+      ],
+      "Import from Google": [
+        "从 Google 导入"
+      ],
+      "Import from Outlook": [
+        "从 Outlook 导入"
       ]
     },
     "Action subline": {
@@ -796,16 +802,49 @@
       ],
       "High speed streaming": [
         "高速看视频"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "遍布超过65个国家/地区的3000多台服务器"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "高级 ${ VPN_SHORT_APP_NAME } 账户"
+      ],
+      "Premium Password Manager": [
+        "高级密码管理器"
       ]
     },
     "bf2023: Footer": {
       "Discounts are based on standard monthly pricing.": [
         "折扣基于标准月费计算。"
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "您的订阅将在到期后以标准优惠价自动续订。"
       ]
     },
     "bf2023: Tooltip": {
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "所有 ${ BRAND_NAME } 服务共用同一存储空间。"
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "随时随地畅享 Netflix、Disney+、Prime Video 等精彩内容。"
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "通过我们遍布全球的服务器网络规避运营商和政府审查。"
+      ],
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "支持 1 个自有域名、10 个邮箱地址、10 个 Hide-my-email 邮箱别名、日程共享等功能。"
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "使用加密的云存储保护您的文件。包括版本历史记录、加密文件共享等。"
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "完善的 NetShield 机制能够屏蔽广告、追踪脚本和恶意软件，增强设备安全性，提升网络性能."
       ]
     },
     "Bug category": {
@@ -2321,7 +2360,7 @@
         "域名不可用，请稍后再试"
       ],
       "Email address disabled": [
-        "邮件地址已禁用"
+        "邮箱地址已停用"
       ],
       "Email address is required": [
         "邮箱地址必须填写"
@@ -2951,6 +2990,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "多达 6 位用户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "高级 ${ VPN_SHORT_APP_NAME } 账户"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3072,6 +3120,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3086,6 +3137,9 @@
       ],
       "Megabytes": [
         "MB"
+      ],
+      "Terabytes": [
+        "TB"
       ]
     },
     "Filter notification": {
@@ -4154,6 +4208,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系统时区似乎已更改为 ${ timezone }。您想要更新您的时区偏好吗？"
+      ],
+      "Country code": [
+        "国家/地区代码"
+      ],
+      "Select a service provider to start": [
+        "请选择一个服务提供商并开始导入"
       ]
     },
     "Info calendar search": {
@@ -4996,6 +5056,15 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 个日历"
+      ],
+      "Calendar sharing": [
+        "共享日历"
+      ],
+      "Custom snooze time": [
+        "设置待办事件"
       ]
     },
     "new_plans: feature info": {
@@ -5028,6 +5097,9 @@
       ],
       "Contact group updated": [
         "群组已更改"
+      ],
+      "Link copied to clipboard": [
+        "链接已复制到剪贴板"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5200,6 +5272,9 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "通过左上角的切换按钮可以前往所有 ${ BRAND_NAME } 服务：${ MAIL_SHORT_APP_NAME }、${ VPN_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME } 和 ${ DRIVE_SHORT_APP_NAME }。"
+      ],
+      "Pick a theme": [
+        "选择主题"
       ]
     },
     "Option": {
@@ -5826,6 +5901,15 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "30个月的标准价格为${ amount }"
+      ],
+      "${ n } months": [
+        "${ n } 月"
+      ],
+      "15 months": [
+        "15 个月"
+      ],
+      "30 months": [
+        "30 个月"
       ]
     },
     "specialoffer: Title": {
@@ -6927,6 +7011,24 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 天退款保证"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "所选颜色"
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
       ]
     }
   }

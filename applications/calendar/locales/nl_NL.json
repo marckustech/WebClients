@@ -4343,6 +4343,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Uw systeemtijdzone lijkt te zijn veranderd naar ${ timezone }. Wilt u uw voorkeur voor uw tijdzone bijwerken?"
+      ],
+      "Select a service provider to start": [
+        "Selecteer een dienstverlener om te beginnen"
       ]
     },
     "Info calendar search": {
@@ -5195,6 +5198,13 @@
       ],
       "Up to 3 TB of storage": [
         "Tot wel 3 TB opslag"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } agenda",
+        "${ maximumNumberOfCalendars } agenda's"
+      ],
+      "Calendar sharing": [
+        "Agenda-delen"
       ]
     },
     "new_plans: feature info": {
@@ -5423,6 +5433,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Gebruik de app-kiezer linksboven voor de toegang tot alle ${ BRAND_NAME }-diensten: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } en ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Thema selecteren"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Gebruik de app-kiezer linksboven voor de toegang tot alle ${ BRAND_NAME }-diensten: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } en ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Option": {
@@ -7240,6 +7256,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Geselecteerde kleur:"
       ]
     }
   }

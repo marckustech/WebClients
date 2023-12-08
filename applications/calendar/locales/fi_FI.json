@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Voit merkitä yhteystiedot, joita et haluat yhdistää tai säilyttää, poistettaviksi. Poisto suoritetaan vasta Yhdistä-painiketta painettaessa."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Lisää tehokkuutta ja seuraa aikaasi värikoodaamalla tapahtumia kategorian tai energiatasosi mukaan. Hanki tämä ja paljon muuta maksullisella paketilla."
       ]
     },
     "description": {
@@ -2926,6 +2929,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Tarvitset tapahtumien tuontiin aktiivisen henkilökohtaisen kalenterin"
+      ],
+      "App currently unavailable": [
+        "Sovellus ei ole tällä hetkellä käytettävissä"
+      ],
+      "Open in browser": [
+        "Avaa selaimessa"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Käyttääksesi ${ MAIL_APP_NAME } tai ${ CALENDAR_APP_NAME }, vaihda selainversioon."
       ]
     },
     "Error notification": {
@@ -4346,6 +4358,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Järjestelmäsi aikavyöhykkeeksi näyttää vaihtuneen ${ timezone }. Haluatko päivittää aikavyöhykeasetuksesi?"
+      ],
+      "Select a service provider to start": [
+        "Aloita valitsemalla palveluntarjoaja"
       ]
     },
     "Info calendar search": {
@@ -5198,6 +5213,16 @@
       ],
       "Up to 3 TB of storage": [
         "Jopa 3 Gt tallennustilaa"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalenteri",
+        "${ maximumNumberOfCalendars } kalenteria"
+      ],
+      "Calendar sharing": [
+        "Kalenterien jako"
+      ],
+      "Custom snooze time": [
+        "Oma torkutusaika"
       ]
     },
     "new_plans: feature info": {
@@ -5212,6 +5237,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Käytä sähköpostiosoitteissasi omaa verkkotunnustasi, kuten nimesi@esimerkki.fi"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Torkuta viestejä ja saa muistutuksia kun haluat"
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5454,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Vasemman yläkulman sovellusvalitsimesta pääset kaikkiin ${ BRAND_NAME }-palveluihin: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } ja ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Valitse teema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Vasemman yläkulman sovellusvalitsimesta pääset kaikkiin ${ BRAND_NAME } -palveluihin: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } ja ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Voit muuttaa teemaasi milloin tahansa asetuksista."
       ]
     },
     "Option": {
@@ -6144,6 +6181,12 @@
       ],
       "Search for events": [
         "Etsi tapahtumia"
+      ],
+      "Color-coding is here!": [
+        "Värikoodaus on täällä!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Mukautettavien tapahtumavärien avulla voit värikoodata kaaoksen ja valloittaa päiväsi."
       ]
     },
     "Storage": {
@@ -6805,6 +6848,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ilmainen Mail Plus -kokeilusi päättyy ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Lisää väriä päivääsi"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7243,6 +7289,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Valittu väri:"
       ]
     }
   }

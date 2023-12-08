@@ -601,6 +601,18 @@
       ],
       "Yes, I'll attend": [
         "Ih, ad ttikkiɣ"
+      ],
+      "Add birthday": [
+        "Rnu azemz n tlalit"
+      ],
+      "Add note": [
+        "Rnu tazmilt"
+      ],
+      "Continue with Outlook": [
+        "Kemmel s Outlook"
+      ],
+      "Import from Google": [
+        "Kter seg Google"
       ]
     },
     "Action subline": {
@@ -1090,6 +1102,15 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Isem n uskan"
+      ],
+      "First name": [
+        "Isem"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Contact type label": {
@@ -3784,6 +3805,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Izḍi usrid n unagraw-inek·inem yettban yettusenfel ɣer ${ timezone }. Tebɣiḍ ad tleqqmeḍ asmenyif-inek·inem n yizḍi usrid?"
+      ],
+      "Select a service provider to start": [
+        "Fren asaǧǧăw n umeẓlu i wakken ad tebduḍ"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Alamma d ${ FAMILY_MAX_USERS } yiseqdacen"
       ]
     },
     "Info message": {
@@ -4552,6 +4579,13 @@
       ],
       "Up to 3 TB of storage": [
         "Alamma d 3 ṬAṬ n uḥraz"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } uwitay",
+        "${ maximumNumberOfCalendars } yiwitayen"
+      ],
+      "Calendar sharing": [
+        "Beṭṭu n uwitay"
       ]
     },
     "new_plans: feature info": {
@@ -4578,6 +4612,9 @@
       ],
       "Contact group updated": [
         "Agraw n unermes yettwasnifel"
+      ],
+      "Link copied to clipboard": [
+        "Aseɣwen yettwanɣel ɣer ɣefwafus"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -4899,6 +4936,9 @@
       ],
       "Start typing an email address": [
         "Bdu tira n tansa n yimayl"
+      ],
+      "First name": [
+        "Isem"
       ]
     },
     "Placeholder for contact group name": {
@@ -5103,6 +5143,9 @@
       ],
       "Support online privacy": [
         "Sefrek tabaḍnit srid"
+      ],
+      "1 user": [
+        "1 useqdac"
       ]
     },
     "specialoffer: Footer": {
@@ -5133,6 +5176,10 @@
       ],
       "Save ${ discount }%": [
         "Sekles ${ discount }%"
+      ],
+      "${ n } month": [
+        "${ n } wayyur",
+        "${ n } wayyuren"
       ]
     },
     "specialoffer: Title": {
@@ -5380,6 +5427,9 @@
       ],
       "vCard field": [
         "urti vCard"
+      ],
+      "First name": [
+        "Isem"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -5771,6 +5821,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Aneɛruḍ n baṭel n Mail Plus ad ifekk deg ${ textDate }"
+      ],
+      "Birthday": [
+        "Amulli"
+      ],
+      "Notes": [
+        "Tizmilin"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6174,6 +6230,64 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } n uḥraz"
+      ],
+      "1 user": [
+        "1 useqdac"
+      ],
+      "6 users": [
+        "6 yiseqdacen"
+      ],
+      "Premium Password Manager": [
+        "Amsefrak n wawal uffir premium"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Aɣram ɣef 30 n wussan yettwaḍmen"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Reset password": [
+        "Ales awennez n wawal uffir"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "Ttxil sirew-d tisura send ad tɛerḍeḍ ad tbeddeleḍ awal-inek n uɛeddi"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } n wass",
+        "${ timeRemaining.inDays } n wussan"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } n usrag",
+        "${ timeRemaining.inHours } n yisragen"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Got it": [
+        "Gziɣ-t"
+      ],
+      "Learn more": [
+        "Issin ugar"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } n usrag",
+        "${ gracePeriodHoursRemaining } n yisragen"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Awennez n wawal uffir"
       ]
     }
   }

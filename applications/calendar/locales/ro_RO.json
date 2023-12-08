@@ -2245,6 +2245,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puteți marca pentru ștergere contactele pe care nu doriți nici să le îmbinați, nici să le păstrați. Ștergerea va fi efectuată doar după apăsarea butonului de îmbinare."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Creșteți eficiența și urmăriți-vă timpul prin marcarea evenimentelor prin culori în funcție de categorie sau de nivelurile de energie personală. Obțineți asta și multe altele cu un plan cu plată."
       ]
     },
     "description": {
@@ -2323,6 +2326,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Invitație la ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Desfășurarea evenimentului ${ eventTitle } a fost anulată."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2956,6 +2962,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Trebuie să aveți un calendar personal activ pentru a vă importa evenimentele"
+      ],
+      "App currently unavailable": [
+        "Aplicație momentan indisponibilă"
+      ],
+      "Open in browser": [
+        "Deschidere în navigator web"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pentru a folosi ${ MAIL_APP_NAME } sau ${ CALENDAR_APP_NAME }, comutați la versiunea web."
       ]
     },
     "Error notification": {
@@ -4414,6 +4429,15 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Fusul orar al sistemului pare să se fi schimbat la ${ timezone }. Actualizați fusul orar preferat?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Toți participanții vor primi un e-mail de anulare. Ce eveniment doriți să ștergeți?"
+      ],
+      "Select a service provider to start": [
+        "Selectați un furnizor de servicii pentru a începe"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "Proprietarul acestei adrese a dezactivat criptarea în ambele părți. Pentru a putea trimite mesaje criptate la această adresă, proprietarul trebuie să reactiveze criptarea în ambele părți."
       ]
     },
     "Info calendar search": {
@@ -5276,6 +5300,17 @@
       ],
       "Up to 3 TB of storage": [
         "Până la 3 TiB spațiu de stocare"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendar",
+        "${ maximumNumberOfCalendars } calendare",
+        "${ maximumNumberOfCalendars } de calendare"
+      ],
+      "Calendar sharing": [
+        "Partajare calendar"
+      ],
+      "Custom snooze time": [
+        "Timp amânare personal"
       ]
     },
     "new_plans: feature info": {
@@ -5290,6 +5325,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilizați propria adresă de domeniu pentru e-mail, de ex., nume@adresapersonala.com."
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Amânați mesajele și fiți notificat când doriți."
       ]
     },
     "new_plans: label": {
@@ -5525,6 +5563,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Folosiți meniul de selectare al aplicațiilor din stânga sus pentru a accesa toate serviciile ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } și ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Alegeți o temă"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Folosiți meniul de selectare al aplicațiilor din stânga sus pentru a accesa toate serviciile ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } și ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Veți putea să schimbați tema oricând din setări."
       ]
     },
     "Option": {
@@ -6266,6 +6313,12 @@
       ],
       "Search for events": [
         "Căutare evenimente"
+      ],
+      "Color-coding is here!": [
+        "Marcarea prin culori este aici!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Prin personalizarea evenimentelor prin culori, vă ajută să vă gestionați mai bine programul."
       ]
     },
     "Storage": {
@@ -6941,6 +6994,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Add some color to your day": [
+        "Adaugă puțină culoare zilei"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7412,6 +7468,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Culoare selectată:"
       ]
     }
   }

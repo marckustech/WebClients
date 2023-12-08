@@ -454,13 +454,13 @@
         "actualiser la page"
       ],
       "Remove": [
-        "Supprimer"
+        "Retirer"
       ],
       "Remove this notification": [
-        "Supprimer cette notification"
+        "Retirer cette notification"
       ],
       "Remove this participant": [
-        "Supprimer ce participant"
+        "Retirer ce participant"
       ],
       "Report a problem": [
         "Signaler un bug"
@@ -823,7 +823,7 @@
         "Historique des versions plus détaillé"
       ],
       "High speed streaming": [
-        "Streaming ultra rapide"
+        "Streaming ultra-rapide"
       ],
       "Premium ${ DRIVE_SHORT_APP_NAME }": [
         "${ DRIVE_SHORT_APP_NAME } version premium"
@@ -1012,7 +1012,7 @@
     },
     "Calendar permissions hint": {
       "You can change or remove permissions at any time.": [
-        "Vous pouvez modifier ou supprimer les autorisations à tout moment."
+        "Vous pouvez modifier ou retirer les autorisations à tout moment."
       ]
     },
     "Calendar permissions label": {
@@ -2228,6 +2228,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Vous pouvez marquer pour suppression les contacts que vous ne voulez ni fusionner ni conserver. Leur suppression n'aura lieu qu'après avoir cliqué sur le bouton de fusion."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Gagnez en efficacité et organisez votre emploi du temps en classant les événements par catégorie ou selon vos priorités. Profitez de cette fonctionnalité et de bien d'autres avec un abonnement payant."
       ]
     },
     "description": {
@@ -2305,7 +2308,10 @@
         "${ eventTitle } a été mis à jour.\n${ eventDetailsText }"
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
-        "Vous êtes invité(e) à ${ eventTitle }\n${ eventDetailsText }"
+        "Vous êtes invité à ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Cette occurrence de ${ eventTitle } a été annulée."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2607,8 +2613,8 @@
         "La clé principale récupérée pour l'utilisateur ${ BRAND_NAME } n'est pas valide pour l'envoi."
       ],
       "Removed duplicate recipient: ${ joinedRecipients }": [
-        "Le destinataire dupliqué est supprimé : ${ joinedRecipients }",
-        "Les destinataires dupliqués sont supprimés : ${ joinedRecipients }"
+        "Le destinataire dupliqué a été retiré : ${ joinedRecipients }",
+        "Les destinataires dupliqués ont été retirés : ${ joinedRecipients }"
       ],
       "Request timed out": [
         "La requête a expiré."
@@ -2926,6 +2932,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Vous devez avoir un calendrier personnel actif pour importer vos événements."
+      ],
+      "App currently unavailable": [
+        "L'application n'est pas disponible actuellement."
+      ],
+      "Open in browser": [
+        "Ouvrir dans le navigateur"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Pour utiliser ${ MAIL_APP_NAME } ou ${ CALENDAR_APP_NAME }, passez sur la version web."
       ]
     },
     "Error notification": {
@@ -3184,12 +3199,12 @@
         "Insérez une clé de sécurité liée à votre compte ${ BRAND_NAME }."
       ],
       "Security key": [
-        "Clef de sécurité"
+        "Clé de sécurité"
       ]
     },
     "fido2: Label": {
       "Security key": [
-        "Clef de sécurité"
+        "Clé de sécurité"
       ]
     },
     "file size format": {
@@ -3669,7 +3684,7 @@
         "(${ memberCount } membres)"
       ],
       "A cancellation email will be sent to removed participants.": [
-        "Un message d’annulation sera envoyé aux participants supprimés."
+        "Un message d’annulation sera envoyé aux participants retirés."
       ],
       "A cancellation email will be sent to the event participants. Would you like to delete all events in this series?": [
         "Un message d’annulation sera envoyé aux participants. Voulez-vous supprimer tous les événements de cette série ?"
@@ -3684,10 +3699,10 @@
         "L'accès au compte est restreint en raison de factures en retard. Veuillez contacter votre administrateur."
       ],
       "Added and removed participants will be notified about all the events in this series.": [
-        "Les participants ajoutés et supprimés seront informés de tous les événements de cette série."
+        "Les participants ajoutés et retirés seront informés de tous les événements de cette série."
       ],
       "Added and removed participants will be notified.": [
-        "Les participants ajoutés et supprimés seront informés."
+        "Les participants ajoutés et retirés seront informés."
       ],
       "Address Verification with Trusted Keys is enabled for this address. To be able to send to this address, first trust public keys that can be used for sending.": [
         "La vérification d’adresse avec les clés approuvées est activée pour cette adresse. Pour être en mesure d’envoyer à cette adresse, commencez par approuver des clés publiques pouvant être utilisées pour l’envoi."
@@ -3863,10 +3878,10 @@
         "Les participants existants et ajoutés seront informés."
       ],
       "Existent and removed participants will be notified.": [
-        "Les participants existants et supprimés seront informés."
+        "Les participants existants et retirés seront informés."
       ],
       "Existent, added and removed participants will be notified.": [
-        "Les participants existants, ajoutés et supprimés seront informés."
+        "Les participants existants, ajoutés et retirés seront informés."
       ],
       "Free up some space or add more storage space.": [
         "Libérez de l’espace ou ajoutez plus d’espace de stockage."
@@ -3915,7 +3930,7 @@
         "Indexation en pause"
       ],
       "Inherited from parent folder": [
-        "Hérité du dossier dans lequel il est placé."
+        "Similaire au dossier principal"
       ],
       "Internet connection lost": [
         "La connexion internet est perdue."
@@ -4026,7 +4041,7 @@
         "Indiquez un nom et une adresse e-mail pour créer un groupe."
       ],
       "Please remove the duplicates and try again.": [
-        "Supprimez les doublons et réessayez."
+        "Retirez les doublons et réessayez."
       ],
       "Please select the folders you would like to import:": [
         "Sélectionnez les dossiers que vous voulez importer :"
@@ -4060,7 +4075,7 @@
         "Actualisez la page ou ${ link }, cela résoudra automatiquement la plupart des problèmes."
       ],
       "Removed participants will be notified.": [
-        "Les participants supprimés seront informés."
+        "Les participants retirés seront informés."
       ],
       "Select the email format you want to be used by default when sending an email to this email address.": [
         "Sélectionnez le format de message que vous voulez utiliser par défaut pour l'envoi d'un message à cette adresse e-mail."
@@ -4282,7 +4297,7 @@
         "Vous perdrez toutes les modifications non enregistrées."
       ],
       "You will update all the events in this series. Added and removed participants will be notified.": [
-        "Vous allez mettre à jour tous les événements de cette série. Les participants ajoutés et supprimés seront informés."
+        "Vous allez mettre à jour tous les événements de cette série. Les participants ajoutés et retirés seront informés."
       ],
       "You will update all the events in this series. An invitation will be sent to the event participants.": [
         "Vous allez mettre à jour tous les événements de cette série. Une invitation sera envoyée aux participants."
@@ -4291,13 +4306,13 @@
         "Vous allez mettre à jour tous les événements de cette série. Les participants existants et ajoutés seront informés."
       ],
       "You will update all the events in this series. Existent and removed participants will be notified.": [
-        "Vous allez mettre à jour tous les événements de cette série. Les participants existants et supprimés seront informés."
+        "Vous allez mettre à jour tous les événements de cette série. Les participants existants et retirés seront informés."
       ],
       "You will update all the events in this series. Existent, added and removed participants will be notified.": [
-        "Vous allez mettre à jour tous les événements de cette série. Les participants existants, ajoutés et supprimés seront informés."
+        "Vous allez mettre à jour tous les événements de cette série. Les participants existants, ajoutés et retirés seront informés."
       ],
       "You will update all the events in this series. Removed participants will be notified.": [
-        "Vous allez mettre à jour tous les événements de cette série. Les participants supprimés seront informés."
+        "Vous allez mettre à jour tous les événements de cette série. Les participants retirés seront informés."
       ],
       "You've reached the maximum number of addresses in the contact group(s):": [
         "Vous avez atteint le nombre maximum d'adresses dans le ou les groupes de contacts :"
@@ -4346,11 +4361,17 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Le fuseau horaire de votre système semble avoir changé pour ${ timezone }. Voulez-vous mettre à jour votre préférence de fuseau horaire ?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Tous les participants recevront un message d'annulation. Quel événement voulez-vous supprimer ?"
+      ],
+      "Select a service provider to start": [
+        "Commencez par sélectionner un service"
       ]
     },
     "Info calendar search": {
       "You can either update your search query or close search to go back to calendar views": [
-        "Vous pouvez mettre à jour votre recherche ou la fermer pour repasser à l'affichage du calendrier."
+        "Vous pouvez mettre à jour votre recherche ou la fermer pour revenir aux vues du calendrier."
       ]
     },
     "Info message": {
@@ -4420,7 +4441,7 @@
     },
     "Input placeholder": {
       "Add label": [
-        "Ajouter un label"
+        "Ajoutez un label."
       ]
     },
     "Key badge": {
@@ -4751,7 +4772,7 @@
         "Fuseau horaire secondaire"
       ],
       "Show week numbers": [
-        "Afficher les numéros de semaine"
+        "Affichage des numéros de semaine"
       ],
       "Sign emails": [
         "Signer les e-mails"
@@ -4841,10 +4862,10 @@
     },
     "Limit of calendars reached": {
       "To add a new calendar, remove an existing one.": [
-        "Pour ajouter un nouveau calendrier, supprimez d'abord un calendrier existant."
+        "Pour ajouter un nouveau calendrier, retirez d'abord un calendrier existant."
       ],
       "To add a new calendar, remove another calendar or upgrade your ${ BRAND_NAME } plan to a ${ MAIL_SHORT_APP_NAME } paid plan.": [
-        "Pour ajouter un nouveau calendrier, vous devez d'abord supprimer un calendrier existant ou faire évoluer votre abonnement ${ BRAND_NAME } vers un abonnement payant ${ MAIL_SHORT_APP_NAME }."
+        "Pour ajouter un nouveau calendrier, vous devez d'abord retirer un calendrier existant ou faire évoluer votre abonnement ${ BRAND_NAME } vers un abonnement payant ${ MAIL_SHORT_APP_NAME }."
       ],
       "You've reached the maximum number of calendars available in your plan.": [
         "Vous avez atteint le nombre maximum de calendriers prévus dans votre abonnement."
@@ -5185,10 +5206,10 @@
         "Alias « hide-my-email »"
       ],
       "Schedule messages at any time": [
-        "Planifiez l'envoi de messages quand vous le voulez"
+        "Planification de l'envoi de messages quand vous le voulez"
       ],
       "Search message content": [
-        "Rechercher dans le contenu des messages"
+        "Recherche dans le contenu des messages"
       ],
       "Unlimited folders, labels, and filters": [
         "Nombre illimité de dossiers, de labels et de filtres"
@@ -5198,6 +5219,16 @@
       ],
       "Up to 3 TB of storage": [
         "Jusqu'à 3 To d'espace de stockage"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendrier",
+        "${ maximumNumberOfCalendars } calendriers"
+      ],
+      "Calendar sharing": [
+        "Partage de calendrier"
+      ],
+      "Custom snooze time": [
+        "Périodes de mise en attente personnalisées"
       ]
     },
     "new_plans: feature info": {
@@ -5208,10 +5239,13 @@
         "Profitez d'un nombre illimité d'alias avec SimpleLogin de ${ BRAND_NAME }"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
-        "L'espace de stockage est partagé entre ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } et ${ DRIVE_APP_NAME }."
+        "Espace de stockage partagé entre ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } et ${ DRIVE_APP_NAME }."
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilisez votre adresse e-mail personnalisée à partir de votre propre nom de domaine (vous@votrenom.com)."
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Mettez les messages en attente et recevez un rappel quand vous le voulez."
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5460,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Utilisez le sélecteur d'applications en haut à gauche pour accéder à tous les services ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } et ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Choisissez un thème"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Utilisez le sélecteur d'applications en haut à gauche pour accéder à tous les services ${ BRAND_NAME } : ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } et ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Vous pouvez changer de thème dans vos paramètres quand vous le voulez."
       ]
     },
     "Option": {
@@ -5543,25 +5586,25 @@
         "Ajouter une description au calendrier"
       ],
       "Add a calendar name": [
-        "Ajouter un nom de calendrier"
+        "Ajoutez un nom de calendrier."
       ],
       "Add description": [
-        "Ajouter une description"
+        "Ajoutez une description."
       ],
       "Add location": [
-        "Ajouter un lieu"
+        "Ajoutez un lieu."
       ],
       "Add participants": [
-        "Ajouter des participants"
+        "Ajoutez des participants."
       ],
       "Add title": [
-        "Ajouter un titre"
+        "Ajoutez un titre."
       ],
       "E.g., ": [
-        "p. ex., "
+        "Par exemple, "
       ],
       "Filter groups": [
-        "Filtrer les groupes"
+        "Filtrez les groupes."
       ],
       "First name": [
         "Prénom"
@@ -5591,19 +5634,19 @@
         "Décrivez le problème et incluez les éventuels messages d'erreur."
       ],
       "Please select a country": [
-        "Sélectionnez un pays"
+        "Sélectionnez un pays."
       ],
       "Search events": [
         "Recherche d'événements"
       ],
       "Search for group name": [
-        "Rechercher un nom de groupe"
+        "Recherchez un nom de groupe."
       ],
       "Search for name or email": [
-        "Rechercher par nom ou adresse e-mail"
+        "Recherchez par nom ou adresse e-mail."
       ],
       "Select": [
-        "Sélectionner"
+        "Sélectionnez"
       ],
       "Start typing an email address": [
         "Commencez à saisir une adresse e-mail."
@@ -6144,6 +6187,12 @@
       ],
       "Search for events": [
         "Rechercher des événements"
+      ],
+      "Color-coding is here!": [
+        "Vous pouvez utiliser les couleurs pour vos événements !"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "La personnalisation des couleurs de vos événements vous aide à mieux gérer votre emploi du temps."
       ]
     },
     "Storage": {
@@ -6176,7 +6225,7 @@
         "${ countMergeableContacts } contacts semblent identiques."
       ],
       "A cancellation email will be sent to removed participants for all the events in this series.": [
-        "Un message d'annulation sera envoyé aux participants supprimés pour tous les événements de cette série."
+        "Un message d'annulation sera envoyé aux participants retirés pour tous les événements de cette série."
       ],
       "Address copied to clipboard": [
         "L'adresse a été copiée dans le presse-papiers."
@@ -6221,10 +6270,10 @@
         "L'annulation a été envoyée et l'événement a été supprimé."
       ],
       "Cancellation sent and participants removed": [
-        "L'annulation a été envoyée et les participants ont été supprimés."
+        "L'annulation a été envoyée et les participants ont été retirés."
       ],
       "Cancellation sent and participants removed from all events": [
-        "L'annulation a été envoyée et les participants ont été supprimés de tous les événements."
+        "L'annulation a été envoyée et les participants ont été retirés de tous les événements."
       ],
       "Code sent to ${ methodTo }": [
         "Le code a été envoyé à ${ methodTo }."
@@ -6431,7 +6480,7 @@
     },
     "Timezone search placeholder": {
       "Search time zones": [
-        "Rechercher des fuseaux horaires"
+        "Recherchez des fuseaux horaires."
       ]
     },
     "Title": {
@@ -6675,7 +6724,7 @@
         "Récupérer les données"
       ],
       "Remove participants": [
-        "Supprimer des participants"
+        "Retirer des participants"
       ],
       "Report a problem": [
         "Signaler un bug"
@@ -6805,6 +6854,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Votre essai gratuit Mail Plus se termine le ${ textDate }."
+      ],
+      "Add some color to your day": [
+        "Mettez de la couleur dans votre journée"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7243,6 +7295,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Couleur sélectionnée :"
       ]
     }
   }

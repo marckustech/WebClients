@@ -2225,6 +2225,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Você pode marcar para exclusão os contatos que não quer mesclar nem manter. A exclusão somente ocorrerá após o botão de mesclagem ser clicado"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Aumente a eficiência e controle seu tempo codificando eventos por cores por categoria ou seus níveis de energia. Obtenha isso e muito mais com um plano pago."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Para importação via arquivo CSV e VCF, certifique-se de que o arquivo não exceda ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contatos. Se o seu arquivo for maior, divida-o em arquivos menores. ${ learnMoreLink }."
       ]
     },
     "description": {
@@ -2727,6 +2733,9 @@
       ],
       "Your import will not be processed.": [
         "Sua importação não será processada."
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "O destinatário pretendido não oferece suporte ao compartilhamento de calendário"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2920,6 +2929,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Você precisa ter um calendário pessoal ativo para importar seus eventos"
+      ],
+      "App currently unavailable": [
+        "Aplicativo atualmente indisponível"
+      ],
+      "Open in browser": [
+        "Abrir no navegador"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Para usar o ${ MAIL_APP_NAME } ou ${ CALENDAR_APP_NAME } mude para a versão web."
       ]
     },
     "Error notification": {
@@ -4337,6 +4355,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "O fuso horário de seu sistema parece ter mudado para ${ timezone }. Você deseja atualizar suas preferências de fuso horário?"
+      ],
+      "Select a service provider to start": [
+        "Selecione um provedor de serviços para começar"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "O proprietário deste endereço desativou a criptografia de ponta a ponta. Para poder enviar e-mails criptografados para este endereço, o proprietário deve reativar a criptografia de ponta a ponta."
       ]
     },
     "Info calendar search": {
@@ -5189,6 +5213,16 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
+      ],
+      "Calendar sharing": [
+        "Compartilhar o calendário"
+      ],
+      "Custom snooze time": [
+        "Adiamento personalizado"
       ]
     },
     "new_plans: feature info": {
@@ -5203,6 +5237,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Use seu próprio domínio de e-mail personalizado, por exemplo: voce@seunome.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Adie mensagens e receba lembretes quando quiser"
       ]
     },
     "new_plans: label": {
@@ -5417,6 +5454,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Use o seletor de aplicativos no canto superior esquerdo para acessar todos os serviços da ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } e ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Escolha um tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Use o seletor de aplicativos no canto superior esquerdo para acessar todos${ BRAND_NAME }Serviços:${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }e ${ PASS_SHORT_APP_NAME }"
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Você poderá alterar seu tema a qualquer momento nas configurações."
       ]
     },
     "Option": {
@@ -6119,7 +6165,7 @@
     },
     "Spotlight": {
       "Add your country's public holidays to your calendar.": [
-        "Adicione seus feriados de seu país no seu calendário."
+        "Adicione os feriados de seu país no seu calendário."
       ],
       "Easily find the event you're looking for with our new search feature.": [
         "Encontre facilmente o evento que você procura com nosso novo recurso de pesquisa."
@@ -6135,6 +6181,12 @@
       ],
       "Search for events": [
         "Pesquisar por eventos"
+      ],
+      "Color-coding is here!": [
+        "O código de cores está aqui!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Com cores de evento personalizáveis, você pode codificar o caos por cores e conquistar o seu dia."
       ]
     },
     "Storage": {
@@ -6796,6 +6848,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Adicione um pouco de cor ao seu dia"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6916,7 +6971,7 @@
     },
     "View event button tooltip": {
       "Navigate to event": [
-        "Navegador até o evento"
+        "Navegue até o evento"
       ],
       "Open in a new tab": [
         "Abrir em uma nova guia"
@@ -7234,6 +7289,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Cor selecionada:"
       ]
     }
   }

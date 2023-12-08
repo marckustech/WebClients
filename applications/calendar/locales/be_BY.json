@@ -295,7 +295,7 @@
         "Схаваць часавыя паясы"
       ],
       "Image could not be loaded with tracker protection.": [
-        "Немагчыма загрузіць відарыс з уключанай абаронай ад праграм сачэння."
+        "Не атрымалася загрузіць відарыс з уключанай абаронай ад праграм сачэння."
       ],
       "Image will be loaded without a proxy": [
         "Відарыс будзе загружаны без проксі-сервера"
@@ -2262,6 +2262,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можаце пазначыць тыя кантакты, якія вы не хочаце аб'яднаць і пакідаць. Выдаленне адбываецца толькі пасля націску кнопкі аб'яднання"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Павялічце эфектыўнасць і сачыце за сваім часам кадзіруючы колерам падзеі пры дапамозе катэгорый або сваім энергетычным узроўнем. Атрымайце гэту і многія іншыя функцыі з платным тарыфным планам."
       ]
     },
     "description": {
@@ -2340,6 +2343,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Вас запрасілі на ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Гэта паўтарэнне ${ eventTitle } было скасавана."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2986,6 +2992,15 @@
       ],
       "You need an active personal calendar to import events": [
         "Вам неабходны асабісты актыўны каляндар для імпартавання падзей"
+      ],
+      "App currently unavailable": [
+        "Праграма часова недаступна"
+      ],
+      "Open in browser": [
+        "Адкрыць у браўзеры"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Пераключыцеся на вэб-версію, каб выкарыстоўваць ${ MAIL_APP_NAME } або ${ CALENDAR_APP_NAME }."
       ]
     },
     "Error notification": {
@@ -3042,10 +3057,10 @@
     },
     "Event invitation error": {
       "Attached ICS file could not be decrypted": [
-        "Немагчыма расшыфраваць далучаны файл ICS"
+        "Не атрымалася расшыфраваць далучаны файл ICS"
       ],
       "Attached ICS file could not be read": [
-        "Немагчыма прачытаць далучаны файл ICS"
+        "Не атрымалася прачытаць далучаны файл ICS"
       ],
       "Invalid invitation": [
         "Памылковае запрашэнне"
@@ -3054,10 +3069,10 @@
         "Памылковы адказ"
       ],
       "The event could not be added to your calendar. No answer was sent": [
-        "Немагчыма дадаць падзею ў ваш каляндар. Адказ не адпраўлены"
+        "Не атрымалася дадаць падзею ў ваш каляндар. Адказ не адпраўлены"
       ],
       "The event could not be updated in your calendar. No answer was sent": [
-        "Немагчыма абнавіць падзею ў вашым календары. Адказ не адпраўлены"
+        "Не атрымалася абнавіць падзею ў вашым календары. Адказ не адпраўлены"
       ],
       "Unexpected error": [
         "Нечаканая памылка"
@@ -4247,7 +4262,7 @@
         "Немагчыма апавясціць арганізатара, што вы хочаце змяніць свой адказ:"
       ],
       "The organizer could not be notified that you changed your answer:": [
-        "Не ўдалося апавясціць арганізатара, што вы змянілі свой адказ:"
+        "Не атрымалася апавясціць арганізатара, што вы змянілі свой адказ:"
       ],
       "The organizer has updated some of the events in this series. Changing the calendar is not supported yet for this type of recurring events.": [
         "Арганізатар абнавіў некаторыя падзеі ў гэтай серыі. Змяненне календара пакуль не падтрымліваецца для дадзенага тыпу перыядычных падзей."
@@ -4265,7 +4280,7 @@
         "Арганізатар гэтай серыі падзей не атрымае апавяшчэнне, што вы адхілілі запрашэнне, паколькі вы не можаце адпраўляць лісты з запрошанага адраса. Ці хочаце вы ўсё роўна выдаліць усе падзеі ў гэтай серыі?"
       ],
       "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
-        "Уладальнік гэтага адраса адключыў скразное шыфраванне. Яму неабходна паўторна ўключыць скразное шыфраванне, каб мець магчымасць адпраўляць зашыфраваныя лісты на гэты адрас."
+        "Уладальнік гэтага адраса адключыў скразное шыфраванне. Яму неабходна паўторна ўключыць яго, каб мець магчымасць адпраўляць зашыфраваныя лісты на гэты адрас."
       ],
       "This account has been suspended due to a potential policy violation.": [
         "Дзеянне гэтага ўліковага запісу было прыпынена па прычыне патэнцыйнага парушэння ўмоў выкарыстання."
@@ -4488,6 +4503,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Падобна, што ваш часавы пояс змяніўся на ${ timezone }. Вы сапраўды хочаце абнавіць налады вашага часавога пояса?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Усе ўдзельнікі атрымаюць ліст пра скасаванне. Якую падзею вы хочаце выдаліць?"
+      ],
+      "Select a service provider to start": [
+        "Выберыце пастаўшчыка паслуг, каб пачаць"
       ]
     },
     "Info calendar search": {
@@ -5360,6 +5381,18 @@
       ],
       "Up to 3 TB of storage": [
         "Да 3 ТБ сховішча"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } каляндар",
+        "${ maximumNumberOfCalendars } календары",
+        "${ maximumNumberOfCalendars } календароў",
+        "${ maximumNumberOfCalendars } календароў"
+      ],
+      "Calendar sharing": [
+        "Абагулены каляндар"
+      ],
+      "Custom snooze time": [
+        "Карыстальніцкі час адкладання"
       ]
     },
     "new_plans: feature info": {
@@ -5374,6 +5407,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Выкарыстоўвайце свой уласны карыстальніцкі дамен адраса электроннай пошты. Напрыклад, you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Адкладайце паведамленні і атрымлівайце напаміны, калі вам гэта неабходна"
       ]
     },
     "new_plans: label": {
@@ -5630,6 +5666,15 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Скарыстайцеся выбарам праграм злева ўверсе для атрымання доступу да ўсіх сэрвісаў ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } і ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Выберыце тэму"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Скарыстайцеся выбарам праграм злева ўверсе для атрымання доступу да ўсіх сэрвісаў ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } і ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Вы зможаце змяніць тэму ў любы час праз налады."
       ]
     },
     "Option": {
@@ -5912,7 +5957,7 @@
     },
     "Select search results": {
       "Check your spelling or select a country from the list.": [
-        "Праверце правільнасць напісання або выберыце краіну са спісу."
+        "Праверце правільнасць напісання або выберыце краіну са спіса."
       ],
       "No results found": [
         "Нічога не знойдзена"
@@ -6394,6 +6439,12 @@
       ],
       "Search for events": [
         "Пошук падзей"
+      ],
+      "Color-coding is here!": [
+        "Прадстаўляем вам кадзіраванне колерам!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "З дапамогай колераў, якія можна наладзіць, вы можаце лепш арганізаваць свой распарадак дня."
       ]
     },
     "Storage": {
@@ -7083,6 +7134,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Дадайце крыху колераў у свой дзень"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7160,10 +7214,10 @@
         "Сістэмныя падпапкі будуць адлюстроўвацца ў якасці асобных папак у ${ MAIL_APP_NAME }"
       ],
       "The image could not be loaded": [
-        "Немагчыма загрузіць відарыс"
+        "Не атрымалася загрузіць відарыс"
       ],
       "The image could not be loaded using proxy": [
-        "Немагчыма загрузіць відарыс з выкарыстаннем проксі-сервера"
+        "Не атрымалася загрузіць відарыс з выкарыстаннем проксі-сервера"
       ],
       "The import will start with the most recent messages.": [
         "Імпартаванне пачнецца з самых апошніх паведамленняў."
@@ -7236,7 +7290,7 @@
         "Вы сапраўды хочаце незваротна выдаліць гэты кантакт?"
       ],
       "Contacts could not be merged": [
-        "Не ўдалося аб'яднаць кантакты"
+        "Не атрымалася аб'яднаць кантакты"
       ],
       "If you don’t remember your password, it is impossible to re-activate your key. We can help you dismiss the alert banner but in the process you will permanently lose access to all the data encrypted with that key.": [
         "Калі вы не памятаеце свой пароль, то немагчыма паўторна актываваць ваш ключ. Мы можам дапамагчы вам ігнараваць банер папярэджання, але ў працэсе вы незваротна страціце доступ да ўсіх даных, якія зашыфраваны гэтым ключом."
@@ -7587,6 +7641,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Выбраны колер:"
       ]
     }
   }

@@ -3642,6 +3642,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Pencarian Anda membuahkan terlalu banyak hasil. Harap persempit kriteria pencarian Anda dan coba lagi."
+      ],
+      "Something went wrong. Please try again.": [
+        "Terjadi suatu kesalahan. Silakan coba lagi."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Anda telah mencapai batas jumlah karakter yang diperkenankan. Silakan persingkat isi pesan Anda."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -5482,7 +5488,7 @@
         "Teks polos"
       ],
       "Please add at least one recipient.": [
-        "Harap tentukan setidaknya satu orang penerima."
+        "Mohon tambahkan setidaknya satu nama penerima."
       ],
       "Please fill out this field.": [
         "Mohon isi kolom ini."
@@ -5548,7 +5554,7 @@
         "Penerima: "
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Informasi pemulihan akan tetap terdapat pada perangkat ini kecuali Anda memilih untuk menghapusnya."
+        "Informasi pemulihan akan tetap tersimpan pada perangkat ini kecuali Anda memilih untuk menghapusnya."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
         "Memuat ulang halaman atau ${ link } akan secara otomatis mengatasi sebagian besar masalah."
@@ -5968,7 +5974,7 @@
         "Kapankah Anda ingin pesan Anda untuk terhapus secara otomatis dari kotak masuk penerima dan folder terkirim Anda?"
       ],
       "When do you want your message to be sent?": [
-        "Kapankah Anda ingin pesan Anda terkirim?"
+        "Kapan Anda ingin pesan Anda dikirim?"
       ],
       "When do you want your message to self-destruct?": [
         "Kapan Anda ingin pesan ini terhapus secara otomatis?"
@@ -6106,7 +6112,7 @@
         "Surel Anda hanya akan dipakai satu kali ini untuk keperluan verifikasi."
       ],
       "Your files will be encrypted and then saved": [
-        "Berkas Anda akan dienkripsi lalu disimpan"
+        "Berkas Anda akan dienkripsi dan kemudian disimpan"
       ],
       "Your login information will not be saved after the import is completed.": [
         "Informasi seputar akun Anda tidak akan disimpan setelah impor selesai."

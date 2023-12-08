@@ -3587,6 +3587,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "За вашим пошуковим запитом знайдено надто багато результатів. Обмежте пошуковий запит і спробуйте знову."
+      ],
+      "Something went wrong. Please try again.": [
+        "Сталася помилка. Повторіть спробу пізніше."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -9997,6 +10000,9 @@
       ],
       "Protection from trackers": [
         "Захист від стеження"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Шифрування настільки надійне, що ніхто крім вас і ваших отримувачів не зможе переглядати ваші листи. ${ kbLinkEncryption }"
       ]
     },
     "session_recovery:available:error": {

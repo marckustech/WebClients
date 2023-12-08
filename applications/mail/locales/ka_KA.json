@@ -3671,6 +3671,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "თქვენმა ძებნამ მეტისმეტად ბევრი შედეგი მოიტანა. დაადეთ უფრო მეტი ლიმიტი და თავიდან სცადეთ."
+      ],
+      "Something went wrong. Please try again.": [
+        "რაღაც არასწორად წავიდა. თავიდან სცადეთ."
       ]
     },
     "Error adding participants to a calendar event": {

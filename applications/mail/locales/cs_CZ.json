@@ -3729,6 +3729,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhledávání našlo příliš mnoho výsledků. Upřesněte hledání a zkuste to prosím znovu."
+      ],
+      "Something went wrong. Please try again.": [
+        "Něco se pokazilo, prosím zkuste to později."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -7910,6 +7913,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "Pomocí výběru aplikací v levém horním rohu získáte přístup ke všem službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } a ${ DRIVE_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Vyberte si téma"
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Téma můžete kdykoli změnit v nastaveních."
       ]
     },
     "Online accounts": {
@@ -8841,6 +8850,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Nyní můžete naplánovat odesílání zpráv na později"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Nastavte si, kdy se má e-mail znovu objevit v doručené poště, pomocí nové funkce odložení."
       ]
     },
     "Status": {
@@ -10430,6 +10442,15 @@
       ],
       "Skip": [
         "Přeskočit"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Natrvalo zablokujte emailovou komunikaci od podvodníků. ${ kbLinkSender }"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "Šifrování je tak silné, že e-maily můžete zobrazit pouze vy a určení příjemci. ${ kbLinkEncryption }"
+      ],
+      "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
+        "Zabraňujeme inzerentům a sběračům dat v tom, aby vás profilovali. ${ kbLinkPrivacy }"
       ]
     },
     "Snooze message": {

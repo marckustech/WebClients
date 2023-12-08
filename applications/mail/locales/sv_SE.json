@@ -3157,6 +3157,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du är inbjuden till ${ eventTitle } ${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Denna förekomst av ${ eventTitle } har avbrutits."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3671,6 +3674,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din sökning matchade för många resultat. Begränsa din sökning och försök igen."
+      ],
+      "Something went wrong. Please try again.": [
+        "Något gick fel. Försök igen."
       ]
     },
     "Error adding participants to a calendar event": {

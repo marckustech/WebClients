@@ -648,7 +648,7 @@
         "Sposta tutti i messaggi da questa etichetta"
       ],
       "Move all to archive": [
-        "Sposta tutto in archivio"
+        "Sposta tutto nell'archivio"
       ],
       "Move all to trash": [
         "Sposta tutto nel cestino"
@@ -660,7 +660,7 @@
         "Sposta in"
       ],
       "Move to archive": [
-        "Sposta in archivio"
+        "Sposta nell'archivio"
       ],
       "Move to inbox": [
         "Sposta nella posta in arrivo"
@@ -3157,6 +3157,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sei invitato a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Questa occorrenza di ${ eventTitle } è stata cancellata."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3671,6 +3674,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La tua ricerca ha restituito troppi risultati. Limita la ricerca e riprova."
+      ],
+      "Something went wrong. Please try again.": [
+        "Qualcosa è andato storto, riprova più tardi."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Hai superato il limite di caratteri. Riduci il messaggio, per favore."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -5386,7 +5395,7 @@
         "Includi Spam/Cestino nei risultati di ricerca."
       ],
       "Inherited from parent folder": [
-        "Ereditato dalla cartella principale"
+        "Preso dalla cartella principale"
       ],
       "Insert image": [
         "Inserisci immagine"
@@ -6416,7 +6425,7 @@
         "Sposta a destra / espandi"
       ],
       "Move to Archive": [
-        "Sposta in archivio"
+        "Sposta nell'archivio"
       ],
       "Move to Inbox": [
         "Sposta nella posta in arrivo"
@@ -6807,7 +6816,7 @@
         "Sposta in"
       ],
       "Move to Archive": [
-        "Sposta in archivio"
+        "Sposta nell'archivio"
       ],
       "Move to Inbox": [
         "Sposta nella posta in arrivo"
@@ -9301,7 +9310,7 @@
         "Altre selezioni"
       ],
       "Move all messages to Archive": [
-        "Sposta tutti i messaggi nell'Archivio"
+        "Sposta tutti i messaggi nell'archivio"
       ],
       "Move all messages to Trash": [
         "Sposta tutti i messaggi nel cestino"

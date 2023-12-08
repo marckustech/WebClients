@@ -3189,6 +3189,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Вас запрасілі на ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Гэта паўтарэнне ${ eventTitle } было скасавана."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3729,6 +3732,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Ваш пошук вярнуў занадта шмат вынікаў. Абмяжуйце вобласць пошуку і паспрабуйце яшчэ раз."
+      ],
+      "Something went wrong. Please try again.": [
+        "Нешта пайшло не так. Паспрабуйце яшчэ раз."
       ]
     },
     "Error adding participants to a calendar event": {

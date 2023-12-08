@@ -3729,6 +3729,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhľadávanie našlo príliš veľa výsledkov. Upresnite hľadanie a skúste to prosím znova."
+      ],
+      "Something went wrong. Please try again.": [
+        "Niečo sa pokazilo. Skúste to znova, prosím."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -10450,7 +10453,7 @@
         "Ďalej"
       ],
       "Protection from trackers": [
-        "Ochrana pred trackermi"
+        "Ochrana pred sledovaním"
       ],
       "Skip": [
         "Preskočiť"

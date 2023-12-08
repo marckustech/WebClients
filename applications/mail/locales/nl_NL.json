@@ -3659,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Uw zoekopdracht leverde te veel resultaten op. Verfijn uw zoekopdracht en probeer het opnieuw."
+      ],
+      "Something went wrong. Please try again.": [
+        "Er ging iets mis. Probeer het later nog eens."
       ]
     },
     "Error adding participants to a calendar event": {

@@ -969,6 +969,27 @@
       ],
       "Unblock": [
         "Odblokiraj"
+      ],
+      "Change email": [
+        "Promijeni adresu e-pošte"
+      ],
+      "Edit encryption": [
+        "Uredi enkripciju"
+      ],
+      "Import from Outlook": [
+        "Uvoz iz Outlooka"
+      ],
+      "Move all to trash": [
+        "Premjesti sve u otpad"
+      ],
+      "Read message": [
+        "Pročitaj poruku"
+      ],
+      "Remove encryption": [
+        "Ukloni šifriranje"
+      ],
+      "Why not?": [
+        "Zašto ne?"
       ]
     },
     "action": {
@@ -1085,6 +1106,12 @@
       ],
       "6 users": [
         "6 korisnika"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "Bug category": {
@@ -1289,6 +1316,36 @@
       ],
       "This response is out of date. You have no calendars.": [
         "Ovaj je odgovor zastario. Nemate kalendara."
+      ],
+      "${ participantName } accepted an invitation and proposed a new time for one occurrence of this event.": [
+        "${ participantName } je prihvatio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } declined an invitation and proposed a new time for one occurrence of this event.": [
+        "${ participantName } je odbio pozivi predložio novo vrijeme za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } had accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je prihvatio poziv i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had declined an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
+        "${ participantName } je odbio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had declined an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je odbio pozivnicu i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
+        "${ participantName } jje privremeno prihvatio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je oprezno prihvatio poziv i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation to one occurrence of the event.": [
+        "${ participantName } je oprezno prihvatio poziv za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } tentatively accepted an invitation and proposed a new time for this event.": [
+        "${ participantName } je uvjetno prihvatio poziv i predložio novo vrijeme za ovaj događaj."
+      ],
+      "This new time proposal doesn't match your invitation details. Please verify the invitation details in your calendar.": [
+        "Novi vremenski prijedlog se ne podudara s detaljima vaše pozivnice. Provjerite detalje pozivnice u kalendaru."
       ]
     },
     "Cancel expiration of the message": {
@@ -2337,6 +2394,21 @@
       ],
       "Vanuatu": [
         "Vanuatu"
+      ],
+      "Burkina Faso": [
+        "Burkina Faso"
+      ],
+      "Sierra Leone": [
+        "Sierra Leone"
+      ],
+      "Sint Maarten": [
+        "Sveti Martin"
+      ],
+      "Tristan da Cunha": [
+        "Tristan da Cunha"
+      ],
+      "Turkmenistan": [
+        "Turkmenistan"
       ]
     },
     "CustomFilter": {
@@ -2786,6 +2858,12 @@
       ],
       "Username must end with a letter or digit": [
         "Korisničko ime mora završiti s slovom ili brojkom"
+      ],
+      "Some of your folder names exceed ${ MAIL_APP_NAME }'s maximum character limit. Please customize the import to edit these names.": [
+        "Neki od vaših naziva mapa premašuju ${ MAIL_APP_NAME }ovo maksimalno ograničenje broja znakova. Prilagodite uvoz da biste uredili te nazive."
+      ],
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti."
       ]
     },
     "Error display when performing invalid move on message": {
@@ -2805,6 +2883,9 @@
       ],
       "Your file ${ formattedFilename } is empty.": [
         "Vaša datoteka ${ formattedFilename } je prazna."
+      ],
+      "An error occurred uploading your file ${ formattedFilename }. Only ICS file formats are allowed.": [
+        "Došlo je do pogreške prilikom učitavanja vaše datoteke ${ formattedFilename }. Samo datoteke ICS formata su dopuštene."
       ]
     },
     "Error importing contact": {
@@ -2913,6 +2994,9 @@
       ],
       "Event": [
         "Događaj"
+      ],
+      "Custom time zone": [
+        "Prilagođena vremenska zona"
       ]
     },
     "Error message": {
@@ -3031,6 +3115,9 @@
       ],
       "Trash": [
         "Otpad"
+      ],
+      "Do not move": [
+        "Ne premještaj"
       ]
     },
     "Filter modal operators": {
@@ -3075,7 +3162,7 @@
         "${ Label.Name } ažurirano"
       ],
       "Filter ${ Filter.Name } updated": [
-        "Filtar ${ Filter.Name } ažuriran"
+        "Filter ${ Filter.Name } ažuriran"
       ]
     },
     "Filter option": {
@@ -3153,6 +3240,12 @@
       ],
       "Learn more": [
         "Više informacija"
+      ],
+      "${ MAIL_APP_NAME } on App Store": [
+        "${ MAIL_APP_NAME } na App Storeu"
+      ],
+      "${ MAIL_APP_NAME } on Play Store": [
+        "${ MAIL_APP_NAME } na Play Storeu"
       ]
     },
     "Group": {
@@ -3332,6 +3425,9 @@
       ],
       "${ BRAND_NAME } can't connect to your Yahoo account. Please make sure that the mail server address and port number are correct.": [
         "${ BRAND_NAME } se ne može povezati s vašim Yahoo računom. Molimo provjerite jesu li adresa poslužitelja pošte i broj porta ispravni."
+      ],
+      "${ BRAND_NAME } can't connect to your external account. Please make sure that:": [
+        "${ BRAND_NAME } se ne može povezati s vašim vanjskim računom. Molimo osigurajte sljedeće:"
       ]
     },
     "Import error emphasis": {
@@ -3372,6 +3468,9 @@
     "Import provider": {
       "Other": [
         "Ostalo"
+      ],
+      "Import from ${ provider }": [
+        "Uvoz iz ${ provider }a"
       ]
     },
     "Import warning": {
@@ -4167,6 +4266,12 @@
       ],
       "Your files will be encrypted and then saved": [
         "Vaše datoteke će biti šifrirane i spremljene"
+      ],
+      "Edit encryption": [
+        "Uredi enkripciju"
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Sutra, ${ formattedTime }"
       ]
     },
     "info": {
@@ -4823,6 +4928,12 @@
       ],
       "Wonderful": [
         "Izvanredno"
+      ],
+      "Bad": [
+        "Loše"
+      ],
+      "Open in a new tab": [
+        "Otvori u novoj kartici"
       ]
     },
     "Label for contact group color": {
@@ -5666,6 +5777,15 @@
       ],
       "Highest VPN speed": [
         "Najviša VPN brzina"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "Spotlight": {
@@ -5880,6 +6000,9 @@
       ],
       "Message marked as unread.": [
         "Poruka označena kao nepročitana."
+      ],
+      "Message content search enabled": [
+        "Aktivirano je pretraživanje sadržaja poruka"
       ]
     },
     "Success notification": {
@@ -5969,7 +6092,7 @@
         "Dodaj naziv grupi kontakata"
       ],
       "Add filter": [
-        "Dodaj filter"
+        "Dodaj filtar"
       ],
       "Add to ${ groupCount } group": [
         "Dodaj u ${ groupCount } grupu",
@@ -6381,6 +6504,9 @@
       ],
       "Snooze": [
         "Odgodi"
+      ],
+      "Block sender": [
+        "Blokiraj pošiljatelja"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -6794,6 +6920,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Do 6 korisnika"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -6862,6 +6997,9 @@
     "Gmail forwarding": {
       "Sign in with Google": [
         "Prijava putem Google računa"
+      ],
+      "Gmail messages to your inbox": [
+        "Gmail poruke u svoju pristiglu poštu"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6911,6 +7049,15 @@
       ],
       "Travel": [
         "Putovanja"
+      ],
+      "Banking": [
+        "Financije"
+      ],
+      "Entertainment": [
+        "Zabava"
+      ],
+      "Food and beverage": [
+        "Hrana i piće"
       ]
     },
     "protonbadge": {
@@ -7024,6 +7171,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardna cijena ${ amount } za 30 mjeseci"
+      ],
+      "Billed at ${ amount } for 12 months": [
+        "Naplaćeno ${ amount } za 12 mjeseci"
+      ],
+      "Billed at ${ amount } for 15 months": [
+        "Naplaćeno ${ amount } za 15 mjeseci"
+      ],
+      "Billed at ${ amount } for 24 months": [
+        "Naplaćeno ${ amount } za 24 mjeseca"
+      ],
+      "Billed at ${ amount } for 30 months": [
+        "Naplaćeno ${ amount } za 30 mjeseci"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -7043,6 +7202,39 @@
         "${ minutes } minuta",
         "${ minutes } minute",
         "${ minutes } minuta"
+      ]
+    },
+    "Import instructions": {
+      "Go to ${ boldAccountSecurity }.": [
+        "Idi na ${ boldAccountSecurity }"
+      ]
+    },
+    "Label attach to time input to select hours": {
+      "Time": [
+        "Vrijeme"
+      ]
+    },
+    "Option group label": {
+      "Create new calendar": [
+        "Stvori novi kalendar"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Lozinka spremljena"
+      ]
+    },
+    "specialoffer: Footer": {
+      "This subscription will automatically renew every 2 years at the same rate until it is cancelled.": [
+        "Ovaj se pretplatnički odnos automatski obnavlja svake dvije godine po istoj cijeni dok se ne otkaže."
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
       ]
     }
   }

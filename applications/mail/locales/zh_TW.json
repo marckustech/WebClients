@@ -3589,6 +3589,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "搜尋結果過多。請縮小您的搜尋範圍並重新試試。"
+      ],
+      "Something went wrong. Please try again.": [
+        "發生錯誤，請稍後再試。"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -7792,7 +7795,7 @@
     },
     "Select files": {
       "Upload": [
-        "上傳"
+        "上載"
       ]
     },
     "Send email with changed preferences": {

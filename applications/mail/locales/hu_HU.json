@@ -3597,6 +3597,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A keresés túl sok találatot eredményezett. Korlátozza a keresést majd próbálja meg újra."
+      ],
+      "Something went wrong. Please try again.": [
+        "Valami hiba történt. Kérjük próbálja újra."
       ]
     },
     "Error adding participants to a calendar event": {

@@ -3456,6 +3456,9 @@
       "You can't send a mail to more than ${ maxContacts } recipient": [
         "आप ${ maxContacts } से अधिक प्राप्तकर्ता को मेल नहीं भेज सकते",
         "आप ${ maxContacts } से अधिक प्राप्तकर्ता को मेल नहीं भेज सकते"
+      ],
+      "Something went wrong. Please try again.": [
+        "कुछ गलती हो गई। कृपया वापिस कोशिश करें।"
       ]
     },
     "Error display when performing invalid move on message": {

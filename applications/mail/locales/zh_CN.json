@@ -1158,6 +1158,24 @@
       ],
       "Next week": [
         "下一周"
+      ],
+      "Later this week": [
+        "本周稍后"
+      ],
+      "Manage Snooze": [
+        "管理代办事项"
+      ],
+      "Select date and time": [
+        "请选择日期与时间"
+      ],
+      "Snooze": [
+        "延后"
+      ],
+      "This weekend": [
+        "本周末"
+      ],
+      "Unsnooze": [
+        "撤销待办"
       ]
     },
     "action": {
@@ -3555,6 +3573,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "搜索结果过多，请缩小搜索范围后再试。"
+      ],
+      "Something went wrong. Please try again.": [
+        "出现了一些问题。请重试。"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -3993,6 +4014,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -4254,6 +4278,9 @@
       ],
       "You've unlocked 1 GB": [
         "您已解锁 1 GB"
+      ],
+      "This feature is currently unavailable": [
+        "此功能当前不可用。"
       ]
     },
     "Gmail forwarding": {
@@ -5969,6 +5996,9 @@
       ],
       "Optional": [
         "可选"
+      ],
+      "Selected color:": [
+        "所选颜色"
       ]
     },
     "Info on errors": {
@@ -6911,6 +6941,12 @@
       ],
       "Set up email forwarding": [
         "设置邮件自动转发"
+      ],
+      "Snooze": [
+        "延后"
+      ],
+      "Snoozed": [
+        "已待办"
       ]
     },
     "Link to calendar event": {
@@ -7228,6 +7264,9 @@
       ],
       "Calendar sharing": [
         "共享日历"
+      ],
+      "Custom snooze time": [
+        "设置待办事件"
       ]
     },
     "new_plans: feature info": {
@@ -7329,6 +7368,9 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } and ${ DRIVE_SHORT_APP_NAME }.": [
         "通过左上角的切换按钮可以前往所有 ${ BRAND_NAME } 服务：${ MAIL_SHORT_APP_NAME }、${ VPN_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME } 和 ${ DRIVE_SHORT_APP_NAME }。"
+      ],
+      "Pick a theme": [
+        "选择主题"
       ]
     },
     "Online accounts": {
@@ -9088,6 +9130,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免费体验期将于 ${ textDate } 结束"
+      ],
+      "Snooze": [
+        "延后"
+      ],
+      "Snooze message": [
+        "* 稍后提醒"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9501,6 +9549,9 @@
       ],
       "Protection from trackers": [
         "抵御追踪脚本"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "阻止骗子 ${ kbLinkSender }的邮件"
       ]
     },
     "summer2023: Deal details": {

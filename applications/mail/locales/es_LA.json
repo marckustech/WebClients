@@ -3157,6 +3157,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Está invitado a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta ocurrencia de ${ eventTitle } ha sido cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3671,6 +3674,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Su búsqueda coincidió con muchos resultados. Limite su búsqueda e inténtelo de nuevo."
+      ],
+      "Something went wrong. Please try again.": [
+        "Hubo un problema. Intente de nuevo."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Ha alcanzado el número máximo de caracteres, acorte su mensaje."
       ]
     },
     "Error adding participants to a calendar event": {

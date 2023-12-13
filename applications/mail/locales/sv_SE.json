@@ -3659,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din sökning matchade för många resultat. Begränsa din sökning och försök igen."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Du har nått det maximala antalet tecken. Förkorta ditt meddelande."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8143,6 +8146,9 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kan nu ändra ditt lösenord för kontot ${ boldEmail } fritt i ${ boldDaysRemaining }."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Du kan nu ändra ditt lösenord för kontot ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {

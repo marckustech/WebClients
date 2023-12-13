@@ -3171,6 +3171,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Pozvání k ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Tento výskyt ${ eventTitle } byl zrušen."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3714,6 +3717,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhledávání našlo příliš mnoho výsledků. Upřesněte hledání a zkuste to prosím znovu."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Dosáhli jste maximálního počtu znaků. Zkraťte prosím svou zprávu."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6467,6 +6473,9 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Odloženo do zítřka, ${ formattedTime }"
       ]
     },
     "info": {
@@ -7851,7 +7860,7 @@
     },
     "Onboarding modal": {
       "Block email communications from scammers permanently. ${ kbLinkSender }": [
-        "Natrvalo zablokujte emailovou komunikaci od podvodníků. ${ kbLinkSender }"
+        "Natrvalo zablokujte e-mailovou komunikaci od podvodníků. ${ kbLinkSender }"
       ],
       "Block unsavory senders": [
         "Blokování nevhodných odesílatelů"
@@ -7876,6 +7885,12 @@
       ],
       "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
         "Zabraňujeme inzerentům a sběračům dat v tom, aby vás profilovali. ${ kbLinkPrivacy }"
+      ],
+      "Automatically forward emails": [
+        "Automaticky přeposílejte e-maily"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Přeposílejte Gmail zprávy do své schránky."
       ]
     },
     "Onboarding Proton": {
@@ -7886,13 +7901,16 @@
         "Objevte všechny služby ${ BRAND_NAME }"
       ],
       "Pick a theme": [
-        "Vyberte si téma"
+        "Vyberte si motiv"
       ],
       "Set up your organization": [
         "Nastavení organizace"
       ],
       "You will be able to change your theme any time in your settings.": [
-        "Téma můžete kdykoli změnit v nastaveních."
+        "Motiv můžete kdykoli změnit v nastavení."
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Pomocí výběru aplikací v levém horním rohu získáte přístup ke všem službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Online accounts": {
@@ -8819,7 +8837,7 @@
         "Vyhledávání se právě stalo chytřejším a rychlejším"
       ],
       "Set when an email should reappear in your inbox with the new snooze feature.": [
-        "Nastavte si, kdy se má e-mail znovu objevit v doručené poště, pomocí nové funkce odložení."
+        "Pomocí nové funkce odložení si nastavte, kdy se má e-mail znovu objevit v doručené poště."
       ],
       "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
         "Zprávy ve složkách Spam a Koš jsou nyní automaticky vyloučeny z Všechna pošta. ${ settingsLink }"
@@ -8835,6 +8853,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Nyní můžete naplánovat odesílání zpráv na později"
+      ],
+      "Snooze it for later": [
+        "Odložení na později"
       ]
     },
     "Status": {

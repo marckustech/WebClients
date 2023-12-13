@@ -355,7 +355,7 @@
         "Prilagodi prozoru"
       ],
       "Font": [
-        "Vrsta slova"
+        "Font"
       ],
       "Forward as attachment": [
         "Proslijedi kao privitak"
@@ -963,6 +963,15 @@
       ],
       "Zoom out": [
         "Smanji"
+      ],
+      "Import from Outlook": [
+        "Uvoz iz Outlooka"
+      ],
+      "Read message": [
+        "Pročitaj poruku"
+      ],
+      "Why not?": [
+        "Zašto ne?"
       ]
     },
     "action": {
@@ -1096,6 +1105,12 @@
       ],
       "6 users": [
         "6 korisnika"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "bf2023: Offers": {
@@ -1305,6 +1320,36 @@
       ],
       "This response is out of date. You have no calendars.": [
         "Ovaj je odgovor zastario. Nemate kalendara."
+      ],
+      "${ participantName } accepted an invitation and proposed a new time for one occurrence of this event.": [
+        "${ participantName } je prihvatio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } declined an invitation and proposed a new time for one occurrence of this event.": [
+        "${ participantName } je odbio pozivi predložio novo vrijeme za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } had accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je prihvatio poziv i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had declined an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
+        "${ participantName } je odbio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had declined an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je odbio pozivnicu i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
+        "${ participantName } jje privremeno prihvatio poziv i predložio novo vrijeme za jedno ponavljanje ovog događaja. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
+        "${ participantName } je oprezno prihvatio poziv i predložio novo vrijeme za ovaj događaj. Odgovor i prijedlog su zastarjeli."
+      ],
+      "${ participantName } had tentatively accepted an invitation to one occurrence of the event.": [
+        "${ participantName } je oprezno prihvatio poziv za jedno ponavljanje ovog događaja."
+      ],
+      "${ participantName } tentatively accepted an invitation and proposed a new time for this event.": [
+        "${ participantName } je uvjetno prihvatio poziv i predložio novo vrijeme za ovaj događaj."
+      ],
+      "This new time proposal doesn't match your invitation details. Please verify the invitation details in your calendar.": [
+        "Novi vremenski prijedlog se ne podudara s detaljima vaše pozivnice. Provjerite detalje pozivnice u kalendaru."
       ]
     },
     "Cancel expiration of the message": {
@@ -1322,6 +1367,9 @@
     "Collapsible tooltip": {
       "Expand": [
         "Proširi"
+      ],
+      "Collapse": [
+        "Minimiziraj"
       ]
     },
     "color": {
@@ -2372,6 +2420,9 @@
       ],
       "Åland Islands": [
         "Ålandski otoci"
+      ],
+      "Tristan da Cunha": [
+        "Tristan da Cunha"
       ]
     },
     "CustomFilter": {
@@ -2826,6 +2877,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vaša pretraga je pronašla previše rezultata. Ograničite pretragu i pokušajte ponovno."
+      ],
+      "Some of your folder names exceed ${ MAIL_APP_NAME }'s maximum character limit. Please customize the import to edit these names.": [
+        "Neki od vaših naziva mapa premašuju ${ MAIL_APP_NAME }ovo maksimalno ograničenje broja znakova. Prilagodite uvoz da biste uredili te nazive."
+      ],
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti."
       ]
     },
     "Error display when performing invalid move on message": {
@@ -2845,6 +2902,9 @@
       ],
       "Your file ${ formattedFilename } is empty.": [
         "Vaša datoteka ${ formattedFilename } je prazna."
+      ],
+      "An error occurred uploading your file ${ formattedFilename }. Only ICS file formats are allowed.": [
+        "Došlo je do pogreške prilikom učitavanja vaše datoteke ${ formattedFilename }. Samo datoteke ICS formata su dopuštene."
       ]
     },
     "Error importing contact": {
@@ -3038,6 +3098,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Do 6 korisnika"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -3220,6 +3289,9 @@
     "Font face option": {
       "System default": [
         "Zadani sustav"
+      ],
+      "Theme font": [
+        "Font teme"
       ]
     },
     "Font Size Default": {
@@ -3267,6 +3339,15 @@
       ],
       "Maybe later": [
         "Možda kasnije"
+      ],
+      "${ MAIL_APP_NAME } app": [
+        "${ MAIL_APP_NAME } aplikacija"
+      ],
+      "${ MAIL_APP_NAME } on App Store": [
+        "${ MAIL_APP_NAME } na App Storeu"
+      ],
+      "${ MAIL_APP_NAME } on Play Store": [
+        "${ MAIL_APP_NAME } na Play Storeu"
       ]
     },
     "Gmail forwarding": {
@@ -3497,6 +3578,9 @@
     "Import provider": {
       "Other": [
         "Ostalo"
+      ],
+      "Import from ${ provider }": [
+        "Uvoz iz ${ provider }a"
       ]
     },
     "Import warning": {
@@ -4295,6 +4379,9 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaš broj telefona koristit će se samo za ovu jednokratnu provjeru."
+      ],
+      "Tomorrow, ${ formattedTime }": [
+        "Sutra, ${ formattedTime }"
       ]
     },
     "info": {
@@ -4957,6 +5044,9 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "PGP scheme": [
+        "PGP sustav"
       ]
     },
     "Label attach to date input to select a date": {
@@ -5919,6 +6009,15 @@
       ],
       "Secure streaming": [
         "Siguran streaming"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Link": {
@@ -5961,6 +6060,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardna cijena ${ amount } za 30 mjeseci"
+      ],
+      "Billed at ${ amount } for 12 months": [
+        "Naplaćeno ${ amount } za 12 mjeseci"
+      ],
+      "Billed at ${ amount } for 15 months": [
+        "Naplaćeno ${ amount } za 15 mjeseci"
+      ],
+      "Billed at ${ amount } for 24 months": [
+        "Naplaćeno ${ amount } za 24 mjeseca"
+      ],
+      "Billed at ${ amount } for 30 months": [
+        "Naplaćeno ${ amount } za 30 mjeseci"
       ]
     },
     "Spotlight": {
@@ -6175,6 +6286,9 @@
       ],
       "Verification successful": [
         "Uspješna provjera"
+      ],
+      "Message content search enabled": [
+        "Aktivirano je pretraživanje sadržaja poruka"
       ]
     },
     "Success notification": {
@@ -6695,6 +6809,12 @@
       ],
       "What's new": [
         "Što je novo"
+      ],
+      "Block sender": [
+        "Blokiraj pošiljatelja"
+      ],
+      "Import failed": [
+        "Neuspješan uvoz"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -7069,6 +7189,29 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Import instructions": {
+      "Go to ${ boldAccountSecurity }.": [
+        "Idi na ${ boldAccountSecurity }"
+      ]
+    },
+    "specialoffer: Footer": {
+      "This subscription will automatically renew every 2 years at the same rate until it is cancelled.": [
+        "Ovaj se pretplatnički odnos automatski obnavlja svake dvije godine po istoj cijeni dok se ne otkaže."
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ]
+    },
+    "Update font modal": {
+      "Update default font and size": [
+        "Ažuriraj zadani font i veličinu."
       ]
     }
   }

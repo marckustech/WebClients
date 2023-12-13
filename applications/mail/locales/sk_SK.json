@@ -3105,7 +3105,7 @@
         "Odomknite vlastné plánovanie správ a ďalšie výhody navýšením svojho plánu."
       ],
       "Unlock custom snooze times when you upgrade your plan.": [
-        "Odomknite vlastné časy odloženia po upgrade plánu."
+        "Odomknite vlastné časy odloženia po navýšení plánu."
       ],
       "Unlock unlimited filters that sort your inbox for you and more premium features when you upgrade.": [
         "Odomknite upgradovaním neobmedzené množstvo filtrov na triedenie vašej doručenej pošty a ďalšie prémiové funkcie."
@@ -7792,7 +7792,7 @@
         "Získajte neobmedzené množstvo aliasov so službou SimpleLogin od ${ BRAND_NAME }"
       ],
       "Snooze messages and get reminded when you want": [
-        "Odložte správy a pripomeňte si ich, keď chcete"
+        "Odložte správy a pripomeňte si ich, kedy chcete"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "Úložný priestor zdieľajú ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } a ${ DRIVE_APP_NAME }"
@@ -7866,7 +7866,7 @@
         "Šifrovanie je také silné, že emaily môžete zobraziť iba vy a určení príjemcovia. ${ kbLinkEncryption }"
       ],
       "For your eyes only": [
-        "Iba pre vaše oči"
+        "Len pre vaše oči"
       ],
       "Next": [
         "Ďalej"
@@ -7879,6 +7879,12 @@
       ],
       "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
         "Zabraňujeme inzerentom a zberačom dát v tom, aby vás profilovali. ${ kbLinkPrivacy }"
+      ],
+      "Automatically forward emails": [
+        "Automatické preposielanie emailov"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Preposielať Gmail správy do vašej doručenej pošty."
       ]
     },
     "Onboarding Proton": {

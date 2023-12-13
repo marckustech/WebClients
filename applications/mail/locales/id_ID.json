@@ -3627,6 +3627,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Pencarian Anda membuahkan terlalu banyak hasil. Harap persempit kriteria pencarian Anda dan coba lagi."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Anda telah mencapai batas jumlah karakter yang diperkenankan. Silakan persingkat isi pesan Anda."
       ]
     },
     "Error adding participants to a calendar event": {

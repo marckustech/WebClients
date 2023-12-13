@@ -1382,7 +1382,7 @@
         "Els descomptes es basen en els preus mensuals estàndard."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "La vostra subscripció es renovarà automàticament a la tarifa estàndard amb descompte i durada al final del cicle de facturació."
+        "La vostra subscripció es renovarà automàticament a la tarifa amb descompte i durada predeterminades al final del cicle de facturació."
       ]
     },
     "bf2023: Offers": {
@@ -1409,6 +1409,9 @@
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "L'espai d'emmagatzematge està compartit entre totes les aplicacions de ${ BRAND_NAME }."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Eviteu els bloquejos i la censura a Internet local amb la nostra xarxa global de servidors."
       ]
     },
     "Bug category": {
@@ -3115,6 +3118,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Heu estat convidat/da a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Aquesta ocurrència de ${ eventTitle } ha estat cancel·lada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3627,6 +3633,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La vostra cerca coincideix amb massa resultats. Limiteu la cerca i torneu-ho a provar."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Heu arribat al nombre màxim de caràcters. Reduïu el vostre missatge."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3847,6 +3856,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "No ha creat cap contacte encara. Comença creant un nou contacte"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Per utilitzar ${ MAIL_APP_NAME } o ${ CALENDAR_APP_NAME }, canvieu a la versió web."
       ]
     },
     "Error notification": {
@@ -4219,7 +4231,7 @@
         "Valor per defecte del sistema"
       ],
       "Theme font": [
-        "Tipus de lletra del tema"
+        "Família tipogràfica del tema"
       ]
     },
     "Font Size Default": {
@@ -5697,10 +5709,10 @@
         "SimpleLogin proporciona una forma fàcil de crear inicis de sessió a llocs de tercers no confiables on no voleu revelar la vostra adreça de correu electrònic real."
       ],
       "Snoozed until  ${ dateString } at ${ formattedTime }": [
-        "Posposició fins ${ dateString } a les ${ formattedTime }"
+        "En posposició fins ${ dateString } a les ${ formattedTime }"
       ],
       "Snoozed until today, ${ formattedTime }": [
-        "Posposició fins avui a les ${ formattedTime }"
+        "En posposició fins avui a les ${ formattedTime }"
       ],
       "Sorry, this message does not exist or has already expired.": [
         "Ho sentim, aquest missatge no existeix o ja ha expirat."
@@ -6190,6 +6202,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "Please use another browser or download the file.": [
+        "Utilitzeu un altre navegador o descarregueu el fitxer."
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "En posposició fins demà a les ${ formattedTime }"
+      ],
+      "This file is too large to preview": [
+        "Aquest fitxer és massa gran per a previsualitzar-lo."
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Milloreu a ${ MAIL_APP_NAME } Plus per desbloquejar aquesta característica."
       ]
     },
     "info": {
@@ -7569,6 +7593,12 @@
       ],
       "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
         "Impedim que els anunciants i els recopiladors de dades us perfilin. ${ kbLinkPrivacy }"
+      ],
+      "Automatically forward emails": [
+        "Reenvieu correus electrònics automàticament."
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Reenvieu els missatges de Gmail a la vostra safata d'entrada."
       ]
     },
     "Onboarding Proton": {
@@ -7940,7 +7970,7 @@
     },
     "Send email with encryption disabled": {
       "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
-        "Els contactes de les següents adreces han desactivat el xifratge d’extrem a extrem pel seu compte i les preferències de xifratge corresponents s'han actualitzat:"
+        "Els contactes per a les adreces següents han desactivat l'encriptació d'extrem a extrem en el seu compte, de manera que les preferències d'encriptació corresponents s'han actualitzat en conseqüència:"
       ]
     },
     "Send email with errors": {
@@ -8140,7 +8170,7 @@
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hores."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Per a assegurar-nos que sou vós qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
+        "Per a assegurar-nos que sou vós qui intenteu restablir la contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Hem rebut una sol·licitud de restabliment de contrasenya per a ${ boldEmail }."
@@ -8222,7 +8252,7 @@
     },
     "Snooze message": {
       "Snooze Message": [
-        "Missatge de posposició"
+        "Posposa el missatge"
       ]
     },
     "Sort option": {
@@ -8459,7 +8489,7 @@
         "La cerca s'ha fet més intel·ligent i ràpida"
       ],
       "Snooze it for later": [
-        "Posposa per més tard"
+        "Posposa per a més tard"
       ],
       "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
         "Els correus brossa i a la paperera ara s'exclouen automàticament de Tot el correu. ${ settingsLink }"
@@ -8472,6 +8502,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ara podeu programar els vostres missatges per tal que s'enviïn més tard"
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Ara podeu reenviar automàticament els vostres correus electrònics a qui vulgueu."
       ]
     },
     "Status": {
@@ -9898,6 +9931,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "Xifratge d'accés zero. El destinatari ha desactivat el xifratge d’extrem a extrem al seu compte."
       ]
     }
   }

@@ -3138,7 +3138,7 @@
         "${ eventTitle } ha sido actualizado.\n${ eventDetailsText }"
       ],
       "This occurrence of ${ eventTitle } has been canceled.": [
-        "Esta incidencia de ${ eventTitle } ha sido cancelada."
+        "Esta ocurrencia de ${ eventTitle } ha sido cancelada."
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Está invitado a ${ eventTitle }\n${ eventDetailsText }"
@@ -3659,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Su búsqueda coincidió con muchos resultados. Limite su búsqueda e inténtelo de nuevo."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Ha alcanzado el número máximo de caracteres, acorte su mensaje."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8143,6 +8146,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Ahora puede cambiar la contraseña para la cuenta ${ boldEmail } durante ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Solicitud de cambio de contraseña aprobada (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Este permiso expira pronto"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Ya puede cambiar la contraseña de la cuenta ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Tiene ${ timeRemaining.inDays } día para restablecer su contraseña.",
+        "Tiene ${ timeRemaining.inDays } días para restablecer su contraseña."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Tiene ${ timeRemaining.inHours } hora para restablecer su contraseña.",
+        " Tiene ${ timeRemaining.inHours } horas para restablecer su contraseña."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Tiene ${ timeRemaining.inMinutes } minuto para restablecer su contraseña.",
+        " Tiene ${ timeRemaining.inMinutes } minutos para restablecer su contraseña."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Tiene ${ timeRemaining.inSeconds } segundo para restablecer su contraseña.",
+        " Tiene ${ timeRemaining.inSeconds } segundos para restablecer su contraseña."
       ]
     },
     "session_recovery:available:link": {

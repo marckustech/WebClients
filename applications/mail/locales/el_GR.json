@@ -3139,6 +3139,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Σας προσκαλούμε σε ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Αυτό το περιστατικό του ${ eventTitle } έχει ακυρωθεί."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3656,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Η αναζήτησή σας ταίριαξε με υπερβολικό αριθμό αποτελεσμάτων. Παρακαλούμε περιορίστε την αναζήτησή σας και δοκιμάστε ξανά."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Έχετε συμπληρώσει τον μέγιστο αριθμό χαρακτήρων. Παρακαλούμε συντομεύστε το μήνυμά σας."
       ]
     },
     "Error adding participants to a calendar event": {

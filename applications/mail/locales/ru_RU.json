@@ -1173,6 +1173,9 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Close the checklist": [
+        "Закрыть контрольный список"
       ]
     },
     "action": {
@@ -1754,6 +1757,12 @@
       ],
       "You already tentatively accepted this invitation.": [
         "Вы уже предварительно приняли это приглашение."
+      ],
+      "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment.": [
+        "You cannot respond to ${ BRAND_NAME } invites if you're not on the participants list at the moment."
+      ],
+      "Your email address is not in the original participants list.": [
+        "Your email address is not in the original participants list."
       ]
     },
     "Calendar widget banner": {
@@ -3091,6 +3100,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можете отметить для удаления те контакты, которые не хотите ни объединять, ни оставлять. Удаление будет происходить только после нажатия кнопки «Объединить»."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Для импорта через CSV- и VCF-файл убедитесь, что файл не превышает ${ MAX_IMPORT_FILE_SIZE_STRING } или ${ MAX_IMPORT_CONTACTS_STRING } контактов. Если ваш файл больше, пожалуйста, разделите его на более мелкие файлы. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Чтобы импортировать контакты из Google или Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -4146,6 +4161,12 @@
         "Мегабайтов",
         "Мегабайтов",
         "Мегабайтов"
+      ],
+      "Terabyte": [
+        "Терабайт",
+        "Терабайта",
+        "Терабайтов",
+        "Терабайтов"
       ]
     },
     "Filter": {
@@ -4408,6 +4429,9 @@
       ],
       "You've unlocked 1 GB": [
         "Вы разблокировали 1 ГБ"
+      ],
+      "Closing this means giving up the free storage bonus.": [
+        "Закрытие этого означает отказ от бонуса бесплатного хранилища."
       ]
     },
     "Gmail forwarding": {
@@ -6343,6 +6367,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "Can't find what you're looking for? ${ displayAllMailButton }": [
+        "Can't find what you're looking for? ${ displayAllMailButton }"
+      ],
+      "Copy the link to clipboard": [
+        "Скопировать ссылку в буфер обмена"
+      ],
+      "Please use another browser or download the file.": [
+        "Пожалуйста, воспользуйтесь другим браузером или загрузите файл."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "Предварительный просмотр для этого типа файлов в настоящее время не поддерживается в этом браузере."
       ]
     },
     "info": {
@@ -10134,6 +10170,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "используйте помощник импорта Easy Switch"
+      ]
+    },
+    "session_recovery:available:title": {
+      "Reset your password": [
+        "Сбросить пароль"
       ]
     }
   }

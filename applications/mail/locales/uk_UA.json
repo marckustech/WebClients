@@ -1333,6 +1333,9 @@
       ],
       "Premium Password Manager": [
         "Premium Менеджер паролів"
+      ],
+      "3 TB": [
+        "3 ТБ"
       ]
     },
     "bf2023: Offers": {
@@ -7660,6 +7663,12 @@
       ],
       "Protection from trackers": [
         "Захист від стеження"
+      ],
+      "Next": [
+        "Далі"
+      ],
+      "Skip": [
+        "Пропустити"
       ]
     },
     "Onboarding Proton": {
@@ -10006,6 +10015,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "Знижки відносно стандартної місячної ціни."
       ]
     }
   }

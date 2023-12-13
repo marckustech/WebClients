@@ -3656,6 +3656,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Haullasi löytyi liikaa tuloksia. Rajoita hakua ja yritä uudelleen."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Olet saavuttanut merkkien enimmäismäärän. Lyhennä viestiäsi."
       ]
     },
     "Error adding participants to a calendar event": {

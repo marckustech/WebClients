@@ -1443,7 +1443,7 @@
         "Tilkoblingsproblem"
       ],
       "Contacts problem": [
-        "Kontakterproblem"
+        "Problem med kontakter"
       ],
       "Custom domain problem": [
         "Egendefinert domeneproblem"
@@ -1464,7 +1464,7 @@
         "E-postproblem"
       ],
       "Manual setup problem": [
-        "Manuelt oppsettsproblem"
+        "Problem med manuell installasjon"
       ],
       "Other": [
         "Annet"
@@ -1485,13 +1485,13 @@
         "Registreringsproblem"
       ],
       "Slow speed problem": [
-        "Problemer med lav hastighet"
+        "Problem med lav hastighet"
       ],
       "Speed problem": [
         "Hastighetsproblem"
       ],
       "Streaming problem": [
-        "Strømmeproblem"
+        "Problem med strømming"
       ],
       "Update problem": [
         "Problem med oppdatering"
@@ -1500,7 +1500,7 @@
         "VPN-problem"
       ],
       "Website access problem": [
-        "Tilgang til nettstedproblem"
+        "Problem med tilgang til nettsted"
       ]
     },
     "Button": {
@@ -1977,7 +1977,7 @@
         "Gå til innboks"
       ],
       "Go to Sent": [
-        "Gå til sendte"
+        "Gå til sendt"
       ],
       "Go to Spam": [
         "Gå til søppelpost"
@@ -3139,6 +3139,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er invitert til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Denne forekomsten av ${ eventTitle } er kansellert."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3656,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Søket samsvarte med for mange resultater. Vennligst begrens søket, og prøv på nytt."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Du har nådd det maksimale tegntallet. Vennligst forkort meldingen."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3968,7 +3974,7 @@
         "Forstått"
       ],
       "Switch plans": [
-        "Bytte planer"
+        "Bytt plan"
       ],
       "View the invitation": [
         "Se invitasjonen"
@@ -4014,7 +4020,7 @@
         "Eiere av en plan med medlemmer kan ikke bli med i en annen gruppeplan."
       ],
       "Sorry, you can't switch plans at this time.": [
-        "Beklager, du kan ikke bytter planer på nåværende tidspunkt."
+        "Beklager, du kan ikke endre abonnementet på nåværende tidspunkt."
       ],
       "Storage assigned to you: ${ assignedStorage }": [
         "Lagringsplass tilordnet deg: ${ assignedStorage }"
@@ -4278,7 +4284,7 @@
     },
     "forwardmessage": {
       "Date: On ${ date }": [
-        "Dato: på ${ date }"
+        "Dato: ${ date }"
       ],
       "From: ${ senderString }": [
         "Fra: ${ senderString }"
@@ -6350,7 +6356,7 @@
         "Gå til innboks"
       ],
       "Go to Sent": [
-        "Gå til sendte"
+        "Gå til sendt"
       ],
       "Go to Spam": [
         "Gå til søppelpost"
@@ -7678,7 +7684,7 @@
         "Underholdning"
       ],
       "Food and beverage": [
-        "Mat og Drikke"
+        "Mat og drikke"
       ],
       "Gaming": [
         "Spilling"
@@ -8326,7 +8332,7 @@
     },
     "specialoffer: Action, Unlimited is a plan name": {
       "Go Unlimited": [
-        "Gå ubegrenset"
+        "Få Unlimited"
       ]
     },
     "specialoffer: Countdown unit": {

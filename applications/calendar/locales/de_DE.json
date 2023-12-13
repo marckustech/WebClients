@@ -2297,6 +2297,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du wurdest zu ${ eventTitle } eingeladen\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Ein Eintrag aus der Terminserie von ${ eventTitle } wurde abgesagt."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4349,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Deine Systemzeitzone scheint sich auf ${ timezone } geändert zu haben. Möchtest du deine Zeitzoneneinstellung aktualisieren?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Alle Teilnehmer erhalten eine Absage-E-Mail. Welchen Termin möchtest du löschen?"
       ]
     },
     "info": {
@@ -5767,6 +5773,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kannst jetzt dein Passwort für das Konto ${ boldEmail } für ${ boldDaysRemaining } frei ändern."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Antrag auf Passwortzurücksetzung genehmigt (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Diese Berechtigung läuft bald aus"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Du kannst jetzt dein Passwort für das Konto ${ boldEmail } ändern."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du hast ${ timeRemaining.inDays } Tag um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inDays } Tage um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du hast ${ timeRemaining.inHours } Stunde um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inHours } Stunden um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du hast ${ timeRemaining.inMinutes } Minute um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inMinutes } Minuten um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du hast ${ timeRemaining.inSeconds } Sekunde um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inSeconds } Sekunden um dein Passwort zurücksetzen."
       ]
     },
     "session_recovery:available:link": {
@@ -6165,6 +6196,12 @@
       ],
       "Search for events": [
         "Nach Terminen suchen"
+      ],
+      "Color-coding is here!": [
+        "Die Farbanpassung ist da!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Mit anpassbaren Veranstaltungsfarben kannst du das Chaos einfärben und deinen Tag bewältigen."
       ]
     },
     "Storage": {

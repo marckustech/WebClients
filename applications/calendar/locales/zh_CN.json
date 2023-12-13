@@ -3113,6 +3113,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -5052,6 +5055,9 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "Custom snooze time": [
+        "设置待办事件"
       ]
     },
     "new_plans: feature info": {
@@ -5250,6 +5256,9 @@
       ],
       "Set up your organization": [
         "填写机构信息"
+      ],
+      "Pick a theme": [
+        "选择主题"
       ]
     },
     "Option": {
@@ -6994,6 +7003,11 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "所选颜色"
       ]
     }
   }

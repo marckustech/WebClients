@@ -2314,6 +2314,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Invitație la ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Desfășurarea evenimentului ${ eventTitle } a fost anulată."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4152,7 +4155,7 @@
         "Sesiunea a expirat"
       ],
       "Setting up PGP allows you to send end-to-end encrypted emails with a non-${ BRAND_NAME } user that uses a PGP compatible service.": [
-        "Setând criptarea PGP veți putea cripta mesajele în ambele părți cu un utilizator fără cont la ${ BRAND_NAME } care folosește un serviciu PGP compatibil."
+        "Setând criptarea PGP veți putea cripta mesajele bilateral cu un utilizator fără cont la ${ BRAND_NAME } care folosește un serviciu PGP compatibil."
       ],
       "Some of your answers to occurrences previously updated by the organizer will be lost.": [
         "Unele dintre răspunsurile dvs. la evenimentele actualizate anterior de către organizator vor fi pierdute."
@@ -4197,7 +4200,7 @@
         "Organizatorul acestei serii de evenimente nu va fi notificat că refuzați invitația deoarece nu puteți trimite e-mailuri de la adresa invitată. Doriți totuși să ștergeți toate evenimentele din această serie?"
       ],
       "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
-        "Proprietarul acestei adrese a dezactivat criptarea în ambele părți. Pentru a putea trimite mesaje criptate la această adresă, proprietarul trebuie să reactiveze criptarea în ambele părți."
+        "Proprietarul acestei adrese a dezactivat criptarea bilaterală. Pentru a putea trimite mesaje criptate la această adresă, proprietarul trebuie să reactiveze criptarea bilaterală."
       ],
       "This account has been suspended due to a potential policy violation.": [
         "Acest cont a fost suspendat din cauza unei posibile încălcări a politicii."
@@ -4420,6 +4423,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Fusul orar al sistemului pare să se fi schimbat la ${ timezone }. Actualizați fusul orar preferat?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Toți participanții vor primi un e-mail de anulare. Ce eveniment doriți să ștergeți?"
       ]
     },
     "info": {
@@ -5883,6 +5889,35 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Acum vă puteți schimba parola pentru contul ${ boldEmail } timp de ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Resetarea parolei contului a fost aprobată (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Această permisiune expiră în curând."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Acum vă puteți schimba parola pentru contul ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Aveți ${ timeRemaining.inDays } zi pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inDays } zile pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inDays } de zile pentru a vă reseta parola."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Aveți ${ timeRemaining.inHours } oră pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inHours } ore pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inHours } de ore pentru a vă reseta parola."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Aveți ${ timeRemaining.inMinutes } minut pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inMinutes } minute pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inMinutes } de minute pentru a vă reseta parola."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Aveți ${ timeRemaining.inSeconds } secundă pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inSeconds } secunde pentru a vă reseta parola.",
+        "Aveți ${ timeRemaining.inSeconds } de secunde pentru a vă reseta parola."
       ]
     },
     "session_recovery:available:link": {
@@ -7061,7 +7096,7 @@
         "Importarea va începe cu cele mai recente mesaje."
       ],
       "Upload a public key to enable sending end-to-end encrypted emails to this email": [
-        "Încărcați o cheie publică pentru a activa trimiterea mesajelor criptate în ambele părți la această adresă."
+        "Încărcați o cheie publică pentru a activa trimiterea mesajelor criptate bilateral la această adresă."
       ],
       "You do not have any contacts to export": [
         "Nu aveți persoane de contact pentru exportare"
@@ -7069,10 +7104,10 @@
     },
     "Tooltip; share calendar modal ": {
       "Shared end-to-end encrypted": [
-        "Criptat în ambele părți"
+        "Criptat bilateral"
       ],
       "Shared end-to-end encrypted with verified contact": [
-        "Criptat în ambele părți cu contacte verificate"
+        "Criptat bilateral cu contacte verificate"
       ]
     },
     "Validation": {
@@ -7131,7 +7166,7 @@
         "Dacă nu vă amintiți parola, este imposibil să vă reactivați cheia. Vă putem ajuta să anulați mesajul de alertă, dar în acest proces veți pierde definitiv accesul la toate datele criptate cu acea cheie."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Rapoartele nu sunt criptate în ambele părți. Nu trimiteți informații confidențiale."
+        "Rapoartele nu sunt criptate bilateral. Nu trimiteți informații confidențiale."
       ],
       "Skip verification?": [
         "Ignorați verificarea?"

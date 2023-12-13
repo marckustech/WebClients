@@ -2297,6 +2297,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "მოსაწვევი ${ eventTitle }-ზე\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "${ eventTitle }-ის მოხდებნა გაუქმდა."
       ]
     },
     "Email body for invitation (date part)": {

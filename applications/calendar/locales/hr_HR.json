@@ -521,6 +521,18 @@
       ],
       "Yes, I'll attend": [
         "Da, prisustvovati ću"
+      ],
+      "Create calendar": [
+        "Stvori kalendar"
+      ],
+      "Import from Outlook": [
+        "Uvoz iz Outlooka"
+      ],
+      "Join calendar": [
+        "Pridružite se kalendaru"
+      ],
+      "Select time zone": [
+        "Odaberite vremensku zonu"
       ]
     },
     "Actions message": {
@@ -584,6 +596,9 @@
       ],
       "${ title } starts today": [
         "${ title } započinje danas"
+      ],
+      "${ title } starts on ${ formattedDate } at ${ formattedHour }": [
+        "${ title } počinje u ${ formattedDate } u ${ formattedHour }"
       ]
     },
     "Alert": {
@@ -622,6 +637,12 @@
       ],
       "6 users": [
         "6 korisnika"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "bf2023: Offers": {
@@ -778,6 +799,9 @@
     "Collapsible tooltip": {
       "Expand": [
         "Proširi"
+      ],
+      "Collapse": [
+        "Minimiziraj"
       ]
     },
     "colon": {
@@ -1678,6 +1702,21 @@
       ],
       "Åland Islands": [
         "Ålandski otoci"
+      ],
+      "Burkina Faso": [
+        "Burkina Faso"
+      ],
+      "Sierra Leone": [
+        "Sierra Leone"
+      ],
+      "Sint Maarten": [
+        "Sveti Martin"
+      ],
+      "Tristan da Cunha": [
+        "Tristan da Cunha"
+      ],
+      "Turkmenistan": [
+        "Turkmenistan"
       ]
     },
     "Custom frequency option": {
@@ -2113,6 +2152,15 @@
       ],
       "Your import will not be processed.": [
         "Vaš uvoz nije moguće obraditi."
+      ],
+      "Failed to get event": [
+        "Neuspješno dohvaćanje događaja"
+      ],
+      "Some of your folder names exceed ${ MAIL_APP_NAME }'s maximum character limit. Please customize the import to edit these names.": [
+        "Neki od vaših naziva mapa premašuju ${ MAIL_APP_NAME }ovo maksimalno ograničenje broja znakova. Prilagodite uvoz da biste uredili te nazive."
+      ],
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti."
       ]
     },
     "Error importing calendar": {
@@ -2127,6 +2175,9 @@
       ],
       "Your file ${ formattedFilename } is empty.": [
         "Vaša datoteka ${ formattedFilename } je prazna."
+      ],
+      "An error occurred uploading your file ${ formattedFilename }. Only ICS file formats are allowed.": [
+        "Došlo je do pogreške prilikom učitavanja vaše datoteke ${ formattedFilename }. Samo datoteke ICS formata su dopuštene."
       ]
     },
     "Error importing contact": {
@@ -2235,6 +2286,9 @@
       ],
       "Unsupported event": [
         "Događaj nije podržan"
+      ],
+      "Custom time zone": [
+        "Prilagođena vremenska zona"
       ]
     },
     "Error message": {
@@ -2337,6 +2391,15 @@
     "familyOffer_2023:Deal details": {
       "Up to 6 users": [
         "Do 6 korisnika"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -2419,6 +2482,9 @@
     "Font face option": {
       "System default": [
         "Zadani sustav"
+      ],
+      "Theme font": [
+        "Font teme"
       ]
     },
     "Font size option": {
@@ -2634,6 +2700,9 @@
     "Import provider": {
       "Other": [
         "Ostalo"
+      ],
+      "Import from ${ provider }": [
+        "Uvoz iz ${ provider }a"
       ]
     },
     "Import warning": {
@@ -3476,6 +3545,23 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "Bad": [
+        "Loše"
+      ],
+      "Date and time": [
+        "Datum i vrijeme"
+      ],
+      "Default view": [
+        "Zadani prikaz"
+      ],
+      "participant": [
+        "sudionik",
+        "sudionika",
+        "sudionika"
+      ],
+      "PGP scheme": [
+        "PGP sustav"
       ]
     },
     "Label for contact group color": {
@@ -3570,6 +3656,9 @@
     "Modal action": {
       "Cancel": [
         "Poništi"
+      ],
+      "Upgrade": [
+        "Nadogradi"
       ]
     },
     "Modal title": {
@@ -3777,6 +3866,9 @@
     "Notification type": {
       "email": [
         "e-pošta"
+      ],
+      "notification": [
+        "obavijest"
       ]
     },
     "Notification when": {
@@ -3987,6 +4079,9 @@
         "Godina",
         "Godine",
         "Godina"
+      ],
+      "Auto": [
+        "Automatski"
       ]
     },
     "Participant name": {
@@ -4070,6 +4165,9 @@
       ],
       "Start typing an email address": [
         "Započnite pisati adresu e-pošte"
+      ],
+      "Search events": [
+        "Traži događaje"
       ]
     },
     "Placeholder for contact group name": {
@@ -4268,6 +4366,15 @@
       ],
       "Secure streaming": [
         "Siguran streaming"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } i ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Link": {
@@ -4310,6 +4417,18 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "Standardna cijena ${ amount } za 30 mjeseci"
+      ],
+      "Billed at ${ amount } for 12 months": [
+        "Naplaćeno ${ amount } za 12 mjeseci"
+      ],
+      "Billed at ${ amount } for 15 months": [
+        "Naplaćeno ${ amount } za 15 mjeseci"
+      ],
+      "Billed at ${ amount } for 24 months": [
+        "Naplaćeno ${ amount } za 24 mjeseca"
+      ],
+      "Billed at ${ amount } for 30 months": [
+        "Naplaćeno ${ amount } za 30 mjeseci"
       ]
     },
     "Storage": {
@@ -4844,6 +4963,9 @@
       ],
       "You have invited participants with equivalent emails": [
         "Pozvali ste sudionike s istom adresom e-pošte"
+      ],
+      "Import failed": [
+        "Neuspješan uvoz"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -5220,6 +5342,74 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Delete event button tooltip": {
+      "Delete event": [
+        "Izbriši događaj"
+      ]
+    },
+    "Dropdown action icon tooltip": {
+      "Add calendar": [
+        "Dodaj kalendar"
+      ]
+    },
+    "esCalendar": {
+      "Results": [
+        "Rezultati"
+      ]
+    },
+    "Event info in search view; event duration": {
+      "All day": [
+        "Cijeli dan"
+      ]
+    },
+    "Import instructions": {
+      "Go to ${ boldAccountSecurity }.": [
+        "Idi na ${ boldAccountSecurity }"
+      ]
+    },
+    "Modal for received invitation to share calendar; Title": {
+      "Join calendar": [
+        "Pridružite se kalendaru"
+      ]
+    },
+    "Modal title and action": {
+      "Add calendar": [
+        "Dodaj kalendar"
+      ]
+    },
+    "Option group label": {
+      "Create new calendar": [
+        "Stvori novi kalendar"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Lozinka spremljena"
+      ]
+    },
+    "specialoffer: Footer": {
+      "This subscription will automatically renew every 2 years at the same rate until it is cancelled.": [
+        "Ovaj se pretplatnički odnos automatski obnavlja svake dvije godine po istoj cijeni dok se ne otkaže."
+      ]
+    },
+    "Subscribe to calendar modal": {
+      "Calendar URL": [
+        "URL kalendara"
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_SHORT_APP_NAME }"
+      ]
+    },
+    "Title; create calendar modal": {
+      "Create calendar": [
+        "Stvori kalendar"
       ]
     }
   }

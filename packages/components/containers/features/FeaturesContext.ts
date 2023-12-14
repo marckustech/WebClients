@@ -59,6 +59,8 @@ export enum FeatureCode {
     ESUserInterface = 'ESUserInterface',
     EarlyAccessScope = 'EarlyAccess',
     EasySwitch = 'EasySwitch',
+    ElectronESInboxThreshold = 'ElectronESInboxThreshold',
+    ElectronConvPreloadAmount = 'ElectronConvPreloadAmount',
     EmailForwardingSpotlight = 'EmailForwardingSpotlight',
     HolidaysCalendars = 'HolidaysCalendars',
     HolidaysCalendarsSpotlight = 'HolidaysCalendarsSpotlight',

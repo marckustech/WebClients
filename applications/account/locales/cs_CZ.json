@@ -1075,6 +1075,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Download the ${ MAIL_APP_NAME } Export Tool": [
+        "Stáhněte si ${ MAIL_APP_NAME } Nástroj pro export"
       ]
     },
     "action": {
@@ -1401,6 +1404,18 @@
       ],
       "Select your Black Friday offer": [
         "Vyberte si nabídku Black Friday"
+      ],
+      "Save with Cyber Week deals on a high-speed Swiss VPN": [
+        "Ušetřete díky nabídkám Cyber Week na vysokorychlostní švýcarskou VPN"
+      ],
+      "Save with End of Year deals on a high-speed Swiss VPN": [
+        "Ušetřete s nabídkou vysokorychlostní švýcarské sítě VPN na konci roku"
+      ],
+      "Select your Cyber Week offer": [
+        "Vyberte si nabídku Cyber Week"
+      ],
+      "Select your End of Year offer": [
+        "Vyberte si nabídku na konci roku"
       ]
     },
     "bf2023: info": {
@@ -8080,6 +8095,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "The ${ MAIL_APP_NAME } Export Tool lets you export decrypted emails from your ${ MAIL_APP_NAME } account to your device. You can then view the messages or import them into another email account or email client.": [
+        "${ MAIL_APP_NAME } Exportní nástroj umožňuje exportovat dešifrované e-maily z účtu ${ MAIL_APP_NAME } do vašeho zařízení. Zprávy pak můžete zobrazit nebo importovat do jiného e-mailového účtu nebo e-mailového klienta."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also disable trusted device recovery.": [
+        "Pomocí stažených souborů pro obnovení nebude možné obnovit uzamčená data. Tím se také zakáže důvěryhodné obnovení zařízení."
       ]
     },
     "info": {
@@ -9764,6 +9785,12 @@
     "mail_signup_2023: Info": {
       "Secure email that protects your privacy": [
         "Zabezpečený e-mail, který chrání vaše soukromí"
+      ],
+      "Become a Visionary and be part of ${ BRAND_NAME }'s story": [
+        "Staňte se vizionářem a buďte součástí příběhu ${ BRAND_NAME }"
+      ],
+      "Limited time offer: Get ${ planTitle } until ${ date }!": [
+        "Časově omezená nabídka: Získejte ${ planTitle } do ${ date }!"
       ]
     },
     "Maintenance mode": {
@@ -11749,6 +11776,12 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Vaše organizace má přístup k ${ free }. Pokud chcete mít přístup k prémiovým funkcím ${ appName }, požádejte správce své organizace o navýšení."
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium password manager!": [
+        "Za pouhých **${ relativePrice } měsíčně** navíc získáte přístup k prémiovému správci hesel od ${ BRAND_NAME }!"
+      ],
+      "For just **${ relativePrice } per month** more, you get access to ${ BRAND_NAME }'s premium VPN service!": [
+        "Za pouhých **${ relativePrice } měsíčně** navíc získáte přístup ke službě VPN Premium od ${ BRAND_NAME }!"
       ]
     },
     "pass_signup_2023: Title": {
@@ -12386,6 +12419,9 @@
     "session_recovery:settings:info": {
       "To disallow password reset, you must have a recovery method set up.": [
         "Chcete-li zakázat resetování hesla, musíte mít nastavenou metodu obnovení."
+      ],
+      "To enhance the security of your account and protect your data, you can request a password reset from your account settings in the web application.": [
+        "Chcete-li zvýšit zabezpečení svého účtu a chránit svá data, můžete si v nastavení účtu ve webové aplikaci vyžádat obnovení hesla."
       ]
     },
     "session_recovery:sign_out:action": {
@@ -13926,7 +13962,7 @@
         "Složky a štítky"
       ],
       "Forward and auto-reply": [
-        "Přeposlat a automaticky odpovědět"
+        "Přeposlat a odpovědět"
       ],
       "Forward emails": [
         "Přeposlat e-maily"
@@ -14413,6 +14449,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Byli jste pozváni k vyzkoušení ${ MAIL_APP_NAME }"
+      ],
+      "${ MAIL_APP_NAME } Export Tool": [
+        "${ MAIL_APP_NAME } Nástroj pro export"
+      ],
+      "Password reset settings": [
+        "Nastavení resetování hesla"
+      ],
+      "Set a display name": [
+        "Nastavení zobrazovaného názvu"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

@@ -4183,6 +4183,9 @@
       ],
       "Zero keys reactivated": [
         "Žiadne kľúče neboli znovu aktivované"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Dosiahli ste maximálny počet znakov. Skráťte svoju správu."
       ]
     },
     "Error importing calendar": {

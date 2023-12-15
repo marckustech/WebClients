@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Give feedback": [
+        "Oferiți feedback"
       ]
     },
     "action": {
@@ -15201,6 +15204,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicați ${ MAIL_APP_NAME } Desktop"
       ]
     }
   }

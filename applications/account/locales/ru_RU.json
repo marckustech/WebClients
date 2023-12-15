@@ -1430,6 +1430,9 @@
         "${ n } месяцев",
         "${ n } месяца",
         "${ n } месяца"
+      ],
+      "Renews automatically at ${ renewPrice }, for ${ renewalLength }": [
+        "Обновляется автоматически за ${ renewPrice } на ${ renewalLength }"
       ]
     },
     "Billing cycle option": {
@@ -10185,6 +10188,12 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "У вас может быть несколько администраторов. Они все могут добавлять пользователей и управлять ими, но только основной администратор контролирует оплату"
+      ],
+      "${ DRIVE_APP_NAME }: Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "${ DRIVE_APP_NAME } Защитите свои файлы с помощью зашифрованного облачного хранилища. Включает историю версий, общий доступ к зашифрованным файлам и многое другое."
+      ],
+      "${ MAIL_APP_NAME }: Secure your emails with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, and more.": [
+        "${ MAIL_APP_NAME } Защитите свою электронную почту с помощью сквозного шифрования. Включает поддержку пользовательских почтовых доменов, 15 адресов электронной почты, неограниченное количество ide-my-email псевдонимов и многое другое."
       ]
     },
     "new_plans: upgrade": {
@@ -13661,6 +13670,12 @@
       ],
       "monthly": [
         "месяц"
+      ],
+      "15-month": [
+        "15-month"
+      ],
+      "30-month": [
+        "30-месячный"
       ]
     },
     "vpn_2step: feature": {
@@ -14090,6 +14105,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "tooltip": {
+      "${ PASS_APP_NAME }: Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "${ PASS_APP_NAME } Защищенные логины на всех ваших устройствах. Включает неограниченное количество псевдонимов, общий доступ, интегрированную двухфакторную аутентификацию и многое другое."
       ]
     }
   }

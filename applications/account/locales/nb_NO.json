@@ -375,7 +375,7 @@
         "Last ned ICS"
       ],
       "Download our CSV template": [
-        "Las ned vår CSV-mal"
+        "Last ned vår CSV-mal"
       ],
       "Download recovery file": [
         "Last ned gjenopprettningsfil"
@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Zoom ut"
+      ],
+      "Give feedback": [
+        "Gi tilbakemelding"
       ]
     },
     "action": {
@@ -4325,7 +4328,7 @@
         "Det oppstod en feil under lesing av filen \"${ formattedFilename }\". Filen har ikke riktig format."
       ],
       "An error occurred uploading your file \"${ formattedFilename }\". Maximum file size is ${ MAX_IMPORT_FILE_SIZE_STRING }.": [
-        "Det oppsto en feil under opplasting av filen \"${ formattedFilename }\". Maksimum filstørrelse er ${ MAX_IMPORT_FILE_SIZE_STRING }."
+        "Det oppstod en feil under opplasting av filen \"${ formattedFilename }\". Maksimum filstørrelse er ${ MAX_IMPORT_FILE_SIZE_STRING }."
       ],
       "An error occurred uploading your file. No file has been selected.": [
         "Det oppstod en feil under opplasting av filen. Ingen fil er valgt."
@@ -4371,7 +4374,7 @@
     },
     "Error message, Disable account": {
       "There was a problem disabling your account.": [
-        "Det oppsto et problem med å deaktivere kontoen din."
+        "Det oppstod et problem med å deaktivere kontoen din."
       ]
     },
     "Error message, recovery": {
@@ -5361,7 +5364,7 @@
         "Ferie"
       ],
       "Other": [
-        "Annen"
+        "Andre"
       ],
       "Subscribed": [
         "Abonnerer"
@@ -8301,7 +8304,7 @@
         "Slett"
       ],
       "Disables encryption with this key": [
-        "Deaktiver kryptering med denne nøkkelen"
+        "Deaktiverer kryptering med denne nøkkelen"
       ],
       "Disables signature verification and encryption with this key": [
         "Deaktiverer verifisering av signatur og kryptering med denne nøkkelen"
@@ -8852,7 +8855,7 @@
         "Kun siste måned"
       ],
       "Level for NetShield blocker filtering": [
-        "Nivå på filtrering til Netshield-blokkering"
+        "Nivå på blokkeringsfiltrering for NetShield"
       ],
       "Link label": [
         "Etikett på kobling"
@@ -9197,7 +9200,7 @@
         "Verifiseringskode"
       ],
       "Verify keys with Key Transparency": [
-        "Verifiser nøkler med NøkkelGjennomsiktighet"
+        "Verifiser nøkler med Key Transparency"
       ],
       "VPN Accelerator": [
         "VPN Accelerator"
@@ -11614,7 +11617,7 @@
         "Navn"
       ],
       "Other": [
-        "Annen"
+        "Annet"
       ],
       "Password": [
         "Passord"
@@ -13695,7 +13698,7 @@
         "Importer"
       ],
       "Import and export": [
-        "Importer og eksporter"
+        "Import og eksport"
       ],
       "Import as simple event?": [
         "Importer som enkel hendelse?",
@@ -14982,6 +14985,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME }-skrivebordsapplikasjon"
       ]
     }
   }

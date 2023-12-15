@@ -9602,6 +9602,9 @@
       ],
       "Secure email that protects your privacy": [
         "E-mail seguro que protege sua privacidade"
+      ],
+      "Limited time offer: Get ${ planTitle } until ${ date }!": [
+        "Oferta por tempo limitado: adquira ${ planTitle } até ${ date }!"
       ]
     },
     "Maintenance mode": {

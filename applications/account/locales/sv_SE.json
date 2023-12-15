@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Give feedback": [
+        "Ge feedback"
       ]
     },
     "action": {
@@ -9602,6 +9605,9 @@
       ],
       "Secure email that protects your privacy": [
         "Säker e-post som skyddar din integritet"
+      ],
+      "Become a Visionary and be part of ${ BRAND_NAME }'s story": [
+        "Bli en Visionary och bli en del av ${ BRAND_NAME }'s berättelse"
       ]
     },
     "Maintenance mode": {
@@ -11968,6 +11974,25 @@
       ],
       "You can reset your password until ${ boldDate }.": [
         "Du kan återställa ditt lösenord fram till ${ boldDate }."
+      ],
+      "This permission expires soon": [
+        "Denna tillåtelse löper snart ut"
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag på dig att återställa ditt lösenord.",
+        "Du har ${ timeRemaining.inDays } dagar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } timme på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inHours } timmar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minut på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inMinutes } minuter på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inSeconds } sekunder på dig att återställa ditt lösenord."
       ]
     },
     "session_recovery:available:link": {
@@ -14963,6 +14988,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applikation för stationär dator ${ MAIL_APP_NAME }"
       ]
     }
   }

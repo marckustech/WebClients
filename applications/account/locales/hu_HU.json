@@ -1021,6 +1021,9 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Generate": [
+        "Generálás"
       ]
     },
     "Action for user session": {
@@ -1509,6 +1512,9 @@
       ],
       "Syncing": [
         "Szinkronizálás"
+      ],
+      "Disabled": [
+        "Letiltva"
       ]
     },
     "Calendar subscription not synced error": {
@@ -4595,6 +4601,9 @@
       ],
       "User": [
         "Felhasználó"
+      ],
+      "Best deal": [
+        "Legjobb üzlet"
       ]
     },
     "Header for addresses table": {
@@ -7123,6 +7132,9 @@
       ],
       "Primary": [
         "Elsődleges"
+      ],
+      "Disabled": [
+        "Letiltva"
       ]
     },
     "Key type option": {
@@ -8246,6 +8258,9 @@
       ],
       "Your referral link": [
         "Ajánló hivatkozása"
+      ],
+      "Sticky labels": [
+        "Ragadós címkék"
       ]
     },
     "label": {
@@ -13064,6 +13079,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "Header; Table with list of calendars arranged by type": {
+      "Other": [
+        "Egyéb"
+      ]
+    },
+    "Subscribed calendar section description": {
+      "Add public, external, or shared calendars.": [
+        "Vegyen fel nyilvános, külső vagy megosztott naptárat."
       ]
     }
   }

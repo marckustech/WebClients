@@ -3550,7 +3550,7 @@
         "Error d'autenticació."
       ],
       "Automatic replies is a paid feature. Please upgrade to a paid account to use this feature.": [
-        "Les respostes automàtiques són una característica de pagament. Actualitzeu-vos a un compte de pagament per utilitzar aquesta funció."
+        "Les respostes automàtiques són una característica de pagament. Milloreu a un compte de pagament per a utilitzar-la."
       ],
       "Calendar cannot be found": [
         "No es pot trobar el calendari."
@@ -3660,7 +3660,7 @@
         "Data de caducitat invàlida"
       ],
       "Invalid invitation link": [
-        "Enllaç d'invitació invalid"
+        "L'enllaç d'invitació no és vàlid"
       ],
       "Invalid name": [
         "Nom no vàlid"
@@ -3733,13 +3733,13 @@
         "Les contrasenyes no coincideixen."
       ],
       "Payment process canceled": [
-        "Procés de pagament cancel·lat"
+        "S'ha cancel·lat el procés de pagament"
       ],
       "Payment process consumed": [
         "Procés de pagament consumit"
       ],
       "Payment process failed": [
-        "Error en processar el pagament"
+        "No s'ha pogut processar el pagament"
       ],
       "Payment process not supported": [
         "Procés de pagament no soportat"
@@ -3761,7 +3761,7 @@
         "Arregleu els conflictes ressaltats per continuar."
       ],
       "Please generate keys before you try to change your password": [
-        "Genereu les claus abans d’intentar canviar la vostra contrasenya"
+        "Genereu les claus abans d’intentar canviar la vostra contrasenya."
       ],
       "Please set a recovery email first": [
         "Establiu primer un número de telèfon de recuperació."
@@ -3966,7 +3966,7 @@
         "Heu utilitzat totes les adreces del vostre pla. Milloreu-lo per a afegir adreces."
       ],
       "You have used all users in your plan. Please upgrade your plan to add a new user.": [
-        "Heu utilitzat tots els usuaris del vostre pla. Milloreu-lo per a afegir un nou usuari."
+        "Heu utilitzat tots els usuaris del vostre pla. Milloreu-lo per a afegir un usuari."
       ],
       "You must privatize all users before generating new organization keys": [
         "Heu de privatitzar tots els usuaris abans de generar claus d'organització noves"
@@ -5897,7 +5897,7 @@
         "Esteu segur que voleu suprimir aquest domini?"
       ],
       "Are you sure you want to delete this filter?": [
-        "Estàs segur que vols esborrar aquest filtre?"
+        "Segur que voleu eliminar aquest filtre?"
       ],
       "Are you sure you want to delete this folder? All subfolders will also be deleted.": [
         "Segur que voleu eliminar aquesta carpeta? També s'eliminaran totes les subcarpetes."
@@ -6714,7 +6714,7 @@
         "Tingueu en compte que si suprimiu aquest domini, totes les adreces associades a ell seran deshabilitades."
       ],
       "Please note that if you delete this filter, we will stop processing all the automated actions it triggers.": [
-        "Tingueu en compte que si elimineu aquest filtre, deixarem de processar totes les accions automatitzades que desencadena."
+        "Tingueu en compte que, si elimineu aquest filtre, deixarem de processar totes les accions automatitzades que desencadena."
       ],
       "Please note that upon clicking the Confirm button, your account will have ${ creditsRemaining } credits remaining.": [
         "Tingueu en compte que quan feu clic al botó \"Confirmar\", el vostre compte restarà crèdit de ${ creditsRemaining }."
@@ -7168,7 +7168,7 @@
         "Per a utilitzar ${ toAppName }, necessiteu una adreça de ${ MAIL_APP_NAME }."
       ],
       "To work properly, each filter must contain at least a name and a valid Sieve script. You can ${ link }.": [
-        "Perquè funcioni correctament, cada filtre ha de contenir almenys un nom i un script Sieve vàlids. Podeu ${ link }."
+        "Perquè funcioni correctament, cada filtre ha de contenir almenys un nom i un script Sieve vàlid. Podeu ${ link }."
       ],
       "Top up your account with credits that you can use to subscribe to a new plan or renew your current plan. You get one credit for every ${ i18nCurrency } spent.": [
         "Recarregeu el vostre compte amb crèdits que podeu utilitzar per subscriure-us a un nou pla o per renovar el pla actual. Obteniu un crèdit per cada ${ i18nCurrency } gastat."
@@ -11219,7 +11219,7 @@
         "Cerca"
       ],
       "Search for a user or address": [
-        "Cercar un usuari o adreça"
+        "Cerca un usuari o adreça"
       ],
       "Search users": [
         "Cercar usuaris"

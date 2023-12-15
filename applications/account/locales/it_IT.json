@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Give feedback": [
+        "Dai una valutazione"
       ]
     },
     "action": {
@@ -14973,6 +14976,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applicazione desktop ${ MAIL_APP_NAME }"
       ]
     }
   }

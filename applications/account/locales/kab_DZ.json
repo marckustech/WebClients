@@ -1012,6 +1012,12 @@
       ],
       "Zoom out": [
         "Semẓi"
+      ],
+      "Or": [
+        "Neɣ"
+      ],
+      "Save ICS file": [
+        "Sekles ifuyla ICS"
       ]
     },
     "action": {
@@ -1224,6 +1230,9 @@
       ],
       "Remove ${ PASS_APP_NAME }": [
         "Kkes ${ PASS_APP_NAME }"
+      ],
+      "Get the deal": [
+        "Faṛes tagnit"
       ]
     },
     "bf2023: Deal details": {
@@ -2907,6 +2916,9 @@
       ],
       "Save": [
         "Sekles"
+      ],
+      "Decline": [
+        "Agi"
       ]
     },
     "email_forwarding_2023: Header": {
@@ -2931,6 +2943,12 @@
       ],
       "Without attachment": [
         "War afaylu yeddan"
+      ],
+      "or": [
+        "neɣ"
+      ],
+      "Or": [
+        "Neɣ"
       ]
     },
     "email_forwarding_2023: Placeholder": {
@@ -6046,6 +6064,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Amulteɣ-inek·m yettwasefrek s ɣur Mozilla. Ttxil-k·m nermes tallalt n Mozilla."
+      ],
+      "Tor": [
+        "Tor"
       ]
     },
     "info": {
@@ -6179,6 +6200,9 @@
       ],
       "Primary": [
         "Agejdan"
+      ],
+      "Compromised": [
+        "Tettwaker"
       ]
     },
     "Key type option": {
@@ -6408,6 +6432,9 @@
     "Knowledge base link label": {
       "Learn more": [
         "Issin ugar"
+      ],
+      "Here's how": [
+        "Ha-t-a amek"
       ]
     },
     "Label": {
@@ -7236,6 +7263,9 @@
       ],
       "Your password (admin)": [
         "Awal-ik uffir (anedbal)"
+      ],
+      "End weekday": [
+        "Tagra n wass n dduṛt"
       ]
     },
     "label": {
@@ -7330,6 +7360,9 @@
     "Label to change density": {
       "Compact": [
         "Ussid"
+      ],
+      "Comfortable": [
+        "Yerked"
       ]
     },
     "Label to change view layout": {
@@ -8757,6 +8790,9 @@
       ],
       "You have been invited to join ${ PASS_APP_NAME }": [
         "Tettwanecdeḍ ad ternuḍ i${ PASS_APP_NAME }"
+      ],
+      "per month": [
+        "i waggur"
       ]
     },
     "pass_signup_2023: Title": {
@@ -10762,6 +10798,9 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Tettwanecdeḍ ad tɛerḍeḍ ${ MAIL_APP_NAME }"
+      ],
+      "Success": [
+        "Yedda"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -10822,6 +10861,9 @@
       ],
       "Status": [
         "Aẓayer"
+      ],
+      "Fingerprint": [
+        "Adsil umdin"
       ]
     },
     "Title header for members table": {
@@ -11435,6 +11477,16 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Condition label": {
+      "If": [
+        "Ma"
+      ]
+    },
+    "Settings/filters": {
+      "Filters": [
+        "Imzizdigen"
       ]
     }
   }

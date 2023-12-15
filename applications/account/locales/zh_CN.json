@@ -3244,7 +3244,7 @@
     },
     "Enabled 2FA": {
       "2FA": [
-        "两步验证"
+        "双重验证"
       ]
     },
     "Error": {
@@ -9053,7 +9053,7 @@
         "自定义字段"
       ],
       "Custom snooze time": [
-        "设置待办事件"
+        "自由调整免打扰时间"
       ],
       "Dedicated servers and IP": [
         "专用服务器和IP"
@@ -9248,6 +9248,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "在邮箱地址中使用您自己的域名（如 you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "设置免打扰，自由决定何时接收通知"
       ]
     },
     "new_plans: heading": {
@@ -11072,7 +11075,7 @@
     },
     "Subscription change warning": {
       "Got it": [
-        "好"
+        "了解"
       ],
       "Subscriptions": [
         "订阅"
@@ -12707,7 +12710,7 @@
     },
     "Users table: single sign-on enabled": {
       "SSO": [
-        "SSO"
+        "单点登录"
       ]
     },
     "Validation": {

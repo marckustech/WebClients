@@ -19,7 +19,6 @@ import { ProductParam } from '@proton/shared/lib/apps/product';
 import { getShouldCalendarPreventSubscripitionChange, willHavePaidMail } from '@proton/shared/lib/calendar/plans';
 import {
     APPS,
-    COUPON_CODES,
     DEFAULT_CURRENCY,
     DEFAULT_CYCLE,
     PASS_APP_NAME,
@@ -35,6 +34,7 @@ import { hasBonuses } from '@proton/shared/lib/helpers/organization';
 import { getPlanFromCheckout, hasPlanIDs, supportAddons, switchPlan } from '@proton/shared/lib/helpers/planIDs';
 import { captureMessage } from '@proton/shared/lib/helpers/sentry';
 import {
+    getHas2023OfferCoupon,
     getHasB2BPlan,
     getHasVpnB2BPlan,
     getIsB2BPlan,
@@ -976,7 +976,7 @@ const SubscriptionContainer = ({
                                                     </Tooltip>
                                                 </div>
                                             )}
-                                            {couponCode !== COUPON_CODES.BLACK_FRIDAY_2023 && (
+                                            {!getHas2023OfferCoupon(couponCode) && (
                                                 <PaymentGiftCode
                                                     giftCodeRef={giftCodeRef}
                                                     key={
@@ -1106,7 +1106,7 @@ const SubscriptionContainer = ({
                                                 </Tooltip>
                                             </div>
                                         )}
-                                        {couponCode !== COUPON_CODES.BLACK_FRIDAY_2023 && (
+                                        {!getHas2023OfferCoupon(couponCode) && (
                                             <PaymentGiftCode
                                                 giftCodeRef={giftCodeRef}
                                                 key={

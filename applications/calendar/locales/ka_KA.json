@@ -4352,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "თქვენი სისტემის დროის სარტყელი, როგორც ჩანს, შეიცვალა ${ timezone }-ზე. გსურთ, განაახლოთ თქვენი დროის სარტყელის პარამეტრი?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "ყველა მონაწილე მიიღებს გაუქმების ელფოსტას. რომელი მოვლენის წაშლა გნებავთ?"
       ]
     },
     "info": {

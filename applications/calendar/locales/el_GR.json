@@ -4352,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Η ζώνη ώρας του συστήματός σας φαίνεται να έχει αλλάξει σε ${ timezone }. Θέλετε να ενημερώσετε τις προτιμήσεις ζώνης ώρας;"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Όλοι οι συμμετέχοντες θα λάβουν ένα μήνυμα ηλεκτρονικού ταχυδρομείου ακύρωσης. Ποια εκδήλωση θα θέλατε να διαγράψετε;"
       ]
     },
     "info": {

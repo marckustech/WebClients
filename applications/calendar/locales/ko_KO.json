@@ -2280,6 +2280,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "${ eventTitle } 에 초대되었습니다\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "${ eventTitle }의 시작이 취소되었습니다."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4157,7 +4160,7 @@
         "이 이벤트를 삭제하시겠습니까?"
       ],
       "Would you like to delete this event?": [
-        "이벤트를 삭제하고 싶나요?"
+        "이벤트를 삭제하시겠어요?"
       ],
       "Would you like to receive a new verification code or use an alternative verification method?": [
         "새 인증 코드를 받거나 다른 인증 방법을 사용하시겠습니까?"
@@ -4244,13 +4247,13 @@
         "고객님의 ${ BRAND_NAME } 계정이 정지되었습니다. 이메일이 더 이상 받은 편지함으로 전송되지 않으며, 드라이브 공유 링크가 더 이상 활성화 되지 않으며, 새로운 파일을 업로드 할 수도 없습니다. 계정 사용을 계속하려면, 기한이 지난 청구서를 결제해주세요."
       ],
       "Your account has at least one overdue invoice. Your access will soon get restricted. ${ payInvoiceLink }": [
-        "계정에 기한이 지난 청구서가 하나 이상 있습니다. 액세스가 곧 제한될 것입니다. ${ payInvoiceLink }"
+        "계정에 기한이 지난 청구서가 하나 이상 있습니다. 졉근이 곧 제한됩니다. ${ payInvoiceLink }"
       ],
       "Your account has at least one overdue invoice. Your account is restricted, and all services are now blocked until payment. ${ payInvoiceLink }": [
-        "귀하의 계정에 적어도 하나의 연체된 결제가 있습니다. 귀하의 계정이 제한되어 있으며, 지금 결제할 때까지 모든 서비스가 차단됩니다. ${ payInvoiceLink }"
+        "회원님의 계정에 적어도 하나의 연체된 결제가 있습니다. 회원님의 계정이 제한되어 있으며, 지금 결제할 때까지 모든 서비스가 차단됩니다. ${ payInvoiceLink }"
       ],
       "Your account has at least one overdue invoice. Your account is restricted. Continued non-payment will block your emails and sharing links. ${ payInvoiceLink }": [
-        "귀하의 계정에 적어도 하나의 연체된 결제가 있습니다. 귀하의 계정이 제한되어 있습니다. 지속적인 미지불이 이메일과 공유 링크를 차단시킬 수 있습니다. ${ payInvoiceLink }"
+        "회원님의 계정에 적어도 하나의 연체된 결제가 있습니다. 회원님의 계정이 제한된 상태입니다. 지속적인 미지불이 이메일과 공유 링크를 차단시킬 수 있습니다. ${ payInvoiceLink }"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete all events in this series anyway?": [
         "당신의 주소가 비활성화되었습니다. 이벤트 참가자들에게 취소 이메일을 보낼 수 없습니다. 그래도 이 시리즈의 모든 이벤트를 삭제하시겠습니까?"
@@ -4278,6 +4281,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "시스템 시간대가 ${ timezone } 로 변경된 것 같습니다. 여기의 시간대도 변경하시겠습니까?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "모든 참가자가 취소 이메일을 수신받습니다. 어느 이벤트를 삭제하시겠어요?"
       ]
     },
     "info": {
@@ -6199,7 +6205,7 @@
         "휴대전화 번호가 클립보드에 복사되었습니다"
       ],
       "Preference saved": [
-        "설정 저장됨"
+        "설정이 저장되었습니다."
       ],
       "Preferences saved": [
         "설정 저장됨"

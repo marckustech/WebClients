@@ -639,6 +639,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakt",
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakter"
+      ],
+      "Give feedback": [
+        "Ge feedback"
       ]
     },
     "Action subline": {
@@ -2727,6 +2730,9 @@
       ],
       "Your import will not be processed.": [
         "Din import kommer inte att bearbetas."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Innehållssökning kan inte aktiveras. Starta om applikationen eller rensa data."
       ]
     },
     "Error accepting calendar invitation": {
@@ -5773,6 +5779,28 @@
       ],
       "You can now change your password for the account ${ boldEmail }.": [
         "Du kan nu ändra ditt lösenord för kontot ${ boldEmail }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Begäran om lösenordsåterställning godkänd (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Denna tillåtelse löper snart ut"
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag på dig att återställa ditt lösenord.",
+        "Du har ${ timeRemaining.inDays } dagar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } timme på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inHours } timmar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minut på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inMinutes } minuter på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inSeconds } sekunder på dig att återställa ditt lösenord."
       ]
     },
     "session_recovery:available:link": {
@@ -7279,6 +7307,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applikation för stationär dator ${ MAIL_APP_NAME }"
       ]
     }
   }

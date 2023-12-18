@@ -639,6 +639,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan ikke sende vCard-filer med mer enn ${ maxAttachments } kontakt.",
         "Du kan ikke sende vCard-filer med mer enn ${ maxAttachments } kontakter."
+      ],
+      "Give feedback": [
+        "Gi tilbakemelding"
       ]
     },
     "Action subline": {
@@ -1021,7 +1024,7 @@
         "Administrer medlemmer"
       ],
       "Unable to create more calendar links": [
-        "Kunne ikke lage flere kalenderkoblinger"
+        "Kunne ikke opprette flere kalenderkoblinger"
       ],
       "Unable to share this calendar with more ${ BRAND_NAME } users": [
         "Kunne ikke dele denne kalenderen med flere ${ BRAND_NAME }-brukere"
@@ -1247,7 +1250,7 @@
         "Kjønn"
       ],
       "Geo": [
-        "Geo"
+        "Geolokalisering"
       ],
       "Language": [
         "Språk"
@@ -1300,7 +1303,7 @@
         "Mobil"
       ],
       "Other": [
-        "Annen"
+        "Annet"
       ],
       "Pager": [
         "Personsøker"
@@ -2727,6 +2730,9 @@
       ],
       "Your import will not be processed.": [
         "Importen din blir ikke behandlet."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Innholdssøk kan ikke aktiveres. Start programmet på nytt eller tøm data."
       ]
     },
     "Error accepting calendar invitation": {
@@ -4352,6 +4358,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Systemets tidssone ser ut til å ha endret seg til ${ timezone }. Vil du oppdatere preferansen for tidssone?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Alle deltakere vil få en kansellerings-e-post. Hvilken hendelse vil du slette?"
       ]
     },
     "info": {
@@ -5286,7 +5295,7 @@
     },
     "Notification time input": {
       "at": [
-        "ved"
+        "kl."
       ]
     },
     "Notification type": {
@@ -5681,7 +5690,7 @@
         "Mobil"
       ],
       "Other": [
-        "Annen"
+        "Annet"
       ],
       "Pager": [
         "Personsøker"
@@ -5757,6 +5766,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kan nå endre passordet ditt for kontoen ${ boldEmail } fritt for ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Forespørsel om tilbakestilling av passord godkjent (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Denne tillatelsen utløper snart"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Du kan nå endre passordet ditt for kontoen ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag på deg til å tilbakestille passordet ditt.",
+        "Du har ${ timeRemaining.inDays } dager på deg til å tilbakestille passordet ditt."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } time på deg til å tilbakestille passordet ditt.",
+        " Du har ${ timeRemaining.inHours } timer på deg til å tilbakestille passordet ditt."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minutt på deg til å tilbakestille passordet ditt.",
+        " Du har ${ timeRemaining.inMinutes } minutter på deg til å tilbakestille passordet ditt."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund på deg til å tilbakestille passordet ditt.",
+        " Du har ${ timeRemaining.inSeconds } sekunder på deg til å tilbakestille passordet ditt."
       ]
     },
     "session_recovery:available:link": {
@@ -7258,6 +7292,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME }-skrivebordsapplikasjon"
       ]
     }
   }

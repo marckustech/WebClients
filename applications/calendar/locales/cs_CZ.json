@@ -647,6 +647,9 @@
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
+      ],
+      "Give feedback": [
+        "Zaslat zpětnou vazbu"
       ]
     },
     "Action subline": {
@@ -2250,6 +2253,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, které nechcete sloučit ani zachovat, označte pro smazání. Ke smazání dojde po kliknutí na tlačítko pro sloučení"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Zvyšte efektivitu a rozvrhněte svůj čas pomocí barevného označení událostí podle kategorií nebo podle úrovně energie. Toto a mnohem více získáte s placeným tarifem."
       ]
     },
     "description": {
@@ -2782,6 +2788,9 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude zpracován."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Vyhledávání obsahu nelze povolit. Restartujte aplikaci nebo smažte data."
       ]
     },
     "Error accepting calendar invitation": {
@@ -4491,6 +4500,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá se, že se vaše systémové časové pásmo změnilo na ${ timezone }. Chcete aktualizovat nastavení časového pásma?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Všichni účastníci obdrží e-mail o zrušení. Kterou událost chcete smazat?"
       ]
     },
     "info": {
@@ -5999,6 +6011,39 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Nyní si můžete libovolně změnit heslo k účtu ${ boldEmail } po dobu ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Žádost o resetování hesla schválena (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Toto oprávnění brzy vyprší"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Nyní si můžete změnit heslo k účtu ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inDays } den.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dny.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dnů.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dnů."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inHours } hodinu.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodiny.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodin.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodin."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inMinutes } minutu.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minuty.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minut.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minut."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inSeconds } sekundu.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekundy.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekund.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekund."
       ]
     },
     "session_recovery:available:link": {
@@ -6417,6 +6462,12 @@
       ],
       "Search for events": [
         "Vyhledat události"
+      ],
+      "Color-coding is here!": [
+        "Barevné označení je zde!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Díky přizpůsobitelným barvám událostí, můžete chaos barevně odlišit a ovládnout svůj den."
       ]
     },
     "Storage": {
@@ -7106,6 +7157,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Zpestřete si den"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7610,6 +7664,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } Desktopová aplikace"
       ]
     }
   }

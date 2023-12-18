@@ -2331,6 +2331,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Ste pozvaní na ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Tento výskyt ${ eventTitle } bol zrušený."
       ]
     },
     "Email body for invitation (date part)": {

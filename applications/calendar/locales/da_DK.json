@@ -2297,6 +2297,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er inviteret til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Denne forekomst af ${ eventTitle } er blevet annulleret."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4349,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszone ser ud til at være ændret til ${ timezone }. Vil du opdatere din tidszone præferencer?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Alle deltagere vil modtage en aflysningsmail. Hvilken begivenhed vil du gerne slette?"
       ]
     },
     "info": {

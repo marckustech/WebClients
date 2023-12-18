@@ -4943,6 +4943,9 @@
       ],
       "Start typing an email address": [
         "Bdu tira n tansa n yimayl"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Placeholder for contact group name": {
@@ -5473,6 +5476,9 @@
       ],
       "vCard field": [
         "urti vCard"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -6273,6 +6279,11 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Knowledge base link label": {
+      "Here's how": [
+        "Ha-t-a amek"
       ]
     }
   }

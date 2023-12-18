@@ -647,6 +647,9 @@
         "Nie możesz wysyłać plików vCard zawierających więcej niż ${ maxAttachments } kontakty",
         "Nie możesz wysyłać plików vCard zawierających więcej niż ${ maxAttachments } kontaktów",
         "Nie możesz wysyłać plików vCard zawierających więcej niż ${ maxAttachments } kontaktów"
+      ],
+      "Give feedback": [
+        "Wyślij opinię"
       ]
     },
     "Action subline": {
@@ -2785,6 +2788,9 @@
       ],
       "Your import will not be processed.": [
         "Twój import nie zostanie przetworzony."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Wyszukiwanie zawartości nie może zostać włączone. Uruchom ponownie aplikację lub wyczyść jej dane."
       ]
     },
     "Error accepting calendar invitation": {
@@ -7658,6 +7664,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplikacja desktopowa ${ MAIL_APP_NAME }"
       ]
     }
   }

@@ -635,6 +635,9 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Anda tidak dapat mengirim berkas vCard ke lebih dari ${ maxAttachments } kontak"
+      ],
+      "Give feedback": [
+        "Beri tanggapan"
       ]
     },
     "Action subline": {
@@ -2280,6 +2283,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Anda diundang ke ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Acara ${ eventTitle } ini telah dibatalkan."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2695,6 +2701,9 @@
       ],
       "Your import will not be processed.": [
         "Impor Anda tidak akan diproses."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Pencarian konten tidak dapat diaktifkan. Silakan mulai ulang aplikasi atau hapus data."
       ]
     },
     "Error accepting calendar invitation": {
@@ -5654,6 +5663,27 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Anda kini dapat mengubah kata sandi untuk akun ${ boldEmail } secara bebas selama ${ boldDaysRemaining }."
+      ],
+      " You have ${ timeRemaining.inHours } hours to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inHours } jam tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      " You have ${ timeRemaining.inMinutes } minutes to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inMinutes } menit tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      " You have ${ timeRemaining.inSeconds } seconds to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inSeconds } tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Permintaan pengaturan ulang kata sandi disetujui (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Izin ini akan segera kedaluwarsa"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Anda kini dapat mengubah kata sandi Anda untuk akun ${ boldEmail }"
+      ],
+      "You have ${ timeRemaining.inDays } days to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inDays } hari tersisa untuk mengatur ulang kata sandi Anda."
       ]
     },
     "session_recovery:available:link": {
@@ -7100,6 +7130,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplikasi Desktop ${ MAIL_APP_NAME }"
       ]
     }
   }

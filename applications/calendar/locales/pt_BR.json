@@ -4352,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "O fuso horário de seu sistema parece ter mudado para ${ timezone }. Você deseja atualizar suas preferências de fuso horário?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Cada participante receberá um e-mail de cancelamento. Qual evento você gostaria de excluir?"
       ]
     },
     "info": {
@@ -5770,6 +5773,9 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Agora você pode alterar a senha da conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Agora você pode alterar a senha da conta ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {

@@ -5981,6 +5981,9 @@
       ],
       "Search for events": [
         "搜尋行程"
+      ],
+      "Color-coding is here!": [
+        "色碼在此!"
       ]
     },
     "Storage": {
@@ -6625,6 +6628,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免費方案將於 ${ textDate } 結束"
+      ],
+      "Add some color to your day": [
+        "為您的日子增添顏色"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

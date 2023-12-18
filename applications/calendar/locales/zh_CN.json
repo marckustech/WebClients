@@ -3840,7 +3840,7 @@
         "设置新文件夹的名称和位置，若不选取上层文件夹，则将创建顶层文件夹。"
       ],
       "New": [
-        "新建"
+        "新"
       ],
       "No contacts added yet": [
         "尚未添加联系人"
@@ -5057,7 +5057,7 @@
         "高达 3 TB 的存储空间"
       ],
       "Custom snooze time": [
-        "设置待办事件"
+        "自由调整免打扰时间"
       ]
     },
     "new_plans: feature info": {
@@ -5072,6 +5072,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "在邮箱地址中使用您自己的域名（如 you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "设置免打扰，自由决定何时接收通知"
       ]
     },
     "new_plans: label": {

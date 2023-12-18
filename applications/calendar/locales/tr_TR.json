@@ -4352,6 +4352,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sistem saat diliminiz ${ timezone } olarak değişmiş gibi görünüyor. Saat dilimi ayarınızı güncellemek ister misiniz?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Tüm katılımcılara bir iptal e-postası gönderilecek. Hangi etkinliği silmek istiyorsunuz?"
       ]
     },
     "info": {

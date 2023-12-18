@@ -643,6 +643,9 @@
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contact.",
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contacte.",
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } de contacte."
+      ],
+      "Give feedback": [
+        "Oferiți feedback"
       ]
     },
     "Action subline": {
@@ -2756,6 +2759,9 @@
       ],
       "Your import will not be processed.": [
         "Importarea nu va fi procesată."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Căutarea în conținut nu poate fi activată. Reporniți aplicația sau ștergeți datele."
       ]
     },
     "Error accepting calendar invitation": {
@@ -7481,6 +7487,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicați ${ MAIL_APP_NAME } Desktop"
       ]
     }
   }

@@ -4349,6 +4349,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Järjestelmäsi aikavyöhykkeeksi näyttää vaihtuneen ${ timezone }. Haluatko päivittää aikavyöhykeasetuksesi?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Kaikki osallistujat saavat peruutussähköpostin. Minkä tapahtuman haluat poistaa?"
       ]
     },
     "info": {

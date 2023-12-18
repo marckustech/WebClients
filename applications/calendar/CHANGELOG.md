@@ -1,8 +1,8 @@
-## Release 5.0.18 — Dec 14th, 2023
+## Release 5.0.18 — Dec 18th, 2023
 
-[//]: # '### New features'
-[//]: #
-[//]: # '-   An event organizer now has the ability to cancel a single event occurrence of a recurring event with participants'
+### New features
+
+-   An event organizer now has the ability to cancel a single event occurrence of a recurring event with participants
 
 ### Fixes
 

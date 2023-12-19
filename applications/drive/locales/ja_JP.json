@@ -738,6 +738,9 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Report an issue": [
+        "問題を報告"
       ]
     },
     "Actions message": {
@@ -804,6 +807,24 @@
     "bf2023: Deal details": {
       "Extended version history": [
         "拡張バージョン履歴"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } ストレージ"
+      ],
+      "Ad-blocker and malware protection": [
+        "広告ブロッカーとマルウェア防止"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "${ DRIVE_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "${ MAIL_SHORT_APP_NAME }と${ CALENDAR_SHORT_APP_NAME }プレミアム"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "${ VPN_SHORT_APP_NAME } プレミアム"
+      ],
+      "Premium Password Manager": [
+        "プレミアムパスワードマネージャー"
       ]
     },
     "Bug category": {
@@ -4148,6 +4169,12 @@
       ],
       "Your previous recovery phrase": [
         "以前の回復フレーズ"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "App Store での ${ DRIVE_APP_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "Play Store での ${ DRIVE_APP_NAME }"
       ]
     },
     "Info on errors": {
@@ -4854,6 +4881,9 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB のストレージ"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 件のカレンダー"
       ]
     },
     "new_plans: feature info": {
@@ -4868,6 +4898,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "独自ドメインのメールアドレスを使用する（例：you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "メッセージをスヌーズし、必要なときに再通知します"
       ]
     },
     "new_plans: label": {
@@ -6481,6 +6514,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "無料トライアルは ${ textDate } に終了します。${ action }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 日間返金保証"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "1 件の独自メールドメイン対応、10 件のメールアドレス、10 件の hide-my-email エイリアス、カレンダー共有などが含まれます。"
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "暗号化されたクラウドストレージでファイルの安全性を保ちましょう。バージョン履歴、暗号化済みファイル共有などが含まれています。"
+      ]
+    },
+    "Failed": {
+      "${ countOfFailedLinks } failed": [
+        "失敗 ${ countOfFailedLinks } 件"
       ]
     }
   }

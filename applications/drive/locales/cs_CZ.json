@@ -753,6 +753,12 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Give feedback": [
+        "Zaslat zpětnou vazbu"
+      ],
+      "Loading link": [
+        "Načítání odkazu"
       ]
     },
     "Actions message": {
@@ -2031,6 +2037,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Pozvání k ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Tento výskyt ${ eventTitle } byl zrušen."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2407,6 +2416,15 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude zpracován."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } byl aktualizován. Prosíme obnovte stránku."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Vyhledávání obsahu nelze povolit. Restartujte aplikaci nebo smažte data."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Nahrávání fotek je dočasně vypnuté. Zkuste to prosíme později."
       ]
     },
     "Error importing calendar": {
@@ -4522,6 +4540,21 @@
       ],
       "Your previous recovery phrase": [
         "Vaše předchozí fráze pro obnovu"
+      ],
+      "Coming soon": [
+        "Již brzy"
+      ],
+      "Get the desktop app to sync files from your computer.": [
+        "Získejte aplikaci pro stolní PC k synchronizaci souborů z počítače."
+      ],
+      "Items moved to the trash will stay here until deleted": [
+        "Položky přesunuté do koše zde zůstanou, dokud nebudou smazány."
+      ],
+      "Unknown date": [
+        "Neznámé datum"
+      ],
+      "Want to sync files faster?": [
+        "Chcete synchronizovat soubory rychleji?"
       ]
     },
     "Info on errors": {
@@ -5255,6 +5288,12 @@
       ],
       "Up to 3 TB of storage": [
         "Až 3 TB úložného prostoru"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendář",
+        "${ maximumNumberOfCalendars } kalendáře",
+        "${ maximumNumberOfCalendars } kalendářů",
+        "${ maximumNumberOfCalendars } kalendářů"
       ]
     },
     "new_plans: feature info": {
@@ -5572,6 +5611,15 @@
       ],
       "Set up your organization": [
         "Nastavení organizace"
+      ],
+      "Pick a theme": [
+        "Vyberte si motiv"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Pomocí výběru aplikací v levém horním rohu získáte přístup ke všem službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Motiv můžete kdykoli změnit v nastavení."
       ]
     },
     "Onboarding Title": {
@@ -5829,6 +5877,39 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Nyní si můžete libovolně změnit heslo k účtu ${ boldEmail } po dobu ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Žádost o resetování hesla schválena (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Toto oprávnění brzy vyprší"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Nyní si můžete změnit heslo k účtu ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inDays } den.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dny.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dnů.",
+        "Na resetování hesla máte ${ timeRemaining.inDays } dnů."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inHours } hodinu.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodiny.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodin.",
+        " Na resetování hesla máte ${ timeRemaining.inHours } hodin."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inMinutes } minutu.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minuty.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minut.",
+        " Na resetování hesla máte ${ timeRemaining.inMinutes } minut."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Na resetování hesla máte ${ timeRemaining.inSeconds } sekundu.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekundy.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekund.",
+        " Na resetování hesla máte ${ timeRemaining.inSeconds } sekund."
       ]
     },
     "session_recovery:available:link": {
@@ -7074,6 +7155,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná zkušební verze končí ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } Desktopová aplikace"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Vybraná barva:"
       ]
     }
   }

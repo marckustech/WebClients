@@ -745,6 +745,9 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Loading link": [
+        "Bağlantı yükleniyor"
       ]
     },
     "Actions message": {
@@ -2013,6 +2016,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "${ eventTitle } etkinliğine davet edildiniz\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Bu zamandaki ${ eventTitle } etkinliği iptal edildi."
       ]
     },
     "Email body for invitation (date part)": {
@@ -4389,6 +4395,9 @@
       ],
       "Your previous recovery phrase": [
         "Önceki kurtarma ifadeniz"
+      ],
+      "Unknown date": [
+        "Tarih bilinmiyor"
       ]
     },
     "Info on errors": {
@@ -5106,6 +5115,10 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB depolama alanına kadar"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } takvim",
+        "${ maximumNumberOfCalendars } takvim"
       ]
     },
     "new_plans: feature info": {
@@ -5385,6 +5398,15 @@
       ],
       "Set up your organization": [
         "Kuruluşunuzu ayarlayın"
+      ],
+      "Pick a theme": [
+        "Bir tema seçin"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Tüm ${ BRAND_NAME } hizmetlerine erişmek için sol üstteki uygulama seçiciyi kullanın: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } ve ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Temanızı istediğiniz zaman ayarlar bölümünden değiştirebilirsiniz."
       ]
     },
     "Onboarding Title": {
@@ -6805,6 +6827,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Seçilmiş renk:"
       ]
     }
   }

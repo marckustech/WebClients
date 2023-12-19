@@ -748,6 +748,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Give feedback": [
+        "Dai una valutazione"
       ]
     },
     "Actions message": {
@@ -908,6 +911,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Archivia oltre 200 versioni di ciascun file per un massimo di 10 anni."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Include il supporto per ${ domains } domini email personalizzati, ${ addresses } indirizzo email, alias hide-my-email illimitati, condivisione del calendario e molto altro.",
+        "Include il supporto per ${ domains } domini email personalizzati, ${ addresses } indirizzi email, alias hide-my-email illimitati, condivisione del calendario e molto altro."
       ]
     },
     "Bug category": {
@@ -2016,6 +2023,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sei invitato a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Questa occorrenza di ${ eventTitle } è stata cancellata."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2378,6 +2388,21 @@
       ],
       "Your import will not be processed.": [
         "La tua importazione non verrà elaborata."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } non può connettersi al tuo account esterno"
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } è stato aggiornato. Aggiorna la pagina."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Impossibile abilitare la ricerca nel contenuto. Riavvia l'applicazione o cancella la cache."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Il caricamento delle foto è temporaneamente disabilitato. Riprova più tardi."
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Errore imprevisto. Non possiamo importare i contatti."
       ]
     },
     "Error importing calendar": {
@@ -3721,7 +3746,7 @@
         "Indicizzazione dei risultati di ricerca…"
       ],
       "Inherited from parent folder": [
-        "Ereditato dalla cartella principale"
+        "Preso dalla cartella principale"
       ],
       "Initializing": [
         "Avvio in corso"
@@ -4395,6 +4420,9 @@
       ],
       "Your previous recovery phrase": [
         "La tua frase di recupero precedente"
+      ],
+      "Coming soon": [
+        "In arrivo"
       ]
     },
     "info": {
@@ -4743,7 +4771,7 @@
         "Modificato"
       ],
       "Move to Archive": [
-        "Sposta in archivio"
+        "Sposta nell'archivio"
       ],
       "Move to Inbox": [
         "Sposta nella posta in arrivo"
@@ -5648,6 +5676,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Ora puoi cambiare liberamente la password per il tuo account ${ boldEmail } per ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Richiesta di reimpostazione della password approvata (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Questa autorizzazione scadrà a breve"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Ora puoi cambiare la password per il tuo account ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Hai ${ timeRemaining.inDays } giorno rimanente per reimpostare la password.",
+        "Hai ${ timeRemaining.inDays } giorni rimanenti per reimpostare la password."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Hai ${ timeRemaining.inHours } ora rimanente per reimpostare la password.",
+        " Hai ${ timeRemaining.inHours } ore rimanenti per reimpostare la password."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Hai ${ timeRemaining.inMinutes } minuto rimanente per reimpostare la password.",
+        " Hai ${ timeRemaining.inMinutes } minuti rimanenti per reimpostare la password."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Hai ${ timeRemaining.inSeconds } secondo rimanente per reimpostare la password.",
+        " Hai ${ timeRemaining.inSeconds } secondi rimanenti per reimpostare la password."
       ]
     },
     "session_recovery:available:link": {
@@ -6829,6 +6882,38 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "La tua prova gratuita termina il ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applicazione desktop ${ MAIL_APP_NAME }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Funzionalità a pagamento di ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } e ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Include la cronologia delle versioni in ${ DRIVE_SHORT_APP_NAME }, l'accesso a migliaia di server ${ VPN_SHORT_APP_NAME } ad alta velocità, la condivisione in ${ PASS_SHORT_APP_NAME } e altro ancora."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 utenti"
+      ],
+      "Early access to new apps and features": [
+        "Accesso anticipato a nuove app e funzionalità"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Accesso anticipato all'applicazione desktop di ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Funzionalità a pagamento di ${ MAIL_SHORT_APP_NAME } e ${ CALENDAR_APP_NAME }"
       ]
     }
   }

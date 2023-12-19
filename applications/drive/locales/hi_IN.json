@@ -704,6 +704,15 @@
       ],
       "Zoom out": [
         "ज़ूम कम करें"
+      ],
+      "Report an issue": [
+        "समस्या रिपोर्ट करें"
+      ],
+      "Show side panel": [
+        "साइड पैनल दिखाएं"
+      ],
+      "Switch or add account": [
+        "खाता बदलें अथवा जोड़ें"
       ]
     },
     "Actions message": {
@@ -731,6 +740,10 @@
       "${ users } user": [
         "${ users } यूज़र",
         "${ users } यूज़र"
+      ],
+      "${ domains } custom domain": [
+        "${ domains } कस्टम डोमेन",
+        "${ domains } कस्टम डोमेन"
       ]
     },
     "Alert": {
@@ -4056,6 +4069,21 @@
       ],
       "Your previous recovery phrase": [
         "आपका पिछला पुनर्प्राप्ति वाक्यांश"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "App Store पर ${ DRIVE_APP_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "Play Store पर ${ DRIVE_APP_NAME }"
+      ],
+      "Are you sure you want to discard your import?": [
+        "क्या आप वाकई अपना आयात छोड़ना चाहते हैं?"
+      ],
+      "This month": [
+        "इस महीने"
+      ],
+      "Trash is empty": [
+        "कचरा खाली है"
       ]
     },
     "Info on errors": {
@@ -4758,6 +4786,10 @@
       ],
       "Up to 3 TB of storage": [
         "3 टीबी तक स्टोरेज"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } कैलेंडर",
+        "${ maximumNumberOfCalendars } कैलेंडर"
       ]
     },
     "new_plans: feature info": {
@@ -4973,6 +5005,9 @@
       ],
       "Your settings have been changed successfully": [
         "आपके सेटिंग को बदल दिया गया है"
+      ],
+      "Link copied to clipboard": [
+        "लिंक को क्लिपबोर्ड पर कॉपी किया गया"
       ]
     },
     "Oauth instructions": {
@@ -5028,6 +5063,9 @@
       ],
       "Set up your organization": [
         "अपना संगठन स्थापित करें"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "${ BRAND_NAME } की सभी सेवाओं तक पहुंचने के लिए ऊपर बाईं ओर ऐप चयनकर्ता का उपयोग करें: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } और ${ PASS_SHORT_APP_NAME }।"
       ]
     },
     "Onboarding Title": {
@@ -5140,6 +5178,9 @@
       ],
       "Start typing an email address": [
         "ईमेल पता लिखना शुरू करें"
+      ],
+      "First name": [
+        "पहला नाम"
       ]
     },
     "Placeholder for contact group name": {
@@ -5261,6 +5302,9 @@
     "session_recovery:sign_out:action": {
       "Sign out": [
         "साइन आउट करें"
+      ],
+      "Stay signed in": [
+        "साइन्ड इन रहें"
       ]
     },
     "session_recovery:sign_out:info": {
@@ -5361,6 +5405,12 @@
       ],
       "Support online privacy": [
         "ऑनलाइन निजता को बढ़ावा दें"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "प्रीमियम ${ VPN_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Link": {
@@ -6098,6 +6148,9 @@
       ],
       "You’ve got 1 GB of storage": [
         "आपको स्टोरेज का 1 जीबी मिला है"
+      ],
+      "Download ${ date }.zip": [
+        "${ date }.zip डाउनलोड करें"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -6153,6 +6206,12 @@
       ],
       "You do not have any contacts to export": [
         "आपके पास निर्यात करने के लिए कोई संपर्क नहीं है"
+      ],
+      "Hide side panel": [
+        "साइड पैनल छुपाएं"
+      ],
+      "Show side panel": [
+        "साइड पैनल दिखाएं"
       ]
     },
     "Validation": {
@@ -6246,6 +6305,40 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "आपका निःशुल्क परीक्षण ${ textDate } को समाप्त होगा। ${ action }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "30 दिन की पैसे-वापस गारंटी"
+      ]
+    },
+    "Failed": {
+      "${ countOfFailedLinks } failed": [
+        "${ countOfFailedLinks } असफल",
+        "${ countOfFailedLinks } असफल"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "अपना पासवर्ड बदलने का प्रयास करने से पहले कृपया कुंजियाँ बनाएँ।"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "पासवर्ड रीसेट रद्द करें?"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "पासवर्ड रीसेट का अनुरोध किया गया"
+      ]
+    },
+    "summer2023: Deal details": {
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "प्रीमियम ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "प्रीमियम ${ MAIL_SHORT_APP_NAME } और ${ CALENDAR_SHORT_APP_NAME }"
       ]
     }
   }

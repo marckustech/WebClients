@@ -2016,6 +2016,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Você foi convidado para ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta ocorrência de ${ eventTitle } foi cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2378,6 +2381,12 @@
       ],
       "Your import will not be processed.": [
         "Sua importação não será processada."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } foi atualizado. Atualize a página"
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "O envio de fotos está temporariamente desativado. Tente novamente mais tarde."
       ]
     },
     "Error importing calendar": {
@@ -4395,6 +4404,9 @@
       ],
       "Your previous recovery phrase": [
         "Sua frase de recuperação anterior"
+      ],
+      "Coming soon": [
+        "Em breve"
       ]
     },
     "Info on errors": {
@@ -5112,6 +5124,10 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
       ]
     },
     "new_plans: feature info": {
@@ -5397,6 +5413,9 @@
       ],
       "You will be able to change your theme any time in your settings.": [
         "Você poderá alterar seu tema a qualquer momento nas configurações."
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Use o seletor de aplicativos no canto superior esquerdo para acessar todos${ BRAND_NAME }Serviços:${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME }e ${ PASS_SHORT_APP_NAME }"
       ]
     },
     "Onboarding Title": {
@@ -5636,6 +5655,9 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Agora você pode alterar a senha da conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Agora você pode alterar a senha da conta ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {
@@ -6817,6 +6839,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Sua avaliação gratuita termina em ${ textDate }. ${ action }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Cor selecionada:"
       ]
     }
   }

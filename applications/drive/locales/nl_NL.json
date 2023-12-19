@@ -742,6 +742,12 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Loading link": [
+        "Koppeling laden"
+      ],
+      "Report an issue": [
+        "Een probleem melden"
       ]
     },
     "Actions message": {
@@ -2010,6 +2016,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "U bent uitgenodigd voor ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Het voorvallen van ${ eventTitle } is geannuleerd."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2569,6 +2578,15 @@
       ],
       "You may also refresh the page or try again later.": [
         "Vernieuw de pagina of probeer het later opnieuw."
+      ],
+      "App currently unavailable": [
+        "App momenteel niet beschikbaar"
+      ],
+      "Open in browser": [
+        "Openen in de browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Om ${ MAIL_APP_NAME } of ${ CALENDAR_APP_NAME } te gebruiken, wissel naar de webversie."
       ]
     },
     "Error notification": {
@@ -4338,6 +4356,24 @@
       ],
       "Your previous recovery phrase": [
         "Uw vorige herstelzin"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "${ DRIVE_APP_NAME } in de App Store"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "${ DRIVE_APP_NAME } in de Play Store"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "De eigenaar van dit adres heeft end-to-end versleuteling uitgeschakeld. Om versleutelde berichten naar dit adres te sturen moet de eigenaar end-to-end versleuteling weer inschakelen."
+      ],
+      "This file is too large to preview": [
+        "Dit bestand is te groot om het te kunnen tonen"
+      ],
+      "Trash is empty": [
+        "Uw prullenbak is leeg."
+      ],
+      "Unknown date": [
+        "Onbekende datum"
       ]
     },
     "Info on errors": {
@@ -5052,6 +5088,13 @@
       ],
       "Up to 3 TB of storage": [
         "Tot wel 3 TB opslag"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } agenda",
+        "${ maximumNumberOfCalendars } agenda's"
+      ],
+      "Custom snooze time": [
+        "Aangepaste demptijd"
       ]
     },
     "new_plans: feature info": {
@@ -5066,6 +5109,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Gebruik uw eigen e-mailadressen met een aangepast domein, zoals u@uwnaam.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Berichten dempen en ontvangen wanneer u wilt"
       ]
     },
     "new_plans: label": {
@@ -5328,6 +5374,12 @@
       ],
       "Set up your organization": [
         "Stel uw organisatie in"
+      ],
+      "Pick a theme": [
+        "Thema selecteren"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Gebruik de app-kiezer linksboven voor de toegang tot alle ${ BRAND_NAME }-diensten: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } en ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Onboarding Title": {
@@ -6748,6 +6800,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Geselecteerde kleur:"
       ]
     }
   }

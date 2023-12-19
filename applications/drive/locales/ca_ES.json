@@ -623,7 +623,7 @@
         "Omet la verificació"
       ],
       "Start": [
-        "Inici"
+        "Inicia"
       ],
       "Start import": [
         "Comença la importació"
@@ -748,6 +748,9 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Give feedback": [
+        "Feu-nos comentaris"
       ]
     },
     "Actions message": {
@@ -856,6 +859,9 @@
       ],
       "Premium Password Manager": [
         "Gestor de contrasenyes prèmium"
+      ],
+      "Access content worldwide": [
+        "Accediu al contingut a tot el món"
       ]
     },
     "bf2023: Footer": {
@@ -863,7 +869,7 @@
         "Els descomptes es basen en els preus mensuals estàndard."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "La vostra subscripció es renovarà automàticament a la tarifa estàndard amb descompte i durada al final del cicle de facturació."
+        "La vostra subscripció es renovarà automàticament a la tarifa amb descompte i durada predeterminades al final del cicle de facturació."
       ]
     },
     "bf2023: Offers": {
@@ -873,7 +879,7 @@
     },
     "bf2023: Tooltip": {
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Accediu al contingut dels serveis de streaming com ara Netflix, Disney+, Prime Video i altres des de qualsevol lloc."
+        "Accediu al contingut dels serveis de transmissió en línia, com ara Netflix, Disney+, Prime Video i altres, des de qualsevol lloc."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 1 domini de correu electrònic personalitzat, 10 adreces de correu electrònic, 10 àlies hide-my-email, compartició de calendari i més."
@@ -890,6 +896,21 @@
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "L'espai d'emmagatzematge està compartit entre totes les aplicacions de ${ BRAND_NAME }."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Accediu al contingut bloquejat i navegueu de forma privada. Inclou més de 3.000 servidors en més de 65 països, velocitats de VPN més altes, accés a serveis de transmissió en línia a tot el món, bloqueig de programari maliciós i d'anuncis, descàrregues ràpides de BitTorrent, etc."
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "Eviteu els bloquejos i la censura locals a Internet amb la nostra xarxa global de servidors."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Inicis de sessió segurs en tots els vostres dispositius. Inclou àlies il·limitats, compartició, A2F integrada, etc."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Assegureu els vostres correus electrònics i planifiqueu amb xifratge d'extrem a extrem. Inclou suport per a dominis de correu personalitzats, 15 adreces de correu electrònic, àlies hide-my-email il·limitats, compartició de calendari, etc."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Emmagatzemeu fins a 200 versions de cada fitxer durant un màxim de 10 anys."
       ]
     },
     "Bug category": {
@@ -1966,6 +1987,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Podeu marcar per suprimir els contactes que no voleu ni fusionar ni conservar.\nLa supressió només es farà un cop es faci clic al botó de combinació"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Per importar a través de fitxers CSV i VCF, assegureu-vos que el fitxer no excedeixi ${ MAX_IMPORT_FILE_SIZE_STRING } o ${ MAX_IMPORT_CONTACTS_STRING } contactes. Si el fitxer és més gran, dividiu-lo en fitxers més petits. ${ learnMoreLink }."
       ]
     },
     "description": {
@@ -1995,6 +2019,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Heu estat convidat/da a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Aquesta ocurrència de ${ eventTitle } ha estat cancel·lada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2093,7 +2120,7 @@
         "Desmarqueu almenys ${ calendarsToFixCount } calendaris o"
       ],
       "Device name does not match": [
-        "El nom del dispositiu no coincideix"
+        "El nom del dispositiu no coincideix."
       ],
       "Domain not available, try again later": [
         "El domini no està disponible, torneu-ho a provar més tard"
@@ -2108,7 +2135,7 @@
         "Introduïu 6 dígits"
       ],
       "Error decrypting a computer": [
-        "Error desxifrant un ordinador"
+        "S'ha produït un error en desxifrar un ordinador"
       ],
       "File \"${ item.name }\" cannot be uploaded due to \"${ error }\" error": [
         "El fitxer «${ item.name }» no s'ha pogut pujar a causa de l'error «${ error }»"
@@ -2357,6 +2384,15 @@
       ],
       "Your import will not be processed.": [
         "La vostra importació no es processarà."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } s'ha actualitzat. Actualitzeu la pàgina."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "No es pot habilitar la cerca de contingut. Reinicieu l'aplicació o netegeu les dades."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "La càrrega de fotos està temporalment desactivada. Torneu a provar més tard."
       ]
     },
     "Error importing calendar": {
@@ -2560,6 +2596,9 @@
       ],
       "You may also refresh the page or try again later.": [
         "També podeu refrescar la pàgina o provar de nou més tard."
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Per utilitzar ${ MAIL_APP_NAME } o ${ CALENDAR_APP_NAME }, canvieu a la versió web."
       ]
     },
     "Error notification": {
@@ -2628,8 +2667,8 @@
     },
     "Failed": {
       "${ countOfFailedLinks } failed": [
-        "${ countOfFailedLinks } error",
-        "${ countOfFailedLinks } errors"
+        "N'ha fallat ${ countOfFailedLinks }",
+        "N'han fallat ${ countOfFailedLinks }"
       ]
     },
     "familyOffer_2023: Deal details": {
@@ -2748,7 +2787,7 @@
     },
     "familyOffer_2023:Tooltip": {
       "Includes 2700 servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
-        "Inclou 2700 servidors en més de 65 països, connecteu fins a 10 dispositius, accediu a serveis de retransmissió en tot el món, bloquejador de programari maliciós i d'anuncis i més."
+        "Inclou 2700 servidors en més de 65 països, connecteu fins a 10 dispositius, accediu a serveis de transmissió en línia en tot el món, bloquejador de programari maliciós i d'anuncis i més."
       ],
       "Includes support for 3 custom email domains, 90 email addresses, unlimited hide-my-email aliases, calendar sharing and more.": [
         "Inclou suport per a 3 dominis de correu electrònic personalitzats, 90 adreces de correu electrònic, àlies il·limitats de Hide-my-email, compartició de calendari i més."
@@ -2830,7 +2869,7 @@
         "Valor per defecte del sistema"
       ],
       "Theme font": [
-        "Tipus de lletra del tema"
+        "Família tipogràfica del tema"
       ]
     },
     "Font size option": {
@@ -3739,7 +3778,7 @@
         "S'ha copiat l'enllaç al porta-retalls."
       ],
       "Link owner has the password": [
-        "El propietari de l'enllaç té la contrasenya"
+        "El propietari de l'enllaç té la contrasenya."
       ],
       "Loading": [
         "Carregant"
@@ -3817,7 +3856,7 @@
         "Nota: les dades encara poden estar disponibles localment en dispositius on hàgiu instal·lat ${ DRIVE_APP_NAME }."
       ],
       "Nothing here yet": [
-        "No hi ha res aquí encara"
+        "No hi ha res aquí de moment."
       ],
       "of": [
         "de"
@@ -3851,7 +3890,7 @@
         "PGP/MIME envia automàticament el missatge utilitzant el mode d'editor actual."
       ],
       "Photos have been successfully recovered.": [
-        "Les fotos s'han recuperat."
+        "S'han recuperat les fotos."
       ],
       "Please enter the password to decrypt and view content.": [
         "Introduïu la contrasenya per a desxifrar i veure el contingut."
@@ -3960,7 +3999,7 @@
         "Seleccioneu un proveïdor de serveis per començar"
       ],
       "Select all items for": [
-        "Selecciona tots els elements per"
+        "Selecciona tots els elements per a"
       ],
       "Select an uploaded file or folder and create a link to it.": [
         "Seleccioneu un fitxer o una carpeta carregats i creeu-hi un enllaç."
@@ -3993,7 +4032,7 @@
         "Enllaç per a compartir ${ boldNameText }"
       ],
       "Shared link not found": [
-        "No s'ha trobat l'enllaç compartit"
+        "No s'ha trobat l'enllaç compartit."
       ],
       "Signature cannot be validated due to network error, please try again later.": [
         "No es pot validar la signatura a causa d'un error de xarxa. Torneu-ho a provar més tard."
@@ -4080,8 +4119,8 @@
         "Aquest mes"
       ],
       "This will delete the link and remove access to your file or folder for anyone with the link.": [
-        "Això esborrarà l'enllaç i esborrarà l'accés al vostre fitxer o carpeta per a qualsevol persona que el tingui.",
-        "Això esborrarà els enllaços i esborrarà l'accés als vostres fitxers o carpetes per a qualsevol persona que els tingui."
+        "Això eliminarà l'enllaç i esborrarà l'accés al vostre fitxer o carpeta per a qualsevol que el tingui.",
+        "Això eliminarà els enllaços i esborrarà l'accés als vostres fitxers o carpetes per a qualsevol que els tingui."
       ],
       "This will remove the synced device ${ deviceName } from ${ DRIVE_APP_NAME } and stop syncing folders you added to My Computers.": [
         "Això esborrarà el dispositiu sincronitzat ${ deviceName } de ${ DRIVE_APP_NAME } i deixarà de sincronitzar les carpetes que heu afegit a Ordinadors."
@@ -4159,7 +4198,7 @@
         "Intenteu cercar pel nom, data o tipus del fitxer."
       ],
       "Unfortunately, it appears that the file or some of its data cannot be decrypted.": [
-        "Malauradament, sembla que el fitxer o algunes de les vostres dades no es poden desxifrar."
+        "Malauradament, sembla que el fitxer o algunes de les seves dades no es poden desxifrar."
       ],
       "Unknown date": [
         "Data desconeguda"
@@ -4195,7 +4234,7 @@
         "La càrrega de centenars de fitxers alhora pot tenir un impacte en el rendiment."
       ],
       "Use this form to notify us of inappropriate, illegal,\nor otherwise malicious shared files. You are about to report:": [
-        "Utilitzeu aquest formulari per a notificar-nos sobre fitxers compartits inapropiats, il·legals o maliciosos. Esteu a punt d'informar:"
+        "Utilitzeu aquest formulari per a notificar-nos de fitxers compartits inapropiats, il·legals o maliciosos. Esteu a punt d'informar:"
       ],
       "Version is deleted": [
         "La versió s'ha eliminat"
@@ -4276,8 +4315,8 @@
         "No pots desfer aquesta acció."
       ],
       "You have ${ expiresInDays } day left to claim your 500 MB welcome bonus and ": [
-        "Us queden ${ expiresInDays } dia per reclamar la vostra bonificació de 500 MB de benvinguda i ",
-        "Us queden ${ expiresInDays } dies per reclamar la vostra bonificació de 500 MB de benvinguda i "
+        "Us queda ${ expiresInDays } dia per a reclamar la vostra bonificació de benvinguda de 500 MB i ",
+        "Us queden ${ expiresInDays } dies per a reclamar la vostra bonificació de benvinguda de 500 MB i "
       ],
       "You reached ${ spaceDisplayed }% of your storage capacity. ${ freeUpMessage } ${ upgradeLink }": [
         "Heu assolit el ${ spaceDisplayed }% del vostre espai d'emmagatzematge. ${ freeUpMessage } ${ upgradeLink }"
@@ -4341,6 +4380,39 @@
       ],
       "Your previous recovery phrase": [
         "La vostra frase de recuperació anterior"
+      ],
+      "Coming soon": [
+        "Disponible pròximament"
+      ],
+      "Get the app to backup photos from your phone.": [
+        "Obteniu l'aplicació per a fer còpies de seguretat de les fotos del vostre telèfon."
+      ],
+      "Get the desktop app to sync files from your computer.": [
+        "Obteniu l'aplicació d'escriptori per sincronitzar fitxers des del vostre ordinador."
+      ],
+      "Items moved to the trash will stay here until deleted": [
+        "Els elements moguts a la paperera es quedaran aquí fins que siguin eliminats."
+      ],
+      "Or use the \"+ New\" button": [
+        "O utilitzeu el botó \"+ Nou\"."
+      ],
+      "Please use another browser or download the file.": [
+        "Utilitzeu un altre navegador o descarregueu el fitxer."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "La vista prèvia per a aquest tipus de fitxer no està suportada actualment en aquest navegador."
+      ],
+      "Ready to add some photos?": [
+        "Preparat per a afegir algunes fotos?"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "El propietari d'aquesta adreça ha desactivat el xifratge d'extrem a extrem. Per a poder enviar-hi correus electrònics xifrats, el propietari ha de tornar a habilitar el xifratge d’extrem a extrem."
+      ],
+      "This file is too large to preview": [
+        "Aquest fitxer és massa gran per a previsualitzar-lo."
+      ],
+      "Want to sync files faster?": [
+        "Voleu sincronitzar fitxers més ràpidament?"
       ]
     },
     "Info on errors": {
@@ -5058,6 +5130,10 @@
       ],
       "Up to 3 TB of storage": [
         "Fins a 3 TB d'emmagatzematge"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendari",
+        "${ maximumNumberOfCalendars } calendaris"
       ]
     },
     "new_plans: feature info": {
@@ -5072,6 +5148,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilitzeu la vostra pròpia adreça de domini de correu electrònic personalitzat. Per exemple: vos@elvostrenom.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Posposeu missatges i rebeu-ne un recordatori quan vulgueu"
       ]
     },
     "new_plans: label": {
@@ -5337,6 +5416,12 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
         "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
+      ],
+      "Pick a theme": [
+        "Escolliu un tema"
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Podreu canviar el tema en qualsevol moment a les preferències."
       ]
     },
     "Onboarding Title": {
@@ -5576,6 +5661,27 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Ara podeu canviar la vostra contrasenya per al compte ${ boldEmail } lliurement durant ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "S'ha aprovat la sol·licitud de restabliment de contrasenya (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Aquest permís caduca prompte"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Ja podeu canviar la contrasenya per al compte ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Teniu ${ timeRemaining.inDays } dia per a restablir la contrasenya.",
+        "Teniu ${ timeRemaining.inDays } dies per a restablir la contrasenya."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Teniu ${ timeRemaining.inHours } hora per a restablir la contrasenya.",
+        " Teniu ${ timeRemaining.inHours } hores per a restablir la contrasenya."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Teniu ${ timeRemaining.inMinutes } minut per a restablir la contrasenya.",
+        " Teniu ${ timeRemaining.inMinutes } minuts per a restablir la contrasenya."
       ]
     },
     "session_recovery:available:link": {
@@ -5647,7 +5753,7 @@
         "S'ha sol·licitat el restabliment de la contrasenya (${ user.Email }). Podeu canviar la vostra contrasenya en ${ hoursRemaining } hores."
       ],
       "To make sure it’s really you trying to reset your password, we wait 72 hours before approving requests. You can change your password in ${ boldTimeLeft }. ${ viewRequest }": [
-        "Per a assegurar-nos que sou vós qui intenteu restablir la vostra contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
+        "Per a assegurar-nos que sou vós qui intenteu restablir la contrasenya, esperem 72 hores abans d'aprovar les sol·licituds. Podeu canviar la contrasenya en ${ boldTimeLeft }. ${ viewRequest }."
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Hem rebut una sol·licitud de restabliment de contrasenya per a ${ boldEmail }."
@@ -5785,7 +5891,7 @@
         "Emmagatzematge al núvol segur"
       ],
       "Secure streaming": [
-        "Streaming segur"
+        "Transmissió en línia segura"
       ],
       "Support online privacy": [
         "Doneu suport a la privacitat en línia"
@@ -5883,16 +5989,16 @@
     },
     "specialoffer: Tooltip": {
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections per user, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de retransmissió a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de streaming a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis i més."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere.": [
-        "Accediu al contingut dels serveis de retransmissió, com ara Netflix, Disney+ i Prime Video, des de qualsevol lloc."
+        "Accediu al contingut dels serveis de transmissió en línia, com ara Netflix, Disney+ i Prime Video, des de qualsevol lloc."
       ],
       "All our premium services with their highest limits: 100 email addresses, support for 10 custom domains, unlimited hide-my-email aliases, calendar sharing, encrypted cloud storage and file sharing, and more.": [
-        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, i més."
+        "Tots els nostres serveis prèmium al seu límit màxim: 100 adreces de correu electrònic, suport per a 10 dominis personalitzats, àlies hide-my-email il·limitats, compartició de calendaris, emmagatzematge al núvol encriptat, compartició de fitxers, etc."
       ],
       "Includes support for 3 custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 3 dominis de correu electrònic personalitzats, 15 adreces de correu electrònic, àlies il·limitats de hide-my-email, compartició de calendari i més."
@@ -5942,7 +6048,7 @@
       ],
       "${ countOfUnrecoveredLinksLeft } left": [
         "Queda ${ countOfUnrecoveredLinksLeft }",
-        "Quedan ${ countOfUnrecoveredLinksLeft }"
+        "Queden ${ countOfUnrecoveredLinksLeft }"
       ],
       "Address copied to clipboard": [
         "Adreça copiada al porta-retalls"
@@ -6019,7 +6125,7 @@
         "Creeu detalls d'inici de sessió segurs en tots els vostres dispositius. Inclou, entre d'altres, àlies il·limitats, 20 caixes fortes, autenticació de dos factors (2FA) i inserció automàtica de targetes de crèdit."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
-        "Inclou, entre d'altres, més de 2950 servidors en més de 65 països, connexió fins a 10 dispositius, accés a serveis de reproducció en línia de tot el món i bloqueig de programari maliciós i d'anuncis."
+        "Inclou, entre d'altres, més de 2950 servidors en més de 65 països, connexió fins a 10 dispositius, accés a serveis de transmissió en línia de tot el món i bloqueig de programari maliciós i d'anuncis."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
         "Inclou suport per a 1 domini de correu electrònic personalitzat, 10 adreces de correu electrònic, 10 àlies hide-my-email, compartició de calendari i més."
@@ -6325,7 +6431,7 @@
         "Grups"
       ],
       "Hm, we couldn't find that one": [
-        "No ho hem pogut trobar"
+        "No hem pogut trobar aquest element."
       ],
       "Human verification": [
         "Verificació humana"
@@ -6757,6 +6863,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "La prova gratuïta acaba el ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Color seleccionat:"
       ]
     }
   }

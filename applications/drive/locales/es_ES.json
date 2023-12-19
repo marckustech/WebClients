@@ -748,6 +748,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Give feedback": [
+        "Danos tu opinión"
       ]
     },
     "Actions message": {
@@ -2016,6 +2019,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Estás invitado a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta incidencia de ${ eventTitle } ha sido cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2378,6 +2384,15 @@
       ],
       "Your import will not be processed.": [
         "No se procesará tu importación."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "Se ha actualizado ${ DRIVE_APP_NAME }. Vuelve a cargar la página."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "No se puede activar la búsqueda de contenido. Reinicia la aplicación o borra los datos."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "La carga de fotos está temporalmente desactivada. Inténtalo de nuevo más tarde."
       ]
     },
     "Error importing calendar": {
@@ -4395,6 +4410,9 @@
       ],
       "Your previous recovery phrase": [
         "Tu frase de recuperación anterior"
+      ],
+      "Coming soon": [
+        "Próximamente"
       ]
     },
     "Info on errors": {
@@ -5112,6 +5130,10 @@
       ],
       "Up to 3 TB of storage": [
         "Hasta 3 TB de almacenamiento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendario",
+        "${ maximumNumberOfCalendars } calendarios"
       ]
     },
     "new_plans: feature info": {
@@ -5639,6 +5661,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Ahora puedes cambiar la contraseña para la cuenta ${ boldEmail } durante ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "La solicitud de cambio de contraseña ha sido aprobada (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Este permiso expira pronto."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Ya puedes cambiar la contraseña de la cuenta ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Tienes ${ timeRemaining.inDays } día para restablecer tu contraseña.",
+        "Tienes ${ timeRemaining.inDays } días para restablecer tu contraseña."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Tienes ${ timeRemaining.inHours } hora para restablecer tu contraseña.",
+        "Tienes ${ timeRemaining.inHours } horas para restablecer tu contraseña."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Tienes ${ timeRemaining.inMinutes } minuto para restablecer tu contraseña.",
+        "Tienes ${ timeRemaining.inMinutes } minutos para restablecer tu contraseña."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Tienes ${ timeRemaining.inSeconds } segundo para restablecer tu contraseña.",
+        "Tienes ${ timeRemaining.inSeconds } segundos para restablecer tu contraseña."
       ]
     },
     "session_recovery:available:link": {
@@ -6238,7 +6285,7 @@
         "Error al cargar el enlace"
       ],
       "Change layout": [
-        "Cambiar diseño"
+        "Cambiar la disposición"
       ],
       "Change password": [
         "Cambiar contraseña"
@@ -6820,6 +6867,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Tu periodo de prueba gratuito acaba el ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicación de escritorio de ${ MAIL_APP_NAME }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Color seleccionado:"
       ]
     }
   }

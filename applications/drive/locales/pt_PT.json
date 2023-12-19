@@ -736,6 +736,15 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Continue with Outlook": [
+        "Continuar com o Outlook"
+      ],
+      "Import from Google": [
+        "Importar do Google"
+      ],
+      "Import from Outlook": [
+        "Importar do Outlook"
       ]
     },
     "Actions message": {
@@ -814,6 +823,33 @@
       ],
       "High speed streaming": [
         "Streaming de alta velocidade"
+      ],
+      "${ storageSize } storage": [
+        "${ storageSize } de armazenamento"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "+3,000 servidores em +65 países"
+      ],
+      "Access content worldwide": [
+        "Aceda a conteúdo em todo o mundo"
+      ],
+      "Ad-blocker and malware protection": [
+        "Bloqueador de anúncios e proteção de malware"
+      ],
+      "Extended version history": [
+        "Histórico de versão estendido"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ DRIVE_SHORT_APP_NAME }"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }"
+      ],
+      "Premium ${ VPN_SHORT_APP_NAME }": [
+        "Premium ${ VPN_SHORT_APP_NAME }"
+      ],
+      "Premium Password Manager": [
+        "Versão premium do gestor de palavras-passe"
       ]
     },
     "Bug category": {
@@ -1887,6 +1923,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Pode marcar para eliminação os contactos que não deseja unir nem manter. A eliminação só ocorrerá depois de clicar no botão de união"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Para importar via ficheiro CSV e VCF, certifique-se de que o ficheiro não excede ${ MAX_IMPORT_FILE_SIZE_STRING } ou ${ MAX_IMPORT_CONTACTS_STRING } contactos. Se o seu ficheiro for maior, divida-o em ficheiros mais pequenos. ${ learnMoreLink }."
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "Para importar os seus contactos do Google e Outlook, ${ easySwitchLink }."
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -1911,6 +1953,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Tem um convite para ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Esta ocorrência de ${ eventTitle } foi cancelada."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2470,6 +2515,15 @@
       ],
       "You may also refresh the page or try again later.": [
         "Também pode atualizar a página ou tentar novamente mais tarde."
+      ],
+      "App currently unavailable": [
+        "Aplicação indisponível no momento"
+      ],
+      "Open in browser": [
+        "Abrir no browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Para usar o ${ MAIL_APP_NAME } ou o ${ CALENDAR_APP_NAME }, mude para a versão web."
       ]
     },
     "Error notification": {
@@ -3404,10 +3458,10 @@
         "A assinatura digital foi verificada. Esta pasta foi carregada de forma segura por ${ emailAddress }."
       ],
       "double your storage": [
-        "dobrar o seu armazenamento"
+        "duplicar o seu armazenamento"
       ],
       "Download ${ name } app": [
-        "Faça o 'download' da aplicação ${ name }"
+        "Transfira a app ${ name }"
       ],
       "Download canceled": [
         "A transferência foi cancelada."
@@ -3437,7 +3491,7 @@
         "Solte os ficheiros aqui para os carregar"
       ],
       "Drop files here": [
-        "Largar ficheiros aqui"
+        "Largue os ficheiros aqui"
       ],
       "Drop to import": [
         "Solte para importar"
@@ -3516,7 +3570,7 @@
         "O ficheiro não tem assinatura. Não é possível verificar quem carregou ${ fileName }."
       ],
       "File will not be updated": [
-        "O ficheiro não será actualizado."
+        "O ficheiro não será atualizado."
       ],
       "Finalizing": [
         "A finalizar"
@@ -3888,7 +3942,7 @@
         "Selecione um ficheiro ou pasta carregado e crie uma ligação para o mesmo."
       ],
       "Select item": [
-        "Seleccione o item"
+        "Selecione o item"
       ],
       "Select the email format you want to be used by default when sending an email to this email address.": [
         "Selecione o formato de e-mail predefinido a utilizar para este endereço de e-mail."
@@ -4096,7 +4150,7 @@
         "Até ${ FAMILY_MAX_USERS } utilizadores"
       ],
       "Updating drive search...": [
-        "Actualização da pesquisa na unidade..."
+        "Atualização da pesquisa na unidade..."
       ],
       "Upgrade now to get premium features, products and storage at a special price": [
         "Actualize agora para ter acesso a recursos, produtos e armazenamento premium por um preço especial."
@@ -4257,6 +4311,18 @@
       ],
       "Your previous recovery phrase": [
         "A sua frase de recuperação anterior"
+      ],
+      "Please use another browser or download the file.": [
+        "Por favor, utilize outro navegador ou transfira o ficheiro."
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "A pré-visualização deste tipo de ficheiro, de momento, não é suportada neste navegador."
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "O proprietário deste endereço desativou a encriptação ponta-a-ponta. Para poder enviar e-mails encriptados para este endereço, o proprietário deve reativar a encriptação ponta-a-ponta."
+      ],
+      "This file is too large to preview": [
+        "Este ficheiro é demasiado grande para pré-visualizar"
       ]
     },
     "Info on errors": {
@@ -4456,7 +4522,7 @@
         "Transferir assim mesmo"
       ],
       "Downloading ${ percentageValue }%": [
-        "Transferência ${ percentageValue }%"
+        "A transferir ${ percentageValue }%"
       ],
       "Duplicate found": [
         "Duplicado encontrado"
@@ -4971,6 +5037,13 @@
       ],
       "Up to 3 TB of storage": [
         "Até 3 TB de armazenamento"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } calendário",
+        "${ maximumNumberOfCalendars } calendários"
+      ],
+      "Custom snooze time": [
+        "Tempo de adiamento personalizado"
       ]
     },
     "new_plans: feature info": {
@@ -4985,6 +5058,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilize o seu próprio endereço de domínio de e-mail personalizado, por exemplo, you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Adie mensagens e seja relembrado quando quiser"
       ]
     },
     "new_plans: label": {
@@ -5247,6 +5323,12 @@
       ],
       "Set up your organization": [
         "Defina a sua organização"
+      ],
+      "Pick a theme": [
+        "Escolher um tema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Utilize o selecionador de aplicação no canto superior esquerdo para aceder a todos os serviços ${ BRAND_NAME }:${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } e ${ PASS_SHORT_APP_NAME }"
       ]
     },
     "Onboarding Title": {
@@ -6431,10 +6513,10 @@
         "A ligação expirou."
       ],
       "This file has a missing or invalid signature. Go to Menu (⋮) → Details for info.": [
-        "Este ficheir tem uma assinatura em falta ou inválida. Ir para Menu (⋮) → Detalhes para obter informações."
+        "Este ficheiro tem uma assinatura em falta ou inválida. Vá a Menu (⋮) → Detalhes para obter informações."
       ],
       "This folder has a missing or invalid signature. Go to Menu (⋮) → Details for info.": [
-        "Esta pasta tem uma assinatura em falta ou inválida. Ir para Menu (⋮) → Detalhes para obter informações."
+        "Esta pasta tem uma assinatura em falta ou inválida. Vá a Menu (⋮) → Detalhes para obter informações."
       ],
       "This link is password protected": [
         "Esta ligação está protegida por palavra-passe."
@@ -6497,7 +6579,7 @@
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
       ],
       "Your welcome actions": [
-        "As suas acções de boas-vindas"
+        "As suas ações de boas-vindas"
       ],
       "You’ve got 1 GB of storage": [
         "Tem 1 GB de armazenamento."
@@ -6667,6 +6749,29 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "O seu teste gratuito termina em ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Garantia de devolução do seu dinheiro em até 30 dias"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
+        "Inclui o suporte para 1 domínio de e-mail personalizado, 10 endereços de e-mail, 10 aliases Hide-my-email, partilha de calendário e muito mais."
+      ],
+      "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
+        "Proteja os seus ficheiros com armazenamento encriptado na nuvem. Inclui histórico de versões, partilha de ficheiros encriptados e muito mais."
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "utilize o assistente de importação Easy Switch"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Cor selecionada:"
       ]
     }
   }

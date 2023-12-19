@@ -698,6 +698,27 @@
       ],
       "Zoom out": [
         "Semẓi"
+      ],
+      "Add birthday": [
+        "Rnu azemz n tlalit"
+      ],
+      "Add note": [
+        "Rnu tazmilt"
+      ],
+      "Continue with Outlook": [
+        "Kemmel s Outlook"
+      ],
+      "Import from Google": [
+        "Kter seg Google"
+      ],
+      "Loading link": [
+        "Asali n useɣwen"
+      ],
+      "Report an issue": [
+        "Azen aneqqis ɣef ugur"
+      ],
+      "Start": [
+        "Bdu"
       ]
     },
     "Actions message": {
@@ -972,6 +993,15 @@
       ],
       "URL": [
         "URL"
+      ],
+      "Display name": [
+        "Isem n uskan"
+      ],
+      "First name": [
+        "Isem"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Contact type label": {
@@ -3651,6 +3681,28 @@
       ],
       "Your previous recovery phrase": [
         "Tafyirt-ik•im n tririt yezrin"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "${ DRIVE_APP_NAME } ɣef App Store"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "${ DRIVE_APP_NAME } ɣef Play Store"
+      ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } yettwafernen",
+        "${ selectedCount } yettwafernen"
+      ],
+      "Coming soon": [
+        "Ad d-yaweḍ"
+      ],
+      "This month": [
+        "Ayyur-a"
+      ],
+      "Trash is empty": [
+        "Taqecwalt d tilemt"
+      ],
+      "Up to ${ FAMILY_MAX_USERS } users": [
+        "Alamma d ${ FAMILY_MAX_USERS } yiseqdacen"
       ]
     },
     "Info on errors": {
@@ -4151,6 +4203,9 @@
       ],
       "Your password (admin)": [
         "Awal-ik uffir (anedbal)"
+      ],
+      "Photo": [
+        "Tawlaft"
       ]
     },
     "Label for contact group color": {
@@ -4214,6 +4269,9 @@
       ],
       "What’s this?": [
         "D acu-t wa?"
+      ],
+      "Photos": [
+        "Tiwlafin"
       ]
     },
     "Loading info": {
@@ -4324,6 +4382,10 @@
       ],
       "Up to 3 TB of storage": [
         "Alamma d 3 ṬAṬ n uḥraz"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } uwitay",
+        "${ maximumNumberOfCalendars } yiwitayen"
       ]
     },
     "new_plans: feature info": {
@@ -4536,6 +4598,9 @@
       ],
       "Your settings have been changed successfully": [
         "Iɣewwaren-ik·im ggwabeddlen war ugur"
+      ],
+      "Link copied to clipboard": [
+        "Aseɣwen yettwanɣel ɣer ɣefwafus"
       ]
     },
     "Onboarding Action": {
@@ -4673,6 +4738,12 @@
       ],
       "Start typing an email address": [
         "Bdu tira n tansa n yimayl"
+      ],
+      "First name": [
+        "Isem"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Placeholder for contact group name": {
@@ -4826,6 +4897,9 @@
       ],
       "Support online privacy": [
         "Sefrek tabaḍnit srid"
+      ],
+      "1 user": [
+        "1 useqdac"
       ]
     },
     "specialoffer: Footer": {
@@ -4856,6 +4930,10 @@
       ],
       "Save ${ discount }%": [
         "Sekles ${ discount }%"
+      ],
+      "${ n } month": [
+        "${ n } wayyur",
+        "${ n } wayyuren"
       ]
     },
     "specialoffer: Title": {
@@ -4892,6 +4970,9 @@
       ],
       "Your current storage:": [
         "Aklas-ik amiran:"
+      ],
+      "Get more storage": [
+        "Awi ugar n uḥraz"
       ]
     },
     "Success": {
@@ -5011,6 +5092,12 @@
       ],
       "vCard field": [
         "urti vCard"
+      ],
+      "First name": [
+        "Isem"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Time unit for duration; displayed in the time picker": {
@@ -5497,6 +5584,15 @@
       ],
       "You’ve got 1 GB of storage": [
         "Ɣur-k 1 GAṬ n uḥraz"
+      ],
+      "Birthday": [
+        "Amulli"
+      ],
+      "Notes": [
+        "Tizmilin"
+      ],
+      "Photos": [
+        "Tiwlafin"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -5644,6 +5740,70 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Aneɛruḍ-ik n baṭel ad ifakk deg ${ textDate }. ${ action }"
+      ]
+    },
+    "bf2023: Deal details": {
+      "${ storageSize } storage": [
+        "${ storageSize } n uḥraz"
+      ],
+      "1 user": [
+        "1 useqdac"
+      ],
+      "6 users": [
+        "6 yiseqdacen"
+      ],
+      "Premium Password Manager": [
+        "Amsefrak n wawal uffir premium"
+      ]
+    },
+    "bf2023: Offers": {
+      "30-day money-back guarantee": [
+        "Aɣram ɣef 30 n wussan yettwaḍmen"
+      ]
+    },
+    "Failed": {
+      "${ countOfFailedLinks } failed": [
+        "${ countOfFailedLinks } ccḍen",
+        "${ countOfFailedLinks } ccḍen"
+      ]
+    },
+    "session_recovery:available:action": {
+      "Reset password": [
+        "Ales awennez n wawal uffir"
+      ]
+    },
+    "session_recovery:available:error": {
+      "Please generate keys before you try to change your password": [
+        "Ttxil sirew-d tisura send ad tɛerḍeḍ ad tbeddeleḍ awal-inek n uɛeddi"
+      ]
+    },
+    "session_recovery:available:info": {
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } n wass",
+        "${ timeRemaining.inDays } n wussan"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } n usrag",
+        "${ timeRemaining.inHours } n yisragen"
+      ]
+    },
+    "session_recovery:in_progress:action": {
+      "Got it": [
+        "Gziɣ-t"
+      ],
+      "Learn more": [
+        "Issin ugar"
+      ]
+    },
+    "session_recovery:sign_out:info": {
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } n usrag",
+        "${ gracePeriodHoursRemaining } n yisragen"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Awennez n wawal uffir"
       ]
     }
   }

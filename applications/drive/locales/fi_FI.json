@@ -745,6 +745,9 @@
       ],
       "Zoom out": [
         "Loitonna"
+      ],
+      "Loading link": [
+        "Ladataan linkkiä"
       ]
     },
     "Actions message": {
@@ -4243,10 +4246,10 @@
         "Tällä lomakkeella voit ilmoittaa meille sopimattomista, laittomista tai muuten haitallisista tiedostoista. Olet ilmoittamassa:"
       ],
       "Version is deleted": [
-        "Versio poistettiin"
+        "Versio on poistettu"
       ],
       "Version is restored": [
-        "Versio palautettiin"
+        "Versio on palautettu"
       ],
       "Want to sync files faster?": [
         "Haluatko synkronoida tiedostot nopeammin?"
@@ -4389,6 +4392,9 @@
       ],
       "Your previous recovery phrase": [
         "Edellinen palautuslausekkeesi"
+      ],
+      "Unknown date": [
+        "Tuntematon päivämäärä"
       ]
     },
     "Info on errors": {
@@ -5106,6 +5112,10 @@
       ],
       "Up to 3 TB of storage": [
         "Jopa 3 Gt tallennustilaa"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalenteri",
+        "${ maximumNumberOfCalendars } kalenteria"
       ]
     },
     "new_plans: feature info": {
@@ -5385,6 +5395,15 @@
       ],
       "Set up your organization": [
         "Määritä organisaatiosi"
+      ],
+      "Pick a theme": [
+        "Valitse teema"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Vasemman yläkulman sovellusvalitsimesta pääset kaikkiin ${ BRAND_NAME } -palveluihin: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } ja ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Voit muuttaa teemaasi milloin tahansa asetuksista."
       ]
     },
     "Onboarding Title": {
@@ -6805,6 +6824,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ilmainen kokeilusi päättyy ${ textDate }. ${ action }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Valittu väri:"
       ]
     }
   }

@@ -745,6 +745,12 @@
       ],
       "Zoom out": [
         "Verkleinern"
+      ],
+      "Give feedback": [
+        "Feedback geben"
+      ],
+      "Loading link": [
+        "Link wird geladen"
       ]
     },
     "Actions message": {
@@ -2013,6 +2019,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du wurdest zu ${ eventTitle } eingeladen\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Ein Eintrag aus der Terminserie von ${ eventTitle } wurde abgesagt."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2375,6 +2384,15 @@
       ],
       "Your import will not be processed.": [
         "Dein Import wird nicht verarbeitet."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } wurde aktualisiert. Bitte lade die Seite neu."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Fehler beim Aktivieren der Inhaltssuche. Bitte starte die Anwendung neu oder leere den Cache."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Das Hochladen von Fotos ist vorübergehend deaktiviert. Bitte versuche es später erneut."
       ]
     },
     "Error importing calendar": {
@@ -4389,6 +4407,12 @@
       ],
       "Your previous recovery phrase": [
         "Deine bisherige Wiederherstellungsphrase"
+      ],
+      "Coming soon": [
+        "Demnächst verfügbar"
+      ],
+      "Unknown date": [
+        "Unbekanntes Datum"
       ]
     },
     "Info on errors": {
@@ -5106,6 +5130,10 @@
       ],
       "Up to 3 TB of storage": [
         "Bis zu 3 TB Speicherplatz"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } Kalender",
+        "${ maximumNumberOfCalendars } Kalender"
       ]
     },
     "new_plans: feature info": {
@@ -5385,6 +5413,15 @@
       ],
       "Set up your organization": [
         "Organisation einrichten"
+      ],
+      "Pick a theme": [
+        "Wähle ein Theme"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Verwende die App-Auswahl oben links, um auf alle ${ BRAND_NAME }-Dienste zuzugreifen: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } und ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Du kannst dein Farbschema jederzeit in den Einstellungen ändern."
       ]
     },
     "Onboarding Title": {
@@ -5624,6 +5661,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kannst jetzt dein Passwort für das Konto ${ boldEmail } für ${ boldDaysRemaining } frei ändern."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Antrag auf Passwortzurücksetzung genehmigt (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Diese Berechtigung läuft bald aus"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Du kannst jetzt dein Passwort für das Konto ${ boldEmail } ändern."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du hast ${ timeRemaining.inDays } Tag um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inDays } Tage um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du hast ${ timeRemaining.inHours } Stunde um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inHours } Stunden um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du hast ${ timeRemaining.inMinutes } Minute um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inMinutes } Minuten um dein Passwort zurücksetzen."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du hast ${ timeRemaining.inSeconds } Sekunde um dein Passwort zurücksetzen.",
+        "Du hast ${ timeRemaining.inSeconds } Sekunden um dein Passwort zurücksetzen."
       ]
     },
     "session_recovery:available:link": {
@@ -6805,6 +6867,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Deine kostenlose Testversion endet am ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } Desktopanwendung"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Ausgewählte Farbe:"
       ]
     }
   }

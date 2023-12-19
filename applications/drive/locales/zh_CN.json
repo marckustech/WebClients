@@ -831,6 +831,12 @@
       ],
       "Premium ${ VPN_SHORT_APP_NAME }": [
         "高级 ${ VPN_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
+      ],
+      "Premium Password Manager": [
+        "高级密码管理器"
       ]
     },
     "bf2023: Footer": {
@@ -2615,6 +2621,9 @@
       ],
       "Up to 6 users": [
         "多达 6 位用户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
       ]
     },
     "familyOffer_2023:Family plan": {
@@ -2736,6 +2745,9 @@
       ],
       "MB": [
         "MB"
+      ],
+      "TB": [
+        "TB"
       ]
     },
     "file size format, long": {
@@ -3658,7 +3670,7 @@
         "网络问题"
       ],
       "New": [
-        "新建"
+        "新"
       ],
       "No": [
         "否"
@@ -4202,6 +4214,12 @@
       ],
       "Your previous recovery phrase": [
         "您先前的恢复密语"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "App Store 上的${ DRIVE_APP_NAME }"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "Play Store 上的${ DRIVE_APP_NAME }"
       ]
     },
     "Info on errors": {
@@ -4908,6 +4926,12 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } 个日历"
+      ],
+      "Custom snooze time": [
+        "自由调整免打扰时间"
       ]
     },
     "new_plans: feature info": {
@@ -4922,6 +4946,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "在邮箱地址中使用您自己的域名（如 you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "设置免打扰，自由决定何时接收通知"
       ]
     },
     "new_plans: label": {
@@ -5165,6 +5192,9 @@
       ],
       "Set up your organization": [
         "填写机构信息"
+      ],
+      "Pick a theme": [
+        "选择主题"
       ]
     },
     "Onboarding Title": {
@@ -5812,6 +5842,9 @@
     "summer2023: Deal details": {
       "Premium ${ MAIL_SHORT_APP_NAME } & ${ CALENDAR_SHORT_APP_NAME }": [
         "高级 ${ MAIL_SHORT_APP_NAME } 与 ${ CALENDAR_SHORT_APP_NAME } 账户"
+      ],
+      "Premium ${ DRIVE_SHORT_APP_NAME }": [
+        "高级 ${ DRIVE_SHORT_APP_NAME } 账户"
       ]
     },
     "summer2023: Tooltip": {
@@ -6538,6 +6571,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "您的免费体验期将于 ${ textDate } 结束。${ action }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "所选颜色"
       ]
     }
   }

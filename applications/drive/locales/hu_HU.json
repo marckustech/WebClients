@@ -745,6 +745,9 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Loading link": [
+        "Link betöltése"
       ]
     },
     "Actions message": {
@@ -4257,6 +4260,22 @@
       ],
       "Your previous recovery phrase": [
         "A korábbi helyreállító jelmondata"
+      ],
+      "${ DRIVE_APP_NAME } on App Store": [
+        "${ DRIVE_APP_NAME } az App Store-ban"
+      ],
+      "${ DRIVE_APP_NAME } on Play Store": [
+        "${ DRIVE_APP_NAME } a Play Áruházban"
+      ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } kijelölve",
+        "${ selectedCount } kijelölve"
+      ],
+      "Coming soon": [
+        "Hamarosan"
+      ],
+      "Trash is empty": [
+        "A lomtár üres"
       ]
     },
     "Info on errors": {
@@ -4971,6 +4990,10 @@
       ],
       "Up to 3 TB of storage": [
         "Akár 3 TB tárhely"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } naptár",
+        "${ maximumNumberOfCalendars } naptár"
       ]
     },
     "new_plans: feature info": {
@@ -6660,6 +6683,12 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Az ingyenes próbaideje hamarosan le fog járni ekkor: ${ textDate }. ${ action }"
+      ]
+    },
+    "Failed": {
+      "${ countOfFailedLinks } failed": [
+        "${ countOfFailedLinks } sikertelen",
+        "${ countOfFailedLinks } sikertelen"
       ]
     }
   }

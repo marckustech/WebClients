@@ -753,6 +753,12 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Give feedback": [
+        "Dajte nám spätnú väzbu"
+      ],
+      "Loading link": [
+        "Načítanie odkazu"
       ]
     },
     "Actions message": {
@@ -2031,6 +2037,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Ste pozvaní na ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Tento výskyt ${ eventTitle } bol zrušený."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2407,6 +2416,15 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude spracovaný."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } bol aktualizovaný. Obnovte stránku, prosím."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Vyhľadávanie obsahu nie je možné povoliť. Reštartujte aplikáciu alebo vymažte údaje."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Nahrávanie fotografií je dočasne nedostupné. Skúste to znova, prosím."
       ]
     },
     "Error importing calendar": {
@@ -3678,7 +3696,7 @@
         "Sem presuňte súbor na nahranie"
       ],
       "Drop files here": [
-        "Presuňte súbory sem"
+        "Presuňte sem súbory"
       ],
       "Drop to import": [
         "Presuňte na import"
@@ -3750,7 +3768,7 @@
         "Nepodarilo sa otvoriť bezpečný odkaz. Dôvod: ${ error }"
       ],
       "File \"${ name }\" was deleted during download": [
-        "Súbor „${ name }“ bol zmazaný počas sťahovania"
+        "Súbor „${ name }“ bol vymazaný počas sťahovania"
       ],
       "File is missing signature. We couldn’t verify that ${ emailAddress } uploaded ${ fileName }.": [
         "Súboru chýba podpis. Nemohli sme overiť, či ${ emailAddress } nahral ${ fileName }."
@@ -4125,10 +4143,10 @@
         "Súbory obnovené ${ formattedDate }"
       ],
       "Restoring Photos... Please keep the tab open": [
-        "Obnovovanie fotografií... Ponechajte prosím záložku otvorenú"
+        "Obnovovanie fotografií... Ponechajte prosím kartu otvorenú"
       ],
       "Search cannot be enabled in this browser": [
-        "Vyhľadávanie nemôže byť spustené v tomto prehliadači"
+        "V tomto prehliadači nie je možné povoliť vyhľadávanie"
       ],
       "Search Enabled": [
         "Vyhľadávanie povolené"
@@ -4215,7 +4233,7 @@
         "Pred exportom kontaktov musí aplikácia kontakty lokálne dešifrovať. Na konci procesu bude vygenerovaný súbor VCF, ktorý si budete môcť stiahnuť."
       ],
       "The download count includes both actual downloads and instances when files are previewed.": [
-        "Počet sťahovaní zahŕňa stiahnutia aj zobrazenia v náhľade."
+        "Počet stiahnutí zahŕňa skutočné stiahnutia aj prípady, keď sú súbory zobrazené v náhľade."
       ],
       "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
         "Šifrované údaje sú o trochu väčšie kvôli réžii šifrovania a podpisov, čo zaručuje bezpečnosť vašich údajov."
@@ -4323,16 +4341,16 @@
         "Celkom VPN pripojení"
       ],
       "Transfer canceled for file \"${ name }\"": [
-        "Prenos zrušený pre súbor „${ name }“"
+        "Prenos súboru „${ name }“ zrušený"
       ],
       "Transfer canceled for folder \"${ name }\"": [
-        "Prenos priečinka „${ name }“ zrušený"
+        "Prenos priečinku „${ name }“ zrušený"
       ],
       "Transfer skipped for file \"${ file.name }\"": [
-        "Prenos vynechaný pre súbor „${ file.name }“"
+        "Prenos súboru „${ file.name }“ vynechaný"
       ],
       "Transfer skipped for folder \"${ folderName }\"": [
-        "Prenos vynechaný pre priečinok „${ folderName }“"
+        "Prenos priečinku „${ folderName }“ vynechaný"
       ],
       "Trash": [
         "Kôš"
@@ -4509,7 +4527,7 @@
         "Váš email bude použitý iba pre toto jednorazové overenie."
       ],
       "Your files are no longer accessible due to a password reset. Re-upload the old encryption key to regain the access. ${ KeyReactivationButton }": [
-        "Vaše súbory už nie sú prístupné z dôvodu resetovania hesla. Pre obnovenie prístupu znovu nahrajte starý šifrovací kľúč. ${ KeyReactivationButton }"
+        "Vaše súbory už nie sú prístupné z dôvodu resetovania hesla. Pre opätovné obnovenie prístupu znovu nahrajte starý šifrovací kľúč. ${ KeyReactivationButton }"
       ],
       "Your files will be encrypted and then saved": [
         "Vaše súbory budú zašifrované a potom uložené"
@@ -4531,6 +4549,12 @@
       ],
       "Your previous recovery phrase": [
         "Vaša predchádzajúca obnovovacia fráza"
+      ],
+      "Coming soon": [
+        "Už čoskoro"
+      ],
+      "Unknown date": [
+        "Neznámy dátum"
       ]
     },
     "Info on errors": {
@@ -5264,6 +5288,12 @@
       ],
       "Up to 3 TB of storage": [
         "Až do 3 TB úložiska"
+      ],
+      "${ maximumNumberOfCalendars } calendar": [
+        "${ maximumNumberOfCalendars } kalendár",
+        "${ maximumNumberOfCalendars } kalendáre",
+        "${ maximumNumberOfCalendars } kalendárov",
+        "${ maximumNumberOfCalendars } kalendárov"
       ]
     },
     "new_plans: feature info": {
@@ -5274,7 +5304,7 @@
         "Získajte neobmedzené množstvo aliasov so službou SimpleLogin od ${ BRAND_NAME }"
       ],
       "Snooze messages and get reminded when you want": [
-        "Odložte správy a pripomeňte si ich, keď chcete"
+        "Odložte správy a pripomeňte si ich, kedy chcete"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "Úložný priestor zdieľajú ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } a ${ DRIVE_APP_NAME }"
@@ -5581,6 +5611,15 @@
       ],
       "Set up your organization": [
         "Nastavenie organizácie"
+      ],
+      "Pick a theme": [
+        "Vyberte si tému"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Výberom aplikácie v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Tému môžete kedykoľvek zmeniť v nastaveniach."
       ]
     },
     "Onboarding Title": {
@@ -5838,6 +5877,33 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Heslo pre účet ${ boldEmail } si teraz môžete ľubovoľne zmeniť po dobu ${ boldDaysRemaining }."
+      ],
+      "This permission expires soon": [
+        "Platnosť tohto povolenia čoskoro uplynie"
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } deň.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dni.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dní.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dní."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodinu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodiny.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodín.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodín."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minútu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minúty.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minút.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minút."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekundu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekundy.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd."
       ]
     },
     "session_recovery:available:link": {
@@ -7083,6 +7149,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } desktopová aplikácia"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Vybraná farba:"
       ]
     }
   }

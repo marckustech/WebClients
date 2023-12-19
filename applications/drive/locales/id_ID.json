@@ -741,6 +741,12 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Give feedback": [
+        "Beri tanggapan"
+      ],
+      "Loading link": [
+        "Memuat tautan"
       ]
     },
     "Actions message": {
@@ -2004,6 +2010,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Anda diundang ke ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Acara ${ eventTitle } ini telah dibatalkan."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2359,6 +2368,15 @@
       ],
       "Your import will not be processed.": [
         "Impor Anda tidak akan diproses."
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } telah diperbarui. Silakan muat ulang halaman."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Pencarian konten tidak dapat diaktifkan. Silakan mulai ulang aplikasi atau hapus data."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Unggahan foto untuk sementara dinonaktifkan. Silakan coba lagi nanti"
       ]
     },
     "Error importing calendar": {
@@ -3894,7 +3912,7 @@
         "browser yang disarankan"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "Informasi pemulihan akan tetap terdapat pada perangkat ini kecuali Anda memilih untuk menghapusnya."
+        "Informasi pemulihan akan tetap tersimpan pada perangkat ini kecuali Anda memilih untuk menghapusnya."
       ],
       "Recovery process might take some time.": [
         "Proses pemulihan dapat memakan waktu sejenak."
@@ -4299,7 +4317,7 @@
         "Berkas Anda tidak lagi dapat diakses karena kata sandi yang ada telah diatur ulang. Unggah kembali kunci enkripsi lama untuk dapat kembali mengakses berkas Anda. ${ KeyReactivationButton }"
       ],
       "Your files will be encrypted and then saved": [
-        "Berkas Anda akan dienkripsi lalu disimpan"
+        "Berkas Anda akan dienkripsi dan kemudian disimpan"
       ],
       "Your files will be encrypted and then saved.": [
         "Berkas Anda akan dienkripsi dan kemudian disimpan."
@@ -4318,6 +4336,12 @@
       ],
       "Your previous recovery phrase": [
         "Frasa pemulihan Anda sebelumnya"
+      ],
+      "Coming soon": [
+        "Segera hadir"
+      ],
+      "Unknown date": [
+        "Tanggal tidak diketahui"
       ]
     },
     "Info on errors": {
@@ -4790,7 +4814,7 @@
         "Bilah Alat"
       ],
       "Type": [
-        "Tipe"
+        "Jenis"
       ],
       "Unknown file": [
         "Berkas yang tidak diketahui"
@@ -5027,6 +5051,9 @@
       ],
       "Up to 3 TB of storage": [
         "Kuota penyimpanan hingga 3 TB"
+      ],
+      "${ maximumNumberOfCalendars } calendars": [
+        "${ maximumNumberOfCalendars } kalender"
       ]
     },
     "new_plans: feature info": {
@@ -5293,6 +5320,9 @@
       ],
       "You will be able to change your theme any time in your settings.": [
         "Anda akan dapat mengubah tema Anda kapan pun pada menu pengaturan."
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "Gunakan pemilih aplikasi di kiri atas untuk mengakses layanan ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } dan ${ PASS_SHORT_APP_NAME }."
       ]
     },
     "Onboarding Title": {
@@ -5523,6 +5553,27 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Anda kini dapat mengubah kata sandi untuk akun ${ boldEmail } secara bebas selama ${ boldDaysRemaining }."
+      ],
+      " You have ${ timeRemaining.inHours } hours to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inHours } jam tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      " You have ${ timeRemaining.inMinutes } minutes to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inMinutes } menit tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      " You have ${ timeRemaining.inSeconds } seconds to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inSeconds } tersisa untuk mengatur ulang kata sandi Anda."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Permintaan pengaturan ulang kata sandi disetujui (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Izin ini akan segera kedaluwarsa"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Anda kini dapat mengubah kata sandi Anda untuk akun ${ boldEmail }"
+      ],
+      "You have ${ timeRemaining.inDays } days to reset your password.": [
+        "Anda memiliki ${ timeRemaining.inDays } hari tersisa untuk mengatur ulang kata sandi Anda."
       ]
     },
     "session_recovery:available:link": {
@@ -6669,6 +6720,16 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Masa uji coba gratis Anda akan berakhir pada ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplikasi Desktop ${ MAIL_APP_NAME }"
+      ]
+    },
+    "info": {
+      "Selected color:": [
+        "Warna terpilih:"
       ]
     }
   }

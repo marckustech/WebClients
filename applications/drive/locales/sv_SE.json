@@ -748,6 +748,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Give feedback": [
+        "Ge feedback"
       ]
     },
     "Actions message": {
@@ -2016,6 +2019,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du är inbjuden till ${ eventTitle } ${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Denna förekomst av ${ eventTitle } har avbrutits."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2378,6 +2384,21 @@
       ],
       "Your import will not be processed.": [
         "Din import kommer inte att bearbetas."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } kan inte ansluta till ditt externa konto"
+      ],
+      "${ DRIVE_APP_NAME } has updated. Please refresh the page.": [
+        "${ DRIVE_APP_NAME } har uppdaterats. Uppdatera sidan."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Innehållssökning kan inte aktiveras. Starta om applikationen eller rensa data."
+      ],
+      "Photos upload is temporarily disabled. Please try again later": [
+        "Fotouppladdning är tillfälligt inaktiverad. Försök igen senare"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Oväntat fel, vi kan inte importera kontakterna"
       ]
     },
     "Error importing calendar": {
@@ -4395,6 +4416,9 @@
       ],
       "Your previous recovery phrase": [
         "Din föregående återställningsfras"
+      ],
+      "Coming soon": [
+        "Kommer snart"
       ]
     },
     "info": {
@@ -5648,6 +5672,31 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kan nu ändra ditt lösenord för kontot ${ boldEmail } fritt i ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Begäran om lösenordsåterställning godkänd (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Denna tillåtelse löper snart ut"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Du kan nu ändra ditt lösenord för kontot ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag på dig att återställa ditt lösenord.",
+        "Du har ${ timeRemaining.inDays } dagar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } timme på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inHours } timmar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minut på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inMinutes } minuter på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inSeconds } sekunder på dig att återställa ditt lösenord."
       ]
     },
     "session_recovery:available:link": {
@@ -6829,6 +6878,11 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Din gratis provperiod slutar den ${ textDate }. ${ action }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applikation för stationär dator ${ MAIL_APP_NAME }"
       ]
     }
   }

@@ -647,6 +647,9 @@
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov"
+      ],
+      "Give feedback": [
+        "Dajte nám spätnú väzbu"
       ]
     },
     "Action subline": {
@@ -2785,6 +2788,9 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude spracovaný."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Vyhľadávanie obsahu nie je možné povoliť. Reštartujte aplikáciu alebo vymažte údaje."
       ]
     },
     "Error accepting calendar invitation": {
@@ -6005,6 +6011,33 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Heslo pre účet ${ boldEmail } si teraz môžete ľubovoľne zmeniť po dobu ${ boldDaysRemaining }."
+      ],
+      "This permission expires soon": [
+        "Platnosť tohto povolenia čoskoro uplynie"
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } deň.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dni.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dní.",
+        "Na obnovu vášho hesla máte ${ timeRemaining.inDays } dní."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodinu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodiny.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodín.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inHours } hodín."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minútu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minúty.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minút.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inMinutes } minút."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekundu.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekundy.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd.",
+        " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd."
       ]
     },
     "session_recovery:available:link": {
@@ -7625,6 +7658,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } desktopová aplikácia"
       ]
     }
   }

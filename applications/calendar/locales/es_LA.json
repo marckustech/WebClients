@@ -876,6 +876,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Almacene hasta 200 versiones de cada archivo durante 10 años como máximo."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Incluye soporte para ${ domains } dominio de correo electrónico personalizado, ${ addresses } dirección de correo, alias ilimitados de hide-my-email, compartir calendario y más.",
+        "Incluye soporte para ${ domains } dominios de correo electrónico personalizado, ${ addresses } direcciones de correo, alias ilimitados de hide-my-email, compartir calendario y más."
       ]
     },
     "Bug category": {
@@ -1143,7 +1147,7 @@
     },
     "Collapsible tooltip": {
       "Collapse": [
-        "Contraer"
+        "Minimizar"
       ],
       "Expand": [
         "Expandir"
@@ -2733,6 +2737,12 @@
       ],
       "Content search cannot be enabled. Please restart the application or clear data.": [
         "No se puede activar la búsqueda de contenido. Reinicie la app o borre los datos."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } no se puede conectar a su cuenta externa"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Error inesperado, no podemos importar los contactos"
       ]
     },
     "Error accepting calendar invitation": {
@@ -7315,6 +7325,33 @@
     "Browser": {
       "${ MAIL_APP_NAME } Desktop application": [
         "Aplicación de escritorio de ${ MAIL_APP_NAME }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Funciones de pago de ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } y ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Incluye historial de versiones en ${ DRIVE_SHORT_APP_NAME }, acceso a miles de servidores ${ VPN_SHORT_APP_NAME } de gran velocidad, compartir en ${ PASS_SHORT_APP_NAME } y más."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 usuarios"
+      ],
+      "Early access to new apps and features": [
+        "Acceso anticipado a funciones y apps nuevas"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Acceso anticipado a la app de escritorio de ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Funciones de pago de ${ MAIL_SHORT_APP_NAME } y ${ CALENDAR_APP_NAME }"
       ]
     }
   }

@@ -639,6 +639,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No podeu enviar fitxers vCard de més d'${ maxAttachments } contacte.",
         "No podeu enviar fitxers vCard de més de ${ maxAttachments } contactes."
+      ],
+      "Give feedback": [
+        "Feu-nos comentaris"
       ]
     },
     "Action subline": {
@@ -821,6 +824,9 @@
       ],
       "Premium Password Manager": [
         "Gestor de contrasenyes prèmium"
+      ],
+      "Access content worldwide": [
+        "Accediu al contingut a tot el món"
       ]
     },
     "bf2023: Footer": {
@@ -858,6 +864,18 @@
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
         "Eviteu els bloquejos i la censura locals a Internet amb la nostra xarxa global de servidors."
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "Accediu al contingut bloquejat i navegueu de forma privada. Inclou més de 3.000 servidors en més de 65 països, velocitats de VPN més altes, accés a serveis de transmissió en línia a tot el món, bloqueig de programari maliciós i d'anuncis, descàrregues ràpides de BitTorrent, etc."
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "Inicis de sessió segurs en tots els vostres dispositius. Inclou àlies il·limitats, compartició, A2F integrada, etc."
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Assegureu els vostres correus electrònics i planifiqueu amb xifratge d'extrem a extrem. Inclou suport per a dominis de correu personalitzats, 15 adreces de correu electrònic, àlies hide-my-email il·limitats, compartició de calendari, etc."
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "Emmagatzemeu fins a 200 versions de cada fitxer durant un màxim de 10 anys."
       ]
     },
     "Bug category": {
@@ -2201,6 +2219,9 @@
       ],
       "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
         "Augmenteu l'eficiència i feu un seguiment del vostre temps codificant amb colors els esdeveniments per categoria o segons les vostres prioritats. Obtingueu aquest servei i molt més amb un pla de pagament."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "Per importar a través de fitxers CSV i VCF, assegureu-vos que el fitxer no excedeixi ${ MAX_IMPORT_FILE_SIZE_STRING } o ${ MAX_IMPORT_CONTACTS_STRING } contactes. Si el fitxer és més gran, dividiu-lo en fitxers més petits. ${ learnMoreLink }."
       ]
     },
     "description": {
@@ -2709,6 +2730,9 @@
       ],
       "Your import will not be processed.": [
         "La vostra importació no es processarà."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "No es pot habilitar la cerca de contingut. Reinicieu l'aplicació o netegeu les dades."
       ]
     },
     "Error accepting calendar invitation": {
@@ -4334,6 +4358,9 @@
       ],
       "All participants will get a cancellation email. Which event would you like to delete?": [
         "Tots els participants rebran un correu electrònic de cancel·lació. Quin esdeveniment voldríeu eliminar?"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "El propietari d'aquesta adreça ha desactivat el xifratge d'extrem a extrem. Per a poder enviar-hi correus electrònics xifrats, el propietari ha de tornar a habilitar el xifratge d’extrem a extrem."
       ]
     },
     "info": {
@@ -5215,6 +5242,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Utilitzeu la vostra pròpia adreça de domini de correu electrònic personalitzat. Per exemple: vos@elvostrenom.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Posposeu missatges i rebeu-ne un recordatori quan vulgueu"
       ]
     },
     "new_plans: label": {
@@ -5426,6 +5456,9 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
         "Feu servir el selector d'aplicacions de dalt a l'esquerra per accedir a tots els serveis de ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "Podreu canviar el tema en qualsevol moment a les preferències."
       ]
     },
     "Option": {
@@ -5746,6 +5779,27 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Ara podeu canviar la vostra contrasenya per al compte ${ boldEmail } lliurement durant ${ boldDaysRemaining }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "S'ha aprovat la sol·licitud de restabliment de contrasenya (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Aquest permís caduca prompte"
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Ja podeu canviar la contrasenya per al compte ${ boldEmail }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Teniu ${ timeRemaining.inDays } dia per a restablir la contrasenya.",
+        "Teniu ${ timeRemaining.inDays } dies per a restablir la contrasenya."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Teniu ${ timeRemaining.inHours } hora per a restablir la contrasenya.",
+        " Teniu ${ timeRemaining.inHours } hores per a restablir la contrasenya."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Teniu ${ timeRemaining.inMinutes } minut per a restablir la contrasenya.",
+        " Teniu ${ timeRemaining.inMinutes } minuts per a restablir la contrasenya."
       ]
     },
     "session_recovery:available:link": {
@@ -7252,6 +7306,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualment, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
       ]
     }
   }

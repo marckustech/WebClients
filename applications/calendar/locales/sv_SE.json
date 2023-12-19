@@ -2733,6 +2733,12 @@
       ],
       "Content search cannot be enabled. Please restart the application or clear data.": [
         "Innehållssökning kan inte aktiveras. Starta om applikationen eller rensa data."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } kan inte ansluta till ditt externa konto"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Oväntat fel, vi kan inte importera kontakterna"
       ]
     },
     "Error accepting calendar invitation": {

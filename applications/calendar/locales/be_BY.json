@@ -892,6 +892,12 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Захоўвайце да 200 версій кожнага файла да 10 гадоў."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку для ${ domains } карыстальніцкага дамена электроннай пошты, ${ addresses } адраса электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі."
       ]
     },
     "Bug category": {
@@ -2791,6 +2797,12 @@
       ],
       "Content search cannot be enabled. Please restart the application or clear data.": [
         "Немагчыма ўключыць пошук па кантэксце. Перазапусціце праграму або ачысціце яе даныя."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } не можа падключыцца да вашага знешняга ўліковага запісу"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Нечаканая памылка. Немагчыма імпартаваць кантакты."
       ]
     },
     "Error accepting calendar invitation": {
@@ -7669,6 +7681,33 @@
     "Browser": {
       "${ MAIL_APP_NAME } Desktop application": [
         "Настольная праграма ${ MAIL_APP_NAME }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Платныя функцыі ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } і ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Уключае гісторыю версій у ${ DRIVE_SHORT_APP_NAME }, доступ да тысяч высакахуткасных сервераў ${ VPN_SHORT_APP_NAME }, абагуленне ў ${ PASS_SHORT_APP_NAME } і іншыя функцыі."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 ТБ"
+      ],
+      "6 users": [
+        "6 карыстальнікаў"
+      ],
+      "Early access to new apps and features": [
+        "Ранні доступ да новых праграм і функцый"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Ранні доступ для настольнай праграмы ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Платныя функцыі ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_APP_NAME }"
       ]
     }
   }

@@ -1182,6 +1182,9 @@
       ],
       "Zoom out": [
         "Zoom arrière"
+      ],
+      "Give feedback": [
+        "Donnez-nous votre avis"
       ]
     },
     "action": {
@@ -3662,6 +3665,9 @@
       ],
       "You've reached the maximum character number. Please shorten your message.": [
         "Vous avez atteint le nombre maximum de caractères. Vous devez raccourcir votre message."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "La recherche dans le contenu n'a pas pu être activée. Veuillez redémarrer l'application ou effacer les données."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6985,6 +6991,9 @@
       ],
       "Your password (admin)": [
         "Votre mot de passe (admin)"
+      ],
+      "From (senders in message print header)": [
+        "De (expéditeurs dans l'en-tête du message)"
       ]
     },
     "Label attach to date input to select a date": {
@@ -10009,6 +10018,21 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Application de bureau ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "De"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "À"
       ]
     }
   }

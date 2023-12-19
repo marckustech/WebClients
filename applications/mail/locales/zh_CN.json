@@ -557,7 +557,7 @@
         "管理标签"
       ],
       "Manage Snooze": [
-        "管理代办事项"
+        "管理免打扰"
       ],
       "Mark as read": [
         "标为已读"
@@ -983,7 +983,7 @@
         "跳过验证"
       ],
       "Snooze": [
-        "延后"
+        "免打扰"
       ],
       "Some images could not be loaded with tracker protection.": [
         "部分图片在跟踪防护模式下无法加载。"
@@ -1070,7 +1070,7 @@
         "无标号列表"
       ],
       "Unsnooze": [
-        "撤销待办"
+        "取消免打扰"
       ],
       "Unstar": [
         "取消星标"
@@ -4869,7 +4869,7 @@
         "背景颜色"
       ],
       "Basic navigation and actions remain available regardless of keyboard shortcuts being active or not in the settings.": [
-        "基本的导航和操作快捷键始终可以使用，不受该选项控制。"
+        "基本的导航和操作快捷键始终可以使用，不受开关控制。"
       ],
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "重新接收验证码前，请先检查垃圾邮件文件夹，并确认邮箱地址 ${ strong } 是否正确。"
@@ -5271,7 +5271,7 @@
         "设置新文件夹的名称和位置，若不选取上层文件夹，则将创建顶层文件夹。"
       ],
       "New": [
-        "新建"
+        "新"
       ],
       "No action selected": [
         "未选择操作"
@@ -6893,10 +6893,10 @@
         "免费注册"
       ],
       "Snooze": [
-        "延后"
+        "免打扰"
       ],
       "Snoozed": [
-        "已待办"
+        "已免打扰"
       ],
       "Spam": [
         "垃圾邮件"
@@ -7234,7 +7234,7 @@
         "自有域名"
       ],
       "Custom snooze time": [
-        "设置待办事件"
+        "自由调整免打扰时间"
       ],
       "Hide-my-email aliases": [
         "Hide My Email 邮箱别名"
@@ -7267,6 +7267,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "在邮箱地址中使用您自己的域名（如 you@yourname.com）"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "设置免打扰，自由决定何时接收通知"
       ]
     },
     "new_plans: label": {
@@ -7322,7 +7325,7 @@
     },
     "Onboarding modal": {
       "Block email communications from scammers permanently. ${ kbLinkSender }": [
-        "阻止骗子 ${ kbLinkSender }的邮件"
+        "彻底屏蔽来自诈骗者的邮件。${ kbLinkSender }"
       ],
       "Block unsavory senders": [
         "阻止不良发件人"
@@ -9043,10 +9046,10 @@
         "退出"
       ],
       "Snooze": [
-        "延后"
+        "免打扰"
       ],
       "Snooze message": [
-        "* 稍后提醒"
+        "邮件免打扰"
       ],
       "Sort conversations": [
         "会话排序"

@@ -6926,6 +6926,9 @@
       ],
       "Type text or keyword": [
         "Aru aḍris neɣ awal ufrin"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Placeholder for contact group name": {
@@ -7735,6 +7738,9 @@
       ],
       "vCard field": [
         "urti vCard"
+      ],
+      "Last name": [
+        "Isem n tmagit"
       ]
     },
     "Time": {

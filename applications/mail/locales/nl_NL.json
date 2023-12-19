@@ -1075,7 +1075,7 @@
         "Ongenummerde lijst"
       ],
       "Unsnooze": [
-        "Ontsluimeren"
+        "Ontdempen"
       ],
       "Unstar": [
         "Ster verwijderen"
@@ -1173,6 +1173,15 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Later this week": [
+        "Later deze week"
+      ],
+      "Manage Snooze": [
+        "Dempen beheren"
+      ],
+      "Select date and time": [
+        "Selecteer datum en tijd"
       ]
     },
     "action": {
@@ -3083,6 +3092,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "U kunt contactpersonen markeren die u niet wilt samenvoegen of behouden. Ze worden pas verwijderd na het klikken op 'samenvoegen'"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Toegang krijgen tot aangepaste demptijden als u uw abonnement upgrade"
       ]
     },
     "description": {
@@ -3127,6 +3139,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "U bent uitgenodigd voor ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Het voorvallen van ${ eventTitle } is geannuleerd."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3644,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Uw zoekopdracht leverde te veel resultaten op. Verfijn uw zoekopdracht en probeer het opnieuw."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "U heeft het maximaal aantal tekens bereikt. Maak uw bericht korter."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3858,6 +3876,15 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "U hebt nog geen contactpersonen. Start met het aanmaken van een contactpersoon"
+      ],
+      "App currently unavailable": [
+        "App momenteel niet beschikbaar"
+      ],
+      "Open in browser": [
+        "Openen in de browser"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Om ${ MAIL_APP_NAME } of ${ CALENDAR_APP_NAME } te gebruiken, wissel naar de webversie."
       ]
     },
     "Error notification": {
@@ -6201,6 +6228,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "Include Spam/Trash.": [
+        "Includeer Spam/Prullenbak"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Gedempt tot ${ dateString } om ${ formattedTime }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "Gedempt tot vandaag, ${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "Gedempt tot morgen, ${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "Dit gesprek dempen wordt geannuleerd"
+      ],
+      "The owner of this address has disabled end-to-end encryption. To be able to send encrypted emails to this address, the owner must re-enable end-to-end encryption.": [
+        "De eigenaar van dit adres heeft end-to-end versleuteling uitgeschakeld. Om versleutelde berichten naar dit adres te sturen moet de eigenaar end-to-end versleuteling weer inschakelen."
+      ],
+      "This file is too large to preview": [
+        "Dit bestand is te groot om het te kunnen tonen"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "Upgrade naar ${ MAIL_APP_NAME } Plus om te ontgrendelen"
       ]
     },
     "info": {
@@ -7486,6 +7537,9 @@
       ],
       "Up to 3 TB of storage": [
         "Tot wel 3 TB opslag"
+      ],
+      "Custom snooze time": [
+        "Aangepaste demptijd"
       ]
     },
     "new_plans: feature info": {
@@ -7500,6 +7554,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "Gebruik uw eigen e-mailadressen met een aangepast domein, zoals u@uwnaam.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "Berichten dempen en ontvangen wanneer u wilt"
       ]
     },
     "new_plans: label": {
@@ -8467,6 +8524,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "U kunt nu uw berichten plannen om ze later te versturen"
+      ],
+      "Set when an email should reappear in your inbox with the new snooze feature.": [
+        "Stel in wanneer een e-mail weer moet verschijnen in uw inbox met de nieuwe dempfunctie."
+      ],
+      "Snooze it for later": [
+        "Dempen voor later"
       ]
     },
     "Status": {
@@ -8748,6 +8811,10 @@
       ],
       "Verification successful": [
         "Verificatie gelukt"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } gesprek gedempt",
+        "${ elementsCount } gesprekken gedempt"
       ]
     },
     "Success notification": {
@@ -9436,6 +9503,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uw Mail Plus proefversie eindigt op ${ textDate }"
+      ],
+      "Moving a snoozed message": [
+        "Een gedempt bericht verplaatsen"
+      ],
+      "Send with encryption disabled?": [
+        "Met versleuteling versturen uitgeschakeld?"
+      ],
+      "Snooze message": [
+        "Bericht dempen"
+      ],
+      "Want to snooze any time?": [
+        "Voor enige tijd dempen?"
       ]
     },
     "Today icon tooltip in mini calendar": {

@@ -8475,6 +8475,9 @@
       ],
       "Support online privacy": [
         "Обеспечьте свою конфиденциальность в Интернете"
+      ],
+      "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }": [
+        "Premium ${ MAIL_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME } & ${ DRIVE_SHORT_APP_NAME }"
       ]
     },
     "specialoffer: Footer": {

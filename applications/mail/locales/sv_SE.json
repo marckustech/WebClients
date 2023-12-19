@@ -1182,6 +1182,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Give feedback": [
+        "Ge feedback"
       ]
     },
     "action": {
@@ -1427,6 +1430,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Lagra upp till 200 versioner av varje fil i upp till 10 år."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Inkluderar stöd för ${ domains } anpassad e-postdomän, ${ addresses } e-postadress, obegränsat antal hide-my-email-alias, kalenderdelning och mer.",
+        "Inkluderar stöd för ${ domains } anpassade e-postdomäner, ${ addresses } e-postadresser, obegränsat antal hide-my-email-alias, kalenderdelning och mer."
       ]
     },
     "Bug category": {
@@ -3662,6 +3669,15 @@
       ],
       "You've reached the maximum character number. Please shorten your message.": [
         "Du har nått det maximala antalet tecken. Förkorta ditt meddelande."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } kan inte ansluta till ditt externa konto"
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Innehållssökning kan inte aktiveras. Starta om applikationen eller rensa data."
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Oväntat fel, vi kan inte importera kontakterna"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8149,6 +8165,28 @@
       ],
       "You can now change your password for the account ${ boldEmail }.": [
         "Du kan nu ändra ditt lösenord för kontot ${ boldEmail }."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Begäran om lösenordsåterställning godkänd (${ user.Email })."
+      ],
+      "This permission expires soon": [
+        "Denna tillåtelse löper snart ut"
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag på dig att återställa ditt lösenord.",
+        "Du har ${ timeRemaining.inDays } dagar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } timme på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inHours } timmar på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minut på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inMinutes } minuter på dig att återställa ditt lösenord."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund på dig att återställa ditt lösenord.",
+        " Du har ${ timeRemaining.inSeconds } sekunder på dig att återställa ditt lösenord."
       ]
     },
     "session_recovery:available:link": {
@@ -9987,6 +10025,40 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Applikation för stationär dator ${ MAIL_APP_NAME }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Betalda funktioner för ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } och ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 användare"
+      ],
+      "Early access to new apps and features": [
+        "Förhandstillgång till nya appar och funktioner"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Betalda funktioner för ${ MAIL_SHORT_APP_NAME } och ${ CALENDAR_APP_NAME }"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "Från"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "Till"
       ]
     }
   }

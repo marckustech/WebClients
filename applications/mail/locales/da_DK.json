@@ -1144,7 +1144,7 @@
         "Vis kontaktoplysninger"
       ],
       "View headers": [
-        "Vis overskrifter"
+        "Vis headeroplysninger"
       ],
       "View HTML": [
         "Se HTML"
@@ -3139,6 +3139,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er inviteret til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This occurrence of ${ eventTitle } has been canceled.": [
+        "Denne forekomst af ${ eventTitle } er blevet annulleret."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3656,6 +3659,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din søgning gav for mange resultater. Begræns din søgning, og forsøg igen."
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Du har nået det maksimale antal tegn. Forkort din besked."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8137,6 +8143,22 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Du kan nu frit ændre din adgangskode til kontoen ${ boldEmail } i ${ boldDaysRemaining }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Du har ${ timeRemaining.inDays } dag til at nulstille dit kodeord.",
+        "Du har ${ timeRemaining.inDays } dage til at nulstille dit kodeord."
+      ],
+      "You have ${ timeRemaining.inHours } hour to reset your password.": [
+        "Du har ${ timeRemaining.inHours } time til at nulstille dit kodeord.",
+        " Du har ${ timeRemaining.inHours } timer til at nulstille dit kodeord."
+      ],
+      "You have ${ timeRemaining.inMinutes } minute to reset your password.": [
+        "Du har ${ timeRemaining.inMinutes } minut til at nulstille dit kodeord.",
+        " Du har ${ timeRemaining.inMinutes } minutter til at nulstille dit kodeord."
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "Du har ${ timeRemaining.inSeconds } sekund til at nulstille dit kodeord.",
+        " Du har ${ timeRemaining.inSeconds } sekunder til at nulstille dit kodeord."
       ]
     },
     "session_recovery:available:link": {

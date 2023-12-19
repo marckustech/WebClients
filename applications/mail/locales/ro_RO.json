@@ -1188,6 +1188,9 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Give feedback": [
+        "Oferiți feedback"
       ]
     },
     "action": {
@@ -3691,6 +3694,9 @@
       ],
       "You've reached the maximum character number. Please shorten your message.": [
         "Ați atins numărul maxim de caractere. Scurtați mesajul."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Căutarea în conținut nu poate fi activată. Reporniți aplicația sau ștergeți datele."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -7100,6 +7106,9 @@
       ],
       "Your password (admin)": [
         "Parola dvs. (administrator)"
+      ],
+      "From (senders in message print header)": [
+        "De la (expeditori în antetul de tipărire a mesajului)"
       ]
     },
     "Label attach to date input to select a date": {
@@ -10239,6 +10248,21 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "Aplicați ${ MAIL_APP_NAME } Desktop"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "De la"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "La"
       ]
     }
   }

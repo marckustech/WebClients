@@ -8146,6 +8146,9 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Agora você pode alterar a senha da conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Agora você pode alterar a senha da conta ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {
@@ -9984,6 +9987,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "De"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "Para"
       ]
     }
   }

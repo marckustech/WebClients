@@ -514,6 +514,15 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Copy key to the clipboard": [
+        "Копирование ключа в буфер обмена"
+      ],
+      "Get in touch": [
+        "Связаться с нами"
+      ],
+      "Get more": [
+        "Get more"
       ]
     },
     "Action subscription": {
@@ -2464,6 +2473,9 @@
       ],
       "Your two-factor authentication key is ready to use.": [
         "Ваш ключ двухфакторной аутентификации готов к использованию."
+      ],
+      "Allow platform keys": [
+        "Разрешить платформенные ключи"
       ]
     },
     "fido2: Label": {
@@ -2648,6 +2660,9 @@
       ],
       "Status": [
         "Состояние"
+      ],
+      "Server load": [
+        "Нагрузка сервера"
       ]
     },
     "Header for addresses table": {
@@ -3791,6 +3806,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша подписка находится под управлением Mozilla. Пожалуйста, свяжитесь со службой поддержки Mozilla."
+      ],
+      "Setting up your organization": [
+        "Настройка вашей организации"
       ]
     },
     "Info for cash payment method": {
@@ -4310,6 +4328,9 @@
       ],
       "${ VPN_APP_NAME } product updates": [
         "Обновления продукта от ${ VPN_APP_NAME }"
+      ],
+      "${ BRAND_NAME } important announcements": [
+        "Важные оповещения ${ BRAND_NAME }"
       ]
     },
     "Label on payment method": {
@@ -4406,6 +4427,12 @@
       ],
       "What’s this?": [
         "Что это такое?"
+      ],
+      "Add gift code": [
+        "Добавить подарочный код"
+      ],
+      "Paypal without credit card": [
+        "Paypal без кредитной карты"
       ]
     },
     "Live Chat Modal": {
@@ -4941,6 +4968,12 @@
         "Совместное использование хранилища (до ${ n } человек)",
         "Совместное использование хранилища (до ${ n } человек)",
         "Совместное использование хранилища (до ${ n } человек)"
+      ],
+      "Servers in ${ vpnServersCountData.paid.countries }+ country": [
+        "Серверы в более чем в ${ vpnServersCountData.paid.countries } стране",
+        "Серверы в более чем в ${ vpnServersCountData.paid.countries } странах",
+        "Серверы в более чем в ${ vpnServersCountData.paid.countries } странах",
+        "Серверы в более чем в ${ vpnServersCountData.paid.countries } странах"
       ]
     },
     "new_plans: feature info": {
@@ -5034,6 +5067,9 @@
       ],
       "You’re enjoying a promotional price on your current plan. If you downgrade your account, you will lose your promotional price and it won’t be available if you try to subscribe again.": [
         "Вы пользуетесь акционной ценой на свой текущий тариф. Если вы перейдете на более дешевую версию аккаунта, то потеряете возмоножность пользоваться акционной ценой, которая также будет недоступна, если вы попробуете повторно подписаться на тариф."
+      ],
+      "Early access to new apps and features": [
+        "Early access to new apps and features"
       ]
     },
     "new_plans: Info": {
@@ -5322,6 +5358,9 @@
       ],
       "Private gateways": [
         "Частные шлюзы"
+      ],
+      "Require 2FA": [
+        "Требуется двухфакторная аутентификация"
       ]
     },
     "Notification": {
@@ -5661,6 +5700,9 @@
       ],
       "Due to a password change, your organization administrator privileges have been restricted. The following actions are no longer permitted:": [
         "По причине смены пароля ваши полномочия администратора организации были ограничены. Указанные действия более не разрешены:"
+      ],
+      "Creating or accessing non-private users": [
+        "Создание или доступ к неприватным пользователям"
       ]
     },
     "Role": {
@@ -5669,6 +5711,9 @@
       ],
       "User": [
         "Пользователь"
+      ],
+      "Primary admin": [
+        "Основной администратор"
       ]
     },
     "Select file": {
@@ -5736,6 +5781,12 @@
       ],
       "You can now reset your password": [
         "Теперь вы можете сбросить свой пароль"
+      ],
+      "Didn’t make this request?": [
+        "Вы не делали этот запрос?"
+      ],
+      "You can reset your password until ${ boldDate }.": [
+        "Вы можете сбросить свой пароль до ${ boldDate }."
       ]
     },
     "session_recovery:available:link": {
@@ -5798,6 +5849,18 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "Мы получили запрос на сброс пароля для ${ boldEmail }."
+      ],
+      "Didn’t make this request?": [
+        "Вы не делали этот запрос?"
+      ],
+      "Password reset available from ${ boldDate }. This gives you time to cancel any fraudulent requests.": [
+        "Сброс пароля доступен с ${ boldDate }. Это даст вам время отменить все мошеннические запросы."
+      ],
+      "You can change your password in ${ gracePeriodHoursRemaining } hour": [
+        "Вы можете изменить свой пароль через ${ gracePeriodHoursRemaining } час",
+        "Вы можете изменить свой пароль через ${ gracePeriodHoursRemaining } часа",
+        "Вы можете изменить свой пароль через ${ gracePeriodHoursRemaining } часа",
+        "Вы можете изменить свой пароль через ${ gracePeriodHoursRemaining } часов"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -5813,11 +5876,23 @@
     "session_recovery:initiation:action": {
       "Got it": [
         "Применить"
+      ],
+      "Request password reset": [
+        "Запросить сброс пароля"
+      ],
+      "Use recovery method": [
+        "Использовать метод восстановления"
       ]
     },
     "session_recovery:initiation:info": {
       "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
         "Проверить статус запроса можно в любой момент в разделе ${ accountAndPasswordSectionLink } настроек."
+      ],
+      "If you have a **recovery method** set up, try account recovery instead. This will allow you to change your password straight away.": [
+        "Если у вас настроен **метод восстановления**, попробуйте вместо этого восстановить аккаунт. Это позволит вам сразу же изменить пароль."
+      ],
+      "We will contact you again when the password reset is available.": [
+        "Мы свяжемся с вами, когда будет доступен сброс пароля."
       ]
     },
     "session_recovery:initiation:link": {
@@ -6500,6 +6575,12 @@
       ],
       "Total storage": [
         "Общий объем хранилища"
+      ],
+      "Email address": [
+        "Адрес электронной почты"
+      ],
+      "Role": [
+        "Должность"
       ]
     },
     "Themes": {
@@ -6999,6 +7080,12 @@
       ],
       "Your subscriptions": [
         "Ваши подписки"
+      ],
+      "Delete the server (you will still be able to recover it for ${ days } day)": [
+        "Удалить сервер ( у вас будет возможность восстановить его в течение ${ days } дня)",
+        "Удалить сервер ( у вас будет возможность восстановить его в течение ${ days } дней)",
+        "Удалить сервер ( у вас будет возможность восстановить его в течение ${ days } дней)",
+        "Удалить сервер ( у вас будет возможность восстановить его в течение ${ days } дней)"
       ]
     },
     "Title for payment methods table": {
@@ -7066,6 +7153,9 @@
       ],
       "Verified email address": [
         "Подтверждённый адрес эл. почты"
+      ],
+      "Admins can make changes to your subscription, manage user accounts and passwords, and give admin privileges to other users.": [
+        "Администраторы могут вносить изменения в вашу подписку, управлять аккаунтами и паролями пользователей, а также предоставлять права администратора другим пользователям."
       ]
     },
     "tooltip": {
@@ -7261,6 +7351,49 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ваш бесплатный пробный период заканчивается ${ textDate }. ${ action }"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 ТБ"
+      ]
+    },
+    "Info message for custom invoice modal": {
+      "Enter a name and address for yourself or your organization. These details will be added to both personal and organizational invoices.": [
+        "Введите имя и адрес для себя или своей организации. Эти данные будут добавлены в личные и организационные счета-фактуры."
+      ]
+    },
+    "plan customizer, ips": {
+      "please ${ contactHref } our Sales team.": [
+        "${ contactHref } нашим Отделом продаж."
+      ],
+      "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
+        "Выберите количество адресов IP, которые необходимо включить в ваш тариф. Каждый дополнительный IP стоит ${ price }."
+      ]
+    },
+    "session_recovery:initiation:notification": {
+      "Password reset confirmed": [
+        "Сброс пароля подтвержден"
+      ]
+    },
+    "session_recovery:initiation:title": {
+      "Request password reset?": [
+        "Запросить сброс пароля?"
+      ]
+    },
+    "session_recovery:status:title": {
+      "Password reset request": [
+        "Изменение пароля запрошено"
+      ]
+    },
+    "Users table: single sign-on enabled": {
+      "SSO": [
+        "SSO"
+      ]
+    },
+    "Users table: single sign-on tooltip": {
+      "SSO user provided by your Identity Provider": [
+        "Пользователь SSO, предоставленный вашим поставщиком идентификационных данных"
       ]
     }
   }

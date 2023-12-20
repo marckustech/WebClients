@@ -2780,6 +2780,11 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "${ UsedAddresses } of ${ MaxAddresses } email address": [
+        "${ UsedAddresses } od ${ MaxAddresses } adresa e-pošta",
+        "${ UsedAddresses } od ${ MaxAddresses } adrese e-pošte",
+        "${ UsedAddresses } od ${ MaxAddresses } adresa e-pošte"
       ]
     },
     "label": {
@@ -3034,6 +3039,39 @@
       ],
       "Unlimited messages per day": [
         "Neograničen broj poruka dnevno"
+      ],
+      "${ size } attachment size": [
+        "Veličina privitka: ${ size }"
+      ],
+      "Contact groups": [
+        "Grupa kontakata"
+      ],
+      "Easy Switch import assistant": [
+        "Pomoćnik za uvoz Easy Switch"
+      ],
+      "Email client support (via IMAP/SMTP)": [
+        "Podrška email klijenta (putem IMAP/SMTP)"
+      ],
+      "End-to-end encryption": [
+        "Krajnje do krajnje šifriranje"
+      ],
+      "HTML signatures": [
+        "HTML potpisi"
+      ],
+      "Password-protected Emails": [
+        "Emailovi zaštićeni lozinkom"
+      ],
+      "SMTP submission": [
+        "SMTP predaja"
+      ],
+      "Unlimited filters": [
+        "Neograničen broj filtera"
+      ],
+      "Unlimited folders": [
+        "Neograničen broj mapa"
+      ],
+      "Unlimited labels": [
+        "Neograničen broj oznaka"
       ]
     },
     "new_plans: heading": {
@@ -3566,6 +3604,16 @@
       ],
       "Built-in ad blocker (NetShield)": [
         "Ugrađeni bloker oglasa (NetShield)"
+      ],
+      "${ UsedAddresses } of ${ MaxAddresses } email address": [
+        "${ UsedAddresses } od ${ MaxAddresses } adresa e-pošta",
+        "${ UsedAddresses } od ${ MaxAddresses } adrese e-pošte",
+        "${ UsedAddresses } od ${ MaxAddresses } adresa e-pošte"
+      ],
+      "${ UsedDomains } of ${ MaxDomains } custom domain": [
+        "${ UsedDomains } od ${ MaxDomains } prilagođena domena",
+        "${ UsedDomains } od ${ MaxDomains } prilagođena domena",
+        "${ UsedDomains } od ${ MaxDomains } prilagođenih domena"
       ]
     },
     "Subscription change warning": {

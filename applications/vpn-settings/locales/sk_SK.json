@@ -162,10 +162,10 @@
         "Znížiť účet"
       ],
       "Download": [
-        "Stiahnúť"
+        "Stiahnuť"
       ],
       "Download all configurations": [
-        "Stiahnúť celú konfiguráciu"
+        "Stiahnuť celú konfiguráciu"
       ],
       "Download our CSV template": [
         "Stiahnuť šablónu CSV"
@@ -829,6 +829,12 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Uložte až 200 verzií každého súboru až na 10 rokov."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailovú adresu, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
+        "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailové adresy, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
+        "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailových adries, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
+        "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailových adries, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie."
       ]
     },
     "Billing cycle": {
@@ -4003,6 +4009,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Vaše predplatné je spravované Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Pre členov organizácií používajúcich jednotné prihlásenie (SAML SSO)"
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Vaša organizácia používa jednotné prihlásenie (SSO). Stlačte tlačidlo Prihlásiť sa a pokračujte prostredníctvom vášho poskytovateľa SSO."
       ]
     },
     "Info for cash payment method": {
@@ -6089,6 +6101,12 @@
         " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekundy.",
         " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd.",
         " Na obnovu vášho hesla máte ${ timeRemaining.inSeconds } sekúnd."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Žiadosť o obnovenie hesla bola schválená (${ user.Email })."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Teraz môžete zmeniť heslo pre účet ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {
@@ -7788,6 +7806,33 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Funkcie plateného ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Zahŕňa históriu verzií v ${ DRIVE_SHORT_APP_NAME }, prístup k tisícom vysokorýchlostných ${ VPN_SHORT_APP_NAME } serverov, zdieľanie v ${ PASS_SHORT_APP_NAME } a mnoho ďalšieho."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 používateľov"
+      ],
+      "Early access to new apps and features": [
+        "Skorší prístup k novým aplikáciám a funkciám"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Skorší prístup k desktopovej aplikácii ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Funkcie plateného ${ MAIL_SHORT_APP_NAME } a ${ CALENDAR_APP_NAME }"
       ]
     }
   }

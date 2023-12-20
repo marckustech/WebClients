@@ -543,7 +543,7 @@
         "Mostra els detalls dels plans"
       ],
       "What do I get?": [
-        "Què obtinc?"
+        "Què n'obtinc?"
       ],
       "Zoom in": [
         "Apropa"
@@ -785,6 +785,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Emmagatzemeu fins a 200 versions de cada fitxer durant un màxim de 10 anys."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Inclou suport per a ${ domains } dominis de correu electrònic personalitzats, ${ addresses } adreça de correu electrònic, àlies hide-my-email il·limitats, compartició de calendari, etc.",
+        "Inclou suport per a ${ domains } dominis de correu electrònic personalitzats, ${ addresses } adreces de correu electrònic, àlies hide-my-email il·limitats, compartició de calendari, etc."
       ]
     },
     "Billing cycle": {
@@ -2068,6 +2072,9 @@
       ],
       "Your account or organization has an overdue invoice. Please pay all unpaid invoices.": [
         "El vostre compte o organització té una factura vençuda. Pagueu totes les factures pendents."
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Heu d'activar les claus de la vostra organització. Sense activació, no podreu crear ni accedir a usuaris no privats."
       ]
     },
     "Error importing users": {
@@ -2368,7 +2375,7 @@
     },
     "familyOffer_2023:Tooltip": {
       "Includes 2700 servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
-        "Inclou 2700 servidors en més de 65 països, connecteu fins a 10 dispositius, accediu a serveis de transmissió en línia en tot el món, bloquejador de programari maliciós i d'anuncis i més."
+        "Inclou 2700 servidors en més de 65 països, connecteu fins a 10 dispositius, accediu a serveis de transmissió en línia en tot el món, bloquejador de programari maliciós i d'anuncis, etc."
       ],
       "Includes support for 3 custom email domains, 90 email addresses, unlimited hide-my-email aliases, calendar sharing and more.": [
         "Inclou suport per a 3 dominis de correu electrònic personalitzats, 90 adreces de correu electrònic, àlies il·limitats de Hide-my-email, compartició de calendari i més."
@@ -2828,7 +2835,7 @@
         "Es requereix la vostra atenció"
       ],
       "Awaiting transaction": [
-        "En espera de transacció"
+        "S'està esperant la transacció"
       ],
       "Balance from your previous subscription": [
         "Saldo de la vostra subscripció anterior"
@@ -2996,7 +3003,7 @@
         "caduca el ${ expirationDate }"
       ],
       "Fill in user details": [
-        "Ompli els detalls de l'usuari"
+        "Empleneu els detalls de l'usuari"
       ],
       "for choosing ${ product }": [
         "per escollir ${ product }"
@@ -3350,7 +3357,7 @@
         "Emmagatzematge utilitzat per aquest usuari"
       ],
       "Submit a deposit using the following address or scan the QR code. Your deposit will be reflected in your account after confirmation.": [
-        "Envieu un dipòsit utilitzant l'adreça següent o escanegeu el codi QR. El dipòsit es reflectirà al vostre compte després de la confirmació."
+        "Envieu un dipòsit utilitzant l'adreça següent o escanegeu el codi QR. El dipòsit es reflectirà al vostre compte després de confirmar-lo."
       ],
       "Subscription auto-renews every 12 months.": [
         "La subscripció es renova automàticament cada 12 mesos."
@@ -3608,7 +3615,7 @@
         "Us redireccionarem a PayPal en una pestanya nova del navegador per completar aquesta transacció. Si utilitzeu bloquejadors emergents, inhabiliteu-los per continuar."
       ],
       "We'll get back to you shortly.": [
-        "Ens posarem en contacte amb vostè tan aviat com puguem."
+        "Ens posarem en contacte aviat."
       ],
       "We'll send a new verification code to ${ strong }": [
         "Enviarem un codi de verificació nou a ${ strong }"
@@ -3713,7 +3720,7 @@
         "Perdreu accés a les funcions Plus en aquesta data."
       ],
       "You will lose access to Plus servers and features on this date.": [
-        "Perdreu accés a servidors i funcions Plus aquesta data."
+        "Perdreu l'accés a servidors i característiques Plus en aquesta data."
       ],
       "You will need a ${ BRAND_NAME } address to use ${ MAIL_APP_NAME } and ${ CALENDAR_APP_NAME }": [
         "Necessitareu una adreça de ${ BRAND_NAME } per a utilitzar ${ MAIL_APP_NAME } i ${ CALENDAR_APP_NAME }"
@@ -4616,7 +4623,7 @@
         "Programa ${ PROTON_SENTINEL_NAME }"
       ],
       "${ size } attachment size": [
-        "Mida dels arxius adjunts de ${ size }"
+        "${ size } d'adjunts"
       ],
       "${ size } storage": [
         "${ size } d'emmagatzematge"
@@ -4637,7 +4644,7 @@
         "SLA del 99,5%"
       ],
       "Ad-blocker and malware protection": [
-        "Bloquejador d'anuncis i publicitat, i protecció contra programari maliciós"
+        "Bloquejador d'anuncis i protecció contra programari maliciós"
       ],
       "Admin console": [
         "Consola d'administració"
@@ -4655,7 +4662,7 @@
         "Resposta automàtica"
       ],
       "Autofill credit cards (coming soon)": [
-        "Empleneu automàticament targetes de crèdit (disponible pròximament)"
+        "Emplenament automàtic de targetes de crèdit (disponible pròximament)"
       ],
       "Available on all platforms": [
         "Disponible a totes les plataformes"
@@ -4745,7 +4752,7 @@
         "Àlies hide-my-email"
       ],
       "High-speed streaming": [
-        "Streaming d'alta velocitat"
+        "Transmissió en línia d'alta velocitat"
       ],
       "High-speed Swiss VPN that protects your privacy": [
         "VPN suïssa d'alta velocitat que protegeix la vostra privacitat"
@@ -4856,7 +4863,7 @@
         "Carpetes, etiquetes i filtres il·limitats"
       ],
       "Unlimited hide-my-email aliases": [
-        "Nombre il·limitat d'àlies Hide My Email"
+        "Nombre il·limitat d'àlies hide-my-email"
       ],
       "Unlimited labels": [
         "Etiquetes il·limitades"
@@ -5517,8 +5524,8 @@
         "Seleccioneu el nombre d'IP per incloure en el vostre pla. Cada IP addicional té un cost de ${ price }."
       ],
       "Should you need more than ${ maxIPs } IP, ": [
-        "Si necessitàreu més d'${ maxIPs } IP, ",
-        "Si necessitàreu més de ${ maxIPs } IP, "
+        "Si necessitéssiu més d'${ maxIPs } IP, ",
+        "Si necessitéssiu més de ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -6108,10 +6115,10 @@
     },
     "specialoffer: Tooltip": {
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections per user, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN per usuari, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis, etc."
       ],
       "Access blocked content and browse privately. Includes 1700 servers in 60+ countries, highest VPN speed, 10 VPN connections, worldwide streaming services, malware and ad-blocker, and more.": [
-        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis i més."
+        "Accediu al contingut bloquejat i navegueu de manera privada. Inclou 1700 servidors en més de 60 països, la màxima velocitat VPN, 10 connexions VPN, serveis de transmissió en línia a tot el món, bloquejador de programari maliciós i anuncis, etc."
       ],
       "Access content on streaming services, including Netflix, Disney+, and Prime Video, from anywhere.": [
         "Accediu al contingut dels serveis de transmissió en línia, com ara Netflix, Disney+ i Prime Video, des de qualsevol lloc."
@@ -6662,7 +6669,7 @@
         "Confirmar adreça"
       ],
       "Confirm downgrade": [
-        "Confirmeu el pas a un pla inferior"
+        "Confirma el pas a un pla inferior"
       ],
       "Confirm loss of ${ BRAND_NAME } bonuses": [
         "Confirmeu la pèrdua de les bonificacions de ${ BRAND_NAME }"
@@ -7284,6 +7291,33 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "La prova gratuïta acaba el ${ textDate }. ${ action }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Característiques de pagament de ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } i ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Inclou l'historial de versions en ${ DRIVE_SHORT_APP_NAME }, accés a milers de servidors d'alta velocitat ${ VPN_SHORT_APP_NAME }, compartició en ${ PASS_SHORT_APP_NAME }, etc."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 usuaris"
+      ],
+      "Early access to new apps and features": [
+        "Accés anticipat a noves aplicacions i característiques"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Accés anticipat a l'aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Característiques de pagament de ${ MAIL_SHORT_APP_NAME } i ${ CALENDAR_APP_NAME }"
       ]
     }
   }

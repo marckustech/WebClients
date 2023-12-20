@@ -829,6 +829,12 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Захоўвайце да 200 версій кожнага файла да 10 гадоў."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Уключае падтрымку для ${ domains } карыстальніцкага дамена электроннай пошты, ${ addresses } адраса электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі.",
+        "Уключае падтрымку для ${ domains } карыстальніцкіх даменаў электроннай пошты, ${ addresses } адрасоў электроннай пошты, неабмежаваную колькасць псеўданімаў hide-my-email, абагульванне календара і іншыя функцыі."
       ]
     },
     "Billing cycle": {
@@ -4003,6 +4009,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Для ўдзельнікаў арганізацыі, якія выкарыстоўваюць адзіны ўваход (SAML SSO)"
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Ваша арганізацыя выкарыстоўвае адзіны ўваход (SSO). Націсніце кнопку \"Увайсці\", каб працягнуць уваход з вашым пастаўшчыком SSO."
       ]
     },
     "Info for cash payment method": {
@@ -7794,6 +7806,33 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ваш бясплатны выпрабавальны перыяд міне ${ textDate }. ${ action }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Платныя функцыі ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } і ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Уключае гісторыю версій у ${ DRIVE_SHORT_APP_NAME }, доступ да тысяч высакахуткасных сервераў ${ VPN_SHORT_APP_NAME }, абагуленне ў ${ PASS_SHORT_APP_NAME } і іншыя функцыі."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 ТБ"
+      ],
+      "6 users": [
+        "6 карыстальнікаў"
+      ],
+      "Early access to new apps and features": [
+        "Ранні доступ да новых праграм і функцый"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Ранні доступ для настольнай праграмы ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Платныя функцыі ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_APP_NAME }"
       ]
     }
   }

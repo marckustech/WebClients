@@ -821,6 +821,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Conservez jusqu'à 200 versions de chaque fichier pendant 10 ans."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Comprend la prise en charge de ${ domains } domaines de messagerie personnalisés, ${ addresses } adresse e-mail, un nombre illimité d'alias « hide-my-email », le partage de calendrier et bien d'autres fonctionnalités.",
+        "Comprend la prise en charge de ${ domains } domaines de messagerie personnalisés, ${ addresses } adresses e-mail, un nombre illimité d'alias « hide-my-email », le partage de calendrier et bien d'autres fonctionnalités."
       ]
     },
     "Billing cycle": {
@@ -3923,6 +3927,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Pour les membres d'une organisation utilisant une authentification unique (SAML SSO)"
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Votre organisation utilise une authentification unique (SSO). Appuyez sur Se connecter pour continuer avec votre fournisseur d'authentification unique (SSO)."
       ]
     },
     "Info for cash payment method": {
@@ -7558,6 +7568,33 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Votre essai gratuit se termine le ${ textDate }. ${ action }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Fonctionnalités payantes de ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } et ${ PASS_SHORT_APP_NAME }"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Comprend la fonction Historique des versions pour ${ DRIVE_SHORT_APP_NAME }, un accès à des milliers de serveurs ultrarapides pour ${ VPN_SHORT_APP_NAME }, la fonction de partage dans ${ PASS_SHORT_APP_NAME } et bien plus encore."
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 To"
+      ],
+      "6 users": [
+        "6 utilisateurs"
+      ],
+      "Early access to new apps and features": [
+        "Accès en avant-première aux nouvelles fonctionnalités et applications"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Accès anticipé à l'application de bureau ${ MAIL_APP_NAME }"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Fonctionnalités payantes de ${ MAIL_SHORT_APP_NAME } et ${ CALENDAR_APP_NAME }"
       ]
     }
   }

@@ -9224,6 +9224,9 @@
       ],
       "Your referral link": [
         "Suosituslinkkisi"
+      ],
+      "Beta": [
+        "Beta"
       ]
     },
     "label": {
@@ -14060,6 +14063,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Sinut on kutsuttu kokeilemaan ${ MAIL_APP_NAME }ia"
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " Hanki ${ MAIL_APP_NAME } Macille tai Windowsille"
+      ],
+      "Desktop app": [
+        "Työpöytäsovellus"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

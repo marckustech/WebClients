@@ -10,6 +10,9 @@
       ],
       "Limited view (see only free/busy)": [
         "Обмежений перегляд (лише доступність)"
+      ],
+      "Limited view": [
+        "Обмежений перегляд"
       ]
     },
     "account": {
@@ -1001,6 +1004,45 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Add filter": [
+        "Додати фільтр"
+      ],
+      "Add folder": [
+        "Додати теку"
+      ],
+      "Download ICS": [
+        "Завантажити ICS"
+      ],
+      "Edit invoice details": [
+        "Змінити подробиці рахунку"
+      ],
+      "Edit sieve": [
+        "Редагувати Sieve"
+      ],
+      "Export key": [
+        "Експортувати ключ"
+      ],
+      "Generate": [
+        "Згенерувати"
+      ],
+      "Generate key": [
+        "Генерувати ключ"
+      ],
+      "Generate token": [
+        "Згенерувати токен"
+      ],
+      "Import key": [
+        "Імпортувати ключ"
+      ],
+      "Save changes": [
+        "Зберегти зміни"
+      ],
+      "Save ICS file": [
+        "Зберегти ICS файл"
+      ],
+      "Select files": [
+        "Вибрати файли"
       ]
     },
     "action": {
@@ -1230,6 +1272,9 @@
       ],
       "Remove ${ PASS_APP_NAME }": [
         "Вилучити ${ PASS_APP_NAME }"
+      ],
+      "Get the deal": [
+        "Скористатися пропозицією"
       ]
     },
     "bf2023: Deal details": {
@@ -1244,6 +1289,9 @@
       ],
       "Premium Password Manager": [
         "Premium Менеджер паролів"
+      ],
+      "1 user": [
+        "1 користувач"
       ]
     },
     "bf2023: Footer": {
@@ -1442,6 +1490,9 @@
       ],
       "Share with anyone": [
         "Поділіться з ким завгодно"
+      ],
+      "Share calendar": [
+        "Поширити календар"
       ]
     },
     "Calendar settings sidebar": {
@@ -1484,6 +1535,12 @@
       ],
       "Syncing": [
         "Синхронізація"
+      ],
+      "Active": [
+        "Активно"
+      ],
+      "Disabled": [
+        "Вимкнено"
       ]
     },
     "Calendar subscription not synced error": {
@@ -3114,6 +3171,9 @@
       ],
       "Save": [
         "Зберегти"
+      ],
+      "Decline": [
+        "Відхилити"
       ]
     },
     "email_forwarding_2023: Info": {
@@ -3149,6 +3209,9 @@
       ],
       "Paused": [
         "Зупинено"
+      ],
+      "Pending": [
+        "У черзі"
       ]
     },
     "email_forwarding_2023: Title": {
@@ -4777,6 +4840,21 @@
       ],
       "User": [
         "Користувач"
+      ],
+      "Access": [
+        "Доступ"
+      ],
+      "Action": [
+        "Дія"
+      ],
+      "Actions": [
+        "Дії"
+      ],
+      "Folders": [
+        "Теки"
+      ],
+      "Permissions": [
+        "Дозволи"
       ]
     },
     "Header for addresses table": {
@@ -4816,6 +4894,9 @@
     "Header; Table with list of calendars arranged by type": {
       "Other": [
         "Інше"
+      ],
+      "Holidays": [
+        "Свята"
       ]
     },
     "Heading in trial plan": {
@@ -7383,6 +7464,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша передплата керується Mozilla. Зв'яжіться зі службою підтримки Mozilla."
+      ],
+      "Billed at ${ price }": [
+        "Оплата ${ price }"
+      ],
+      "Delete link?": [
+        "Видалити посилання?"
+      ],
+      "Edit label": [
+        "Редагувати мітку"
+      ],
+      "Link deleted": [
+        "Посилання видалено"
       ]
     },
     "info": {
@@ -7519,6 +7612,9 @@
       ],
       "You can generate a new encryption key if you think your previous key has been compromised.": [
         "Ви можете генерувати новий ключ шифрування, якщо вважаєте, що попередній ключ був скомпрометований."
+      ],
+      "Generate key": [
+        "Генерувати ключ"
       ]
     },
     "Key type option": {
@@ -7737,11 +7833,17 @@
       ],
       "Mark not obsolete": [
         "Позначити не застарілим"
+      ],
+      "Make primary": [
+        "Зробити основним"
       ]
     },
     "Knowledge base link label": {
       "Here's how": [
         "Ось, як це зробити"
+      ],
+      "Learn more": [
+        "Докладніше"
       ]
     },
     "Label": {
@@ -8587,6 +8689,36 @@
       ],
       "Your referral link": [
         "Ваше реферальне посилання"
+      ],
+      "Beta": [
+        "Бета"
+      ],
+      "Composer mode": [
+        "Режим редактора"
+      ],
+      "Duration": [
+        "Тривалість"
+      ],
+      "End weekday": [
+        "Останній день тижня"
+      ],
+      "Link label": [
+        "Мітка посилання"
+      ],
+      "SMTP server": [
+        "Сервер SMTP"
+      ],
+      "SMTP token": [
+        "Токен SMTP"
+      ],
+      "Start weekday": [
+        "Перший день тижня"
+      ],
+      "Sticky labels": [
+        "Липкі мітки"
+      ],
+      "Token name": [
+        "Назва токена"
       ]
     },
     "label": {
@@ -8676,6 +8808,9 @@
     "Label to change view layout": {
       "Row": [
         "Рядок"
+      ],
+      "Column": [
+        "Стовпчик"
       ]
     },
     "Label, credit card": {
@@ -10197,6 +10332,9 @@
         "Учасників додано",
         "Учасників додано",
         "Учасників додано"
+      ],
+      "Member deleted": [
+        "Учасника видалено"
       ]
     },
     "Notification in shared calendar modal": {
@@ -10430,6 +10568,21 @@
       ],
       "The whole organization": [
         "Вся організація"
+      ],
+      "Fixed duration": [
+        "Фіксована тривалість"
+      ],
+      "Normal": [
+        "Звичайний"
+      ],
+      "Plain text": [
+        "Звичайний текст"
+      ],
+      "Repeat daily": [
+        "Повторювати щодня"
+      ],
+      "Repeat monthly": [
+        "Повторювати щомісяця"
       ]
     },
     "Option group": {
@@ -10549,6 +10702,9 @@
       ],
       "Upgrade my plan": [
         "Покращити тарифний план"
+      ],
+      "Upgrade": [
+        "Покращити"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11234,6 +11390,12 @@
       ],
       "Order": [
         "Порядок"
+      ],
+      "Action": [
+        "Дія"
+      ],
+      "Status": [
+        "Статус"
       ]
     },
     "Share calendar assistive text": {
@@ -11388,6 +11550,9 @@
       ],
       "Support online privacy": [
         "Підтримка онлайн-приватності"
+      ],
+      "1 user": [
+        "1 користувач"
       ]
     },
     "specialoffer: Footer": {
@@ -11968,6 +12133,12 @@
       ],
       "Preference updated": [
         "Налаштування оновлено"
+      ],
+      "Filter removed": [
+        "Фільтр вилучено"
+      ],
+      "Status updated": [
+        "Стан оновлено"
       ]
     },
     "Suffix": {
@@ -13075,6 +13246,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Ви запрошені спробувати ${ MAIL_APP_NAME }"
+      ],
+      "Edit invoice details": [
+        "Змінити подробиці рахунку"
+      ],
+      "Import key": [
+        "Імпортувати ключ"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13924,6 +14101,110 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Action; decline invitation to share calendar": {
+      "Decline": [
+        "Відхилити"
+      ]
+    },
+    "bf2023: Info": {
+      "6 users": [
+        "6 користувачів"
+      ]
+    },
+    "Calendar link purpose update success message": {
+      "Label edited": [
+        "Мітку змінено"
+      ]
+    },
+    "email_forwarding_2023: Header": {
+      "Actions": [
+        "Дії"
+      ]
+    },
+    "email_forwarding_2023: Link": {
+      "Learn more": [
+        "Докладніше"
+      ]
+    },
+    "email_forwarding_2023: Warning": {
+      "Warning": [
+        "Попередження"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 ТБ"
+      ]
+    },
+    "Header for table": {
+      "Actions": [
+        "Дії"
+      ],
+      "Created": [
+        "Створено"
+      ],
+      "Token name": [
+        "Назва токена"
+      ]
+    },
+    "Key state badge": {
+      "Primary": [
+        "Основний"
+      ]
+    },
+    "Label for default event settings": {
+      "Duration": [
+        "Тривалість"
+      ]
+    },
+    "Label to change composer mode": {
+      "Normal": [
+        "Звичайний"
+      ]
+    },
+    "Label to change density": {
+      "Compact": [
+        "Компактно"
+      ]
+    },
+    "Option delay send seconds": {
+      "10 seconds": [
+        "10 секунд"
+      ],
+      "20 seconds": [
+        "20 секунд"
+      ]
+    },
+    "session_recovery:status:info": {
+      "Pending": [
+        "У черзі"
+      ]
+    },
+    "Settings/labels": {
+      "Labels/Folders": [
+        "Мітки/Теки"
+      ]
+    },
+    "Settings/labels - table": {
+      "Actions": [
+        "Дії"
+      ]
+    },
+    "Success message after sorting folders": {
+      "Folders sorted": [
+        "Збережено тек"
+      ]
+    },
+    "Table header; invitations to share calendar": {
+      "Shared with me": [
+        "Отриманий мною доступ"
+      ]
+    },
+    "Title header for keys table": {
+      "Actions": [
+        "Дії"
       ]
     }
   }

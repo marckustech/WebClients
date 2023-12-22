@@ -3365,6 +3365,21 @@
       ],
       "Set up email forwarding": [
         "Indstil videresendelse af e-mail"
+      ],
+      "Add condition": [
+        "Tilføj betingelse"
+      ],
+      "Delete this condition": [
+        "Slet denne betingelse"
+      ],
+      "Edit conditions": [
+        "Rediger betingelse"
+      ],
+      "Re-enable": [
+        "Genaktiver"
+      ],
+      "Send confirmation email": [
+        "Send bekræftelsesmail"
       ]
     },
     "email_forwarding_2023: Forwarding tooltip": {
@@ -3378,6 +3393,12 @@
       ],
       "Status": [
         "Status"
+      ],
+      "From": [
+        "Fra"
+      ],
+      "To": [
+        "Til"
       ]
     },
     "email_forwarding_2023: Info": {
@@ -3389,6 +3410,9 @@
       ],
       "You won't receive emails forwarded automatically from ${ boldForwarderEmail }.": [
         "Du vil ikke modtage e-mails, der videresendes automatisk fra ${ boldForwarderEmail }."
+      ],
+      "Forwarding is active": [
+        "Videresending er aktiv"
       ]
     },
     "email_forwarding_2023: Label": {
@@ -3409,6 +3433,9 @@
       ],
       "Without attachment": [
         "Uden vedhæftning"
+      ],
+      "Forward from": [
+        "Videresend fra"
       ]
     },
     "email_forwarding_2023: Link": {
@@ -3422,6 +3449,9 @@
       ],
       "Type text or keyword": [
         "Indtast tekst eller nøgleord"
+      ],
+      "Condition:": [
+        "Betingelse:"
       ]
     },
     "email_forwarding_2023: Status": {
@@ -3436,6 +3466,9 @@
       ],
       "Pending": [
         "Afventer"
+      ],
+      "Outdated": [
+        "Forældet"
       ]
     },
     "email_forwarding_2023: Title": {
@@ -3447,6 +3480,15 @@
       ],
       "Set up forwarding": [
         "Indstil videresendelse"
+      ],
+      "Delete forwarding?": [
+        "Slet videresending?"
+      ],
+      "Email forwarding deactivated": [
+        "Videresending deaktiveret"
+      ],
+      "Forwarding activated": [
+        "Videresending aktiveret"
       ]
     },
     "email_forwarding_2023: Warning": {
@@ -3944,6 +3986,9 @@
       ],
       "Zero keys reactivated": [
         "Nul nøgler genaktiveret"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "Du skal aktivere dine organisationsnøgler. Uden aktivering vil du ikke kunne oprette eller få adgang til ikke-private brugere."
       ]
     },
     "Error importing calendar": {
@@ -4894,6 +4939,9 @@
       ],
       "Update your logins": [
         "Opdatér dine logins"
+      ],
+      "Discover privacy features": [
+        "Opdag privatlivsfunktioner"
       ]
     },
     "Gmail forwarding": {
@@ -5063,6 +5111,12 @@
       ],
       "Token name": [
         "Tokennavn"
+      ],
+      "Email address": [
+        "E-mailadresse"
+      ],
+      "Last used": [
+        "Sidst brugt"
       ]
     },
     "Header; Table with list of calendars arranged by type": {
@@ -7632,6 +7686,21 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Dit abonnement håndteres af Mozilla. Kontakt venligst Mozilla-support."
+      ],
+      "${ plan } removed. Bundle deal not available on a 1-month plan.": [
+        "${ plan } fjernet. Pakketilbud er ikke tilgængeligt med et 1-måneders abonnement."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "For medlemmer af organisationer, der bruger single sign-on (SAML SSO)"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "Desktop-appen er nu tilgængelig i beta og giver dig mulighed for nemt at starte ${ MAIL_APP_NAME } direkte fra dit skrivebord og holde fokus uden at blive distraheret af browseren."
+      ],
+      "Stay tuned for future promotions.": [
+        "Hold øje med fremtidige kampagner."
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Din organisation bruger single sign-on (SSO). Tryk på Log ind for at fortsætte med din SSO-udbyder."
       ]
     },
     "info": {
@@ -7771,6 +7840,9 @@
       ],
       "You can generate a new encryption key if you think your previous key has been compromised.": [
         "Du kan generere en ny krypteringsnøgle, hvis du tror, at din forrige nøgle er blevet kompromitteret."
+      ],
+      "Generate key": [
+        "Generér nøgle"
       ]
     },
     "Key state badge": {
@@ -7782,6 +7854,18 @@
       ],
       "Primary": [
         "Primær"
+      ],
+      "Disabled": [
+        "Deaktiveret"
+      ],
+      "Forwarding": [
+        "Videresender"
+      ],
+      "Inactive": [
+        "Inaktiv"
+      ],
+      "Obsolete": [
+        "Forældet"
       ]
     },
     "Key type option": {
@@ -8003,6 +8087,12 @@
       ],
       "Mark not obsolete": [
         "Markér som ikke-forældet"
+      ],
+      "Make primary": [
+        "Gør til primær"
+      ],
+      "Mark obsolete": [
+        "Markér som forældet"
       ]
     },
     "Knowledge base link label": {
@@ -8914,6 +9004,9 @@
       ],
       "Your referral link": [
         "Dit henvisningslink"
+      ],
+      "Beta": [
+        "Beta"
       ]
     },
     "label": {
@@ -9974,6 +10067,12 @@
       "Vault sharing (up to ${ n } person)": [
         "Deling af boks (op til ${ n } person)",
         "Deling af boks (op til ${ n } person)"
+      ],
+      "Double hop": [
+        "Dobbelthop"
+      ],
+      "SMTP submission for select organizations": [
+        "SMTP indsendelse for udvalgte organisationer"
       ]
     },
     "new_plans: feature info": {
@@ -10091,6 +10190,9 @@
       ],
       "You’re enjoying a promotional price on your current plan. If you downgrade your account, you will lose your promotional price and it won’t be available if you try to subscribe again.": [
         "Du drager fordel af en kampagnepris for dit nuværende abonnement. Hvis du nedgraderer din konto, mister du din kampagnepris og den vil ikke være tilgængelig hvis du forsøger at abonnere igen."
+      ],
+      "Early access to new apps and features": [
+        "Tidlig adgang til nye apps og funktioner"
       ]
     },
     "new_plans: Info": {
@@ -10386,6 +10488,9 @@
       ],
       "Two-factor authentication is not required anymore": [
         "To-faktor-godkendelseskode er ikke længere påkrævet."
+      ],
+      "Key copied to the clipboard": [
+        "Nøgle kopieret til klipholder"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -10681,6 +10786,12 @@
       ],
       "20 seconds": [
         "20 sekunder"
+      ],
+      "0 seconds": [
+        "0 sekunder"
+      ],
+      "5 seconds": [
+        "5 sekunder"
       ]
     },
     "Option group": {
@@ -10739,6 +10850,9 @@
       ],
       "PKGBUILD (for other distributions)": [
         "PKGBUILD (til andre distributioner)"
+      ],
+      ".exe (64-bit)": [
+        ".exe (64-bit)"
       ]
     },
     "Participant name": {
@@ -13520,6 +13634,21 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Du er blevet inviteret til at prøve ${ MAIL_APP_NAME }"
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " Få ${ MAIL_APP_NAME } til Mac eller Windows"
+      ],
+      "${ MAIL_APP_NAME } Export Tool": [
+        "${ MAIL_APP_NAME } Export Tool"
+      ],
+      "Desktop app": [
+        "Desktop-app"
+      ],
+      "For ${ platform }": [
+        "Til ${ platform }"
+      ],
+      "Password reset settings": [
+        "Indstillinger for nulstilling af adgangskode"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -13580,6 +13709,9 @@
       ],
       "Status": [
         "Status"
+      ],
+      "Key type": [
+        "Nøgletype"
       ]
     },
     "Title header for members table": {
@@ -14291,6 +14423,41 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "email_forwarding_2023: Incoming forwarding tab name": {
+      "From me": [
+        "Fra mig"
+      ]
+    },
+    "email_forwarding_2023: Outgoing forwarding tab name": {
+      "To me": [
+        "Til mig"
+      ]
+    },
+    "email_forwarding_2023: Success": {
+      "Changes saved": [
+        "Ændringer gemt"
+      ],
+      "Forwarding accepted": [
+        "Videresending godkendt"
+      ],
+      "Forwarding declined": [
+        "Videresending afvist"
+      ],
+      "Forwarding deleted": [
+        "Videresending slettet"
+      ],
+      "Forwarding paused": [
+        "Videresending sat på pause"
+      ],
+      "Forwarding resumed": [
+        "Videresending genoptaget"
+      ]
+    },
+    "Success message after sorting labels": {
+      "Labels sorted": [
+        "Etiketter sorteret"
       ]
     }
   }

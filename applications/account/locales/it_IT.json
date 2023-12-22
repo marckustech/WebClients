@@ -927,7 +927,7 @@
         "Salta"
       ],
       "Skip verification": [
-        "Salta verifica"
+        "Salta la verifica"
       ],
       "Sort": [
         "Ordina"
@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Upgrade to Visionary": [
+        "Effettua l'upgrade a Visionary"
       ]
     },
     "action": {
@@ -14739,7 +14742,7 @@
         "Le segnalazioni non sono crittografate end-to-end, non inviare alcuna informazione sensibile."
       ],
       "Skip verification?": [
-        "Saltare la verifica?"
+        "Vuoi saltare la verifica?"
       ],
       "The date and time settings on your device are out of sync. ${ learnMore }": [
         "Le impostazioni di data e ora sul dispositivo non sono sincronizzate. ${ learnMore }"
@@ -15029,6 +15032,17 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Desktop app upsell": {
+      "Access to the desktop app is limited": [
+        "L'accesso all'app desktop è limitato"
+      ],
+      "The beta version of the ${ MAIL_APP_NAME } desktop app is currently limited to ${ BRAND_NAME } Visionary subscribers. It will be available to all users in early 2024.": [
+        "La versione beta dell'app desktop di ${ MAIL_APP_NAME } è attualmente limitata agli abbonati a ${ BRAND_NAME } Visionary. Sarà disponibile a tutti gli utenti all'inizio del 2024."
+      ],
+      "Upgrade today or check again in early 2024 for access": [
+        "Effettua l'upgrade oggi o torna qui all'inizio del 2024 per l'accesso"
       ]
     }
   }

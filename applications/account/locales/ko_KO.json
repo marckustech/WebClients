@@ -6126,7 +6126,7 @@
         "불러오기 및 포워딩 상태를 확인하세요."
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
-        "${ strong } 로 새 인증 코드를 보내려면 \"새 코드 요청\"을 클릭하세요. 이 전화번호가 잘못된 경우 \"수정\"을 클릭하여 수정하세요."
+        "${ strong }(으)로 새 인증 코드를 보내려면 \"새 코드 요청\"을 클릭하세요. 이 전화번호가 잘못된 경우 \"수정\"을 클릭하여 수정하세요."
       ],
       "Close this screen to exit.": [
         "이 스크린을 닫아 종료합니다."
@@ -6342,7 +6342,7 @@
         "조직 비밀번호를 입력해 관리자의 특권을 복구하세요. ${ learnMore }"
       ],
       "Enter the verification code that was sent to ${ destinationText }.": [
-        "${ destinationText } 로 전송된 인증 코드를 입력하세요."
+        "${ destinationText }으(로) 인증 코드가 전송되었습니다."
       ],
       "Enter verification code. Digit ${ digit }.": [
         "인증 코드를 입력하세요. ${ digit } 자리."
@@ -7840,6 +7840,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "유료 구독은 Mozilla에서 관리합니다. Mozilla 지원에 연락하세요."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "싱글 사인 온을 사용하는 조직 내의 구성원 (SAML SSO)용"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "이제 베타로 사용 가능한 데스크탑 앱으로 브라우저로 이동할 필요 없이 간단히 ${ MAIL_APP_NAME } 바로 가기로 실행하고, 항상 집중할 수 있어요."
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "사용자의 조직이 싱글 사인 온 (SSO)를 사용합니다. SSO 제공자로 로그인을 탭하세요."
       ]
     },
     "info": {
@@ -9147,6 +9156,9 @@
       ],
       "Your referral link": [
         "리퍼럴 코드"
+      ],
+      "Beta": [
+        "베타"
       ]
     },
     "label": {
@@ -12615,7 +12627,7 @@
         "Catch-all 주소 업데이트됨"
       ],
       "Code sent to ${ methodTo }": [
-        "${ methodTo } 로 코드가 전송됨"
+        "${ methodTo }(으)로 코드를 전송했습니다."
       ],
       "Copied to clipboard": [
         "클립보드에 복사됨"
@@ -13921,6 +13933,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } 체험에 초대되었습니다."
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " Mac 및 Windows용 ${ MAIL_APP_NAME } 얻기"
+      ],
+      "Desktop app": [
+        "데스크톱 앱"
+      ],
+      "For ${ platform }": [
+        "${ platform }용"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

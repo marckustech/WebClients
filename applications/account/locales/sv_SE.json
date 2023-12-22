@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Upgrade to Visionary": [
+        "Uppgradera till Visionary"
       ]
     },
     "action": {
@@ -3684,6 +3687,9 @@
       ],
       "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
         "Betalda funktioner för ${ MAIL_SHORT_APP_NAME } och ${ CALENDAR_APP_NAME }"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Förhandstillgång till webbappen ${ MAIL_APP_NAME }"
       ]
     },
     "Error": {
@@ -7968,6 +7974,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Din prenumeration hanteras av Mozilla. Kontakta Mozillas support."
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "Nu tillgänglig i betaversion, med appen för stationär dator kan du enkelt starta ${ MAIL_APP_NAME } direkt från din stationära dator och behålla fokus utan att störa webbläsaren."
       ]
     },
     "info": {
@@ -15030,6 +15039,19 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Desktop app upsell": {
+      "Access to the desktop app is limited": [
+        "Åtkomst till app för stationär dator är begränsat"
+      ],
+      "Upgrade today or check again in early 2024 for access": [
+        "Uppgradera idag eller kolla igen i början av 2024 för åtkomst"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Inkluderar versionshistorik i ${ DRIVE_SHORT_APP_NAME }, åtkomst till tusentals höghastighetsservrar för ${ VPN_SHORT_APP_NAME }, delning i ${ PASS_SHORT_APP_NAME } och mer."
       ]
     }
   }

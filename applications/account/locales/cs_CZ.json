@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Upgrade to Visionary": [
+        "Povýšit na Visionary"
       ]
     },
     "action": {
@@ -6992,7 +6995,7 @@
         "Nejste na svém zařízení? K přihlášení použijte okno soukromého procházení a po dokončení jej zavřete. ${ learnMore }"
       ],
       "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
-        "Nyní k dispozici v beta verzi, desktopová aplikace vám výhodně dovolí spustit ${ MAIL_APP_NAME } přímo z vaší plochy a zůstat soustředěný bez rozptylování se prohlížečem."
+        "Nyní k dispozici v beta verzi, aplikaci ${ MAIL_APP_NAME } pro PC spustíte pohodlně z vaší plochy a nebudete tak rozptylováni internetovým prohlížečem."
       ],
       "Number of dedicated servers in the organization": [
         "Počet dedikovaných serverů v organizaci"
@@ -13916,7 +13919,7 @@
         "Smazat historii verzí?"
       ],
       "Desktop app": [
-        "Aplikace pro počítače"
+        "Aplikace pro PC"
       ],
       "Disable ${ email }": [
         "Zakázat ${ email }"

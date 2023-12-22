@@ -7919,6 +7919,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "თქვენი გამოწერა Mozilla-ს მიერ იმართება. დაუკავშირდით მათ მხარდაჭერის გუნდს."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "ორგანიზაციის წევრებისთვის, რომელიც SSO-ს (SAML SSO) იყენებენ"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "ახლა ხელმისაწვდომია ბეტა ვერსიაში. კომპიუტერის აპი საშუალებას გაძლევთ, ${ MAIL_APP_NAME } სამუშაო მაგიდიდან გაუშვათ და იმუშაოთ ბრაუზერში ისე, რომ ხელი არაფერმა შეგიშალოთ."
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "თქვენი ორგანიზაცია შესვლის ერთწერტილიან სისტემას (SSO) იყენებს. შედით, რომ თქვენს SSO-ის მომწოდებელზე გადახვიდეთ."
       ]
     },
     "info": {
@@ -9227,6 +9236,9 @@
       ],
       "Your referral link": [
         "თქვენი მოწვევის ბმული"
+      ],
+      "Beta": [
+        "ბეტა"
       ]
     },
     "label": {
@@ -14069,6 +14081,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "თქვენ მიგიწვიეს, სცადოთ ${ MAIL_APP_NAME }"
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " მიიღეთ ${ MAIL_APP_NAME } Mac-სთვის და Window-სთვის"
+      ],
+      "Desktop app": [
+        "კომპიუტერის აპი"
+      ],
+      "For ${ platform }": [
+        "${ platform }-თვის"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

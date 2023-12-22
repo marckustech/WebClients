@@ -1078,6 +1078,9 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Upgrade to Visionary": [
+        "Upgrade para Visionary"
       ]
     },
     "action": {
@@ -7962,6 +7965,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Sua assinatura é gerenciada pela Mozilla. Entre em contato com o suporte da Mozilla."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Para membros da organização usando o login único (SAML SSO)"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "Disponível agora no beta, o app desktop te deixa iniciar convenientemente o ${ MAIL_APP_NAME } direto do seu desktop, te deixando focado sem distrações do browser"
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Sua organização usa o login único (SSO). Pressione iniciar seção para continuar com seu provedor SSO."
       ]
     },
     "info": {

@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Zoom ut"
+      ],
+      "Upgrade to Visionary": [
+        "Oppgrader til Visionary"
       ]
     },
     "action": {
@@ -15038,6 +15041,17 @@
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"
+      ]
+    },
+    "Desktop app upsell": {
+      "Access to the desktop app is limited": [
+        "Tilgang til skrivebordsappen er begrenset"
+      ],
+      "The beta version of the ${ MAIL_APP_NAME } desktop app is currently limited to ${ BRAND_NAME } Visionary subscribers. It will be available to all users in early 2024.": [
+        "Testversjonen av skrivebordsappen ${ MAIL_APP_NAME } er for øyeblikket begrenset til ${ BRAND_NAME } Visionary-abonnenter. Den vil være tilgjengelig for alle brukere tidlig i 2024."
+      ],
+      "Upgrade today or check again in early 2024 for access": [
+        "Oppgrader i dag eller sjekk igjen tidlig i 2024 for tilgang"
       ]
     }
   }

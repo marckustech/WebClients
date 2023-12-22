@@ -1045,6 +1045,12 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Create a link to share with anyone outside ${ BRAND_NAME }": [
+        "Создайте ссылку, чтобы поделиться ею со всеми, вне ${ BRAND_NAME }"
+      ],
+      "Download the ${ MAIL_APP_NAME } Export Tool": [
+        "Скачайте инструмент для экспорта ${ MAIL_APP_NAME }"
       ]
     },
     "action": {
@@ -4165,6 +4171,9 @@
       ],
       "vCard versions < 3.0 not supported": [
         "vCard версий < 3.0 не поддерживается"
+      ],
+      "Missing FN property": [
+        "Отсутствует свойство FN"
       ]
     },
     "Error importing contacts": {
@@ -5149,6 +5158,9 @@
       ],
       "Update your logins": [
         "Обновите ваше имя пользователя"
+      ],
+      "Discover how our ${ strongText } protect you": [
+        "Узнайте, как наши ${ strongText } защищают вас"
       ]
     },
     "Gmail forwarding": {
@@ -7872,6 +7884,27 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша подписка находится под управлением Mozilla. Пожалуйста, свяжитесь со службой поддержки Mozilla."
+      ],
+      "${ BRAND_NAME } is privacy you can trust, ensured by strong encryption, open-source code, and Swiss privacy laws. We believe nobody should be able to exploit your data, period. Our technology and business are based upon this fundamentally stronger definition of privacy.": [
+        "${ BRAND_NAME } - это приватность, которой можно доверять, обеспеченная надежным шифрованием, открытым исходным кодом и швейцарскими законами о защите частной жизни. Мы считаем, что никто не должен иметь возможности использовать ваши данные, и точка. Наши технологии и бизнес основаны на этом принципиально более строгом определении приватности."
+      ],
+      "**Get a ${ BRAND_NAME } address** to use all ${ BRAND_NAME_TWO } services including ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_SHORT_APP_NAME }.": [
+        "**Получите адрес** ${ BRAND_NAME } для использования всех служб ${ BRAND_NAME_TWO }, включая ${ MAIL_SHORT_APP_NAME } и ${ CALENDAR_SHORT_APP_NAME }."
+      ],
+      "The link to report that that you didn't set up a ${ BRAND_NAME } Account has expired. Please get in touch with our support team to resolve this issue.": [
+        "Ссылка для сообщения о том, что вы не создали аккаунт ${ BRAND_NAME } истекла. Свяжитесь с нашей службой поддержки, чтобы решить эту проблему."
+      ],
+      "This could take some time. Please do not close this page or disconnect from the internet.": [
+        "Это может занять некоторое время. Не закрывайте эту страницу и не отключайтесь от Интернета."
+      ],
+      "We recommend having at least 2 servers in order to provide redundancy.": [
+        "Мы рекомендуем иметь не менее 2 серверов для обеспечения резервирования."
+      ],
+      "You are currently using ${ organization.UsedMembers } of your ${ organization.MaxMembers } available user license.": [
+        "Сейчас вы используете ${ organization.UsedMembers } из вашей ${ organization.MaxMembers } доступной пользовательской лицензии.",
+        "Сейчас вы используете ${ organization.UsedMembers } из ваших ${ organization.MaxMembers } доступных пользовательских лицензий.",
+        "Сейчас вы используете ${ organization.UsedMembers } из ваших ${ organization.MaxMembers } доступных пользовательских лицензий.",
+        "Сейчас вы используете ${ organization.UsedMembers } из ваших ${ organization.MaxMembers } доступных пользовательских лицензий."
       ]
     },
     "info": {
@@ -10753,6 +10786,12 @@
     "new_plans: upgrade": {
       "Included with ${ plus }, ${ bundle }, and ${ BRAND_NAME } for Business.": [
         "Включено с ${ plus }, ${ bundle } и ${ BRAND_NAME } для предприятий."
+      ],
+      "Included with ${ BRAND_NAME } for Business, ${ familyPlanName } and ${ mailProPlanName }.": [
+        "В комплект входит ${ BRAND_NAME } for Business, ${ familyPlanName } и ${ mailProPlanName }."
+      ],
+      "Included with multiple users ${ BRAND_NAME } for Business plans.": [
+        "В комплект входит тариф ${ BRAND_NAME } for Business для нескольних пользователей."
       ]
     },
     "new_plans: Upsell attribute": {
@@ -11646,6 +11685,12 @@
       ],
       "Select the number of IPs to include in your plan. Each additional IP costs ${ price }.": [
         "Выберите количество адресов IP, которые необходимо включить в ваш тариф. Каждый дополнительный IP стоит ${ price }."
+      ],
+      "Should you need more than ${ maxIPs } IP, ": [
+        "Если вам потребуется больше ${ maxIPs } IP, ",
+        "Если вам потребуется больше ${ maxIPs } IP, ",
+        "Если вам потребуется больше ${ maxIPs } IP, ",
+        "Если вам потребуется больше ${ maxIPs } IP, "
       ]
     },
     "plan customizer, users": {
@@ -12079,6 +12124,12 @@
     "session_recovery:initiation:title": {
       "Request password reset?": [
         "Запросить сброс пароля?"
+      ],
+      "You'll be able to reset your password in ${ gracePeriodHoursRemaining } hour": [
+        "Вы сможете восстановить свой пароль через ${ gracePeriodHoursRemaining } час",
+        "Вы сможете восстановить свой пароль через ${ gracePeriodHoursRemaining } часа",
+        "Вы сможете восстановить свой пароль через ${ gracePeriodHoursRemaining } часов",
+        "Вы сможете восстановить свой пароль через ${ gracePeriodHoursRemaining } часов"
       ]
     },
     "session_recovery:settings:action": {
@@ -14956,6 +15007,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "Tooltip default pgp scheme": {
+      "Select the default PGP settings used to sign or encrypt messages with non-${ BRAND_NAME } PGP users. Note that Inline PGP forces plain text messages.": [
+        "Выберите настройки PGP по умолчанию, используемые для подписи или шифрования сообщений для тех кто, не является пользователями ${ BRAND_NAME } PGP. Обратите внимание, что Inline PGP заставляет подписывать сообщения простым текстом."
       ]
     }
   }

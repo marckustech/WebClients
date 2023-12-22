@@ -1081,6 +1081,9 @@
       ],
       "Zoom out": [
         "Zoom arrière"
+      ],
+      "Upgrade to Visionary": [
+        "Passer à l'abonnement Visionary"
       ]
     },
     "action": {
@@ -14991,6 +14994,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "Desktop app upsell": {
+      "Upgrade today or check again in early 2024 for access": [
+        "Changez d'abonnement dès aujourd'hui ou vérifiez à nouveau début 2024 pour y accéder."
       ]
     }
   }

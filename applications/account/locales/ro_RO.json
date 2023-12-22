@@ -8018,6 +8018,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Abonamentul vă este gestionat de Mozilla. Contactați Mozilla pentru suport."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Pentru membrii organizației care folosesc conectarea unică (SAML SSO)"
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Organizația dvs. utilizează conectarea unică (SSO). Apăsați pe Conectare pentru a continua cu furnizorul propriu de conectare unică (SSO)."
       ]
     },
     "info": {

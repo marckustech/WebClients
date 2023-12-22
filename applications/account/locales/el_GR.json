@@ -7922,6 +7922,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Η συνδρομή σας διαχειρίζεται απο το Mozilla. Επικοινωνήστε με την υποστήριξη του Mozilla."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Για μέλη οργανισμών που χρησιμοποιούν καθολική σύνδεση (SAML SSO)"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "Τώρα διαθέσιμη σε έκδοση beta, η εφαρμογή για υπολογιστές σας επιτρέπει να εκκινήσετε εύκολα ${ MAIL_APP_NAME } απευθείας από την επιφάνεια εργασίας σας και να παραμένετε συγκεντρωμένοι χωρίς περισπασμούς του προγράμματος περιήγησης."
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Ο οργανισμός σας χρησιμοποιεί καθολική σύνδεση (SSO). Πατήστε Σύνδεση για να συνεχίσετε με τον πάροχο SSO σας."
       ]
     },
     "info": {
@@ -9230,6 +9239,9 @@
       ],
       "Your referral link": [
         "Ο σύνδεσμος παραπομπής σας"
+      ],
+      "Beta": [
+        "Beta (Δοκιμαστική)"
       ]
     },
     "label": {
@@ -14072,6 +14084,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Έχετε προσκληθεί να δοκιμάσετε το ${ MAIL_APP_NAME }"
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " Αποκτήστε ${ MAIL_APP_NAME } για Mac ή Windows"
+      ],
+      "Desktop app": [
+        "Εφαρμογή σταθερού υπολογιστή"
+      ],
+      "For ${ platform }": [
+        "Για ${ platform }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

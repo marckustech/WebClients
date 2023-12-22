@@ -1411,6 +1411,27 @@
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
         "儲存空間於${ BRAND_NAME }共用。"
+      ],
+      "Access blocked content and browse privately. Includes 3,000+ servers across 65+ countries, highest VPN speeds, access to worldwide streaming services, malware and ad-blocker, fast BitTorrent downloads, and more.": [
+        "存取遭封鎖的內容並保持隱私。使用遍佈於65+個國家的超過 3000 台伺服器，讓最快的 VPN 帶您暢享世上的串流平台，還有病毒與廣告攔截器、迅速的 BitTorrent 下載等多項功能可用。"
+      ],
+      "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
+        "在世界各地暢享串流服務的影音內容，包含 Netflix、Disney+、Prime Video 等平台。"
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "我們遍佈全世界的網路與伺服器助您翻過長城，免於審查。"
+      ],
+      "Secure logins on all your devices. Includes unlimited aliases, sharing, integrated 2FA, and more.": [
+        "在您所有的裝置安全登入。包含無限郵件別名、共享以及整合的 2FA等功能。"
+      ],
+      "Secure your emails and schedule with end-to-end encryption. Includes support for custom email domains, 15 email addresses, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "透過端對端加密保護您的電子郵件。包含自訂電子郵件網域、15 個電子郵件位址、無限的 hide-my-email 別名與行事曆共用等等的功能。"
+      ],
+      "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
+        "精心設計的 NetShield 保護您的裝置並攔截讓您變慢的廣告、追蹤程式與惡意軟體。"
+      ],
+      "Store up to 200 versions of each file for up to 10 years.": [
+        "包存最多200份檔案歷程記錄長達10年。"
       ]
     },
     "Billing cycle": {
@@ -3971,6 +3992,9 @@
       ],
       "Zero keys reactivated": [
         "重新啟動 0 把金鑰"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "您已達到此訊息的最大字元數。請縮短您的訊息。"
       ]
     },
     "Error importing calendar": {
@@ -4178,6 +4202,9 @@
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "我們無法載入此頁面。請重新整理頁面或檢查您的網際網路連線。"
+      ],
+      "App currently unavailable": [
+        "App 目前無法使用"
       ]
     },
     "Error message, Disable account": {
@@ -7637,6 +7664,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "您的訂購授權是由 Mozilla 管理。請聯絡 Mozilla 支援。"
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "目前不支援在這個瀏覽器中預覽這個類型的檔案。"
       ]
     },
     "info": {
@@ -14397,6 +14427,19 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "bf2023: Footer": {
+      "Discounts are based on standard monthly pricing.": [
+        "折扣是以每月標準價格為基礎。"
+      ],
+      "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
+        "您的訂閱將在您的結算週期結束時以相同的費率自動續訂。"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "使用 Easy Switch 匯入小幫手"
       ]
     }
   }

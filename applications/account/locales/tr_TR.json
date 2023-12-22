@@ -7919,6 +7919,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Aboneliğiniz Mozilla tarafından yönetiliyor. Lütfen Mozilla destek ekibi ile görüşün."
+      ],
+      "For members of organizations using single sign-on (SAML SSO)": [
+        "Tek oturum açma (SAML SSO) kullanan kuruluşların üyeleri için"
+      ],
+      "Now available in beta, the desktop app lets you conveniently launch ${ MAIL_APP_NAME } right from your desktop and stay focused with no browser distractions.": [
+        "Beta sürümü yayınlanmış olan ${ MAIL_APP_NAME } bilgisayar uygulamasını kullanarak, tarayıcıda dikkatinizi dağıtabilecek şeylerden etkilenmeden odaklanabilirsiniz."
+      ],
+      "Your organization uses single sign-on (SSO). Press Sign in to continue with your SSO provider.": [
+        "Kuruluşunuz tek oturum açma (SSO) kullanıyor. Tek oturum açma hizmeti sağlayıcınızı kullanmak için Oturum aç üzerine basın."
       ]
     },
     "info": {
@@ -9227,6 +9236,9 @@
       ],
       "Your referral link": [
         "Öneri bağlantınız"
+      ],
+      "Beta": [
+        "Beta"
       ]
     },
     "label": {
@@ -14069,6 +14081,15 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "${ MAIL_APP_NAME } uygulamasını denemeye davet edildiniz"
+      ],
+      " Get ${ MAIL_APP_NAME } for Mac or Windows": [
+        " Mac veya Windows için ${ MAIL_APP_NAME } uygulamasını edinin"
+      ],
+      "Desktop app": [
+        "Masaüstü uygulaması"
+      ],
+      "For ${ platform }": [
+        "${ platform } için"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

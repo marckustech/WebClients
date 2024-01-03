@@ -11441,7 +11441,7 @@
         "Wybierz, kto może uzyskać dostęp..."
       ],
       "Send to all": [
-        "Wyślij do wszystkich"
+        "Wysyłaj do wszystkich"
       ],
       "Setup incomplete": [
         "Konfiguracja niekompletna"
@@ -11451,6 +11451,12 @@
       ],
       "The whole organization": [
         "Cała organizacja"
+      ],
+      "Organization only": [
+        "Tylko w organizacji"
+      ],
+      "Receive from all": [
+        "Odbieraj od wszystkich"
       ]
     },
     "Option delay send seconds": {
@@ -11841,10 +11847,16 @@
         "Brak uprawnienia"
       ],
       "Send to all": [
-        "Wyślij do wszystkich"
+        "Wysyłaj do wszystkich"
       ],
       "Setup incomplete": [
         "Konfiguracja niekompletna"
+      ],
+      "Organization only": [
+        "Tylko w organizacji"
+      ],
+      "Receive from all": [
+        "Odbieraj od wszystkich"
       ]
     },
     "Personal calendar section description": {
@@ -12771,6 +12783,15 @@
       ],
       "Support online privacy": [
         "Wspieraj prywatność w Internecie"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } w wersji premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } i ${ appName2 } w wersji premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 }, ${ appName2 } i ${ appName3 } w wersji premium"
       ]
     },
     "specialoffer: Footer": {
@@ -15449,6 +15470,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Od: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Do: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Co ${ interval } miesiąc ${ onDayString }, ${ untilString }",
+        "Co ${ interval } miesiące ${ onDayString }, ${ untilString }",
+        "Co ${ interval } miesięcy ${ onDayString }, ${ untilString }",
+        "Co ${ interval } miesiąca ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Co miesiąc ${ onDayString }, ${ untilString }"
       ]
     }
   }

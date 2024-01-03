@@ -12789,6 +12789,15 @@
       ],
       "Support online privacy": [
         "Падтрыманне прыватнасці ў інтэрнэце"
+      ],
+      "Premium ${ appName1 }": [
+        "Прэміяльны ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Прэміяльны ${ appName1 } і ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Прэміяльны ${ appName1 }, ${ appName2 } і ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -15467,6 +15476,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Ад: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Каму: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Кожны ${ interval } месяц у ${ onDayString }, ${ untilString }",
+        "Кожныя ${ interval } месяцы ў ${ onDayString }, ${ untilString }",
+        "Кожныя ${ interval } месяцаў у ${ onDayString }, ${ untilString }",
+        "Кожныя ${ interval } месяцаў у ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Штомесяц ${ onDayString }, ${ untilString }"
       ]
     }
   }

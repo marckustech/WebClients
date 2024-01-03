@@ -11292,6 +11292,21 @@
       ],
       "Windows": [
         "Windows"
+      ],
+      "No permission": [
+        "Fără permisiune"
+      ],
+      "Organization only": [
+        "Doar de la organizație"
+      ],
+      "Receive from all": [
+        "Primire de la toți"
+      ],
+      "Send to all": [
+        "Trimitere către toți"
+      ],
+      "Setup incomplete": [
+        "Setare incompletă"
       ]
     },
     "Option delay send seconds": {
@@ -15056,6 +15071,23 @@
       ],
       "Yearly": [
         "Anual"
+      ]
+    },
+    "Permission": {
+      "No permission": [
+        "Fără permisiune"
+      ],
+      "Organization only": [
+        "Doar de la organizație"
+      ],
+      "Receive from all": [
+        "Primire de la toți"
+      ],
+      "Send to all": [
+        "Trimitere către toți"
+      ],
+      "Setup incomplete": [
+        "Setare incompletă"
       ]
     }
   }

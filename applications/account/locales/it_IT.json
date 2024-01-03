@@ -11630,10 +11630,10 @@
         "Solo organizzazione"
       ],
       "Receive from all": [
-        "Ricevi da tutti"
+        "Riceve da chiunque"
       ],
       "Send to all": [
-        "Invia a tutti"
+        "Invia a chiunque"
       ],
       "Setup incomplete": [
         "Configurazione incompleta"
@@ -12521,6 +12521,15 @@
       ],
       "Support online privacy": [
         "Supporta la privacy online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } e ${ appName2 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 }, ${ appName2 } e ${ appName3 } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -15075,6 +15084,23 @@
       ],
       "Yearly, ${ untilString }": [
         "Ogni anno, ${ untilString }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Da: ${ from }"
+      ],
+      "To: ${ to }": [
+        "A: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Ogni ${ interval } mese, ${ onDayString }, ${ untilString }",
+        "Ogni ${ interval } mesi, ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Ogni mese, ${ onDayString }, ${ untilString }"
       ]
     }
   }

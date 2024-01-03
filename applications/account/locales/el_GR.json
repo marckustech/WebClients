@@ -11147,6 +11147,21 @@
       ],
       "The whole organization": [
         "Ολόκληρος ο οργανισμός"
+      ],
+      "No permission": [
+        "Χωρίς δικαίωμα"
+      ],
+      "Organization only": [
+        "Μόνο στον Οργανισμό"
+      ],
+      "Receive from all": [
+        "Λήψη από όλους"
+      ],
+      "Send to all": [
+        "Αποστολή σε όλους"
+      ],
+      "Setup incomplete": [
+        "Η ρύθμιση δεν είναι ολοκληρωμένη"
       ]
     },
     "Option delay send seconds": {
@@ -14812,6 +14827,23 @@
       ],
       "Yearly": [
         "Ετησίως"
+      ]
+    },
+    "Permission": {
+      "No permission": [
+        "Χωρίς δικαίωμα"
+      ],
+      "Organization only": [
+        "Μόνο στον Οργανισμό"
+      ],
+      "Receive from all": [
+        "Λήψη από όλους"
+      ],
+      "Send to all": [
+        "Αποστολή σε όλους"
+      ],
+      "Setup incomplete": [
+        "Η ρύθμιση δεν είναι ολοκληρωμένη"
       ]
     }
   }

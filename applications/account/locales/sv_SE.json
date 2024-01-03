@@ -12506,6 +12506,15 @@
       ],
       "Support online privacy": [
         "Stöder integritet online"
+      ],
+      "Premium ${ appName1 }": [
+        "Premium ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium ${ appName1 } och ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } och ${ appName2 } och ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -15007,6 +15016,19 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Från: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Till: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Månadsvis ${ onDayString }, ${ untilString }"
       ]
     }
   }

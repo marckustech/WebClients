@@ -1185,6 +1185,9 @@
       ],
       "Zoom out": [
         "Zoom ud"
+      ],
+      "Clear selection": [
+        "Ryd valg"
       ]
     },
     "action": {
@@ -7561,6 +7564,20 @@
       ],
       "Up to 3 TB of storage": [
         "Op til 3 TB lagerplads"
+      ],
+      "${ n } calendar": [
+        "${ n } kalender",
+        "${ n } kalendere"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender pr. bruger",
+        "${ n } kalendere pr. bruger"
+      ],
+      "End-to-end encryption": [
+        "End-to-end kryptering"
+      ],
+      "Send & receive invitations": [
+        "Send og modtag invitationer"
       ]
     },
     "new_plans: feature info": {
@@ -10022,6 +10039,32 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Beskyt din planlægning med end-to-end kryptering. Inkluderer understøttelse af brugerdefinerede kalendere, kalenderdeling og mere."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Opret op til ${ n } kalender eller tilføj kalendere fra venner, familie, kollegaer og organisationer",
+        "Opret op til ${ n } kalendere eller tilføj kalendere fra venner, familie, kollegaer og organisationer"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Del nemt dine kalendere med din familie, venner eller kolleger"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Hold dine planer private for dig og din familie med en krypteret kalender"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Opret op til ${ n } kalender",
+        "Opret op til ${ n } kalendere"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Ingen resultater fundet"
       ]
     }
   }

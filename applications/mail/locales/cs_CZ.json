@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Clear selection": [
+        "Zrušit výběr"
       ]
     },
     "action": {
@@ -3759,6 +3762,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhledávání našlo příliš mnoho výsledků. Upřesněte hledání a zkuste to prosím znovu."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Vyberte datum v příštím ${ n } dni.",
+        "Vyberte datum v příštích ${ n } dnech.",
+        "Vyberte datum v příštích ${ n } dnech.",
+        "Vyberte datum v příštích ${ n } dnech."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3819,6 +3828,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Váš soubor ${ formattedFilename } není kalendář."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Váš soubor ${ formattedFilename } obsahuje více než ${ MAX_IMPORT_EVENTS } událost.",
+        "Váš soubor ${ formattedFilename } obsahuje více než ${ MAX_IMPORT_EVENTS } události.",
+        "Váš soubor ${ formattedFilename } obsahuje více než ${ MAX_IMPORT_EVENTS } událostí.",
+        "Váš soubor ${ formattedFilename } obsahuje více než ${ MAX_IMPORT_EVENTS } událostí."
       ]
     },
     "Error importing contact": {
@@ -6506,6 +6521,108 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefonní číslo bude použito pouze pro toto jednorázové ověření."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } konverzace bude označena jako:",
+        "${ elementsCount } konverzace budou označeny jako:",
+        "${ elementsCount } konverzací bude označeno jako:",
+        "${ elementsCount } konverzací bude označeno jako:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } konverzace bude označena jako přečtená.",
+        "${ elementsCount } konverzace budou označeny jako přečtené.",
+        "${ elementsCount } konverzací bude označeno jako přečtené.",
+        "${ elementsCount } konverzací bude označeno jako přečtené."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } konverzace bude označena jako nepřečtená.",
+        "${ elementsCount } konverzace budou označeny jako nepřečtené.",
+        "${ elementsCount } konverzací bude označeno jako nepřečtené.",
+        "${ elementsCount } konverzací bude označeno jako nepřečtené."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } konverzace bude přesunuta",
+        "${ elementsCount } konverzace budou přesunuty",
+        "${ elementsCount } konverzací bude přesunuto",
+        "${ elementsCount } konverzací bude přesunuto"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } zpráva bude označena jako:",
+        "${ elementsCount } zprávy budou označeny jako:",
+        "${ elementsCount } zpráv bude označeno jako:",
+        "${ elementsCount } zpráv bude označeno jako:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } zpráva bude označena jako přečtená.",
+        "${ elementsCount } zprávy budou označeny jako přečtené.",
+        "${ elementsCount } zpráv bude označeno jako přečtené.",
+        "${ elementsCount } zpráv bude označeno jako přečtené."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } zpráva bude označena jako nepřečtená.",
+        "${ elementsCount } zprávy budou označeny jako nepřečtené.",
+        "${ elementsCount } zpráv bude označeno jako nepřečtené.",
+        "${ elementsCount } zpráv bude označeno jako nepřečtené."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } zpráva bude přesunuta",
+        "${ elementsCount } zprávy budou přesunuty",
+        "${ elementsCount } zpráv bude přesunuto",
+        "${ elementsCount } zpráv bude přesunuto"
+      ],
+      "${ n } unread conversation": [
+        "${ n } nepřečtená konverzace",
+        "${ n } nepřečtené konverzace",
+        "${ n } nepřečtených konverzací",
+        "${ n } nepřečtených konverzací"
+      ],
+      "Clear selection": [
+        "Zrušit výběr"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Tato zpráva bude automaticky smazána v(ve) ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Platnost této zprávy vyprší v(ve) ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Platnost této zprávy vyprší dnes v(ve) ${ value }"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Platnost této zprávy vyprší zítra v(ve) ${ value }"
+      ],
+      "to ${ destinationElement } folder.": [
+        "do složky ${ destinationElement }."
+      ],
+      "You can now return to the application to continue": [
+        "Nyní se můžete vrátit do aplikace a pokračovat"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Máte ${ unread } v doručené poště."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Vybrali jste **${ elementsCount } konverzaci** v ${ location }",
+        "Vybrali jste **${ elementsCount } konverzace** v ${ location }",
+        "Vybrali jste **${ elementsCount } konverzací** v ${ location }",
+        "Vybrali jste **${ elementsCount } konverzací** v ${ location }"
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Vybrali jste **${ elementsCount } konverzaci**.",
+        "Vybrali jste **${ elementsCount } konverzace**.",
+        "Vybrali jste **${ elementsCount } konverzací**.",
+        "Vybrali jste **${ elementsCount } konverzací**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Vybrali jste **${ elementsCount } zprávu** v ${ location }",
+        "Vybrali jste **${ elementsCount } zprávy** v ${ location }",
+        "Vybrali jste **${ elementsCount } zpráv** v ${ location }",
+        "Vybrali jste **${ elementsCount } zpráv** v ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Vybrali jste **${ elementsCount } zprávu**.",
+        "Vybrali jste **${ elementsCount } zprávy**.",
+        "Vybrali jste **${ elementsCount } zpráv**.",
+        "Vybrali jste **${ elementsCount } zpráv**."
       ]
     },
     "info": {
@@ -7833,6 +7950,24 @@
       ],
       "Up to 3 TB of storage": [
         "Až 3 TB úložného prostoru"
+      ],
+      "${ n } calendar": [
+        "${ n } kalendář",
+        "${ n } kalendáře",
+        "${ n } kalendářů",
+        "${ n } kalendářů"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendář na uživatele",
+        "${ n } kalendáře na uživatele",
+        "${ n } kalendářů na uživatele",
+        "${ n } kalendářů na uživatele"
+      ],
+      "End-to-end encryption": [
+        "Koncové šifrování"
+      ],
+      "Send & receive invitations": [
+        "Odesílání a přijímání pozvánek"
       ]
     },
     "new_plans: feature info": {
@@ -8763,6 +8898,15 @@
       ],
       "Support online privacy": [
         "Podpořte online soukromí"
+      ],
+      "Premium ${ appName1 }": [
+        "Prémiové funkce ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Prémiové funkce ${ appName1 } a ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Prémiové funkce ${ appName1 }, ${ appName2 } a ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -9997,6 +10141,27 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Smazat ${ value }"
+      ],
+      "Mark conversations as read": [
+        "Označit konverzace jako přečtené"
+      ],
+      "Mark conversations as unread": [
+        "Označit konverzace jako nepřečtené"
+      ],
+      "Mark messages as read": [
+        "Označit zprávy jako přečtené"
+      ],
+      "Mark messages as unread": [
+        "Označit zprávy jako nepřečtené"
+      ],
+      "Move all conversations": [
+        "Přesunout všechny konverzace"
+      ],
+      "Move all messages": [
+        "Přesunout všechny zprávy"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10505,6 +10670,263 @@
       ],
       "Yearly, ${ untilString }": [
         "Roční, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Denně, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Každý ${ interval } den, ${ untilString }",
+        "Každé ${ interval } dny, ${ untilString }",
+        "Každých ${ interval } dnů, ${ untilString }",
+        "Každých ${ interval } dnů, ${ untilString }"
+      ]
+    },
+    "filter: Label": {
+      "the email was sent ${ label }": [
+        "e-mail byl odeslán ${ label }"
+      ],
+      "with attachments": [
+        "s přílohami"
+      ],
+      "without attachments": [
+        "bez příloh"
+      ]
+    },
+    "filter: Label, jt": {
+      "the email was sent ${ label }": [
+        "e-mail byl odeslán ${ label }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Od: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Komu: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Každý ${ interval } měsíc ${ onDayString }, ${ timesString }",
+        "Každé ${ interval } měsíce ${ onDayString }, ${ timesString }",
+        "Každých ${ interval } měsíců ${ onDayString }, ${ timesString }",
+        "Každých ${ interval } měsíců ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Měsíčně ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Každý ${ interval } měsíc ${ onDayString }, ${ untilString }",
+        "Každé ${ interval } měsíce ${ onDayString }, ${ untilString }",
+        "Každých ${ interval } měsíců ${ onDayString }, ${ untilString }",
+        "Každých ${ interval } měsíců ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Měsíčně ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Zabezpečte svůj tarif pomocí koncového šifrování. Obsahuje podporu vlastních kalendářů, sdílení kalendáře a další funkce."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Vytvořte až ${ n } kalendář nebo přidejte kalendáře přátel, rodiny, kolegů a organizací",
+        "Vytvořte až ${ n } kalendáře nebo přidejte kalendáře přátel, rodiny, kolegů a organizací",
+        "Vytvořte až ${ n } kalendářů nebo přidejte kalendáře přátel, rodiny, kolegů a organizací",
+        "Vytvořte až ${ n } kalendářů nebo přidejte kalendáře přátel, rodiny, kolegů a organizací"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Snadno sdílejte své kalendáře s rodinou, přáteli nebo kolegy"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Pomocí šifrovaného kalendáře uchovejte své plány v soukromí pouze pro sebe a svou rodinu"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Vytvořte až ${ n } kalendář",
+        "Vytvořte až ${ n } kalendáře",
+        "Vytvořte až ${ n } kalendářů",
+        "Vytvořte až ${ n } kalendářů"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Nebyly nalezeny žádné výsledky"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Každý ${ interval } týden v ${ multipleDaysString }, ${ timesString }",
+        "Každé ${ interval } týdny v ${ multipleDaysString }, ${ timesString }",
+        "Každých ${ interval } týdnů v ${ multipleDaysString }, ${ timesString }",
+        "Každých ${ interval } týdnů v ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Každý ${ interval } týden všechny dny, ${ timesString }",
+        "Každé ${ interval } týdny a všechny dny, ${ timesString }",
+        "Každých ${ interval } týdnů a všechny dny, ${ timesString }",
+        "Každých ${ interval } týdnů a všechny dny, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Každý ${ interval } týden v pátek, ${ timesString }",
+        "Každé ${ interval } týdny v pátek, ${ timesString }",
+        "Každých ${ interval } týdnů v pátek, ${ timesString }",
+        "Každých ${ interval } týdnů v pátek, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Každý ${ interval } týden v sobotu, ${ timesString }",
+        "Každé ${ interval } týdny v sobotu, ${ timesString }",
+        "Každých ${ interval } týdnů v sobotu, ${ timesString }",
+        "Každých ${ interval } týdnů v sobotu, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Každý ${ interval } týden ve čvrtek, ${ timesString }",
+        "Každé ${ interval } týdny ve čtvrtek, ${ timesString }",
+        "Každých ${ interval } týdnů ve čtvrtek, ${ timesString }",
+        "Každých ${ interval } týdnů ve čtvrtek, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Každý ${ interval } týden ve středu, ${ timesString }",
+        "Každé ${ interval } týdny ve středu, ${ timesString }",
+        "Každých ${ interval } týdnů ve středu, ${ timesString }",
+        "Každých ${ interval } týdnů ve středu, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Týdně v(ve) ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Týdně všechny dny, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Týdně v pátek, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Týdně v pondělí, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Týdně v sobotu, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Týdně v neděli, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Týdně ve čtvrtek, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Týdně v úterý, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Týdně ve středu, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Každý ${ interval } týden v ${ multipleDaysString }, ${ untilString }",
+        "Každých ${ interval } týdnů v ${ multipleDaysString }, ${ untilString }",
+        "Každých ${ interval } týdnů v ${ multipleDaysString }, ${ untilString }",
+        "Každých ${ interval } týdnů v ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Každý ${ interval } týden všechny dny, ${ untilString }",
+        "Každé ${ interval } týdny a všechny dny, ${ untilString }",
+        "Každých ${ interval } týdnů všechny dny, ${ untilString }",
+        "Každých ${ interval } týdnů všechny dny, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Každý ${ interval } týden v pátek, ${ untilString }",
+        "Každé ${ interval } týdny v pátek, ${ untilString }",
+        "Každých ${ interval } týdnů v pátek, ${ untilString }",
+        "Každých ${ interval } týdnů v pátek, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Každý ${ interval } týden v pondělí, ${ untilString }",
+        "Každé ${ interval } týdny v pondělí, ${ untilString }",
+        "Každých ${ interval } týdnů v pondělí, ${ untilString }",
+        "Každých ${ interval } týdnů v pondělí, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Každý ${ interval } týden v sobotu, ${ untilString }",
+        "Každé ${ interval } týdny v sobotu, ${ untilString }",
+        "Každých ${ interval } týdnů v sobotu, ${ untilString }",
+        "Každých ${ interval } týdnů v sobotu, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Každý ${ interval } týden v neděli, ${ untilString }",
+        "Každé ${ interval } týdny v neděli, ${ untilString }",
+        "Každých ${ interval } týdnů v neděli, ${ untilString }",
+        "Každých ${ interval } týdnů v neděli, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Každý ${ interval } týden ve čvrtek, ${ untilString }",
+        "Každé ${ interval } týdny ve čtvrtek, ${ untilString }",
+        "Každých ${ interval } týdnů ve čtvrtek, ${ untilString }",
+        "Každých ${ interval } týdnů ve čtvrtek, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Každý ${ interval } týden v úterý, ${ untilString }",
+        "Každé ${ interval } týdny v úterý, ${ untilString }",
+        "Každých ${ interval } týdnů v úterý, ${ untilString }",
+        "Každých ${ interval } týdnů v úterý, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Každý ${ interval } týden ve středu, ${ untilString }",
+        "Každé ${ interval } týdny ve středu, ${ untilString }",
+        "Každých ${ interval } týdnů ve středu, ${ untilString }",
+        "Každých ${ interval } týdnů ve středu, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Týdně v(ve) ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Týdně všechny dny, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Týdně v pátek, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Týdně v pondělí, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Týdně v sobotu, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Týdně v neděli, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Týdně ve čtvrtek, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Týdně v úterý, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Týdně ve středu, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Každý ${ interval } rok, ${ timesString }",
+        "Každé ${ interval } roky, ${ timesString }",
+        "Každých ${ interval } let, ${ timesString }",
+        "Každých ${ interval } let, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Ročně, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Každý ${ interval } rok, ${ untilString }",
+        "Každé ${ interval } roky, ${ untilString }",
+        "Každých ${ interval } let, ${ untilString }",
+        "Každých ${ interval } let, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Ročně, ${ untilString }"
       ]
     }
   }

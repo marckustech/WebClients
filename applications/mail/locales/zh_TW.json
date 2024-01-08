@@ -1179,6 +1179,9 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Clear selection": [
+        "清除選擇"
       ]
     },
     "action": {
@@ -3058,6 +3061,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "您可以把既不合併也不保留的聯絡人標記為刪除。唯有在點擊「合併」按鈕時，才會執行刪除"
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "當升級方案以解鎖自訂延後時間。"
       ]
     },
     "description": {
@@ -3202,6 +3208,18 @@
     "eoy2023: Deal details": {
       "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
         "${ MAIL_SHORT_APP_NAME }付費及${ CALENDAR_APP_NAME }功能"
+      ],
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 位使用者"
+      ],
+      "Early access to new apps and features": [
+        "搶先體驗新應用程式與功能"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "提早存取${ MAIL_APP_NAME }桌面應用程式"
       ]
     },
     "Error": {
@@ -3612,6 +3630,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "搜尋結果過多。請縮小您的搜尋範圍並重新試試。"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "未知錯誤，無法匯入聯絡人"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3830,6 +3851,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "您尚未有任何聯絡人。立即開始創建一個新的聯絡人"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "切換至網頁版，以使用${ MAIL_APP_NAME }或${ CALENDAR_APP_NAME }。"
       ]
     },
     "Error notification": {
@@ -6095,6 +6119,21 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "您的手機號碼只會用於此一次性驗證。"
+      ],
+      "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
+        "帶有此標籤${ nameDeleted }的電子郵件不會被刪除，仍可在對應的資料夾中找到。"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "延後至${ formattedTime }於${ dateString }"
+      ],
+      "Snoozed until today, ${ formattedTime }": [
+        "延後至今天，${ formattedTime }"
+      ],
+      "Snoozed until tomorrow, ${ formattedTime }": [
+        "延後至明天，${ formattedTime }"
+      ],
+      "Snoozing this conversation will be cancelled.": [
+        "延後對話內容將取消。"
       ]
     },
     "info": {
@@ -7359,6 +7398,18 @@
       ],
       "Up to 3 TB of storage": [
         "多達 3 TB的儲存空間"
+      ],
+      "${ n } calendars": [
+        "${ n } 個行事曆"
+      ],
+      "${ n } calendars per user": [
+        "${ n } 個行事曆分配給每位使用者"
+      ],
+      "End-to-end encryption": [
+        "端對端加密"
+      ],
+      "Send & receive invitations": [
+        "傳送並接收邀請"
       ]
     },
     "new_plans: feature info": {
@@ -7373,6 +7424,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "使用您擁有的自訂電子郵件網域位址，例如 you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "延後訊息急於想要時獲得通知"
       ]
     },
     "new_plans: label": {
@@ -7447,6 +7501,9 @@
       ],
       "Skip": [
         "跳過"
+      ],
+      "Next": [
+        "下一步"
       ]
     },
     "Onboarding Proton": {
@@ -8609,6 +8666,9 @@
       ],
       "Verification successful": [
         "驗證成功"
+      ],
+      "${ elementsCount } conversations unsnoozed": [
+        "${ elementsCount }對話內容取消暫停"
       ]
     },
     "Success notification": {
@@ -9286,6 +9346,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免費方案將於 ${ textDate } 結束"
+      ],
+      "Moving a snoozed message": [
+        "移動已延後程的訊息"
+      ],
+      "Want to snooze any time?": [
+        "想隨時延後?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9689,6 +9755,45 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "付費${ DRIVE_SHORT_APP_NAME }，${ VPN_SHORT_APP_NAME }及${ PASS_SHORT_APP_NAME }功能"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "寄件者"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "收件者"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }：透過端對端加密保護您的行程安排。包括對自訂行事曆、行事曆共用等的支援。"
+      ],
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "創建多達 ${ n } 個行事曆或新增好友、家人、同事和組織的行事曆"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "輕鬆與您的家人、好友或同事分享您的行事曆"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "使用加密日曆讓您的方案對您和您的家人保密"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "創建多達 ${ n } 個行事曆"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "查無結果"
       ]
     }
   }

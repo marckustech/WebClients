@@ -1170,6 +1170,9 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Continue with Outlook": [
+        "Продовжити з Outlook"
       ]
     },
     "action": {
@@ -1342,6 +1345,9 @@
       ],
       "Premium Password Manager": [
         "Premium Менеджер паролів"
+      ],
+      "High speed streaming": [
+        "Перегляд трансляцій на високій швидкості"
       ]
     },
     "bf2023: Footer": {
@@ -3161,6 +3167,9 @@
     "eoy2023: Deal details": {
       "6 TB": [
         "6 ТБ"
+      ],
+      "6 users": [
+        "6 користувачів"
       ]
     },
     "Error": {
@@ -7561,6 +7570,24 @@
       ],
       "Up to 3 TB of storage": [
         "До 3 ТБ сховища"
+      ],
+      "${ n } calendar": [
+        "${ n } календар",
+        "${ n } календарі",
+        "${ n } календарів",
+        "${ n } календарів"
+      ],
+      "${ n } calendar per user": [
+        "${ n } календар на користувача",
+        "${ n } календарі на користувача",
+        "${ n } календарів на користувача",
+        "${ n } календарів на користувача"
+      ],
+      "End-to-end encryption": [
+        "Наскрізне шифрування"
+      ],
+      "Send & receive invitations": [
+        "Надсилайте й отримуйте запрошення"
       ]
     },
     "new_plans: feature info": {
@@ -9501,6 +9528,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Delete folder?": [
+        "Видалити теку?"
+      ],
+      "Delete label?": [
+        "Видалити мітку?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9580,6 +9613,9 @@
       ],
       "You do not have any contacts to export": [
         "У вас немає контактів для експорту"
+      ],
+      "Load image": [
+        "Завантажити зображення"
       ]
     },
     "Tor out of date": {
@@ -9993,6 +10029,120 @@
       "Yearly, ${ timesString }": [
         "Щороку, ${ timesString }"
       ],
+      "Yearly, ${ untilString }": [
+        "Щороку, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Щодня, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Щодня, ${ untilString }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Щомісяця ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Створіть максимум ${ n } календар або додайте календарі друзів, рідних, колег та організацій",
+        "Створіть максимум ${ n } календарі або додайте календарі друзів, рідних, колег та організацій",
+        "Створіть максимум ${ n } календарів або додайте календарі друзів, рідних, колег та організацій",
+        "Створіть максимум ${ n } календарів або додайте календарі друзів, рідних, колег та організацій"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Легко діліться календарями з родиною, друзями чи колегами"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Захистіть приватність власних і родинних планів, користуючись зашифрованим календарем"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Створіть до ${ n } календаря",
+        "Створіть до ${ n } календарів",
+        "Створіть до ${ n } календарів",
+        "Створіть до ${ n } календарів"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Результатів не знайдено"
+      ]
+    },
+    "session_recovery:available:link": {
+      "See how": [
+        "Подивитись як"
+      ]
+    },
+    "session_recovery:sign_out:link": {
+      "Password reset": [
+        "Скидання пароля"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Weekly on all days, ${ timesString }": [
+        "Щотижня кожного дня, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Щоп'ятниці, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Щопонеділка, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Щосуботи, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Щонеділі, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Щочетверга, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Щовівторка, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Щосереди, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Weekly on all days, ${ untilString }": [
+        "Щотижня кожного дня, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Щоп'ятниці, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Щопонеділка, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Щосуботи, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Щонеділі, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Щочетверга, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Щовівторка, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Щосереди, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Yearly, ${ timesString }": [
+        "Щороку, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
       ]

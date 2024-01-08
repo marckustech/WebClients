@@ -1170,6 +1170,9 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Clear selection": [
+        "Kijelölés megszüntetése "
       ]
     },
     "action": {
@@ -7382,6 +7385,20 @@
       ],
       "Up to 3 TB of storage": [
         "Akár 3 TB tárhely"
+      ],
+      "${ n } calendar": [
+        "${ n } naptár",
+        "${ n } naptár"
+      ],
+      "${ n } calendar per user": [
+        "${ n } naptár felhasználónként",
+        "${ n } naptár felhasználónként"
+      ],
+      "End-to-end encryption": [
+        "Végpontok közti titkosítás"
+      ],
+      "Send & receive invitations": [
+        "Meghívók küldése és fogadása"
       ]
     },
     "new_plans: feature info": {
@@ -9735,6 +9752,23 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Hozzon létre akár ${ n } naptárat, vagy vegyen fel naptárakat a barátaitól, családtagoktól, kollégáktól és szervezetektől",
+        "Hozzon létre akár ${ n } naptárat, vagy vegyen fel naptárakat a barátaitól, családtagoktól, kollégáktól és szervezetektől"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Akár ${ n } naptár létrehozása",
+        "Akár ${ n } naptár létrehozása"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Nincs találat"
       ]
     }
   }

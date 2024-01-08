@@ -5432,6 +5432,19 @@
       ],
       "Unlimited folders, labels, and filters": [
         "Neograničen broj mapa, oznaka i filtara"
+      ],
+      "${ n } calendar": [
+        "${ n } kalendar",
+        "${ n } kalendara",
+        "${ n } kalendara"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendar po korisniku",
+        "${ n } kalendara po korisniku",
+        "${ n } kalendara po korisniku"
+      ],
+      "End-to-end encryption": [
+        "Krajnje do krajnje šifriranje"
       ]
     },
     "new_plans: placeholder": {
@@ -7185,6 +7198,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Nema rezultata"
       ]
     }
   }

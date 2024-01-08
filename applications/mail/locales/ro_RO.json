@@ -1191,6 +1191,9 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Clear selection": [
+        "Golire selectate"
       ]
     },
     "action": {
@@ -7682,6 +7685,22 @@
       ],
       "Up to 3 TB of storage": [
         "Până la 3 TiB spațiu de stocare"
+      ],
+      "${ n } calendar": [
+        "${ n } calendar",
+        "${ n } calendare",
+        "${ n } de calendare"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendar per utilizator",
+        "${ n } calendare per utilizator",
+        "${ n } de calendare per utilizator"
+      ],
+      "End-to-end encryption": [
+        "Criptare bilaterală"
+      ],
+      "Send & receive invitations": [
+        "Trimiteți și primiți invitații"
       ]
     },
     "new_plans: feature info": {
@@ -10247,6 +10266,34 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Asigurați-vă programul cu criptare bilaterală. Include suport pentru calendare personalizate, calendare partajate și multe altele."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Creați până la ${ n } calendar sau adăugați calendare de la prieteni, familie, colegi și organizații",
+        "Creați până la ${ n } calendare sau adăugați calendare de la prieteni, familie, colegi și organizații",
+        "Creați până la ${ n } de calendare sau adăugați calendare de la prieteni, familie, colegi și organizații"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Partajați calendarele ușor cu familia, prietenii sau colegii."
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Păstrați-vă private propriile planuri și ale familiei cu calendarul criptat"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Creați maxim ${ n } calendar",
+        "Creați până la ${ n } calendare",
+        "Creați până la ${ n } de calendare"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Nu s-au găsit rezultate"
       ]
     }
   }

@@ -66,6 +66,12 @@
       ],
       "Upgrade to automatically delete messages that have been in trash and spam for more than 30 days.": [
         "Upgrade to automatically delete messages that have been in Trash or Spam for more than 30 days."
+      ],
+      "Any subfolders will also be deleted. However, emails stored in this folder ${ nameDeleted } will not be deleted and can be found in All Mail folder.": [
+        "Any subfolders will also be deleted. However, emails stored in the folder ${ nameDeleted } will not be deleted and can be found in All Mail folder."
+      ],
+      "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
+        "Emails tagged with the label ${ nameDeleted } will not be deleted and can still be found in the respective folder."
       ]
     },
     "Label": {
@@ -95,6 +101,12 @@
     "Tor out of date": {
       "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
         "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
+      ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Includes support for ${ domains } custom email domain, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.",
+        "Includes support for ${ domains } custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more."
       ]
     }
   }

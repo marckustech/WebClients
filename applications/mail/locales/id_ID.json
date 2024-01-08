@@ -1179,6 +1179,9 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Clear selection": [
+        "Hapus pilihan"
       ]
     },
     "action": {
@@ -3672,6 +3675,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Pencarian Anda membuahkan terlalu banyak hasil. Harap persempit kriteria pencarian Anda dan coba lagi."
+      ],
+      "Choose a date within the next ${ n } days.": [
+        "Pilih tanggal yang berada dalam rentang ${ n } hari ke depan."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3726,6 +3732,9 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Berkas ${ formattedFilename } bukan merupakan kalender."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } events.": [
+        "Berkas ${ formattedFilename } milik Anda mengandung lebih dari ${ MAX_IMPORT_EVENTS } acara."
       ]
     },
     "Error importing contact": {
@@ -6176,6 +6185,90 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Nomor telepon Anda hanya akan dipakai satu kali ini untuk keperluan verifikasi."
+      ],
+      "${ elementsCount } conversations will be labelled as:": [
+        "${ elementsCount } percakapan akan dilabeli sebagai:"
+      ],
+      "${ elementsCount } conversations will be marked as read.": [
+        "${ elementsCount } percakapan akan ditandai sebagai telah dibaca."
+      ],
+      "${ elementsCount } conversations will be marked as unread.": [
+        "${ elementsCount } percakapan akan ditandai sebagai belum dibaca."
+      ],
+      "${ elementsCount } conversations will be moved": [
+        "${ elementsCount } percakapan akan dipindahkan"
+      ],
+      "${ elementsCount } conversations will be unlabelled from:": [
+        "${ elementsCount } percakapan tidak akan dilabeli sebagai:"
+      ],
+      "${ elementsCount } messages will be labelled as:": [
+        "${ elementsCount } pesan akan dilabeli sebagai:"
+      ],
+      "${ elementsCount } messages will be marked as read.": [
+        "${ elementsCount } pesan akan ditandai sebagai telah dibaca."
+      ],
+      "${ elementsCount } messages will be marked as unread.": [
+        "${ elementsCount } pesan akan ditandai sebagai belum dibaca."
+      ],
+      "${ elementsCount } messages will be moved": [
+        "${ elementsCount } pesan akan dipindahkan"
+      ],
+      "${ elementsCount } messages will be unlabelled from:": [
+        "${ elementsCount } pesan tidak akan lagi dilabeli sebagai:"
+      ],
+      "${ n } unread conversations": [
+        "${ n } percakapan yang belum dibaca"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Seluruh pesan yang terjadwal atau ditunda akan dibatalkan."
+      ],
+      "Applying actions to conversations": [
+        "Menerapkan tindakan pada percakapan"
+      ],
+      "Applying actions to messages": [
+        "Menerapkan tindakan pada pesan"
+      ],
+      "Clear selection": [
+        "Hapus pilihan"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Tindakan pesan sedang berlangsung. Proses ini dapat memakan waktu sejenak."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Pilih seluruh ${ elementsCount } pada ${ location }"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Pesan ini akan dihapus secara otomatis pada ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Pesan ini akan kedaluwarsa pada ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Pesan ini akan kedaluwarsa hari ini pada pukul ${ value }"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Pesan ini akan kedaluwarsa besok pada pukul ${ value }"
+      ],
+      "to ${ destinationElement } folder.": [
+        "ke folder ${ destinationElement }."
+      ],
+      "You can now return to the application to continue": [
+        "Anda kini dapat kembali ke aplikasi untuk melanjutkan"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Anda memiliki ${ unread } pada kotak masuk Anda."
+      ],
+      "You selected **${ elementsCount } conversations** in ${ location }": [
+        "Anda memilih **${ elementsCount } percakapan** pada ${ location }."
+      ],
+      "You selected **${ elementsCount } conversations**.": [
+        "Anda memilih **${ elementsCount } percakapan**."
+      ],
+      "You selected **${ elementsCount } messages** in ${ location }": [
+        "Anda memilih **${ elementsCount } pesan** pada ${ location }."
+      ],
+      "You selected **${ elementsCount } messages**.": [
+        "Anda memilih **${ elementsCount } pesan**,"
       ]
     },
     "info": {
@@ -7461,6 +7554,18 @@
       ],
       "Up to 3 TB of storage": [
         "Kuota penyimpanan hingga 3 TB"
+      ],
+      "${ n } calendars": [
+        "${ n } kalender"
+      ],
+      "${ n } calendars per user": [
+        "${ n } kalender per pengguna"
+      ],
+      "End-to-end encryption": [
+        "Enkripsi end-to-end"
+      ],
+      "Send & receive invitations": [
+        "Kirim & terima undangan"
       ]
     },
     "new_plans: feature info": {
@@ -7635,6 +7740,9 @@
       ],
       "No parent folder": [
         "Tidak ada folder induk"
+      ],
+      "Automatic (${ value })": [
+        "Otomatis (${ value })"
       ]
     },
     "Option group": {
@@ -7775,6 +7883,9 @@
       ],
       "Type text or keyword": [
         "Ketik teks atau kata kunci"
+      ],
+      "Search parent folder": [
+        "Cari pada folder induk"
       ]
     },
     "Placeholder for contact group name": {
@@ -8249,7 +8360,7 @@
     },
     "specialoffer: Action, Unlimited is a plan name": {
       "Go Unlimited": [
-        "Dapatkan yang Tidak Terbatas"
+        "Dapatkan Unlimited"
       ]
     },
     "specialoffer: Countdown unit": {
@@ -8313,6 +8424,15 @@
       ],
       "Support online privacy": [
         "Dukung privasi daring"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } Premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } & ${ appName2 } Premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 } & ${ appName2 } & ${ appName3 } Premium"
       ]
     },
     "specialoffer: Footer": {
@@ -9412,6 +9532,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uji coba Mail Plus Anda akan berakhir pada ${ textDate }"
+      ],
+      "Action all conversations": [
+        "Terapkan pada seluruh percakapan"
+      ],
+      "Action all messages": [
+        "Terapkan pada seluruh pesan"
+      ],
+      "Delete ${ value }": [
+        "Hapus ${ value }"
+      ],
+      "Mark conversations as read": [
+        "Tandai percakapan sebagai telah dibaca"
+      ],
+      "Mark conversations as unread": [
+        "Tandai percakapan sebagai belum dibaca"
+      ],
+      "Mark messages as read": [
+        "Tandai pesan sebagai telah dibaca"
+      ],
+      "Mark messages as unread": [
+        "Tandai pesan sebagai belum dibaca"
+      ],
+      "Move all conversations": [
+        "Pindahkan seluruh percakapan"
+      ],
+      "Move all messages": [
+        "Pindahkan seluruh pesan"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9624,7 +9771,7 @@
         "Setiap ${ interval } minggu pada ${ multipleDaysString }, ${ untilString }"
       ],
       "Every ${ interval } weeks on all days": [
-        "Setiap ${ interval } minggu pada semua hari"
+        "Setiap ${ interval } minggu pada seluruh hari"
       ],
       "Every ${ interval } weeks on all days, ${ timesString }": [
         "Setiap ${ interval } minggu pada semua hari, ${ timesString }"
@@ -9815,6 +9962,197 @@
       ],
       "Yearly, ${ timesString }": [
         "Tahunan, ${ timesString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Tahunan, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Harian, ${ untilString }"
+      ],
+      "Every ${ interval } days, ${ untilString }": [
+        "Setiap ${ interval } hari, ${ untilString }"
+      ]
+    },
+    "filter: Label": {
+      "the email was sent ${ label }": [
+        "email terkirim ${ label }"
+      ],
+      "with attachments": [
+        "dengan lampiran"
+      ],
+      "without attachments": [
+        "tanpa lampiran"
+      ]
+    },
+    "filter: Label, jt": {
+      "the email was sent ${ label }": [
+        "email terkirim ${ label }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Dari: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Kepada: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } months ${ onDayString }, ${ timesString }": [
+        "Setiap ${ interval } bulan ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Bulanan ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } months ${ onDayString }, ${ untilString }": [
+        "Setiap ${ interval } bulan ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Bulanan ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Amankan jadwal Anda dengan enkripsi ujung ke ujung. Meliputi dukungan untuk kalender khusus, fitur berbagi kalender, dan masih banyak lagi."
+      ],
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "Buat hingga ${ n } kalender atau tambahkan kalender dari teman, keluarga, rekan kerja, dan organisasi Anda"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Bagikan kalender Anda dengan keluarga, teman, atau rekan kerja Anda secara mudah"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Jaga agar rencana Anda tetap menjadi rahasia antara Anda dan keluarga dengan kalender yang terenkripsi"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "Buat hingga ${ n } kalender"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Hasil tidak ditemukan"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ timesString }": [
+        "Setiap ${ interval } pekan pada ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ timesString }": [
+        "Setiap ${ interval } pekan pada seluruh hari, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ timesString }": [
+        "Setiap ${ interval } pekan pada hari Jumat, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ timesString }": [
+        "Setiap ${ interval } pekan pada hari Sabtu, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ timesString }": [
+        "Setiap ${ interval } pekan pada hari Kamis, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ timesString }": [
+        "Setiap ${ interval } pekan pada hari Rabu, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Mingguan pada ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Mingguan pada seluruh hari, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Mingguan pada hari Jumat, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Mingguan pada hari Senin, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Mingguan pada hari Sabtu, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Mingguan pada hari Minggu, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Mingguan pada hari Kamis, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Mingguan pada hari Selasa, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Mingguan pada hari Rabu, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ untilString }": [
+        "Setiap ${ interval } pekan pada ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ untilString }": [
+        "Setiap ${ interval } pekan pada seluruh hari, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Jumat, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Monday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Senin, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Sabtu, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Sunday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Minggu, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Kamis, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Tuesday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Selasa, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ untilString }": [
+        "Setiap ${ interval } pekan pada hari Rabu, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Mingguan pada ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Mingguan pada seluruh hari, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Mingguan pada hari Jumat, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Mingguan pada hari Senin, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Mingguan pada hari Sabtu, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Mingguan pada hari Minggu, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Mingguan pada hari Kamis, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Mingguan pada hari Selasa, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Mingguan pada hari Rabu, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } years, ${ timesString }": [
+        "Setiap ${ interval } tahun, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Tahunan, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } years, ${ untilString }": [
+        "Setiap ${ interval } tahun, ${ untilString }"
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"

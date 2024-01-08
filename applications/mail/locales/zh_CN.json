@@ -1164,6 +1164,9 @@
       ],
       "Zoom out": [
         "缩小"
+      ],
+      "Clear selection": [
+        "清空选项"
       ]
     },
     "action": {
@@ -7217,6 +7220,18 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "${ n } calendars": [
+        "${ n } 个日历"
+      ],
+      "${ n } calendars per user": [
+        "每位用户 ${ n } 个日历"
+      ],
+      "End-to-end encryption": [
+        "端到端加密"
+      ],
+      "Send & receive invitations": [
+        "发送和接收邀请"
       ]
     },
     "new_plans: feature info": {
@@ -7305,6 +7320,9 @@
       ],
       "Skip": [
         "跳过"
+      ],
+      "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
+        "极致的加密技术，只有您和目标收件人能够阅读邮件内容。${ kbLinkEncryption }"
       ]
     },
     "Onboarding Proton": {
@@ -7319,6 +7337,9 @@
       ],
       "Set up your organization": [
         "填写机构信息"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "通过左上角的切换按钮可以前往所有 ${ BRAND_NAME } 服务：${ MAIL_SHORT_APP_NAME }、${ VPN_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME }、${ DRIVE_SHORT_APP_NAME } 且 ${ PASS_SHORT_APP_NAME }。"
       ]
     },
     "Online accounts": {
@@ -9159,6 +9180,9 @@
       ],
       "You do not have any contacts to export": [
         "您没有任何联系人可导出"
+      ],
+      "Load image": [
+        "加载图片"
       ]
     },
     "Tor out of date": {
@@ -9472,6 +9496,42 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Every ${ interval } days, ${ timesString }": [
+        "每 ${ interval } 天，${ timesString }"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 位用户"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folders selected": [
+        "已选择 ${ selectedFoldersCount } 个文件夹"
+      ],
+      "${ selectedFoldersCount } labels selected": [
+        "已选择 ${ selectedFoldersCount } 个标签"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "创建多达 ${ n } 份日历或添加朋友、家人、同事、企业分享的日历"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "创建最多 ${ n } 个日历"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "未找到结果"
       ]
     }
   }

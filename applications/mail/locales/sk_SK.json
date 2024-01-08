@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Clear selection": [
+        "Zrušiť výber"
       ]
     },
     "action": {
@@ -1416,7 +1419,7 @@
         "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailovú adresu, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
         "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailové adresy, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
         "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailových adries, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie.",
-        "Obsahuje podporu pre ${ domains } vlastné emailové domény, ${ addresses } emailových adries, neobmedzené množstvo ide-my-email aliasov, zdieľanie kalendára a ďalšie."
+        "Obsahuje podporu ${ domains } vlastných emailových domén, ${ addresses } emailových adries, neobmedzené množstvo hide-my-email aliasov, zdieľanie kalendára a ďalšie."
       ],
       "Includes support for 1 custom email domain, 10 email addresses, 10 hide-my-email aliases, calendar sharing, and more.": [
         "Zahŕňa podporu pre 1 vlastnú emailovú doménu, 10 emailových adries, 10 hide-my-email aliasov, zdieľanie kalendára a ďalšie."
@@ -3803,6 +3806,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Váš súbor ${ formattedFilename } nie je kalendár."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Váš súbor ${ formattedFilename } obsahuje viac ako ${ MAX_IMPORT_EVENTS } udalosť.",
+        "Váš súbor ${ formattedFilename } obsahuje viac ako ${ MAX_IMPORT_EVENTS } udalosti.",
+        "Váš súbor ${ formattedFilename } obsahuje viac ako ${ MAX_IMPORT_EVENTS } udalostí.",
+        "Váš súbor ${ formattedFilename } obsahuje viac ako ${ MAX_IMPORT_EVENTS } udalostí."
       ]
     },
     "Error importing contact": {
@@ -6481,6 +6490,15 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefónne číslo bude použité iba pre toto jednorazové overenie."
+      ],
+      "Any subfolders will also be deleted. However, emails stored in this folder ${ nameDeleted } will not be deleted and can be found in All Mail folder.": [
+        "Budú odstránené aj všetky podpriečinky. Emaily uložené v priečinku ${ nameDeleted } sa však neodstránia a nájdete ich v priečinku Všetka pošta."
+      ],
+      "Are you sure you want to delete this folder?": [
+        "Naozaj chcete odstrániť tento priečinok?"
+      ],
+      "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
+        "Emaily označené štítkom ${ nameDeleted } nebudú vymazané a je možné ich stále nájsť v príslušnom priečinku."
       ]
     },
     "info": {
@@ -7794,6 +7812,24 @@
       ],
       "Up to 3 TB of storage": [
         "Až do 3 TB úložiska"
+      ],
+      "${ n } calendar": [
+        "${ n } kalendár",
+        "${ n } kalendáre",
+        "${ n } kalendárov",
+        "${ n } kalendárov"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalendár na používateľa",
+        "${ n } kalendáre na používateľa",
+        "${ n } kalendárov na používateľa",
+        "${ n } kalendárov na používateľa"
+      ],
+      "End-to-end encryption": [
+        "Šifrovanie End-to-end"
+      ],
+      "Send & receive invitations": [
+        "Odosielanie a prijímanie pozvánok"
       ]
     },
     "new_plans: feature info": {
@@ -9958,6 +9994,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Vymazať ${ value }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10463,6 +10502,124 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Every ${ interval } day, ${ timesString }": [
+        "Každý ${ interval } deň, ${ timesString }",
+        "Každé ${ interval } dni, ${ timesString }",
+        "Každých ${ interval } dní, ${ timesString }",
+        "Každých ${ interval } dní, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Every ${ interval } day, ${ untilString }": [
+        "Každý ${ interval } deň, ${ untilString }",
+        "Každé ${ interval } dni, ${ untilString }",
+        "Každých ${ interval } dní, ${ untilString }",
+        "Každých ${ interval } dní, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } vybratá zložka",
+        "${ selectedFoldersCount } vybraté zložky",
+        "${ selectedFoldersCount } vybratých zložiek",
+        "${ selectedFoldersCount } vybratých zložiek"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "${ selectedFoldersCount } vybratý štítok",
+        "${ selectedFoldersCount } vybraté štítky",
+        "${ selectedFoldersCount } vybratých štítkov",
+        "${ selectedFoldersCount } vybratých štítkov"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Zabezpečte svoj kalendár pomocou end-to-end šifrovania. Súčasťou je podpora vlastných kalendárov, zdieľanie kalendára a ďalšie funkcie."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Vytvorte si ${ n } kalendár alebo pridajte kalendáre od priateľov, rodiny, kolegov a organizácií",
+        "Vytvorte si až ${ n } kalendáre alebo pridajte kalendáre od priateľov, rodiny, kolegov a organizácií",
+        "Vytvorte si až ${ n } kalendárov alebo pridajte kalendáre od priateľov, rodiny, kolegov a organizácií",
+        "Vytvorte si až ${ n } kalendárov alebo pridajte kalendáre od priateľov, rodiny, kolegov a organizácií"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Svoje kalendáre zdieľajte jednoducho s rodinou, priateľmi alebo kolegami"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Udržujte svoje plány v súkromí pre seba a svoju rodinu pomocou šifrovaného kalendára"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Vytvorte až ${ n } kalendár",
+        "Vytvorte až ${ n } kalendáre",
+        "Vytvorte až ${ n } kalendárov",
+        "Vytvorte až ${ n } kalendárov"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Neboli nájdené žiadne výsledky"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Každý ${ interval } týždeň v ${ multipleDaysString }, ${ timesString }",
+        "Každé ${ interval } týždne v ${ multipleDaysString }, ${ timesString }",
+        "Každých ${ interval } týždňov v ${ multipleDaysString }, ${ timesString }",
+        "Každých ${ interval } týždňov v ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Každý ${ interval } týždeň vo všetky dni, ${ timesString }",
+        "Každé ${ interval } týždne vo všetky dni, ${ timesString }",
+        "Každých ${ interval } týždňov vo všetky dni, ${ timesString }",
+        "Každých ${ interval } týždňov vo všetky dni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Každý ${ interval } týždeň v piatok, ${ timesString }",
+        "Každé ${ interval } týždne v piatok, ${ timesString }",
+        "Každých ${ interval } týždňov v piatok, ${ timesString }",
+        "Každých ${ interval } týždňov v piatok, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Každý ${ interval } týždeň v sobotu, ${ timesString }",
+        "Každé ${ interval } týždne v sobotu, ${ timesString }",
+        "Každých ${ interval } týždňov v sobotu, ${ timesString }",
+        "Každých ${ interval } týždňov v sobotu, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Každý ${ interval } týždeň vo štvrtok, ${ timesString }",
+        "Každé ${ interval } týždne vo štvrtok, ${ timesString }",
+        "Každých ${ interval } týždňov vo štvrtok, ${ timesString }",
+        "Každých ${ interval } týždňov vo štvrtok, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Každý ${ interval } týždeň v stredu, ${ timesString }",
+        "Každé ${ interval } týždne v stredu, ${ timesString }",
+        "Každých ${ interval } týždňov v stredu, ${ timesString }",
+        "Každých ${ interval } týždňov v stredu, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Každý ${ interval } týždeň vo všetky dni, ${ untilString }",
+        "Každé ${ interval } týždne vo všetky dni, ${ untilString }",
+        "Každých ${ interval } týždňov vo všetky dni, ${ untilString }",
+        "Každých ${ interval } týždňov vo všetky dni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Každý ${ interval } týždeň v pondelok, ${ untilString }",
+        "Každé ${ interval } týždne v pondelok, ${ untilString }",
+        "Každých ${ interval } týždňov v pondelok, ${ untilString }",
+        "Každých ${ interval } týždňov v pondelok, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Každý ${ interval } týždeň v nedeľu, ${ untilString }",
+        "Každé ${ interval } týždne v nedeľu, ${ untilString }",
+        "Každých ${ interval } týždňov v nedeľu, ${ untilString }",
+        "Každých ${ interval } týždňov v nedeľu, ${ untilString }"
       ]
     }
   }

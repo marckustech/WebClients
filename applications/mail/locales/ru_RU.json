@@ -1179,6 +1179,9 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Clear selection": [
+        "Очистить выбор"
       ]
     },
     "action": {
@@ -3921,6 +3924,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "У вас пока нет контактов. Начните с создания нового контакта"
+      ],
+      "Open in browser": [
+        "Открыть в браузере"
       ]
     },
     "Error notification": {
@@ -6411,6 +6417,9 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "This file is too large to preview": [
+        "Этот файл слишком большой для предпросмотра"
       ]
     },
     "info": {
@@ -7702,6 +7711,24 @@
       ],
       "Up to 3 TB of storage": [
         "До 3 ТБ хранилища"
+      ],
+      "${ n } calendar": [
+        "${ n } календарь",
+        "${ n } календаря",
+        "${ n } календарей",
+        "${ n } календарей"
+      ],
+      "${ n } calendar per user": [
+        "${ n } календарь на пользователя",
+        "${ n } календаря на пользователя",
+        "${ n } календаря на пользователя",
+        "${ n } календарей на пользователя"
+      ],
+      "End-to-end encryption": [
+        "Сквозное шифрование"
+      ],
+      "Send & receive invitations": [
+        "Отправляйте и получайте приглашения"
       ]
     },
     "new_plans: feature info": {
@@ -7787,6 +7814,12 @@
       ],
       "Skip": [
         "Пропустить"
+      ],
+      "Automatically forward emails": [
+        "Автоматически пересылать сообщения"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Пересылать сообщения Gmail во входящие."
       ]
     },
     "Onboarding Proton": {
@@ -7798,6 +7831,9 @@
       ],
       "Set up your organization": [
         "Настройка организации"
+      ],
+      "Pick a theme": [
+        "Выбрать тему"
       ]
     },
     "Online accounts": {
@@ -9703,6 +9739,12 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Mark conversations as read": [
+        "Отметить цепочки писем как прочитанные"
+      ],
+      "Mark messages as read": [
+        "Отметить сообщения как прочитанные"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10197,6 +10239,61 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Ежедневно, в ${ timesString }"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "От"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "Кому"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME } Защитите свое расписание с помощью сквозного шифрования. Включает поддержку пользовательских календарей, совместное использование календарей и многое другое."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Создайте до ${ n } календаря или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Легко делитесь своими календарями с семьей, друзьями или коллегами"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Обеспечьте конфиденциальность своих планов и планов вашей семьи с помощью зашифрованного календаря"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Создайте до ${ n } календаря",
+        "Создайте до ${ n } календарей",
+        "Создайте до ${ n } календарей",
+        "Создайте до ${ n } календарей"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Результаты не найдены"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Пароль сохранен"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Выйти"
       ]
     }
   }

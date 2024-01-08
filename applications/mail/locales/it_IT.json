@@ -1185,6 +1185,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Clear selection": [
+        "Annulla selezione"
       ]
     },
     "action": {
@@ -2960,7 +2963,7 @@
         "${ count } volte"
       ],
       "Daily": [
-        "Giornalmente"
+        "Ogni giorno"
       ],
       "Daily, ${ untilString }": [
         "Giornaliero, ${ untilString }"
@@ -2974,7 +2977,7 @@
         "Ogni ${ interval } giorni, ${ untilString }"
       ],
       "until ${ dateString }": [
-        "fino a ${ dateString }"
+        "fino al ${ dateString }"
       ]
     },
     "Daily recurring event, frequency (times)": {
@@ -3701,6 +3704,10 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La tua ricerca ha restituito troppi risultati. Limita la ricerca e riprova."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Scegli una data entro il prossimo ${ n } giorno.",
+        "Scegli una data entro i prossimi ${ n } giorni."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3757,6 +3764,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Il tuo file ${ formattedFilename } non è un calendario."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Il file ${ formattedFilename } contiene più di ${ MAX_IMPORT_EVENTS } evento.",
+        "Il file ${ formattedFilename } contiene più di ${ MAX_IMPORT_EVENTS } eventi."
       ]
     },
     "Error importing contact": {
@@ -5205,7 +5216,7 @@
         "Personalizza l'aspetto delle applicazioni di ${ BRAND_NAME }"
       ],
       "Daily": [
-        "Giornalmente"
+        "Ogni giorno"
       ],
       "Default email application": [
         "Applicazione email predefinita"
@@ -6289,6 +6300,103 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Il tuo numero di telefono sarà utilizzato solo per questa verifica una tantum."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } conversazione verrà etichettata come:",
+        "${ elementsCount } conversazioni verranno etichettate come:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } conversazione verrà segnata come letta.",
+        "${ elementsCount } conversazioni verranno segnate come lette."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } conversazione verrà segnata come non letta.",
+        "${ elementsCount } conversazioni verranno segnate come non lette."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } conversazione verrà spostata.",
+        "${ elementsCount } conversazioni verranno spostate."
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } conversazione non verrà più etichettata come:",
+        "${ elementsCount } conversazioni non verranno più etichettate come:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } messaggio verrà etichettato come:",
+        "${ elementsCount } messaggi verranno etichettati come:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } messaggio verrà segnato come letto.",
+        "${ elementsCount } messaggi verranno segnati come letti."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } messaggio verrà segnato come non letto.",
+        "${ elementsCount } messaggi verranno segnati come non letti."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } messaggio verrà spostato.",
+        "${ elementsCount } messaggi verranno spostati."
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } messaggio non verrà più etichettato come:",
+        "${ elementsCount } messaggi non verranno più etichettati come:"
+      ],
+      "${ n } unread conversation": [
+        "${ n } conversazione non letta",
+        "${ n } conversazioni non lette"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Qualsiasi messaggio programmato o posticipato verrà annullato."
+      ],
+      "Applying actions to conversations": [
+        "Azioni sulle conversazioni in corso"
+      ],
+      "Applying actions to messages": [
+        "Azioni sui messaggi in corso"
+      ],
+      "Clear selection": [
+        "Annulla la selezione"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Azioni sui messaggi in corso. Può richiedere un po' di tempo."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Seleziona ${ elementsCount } elemento in ${ location }",
+        "Seleziona tutti i ${ elementsCount } elementi in ${ location }"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Questo messaggio verrà eliminato automaticamente ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Questo messaggio scadrà ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Questo messaggio scadrà oggi alle ${ value }"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Questo messaggio scadrà domani alle ${ value }"
+      ],
+      "to ${ destinationElement } folder.": [
+        "nella cartella ${ destinationElement }."
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Hai ${ unread } nella tua casella di posta."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Hai selezionato **${ elementsCount } conversazione** in ${ location }.",
+        "Hai selezionato **${ elementsCount } conversazioni** in ${ location }."
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Hai selezionato **${ elementsCount } conversazione**.",
+        "Hai selezionato **${ elementsCount } conversazioni**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Hai selezionato **${ elementsCount } messaggio** in ${ location }.",
+        "Hai selezionato **${ elementsCount } messaggi** in ${ location }."
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Hai selezionato **${ elementsCount } messaggio**.",
+        "Hai selezionato **${ elementsCount } messaggi**."
       ]
     },
     "info": {
@@ -7588,6 +7696,20 @@
       ],
       "Up to 3 TB of storage": [
         "Fino a 3 TB di spazio di archiviazione"
+      ],
+      "${ n } calendar": [
+        "${ n } calendario",
+        "${ n } calendari"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario per utente",
+        "${ n } calendari per utente"
+      ],
+      "End-to-end encryption": [
+        "Crittografia end-to-end"
+      ],
+      "Send & receive invitations": [
+        "Invia e ricevi inviti"
       ]
     },
     "new_plans: feature info": {
@@ -7762,6 +7884,9 @@
       ],
       "No parent folder": [
         "Nessuna cartella principale"
+      ],
+      "Automatic (${ value })": [
+        "Automatico (${ value })"
       ]
     },
     "Option group": {
@@ -7902,6 +8027,9 @@
       ],
       "Type text or keyword": [
         "Inserisci testo o parola chiave"
+      ],
+      "Search parent folder": [
+        "Cerca nella cartella principale"
       ]
     },
     "Placeholder for contact group name": {
@@ -8466,6 +8594,15 @@
       ],
       "Support online privacy": [
         "Supporta la privacy online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } e ${ appName2 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 }, ${ appName2 } e ${ appName3 } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -9612,6 +9749,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La tua prova gratuita di Mail Plus termina il giorno ${ textDate }"
+      ],
+      "Action all conversations": [
+        "Applica a tutte le conversazioni"
+      ],
+      "Action all messages": [
+        "Applica a tutti i messaggi"
+      ],
+      "Delete ${ value }": [
+        "Elimina ${ value }"
+      ],
+      "Mark conversations as read": [
+        "Segna le conversazioni come lette"
+      ],
+      "Mark conversations as unread": [
+        "Segna le conversazioni come non lette"
+      ],
+      "Mark messages as read": [
+        "Segna i messaggi come letti"
+      ],
+      "Mark messages as unread": [
+        "Segna i messaggi come non letti"
+      ],
+      "Move all conversations": [
+        "Sposta tutte le conversazioni"
+      ],
+      "Move all messages": [
+        "Sposta tutti i messaggi"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10052,6 +10216,219 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Ogni giorno, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Ogni ${ interval } giorno, ${ untilString }",
+        "Ogni ${ interval } giorni, ${ untilString }"
+      ]
+    },
+    "filter: Label": {
+      "the email was sent ${ label }": [
+        "l'email è stata inviata ${ label }"
+      ],
+      "with attachments": [
+        "con allegati"
+      ],
+      "without attachments": [
+        "senza allegati"
+      ]
+    },
+    "filter: Label, jt": {
+      "the email was sent ${ label }": [
+        "l'email è stata inviata ${ label }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Da: ${ from }"
+      ],
+      "To: ${ to }": [
+        "A: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Ogni ${ interval } mese, ${ onDayString }, ${ timesString }",
+        "Ogni ${ interval } mesi, ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Ogni mese, ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Ogni ${ interval } mese, ${ onDayString }, ${ untilString }",
+        "Ogni ${ interval } mesi, ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Ogni mese, ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Proteggi la tua agenda con la crittografia end-to-end. Include il supporto per i calendari personalizzati, la condivisione dei calendari e molto altro."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Crea fino a ${ n } calendario o aggiungi calendari di amici, famigliari, colleghi e organizzazioni",
+        "Crea fino a ${ n } calendari o aggiungi calendari di amici, famigliari, colleghi e organizzazioni"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Condividi facilmente i tuoi calendari con famigliari, amici o colleghi"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Mantieni privati i tuoi piani e quelli della tua famiglia con un calendario crittografato"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Crea fino a ${ n } calendario",
+        "Crea fino a ${ n } calendari"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Nessun risultato trovato"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Ogni ${ interval } settimana, ${ multipleDaysString }, ${ timesString }",
+        "Ogni ${ interval } settimane, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Ogni ${ interval } settimana, tutti i giorni, ${ timesString }",
+        "Ogni ${ interval } settimane, tutti i giorni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il venerdì, ${ timesString }",
+        "Ogni ${ interval } settimane, il venerdì, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il sabato, ${ timesString }",
+        "Ogni ${ interval } settimane, il sabato, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il giovedì, ${ timesString }",
+        "Ogni ${ interval } settimane, il giovedì, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il mercoledì, ${ timesString }",
+        "Ogni ${ interval } settimane, il mercoledì, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Ogni settimana, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Ogni settimana, tutti i giorni, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Ogni settimana, il venerdì, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Ogni settimana, il lunedì, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Ogni settimana, il sabato, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Ogni settimana, la domenica, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Ogni settimana, il giovedì, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Ogni settimana, il martedì, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Ogni settimana, il mercoledì, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Ogni ${ interval } settimana, ${ multipleDaysString }, ${ untilString }",
+        "Ogni ${ interval } settimane, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Ogni ${ interval } settimana, tutti i giorni, ${ untilString }",
+        "Ogni ${ interval } settimane, tutti i giorni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il venerdì, ${ untilString }",
+        "Ogni ${ interval } settimane, il venerdì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il lunedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il lunedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il sabato, ${ untilString }",
+        "Ogni ${ interval } settimane, il sabato, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Ogni ${ interval } settimana, la domenica, ${ untilString }",
+        "Ogni ${ interval } settimane, la domenica, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il giovedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il giovedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il martedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il martedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il mercoledì, ${ untilString }",
+        "Ogni ${ interval } settimane, il mercoledì, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Ogni settimana, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Ogni settimana, tutti i giorni, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Ogni settimana, il venerdì, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Ogni settimana, il lunedì, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Ogni settimana, il sabato, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Ogni settimana, la domenica, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Ogni settimana, il giovedì, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Ogni settimana, il martedì, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Ogni settimana, il mercoledì, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Ogni ${ interval } anno, ${ timesString }",
+        "Ogni ${ interval } anni, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Ogni anno, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Ogni ${ interval } anno, ${ untilString }",
+        "Ogni ${ interval } anni, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Ogni anno, ${ untilString }"
       ]
     }
   }

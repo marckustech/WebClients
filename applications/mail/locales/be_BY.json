@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Clear selection": [
+        "Ачысціць выбранае"
       ]
     },
     "action": {
@@ -3748,6 +3751,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Ваш пошук вярнуў занадта шмат вынікаў. Абмяжуйце вобласць пошуку і паспрабуйце яшчэ раз."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Выберыце дату ў межах наступнага ${ n } дня.",
+        "Выберыце дату ў межах наступных ${ n } дзён.",
+        "Выберыце дату ў межах наступных ${ n } дзён.",
+        "Выберыце дату ў межах наступных ${ n } дзён."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3808,6 +3817,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Ваш файл ${ formattedFilename } не з'яўляецца календаром."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзею.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзеі.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзей.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзей."
       ]
     },
     "Error importing contact": {
@@ -6495,6 +6510,138 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш нумар тэлефона будзе выкарыстаны толькі для бягучай аднаразовай праверкі."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } размова будзе пазначана як:",
+        "${ elementsCount } размовы будуць пазначаны як:",
+        "${ elementsCount } размоў будуць пазначаны як:",
+        "${ elementsCount } размоў будуць пазначаны як:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } размова будзе пазначана як прачытаная.",
+        "${ elementsCount } размовы будуць пазначаны як прачытаныя.",
+        "${ elementsCount } размоў будуць пазначаны як прачытаныя.",
+        "${ elementsCount } размоў будуць пазначаны як прачытаныя."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } размова будзе пазначана як непрачытаная.",
+        "${ elementsCount } размовы будуць пазначаны як непрачытаныя.",
+        "${ elementsCount } размоў будуць пазначаны як непрачытаныя.",
+        "${ elementsCount } размоў будуць пазначаны як непрачытаныя."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } размова будзе перамешчана",
+        "${ elementsCount } размовы будуць перамешчаны",
+        "${ elementsCount } размоў будуць перамешчаны",
+        "${ elementsCount } размоў будуць перамешчаны"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "З ${ elementsCount } размовы будзе знята пазнака:",
+        "З ${ elementsCount } размоў будзе знята пазнака:",
+        "З ${ elementsCount } размоў будзе знята пазнака:",
+        "З ${ elementsCount } размоў будзе знята пазнака:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } паведамленне будзе пазначана як:",
+        "${ elementsCount } паведамленні будуць пазначаны як:",
+        "${ elementsCount } паведамленняў будуць пазначаны як:",
+        "${ elementsCount } паведамленняў будуць пазначаны як:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } паведамленне будзе пазначана як прачытанае.",
+        "${ elementsCount } паведамленні будуць пазначаны як прачытаныя.",
+        "${ elementsCount } паведамленняў будуць пазначаны як прачытаныя.",
+        "${ elementsCount } паведамленняў будуць пазначаны як прачытаныя."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } паведамленне будзе пазначана як непрачытанае.",
+        "${ elementsCount } паведамленні будуць пазначаны як непрачытаныя.",
+        "${ elementsCount } паведамленняў будуць пазначаны як непрачытаныя.",
+        "${ elementsCount } паведамленняў будуць пазначаны як непрачытаныя."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } паведамленне будзе перамешчана",
+        "${ elementsCount } паведамленні будуць перамешчаны",
+        "${ elementsCount } паведамленняў будуць перамешчаны",
+        "${ elementsCount } паведамленняў будуць перамешчаны"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "З ${ elementsCount } паведамлення будзе знята пазнака:",
+        "З ${ elementsCount } паведамленняў будзе знята пазнака:",
+        "З ${ elementsCount } паведамленняў будзе знята пазнака:",
+        "З ${ elementsCount } паведамленняў будзе знята пазнака:"
+      ],
+      "${ n } unread conversation": [
+        "${ n } непрачытаная размова",
+        "${ n } непрачытаныя размовы",
+        "${ n } непрачытаных размоў",
+        "${ n } непрачытаных размоў"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Любыя запланаваныя або адкладзеныя паведамленні будуць скасаваны."
+      ],
+      "Applying actions to conversations": [
+        "Ужыць дзеянні да размоў"
+      ],
+      "Applying actions to messages": [
+        "Ужыць дзеянні да паведамленняў"
+      ],
+      "Clear selection": [
+        "Ачысціць выбранае"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Выконваюцца дзеянні над паведамленнямі. Гэта можа заняць некаторы час."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Выберыце ўсе ${ elementsCount } у ${ location }",
+        "Выберыце ўсе ${ elementsCount } у ${ location }",
+        "Выберыце ўсе ${ elementsCount } у ${ location }",
+        "Выберыце ўсе ${ elementsCount } у ${ location }"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Гэта паведамленне будзе аўтаматычна выдалена ў ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Тэрмін дзеяння гэтага паведамлення міне ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Тэрмін дзеяння гэтага паведамлення міне сёння ў ${ value }"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Тэрмін дзеяння гэтага паведамлення міне заўтра ў ${ value }"
+      ],
+      "to ${ destinationElement } folder.": [
+        "у папку ${ destinationElement }."
+      ],
+      "You can now return to the application to continue": [
+        "Цяпер вы можаце вярнуцца да праграмы, каб працягнуць"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "У вашай паштовай скрыні ${ unread }."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Вы выбралі **${ elementsCount } размову** ў ${ location }",
+        "Вы выбралі **${ elementsCount } размовы** ў ${ location }",
+        "Вы выбралі **${ elementsCount } размоў** у ${ location }",
+        "Вы выбралі **${ elementsCount } размоў** у ${ location }"
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Вы выбралі **${ elementsCount } размову**.",
+        "Вы выбралі **${ elementsCount } размовы**.",
+        "Вы выбралі **${ elementsCount } размоў**.",
+        "Вы выбралі **${ elementsCount } размоў**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Вы выбралі **${ elementsCount } паведамленне** ў ${ location }",
+        "Вы выбралі **${ elementsCount } паведамленні** ў ${ location }",
+        "Вы выбралі **${ elementsCount } паведамленняў** у ${ location }",
+        "Вы выбралі **${ elementsCount } паведамленняў** у ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Вы выбралі **${ elementsCount } паведамленне**.",
+        "Вы выбралі **${ elementsCount } паведамленні**.",
+        "Вы выбралі **${ elementsCount } паведамленняў**.",
+        "Вы выбралі **${ elementsCount } паведамленняў**."
       ]
     },
     "info": {
@@ -7808,6 +7955,24 @@
       ],
       "Up to 3 TB of storage": [
         "Да 3 ТБ сховішча"
+      ],
+      "${ n } calendar": [
+        "${ n } каляндар",
+        "${ n } календары",
+        "${ n } календароў",
+        "${ n } календары"
+      ],
+      "${ n } calendar per user": [
+        "${ n } каляндар на карыстальніка",
+        "${ n } календары на карыстальніка",
+        "${ n } календароў на карыстальніка",
+        "${ n } календароў на карыстальніка"
+      ],
+      "End-to-end encryption": [
+        "Скразное шыфраванне"
+      ],
+      "Send & receive invitations": [
+        "Адпраўка і атрыманне запрашэнняў"
       ]
     },
     "new_plans: feature info": {
@@ -7982,6 +8147,9 @@
       ],
       "No parent folder": [
         "Адсутнічае бацькоўская папка"
+      ],
+      "Automatic (${ value })": [
+        "Аўтаматычна (${ value })"
       ]
     },
     "Option group": {
@@ -8122,6 +8290,9 @@
       ],
       "Type text or keyword": [
         "Увядзіце тэкст або ключавое слова"
+      ],
+      "Search parent folder": [
+        "Пошук бацькоўскай папкі"
       ]
     },
     "Placeholder for contact group name": {
@@ -8738,6 +8909,15 @@
       ],
       "Support online privacy": [
         "Падтрыманне прыватнасці ў інтэрнэце"
+      ],
+      "Premium ${ appName1 }": [
+        "Прэміяльны ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Прэміяльны ${ appName1 } і ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Прэміяльны ${ appName1 }, ${ appName2 } і ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -9972,6 +10152,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Action all conversations": [
+        "Дзеянне да ўсіх размоў"
+      ],
+      "Action all messages": [
+        "Дзеянне да ўсіх паведамленняў"
+      ],
+      "Delete ${ value }": [
+        "Выдаліць ${ value }"
+      ],
+      "Mark conversations as read": [
+        "Пазначыць размовы як прачытаныя"
+      ],
+      "Mark conversations as unread": [
+        "Пазначыць размовы як непрачытаныя"
+      ],
+      "Mark messages as read": [
+        "Пазначыць паведамленні як прачытаныя"
+      ],
+      "Mark messages as unread": [
+        "Пазначыць паведамленні як непрачытаныя"
+      ],
+      "Move all conversations": [
+        "Перамясціць усе размовы"
+      ],
+      "Move all messages": [
+        "Перамясціць усе паведамлення"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10477,6 +10684,288 @@
       ],
       "Yearly, ${ timesString }": [
         "Штогод а ${ timesString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Штогод, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Штодзень у ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "Кожны ${ interval } дзень, ${ timesString }",
+        "Кожныя ${ interval } дні, ${ timesString }",
+        "Кожных ${ interval } дзён, ${ timesString }",
+        "Кожных ${ interval } дзён, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Штодзень, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Кожны ${ interval } дзень, ${ untilString }",
+        "Кожныя ${ interval } дні, ${ untilString }",
+        "Кожных ${ interval } дзён, ${ untilString }",
+        "Кожных ${ interval } дзён, ${ untilString }"
+      ]
+    },
+    "filter: Label": {
+      "the email was sent ${ label }": [
+        "ліст быў адпраўлены ${ label }"
+      ],
+      "with attachments": [
+        "з далучэннямі"
+      ],
+      "without attachments": [
+        "без далучэнняў"
+      ]
+    },
+    "filter: Label, jt": {
+      "the email was sent ${ label }": [
+        "ліст быў адпраўлены ${ label }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "Выбрана ${ selectedFoldersCount } папка",
+        "Выбраны ${ selectedFoldersCount } папкі",
+        "Выбраны ${ selectedFoldersCount } папак",
+        "Выбраны ${ selectedFoldersCount } папак"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "Выбрана ${ selectedFoldersCount } метка",
+        "Выбраны ${ selectedFoldersCount } меткі",
+        "Выбраны ${ selectedFoldersCount } метак",
+        "Выбраны ${ selectedFoldersCount } метак"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Ад: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Каму: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Кожны ${ interval } месяц у ${ onDayString }, ${ timesString }",
+        "Кожныя ${ interval } месяцы ў ${ onDayString }, ${ timesString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ timesString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Штомесяц ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Кожны ${ interval } месяц у ${ onDayString }, ${ untilString }",
+        "Кожныя ${ interval } месяцы ў ${ onDayString }, ${ untilString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ untilString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Штомесяц ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Абараняйце свой расклад з дапамогай скразнога шыфравання. Уключае падтрымку для карыстальніцкіх календароў, абагуленых календароў і іншыя функцыі."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Стварайце да ${ n } календара або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Лёгка дзяліцеся вашымі календарамі з сям'ёй, сябрамі або калегамі"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Трымайце ў прыватнасці свае і сямейныя планы з зашыфраваным календаром"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Стварыць да ${ n } календара",
+        "Стварыць да ${ n } календароў",
+        "Стварыць да ${ n } календароў",
+        "Стварыць да ${ n } календароў"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Нічога не знойдзена"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у ${ multipleDaysString }, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў ${ multipleDaysString }, ${ timesString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ timesString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Кожны ${ interval } тыдзень ва ўсе дні, ${ timesString }",
+        "Кожныя ${ interval } тыдні ва ўсе дні, ${ timesString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ timesString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у пятніцу, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў пятніцу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у суботу, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў суботу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у чацвер, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў чацвер, ${ timesString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ timesString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у сераду, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў сераду, ${ timesString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ timesString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Штотыдзень у ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Штотыдзень ва ўсе дні, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Штотыдзень у пятніцу, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Штотыдзень у панядзелак, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Штотыдзень у суботу, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Штотыдзень у нядзелю, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Штотыдзень у чацвер, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Штотыдзень у аўторак, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Штотыдзень у сераду, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у ${ multipleDaysString }, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў ${ multipleDaysString }, ${ untilString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ untilString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Кожны ${ interval } тыдзень ва ўсе дні, ${ untilString }",
+        "Кожныя ${ interval } тыдні ва ўсе дні, ${ untilString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ untilString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у пятніцу, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў пятніцу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у панядзелак, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў панядзелак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у панядзелак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у панядзелак, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у суботу, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў суботу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у нядзелю, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў нядзелю, ${ untilString }",
+        "Кожных ${ interval } тыдняў у нядзелю, ${ untilString }",
+        "Кожных ${ interval } тыдняў у нядзелю, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у чацвер, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў чацвер, ${ untilString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ untilString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у аўторак, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў аўторак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у аўторак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у аўторак, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у сераду, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў сераду, ${ untilString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ untilString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Штотыдзень у ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Штотыдзень ва ўсе дні, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Штотыдзень у пятніцу, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Штотыдзень у панядзелак, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Штотыдзень у суботу, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Штотыдзень у нядзелю, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Штотыдзень у чацвер, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Штотыдзень у аўторак, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Штотыдзень у сераду, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Кожны ${ interval } год, ${ timesString }",
+        "Кожныя ${ interval } гады, ${ timesString }",
+        "Кожных ${ interval } гадоў, ${ timesString }",
+        "Кожных ${ interval } гадоў, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Штогод, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Кожны ${ interval } год, ${ untilString }",
+        "Кожныя ${ interval } гады, ${ untilString }",
+        "Кожных ${ interval } гадоў, ${ untilString }",
+        "Кожных ${ interval } гадоў, ${ untilString }"
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"

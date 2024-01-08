@@ -6650,6 +6650,20 @@
       ],
       "Up to 3 TB of storage": [
         "Alamma d 3 ṬAṬ n uḥraz"
+      ],
+      "${ n } calendar": [
+        "${ n } uwitay",
+        "${ n } yiwitayen"
+      ],
+      "${ n } calendar per user": [
+        "${ n } uwitay i yal aseqdac",
+        "${ n } yiwitayen i yal aseqdac"
+      ],
+      "End-to-end encryption": [
+        "Awgelhen seg yixef ɣer yixef"
+      ],
+      "Send & receive invitations": [
+        "Azen & nermes-d tinubgiwin"
       ]
     },
     "new_plans: feature info": {
@@ -8697,6 +8711,17 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Rnu alamma d ${ n } n uwitay",
+        "Rnu alamma d ${ n } n yiwitayen"
+      ]
+    },
+    "Select search results": {
+      "No results found": [
+        "Ulac igmaḍ"
       ]
     }
   }

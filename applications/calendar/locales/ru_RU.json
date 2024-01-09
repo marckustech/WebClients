@@ -61,7 +61,7 @@
         "Добавить номер телефона"
       ],
       "Add public holidays": [
-        "Добавить государственные праздники"
+        "Добавить праздничные дни"
       ],
       "Add to group": [
         "Добавить в группу"
@@ -160,7 +160,7 @@
         "Копировать адрес"
       ],
       "Copy email address": [
-        "Копировать адрес электронной почты"
+        "Копировать адрес эл. почты"
       ],
       "Copy email to clipboard": [
         "Скопировать адрес электронной почты в буфер обмена"
@@ -2989,6 +2989,9 @@
       ],
       "You need an active personal calendar to import events": [
         "Вам нужен активный личный календарь для импорта событий"
+      ],
+      "Open in browser": [
+        "Открыть в браузере"
       ]
     },
     "Error notification": {
@@ -5358,6 +5361,24 @@
       ],
       "Up to 3 TB of storage": [
         "До 3 ТБ хранилища"
+      ],
+      "${ n } calendar": [
+        "${ n } календарь",
+        "${ n } календаря",
+        "${ n } календарей",
+        "${ n } календарей"
+      ],
+      "${ n } calendar per user": [
+        "${ n } календарь на пользователя",
+        "${ n } календаря на пользователя",
+        "${ n } календаря на пользователя",
+        "${ n } календарей на пользователя"
+      ],
+      "End-to-end encryption": [
+        "Сквозное шифрование"
+      ],
+      "Send & receive invitations": [
+        "Отправляйте и получайте приглашения"
       ]
     },
     "new_plans: feature info": {
@@ -5619,6 +5640,9 @@
       ],
       "Set up your organization": [
         "Настройка организации"
+      ],
+      "Pick a theme": [
+        "Выбрать тему"
       ]
     },
     "Option": {
@@ -5792,7 +5816,7 @@
         "Пожалуйста, опишите проблему и добавьте все возникавшие сообщения об ошибках"
       ],
       "Please select a country": [
-        "Пожалуйста, выберите страну"
+        "Выберите страну"
       ],
       "Search events": [
         "Поиск событий"
@@ -7511,6 +7535,46 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Ежедневно, в ${ timesString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME } Защитите свое расписание с помощью сквозного шифрования. Включает поддержку пользовательских календарей, совместное использование календарей и многое другое."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Создайте до ${ n } календаря или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций",
+        "Создайте до ${ n } календарей или добавляйте календари друзей, семьи, коллег и организаций"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Легко делитесь своими календарями с семьей, друзьями или коллегами"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Обеспечьте конфиденциальность своих планов и планов вашей семьи с помощью зашифрованного календаря"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Создайте до ${ n } календаря",
+        "Создайте до ${ n } календарей",
+        "Создайте до ${ n } календарей",
+        "Создайте до ${ n } календарей"
+      ]
+    },
+    "session_recovery:available:notification": {
+      "Password saved": [
+        "Пароль сохранен"
+      ]
+    },
+    "session_recovery:sign_out:action": {
+      "Sign out": [
+        "Выйти"
       ]
     }
   }

@@ -409,7 +409,7 @@
         "Åbn Indstillinger"
       ],
       "Pause indexing": [
-        "Pause indeksering"
+        "Sæt indeksering på pause"
       ],
       "Preview contact": [
         "Forhåndsvis kontakt"
@@ -3692,10 +3692,10 @@
         "En aflysningsmail vil blive sendt til fjernede deltagere."
       ],
       "A cancellation email will be sent to the event participants. Would you like to delete all events in this series?": [
-        "En aflysningsmail vil blive sendt til deltagerne i arrangementet. Vil du slette denne begivenhed?"
+        "En aflysningsmail vil blive sendt til begivenhedens deltagere. Vil du slette alle begivenheder i denne serie?"
       ],
       "A cancellation email will be sent to the event participants. Would you like to delete this event?": [
-        "En aflysningsmail vil blive sendt til deltagerne i arrangementet. Vil du slette denne begivenhed?"
+        "En aflysningsmail vil blive sendt til begivenhedens deltagere. Vil du slette denne begivenhed?"
       ],
       "A phone number can only be used to verify one ${ BRAND_NAME } account": [
         "Et telefonnummer kan kun bruges til at verificere én ${ BRAND_NAME } konto"
@@ -4314,7 +4314,7 @@
         "Du vil opdatere alle begivenheder i denne serie. Tilføjede og fjernede deltagere vil blive underrettet."
       ],
       "You will update all the events in this series. An invitation will be sent to the event participants.": [
-        "Du vil opdatere alle begivenheder i denne serie. En invitation vil blive sendt til deltagerne i arrangementet."
+        "Alle begivenheder i denne serie vil blive opdateret. En invitation vil blive sendt til begivenhedens deltagere."
       ],
       "You will update all the events in this series. Existent and added participants will be notified.": [
         "Du vil opdatere alle begivenheder i denne serie. Eksisterende og tilføjede deltagere vil blive underrettet."
@@ -4350,10 +4350,10 @@
         "Din konto har mindst én faktura, der er forfalden. Din konto er begrænset. Fortsat manglende betaling vil blokere dine e-mails og delingslinks. ${ payInvoiceLink }"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete all events in this series anyway?": [
-        "Din adresse er deaktiveret. En aflysningsmail kan ikke sendes til deltagerne i arrangementet. Vil du slette denne begivenhed alligevel?"
+        "Din adresse er deaktiveret. En aflysningsmail kan ikke blive sendt til begivenhedens deltagere. Vil du alligevel slette alle begivenheder i denne serie?"
       ],
       "Your address is disabled. A cancellation email cannot be sent to the event participants. Would you like to delete this event anyway?": [
-        "Din adresse er deaktiveret. En aflysningsmail kan ikke sendes til deltagerne i arrangementet. Vil du slette denne begivenhed alligevel?"
+        "Din adresse er deaktiveret. En aflysningsmail kan ikke blive sendt til begivenhedens deltagere. Vil du alligevel slette denne begivenhed?"
       ],
       "Your data is ready to import from ${ importedEmailAddressStrong } to your ${ BRAND_NAME } account.": [
         "Dine data er klar til at blive importeret fra ${ importedEmailAddressStrong } til din ${ BRAND_NAME }-konto."
@@ -5237,6 +5237,20 @@
       ],
       "Up to 3 TB of storage": [
         "Op til 3 TB lagerplads"
+      ],
+      "${ n } calendar": [
+        "${ n } kalender",
+        "${ n } kalendere"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender pr. bruger",
+        "${ n } kalendere pr. bruger"
+      ],
+      "End-to-end encryption": [
+        "End-to-end kryptering"
+      ],
+      "Send & receive invitations": [
+        "Send og modtag invitationer"
       ]
     },
     "new_plans: feature info": {
@@ -7306,6 +7320,27 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Beskyt din planlægning med end-to-end kryptering. Inkluderer understøttelse af brugerdefinerede kalendere, kalenderdeling og mere."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Opret op til ${ n } kalender eller tilføj kalendere fra venner, familie, kollegaer og organisationer",
+        "Opret op til ${ n } kalendere eller tilføj kalendere fra venner, familie, kollegaer og organisationer"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Del nemt dine kalendere med din familie, venner eller kolleger"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Hold dine planer private for dig og din familie med en krypteret kalender"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Opret op til ${ n } kalender",
+        "Opret op til ${ n } kalendere"
       ]
     }
   }

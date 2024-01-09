@@ -72,6 +72,12 @@
       "We're setting up Calendar search": [
         "We're setting up calendar search"
       ]
+    },
+    "bf2023: Tooltip": {
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Includes support for ${ domains } custom email domain, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.",
+        "Includes support for ${ domains } custom email domains, ${ addresses } email addresses, unlimited hide-my-email aliases, calendar sharing, and more."
+      ]
     }
   }
 }

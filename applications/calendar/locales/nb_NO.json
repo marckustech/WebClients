@@ -2804,6 +2804,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Filen ${ formattedFilename } er ikke en kalender."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Filen din ${ formattedFilename } inneholder flere enn ${ MAX_IMPORT_EVENTS } hendelse.",
+        "Filen din ${ formattedFilename } inneholder flere enn ${ MAX_IMPORT_EVENTS } hendelser."
       ]
     },
     "Error importing contact": {
@@ -4389,6 +4393,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Systemets tidssone ser ut til å ha endret seg til ${ timezone }. Vil du oppdatere preferansen for tidssone?"
+      ],
+      "You can now return to the application to continue": [
+        "Du kan nå gå tilbake til programmet for å fortsette"
       ]
     },
     "info": {
@@ -5261,6 +5268,20 @@
       ],
       "Up to 3 TB of storage": [
         "Opptil 3 TB med lagringsplass"
+      ],
+      "${ n } calendar": [
+        "${ n } kalender",
+        "${ n } kalendere"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender per bruker",
+        "${ n } kalendere per bruker"
+      ],
+      "End-to-end encryption": [
+        "Ende-til-ende kryptering"
+      ],
+      "Send & receive invitations": [
+        "Send & motta invitasjoner"
       ]
     },
     "new_plans: feature info": {
@@ -5555,6 +5576,9 @@
       "Year": [
         "År",
         "År"
+      ],
+      "Automatic (${ value })": [
+        "Automatisk (${ value })"
       ]
     },
     "Option group label": {
@@ -5673,6 +5697,9 @@
       ],
       "Start typing an email address": [
         "Begynn å skrive inn en e-postadresse"
+      ],
+      "Search parent folder": [
+        "Søk i overordnet mappe"
       ]
     },
     "Placeholder for contact group name": {
@@ -6091,6 +6118,15 @@
       ],
       "Support online privacy": [
         "Støtt personvern på nettet"
+      ],
+      "Premium ${ appName1 }": [
+        "Premium ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium ${ appName1 } og ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6897,6 +6933,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis prøveversjon av Mail Plus slutter den ${ textDate }."
+      ],
+      "Delete ${ value }": [
+        "Slett ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7330,6 +7369,203 @@
       ],
       "Yearly, ${ timesString }": [
         "Årlig, ${ timesString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Årlig, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Daglig, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Hver ${ interval } dag, ${ untilString }",
+        "Hver ${ interval } dag, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Feil ved endring av svar"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Fra: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Til: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Hver ${ interval } måned ${ onDayString }, ${ timesString }",
+        "Hver ${ interval } måned ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Månedlig ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Hver ${ interval } måned ${ onDayString }, ${ untilString }",
+        "Hver ${ interval } måned ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Månedlig ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: sikre tidsplanen din med ende-til-ende kryptering. Inkluderer støtte for tilpassede kalendere, kalenderdeling og mer."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Opprett opptil ${ n } kalender eller legg til kalendere fra venner, familie, kollegaer og organisasjoner.",
+        "Opprett opptil ${ n } kalendere eller legg til kalendere fra venner, familie, kollegaer og organisasjoner."
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Del kalenderne dine med familie, venner eller kolleger på en enkel måte."
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Hold planene dine private for deg og familien din med en kryptert kalender."
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Opprett opptil ${ n } kalender",
+        "Opprett opptil ${ n } kalendere"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Hver ${ interval } uke på ${ multipleDaysString }, ${ timesString }",
+        "Hver ${ interval } uke på ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Hver ${ interval } uke på alle dager, ${ timesString }",
+        "Hver ${ interval } uke på alle dager, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Hver ${ interval } uke på fredag, ${ timesString }",
+        "Hver ${ interval } uke på fredag, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Hver ${ interval } uke på lørdag, ${ timesString }",
+        "Hver ${ interval } uke på lørdag, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Hver ${ interval } uke på torsdag, ${ timesString }",
+        "Hver ${ interval } uke på torsdag, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Hver ${ interval } uke på onsdag, ${ timesString }",
+        "Hver ${ interval } uke på onsdag, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Ukentlig på ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Ukentlig på alle dager, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Ukentlig på fredag, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Ukentlig på mandag, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Ukentlig på lørdag, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Ukentlig på søndag, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Ukentlig på torsdag, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Ukentlig på tirsdag, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Ukentlig på onsdag, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Hver ${ interval } uke på ${ multipleDaysString }, ${ untilString }",
+        "Hver ${ interval } uke på ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Hver ${ interval } uke på alle dager, ${ untilString }",
+        "Hver ${ interval } uke på alle dager, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Hver ${ interval } uke på fredag, ${ untilString }",
+        "Hver ${ interval } uke på fredag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Hver ${ interval } uke på mandag, ${ untilString }",
+        "Hver ${ interval } uke på mandag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Hver ${ interval } uke på lørdag, ${ untilString }",
+        "Hver ${ interval } uke på lørdag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Hver ${ interval } uke på søndag, ${ untilString }",
+        "Hver ${ interval } uke på søndag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Hver ${ interval } uke på torsdag, ${ untilString }",
+        "Hver ${ interval } uke på torsdag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Hver ${ interval } uke på tirsdag, ${ untilString }",
+        "Hver ${ interval } uke på tirsdag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Hver ${ interval } uke på onsdag, ${ untilString }",
+        "Hver ${ interval } uke på onsdag, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Ukentlig på ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Ukentlig på alle dager, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Ukentlig på fredag, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Ukentlig på mandag, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Ukentlig på lørdag, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Ukentlig på søndag, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Ukentlig på torsdag, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Ukentlig på tirsdag, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Ukentlig på onsdag, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Hvert ${ interval } år, ${ timesString }",
+        "Hvert ${ interval } år, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Årlig, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Hvert ${ interval } år, ${ untilString }",
+        "Hvert ${ interval } år, ${ untilString }"
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"

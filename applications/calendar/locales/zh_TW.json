@@ -2311,6 +2311,18 @@
     "eoy2023: Deal details": {
       "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
         "${ MAIL_SHORT_APP_NAME }付費及${ CALENDAR_APP_NAME }功能"
+      ],
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 位使用者"
+      ],
+      "Early access to new apps and features": [
+        "搶先體驗新應用程式與功能"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "提早存取${ MAIL_APP_NAME }桌面應用程式"
       ]
     },
     "Error": {
@@ -2679,6 +2691,9 @@
       ],
       "Your import will not be processed.": [
         "將不會處理您的匯入。"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "未知錯誤，無法匯入聯絡人"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2877,6 +2892,9 @@
       ],
       "You need an active personal calendar to import events": [
         "您需要一個使用中的個人行事曆以便匯入事件"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "切換至網頁版，以使用${ MAIL_APP_NAME }或${ CALENDAR_APP_NAME }。"
       ]
     },
     "Error notification": {
@@ -5107,6 +5125,18 @@
       ],
       "Up to 3 TB of storage": [
         "多達 3 TB的儲存空間"
+      ],
+      "${ n } calendars": [
+        "${ n } 個行事曆"
+      ],
+      "${ n } calendars per user": [
+        "${ n } 個行事曆分配給每位使用者"
+      ],
+      "End-to-end encryption": [
+        "端對端加密"
+      ],
+      "Send & receive invitations": [
+        "傳送並接收邀請"
       ]
     },
     "new_plans: feature info": {
@@ -5121,6 +5151,9 @@
       ],
       "Use your own custom email domain address, e.g., you@yourname.com": [
         "使用您擁有的自訂電子郵件網域位址，例如 you@yourname.com"
+      ],
+      "Snooze messages and get reminded when you want": [
+        "延後訊息急於想要時獲得通知"
       ]
     },
     "new_plans: label": {
@@ -7074,6 +7107,30 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "付費${ DRIVE_SHORT_APP_NAME }，${ VPN_SHORT_APP_NAME }及${ PASS_SHORT_APP_NAME }功能"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }：透過端對端加密保護您的行程安排。包括對自訂行事曆、行事曆共用等的支援。"
+      ],
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "創建多達 ${ n } 個行事曆或新增好友、家人、同事和組織的行事曆"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "輕鬆與您的家人、好友或同事分享您的行事曆"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "使用加密日曆讓您的方案對您和您的家人保密"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "創建多達 ${ n } 個行事曆"
       ]
     }
   }

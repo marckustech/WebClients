@@ -2804,6 +2804,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Din fil ${ formattedFilename } är inte en kalender."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Din fil ${ formattedFilename } innehåller fler än ${ MAX_IMPORT_EVENTS } händelse.",
+        "Din fil ${ formattedFilename } innehåller fler än ${ MAX_IMPORT_EVENTS } händelser."
       ]
     },
     "Error importing contact": {
@@ -5261,6 +5265,20 @@
       ],
       "Up to 3 TB of storage": [
         "Upp till 3 TB lagringsutrymme"
+      ],
+      "${ n } calendar": [
+        "${ n } kalender",
+        "${ n } kalendrar"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalender per användare",
+        "${ n } kalendrar per användare"
+      ],
+      "End-to-end encryption": [
+        "End-to-end-kryptering"
+      ],
+      "Send & receive invitations": [
+        "Skicka och ta emot inbjudningar"
       ]
     },
     "new_plans: feature info": {
@@ -5555,6 +5573,9 @@
       "Year": [
         "År",
         "År"
+      ],
+      "Automatic (${ value })": [
+        "Automatiskt (${ value })"
       ]
     },
     "Option group label": {
@@ -5673,6 +5694,9 @@
       ],
       "Start typing an email address": [
         "Börja skriva en e-postadress"
+      ],
+      "Search parent folder": [
+        "Sök överordnad mapp"
       ]
     },
     "Placeholder for contact group name": {
@@ -6091,6 +6115,15 @@
       ],
       "Support online privacy": [
         "Stöder integritet online"
+      ],
+      "Premium ${ appName1 }": [
+        "Premium ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium ${ appName1 } och ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } och ${ appName2 } och ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6897,6 +6930,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Ta bort ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7331,6 +7367,123 @@
       "Yearly, ${ timesString }": [
         "Årligen, ${ timesString }"
       ],
+      "Yearly, ${ untilString }": [
+        "Årligen, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Dagligen, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Fel vid ändring av svar"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Från: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Till: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Månadsvis ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Månadsvis ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Säkra ditt schema med end-to-end-kryptering. Inkluderar stöd för anpassade kalendrar, kalenderdelning och mer."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Skapa upp till ${ n } kalender eller lägg till kalendrar från vänner, familj, kollegor och organisationer",
+        "Skapa upp till ${ n } kalendrar eller lägg till kalendrar från vänner, familj, kollegor och organisationer"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Dela enkelt dina kalendrar med din familj, vänner eller kollegor"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Håll dina planer privata för dig och din familj med en krypterad kalender"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Skapa upp till ${ n } kalender",
+        "Skapa upp till ${ n } kalendrar"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Varje vecka på ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Varje vecka alla dagar, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Varje vecka på fredag, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Varje vecka på måndag, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Varje vecka på lördag, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Varje vecka på söndag, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Varje vecka på torsdag, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Varje vecka på tisdag, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Varje vecka på onsdag, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Varje vecka på ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Varje vecka alla dagar, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Varje vecka på fredag, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Varje vecka på måndag, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Varje vecka på lördag, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Varje vecka på söndag, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Varje vecka på torsdag, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Varje vecka på tisdag, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Varje vecka på onsdag, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Yearly, ${ timesString }": [
+        "Årligen, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
       ]

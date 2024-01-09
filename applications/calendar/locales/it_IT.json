@@ -2106,7 +2106,7 @@
         "${ count } volte"
       ],
       "Daily": [
-        "Giornalmente"
+        "Ogni giorno"
       ],
       "Daily, ${ untilString }": [
         "Giornaliero, ${ untilString }"
@@ -2120,7 +2120,7 @@
         "Ogni ${ interval } giorni, ${ untilString }"
       ],
       "until ${ dateString }": [
-        "fino a ${ dateString }"
+        "fino al ${ dateString }"
       ]
     },
     "Daily recurring event, frequency (times)": {
@@ -2804,6 +2804,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Il tuo file ${ formattedFilename } non è un calendario."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Il file ${ formattedFilename } contiene più di ${ MAX_IMPORT_EVENTS } evento.",
+        "Il file ${ formattedFilename } contiene più di ${ MAX_IMPORT_EVENTS } eventi."
       ]
     },
     "Error importing contact": {
@@ -3848,7 +3852,7 @@
         "Personalizzato annuale"
       ],
       "Daily": [
-        "Giornalmente"
+        "Ogni giorno"
       ],
       "Discard changes?": [
         "Annullare le modifiche?"
@@ -5264,6 +5268,20 @@
       ],
       "Up to 3 TB of storage": [
         "Fino a 3 TB di spazio di archiviazione"
+      ],
+      "${ n } calendar": [
+        "${ n } calendario",
+        "${ n } calendari"
+      ],
+      "${ n } calendar per user": [
+        "${ n } calendario per utente",
+        "${ n } calendari per utente"
+      ],
+      "End-to-end encryption": [
+        "Crittografia end-to-end"
+      ],
+      "Send & receive invitations": [
+        "Invia e ricevi inviti"
       ]
     },
     "new_plans: feature info": {
@@ -5558,6 +5576,9 @@
       "Year": [
         "Anno",
         "Anni"
+      ],
+      "Automatic (${ value })": [
+        "Automatico (${ value })"
       ]
     },
     "Option group label": {
@@ -5676,6 +5697,9 @@
       ],
       "Start typing an email address": [
         "Inizia a digitare un indirizzo email"
+      ],
+      "Search parent folder": [
+        "Cerca nella cartella principale"
       ]
     },
     "Placeholder for contact group name": {
@@ -6094,6 +6118,15 @@
       ],
       "Support online privacy": [
         "Supporta la privacy online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } e ${ appName2 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 }, ${ appName2 } e ${ appName3 } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -6900,6 +6933,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La tua prova gratuita di Mail Plus termina il giorno ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Elimina ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7336,6 +7372,203 @@
       ],
       "Yearly, ${ untilString }": [
         "Annualmente, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Ogni giorno, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Ogni ${ interval } giorno, ${ untilString }",
+        "Ogni ${ interval } giorni, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Errore nella modifica della risposta"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Da: ${ from }"
+      ],
+      "To: ${ to }": [
+        "A: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Ogni ${ interval } mese, ${ onDayString }, ${ timesString }",
+        "Ogni ${ interval } mesi, ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Ogni mese, ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Ogni ${ interval } mese, ${ onDayString }, ${ untilString }",
+        "Ogni ${ interval } mesi, ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Ogni mese, ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Proteggi la tua agenda con la crittografia end-to-end. Include il supporto per i calendari personalizzati, la condivisione dei calendari e molto altro."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Crea fino a ${ n } calendario o aggiungi calendari di amici, famigliari, colleghi e organizzazioni",
+        "Crea fino a ${ n } calendari o aggiungi calendari di amici, famigliari, colleghi e organizzazioni"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Condividi facilmente i tuoi calendari con famigliari, amici o colleghi"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Mantieni privati i tuoi piani e quelli della tua famiglia con un calendario crittografato"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Crea fino a ${ n } calendario",
+        "Crea fino a ${ n } calendari"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Ogni ${ interval } settimana, ${ multipleDaysString }, ${ timesString }",
+        "Ogni ${ interval } settimane, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Ogni ${ interval } settimana, tutti i giorni, ${ timesString }",
+        "Ogni ${ interval } settimane, tutti i giorni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il venerdì, ${ timesString }",
+        "Ogni ${ interval } settimane, il venerdì, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il sabato, ${ timesString }",
+        "Ogni ${ interval } settimane, il sabato, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il giovedì, ${ timesString }",
+        "Ogni ${ interval } settimane, il giovedì, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Ogni ${ interval } settimana, il mercoledì, ${ timesString }",
+        "Ogni ${ interval } settimane, il mercoledì, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Ogni settimana, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Ogni settimana, tutti i giorni, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Ogni settimana, il venerdì, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Ogni settimana, il lunedì, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Ogni settimana, il sabato, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Ogni settimana, la domenica, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Ogni settimana, il giovedì, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Ogni settimana, il martedì, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Ogni settimana, il mercoledì, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Ogni ${ interval } settimana, ${ multipleDaysString }, ${ untilString }",
+        "Ogni ${ interval } settimane, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Ogni ${ interval } settimana, tutti i giorni, ${ untilString }",
+        "Ogni ${ interval } settimane, tutti i giorni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il venerdì, ${ untilString }",
+        "Ogni ${ interval } settimane, il venerdì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il lunedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il lunedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il sabato, ${ untilString }",
+        "Ogni ${ interval } settimane, il sabato, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Ogni ${ interval } settimana, la domenica, ${ untilString }",
+        "Ogni ${ interval } settimane, la domenica, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il giovedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il giovedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il martedì, ${ untilString }",
+        "Ogni ${ interval } settimane, il martedì, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Ogni ${ interval } settimana, il mercoledì, ${ untilString }",
+        "Ogni ${ interval } settimane, il mercoledì, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Ogni settimana, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Ogni settimana, tutti i giorni, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Ogni settimana, il venerdì, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Ogni settimana, il lunedì, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Ogni settimana, il sabato, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Ogni settimana, la domenica, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Ogni settimana, il giovedì, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Ogni settimana, il martedì, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Ogni settimana, il mercoledì, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Ogni ${ interval } anno, ${ timesString }",
+        "Ogni ${ interval } anni, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Ogni anno, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Ogni ${ interval } anno, ${ untilString }",
+        "Ogni ${ interval } anni, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Ogni anno, ${ untilString }"
       ]
     }
   }

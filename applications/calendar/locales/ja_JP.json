@@ -5040,6 +5040,18 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB のストレージ"
+      ],
+      "${ n } calendars": [
+        "${ n } カレンダー"
+      ],
+      "${ n } calendars per user": [
+        "1 ユーザーあたり ${ n } 件のカレンダー"
+      ],
+      "End-to-end encryption": [
+        "エンドツーエンド暗号化"
+      ],
+      "Send & receive invitations": [
+        "招待を送受信"
       ]
     },
     "new_plans: feature info": {
@@ -6983,6 +6995,25 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: エンドツーエンドの暗号化でスケジュールを保護します。 カスタム カレンダー、カレンダー共有などのサポートが含まれます。"
+      ],
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "${ n } 個までのカレンダーを作成または友人/家族/同僚/組織のカレンダーを追加"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "家族、友人、同僚とカレンダーを簡単に共有できます。"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "暗号化されたカレンダーで、自分自身や家族の予定を非公開にすることができます。"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "最大 ${ n } 個までのカレンダーを作成"
       ]
     }
   }

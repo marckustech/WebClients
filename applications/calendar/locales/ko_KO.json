@@ -5158,6 +5158,18 @@
       ],
       "Up to 3 TB of storage": [
         "최대 3 TB 스토리지"
+      ],
+      "${ n } calendars": [
+        "${ n } 캘린더"
+      ],
+      "${ n } calendars per user": [
+        "사용자 당 ${ n }개 캘린더"
+      ],
+      "End-to-end encryption": [
+        "종단간 암호화"
+      ],
+      "Send & receive invitations": [
+        "전송 및 받은 초대"
       ]
     },
     "new_plans: feature info": {
@@ -7131,6 +7143,25 @@
       ],
       "Yearly, ${ untilString }": [
         "년간, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: 커스텀 캘린더, 캘린더 공유 등의 기능을 포함하는 종단 간 암호화로 보호되는 캘린더를 사용해 보세요."
+      ],
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "최대 ${ n }개 캘린더를 생성하거나 친구, 가족, 동료 및 조직에서 생성하세요."
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "캘린더를 가족, 친구 및 동료들에게 쉽게 공유하세요"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "암호화된 캘린더로 당신과 당신의 가족의 사적인 계획을 지키세요"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "최대 ${ n }개 캘린더 생성"
       ]
     }
   }

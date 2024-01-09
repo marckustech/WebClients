@@ -5264,6 +5264,20 @@
       ],
       "Up to 3 TB of storage": [
         "Jopa 3 Gt tallennustilaa"
+      ],
+      "${ n } calendar": [
+        "${ n } kalenteri",
+        "${ n } kalenteria"
+      ],
+      "${ n } calendar per user": [
+        "${ n } kalenteri per käyttäjä",
+        "${ n } kalenteria per käyttäjä"
+      ],
+      "End-to-end encryption": [
+        "Päästä päähän -salaus"
+      ],
+      "Send & receive invitations": [
+        "Lähetä ja vastaanota kutsuja"
       ]
     },
     "new_plans: feature info": {
@@ -7336,6 +7350,27 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Suojaa aikataulusi päästä päähän -salauksella. Sisältää tuen mukautetuille kalentereille, kalenterin jakamiseen ja muuta."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Luo enintään ${ n } kalenteri tai lisää kavereiden, perheen, kollegoiden tai organisaatioiden kalentereita",
+        "Luo enintään ${ n } kalenteria tai lisää kavereiden, perheen, kollegoiden tai organisaatioiden kalentereita"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Jaa kalentereita helposti perheenjäsenille, kavereille tai kollegoille"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Pidä suunnitelmasi yksityisinä sinulle ja perheellesi salatun kalenterin avulla"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Luo enintään ${ n } kalenteri",
+        "Luo enintään ${ n } kalenteria"
       ]
     }
   }

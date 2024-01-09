@@ -2148,6 +2148,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "您可以选择稍后删除既不想合并也不想保留的联系人，点击合并按钮后他们就会被删除"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "通过按类别或精力水平对事件进行颜色编码，提高效率并跟踪时间。通过付费计划获得此功能以及更多功能。"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2627,6 +2630,12 @@
       ],
       "Your import will not be processed.": [
         "此次导入将不会进行。"
+      ],
+      "Failed to get event": [
+        "获取事件失败"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "目标收件人不支持日历共享"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4186,6 +4195,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系统时区似乎已更改为 ${ timezone }。您想要更新您的时区偏好吗？"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "所有参与者都会收到取消电子邮件的通知。您想删除哪个事件？"
       ]
     },
     "info": {
@@ -5037,6 +5049,18 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "${ n } calendars": [
+        "${ n } 个日历"
+      ],
+      "${ n } calendars per user": [
+        "每位用户 ${ n } 个日历"
+      ],
+      "End-to-end encryption": [
+        "端到端加密"
+      ],
+      "Send & receive invitations": [
+        "发送和接收邀请"
       ]
     },
     "new_plans: feature info": {
@@ -5241,6 +5265,9 @@
       ],
       "Set up your organization": [
         "填写机构信息"
+      ],
+      "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
+        "通过左上角的切换按钮可以前往所有 ${ BRAND_NAME } 服务：${ MAIL_SHORT_APP_NAME }、${ VPN_SHORT_APP_NAME }、${ CALENDAR_SHORT_APP_NAME }、${ DRIVE_SHORT_APP_NAME } 且 ${ PASS_SHORT_APP_NAME }。"
       ]
     },
     "Option": {
@@ -5930,6 +5957,12 @@
       ],
       "Search for events": [
         "搜索事件"
+      ],
+      "Color-coding is here!": [
+        "颜色编码就在这里！"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "通过可定制的活动颜色，您可以对混乱进行颜色编码并控制您的一天。"
       ]
     },
     "Storage": {
@@ -6574,6 +6607,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免费体验期将于 ${ textDate } 结束"
+      ],
+      "Add some color to your day": [
+        "为你的一天增添一些色彩"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6659,6 +6695,9 @@
       ],
       "You do not have any contacts to export": [
         "您没有任何联系人可导出"
+      ],
+      "Load image": [
+        "加载图片"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -6974,6 +7013,37 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Every ${ interval } days, ${ timesString }": [
+        "每 ${ interval } 天，${ timesString }"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 位用户"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folders selected": [
+        "已选择 ${ selectedFoldersCount } 个文件夹"
+      ],
+      "${ selectedFoldersCount } labels selected": [
+        "已选择 ${ selectedFoldersCount } 个标签"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
+        "创建多达 ${ n } 份日历或添加朋友、家人、同事、企业分享的日历"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendars": [
+        "创建最多 ${ n } 个日历"
       ]
     }
   }

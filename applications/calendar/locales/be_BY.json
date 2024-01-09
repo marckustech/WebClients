@@ -2853,6 +2853,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Ваш файл ${ formattedFilename } не з'яўляецца календаром."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзею.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзеі.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзей.",
+        "Ваш файл ${ formattedFilename } змяшчае больш за ${ MAX_IMPORT_EVENTS } падзей."
       ]
     },
     "Error importing contact": {
@@ -4516,6 +4522,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Падобна, што ваш часавы пояс змяніўся на ${ timezone }. Вы сапраўды хочаце абнавіць налады вашага часавога пояса?"
+      ],
+      "You can now return to the application to continue": [
+        "Цяпер вы можаце вярнуцца да праграмы, каб працягнуць"
       ]
     },
     "info": {
@@ -5400,6 +5409,24 @@
       ],
       "Up to 3 TB of storage": [
         "Да 3 ТБ сховішча"
+      ],
+      "${ n } calendar": [
+        "${ n } каляндар",
+        "${ n } календары",
+        "${ n } календароў",
+        "${ n } календары"
+      ],
+      "${ n } calendar per user": [
+        "${ n } каляндар на карыстальніка",
+        "${ n } календары на карыстальніка",
+        "${ n } календароў на карыстальніка",
+        "${ n } календароў на карыстальніка"
+      ],
+      "End-to-end encryption": [
+        "Скразное шыфраванне"
+      ],
+      "Send & receive invitations": [
+        "Адпраўка і атрыманне запрашэнняў"
       ]
     },
     "new_plans: feature info": {
@@ -5744,6 +5771,9 @@
         "Гады",
         "Гадоў",
         "Гады"
+      ],
+      "Automatic (${ value })": [
+        "Аўтаматычна (${ value })"
       ]
     },
     "Option group label": {
@@ -5862,6 +5892,9 @@
       ],
       "Start typing an email address": [
         "Пачніце ўводзіць адрас электроннай пошты"
+      ],
+      "Search parent folder": [
+        "Пошук бацькоўскай папкі"
       ]
     },
     "Placeholder for contact group name": {
@@ -6320,6 +6353,15 @@
       ],
       "Support online privacy": [
         "Падтрыманне прыватнасці ў інтэрнэце"
+      ],
+      "Premium ${ appName1 }": [
+        "Прэміяльны ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Прэміяльны ${ appName1 } і ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Прэміяльны ${ appName1 }, ${ appName2 } і ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -7156,6 +7198,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Выдаліць ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7655,6 +7700,272 @@
       ],
       "Yearly, ${ timesString }": [
         "Штогод а ${ timesString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Штогод, ${ untilString }"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Штодзень, ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "Кожны ${ interval } дзень, ${ timesString }",
+        "Кожныя ${ interval } дні, ${ timesString }",
+        "Кожных ${ interval } дзён, ${ timesString }",
+        "Кожных ${ interval } дзён, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Штодзень, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Кожны ${ interval } дзень, ${ untilString }",
+        "Кожныя ${ interval } дні, ${ untilString }",
+        "Кожных ${ interval } дзён, ${ untilString }",
+        "Кожных ${ interval } дзён, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Памылка пры змяненні адказу"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "Выбрана ${ selectedFoldersCount } папка",
+        "Выбраны ${ selectedFoldersCount } папкі",
+        "Выбраны ${ selectedFoldersCount } папак",
+        "Выбраны ${ selectedFoldersCount } папак"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "Выбрана ${ selectedFoldersCount } метка",
+        "Выбраны ${ selectedFoldersCount } меткі",
+        "Выбраны ${ selectedFoldersCount } метак",
+        "Выбраны ${ selectedFoldersCount } метак"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Ад: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Каму: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Кожны ${ interval } месяц у ${ onDayString }, ${ timesString }",
+        "Кожныя ${ interval } месяцы ў ${ onDayString }, ${ timesString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ timesString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Штомесяц ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Кожны ${ interval } месяц у ${ onDayString }, ${ untilString }",
+        "Кожныя ${ interval } месяцы ў ${ onDayString }, ${ untilString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ untilString }",
+        "Кожных ${ interval } месяцаў у ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Штомесяц ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "new_plans: tooltip": {
+      "${ CALENDAR_APP_NAME }: Secure your schedule with end-to-end encryption. Includes support for custom calendars, calendar sharing, and more.": [
+        "${ CALENDAR_APP_NAME }: Абараняйце свой расклад з дапамогай скразнога шыфравання. Уключае падтрымку для карыстальніцкіх календароў, абагуленых календароў і іншыя функцыі."
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "Стварайце да ${ n } календара або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый",
+        "Стварайце да ${ n } календароў або дадавайце календары ад сяброў, сям'і, калег і арганізацый"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "Лёгка дзяліцеся вашымі календарамі з сям'ёй, сябрамі або калегамі"
+      ],
+      "Keep your plans private to you and your family with an encrypted calendar": [
+        "Трымайце ў прыватнасці свае і сямейныя планы з зашыфраваным календаром"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Create up to ${ n } calendar": [
+        "Стварыць да ${ n } календара",
+        "Стварыць да ${ n } календароў",
+        "Стварыць да ${ n } календароў",
+        "Стварыць да ${ n } календароў"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у ${ multipleDaysString }, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў ${ multipleDaysString }, ${ timesString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ timesString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Кожны ${ interval } тыдзень ва ўсе дні, ${ timesString }",
+        "Кожныя ${ interval } тыдні ва ўсе дні, ${ timesString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ timesString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у пятніцу, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў пятніцу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у суботу, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў суботу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ timesString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у чацвер, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў чацвер, ${ timesString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ timesString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Кожны ${ interval } тыдзень у сераду, ${ timesString }",
+        "Кожныя ${ interval } тыдні ў сераду, ${ timesString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ timesString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Штотыдзень у ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Штотыдзень ва ўсе дні, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Штотыдзень у пятніцу, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Штотыдзень у панядзелак, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Штотыдзень у суботу, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Штотыдзень у нядзелю, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Штотыдзень у чацвер, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Штотыдзень у аўторак, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Штотыдзень у сераду, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у ${ multipleDaysString }, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў ${ multipleDaysString }, ${ untilString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ untilString }",
+        "Кожных ${ interval } тыдняў у ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Кожны ${ interval } тыдзень ва ўсе дні, ${ untilString }",
+        "Кожныя ${ interval } тыдні ва ўсе дні, ${ untilString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ untilString }",
+        "Кожных ${ interval } тыдняў ва ўсе дні, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у пятніцу, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў пятніцу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у пятніцу, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у панядзелак, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў панядзелак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у панядзелак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у панядзелак, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у суботу, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў суботу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ untilString }",
+        "Кожных ${ interval } тыдняў у суботу, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у нядзелю, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў нядзелю, ${ untilString }",
+        "Кожных ${ interval } тыдняў у нядзелю, ${ untilString }",
+        "Кожных ${ interval } тыдняў у нядзелю, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у чацвер, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў чацвер, ${ untilString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ untilString }",
+        "Кожных ${ interval } тыдняў у чацвер, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у аўторак, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў аўторак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у аўторак, ${ untilString }",
+        "Кожных ${ interval } тыдняў у аўторак, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Кожны ${ interval } тыдзень у сераду, ${ untilString }",
+        "Кожныя ${ interval } тыдні ў сераду, ${ untilString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ untilString }",
+        "Кожных ${ interval } тыдняў у сераду, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Штотыдзень у ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Штотыдзень ва ўсе дні, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Штотыдзень у пятніцу, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Штотыдзень у панядзелак, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Штотыдзень у суботу, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Штотыдзень у нядзелю, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Штотыдзень у чацвер, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Штотыдзень у аўторак, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Штотыдзень у сераду, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Кожны ${ interval } год, ${ timesString }",
+        "Кожныя ${ interval } гады, ${ timesString }",
+        "Кожных ${ interval } гадоў, ${ timesString }",
+        "Кожных ${ interval } гадоў, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Штогод, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Кожны ${ interval } год, ${ untilString }",
+        "Кожныя ${ interval } гады, ${ untilString }",
+        "Кожных ${ interval } гадоў, ${ untilString }",
+        "Кожных ${ interval } гадоў, ${ untilString }"
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"

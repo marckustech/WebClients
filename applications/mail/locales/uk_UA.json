@@ -3670,6 +3670,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Ваш файл ${ formattedFilename } не є календарем."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подію.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } події.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подій.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подій."
       ]
     },
     "Error importing contact": {
@@ -6282,6 +6288,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "${ n } unread conversation": [
+        "${ n } непрочитана розмова",
+        "${ n } непрочитані розмови",
+        "${ n } непрочитаних розмов",
+        "${ n } непрочитаних розмов"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Це повідомлення автоматично видалиться о ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Термін дії цього повідомлення завершиться у ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Термін дії цього повідомлення завершиться сьогодні ${ value }"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Термін дії цього повідомлення завершиться завтра ${ value }"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "У вашій поштовій скриньці ${ unread }."
       ]
     },
     "info": {
@@ -7738,6 +7765,9 @@
       ],
       "No parent folder": [
         "Немає теки вищого рівня"
+      ],
+      "Automatic (${ value })": [
+        "Автоматично (${ value })"
       ]
     },
     "Option group": {
@@ -8347,6 +8377,9 @@
       ],
       "Support online privacy": [
         "Підтримка онлайн-приватності"
+      ],
+      "Premium ${ appName1 }": [
+        "Преміум ${ appName1 }"
       ]
     },
     "specialoffer: Footer": {
@@ -9534,6 +9567,9 @@
       ],
       "Delete label?": [
         "Видалити мітку?"
+      ],
+      "Delete ${ value }": [
+        "Видалити ${ value }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10109,6 +10145,9 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Щосереди, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Щотижня ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -10135,6 +10174,9 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Щосереди, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Щотижня ${ multipleDaysString }, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -10145,6 +10187,36 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ],
+      "Every ${ interval } year, ${ untilString }": [
+        "Кожен ${ interval } рік, ${ untilString }",
+        "Кожні ${ interval } роки, ${ untilString }",
+        "Кожні ${ interval } років, ${ untilString }",
+        "Кожні ${ interval } років, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } вибрана тека",
+        "${ selectedFoldersCount } вибрані теки",
+        "${ selectedFoldersCount } вибраних тек",
+        "${ selectedFoldersCount } вибраних тек"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "${ selectedFoldersCount } вибрана мітка",
+        "${ selectedFoldersCount } вибрані мітки",
+        "${ selectedFoldersCount } вибраних міток",
+        "${ selectedFoldersCount } вибраних міток"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Від: ${ from }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Щомісяця ${ onDayString }, ${ untilString }"
       ]
     }
   }

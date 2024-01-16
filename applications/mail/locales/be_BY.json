@@ -10154,10 +10154,10 @@
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
       ],
       "Action all conversations": [
-        "Дзеянне да ўсіх размоў"
+        "Прымяніць да ўсіх размоў"
       ],
       "Action all messages": [
-        "Дзеянне да ўсіх паведамленняў"
+        "Прымяніць да ўсіх паведамленняў"
       ],
       "Delete ${ value }": [
         "Выдаліць ${ value }"
@@ -10178,7 +10178,22 @@
         "Перамясціць усе размовы"
       ],
       "Move all messages": [
-        "Перамясціць усе паведамлення"
+        "Перамясціць усе паведамленні"
+      ],
+      "A filter name is required": [
+        "Патрабуецца назва фільтра"
+      ],
+      "A filter with this name already exists": [
+        "Фільтр з такой назвай ужо існуе"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Назва фільтра не можа змяшчаць толькі прабелы"
+      ],
+      "This field cannot be empty": [
+        "Гэтае поле не можа быць пустым"
+      ],
+      "This field cannot contain only spaces": [
+        "Гэта поле не можа змяшчаць толькі прабелы"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10691,7 +10706,7 @@
     },
     "Daily recurring event, frequency (times)": {
       "Daily, ${ timesString }": [
-        "Штодзень у ${ timesString }"
+        "Штодзень, ${ timesString }"
       ],
       "Every ${ interval } day, ${ timesString }": [
         "Кожны ${ interval } дзень, ${ timesString }",

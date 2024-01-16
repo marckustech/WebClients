@@ -9776,6 +9776,9 @@
       ],
       "Move all messages": [
         "Mover todos los mensajes"
+      ],
+      "A filter with this name already exists": [
+        "Ya existe un filtro con este nombre."
       ]
     },
     "Today icon tooltip in mini calendar": {

@@ -6389,6 +6389,10 @@
       "You selected **${ elementsCount } message**.": [
         "Du valde **${ elementsCount } meddelande**.",
         "Du valde **${ elementsCount } meddelanden**."
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } meddelande kommer att avmärkas från:",
+        "${ elementsCount } meddelanden kommer att avmärkas från:"
       ]
     },
     "info": {
@@ -9765,6 +9769,21 @@
       ],
       "Move all messages": [
         "Flytta alla meddelanden"
+      ],
+      "A filter name is required": [
+        "Ett filternamn är obligatoriskt"
+      ],
+      "A filter with this name already exists": [
+        "Ett filter med detta namn finns redan"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Filternamn kan inte bara innehålla mellanslag"
+      ],
+      "This field cannot be empty": [
+        "Detta fält kan inte vara tomt"
+      ],
+      "This field cannot contain only spaces": [
+        "Detta fält kan inte bara innehålla mellanslag"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10328,6 +10347,14 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Varje vecka på onsdag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Varje ${ interval } vecka på måndag, ${ untilString }",
+        "Var ${ interval }:e vecka på måndag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Var ${ interval }:e vecka på söndag, ${ untilString }",
+        "Var ${ interval }:e vecka på söndag, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {

@@ -9559,6 +9559,15 @@
       ],
       "Move all messages": [
         "Pindahkan seluruh pesan"
+      ],
+      "A filter with this name already exists": [
+        "Filter dengan nama ini sudah ada"
+      ],
+      "This field cannot be empty": [
+        "Kolom ini tidak boleh kosong"
+      ],
+      "This field cannot contain only spaces": [
+        "Kolom ini tidak boleh diisi hanya dengan spasi"
       ]
     },
     "Today icon tooltip in mini calendar": {

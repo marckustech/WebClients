@@ -3718,6 +3718,11 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Căutarea a găsit prea multe rezultate. Limitați căutarea și reîncercați."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Alegeți o dată mai târziu cu ${ n } zi.",
+        "Alegeți o dată în următoarele ${ n } zile.",
+        "Alegeți o dată în următoarele ${ n } de zile."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3776,6 +3781,11 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Fișierul ${ formattedFilename } nu este un calendar."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Fișierul ${ formattedFilename } conține mai mult de ${ MAX_IMPORT_EVENTS } eveniment.",
+        "Fișierul ${ formattedFilename } conține mai mult de ${ MAX_IMPORT_EVENTS } evenimente.",
+        "Fișierul ${ formattedFilename } conține mai mult de ${ MAX_IMPORT_EVENTS } de evenimente."
       ]
     },
     "Error importing contact": {
@@ -4992,14 +5002,14 @@
         "${ selectedContactsLength }/${ contactsLength } de contacte selectate"
       ],
       "${ selectedFoldersCountLocalized } folder selected": [
-        "Este selectat un folder",
-        "Sunt selectate ${ selectedFoldersCountLocalized } foldere",
-        "Sunt selectate ${ selectedFoldersCountLocalized } de foldere"
+        "Foldere selectate: ${ selectedFoldersCountLocalized }",
+        "Foldere selectate: ${ selectedFoldersCountLocalized }",
+        "Foldere selectate: ${ selectedFoldersCountLocalized }"
       ],
       "${ selectedFoldersCountLocalized } label selected": [
-        "S-a selectat o etichetă",
-        "S-au selectat ${ selectedFoldersCountLocalized } etichete",
-        "S-au selectat ${ selectedFoldersCountLocalized } de etichete"
+        "Etichete selectate: ${ selectedFoldersCountLocalized }",
+        "Etichete selectate: ${ selectedFoldersCountLocalized }",
+        "Etichete selectate: ${ selectedFoldersCountLocalized }"
       ],
       "${ storage } storage": [
         "Stocare ${ storage }"
@@ -6384,6 +6394,122 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numărul de telefon va fi folosit doar pentru această verificare unică."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } conversație va fi etichetată cu:",
+        "${ elementsCount } conversații vor fi etichetate cu:",
+        "${ elementsCount } de conversații vor fi etichetate cu:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } conversație va fi marcată ca fiind citită.",
+        "${ elementsCount } conversații vor fi marcate ca fiind citite.",
+        "${ elementsCount } de conversații vor fi marcate ca fiind citite."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } conversație va fi marcată ca fiind necitită.",
+        "${ elementsCount } conversații vor fi marcate ca fiind necitite.",
+        "${ elementsCount } de conversații vor fi marcate ca fiind necitite."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } conversație va fi mutată",
+        "${ elementsCount } conversații vor fi mutate",
+        "${ elementsCount } de conversații vor fi mutate"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } conversație nu va mai fi etichetată cu:",
+        "${ elementsCount } conversații nu vor mai fi etichetate cu:",
+        "${ elementsCount } de conversații nu vor mai fi etichetate cu:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } mesaj va fi etichetat cu:",
+        "${ elementsCount } mesaje vor fi etichetate cu:",
+        "${ elementsCount } de mesaje vor fi etichetate cu:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } mesaj va fi marcat ca fiind citit.",
+        "${ elementsCount } mesaje vor fi marcate ca fiind citite.",
+        "${ elementsCount } de mesaje vor fi marcate ca fiind citite."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } mesaj va fi marcat ca fiind necitit.",
+        "${ elementsCount } mesaje vor fi marcate ca fiind necitite.",
+        "${ elementsCount } de mesaje vor fi marcate ca fiind necitite."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } mesaj va fi mutat",
+        "${ elementsCount } mesaje vor fi mutate",
+        "${ elementsCount } de mesaje vor fi mutate"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } mesaj nu va mai fi etichetat cu:",
+        "${ elementsCount } mesaje nu vor mai fi etichetate cu:",
+        "${ elementsCount } de mesaje nu vor mai fi etichetate cu:"
+      ],
+      "${ n } unread conversation": [
+        "${ n } conversație necitită",
+        "${ n } conversații necitite",
+        "${ n } de conversații necitite"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Orice mesaj programat sau amânat va fi anulat."
+      ],
+      "Applying actions to conversations": [
+        "Se aplică acțiunile la conversații"
+      ],
+      "Applying actions to messages": [
+        "Se aplică acțiunile la mesaje"
+      ],
+      "Clear selection": [
+        "Golire selectate"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Acțiuni în desfășurare asupra mesajelor. Aceasta poate dura ceva timp."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Selectare toate articolele (${ elementsCount }) din ${ location }",
+        "Selectare toate articolele (${ elementsCount }) din ${ location }",
+        "Selectare toate articolele (${ elementsCount }) din ${ location }"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Acest mesaj va fi șters automat la ora ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Acest mesaj va expira ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Acest mesaj va expira astăzi la ora ${ value }."
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Acest mesaj va expira mâine la ora ${ value }."
+      ],
+      "to ${ destinationElement } folder.": [
+        "în folderul ${ destinationElement }."
+      ],
+      "You can now return to the application to continue": [
+        "Puteți reveni la aplicație pentru a continua"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Aveți ${ unread } mesaje în «Primite»."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Ați selectat **${ elementsCount } conversație** în ${ location }.",
+        "Ați selectat **${ elementsCount } conversații** în ${ location }.",
+        "Ați selectat **${ elementsCount } de conversații** în ${ location }."
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Ați selectat **${ elementsCount } conversație**.",
+        "Ați selectat **${ elementsCount } conversații**.",
+        "Ați selectat **${ elementsCount } de conversații**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Ați selectat **${ elementsCount } mesaj** în ${ location }.",
+        "Ați selectat **${ elementsCount } mesaje** în ${ location }.",
+        "Ați selectat **${ elementsCount } de mesaje** în ${ location }."
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Ați selectat **${ elementsCount } mesaj**.",
+        "Ați selectat **${ elementsCount } mesaje**.",
+        "Ați selectat **${ elementsCount } de mesaje**."
       ]
     },
     "info": {
@@ -7875,6 +8001,9 @@
       ],
       "No parent folder": [
         "Fără folder părinte"
+      ],
+      "Automatic (${ value })": [
+        "Automat (${ value })"
       ]
     },
     "Option group": {
@@ -8015,6 +8144,9 @@
       ],
       "Type text or keyword": [
         "Scrieți un text sau cuvânt cheie"
+      ],
+      "Search parent folder": [
+        "Căutare în folder părinte"
       ]
     },
     "Placeholder for contact group name": {
@@ -8605,6 +8737,15 @@
       ],
       "Support online privacy": [
         "Susțineți confidențialitatea online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } și ${ appName2 } premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "${ appName1 }, ${ appName2 } și ${ appName3 } premium"
       ]
     },
     "specialoffer: Footer": {
@@ -9795,6 +9936,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Action all conversations": [
+        "Aplicare la toate conversațiile"
+      ],
+      "Action all messages": [
+        "Aplicare la toate mesajele"
+      ],
+      "Delete ${ value }": [
+        "Ștergere ${ value }"
+      ],
+      "Mark conversations as read": [
+        "Marcare conversații ca fiind citite"
+      ],
+      "Mark conversations as unread": [
+        "Marcare conversații ca fiind necitite"
+      ],
+      "Mark messages as read": [
+        "Marcare mesaje ca fiind citite"
+      ],
+      "Mark messages as unread": [
+        "Marcare mesaje ca fiind necitite"
+      ],
+      "Move all conversations": [
+        "Mutare toate conversațiile"
+      ],
+      "Move all messages": [
+        "Mutare toate mesajele"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9874,6 +10042,9 @@
       ],
       "You do not have any contacts to export": [
         "Nu aveți persoane de contact pentru exportare"
+      ],
+      "Load image": [
+        "Încărcare imagine"
       ]
     },
     "Tor out of date": {
@@ -10294,6 +10465,224 @@
     "Select search results": {
       "No results found": [
         "Nu s-au găsit rezultate"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Imagine contact"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Zilnic, ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "La fiecare ${ interval } zi, ${ timesString }",
+        "La fiecare ${ interval } zile, ${ timesString }",
+        "La fiecare ${ interval } de zile, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Zilnic, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "La fiecare ${ interval } zi, ${ untilString }",
+        "La fiecare ${ interval } zile, ${ untilString }",
+        "La fiecare ${ interval } de zile, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "Foldere selectate: ${ selectedFoldersCount }",
+        "Foldere selectate: ${ selectedFoldersCount }",
+        "Foldere selectate: ${ selectedFoldersCount }"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "Etichete selectate: ${ selectedFoldersCount }",
+        "Etichete selectate: ${ selectedFoldersCount }",
+        "Etichete selectate: ${ selectedFoldersCount }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "De la: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Către: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "${ onDayString }, la fiecare ${ interval } lună, ${ timesString }",
+        "${ onDayString }, la fiecare ${ interval } luni, ${ timesString }",
+        "${ onDayString }, la fiecare ${ interval } de luni, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Lunar, ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "${ onDayString }, la fiecare ${ interval } lună, ${ untilString }",
+        "${ onDayString }, la fiecare ${ interval } luni, ${ untilString }",
+        "${ onDayString }, la fiecare ${ interval } de luni, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Lunar, ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "La fiecare ${ interval } săptămână, ${ multipleDaysString }, ${ timesString }",
+        "La fiecare ${ interval } săptămâni, ${ multipleDaysString }, ${ timesString }",
+        "La fiecare ${ interval } de săptămâni, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Toate zilele, la fiecare ${ interval } săptămână, ${ timesString }",
+        "Toate zilele, la fiecare ${ interval } săptămâni, ${ timesString }",
+        "Toate zilele, la fiecare ${ interval } de săptămâni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Vineri, la fiecare ${ interval } săptămână, ${ timesString }",
+        "Vineri, la fiecare ${ interval } săptămâni, ${ timesString }",
+        "Vineri, la fiecare ${ interval } de săptămâni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Sâmbătă, la fiecare ${ interval } săptămână, ${ timesString }",
+        "Sâmbătă, la fiecare ${ interval } săptămâni, ${ timesString }",
+        "Sâmbătă, la fiecare ${ interval } de săptămâni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Joi, la fiecare ${ interval } săptămână, ${ timesString }",
+        "Joi, la fiecare ${ interval } săptămâni, ${ timesString }",
+        "Joi, la fiecare ${ interval } de săptămâni, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Miercuri, la fiecare ${ interval } săptămână, ${ timesString }",
+        "Miercuri, la fiecare ${ interval } săptămâni, ${ timesString }",
+        "Miercuri, la fiecare ${ interval } de săptămâni, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Săptămânal, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Săptămânal, toate zilele, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Săptămânal, vineri, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Săptămânal, luni, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Săptămânal, sâmbătă, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Săptămânal, duminică, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Săptămânal, joi, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Săptămânal, marți, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Săptămânal, miercuri, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "La fiecare ${ interval } săptămână, ${ multipleDaysString }, ${ untilString }",
+        "La fiecare ${ interval } săptămâni, ${ multipleDaysString }, ${ untilString }",
+        "La fiecare ${ interval } de săptămâni, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Toate zilele, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Toate zilele, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Toate zilele, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Vineri, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Vineri, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Vineri, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Luni, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Luni, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Luni, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Sâmbătă, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Sâmbătă, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Sâmbătă, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Duminică, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Duminică, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Duminică, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Joi, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Joi, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Joi, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Marți, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Marți, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Marți, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Miercuri, la fiecare ${ interval } săptămână, ${ untilString }",
+        "Miercuri, la fiecare ${ interval } săptămâni, ${ untilString }",
+        "Miercuri, la fiecare ${ interval } de săptămâni, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Săptămânal, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Săptămânal, toate zilele, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Săptămânal, vineri, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Săptămânal, luni, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Săptămânal, sâmbătă, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Săptămânal, duminică, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Săptămânal, joi, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Săptămânal, marți, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Săptămânal, miercuri, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "La fiecare ${ interval } an, ${ timesString }",
+        "La fiecare ${ interval } ani, ${ timesString }",
+        "La fiecare ${ interval } de ani, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Anual, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "La fiecare ${ interval } an, ${ untilString }",
+        "La fiecare ${ interval } ani, ${ untilString }",
+        "La fiecare ${ interval } de ani, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Anual, ${ untilString }"
       ]
     }
   }

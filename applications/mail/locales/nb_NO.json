@@ -9776,6 +9776,15 @@
       ],
       "Move all messages": [
         "Flytt alle meldinger"
+      ],
+      "A filter with this name already exists": [
+        "Et filter med dette navnet eksisterer allerede"
+      ],
+      "This field cannot be empty": [
+        "Feltet kan ikke stå tomt"
+      ],
+      "This field cannot contain only spaces": [
+        "Feltet kan ikke kun innholde mellomrom"
       ]
     },
     "Today icon tooltip in mini calendar": {

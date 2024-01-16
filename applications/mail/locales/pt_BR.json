@@ -6282,6 +6282,29 @@
       ],
       "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
         "Os e-mails marcados com este marcador ${ nameDeleted } não serão excluídos e ainda podem ser encontrados na respectiva pasta."
+      ],
+      "${ n } unread conversation": [
+        "${ n } conversa não lida",
+        "${ n } conversas não lidas"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Essa mensagem será automaticamente excluída em ${ value }"
+      ],
+      "This message will expire on ${ value }": [
+        "Esta mensagem expirará em ${ value }"
+      ],
+      "This message will expire today at ${ value }": [
+        "Esta mensagem expirará hoje às ${ value }."
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Esta mensagem expirará amanhã às ${ value }"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Você tem ${ unread } na sua caixa de entrada."
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Você selecionou **${ elementsCount } conversa**.",
+        "Você selecionou **${ elementsCount } conversas**."
       ]
     },
     "info": {
@@ -7759,6 +7782,9 @@
       ],
       "No parent folder": [
         "Nenhuma pasta acima"
+      ],
+      "Automatic (${ value })": [
+        "Automático (${ value })"
       ]
     },
     "Option group": {
@@ -8463,6 +8489,12 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } Premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium de ${ appName1 } e ${ appName2 }"
       ]
     },
     "specialoffer: Footer": {
@@ -9609,6 +9641,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Excluir ${ value }"
+      ],
+      "Mark messages as read": [
+        "Marcar mensagens como lidas"
+      ],
+      "Move all conversations": [
+        "Mover todas as conversas"
+      ],
+      "Move all messages": [
+        "Mover todas as mensagens"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10166,6 +10210,10 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Semanalmente na quarta-feira, ${ timesString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "A cada ${ interval } semana, na(o) ${ multipleDaysString }, ${ timesString }",
+        "A cada ${ interval } semanas, na(o) ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -10223,6 +10271,14 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Semanalmente na quarta-feira, ${ untilString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "A cada ${ interval } semana, na(o) ${ multipleDaysString }, ${ untilString }",
+        "A cada ${ interval } semanas, na(o) ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "A cada ${ interval } semana, todos os dias, ${ untilString }",
+        "A cada ${ interval } semanas, todos os dias, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -10241,6 +10297,39 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "filter: Label": {
+      "the email was sent ${ label }": [
+        "o e-mail foi enviado ${ label }"
+      ],
+      "with attachments": [
+        "com anexos"
+      ],
+      "without attachments": [
+        "sem anexos"
+      ]
+    },
+    "filter: Label, jt": {
+      "the email was sent ${ label }": [
+        "o e-mail foi enviado ${ label }"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "De: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Para: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "A cada ${ interval } mês ${ onDayString }, ${ untilString }",
+        "A cada ${ interval } meses ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Mensalmente ${ onDayString }, ${ untilString }"
       ]
     }
   }

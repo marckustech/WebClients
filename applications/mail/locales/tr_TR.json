@@ -320,7 +320,7 @@
         "Tüm iletilerin seçimini kaldır"
       ],
       "Details": [
-        "Ayrıntılar"
+        "Bilgiler"
       ],
       "Discard": [
         "Sil"
@@ -464,10 +464,10 @@
         "Gelişmiş PGP ayarlarını gizle"
       ],
       "Hide attachment details": [
-        "Ek dosya ayrıntılarını gizle"
+        "Ek dosya bilgilerini gizle"
       ],
       "Hide details": [
-        "Ayrıntıları gizle"
+        "Bilgileri gizle"
       ],
       "Hide messages": [
         "İletileri gizle"
@@ -681,7 +681,7 @@
         "Yardım gerekiyor mu?"
       ],
       "Never show": [
-        "Asla gösterme"
+        "Asla görüntüleme"
       ],
       "New message": [
         "Yeni ileti"
@@ -951,31 +951,31 @@
         "Paylaşım seçenekleri"
       ],
       "Show": [
-        "Göster"
+        "Görüntüle"
       ],
       "Show advanced PGP settings": [
-        "Gelişmiş PGP ayarlarını göster"
+        "Gelişmiş PGP ayarlarını görüntüle"
       ],
       "Show attachment details": [
-        "Ek dosya ayrıntılarını göster"
+        "Ek dosya bilgilerini görüntüle"
       ],
       "Show details": [
-        "Ayrıntıları göster"
+        "Bilgileri görüntüle"
       ],
       "Show fewer search options": [
-        "Daha az arama seçeneği göster"
+        "Daha az arama seçeneği görüntüle"
       ],
       "Show less": [
-        "Daha az göster"
+        "Daha az görüntüle"
       ],
       "Show messages": [
-        "İletileri göster"
+        "İletileri görüntüle"
       ],
       "Show more search options": [
-        "Daha fazla arama seçeneği göster"
+        "Daha fazla arama seçeneği görüntüle"
       ],
       "Show preview": [
-        "Ön izlemeyi göster"
+        "Ön izlemeyi görüntüle"
       ],
       "Show side panel": [
         "Yan panoyu görüntüle"
@@ -1156,13 +1156,13 @@
         "Faturayı görüntüle"
       ],
       "View keys": [
-        "Anahtarları göster"
+        "Anahtarları görüntüle"
       ],
       "View message details": [
-        "İleti ayrıntılarını görüntüle"
+        "İleti bilgilerini görüntüle"
       ],
       "View recipients": [
-        "Alıcıları göster"
+        "Alıcıları görüntüle"
       ],
       "View rendered HTML": [
         "HTML olarak görüntüle"
@@ -3690,6 +3690,10 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Aramanız çok fazla sonuç döndürdü. Lütfen aramanızı sınırlandırıp yeniden deneyin."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Sonraki ${ n } gün içinde bir tarih seçin.",
+        "Sonraki ${ n } gün içinde bir tarih seçin."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3746,6 +3750,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "${ formattedFilename } dosyanız bir takvim değil."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "${ formattedFilename } dosyanızda ${ MAX_IMPORT_EVENTS } taneden fazla etkinlik var.",
+        "${ formattedFilename } dosyanızda ${ MAX_IMPORT_EVENTS } taneden fazla etkinlik var."
       ]
     },
     "Error importing contact": {
@@ -4174,7 +4182,7 @@
     },
     "Filter": {
       "Show": [
-        "Göster"
+        "Görüntüle"
       ]
     },
     "Filter Actions": {
@@ -4256,7 +4264,7 @@
         "Okunmuş"
       ],
       "Show moved message": [
-        "Taşınmış iletiyi göster"
+        "Taşınmış iletiyi görüntüle"
       ],
       "Unread": [
         "Okunmamış"
@@ -4562,7 +4570,7 @@
     },
     "Import calendar warning": {
       "${ CALENDAR_APP_NAME } currently does not support certain event types, details and formats.": [
-        "${ CALENDAR_APP_NAME } şu anda belirli etkinlik türlerini, ayrıntılarını ve biçimlerini desteklemiyor."
+        "${ CALENDAR_APP_NAME } şu anda belirli etkinlik türlerini, bilgilerini ve biçimlerini desteklemiyor."
       ],
       "vCard versions < 3.0": [
         "vCard 3.0 sürümü öncesi"
@@ -4570,7 +4578,7 @@
     },
     "Import calendar; import invitation": {
       "Imported invitations appear in ${ CALENDAR_APP_NAME } as simple events without organizer and participant details. To get event updates and see participants, ask organizers to invite you using your ${ BRAND_NAME } email address.": [
-        "İçe aktarılan davetler ${ CALENDAR_APP_NAME } içinde düzenleyici ve katılımcı ayrıntıları olmadan sıradan etkinlikler olarak görüntülenir. Etkinlik güncellemelerini almak ve katılımcıları görmek için düzenleyicilerden ${ BRAND_NAME } e-posta adresinizi kullanarak sizi davet etmelerini isteyin."
+        "İçe aktarılan davetler ${ CALENDAR_APP_NAME } içinde düzenleyici ve katılımcı bilgileri olmadan sıradan etkinlikler olarak görüntülenir. Etkinlik güncellemelerini almak ve katılımcıları görmek için düzenleyicilerden ${ BRAND_NAME } e-posta adresinizi kullanarak sizi davet etmelerini isteyin."
       ],
       "This file contains an event invitation:": [
         "Bu dosyada bir etkinlik daveti bulunuyor:",
@@ -4794,14 +4802,14 @@
         "${ totalContactsDiscarded }/${ totalContacts } kişi içe aktarılmayacak. Ayrıntılı bilgi almak için tıklayın"
       ],
       "${ totalEventsDiscarded } out of ${ totalEvents } event will not be imported. Expand for details.": [
-        "${ totalEvents } / ${ totalEventsDiscarded } etkinlik içe aktarılmayacak. Ayrıntılar için genişletin.",
-        "${ totalEvents } / ${ totalEventsDiscarded } etkinlik içe aktarılmayacak. Ayrıntılar için genişletin."
+        "${ totalEvents } / ${ totalEventsDiscarded } etkinlik içe aktarılmayacak. Bilgileri görmek için genişletin.",
+        "${ totalEvents } / ${ totalEventsDiscarded } etkinlik içe aktarılmayacak. Bilgileri görmek için genişletin."
       ],
       "No contact can be imported. Click for details": [
-        "Herhangi bir kişi içe aktarılamadı. Ayrıntılar için tıklayın"
+        "Herhangi bir kişi içe aktarılamadı. Ayrıntılı bilgi almak için tıklayın"
       ],
       "No event can be imported. Expand for details.": [
-        "Herhangi bir etkinlik içe aktarılamadı. Ayrıntılar için genişletin."
+        "Herhangi bir etkinlik içe aktarılamadı. Bilgi almak için genişletin."
       ],
       "Part of your calendar content is not supported and will not be imported.": [
         "Takvim içeriğinizin bir bölümü desteklenmiyor ve içe aktarılmayacak."
@@ -5758,7 +5766,7 @@
         "PGP kurarak, PGP uyumlu bir hizmet kullanan ancak ${ BRAND_NAME } kullanmayan bir kullanıcıya uçtan uca şifrelenmiş e-postalar gönderebilirsiniz."
       ],
       "Show original message": [
-        "Özgün iletiyi göster"
+        "Özgün iletiyi görüntüle"
       ],
       "SimpleLogin is a ${ BRAND_NAME } service, and your ${ BRAND_NAME_TWO } Account includes hide-my-email aliases. To start masking your email address, go to SimpleLogin and create your first alias.": [
         "SimpleLogin bir ${ BRAND_NAME } hizmetidir ve ${ BRAND_NAME_TWO } hesabınızda hide-my-email takma adları kullanılmasını sağlar. E-posta adresinizi gizlemeye başlamak için SimpleLogin sitesine gidin ve ilk takma adınızı oluşturun."
@@ -6275,6 +6283,106 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefon numaranız yalnızca bu tek seferlik doğrulama için kullanılacak."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } yazışmaya şu etiket eklenecek:",
+        "${ elementsCount } yazışmaya şu etiket eklenecek:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } yazışma okunmuş olarak işaretlenecek.",
+        "${ elementsCount } yazışma okunmuş olarak işaretlenecek."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } yazışma okunmamış olarak işaretlenecek.",
+        "${ elementsCount } yazışma okunmamış olarak işaretlenecek."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } yazışma taşınacak",
+        "${ elementsCount } yazışma taşınacak"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } yazışmadan şu etiket kaldırılacak:",
+        "${ elementsCount } yazışmadan şu etiket kaldırılacak:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } iletiye şu etiket eklenecek:",
+        "${ elementsCount } iletiye şu etiket eklenecek:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } ileti okunmuş olarak işaretlenecek.",
+        "${ elementsCount } ileti okunmuş olarak işaretlenecek."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } ileti okunmamış olarak işaretlenecek.",
+        "${ elementsCount } ileti okunmamış olarak işaretlenecek."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } ileti taşınacak",
+        "${ elementsCount } ileti taşınacak"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } iletiden şu etiket kaldırılacak:",
+        "${ elementsCount } iletiden şu etiket kaldırılacak:"
+      ],
+      "${ n } unread conversation": [
+        "${ n } okunmamış yazışma",
+        "${ n } okunmamış yazışma"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Zamanlanmış ya da ertelenmiş iletiler iptal edilecek."
+      ],
+      "Applying actions to conversations": [
+        "İşlemler yazışmalara uygulanıyor"
+      ],
+      "Applying actions to messages": [
+        "İşlemler iletilere uygulanıyor"
+      ],
+      "Clear selection": [
+        "Seçimi temizle"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "İleti işlemleri yapılıyor. İşlemin tamamlanması biraz zaman alabilir."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "${ location } içindeki ${ elementsCount } ögeyi seç",
+        "${ location } içindeki ${ elementsCount } ögeyi seç"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Bu ileti ${ value } zamanında otomatik olarak silinecek"
+      ],
+      "This message will expire on ${ value }": [
+        "Bu iletinin geçerlilik süresi ${ value } zamanında dolacak"
+      ],
+      "This message will expire today at ${ value }": [
+        "Bu iletinin geçerlilik süresi bugün ${ value } saatinde dolacak"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Bu iletinin geçerlilik süresi yarın ${ value } saatinde dolacak"
+      ],
+      "to ${ destinationElement } folder.": [
+        "${ destinationElement } klasörüne."
+      ],
+      "You can now return to the application to continue": [
+        "Şimdi uygulamaya dönebilirsiniz"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Gelen kutunuzda ${ unread } var."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "${ location } içindeki **${ elementsCount } yazışmayı** seçtiniz",
+        "${ location } içindeki **${ elementsCount } yazışmayı** seçtiniz"
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "**${ elementsCount } yazışmayı** seçtiniz.",
+        "**${ elementsCount } yazışmayı** seçtiniz."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "${ location } içindeki **${ elementsCount } iletiyi** seçtiniz",
+        "${ location } içindeki **${ elementsCount } iletiyi** seçtiniz"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "**${ elementsCount } iletiyi** seçtiniz.",
+        "**${ elementsCount } iletiyi** seçtiniz."
       ]
     },
     "info": {
@@ -6291,7 +6399,7 @@
     },
     "Info on errors": {
       "Click for details": [
-        "Ayrıntılar için tıklayın"
+        "Bilgiler için tıklayın"
       ]
     },
     "Key badge": {
@@ -6481,13 +6589,13 @@
         "E-posta gönder"
       ],
       "Show all emails": [
-        "Tüm e-postaları göster"
+        "Tüm e-postaları görüntüle"
       ],
       "Show original message": [
-        "Özgün iletiyi göster"
+        "Özgün iletiyi görüntüle"
       ],
       "Show unread emails": [
-        "Okunmamış e-postaları göster"
+        "Okunmamış e-postaları görüntüle"
       ],
       "Star": [
         "Yıldız koy/kaldır"
@@ -6671,7 +6779,7 @@
         "Bir daha sorma"
       ],
       "Don't show this again": [
-        "Bunu bir daha gösterme"
+        "Bu bir daha görüntülenmesin"
       ],
       "Email": [
         "E-posta"
@@ -7141,7 +7249,7 @@
         "Ayrıntılı bilgi alın"
       ],
       "Less": [
-        "Daha az göster"
+        "Daha az görüntüle"
       ],
       "Manage blocked email addresses": [
         "Engellenmiş e-posta adresleri yönetimi"
@@ -7752,6 +7860,9 @@
       ],
       "No parent folder": [
         "Üst klasör yok"
+      ],
+      "Automatic (${ value })": [
+        "Otomatik (${ value })"
       ]
     },
     "Option group": {
@@ -7892,6 +8003,9 @@
       ],
       "Type text or keyword": [
         "Metin ya da anahtar sözcük yazın"
+      ],
+      "Search parent folder": [
+        "Üst klasörü ara"
       ]
     },
     "Placeholder for contact group name": {
@@ -8379,7 +8493,7 @@
         "Kapat"
       ],
       "Don't show this offer again": [
-        "Bu teklifi bir daha gösterme"
+        "Bu teklif bir daha görüntülenmesin"
       ],
       "Special offer": [
         "Özel teklif"
@@ -8456,6 +8570,15 @@
       ],
       "Support online privacy": [
         "Çevrim içi gizliliği destekleyin"
+      ],
+      "Premium ${ appName1 }": [
+        "Ücretli ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Ücretli ${ appName1 } ve ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Ücretli ${ appName1 } ve ${ appName2 } ve ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -9329,7 +9452,7 @@
         "Kişileri birleştirme"
       ],
       "Message details": [
-        "İleti ayrıntıları"
+        "İleti bilgileri"
       ],
       "Message list": [
         "İleti listesi"
@@ -9602,6 +9725,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Action all conversations": [
+        "Tüm yazışmalara uygula"
+      ],
+      "Action all messages": [
+        "Tüm iletilere uygula"
+      ],
+      "Delete ${ value }": [
+        "${ value } sil"
+      ],
+      "Mark conversations as read": [
+        "Yazışmaları okunmuş olarak işaretle"
+      ],
+      "Mark conversations as unread": [
+        "Yazışmaları okunmamış olarak işaretle"
+      ],
+      "Mark messages as read": [
+        "İletileri okunmuş olarak işaretle"
+      ],
+      "Mark messages as unread": [
+        "İletileri okunmamış olarak işaretle"
+      ],
+      "Move all conversations": [
+        "Tüm yazışmaları taşı"
+      ],
+      "Move all messages": [
+        "Tüm iletileri taşı"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9681,6 +9831,9 @@
       ],
       "You do not have any contacts to export": [
         "Dışa aktarılacak bir kişi kaydınız yok"
+      ],
+      "Load image": [
+        "Görsel yükle"
       ]
     },
     "Tor out of date": {
@@ -10065,6 +10218,201 @@
     "Select search results": {
       "No results found": [
         "Herhangi bir sonuç bulunamadı"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Kişi görseli"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Günde bir, ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "${ interval } günde bir, ${ timesString }",
+        "${ interval } günde bir, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Günde bir, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "${ interval } günde bir, ${ untilString }",
+        "${ interval } günde bir, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } klasör seçildi",
+        "${ selectedFoldersCount } klasör seçildi"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "${ selectedFoldersCount } etiket seçildi",
+        "${ selectedFoldersCount } etiket seçildi"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Kimden: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Nereye: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "${ interval } ayda bir ${ onDayString }, ${ timesString }",
+        "${ interval } ayda bir ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Ayda bir ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "${ interval } ayda bir ${ onDayString }, ${ untilString }",
+        "${ interval } ayda bir ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Ayda bir ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "${ interval } haftada bir ${ multipleDaysString }, ${ timesString }",
+        "${ interval } haftada bir ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "${ interval } haftada bir her gün, ${ timesString }",
+        "${ interval } haftada bir her gün, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "${ interval } haftada bir Cuma günü, ${ timesString }",
+        "${ interval } haftada bir Cuma günü, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "${ interval } haftada bir Cumartesi günü, ${ timesString }",
+        "${ interval } haftada bir Cumartesi günü, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "${ interval } haftada bir Perşembe günü, ${ timesString }",
+        "${ interval } haftada bir Perşembe günü, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "${ interval } haftada bir Çarşamba günü, ${ timesString }",
+        "${ interval } haftada bir Çarşamba günü, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Haftada bir ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Haftada bir her gün, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Haftada bir Cuma günü, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Haftada bir Pazartesi günü, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Haftada bir Cumartesi günü, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Haftada bir Pazar günü, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Haftada bir Perşembe günü, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Haftada bir Salı günü, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Haftada bir Çarşamba günü, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "${ interval } haftada bir ${ multipleDaysString }, ${ untilString }",
+        "${ interval } haftada bir ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "${ interval } haftada bir her gün, ${ untilString }",
+        "${ interval } haftada bir her gün, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "${ interval } haftada bir Cuma günü, ${ untilString }",
+        "${ interval } haftada bir Cuma günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "${ interval } haftada bir Pazartesi günü, ${ untilString }",
+        "${ interval } haftada bir Pazartesi günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "${ interval } haftada bir Cumartesi günü, ${ untilString }",
+        "${ interval } haftada bir Cumartesi günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "${ interval } haftada bir Pazar günü, ${ untilString }",
+        "${ interval } haftada bir Pazar günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "${ interval } haftada bir Perşembe günü, ${ untilString }",
+        "${ interval } haftada bir Perşembe günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "${ interval } haftada bir Salı günü, ${ untilString }",
+        "${ interval } haftada bir Salı günü, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "${ interval } haftada bir Çarşamba günü, ${ untilString }",
+        "${ interval } haftada bir Çarşamba günü, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Haftada bir ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Haftada bir her gün, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Haftada bir Cuma günü, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Haftada bir Pazartesi günü, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Haftada bir Cumartesi günü, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Haftada bir Pazar günü, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Haftada bir Perşembe günü, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Haftada bir Salı günü, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Haftada bir Çarşamba günü, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "${ interval } yılda bir, ${ timesString }",
+        "${ interval } yılda bir, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Yılda bir, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "${ interval } yılda bir, ${ untilString }",
+        "${ interval } yılda bir, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Yılda bir, ${ untilString }"
       ]
     }
   }

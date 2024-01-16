@@ -3751,6 +3751,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "El vostre fitxer ${ formattedFilename } no és un calendari."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "El vostre fitxer ${ formattedFilename } conté més de ${ MAX_IMPORT_EVENTS } esdeveniment.",
+        "El vostre fitxer ${ formattedFilename } conté més de ${ MAX_IMPORT_EVENTS } esdeveniments."
       ]
     },
     "Error importing contact": {
@@ -6294,6 +6298,25 @@
       ],
       "You can now return to the application to continue": [
         "Ara podeu tornar a l'aplicació per continuar."
+      ],
+      "${ n } unread conversation": [
+        "${ n } conversació sense llegir",
+        "${ n } conversacions sense llegir"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Aquest missatge s'eliminarà automàticament el ${ value }."
+      ],
+      "This message will expire on ${ value }": [
+        "Aquest missatge caducarà el ${ value }."
+      ],
+      "This message will expire today at ${ value }": [
+        "Aquest missatge caducarà avui a les ${ value }."
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Aquest missatge caducarà demà a les ${ value }."
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Teniu ${ unread } a la safata d'entrada."
       ]
     },
     "info": {
@@ -7771,6 +7794,9 @@
       ],
       "No parent folder": [
         "No hi ha la carpeta pare"
+      ],
+      "Automatic (${ value })": [
+        "Automàtic (${ value })"
       ]
     },
     "Option group": {
@@ -9642,6 +9668,9 @@
       ],
       "Move all messages": [
         "Mou tots els missatges"
+      ],
+      "Delete ${ value }": [
+        "Elimina ${ value }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10212,6 +10241,9 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Cada setmana el dimecres a les ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Semanalment els ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -10270,6 +10302,13 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Cada setmana el dimecres fins ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Cada ${ interval } setmana el Dimarts, ${ untilString }",
+        "Cada ${ interval } setmanes el Dimarts, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Semanalment els ${ multipleDaysString }, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {

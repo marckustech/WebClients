@@ -3704,6 +3704,10 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Votre recherche a donné trop de résultats. Nous vous invitons à limiter votre recherche et à réessayer."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Sélectionnez la date ${ n } jour après.",
+        "Choisissez une date dans les ${ n } prochains jours."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6377,6 +6381,22 @@
       "You selected **${ elementsCount } message**.": [
         "Vous avez sélectionné **${ elementsCount } message**.",
         "Vous avez sélectionné **${ elementsCount } messages**."
+      ],
+      "${ n } unread conversation": [
+        "${ n } conversation non lue",
+        "${ n } conversations non lues"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Ce message sera automatiquement supprimé à ${ value }."
+      ],
+      "This message will expire today at ${ value }": [
+        "Ce message expirera aujourd'hui à ${ value }."
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "Ce message expirera demain à ${ value }."
+      ],
+      "You have ${ unread } in your inbox.": [
+        "Vous avez ${ unread } dans votre boite de réception."
       ]
     },
     "info": {
@@ -9756,6 +9776,9 @@
       ],
       "Move all messages": [
         "Déplacer tous les messages"
+      ],
+      "A filter with this name already exists": [
+        "Un filtre portant ce nom existe déjà"
       ]
     },
     "Today icon tooltip in mini calendar": {

@@ -3500,7 +3500,7 @@
         "Brak podpisu"
       ],
       "Network error: Please check your connection and try again.": [
-        "Błąd sieci. Sprawdź połączenie z Internetem i spróbuj ponownie."
+        "Błąd sieci. Sprawdź połączenie i spróbuj ponownie."
       ],
       "No address with keys available to compose a message": [
         "Brak adresu z dostępnymi kluczami do utworzenia wiadomości"
@@ -6644,6 +6644,9 @@
         "Zaznaczono **${ elementsCount } wiadomości**.",
         "Zaznaczono **${ elementsCount } wiadomości**.",
         "Zaznaczono **${ elementsCount } wiadomości**."
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "Wiadomość zostanie automatycznie usunięta w dniu: ${ value }"
       ]
     },
     "info": {
@@ -10195,6 +10198,15 @@
       ],
       "Move all messages": [
         "Przenieś wszystkie wiadomości"
+      ],
+      "A filter with this name already exists": [
+        "Filtr o tej nazwie już istnieje"
+      ],
+      "This field cannot be empty": [
+        "To pole nie może być puste"
+      ],
+      "This field cannot contain only spaces": [
+        "To pole nie może zawierać wyłącznie spacji"
       ]
     },
     "Today icon tooltip in mini calendar": {

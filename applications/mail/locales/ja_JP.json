@@ -3603,6 +3603,9 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "ファイル　${ formattedFilename }はカレンダーではありません。"
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } events.": [
+        "ファイル ${ formattedFilename } には ${ MAX_IMPORT_EVENTS } 以上の予定が含まれています。"
       ]
     },
     "Error importing contact": {
@@ -6005,6 +6008,27 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "電話番号は、この一度限りの認証にのみ使用されます。"
+      ],
+      "${ n } unread conversations": [
+        "${ n } 件の未読の会話"
+      ],
+      "Clear selection": [
+        "選択解除"
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "このメッセージは ${ value } に自動的に削除されます。"
+      ],
+      "This message will expire on ${ value }": [
+        "このメッセージの有効期限は ${ value } です。"
+      ],
+      "This message will expire today at ${ value }": [
+        "このメッセージの有効期限は今日の ${ value } までです"
+      ],
+      "This message will expire tomorrow at ${ value }": [
+        "このメッセージの有効期限は明日の ${ value } までです"
+      ],
+      "You have ${ unread } in your inbox.": [
+        "受信箱に ${ unread } があります。"
       ]
     },
     "info": {
@@ -7410,6 +7434,9 @@
       ],
       "No parent folder": [
         "親フォルダーなし"
+      ],
+      "Automatic (${ value })": [
+        "自動 (${ value })"
       ]
     },
     "Option group": {
@@ -8059,6 +8086,12 @@
       ],
       "Support online privacy": [
         "オンラインプライバシーをサポート"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } プレミアム"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "${ appName1 } と ${ appName2 } プレミアム"
       ]
     },
     "specialoffer: Footer": {
@@ -9134,6 +9167,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "Delete ${ value }": [
+        "${ value } を削除しますか"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9550,6 +9586,170 @@
     "Select search results": {
       "No results found": [
         "該当する結果が見つかりませんでした"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "毎日、${ timesString }"
+      ],
+      "Every ${ interval } days, ${ timesString }": [
+        "${ interval } 日毎、${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "毎日、${ untilString }"
+      ],
+      "Every ${ interval } days, ${ untilString }": [
+        "${ interval } 日毎、${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folders selected": [
+        "${ selectedFoldersCount } 件のフォルダーを選択済み"
+      ],
+      "${ selectedFoldersCount } labels selected": [
+        "${ selectedFoldersCount } 件のラベルが選択済み"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "送信者: ${ from }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } months ${ onDayString }, ${ timesString }": [
+        "${ interval } か月毎の ${ onDayString } 、${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "毎月 ${ onDayString } 、${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } months ${ onDayString }, ${ untilString }": [
+        "${ interval } か月毎の ${ onDayString } 、${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "毎月 ${ onDayString } 、${ untilString }"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ timesString }": [
+        "${ interval } 週間毎の ${ multipleDaysString } 、${ timesString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ timesString }": [
+        "${ interval } 週間毎の全曜日、${ timesString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ timesString }": [
+        "${ interval } 週間毎の金曜日、${ timesString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ timesString }": [
+        "${ interval } 週間毎の土曜日、${ timesString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ timesString }": [
+        "${ interval } 週間毎の木曜日、${ timesString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ timesString }": [
+        "${ interval } 週間毎の水曜日、${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "毎週 ${ multipleDaysString } 、${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "毎週の全曜日、${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "毎週金曜日、${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "毎週月曜日、${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "毎週土曜日、${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "毎週日曜日、${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "毎週木曜日、${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "毎週火曜日、${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "毎週水曜日、${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ untilString }": [
+        "${ interval } 週間毎の ${ multipleDaysString } 、${ untilString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ untilString }": [
+        "${ interval } 週間毎の全曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ untilString }": [
+        "${ interval } 週間毎の金曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Monday, ${ untilString }": [
+        "${ interval } 週間毎の月曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ untilString }": [
+        "${ interval } 週間毎の土曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Sunday, ${ untilString }": [
+        "${ interval } 週間毎の日曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ untilString }": [
+        "${ interval } 週間毎の木曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Tuesday, ${ untilString }": [
+        "${ interval } 週間毎の火曜日、${ untilString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ untilString }": [
+        "${ interval } 週間毎の水曜日、${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "毎週 ${ multipleDaysString } 、${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "毎週のすべての日、${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "毎週金曜日、${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "毎週月曜日、${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "毎週土曜日、${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "毎週日曜日、${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "毎週木曜日、${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "毎週火曜日、${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "毎週水曜日、${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } years, ${ timesString }": [
+        "${ interval } 年毎、${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "毎年、${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } years, ${ untilString }": [
+        "${ interval } 年毎、${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "毎年、${ untilString }"
       ]
     }
   }

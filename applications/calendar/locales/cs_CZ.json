@@ -4536,6 +4536,9 @@
       ],
       "You can now return to the application to continue": [
         "Nyní se můžete vrátit do aplikace a pokračovat"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Zobrazit události pro kalendář ${ Name }"
       ]
     },
     "info": {
@@ -5796,6 +5799,9 @@
         "Roky",
         "Let",
         "Let"
+      ],
+      "Automatic (${ value })": [
+        "Automaticky (${ value })"
       ]
     },
     "Option group label": {
@@ -7958,6 +7964,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročně, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Chyba při změně odpovědi"
       ]
     }
   }

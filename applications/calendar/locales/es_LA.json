@@ -4396,6 +4396,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "La zona horaria del sistema parece haber cambiado a ${ timezone }. ¿Quiere actualizar su preferencia de zona horaria?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Mostrar eventos para el calendario ${ Name }"
       ]
     },
     "info": {

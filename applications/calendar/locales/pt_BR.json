@@ -4379,6 +4379,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "O fuso horário de seu sistema parece ter mudado para ${ timezone }. Você deseja atualizar suas preferências de fuso horário?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Mostrar eventos para o calendário ${ Name }"
       ]
     },
     "info": {
@@ -6088,6 +6091,12 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "Premium ${ appName1 }": [
+        "${ appName1 } Premium"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium de ${ appName1 } e ${ appName2 }"
       ]
     },
     "specialoffer: Footer": {
@@ -7453,6 +7462,10 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Semanalmente na quarta-feira, ${ timesString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "A cada ${ interval } semana, na(o) ${ multipleDaysString }, ${ timesString }",
+        "A cada ${ interval } semanas, na(o) ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -7510,6 +7523,14 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Semanalmente na quarta-feira, ${ untilString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "A cada ${ interval } semana, na(o) ${ multipleDaysString }, ${ untilString }",
+        "A cada ${ interval } semanas, na(o) ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "A cada ${ interval } semana, todos os dias, ${ untilString }",
+        "A cada ${ interval } semanas, todos os dias, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -7528,6 +7549,20 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Erro ao alterar a resposta"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "A cada ${ interval } mês ${ onDayString }, ${ untilString }",
+        "A cada ${ interval } meses ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Mensalmente ${ onDayString }, ${ untilString }"
       ]
     }
   }

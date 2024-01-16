@@ -2126,6 +2126,10 @@
     "Daily recurring event, frequency (times)": {
       "Daily, ${ timesString }": [
         "Täglich, ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "Jeden ${ interval } Tag, ${ timesString }",
+        "Alle ${ interval } Tage, ${ timesString }"
       ]
     },
     "Day": {
@@ -2800,6 +2804,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Die Datei „${ formattedFilename }“ ist keine Kalenderdatei."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Deine Datei „${ formattedFilename }“ enthält mehr als ${ MAX_IMPORT_EVENTS } Termin.",
+        "Deine Datei „${ formattedFilename }“ enthält mehr als ${ MAX_IMPORT_EVENTS } Termine."
       ]
     },
     "Error importing contact": {
@@ -4388,6 +4396,9 @@
       ],
       "You can now return to the application to continue": [
         "Du kannst jetzt zur Anwendung zurückkehren, um fortzufahren."
+      ],
+      "Display events for calendar ${ Name }": [
+        "Ereignisse für Kalender ${ Name } anzeigen"
       ]
     },
     "info": {
@@ -7392,6 +7403,9 @@
       "Every ${ interval } month ${ onDayString }, ${ timesString }": [
         "Jeden ${ interval } Monat am ${ onDayString }, ${ timesString }",
         "Aller ${ interval } Monate am ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Monatlich ${ onDayString }, ${ timesString }"
       ]
     },
     "new_plans: tooltip": {
@@ -7439,6 +7453,33 @@
       "Every ${ interval } week on Wednesday, ${ timesString }": [
         "Jede ${ interval } Woche am Mittwoch, ${ timesString }",
         "Alle ${ interval } Wochen am Mittwoch, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Wöchentlich am ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Wöchentlich an allen Tagen, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Wöchentlich am Freitag, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Wöchentlich am Montag, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Wöchentlich am Samstag, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Wöchentlich am Sonntag, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Wöchentlich am Donnerstag, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Wöchentlich am Dienstag, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Wöchentlich am Mittwoch, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -7477,6 +7518,60 @@
       "Every ${ interval } week on Wednesday, ${ untilString }": [
         "Jede ${ interval } Woche am Mittwoch, ${ untilString }",
         "Alle ${ interval } Wochen am Mittwoch, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Wöchentlich am ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Wöchentlich an allen Tagen, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Wöchentlich am Freitag, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Wöchentlich am Montag, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Wöchentlich am Samstag, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Wöchentlich am Sonntag, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Wöchentlich am Donnerstag, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Wöchentlich am Dienstag, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Wöchentlich am Mittwoch, ${ untilString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Jeden ${ interval } Monat ${ onDayString }, ${ untilString }",
+        "Alle ${ interval } Monate ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Monatlich ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Jedes ${ interval } Jahr, ${ timesString }",
+        "Alle ${ interval } Jahre, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Jährlich, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Jedes ${ interval } Jahr, ${ untilString }",
+        "Alle ${ interval } Jahre, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Jährlich, ${ untilString }"
       ]
     }
   }

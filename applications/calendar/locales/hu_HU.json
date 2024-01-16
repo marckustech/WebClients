@@ -152,7 +152,7 @@
         "Folytatás Google fiókkal"
       ],
       "Continue with Outlook": [
-        "Folytassa az Outlookkal"
+        "Folytatás az Outlookkal"
       ],
       "Copy address": [
         "Cím másolása"
@@ -2141,7 +2141,7 @@
         "Ez eltarthat egy pár percig. Közben használhatja a Naptárat ahogy szokta."
       ],
       "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
-        "Névjegyeinek importálásához a Google-ból vagy az Outlookból: ${ easySwitchLink }."
+        "Névjegyeinek importálásához a Google-ból vagy az Outlookból ${ easySwitchLink }."
       ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Húzással határozza meg az egyesítés prioritását. Szüntesse meg a kijelölést azoknál, amelyeket nem szeretne egyesíteni."
@@ -2699,6 +2699,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "A fájl nem egy naptár: ${ formattedFilename }."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "A fájl több mint ${ MAX_IMPORT_EVENTS } eseményt tartalmaz: ${ formattedFilename }.",
+        "A fájl több mint ${ MAX_IMPORT_EVENTS } eseményt tartalmaz: ${ formattedFilename }."
       ]
     },
     "Error importing contact": {
@@ -5419,6 +5423,9 @@
       "Year": [
         "Év",
         "Év"
+      ],
+      "Automatic (${ value })": [
+        "Automatikus (${ value })"
       ]
     },
     "Option group label": {
@@ -5930,6 +5937,12 @@
       ],
       "Support online privacy": [
         "Támogatja az online adatvédelmet"
+      ],
+      "Premium ${ appName1 }": [
+        "Prémium ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Prémium ${ appName1 } és ${ appName2 }."
       ]
     },
     "specialoffer: Footer": {
@@ -6727,6 +6740,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "A Mail Plus csomagjának próbaidőszaka lejár: ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "${ value } törlése"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7175,6 +7191,193 @@
       "Create up to ${ n } calendar": [
         "Akár ${ n } naptár létrehozása",
         "Akár ${ n } naptár létrehozása"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "Naponta, ${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "Minden ${ interval }. napon, ${ timesString }",
+        "Minden ${ interval }. napon, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "Naponta, ${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
+        "Minden ${ interval }. napon, ${ untilString }",
+        "Minden ${ interval }. napon, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } mappa kiválasztva",
+        "${ selectedFoldersCount } mappa kiválasztva"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "${ selectedFoldersCount } címke kiválasztva",
+        "${ selectedFoldersCount } címke kiválasztva"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Feladó: ${ from }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "Minden ${ interval }. hónapban, ${ onDayString }, ${ timesString }",
+        "Minden ${ interval }. hónapban, ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "Havonta ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "Minden ${ interval }. hónapban, ${ onDayString }, ${ untilString }",
+        "Minden ${ interval }. hónapban, ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Havonta ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "Minden ${ interval }. héten, ${ multipleDaysString }, ${ timesString }",
+        "Minden ${ interval }. héten, ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Minden ${ interval }. héten, minden nap, ${ timesString }",
+        "Minden ${ interval }. héten, minden nap, ${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "Minden ${ interval }. héten, pénteken, ${ timesString }",
+        "Minden ${ interval }. héten, pénteken, ${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "Minden ${ interval }. héten, vasárnap, ${ timesString }",
+        "Minden ${ interval }. héten, vasárnap, ${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "Minden ${ interval }. héten, csütörtökön, ${ timesString }",
+        "Minden ${ interval }. héten, csütörtökön, ${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "Minden ${ interval }. héten, szerdán, ${ timesString }",
+        "Minden ${ interval }. héten, szerdán, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Hetente ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "Hetente minden nap, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "Minden pénteken, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "Minden hétfőn, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "Minden szombaton, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "Minden vasárnap, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "Minden csütörtökön, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "Minden kedden, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "Minden szerdán, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "Minden ${ interval }. héten, ${ multipleDaysString }, ${ untilString }",
+        "Minden ${ interval }. héten, ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "Minden ${ interval }. héten, minden nap, ${ untilString }",
+        "Minden ${ interval }. héten, minden nap, ${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "Minden ${ interval }. héten, pénteken, ${ untilString }",
+        "Minden ${ interval }. héten, pénteken, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Minden ${ interval }. héten, hétfőn, ${ untilString }",
+        "Minden ${ interval }. héten, hétfőn, ${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "Minden ${ interval }. héten, szombaton, ${ untilString }",
+        "Minden ${ interval }. héten, szombaton, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Minden ${ interval }. héten, vasárnap, ${ untilString }",
+        "Minden ${ interval }. héten, vasárnap, ${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "Minden ${ interval }. héten, csütörtökön, ${ untilString }",
+        "Minden ${ interval }. héten, csütörtökön, ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Minden ${ interval }. héten, kedden, ${ untilString }",
+        "Minden ${ interval }. héten, kedden, ${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "Minden ${ interval }. héten, szerdán, ${ untilString }",
+        "Minden ${ interval }. héten, szerdán, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Hetente ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "Hetente minden nap, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "Hetente, péntekenként, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "Hetente, hétfőnként, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "Hetente, szombatonként, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "Hetente, vasárnaponként, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "Hetente, csütörtökönként, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "Hetente, keddenként, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "Hetente, szerdánként, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } year, ${ timesString }": [
+        "Minden ${ interval }. évben, ${ timesString }",
+        "Minden ${ interval }. évben, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "Évente, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } year, ${ untilString }": [
+        "Minden ${ interval }. évben, ${ untilString }",
+        "Minden ${ interval }. évben, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "Évente, ${ untilString }"
       ]
     }
   }

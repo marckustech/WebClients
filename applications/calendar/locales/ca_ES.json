@@ -2795,6 +2795,10 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "El vostre fitxer ${ formattedFilename } no és un calendari."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "El vostre fitxer ${ formattedFilename } conté més de ${ MAX_IMPORT_EVENTS } esdeveniment.",
+        "El vostre fitxer ${ formattedFilename } conté més de ${ MAX_IMPORT_EVENTS } esdeveniments."
       ]
     },
     "Error importing contact": {
@@ -5553,6 +5557,9 @@
       "Year": [
         "Any",
         "Anys"
+      ],
+      "Automatic (${ value })": [
+        "Automàtic (${ value })"
       ]
     },
     "Option group label": {
@@ -6904,6 +6911,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La prova gratuïta de Mail Plus finalitza el ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Elimina ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7465,6 +7475,9 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Cada setmana el dimecres a les ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Semanalment els ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -7523,6 +7536,13 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Cada setmana el dimecres fins ${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "Cada ${ interval } setmana el Dimarts, ${ untilString }",
+        "Cada ${ interval } setmanes el Dimarts, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Semanalment els ${ multipleDaysString }, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {

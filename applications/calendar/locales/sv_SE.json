@@ -4393,6 +4393,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Visa händelser för kalender ${ Name }"
       ]
     },
     "info": {
@@ -7476,6 +7479,14 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Varje vecka på onsdag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "Varje ${ interval } vecka på måndag, ${ untilString }",
+        "Var ${ interval }:e vecka på måndag, ${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "Var ${ interval }:e vecka på söndag, ${ untilString }",
+        "Var ${ interval }:e vecka på söndag, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {

@@ -4396,6 +4396,9 @@
       ],
       "You can now return to the application to continue": [
         "Du kan nå gå tilbake til programmet for å fortsette"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Vis hendelser for kalender ${ Name }"
       ]
     },
     "info": {

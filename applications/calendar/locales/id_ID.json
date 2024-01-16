@@ -4326,6 +4326,9 @@
       ],
       "You can now return to the application to continue": [
         "Anda kini dapat kembali ke aplikasi untuk melanjutkan"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Tampilkan acara untuk kalender ${ Name }"
       ]
     },
     "info": {

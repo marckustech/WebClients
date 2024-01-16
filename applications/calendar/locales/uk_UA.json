@@ -2744,6 +2744,12 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "Ваш файл ${ formattedFilename } не є календарем."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подію.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } події.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подій.",
+        "Ваш файл ${ formattedFilename } містить більше ніж ${ MAX_IMPORT_EVENTS } подій."
       ]
     },
     "Error importing contact": {
@@ -5600,6 +5606,9 @@
         "Роки",
         "Років",
         "Років"
+      ],
+      "Automatic (${ value })": [
+        "Автоматично (${ value })"
       ]
     },
     "Option group label": {
@@ -6045,6 +6054,9 @@
       ],
       "Support online privacy": [
         "Підтримка онлайн-приватності"
+      ],
+      "Premium ${ appName1 }": [
+        "Преміум ${ appName1 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6858,6 +6870,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Delete ${ value }": [
+        "Видалити ${ value }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7433,6 +7448,9 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Щосереди, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "Щотижня ${ multipleDaysString }, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -7459,6 +7477,9 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "Щосереди, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "Щотижня ${ multipleDaysString }, ${ untilString }"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -7469,6 +7490,36 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ],
+      "Every ${ interval } year, ${ untilString }": [
+        "Кожен ${ interval } рік, ${ untilString }",
+        "Кожні ${ interval } роки, ${ untilString }",
+        "Кожні ${ interval } років, ${ untilString }",
+        "Кожні ${ interval } років, ${ untilString }"
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } вибрана тека",
+        "${ selectedFoldersCount } вибрані теки",
+        "${ selectedFoldersCount } вибраних тек",
+        "${ selectedFoldersCount } вибраних тек"
+      ],
+      "${ selectedFoldersCount } label selected": [
+        "${ selectedFoldersCount } вибрана мітка",
+        "${ selectedFoldersCount } вибрані мітки",
+        "${ selectedFoldersCount } вибраних міток",
+        "${ selectedFoldersCount } вибраних міток"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "Від: ${ from }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "Щомісяця ${ onDayString }, ${ untilString }"
       ]
     }
   }

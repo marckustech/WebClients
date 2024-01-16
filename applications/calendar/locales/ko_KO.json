@@ -2337,7 +2337,7 @@
         "6 TB"
       ],
       "6 users": [
-        "6 명의 사용자"
+        "6명의 사용자"
       ],
       "Early access to new apps and features": [
         "새 앱 및 기능을 위해 얼리 엑세스 시작"
@@ -2761,6 +2761,9 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "사용자의 ${ formattedFilename } 파일은 캘린더가 아닙니다."
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } events.": [
+        "파일 ${ formattedFilename }에 이벤트가 ${ MAX_IMPORT_EVENTS }개 넘게 포함되어 있습니다."
       ]
     },
     "Error importing contact": {
@@ -4307,6 +4310,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "시스템 시간대가 ${ timezone } 로 변경된 것 같습니다. 여기의 시간대도 변경하시겠습니까?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "${ Name } 캘린더의 이벤트 표시"
+      ],
+      "You can now return to the application to continue": [
+        "계속하기 위해 다시 애플리케이션으로 돌아갈 수 있습니다."
       ]
     },
     "info": {
@@ -5439,6 +5448,9 @@
       ],
       "Years": [
         "년"
+      ],
+      "Automatic (${ value })": [
+        "자동 (${ value })"
       ]
     },
     "Option group label": {
@@ -5557,6 +5569,9 @@
       ],
       "Start typing an email address": [
         "이메일 주소 입력을 시작하세요"
+      ],
+      "Search parent folder": [
+        "상위 폴더 검색"
       ]
     },
     "Placeholder for contact group name": {
@@ -5665,13 +5680,13 @@
     },
     "session_recovery:available:info": {
       " You have ${ timeRemaining.inHours } hours to reset your password.": [
-        " 비밀번호 재설정까지 ${ timeRemaining.inHours } 시간 남았습니다."
+        " 비밀번호 재설정까지 ${ timeRemaining.inHours }시간 남았습니다."
       ],
       " You have ${ timeRemaining.inMinutes } minutes to reset your password.": [
-        " 비밀번호 재설정까지 ${ timeRemaining.inMinutes } 분 남았습니다."
+        " 비밀번호 재설정까지 ${ timeRemaining.inMinutes }분 남았습니다."
       ],
       " You have ${ timeRemaining.inSeconds } seconds to reset your password.": [
-        " 비밀번호 재설정까지 ${ timeRemaining.inSeconds } 초 남았습니다."
+        " 비밀번호 재설정까지 ${ timeRemaining.inSeconds }초 남았습니다."
       ],
       "${ timeRemaining.inDays } days": [
         "${ timeRemaining.inDays }일"
@@ -5701,7 +5716,7 @@
         "이제 계정 ${ boldEmail } 에 대한 비밀번호 변경이 가능합니다."
       ],
       "You have ${ timeRemaining.inDays } days to reset your password.": [
-        "비밀번호 재설정까지 ${ timeRemaining.inDays } 일 남았습니다."
+        "비밀번호 재설정까지 ${ timeRemaining.inDays }일 남았습니다."
       ]
     },
     "session_recovery:available:link": {
@@ -5955,6 +5970,15 @@
       ],
       "Support online privacy": [
         "온라인 개인정보 보호 지원"
+      ],
+      "Premium ${ appName1 }": [
+        "Premium ${ appName1 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 }": [
+        "Premium ${ appName1 } & ${ appName2 }"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "프리미엄 ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6743,6 +6767,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus 무료 체험판이 ${ textDate }에 종료됩니다"
+      ],
+      "Delete ${ value }": [
+        "${ value }을(를) 삭제할까요"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6828,6 +6855,9 @@
       ],
       "You do not have any contacts to export": [
         "내보낼 연락처가 없습니다."
+      ],
+      "Load image": [
+        "이미지 불러오기"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -7162,6 +7192,183 @@
     "new_plans: Upsell attribute": {
       "Create up to ${ n } calendars": [
         "최대 ${ n }개 캘린더 생성"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "연락처 이미지"
+      ]
+    },
+    "Daily recurring event, frequency (times)": {
+      "Daily, ${ timesString }": [
+        "종일, ${ timesString }"
+      ],
+      "Every ${ interval } days, ${ timesString }": [
+        "매 ${ interval }일, ${ timesString }"
+      ]
+    },
+    "Daily recurring event, frequency (until)": {
+      "Daily, ${ untilString }": [
+        "매일, ${ untilString }"
+      ],
+      "Every ${ interval } days, ${ untilString }": [
+        "매 ${ interval }일, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "답변 변경 중 오류가 발생했습니다."
+      ]
+    },
+    "Info: partial": {
+      "${ selectedFoldersCount } folders selected": [
+        "${ selectedFoldersCount }개 폴더 선택함"
+      ],
+      "${ selectedFoldersCount } labels selected": [
+        "${ selectedFoldersCount } 개 라벨 선택함"
+      ]
+    },
+    "Label; import email": {
+      "From: ${ from }": [
+        "보낸 사람: ${ from }"
+      ],
+      "To: ${ to }": [
+        "받는 사람: ${ to }"
+      ]
+    },
+    "Monthly recurring event, frequency (times)": {
+      "Every ${ interval } months ${ onDayString }, ${ timesString }": [
+        "매 ${ interval }개월 ${ onDayString }, ${ timesString }"
+      ],
+      "Monthly ${ onDayString }, ${ timesString }": [
+        "매월 ${ onDayString }, ${ timesString }"
+      ]
+    },
+    "Monthly recurring event, frequency (until)": {
+      "Every ${ interval } months ${ onDayString }, ${ untilString }": [
+        "매 ${ interval }개월 ${ onDayString }, ${ untilString }"
+      ],
+      "Monthly ${ onDayString }, ${ untilString }": [
+        "매월 ${ onDayString }, ${ untilString }"
+      ]
+    },
+    "Weekly recurring event, frequency (times)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ timesString }": [
+        "매 ${ interval } 주 ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ timesString }": [
+        "매 ${ interval }주 모든 요일, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ timesString }": [
+        "매 ${ interval }주 금요일, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ timesString }": [
+        "매 ${ interval }주 토요일, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ timesString }": [
+        "매 ${ interval }주 목요일, ${ timesString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ timesString }": [
+        "매 ${ interval }주 수요일, ${ timesString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ timesString }": [
+        "주의 ${ multipleDaysString }, ${ timesString }"
+      ],
+      "Weekly on all days, ${ timesString }": [
+        "주의 모든 요일, ${ timesString }"
+      ],
+      "Weekly on Friday, ${ timesString }": [
+        "주의 금요일, ${ timesString }"
+      ],
+      "Weekly on Monday, ${ timesString }": [
+        "주의 월요일, ${ timesString }"
+      ],
+      "Weekly on Saturday, ${ timesString }": [
+        "주의 토요일, ${ timesString }"
+      ],
+      "Weekly on Sunday, ${ timesString }": [
+        "주의 일요일, ${ timesString }"
+      ],
+      "Weekly on Thursday, ${ timesString }": [
+        "주의 목요일, ${ timesString }"
+      ],
+      "Weekly on Tuesday, ${ timesString }": [
+        "주의 화요일, ${ timesString }"
+      ],
+      "Weekly on Wednesday, ${ timesString }": [
+        "주의 수요일, ${ timesString }"
+      ]
+    },
+    "Weekly recurring event, frequency (until)": {
+      "Every ${ interval } weeks on ${ multipleDaysString }, ${ untilString }": [
+        "매 ${ interval }주 ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on all days, ${ untilString }": [
+        "매 ${ interval }주 모든 요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Friday, ${ untilString }": [
+        "매 ${ interval }주 금요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Monday, ${ untilString }": [
+        "매 ${ interval }주 월요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Saturday, ${ untilString }": [
+        "매 ${ interval }주 토요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Sunday, ${ untilString }": [
+        "매 ${ interval }주 일요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Thursday, ${ untilString }": [
+        "매 ${ interval }주 목요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Tuesday, ${ untilString }": [
+        "매 ${ interval }주 화요일, ${ untilString }"
+      ],
+      "Every ${ interval } weeks on Wednesday, ${ untilString }": [
+        "매 ${ interval }주 수요일, ${ untilString }"
+      ],
+      "Weekly on ${ multipleDaysString }, ${ untilString }": [
+        "주의 ${ multipleDaysString }, ${ untilString }"
+      ],
+      "Weekly on all days, ${ untilString }": [
+        "주의 모든 요일, ${ untilString }"
+      ],
+      "Weekly on Friday, ${ untilString }": [
+        "주의 금요일, ${ untilString }"
+      ],
+      "Weekly on Monday, ${ untilString }": [
+        "주의 월요일, ${ untilString }"
+      ],
+      "Weekly on Saturday, ${ untilString }": [
+        "주의 토요일, ${ untilString }"
+      ],
+      "Weekly on Sunday, ${ untilString }": [
+        "주의 일요일, ${ untilString }"
+      ],
+      "Weekly on Thursday, ${ untilString }": [
+        "주의 목요일, ${ untilString }"
+      ],
+      "Weekly on Tuesday, ${ untilString }": [
+        "주의 화요일, ${ untilString }"
+      ],
+      "Weekly on Wednesday, ${ untilString }": [
+        "주의 수요일, ${ untilString }"
+      ]
+    },
+    "Yearly recurring event, frequency (times)": {
+      "Every ${ interval } years, ${ timesString }": [
+        "매 ${ interval }년, ${ timesString }"
+      ],
+      "Yearly, ${ timesString }": [
+        "연간, ${ timesString }"
+      ]
+    },
+    "Yearly recurring event, frequency (until)": {
+      "Every ${ interval } years, ${ untilString }": [
+        "매 ${ interval }년, ${ untilString }"
+      ],
+      "Yearly, ${ untilString }": [
+        "연간, ${ untilString }"
       ]
     }
   }

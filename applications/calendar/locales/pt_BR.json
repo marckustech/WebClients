@@ -6093,6 +6093,9 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium de ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {

@@ -642,6 +642,12 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kannst nur vCard-Dateien versenden, die höchstens ${ maxAttachments } Kontakt enthalten.",
         "Du kannst nur vCard-Dateien versenden, die höchstens ${ maxAttachments } Kontakte enthalten."
+      ],
+      "Download now": [
+        "Jetzt herunterladen"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Ein wichtiges Update ist verfügbar. Um die App weiterhin zu nutzen, update sie bitte auf die aktuellste Version. ${ downloadUpdate }"
       ]
     },
     "Action subline": {
@@ -3834,7 +3840,7 @@
         "Änderungen verwerfen?"
       ],
       "Display events for calendar ${ Name }": [
-        "Ereignisse für Kalender ${ Name } anzeigen"
+        "Termine für Kalender ${ Name } anzeigen"
       ],
       "Drop file here to upload": [
         "Ziehe Dateien hierher, um sie hochzuladen"
@@ -6243,7 +6249,7 @@
         "Nach Terminen suchen"
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
-        "Mit anpassbaren Veranstaltungsfarben kannst du das Chaos einfärben und deinen Tag bewältigen."
+        "Mit anpassbaren Terminfarben kannst du das Chaos einfärben und deinen Tag bewältigen."
       ]
     },
     "Storage": {

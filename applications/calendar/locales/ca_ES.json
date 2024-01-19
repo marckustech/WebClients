@@ -642,6 +642,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No podeu enviar fitxers vCard de més d'${ maxAttachments } contacte.",
         "No podeu enviar fitxers vCard de més de ${ maxAttachments } contactes."
+      ],
+      "Download now": [
+        "Descarrega ara"
       ]
     },
     "Action subline": {
@@ -1210,7 +1213,7 @@
         "Aniversari"
       ],
       "Birthday": [
-        "Aniversari"
+        "Data de naixement"
       ],
       "Display name": [
         "Nom que es mostrarà"

@@ -642,6 +642,12 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos.",
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos."
+      ],
+      "Download now": [
+        "Descargar ahora"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Actualización importante disponible. Para continuar usando la aplicación, actualiza a la última versión. ${ downloadUpdate }"
       ]
     },
     "Action subline": {
@@ -5677,7 +5683,7 @@
         "Buscar por nombre o correo electrónico"
       ],
       "Search parent folder": [
-        "Buscar la carpeta principal"
+        "Buscar en la carpeta principal"
       ],
       "Select": [
         "Seleccionar"

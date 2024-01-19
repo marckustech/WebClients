@@ -642,6 +642,12 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan ikke sende vCard-filer med mer enn ${ maxAttachments } kontakt.",
         "Du kan ikke sende vCard-filer med mer enn ${ maxAttachments } kontakter."
+      ],
+      "Download now": [
+        "Last ned nå"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Viktig oppdatering tilgjengelig. For å fortsette å bruke appen, vennligst oppdater til den nyeste versjonen ${ downloadUpdate }."
       ]
     },
     "Action subline": {

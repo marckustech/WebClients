@@ -639,6 +639,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "U kunt geen vCard-bestanden met meer dan ${ maxAttachments } contact verzenden",
         "U kunt geen vCard-bestand met meer dan ${ maxAttachments } contacten verzenden"
+      ],
+      "Give feedback": [
+        "Geef feedback"
       ]
     },
     "Action subline": {
@@ -4290,6 +4293,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Uw systeemtijdzone lijkt te zijn veranderd naar ${ timezone }. Wilt u uw voorkeur voor uw tijdzone bijwerken?"
+      ],
+      "You can now return to the application to continue": [
+        "U kunt nu teruggaan naar het programma om door te gaan"
       ]
     },
     "info": {

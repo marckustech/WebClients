@@ -5971,7 +5971,7 @@
         "Streaming aman"
       ],
       "Support online privacy": [
-        "Dukung privasi daring"
+        "Dukung privasi online"
       ]
     },
     "specialoffer: Footer": {
@@ -6900,7 +6900,7 @@
         "Jika Anda tidak ingat kata sandi Anda, maka Anda tidak mungkin mengaktivasi ulang kunci. Kami dapat membantu Anda untuk mengabaikan spanduk peringatan tapi dalam prosesnya Anda akan kehilangan akses secara permanen ke data terenkripsi dengan kunci tersebut."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Laporan tidak dienkripsi secara ujung ke ujung, mohon tidak mengirim informasi sensitif apa pun."
+        "Laporan yang masuk tidak dienkripsi secara end-to-end. Mohon untuk tidak mengirimkan informasi sensitif apa pun."
       ],
       "Skip verification?": [
         "Lewati verifikasi?"

@@ -1185,6 +1185,9 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Download now": [
+        "Descarrega ara"
       ]
     },
     "action": {
@@ -2076,7 +2079,7 @@
         "Aniversari"
       ],
       "Birthday": [
-        "Aniversari"
+        "Data de naixement"
       ],
       "Display name": [
         "Nom que es mostrarà"

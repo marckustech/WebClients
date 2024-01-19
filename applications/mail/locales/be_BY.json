@@ -1197,6 +1197,12 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Download now": [
+        "Спампаваць"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Даступны важныя абнаўленні. Для працягу выкарыстання праграмы, вам неабходна абнавіць яе да апошняй версіі. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -9004,6 +9010,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Цяпер вы можаце запланаваць адпраўку паведамленняў на больш позні час"
+      ],
+      "Faster email management": [
+        "Больш хуткае кіраванне лістамі"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Цяпер вы можаце выканаць дзеянне над усімі лістамі ў адной папцы за адзін раз."
       ]
     },
     "Status": {

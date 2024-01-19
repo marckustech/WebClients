@@ -6372,6 +6372,81 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } цепочка писем будет помечена как:",
+        "${ elementsCount } цепочки писем будет помечены как:",
+        "${ elementsCount } цепочек писем будет помечены как:",
+        "${ elementsCount } цепочек писем будет помечены как:"
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } цепочка будет перемещена",
+        "${ elementsCount } цепочки будет перемещены",
+        "${ elementsCount } цепочек будет перемещены",
+        "${ elementsCount } цепочек будет перемещены"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } сообщение будет помечено как:",
+        "${ elementsCount } сообщения будут помечены как:",
+        "${ elementsCount } сообщений будут помечены как:",
+        "${ elementsCount } сообщений будут помечены как:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } сообщение будет помечено как прочитанное.",
+        "${ elementsCount } сообщения будут помечены как прочитанные.",
+        "${ elementsCount } сообщений будут помечены как прочитанные.",
+        "${ elementsCount } сообщений будут помечены как прочитанные."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } сообщение будет помечено как непрочитанное.",
+        "${ elementsCount } сообщения будут помечены как непрочитанные.",
+        "${ elementsCount } сообщений будут помечены как непрочитанные.",
+        "${ elementsCount } сообщений будут помечены как непрочитанные."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } сообщение будет перемещено",
+        "${ elementsCount } сообщения будет перемещены",
+        "${ elementsCount } сообщений будет перемещены",
+        "${ elementsCount } сообщений будет перемещены"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Все запланированные или отложенные сообщения будут отменены."
+      ],
+      "Applying actions to conversations": [
+        "Применение действий к цепочкам писем"
+      ],
+      "Applying actions to messages": [
+        "Применение действий к сообщениям"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Выполняются действия с сообщением. Это может занять некоторое время."
+      ],
+      "to ${ destinationElement } folder.": [
+        "в ${ destinationElement } папку."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Вы выбрали **${ elementsCount } цепочку писем** в ${ location }",
+        "Вы выбрали **${ elementsCount } цепочки писем** в ${ location }",
+        "Вы выбрали **${ elementsCount } цепочек писем** в ${ location }",
+        "Вы выбрали **${ elementsCount } цепочек писем** в ${ location }"
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Вы выбрали **${ elementsCount } цепочку писем**.",
+        "Вы выбрали **${ elementsCount } цепочки писем**.",
+        "Вы выбрали **${ elementsCount } цепочек писем**.",
+        "Вы выбрали **${ elementsCount } цепочек писем**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Вы выбрали **${ elementsCount } сообщение** в ${ location }",
+        "Вы выбрали **${ elementsCount } сообщения** в ${ location }",
+        "Вы выбрали **${ elementsCount } сообщений** в ${ location }",
+        "Вы выбрали **${ elementsCount } сообщений** в ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Вы выбрали **${ elementsCount } сообщение**.",
+        "Вы выбрали **${ elementsCount } сообщения**.",
+        "Вы выбрали **${ elementsCount } сообщений**.",
+        "Вы выбрали **${ elementsCount } сообщений**."
       ]
     },
     "info": {
@@ -9729,6 +9804,24 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Action all conversations": [
+        "Действие со всеми цепочками писем"
+      ],
+      "Action all messages": [
+        "Действие со всеми сообщениями"
+      ],
+      "Mark conversations as unread": [
+        "Пометить цепочки писем как непрочитанные"
+      ],
+      "Mark messages as unread": [
+        "Пометить сообщения как непрочитанные"
+      ],
+      "Move all conversations": [
+        "Переместить все цепочки писем"
+      ],
+      "Move all messages": [
+        "Переместить все сообщения"
       ]
     },
     "Today icon tooltip in mini calendar": {

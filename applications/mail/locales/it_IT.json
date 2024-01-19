@@ -1185,6 +1185,12 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Download now": [
+        "Scarica ora"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "È disponibile un aggiornamento importante. Per continuare a utilizzare l'app, aggiornala alla versione più recente. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3688,6 +3694,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La tua ricerca ha restituito troppi risultati. Limita la ricerca e riprova."
+      ],
+      "Maximum expiration time reached.": [
+        "Scadenza massima raggiunta."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8676,6 +8685,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ora puoi programmare i tuoi messaggi da inviare più tardi"
+      ],
+      "Faster email management": [
+        "Gestione più rapida della posta elettronica"
       ]
     },
     "Status": {

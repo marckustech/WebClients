@@ -6237,6 +6237,15 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Seu número de telefone somente será usado nessa verificação única."
+      ],
+      "Applying actions to conversations": [
+        "Aplicando ações para as conversas"
+      ],
+      "Applying actions to messages": [
+        "Aplicando ações para as mensagens"
+      ],
+      "to ${ destinationElement } folder.": [
+        "para ${ destinationElement } pasta."
       ]
     },
     "info": {
@@ -8435,6 +8444,9 @@
       ],
       "Support online privacy": [
         "Suporte à privacidade online"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium de ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -8592,6 +8604,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Agora você pode agendar suas mensagens para serem enviadas depois"
+      ],
+      "Faster email management": [
+        "Gerenciamento de e-mail mais rápido"
       ]
     },
     "Status": {
@@ -9582,6 +9597,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "A filter name is required": [
+        "O nome do filtro é obrigatório"
+      ],
+      "A filter with this name already exists": [
+        "Um filtro com esse nome já existe"
+      ],
+      "Action all conversations": [
+        "Ação em todas as conversas"
+      ],
+      "Action all messages": [
+        "Ação em todas as mensagens"
+      ],
+      "Filter name cannot contain only spaces": [
+        "O nome do filtro não pode somente espaços"
+      ],
+      "Mark conversations as read": [
+        "Marcar conversas como lidas"
+      ],
+      "Mark conversations as unread": [
+        "Marcar conversas como não lidas"
+      ],
+      "Mark messages as unread": [
+        "Marcar mensagens como não lidas"
       ]
     },
     "Today icon tooltip in mini calendar": {

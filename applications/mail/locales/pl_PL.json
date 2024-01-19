@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Pomniejsz"
+      ],
+      "Download now": [
+        "Pobierz"
       ]
     },
     "action": {
@@ -3575,7 +3578,7 @@
         "Podpis nie został zweryfikowany"
       ],
       "Signature verification error.": [
-        "Weryfikacja podpisu nie powiodła się."
+        "Błąd weryfikacji podpisu."
       ],
       "Signature verification failed": [
         "Weryfikacja podpisu nie powiodła się"

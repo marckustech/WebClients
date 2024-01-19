@@ -1185,6 +1185,12 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Download now": [
+        "Descargar ahora"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Actualización importante disponible. Para continuar usando la app, actualice a la última versión. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -7928,7 +7934,7 @@
         "Buscar nombre, correo o grupo"
       ],
       "Search parent folder": [
-        "Buscar la carpeta principal"
+        "Buscar en la carpeta principal"
       ],
       "Select": [
         "Seleccionar"
@@ -8676,6 +8682,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ya puede programar sus mensajes para ser enviados posteriormente"
+      ],
+      "Faster email management": [
+        "Gestión del correo electrónico más rápida"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Ahora puede tomar acción en todos los correos electrónicos de una misma carpeta en un solo paso."
       ]
     },
     "Status": {

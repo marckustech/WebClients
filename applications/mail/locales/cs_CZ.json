@@ -10062,6 +10062,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "A filter name is required": [
+        "Název filtru je povinný"
+      ],
+      "A filter with this name already exists": [
+        "Filtr s tímto názvem již existuje"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Název filtru nesmí obsahovat pouze mezery"
+      ],
+      "This field cannot contain only spaces": [
+        "Toto pole nesmí obsahovat pouze mezery"
       ]
     },
     "Today icon tooltip in mini calendar": {

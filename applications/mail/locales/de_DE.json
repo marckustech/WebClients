@@ -1185,6 +1185,12 @@
       ],
       "Zoom out": [
         "Verkleinern"
+      ],
+      "Download now": [
+        "Jetzt herunterladen"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Ein wichtiges Update ist verfügbar. Um die App weiterhin zu nutzen, update sie bitte auf die aktuellste Version. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3688,6 +3694,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Deine Suche ergab zu viele Treffer. Schränke deine Suche ein und versuche es erneut."
+      ],
+      "Maximum expiration time reached.": [
+        "Maximale Ablaufzeit erreicht."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8676,6 +8685,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kannst jetzt das Versenden deiner Nachrichten zu einem späteren Zeitpunkt planen."
+      ],
+      "Faster email management": [
+        "Schnellere E-Mail-Verwaltung"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Jetzt kannst du alle E-Mails in einem einzigen Ordner auf einen Schlag bearbeiten."
       ]
     },
     "Status": {
@@ -9103,7 +9118,7 @@
         "Konto gesperrt"
       ],
       "Action all conversations": [
-        "Aktion für alle Konversationen ausführen"
+        "Aktion für alle Unterhaltungen ausführen"
       ],
       "Action all messages": [
         "Aktion für alle Nachrichten ausführen"

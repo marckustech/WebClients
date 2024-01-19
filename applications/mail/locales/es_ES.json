@@ -1185,6 +1185,12 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Download now": [
+        "Descargar ahora"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Actualización importante disponible. Para continuar usando la aplicación, actualiza a la última versión. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3688,6 +3694,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Tu búsqueda ha coincidido con muchos resultados. Limita tu búsqueda e inténtalo de nuevo."
+      ],
+      "Maximum expiration time reached.": [
+        "Se ha alcanzado el tiempo máximo de expiración."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -7928,7 +7937,7 @@
         "Buscar nombre, correo o grupo"
       ],
       "Search parent folder": [
-        "Buscar la carpeta principal"
+        "Buscar en la carpeta principal"
       ],
       "Select": [
         "Seleccionar"
@@ -8676,6 +8685,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ahora puedes programar tus mensajes para que sean enviados más tarde."
+      ],
+      "Faster email management": [
+        "Gestión del correo electrónico más rápida"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Ahora puedes tomar acción en todos los correos electrónicos de una misma carpeta en un solo paso."
       ]
     },
     "Status": {

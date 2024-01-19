@@ -1185,6 +1185,12 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Download now": [
+        "Ladda ner nu"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Viktig uppdatering tillgänglig. För att fortsätta använda appen, uppdatera till den senaste versionen. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3680,6 +3686,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din sökning matchade för många resultat. Begränsa din sökning och försök igen."
+      ],
+      "Maximum expiration time reached.": [
+        "Maximal utgångstid uppnådd."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8657,6 +8666,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Du kan nu schemalägga dina meddelanden för att skickas senare"
+      ],
+      "Faster email management": [
+        "Snabbare e-posthantering"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Nu kan du vidta åtgärder på all e-post i en enda mapp på en gång."
       ]
     },
     "Status": {

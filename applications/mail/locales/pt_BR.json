@@ -1185,6 +1185,9 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Download now": [
+        "Baixar agora"
       ]
     },
     "action": {
@@ -3684,6 +3687,10 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A sua pesquisa correspondeu a muitos resultados. Limite sua busca e tente novamente."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Escolha uma data no próximo ${ n } dia.",
+        "Escolha uma data nos próximos ${ n } dias."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6246,6 +6253,71 @@
       ],
       "to ${ destinationElement } folder.": [
         "para ${ destinationElement } pasta."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "A conversa ${ elementsCount } será rotulada como:",
+        "As conversas ${ elementsCount } serão rotuladas como:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } conversa será marcada como lida.",
+        "${ elementsCount } conversas serão marcadas como lidas."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } conversa será marcada como não lida.",
+        "${ elementsCount } conversas serão marcadas como não lidas."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } conversa será movida",
+        "${ elementsCount } conversas serão movidas"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "A conversa ${ elementsCount } não será rotulada de:",
+        "As conversas de ${ elementsCount } não serão rotuladas de:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "A mensagem ${ elementsCount } será rotulada como:",
+        "As mensagens ${ elementsCount } serão rotuladas como:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } mensagens será marcada como lida.",
+        "${ elementsCount } mensagens serão marcadas como lidas."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } mensagens será marcada como não lida.",
+        "${ elementsCount } mensagens serão marcadas como não lidas."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } mensagem será movida",
+        "${ elementsCount } mensagens serão movidas"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "A mensagem ${ elementsCount } não será rotulada de:",
+        "Mensagens ${ elementsCount } não serão rotuladas de:"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Todas as mensagens agendadas ou adiadas serão canceladas."
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Ações de mensagens em andamento. Isso pode demorar um pouco."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Selecione todos os ${ elementsCount } em ${ location }",
+        "Selecione todos os ${ elementsCount } em ${ location }"
+      ],
+      "You can now return to the application to continue": [
+        "Agora você pode retornar ao aplicativo para continuar"
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Você selecionou **${ elementsCount } conversa** em ${ location }",
+        "Você selecionou **${ elementsCount } conversas** em ${ location }"
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Você selecionou **${ elementsCount } mensagem** em ${ location }",
+        "Você selecionou **${ elementsCount } mensagens** em ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Você selecionou **${ elementsCount } mensagem**.",
+        "Você selecionou **${ elementsCount } mensagens**."
       ]
     },
     "info": {
@@ -7878,6 +7950,9 @@
       ],
       "Type text or keyword": [
         "Digite o texto ou a palavra-chave"
+      ],
+      "Search parent folder": [
+        "Pesquisar pasta pai"
       ]
     },
     "Placeholder for contact group name": {
@@ -8640,6 +8715,9 @@
       ],
       "Your current storage:": [
         "Seu armazenamento atual:"
+      ],
+      "Get more storage": [
+        "Obter mais armazenamento"
       ]
     },
     "Success": {
@@ -9621,6 +9699,9 @@
       ],
       "Mark messages as unread": [
         "Marcar mensagens como não lidas"
+      ],
+      "This field cannot be empty": [
+        "Este campo não pode ficar vazio"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10069,6 +10150,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "armazenamento de ${ app }"
+      ],
+      "contact your administrator": [
+        "contate seu administrador"
+      ],
+      "upgrade for more storage": [
+        "faça upgrade para mais armazenamento"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Seu ${ appStorage } está quase cheio"
+      ],
+      "Your ${ appStorage } is full": [
+        "O ${ appStorage } está cheio."
+      ],
+      "Your storage is full": [
+        "Seu armazenamento está cheio"
       ]
     }
   }

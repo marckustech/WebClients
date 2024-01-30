@@ -1488,7 +1488,7 @@
     },
     "Button": {
       "Continue using ${ MAIL_APP_NAME }.": [
-        "${ MAIL_APP_NAME } 를 계속 사용하세요."
+        "${ MAIL_APP_NAME }을 계속 사용하세요."
       ]
     },
     "Calendar attachment tooltip": {
@@ -8545,6 +8545,9 @@
       ],
       "Your current storage:": [
         "내 현재 스토리지:"
+      ],
+      "Get more storage": [
+        "더 많은 스토리지 얻기"
       ]
     },
     "Success": {

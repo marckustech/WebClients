@@ -6924,6 +6924,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "寄件者: ${ from }"
+      ],
+      "To: ${ to }": [
+        "收件者：${ to }"
       ]
     },
     "Landmarks": {
@@ -7543,6 +7546,9 @@
       ],
       "Skip": [
         "跳過"
+      ],
+      "Congratulations on choosing privacy": [
+        "恭喜您選擇了隱私"
       ]
     },
     "Onboarding Proton": {
@@ -7757,6 +7763,9 @@
       ],
       "Type text or keyword": [
         "鍵入文字或關鍵詞"
+      ],
+      "Search parent folder": [
+        "搜尋資料夾主目錄"
       ]
     },
     "Placeholder for contact group name": {
@@ -8489,6 +8498,9 @@
       ],
       "Your current storage:": [
         "您目前的儲存空間："
+      ],
+      "Get more storage": [
+        "取得更多儲存空間"
       ]
     },
     "Success": {
@@ -9391,6 +9403,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免費方案將於 ${ textDate } 結束"
+      ],
+      "Action all conversations": [
+        "動作於全部對話內容"
+      ],
+      "Action all messages": [
+        "動作於全部訊息"
+      ],
+      "Mark conversations as read": [
+        "標記對話內容為已讀"
+      ],
+      "Mark conversations as unread": [
+        "標記對話內容為未讀"
+      ],
+      "Mark messages as read": [
+        "將訊息標記為已讀"
+      ],
+      "Mark messages as unread": [
+        "標記訊息為未讀"
+      ],
+      "Move all conversations": [
+        "移動全部往來對話"
+      ],
+      "Move all messages": [
+        "移動全部郵件"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9470,6 +9506,9 @@
       ],
       "You do not have any contacts to export": [
         "您沒有任何可匯出的聯絡人"
+      ],
+      "Load image": [
+        "載入圖像"
       ]
     },
     "Tor out of date": {
@@ -9802,6 +9841,21 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME }桌面應用程式"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "聯絡人圖片"
+      ]
+    },
+    "email_forwarding_2023: Composer email icon": {
+      "Zero-access encrypted. Recipient has disabled end-to-end encryption on their account.": [
+        "零存取防護加密。收件者已替帳號停用端對端加密端對端加密。"
       ]
     }
   }

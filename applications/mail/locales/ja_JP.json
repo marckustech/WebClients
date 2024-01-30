@@ -7312,6 +7312,12 @@
       ],
       "Protection from trackers": [
         "トラッカーからの保護"
+      ],
+      "Next": [
+        "次へ"
+      ],
+      "Skip": [
+        "スキップ"
       ]
     },
     "Onboarding Proton": {
@@ -7323,6 +7329,9 @@
       ],
       "Set up your organization": [
         "組織のための設定"
+      ],
+      "Pick a theme": [
+        "テーマを選択"
       ]
     },
     "Online accounts": {
@@ -8217,6 +8226,9 @@
       ],
       "Your current storage:": [
         "現在のストレージ:"
+      ],
+      "Get more storage": [
+        "ストレージを増やす"
       ]
     },
     "Success": {
@@ -9095,6 +9107,24 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "Delete folder?": [
+        "フォルダーを削除しますか？"
+      ],
+      "Delete label?": [
+        "ラベルを削除しますか？"
+      ],
+      "Mark conversations as read": [
+        "会話を既読にする"
+      ],
+      "Mark conversations as unread": [
+        "会話を未読にする"
+      ],
+      "Mark messages as read": [
+        "メッセージを既読にする"
+      ],
+      "Mark messages as unread": [
+        "メッセージを未読にする"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9174,6 +9204,9 @@
       ],
       "You do not have any contacts to export": [
         "エクスポートする連絡先がありません"
+      ],
+      "Load image": [
+        "画像を読み込む"
       ]
     },
     "Tor out of date": {

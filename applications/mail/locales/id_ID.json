@@ -1040,7 +1040,7 @@
         "Tampilkan/sembunyikan aplikasi Contact"
       ],
       "Toggle settings": [
-        "Saklar pengaturan"
+        "Aktifkan/nonaktifkan pengaturan"
       ],
       "Tomorrow": [
         "Besok"
@@ -1179,6 +1179,12 @@
       ],
       "Zoom out": [
         "Perkecil"
+      ],
+      "Download now": [
+        "Unduh sekarang"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Pembaruan penting tersedia. Untuk dapat lanjut menggunakan aplikasi, silakan perbarui aplikasi ke versi terbaru. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3660,6 +3666,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Pencarian Anda membuahkan terlalu banyak hasil. Harap persempit kriteria pencarian Anda dan coba lagi."
+      ],
+      "Maximum expiration time reached.": [
+        "Waktu kedaluwarsa maksimum tercapai."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Tidak ada kunci eksternal untuk penerima yang valid untuk pengiriman"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -5072,7 +5084,7 @@
         "Membersihkan data peramban akan menonaktikan pencarian konten pesan di perangkat ini. Semua pesan perlu dimuat lagi bila ingin dicari."
       ],
       "Clears browser data related to message content search including downloaded messages": [
-        "Membersihkan data peramban yang terkait dengan pencarian konten pesan, termasuk pesan yang dimuat"
+        "Membersihkan data browser yang terkait dengan pencarian konten pesan, termasuk pesan yang diunduh"
       ],
       "Click \"Request new code\" to have a new verification code sent to ${ strong }. If this phone number is incorrect, click \"Edit\" to correct it.": [
         "Klik \"Minta kode baru\" untuk mendapatkan kode verifikasi baru yang akan dikirim ke ${ strong }. Apabila nomor telepon ini tidak sesuai, klik \"Sunting\" untuk mengubahnya."
@@ -5918,7 +5930,7 @@
         "Pelacak yang diblokir:"
       ],
       "Try new ${ BRAND_NAME } features, updates and products before they are released to the public. This will reload the application": [
-        "Coba fitur, pembaruan, dan produk ${ BRAND_NAME } baru sebelum mereka dirilis kepada publik. Ini akan memuat ulang aplikasi"
+        "Coba berbagai fitur, pembaruan, dan produk ${ BRAND_NAME } baru sebelum waktu rilisnya kepada publik. Mengubah peraturan ini akan memuat ulang halaman."
       ],
       "Turn off to only search by date, name, email address, or subject line. To disable search message content and delete downloaded messages, go to settings.": [
         "Nonaktifkan pilihan ini agar pencarian pesan hanya didasarkan pada tanggal, nama, alamat surel, atau baris subjek. Untuk menonaktifkan pencarian konten pesan dan menghapus pesan yang telah diunduh, tuju menu pengaturan."
@@ -6560,7 +6572,7 @@
         "Warna"
       ],
       "Composer": [
-        "Komposer"
+        "Ukuran komposer"
       ],
       "Conditions": [
         "Syarat"
@@ -6590,7 +6602,7 @@
         "Hapus informasi terkait pemulihan."
       ],
       "Density": [
-        "Kerapatan"
+        "Kerapatan surat"
       ],
       "Don't ask again": [
         "Jangan tanyakan lagi"
@@ -6710,7 +6722,7 @@
         "Hanya sebulan terakhir"
       ],
       "Layout": [
-        "Tata letak"
+        "Mode tata letak"
       ],
       "Location": [
         "Lokasi"
@@ -7710,6 +7722,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Kami menyarankan Anda untuk tidak lagi \"memercayai\" kunci ini."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Kunci eksternal diperoleh secara otomatis dari keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Kunci eksternal diperoleh secara otomatis melalui WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Kunci ini digunakan untuk mengenkripsi pesan yang tertuju pada kontak ini"
       ]
     },
     "PGP key warning": {
@@ -7770,7 +7791,7 @@
         "Nomor telepon"
       ],
       "Please describe the problem and include any error messages": [
-        "Mohon uraikan masalah dan sertakan pesan kesalahan apa pun"
+        "Mohon uraikan masalah Anda dan sertakan pesan kesalahan yang Anda temui"
       ],
       "Please insert link first": [
         "Silakan sisipkan tautan terlebih dulu"
@@ -8365,10 +8386,10 @@
     },
     "specialoffer: Link": {
       "Go to subscription plans": [
-        "Pergi ke paket langganan"
+        "Tuju daftar paket langganan"
       ],
       "Upgrade": [
-        "Tingkatkan"
+        "Tingkatkan akun"
       ]
     },
     "specialoffer: Offers": {
@@ -8512,6 +8533,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Kini Anda dapat menjadwalkan pengiriman pesan"
+      ],
+      "Faster email management": [
+        "Pengelolaan email yang lebih cepat"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Kini Anda dapat mengambil tindakan terhadap seluruh email dalam satu folder secara langsung."
       ]
     },
     "Status": {
@@ -8545,6 +8572,9 @@
       ],
       "Your current storage:": [
         "Penyimpanan Anda saat ini:"
+      ],
+      "Get more storage": [
+        "Dapatkan penyimpanan tambahan"
       ]
     },
     "Success": {
@@ -9900,6 +9930,53 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "Ruang penyimpanan ${ app }"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% penuh"
+      ],
+      "contact your administrator": [
+        "hubungi administrator Anda"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Untuk dapat lanjut mengunggah dan menyinkronkan berkas, kosongkan ruang yang ada atau tingkatkan akun Anda untuk memperoleh lebih banyak ruang penyimpanan."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "Untuk dapat lanjut mengirim atau menerima email, kosongkan ruang yang ada atau tingkatkan akun Anda untuk memperoleh lebih banyak ruang penyimpanan."
+      ],
+      "upgrade for more storage": [
+        "tingkatkan akun Anda untuk memperoleh lebih banyak ruang penyimpanan"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "${ appStorage } Anda hampir penuh"
+      ],
+      "Your ${ appStorage } is full": [
+        "${ appStorage } Anda penuh"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "${ storage } Anda ${ percentage }% penuh. Untuk dapat lanjut mengirim atau menerima email, kosongkan ruang yang ada atau ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } Anda ${ percentage }% penuh. Untuk dapat mengunggah atau menyinkronkan berkas, kosongkan ruang yang ada atau ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "${ storage } Anda penuh. Untuk dapat mengirim atau menerima email, kosongkan ruang yang ada atau ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } Anda penuh. Untuk dapat mengunggah atau menyinkronkan berkas, kosongkan ruang yang ada atau ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ruang penyimpanan Anda ${ percentage }% penuh. Untuk dapat lanjut mengirim atau menerima email, kosongkan ruang yang ada atau ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Ruang penyimpanan Anda penuh"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ruang penyimpanan Anda penuh. Untuk dapat lanjut mengirim atau menerima email, kosongkan ruang yang ada atau ${ upgrade }."
       ]
     }
   }

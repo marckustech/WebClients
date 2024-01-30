@@ -3697,6 +3697,9 @@
       ],
       "Maximum expiration time reached.": [
         "Maksimal utløpstid nådd."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ingen ekstern nøkkel hentet for bruker er gyldig for sending"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -7856,6 +7859,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vi anbefaler at du \"ikke stoler på\" denne nøkkelen."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Ekstern nøkkel hentet automatisk fra keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Ekstern nøkkel hentet automatisk via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Denne nøkkelen brukes til å kryptere meldinger til denne kontakten."
       ]
     },
     "PGP key warning": {
@@ -8724,6 +8736,9 @@
       ],
       "Your current storage:": [
         "Din gjeldende lagringsplass:"
+      ],
+      "Get more storage": [
+        "Få mer lagringskapasitet"
       ]
     },
     "Success": {
@@ -10159,6 +10174,53 @@
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app }-lagring"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% full"
+      ],
+      "contact your administrator": [
+        "kontakt administratoren din"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Hvis du vil fortsette å laste opp og synkronisere filer, frigjør du plass eller oppgraderer for mer lagringsplass."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "For å sende eller motta e-post, frigjør plass eller oppgrader for mer lagringsplass."
+      ],
+      "upgrade for more storage": [
+        "oppgrader for mer lagringsplass"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Din ${ appStorage } er nesten full"
+      ],
+      "Your ${ appStorage } is full": [
+        "Din ${ appStorage } er full"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Din ${ storage } er ${ percentage }% full. For å sende eller motta e-post, frigjør plass eller ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Din ${ storage } er ${ percentage }% full. For å laste opp eller synkronisere filer, frigjør plass eller ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Din ${ storage } er full. For å sende eller motta e-post, frigjør plass eller ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Din ${ storage } er full. For å laste opp eller synkronisere filer, frigjør plass eller ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Lagringsplassen din er ${ percentage }% full. For å sende eller motta e-post, frigjør plas eller ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Lagringsplassen din er full"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Lagringsplassen din er full. For å sende eller motta e-post, frigjør plass eller ${ upgrade }."
       ]
     }
   }

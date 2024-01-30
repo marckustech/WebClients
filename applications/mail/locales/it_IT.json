@@ -3697,6 +3697,9 @@
       ],
       "Maximum expiration time reached.": [
         "Scadenza massima raggiunta."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Nessuna chiave esterna caricata per l'utente è valida per l'invio"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6371,6 +6374,9 @@
       ],
       "Trusted": [
         "Attendibile"
+      ],
+      "KOO": [
+        "KOO"
       ]
     },
     "Key pinning": {
@@ -7856,6 +7862,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Ti consigliamo di \"non considerare attendibile\" questa chiave."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Chiave esterna caricata automaticamente da keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Chiave esterna caricata automaticamente tramite WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Questa chiave viene utilizzata per crittografare i messaggi a questo contatto"
       ]
     },
     "PGP key warning": {
@@ -8687,7 +8702,10 @@
         "Ora puoi programmare i tuoi messaggi da inviare più tardi"
       ],
       "Faster email management": [
-        "Gestione più rapida della posta elettronica"
+        "Gestione delle email più veloce"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Ora puoi agire su tutte le email in una cartella in una volta."
       ]
     },
     "Status": {
@@ -8721,6 +8739,9 @@
       ],
       "Your current storage:": [
         "La tua memoria attuale:"
+      ],
+      "Get more storage": [
+        "Ottieni più spazio di archiviazione"
       ]
     },
     "Success": {
@@ -10156,6 +10177,53 @@
       ],
       "Yearly, ${ untilString }": [
         "Ogni anno, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "Spazio di archiviazione di ${ app }"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } pieno al ${ percentage }%"
+      ],
+      "contact your administrator": [
+        "contattare il tuo amministratore"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Per continuare a caricare e sincronizzare i file, libera spazio o effettua l'upgrade per ottenere più spazio di archiviazione."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "Per inviare e ricevere le email, libera spazio o effettua l'upgrade per più spazio di archiviazione."
+      ],
+      "upgrade for more storage": [
+        "effettua l'upgrade per ottenere più spazio di archiviazione"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "${ appStorage } quasi pieno"
+      ],
+      "Your ${ appStorage } is full": [
+        "${ appStorage } pieno"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "${ storage } pieno al ${ percentage }%. Per inviare e ricevere le email, libera spazio o ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } pieno al ${ percentage }%. Per caricare o sincronizzare i file, libera spazio o ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "${ storage } pieno. Per inviare e ricevere le email, libera spazio o ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } pieno. Per caricare o sincronizzare i file, libera spazio o ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Spazio di archiviazione pieno al ${ percentage }%. Per inviare e ricevere le email, libera spazio o ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Spazio di archiviazione pieno"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Spazio di archiviazione pieno. Per inviare e ricevere le email, libera spazio o ${ upgrade }."
       ]
     }
   }

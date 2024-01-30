@@ -3689,6 +3689,13 @@
       ],
       "Maximum expiration time reached.": [
         "Maximal utgångstid uppnådd."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Välj ett datum inom den kommande ${ n } dagen.",
+        "Välj ett datum inom de kommande ${ n } dagarna."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ingen extern nyckel hämtad för användaren är giltig för sändning"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6363,6 +6370,9 @@
       ],
       "Trusted": [
         "Betrodd"
+      ],
+      "KOO": [
+        "KOO"
       ]
     },
     "Key pinning": {
@@ -7837,6 +7847,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vi rekommenderar att du “Sluta lita på“ denna nyckel."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Extern nyckel hämtas automatiskt från keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Extern nyckel hämtas automatiskt via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Denna nyckel används för att kryptera meddelanden till denna kontakt"
       ]
     },
     "PGP key warning": {
@@ -8705,6 +8724,9 @@
       ],
       "Your current storage:": [
         "Ditt nuvarande lagringsutrymme:"
+      ],
+      "Get more storage": [
+        "Skaffa mer lagringsutrymme"
       ]
     },
     "Success": {
@@ -10080,6 +10102,53 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } lagringsutrymme"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage } % fullt"
+      ],
+      "contact your administrator": [
+        "kontakta din administratör"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Om du vill fortsätta ladda upp och synkronisera filer, frigör utrymme eller uppgradera för mer lagringsutrymme."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "För att skicka eller ta emot e-post, frigör utrymme eller uppgradera för mer lagringsutrymme."
+      ],
+      "upgrade for more storage": [
+        "uppgradera för mer lagringsutrymme"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ditt ${ appStorage } är nästan fullt"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ditt ${ appStorage } är fullt"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Ditt ${ storage } är fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är fullt. För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt lagringsutrymme är ${ percentage } % fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Ditt lagringsutrymme är fullt"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt lagringsutrymme är fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
       ]
     }
   }

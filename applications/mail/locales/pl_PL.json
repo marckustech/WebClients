@@ -1200,6 +1200,9 @@
       ],
       "Download now": [
         "Pobierz"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Dostępna jest ważna aktualizacja. Zaktualizuj aplikację do najnowszej wersji. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -1428,7 +1431,7 @@
         "Specjalnie zaprojektowana funkcja NetShield chroni Twoje urządzenia oraz przyśpiesza przeglądanie Internetu poprzez blokowanie reklam, elementów śledzących i złośliwego oprogramowania."
       ],
       "Storage space is shared across all ${ BRAND_NAME } apps.": [
-        "Przestrzeń dyskowa jest dzielona pomiędzy wszystkimi aplikacjami ${ BRAND_NAME }."
+        "Przestrzeń dyskowa jest dzielona pomiędzy wszystkimi usługami ${ BRAND_NAME }."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Przechowuj do 200 wersji każdego pliku przez okres aż do 10 lat."
@@ -3741,6 +3744,12 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Wyszukiwanie pasuje do zbyt wielu wyników. Sprecyzuj wyszukiwanie i spróbuj ponownie."
+      ],
+      "Maximum expiration time reached.": [
+        "Maksymalny czas wygaśnięcia został osiągnięty."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Żaden z odzyskanych kluczy zewnętrznych dla użytkownika nie jest przeznaczony do wysyłania wiadomości"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -8118,6 +8127,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Zalecamy przestać ufać temu kluczowi."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Zewnętrzny klucz został automatycznie pobrany z keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Zewnętrzny klucz został automatycznie pobrany przez WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Ten klucz jest używany do szyfrowania wiadomości dla tego kontaktu"
       ]
     },
     "PGP key warning": {
@@ -9001,6 +9019,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Możesz zaplanować wysyłanie wiadomości w późniejszym czasie"
+      ],
+      "Faster email management": [
+        "Szybsze zarządzanie wiadomościami"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Wykonaj akcję dla wszystkich wiadomości w pojedynczym folderze."
       ]
     },
     "Status": {
@@ -9034,6 +9058,9 @@
       ],
       "Your current storage:": [
         "Obecna przestrzeń dyskowa:"
+      ],
+      "Get more storage": [
+        "Uzyskaj więcej przestrzeni dyskowej"
       ]
     },
     "Success": {
@@ -10623,6 +10650,23 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "contact your administrator": [
+        "skontaktuj się z administratorem"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Aby kontynuować przesyłanie i synchronizację plików, zwolnij część miejsca lub ulepsz konto, aby uzyskać więcej przestrzeni dyskowej."
+      ],
+      "upgrade for more storage": [
+        "ulepsz konto, aby uzyskać większą przestrzeń dyskową"
+      ],
+      "Your storage is full": [
+        "Przestrzeń dyskowa jest pełna"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Przestrzeń dyskowa jest pełna. Zwolnij część miejsca lub ${ upgrade }."
       ]
     }
   }

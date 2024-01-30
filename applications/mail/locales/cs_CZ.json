@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Download now": [
+        "Stáhnout nyní"
       ]
     },
     "action": {
@@ -9010,6 +9013,9 @@
       ],
       "Your current storage:": [
         "Vaše současné úložiště:"
+      ],
+      "Get more storage": [
+        "Získat více úložného prostoru"
       ]
     },
     "Success": {
@@ -10074,6 +10080,9 @@
       ],
       "This field cannot contain only spaces": [
         "Toto pole nesmí obsahovat pouze mezery"
+      ],
+      "This field cannot be empty": [
+        "Toto pole nemůže být prázdné"
       ]
     },
     "Today icon tooltip in mini calendar": {

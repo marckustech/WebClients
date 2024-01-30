@@ -6531,6 +6531,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefónne číslo bude použité iba pre toto jednorazové overenie."
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } konverzácia bude odznačená od:",
+        "${ elementsCount } konverzácie budú odznačené od:",
+        "${ elementsCount } konverzácií bude odznačených od:",
+        "${ elementsCount } konverzácií bude odznačených od:"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } správa bude odznačená od:",
+        "${ elementsCount } správy budú odznačené od:",
+        "${ elementsCount } správ bude odznačených od:",
+        "${ elementsCount } správ bude odznačených od:"
       ]
     },
     "info": {
@@ -9010,6 +9022,9 @@
       ],
       "Your current storage:": [
         "Vaše aktuálne úložisko:"
+      ],
+      "Get more storage": [
+        "Získať viac úložného priestoru"
       ]
     },
     "Success": {

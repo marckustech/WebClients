@@ -4278,10 +4278,10 @@
         "Die E-Mail wurde gesendet ${ label }"
       ],
       "with attachments": [
-        "mit Anhang"
+        "mit Anhängen"
       ],
       "without attachments": [
-        "ohne Anhang"
+        "ohne Anhänge"
       ]
     },
     "filter: Label, jt": {
@@ -7856,6 +7856,9 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Wir empfehlen dir, diesen Schlüssel als „nicht vertrauenswürdig“ einzustufen."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Dieser Schlüssel wird zum Verschlüsseln von Nachrichten an diesen Kontakt verwendet."
       ]
     },
     "PGP key warning": {
@@ -8724,6 +8727,9 @@
       ],
       "Your current storage:": [
         "Dein aktueller Speicherplatz:"
+      ],
+      "Get more storage": [
+        "Mehr Speicherplatz erhalten"
       ]
     },
     "Success": {
@@ -8976,6 +8982,10 @@
       ],
       "Verification successful": [
         "Verifizierung erfolgreich"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } Konversation nicht pausiert",
+        "${ elementsCount } Konversationen nicht pausiert"
       ]
     },
     "Success notification": {
@@ -10155,6 +10165,23 @@
       ],
       "Yearly, ${ untilString }": [
         "Jährlich, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app }-Speicherplatz"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% voll."
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Dein ${ appStorage }-Speicherplatz ist fast voll."
+      ],
+      "Your ${ appStorage } is full": [
+        "Dein ${ appStorage }-Speicherplatz ist voll."
+      ],
+      "Your storage is full": [
+        "Dein Speicherplatz ist voll."
       ]
     }
   }

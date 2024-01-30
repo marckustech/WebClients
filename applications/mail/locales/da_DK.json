@@ -3679,6 +3679,10 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Din søgning gav for mange resultater. Begræns din søgning, og forsøg igen."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Vælg en dato indenfor den næste ${ n } dag.",
+        "Vælg en dato indenfor de næste ${ n } dage."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6228,6 +6232,84 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Dit telefonnummer vil kun blive anvendt til denne engangsbekræftelse."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } samtale vil få etiketten:",
+        "${ elementsCount } samtaler vil få etiketten:"
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } samtale vil blive markeret som læst.",
+        "${ elementsCount } samtaler vil blive markeret som læst."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } samtale vil blive markeret som ulæst.",
+        "${ elementsCount } samtaler vil blive markeret som ulæst."
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount } samtale vil blive flyttet",
+        "${ elementsCount } samtaler vil blive flyttet"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } samtale vil ikke længere have etiketten:",
+        "${ elementsCount } samtaler vil ikke længere have etiketten:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } besked vil få etiketten:",
+        "${ elementsCount } beskeder vil få etiketten:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } besked vil blive markeret som læst.",
+        "${ elementsCount } beskeder vil blive markeret som læst."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } besked vil blive markeret som ulæst.",
+        "${ elementsCount } beskeder vil blive markeret som ulæst."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount } besked vil blive flyttet",
+        "${ elementsCount } beskeder vil blive flyttet"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } besked vil ikke længere have etiketten:",
+        "${ elementsCount } beskeder vil ikke længere have etiketten:"
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Alle planlagte eller udsatte beskeder vil blive annulleret."
+      ],
+      "Applying actions to conversations": [
+        "Anvender handlinger på samtaler"
+      ],
+      "Applying actions to messages": [
+        "Anvender handlinger på beskeder"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Beskedhandlinger er i gang. Dette kan tage et stykke tid."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Vælg alle ${ elementsCount } i ${ location }",
+        "Vælg alle ${ elementsCount } i ${ location }"
+      ],
+      "to ${ destinationElement } folder.": [
+        "til ${ destinationElement } mappe."
+      ],
+      "You can now return to the application to continue": [
+        "Du kan nu vende tilbage til applikationen for at fortsætte"
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Du valgte **${ elementsCount } samtale** i ${ location }",
+        "Du valgte **${ elementsCount } samtaler** i ${ location }"
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Du valgte **${ elementsCount } samtale**.",
+        "Du valgte **${ elementsCount } samtaler**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Du valgte **${ elementsCount } besked** i ${ location }",
+        "Du valgte **${ elementsCount } beskeder** i ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Du valgte **${ elementsCount } besked**.",
+        "Du valgte **${ elementsCount } beskeder**."
       ]
     },
     "info": {
@@ -7003,6 +7085,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "Fra: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Til: ${ to }"
       ]
     },
     "Landmarks": {
@@ -7857,6 +7942,9 @@
       ],
       "Type text or keyword": [
         "Indtast tekst eller nøgleord"
+      ],
+      "Search parent folder": [
+        "Søg i overordnet mappe"
       ]
     },
     "Placeholder for contact group name": {
@@ -8423,6 +8511,9 @@
       ],
       "Support online privacy": [
         "Støt online privatlivsbeskyttelse"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -8613,6 +8704,9 @@
       ],
       "Your current storage:": [
         "Din aktuelle lagerplads:"
+      ],
+      "Get more storage": [
+        "Få mere lagerplads"
       ]
     },
     "Success": {
@@ -9561,6 +9655,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din Mail Plus prøveperiode slutter ${ textDate }"
+      ],
+      "Action all conversations": [
+        "Anvend på alle samtaler"
+      ],
+      "Action all messages": [
+        "Anvend på alle beskeder"
+      ],
+      "Mark conversations as read": [
+        "Markér samtaler som læste"
+      ],
+      "Mark conversations as unread": [
+        "Markér samtaler som ulæste"
+      ],
+      "Mark messages as read": [
+        "Markér beskeder som læste"
+      ],
+      "Mark messages as unread": [
+        "Markér beskeder som ulæste"
+      ],
+      "Move all conversations": [
+        "Flyt alle samtaler"
+      ],
+      "Move all messages": [
+        "Flyt alle beskeder"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9640,6 +9758,9 @@
       ],
       "You do not have any contacts to export": [
         "Du har ingen kontakter at eksportere"
+      ],
+      "Load image": [
+        "Indlæs billede"
       ]
     },
     "Tor out of date": {
@@ -10006,6 +10127,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Kontaktbillede"
       ]
     }
   }

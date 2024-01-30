@@ -3697,6 +3697,9 @@
       ],
       "Maximum expiration time reached.": [
         "Se ha alcanzado el tiempo máximo de expiración."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ninguna clave externa recuperada para el usuario es válida para el envío."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6371,6 +6374,9 @@
       ],
       "Trusted": [
         "Confiable"
+      ],
+      "KOO": [
+        "KOO"
       ]
     },
     "Key pinning": {
@@ -7856,6 +7862,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Te recomendamos que consideres esta clave \"no fiable\"."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Se ha recuperado la clave externa automáticamente desde keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Se ha obtenido la clave externa obtenida automáticamente mediante WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Se usa esta clave para cifrar los mensajes a este contacto"
       ]
     },
     "PGP key warning": {
@@ -8724,6 +8739,9 @@
       ],
       "Your current storage:": [
         "Tu almacenamiento actual:"
+      ],
+      "Get more storage": [
+        "Obtener más almacenamiento"
       ]
     },
     "Success": {
@@ -10159,6 +10177,53 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada año hasta ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "almacenamiento de ${ app }"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } lleno al ${ percentage }%"
+      ],
+      "contact your administrator": [
+        "contacta con tu administrador"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Para continuar cargando y sincronizando archivos, libera espacio o mejora para obtener más almacenamiento."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "Para enviar o recibir correos, libera espacio o mejora para obtener más almacenamiento."
+      ],
+      "upgrade for more storage": [
+        "mejora para obtener más almacenamiento"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "El ${ appStorage } está casi lleno."
+      ],
+      "Your ${ appStorage } is full": [
+        "El ${ appStorage } está lleno."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "El ${ storage } está un ${ percentage }% lleno. Para enviar o recibir correos, libera espacio o ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "El ${ storage } está un ${ percentage }% lleno. Para cargar o sincronizar archivos, libera espacio o ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "El ${ storage } está lleno. Para enviar o recibir correos, libera espacio o ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "El ${ storage } está lleno. Para cargar o sincronizar archivos, libera espacio o ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "El almacenamiento está un ${ percentage }% lleno. Para enviar o recibir correos, libera espacio o ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "El almacenamiento está lleno."
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "El almacenamiento está lleno. Para enviar o recibir correos, libera espacio o ${ upgrade }."
       ]
     }
   }

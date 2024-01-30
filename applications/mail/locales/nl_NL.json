@@ -3061,7 +3061,7 @@
         "Ontgrendel aangepaste berichten inplannen en andere voordelen als u uw abonnement upgrade."
       ],
       "Unlock custom snooze times when you upgrade your plan.": [
-        "Toegang krijgen tot aangepaste sluimertijden als u uw abonnement upgradet."
+        "Toegang krijgen tot aangepaste snooztijden als u uw abonnement upgradet."
       ],
       "Unlock unlimited filters that sort your inbox for you and more premium features when you upgrade.": [
         "Krijg onbeperkt filters die uw postvak voor u sorteren en andere premiumfuncties als u upgrade."
@@ -5693,7 +5693,7 @@
         "Gesnoozed tot ${ dateString } om ${ formattedTime }"
       ],
       "Snoozed until today, ${ formattedTime }": [
-        "Gesluimerd tot vandaag, ${ formattedTime }"
+        "Gesnoozed tot vandaag, ${ formattedTime }"
       ],
       "Snoozed until tomorrow, ${ formattedTime }": [
         "Gesnoozed tot morgen, ${ formattedTime }"
@@ -6189,7 +6189,7 @@
         "Weet u zeker dat u deze map wilt wissen?"
       ],
       "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
-        "Mails getagged met het label ${ nameDeleted } zullen niet gewist worden en zijn terug te vinden in hun respectievelijke map."
+        "Mails getagd met het label ${ nameDeleted } zullen niet gewist worden en zijn terug te vinden in hun respectievelijke map."
       ],
       "to ${ destinationElement } folder.": [
         "naar ${ destinationElement } map."
@@ -7484,7 +7484,7 @@
         "Gebruik onbeperkt aliassen met SimpleLogin van ${ BRAND_NAME }"
       ],
       "Snooze messages and get reminded when you want": [
-        "Berichten sluimeren en ontvangen wanneer u wilt"
+        "Berichten snoozen en ontvangen wanneer u wil"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "Opslagruimte wordt gedeeld door ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } en ${ DRIVE_APP_NAME }"
@@ -7945,7 +7945,7 @@
         "Geen resultaten"
       ],
       "No snoozed messages": [
-        "Geen gesluimerde berichten"
+        "Geen gesnoozede berichten"
       ],
       "No unread messages found": [
         "Geen ongelezen berichten gevonden"
@@ -8096,6 +8096,9 @@
       "You have ${ timeRemaining.inSeconds } second to reset your password.": [
         "U heeft ${ timeRemaining.inSeconds } seconde om uw wachtwoord te resetten.",
         " U heeft ${ timeRemaining.inSeconds } seconden om uw wachtwoord te resetten."
+      ],
+      "This permission expires soon": [
+        "vervalt binnenkort"
       ]
     },
     "session_recovery:available:link": {
@@ -8535,6 +8538,9 @@
       ],
       "Your current storage:": [
         "Uw huidige opslag:"
+      ],
+      "Get more storage": [
+        "Krijg meer opslag"
       ]
     },
     "Success": {
@@ -9586,6 +9592,9 @@
       ],
       "You do not have any contacts to export": [
         "U heeft geen contactpersonen om te exporteren"
+      ],
+      "Load image": [
+        "Laad foto"
       ]
     },
     "Tor out of date": {
@@ -9940,6 +9949,29 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Contact foto"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 gebruikers"
+      ]
+    },
+    "Label (begin date/advanced search)": {
+      "From": [
+        "Van"
+      ]
+    },
+    "Label (end date/advanced search)": {
+      "To": [
+        "Naar"
       ]
     }
   }

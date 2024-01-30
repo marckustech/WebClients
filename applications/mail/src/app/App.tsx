@@ -5,6 +5,7 @@ import { getClientID } from '@proton/shared/lib/apps/helper';
 import authentication from '@proton/shared/lib/authentication/authentication';
 import { newVersionUpdater } from '@proton/shared/lib/busy';
 import { getProdId, setVcalProdId } from '@proton/shared/lib/calendar/vcalConfig';
+import { initSafariFontFixClassnames } from '@proton/shared/lib/helpers/initSafariFontFixClassnames';
 import sentry from '@proton/shared/lib/helpers/sentry';
 import { setTtagLocales } from '@proton/shared/lib/i18n/locales';
 
@@ -20,6 +21,7 @@ setupGuestCrossStorage();
 newVersionUpdater(config);
 sentry({ config, uid: authentication.getUID(), sessionTracking: getSessionTrackingEnabled() });
 setVcalProdId(getProdId(config));
+initSafariFontFixClassnames();
 
 // If the browser is Chromium based, register automatically the mailto protocol handler
 if ('chrome' in window) {

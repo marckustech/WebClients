@@ -924,7 +924,7 @@
     },
     "Button": {
       "Continue using ${ MAIL_APP_NAME }.": [
-        "${ MAIL_APP_NAME } 를 계속 사용하세요."
+        "${ MAIL_APP_NAME }을 계속 사용하세요."
       ]
     },
     "Calendar access select label": {

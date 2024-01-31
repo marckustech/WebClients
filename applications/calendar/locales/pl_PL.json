@@ -653,6 +653,9 @@
       ],
       "Download now": [
         "Pobierz"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Dostępna jest ważna aktualizacja. Zaktualizuj aplikację do najnowszej wersji. ${ downloadUpdate }"
       ]
     },
     "Action subline": {
@@ -2808,6 +2811,9 @@
       ],
       "Your import will not be processed.": [
         "Twój import nie zostanie przetworzony."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Żaden z odzyskanych kluczy zewnętrznych dla użytkownika nie jest przeznaczony do wysyłania wiadomości"
       ]
     },
     "Error accepting calendar invitation": {
@@ -5819,6 +5825,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Zalecamy przestać ufać temu kluczowi."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Zewnętrzny klucz został automatycznie pobrany z keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Zewnętrzny klucz został automatycznie pobrany przez WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Ten klucz jest używany do szyfrowania wiadomości dla tego kontaktu"
       ]
     },
     "PGP key warning": {
@@ -7697,6 +7712,20 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "contact your administrator": [
+        "skontaktuj się z administratorem"
+      ],
+      "upgrade for more storage": [
+        "ulepsz konto, aby uzyskać większą przestrzeń dyskową"
+      ],
+      "Your storage is full": [
+        "Przestrzeń dyskowa jest pełna"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Przestrzeń dyskowa jest pełna. Zwolnij część miejsca lub ${ upgrade }."
       ]
     }
   }

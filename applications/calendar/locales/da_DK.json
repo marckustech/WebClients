@@ -4344,6 +4344,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszone ser ud til at være ændret til ${ timezone }. Vil du opdatere din tidszone præferencer?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Vis begivenheder for kalenderen ${ Name }"
+      ],
+      "You can now return to the application to continue": [
+        "Du kan nu vende tilbage til applikationen for at fortsætte"
       ]
     },
     "info": {
@@ -4839,6 +4845,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "Fra: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Til: ${ to }"
       ]
     },
     "Landmarks": {
@@ -5662,6 +5671,9 @@
       ],
       "Start typing an email address": [
         "Begynd at indtaste en e-mailadresse"
+      ],
+      "Search parent folder": [
+        "Søg i overordnet mappe"
       ]
     },
     "Placeholder for contact group name": {
@@ -6077,6 +6089,9 @@
       ],
       "Support online privacy": [
         "Støt online privatlivsbeskyttelse"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6960,6 +6975,9 @@
       ],
       "You do not have any contacts to export": [
         "Du har ingen kontakter at eksportere"
+      ],
+      "Load image": [
+        "Indlæs billede"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -7316,6 +7334,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Kontaktbillede"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Fejl ved ændring af svar"
       ]
     }
   }

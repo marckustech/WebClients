@@ -4168,6 +4168,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "システムのタイムゾーンが${ timezone }に変更されたようです。タイムゾーンの設定を更新しますか？"
+      ],
+      "Display events for calendar ${ Name }": [
+        "カレンダー ${ Name } の予定を表示"
       ]
     },
     "Info calendar search": {
@@ -5251,6 +5254,9 @@
       ],
       "Set up your organization": [
         "組織のための設定"
+      ],
+      "Pick a theme": [
+        "テーマを選択"
       ]
     },
     "Option": {
@@ -6667,6 +6673,9 @@
       ],
       "You do not have any contacts to export": [
         "エクスポートする連絡先がありません"
+      ],
+      "Load image": [
+        "画像を読み込む"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -6990,6 +6999,11 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "回答の変更に失敗"
       ]
     }
   }

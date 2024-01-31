@@ -1316,7 +1316,7 @@
         "Мабільны"
       ],
       "Other": [
-        "Іншае"
+        "Іншы"
       ],
       "Pager": [
         "Пэйджар"
@@ -2817,6 +2817,9 @@
       ],
       "Your import will not be processed.": [
         "Ваша імпартаванне не будзе апрацавана."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ніводны з атрыманых знешніх ключоў карыстальніка не падыходзіць для адпраўкі"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4344,7 +4347,7 @@
         "Абнавіць перыядычную падзею"
       ],
       "Upgrade now to get premium features, products and storage at a special price": [
-        "Палепшыце зараз, каб атрымаць прэміяльныя функцыі прадуктаў і сховішча па спецыяльным кошце"
+        "Палепшыце свой тарыфны план зараз, каб атрымаць прэміяльныя функцыі, прадукты, а таксама палепшыць сховішча па спецыяльнай цане"
       ],
       "We'll notify you when the import is done.": [
         "Мы апавясцім вас пра завяршэнне імпартавання."
@@ -5828,6 +5831,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Мы рэкамендуем вам \"не давяраць\" гэтаму ключу."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Знешні ключ аўтаматычна атрыманы з сайта keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Знешні ключ аўтаматычна атрыманы праз WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Гэты ключ выкарыстоўваецца для шыфравання паведамленняў гэтаму кантакту"
       ]
     },
     "PGP key warning": {
@@ -7706,6 +7718,44 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% запоўнена"
+      ],
+      "contact your administrator": [
+        "звязацца з адміністратарам"
+      ],
+      "upgrade for more storage": [
+        "палепшыце тарыфны план, каб атрымаць больш сховішча"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ваша ${ appStorage } амаль запоўнена"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ваша ${ appStorage } запоўнена"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ваша ${ storage } запоўнена на ${ percentage }%. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ваша ${ storage } запоўнена на ${ percentage }%. Каб запампоўваць або сінхранізаваць файлы, вызваліце месца або ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Ваша ${ storage } запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ваша ${ storage } запоўнена. Каб запампоўваць або сінхранізаваць файлы, вызваліце месца або ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ваша сховішча запоўнена на ${ percentage }%. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Ваша сховішча запоўнена"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ваша сховішча запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }."
       ]
     }
   }

@@ -650,6 +650,9 @@
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
+      ],
+      "Download now": [
+        "Stáhnout nyní"
       ]
     },
     "Action subline": {
@@ -7700,6 +7703,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročně, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } úložiště"
       ]
     }
   }

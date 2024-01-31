@@ -2192,6 +2192,9 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "U kunt contactpersonen markeren die u niet wilt samenvoegen of behouden. Ze worden pas verwijderd na het klikken op 'samenvoegen'"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Verhoog uw effectiviteit en hou uw tijd bij door gebeurtenissen van een categorie kleur te voorzien of een kleur gebaseerd op uw energie niveau. Krijg dit en nog heel veel meer met een betaald abonnement."
       ]
     },
     "description": {
@@ -4296,6 +4299,12 @@
       ],
       "You can now return to the application to continue": [
         "U kunt nu teruggaan naar het programma om door te gaan"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Alle deelnemers krijgen een annuleringsmail. Welke afspraak wilt u verwijderen?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Toon afspraken van agenda ${ Name }"
       ]
     },
     "info": {
@@ -5191,7 +5200,7 @@
         "Gebruik onbeperkt aliassen met SimpleLogin van ${ BRAND_NAME }"
       ],
       "Snooze messages and get reminded when you want": [
-        "Berichten sluimeren en ontvangen wanneer u wilt"
+        "Berichten snoozen en ontvangen wanneer u wil"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "Opslagruimte wordt gedeeld door ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } en ${ DRIVE_APP_NAME }"
@@ -5754,6 +5763,9 @@
       "You have ${ timeRemaining.inSeconds } second to reset your password.": [
         "U heeft ${ timeRemaining.inSeconds } seconde om uw wachtwoord te resetten.",
         " U heeft ${ timeRemaining.inSeconds } seconden om uw wachtwoord te resetten."
+      ],
+      "This permission expires soon": [
+        "vervalt binnenkort"
       ]
     },
     "session_recovery:available:link": {
@@ -6149,6 +6161,12 @@
       ],
       "Search for events": [
         "Zoek naar afspraken"
+      ],
+      "Color-coding is here!": [
+        "Kleurcodering!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "Met aanpasbare agenda kleuren, u kunt de chaos van kleurcodering en breng orde aan in uw dag."
       ]
     },
     "Storage": {
@@ -6802,6 +6820,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uw Mail Plus proefversie eindigt op ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Voeg wat kleur toe aan uw dag"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6887,6 +6908,9 @@
       ],
       "You do not have any contacts to export": [
         "U heeft geen contactpersonen om te exporteren"
+      ],
+      "Load image": [
+        "Laad foto"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -7231,6 +7255,24 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Contact foto"
+      ]
+    },
+    "eoy2023: Deal details": {
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 gebruikers"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "Fout bij het wijzigen van het antwoord"
       ]
     }
   }

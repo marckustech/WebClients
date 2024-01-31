@@ -2755,6 +2755,9 @@
       ],
       "Your import will not be processed.": [
         "Din import kommer inte att bearbetas."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ingen extern nyckel hämtad för användaren är giltig för sändning"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4359,6 +4362,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "Alla deltagare kommer få ett e-post meddelande om inställande. Vilken händelse vill du ta bort?"
       ]
     },
     "info": {
@@ -4464,6 +4470,9 @@
       ],
       "Trusted": [
         "Betrodd"
+      ],
+      "KOO": [
+        "KOO"
       ]
     },
     "Knowledge base link label": {
@@ -5593,6 +5602,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vi rekommenderar att du “Sluta lita på“ denna nyckel."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Extern nyckel hämtas automatiskt från keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Extern nyckel hämtas automatiskt via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Denna nyckel används för att kryptera meddelanden till denna kontakt"
       ]
     },
     "PGP key warning": {
@@ -7275,6 +7293,47 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } lagringsutrymme"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage } % fullt"
+      ],
+      "contact your administrator": [
+        "kontakta din administratör"
+      ],
+      "upgrade for more storage": [
+        "uppgradera för mer lagringsutrymme"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ditt ${ appStorage } är nästan fullt"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ditt ${ appStorage } är fullt"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Ditt ${ storage } är fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Ditt ${ storage } är fullt. För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt lagringsutrymme är ${ percentage } % fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Ditt lagringsutrymme är fullt"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Ditt lagringsutrymme är fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
       ]
     }
   }

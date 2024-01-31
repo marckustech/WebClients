@@ -3036,7 +3036,7 @@
         "Весь день, длится ${ plusDaysToEnd } день",
         "Весь день, длится ${ plusDaysToEnd } дня",
         "Весь день, длится ${ plusDaysToEnd } дней",
-        "Весь день, длится ${ plusDaysToEnd } дня"
+        "Весь день, длится ${ plusDaysToEnd } дней"
       ]
     },
     "Event info. Organizer name": {
@@ -4456,6 +4456,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Похоже, что ваш часовой пояс изменился на ${ timezone }. Вы хотите обновить настройки часового пояса?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Отображать события для календаря ${ Name }"
       ]
     },
     "Info calendar search": {

@@ -4247,6 +4247,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系統時區似乎已更改為 ${ timezone }。您要更新您的時區喜好設定嗎？"
+      ],
+      "Display events for calendar ${ Name }": [
+        "為行事曆${ Name }顯示行程"
       ]
     },
     "info": {
@@ -4738,6 +4741,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "寄件者: ${ from }"
+      ],
+      "To: ${ to }": [
+        "收件者：${ to }"
       ]
     },
     "Landmarks": {
@@ -5524,6 +5530,9 @@
       ],
       "Start typing an email address": [
         "在此輸入一個電郵位址"
+      ],
+      "Search parent folder": [
+        "搜尋資料夾主目錄"
       ]
     },
     "Placeholder for contact group name": {
@@ -6784,6 +6793,9 @@
       ],
       "You do not have any contacts to export": [
         "您沒有任何可匯出的聯絡人"
+      ],
+      "Load image": [
+        "載入圖像"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -7107,6 +7119,21 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME }桌面應用程式"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "聯絡人圖片"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "密碼變更答案"
       ]
     }
   }

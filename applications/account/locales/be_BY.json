@@ -3155,6 +3155,9 @@
       ],
       "Upgrade today or check again in early 2024 for access.": [
         "Палепшыце свой тарыфны план сёння або праверце даступнасць на пачатку 2024 года."
+      ],
+      "The beta version of the ${ MAIL_APP_NAME } desktop app is currently available to anyone with a paid ${ MAIL_APP_NAME } plan. Upgrade today to get access.": [
+        "Бэта-версія настольнай праграмы ${ MAIL_APP_NAME } цяпер даступна любому карыстальніку з платным тарыфным планам ${ MAIL_APP_NAME }. Палепшыце свой тарыфны план, каб атрымаць доступ."
       ]
     },
     "Disable account": {
@@ -12999,6 +13002,9 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Вы згубіце доступ да наступных функцый: неабмежаваную колькасць уваходаў і нататак; неабмежаваную колькасць псеўданімаў hide-my-email; 20 сховішчаў; прыярытэтную падтрымку."
+      ],
+      "${ app } storage": [
+        "сховішча ${ app }"
       ]
     },
     "Subscribe to calendar modal": {

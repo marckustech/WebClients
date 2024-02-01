@@ -8121,6 +8121,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "Don’t know your recovery phrase?": [
+        "Neznáte svoji frázi pro obnovu?"
       ]
     },
     "Info - folder colouring feature": {
@@ -11542,6 +11545,9 @@
       ],
       "Upgrade my plan": [
         "Přejít na vyšší tarif"
+      ],
+      "Download PDF ${ size }": [
+        "Stáhnout PDF ${ size }"
       ]
     },
     "pass_signup_2023: Feature": {

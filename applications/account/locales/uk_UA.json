@@ -4026,7 +4026,7 @@
         "Виникла проблема"
       ],
       "Too many child sessions, please clear your cookies and sign back in.": [
-        "Занадто багато дочірніх сеансів. Будь ласка, очистьте куки й увійдіть знову."
+        "Занадто багато дочірніх сеансів. Будь ласка, очистьте файли cookie та увійдіть знову."
       ],
       "We couldn't load this page. Please refresh the page or check your internet connection.": [
         "Не вдалося завантажити цю сторінку. Перезавантажте сторінку або перевірте з'єднання з інтернетом."
@@ -7639,6 +7639,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша передплата керується Mozilla. Зв'яжіться зі службою підтримки Mozilla."
+      ],
+      "Beta": [
+        "Бета"
       ]
     },
     "Info - folder colouring feature": {

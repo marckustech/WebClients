@@ -4085,6 +4085,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "Don’t know your recovery phrase?": [
+        "Neznáte svoji frázi pro obnovu?"
       ]
     },
     "Info for cash payment method": {
@@ -4585,6 +4588,9 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "Metadata file for ${ appName }": [
+        "Soubor metadat pro ${ appName }"
       ]
     },
     "label": {
@@ -7663,6 +7669,12 @@
       ],
       "Your subscriptions": [
         "Vaše předplatné"
+      ],
+      "Enter SAML metadata": [
+        "Vložte SAML metadata"
+      ],
+      "SAML authentication": [
+        "Ověření SAML"
       ]
     },
     "Title for payment methods table": {

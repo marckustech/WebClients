@@ -3941,7 +3941,7 @@
         "Voit nyt käyttää ja hallita tiliä ylläptäjänä."
       ],
       "You can now return to the application to continue": [
-        "Voit nyt jatkaa palaamalla sovellukseen"
+        "Voit jatkaa palaamalla sovellukseen"
       ],
       "You can only have one chat instance open at a time. Please close previous conversations before starting a new one.": [
         "Vain yksi keskustelu voi olla avoinna kerrallaan. Sulje edellinen keskustelu ennen uuden aloittamista."
@@ -4048,6 +4048,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tilaustasi hallinnoi Mozilla. Ota yhteyttä Mozillan tukeen."
+      ],
+      "per month, billed at ${ price }": [
+        "kuukaudessa, laskutetaan ${ price }"
+      ],
+      "You are using more storage than what is included in a ${ downgradedPlanName } plan. Please delete or remove data in order to downgrade.": [
+        "Käytät enemmän tallennustilaa kuin ${ downgradedPlanName }-tilaus sisältyy. Sinun on poistettava tietoja tilauksesi alentamiseksi."
       ]
     },
     "Info for cash payment method": {
@@ -5040,7 +5046,7 @@
         "Ilmainen VPN yhdelle laitteelle"
       ],
       "Fully refundable for 30 days": [
-        "Täysin palautettavissa 30 päivän ajan"
+        "Täysin hyvitettävissä 30 päivän ajan"
       ],
       "GDPR data processing agreement": [
         "GDPR-tietojenkäsittelysopimus"
@@ -6644,6 +6650,10 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Tallennustilasi on täynnä. Lähettääksesi ja vastaanottaaksesi viestejä, vapauta tilaa tai ${ upgrade }."
+      ],
+      "You still have **${ daysRemaining }** day left on your **${ currentPlanName }** plan.": [
+        "**${ currentPlanName }**-tilisi on voimassa vielä **${ daysRemaining }** päivän.",
+        "**${ currentPlanName }**-tilisi on voimassa vielä **${ daysRemaining }** päivää."
       ]
     },
     "Subscription": {

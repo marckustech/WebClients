@@ -1858,6 +1858,9 @@
       ],
       "Upgrade today or check again in early 2024 for access.": [
         "Tingkatkan akun Anda sekarang juga atau periksa kembali di awal 2024 untuk memperoleh akses."
+      ],
+      "The beta version of the ${ MAIL_APP_NAME } desktop app is currently available to anyone with a paid ${ MAIL_APP_NAME } plan. Upgrade today to get access.": [
+        "Aplikasi desktop ${ MAIL_APP_NAME } versi beta saat ini hanya tersedia bagi pelanggan paket ${ MAIL_APP_NAME } berbayar. Tingkatkan akun Anda sekarang juga untuk memperoleh akses ke aplikasi ini."
       ]
     },
     "Downgrade account reason": {
@@ -4010,6 +4013,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Langganan Anda dikelola oleh Mozilla. Silakan hubungi layanan dukungan Mozilla."
+      ],
+      "per month, billed at ${ price }": [
+        "per bulan, dengan harga ${ price }"
       ]
     },
     "Info for cash payment method": {
@@ -5215,7 +5221,7 @@
         "Akses internet secara aman dari mana pun dengan pemantauan jaringan yang esensial"
       ],
       "Secure cloud storage that lets you store, sync, and share files easily and securely.": [
-        "Layanan penyimpanan aman berbasis cloud yang memungkinkan Anda untuk mengarsipkan, menyinkronkan, dan membagikan berkas dengan mudah dan aman."
+        "Layanan penyimpanan aman berbasis cloud yang memungkinkan Anda untuk menyimpan, menyinkronkan, dan membagikan berkas secara mudah dan aman."
       ],
       "Secure email and calendar for professionals and businesses.": [
         "Layanan surel dan kalender yang aman untuk para profesional dan pelaku usaha."

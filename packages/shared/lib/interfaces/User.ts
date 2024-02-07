@@ -72,6 +72,7 @@ export interface User {
         'test-account': boolean;
         'no-login': boolean;
         'recovery-attempt': boolean;
+        'no-proton-address': boolean;
         sso: boolean;
     };
     AccountRecovery: {

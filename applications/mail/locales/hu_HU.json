@@ -1170,6 +1170,12 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Dismiss": [
+        "Elvetés"
+      ],
+      "Not now": [
+        "Most nem"
       ]
     },
     "action": {
@@ -3568,6 +3574,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A keresés túl sok találatot eredményezett. Korlátozza a keresést majd próbálja meg újra."
+      ],
+      "Alias options could not be resolved": [
+        "Az e-mail álnév adatainak betöltése nem sikerült"
+      ],
+      "Could not open created vault": [
+        "A létrehozott tároló megnyitása nem sikerült"
+      ],
+      "Could not open updated vault": [
+        "A frissített tároló megnyitása nem sikerült"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Az elem tartalma nem lehet több 40KB-nál"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6773,6 +6791,15 @@
       ],
       "Your password (admin)": [
         "Jelszó (adminisztrátor)"
+      ],
+      "Forwards to": [
+        "Továbbít:"
+      ],
+      "Note": [
+        "Megjegyzés"
+      ],
+      "Title": [
+        "Cím"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7402,6 +7429,12 @@
       ],
       "Senders blocked": [
         "Feladók letiltva"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } letiltva"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } engedélyezésre került"
       ]
     },
     "Oauth instructions": {
@@ -9276,6 +9309,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "A Mail Plus csomagjának próbaidőszaka lejár: ${ textDate }"
+      ],
+      "Account recovery": [
+        "Fiók helyreállítás"
+      ],
+      "Account security": [
+        "Fiókbiztonság"
+      ],
+      "Data recovery": [
+        "Adat helyreállítás"
+      ],
+      "This field cannot be empty": [
+        "Ez a mező nem lehet üres"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9468,6 +9513,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Az ingyenes próbaideje hamarosan le fog járni ekkor: ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Érvénytelen e-mail álnév előtag"
+      ],
+      "Missing alias prefix": [
+        "Hiányzó e-mail álnév előtag"
+      ],
+      "Missing alias suffix": [
+        "Hiányzó e-mail álnév végződés"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Csak alfanumerikus karakterek, pontok, kötőjelek és aláhúzás használható"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Az e-mail előtag nem lehet hosszabb mint 40 karakter"
+      ],
+      "You must select at least one mailbox": [
+        "Legalább egy e-mail fiókot ki kell választania"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9713,6 +9776,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email álnevek"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } megnyitása"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } tárhely"
+      ],
+      "Your storage is full": [
+        "A tárhelye megtelt"
       ]
     }
   }

@@ -1132,6 +1132,12 @@
       ],
       "Zoom out": [
         "Semẓi"
+      ],
+      "Dismiss": [
+        "Zgel"
+      ],
+      "Not now": [
+        "Mačči tura"
       ]
     },
     "action": {
@@ -3282,6 +3288,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Ddeqs n igmaḍ i d-yerra unadi-ik. Ma ulac aɣilif, err talast i unadi-inek sakin ɛreḍ tikelt- nniḍen."
+      ],
+      "Alias options could not be resolved": [
+        "Tixtiṛiyin n alias ggummant ad ṣegment"
+      ],
+      "Could not open created vault": [
+        "Yugi ad yeldi usenduq yettwarnan"
+      ],
+      "Could not open updated vault": [
+        "Yugi ad yeldi usenduq yettwaleqqmen"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Agbur n uferdis ur yezmir ara ad iɛeddi 40KAṬ"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -6091,6 +6109,15 @@
       ],
       "Your password (admin)": [
         "Awal-ik uffir (anedbal)"
+      ],
+      "Forwards to": [
+        "Welleh ɣer"
+      ],
+      "Note": [
+        "Tamawt"
+      ],
+      "Title": [
+        "Azwel"
       ]
     },
     "Label attach to date input to select a date": {
@@ -6670,6 +6697,12 @@
       ],
       "Senders blocked": [
         "Ttusweḥlen imazanen"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } yensa"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } yettwarmed"
       ]
     },
     "Onboarding modal": {
@@ -8283,6 +8316,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Aneɛruḍ n baṭel n Mail Plus ad ifekk deg ${ textDate }"
+      ],
+      "Account recovery": [
+        "Tiririt n umiḍan"
+      ],
+      "Account security": [
+        "Taɣellist n umiḍan"
+      ],
+      "Data recovery": [
+        "Tiririt n yisefka"
+      ],
+      "This field cannot be empty": [
+        "Urti-a ur ilaq ad yili d ilem"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -8447,6 +8492,18 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Aneɛruḍ-ik n baṭel ad ifakk deg ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Adat n alias d arameɣtu"
+      ],
+      "Missing alias prefix": [
+        "Ixuṣṣ adat n alias"
+      ],
+      "Missing alias suffix": [
+        "Ixuṣṣ adfir n alias"
+      ],
+      "You must select at least one mailbox": [
+        "Isefk ad tferneḍ ma drus yiwet n tnaka n urmas"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -8692,6 +8749,45 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email aliases"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Ldi ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Ɛreḍ ${ PASS_APP_NAME }"
+      ]
+    },
+    "session_recovery:cancellation:action": {
+      "Cancel password reset": [
+        "Sefsex awennez n wawal uffir"
+      ]
+    },
+    "session_recovery:cancellation:notification": {
+      "Password reset cancelled": [
+        "Asefsex n uwennez n wawal uffir"
+      ]
+    },
+    "session_recovery:cancellation:title": {
+      "Cancel password reset?": [
+        "Sefsex awennez n wawal uffir?"
+      ]
+    },
+    "session_recovery:in_progress:title": {
+      "Password reset requested": [
+        "Isra awennez n wawal uffir"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } n uḥraz"
+      ],
+      "Your storage is full": [
+        "Aḥraz-ik yeččuṛ"
       ]
     }
   }

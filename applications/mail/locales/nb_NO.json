@@ -1191,6 +1191,18 @@
       ],
       "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
         "Viktig oppdatering tilgjengelig. For å fortsette å bruke appen, vennligst oppdater til den nyeste versjonen ${ downloadUpdate }."
+      ],
+      "Dismiss": [
+        "Avvis"
+      ],
+      "Not now": [
+        "Ikke nå"
+      ],
+      "Save and copy alias": [
+        "Lagre og kopier alias"
+      ],
+      "Toggle security center app": [
+        "Veksle sikkerhetssenter-app"
       ]
     },
     "action": {
@@ -3103,6 +3115,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan merke for sletting kontaktene du ikke vil at hverken skal slås sammen eller beholdes. Sletting vil bare finne sted etter at fletteknappen er klikket."
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA legger til et ekstra sikkerhetslag, og forhindrer uautorisert tilgang."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Designet for brukere som ønsker økt beskyttelse for kontoene sine."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Få ubegrensede aliaser og 500 GB lagringsplass med ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Angi en datagjenopprettingsmetode for å forhindre tap av data."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Angi en gjenopprettingsmetode for å forhindre at du mister tilgang til kontoen din."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Oppgrader kontoen din for å aktivere ${ PROTON_SENTINEL_NAME }, vår banebrytende AI-drevne sikkerhetsløsning med dedikert 24/7 ekspertstøtte."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Konto- og datagjenopprettingsmetodene dine er angitt, og 2FA er aktivert."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Dine konto- og datagjenopprettingsmetoder er angitt."
       ]
     },
     "description": {
@@ -3700,6 +3736,39 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Ingen ekstern nøkkel hentet for bruker er gyldig for sending"
+      ],
+      "Alias is not valid": [
+        "Alias er ikke gyldig"
+      ],
+      "Alias is required": [
+        "Alias kreves"
+      ],
+      "Alias options could not be resolved": [
+        "Aliasalternativene kunne ikke løses"
+      ],
+      "Aliases could not be loaded": [
+        "Aliaser kan ikke lastes inn"
+      ],
+      "An error occurred while loading alias options": [
+        "Det oppstod en feil under lasting av aliasalternativer"
+      ],
+      "An error occurred while saving alias": [
+        "En feil oppstod under lagring av alias"
+      ],
+      "Could not open created vault": [
+        "Kunne ikke åpne opprettet hvelv"
+      ],
+      "Could not open updated vault": [
+        "Kunne ikke åpne oppdatert hvelv"
+      ],
+      "Forward address is required": [
+        "Videresendingsadresse kreves"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Elementinnhold kan ikke overskride 40KB"
+      ],
+      "Name is required": [
+        "Navn kreves"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4515,6 +4584,9 @@
       ],
       "Search": [
         "Søk"
+      ],
+      "Security Center": [
+        "Sikkerhetssenter"
       ]
     },
     "Hint": {
@@ -6327,6 +6399,21 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefonnummeret ditt vil kun bli brukt til denne engangsbekreftelsen."
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Er du sikker på at du ønsker å flytte alle meldingene på denne plasseringen til arkivet?"
+      ],
+      "Are you sure you want to move all messages in this location to trash?": [
+        "Er du sikker på at du ønsker å flytte alle meldingene på denne plasseringen til papirkurven?"
+      ],
+      "Important note": [
+        "Viktig merknad"
+      ],
+      "The vault your alias will be stored in.": [
+        "Hvelvet som aliaset ditt vil bli lagret i."
+      ],
+      "Warning": [
+        "Advarsel"
       ]
     },
     "info": {
@@ -7040,6 +7127,21 @@
       ],
       "Your password (admin)": [
         "Ditt passord (admin)"
+      ],
+      "Add title": [
+        "Legg til tittel"
+      ],
+      "Forwards to": [
+        "Videresendes til"
+      ],
+      "Note": [
+        "Notat"
+      ],
+      "Title": [
+        "Tittel"
+      ],
+      "Your alias": [
+        "Ditt alias"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7695,6 +7797,12 @@
       ],
       "Senders blocked": [
         "Avsendere blokkert"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } er deaktivert"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } er aktivert"
       ]
     },
     "Oauth instructions": {
@@ -8703,6 +8811,9 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "Nå kan du iverksette tiltak på alle e-poster i én enkelt mappe på én gang."
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "Opprett hide-my-email aliaser og hold styr på dem her."
       ]
     },
     "Status": {
@@ -8995,6 +9106,12 @@
       ],
       "Verification successful": [
         "Vellykket verifisering"
+      ],
+      "Alias copied to clipboard": [
+        "Alias kopiert til utklippstavlen"
+      ],
+      "Alias saved and copied": [
+        "Alias lagret og kopiert"
       ]
     },
     "Success notification": {
@@ -9726,6 +9843,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis prøveversjon av Mail Plus slutter den ${ textDate }."
+      ],
+      "Account recovery": [
+        "Kontogjenoppretting"
+      ],
+      "Account security": [
+        "Kontosikkerhet"
+      ],
+      "Data recovery": [
+        "Datagjenoppretting"
+      ],
+      "Enable 2FA": [
+        "Aktiver 2FA"
+      ],
+      "Get advanced protection": [
+        "Få avansert beskyttelse"
+      ],
+      "Move all messages to archive": [
+        "Flytt alle meldingene til arkivet"
+      ],
+      "Move all messages to trash": [
+        "Flytt alle meldingene til papirkurven"
+      ],
+      "Need more aliases?": [
+        "Trenger du flere aliaser?"
+      ],
+      "Security center": [
+        "Sikkerhetssenter"
+      ],
+      "Your account is protected": [
+        "Kontoen din er beskyttet"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9918,6 +10065,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Prøveperioden avsluttes ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Utløpsdato er ikke i formatet MM/ÅÅ"
+      ],
+      "Invalid alias prefix": [
+        "Ugyldig aliasprefiks"
+      ],
+      "Missing alias prefix": [
+        "Mangler aliasprefiks"
+      ],
+      "Missing alias suffix": [
+        "Mangler aliasprefiks"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Bare alfanumeriske tegn, prikker, bindestreker og understrekingstegn er tillatt."
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Aliasprefikset kan ikke være lenger enn 40 tegn."
+      ],
+      "You must select at least one mailbox": [
+        "Du må velge minst en postboks"
       ]
     },
     "WeekDay": {
@@ -10221,6 +10389,57 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Lagringsplassen din er full. For å sende eller motta e-post, frigjør plass eller ${ upgrade }."
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Alle aliaser"
+      ],
+      "Create alias": [
+        "Opprett alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "f.eks. Amazon, eBay, Etsy"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generer aliaser på farten, og administrer enkelt aliaser og passord."
+      ],
+      "Get an alias": [
+        "Få et alias"
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email aliaser"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email aliaser tillater å registrere deg for ting på nettet uten å dele e-postadressen din. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nytt alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Åpne ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Beskytt din identitet på nettet"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Prøv ${ PASS_APP_NAME }"
+      ],
+      "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
+        "Når du blir bedt om e-postadressen din, gir du dette aliaset i stedet. Legg til et navn og et notat for å holde oversikt over hvor du bruker det."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Se logger"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Vår banebrytende AI-drevne sikkerhetsløsning designet for brukere som ønsker økt beskyttelse for kontoene sine. ${ learnMoreLink }."
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel er **aktiv** og beskytter kontoen din."
       ]
     }
   }

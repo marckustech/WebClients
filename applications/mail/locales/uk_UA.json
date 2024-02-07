@@ -1170,6 +1170,12 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Dismiss": [
+        "Відхилити"
+      ],
+      "Not now": [
+        "Не зараз"
       ]
     },
     "action": {
@@ -3588,6 +3594,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "За вашим пошуковим запитом знайдено надто багато результатів. Обмежте пошуковий запит і спробуйте знову."
+      ],
+      "Alias options could not be resolved": [
+        "Не вдалося розв'язати параметри псевдоніма"
+      ],
+      "Could not open created vault": [
+        "Не вдалося відкрити створене сховище"
+      ],
+      "Could not open updated vault": [
+        "Не вдалося відкрити оновлене сховище"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Вміст елемента не може перевищувати 40 Кб"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6939,6 +6957,15 @@
       ],
       "Your password (admin)": [
         "Новий пароль (адмін)"
+      ],
+      "Forwards to": [
+        "Пересилається на"
+      ],
+      "Note": [
+        "Нотатка"
+      ],
+      "Title": [
+        "Назва"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7578,6 +7605,12 @@
       ],
       "Senders blocked": [
         "Відправники заблоковані"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } вимкнено"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } увімкнено"
       ]
     },
     "Oauth instructions": {
@@ -9498,6 +9531,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Account recovery": [
+        "Відновлення облікового запису"
+      ],
+      "Account security": [
+        "Безпека облікового запису"
+      ],
+      "Data recovery": [
+        "Відновлення даних"
+      ],
+      "This field cannot be empty": [
+        "Необхідно заповнити це поле"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9698,6 +9743,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Час безплатної пробної версії завершиться ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Недійсний префікс псевдоніма"
+      ],
+      "Missing alias prefix": [
+        "Відсутній префікс псевдоніма"
+      ],
+      "Missing alias suffix": [
+        "Відсутній суфікс псевдоніма"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Дозволено лише буквено-цифрові символи, крапки, дефіси та підкреслення"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Префікс псевдоніма не може бути довшим ніж 40 символів"
+      ],
+      "You must select at least one mailbox": [
+        "Виберіть принаймні одну поштову скриньку"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9907,6 +9970,30 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Псевдоніми Hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Відкрити ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Спробуйте ${ PASS_APP_NAME }"
+      ]
+    },
+    "session_recovery:cancellation:info": {
+      "Enter your current password to cancel the password reset process. No other changes will take effect.": [
+        "Введіть поточний пароль, щоб скасувати скидання пароля. Ніякі інші зміни не набудуть чинності."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } сховища"
+      ],
+      "Your storage is full": [
+        "Ваше сховище заповнене"
       ]
     }
   }

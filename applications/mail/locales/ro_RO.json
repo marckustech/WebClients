@@ -1191,6 +1191,18 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Dismiss": [
+        "Renunțare"
+      ],
+      "Download now": [
+        "Descărcare"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Actualizare importantă disponibilă. Pentru a continua să utilizați aplicația trebuie s-o actualizați. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Nu acum"
       ]
     },
     "action": {
@@ -3716,6 +3728,24 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Căutarea a găsit prea multe rezultate. Limitați căutarea și reîncercați."
+      ],
+      "Alias options could not be resolved": [
+        "Opțiunile pentru alias nu au putu fi rezolvate."
+      ],
+      "Could not open created vault": [
+        "Nu s-a putut deschide seiful creat."
+      ],
+      "Could not open updated vault": [
+        "Nu s-a putut deschide seiful actualizat."
+      ],
+      "Item content cannot exceed 40KB": [
+        "Conținutul articolului nu poate depăși 40 KiB."
+      ],
+      "Maximum expiration time reached.": [
+        "S-a atins timpul maxim de expirare."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Nicio cheie externă preluată pentru utilizator nu este validă pentru trimitere."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6435,6 +6465,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Numărul de telefon va fi folosit doar pentru această verificare unică."
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Sunteți sigur că doriți să mutați toate mesajele de aici în «Arhivă»?"
+      ],
+      "Are you sure you want to move all messages in this location to trash?": [
+        "Sigur doriți să mutați toate mesajele de aici în «Gunoi»?"
       ]
     },
     "info": {
@@ -7153,6 +7189,15 @@
       ],
       "Your password (admin)": [
         "Parola dvs. (administrator)"
+      ],
+      "Forwards to": [
+        "Redirecționare către"
+      ],
+      "Note": [
+        "Notă"
+      ],
+      "Title": [
+        "Titlu"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7820,6 +7865,12 @@
       ],
       "Senders blocked": [
         "Expeditori blocați"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } a fost dezactivat"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } a fost activat"
       ]
     },
     "Oauth instructions": {
@@ -7984,6 +8035,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vă recomandăm să „nu aprobați” această cheie."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Cheia externă este preluată automat de la keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Cheia externă este preluată automat via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Cheia este folosită pentru a cripta mesaje pentru acest contact."
       ]
     },
     "PGP key warning": {
@@ -8840,6 +8900,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Acum puteți să vă programați mesajele pentru a fi trimise mai târziu."
+      ],
+      "Faster email management": [
+        "Gestionare mesaje mai rapidă"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Acum puteți acționa asupra tuturor mesajelor dintr-un folder deodată."
       ]
     },
     "Status": {
@@ -9891,6 +9957,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "A filter name is required": [
+        "Este necesar un nume de filtru."
+      ],
+      "A filter with this name already exists": [
+        "Un filtru cu același nume există deja"
+      ],
+      "Account recovery": [
+        "Recuperare cont"
+      ],
+      "Account security": [
+        "Securitate cont"
+      ],
+      "Data recovery": [
+        "Recuperare date"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Numele filtrului nu poate conține doar spații"
+      ],
+      "Move all messages to archive": [
+        "Mutare toate mesajele în «Arhivă»"
+      ],
+      "Move all messages to trash": [
+        "Mutare toate mesajele în «Gunoi»"
+      ],
+      "This field cannot be empty": [
+        "Acest câmp nu poate fi gol."
+      ],
+      "This field cannot contain only spaces": [
+        "Acest câmp nu poate conține doar spații."
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10087,6 +10183,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Perioada de probare se încheie în curând la ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Data de expirare nu este în format LL/AA."
+      ],
+      "Invalid alias prefix": [
+        "Prefix alias nevalid."
+      ],
+      "Missing alias prefix": [
+        "Lipsește prefixul aliasului."
+      ],
+      "Missing alias suffix": [
+        "Lipsește sufixul aliasului."
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Sunt permise doar caractere alfanumerice, puncte, cratime și de subliniere."
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Prefixul aliasului nu poate fi mai lung de 40 de caractere."
+      ],
+      "You must select at least one mailbox": [
+        "Trebuie să selectați cel puțin o adresă de e-mail."
       ]
     },
     "WeekDay": {
@@ -10373,6 +10490,64 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Aliasuri hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Deschidere ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Încercați ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "Spațiul de stocare ${ app }"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } - ${ percentage }% ocupat"
+      ],
+      "contact your administrator": [
+        "contactați-vă administratorul"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Pentru a continua să încărcați și să sincronizați fișiere, eliberați spațiu sau treceți la alt tip de plan pentru mai mult spațiu de stocare."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "Pentru a trimite sau primi mesaje, eliberați spațiu sau treceți la alt tip de plan pentru mai mult spațiu de stocare."
+      ],
+      "upgrade for more storage": [
+        "treceți la alt tip de plan pentru mai mult spațiu"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "${ appStorage } este aproape plin."
+      ],
+      "Your ${ appStorage } is full": [
+        "${ appStorage } este plin."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "${ storage } este ${ percentage }% ocupat. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } este ocupat ${ percentage }%. Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "${ storage } este plin. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "${ storage } este plin. Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Spațiul de stocare este ${ percentage }% ocupat. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Spațiu de stocare plin"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Spațiul de stocare este plin. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ upgrade }."
       ]
     }
   }

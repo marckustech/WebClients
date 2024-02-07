@@ -1141,6 +1141,12 @@
       ],
       "Zoom out": [
         "ज़ूम कम करें"
+      ],
+      "Dismiss": [
+        "रद्द करें"
+      ],
+      "Not now": [
+        "अभी नहीं"
       ]
     },
     "action": {
@@ -3504,6 +3510,15 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "आपकी खोज का मिलान बहुत अधिक परिणामों से हुआ. कृपया अपनी खोज सीमित करें और पुन: प्रयास करें।"
+      ],
+      "Alias options could not be resolved": [
+        "नकलीनाम ऑप्शन रिज़ॉल्व ना हो सके"
+      ],
+      "Could not open created vault": [
+        "बनाए गए तिजोरी को खोल नहीं पा रहे"
+      ],
+      "Could not open updated vault": [
+        "अपडेट किए गए तिजोरी को खोल नहीं पा रहे"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4045,6 +4060,9 @@
     "Font face option": {
       "System default": [
         "सिस्टम डिफॉल्ट"
+      ],
+      "Theme font": [
+        "थीम फ़ॉन्ट"
       ]
     },
     "Font Size Default": {
@@ -6433,6 +6451,15 @@
       ],
       "Your password (admin)": [
         "आपका पासवर्ड (व्यवस्थापक)"
+      ],
+      "Forwards to": [
+        "इधर फॉरवर्ड होगा"
+      ],
+      "Note": [
+        "नोट"
+      ],
+      "Title": [
+        "टाइटल"
       ]
     },
     "Label attach to date input to select a date": {
@@ -8764,6 +8791,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "आपका Mail Plus ट्रायल ${ textDate } को खत्म होगा"
+      ],
+      "Account recovery": [
+        "खाता पुनर्प्राप्ति"
+      ],
+      "Account security": [
+        "खाते की सुरक्षा"
+      ],
+      "Data recovery": [
+        "डेटा पुनर्प्राप्ति"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -8938,6 +8974,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "आपका निःशुल्क परीक्षण ${ textDate } को समाप्त होगा। ${ action }"
+      ],
+      "You must select at least one mailbox": [
+        "आपको कम से कम एक मेलबॉक्स चुनना होगा"
       ]
     },
     "WeekDay": {
@@ -9190,6 +9229,22 @@
       ],
       "Yearly, ${ untilString }": [
         "वार्षिक, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email नकलीनाम"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } खोलें"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } स्टोरेज"
+      ],
+      "Your storage is full": [
+        "आपका स्टोरेज भरा है"
       ]
     }
   }

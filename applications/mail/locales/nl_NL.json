@@ -1084,7 +1084,7 @@
         "Ongenummerde lijst"
       ],
       "Unsnooze": [
-        "Unsnoozen"
+        "Uit sluimerstand"
       ],
       "Unstar": [
         "Ster verwijderen"
@@ -1185,6 +1185,12 @@
       ],
       "Give feedback": [
         "Geef feedback"
+      ],
+      "Dismiss": [
+        "Negeren"
+      ],
+      "Not now": [
+        "Niet nu"
       ]
     },
     "action": {
@@ -3634,6 +3640,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Uw zoekopdracht leverde te veel resultaten op. Verfijn uw zoekopdracht en probeer het opnieuw."
+      ],
+      "Alias options could not be resolved": [
+        "Alias-opties konden niet worden opgevraagd"
+      ],
+      "Could not open created vault": [
+        "Kon aangemaakte kluis niet openen"
+      ],
+      "Could not open updated vault": [
+        "Kon bijgewerkte kluis niet openen"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Item mag niet groter zijn dan 40KB"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6196,6 +6214,18 @@
       ],
       "You can now return to the application to continue": [
         "U kunt nu teruggaan naar het programma om door te gaan"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } berichten worden gelabeld als:",
+        "${ elementsCount } berichten worden gelabeld als:"
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Selecteer**${ elementsCount } gesprek **in ${ location }",
+        "Selecteer**${ elementsCount } gesprekken **in ${ location }"
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "U selecteerde **${ elementsCount } gesprek**.",
+        "U selecteerde **${ elementsCount } gesprekken**."
       ]
     },
     "info": {
@@ -6906,6 +6936,15 @@
       ],
       "Your password (admin)": [
         "Uw wachtwoord (admin)"
+      ],
+      "Forwards to": [
+        "Stuurt door na"
+      ],
+      "Note": [
+        "Notitie"
+      ],
+      "Title": [
+        "Titel"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7449,7 +7488,7 @@
         "Aangepaste e-maildomeinen"
       ],
       "Custom snooze time": [
-        "Aangepaste sluimertijd"
+        "Aangepaste snoozetijd"
       ],
       "End-to-end encryption": [
         "End-to-end versleuteling"
@@ -7548,6 +7587,12 @@
       ],
       "Senders blocked": [
         "Afzenders geblokkeerd"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } is uitgezet"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } is aangezet"
       ]
     },
     "Oauth instructions": {
@@ -8598,7 +8643,7 @@
       ],
       "${ elementsCount } conversation unsnoozed": [
         "${ elementsCount } gesprek ontsluimerd",
-        "${ elementsCount } gesprekken uit sluimerstand gehaald"
+        "${ elementsCount } gesprekken uit sluimerstand"
       ],
       "${ elementsCount } message added to ${ labelName }.": [
         "${ elementsCount } bericht toegevoegd aan ${ labelName }.",
@@ -9513,6 +9558,18 @@
       ],
       "Move all messages": [
         "Verplaats alle berichten"
+      ],
+      "Account recovery": [
+        "Accountherstel"
+      ],
+      "Account security": [
+        "Accountbeveiliging"
+      ],
+      "Data recovery": [
+        "Dataherstel"
+      ],
+      "This field cannot be empty": [
+        "Dit veld mag niet leeg zijn"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9705,6 +9762,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Ongeldig aliasvoorvoegsel"
+      ],
+      "Missing alias prefix": [
+        "Ontbrekend aliasvoorvoegsel"
+      ],
+      "Missing alias suffix": [
+        "Ontbrekend alias-achtervoegsel"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Alleen alfanumerieke tekens, punten, koppeltekens en underscores zijn toegestaan"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Het aliasvoorvoegsel mag niet langer zijn dan 40 tekens"
+      ],
+      "You must select at least one mailbox": [
+        "U moet ten minste één mailbox selecteren"
       ]
     },
     "WeekDay": {
@@ -9962,6 +10037,9 @@
       ],
       "6 users": [
         "6 gebruikers"
+      ],
+      "Early access to new apps and features": [
+        "Vroegtijdige toegang nieuwe applicaties functies"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9972,6 +10050,25 @@
     "Label (end date/advanced search)": {
       "To": [
         "Naar"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email-aliassen"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Open ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Probeer ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } opslagruimte"
+      ],
+      "Your storage is full": [
+        "Uw opslagruimte is vol"
       ]
     }
   }

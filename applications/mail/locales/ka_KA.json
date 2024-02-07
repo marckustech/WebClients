@@ -1185,6 +1185,24 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Dismiss": [
+        "მოცილება"
+      ],
+      "Download now": [
+        "ახლა გადმოწერა"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "ხელმისაწვდომია მნიშვნელოვაი განახლება. ამ აპის გამოყენების გასაგრძელებლად განახლდით უკანასკნელ ვერსიამდე. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "არა ახლა"
+      ],
+      "Save and copy alias": [
+        "შენახვა და ფსევდონიმის კოპირება"
+      ],
+      "Toggle security center app": [
+        "უსაფრთხოების ცენტრის აპის გადართვა"
       ]
     },
     "action": {
@@ -3097,6 +3115,21 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "წასაშლელად შეგიძლიათ, მონიშნოთ ის კონტაქტები, რომელთა შერწყმა და შენარჩუნება არ გსურთ. წაშლა მოხდება, მხოლოდ, შერწყმის ღილაკზე დაწკაპუნების შემდეგ"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA ამატებს უსაფრთხოების ფენას, რითიც ხელს უშლის არაავტორიზებულ წვდომას."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "დააყენეთ მონაცემების აღდგენის მეთოდი, მისი დაკარგვის თავიდან ასაცილებლად."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშსზე წვდომის დაკარგვა."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია, 2FA კი - ჩართული."
+      ],
+      "Your account and data recovery methods are set.": [
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთდები დაყეენბულია."
       ]
     },
     "description": {
@@ -3688,6 +3721,45 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "თქვენმა ძებნამ მეტისმეტად ბევრი შედეგი მოიტანა. დაადეთ უფრო მეტი ლიმიტი და თავიდან სცადეთ."
+      ],
+      "Alias is not valid": [
+        "ფსევდონიმი არასწორია"
+      ],
+      "Alias is required": [
+        "ფსევდონიმი აუცილებელია"
+      ],
+      "Alias options could not be resolved": [
+        "ფსევდონიმის პარამეტრების ამოხსნა შეუძლებელია"
+      ],
+      "Aliases could not be loaded": [
+        "ფსევდონიმების ჩატვირთვა შეუძლებელია"
+      ],
+      "An error occurred while loading alias options": [
+        "შეცდომა ფსევდონიმის პარამეტრების ჩატვირთვისას"
+      ],
+      "An error occurred while saving alias": [
+        "შეცდომა ფსევდონიმის შენახვისას"
+      ],
+      "Could not open created vault": [
+        "შექმნილი საცავის გახსნა შეუძლებელია"
+      ],
+      "Could not open updated vault": [
+        "განახლებული საცავის გახსნა შეუძლებელია"
+      ],
+      "Forward address is required": [
+        "გადამისამართების მისამართი აუცილებელია"
+      ],
+      "Item content cannot exceed 40KB": [
+        "ელემენტის შემცველობა 40კბ-ზე მეტი ვერ იქნება"
+      ],
+      "Maximum expiration time reached.": [
+        "მიღწეულია მაქსიმალური ვადა."
+      ],
+      "Name is required": [
+        "სახელი აუცილებელია"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "მომხმარებლისთვის მიღებული არც ერთი გარე გასაღები გასაგზავნად არ გამოდგება"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4503,6 +4575,9 @@
       ],
       "Search": [
         "ძებნა"
+      ],
+      "Security Center": [
+        "უსაფრთხოების ცენტრი"
       ]
     },
     "Hint": {
@@ -6315,6 +6390,21 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "თქვენი ტელეფონის ნომერი, მხოლოდ, ერთხელ, შესამოწმებლად იქნება გამოყენებული."
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "მართლა გნებავთ ამ მდებარეობიდან ყველა შეტყობინების არქივში გადატანა?"
+      ],
+      "Are you sure you want to move all messages in this location to trash?": [
+        "დარწმუნებული ხართ, რომ გსურთ ამ მდებარეობის ყველა შეტყობინების გადატანა ნაგავში?"
+      ],
+      "Important note": [
+        "მნიშვნელოვანი შენიშვნა"
+      ],
+      "The vault your alias will be stored in.": [
+        "საცავი, რომელშიც თქვენი ფსევდონიმი იქნება შენახული."
+      ],
+      "Warning": [
+        "გაფრთხილება"
       ]
     },
     "info": {
@@ -7028,6 +7118,21 @@
       ],
       "Your password (admin)": [
         "თქვენი პაროლი (admin)"
+      ],
+      "Add title": [
+        "სათაურის დამატება"
+      ],
+      "Forwards to": [
+        "გადაგზავნა"
+      ],
+      "Note": [
+        "შენიშვნა"
+      ],
+      "Title": [
+        "სათაური"
+      ],
+      "Your alias": [
+        "თქვენი ფსევდონიმი"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7683,6 +7788,12 @@
       ],
       "Senders blocked": [
         "გამომგზავნები დაბლოკილია"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } გაითიშა"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } ჩაირთო"
       ]
     },
     "Oauth instructions": {
@@ -7847,6 +7958,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "გირჩევთ, ეს გასაღები \"არასანდოდ\" გამოაცხადოთ."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "გარე გასაღებების გამოთხოვა ავტომატურად ხდება საიტიდან keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "გარე გასაღები ავტომატურადაა გამოთხოვილი WKD-ის გავლით."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "ეს გასაღები ამ კონტაქტისთვის შეტყობინებების დასაშიფრად გამოიყენება"
       ]
     },
     "PGP key warning": {
@@ -8676,6 +8796,15 @@
       ],
       "You can now schedule your messages to be sent later": [
         "ახლა შეგიძლიათ, შექმნათ შეტყობინებების განრიგი, რომელიც დანიშნულ დროს აგზავნის ელფოსტას"
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "შექმენით Hide-my-email-ის ფსევდონიმები და აკონტროლეთ ისინი აქედან."
+      ],
+      "Faster email management": [
+        "უფრო სწრაფი ელფოსტის მართვა"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "ახლა შეგიძლიათ გადაატაროთ ქმედება ყველა ელფოსტაზე ერთ საქაღალდეში ერთი გავლით."
       ]
     },
     "Status": {
@@ -8968,6 +9097,12 @@
       ],
       "Verification successful": [
         "გადამოწმება წარმატებულია"
+      ],
+      "Alias copied to clipboard": [
+        "ფსევდონიმი კოპირებულია ბუფერში"
+      ],
+      "Alias saved and copied": [
+        "ფსევდონიმი შენახული და კოპირებულია"
       ]
     },
     "Success notification": {
@@ -9684,6 +9819,51 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "თქვენი Mail Plus-ის უფასო სატესტო პერიოდი ${ textDate }-ზე სრულდება"
+      ],
+      "A filter name is required": [
+        "ფილტრის სახელი აუცილებელია"
+      ],
+      "A filter with this name already exists": [
+        "ამ სახელის მქონე ფილტრი უკვე არსებობს"
+      ],
+      "Account recovery": [
+        "ანგარიშის აღდგენა"
+      ],
+      "Account security": [
+        "ანგარიშის უსაფრთხოება"
+      ],
+      "Data recovery": [
+        "მონაცემების აღდგენა"
+      ],
+      "Enable 2FA": [
+        "2FA-ის ჩართვა"
+      ],
+      "Filter name cannot contain only spaces": [
+        "ველის სახელი არ შეიძლება, მხოლოდ, გამოტოვებებს შეიცავდეს"
+      ],
+      "Get advanced protection": [
+        "დამატებითი უსაფრთხოების მიღება"
+      ],
+      "Move all messages to archive": [
+        "ყველა შეტყობინების არქივში გადატანა"
+      ],
+      "Move all messages to trash": [
+        "ყველა შეტყობინების გადატანა ნაგვის ყუთში"
+      ],
+      "Need more aliases?": [
+        "მეტი ფსევდონიმი გჭირდებათ?"
+      ],
+      "Security center": [
+        "უსაფრთხოების ცენტრი"
+      ],
+      "This field cannot be empty": [
+        "ეს ველი ცარიელი ვერ იქნება"
+      ],
+      "This field cannot contain only spaces": [
+        "ეს ველი არ შეიძლება, გამოტოვებებს შეიცავდეს"
+      ],
+      "Your account is protected": [
+        "თქვენი ანგარიში დაცულია"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9876,6 +10056,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "თქვენი უფასო სატესტო ვერსიის დამთავრების თარიღია ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "ვადის ამოწურვის თარიღი თთ/წწ ფორმატში არაა"
+      ],
+      "Invalid alias prefix": [
+        "არასწორი ფსევდონიმის პრეფიქსი"
+      ],
+      "Missing alias prefix": [
+        "აკლია ფსევდონიმის პრეფიქსი"
+      ],
+      "Missing alias suffix": [
+        "აკლია ფსევდონიმის სუფიქსი"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "დაშვებულია, მხოლოდ, ალფარცხვითი სიმბოლოები, წერტილები, ტირეები და ქვედა ტირეები"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "ფსევდონიმის პრეფიქსი 40 სიმბოლოზე გრძელი ვერ იქნება"
+      ],
+      "You must select at least one mailbox": [
+        "უნდა მიუთითოთ ერთი საფოსტო ყუთი მაინც"
       ]
     },
     "WeekDay": {
@@ -10132,6 +10333,92 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "ყველა ფსევდონიმი"
+      ],
+      "Create alias": [
+        "ფსევდონიმის შექმნა"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "მაგ Amazon, eBay, Etsy"
+      ],
+      "Get an alias": [
+        "ფსევდონიმის მიღება"
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email-ის ფსევდონიმები"
+      ],
+      "New alias": [
+        "ახალი ფსევდონიმი"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME }-ის გახსნა"
+      ],
+      "Protect your online identity": [
+        "დაცავით თქვენი იდენტობა ინტერნეტში"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "სცადეთ ${ PASS_APP_NAME }"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "ჟურნალის ნახვა"
+      ]
+    },
+    "Security Center - Info": {
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel **აქტიურია** და იცავს თქვენს ანგარიშს."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } საცავი"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } სავსეა ${ percentage }%"
+      ],
+      "contact your administrator": [
+        "დაუკავშირდით ადმინისტრატორს"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "ფაილების ატვირთვის და სინქრონიზაციის გასაგრძელებლად გაათავისუფლეთ ადგილი ან ასწიეთ სატარიფო გეგმა, მეტი საცავის მისაღებად."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "ელფოსტის გასაგზავნად ან მისაღებად გაათავისუფლეთ ადგილი ან ასწიეთ სატარიფო გეგმა მეტი საცავის მისაღებად."
+      ],
+      "upgrade for more storage": [
+        "აწიეთ ტარიფი მეტი საცავისთვის"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "თქვენი ${ appStorage }, თითქმის, სავსეა"
+      ],
+      "Your ${ appStorage } is full": [
+        "თქვენი ${ appStorage } სავსეა"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "თქვენი ${ storage } ${ percentage }%-ითაა სავსე. ელფოსტების მისაღებად/გასაგზავნად გაათავისუფლეთ ადგილი, ან ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "თქვენი ${ storage } ${ percentage }%-ითაა სავსე. ფაილების ასატვირთად ან სინქრონიზაციისთვის გაათავისუფლეთ ადგილი, ან ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "თქვენი ${ storage } სავსეა. ელფოსტების მისაღებად/გასაგზავნად გაათავისუფლეთ ადგილი, ან ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "თქვენი ${ storage } სავსეა. ფაილების ასატვირთად ან სინქრონიზაციისთვის გაათავისუფლეთ ადგილი, ან ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "თქვენი საცავი ${ percentage }%-ითაა სავსე. ელფოსტების მისაღებად/გასაგზავნად გაათავისუფლეთ ადგილი, ან ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "თქვენი საცავი სავსეა"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "თქვენი საცავი სავსეა. ელფოსტების მისაღებად/გასაგზავნად გაათავისუფლეთ ადგილი, ან ${ upgrade }."
       ]
     }
   }

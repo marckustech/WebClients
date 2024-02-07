@@ -55,6 +55,7 @@ export const buildUser = (value?: Partial<UserModel>): UserModel => {
             'test-account': false,
             'no-login': false,
             'recovery-attempt': false,
+            'no-proton-address': false,
             sso: false,
         },
         isAdmin: true,

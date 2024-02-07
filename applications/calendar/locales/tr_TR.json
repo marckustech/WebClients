@@ -642,6 +642,18 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz",
         "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz"
+      ],
+      "Dismiss": [
+        "Yok say"
+      ],
+      "Download now": [
+        "Şimdi indir"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Önemli bir güncelleme yayınlanmış. Uygulamayı kullanmayı sürdürmek için son sürüme güncelleyin. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Şimdi değil"
       ]
     },
     "Action subline": {
@@ -2753,6 +2765,21 @@
       ],
       "Your import will not be processed.": [
         "İçe aktarma işleminiz yapılmayacak."
+      ],
+      "Alias options could not be resolved": [
+        "Takma ad seçenekleri çözümlenemedi"
+      ],
+      "Could not open created vault": [
+        "Oluşturulan kasa açılamadı"
+      ],
+      "Could not open updated vault": [
+        "Güncellenen kasa açılamadı"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Öge içeriği 40KB boyutundan büyük olamaz"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Kullanıcı için alınan hiçbir dış anahtar göndermek için geçerli değil"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4821,6 +4848,15 @@
       ],
       "Your password (admin)": [
         "Parolanız (yönetici)"
+      ],
+      "Forwards to": [
+        "Şuraya iletiyor"
+      ],
+      "Note": [
+        "Not"
+      ],
+      "Title": [
+        "Başlık"
       ]
     },
     "Label for contact group color": {
@@ -5307,6 +5343,12 @@
       ],
       "Link copied to clipboard": [
         "Bağlantı panoya kopyalandı"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği kapatıldı"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği açıldı"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5602,6 +5644,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Bu anahtara \"güvenmemeniz\" önerilir."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Dış anahtar otomatik olarak keys.openpgp.org üzerinden alındı."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Dış anahtar otomatik olarak WKD üzerinden alındı."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Bu anahtar, bu kişiye gönderilen iletileri şifrelemek için kullanılır"
       ]
     },
     "PGP key warning": {
@@ -6900,6 +6951,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Account recovery": [
+        "Hesap kurtarma"
+      ],
+      "Account security": [
+        "Hesap güvenliği"
+      ],
+      "Data recovery": [
+        "Veri kurtarma"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7091,6 +7151,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Geçerlilik süresi AA/YY biçiminde değil"
+      ],
+      "Invalid alias prefix": [
+        "Takma ad ön eki geçersiz"
+      ],
+      "Missing alias prefix": [
+        "Takma ad ön eki eksik"
+      ],
+      "Missing alias suffix": [
+        "Takma ad son eki eksik"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Yalnızca harfler, rakamlar, nokta, tire ve alt çizgi karakterleri kullanılabilir"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Takma ad ön ekiniz 40 karakterden uzun olamaz"
+      ],
+      "You must select at least one mailbox": [
+        "En az bir e-posta kutusu seçmelisiniz"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7344,6 +7425,58 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email takma adları"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını aç"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını deneyin"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } depolama alanı"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } %${ percentage } dolu"
+      ],
+      "contact your administrator": [
+        "yöneticiniz ile görüşün"
+      ],
+      "upgrade for more storage": [
+        "daha fazla depolama alanı edinmek için tarifenizi yükseltin"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Kullandığınız ${ appStorage } dolmak üzere"
+      ],
+      "Your ${ appStorage } is full": [
+        "Kullandığını ${ appStorage } dolu"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Kullandığınız ${ storage } %${ percentage } oranında dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Kullandığınız ${ storage } %${ percentage } oranında dolu. Dosyaları yüklemek ya da eşitlemek için boş yer açın ya da ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Kullandığınız ${ storage } dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Kullandığınız ${ storage } dolu. Dosyaları yüklemek ya da eşitlemek için boş yer açın ya da ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Depolama alanınız %${ percentage } oranında dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ upgrade }."
+      ],
+      "Your storage is full": [
+        "Depolama alanınız dolu"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Depolama alanınız dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ upgrade }."
       ]
     }
   }

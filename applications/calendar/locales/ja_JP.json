@@ -635,6 +635,24 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "${ maxAttachments }件を超える連絡先のvCardファイルを送信できません。"
+      ],
+      "At most ${ maxContacts } contact is allowed per contact group": [
+        "1つの連絡グループごとに最大で${ maxContacts }件の連絡先が許可されています。"
+      ],
+      "Delete ${ selectedCount } contact": [
+        "${ selectedCount } 件の連絡先を削除"
+      ],
+      "Delete ${ selectedCount } contact group": [
+        "${ selectedCount } 件の連絡先グループを削除"
+      ],
+      "Dismiss": [
+        "却下"
+      ],
+      "Download now": [
+        "今すぐダウンロード"
+      ],
+      "Not now": [
+        "後で"
       ]
     },
     "Action subline": {
@@ -678,6 +696,15 @@
         "${ ips } のサーバー"
       ],
       "${ users } users": [
+        "${ users } のユーザー"
+      ],
+      "${ domains } custom domain": [
+        "${ domains } のカスタム ドメイン"
+      ],
+      "${ ips } server": [
+        "${ ips } のサーバー"
+      ],
+      "${ users } user": [
         "${ users } のユーザー"
       ]
     },
@@ -772,6 +799,15 @@
       ],
       "Premium Password Manager": [
         "プレミアムパスワードマネージャー"
+      ],
+      "1 user": [
+        "1 ユーザー"
+      ],
+      "3 TB": [
+        "3 TB"
+      ],
+      "6 users": [
+        "6 ユーザー"
       ]
     },
     "bf2023: Offers": {
@@ -943,6 +979,12 @@
       ],
       "You have reached the maximum of ${ MAX_LINKS_PER_CALENDAR } links for this calendar.\nTo create a new link to this calendar, delete an existing one.": [
         "カレンダーごとに作成できるリンクは最大 ${ MAX_LINKS_PER_CALENDAR } 件です。このカレンダーの新しいリンクを作成するには、リンクをひとつ削除してください。"
+      ],
+      "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member for this calendar.\nTo share this calendar with more ${ BRAND_NAME } accounts, remove some members.": [
+        "カレンダーごとに追加できるメンバーは ${ MAX_CALENDAR_MEMBERS } 人までです。\nほかの ${ BRAND_NAME } アカウントを招待するには、現在のメンバーを削除してください。"
+      ],
+      "You have reached the maximum of ${ MAX_LINKS_PER_CALENDAR } link for this calendar.\nTo create a new link to this calendar, delete an existing one.": [
+        "カレンダーごとに作成できるリンクは最大 ${ MAX_LINKS_PER_CALENDAR } 件です。このカレンダーの新しいリンクを作成するには、リンクをひとつ削除してください。"
       ]
     },
     "Calendar sharing access option label": {
@@ -1043,6 +1085,9 @@
     },
     "Checkout row": {
       "${ users } users": [
+        "${ users } 人のユーザー"
+      ],
+      "${ users } user": [
         "${ users } 人のユーザー"
       ]
     },
@@ -2004,6 +2049,9 @@
       ],
       "times": [
         "回"
+      ],
+      "time": [
+        "回"
       ]
     },
     "Daily recurring event, frequency": {
@@ -2018,6 +2066,12 @@
       ],
       "until ${ dateString }": [
         "${ dateString } まで"
+      ],
+      "${ count } time": [
+        "${ count } 回"
+      ],
+      "Every ${ interval } day": [
+        "${ interval } 日毎"
       ]
     },
     "Daily recurring event, frequency (times)": {
@@ -2026,6 +2080,9 @@
       ],
       "Every ${ interval } days, ${ timesString }": [
         "${ interval } 日毎、${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "${ interval } 日毎、${ timesString }"
       ]
     },
     "Daily recurring event, frequency (until)": {
@@ -2033,6 +2090,9 @@
         "毎日、${ untilString }"
       ],
       "Every ${ interval } days, ${ untilString }": [
+        "${ interval } 日毎、${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
         "${ interval } 日毎、${ untilString }"
       ]
     },
@@ -2253,6 +2313,12 @@
     "eoy2023: Deal details": {
       "Early access to new apps and features": [
         "新しいアプリや機能への早期アクセス"
+      ],
+      "6 TB": [
+        "6 TB"
+      ],
+      "6 users": [
+        "6 ユーザー"
       ]
     },
     "Error": {
@@ -2621,6 +2687,54 @@
       ],
       "Your import will not be processed.": [
         "インポートできませんでした。"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "次の連絡先には有効なメールアドレスが登録されていません: ${ list }"
+      ],
+      "${ list } doesn't have an email address": [
+        "次の連絡先にはメールアドレスがありません: ${ list }"
+      ],
+      "${ list } has invalid emails": [
+        "次のグループには正しくないメールアドレスが登録されています: ${ list }"
+      ],
+      "${ list } has no contacts": [
+        "次のグループには連絡先が追加されていません: ${ list }"
+      ],
+      "Alias options could not be resolved": [
+        "エイリアス オプションを解決できませんでした"
+      ],
+      "Could not open created vault": [
+        "作成された保管庫を開けませんでした"
+      ],
+      "Could not open updated vault": [
+        "更新された保管庫を開けませんでした"
+      ],
+      "Deselect at least ${ calendarsToFixCount } calendar": [
+        "${ calendarsToFixCount } 件のカレンダーの選択を解除"
+      ],
+      "Deselect at least ${ calendarsToFixCount } calendar or": [
+        "${ calendarsToFixCount } 件のカレンダーの選択を解除するか"
+      ],
+      "Item content cannot exceed 40KB": [
+        "アイテムの内容が40KBを超えることはできません"
+      ],
+      "Merge at least ${ calendarsToFixCount } calendar with an existing ${ BRAND_NAME } calendar": [
+        "${ calendarsToFixCount } 件のカレンダーを既存の ${ BRAND_NAME } カレンダーに結合します"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "一部の連絡先にメールアドレスがありません: ${ noEmailsContactNamesList } "
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "次のグループには連絡先が追加されていません: ${ noContactGroupList } "
+      ],
+      "Please fix the highlighted conflict to proceed.": [
+        "続行するためにハイライトされた競合を修正してください。"
+      ],
+      "Removed duplicate recipient: ${ joinedRecipients }": [
+        "重複していた宛先を削除しました（${ joinedRecipients }）"
+      ],
+      "You can't send a mail to more than ${ maxContacts } recipient": [
+        "${ maxContacts }件以上の宛先へメールを送信することはできません"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2658,6 +2772,9 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "ファイル　${ formattedFilename }はカレンダーではありません。"
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "ファイル ${ formattedFilename } には ${ MAX_IMPORT_EVENTS } 以上の予定が含まれています。"
       ]
     },
     "Error importing contact": {
@@ -2849,6 +2966,9 @@
     "Event form": {
       "${ numberOfAttendees } participants": [
         "${ numberOfAttendees }人の参加者"
+      ],
+      "${ numberOfAttendees } participant": [
+        "${ numberOfAttendees }人の参加者"
       ]
     },
     "Event info in search view; event duration": {
@@ -2856,6 +2976,9 @@
         "終日"
       ],
       "All day, lasts ${ plusDaysToEnd } days": [
+        "終日、${ plusDaysToEnd }日間続く。"
+      ],
+      "All day, lasts ${ plusDaysToEnd } day": [
         "終日、${ plusDaysToEnd }日間続く。"
       ]
     },
@@ -3086,6 +3209,9 @@
       ],
       "TB": [
         "TB"
+      ],
+      "byte": [
+        "バイト"
       ]
     },
     "file size format, long": {
@@ -3102,6 +3228,21 @@
         "メガバイト"
       ],
       "Terabytes": [
+        "テラバイト"
+      ],
+      "Byte": [
+        "バイト"
+      ],
+      "Gigabyte": [
+        "ギガバイト"
+      ],
+      "Kilobyte": [
+        "キロバイト"
+      ],
+      "Megabyte": [
+        "メガバイト"
+      ],
+      "Terabyte": [
         "テラバイト"
       ]
     },
@@ -3169,6 +3310,9 @@
       ],
       "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
         "矢印キーで提案を表示し、選択することができます。エンターキーで確定し、エスケープキーで提案を閉じることができます。"
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "${ items.length } つの提案が見つかりました。キーボードを使って操作します。"
       ]
     },
     "Human verification method": {
@@ -3209,6 +3353,12 @@
       ],
       "Please don't close the tab before the importing process is finished.": [
         "インポートが完了するまでタブを閉じないでください。"
+      ],
+      "${ totalImported }/${ totalToImport } event encrypted and added to your calendar": [
+        "${ totalImported }/${ totalToImport } 予定が暗号化され、カレンダーに追加されました"
+      ],
+      "An error occurred while encrypting and adding your event. ${ totalImported } out of ${ totalToImport } event successfully imported.": [
+        "予定の暗号化と追加中にエラーが発生しました。${ totalToImport } のうち ${ totalImported } の予定のインポートに成功しました。"
       ]
     },
     "Import calendar warning": {
@@ -3231,6 +3381,12 @@
       ],
       "This file contains some data that we cannot import:": [
         "このファイルにはインポートできないデータが含まれています:"
+      ],
+      "This file contains an event invitation:": [
+        "このファイルには予定の招待が含まれています:"
+      ],
+      "This file contains an invitation response:": [
+        "以下のファイルには参加の是非の回答があります。"
       ]
     },
     "Import contact": {
@@ -3251,6 +3407,9 @@
       ],
       "Contacts successfully imported. The imported contacts will now appear in your contact list.": [
         "連絡先が正常にインポートされました。インポートされた連絡先が連絡先リストに表示されます。"
+      ],
+      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
+        "${ totalImported }/${ totalToImport } 件の連絡先が暗号化され、連絡先リストに追加されました"
       ]
     },
     "Import contact error": {
@@ -3260,6 +3419,9 @@
     },
     "Import contact groups info": {
       "${ totalContacts } contacts": [
+        "${ totalContacts } 件の連絡先"
+      ],
+      "${ totalContacts } contact": [
         "${ totalContacts } 件の連絡先"
       ]
     },
@@ -3443,6 +3605,9 @@
       ],
       "Part of your calendar content is not supported and will not be imported.": [
         "カレンダーの内容の一部がサポートされていないため、インポートされません。"
+      ],
+      "${ totalEventsDiscarded } out of ${ totalEvents } event will not be imported. Expand for details.": [
+        "${ totalEvents } 件のうち ${ totalEventsDiscarded } 件の予定はインポートされません。クリックして詳細を展開します。"
       ]
     },
     "Info": {
@@ -4171,6 +4336,72 @@
       ],
       "Display events for calendar ${ Name }": [
         "カレンダー ${ Name } の予定を表示"
+      ],
+      "${ addressCount } email address": [
+        "${ addressCount } 件のメールアドレス"
+      ],
+      "${ calendarsToBeCreatedCount } new calendar": [
+        "${ calendarsToBeCreatedCount } 個の新しいカレンダー"
+      ],
+      "${ calendarsToBeMergedCount } merged calendar": [
+        "${ calendarsToBeMergedCount } 個の結合されたカレンダー"
+      ],
+      "${ contactCount } contact contains multiple email addresses.": [
+        "${ contactCount } 件の連絡先に複数のメールアドレスが含まれています。"
+      ],
+      "${ contactEmailsLength } Member": [
+        "${ contactEmailsLength } 人のメンバー"
+      ],
+      "${ contactsCount } contact found": [
+        "${ contactsCount } の連絡先が見つかりました"
+      ],
+      "${ contactsLength } contact": [
+        "${ contactsLength } 件の連絡先"
+      ],
+      "${ groupCounts } group found": [
+        "${ groupCounts } 件のグループが見つかりました"
+      ],
+      "${ providerFoldersNumLocalized } folder found": [
+        "${ providerFoldersNumLocalized } 件のフォルダーが存在"
+      ],
+      "${ providerFoldersNumLocalized } label found in Gmail": [
+        "${ providerFoldersNumLocalized } ラベルが Gmail に見つかりました"
+      ],
+      "${ selectedCalendarsTotal } of ${ providerCalendars.length } calendar": [
+        "${ providerCalendars.length } のうち ${ selectedCalendarsTotal } のカレンダー"
+      ],
+      "${ selectedContactsLength }/${ contactsLength } contact selected": [
+        "${ selectedContactsLength } / ${ contactsLength } 件の連絡先が選択されました"
+      ],
+      "${ selectedFoldersCountLocalized } folder selected": [
+        "${ selectedFoldersCountLocalized } 件のフォルダーを選択済み"
+      ],
+      "${ selectedFoldersCountLocalized } label selected": [
+        "${ selectedFoldersCountLocalized } 件のラベルを選択"
+      ],
+      "${ updated } contact updated successfully.": [
+        "${ updated } 連絡先が正常に更新されました。"
+      ],
+      "(${ memberCount } member)": [
+        "(${ memberCount } 人のメンバー)"
+      ],
+      "All (${ totalFoldersCount } folder)": [
+        "すべて (${ totalFoldersCount } フォルダー)"
+      ],
+      "All (${ totalFoldersCount } label)": [
+        "すべて (${ totalFoldersCount } 件のラベル)"
+      ],
+      "Create ${ calendarsToBeCreatedCount } new calendar": [
+        "${ calendarsToBeCreatedCount } 件の新しいカレンダーを作成"
+      ],
+      "Estimated time remaining: ${ estimatedMinutes } minute": [
+        "推定残り時間: ${ estimatedMinutes } 分"
+      ],
+      "Import ${ calendarCount } of ${ totalCalendarsCount } calendar": [
+        "${ totalCalendarsCount } 件中 ${ calendarCount } 件のカレンダーをインポート"
+      ],
+      "Please select which email address or addresses to add to ${ groupCount } group.": [
+        "${ groupCount } 件のグループに追加するメールアドレスを選択してください。"
       ]
     },
     "Info calendar search": {
@@ -4193,6 +4424,12 @@
         "${ selectedFoldersCount } 件のフォルダーを選択済み"
       ],
       "${ selectedFoldersCount } labels selected": [
+        "${ selectedFoldersCount } 件のラベルが選択済み"
+      ],
+      "${ selectedFoldersCount } folder selected": [
+        "${ selectedFoldersCount } 件のフォルダーを選択済み"
+      ],
+      "${ selectedFoldersCount } label selected": [
         "${ selectedFoldersCount } 件のラベルが選択済み"
       ]
     },
@@ -4235,6 +4472,9 @@
       ],
       "Creating invites in a shared calendar is not allowed": [
         "共有カレンダーで招待を作成することはできません"
+      ],
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "招待状ごとに最大 ${ maxAttendees } 人の参加者が許可されます"
       ]
     },
     "Input label": {
@@ -4623,6 +4863,18 @@
       ],
       "Your password (admin)": [
         "あなたのパスワード (管理者)"
+      ],
+      "Forwards to": [
+        "転送先"
+      ],
+      "Note": [
+        "メモ"
+      ],
+      "participant": [
+        "参加者"
+      ],
+      "Title": [
+        "タイトル"
       ]
     },
     "Label for contact group color": {
@@ -4738,6 +4990,9 @@
       ],
       "Your import is starting": [
         "インポートが開始しました"
+      ],
+      "Amount of calendar created:  ${ createdCalendarCount } of ${ calendarsToBeCreated }": [
+        "カレンダーの作成数：${ createdCalendarCount } のうち、${ calendarsToBeCreated }"
       ]
     },
     "Mail import summary": {
@@ -4751,6 +5006,18 @@
         "${ itemsToImportCount } フォルダから ${ selectedItemsToImportCount } の全メッセージをインポートし、ラベル付けします"
       ],
       "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } labels and label them as": [
+        "${ selectedItemsToImportCount } からすべてのメッセージを${ itemsToImportCount } ラベルからインポートし、それらをラベル付けします"
+      ],
+      "Import all messages from ${ itemsToImportCount } folder and label them as": [
+        "${ itemsToImportCount } フォルダーからすべてのメッセージをインポートし、それらを次のようにラベル付けします"
+      ],
+      "Import all messages from ${ itemsToImportCount } label and label them as": [
+        "${ itemsToImportCount } ラベルからすべてのメッセージをインポートし、それらを次のようにラベル付けします"
+      ],
+      "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } folder and label them as": [
+        "${ itemsToImportCount } フォルダから ${ selectedItemsToImportCount } の全メッセージをインポートし、ラベル付けします"
+      ],
+      "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } label and label them as": [
         "${ selectedItemsToImportCount } からすべてのメッセージを${ itemsToImportCount } ラベルからインポートし、それらをラベル付けします"
       ]
     },
@@ -4851,6 +5118,9 @@
       ],
       "Monthly ${ onDayString }": [
         "毎月 ${ onDayString }"
+      ],
+      "Every ${ interval } month ${ onDayString }": [
+        "${ interval } か月毎の ${ onDayString }"
       ]
     },
     "Monthly recurring event, frequency (times)": {
@@ -4859,6 +5129,9 @@
       ],
       "Monthly ${ onDayString }, ${ timesString }": [
         "毎月 ${ onDayString } 、${ timesString }"
+      ],
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "${ interval } か月毎の ${ onDayString } 、${ timesString }"
       ]
     },
     "Monthly recurring event, frequency (until)": {
@@ -4867,6 +5140,9 @@
       ],
       "Monthly ${ onDayString }, ${ untilString }": [
         "毎月 ${ onDayString } 、${ untilString }"
+      ],
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "${ interval } か月毎の ${ onDayString } 、${ untilString }"
       ]
     },
     "Monthly recurring event, repeats on": {
@@ -5034,6 +5310,12 @@
       ],
       "Up to 3 TB of storage": [
         "3 TB のストレージ"
+      ],
+      "${ n } calendar": [
+        "${ n } カレンダー"
+      ],
+      "${ n } calendar per user": [
+        "1 ユーザーあたり ${ n } 件のカレンダー"
       ]
     },
     "new_plans: feature info": {
@@ -5075,10 +5357,16 @@
       ],
       "Keep your plans private to you and your family with an encrypted calendar": [
         "暗号化されたカレンダーで、自分自身や家族の予定を非公開にすることができます。"
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "${ n } 個までのカレンダーを作成または友人/家族/同僚/組織のカレンダーを追加"
       ]
     },
     "new_plans: Upsell attribute": {
       "Create up to ${ n } calendars": [
+        "最大 ${ n } 個までのカレンダーを作成"
+      ],
+      "Create up to ${ n } calendar": [
         "最大 ${ n } 個までのカレンダーを作成"
       ]
     },
@@ -5091,6 +5379,12 @@
       ],
       "Link copied to clipboard": [
         "クリップボードにリンクがコピーされました"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } が無効になりました"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } が有効になりました"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5106,6 +5400,9 @@
     },
     "Notification in share calendar modal": {
       "Members added": [
+        "メンバーを追加しました"
+      ],
+      "Member added": [
         "メンバーを追加しました"
       ]
     },
@@ -5152,6 +5449,18 @@
         "当日"
       ],
       "weeks before": [
+        "週間前"
+      ],
+      "day before": [
+        "日前"
+      ],
+      "hour before": [
+        "時間前"
+      ],
+      "minute before": [
+        "分前"
+      ],
+      "week before": [
         "週間前"
       ]
     },
@@ -5212,6 +5521,54 @@
       ],
       "Unknown": [
         "不明"
+      ],
+      "${ value } day after": [
+        "${ value } 日後"
+      ],
+      "${ value } day after at ${ time }": [
+        "${ value } 日後の ${ time }"
+      ],
+      "${ value } day before": [
+        "${ value } 日前"
+      ],
+      "${ value } day before at ${ time }": [
+        "${ value }日前の${ time }"
+      ],
+      "${ value } hour after": [
+        "${ value } 時間後"
+      ],
+      "${ value } hour after at ${ time }": [
+        "${ value } 時間後の ${ time }"
+      ],
+      "${ value } hour before": [
+        "${ value } 時間前"
+      ],
+      "${ value } hour before at ${ time }": [
+        "${ value } 時間前の ${ time }"
+      ],
+      "${ value } minute after": [
+        "${ value } 分後"
+      ],
+      "${ value } minute after at ${ time }": [
+        "${ value } 分後の ${ time }"
+      ],
+      "${ value } minute before": [
+        "${ value } 分前"
+      ],
+      "${ value } minute before at ${ time }": [
+        "${ value } 分前の ${ time }"
+      ],
+      "${ value } week after": [
+        "${ value } 週間後"
+      ],
+      "${ value } week after at ${ time }": [
+        "${ value } 週間後の ${ time }"
+      ],
+      "${ value } week before": [
+        "${ value } 週間前"
+      ],
+      "${ value } week before at ${ time }": [
+        "${ value } 週間前の ${ time }"
       ]
     },
     "Oauth instructions": {
@@ -5315,6 +5672,18 @@
         "週間"
       ],
       "Years": [
+        "年"
+      ],
+      "Day": [
+        "日"
+      ],
+      "Month": [
+        "か月"
+      ],
+      "Week": [
+        "週間"
+      ],
+      "Year": [
         "年"
       ]
     },
@@ -5464,6 +5833,15 @@
       ],
       "Progress: ${ combinedProgress }%": [
         "進捗: ${ combinedProgress }%"
+      ],
+      "${ contactsExported.length } out of ${ countContacts } contact successfully exported.": [
+        "${ countContacts } 件のうち ${ contactsExported.length } 件の連絡先が正常にエクスポートされました。"
+      ],
+      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
+        "${ totalBeDeleted } 件のうち ${ model.deleted.length } 件の連絡先が正常に削除されました。"
+      ],
+      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
+        "${ totalBeMerged } 件のうち ${ model.submitted.length } 件の連絡先が正常に統合されました。"
       ]
     },
     "Property type": {
@@ -5558,6 +5936,18 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "アカウント ${ boldEmail } のパスワードを、あと ${ boldDaysRemaining } 日間は自由に変更可能です。"
+      ],
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } 日"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours }時間"
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "この許可はあと${ timeRemaining.inDays }日で期限切れになります。"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "この許可はあと${ timeRemaining.inHours }時間で期限切れになります。"
       ]
     },
     "session_recovery:available:link": {
@@ -5631,6 +6021,12 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "${ boldEmail }のパスワードリセットリクエストを受け取りました。"
+      ],
+      "${ gracePeriodHoursRemaining } more hour": [
+        "あと${ gracePeriodHoursRemaining }時間"
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "パスワードリセットがリクエストされました(${ user.Email })。パスワードを変更できるのはあと${ hoursRemaining }時間後です。"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -5666,6 +6062,9 @@
       ],
       "You will be able to reset your password in ${ boldTimeLeft }.": [
         "パスワードをリセットできるのはあと ${ boldTimeLeft } です。"
+      ],
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } 時間"
       ]
     },
     "session_recovery:sign_out:link": {
@@ -5690,6 +6089,9 @@
     },
     "Share calendar max shares reached error": {
       "You have exceeded the maximum of ${ MAX_CALENDAR_MEMBERS } members per calendar": [
+        "カレンダーのメンバーの上限 ${ MAX_CALENDAR_MEMBERS } を超過しました。"
+      ],
+      "You have exceeded the maximum of ${ MAX_CALENDAR_MEMBERS } member per calendar": [
         "カレンダーのメンバーの上限 ${ MAX_CALENDAR_MEMBERS } を超過しました。"
       ]
     },
@@ -5762,10 +6164,25 @@
       ],
       "${ seconds } seconds": [
         "${ seconds } 秒"
+      ],
+      "${ days } day": [
+        "${ days } 日"
+      ],
+      "${ hours } hour": [
+        "${ hours } 時間"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } 分"
+      ],
+      "${ seconds } second": [
+        "${ seconds } 秒"
       ]
     },
     "specialoffer: Deal": {
       "${ n } months FREE": [
+        "${ n } か月間無料"
+      ],
+      "${ n } month FREE": [
         "${ n } か月間無料"
       ]
     },
@@ -5883,6 +6300,9 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "標準価格では 30 か月毎に ${ amount }"
+      ],
+      "${ n } month": [
+        "${ n } ヶ月"
       ]
     },
     "specialoffer: Title": {
@@ -6113,6 +6533,15 @@
       ],
       "Verification successful": [
         "検証に成功しました"
+      ],
+      "${ countMergeableContacts } contact look identical.": [
+        "${ countMergeableContacts } 連絡先は同じようです"
+      ],
+      "Contact deleted": [
+        "連絡先が削除されました"
+      ],
+      "Contact group deleted": [
+        "連絡先グループが削除されました"
       ]
     },
     "Success notification when user send feedback": {
@@ -6211,6 +6640,15 @@
         "${ hoursInt }.5 時間"
       ],
       "${ minutes } minutes": [
+        "${ minutes } 分"
+      ],
+      "${ hours } hour": [
+        "${ hours } 時間"
+      ],
+      "${ hoursInt }.5 hour": [
+        "${ hoursInt }.5 時間"
+      ],
+      "${ minutes } minute": [
         "${ minutes } 分"
       ]
     },
@@ -6588,6 +7026,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "${ emailsCount } email address": [
+        "${ emailsCount } 件のメールアドレス"
+      ],
+      "Account recovery": [
+        "アカウントの回復"
+      ],
+      "Account security": [
+        "アカウントのセキュリティ"
+      ],
+      "Add to ${ groupCount } group": [
+        "${ groupCount } グループに追加"
+      ],
+      "Data recovery": [
+        "データの回復"
+      ],
+      "Delete ${ count } contact": [
+        "${ count } 件の連絡先を削除"
+      ],
+      "Delete ${ count } contact group": [
+        "${ count } 件の連絡先を削除"
+      ],
+      "Import as simple event?": [
+        "シンプル 予定としてインポートしますか?"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6692,6 +7154,12 @@
       ],
       "Try a shorter username (${ n } characters max)": [
         "もっと短いユーザ名にしてください (${ n } 文字以内)"
+      ],
+      "Password must contain at least ${ length } character": [
+        "パスワードは ${ length } 文字以上必要です"
+      ],
+      "Try a shorter username (${ n } character max)": [
+        "もっと短いユーザ名にしてください (${ n } 文字以内)"
       ]
     },
     "Video control": {
@@ -6776,6 +7244,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "無料トライアルは ${ textDate } に終了します。${ action }"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "${ count } 件の連絡先を完全に削除してよろしいですか？"
+      ],
+      "Invalid alias prefix": [
+        "無効なエイリアスプレフィックス"
+      ],
+      "Missing alias prefix": [
+        "エイリアスのプレフィックスがありません"
+      ],
+      "Missing alias suffix": [
+        "エイリアスのサフィックスがありません"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "英数字、ドット、ハイフン、アンダースコアのみが使用できます"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "エイリアスのプレフィックスは40文字より長くすることはできません。"
+      ],
+      "You must select at least one mailbox": [
+        "少なくとも1つのメールボックスを選択する必要があります。"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -6849,6 +7338,42 @@
       ],
       "Weekly on Wednesday": [
         "毎週水曜日"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }": [
+        "${ interval } 週間毎の ${ multipleDaysString }"
+      ],
+      "Every ${ interval } week on all days": [
+        "${ interval } 週間毎の全曜日"
+      ],
+      "Every ${ interval } week on Friday": [
+        "${ interval } 週間毎の金曜日"
+      ],
+      "Every ${ interval } week on Monday": [
+        "${ interval } 週間毎の月曜日"
+      ],
+      "Every ${ interval } week on Monday, ${ timesString }": [
+        "${ interval } 週間毎の月曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday": [
+        "${ interval } 週間毎の土曜日"
+      ],
+      "Every ${ interval } week on Sunday": [
+        "${ interval } 週間毎の日曜日"
+      ],
+      "Every ${ interval } week on Sunday, ${ timesString }": [
+        "${ interval } 週間毎の日曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday": [
+        "${ interval } 週間毎の木曜日"
+      ],
+      "Every ${ interval } week on Tuesday": [
+        "${ interval } 週間毎の火曜日"
+      ],
+      "Every ${ interval } week on Tuesday, ${ timesString }": [
+        "${ interval } 週間毎の火曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday": [
+        "${ interval } 週間毎の水曜日"
       ]
     },
     "Weekly recurring event, frequency (times)": {
@@ -6896,6 +7421,24 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "毎週水曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "${ interval } 週間毎の ${ multipleDaysString } 、${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "${ interval } 週間毎の全曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "${ interval } 週間毎の金曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "${ interval } 週間毎の土曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "${ interval } 週間毎の木曜日、${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "${ interval } 週間毎の水曜日、${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -6952,6 +7495,33 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "毎週水曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "${ interval } 週間毎の ${ multipleDaysString } 、${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "${ interval } 週間毎の全曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "${ interval } 週間毎の金曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "${ interval } 週間毎の月曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "${ interval } 週間毎の土曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "${ interval } 週間毎の日曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "${ interval } 週間毎の木曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "${ interval } 週間毎の火曜日、${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "${ interval } 週間毎の水曜日、${ untilString }"
       ]
     },
     "Weekly recurring event, repeats on (multiple days), frequency": {
@@ -6983,6 +7553,9 @@
       ],
       "Yearly": [
         "年払い"
+      ],
+      "Every ${ interval } year": [
+        "${ interval } 年毎"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -6991,6 +7564,9 @@
       ],
       "Yearly, ${ timesString }": [
         "毎年、${ timesString }"
+      ],
+      "Every ${ interval } year, ${ timesString }": [
+        "${ interval } 年毎、${ timesString }"
       ]
     },
     "Yearly recurring event, frequency (until)": {
@@ -6999,11 +7575,33 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ],
+      "Every ${ interval } year, ${ untilString }": [
+        "${ interval } 年毎、${ untilString }"
       ]
     },
     "Error changing answer of a calendar invitation": {
       "Error changing answer": [
         "回答の変更に失敗"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email エイリアス"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } を開く"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } をお試しください"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } ストレージ"
+      ],
+      "Your storage is full": [
+        "ストレージがいっぱいです"
       ]
     }
   }

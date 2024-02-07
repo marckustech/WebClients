@@ -647,6 +647,12 @@
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов"
+      ],
+      "Dismiss": [
+        "Отклонить"
+      ],
+      "Not now": [
+        "Не сейчас"
       ]
     },
     "Action subline": {
@@ -2792,6 +2798,18 @@
       ],
       "Your import will not be processed.": [
         "Импорт не будет обработан."
+      ],
+      "Alias options could not be resolved": [
+        "Параметры псевдонима не могут быть определены"
+      ],
+      "Could not open created vault": [
+        "Не могу открыть созданное хранилище"
+      ],
+      "Could not open updated vault": [
+        "Не могу открыть обновлённое хранилище"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Содержимое элемента не может превышать 40 Кбайт"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4923,6 +4941,15 @@
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
+      ],
+      "Forwards to": [
+        "Переслать"
+      ],
+      "Note": [
+        "Заметка"
+      ],
+      "Title": [
+        "Заголовок"
       ]
     },
     "Label for contact group color": {
@@ -5424,6 +5451,12 @@
       ],
       "Link copied to clipboard": [
         "Ссылка скопирована в буфер обмена"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } был отключен"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } был включен"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -7045,6 +7078,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Account recovery": [
+        "Восстановление аккаунта"
+      ],
+      "Account security": [
+        "Безопасность учётной записи"
+      ],
+      "Data recovery": [
+        "Восстановление данных"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7239,6 +7281,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ваш бесплатный пробный период заканчивается ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Срок действия не в формате ММ/ГГ"
+      ],
+      "Invalid alias prefix": [
+        "Недопустимый префикс псевдонима"
+      ],
+      "Missing alias prefix": [
+        "Отсутствует префикс псевдонима"
+      ],
+      "Missing alias suffix": [
+        "Отсутствует суффикс псевдонима"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Только буквы, цифры, точки, дефисы и подчеркивания разрешены"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Префикс псевдонима не может быть длиннее 40 символов"
+      ],
+      "You must select at least one mailbox": [
+        "Вы должны выбрать хотя бы один почтовый ящик"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7552,6 +7615,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Псевдонимы hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Открыть ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Попробуйте ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } хранилища"
+      ],
+      "Your storage is full": [
+        "Ваше хранилище заполнено"
       ]
     }
   }

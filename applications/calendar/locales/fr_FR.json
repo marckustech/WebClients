@@ -648,6 +648,15 @@
       ],
       "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
         "Une mise à jour importante est disponible. Pour continuer à utiliser l'application, veuillez installer la dernière version. ${ downloadUpdate }"
+      ],
+      "Dismiss": [
+        "Annuler"
+      ],
+      "Not now": [
+        "Plus tard"
+      ],
+      "Save and copy alias": [
+        "Enregistrer et copier l'alias"
       ]
     },
     "Action subline": {
@@ -2215,6 +2224,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Vous pouvez marquer pour suppression les contacts que vous ne voulez ni fusionner ni conserver. Leur suppression n'aura lieu qu'après avoir cliqué sur le bouton de fusion."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Mettez à niveau votre compte pour activer ${ PROTON_SENTINEL_NAME }, notre solution de sécurité de pointe pilotée par IA avec un support d'experts dédié 24h/24 et 7j/7."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Vos méthodes de récupération de compte et de données sont définies."
       ]
     },
     "description": {
@@ -2762,6 +2777,39 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Aucune clé externe récupérée pour l’utilisateur n’est valide pour l’envoi."
+      ],
+      "Alias is not valid": [
+        "L'alias n'est pas valide."
+      ],
+      "Alias is required": [
+        "L'alias est nécessaire."
+      ],
+      "Alias options could not be resolved": [
+        "Les options d'alias n'ont pas pu être obtenues."
+      ],
+      "Aliases could not be loaded": [
+        "Les alias n'ont pas pu être chargés."
+      ],
+      "An error occurred while loading alias options": [
+        "Une erreur s’est produite lors du chargement des options d'alias."
+      ],
+      "An error occurred while saving alias": [
+        "Une erreur est survenue lors de la sauvegarde de l'alias."
+      ],
+      "Could not open created vault": [
+        "Le coffre-fort créé n'a pas pu être ouvert."
+      ],
+      "Could not open updated vault": [
+        "Le coffre-fort mis à jour n'a pas pu être ouvert."
+      ],
+      "Forward address is required": [
+        "L'adresse de transfert est nécessaire."
+      ],
+      "Item content cannot exceed 40KB": [
+        "Le contenu de l'élément ne peut pas dépasser 40 Ko."
+      ],
+      "Name is required": [
+        "Le nom est nécessaire."
       ]
     },
     "Error accepting calendar invitation": {
@@ -3322,6 +3370,9 @@
       ],
       "Search": [
         "Rechercher"
+      ],
+      "Security Center": [
+        "Centre de sécurité"
       ]
     },
     "Hint": {
@@ -4369,6 +4420,15 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Le fuseau horaire de votre système semble avoir changé pour ${ timezone }. Voulez-vous mettre à jour votre préférence de fuseau horaire ?"
+      ],
+      "Important note": [
+        "Remarque importante"
+      ],
+      "The vault your alias will be stored in.": [
+        "Il s'agit du coffre-fort dans lequel votre alias sera stocké."
+      ],
+      "Warning": [
+        "Avertissement"
       ]
     },
     "info": {
@@ -4830,6 +4890,21 @@
       ],
       "Your password (admin)": [
         "Votre mot de passe (admin)"
+      ],
+      "Add title": [
+        "Ajoutee un titre"
+      ],
+      "Forwards to": [
+        "Transfert vers"
+      ],
+      "Note": [
+        "Note"
+      ],
+      "Title": [
+        "Titre"
+      ],
+      "Your alias": [
+        "Votre alias"
       ]
     },
     "Label for contact group color": {
@@ -5316,6 +5391,12 @@
       ],
       "Link copied to clipboard": [
         "Le lien est copié dans le presse-papiers."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } a été désactivé."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } a été activé."
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6432,6 +6513,12 @@
       ],
       "Verification successful": [
         "La vérification a abouti."
+      ],
+      "Alias copied to clipboard": [
+        "L'alias a été copié dans le presse-papiers."
+      ],
+      "Alias saved and copied": [
+        "L'alias a été copié et enregistré."
       ]
     },
     "Success notification when user send feedback": {
@@ -6918,6 +7005,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Votre essai gratuit Mail Plus se termine le ${ textDate }."
+      ],
+      "Account recovery": [
+        "Récupération du compte"
+      ],
+      "Account security": [
+        "Sécurité du compte"
+      ],
+      "Data recovery": [
+        "Récupération de données"
+      ],
+      "Enable 2FA": [
+        "Activer l'authentification 2FA"
+      ],
+      "Get advanced protection": [
+        "Obtenir une protection avancée"
+      ],
+      "Need more aliases?": [
+        "Besoin de plus d'alias ?"
+      ],
+      "Save": [
+        "Enregistrer"
+      ],
+      "Security center": [
+        "Centre de sécurité"
+      ],
+      "Your account is protected": [
+        "Votre compte est protégé."
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7109,6 +7223,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Votre essai gratuit se termine le ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "La date d'expiration n'est pas au format MM/AA."
+      ],
+      "Invalid alias prefix": [
+        "Le préfixe de l'alias n'est pas valide."
+      ],
+      "Missing alias prefix": [
+        "Le préfixe de l'alias est manquant."
+      ],
+      "Missing alias suffix": [
+        "Le suffixe de l'alias est manquant."
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Seuls les caractères alphanumériques, les points et les tirets (dont le tiret bas/underscore) sont autorisés."
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Le préfixe de l'alias ne peut pas dépasser 40 caractères."
+      ],
+      "You must select at least one mailbox": [
+        "Vous devez sélectionner au moins une messagerie."
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7375,7 +7510,7 @@
         "contacter votre administrateur"
       ],
       "upgrade for more storage": [
-        "changer d'abonnement pour obtenir plus d'espace de stockage"
+        "changer d'abonnement pour augmenter votre espace de stockage"
       ],
       "Your ${ appStorage } is almost full": [
         "Votre ${ appStorage } est presque plein."
@@ -7403,6 +7538,48 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Votre espace de stockage est plein. Pour envoyer ou recevoir des messages, libérez de l'espace ou ${ upgrade }."
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Tous les alias"
+      ],
+      "Create alias": [
+        "Créer un alias"
+      ],
+      "Get an alias": [
+        "Obtenir un alias"
+      ],
+      "Hide-my-email aliases": [
+        "Alias « hide-my-email »"
+      ],
+      "New alias": [
+        "Nouvel alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Ouvrir ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Protégez votre identité en ligne"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Essayez ${ PASS_APP_NAME }"
+      ],
+      "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
+        "Lorsque vous devez renseigner votre adresse e-mail, donnez cet alias à la place. Ajoutez un nom et une note pour suivre l'endroit où vous l'utilisez."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Afficher les journaux"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Notre solution de sécurité de pointe pilotée par IA est conçue pour les utilisateurs qui recherchent une protection renforcée pour leurs comptes. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel est **actif** et protège votre compte."
       ]
     }
   }

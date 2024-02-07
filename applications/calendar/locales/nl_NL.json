@@ -642,6 +642,12 @@
       ],
       "Give feedback": [
         "Geef feedback"
+      ],
+      "Dismiss": [
+        "Negeren"
+      ],
+      "Not now": [
+        "Niet nu"
       ]
     },
     "Action subline": {
@@ -2703,6 +2709,18 @@
       ],
       "Your import will not be processed.": [
         "Uw import zal niet worden verwerkt."
+      ],
+      "Alias options could not be resolved": [
+        "Alias-opties konden niet worden opgevraagd"
+      ],
+      "Could not open created vault": [
+        "Kon aangemaakte kluis niet openen"
+      ],
+      "Could not open updated vault": [
+        "Kon bijgewerkte kluis niet openen"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Item mag niet groter zijn dan 40KB"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4766,6 +4784,15 @@
       ],
       "Your password (admin)": [
         "Uw wachtwoord (admin)"
+      ],
+      "Forwards to": [
+        "Stuurt door na"
+      ],
+      "Note": [
+        "Notitie"
+      ],
+      "Title": [
+        "Titel"
       ]
     },
     "Label for contact group color": {
@@ -5165,7 +5192,7 @@
         "Aangepaste e-maildomeinen"
       ],
       "Custom snooze time": [
-        "Aangepaste sluimertijd"
+        "Aangepaste snoozetijd"
       ],
       "End-to-end encryption": [
         "End-to-end versleuteling"
@@ -5249,6 +5276,12 @@
       ],
       "Link copied to clipboard": [
         "Link gekopieerd naar klembord"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } is uitgezet"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } is aangezet"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6823,6 +6856,15 @@
       ],
       "Add some color to your day": [
         "Voeg wat kleur toe aan uw dag"
+      ],
+      "Account recovery": [
+        "Accountherstel"
+      ],
+      "Account security": [
+        "Accountbeveiliging"
+      ],
+      "Data recovery": [
+        "Dataherstel"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7014,6 +7056,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Ongeldig aliasvoorvoegsel"
+      ],
+      "Missing alias prefix": [
+        "Ontbrekend aliasvoorvoegsel"
+      ],
+      "Missing alias suffix": [
+        "Ontbrekend alias-achtervoegsel"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Alleen alfanumerieke tekens, punten, koppeltekens en underscores zijn toegestaan"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Het aliasvoorvoegsel mag niet langer zijn dan 40 tekens"
+      ],
+      "You must select at least one mailbox": [
+        "U moet ten minste één mailbox selecteren"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7268,11 +7328,33 @@
       ],
       "6 users": [
         "6 gebruikers"
+      ],
+      "Early access to new apps and features": [
+        "Vroegtijdige toegang nieuwe applicaties functies"
       ]
     },
     "Error changing answer of a calendar invitation": {
       "Error changing answer": [
         "Fout bij het wijzigen van het antwoord"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email-aliassen"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Open ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Probeer ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } opslagruimte"
+      ],
+      "Your storage is full": [
+        "Uw opslagruimte is vol"
       ]
     }
   }

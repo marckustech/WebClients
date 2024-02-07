@@ -645,6 +645,15 @@
       ],
       "Download now": [
         "Baixar agora"
+      ],
+      "Dismiss": [
+        "Descartar"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Atualização importante disponível. Para continuar a usar o aplicativo, atualize para a versão mais recente. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Agora não"
       ]
     },
     "Action subline": {
@@ -2756,6 +2765,21 @@
       ],
       "Your import will not be processed.": [
         "Sua importação não será processada."
+      ],
+      "Alias options could not be resolved": [
+        "Não foi possível resolver as opções de alias."
+      ],
+      "Could not open created vault": [
+        "Não foi possível abrir o cofre criado"
+      ],
+      "Could not open updated vault": [
+        "Não foi possível abrir o cofre atualizado"
+      ],
+      "Item content cannot exceed 40KB": [
+        "O conteúdo do item não pode exceder 40KB"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Nenhuma chave externa recuperada para o usuário é válida para envio"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4824,6 +4848,15 @@
       ],
       "Your password (admin)": [
         "Sua senha (admin)"
+      ],
+      "Forwards to": [
+        "Encaminhar para"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "Title": [
+        "Título"
       ]
     },
     "Label for contact group color": {
@@ -5310,6 +5343,12 @@
       ],
       "Link copied to clipboard": [
         "Link copiado para área de transferência"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME }foi desativado"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME }foi ativado"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5605,6 +5644,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Recomendamos que você \"desconfie\" dessa chave."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Chave externa obtida automaticamente em keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Chave externa obtida automaticamente via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Esta chave é usada para criptografar mensagens para este contato"
       ]
     },
     "PGP key warning": {
@@ -6903,6 +6951,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Account recovery": [
+        "Recuperação de conta"
+      ],
+      "Account security": [
+        "Segurança da conta"
+      ],
+      "Data recovery": [
+        "Recuperação de dados"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7094,6 +7151,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Sua avaliação gratuita termina em ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "A data de expiração não está no formato MM/AA"
+      ],
+      "Invalid alias prefix": [
+        "O prefixo de alias não é valido."
+      ],
+      "Missing alias prefix": [
+        "Faltando prefixo de alias"
+      ],
+      "Missing alias suffix": [
+        "Faltando sufixo de alias"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Somente caracteres alfanuméricos, pontos, hifens e sublinhados são permitidos"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "O prefixo do alias não pode ter mais de 40 caracteres"
+      ],
+      "You must select at least one mailbox": [
+        "Você deve selecionar pelo menos uma caixa de correio"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7367,6 +7445,38 @@
       ],
       "Your storage is full": [
         "Seu armazenamento está cheio"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% cheio"
+      ],
+      "Your ${ storage } is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Seu ${ storage } está ${ percentage }% cheio. Para enviar ou receber e-mails, libere espaço ou ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Seu ${ storage } está ${ percentage }% cheio. Para fazer upload ou sincronizar arquivos, libere espaço ou ${ upgrade }."
+      ],
+      "Your ${ storage } is full. To send or receive emails, free up space or ${ upgrade }": [
+        "Seu ${ storage } está cheio. Para enviar ou receber e-mails, libere espaço ou ${ upgrade }"
+      ],
+      "Your ${ storage } is full. To upload or sync files, free up space or ${ upgrade }.": [
+        "Seu ${ storage } está cheio. Para fazer upload ou sincronizar arquivos, libere espaço ou ${ upgrade }."
+      ],
+      "Your storage is ${ percentage }% full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Seu armazenamento está ${ percentage }% cheio. Para enviar ou receber e-mails, libere espaço ou ${ upgrade }."
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
+        "Seu armazenamento está cheio. Para enviar ou receber e-mails, libere espaço ou ${ upgrade }."
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Aliases do hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Abrir ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Experimente o ${ PASS_APP_NAME }"
       ]
     }
   }

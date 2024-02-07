@@ -312,7 +312,7 @@ export const getIsExternalAccount = (user: tsUser) => {
     if (!user) {
         return false;
     }
-    return user.Type === UserType.EXTERNAL;
+    return user.Type === UserType.EXTERNAL || user.Flags['no-proton-address'];
 };
 
 export const getRequiresPasswordSetup = (user: tsUser, setupVPN: boolean) => {
@@ -360,4 +360,9 @@ export const getDecryptedSetupBlob = async (api: Api, blob: string): Promise<Set
     } catch (e) {
         return;
     }
+};
+
+
+export const getIsPublicUserWithoutProtonAddress = (user: tsUser | undefined) => {
+    return user && user.Flags['no-proton-address'] && !user.Private;
 };

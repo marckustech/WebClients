@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Select country": [
+        "Seleccionar país"
       ]
     },
     "action": {
@@ -4164,6 +4167,9 @@
       ],
       "Zero keys reactivated": [
         "Ninguna clave reactivada"
+      ],
+      "Coudn't load invoices. Please try again later.": [
+        "No se pudieron cargar las facturas. Intente más tarde."
       ]
     },
     "Error importing calendar": {
@@ -7950,6 +7956,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Su suscripción es gestionada por Mozilla. Contacte con el soporte de Mozilla."
+      ],
+      "Including ${ formattedTaxRate }% ${ taxName }: ${ price }": [
+        "Incluyendo ${ formattedTaxRate }% ${ taxName }: ${ price }"
+      ],
+      "You have no invoices.": [
+        "No tiene facturas."
       ]
     },
     "info": {
@@ -8084,6 +8096,9 @@
       ],
       "Subscription": [
         "Suscripción"
+      ],
+      "Currency conversion": [
+        "Conversión de divisa"
       ]
     },
     "Key generation": {
@@ -8296,6 +8311,9 @@
       ],
       "Star": [
         "Destacar"
+      ],
+      "Filter": [
+        "Filtro"
       ]
     },
     "Keyboard shortcut section name": {
@@ -9244,6 +9262,9 @@
       ],
       "Your referral link": [
         "Su enlace de referencia"
+      ],
+      "VAT": [
+        "IVA"
       ]
     },
     "label": {
@@ -10487,6 +10508,9 @@
       ],
       "Your trial ends ${ formattedPeriodEndDate }": [
         "Su prueba termina el ${ formattedPeriodEndDate }"
+      ],
+      "To continue to use ${ trialPlanName } with premium features, choose your subscription and payment options.": [
+        "Para continuar usando ${ trialPlanName } con funciones premium, elija su suscripción y opciones de pago."
       ]
     },
     "new_plans: Label": {
@@ -10588,7 +10612,7 @@
         "Le permite responder automáticamente (autorrespuestas) a los mensajes que recibe"
       ],
       "Automatically forward emails sent to your ${ MAIL_APP_NAME } account to any other email address.": [
-        "Reenvía correos automáticamente enviados a su cuenta de ${ MAIL_APP_NAME } a cualquier otra dirección de correo."
+        "Reenvíe correos automáticamente enviados a su cuenta de ${ MAIL_APP_NAME } a cualquier otra dirección de correo."
       ],
       "Bulk promotional or programmatic email sending is currently not supported. We recommend using a dedicated email service provider for this use case.": [
         "Por el momento, no se puede programar el envío de correos electrónicos ni promocionales de forma masiva. Le recomendamos que puede usar un proveedor de servicios de correo electrónico dedicado para este caso."
@@ -12852,6 +12876,24 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Perderá acceso a notas e inicios de sesión ilimitados, alias ilimitados de hide-my-email y 20 bóvedas así como al soporte prioritario."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Para enviar o recibir correos, libere espacio o ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Para cargar o sincronizar archivos, libere espacio o ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Su ${ storage } está ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Su ${ storage } está lleno. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Su almacenamiento está ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Su almacenamiento está lleno. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -15229,6 +15271,46 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada año hasta ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de facturación"
+      ],
+      "Card number": [
+        "Número de tarjeta"
+      ],
+      "CVC": [
+        "CVC"
+      ],
+      "MM/YY": [
+        "MM/AA"
+      ],
+      "Tax Country": [
+        "País de impuestos"
+      ],
+      "Timeout exceeded": [
+        "Tiempo de espera agotado"
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "Número de tarjeta inválido"
+      ],
+      "Invalid expiration date": [
+        "Fecha de expiración inválida"
+      ],
+      "Invalid securiry code": [
+        "Código de seguridad inválido"
+      ],
+      "Something went wrong. Please try again later.": [
+        "Hubo un problema. Intente de nuevo más tarde."
+      ],
+      "We are unable to authenticate your payment method. Please choose a different payment method or try again.": [
+        "No podemos autenticar su método de pago. Elija un método de pago diferente o intente de nuevo."
+      ],
+      "Your card was declined. Please try a different card or contact your bank to authorize the charge.": [
+        "Su tarjeta fue rechazada, pruebe otra tarjeta o póngase en contacto con su banco para autorizar el cargo."
       ]
     }
   }

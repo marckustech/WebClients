@@ -11350,6 +11350,15 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Organisasi Anda memiliki akses ke ${ free }. Apabila Anda ingin mengakses berbagai fitur premium ${ appName }, silakan minta administrator organisasi Anda untuk meningkatkan paket langganan."
+      ],
+      "Based in Switzerland, GDPR compliant": [
+        "Berbasis di Swiss dan tunduk terhadap GDPR"
+      ],
+      "Open source and audited": [
+        "Open source dan teraudit"
+      ],
+      "Setting up your organization": [
+        "Menyiapkan organisasi Anda"
       ]
     },
     "pass_signup_2023: Title": {

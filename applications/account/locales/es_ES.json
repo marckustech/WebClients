@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "Alejar"
+      ],
+      "Select country": [
+        "Seleccionar un país"
       ]
     },
     "action": {
@@ -4158,6 +4161,15 @@
       ],
       "Zero keys reactivated": [
         "Ninguna clave reactivada"
+      ],
+      "Coudn't load invoices. Please try again later.": [
+        "No se han podido cargar las facturas. Intenta más tarde."
+      ],
+      "Organization key must be activated to create non-private users": [
+        "La clave de la organización debe activarse para crear usuarios no privados."
+      ],
+      "To create non-private user accounts and access their accounts, you'll need to restore your administrator privileges.": [
+        "Necesitas restaurar tus privilegios de administración para crear cuentas no privadas y acceder a las mismas."
       ]
     },
     "Error importing calendar": {
@@ -7941,6 +7953,15 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tu suscripción está gestionada por Mozilla. Contacta con el soporte de Mozilla."
+      ],
+      "Are you sure you want to give administrative privileges to this user?": [
+        "¿Estás seguro de que quieres conceder los privilegios administrativos a este usuario?"
+      ],
+      "Including ${ formattedTaxRate }% ${ taxName }: ${ price }": [
+        "Incluyendo ${ formattedTaxRate }% ${ taxName }: ${ price }"
+      ],
+      "You have no invoices.": [
+        "No tienes facturas."
       ]
     },
     "info": {
@@ -8075,6 +8096,9 @@
       ],
       "Subscription": [
         "Suscripción"
+      ],
+      "Currency conversion": [
+        "Conversión de divisa"
       ]
     },
     "Key generation": {
@@ -8287,6 +8311,9 @@
       ],
       "Star": [
         "Destacar"
+      ],
+      "Filter": [
+        "Filtro"
       ]
     },
     "Keyboard shortcut section name": {
@@ -9235,6 +9262,9 @@
       ],
       "Your referral link": [
         "Tu enlace de referido"
+      ],
+      "VAT": [
+        "IVA"
       ]
     },
     "label": {
@@ -10335,6 +10365,18 @@
       "Vault sharing (up to ${ n } person)": [
         "Compartir la caja fuerte (hasta ${ n } persona)",
         "Compartir la caja fuerte (hasta ${ n } personas)"
+      ],
+      "Automatic email forwarding": [
+        "Reenvío de correo automático"
+      ],
+      "Require 2FA for organization": [
+        "Requerir 2FA para organización"
+      ],
+      "SSO integration (coming soon)": [
+        "Integración SSO (próximamente)"
+      ],
+      "Unlimited shared vaults with access permissions": [
+        "Cajas fuertes compartidas ilimitadas con permisos de acceso"
       ]
     },
     "new_plans: feature info": {
@@ -10466,6 +10508,9 @@
       ],
       "Your trial ends ${ formattedPeriodEndDate }": [
         "Tu periodo de pruebas acaba el ${ formattedPeriodEndDate }."
+      ],
+      "To continue to use ${ trialPlanName } with premium features, choose your subscription and payment options.": [
+        "Para seguir usando ${ trialPlanName } con las funciones premium, suscríbete y elige el método de pago."
       ]
     },
     "new_plans: Label": {
@@ -10505,6 +10550,9 @@
       ],
       "Your selected plan: ${ planName }": [
         "Has seleccionado el plan ${ planName }"
+      ],
+      "The organization name will be visible to your users while they are signed in.": [
+        "El nombre de la organización será visible para tus usuarios mientras estén conectados."
       ]
     },
     "new_plans: title": {
@@ -10725,6 +10773,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "Puedes tener varios administradores. Todos tienen permiso para añadir y gestionar usuarios, pero solo el administrador principal puede controlar la facturación."
+      ],
+      "Automatically forward emails sent to your ${ MAIL_APP_NAME } account to any other email address.": [
+        "Reenvía correos automáticamente enviados a tu cuenta de ${ MAIL_APP_NAME } a cualquier otra dirección de correo."
       ]
     },
     "new_plans: upgrade": {
@@ -11233,6 +11284,15 @@
     "Pass B2B onboarding spotlight": {
       "Set up your organization": [
         "Configura tu organización"
+      ],
+      "Go to your vault to manage your passwords, aliases, and more.": [
+        "Ve a tu caja fuere para gestionar tus contraseñas, alias y más."
+      ],
+      "Start adding users to give them access to ${ PASS_APP_NAME }.": [
+        "Comienza añadiendo usuarios para darles acceso a ${ PASS_APP_NAME }."
+      ],
+      "Start using ${ PASS_APP_NAME }": [
+        "Comienza a usar ${ PASS_APP_NAME }"
       ]
     },
     "pass_signup_2023: Action": {
@@ -11277,6 +11337,9 @@
       ],
       "Upgrade my plan": [
         "Mejorar mi plan"
+      ],
+      "Request trial": [
+        "Solicitar una prueba gratuita"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11311,6 +11374,9 @@
       ],
       "Upgrade your plan": [
         "Mejora tu plan"
+      ],
+      "Let's talk": [
+        "Habla con nosotros"
       ]
     },
     "pass_signup_2023: Info": {
@@ -11487,6 +11553,57 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Tu organización tiene acceso a ${ free }. Si quieres acceder a las características premium de ${ appName }, solicita al administrador de tu organización que actualice la versión."
+      ],
+      "/month /user": [
+        "/mes /usuario"
+      ],
+      "/month /user, billed annually": [
+        "/mes /usuario, facturación anual"
+      ],
+      "/month /user, billed biennially": [
+        "/mes /usuario, facturación bienal"
+      ],
+      "Advanced protection that goes beyond industry standards": [
+        "Protección avanzada que va más allá del estándar industrial"
+      ],
+      "Based in Switzerland, GDPR compliant": [
+        "Con sede en Suiza y conforme al RGPD"
+      ],
+      "Current plan": [
+        "Plan actual"
+      ],
+      "Enter a display name for **${ username }**. This is what your users will see when you change their permissions or share data with them.": [
+        "Ingresa un nombre a mostrar para **${ username }**. Esto es lo que verán tus usuarios cuando cambies sus permisos o compartas información con ellos."
+      ],
+      "Essential protection and secure collaboration for unlimited users": [
+        "Protección esencial y colaboración segura para usuarios ilimitados"
+      ],
+      "Everything from ${ planTitle }, plus...": [
+        "Todo en el plan ${ planTitle } además de..."
+      ],
+      "From the team that knows encryption": [
+        "Del equipo que conoce de cifrado"
+      ],
+      "Get in touch with our sales team": [
+        "Ponte en contacto con nuestro equipo de ventas"
+      ],
+      "Get the security and features your business needs": [
+        "Obtén la seguridad y funciones que necesita tu negocio"
+      ],
+      "Join over 50 000 organizations that trust ${ BRAND_NAME }": [
+        "Únete a más de 500 000 organizaciones que confían en ${ BRAND_NAME }"
+      ],
+      "Limited time offer: Get ${ title } for ${ price } per user monthly!": [
+        "¡Oferta de tiempo limitado: obtén ${ title } por ${ price } por usuario mensualmente!"
+      ],
+      "Open source and audited": [
+        "De código abierto y auditado"
+      ],
+      "Setting up your organization": [
+        "Configurando tu organización"
+      ],
+      "Tailored made solutions for larger organizations with custom needs.": [
+        "Soluciones a la medida para organizaciones más grandes con necesidades personalizadas."
       ]
     },
     "pass_signup_2023: Title": {
@@ -11539,6 +11656,48 @@
       ],
       "You have been made administrator of the organization **${ organizationName }** by": [
         "Te has convertido en administrador de la organización **${ organizationName }** por"
+      ],
+      "All administrators will get access to the key.": [
+        "Todos los administradores tendrán acceso a la clave."
+      ],
+      "Are you sure you want to change your organization key?": [
+        "¿Estás seguro de que quieres cambiar la clave de la organización?"
+      ],
+      "Non-private users can be promoted to admin when they have setup keys": [
+        "Los usuarios no privados podrán ser promovidos a administradores cuando hayan configurado sus claves."
+      ],
+      "Organization key must be activated to give admin privileges": [
+        "La clave de la organización debe activarse para conceder privilegios de administrador."
+      ],
+      "Permission denied, administrator privileges have been restricted.": [
+        "El permiso ha sido denegado. Los privilegios de administrador se han limitado."
+      ],
+      "The following administrators will get access to the organization key.": [
+        "Los siguientes administradores obtendrán acceso a la clave de la organización."
+      ],
+      "This will send the latest organization key to the administrators that currently don't have access to it.": [
+        "Esto enviará la última clave de la organización a los administradores que actualmente no tienen acceso a ella."
+      ],
+      "To create non-private user accounts and access their accounts, you'll need to activate your organization key.": [
+        "Necesitas activar la clave de tu organización para crear cuentas no privadas y acceder a las mismas."
+      ],
+      "Use a data recovery method or reset the organization key to restore administrator privileges.": [
+        "Usa un método de recuperación de datos o restablezca la clave de seguridad de la organización para restaurar los privilegios de administrador."
+      ],
+      "Use a data recovery method, contact another administrator, or reset the organization key to restore administrator privileges.": [
+        "Usa un método de recuperación de datos, contacta con otro administrador o restablece la clave de seguridad de la organización para restaurar los privilegios de administrador."
+      ],
+      "We couldn't verify the security of this sender's address key. Sometimes there is a delay in updating the sender's information. Try again later. If you do not trust the validity of this invitation or sender, contact ${ BRAND_NAME } Customer Support.": [
+        "No hemos podido verificar la seguridad de la clave de la dirección de este remitente. A veces hay un retraso en actualizar la información del remitente. Intenta de nuevo más tarde. Si no confías en la validación de esta invitación o en el remitente, contacta con el soporte al cliente de ${ BRAND_NAME }."
+      ],
+      "We have verified the authenticity of this sender and invitation.": [
+        "Hemos verificado la autenticidad de este remitente y la invitación."
+      ],
+      "You must privatize all users before generating a new organization key": [
+        "Debes privatizar todos los usuarios antes de generar una clave nueva de la organización"
+      ],
+      "You need access to the organization key to perform this operation.": [
+        "Necesitas acceso a la clave de la organización para realizar esta acción."
       ]
     },
     "Payment method option": {
@@ -12354,6 +12513,9 @@
       ],
       "Username": [
         "Nombre de usuario"
+      ],
+      "Organization name": [
+        "Nombre de la organización"
       ]
     },
     "Signup step": {
@@ -12706,6 +12868,24 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Perderás acceso a notas e inicios de sesión ilimitados, alias ilimitados de hide-my-email y 20 bóvedas así como al soporte prioritario."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Para enviar o recibir correos electrónicos, libera espacio o ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Para cargar o sincronizar archivos, libera espacio o ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Tu ${ storage } está al ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Tu ${ storage } está lleno. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Tu almacenamiento está al ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Tu almacenamiento está lleno. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -13059,6 +13239,9 @@
       ],
       "You have successfully unsubscribed": [
         "Has cancelado la suscripción."
+      ],
+      "Administrator privileges restored": [
+        "Los privilegios de administrador han sido restaurados."
       ]
     },
     "Success message": {
@@ -14822,6 +15005,9 @@
       ],
       "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
         "Tu frase de recuperación está obsoleta. No puede recuperar nuevos datos si restableces tu cuenta de nuevo."
+      ],
+      "You must ${ activateLink } the organization key before adding an email address to a non-private member.": [
+        "Debes ${ activateLink } la clave de la organización antes de añadir una dirección de correo a un miembro no privado."
       ]
     },
     "Warning for domain modal": {
@@ -15077,6 +15263,54 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada año hasta ${ untilString }"
+      ]
+    },
+    "pass_signup_2023: title": {
+      "For businesses": [
+        "Para empresas"
+      ],
+      "For invididuals": [
+        "Para individuales"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de facturación"
+      ],
+      "Card number": [
+        "Número de tarjeta"
+      ],
+      "CVC": [
+        "CVC"
+      ],
+      "MM/YY": [
+        "MM/AA"
+      ],
+      "Tax Country": [
+        "País de impuestos"
+      ],
+      "Timeout exceeded": [
+        "Se ha superado el tiempo de espera."
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "El número de tarjeta ingresado es no válido."
+      ],
+      "Invalid expiration date": [
+        "La fecha de expiración no es válida."
+      ],
+      "Invalid securiry code": [
+        "El código de seguridad no es válido."
+      ],
+      "Something went wrong. Please try again later.": [
+        "Se ha producido un error. Inténtalo de nuevo más tarde."
+      ],
+      "We are unable to authenticate your payment method. Please choose a different payment method or try again.": [
+        "No podemos autenticar tu método de pago. Elige un método de pago diferente o intenta de nuevo."
+      ],
+      "Your card was declined. Please try a different card or contact your bank to authorize the charge.": [
+        "Tu tarjeta ha sido rechazada. Prueba con una tarjeta diferente o contacta con tu banco para autorizar el cargo."
       ]
     }
   }

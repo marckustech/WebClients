@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "Zoom arrière"
+      ],
+      "Select country": [
+        "Sélectionnez un pays"
       ]
     },
     "action": {
@@ -7950,6 +7953,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Votre abonnement est géré par Mozilla. Nous vous invitons à contacter le support Mozilla."
+      ],
+      "You have no invoices.": [
+        "Vous n'avez aucune facture."
       ]
     },
     "info": {
@@ -8084,6 +8090,9 @@
       ],
       "Subscription": [
         "Abonnement"
+      ],
+      "Currency conversion": [
+        "Conversion de devise"
       ]
     },
     "Key generation": {
@@ -8296,6 +8305,9 @@
       ],
       "Star": [
         "Favori"
+      ],
+      "Filter": [
+        "Filtre"
       ]
     },
     "Keyboard shortcut section name": {
@@ -9244,6 +9256,9 @@
       ],
       "Your referral link": [
         "Votre lien de parrainage"
+      ],
+      "VAT": [
+        "TVA"
       ]
     },
     "label": {
@@ -9925,6 +9940,9 @@
       ],
       "Spam": [
         "Indésirables/spam"
+      ],
+      "Pass vaults": [
+        "Coffres-forts Pass"
       ]
     },
     "New Label form": {
@@ -10517,6 +10535,9 @@
       ],
       "Your selected plan: ${ planName }": [
         "L'abonnement que vous avez sélectionné : ${ planName }"
+      ],
+      "The organization name will be visible to your users while they are signed in.": [
+        "Le nom de l'organisation sera visible par vos utilisateurs quand ils seront connectés."
       ]
     },
     "new_plans: title": {
@@ -11295,6 +11316,9 @@
       ],
       "Upgrade my plan": [
         "Changer d'abonnement"
+      ],
+      "Request trial": [
+        "Demander une version d'essai"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11514,6 +11538,18 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Votre organisation a accès à ${ free }. Pour profiter des fonctionnalités premium de ${ appName }, demandez à l'administrateur de votre organisation de changer d'abonnement."
+      ],
+      "/month /user": [
+        "/mois /utilisateur"
+      ],
+      "Open source and audited": [
+        "Open source et audité"
+      ],
+      "Setting up your organization": [
+        "Configuration de votre organisation"
+      ],
+      "Tailored made solutions for larger organizations with custom needs.": [
+        "Des solutions sur mesure pour les grandes entreprises ayant des besoins spécifiques."
       ]
     },
     "pass_signup_2023: Title": {
@@ -15152,6 +15188,45 @@
       ],
       "Yearly, ${ untilString }": [
         "Chaque année, ${ untilString }"
+      ]
+    },
+    "pass_signup_2023: title": {
+      "For businesses": [
+        "Pour les entreprises"
+      ],
+      "For invididuals": [
+        "Pour les particuliers"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Pays de facturation"
+      ],
+      "Card number": [
+        "Numéro de la carte"
+      ],
+      "CVC": [
+        "CVC"
+      ],
+      "MM/YY": [
+        "MM/AA"
+      ],
+      "Tax Country": [
+        "Pays d'imposition"
+      ],
+      "Timeout exceeded": [
+        "Le délai est dépassé."
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "Le numéro de carte n’est pas valide."
+      ],
+      "Invalid expiration date": [
+        "La date d'expiration n’est pas valide."
+      ],
+      "Invalid securiry code": [
+        "Le code de sécurité n'est pas valide."
       ]
     }
   }

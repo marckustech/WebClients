@@ -8020,6 +8020,18 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Vaše predplatné je spravované Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "Current plan": [
+        "Aktuálny plán"
+      ],
+      "Downgrade": [
+        "Znížiť"
+      ],
+      "per month, billed at ${ price }": [
+        "mesačne, účtované ${ price }"
+      ],
+      "You are using more storage than what is included in a ${ downgradedPlanName } plan. Please delete or remove data in order to downgrade.": [
+        "Využívate viac úložiska než je zahrnuté v pláne ${ downgradedPlanName }. Vymažte alebo odstráňte údaje, aby ste mohli plán znížiť, prosím."
       ]
     },
     "info": {
@@ -11396,6 +11408,9 @@
       ],
       "Upgrade my plan": [
         "Upgradovať môj plán"
+      ],
+      "Download PDF ${ size }": [
+        "Stiahnuť PDF ${ size }"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11597,6 +11612,15 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Vaša organizácia má prístup k ${ free }. Ak chcete získať prístup k prémiovým funkciám ${ appName }, požiadajte správcu vašej organizácie o upgrade."
+      ],
+      "I understand that if I lose my recovery details, I may permanently lose access to my account.": [
+        "Beriem na vedomie, že ak stratím svoje údaje na obnovenie, môžem natrvalo stratiť prístup k svojmu účtu."
+      ],
+      "If you get locked out of your ${ BRAND_NAME } Account, your **Recovery kit** will allow you to sign in and recover your data.": [
+        "Ak stratíte prístup k svojmu ${ BRAND_NAME } účtu, vaša **sada na obnovenie** vám umožní prihlásiť sa a obnoviť vaše údaje."
+      ],
+      "It’s the only way to fully restore your account, so make sure you keep it somewhere safe.": [
+        "Je to jediný spôsob, ako úplne obnoviť svoj účet, takže ho majte niekde v bezpečí."
       ]
     },
     "pass_signup_2023: Title": {
@@ -12740,6 +12764,12 @@
       ],
       "Your storage is full": [
         "Vaše úložisko je plné"
+      ],
+      "You still have **${ daysRemaining }** day left on your **${ currentPlanName }** plan.": [
+        "Stále vám zostáva **${ daysRemaining }** deň vo vašom pláne **${ currentPlanName }**.",
+        "Stále vám zostávajú **${ daysRemaining }** dni vo vašom pláne **${ currentPlanName }**.",
+        "Stále vám zostáva **${ daysRemaining }** dní vo vašom pláne **${ currentPlanName }**.",
+        "Stále vám zostáva **${ daysRemaining }** dní vo vašom pláne **${ currentPlanName }**."
       ]
     },
     "Subscribe to calendar modal": {
@@ -12861,6 +12891,12 @@
         "Vysoko rýchlostná sieť VPN na ${ maxVpn } zariadeniach",
         "Vysoko rýchlostná sieť VPN na ${ maxVpn } zariadeniach",
         "Vysoko rýchlostná sieť VPN na ${ maxVpn } zariadeniach"
+      ],
+      "${ n } free VPN connection per user": [
+        "${ n } VPN pripojenie zdarma na používateľa",
+        "${ n } VPN pripojenia zdarma na používateľa",
+        "${ n } VPN pripojení zdarma na používateľa",
+        "${ n } VPN pripojení zdarma na používateľa"
       ]
     },
     "Subscription change warning": {
@@ -14299,6 +14335,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Boli ste pozvaní vyskúšať ${ MAIL_APP_NAME }"
+      ],
+      "Successfully created ${ n } user account": [
+        "${ n } používateľský účet bol úspešne vytvorený",
+        "${ n } používateľské účty boli úspešne vytvorené",
+        "${ n } používateľských účtov bolo úspešne vytvorených",
+        "${ n } používateľských účtov bolo úspešne vytvorených"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15199,6 +15241,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Users table: single sign-on tooltip": {
+      "SSO user provided by your identity provider": [
+        "SSO používateľ poskytnutý poskytovateľom identity"
       ]
     }
   }

@@ -8292,6 +8292,9 @@
       ],
       "Star": [
         "Stjärnmärk"
+      ],
+      "Filter": [
+        "Filter"
       ]
     },
     "Keyboard shortcut section name": {
@@ -12846,6 +12849,24 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Du kommer förlora åtkomst till obegränsat antal inloggningar och anteckningar, obegränsat antal hide-my-email, 20 valv samt prioriterad support."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ditt ${ storage } är fullt. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ditt lagringsutrymme är ${ percentage } % fullt. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ditt lagringsutrymme fullt. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {

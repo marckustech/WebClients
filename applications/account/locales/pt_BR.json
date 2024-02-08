@@ -1066,6 +1066,12 @@
       ],
       "Zoom out": [
         "Diminuir zoom"
+      ],
+      "Activate": [
+        "Ativar"
+      ],
+      "Change keys": [
+        "Mudar chaves"
       ]
     },
     "action": {
@@ -9232,6 +9238,9 @@
       ],
       "Your referral link": [
         "Seu link de referência"
+      ],
+      "Administrators": [
+        "Administradores"
       ]
     },
     "label": {
@@ -11482,6 +11491,9 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "Sua organização tem acesso a ${ free }. Se você deseja acesso a recursos premium do ${ appName }, solicite a atualização ao administrador da sua organização."
+      ],
+      "Current plan": [
+        "Plano atual"
       ]
     },
     "pass_signup_2023: Title": {
@@ -14200,6 +14212,12 @@
       ],
       "You’ve been invited to try ${ MAIL_APP_NAME }": [
         "Você foi convidado a experimentar o ${ MAIL_APP_NAME }."
+      ],
+      "Confirm": [
+        "Confirmar"
+      ],
+      "Organization key": [
+        "Clave da organização"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -15035,6 +15053,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "pass_signup_2023: title": {
+      "For businesses": [
+        "Para empresas"
+      ],
+      "For invididuals": [
+        "Para indivíduos"
       ]
     }
   }

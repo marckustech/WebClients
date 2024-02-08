@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "Паменшыць"
+      ],
+      "Select country": [
+        "Выберыце краіну"
       ]
     },
     "action": {
@@ -4200,6 +4203,9 @@
       ],
       "Zero keys reactivated": [
         "Нуль ключоў паўторна актывавана"
+      ],
+      "Coudn't load invoices. Please try again later.": [
+        "Немагчыма загрузіць рахункі. Паспрабуйце яшчэ раз пазней."
       ]
     },
     "Error importing calendar": {
@@ -5236,7 +5242,7 @@
         "Даведайцеся, як наш ${ strongText } вас абараняе"
       ],
       "Discover privacy features": [
-        "Даведайцеся пра функцыі прыватнасці"
+        "Пазнаёмцеся з функцыямі прыватнасці"
       ],
       "Get the ${ strongText } on Android or iOS": [
         "Атрымайце ${ strongText } на Android або iOS"
@@ -8110,6 +8116,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Ваша падпіска кіруецца Mozilla. Звяжыцеся са службай падтрымкі Mozilla."
+      ],
+      "Including ${ formattedTaxRate }% ${ taxName }: ${ price }": [
+        "Уключае ${ formattedTaxRate }% ${ taxName }: ${ price }"
+      ],
+      "You have no invoices.": [
+        "У вас няма рахункаў."
       ]
     },
     "info": {
@@ -8248,6 +8260,9 @@
       ],
       "Subscription": [
         "Падпіска"
+      ],
+      "Currency conversion": [
+        "Канвертацыя валюты"
       ]
     },
     "Key generation": {
@@ -8460,6 +8475,9 @@
       ],
       "Star": [
         "Зорачка"
+      ],
+      "Filter": [
+        "Фільтр"
       ]
     },
     "Keyboard shortcut section name": {
@@ -9416,6 +9434,9 @@
       ],
       "Your referral link": [
         "Ваша рэферальная спасылка"
+      ],
+      "VAT": [
+        "ПДВ"
       ]
     },
     "label": {
@@ -10116,6 +10137,12 @@
       ],
       "Spam": [
         "Спам"
+      ],
+      "Back to vaults": [
+        "Вярнуцца да сховішчаў"
+      ],
+      "Pass vaults": [
+        "Сховішчы Pass"
       ]
     },
     "New Label form": {
@@ -10570,6 +10597,18 @@
         "Абагуленне сховішча (да ${ n } асоб)",
         "Абагуленне сховішча (да ${ n } асоб)",
         "Абагуленне сховішча (да ${ n } асоб)"
+      ],
+      "Automatic email forwarding": [
+        "Аўтаматычная перасылка пошты"
+      ],
+      "Require 2FA for organization": [
+        "Патрабаванне 2ФА для арганізацыі"
+      ],
+      "SSO integration (coming soon)": [
+        "Інтэграцыя SSO (неўзабаве)"
+      ],
+      "Unlimited shared vaults with access permissions": [
+        "Неабмежаваная колькасць абагуленых сховішчаў з правамі доступу"
       ]
     },
     "new_plans: feature info": {
@@ -10701,6 +10740,9 @@
       ],
       "Your trial ends ${ formattedPeriodEndDate }": [
         "Ваш пробны перыяд завершыцца ${ formattedPeriodEndDate }"
+      ],
+      "To continue to use ${ trialPlanName } with premium features, choose your subscription and payment options.": [
+        "Для працягу выкарыстання ${ trialPlanName } з прэміяльнымі функцыямі, выберыце вашу падпіску і спосаб аплаты."
       ]
     },
     "new_plans: Label": {
@@ -10740,6 +10782,9 @@
       ],
       "Your selected plan: ${ planName }": [
         "Выбраны тарыфны план: ${ planName }"
+      ],
+      "The organization name will be visible to your users while they are signed in.": [
+        "Назва арганізацыі будзе бачна вашым карыстальнікам, калі яны ўвойдуць у сістэму."
       ]
     },
     "new_plans: title": {
@@ -10962,6 +11007,9 @@
       ],
       "You can have more than one admin. All admins can add and manage users but only the primary admin has control over billing.": [
         "У вас можа быць некалькі адміністратараў. Усе адміністратары могуць дадаваць і кіраваць карыстальнікамі, але толькі асноўны адміністратар кантралюе аплату."
+      ],
+      "Automatically forward emails sent to your ${ MAIL_APP_NAME } account to any other email address.": [
+        "Аўтаматычна перасылаць лісты адпраўленыя на ваш уліковы запіс ${ MAIL_APP_NAME } на любы іншы адрас электроннай пошты."
       ]
     },
     "new_plans: upgrade": {
@@ -11527,6 +11575,9 @@
       ],
       "Upgrade my plan": [
         "Палепшыць мой тарыфны план"
+      ],
+      "Request trial": [
+        "Запытаць пробны перыяд"
       ]
     },
     "pass_signup_2023: Feature": {
@@ -11561,6 +11612,9 @@
       ],
       "Upgrade your plan": [
         "Палепшыце свой тарыфны план"
+      ],
+      "Let's talk": [
+        "Давайце паразмаўляем"
       ]
     },
     "pass_signup_2023: Info": {
@@ -11737,6 +11791,57 @@
       ],
       "Your organization has access to ${ free }. If you want to access premium ${ appName } features, please ask your organization's administrator to upgrade.": [
         "У вашай арганізацыі ёсць доступ да ${ free }. Калі вы хочаце атрымаць прэміяльныя функцыі ${ appName }, папрасіце адміністратара сваёй арганізацыі абнавіць тарыфны план."
+      ],
+      "/month /user": [
+        "/месяц /карыстальнік"
+      ],
+      "/month /user, billed annually": [
+        "/месяц /карыстальнік, аплата адзін раз у год"
+      ],
+      "/month /user, billed biennially": [
+        "/месяц /карыстальнік, аплата адзін раз у два гады"
+      ],
+      "Advanced protection that goes beyond industry standards": [
+        "Пашыраная бяспека, якая выходзіць за рамкі прамысловых стандартаў"
+      ],
+      "Based in Switzerland, GDPR compliant": [
+        "Знаходзіцца ў Швейцарыі, адпавядае патрабаванням GDPR"
+      ],
+      "Current plan": [
+        "Бягучы тарыфны план"
+      ],
+      "Enter a display name for **${ username }**. This is what your users will see when you change their permissions or share data with them.": [
+        "Увядзіце бачнае імя для **${ username }**. Гэту назву будуць бачыць вашы карыстальнікі, калі вы зменіце іх дазволы або абагуліце даныя з імі."
+      ],
+      "Essential protection and secure collaboration for unlimited users": [
+        "Неабходная абарона і бяспечная супрацоўніцтва для неабмежаванай колькасці карыстальнікаў"
+      ],
+      "Everything from ${ planTitle }, plus...": [
+        "Усе функцыі тарыфнага плана ${ planTitle }, а яшчэ..."
+      ],
+      "From the team that knows encryption": [
+        "Ад каманды экспертаў у галіне шыфравання"
+      ],
+      "Get in touch with our sales team": [
+        "Сувязь з нашай камандай па продажам"
+      ],
+      "Get the security and features your business needs": [
+        "Атрымайце бяспеку і функцыі, якія неабходны вашаму бізнесу"
+      ],
+      "Join over 50 000 organizations that trust ${ BRAND_NAME }": [
+        "Далучайцеся да больш чым 50 000 арганізацый, якія давяраюць ${ BRAND_NAME }"
+      ],
+      "Limited time offer: Get ${ title } for ${ price } per user monthly!": [
+        "Прапанова абмежаваная па часе. Атрымайце ${ title } па цане ${ price } у месяц за карыстальніка!"
+      ],
+      "Open source and audited": [
+        "Адкрыты зыходны код і аўдыт"
+      ],
+      "Setting up your organization": [
+        "Наладжванне вашай арганізацыі"
+      ],
+      "Tailored made solutions for larger organizations with custom needs.": [
+        "Індывідуальныя рашэнні для буйных арганізацый з асаблівымі пажаданнямі."
       ]
     },
     "pass_signup_2023: Title": {
@@ -11825,6 +11930,12 @@
       ],
       "You need access to the organization key to perform this operation.": [
         "Вам патрэбны доступ да ключоў арганізацыі, каб выканаць гэту аперацыю."
+      ],
+      "Non-private users can be promoted to admin when they have setup keys": [
+        "Прыватныя карыстальнікі могуць атрымаць правы адміністратара пры наладжванні ключоў"
+      ],
+      "Private users can be promoted to admin when they've signed in for the first time": [
+        "Прыватныя карыстальнікі могуць атрымаць правы адміністратара пры першым уваходзе ў сістэму"
       ]
     },
     "Payment method option": {
@@ -11985,10 +12096,10 @@
         "Выберыце колькасць карыстальнікаў для ўключэння ў ваш тарыфны план. Кожны дадатковы карыстальнік каштуе ${ price }."
       ],
       "Should you need more than ${ maxUsers } user account, please ${ contact } our Sales team.": [
-        "Калі вам патрабуецца больш за ${ maxUsers } уліковы запіс карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажах.",
-        "Калі вам патрабуецца больш за ${ maxUsers } уліковыя запісы карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажах.",
-        "Калі вам патрабуецца больш за ${ maxUsers } уліковых запісаў карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажах.",
-        "Калі вам патрабуецца больш за ${ maxUsers } уліковыя запісы карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажах."
+        "Калі вам патрабуецца больш за ${ maxUsers } уліковы запіс карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажам.",
+        "Калі вам патрабуецца больш за ${ maxUsers } уліковыя запісы карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажам.",
+        "Калі вам патрабуецца больш за ${ maxUsers } уліковых запісаў карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажам.",
+        "Калі вам патрабуецца больш за ${ maxUsers } уліковыя запісы карыстальніка, звяжыцеся па пошце ${ contact } з нашай камандай па продажам."
       ]
     },
     "Price": {
@@ -12674,6 +12785,9 @@
       ],
       "Username": [
         "Імя карыстальніка"
+      ],
+      "Organization name": [
+        "Назва арганізацыі"
       ]
     },
     "Signup step": {
@@ -13040,6 +13154,24 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Вы згубіце доступ да наступных функцый: неабмежаваную колькасць запісаў уваходу і нататак; неабмежаваную колькасць псеўданімаў hide-my-email; 20 сховішчаў; прыярытэтную падтрымку."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Вызваліце месца або ${ upgrade }, адпраўляць і атрымліваць лісты"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Вызваліце месца або ${ upgrade }, каб запампоўваць або сінхранізаваць файлы"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ваша ${ storage } запоўнена на ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ваша ${ storage } запоўнена. ${ cta }"
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ваша сховішча запоўнена на ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ваша сховішча запоўнена. ${ cta }"
       ]
     },
     "Subscribe to calendar modal": {
@@ -15543,6 +15675,68 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Pass B2B onboarding spotlight": {
+      "Go to your vault to manage your passwords, aliases, and more.": [
+        "Перайсці ў сховішча, каб кіраваць паролямі, псеўданімамі і іншымі элементамі."
+      ],
+      "Set up your organization": [
+        "Наладзьце сваю арганізацыю"
+      ],
+      "Start adding users to give them access to ${ PASS_APP_NAME }.": [
+        "Пачніце дадаваць карыстальнікаў, каб даць ім доступ да ${ PASS_APP_NAME }"
+      ],
+      "Start using ${ PASS_APP_NAME }": [
+        "Пачаць выкарыстоўваць ${ PASS_APP_NAME }"
+      ]
+    },
+    "pass_signup_2023: title": {
+      "For businesses": [
+        "Для бізнесу"
+      ],
+      "For invididuals": [
+        "Асабісты"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Краіна выстаўлення рахунка"
+      ],
+      "Card number": [
+        "Нумар карткі"
+      ],
+      "CVC": [
+        "CVC"
+      ],
+      "MM/YY": [
+        "ММ/ГГ"
+      ],
+      "Tax Country": [
+        "Падаткаабкладанне краіны"
+      ],
+      "Timeout exceeded": [
+        "Перавышаны час чакання"
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "Памылковы нумар карткі"
+      ],
+      "Invalid expiration date": [
+        "Памылковая дата завяршэння тэрміну дзеяння"
+      ],
+      "Invalid securiry code": [
+        "Памылковы код бяспекі"
+      ],
+      "Something went wrong. Please try again later.": [
+        "Нешта пайшло не так. Паспрабуйце яшчэ раз пазней."
+      ],
+      "We are unable to authenticate your payment method. Please choose a different payment method or try again.": [
+        "Мы не можам аўтэнтыфікаваць ваш спосаб аплаты. Выберыце іншы спосаб аплаты або паспрабуйце яшчэ раз."
+      ],
+      "Your card was declined. Please try a different card or contact your bank to authorize the charge.": [
+        "Ваша картка адхілена. Паспрабуйце іншую картку або звяжыцеся з вашым банкам для аўтарызацыі трансакцыі."
       ]
     }
   }

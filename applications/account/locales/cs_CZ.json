@@ -1063,6 +1063,9 @@
       ],
       "Zoom out": [
         "Oddálit"
+      ],
+      "Select a calendar to export": [
+        "Vybrat kalendář k exportu"
       ]
     },
     "action": {
@@ -8068,6 +8071,9 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Váš předplatné je spravováno Mozillou. Kontaktujte prosím Mozilla podporu."
+      ],
+      "per month, billed at ${ price }": [
+        "měsíčně, účtováno ${ price }"
       ]
     },
     "info": {

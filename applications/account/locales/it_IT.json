@@ -1072,6 +1072,9 @@
       ],
       "Zoom out": [
         "Zoom indietro"
+      ],
+      "Select country": [
+        "Seleziona il paese"
       ]
     },
     "action": {
@@ -4164,6 +4167,9 @@
       ],
       "Zero keys reactivated": [
         "Chiavi zero riattivate"
+      ],
+      "Coudn't load invoices. Please try again later.": [
+        "Impossibile caricare le fatture. Riprova più tardi."
       ]
     },
     "Error importing calendar": {
@@ -7953,6 +7959,12 @@
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Il tuo abbonamento è gestito da Mozilla. Contatta l'assistenza di Mozilla."
+      ],
+      "Including ${ formattedTaxRate }% ${ taxName }: ${ price }": [
+        "Incluso il ${ formattedTaxRate }% di ${ taxName }: ${ price }"
+      ],
+      "You have no invoices.": [
+        "Non hai fatture."
       ]
     },
     "info": {
@@ -8087,6 +8099,9 @@
       ],
       "Subscription": [
         "Abbonamento"
+      ],
+      "Currency conversion": [
+        "Conversione della valuta"
       ]
     },
     "Key generation": {
@@ -8299,6 +8314,9 @@
       ],
       "Star": [
         "Segna come importante"
+      ],
+      "Filter": [
+        "Filtra"
       ]
     },
     "Keyboard shortcut section name": {
@@ -9250,6 +9268,9 @@
       ],
       "Your referral link": [
         "Il tuo link di riferimento"
+      ],
+      "VAT": [
+        "IVA"
       ]
     },
     "label": {
@@ -10484,6 +10505,9 @@
       ],
       "Your trial ends ${ formattedPeriodEndDate }": [
         "La tua prova termina ${ formattedPeriodEndDate }"
+      ],
+      "To continue to use ${ trialPlanName } with premium features, choose your subscription and payment options.": [
+        "Per continuare a utilizzare ${ trialPlanName } con le funzionalità premium, scegli l'abbonamento e le opzioni di pagamento."
       ]
     },
     "new_plans: Label": {
@@ -11365,6 +11389,9 @@
       ],
       "Upgrade your plan": [
         "Aggiorna il tuo piano"
+      ],
+      "Let's talk": [
+        "Parliamo"
       ]
     },
     "pass_signup_2023: Info": {
@@ -12802,6 +12829,24 @@
       ],
       "You’ll lose access to unlimited logins and notes, unlimited hide-my-email aliases, 20 vaults, as well as priority support.": [
         "Perderai l'accesso a login, note e alias hide-my-email illimitati, 20 casseforti e al supporto prioritario."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Per inviare e ricevere le email, libera spazio o ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Per caricare o sincronizzare i file, libera spazio o ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "${ storage } pieno al ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "${ storage } pieno. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Spazio di archiviazione pieno al ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Spazio di archiviazione pieno. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -15187,6 +15232,54 @@
       ],
       "Yearly, ${ untilString }": [
         "Ogni anno, ${ untilString }"
+      ]
+    },
+    "pass_signup_2023: title": {
+      "For businesses": [
+        "Per le aziende"
+      ],
+      "For invididuals": [
+        "Per gli individui"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Paese di fatturazione"
+      ],
+      "Card number": [
+        "Numero della carta"
+      ],
+      "CVC": [
+        "CVC"
+      ],
+      "MM/YY": [
+        "MM/AA"
+      ],
+      "Tax Country": [
+        "Paese di tassazione"
+      ],
+      "Timeout exceeded": [
+        "Limite di tempo superato"
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "Numero della carta non valido"
+      ],
+      "Invalid expiration date": [
+        "Data di scadenza non valida"
+      ],
+      "Invalid securiry code": [
+        "Codice di sicurezza non valido"
+      ],
+      "Something went wrong. Please try again later.": [
+        "Si è verificato un errore. Riprova più tardi."
+      ],
+      "We are unable to authenticate your payment method. Please choose a different payment method or try again.": [
+        "Non riusciamo ad autenticare il tuo metodo di pagamento. Scegli un metodo diverso o riprova."
+      ],
+      "Your card was declined. Please try a different card or contact your bank to authorize the charge.": [
+        "La tua carta è stata rifiutata. Prova con una carta diversa o contatta la tua banca per autorizzare l'addebito."
       ]
     }
   }

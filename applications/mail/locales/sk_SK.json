@@ -1188,6 +1188,12 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Dismiss": [
+        "Odmietnuť"
+      ],
+      "Not now": [
+        "Teraz nie"
       ]
     },
     "action": {
@@ -3720,6 +3726,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vyhľadávanie našlo príliš veľa výsledkov. Upresnite hľadanie a skúste to prosím znova."
+      ],
+      "Alias options could not be resolved": [
+        "Možnosti aliasu sa nepodarilo vyriešiť"
+      ],
+      "Could not open created vault": [
+        "Nepodarilo sa otvoriť vytvorený trezor"
+      ],
+      "Could not open updated vault": [
+        "Nepodarilo sa otvoriť aktualizovaný trezor"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Obsah položky nesmie presiahnuť 40KB"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -5918,7 +5936,7 @@
         "Vyberte poskytovateľa služieb a začnite"
       ],
       "Select all ${ elementsCount } in ${ location }": [
-        "Vybrať celý ${ elementsCount } v ${ location }",
+        "Vybrať ${ elementsCount } v ${ location }",
         "Vybrať všetky ${ elementsCount } v ${ location }",
         "Vybrať všetkých ${ elementsCount } v ${ location }",
         "Vybrať všetkých ${ elementsCount } v ${ location }"
@@ -7215,6 +7233,15 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "Forwards to": [
+        "Preposielať na"
+      ],
+      "Note": [
+        "Poznámka"
+      ],
+      "Title": [
+        "Názov"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7891,6 +7918,12 @@
       ],
       "Senders blocked": [
         "Odosielatelia zablokovaní"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } bol zakázaný"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } bol povolený"
       ]
     },
     "Oauth instructions": {
@@ -10014,6 +10047,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Account recovery": [
+        "Obnovenie účtu"
+      ],
+      "Account security": [
+        "Zabezpečenie účtu"
+      ],
+      "Data recovery": [
+        "Obnovenie údajov"
+      ],
+      "This field cannot be empty": [
+        "Toto pole nemôže byť prázdne"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10214,6 +10259,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Koniec platnosti nie je vo formáte MM/RR"
+      ],
+      "Invalid alias prefix": [
+        "Neplatná predpona aliasu"
+      ],
+      "Missing alias prefix": [
+        "Chýbajúca predpona aliasu"
+      ],
+      "Missing alias suffix": [
+        "Chýbajúca prípona aliasu"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Povolené sú len alfanumerické znaky, bodky, pomlčky a podčiarkovníky"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Predpona aliasu nemôže byť dlhšia ako 40 znakov"
+      ],
+      "You must select at least one mailbox": [
+        "Musíte vybrať aspoň jednu poštovú schránku"
       ]
     },
     "WeekDay": {
@@ -10530,6 +10596,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email aliasy"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Otvoriť ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Vyskúšať ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } uložisko"
+      ],
+      "Your storage is full": [
+        "Vaše úložisko je plné"
       ]
     }
   }

@@ -78,6 +78,9 @@
       ],
       "Upgrade to automatically delete messages that have been in trash and spam for more than 30 days.": [
         "Upgrade to automatically delete messages that have been in Trash or Spam for more than 30 days."
+      ],
+      "This message will be automatically deleted on ${ value }": [
+        "This message will be automatically deleted at ${ value }"
       ]
     },
     "Label": {

@@ -1176,6 +1176,18 @@
       ],
       "Zoom out": [
         "Uzaklaştır"
+      ],
+      "Dismiss": [
+        "Yok say"
+      ],
+      "Download now": [
+        "Şimdi indir"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Önemli bir güncelleme yayınlanmış. Uygulamayı kullanmayı sürdürmek için son sürüme güncelleyin. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Şimdi değil"
       ]
     },
     "action": {
@@ -3664,6 +3676,24 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Aramanız çok fazla sonuç döndürdü. Lütfen aramanızı sınırlandırıp yeniden deneyin."
+      ],
+      "Alias options could not be resolved": [
+        "Takma ad seçenekleri çözümlenemedi"
+      ],
+      "Could not open created vault": [
+        "Oluşturulan kasa açılamadı"
+      ],
+      "Could not open updated vault": [
+        "Güncellenen kasa açılamadı"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Öge içeriği 40KB boyutundan büyük olamaz"
+      ],
+      "Maximum expiration time reached.": [
+        "En uzun geçerlilik süresi doldu."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Kullanıcı için alınan hiçbir dış anahtar göndermek için geçerli değil"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6977,6 +7007,15 @@
       ],
       "Your password (admin)": [
         "Parolanız (yönetici)"
+      ],
+      "Forwards to": [
+        "Şuraya iletiyor"
+      ],
+      "Note": [
+        "Not"
+      ],
+      "Title": [
+        "Başlık"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7629,6 +7668,12 @@
       ],
       "Senders blocked": [
         "Göndericiler engellendi"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği kapatıldı"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği açıldı"
       ]
     },
     "Oauth instructions": {
@@ -7793,6 +7838,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Bu anahtara \"güvenmemeniz\" önerilir."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Dış anahtar otomatik olarak keys.openpgp.org üzerinden alındı."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Dış anahtar otomatik olarak WKD üzerinden alındı."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Bu anahtar, bu kişiye gönderilen iletileri şifrelemek için kullanılır"
       ]
     },
     "PGP key warning": {
@@ -8616,6 +8670,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Artık iletileri daha sonra gönderilmek üzere zamanlayabilirsiniz"
+      ],
+      "Faster email management": [
+        "Daha hızlı e-posta yönetimi"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Artık bir klasördeki tüm e-postalar üzerinde tek seferde işlem yapabilirsiniz."
       ]
     },
     "Status": {
@@ -9621,6 +9681,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "A filter name is required": [
+        "Süzgeç adının yazılması zorunludur"
+      ],
+      "A filter with this name already exists": [
+        "Aynı adlı bir süzgeç zaten var"
+      ],
+      "Account recovery": [
+        "Hesap kurtarma"
+      ],
+      "Account security": [
+        "Hesap güvenliği"
+      ],
+      "Data recovery": [
+        "Veri kurtarma"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Süzgeç adında yalnızca boşluk bulunamaz"
+      ],
+      "This field cannot be empty": [
+        "Bu alan boş olamaz"
+      ],
+      "This field cannot contain only spaces": [
+        "Bu alanda yalnızca boşluk bulunamaz"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9813,6 +9897,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Geçerlilik süresi AA/YY biçiminde değil"
+      ],
+      "Invalid alias prefix": [
+        "Takma ad ön eki geçersiz"
+      ],
+      "Missing alias prefix": [
+        "Takma ad ön eki eksik"
+      ],
+      "Missing alias suffix": [
+        "Takma ad son eki eksik"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Yalnızca harfler, rakamlar, nokta, tire ve alt çizgi karakterleri kullanılabilir"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Takma ad ön ekiniz 40 karakterden uzun olamaz"
+      ],
+      "You must select at least one mailbox": [
+        "En az bir e-posta kutusu seçmelisiniz"
       ]
     },
     "WeekDay": {
@@ -10069,6 +10174,46 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email takma adları"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını aç"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını deneyin"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } depolama alanı"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } %${ percentage } dolu"
+      ],
+      "contact your administrator": [
+        "yöneticiniz ile görüşün"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Dosyaları yüklemeyi ve eşitlemeyi sürdürebilmek için boş yer açın ya da daha fazla depolama alanı edinmek için tarifenizi yükseltin."
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da daha fazla depolama alanı edinmek için tarifenizi yükseltin."
+      ],
+      "upgrade for more storage": [
+        "daha fazla depolama alanı edinmek için tarifenizi yükseltin"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Kullandığınız ${ appStorage } dolmak üzere"
+      ],
+      "Your ${ appStorage } is full": [
+        "Kullandığını ${ appStorage } dolu"
+      ],
+      "Your storage is full": [
+        "Depolama alanınız dolu"
       ]
     }
   }

@@ -960,6 +960,12 @@
       ],
       "Zoom out": [
         "Smanji"
+      ],
+      "Dismiss": [
+        "Odbaci"
+      ],
+      "Not now": [
+        "Ne sada"
       ]
     },
     "action": {
@@ -3529,6 +3535,9 @@
     "Import instructions": {
       "Go to ${ boldAccountSecurity }.": [
         "Idi na ${ boldAccountSecurity }"
+      ],
+      "Select ${ boldExportCSV }.": [
+        "Odaberite ${ boldExportCSV }."
       ]
     },
     "Import instructions emphasis": {
@@ -4941,6 +4950,12 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "Note": [
+        "Bilješka"
+      ],
+      "Title": [
+        "Naslov"
       ]
     },
     "Label attach to date input to select a date": {
@@ -5383,6 +5398,12 @@
       ],
       "Contact group updated": [
         "Kontaktna grupa je ažurirana"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } je onemogućen."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } je omogućen."
       ]
     },
     "Onboarding modal": {
@@ -6735,6 +6756,15 @@
       ],
       "What's new": [
         "Što je novo"
+      ],
+      "Account recovery": [
+        "Oporavak računa"
+      ],
+      "Account security": [
+        "Sigurnost računa"
+      ],
+      "Data recovery": [
+        "Povrat podataka"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -7122,6 +7152,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Open ${ PASS_APP_NAME }": [
+        "Otvori ${ PASS_APP_NAME }"
       ]
     }
   }

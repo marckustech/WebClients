@@ -1173,6 +1173,9 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Dismiss": [
+        "Descartar"
       ]
     },
     "action": {
@@ -3570,6 +3573,18 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A sua pesquisa obteve demasiadas correspondências. Limite a pesquisa e tente novamente."
+      ],
+      "Alias options could not be resolved": [
+        "Não foi possível resolver as opções de alias."
+      ],
+      "Could not open created vault": [
+        "Não foi possível abrir o cofre criado"
+      ],
+      "Could not open updated vault": [
+        "Não foi possível abrir o cofre actualizado"
+      ],
+      "Item content cannot exceed 40KB": [
+        "O conteúdo do item não pode exceder 40 KB."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6793,6 +6808,15 @@
       ],
       "Your password (admin)": [
         "A sua palavra-passe (admin)"
+      ],
+      "Forwards to": [
+        "Encaminha para"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "Title": [
+        "Título"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7429,6 +7453,12 @@
       ],
       "Senders blocked": [
         "Remetentes bloqueados"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } foi desativado"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } foi ativado"
       ]
     },
     "Oauth instructions": {
@@ -9320,6 +9350,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
+      ],
+      "Account recovery": [
+        "Recuperação de conta"
+      ],
+      "Account security": [
+        "Segurança da conta"
+      ],
+      "Data recovery": [
+        "Recuperação de dados"
+      ],
+      "This field cannot be empty": [
+        "Este campo não pode estar vazio."
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9509,6 +9551,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "O seu teste gratuito termina em ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Prefixo de alias inválido"
+      ],
+      "Missing alias prefix": [
+        "Prefixo de alias em falta"
+      ],
+      "Missing alias suffix": [
+        "Sufixo de alias em falta"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Só são permitidos caracteres alfanuméricos, pontos, hífenes e sublinhados"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "O prefixo do alias não pode ter mais de 40 caracteres"
+      ],
+      "You must select at least one mailbox": [
+        "É necessário selecionar pelo menos uma caixa de correio"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -9754,6 +9814,30 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Pseudónimos hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Abrir ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Experimente o ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } de armazenamento"
+      ],
+      "Your storage is full": [
+        "O seu armazenamento está cheio"
+      ]
+    },
+    "WeekDay": {
+      "Sat, ${ formatTime }": [
+        "Sáb, ${ formatTime }"
       ]
     }
   }

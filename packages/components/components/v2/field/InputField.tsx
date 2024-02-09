@@ -41,7 +41,6 @@ export interface InputFieldOwnProps {
     labelContainerClassName?: string;
     assistContainerClassName?: string;
     inputContainerClassName?: string;
-    keepAssistiveText?: boolean;
     'data-testid'?: string;
 }
 
@@ -67,7 +66,6 @@ const InputFieldBase = <E extends ElementType = typeof defaultElement>(
         labelContainerClassName,
         assistContainerClassName,
         inputContainerClassName,
-        keepAssistiveText = false,
         warning,
         suffix,
         as,
@@ -217,14 +215,7 @@ const InputFieldBase = <E extends ElementType = typeof defaultElement>(
                     labelRef.current?.click();
                 }}
             >
-                {keepAssistiveText ? (
-                    <div>
-                        <span className="block field-two-assist--kept">{assistiveText}</span>
-                        <span className="block">{errorElement || warningElement}</span>
-                    </div>
-                ) : (
-                    errorElement || warningElement || (!error && !warning && assistiveText)
-                )}
+                {errorElement || warningElement || (!error && !warning && assistiveText)}
             </div>
         </div>
     );

@@ -1194,6 +1194,15 @@
       ],
       "Toggle security center app": [
         "Εναλλαγή εφαρμογής κέντρου ασφαλείας"
+      ],
+      "Clear application data": [
+        "Εκκαθάριση δεδομένων εφαρμογής"
+      ],
+      "Create and copy alias": [
+        "Δημιουργία και αντιγραφή ψευδωνύμου"
+      ],
+      "Select country": [
+        "Επιλογή χώρας"
       ]
     },
     "action": {
@@ -6369,6 +6378,15 @@
       ],
       "Warning": [
         "Προειδοποίηση"
+      ],
+      "Clear app data": [
+        "Εκκαθάριση δεδομένων εφαρμογής"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Καταργεί όλα τα δεδομένα που σχετίζονται με αυτήν την εφαρμογή, συμπεριλαμβανομένων των ληφθέντων μηνυμάτων"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Αυτό καταργεί όλα τα δεδομένα που σχετίζονται με αυτήν την εφαρμογή, συμπεριλαμβανομένων των ληφθέντων μηνυμάτων. Η εφαρμογή θα επανεκκινηθεί και θα χρειαστεί να συνδεθείτε ξανά για να χρησιμοποιήσετε την εφαρμογή."
       ]
     },
     "info": {
@@ -6595,6 +6613,9 @@
       ],
       "Star": [
         "Προσθήκη αστεριού"
+      ],
+      "Filter": [
+        "Φίλτρο"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7094,6 +7115,9 @@
       ],
       "Your alias": [
         "Το ψευδώνυμο σας"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "π.χ., Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9813,6 +9837,9 @@
       ],
       "Your account is protected": [
         "Ο λογαριασμός σας προστατεύεται"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Λήψη των ${ appName[APP_NAME] } εφαρμογών"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10320,6 +10347,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Όταν σας ζητηθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου σας, δώστε αυτό το ψευδώνυμο. Προσθέστε ένα όνομα και μια σημείωση για να παρακολουθείτε πού τα χρησιμοποιείτε."
+      ],
+      "Create an alias": [
+        "Δημιουργία ψευδωνύμου"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Χρησιμοποιείται στο Amazon για ψώνια κ.λπ."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Όταν σας ζητηθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου σας, δώστε αυτό το ψευδώνυμο. Προσθέστε έναν τίτλο και μια σημείωση για να παρακολουθείτε πού τα χρησιμοποιείτε."
       ]
     },
     "Security Center - Action": {
@@ -10362,6 +10398,29 @@
       ],
       "Your storage is full": [
         "Ο αποθηκευτικός σας χώρος είναι πλήρης"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Για να στείλετε ή να λάβετε μηνύματα ηλεκτρονικού ταχυδρομείου, ελευθερώστε χώρο ή ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Για να ανεβάσετε ή να συγχρονίσετε αρχεία, ελευθερώστε χώρο ή ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ο ${ storage } είναι ${ percentage }% γεμάτος. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ο ${ storage } είναι γεμάτος. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ο αποθηκευτικός σας χώρος είναι ${ percentage }% γεμάτος. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ο αποθηκευτικός σας χώρος είναι γεμάτος. ${ cta }."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Χώρα χρέωσης"
       ]
     }
   }

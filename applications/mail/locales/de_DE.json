@@ -512,7 +512,7 @@
         "Von Outlook importieren"
       ],
       "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
-        "Ein wichtiges Update ist verfügbar. Um die App weiterhin zu nutzen, update sie bitte auf die aktuellste Version. ${ downloadUpdate }"
+        "Ein wichtiges Update ist verfügbar. Um die App weiterhin zu nutzen, aktualisiere sie bitte auf die neuste Version. ${ downloadUpdate }"
       ],
       "In the morning": [
         "Morgens"
@@ -579,7 +579,7 @@
         "Kategorien verwalten"
       ],
       "Manage Snooze": [
-        "Verwalte stumme Nachrichten"
+        "Aufschübe verwalten"
       ],
       "Mark as read": [
         "Als gelesen markieren"
@@ -996,7 +996,7 @@
         "Überprüfung überspringen"
       ],
       "Snooze": [
-        "Stumm schalten"
+        "Aufschieben"
       ],
       "Some images could not be loaded with tracker protection.": [
         "Einige Bilder konnten aufgrund des Tracking-Schutzes nicht geladen werden."
@@ -1084,7 +1084,7 @@
         "Unsortierte Liste"
       ],
       "Unsnooze": [
-        "Stumm aus"
+        "Reaktivieren"
       ],
       "Unstar": [
         "Markierung entfernen"
@@ -1193,7 +1193,16 @@
         "Alias speichern und kopieren"
       ],
       "Toggle security center app": [
-        "Umschalten der Sicherheitszentrale-App"
+        "Umschalten der Sicherheitszentrum-App"
+      ],
+      "Clear application data": [
+        "Anwendungsdaten löschen"
+      ],
+      "Create and copy alias": [
+        "Erstellen und Alias kopieren"
+      ],
+      "Select country": [
+        "Land wählen"
       ]
     },
     "action": {
@@ -3111,7 +3120,7 @@
         "Entwickelt für Benutzer, die ihre Konten besser schützen möchten."
       ],
       "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
-        "Erhalte unbegrenzte Aliasnamen und 500 GB Speicherplatz mit ${ PLAN_NAMES[PLANS.BUNDLE] }"
+        "Erhalte unbegrenzte Aliasse und 500 GB Speicherplatz mit ${ PLAN_NAMES[PLANS.BUNDLE] }"
       ],
       "Set a data recovery method to prevent data loss.": [
         "Lege eine Methode zur Datenwiederherstellung fest, um Datenverluste zu vermeiden."
@@ -3488,7 +3497,7 @@
         "Keine E-Mails zum Importieren vorhanden — das Konto verfügt über keinen Posteingang"
       ],
       "No external key retrieved for user is valid for sending": [
-        "Der für den Benutzer abgerufene externe Schlüssel ist für den Versand ungültig."
+        "Keiner der für den Benutzer abgerufenen externen Schlüssel ist für den Versand gültig."
       ],
       "No valid address found": [
         "Keine gültige E-Mail-Adresse gefunden"
@@ -3714,7 +3723,7 @@
         "Deine Suche ergab zu viele Treffer. Schränke deine Suche ein und versuche es erneut."
       ],
       "Alias is not valid": [
-        "Der Alias ist nicht gültig"
+        "Alias ist ungültig"
       ],
       "Alias is required": [
         "Alias ist erforderlich"
@@ -3723,7 +3732,7 @@
         "Fehler beim Auflösen der Aliasoptionen."
       ],
       "Aliases could not be loaded": [
-        "Aliase konnten nicht geladen werden"
+        "Aliasse konnten nicht geladen werden"
       ],
       "An error occurred while loading alias options": [
         "Beim Laden der Alias-Optionen ist ein Fehler aufgetreten"
@@ -3744,7 +3753,7 @@
         "Der Inhalt des Eintrags darf 40 KB nicht überschreiten."
       ],
       "Name is required": [
-        "Name wird benötigt"
+        "Name ist erforderlich"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4931,8 +4940,8 @@
         "${ elementsCount } Unterhaltungen werden als ungelesen markiert."
       ],
       "${ elementsCount } conversation will be moved": [
-        "${ elementsCount } Unterhaltung wird",
-        "${ elementsCount } Unterhaltungen werden"
+        "${ elementsCount } Unterhaltung wird verschoben",
+        "${ elementsCount } Unterhaltungen werden verschoben"
       ],
       "${ elementsCount } conversation will be unlabelled from:": [
         "Bei ${ elementsCount } Unterhaltung wird die Kategorie entfernt:",
@@ -4951,7 +4960,7 @@
         "${ elementsCount } Nachrichten werden als ungelesen markiert."
       ],
       "${ elementsCount } message will be moved": [
-        "${ elementsCount } Nachricht wird",
+        "${ elementsCount } Nachricht wird verschoben",
         "${ elementsCount } Nachrichten werden"
       ],
       "${ elementsCount } message will be unlabelled from:": [
@@ -5123,7 +5132,7 @@
         "und"
       ],
       "Any scheduled or snoozed messages will be cancelled.": [
-        "Alle geplanten oder im Schlummer-Modus befindlichen Nachrichten werden gelöscht."
+        "Alle geplanten oder aufgeschobenen Nachrichten werden gelöscht."
       ],
       "Any subfolders will also be deleted. However, emails stored in this folder ${ nameDeleted } will not be deleted and can be found in All Mail folder.": [
         "Alle Unterordner werden ebenfalls gelöscht. E-Mails, die im Ordner ${ nameDeleted } gespeichert sind, werden jedoch nicht gelöscht und können im Ordner \"Alle E-Mails\" gefunden werden."
@@ -5860,13 +5869,13 @@
         "SimpleLogin bietet eine einfache Möglichkeit, Anmeldungen auf nicht vertrauenswürdigen Websites von Drittanbietern zu erstellen, auf denen du deine tatsächliche E-Mail-Adresse nicht preisgeben möchtest."
       ],
       "Snoozed until  ${ dateString } at ${ formattedTime }": [
-        "Stumm geschaltet bis zum ${ dateString } um ${ formattedTime }"
+        "Aufgeschoben bis zum ${ dateString } um ${ formattedTime }"
       ],
       "Snoozed until today, ${ formattedTime }": [
-        "Stumm geschaltet bis heute, ${ formattedTime }"
+        "Aufgeschoben bis heute, ${ formattedTime }"
       ],
       "Snoozed until tomorrow, ${ formattedTime }": [
-        "Stumm geschaltet bis morgen, ${ formattedTime }"
+        "Aufgeschoben bis morgen, ${ formattedTime }"
       ],
       "Snoozing this conversation will be cancelled.": [
         "Das Stummschalten dieser Unterhaltung wird abgebrochen."
@@ -6369,6 +6378,15 @@
       ],
       "Warning": [
         "Warnung"
+      ],
+      "Clear app data": [
+        "App-Daten löschen"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Dadurch werden alle mit dieser App verbundenen Daten, einschließlich heruntergeladener Nachrichten."
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Dadurch werden alle mit dieser App verbundenen Daten, einschließlich heruntergeladener Nachrichten, gelöscht. Die App wird neu gestartet und du musst dich erneut anmelden, um die App zu verwenden."
       ]
     },
     "info": {
@@ -6595,6 +6613,9 @@
       ],
       "Star": [
         "Markieren"
+      ],
+      "Filter": [
+        "Filter"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7094,6 +7115,9 @@
       ],
       "Your alias": [
         "Dein Alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "z. B. Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7292,10 +7316,10 @@
         "Kostenlos registrieren"
       ],
       "Snooze": [
-        "Stumm"
+        "Aufgeschoben"
       ],
       "Snoozed": [
-        "Stumm geschaltet"
+        "Aufgeschoben"
       ],
       "Spam": [
         "Spam"
@@ -7647,7 +7671,7 @@
         "Eigene E-Mail-Domains"
       ],
       "Custom snooze time": [
-        "Eigene stumm Zeit"
+        "Eigene Aufschubzeit"
       ],
       "End-to-end encryption": [
         "Ende-zu-Ende-Verschlüsselung"
@@ -7682,7 +7706,7 @@
         "Erhalte unbegrenzte Aliasse mit SimpleLogin von ${ BRAND_NAME }"
       ],
       "Snooze messages and get reminded when you want": [
-        "Stumme die Nachricht und werde daran erinnert wann du möchtest"
+        "Schiebe die Nachricht auf und werde daran erinnert wann du möchtest"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "Der Speicherplatz wird von ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } und ${ DRIVE_APP_NAME } gemeinsam genutzt."
@@ -8173,7 +8197,7 @@
         "Keine Ergebnisse"
       ],
       "No snoozed messages": [
-        "Keine stumm geschalteten Nachrichten"
+        "Keine aufgeschobenen Nachrichten"
       ],
       "No unread messages found": [
         "Keine ungelesenen Nachrichten gefunden"
@@ -8495,7 +8519,7 @@
     },
     "Snooze message": {
       "Snooze Message": [
-        "Stumme die Nachricht"
+        "Nachricht aufschieben"
       ],
       "When should the message reappear in your inbox?": [
         "Wann soll diese Nachricht wieder in deinem Posteingang erscheinen?"
@@ -8741,7 +8765,7 @@
         "Lege mit der neuen Schlummerfunktion fest, wann eine E-Mail wieder in deinem Posteingang angezeigt werden soll."
       ],
       "Snooze it for later": [
-        "Stumm es für später"
+        "Schiebe es auf für später"
       ],
       "Spam and Trash emails are now automatically excluded from All Mail. ${ settingsLink }": [
         "E-Mails im Spam und Papierkorb werden nun automatisch aus \"Alle E-Mails\" ausgeschlossen. ${ settingsLink }"
@@ -8756,7 +8780,7 @@
         "Du kannst jetzt das Versenden deiner Nachrichten zu einem späteren Zeitpunkt planen."
       ],
       "Create hide-my-email aliases and keep track of them here.": [
-        "Erstelle hide-my-email Aliasnamen und behalte sie hier im Auge."
+        "Erstelle Hide-my-email-Aliasse und behalte sie hier im Auge."
       ]
     },
     "Status": {
@@ -8806,13 +8830,13 @@
         "wende dich an deinen Administrator."
       ],
       "To continue uploading and syncing files, free up space or upgrade for more storage.": [
-        "Um weiterhin Dateien hochzuladen und zu synchronisieren, räume etwas Speicherplatz frei oder upgrade für zusätzlichen Speicherplatz."
+        "Um weiterhin Dateien hochzuladen und zu synchronisieren, räume etwas Speicherplatz frei oder führe ein Upgrade durch für zusätzlichen Speicherplatz."
       ],
       "To send or receive emails, free up space or upgrade for more storage.": [
-        "Um weiterhin E-Mails zu senden oder zu empfangen, räume etwas Speicherplatz frei oder upgrade für zusätzlichen Speicherplatz."
+        "Um weiterhin E-Mails zu senden oder zu empfangen, räume etwas Speicherplatz frei oder führe ein Upgrade durch für zusätzlichen Speicherplatz."
       ],
       "upgrade for more storage": [
-        "upgrade für zusätzlichen Speicherplatz."
+        "führe ein Upgrade durch für zusätzlichen Speicherplatz."
       ],
       "Your ${ appStorage } is almost full": [
         "Dein ${ appStorage }-Speicherplatz ist fast voll."
@@ -8840,6 +8864,18 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Dein Speicherplatz ist voll. Um E-Mails zu senden oder zu empfangen, räume etwas Speicherplatz frei oder ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Dein ${ storage } ist zu ${ percentage }% voll. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Dein ${ storage } ist voll. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Dein Speicherplatz ist zu ${ percentage }% voll. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Dein Speicherplatz ist voll. ${ cta }."
       ]
     },
     "Success": {
@@ -8896,8 +8932,8 @@
         "${ elementsCount } Unterhaltungen stumm geschaltet"
       ],
       "${ elementsCount } conversation unsnoozed": [
-        "${ elementsCount } Konversation nicht pausiert",
-        "${ elementsCount } Konversationen nicht pausiert"
+        "${ elementsCount } Unterhaltung reaktiviert",
+        "${ elementsCount } Unterhaltungen reaktiviert"
       ],
       "${ elementsCount } message added to ${ labelName }.": [
         "${ elementsCount } Nachricht zu „${ labelName }“ hinzugefügt.",
@@ -9241,7 +9277,7 @@
         "Ein Filter mit diesem Namen existiert bereits."
       ],
       "Action all conversations": [
-        "Aktion für alle Unterhaltungen ausführen"
+        "Auf alle Unterhaltungen anwenden"
       ],
       "Action all messages": [
         "Aktion für alle Nachrichten ausführen"
@@ -9599,7 +9635,7 @@
         "Eine zum Versenden geplante Nachricht wird verschoben"
       ],
       "Moving a snoozed message": [
-        "Bewege eine stumm geschaltete Nachricht"
+        "Bewege eine aufgeschobene Nachricht"
       ],
       "New message": [
         "Neue Nachricht"
@@ -9743,10 +9779,10 @@
         "Abmelden"
       ],
       "Snooze": [
-        "Stumm schalten"
+        "Aufschieben"
       ],
       "Snooze message": [
-        "Nachricht stumm schalten"
+        "Nachricht aufschieben"
       ],
       "Sort conversations": [
         "Unterhaltungen sortieren"
@@ -9801,7 +9837,7 @@
         "Verifizierungsfehler"
       ],
       "Want to snooze any time?": [
-        "Möchtest du irgendwann Stumm schalten?"
+        "Möchtest du irgendwann aufschieben?"
       ],
       "Warning": [
         "Warnhinweis"
@@ -9844,7 +9880,7 @@
         "2FA aktivieren"
       ],
       "Get advanced protection": [
-        "Erhalte erweiterten Schutz"
+        "Erweiterten Schutz erhalten"
       ],
       "Move all messages to archive": [
         "Alle Nachrichten ins Archiv verschieben"
@@ -9853,13 +9889,16 @@
         "Alle Nachrichten in den Papierkorb verschieben"
       ],
       "Need more aliases?": [
-        "Brauchst du mehr Aliasnamen?"
+        "Brauchst du mehr Aliasse?"
       ],
       "Security center": [
         "Sicherheitszentrum"
       ],
       "Your account is protected": [
         "Dein Konto ist geschützt"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Erhalte die ${ appName[APP_NAME] } Anwendungen"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10333,7 +10372,7 @@
     },
     "Security Center": {
       "All aliases": [
-        "Alle Aliase"
+        "Alle Aliasse"
       ],
       "Create alias": [
         "Alias erstellen"
@@ -10342,7 +10381,7 @@
         "z. B. Amazon, eBay, Etsy"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Generiere Aliase im Handumdrehen und verwalte deine Aliase und Passwörter ganz einfach."
+        "Generiere Aliasse im Handumdrehen und verwalte deine Aliasse und Passwörter ganz einfach."
       ],
       "Get an alias": [
         "Einen Alias erhalten"
@@ -10351,7 +10390,7 @@
         "Hide-my-email-Aliasse"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Mit Hide-my-email-Aliasnamen kannst du dich online für Dinge anmelden, ohne deine E-Mail-Adresse preiszugeben. ${ learnMoreLink }"
+        "Mit Hide-my-email-Aliassen kannst du dich online für Dinge anmelden, ohne deine E-Mail-Adresse preiszugeben. ${ learnMoreLink }"
       ],
       "New alias": [
         "Neuer Alias"
@@ -10367,6 +10406,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Wenn du nach deiner E-Mail-Adresse gefragt wirst, gib stattdessen diesen Alias an. Füge einen Namen und eine Notiz hinzu, damit du weißt, wo du sie verwendest."
+      ],
+      "Create an alias": [
+        "Alias erstellen"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Verwendet auf Amazon für Shopping, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Wenn du nach deiner E-Mail-Adresse gefragt wirst, gib stattdessen diesen Alias an. Füge einen Titel und eine Notiz hinzu, damit du weißt, wo du sie verwendest."
       ]
     },
     "Security Center - Action": {
@@ -10380,6 +10428,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel ist **aktiv** und schützt dein Konto."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Rechnungsland"
       ]
     }
   }

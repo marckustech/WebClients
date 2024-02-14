@@ -1194,6 +1194,12 @@
       ],
       "Save and copy alias": [
         "Spara och kopiera alias"
+      ],
+      "Create and copy alias": [
+        "Skapa och kopiera alias"
+      ],
+      "Select country": [
+        "Välj land"
       ]
     },
     "action": {
@@ -7102,6 +7108,9 @@
       ],
       "Your alias": [
         "Ditt alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "t.ex. Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9878,6 +9887,9 @@
       ],
       "Your account is protected": [
         "Ditt konto är skyddat"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Skaffa appen ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9989,6 +10001,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prova ett kortare användarnamn (max ${ n } antal tecken)",
         "Prova ett kortare användarnamn (max ${ n } antal tecken)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Lösenord måste innehålla minst ${ MIN_PASSWORD_LENGTH } tecken",
+        "Lösenord måste innehålla minst ${ MIN_PASSWORD_LENGTH } tecken"
       ]
     },
     "Video control": {
@@ -10325,6 +10341,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "När du tillfrågas om din e-postadress, ge detta alias istället. Lägg till ett namn och en anteckning för att hålla reda på var du använder det."
+      ],
+      "Create an alias": [
+        "Skapa ett alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Används på Amazon för shopping etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "När du tillfrågas om din e-postadress, ge detta alias istället. Lägg till en rubrik och anteckning för att hålla reda på var du använder den."
       ]
     },
     "Security Center - Action": {
@@ -10338,6 +10363,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel är **aktivt** och skyddar ditt konto."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Faktureringsland"
       ]
     }
   }

@@ -1200,6 +1200,9 @@
       ],
       "Toggle security center app": [
         "Alterna l'app centro sicurezza"
+      ],
+      "Create and copy alias": [
+        "Crea e copia l'alias"
       ]
     },
     "action": {
@@ -7115,6 +7118,9 @@
       ],
       "Your alias": [
         "Il tuo alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "Es. Amazon, eBay, Zalando"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9899,6 +9905,9 @@
       ],
       "Your account is protected": [
         "Il tuo account è protetto"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Ottieni le app ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10010,6 +10019,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prova un nome utente più corto (massimo ${ n } carattere)",
         "Prova un nome utente più corto (massimo ${ n } caratteri)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "La password deve contenere almeno ${ MIN_PASSWORD_LENGTH } carattere",
+        "La password deve contenere almeno ${ MIN_PASSWORD_LENGTH } caratteri"
       ]
     },
     "Video control": {
@@ -10413,6 +10426,15 @@
         "Prova ${ PASS_APP_NAME }"
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
+        "Quando ti viene chiesto il tuo indirizzo email, fornisci invece questo alias. Aggiungi un nome e una nota per tenere traccia di dove lo usi."
+      ],
+      "Create an alias": [
+        "Crea un alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Utilizzato su Amazon per shopping, ecc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Quando ti viene chiesto il tuo indirizzo email, fornisci invece questo alias. Aggiungi un nome e una nota per tenere traccia di dove lo usi."
       ]
     },

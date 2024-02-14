@@ -1206,6 +1206,15 @@
       ],
       "Toggle security center app": [
         "Przełącz centrum zabezpieczeń"
+      ],
+      "Clear application data": [
+        "Wyczyść dane aplikacji"
+      ],
+      "Create and copy alias": [
+        "Utwórz i skopiuj alias"
+      ],
+      "Select country": [
+        "Wybierz kraj"
       ]
     },
     "action": {
@@ -3146,7 +3155,7 @@
         "Ustaw metodę odzyskiwania, aby uniknąć utraty dostępu do konta."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
-        "Uaktualnij swoje konto, aby aktywować ${ PROTON_SENTINEL_NAME }, nasze najnowocześniejsze rozwiązanie bezpieczeństwa oparte na sztucznej inteligencji z dedykowanym wsparciem ekspertów 24/7."
+        "Ulepsz konto, aby włączyć program ${ PROTON_SENTINEL_NAME } — nasze najnowocześniejsze rozwiązanie bezpieczeństwa oparte na sztucznej inteligencji z dedykowanym wsparciem ekspertów 24/7."
       ],
       "Your account and data recovery methods are set and 2FA is enabled.": [
         "Metody odzyskiwania konta i danych oraz uwierzytelnianie dwustopniowe są włączone."
@@ -6603,6 +6612,15 @@
       ],
       "Warning": [
         "Ostrzeżenie"
+      ],
+      "Clear app data": [
+        "Wyczyść dane aplikacji"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Usuwa wszystkie dane powiązane z aplikacją, w tym pobrane wiadomości"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Usuwa wszystkie dane powiązane z aplikacją, w tym pobrane wiadomości. Aplikacja uruchomi się ponownie i konieczne będzie ponowne zalogowanie się, aby móc z niej korzystać."
       ]
     },
     "info": {
@@ -6839,6 +6857,9 @@
       ],
       "Star": [
         "Oznacz gwiazdką"
+      ],
+      "Filter": [
+        "Filtruj"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7338,6 +7359,9 @@
       ],
       "Your alias": [
         "Twój alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "np. Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9137,7 +9161,7 @@
         "Przestrzeń dyskowa ${ app }"
       ],
       "${ storage } ${ percentage }% full": [
-        "${ storage } ${ percentage }% pełna"
+        "${ storage } jest w ${ percentage }% pełna"
       ],
       "To send or receive emails, free up space or upgrade for more storage.": [
         "Zwolnij część miejsca lub ulepsz konto, aby uzyskać większą przestrzeń dyskową."
@@ -9147,6 +9171,24 @@
       ],
       "Your ${ appStorage } is full": [
         "${ appStorage } jest pełna"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Zwolnij część miejsca lub ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Zwolnij część miejsca lub ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "${ storage } jest w ${ percentage }% pełna. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "${ storage } jest pełna. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Przestrzeń dyskowa jest w ${ percentage }% pełna. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Przestrzeń dyskowa jest pełna. ${ cta }."
       ]
     },
     "Success": {
@@ -10253,6 +10295,9 @@
       ],
       "Your account is protected": [
         "Konto jest chronione"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Pobierz aplikacje ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10368,6 +10413,12 @@
         "Użyj krótszej nazwy użytkownika (maksymalnie ${ n } znaki)",
         "Użyj krótszej nazwy użytkownika (maksymalnie ${ n } znaków)",
         "Użyj krótszej nazwy użytkownika (maksymalnie ${ n } znaków)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Hasło musi zawierać co najmniej ${ MIN_PASSWORD_LENGTH } znak",
+        "Hasło musi zawierać co najmniej ${ MIN_PASSWORD_LENGTH } znaki",
+        "Hasło musi zawierać co najmniej ${ MIN_PASSWORD_LENGTH } znaków",
+        "Hasło musi zawierać co najmniej ${ MIN_PASSWORD_LENGTH } znaków"
       ]
     },
     "Video control": {
@@ -10803,7 +10854,7 @@
         "np. Amazon, eBay, Etsy"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Generuj aliasy na bieżąco, i łatwo zarządzaj swoimi aliasami i hasłami."
+        "Generuj aliasy \"w locie\" i zarządzaj aliasami oraz hasłami."
       ],
       "Get an alias": [
         "Uzyskaj alias"
@@ -10812,7 +10863,7 @@
         "Aliasy hide-my-email"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Aliasy hide-my-email pozwalają rejestrować się w Internecie bez udostępniania swojego adresu e-mail. ${ learnMoreLink }"
+        "Aliasy hide-my-email pozwalają zakładać konta online bez udostępniania adresu e-mail. ${ learnMoreLink }"
       ],
       "New alias": [
         "Nowy alias"
@@ -10821,13 +10872,22 @@
         "Otwórz ${ PASS_APP_NAME }"
       ],
       "Protect your online identity": [
-        "Chroń swoją tożsamość w sieci"
+        "Chroń swoją tożsamość online"
       ],
       "Try ${ PASS_APP_NAME }": [
         "Wypróbuj ${ PASS_APP_NAME }"
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Gdy zostaniesz poproszony o podanie adresu e-mail, zamiast tego podaj alias. Dodaj nazwę i notatkę, aby śledzić, gdzie go używasz."
+      ],
+      "Create an alias": [
+        "Utwórz alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Używany w Amazon do zakupów itp."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Użyj aliasu, zamiast swojego adresu e-mail. Dodaj tytuł i notatkę, aby śledzić, gdzie go używasz."
       ]
     },
     "Security Center - Action": {
@@ -10837,10 +10897,15 @@
     },
     "Security Center - Info": {
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
-        "Nasze najnowocześniejsze rozwiązanie bezpieczeństwa oparte na sztucznej inteligencji, przeznaczone dla użytkowników poszukujących zwiększonej ochrony swoich kont. ${ learnMoreLink }"
+        "Nasze najnowocześniejsze rozwiązanie bezpieczeństwa oparte na sztucznej inteligencji zaprojektowane dla użytkowników poszukujących zwiększonej ochrony swoich kont. ${ learnMoreLink }"
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Proton Sentinel jest **włączony** i chroni Twoje konto."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Kraj rozliczeniowy"
       ]
     }
   }

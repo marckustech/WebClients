@@ -1200,6 +1200,9 @@
       ],
       "Toggle security center app": [
         "Alternar app de Centro de seguridad"
+      ],
+      "Create and copy alias": [
+        "Crear y copiar alias"
       ]
     },
     "action": {
@@ -7115,6 +7118,9 @@
       ],
       "Your alias": [
         "Su alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "p. ej., Amazon, eBay, Mercado Libre"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9899,6 +9905,9 @@
       ],
       "Your account is protected": [
         "Su cuenta está protegida"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obtenga las aplicaciones de ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10010,6 +10019,10 @@
       "Try a shorter username (${ n } character max)": [
         "Intente con un nombre de usuario corto (${ n } caracter máx.)",
         "Intente con un nombre de usuario corto (${ n } caracteres máx.)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "La contraseña debe tener al menos ${ MIN_PASSWORD_LENGTH } caracter",
+        "La contraseña debe tener al menos ${ MIN_PASSWORD_LENGTH } caracteres"
       ]
     },
     "Video control": {
@@ -10414,6 +10427,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Cuando se le pregunte por su dirección de correo, brinde este alias en su lugar. Añada un nombre y una nota para monitorear donde lo use."
+      ],
+      "Create an alias": [
+        "Crear un alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado para compras en Amazon, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Cuando se le pregunte por su dirección de correo, brinde este alias en su lugar. Añada un título y una nota para monitorear donde lo use."
       ]
     },
     "Security Center - Action": {

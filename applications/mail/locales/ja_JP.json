@@ -1182,6 +1182,9 @@
       ],
       "Trust key": [
         "鍵を信頼する"
+      ],
+      "Clear application data": [
+        "アプリケーションデータの削除"
       ]
     },
     "action": {
@@ -6254,6 +6257,9 @@
       ],
       "Your message will expire in ${ numberOfDays } day.": [
         "メッセージの有効期限は残り ${ numberOfDays } 日です。"
+      ],
+      "Warning": [
+        "警告"
       ]
     },
     "info": {
@@ -9656,6 +9662,12 @@
       ],
       "We protected you from ${ trackersCount } tracker": [
         "${ trackersCount } 件のトラッカーから保護しました"
+      ],
+      "Get advanced protection": [
+        "高度な保護を入手"
+      ],
+      "Security center": [
+        "セキュリティセンター"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9874,6 +9886,9 @@
       ],
       "You must select at least one mailbox": [
         "少なくとも1つのメールボックスを選択する必要があります。"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "有効期限が MM/YY の形式ではありません"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -10190,6 +10205,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "${ PASS_APP_NAME } をお試しください"
+      ],
+      "Create alias": [
+        "エイリアスを作成"
       ]
     },
     "storage_split: info": {
@@ -10198,6 +10216,11 @@
       ],
       "Your storage is full": [
         "ストレージがいっぱいです"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "ログを表示"
       ]
     }
   }

@@ -1182,6 +1182,9 @@
       ],
       "Not now": [
         "Niet nu"
+      ],
+      "Clear application data": [
+        "Verwijder applicatiegegevens"
       ]
     },
     "action": {
@@ -6197,6 +6200,34 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } gesprek wordt gelabeld als:",
+        "${ elementsCount } gesprekken wordt gelabeld als:"
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "${ elementsCount }gesprek wordt verplaatst",
+        "${ elementsCount }gesprekken worden verplaatst"
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount }gesprek zal niet gelabeld zijn van:",
+        "${ elementsCount }gesprekken zal niet gelabeld zijn van:"
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } bericht wordt als gelezen gemarkeerd.",
+        "${ elementsCount } berichten worden gemarkeerd als gelezen."
+      ],
+      "${ elementsCount } message will be moved": [
+        "${ elementsCount }gesprek wordt verplaatst",
+        "${ elementsCount }berichten worden verplaatst"
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount }bericht wordt ongelabeld van:",
+        "${ elementsCount }berichten wordt ongelabeld van:"
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Je selecteert** ${ elementsCount }bericht**in${ location }",
+        "Je selecteert**${ elementsCount }berichten**in${ location }"
       ]
     },
     "info": {
@@ -7606,6 +7637,15 @@
       ],
       "We stop advertisers and data collectors from profiling you. ${ kbLinkPrivacy }": [
         "We stoppen adverteerders en gegevens verzamelaars om een profiel van u te maken. ${ kbLinkPrivacy }"
+      ],
+      "Automatically forward emails": [
+        "Berichten automatisch doorsturen"
+      ],
+      "Block email communications from scammers permanently. ${ kbLinkSender }": [
+        "Email berichten van oplichters permanent blokkeren. ${ kbLinkSender }"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Gmail berichten automatisch doorsturen naar inbox."
       ]
     },
     "Onboarding Proton": {
@@ -8270,6 +8310,9 @@
     "Snooze message": {
       "Snooze Message": [
         "Bericht snoozen"
+      ],
+      "When should the message reappear in your inbox?": [
+        "Wanneer moet het bericht terugkeren in uw inbox?"
       ]
     },
     "Sort option": {

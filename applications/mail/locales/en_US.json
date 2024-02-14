@@ -111,6 +111,11 @@
       "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
         "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
       ]
+    },
+    "Security Center": {
+      "Used on amazon for shopping, etc.": [
+        "Used on Amazon for shopping, etc."
+      ]
     }
   }
 }

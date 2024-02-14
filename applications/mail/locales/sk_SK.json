@@ -1194,6 +1194,12 @@
       ],
       "Not now": [
         "Teraz nie"
+      ],
+      "Clear application data": [
+        "Vymazať dáta aplikácie"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "K dispozícii je dôležitá aktualizácia. Ak chcete aplikáciu naďalej používať, aktualizujte ju na najnovšiu verziu. ${ downloadUpdate }"
       ]
     },
     "action": {
@@ -3738,6 +3744,12 @@
       ],
       "Item content cannot exceed 40KB": [
         "Obsah položky nesmie presiahnuť 40KB"
+      ],
+      "An error occurred while saving alias": [
+        "Pri ukladaní aliasu došlo k chybe"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Žiadny externý kľúč získaný pre užívateľov nie je platný pre odoslanie"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6516,6 +6528,30 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaše telefónne číslo bude použité iba pre toto jednorazové overenie."
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Všetky naplánované alebo odložené správy budú zrušené."
+      ],
+      "Applying actions to conversations": [
+        "Použitie akcií na konverzácie"
+      ],
+      "Applying actions to messages": [
+        "Použitie akcií na správy"
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Určite chcete všetky správy v tomto umiestnení presunúť do archívu?"
+      ],
+      "Are you sure you want to move all messages in this location to trash?": [
+        "Naozaj chcete všetky správy v tomto umiestnení presunúť do koša?"
+      ],
+      "Important note": [
+        "Dôležitá poznámka"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Prebiehajú akcie správy. To môže chvíľu trvať."
+      ],
+      "Warning": [
+        "Varovanie"
       ]
     },
     "info": {

@@ -1200,6 +1200,9 @@
       ],
       "Toggle security center app": [
         "Activar aplicación del Centro de Seguridad"
+      ],
+      "Create and copy alias": [
+        "Crear y copiar alias"
       ]
     },
     "action": {
@@ -7115,6 +7118,9 @@
       ],
       "Your alias": [
         "Tu alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "por ejemplo; Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9899,6 +9905,9 @@
       ],
       "Your account is protected": [
         "Tu cuenta está protegida."
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obtén las aplicaciones de ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10398,7 +10407,7 @@
         "Alias de Hide-my-email"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Los alias de Hide-my-email para tu correo electrónico te permiten registrarte en cosas en línea sin compartir tu dirección de correo electrónico. ${ learnMoreLink }"
+        "Los alias de hide-my-email te permiten registrarte en sitios sin compartir tu dirección de correo electrónico. ${ learnMoreLink }"
       ],
       "New alias": [
         "Nuevo alias"
@@ -10414,6 +10423,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Cuando te pidan tu dirección de correo electrónico, proporciona este alias en su lugar. Agrega un nombre y una nota para llevar un registro de dónde lo usas."
+      ],
+      "Create an alias": [
+        "Crear un alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado para compras en Amazon, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Cuando te pidan tu dirección de correo electrónico, proporciona este alias en su lugar. Agrega un título y una nota para llevar un registro de dónde lo usas."
       ]
     },
     "Security Center - Action": {

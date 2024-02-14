@@ -1138,6 +1138,12 @@
       ],
       "Not now": [
         "अभी नहीं"
+      ],
+      "Clear application data": [
+        "एप्लिकेशन डेटा साफ़ करें"
+      ],
+      "Clear selection": [
+        "चयन साफ़ करें"
       ]
     },
     "action": {
@@ -3488,13 +3494,16 @@
         "आपकी खोज का मिलान बहुत अधिक परिणामों से हुआ. कृपया अपनी खोज सीमित करें और पुन: प्रयास करें।"
       ],
       "Alias options could not be resolved": [
-        "नकलीनाम ऑप्शन रिज़ॉल्व ना हो सके"
+        "नकली नाम के ऑप्शन रिज़ॉल्व ना हो सके"
       ],
       "Could not open created vault": [
         "बनाए गए तिजोरी को खोल नहीं पा रहे"
       ],
       "Could not open updated vault": [
         "अपडेट किए गए तिजोरी को खोल नहीं पा रहे"
+      ],
+      "Item content cannot exceed 40KB": [
+        "आइटम का कंटेंट 40 केबी से ज़्यादा बड़ा नहीं हो सकता"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3559,6 +3568,9 @@
       ],
       "vCard versions < 3.0 not supported": [
         "vCard संस्करण < 3.0 सपोर्ट नहीं किया जाता"
+      ],
+      "Missing FN property": [
+        "एफएन संपत्ति की कमी"
       ]
     },
     "Error importing contacts": {
@@ -7836,6 +7848,9 @@
       ],
       "Your current storage:": [
         "आपका वर्तमान संग्रहण:"
+      ],
+      "Get more storage": [
+        "अधिक स्टोरेज प्राप्त करें"
       ]
     },
     "Success": {
@@ -8916,7 +8931,22 @@
         "आपका निःशुल्क परीक्षण ${ textDate } को समाप्त होगा। ${ action }"
       ],
       "You must select at least one mailbox": [
-        "आपको कम से कम एक मेलबॉक्स चुनना होगा"
+        "आपको कम-से-कम एक मेलबॉक्स चुनना होगा"
+      ],
+      "Invalid alias prefix": [
+        "नकली नाम का प्रीफिक्स अमान्य"
+      ],
+      "Missing alias prefix": [
+        "नकली नाम का प्रीफिक्स खाली"
+      ],
+      "Missing alias suffix": [
+        "नकली नाम का सफिक्स खाली"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "सिर्फ अल्फाबेट, नंबर, डॉट, हाइफन, और अंडरस्कोर इस्तेमाल कर सकते है"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "नकली नाम का प्रीफिक्स 40 कैरेक्टर से ज़्यादा लंबा नहीं हो सकता"
       ]
     },
     "WeekDay": {

@@ -1206,6 +1206,9 @@
       ],
       "Toggle security center app": [
         "Přepínání aplikace centra zabezpečení"
+      ],
+      "Clear application data": [
+        "Vymazat data aplikace"
       ]
     },
     "action": {
@@ -7329,6 +7332,9 @@
       ],
       "Your alias": [
         "Tvůj alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "například Amazon, eBay"
       ]
     },
     "Label (begin date/advanced search)": {

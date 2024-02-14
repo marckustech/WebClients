@@ -1200,6 +1200,9 @@
       ],
       "Toggle security center app": [
         "Comutare centru de securitate"
+      ],
+      "Clear application data": [
+        "Ștergere date aplicație"
       ]
     },
     "action": {
@@ -7219,6 +7222,9 @@
       ],
       "Your alias": [
         "Aliasuri personale"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "ex. Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {

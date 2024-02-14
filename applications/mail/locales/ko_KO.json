@@ -1203,6 +1203,15 @@
       ],
       "Trust key": [
         "키 신뢰하기"
+      ],
+      "Clear application data": [
+        "어플리케이션 데이터 삭제"
+      ],
+      "Create and copy alias": [
+        "별명 생성 및 복사"
+      ],
+      "Select country": [
+        "국가 선택"
       ]
     },
     "action": {
@@ -3728,7 +3737,7 @@
         "검색 결과가 너무 많습니다. 검색을 제한하고 다시 시도해주세요."
       ],
       "Alias is not valid": [
-        "유효하지 않은 별칭"
+        "유효하지 않은 별명입니다"
       ],
       "Alias is required": [
         "별칭이 필요합니다."
@@ -6597,6 +6606,15 @@
       ],
       "Your message will expire in ${ numberOfDays } day.": [
         "메시지가 ${ numberOfDays } 일에 만료됨."
+      ],
+      "Clear app data": [
+        "앱 데이터 지우기"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "다운로드된 메시지를 포함한 이 앱과 관련된 모든 데이터를 지웁니다"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "이 작업은 다운로드된 메시지를 포함한 이 앱과 연관된 모든 데이터를 지웁니다. 앱이 재시작 되며, 다시 사용하기 위해서는 다시 로그인해야 합니다."
       ]
     },
     "info": {
@@ -6833,6 +6851,9 @@
       ],
       "Star": [
         "별표"
+      ],
+      "Filter": [
+        "필터"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7329,6 +7350,9 @@
       ],
       "Your alias": [
         "내 별칭"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "예: Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -10197,6 +10221,9 @@
       ],
       "Your account is protected": [
         "계정이 보호됩니다."
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "${ appName[APP_NAME] } 앱 받기"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10772,6 +10799,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "이메일 주소에 대한 질문이 들어온다면, 별명을 대신 제공하세요. 어디에서 사용하는지 추적하기 위해 이름과 메모를 추가하세요."
+      ],
+      "Create an alias": [
+        "별명 생성"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "쇼핑을 위해 Amazon에서 사용됨, 기타 등등."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "이메일 주소에 대한 질문이 들어온다면, 별명을 대신 제공하세요. 어디에서 사용하는지 추적하기 위해 이름과 메모를 추가하세요."
       ]
     },
     "Security Center - Action": {
@@ -10814,6 +10850,29 @@
       ],
       "Your storage is full": [
         "저장공간이 꽉 찼습니다"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "이메일을 수발신 하려면, 공간을 비우거나 ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "파일을 업로드 및 동기화하려면, 공간을 비우거나 ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "사용자의 ${ storage }가 ${ percentage }% 찼습니다. ${ cta }"
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "사용자의 ${ storage } 스토리지가 가득 찼습니다. ${ cta }"
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "사용자의 스토리지가 ${ percentage }% 찼습니다. ${ cta }"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "사용자의 스토리지가 가득 찼습니다. ${ cta }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "청구 국가 "
       ]
     }
   }

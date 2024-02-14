@@ -1194,6 +1194,15 @@
       ],
       "Toggle security center app": [
         "Avaa/sulje turvakeskus"
+      ],
+      "Clear application data": [
+        "Tyhjennä sovelluksen tiedot"
+      ],
+      "Create and copy alias": [
+        "Tallenna ja kopioi alias"
+      ],
+      "Select country": [
+        "Valitse maa"
       ]
     },
     "action": {
@@ -6369,6 +6378,15 @@
       ],
       "Warning": [
         "Varoitus"
+      ],
+      "Clear app data": [
+        "Tyhjennä sovellustiedot"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Poistaa kaikki tähän sovellukseen liittyvät tiedot, mukaan lukien ladatut viestit"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Tämä poistaa kaikki tähän sovellukseen liittyvät tiedot, mukaan lukien ladatut viestit. Sovellus käynnistyy uudelleen, ja sinun on kirjauduttava sisään uudelleen, jotta voit käyttää sitä."
       ]
     },
     "info": {
@@ -6595,6 +6613,9 @@
       ],
       "Star": [
         "Lisää/poista tähti"
+      ],
+      "Filter": [
+        "Suodata"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7094,6 +7115,9 @@
       ],
       "Your alias": [
         "Sinun aliaksesi"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "esim. Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -8840,6 +8864,12 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Tallennustilasi on täynnä. Lähettääksesi ja vastaanottaaksesi viestejä, vapauta tilaa tai ${ upgrade }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Lähettääksesi ja vastaanottaaksesi sähköposteja, vapauta tallennustilaa tai ${ upgrade }"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Tallennustilasi on täynnä. ${ cta }."
       ]
     },
     "Success": {
@@ -9860,6 +9890,9 @@
       ],
       "Your account is protected": [
         "Tilisi on suojattu"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Hanki ${ appName[APP_NAME] } -sovellukset"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10367,6 +10400,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Kun sinua pyydetään antamaan sähköpostiosoitteesi, anna sen sijaan tämä alias. Lisää sille nimi ja muistiinpano, jotta voit seurata, missä käytät sitä."
+      ],
+      "Create an alias": [
+        "Luo alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Käytetään Amazonissa ostoksiin jne."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Kun sinua pyydetään antamaan sähköpostiosoitteesi, anna sen sijaan tämä alias. Lisää sille nimi ja muistiinpano, jotta voit seurata, missä käytät sitä."
       ]
     },
     "Security Center - Action": {
@@ -10380,6 +10422,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel on **käytössä** ja suojaa tiliäsi."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Laskutusmaa"
       ]
     }
   }

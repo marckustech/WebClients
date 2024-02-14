@@ -1194,6 +1194,15 @@
       ],
       "Toggle security center app": [
         "Veksle sikkerhetssenter-app"
+      ],
+      "Clear application data": [
+        "Tøm applikasjonsdata"
+      ],
+      "Create and copy alias": [
+        "Opprett og kopier alias"
+      ],
+      "Select country": [
+        "Velg land"
       ]
     },
     "action": {
@@ -6369,6 +6378,15 @@
       ],
       "Warning": [
         "Advarsel"
+      ],
+      "Clear app data": [
+        "Fjern appdata"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Fjerner alle data knyttet til denne appen, inkludert nedlastede meldinger."
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Dette fjerner alle data knyttet til denne appen, inkludert nedlastede meldinger. Appen starter på nytt, og du må logge på igjen for å bruke appen."
       ]
     },
     "info": {
@@ -6595,6 +6613,9 @@
       ],
       "Star": [
         "Stjernemerk"
+      ],
+      "Filter": [
+        "Filter"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7091,6 +7112,12 @@
       ],
       "Your alias": [
         "Ditt alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "f.eks. Amazon, eBay, Etsy"
+      ],
+      "From": [
+        "Fra"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -8837,6 +8864,24 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Lagringsplassen din er full. For å sende eller motta e-post, frigjør plass eller ${ upgrade }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "For å sende eller motta e-post, frigjøre plass eller ${ upgrade }."
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "For å laste opp eller synkronisere filer, frigjør plass eller ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Din ${ storage } er ${ percentage }% full. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Din ${ storage } er full. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Din lagring er ${ percentage }% full. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Din lagring er full. ${ cta }."
       ]
     },
     "Success": {
@@ -9857,6 +9902,9 @@
       ],
       "Your account is protected": [
         "Kontoen din er beskyttet"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Få ${ appName[APP_NAME] }-appene"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9968,6 +10016,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prøv et kortere brukernavn (maks ${ n } tegn)",
         "Prøv et kortere brukernavn (maks ${ n } tegn)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Passord må inneholde minst ${ MIN_PASSWORD_LENGTH } tegn",
+        "Passord må inneholde minst ${ MIN_PASSWORD_LENGTH } tegn"
       ]
     },
     "Video control": {
@@ -10364,6 +10416,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Når du blir bedt om e-postadressen din, gir du dette aliaset i stedet. Legg til et navn og et notat for å holde oversikt over hvor du bruker det."
+      ],
+      "Create an alias": [
+        "Opprett et alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Brukt på Amazon for shopping, og så videre."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Når du blir bedt om e-postadressen din, gir du dette aliaset i stedet. Legg til et navn og et notat for å holde oversikt over hvor du bruker det."
       ]
     },
     "Security Center - Action": {
@@ -10377,6 +10438,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel er **aktiv** og beskytter kontoen din."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Faktureringsland"
       ]
     }
   }

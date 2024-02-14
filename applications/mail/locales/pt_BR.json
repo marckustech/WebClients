@@ -1191,6 +1191,15 @@
       ],
       "Toggle security center app": [
         "Ativar aplicativo da central de segurança"
+      ],
+      "Clear application data": [
+        "Limpar cache do aplicativo"
+      ],
+      "Create and copy alias": [
+        "Criar e copiar alias"
+      ],
+      "Select country": [
+        "Selecionar país"
       ]
     },
     "action": {
@@ -6366,6 +6375,15 @@
       ],
       "Warning": [
         "Alerta"
+      ],
+      "Clear app data": [
+        "Limpar dados do aplicativo"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Remove todos os dados associados com esse aplicativo, incluindo mensagens baixadas"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Isso removerá todos os dados associados com esse aplicativo, incluindo mensagens baixadas. O aplicativo irá reiniciar e você precisará iniciar a sessão novamente para usá-lo."
       ]
     },
     "info": {
@@ -6592,6 +6610,9 @@
       ],
       "Star": [
         "Favorito"
+      ],
+      "Filter": [
+        "Filtro"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7091,6 +7112,9 @@
       ],
       "Your alias": [
         "Seu alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "p. ex., Amazon, eBay, Mercado Livre"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -8819,6 +8843,24 @@
       ],
       "To send or receive emails, free up space or upgrade for more storage.": [
         "Para enviar ou receber e-mails, libere espaço ou atualize para obter mais armazenamento."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Para enviar ou receber e-mails, libere espaço ou ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Para enviar ou sincronizar arquivos, libere espaço ou ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Seu ${ storage } está ${ percentage }% cheio. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Seu ${ storage } está cheio. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Seu armazenamento está ${ percentage }% cheio. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Seu armazenamento está cheio. ${ cta }."
       ]
     },
     "Success": {
@@ -10346,6 +10388,15 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Quando solicitarem seu endereço de e-mail, dê este alias no lugar. Adicione um nome e uma nota para manter um registro de onde você o utiliza."
+      ],
+      "Create an alias": [
+        "Criar um alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado na Amazon para compras, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Quando solicitarem seu endereço de e-mail, dê este alias no lugar. Adicione um nome e uma nota para manter um registro de onde você o usa."
       ]
     },
     "Security Center - Action": {
@@ -10359,6 +10410,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **ativo** e protegendo sua conta."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de Faturamento"
       ]
     }
   }

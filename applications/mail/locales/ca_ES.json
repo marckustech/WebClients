@@ -338,7 +338,7 @@
         "Descarregar ${ attachmentName }"
       ],
       "Download now": [
-        "Descarrega ara"
+        "Descarrega"
       ],
       "Downloading": [
         "S'està descarregant"
@@ -1185,6 +1185,12 @@
       ],
       "Not now": [
         "Ara no"
+      ],
+      "Clear application data": [
+        "Esborra les dades de l'aplicació"
+      ],
+      "Select country": [
+        "Seleccioneu el país"
       ]
     },
     "action": {
@@ -6220,6 +6226,15 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "Clear app data": [
+        "Neteja les dades de l'aplicació"
+      ],
+      "Important note": [
+        "Nota important"
+      ],
+      "Warning": [
+        "Advertència"
       ]
     },
     "info": {
@@ -6446,6 +6461,9 @@
       ],
       "Star": [
         "Destacat"
+      ],
+      "Filter": [
+        "Filtre"
       ]
     },
     "Keyboard shortcut section name": {
@@ -6936,6 +6954,12 @@
       ],
       "Title": [
         "Títol"
+      ],
+      "From": [
+        "De"
+      ],
+      "Your alias": [
+        "El vostre àlies"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9280,10 +9304,10 @@
         "Marca el correu electrònic com a legítim"
       ],
       "Mark messages as read": [
-        "Marcar els missatges com a llegits"
+        "Marca els missatges com a llegits"
       ],
       "Mark messages as unread": [
-        "Marcar els missatges com a no llegits"
+        "Marca els missatges com a no llegits"
       ],
       "Merge contacts": [
         "Combinar contactes"
@@ -9589,6 +9613,9 @@
       ],
       "This field cannot be empty": [
         "Aquest camp no pot estar buit"
+      ],
+      "Enable 2FA": [
+        "Activa l'autenticació 2FA"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10062,18 +10089,32 @@
         "Àlies hide-my-email"
       ],
       "Open ${ PASS_APP_NAME }": [
-        "Obrir ${ PASS_APP_NAME }"
+        "Obri ${ PASS_APP_NAME }"
       ],
       "Try ${ PASS_APP_NAME }": [
         "Proveu ${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "Tots els àlies"
+      ],
+      "Create alias": [
+        "Crea un àlies"
+      ],
+      "New alias": [
+        "Nou àlies"
       ]
     },
     "storage_split: info": {
       "${ app } storage": [
-        "${ app } d'emmagatzematge"
+        "emmagatzematge de ${ app }"
       ],
       "Your storage is full": [
         "L'emmagatzematge és ple."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Mostra els registres"
       ]
     }
   }

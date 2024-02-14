@@ -1197,6 +1197,9 @@
       ],
       "Trust key": [
         "信任金鑰"
+      ],
+      "Clear application data": [
+        "清除應用程式資料"
       ]
     },
     "action": {

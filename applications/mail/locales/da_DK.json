@@ -1188,6 +1188,9 @@
       ],
       "Not now": [
         "Ikke nu"
+      ],
+      "Clear application data": [
+        "Ryd applikationsdata"
       ]
     },
     "action": {
@@ -3097,6 +3100,15 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markere de kontakter til sletning, som du hverken ønsker at flette eller beholde.\nSletning vil kun ske, når der er klikket på fletningsknappen"
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Få ubegrænsede aliasser og 500 GB lagerplads med ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Dine konto- og datagendannelsesmetoder er indstillet, og 2FA er aktiveret."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Dine konto- og datagendannelsesmetoder er indstillet."
       ]
     },
     "description": {
@@ -3694,6 +3706,27 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Ingen ekstern nøgle hentet for brugeren er gyldig til afsendelse"
+      ],
+      "Alias is not valid": [
+        "Alias er ikke gyldigt"
+      ],
+      "Alias is required": [
+        "Alias er påkrævet"
+      ],
+      "Aliases could not be loaded": [
+        "Aliasser kunne ikke indlæses"
+      ],
+      "An error occurred while loading alias options": [
+        "Der opstod en fejl under indlæsning af alias-indstillinger"
+      ],
+      "An error occurred while saving alias": [
+        "En fejl opstod under lagring af alias"
+      ],
+      "Forward address is required": [
+        "Adresse til videresendelse er påkrævet."
+      ],
+      "Name is required": [
+        "Navn er påkrævet"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4509,6 +4542,9 @@
       ],
       "Search": [
         "Søg"
+      ],
+      "Security Center": [
+        "Sikkerhedscenter"
       ]
     },
     "Hint": {
@@ -6300,6 +6336,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Dit telefonnummer vil kun blive anvendt til denne engangsbekræftelse."
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Er du sikker på, at du vil flytte alle beskeder på denne placering til arkivet?"
+      ],
+      "Are you sure you want to move all messages in this location to trash?": [
+        "Er du sikker på, at du vil flytte alle beskeder på denne placering til papirkurven?"
+      ],
+      "Important note": [
+        "Vigtig note"
+      ],
+      "Warning": [
+        "Advarsel"
       ]
     },
     "info": {
@@ -7016,6 +7064,12 @@
       ],
       "Title": [
         "Titel"
+      ],
+      "From": [
+        "Fra"
+      ],
+      "Your alias": [
+        "Dit alias"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -8968,6 +9022,12 @@
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "Alias copied to clipboard": [
+        "Alias kopieret til udklipsholder"
+      ],
+      "Alias saved and copied": [
+        "Alias gemt og kopieret"
       ]
     },
     "Success notification": {
@@ -9705,6 +9765,27 @@
       ],
       "This field cannot contain only spaces": [
         "Dette felt kan ikke kun indeholde mellemrum"
+      ],
+      "Enable 2FA": [
+        "Aktivér 2FA"
+      ],
+      "Get advanced protection": [
+        "Få avanceret beskyttelse"
+      ],
+      "Move all messages to archive": [
+        "Flyt alle beskeder til arkivet"
+      ],
+      "Move all messages to trash": [
+        "Flyt alle beskeder til papirkurven"
+      ],
+      "Need more aliases?": [
+        "Brug for flere aliasser?"
+      ],
+      "Security center": [
+        "Sikkerhedscenter"
+      ],
+      "Your account is protected": [
+        "Din konto er beskyttet"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10185,6 +10266,24 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Prøv ${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "Alle aliasser"
+      ],
+      "Create alias": [
+        "Opret alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generér aliasser på farten, og administrér nemt dine aliasser og adgangskoder."
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email aliasser giver dig mulighed for at tilmelde dig ting online uden at dele din e-mailadresse. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nyt alias"
+      ],
+      "Protect your online identity": [
+        "Beskyt din online-identitet"
       ]
     },
     "storage_split: info": {

@@ -1194,6 +1194,15 @@
       ],
       "Toggle security center app": [
         "უსაფრთხოების ცენტრის აპის გადართვა"
+      ],
+      "Clear application data": [
+        "აპლიკაციის მონაცემების გასუფთავება"
+      ],
+      "Create and copy alias": [
+        "ფსევდონიმის შექმნა და კოპირება"
+      ],
+      "Select country": [
+        "აირჩიეთ ქვეყანა"
       ]
     },
     "action": {
@@ -6369,6 +6378,9 @@
       ],
       "Warning": [
         "გაფრთხილება"
+      ],
+      "Clear app data": [
+        "აპლიკაციის მონაცემთა გასუფთავება"
       ]
     },
     "info": {
@@ -6595,6 +6607,9 @@
       ],
       "Star": [
         "ვარსკვლავი"
+      ],
+      "Filter": [
+        "ფილტრი"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7094,6 +7109,9 @@
       ],
       "Your alias": [
         "თქვენი ფსევდონიმი"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "მაგ Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9813,6 +9831,9 @@
       ],
       "Your account is protected": [
         "თქვენი ანგარიში დაცულია"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "მიიღეთ ${ appName[APP_NAME] } აპები"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10320,6 +10341,12 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "როცა თქვენს ელფოსტის მისამართს გკითხავენ, მათ ეს ფსევდონიმი შეგიძლიათ, მისცეთ. დაამატეთ სახელი და შენიშვნა, რომ გახსოვდეთ, სად გამოიყენეთ ის."
+      ],
+      "Create an alias": [
+        "ფსევდონიმის შექმნა"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "გამოიყენება Amazon-ზე შოპინგისთვის და ა.შ."
       ]
     },
     "Security Center - Action": {
@@ -10362,6 +10389,20 @@
       ],
       "Your storage is full": [
         "თქვენი საცავი სავსეა"
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "თქვენი ${ storage } სავსეა. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "თქვენი საცავი ${ percentage }%-ით სავსეა. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "თქვენი საცავი სავსეა. ${ cta }."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "გადახდის ქვეყანა"
       ]
     }
   }

@@ -636,6 +636,21 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Você não pode enviar arquivos vCards de mais de ${ maxAttachments } contatos",
         "Você não pode enviar arquivos vCards de mais de ${ maxAttachments } contatos"
+      ],
+      "Create and copy alias": [
+        "Criar e copiar alias"
+      ],
+      "Dismiss": [
+        "Descartar"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Atualização importante disponível. Para continuar a usar o aplicativo, atualize para a versão mais recente. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Agora não"
+      ],
+      "Select country": [
+        "Selecionar país"
       ]
     },
     "Action subline": {
@@ -2200,6 +2215,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Você pode marcar para exclusão os contatos que não quer mesclar nem manter. A exclusão somente ocorrerá após o botão de mesclagem ser clicado"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "O 2FA adiciona uma camada extra de segurança, prevenindo acesso não autorizado."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Projetado para usuários que buscam proteção aumentada para suas contas."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Obtenha infinitos aliases e 500 GB de armazenamento com ${ PLAN_NAMES[PLANS.BUNDLE] }"
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Defina um método de recuperação de dados para prevenir a perda dos dados."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Defina um método de recuperação para prevenir a perda de acesso à sua conta."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Faça upgrade na sua conta para ativar ${ PROTON_SENTINEL_NAME }, nossa solução de segurança de última geração orientada por IA, com suporte dedicado de especialistas 24/7."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Sua conta e métodos de recuperação de dados estão definidos, e 2FA está ativado."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Sua conta e métodos de recuperação de dados estão definidos."
       ]
     },
     "description": {
@@ -2732,6 +2771,42 @@
       ],
       "Your import will not be processed.": [
         "Sua importação não será processada."
+      ],
+      "Alias is not valid": [
+        "Alias inválido"
+      ],
+      "Alias is required": [
+        "Um alias é necessário"
+      ],
+      "Alias options could not be resolved": [
+        "Não foi possível resolver as opções de alias."
+      ],
+      "Aliases could not be loaded": [
+        "Não foi possível carregar os alias"
+      ],
+      "An error occurred while loading alias options": [
+        "Ocorreu um erro no carregamento de opções de alias"
+      ],
+      "An error occurred while saving alias": [
+        "Ocorreu um erro ao salvar os alias"
+      ],
+      "Could not open created vault": [
+        "Não foi possível abrir o cofre criado"
+      ],
+      "Could not open updated vault": [
+        "Não foi possível abrir o cofre atualizado"
+      ],
+      "Forward address is required": [
+        "O endereço de encaminhamento é obrigatório"
+      ],
+      "Item content cannot exceed 40KB": [
+        "O conteúdo do item não pode exceder 40KB"
+      ],
+      "Name is required": [
+        "Nome é necessário"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Nenhuma chave externa recuperada para o usuário é válida para envio"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3292,6 +3367,9 @@
       ],
       "Search": [
         "Pesquisar"
+      ],
+      "Security Center": [
+        "Central de segurança"
       ]
     },
     "Hint": {
@@ -4315,6 +4393,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "O fuso horário de seu sistema parece ter mudado para ${ timezone }. Você deseja atualizar suas preferências de fuso horário?"
+      ],
+      "Important note": [
+        "Observação importante"
+      ],
+      "Warning": [
+        "Alerta"
       ]
     },
     "info": {
@@ -4770,6 +4854,21 @@
       ],
       "Your password (admin)": [
         "Sua senha (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "p. ex., Amazon, eBay, Mercado Livre"
+      ],
+      "Forwards to": [
+        "Encaminhar para"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "Title": [
+        "Título"
+      ],
+      "Your alias": [
+        "Seu alias"
       ]
     },
     "Label for contact group color": {
@@ -5253,6 +5352,12 @@
       ],
       "Link copied to clipboard": [
         "Link copiado para área de transferência"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME }foi desativado"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME }foi ativado"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5548,6 +5653,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Recomendamos que você \"desconfie\" dessa chave."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Chave externa obtida automaticamente em keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Chave externa obtida automaticamente via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Esta chave é usada para criptografar mensagens para este contato"
       ]
     },
     "PGP key warning": {
@@ -6221,6 +6335,27 @@
       ],
       "Your storage is full": [
         "Seu armazenamento está cheio"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% cheio"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Para enviar ou receber e-mails, libere espaço ou ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Para enviar ou sincronizar arquivos, libere espaço ou ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Seu ${ storage } está ${ percentage }% cheio. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Seu ${ storage } está cheio. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Seu armazenamento está ${ percentage }% cheio. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Seu armazenamento está cheio. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6380,6 +6515,12 @@
       ],
       "Verification successful": [
         "Verificado com sucesso"
+      ],
+      "Alias copied to clipboard": [
+        "Alias copiado para a área de transferência"
+      ],
+      "Alias saved and copied": [
+        "Alias salvo e copiado"
       ]
     },
     "Success notification when user send feedback": {
@@ -6863,6 +7004,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Account recovery": [
+        "Recuperação de conta"
+      ],
+      "Account security": [
+        "Segurança da conta"
+      ],
+      "Data recovery": [
+        "Recuperação de dados"
+      ],
+      "Enable 2FA": [
+        "Ativar A2F"
+      ],
+      "Get advanced protection": [
+        "Obter proteção avançada"
+      ],
+      "Need more aliases?": [
+        "Precisa de mais aliases?"
+      ],
+      "Save": [
+        "Salvar"
+      ],
+      "Security center": [
+        "Central de segurança"
+      ],
+      "Your account is protected": [
+        "Sua conta está protegida"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7054,6 +7222,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Sua avaliação gratuita termina em ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "A data de expiração não está no formato MM/AA"
+      ],
+      "Invalid alias prefix": [
+        "O prefixo de alias não é valido."
+      ],
+      "Missing alias prefix": [
+        "Faltando prefixo de alias"
+      ],
+      "Missing alias suffix": [
+        "Faltando sufixo de alias"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Somente caracteres alfanuméricos, pontos, hifens e sublinhados são permitidos"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "O prefixo do alias não pode ter mais de 40 caracteres"
+      ],
+      "You must select at least one mailbox": [
+        "Você deve selecionar pelo menos uma caixa de correio"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7307,6 +7496,62 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de Faturamento"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Todos os aliases"
+      ],
+      "Create alias": [
+        "Criar alias"
+      ],
+      "Create an alias": [
+        "Criar um alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Gere aliases na hora, e gerencie seus aliases e senhas facilmente."
+      ],
+      "Hide-my-email aliases": [
+        "Aliases do hide-my-email"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Aliases Hide-my-email deixam você criar contas online sem compartilhar seu endereço de e-mail. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Novo alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Abrir ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Proteja sua identidade online"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Experimente o ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado na Amazon para compras, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Quando solicitarem seu endereço de e-mail, dê este alias no lugar. Adicione um nome e uma nota para manter um registro de onde você o usa."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Visualizar registros"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Nossa solução de segurança de última geração orientada por IA, projetada para usuários que buscam proteção aumentada para suas contas. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel está **ativo** e protegendo sua conta."
       ]
     }
   }

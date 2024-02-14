@@ -524,6 +524,12 @@
       ],
       "Yes, I'll attend": [
         "Da, prisustvovati ću"
+      ],
+      "Dismiss": [
+        "Odbaci"
+      ],
+      "Not now": [
+        "Ne sada"
       ]
     },
     "Actions message": {
@@ -2657,6 +2663,9 @@
     "Import instructions": {
       "Go to ${ boldAccountSecurity }.": [
         "Idi na ${ boldAccountSecurity }"
+      ],
+      "Select ${ boldExportCSV }.": [
+        "Odaberite ${ boldExportCSV }."
       ]
     },
     "Import instructions emphasis": {
@@ -3512,6 +3521,12 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "Note": [
+        "Bilješka"
+      ],
+      "Title": [
+        "Naslov"
       ]
     },
     "Label for contact group color": {
@@ -3825,6 +3840,12 @@
       ],
       "Contact group updated": [
         "Kontaktna grupa je ažurirana"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } je onemogućen."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } je omogućen."
       ]
     },
     "Notification in holidays calendar modal": {
@@ -4959,6 +4980,15 @@
       ],
       "You have invited participants with equivalent emails": [
         "Pozvali ste sudionike s istom adresom e-pošte"
+      ],
+      "Account recovery": [
+        "Oporavak računa"
+      ],
+      "Account security": [
+        "Sigurnost računa"
+      ],
+      "Data recovery": [
+        "Povrat podataka"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -5348,6 +5378,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Open ${ PASS_APP_NAME }": [
+        "Otvori ${ PASS_APP_NAME }"
+      ]
+    },
+    "View event button tooltip": {
+      "Open in a new tab": [
+        "Otvori u novoj kartici"
       ]
     }
   }

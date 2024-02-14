@@ -630,6 +630,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contacto.",
         "Não pode enviar ficheiros vCard de mais de ${ maxAttachments } contactos."
+      ],
+      "Dismiss": [
+        "Descartar"
       ]
     },
     "Action subline": {
@@ -2635,6 +2638,18 @@
       ],
       "Your import will not be processed.": [
         "A sua importação não será processada."
+      ],
+      "Alias options could not be resolved": [
+        "Não foi possível resolver as opções de alias."
+      ],
+      "Could not open created vault": [
+        "Não foi possível abrir o cofre criado"
+      ],
+      "Could not open updated vault": [
+        "Não foi possível abrir o cofre actualizado"
+      ],
+      "Item content cannot exceed 40KB": [
+        "O conteúdo do item não pode exceder 40 KB."
       ]
     },
     "Error accepting calendar invitation": {
@@ -4659,6 +4674,15 @@
       ],
       "Your password (admin)": [
         "A sua palavra-passe (admin)"
+      ],
+      "Forwards to": [
+        "Encaminha para"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "Title": [
+        "Título"
       ]
     },
     "Label for contact group color": {
@@ -5136,6 +5160,12 @@
       ],
       "Link copied to clipboard": [
         "Ligação copiada para a área de transferência"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } foi desativado"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } foi ativado"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6683,6 +6713,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
+      ],
+      "Account recovery": [
+        "Recuperação de conta"
+      ],
+      "Account security": [
+        "Segurança da conta"
+      ],
+      "Data recovery": [
+        "Recuperação de dados"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6871,6 +6910,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "O seu teste gratuito termina em ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Prefixo de alias inválido"
+      ],
+      "Missing alias prefix": [
+        "Prefixo de alias em falta"
+      ],
+      "Missing alias suffix": [
+        "Sufixo de alias em falta"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Só são permitidos caracteres alfanuméricos, pontos, hífenes e sublinhados"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "O prefixo do alias não pode ter mais de 40 caracteres"
+      ],
+      "You must select at least one mailbox": [
+        "É necessário selecionar pelo menos uma caixa de correio"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7124,6 +7181,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Pseudónimos hide-my-email"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Abrir ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Experimente o ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } de armazenamento"
+      ],
+      "Your storage is full": [
+        "O seu armazenamento está cheio"
       ]
     }
   }

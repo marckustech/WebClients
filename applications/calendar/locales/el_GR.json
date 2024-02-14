@@ -633,6 +633,24 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Δεν μπορείτε να στείλετε αρχεία vCard για περισσότερη από ${ maxAttachments } επαφή",
         "Δεν μπορείτε να στείλετε αρχεία vCard για περισσότερες από ${ maxAttachments } επαφές"
+      ],
+      "Create and copy alias": [
+        "Δημιουργία και αντιγραφή ψευδωνύμου"
+      ],
+      "Dismiss": [
+        "Παράβλεψη"
+      ],
+      "Download now": [
+        "Λήψη"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Μια σημαντική ενημέρωση είναι διαθέσιμη. Για να συνεχίσετε να χρησιμοποιείτε την εφαρμογή, παρακαλούμε ενημερώστε στην πιο πρόσφατη έκδοση. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Όχι τώρα"
+      ],
+      "Select country": [
+        "Επιλογή χώρας"
       ]
     },
     "Action subline": {
@@ -2197,6 +2215,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Μπορείτε να επισημάνετε για διαγραφή τις επαφές που δεν θέλετε να συγχωνεύσετε ούτε να διατηρήσετε. Η διαγραφή θα πραγματοποιηθεί μόνο αφού πατηθεί το κουμπί συγχώνευσης"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "Το 2FA προσθέτει ένα επιπλέον επίπεδο ασφαλείας, αποτρέποντας τη μη εξουσιοδοτημένη πρόσβαση."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Σχεδιασμένο για χρήστες που αναζητούν αυξημένη προστασία για τους λογαριασμούς τους."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Αποκτήστε απεριόριστα ψευδώνυμα και 500 GB αποθηκευτικού χώρου με ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Ορίστε μια μέθοδο ανάκτησης δεδομένων για να αποτρέψετε την απώλεια δεδομένων."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Ορίστε μια μέθοδο ανάκτησης, για να αποτρέψετε την απώλεια πρόσβασης στον λογαριασμό σας."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Αναβαθμίστε τον λογαριασμό σας για να ενεργοποιήσετε το ${ PROTON_SENTINEL_NAME }, την πρωτοποριακή λύση ασφάλειας που βασίζεται στην τεχνητή νοημοσύνη με αποκλειστική 24/7 εξειδικευμένη υποστήριξη."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Οι μέθοδοι ανάκτησης του λογαριασμού και των δεδομένων σας έχουν οριστεί και το 2FA είναι ενεργοποιημένο."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Οι μέθοδοι ανάκτησης του λογαριασμού και των δεδομένων σας έχουν οριστεί."
       ]
     },
     "description": {
@@ -2729,6 +2771,42 @@
       ],
       "Your import will not be processed.": [
         "Η εισαγωγή σας δεν θα υποβληθεί σε επεξεργασία."
+      ],
+      "Alias is not valid": [
+        "Το ψευδώνυμο δεν είναι έγκυρο"
+      ],
+      "Alias is required": [
+        "Απαιτείται ψευδώνυμο"
+      ],
+      "Alias options could not be resolved": [
+        "Δεν ήταν δυνατή η επίλυση των επιλογών ψευδωνύμου"
+      ],
+      "Aliases could not be loaded": [
+        "Τα ψευδώνυμα δεν μπορούν να φορτωθούν"
+      ],
+      "An error occurred while loading alias options": [
+        "Παρουσιάστηκε σφάλμα κατά τη φόρτωση επιλογών ψευδωνύμου"
+      ],
+      "An error occurred while saving alias": [
+        "Παρουσιάστηκε σφάλμα κατά την αποθήκευση του ψευδώνυμου."
+      ],
+      "Could not open created vault": [
+        "Δεν ήταν δυνατό το άνοιγμα της δημιουργημένης κρύπτης"
+      ],
+      "Could not open updated vault": [
+        "Δεν ήταν δυνατό το άνοιγμα της ενημερωμένης κρύπτης"
+      ],
+      "Forward address is required": [
+        "Απαιτείται η διεύθυνση προώθησης"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Το περιεχόμενο του στοιχείου δεν μπορεί να υπερβαίνει τα 40KB"
+      ],
+      "Name is required": [
+        "Απαιτείται όνομα"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Κανένα εξωτερικό κλειδί που ανακτάται για το χρήστη δεν είναι έγκυρο για την αποστολή"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3289,6 +3367,9 @@
       ],
       "Search": [
         "Αναζήτηση"
+      ],
+      "Security Center": [
+        "Κέντρο Ασφαλείας"
       ]
     },
     "Hint": {
@@ -4312,6 +4393,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Η ζώνη ώρας του συστήματός σας φαίνεται να έχει αλλάξει σε ${ timezone }. Θέλετε να ενημερώσετε τις προτιμήσεις ζώνης ώρας;"
+      ],
+      "Important note": [
+        "Σημαντική σημείωση"
+      ],
+      "Warning": [
+        "Προειδοποίηση"
       ]
     },
     "info": {
@@ -4767,6 +4854,21 @@
       ],
       "Your password (admin)": [
         "Ο κωδικός σας (διαχειριστής)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "π.χ., Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Προώθηση σε"
+      ],
+      "Note": [
+        "Σημείωση"
+      ],
+      "Title": [
+        "Τίτλος"
+      ],
+      "Your alias": [
+        "Το ψευδώνυμο σας"
       ]
     },
     "Label for contact group color": {
@@ -5250,6 +5352,12 @@
       ],
       "Link copied to clipboard": [
         "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } έχει απενεργοποιηθεί"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } έχει ενεργοποιηθεί"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5545,6 +5653,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Συνιστάται να \"μην εμπιστεύεστε\" αυτό το κλειδί."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Εξωτερικό κλειδί που λήφθηκε αυτόματα από το keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Εξωτερικό κλειδί που λαμβάνεται αυτόματα μέσω WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Αυτό το κλειδί χρησιμοποιείται για την κρυπτογράφηση μηνυμάτων σε αυτήν την επαφή"
       ]
     },
     "PGP key warning": {
@@ -6357,6 +6474,12 @@
       ],
       "Verification successful": [
         "Επιτυχία επαλήθευσης"
+      ],
+      "Alias copied to clipboard": [
+        "Το ψευδώνυμο αντιγράφηκε στο πρόχειρο"
+      ],
+      "Alias saved and copied": [
+        "Το ψευδώνυμο αποθηκεύτηκε και αντιγράφηκε"
       ]
     },
     "Success notification when user send feedback": {
@@ -6840,6 +6963,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Η δωρεάν δοκιμή του Mail Plus λήγει στις ${ textDate }"
+      ],
+      "Account recovery": [
+        "Ανάκτηση λογαριασμού"
+      ],
+      "Account security": [
+        "Διασφάλιση λογαριασμού"
+      ],
+      "Data recovery": [
+        "Ανάκτηση δεδομένων"
+      ],
+      "Enable 2FA": [
+        "Ενεργοποίηση 2FA"
+      ],
+      "Get advanced protection": [
+        "Αποκτήστε προηγμένη προστασία"
+      ],
+      "Need more aliases?": [
+        "Χρειάζεστε περισσότερα ψευδώνυμα;"
+      ],
+      "Save": [
+        "Αποθήκευση"
+      ],
+      "Security center": [
+        "Κέντρο ασφαλείας"
+      ],
+      "Your account is protected": [
+        "Ο λογαριασμός σας προστατεύεται"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7031,6 +7181,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Η δωρεάν δοκιμή σας λήγει στις ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Η ημερομηνία λήξης δεν έχει τη μορφή ΜΜ/ΕΕ"
+      ],
+      "Invalid alias prefix": [
+        "Μην έγκυρο πρόθεμα ψευδωνύμου"
+      ],
+      "Missing alias prefix": [
+        "Λείπει το πρόθεμα ψευδωνύμου"
+      ],
+      "Missing alias suffix": [
+        "Λείπει το επίθημα ψευδωνύμου"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Επιτρέπονται μόνο αλφαριθμητικοί χαρακτήρες, τελείες, παύλες και παύλες υπογράμμισης"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Το πρόθεμα ψευδωνύμου δεν μπορεί να υπερβαίνει τους 40 χαρακτήρες"
+      ],
+      "You must select at least one mailbox": [
+        "Πρέπει να επιλέξετε τουλάχιστον ένα γραμματοκιβώτιο"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7284,6 +7455,103 @@
       ],
       "Yearly, ${ untilString }": [
         "Ετησίως, ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Χώρα χρέωσης"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Όλα τα ψευδώνυμα"
+      ],
+      "Create alias": [
+        "Δημιουργία ψευδώνυμου"
+      ],
+      "Create an alias": [
+        "Δημιουργία ψευδωνύμου"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Δημιουργήστε ψευδώνυμα εν κινήσει και διαχειριστείτε εύκολα τα ψευδώνυμα και τους κωδικούς πρόσβασής σας."
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email ψευδώνυμα"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Τα ψευδώνυμα Hide-my-email σάς επιτρέπουν να εγγράφεστε για πράγματα στο διαδίκτυο χωρίς να μοιράζεστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Νέο ψευδώνυμο"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Άνοιγμα ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Προστατέψτε την ηλεκτρονική σας ταυτότητα"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Δοκιμάστε το ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Χρησιμοποιείται στο Amazon για ψώνια κ.λπ."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Όταν σας ζητηθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου σας, δώστε αυτό το ψευδώνυμο. Προσθέστε έναν τίτλο και μια σημείωση για να παρακολουθείτε πού τα χρησιμοποιείτε."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Προβολή αρχείων καταγραφής"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Η πρωτοποριακή μας λύση ασφάλειας με γνώμονα την τεχνητή νοημοσύνη, σχεδιασμένη για χρήστες που αναζητούν αυξημένη προστασία για τους λογαριασμούς τους. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Το Sentinel είναι **ενεργό** και προστατεύει τον λογαριασμό σας."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } αποθηκευτικού χώρου"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% γεμάτος"
+      ],
+      "contact your administrator": [
+        "επικοινωνήστε με το διαχειριστή σας"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Για να στείλετε ή να λάβετε μηνύματα ηλεκτρονικού ταχυδρομείου, ελευθερώστε χώρο ή ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Για να ανεβάσετε ή να συγχρονίσετε αρχεία, ελευθερώστε χώρο ή ${ upgrade }"
+      ],
+      "upgrade for more storage": [
+        "αναβάθμιση για περισσότερο χώρο αποθήκευσης"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ο ${ appStorage } είναι σχεδόν γεμάτος"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ο ${ appStorage } είναι γεμάτος"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ο ${ storage } είναι ${ percentage }% γεμάτος. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ο ${ storage } είναι γεμάτος. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ο αποθηκευτικός σας χώρος είναι ${ percentage }% γεμάτος. ${ cta }."
+      ],
+      "Your storage is full": [
+        "Ο αποθηκευτικός σας χώρος είναι πλήρης"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ο αποθηκευτικός σας χώρος είναι γεμάτος. ${ cta }."
       ]
     }
   }

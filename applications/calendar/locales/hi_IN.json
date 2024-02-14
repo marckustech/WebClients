@@ -604,6 +604,18 @@
       ],
       "Yes, I'll attend": [
         "हां, हम भाग लेंगे"
+      ],
+      "Dismiss": [
+        "रद्द करें"
+      ],
+      "Not now": [
+        "अभी नहीं"
+      ],
+      "Pause indexing": [
+        "सूचीकरण को रोकें"
+      ],
+      "Resume indexing": [
+        "सूचीकरण फिर से शुरू करें"
       ]
     },
     "Action subline": {
@@ -1025,6 +1037,9 @@
     "Calendar view selector": {
       "Change time range to": [
         "समय रेंज को इसमे बदलें"
+      ],
+      "Change time range": [
+        "समय सीमा बदलें"
       ]
     },
     "Calendar view; more events collapsed": {
@@ -2109,6 +2124,12 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "आप उन संपर्कों को हटाने के लिए चिह्नित कर सकते हैं जिन्हें आप न तो विलय करने के लिए नहीं चाहते हैं और न ही रखने के लिए। विलय बटन क्लिक करने के बाद ही हटाना होगा"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "अपनी दक्षता को बढ़ावा देने और अपने समय को ट्रैक करने के लिए कार्यक्रम को विभाग या अपने ऊर्जा स्तर के अनुसार रंग-कोड करें। एक पेड योजना के साथ यह सब और बहुत कुछ मिलेगा।"
+      ],
+      "This can take a few minutes. Meanwhile, you can continue using Calendar as usual.": [
+        "यह कुछ क्षण ले सकता है। इस बीच आप कैलेंडर का उपयोग सामान्य रूप से जारी रख सकते हैं।"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2581,6 +2602,24 @@
       ],
       "Your import will not be processed.": [
         "आपका आयात संसाधित नहीं किया जाएगा।"
+      ],
+      "Alias options could not be resolved": [
+        "नकली नाम के ऑप्शन रिज़ॉल्व ना हो सके"
+      ],
+      "Could not open created vault": [
+        "बनाए गए तिजोरी को खोल नहीं पा रहे"
+      ],
+      "Could not open updated vault": [
+        "अपडेट किए गए तिजोरी को खोल नहीं पा रहे"
+      ],
+      "Failed to get event": [
+        "कार्यक्रम प्राप्त करने में विफलता हुई"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "इस प्राप्तकर्ता के साथ कैलेंडर साझा नहीं किया जा सकता"
+      ],
+      "Item content cannot exceed 40KB": [
+        "आइटम का कंटेंट 40 केबी से ज़्यादा बड़ा नहीं हो सकता"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2627,6 +2666,9 @@
       ],
       "vCard versions < 3.0 not supported": [
         "vCard संस्करण < 3.0 सपोर्ट नहीं किया जाता"
+      ],
+      "Missing FN property": [
+        "एफएन संपत्ति की कमी"
       ]
     },
     "Error importing contacts": {
@@ -2802,6 +2844,10 @@
     "Event info in search view; event duration": {
       "All day": [
         "पूरे दिन"
+      ],
+      "All day, lasts ${ plusDaysToEnd } day": [
+        "पूरे दिन, ${ plusDaysToEnd } दिन तक",
+        "पूरे दिन, ${ plusDaysToEnd } दिनों तक"
       ]
     },
     "Event info. Organizer name": {
@@ -3017,6 +3063,9 @@
     "Font face option": {
       "System default": [
         "सिस्टम डिफॉल्ट"
+      ],
+      "Theme font": [
+        "थीम फ़ॉन्ट"
       ]
     },
     "Font size option": {
@@ -4035,6 +4084,15 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "आपका सिस्टम समय क्षेत्र ${ timezone } में बदल गया है। अपने समय क्षेत्र पसंद को अपडेट करें?"
+      ],
+      "All participants will get a cancellation email. Which event would you like to delete?": [
+        "सभी प्रतिभागियों को एक रद्दीकरण ईमेल मिलेगा। आप कौन सा कार्यक्रम हटाना चाहेंगे?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "${ Name } के लिए कार्यक्रम प्रदर्शित करें"
+      ],
+      "Indexing events: ${ current }/${ total }": [
+        "कार्यक्रमों का सूचीकरण: ${ current }/${ total }"
       ]
     },
     "Info message": {
@@ -4474,6 +4532,18 @@
       ],
       "Your password (admin)": [
         "आपका पासवर्ड (व्यवस्थापक)"
+      ],
+      "Forwards to": [
+        "इधर फॉरवर्ड होगा"
+      ],
+      "Note": [
+        "नोट"
+      ],
+      "Secondary": [
+        "द्वितीयक"
+      ],
+      "Title": [
+        "टाइटल"
       ]
     },
     "Label for contact group color": {
@@ -4685,6 +4755,9 @@
       ],
       "Time zone changed": [
         "समय क्षेत्र बदला गया"
+      ],
+      "Get a country's official public holidays calendar.": [
+        "किसी भी देश की आधिकारिक सार्वजनिक छुट्टियों का कैलेंडर प्राप्त करें।"
       ]
     },
     "Modal title and action": {
@@ -4944,6 +5017,9 @@
       ],
       "Calendar updated": [
         "कैलेंडर अपडेट किया गया"
+      ],
+      "Adding holidays calendar failed": [
+        "छुट्टियों का कैलेंडर जोड़ने में विफल हुए।"
       ]
     },
     "Notification in share calendar modal": {
@@ -5180,6 +5256,9 @@
       "Year": [
         "साल",
         "साल"
+      ],
+      "Auto": [
+        "स्वचालित"
       ]
     },
     "Option group label": {
@@ -5292,6 +5371,12 @@
       ],
       "Start typing an email address": [
         "ईमेल पता लिखना शुरू करें"
+      ],
+      "Indexing...": [
+        "सूचीकरण हो रहा है..."
+      ],
+      "Search events": [
+        "कार्यक्रम खोजें"
       ]
     },
     "Placeholder for contact group name": {
@@ -5380,6 +5465,9 @@
     "Select search results": {
       "No results found": [
         "कोई परिणाम नहीं मिला"
+      ],
+      "Check your spelling or select a country from the list.": [
+        "अपनी वर्तनी जांचें या सूची से एक देश का चयन करें।"
       ]
     },
     "session_recovery:available:action": {
@@ -5705,6 +5793,18 @@
       ],
       "Search for events": [
         "इवेंट खोजें"
+      ],
+      "Add your country's public holidays to your calendar.": [
+        "अपने कैलेंडर में अपने देश की सार्वजनिक छुट्टियों को जोड़ें।"
+      ],
+      "Color-coding is here!": [
+        "रंग कोडिंग यहाँ है!"
+      ],
+      "Easily find the event you're looking for with our new search feature.": [
+        "हमारी नई खोज सुविधा के साथ आसानी से वह कार्यक्रम खोजें जिसे आप खोज रहे हैं।"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "अनुकूलित कार्यक्रम रंगों के साथ, आप अपने क्रियाकर्मों को रंग कोड कर सकते हैं और अपने दिन को जीत सकते हैं।"
       ]
     },
     "Storage": {
@@ -6337,6 +6437,24 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "आपका Mail Plus ट्रायल ${ textDate } को खत्म होगा"
+      ],
+      "Account recovery": [
+        "खाता पुनर्प्राप्ति"
+      ],
+      "Account security": [
+        "खाते की सुरक्षा"
+      ],
+      "Add some color to your day": [
+        "अपने दिन में कुछ रंग भर दें"
+      ],
+      "Data recovery": [
+        "डेटा पुनर्प्राप्ति"
+      ],
+      "Save": [
+        "सहेजें"
+      ],
+      "We're setting up Calendar search": [
+        "हम कैलेंडर खोज को व्यवस्थित कर रहे हैं"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6447,6 +6565,9 @@
     "View event button tooltip": {
       "Open in a new tab": [
         "नए टैब में खोलें"
+      ],
+      "Navigate to event": [
+        "कार्यक्रम पे जाए"
       ]
     },
     "Warning": {
@@ -6513,6 +6634,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "आपका निःशुल्क परीक्षण ${ textDate } को समाप्त होगा। ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "नकली नाम का प्रीफिक्स अमान्य"
+      ],
+      "Missing alias prefix": [
+        "नकली नाम का प्रीफिक्स खाली"
+      ],
+      "Missing alias suffix": [
+        "नकली नाम का सफिक्स खाली"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "सिर्फ अल्फाबेट, नंबर, डॉट, हाइफन, और अंडरस्कोर इस्तेमाल कर सकते है"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "नकली नाम का प्रीफिक्स 40 कैरेक्टर से ज़्यादा लंबा नहीं हो सकता"
+      ],
+      "You must select at least one mailbox": [
+        "आपको कम-से-कम एक मेलबॉक्स चुनना होगा"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -6762,6 +6901,45 @@
       ],
       "Yearly, ${ untilString }": [
         "वार्षिक, ${ untilString }"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "उत्तर बदलने में त्रुटि"
+      ]
+    },
+    "esCalendar": {
+      "No result": [
+        "कोई परिणाम नहीं"
+      ],
+      "Results": [
+        "परिणाम"
+      ]
+    },
+    "Info calendar search": {
+      "You can either update your search query or close search to go back to calendar views": [
+        "आप या तो अपने खोज क्वेरी को अपडेट कर सकते हैं या खोज को बंद करके कैलेंडर दृश्य में वापस जा सकते हैं"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email नकलीनाम"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } खोलें"
+      ]
+    },
+    "Shared calendar; Info about calendar owner": {
+      "Shared by ${ ownerName }": [
+        "${ ownerName } द्वारा साझा किया गया"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } स्टोरेज"
+      ],
+      "Your storage is full": [
+        "आपका स्टोरेज भरा है"
       ]
     }
   }

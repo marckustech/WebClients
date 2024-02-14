@@ -633,6 +633,18 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan ikke sende vCard filer på flere end ${ maxAttachments } kontaktperson",
         "Du kan ikke sende vCard filer på flere end ${ maxAttachments } kontaktpersoner"
+      ],
+      "Dismiss": [
+        "Afvis"
+      ],
+      "Download now": [
+        "Download nu"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Vigtig opdatering tilgængelig. For fortsat at kunne bruge appen, bedes du opdatere til den nyeste version. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Ikke nu"
       ]
     },
     "Action subline": {
@@ -2197,6 +2209,15 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markere de kontakter til sletning, som du hverken ønsker at flette eller beholde.\nSletning vil kun ske, når der er klikket på fletningsknappen"
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Få ubegrænsede aliasser og 500 GB lagerplads med ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Dine konto- og datagendannelsesmetoder er indstillet, og 2FA er aktiveret."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Dine konto- og datagendannelsesmetoder er indstillet."
       ]
     },
     "description": {
@@ -2729,6 +2750,42 @@
       ],
       "Your import will not be processed.": [
         "Din import vil ikke blive behandlet."
+      ],
+      "Alias is not valid": [
+        "Alias er ikke gyldigt"
+      ],
+      "Alias is required": [
+        "Alias er påkrævet"
+      ],
+      "Alias options could not be resolved": [
+        "Alias-indstillinger kunne ikke hentes"
+      ],
+      "Aliases could not be loaded": [
+        "Aliasser kunne ikke indlæses"
+      ],
+      "An error occurred while loading alias options": [
+        "Der opstod en fejl under indlæsning af alias-indstillinger"
+      ],
+      "An error occurred while saving alias": [
+        "En fejl opstod under lagring af alias"
+      ],
+      "Could not open created vault": [
+        "Kunne ikke åbne den oprettede boks"
+      ],
+      "Could not open updated vault": [
+        "Kunne ikke åbne den opdaterede boks"
+      ],
+      "Forward address is required": [
+        "Adresse til videresendelse er påkrævet."
+      ],
+      "Item content cannot exceed 40KB": [
+        "Element-indhold må ikke overstige 40 kB"
+      ],
+      "Name is required": [
+        "Navn er påkrævet"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Ingen ekstern nøgle hentet for brugeren er gyldig til afsendelse"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3289,6 +3346,9 @@
       ],
       "Search": [
         "Søg"
+      ],
+      "Security Center": [
+        "Sikkerhedscenter"
       ]
     },
     "Hint": {
@@ -4312,6 +4372,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszone ser ud til at være ændret til ${ timezone }. Vil du opdatere din tidszone præferencer?"
+      ],
+      "Important note": [
+        "Vigtig note"
+      ],
+      "Warning": [
+        "Advarsel"
       ]
     },
     "info": {
@@ -4767,6 +4833,18 @@
       ],
       "Your password (admin)": [
         "Din adgangskode (admin)"
+      ],
+      "Forwards to": [
+        "Videresender til"
+      ],
+      "Note": [
+        "Note"
+      ],
+      "Title": [
+        "Titel"
+      ],
+      "Your alias": [
+        "Dit alias"
       ]
     },
     "Label for contact group color": {
@@ -5250,6 +5328,12 @@
       ],
       "Link copied to clipboard": [
         "Link kopieret til udklipsholder"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } er blevet deaktiveret"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } er blevet aktiveret"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5545,6 +5629,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vi anbefaler, at du ikke længere har tillid til denne nøgle."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Ekstern nøgle hentes automatisk fra keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Ekstern nøgle hentes automatisk via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Denne nøgle bruges til at kryptere beskeder til denne kontakt."
       ]
     },
     "PGP key warning": {
@@ -6357,6 +6450,12 @@
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "Alias copied to clipboard": [
+        "Alias kopieret til udklipsholder"
+      ],
+      "Alias saved and copied": [
+        "Alias gemt og kopieret"
       ]
     },
     "Success notification when user send feedback": {
@@ -6840,6 +6939,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din Mail Plus prøveperiode slutter ${ textDate }"
+      ],
+      "Account recovery": [
+        "Kontogendannelse"
+      ],
+      "Account security": [
+        "Kontosikkerhed"
+      ],
+      "Data recovery": [
+        "Datagendannelse"
+      ],
+      "Enable 2FA": [
+        "Aktivér 2FA"
+      ],
+      "Get advanced protection": [
+        "Få avanceret beskyttelse"
+      ],
+      "Need more aliases?": [
+        "Brug for flere aliasser?"
+      ],
+      "Save": [
+        "Gem"
+      ],
+      "Security center": [
+        "Sikkerhedscenter"
+      ],
+      "Your account is protected": [
+        "Din konto er beskyttet"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7031,6 +7157,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Din gratis prøveperiode udløber den ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Udløbsdatoen er ikke i formatet MM/ÅÅ"
+      ],
+      "Invalid alias prefix": [
+        "Ugyldigt alias-præfiks"
+      ],
+      "Missing alias prefix": [
+        "Mangler alias-præfiks"
+      ],
+      "Missing alias suffix": [
+        "Mangler alias-suffiks"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Kun alfanumeriske tegn, prikker, bindestreger og bundstreger er tilladt"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Alias-præfikset må højest være 40 tegn langt."
+      ],
+      "You must select at least one mailbox": [
+        "Du skal vælge mindst en postkasse"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7284,6 +7431,58 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Alle aliasser"
+      ],
+      "Create alias": [
+        "Opret alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generér aliasser på farten, og administrér nemt dine aliasser og adgangskoder."
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email aliasser"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email aliasser giver dig mulighed for at tilmelde dig ting online uden at dele din e-mailadresse. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nyt alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Åbn ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Beskyt din online-identitet"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Prøv ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } lagerplads"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage } % fuldt"
+      ],
+      "contact your administrator": [
+        "kontakt din administrator"
+      ],
+      "upgrade for more storage": [
+        "opgrader for at få mere lagerplads"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Dit ${ appStorage } er næsten fuldt"
+      ],
+      "Your ${ appStorage } is full": [
+        "Dit ${ appStorage } er fuldt"
+      ],
+      "Your storage is full": [
+        "Dit lager er fuldt"
       ]
     }
   }

@@ -637,6 +637,18 @@
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contact.",
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } contacte.",
         "Nu puteți trimite fișiere vCard la mai mult de ${ maxAttachments } de contacte."
+      ],
+      "Dismiss": [
+        "Renunțare"
+      ],
+      "Download now": [
+        "Descărcare"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Actualizare importantă disponibilă. Pentru a continua să utilizați aplicația trebuie s-o actualizați. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Nu acum"
       ]
     },
     "Action subline": {
@@ -2214,6 +2226,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puteți marca pentru ștergere contactele pe care nu doriți nici să le îmbinați, nici să le păstrați. Ștergerea va fi efectuată doar după apăsarea butonului de îmbinare."
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "A2F adaugă un nivel de securitate suplimentar, prevenind accesul neautorizat."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Conceput pentru utilizatorii care doresc o protecție sporită pentru conturile lor."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Obțineți aliasuri nelimitate și 500 GIB spațiu de stocare cu ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Setați o metodă de recuperare a datelor pentru a preveni pierderea lor."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Setați o metodă de recuperare pentru a preveni pierderea accesului la cont."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Treceți la alt tip de cont cu plată pentru a activa ${ PROTON_SENTINEL_NAME }, soluția noastră de securitate de ultimă oră, bazată pe inteligență artificială, cu asistență specializată dedicată 24/7."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Metodele de recuperare a contului și datelor sunt setate și A2F este activată."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Metodele de recuperare a contului și datelor sunt setate."
       ]
     },
     "description": {
@@ -2758,6 +2794,42 @@
       ],
       "Your import will not be processed.": [
         "Importarea nu va fi procesată."
+      ],
+      "Alias is not valid": [
+        "Aliasul nu este valid."
+      ],
+      "Alias is required": [
+        "Aliasul este obligatoriu."
+      ],
+      "Alias options could not be resolved": [
+        "Opțiunile pentru alias nu au putu fi rezolvate."
+      ],
+      "Aliases could not be loaded": [
+        "Aliasurile nu au putut fi salvate."
+      ],
+      "An error occurred while loading alias options": [
+        "A apărut o eroare în timpul încărcării opțiunilor aliasurilor."
+      ],
+      "An error occurred while saving alias": [
+        "A apărut o eroare în timpul salvării aliasului."
+      ],
+      "Could not open created vault": [
+        "Nu s-a putut deschide seiful creat."
+      ],
+      "Could not open updated vault": [
+        "Nu s-a putut deschide seiful actualizat."
+      ],
+      "Forward address is required": [
+        "Adresa de redirecționare este obligatorie."
+      ],
+      "Item content cannot exceed 40KB": [
+        "Conținutul articolului nu poate depăși 40 KiB."
+      ],
+      "Name is required": [
+        "Numele este obligatoriu."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Nicio cheie externă preluată pentru utilizator nu este validă pentru trimitere."
       ]
     },
     "Error accepting calendar invitation": {
@@ -3327,6 +3399,9 @@
       ],
       "Search": [
         "Căutare"
+      ],
+      "Security Center": [
+        "Centru de securitate"
       ]
     },
     "Hint": {
@@ -4381,6 +4456,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Fusul orar al sistemului pare să se fi schimbat la ${ timezone }. Actualizați fusul orar preferat?"
+      ],
+      "Important note": [
+        "Notă importantă"
+      ],
+      "Warning": [
+        "Avertizare"
       ]
     },
     "info": {
@@ -4840,6 +4921,21 @@
       ],
       "Your password (admin)": [
         "Parola dvs. (administrator)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "ex. Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Redirecționare către"
+      ],
+      "Note": [
+        "Notă"
+      ],
+      "Title": [
+        "Titlu"
+      ],
+      "Your alias": [
+        "Aliasuri personale"
       ]
     },
     "Label for contact group color": {
@@ -5335,6 +5431,12 @@
       ],
       "Link copied to clipboard": [
         "Legătura a fost copiată în memorie."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } a fost dezactivat"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } a fost activat"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5655,6 +5757,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Vă recomandăm să „nu aprobați” această cheie."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Cheia externă este preluată automat de la keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Cheia externă este preluată automat via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Cheia este folosită pentru a cripta mesaje pentru acest contact."
       ]
     },
     "PGP key warning": {
@@ -6491,6 +6602,12 @@
       ],
       "Verification successful": [
         "Verificare reușită"
+      ],
+      "Alias copied to clipboard": [
+        "Alias copiat în memorie"
+      ],
+      "Alias saved and copied": [
+        "Alias salvat și copiat"
       ]
     },
     "Success notification when user send feedback": {
@@ -6985,6 +7102,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Account recovery": [
+        "Recuperare cont"
+      ],
+      "Account security": [
+        "Securitate cont"
+      ],
+      "Data recovery": [
+        "Recuperare date"
+      ],
+      "Enable 2FA": [
+        "Activare A2F"
+      ],
+      "Get advanced protection": [
+        "Obțineți protecție avansată"
+      ],
+      "Need more aliases?": [
+        "Doriți mai multe aliasuri?"
+      ],
+      "Save": [
+        "Salvare"
+      ],
+      "Security center": [
+        "Centru de securitate"
+      ],
+      "Your account is protected": [
+        "Contul este protejat"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7179,6 +7323,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Perioada de probare se încheie în curând la ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Data de expirare nu este în format LL/AA."
+      ],
+      "Invalid alias prefix": [
+        "Prefix alias nevalid."
+      ],
+      "Missing alias prefix": [
+        "Lipsește prefixul aliasului."
+      ],
+      "Missing alias suffix": [
+        "Lipsește sufixul aliasului."
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Sunt permise doar caractere alfanumerice, puncte, cratime și de subliniere."
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Prefixul aliasului nu poate fi mai lung de 40 de caractere."
+      ],
+      "You must select at least one mailbox": [
+        "Trebuie să selectați cel puțin o adresă de e-mail."
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7462,6 +7627,71 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Toate aliasurile"
+      ],
+      "Create alias": [
+        "Creare alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generați aliasuri din mers și gestionați-vă ușor aliasurile și parolele."
+      ],
+      "Hide-my-email aliases": [
+        "Aliasuri hide-my-email"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Aliasurile hide-my-email vă permit să vă înscrieți pe site-uri online fără a vă partaja adresa reală de e-mail. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Alias nou"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Deschidere ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Protejați-vă identitatea online"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Încercați ${ PASS_APP_NAME }"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Afișare jurnale"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Soluția noastră de securitate de ultimă oră, bazată pe inteligență artificială, concepută pentru utilizatorii care doresc o protecție sporită pentru conturile lor. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel este **activ** și vă protejează contul."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "Spațiul de stocare ${ app }"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } - ${ percentage }% ocupat"
+      ],
+      "contact your administrator": [
+        "contactați-vă administratorul"
+      ],
+      "upgrade for more storage": [
+        "treceți la alt tip de plan pentru mai mult spațiu"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "${ appStorage } este aproape plin."
+      ],
+      "Your ${ appStorage } is full": [
+        "${ appStorage } este plin."
+      ],
+      "Your storage is full": [
+        "Spațiu de stocare plin"
       ]
     }
   }

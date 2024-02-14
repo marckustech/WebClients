@@ -633,6 +633,24 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz",
         "En fazla ${ maxAttachments } kişinin vCard dosyasını gönderebilirsiniz"
+      ],
+      "Create and copy alias": [
+        "Takma ad ekle ve kopyala"
+      ],
+      "Dismiss": [
+        "Yok say"
+      ],
+      "Download now": [
+        "Şimdi indir"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "Önemli bir güncelleme yayınlanmış. Uygulamayı kullanmayı sürdürmek için son sürüme güncelleyin. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Şimdi değil"
+      ],
+      "Select country": [
+        "Ülke seçin"
       ]
     },
     "Action subline": {
@@ -2197,6 +2215,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Birleştirmek veya tutmak istemediğiniz kişileri silinmek üzere işaretleyebilirsiniz. Silme işlemi yalnızca birleştirme düğmesine tıkladıktan sonra yapılır"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "İki adımlı doğrulama ek bir güvenlik katmanı ekleyerek yetkisiz erişimi önler."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Hesapları için daha yüksek koruma isteyen kullanıcılara yönelik olarak tasarlanmıştır."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "${ PLAN_NAMES[PLANS.BUNDLE] } ile sınırsız takma ad ve 500 GB depolama alanı edinin."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Veri kaybını önlemek için bir veri kurtarma yöntemi belirleyin."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Hesabınıza erişimi kaybetmemek için bir kurtarma yöntemi belirleyin."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "${ PROTON_SENTINEL_NAME }, 7/24 size özel uzman desteği olan, yapay zeka temelli son teknoloji güvenlik çözümümüzü kullanmak için tarifenizi yükseltin."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Hesap ve veri kurtarma yöntemleriniz ayarlandı ve iki adımlı doğrulama kullanıma alındı."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Hesabınızı ve verilerinizi kurtarma yöntemleri ayarlandı."
       ]
     },
     "description": {
@@ -2729,6 +2771,42 @@
       ],
       "Your import will not be processed.": [
         "İçe aktarma işleminiz yapılmayacak."
+      ],
+      "Alias is not valid": [
+        "Takma ad geçersiz"
+      ],
+      "Alias is required": [
+        "Takma adın yazılması zorunludur"
+      ],
+      "Alias options could not be resolved": [
+        "Takma ad seçenekleri çözümlenemedi"
+      ],
+      "Aliases could not be loaded": [
+        "Takma adlar yüklenemedi"
+      ],
+      "An error occurred while loading alias options": [
+        "Takma ad seçenekleri yüklenirken bir sorun çıktı"
+      ],
+      "An error occurred while saving alias": [
+        "Takma ad kaydedilirken bir sorun çıktı"
+      ],
+      "Could not open created vault": [
+        "Oluşturulan kasa açılamadı"
+      ],
+      "Could not open updated vault": [
+        "Güncellenen kasa açılamadı"
+      ],
+      "Forward address is required": [
+        "İletilecek adresin yazılması zorunludur"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Öge içeriği 40KB boyutundan büyük olamaz"
+      ],
+      "Name is required": [
+        "Adın yazılması zorunludur"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Kullanıcı için alınan hiçbir dış anahtar göndermek için geçerli değil"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3289,6 +3367,9 @@
       ],
       "Search": [
         "Ara"
+      ],
+      "Security Center": [
+        "Güvenlik merkezi"
       ]
     },
     "Hint": {
@@ -4312,6 +4393,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sistem saat diliminiz ${ timezone } olarak değişmiş gibi görünüyor. Saat dilimi ayarınızı güncellemek ister misiniz?"
+      ],
+      "Important note": [
+        "Önemli not"
+      ],
+      "Warning": [
+        "Uyarı"
       ]
     },
     "info": {
@@ -4767,6 +4854,21 @@
       ],
       "Your password (admin)": [
         "Parolanız (yönetici)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "örneğin, Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Şuraya iletiyor"
+      ],
+      "Note": [
+        "Not"
+      ],
+      "Title": [
+        "Başlık"
+      ],
+      "Your alias": [
+        "Takma adınız"
       ]
     },
     "Label for contact group color": {
@@ -5250,6 +5352,12 @@
       ],
       "Link copied to clipboard": [
         "Bağlantı panoya kopyalandı"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği kapatıldı"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } özelliği açıldı"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5545,6 +5653,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Bu anahtara \"güvenmemeniz\" önerilir."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Dış anahtar otomatik olarak keys.openpgp.org üzerinden alındı."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Dış anahtar otomatik olarak WKD üzerinden alındı."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Bu anahtar, bu kişiye gönderilen iletileri şifrelemek için kullanılır"
       ]
     },
     "PGP key warning": {
@@ -6357,6 +6474,12 @@
       ],
       "Verification successful": [
         "Doğrulandı"
+      ],
+      "Alias copied to clipboard": [
+        "Takma ad panoya kopyalandı"
+      ],
+      "Alias saved and copied": [
+        "Takma ad kaydedildi ve kopyalandı"
       ]
     },
     "Success notification when user send feedback": {
@@ -6840,6 +6963,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Account recovery": [
+        "Hesap kurtarma"
+      ],
+      "Account security": [
+        "Hesap güvenliği"
+      ],
+      "Data recovery": [
+        "Veri kurtarma"
+      ],
+      "Enable 2FA": [
+        "İki adımlı doğrulama kullanılsın"
+      ],
+      "Get advanced protection": [
+        "Gelişmiş koruma edinin"
+      ],
+      "Need more aliases?": [
+        "Daha fazla takma ad mı gerekiyor?"
+      ],
+      "Save": [
+        "Kaydet"
+      ],
+      "Security center": [
+        "Güvenlik merkezi"
+      ],
+      "Your account is protected": [
+        "Hesabınız korunuyor"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7031,6 +7181,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ücretsiz denemeniz ${ textDate } tarihinde sona erecek. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Geçerlilik süresi AA/YY biçiminde değil"
+      ],
+      "Invalid alias prefix": [
+        "Takma ad ön eki geçersiz"
+      ],
+      "Missing alias prefix": [
+        "Takma ad ön eki eksik"
+      ],
+      "Missing alias suffix": [
+        "Takma ad son eki eksik"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Yalnızca harfler, rakamlar, nokta, tire ve alt çizgi karakterleri kullanılabilir"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Takma ad ön ekiniz 40 karakterden uzun olamaz"
+      ],
+      "You must select at least one mailbox": [
+        "En az bir e-posta kutusu seçmelisiniz"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7284,6 +7455,103 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Faturalanacak ülke"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Tüm takma adlar"
+      ],
+      "Create alias": [
+        "Takma ad oluştur"
+      ],
+      "Create an alias": [
+        "Takma ad oluştur"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Anında takma adlar oluşturun ve takma adlarınız ile parolalarınızı kolayca yönetin."
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email takma adları"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email takma adları, e-posta adresinizi paylaşmadan çevrim içi hesaplar açmanızı sağlar. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Yeni takma ad"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını aç"
+      ],
+      "Protect your online identity": [
+        "Çevrim içi kimliğinizi koruyun"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } uygulamasını deneyin"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Amazon alışverişleri için kullanıldı gibi."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "E-posta adresiniz istendiğinde onun yerine bu takma adı verin. Nerede kullandığınızı unutmamak için bir başlık ve not ekleyin."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Günlükleri görüntüle"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Hesapları için daha yüksek düzeyde koruma isteyen kullanıcılar için tasarlanmış, yapay zeka destekli son teknoloji güvenlik çözümümüz. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel **kullanımda** ve hesabınızı koruyor."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } depolama alanı"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } %${ percentage } dolu"
+      ],
+      "contact your administrator": [
+        "yöneticiniz ile görüşün"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "E-postalar gönderebilmek ve alabilmek için depolama alanını boşaltın ya da ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Dosyaları yükleyebilmek ya da eşitleyebilmek için depolama alanını boşaltın ya da ${ upgrade }"
+      ],
+      "upgrade for more storage": [
+        "daha fazla depolama alanı edinmek için tarifenizi yükseltin"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Kullandığınız ${ appStorage } dolmak üzere"
+      ],
+      "Your ${ appStorage } is full": [
+        "Kullandığını ${ appStorage } dolu"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "${ storage } depolama alanınız %${ percentage } oranında dolu. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "${ storage } depolama alanınız dolmuş. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Depolama alanınız %${ percentage } oranında dolu. ${ cta }."
+      ],
+      "Your storage is full": [
+        "Depolama alanınız dolu"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Depolama alanınız dolmuş. ${ cta }."
       ]
     }
   }

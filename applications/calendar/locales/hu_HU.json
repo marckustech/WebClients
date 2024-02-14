@@ -630,6 +630,12 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt",
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt"
+      ],
+      "Dismiss": [
+        "Elvetés"
+      ],
+      "Not now": [
+        "Most nem"
       ]
     },
     "Action subline": {
@@ -2633,6 +2639,18 @@
       ],
       "Your import will not be processed.": [
         "Az importálás nem lesz feldolgozva."
+      ],
+      "Alias options could not be resolved": [
+        "Az e-mail álnév adatainak betöltése nem sikerült"
+      ],
+      "Could not open created vault": [
+        "A létrehozott tároló megnyitása nem sikerült"
+      ],
+      "Could not open updated vault": [
+        "A frissített tároló megnyitása nem sikerült"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Az elem tartalma nem lehet több 40KB-nál"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4640,6 +4658,15 @@
       ],
       "Your password (admin)": [
         "Jelszó (adminisztrátor)"
+      ],
+      "Forwards to": [
+        "Továbbít:"
+      ],
+      "Note": [
+        "Megjegyzés"
+      ],
+      "Title": [
+        "Cím"
       ]
     },
     "Label for contact group color": {
@@ -5105,6 +5132,12 @@
       ],
       "Link copied to clipboard": [
         "Hivatkozás a vágólapra másolva"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } letiltva"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } engedélyezésre került"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6646,6 +6679,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "A Mail Plus csomagjának próbaidőszaka lejár: ${ textDate }"
+      ],
+      "Account recovery": [
+        "Fiók helyreállítás"
+      ],
+      "Account security": [
+        "Fiókbiztonság"
+      ],
+      "Data recovery": [
+        "Adat helyreállítás"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6837,6 +6879,24 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Az ingyenes próbaideje hamarosan le fog járni ekkor: ${ textDate }. ${ action }"
+      ],
+      "Invalid alias prefix": [
+        "Érvénytelen e-mail álnév előtag"
+      ],
+      "Missing alias prefix": [
+        "Hiányzó e-mail álnév előtag"
+      ],
+      "Missing alias suffix": [
+        "Hiányzó e-mail álnév végződés"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Csak alfanumerikus karakterek, pontok, kötőjelek és aláhúzás használható"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Az e-mail előtag nem lehet hosszabb mint 40 karakter"
+      ],
+      "You must select at least one mailbox": [
+        "Legalább egy e-mail fiókot ki kell választania"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7090,6 +7150,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email álnevek"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME } megnyitása"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } tárhely"
+      ],
+      "Your storage is full": [
+        "A tárhelye megtelt"
       ]
     }
   }

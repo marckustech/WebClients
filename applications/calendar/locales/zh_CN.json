@@ -151,7 +151,7 @@
         "复制地址"
       ],
       "Copy email address": [
-        "复制电子邮件地址"
+        "复制邮箱地址"
       ],
       "Copy email to clipboard": [
         "复制邮箱地址"
@@ -319,7 +319,7 @@
         "加载图片"
       ],
       "Make this participant optional": [
-        "可选择包含此参与者"
+        "将此参与者标为非必须出席"
       ],
       "Make this participant required": [
         "必须包含此参与者"
@@ -617,6 +617,18 @@
       ],
       "Yes, I'll attend": [
         "是，我将参加"
+      ],
+      "Delete ${ selectedCount } contact": [
+        "删除 ${ selectedCount } 个联系人"
+      ],
+      "Delete ${ selectedCount } contact group": [
+        "删除 ${ selectedCount } 个联系人组"
+      ],
+      "Dismiss": [
+        "忽略"
+      ],
+      "Not now": [
+        "以后再说"
       ]
     },
     "Action subline": {
@@ -660,6 +672,15 @@
         "${ ips } 个服务器"
       ],
       "${ users } users": [
+        "${ users } 位用户"
+      ],
+      "${ domains } custom domain": [
+        "${ domains } 个自有域名"
+      ],
+      "${ ips } server": [
+        "${ ips } 个服务器"
+      ],
+      "${ users } user": [
         "${ users } 位用户"
       ]
     },
@@ -960,6 +981,12 @@
       ],
       "You have reached the maximum of ${ MAX_LINKS_PER_CALENDAR } links for this calendar.\nTo create a new link to this calendar, delete an existing one.": [
         "你已经达到了该日历最大${ MAX_LINKS_PER_CALENDAR } 链接数。\n若要创建此日历的新链接，请删除一个现有的链接。"
+      ],
+      "You have reached the maximum of ${ MAX_CALENDAR_MEMBERS } member for this calendar.\nTo share this calendar with more ${ BRAND_NAME } accounts, remove some members.": [
+        "一份日历最多只能有 ${ MAX_CALENDAR_MEMBERS } 人加入。要与更多 ${ BRAND_NAME } 账户分享该日历，请移除部分用户。"
+      ],
+      "You have reached the maximum of ${ MAX_LINKS_PER_CALENDAR } link for this calendar.\nTo create a new link to this calendar, delete an existing one.": [
+        "你已经达到了该日历最大${ MAX_LINKS_PER_CALENDAR } 链接数。\n若要创建此日历的新链接，请删除一个现有的链接。"
       ]
     },
     "Calendar sharing access option label": {
@@ -1060,6 +1087,9 @@
     },
     "Checkout row": {
       "${ users } users": [
+        "${ users } 位用户"
+      ],
+      "${ users } user": [
         "${ users } 位用户"
       ]
     },
@@ -2018,6 +2048,9 @@
       ],
       "times": [
         "次"
+      ],
+      "time": [
+        "次"
       ]
     },
     "Daily recurring event, frequency": {
@@ -2032,6 +2065,12 @@
       ],
       "until ${ dateString }": [
         "直到${ dateString }"
+      ],
+      "${ count } time": [
+        "${ count } 次"
+      ],
+      "Every ${ interval } day": [
+        "每 ${ interval } 天"
       ]
     },
     "Daily recurring event, frequency (times)": {
@@ -2040,6 +2079,9 @@
       ],
       "Every ${ interval } days, ${ timesString }": [
         "每 ${ interval } 天，${ timesString }"
+      ],
+      "Every ${ interval } day, ${ timesString }": [
+        "每 ${ interval } 天，${ timesString }"
       ]
     },
     "Daily recurring event, frequency (until)": {
@@ -2047,6 +2089,9 @@
         "每天, 直到${ untilString }"
       ],
       "Every ${ interval } days, ${ untilString }": [
+        "每 ${ interval } 天，${ untilString }"
+      ],
+      "Every ${ interval } day, ${ untilString }": [
         "每 ${ interval } 天，${ untilString }"
       ]
     },
@@ -2130,10 +2175,16 @@
         "拖动可调整联系人合并优先级，未勾选的联系人不会被合并。"
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
-        "您可以导入 iCal 格式（. ics 文件）的日程。文件大小上限为 ${ MAX_IMPORT_FILE_SIZE_STRING }，且日程总数上限为 ${ MAX_IMPORT_EVENTS_STRING }。若您的文件超出限制，请先拆分成较小的文件。"
+        "您可以导入 iCal 格式的日程（.ics 文件）。文件大小上限为 ${ MAX_IMPORT_FILE_SIZE_STRING }，且日程总数上限为 ${ MAX_IMPORT_EVENTS_STRING }。若您的文件超出限制，请先拆分成较小的文件。"
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "您可以选择稍后删除既不想合并也不想保留的联系人，点击合并按钮后他们就会被删除"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "如需导入 CSV 或 VCF 文件，请确保文件大小不超过 ${ MAX_IMPORT_FILE_SIZE_STRING } 且联系人数量不超过 ${ MAX_IMPORT_CONTACTS_STRING } 个。若您的文件超出限制，请先拆分成较小的文件。${ learnMoreLink }。"
+      ],
+      "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
+        "如需导入 Google 或 Outlook 中的联系人，请${ easySwitchLink }。"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2383,7 +2434,7 @@
         "重复周期不能为空"
       ],
       "Invalid email address": [
-        "无效的邮件地址"
+        "邮箱地址无效"
       ],
       "Invalid link to the event": [
         "无效的日程链接"
@@ -2615,6 +2666,48 @@
       ],
       "Your import will not be processed.": [
         "此次导入将不会进行。"
+      ],
+      "${ list } doesn't have a valid email address": [
+        "部分联系人邮箱地址无效：${ list }"
+      ],
+      "${ list } doesn't have an email address": [
+        "部分联系人缺少邮箱地址：${ list }"
+      ],
+      "${ list } has invalid emails": [
+        "部分群组包含无效的邮箱地址：${ list }"
+      ],
+      "${ list } has no contacts": [
+        "某些群组没有联系人：${ list }"
+      ],
+      "Could not open created vault": [
+        "无法打开创建的保管库"
+      ],
+      "Could not open updated vault": [
+        "无法打开已更新的保管库"
+      ],
+      "Deselect at least ${ calendarsToFixCount } calendar": [
+        "至少取消选择 ${ calendarsToFixCount } 份日历"
+      ],
+      "Deselect at least ${ calendarsToFixCount } calendar or": [
+        "至少取消选择 ${ calendarsToFixCount } 份日历或"
+      ],
+      "Item content cannot exceed 40KB": [
+        "项目内容不能超过 40KB"
+      ],
+      "Merge at least ${ calendarsToFixCount } calendar with an existing ${ BRAND_NAME } calendar": [
+        "至少将 ${ calendarsToFixCount } 份日历与现有的 ${ BRAND_NAME } 日历合并"
+      ],
+      "One of the contacts has no email address: ${ noEmailsContactNamesList }": [
+        "部分联系人没有邮箱地址：${ noEmailsContactNamesList }"
+      ],
+      "One of the groups has no contacts: ${ noContactGroupList }": [
+        "某个/些群组没有联系人：${ noContactGroupList } "
+      ],
+      "Please fix the highlighted conflict to proceed.": [
+        "请修复高亮的冲突以继续。"
+      ],
+      "Removed duplicate recipient: ${ joinedRecipients }": [
+        "已删除重复收件人：${ joinedRecipients }"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2652,6 +2745,9 @@
       ],
       "Your file ${ formattedFilename } is not a calendar.": [
         "文件 ${ formattedFilename } 不是日历文件。"
+      ],
+      "Your file ${ formattedFilename } contains more than ${ MAX_IMPORT_EVENTS } event.": [
+        "文件 ${ formattedFilename } 中的日程数已超过 ${ MAX_IMPORT_EVENTS }。"
       ]
     },
     "Error importing contact": {
@@ -2840,6 +2936,9 @@
     "Event form": {
       "${ numberOfAttendees } participants": [
         "${ numberOfAttendees } 名参与者"
+      ],
+      "${ numberOfAttendees } participant": [
+        "${ numberOfAttendees } 名参与者"
       ]
     },
     "Event info in search view; event duration": {
@@ -2847,6 +2946,9 @@
         "全天"
       ],
       "All day, lasts ${ plusDaysToEnd } days": [
+        "全天，持续 ${ plusDaysToEnd } 天"
+      ],
+      "All day, lasts ${ plusDaysToEnd } day": [
         "全天，持续 ${ plusDaysToEnd } 天"
       ]
     },
@@ -3077,6 +3179,9 @@
       ],
       "TB": [
         "TB"
+      ],
+      "byte": [
+        "B"
       ]
     },
     "file size format, long": {
@@ -3093,6 +3198,21 @@
         "MB"
       ],
       "Terabytes": [
+        "TB"
+      ],
+      "Byte": [
+        "字节"
+      ],
+      "Gigabyte": [
+        "GB"
+      ],
+      "Kilobyte": [
+        "KB"
+      ],
+      "Megabyte": [
+        "MB"
+      ],
+      "Terabyte": [
         "TB"
       ]
     },
@@ -3160,6 +3280,9 @@
       ],
       "Use Up and Down keys to access and browse suggestions after input. Press Enter to confirm your choice, or Escape to close the suggestions box.": [
         "使用向上和向下键进入并浏览输入后的建议。按 Enter 键确认您的选择，或按 Escape 键关闭建议框。"
+      ],
+      "Found ${ items.length } suggestion, use keyboard to navigate.": [
+        "找到 ${ items.length } 建议，使用键盘导航。"
       ]
     },
     "Human verification method": {
@@ -3200,6 +3323,12 @@
       ],
       "Please don't close the tab before the importing process is finished.": [
         "导入结束前请勿关闭此网页。"
+      ],
+      "${ totalImported }/${ totalToImport } event encrypted and added to your calendar": [
+        "${ totalImported }/${ totalToImport } 条日程已加密并添至您的日历"
+      ],
+      "An error occurred while encrypting and adding your event. ${ totalImported } out of ${ totalToImport } event successfully imported.": [
+        "加密并添加日程时出错，${ totalImported }/${ totalToImport } 个日程已成功导入。"
       ]
     },
     "Import calendar warning": {
@@ -3222,6 +3351,12 @@
       ],
       "This file contains some data that we cannot import:": [
         "此文件包含一些无法导入的数据："
+      ],
+      "This file contains an event invitation:": [
+        "此文件包含活动邀请："
+      ],
+      "This file contains an invitation response:": [
+        "此文件包含邀请回复："
       ]
     },
     "Import contact": {
@@ -3242,6 +3377,9 @@
       ],
       "Contacts successfully imported. The imported contacts will now appear in your contact list.": [
         "联系人导入成功。已显示在您的通讯录中。"
+      ],
+      "${ totalImported }/${ totalToImport } contact encrypted and added to your contact list": [
+        "${ totalImported }/${ totalToImport } 联系人已加密并添加到您的联系人列表"
       ]
     },
     "Import contact error": {
@@ -3251,6 +3389,9 @@
     },
     "Import contact groups info": {
       "${ totalContacts } contacts": [
+        "${ totalContacts } 名联系人"
+      ],
+      "${ totalContacts } contact": [
         "${ totalContacts } 名联系人"
       ]
     },
@@ -3434,6 +3575,9 @@
       ],
       "Part of your calendar content is not supported and will not be imported.": [
         "您的日程中有部分内容我们不支持，这些日程将不会被导入。"
+      ],
+      "${ totalEventsDiscarded } out of ${ totalEvents } event will not be imported. Expand for details.": [
+        "${ totalEvents } 个日程有 ${ totalEventsDiscarded } 个将不会被导入，展开查看详情。"
       ]
     },
     "Info": {
@@ -4126,6 +4270,72 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系统时区似乎已更改为 ${ timezone }。您想要更新您的时区偏好吗？"
+      ],
+      "${ addressCount } email address": [
+        "${ addressCount } 个邮箱地址"
+      ],
+      "${ calendarsToBeCreatedCount } new calendar": [
+        "${ calendarsToBeCreatedCount } 个新日历"
+      ],
+      "${ calendarsToBeMergedCount } merged calendar": [
+        "${ calendarsToBeMergedCount } 个合并日历"
+      ],
+      "${ contactCount } contact contains multiple email addresses.": [
+        "${ contactCount } 名联系人各有多个邮箱地址。"
+      ],
+      "${ contactEmailsLength } Member": [
+        "${ contactEmailsLength } 位成员"
+      ],
+      "${ contactsCount } contact found": [
+        "找到 ${ contactsCount } 位联系人"
+      ],
+      "${ contactsLength } contact": [
+        "${ contactsLength } 位联系人"
+      ],
+      "${ groupCounts } group found": [
+        "找到 ${ groupCounts } 个群组"
+      ],
+      "${ providerFoldersNumLocalized } folder found": [
+        "已找到 ${ providerFoldersNumLocalized } 个文件夹"
+      ],
+      "${ providerFoldersNumLocalized } label found in Gmail": [
+        "已在 Gmail 中找到 ${ providerFoldersNumLocalized } 个标签"
+      ],
+      "${ selectedCalendarsTotal } of ${ providerCalendars.length } calendar": [
+        "已选择 ${ selectedCalendarsTotal }/${ providerCalendars.length } 份日历"
+      ],
+      "${ selectedContactsLength }/${ contactsLength } contact selected": [
+        "已选择 ${ selectedContactsLength }/${ contactsLength } 位联系人"
+      ],
+      "${ selectedFoldersCountLocalized } folder selected": [
+        "已选择 ${ selectedFoldersCountLocalized } 个文件夹"
+      ],
+      "${ selectedFoldersCountLocalized } label selected": [
+        "已选择 ${ selectedFoldersCountLocalized } 个标签"
+      ],
+      "${ updated } contact updated successfully.": [
+        "已成功更新 ${ updated } 位联系人。"
+      ],
+      "(${ memberCount } member)": [
+        "（${ memberCount } 位成员）"
+      ],
+      "All (${ totalFoldersCount } folder)": [
+        "全部（${ totalFoldersCount } 个文件夹）"
+      ],
+      "All (${ totalFoldersCount } label)": [
+        "全部（${ totalFoldersCount } 个标签）"
+      ],
+      "Create ${ calendarsToBeCreatedCount } new calendar": [
+        "创建 ${ calendarsToBeCreatedCount } 份新日历"
+      ],
+      "Estimated time remaining: ${ estimatedMinutes } minute": [
+        "预计剩余时间：${ estimatedMinutes } 分钟"
+      ],
+      "Import ${ calendarCount } of ${ totalCalendarsCount } calendar": [
+        "导入 ${ calendarCount } / ${ totalCalendarsCount } 份日历"
+      ],
+      "Please select which email address or addresses to add to ${ groupCount } group.": [
+        "请选择将哪些邮箱地址加入这 ${ groupCount } 个群组。"
       ]
     },
     "info": {
@@ -4153,6 +4363,12 @@
         "已选择 ${ selectedFoldersCount } 个文件夹"
       ],
       "${ selectedFoldersCount } labels selected": [
+        "已选择 ${ selectedFoldersCount } 个标签"
+      ],
+      "${ selectedFoldersCount } folder selected": [
+        "已选择 ${ selectedFoldersCount } 个文件夹"
+      ],
+      "${ selectedFoldersCount } label selected": [
         "已选择 ${ selectedFoldersCount } 个标签"
       ]
     },
@@ -4195,6 +4411,9 @@
       ],
       "Creating invites in a shared calendar is not allowed": [
         "无法在已共享的日历中创建邀请"
+      ],
+      "At most ${ maxAttendees } participant is allowed per invitation": [
+        "每次邀请最多允许 ${ maxAttendees } 名参与者"
       ]
     },
     "Input label": {
@@ -4577,6 +4796,18 @@
       ],
       "Your password (admin)": [
         "您的密码(管理员)"
+      ],
+      "Forwards to": [
+        "转发至"
+      ],
+      "Note": [
+        "笔记"
+      ],
+      "participant": [
+        "参与者"
+      ],
+      "Title": [
+        "标题"
       ]
     },
     "Label for contact group color": {
@@ -4689,6 +4920,9 @@
       ],
       "Your import is starting": [
         "正在启动导入"
+      ],
+      "Amount of calendar created:  ${ createdCalendarCount } of ${ calendarsToBeCreated }": [
+        "已创建的日历数量: ${ createdCalendarCount } / ${ calendarsToBeCreated }"
       ]
     },
     "Mail import summary": {
@@ -4702,6 +4936,18 @@
         "导入 ${ selectedItemsToImportCount }/${ itemsToImportCount } 个文件夹中的所有邮件并加标签"
       ],
       "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } labels and label them as": [
+        "导入带有 ${ selectedItemsToImportCount }/${ itemsToImportCount } 类标签的邮件并加标签"
+      ],
+      "Import all messages from ${ itemsToImportCount } folder and label them as": [
+        "导入 ${ itemsToImportCount } 个文件夹中的所有邮件并加标签"
+      ],
+      "Import all messages from ${ itemsToImportCount } label and label them as": [
+        "导入带有 ${ itemsToImportCount } 类标签的邮件并加标签"
+      ],
+      "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } folder and label them as": [
+        "导入 ${ selectedItemsToImportCount }/${ itemsToImportCount } 个文件夹中的所有邮件并加标签"
+      ],
+      "Import all messages from ${ selectedItemsToImportCount } out of ${ itemsToImportCount } label and label them as": [
         "导入带有 ${ selectedItemsToImportCount }/${ itemsToImportCount } 类标签的邮件并加标签"
       ]
     },
@@ -4802,6 +5048,9 @@
       ],
       "Monthly ${ onDayString }": [
         "每月 ${ onDayString }"
+      ],
+      "Every ${ interval } month ${ onDayString }": [
+        "每 ${ interval } 个月的 ${ onDayString }"
       ]
     },
     "Monthly recurring event, frequency (times)": {
@@ -4810,6 +5059,9 @@
       ],
       "Monthly ${ onDayString }, ${ timesString }": [
         "每月${ onDayString }，${ timesString }"
+      ],
+      "Every ${ interval } month ${ onDayString }, ${ timesString }": [
+        "每 ${ interval } 月的 ${ onDayString }，${ timesString }"
       ]
     },
     "Monthly recurring event, frequency (until)": {
@@ -4818,6 +5070,9 @@
       ],
       "Monthly ${ onDayString }, ${ untilString }": [
         "每月${ onDayString }，直到${ untilString }"
+      ],
+      "Every ${ interval } month ${ onDayString }, ${ untilString }": [
+        "每 ${ interval } 月的 ${ onDayString }，直到 ${ untilString }"
       ]
     },
     "Monthly recurring event, repeats on": {
@@ -4988,6 +5243,12 @@
       ],
       "Up to 3 TB of storage": [
         "高达 3 TB 的存储空间"
+      ],
+      "${ n } calendar": [
+        "${ n } 份日历"
+      ],
+      "${ n } calendar per user": [
+        "每位用户 ${ n } 份日历"
       ]
     },
     "new_plans: feature info": {
@@ -5020,11 +5281,20 @@
     "new_plans: tooltip": {
       "Create up to ${ n } calendars or add calendars from friends, family, colleagues, and organizations": [
         "创建多达 ${ n } 份日历或添加朋友、家人、同事、企业分享的日历"
+      ],
+      "Create up to ${ n } calendar or add calendars from friends, family, colleagues, and organizations": [
+        "创建多达 ${ n } 份日历或添加朋友、家人、同事、企业分享的日历"
+      ],
+      "Easily share your calendars with your family, friends, or colleagues": [
+        "与同事、亲友轻松分享日程安排"
       ]
     },
     "new_plans: Upsell attribute": {
       "Create up to ${ n } calendars": [
         "创建最多 ${ n } 个日历"
+      ],
+      "Create up to ${ n } calendar": [
+        "最多可创建 ${ n } 份日历"
       ]
     },
     "Notification": {
@@ -5036,6 +5306,12 @@
       ],
       "Link copied to clipboard": [
         "链接已复制到剪贴板"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } 已停用"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } 已启用"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5051,6 +5327,9 @@
     },
     "Notification in share calendar modal": {
       "Members added": [
+        "成员已添加"
+      ],
+      "Member added": [
         "成员已添加"
       ]
     },
@@ -5097,6 +5376,18 @@
         "当天"
       ],
       "weeks before": [
+        "周前"
+      ],
+      "day before": [
+        "天前"
+      ],
+      "hour before": [
+        "小时前"
+      ],
+      "minute before": [
+        "分钟前"
+      ],
+      "week before": [
         "周前"
       ]
     },
@@ -5157,6 +5448,54 @@
       ],
       "Unknown": [
         "未知"
+      ],
+      "${ value } day after": [
+        "${ value } 天后"
+      ],
+      "${ value } day after at ${ time }": [
+        "${ value } 天后 ${ time }"
+      ],
+      "${ value } day before": [
+        "${ value } 天前"
+      ],
+      "${ value } day before at ${ time }": [
+        "${ value } 天前 ${ time }"
+      ],
+      "${ value } hour after": [
+        "${ value } 小时后"
+      ],
+      "${ value } hour after at ${ time }": [
+        "${ value } 小时后 ${ time }"
+      ],
+      "${ value } hour before": [
+        "${ value } 小时前"
+      ],
+      "${ value } hour before at ${ time }": [
+        "${ value } 小时前 ${ time }"
+      ],
+      "${ value } minute after": [
+        "${ value } 分钟后"
+      ],
+      "${ value } minute after at ${ time }": [
+        "${ value } 分钟后 ${ time }"
+      ],
+      "${ value } minute before": [
+        "${ value } 分钟前"
+      ],
+      "${ value } minute before at ${ time }": [
+        "${ value } 分钟前 ${ time }"
+      ],
+      "${ value } week after": [
+        "${ value } 周后"
+      ],
+      "${ value } week after at ${ time }": [
+        "${ value } 周后 ${ time }"
+      ],
+      "${ value } week before": [
+        "${ value } 周前"
+      ],
+      "${ value } week before at ${ time }": [
+        "${ value } 周前 ${ time }"
       ]
     },
     "Oauth instructions": {
@@ -5263,6 +5602,18 @@
         "周"
       ],
       "Years": [
+        "年"
+      ],
+      "Day": [
+        "天"
+      ],
+      "Month": [
+        "月"
+      ],
+      "Week": [
+        "周"
+      ],
+      "Year": [
         "年"
       ]
     },
@@ -5382,6 +5733,9 @@
       ],
       "Start typing an email address": [
         "请输入邮箱地址"
+      ],
+      "Search parent folder": [
+        "搜索上层文件夹"
       ]
     },
     "Placeholder for contact group name": {
@@ -5412,6 +5766,15 @@
       ],
       "Progress: ${ combinedProgress }%": [
         "进度：${ combinedProgress }%"
+      ],
+      "${ contactsExported.length } out of ${ countContacts } contact successfully exported.": [
+        "${ contactsExported.length }/${ countContacts } 名联系人已成功导出。"
+      ],
+      "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
+        "${ model.deleted.length }/${ totalBeDeleted } 联系人已成功删除"
+      ],
+      "${ model.submitted.length } out of ${ totalBeMerged } contact successfully merged.": [
+        "共 ${ totalBeMerged } 名联系人，成功合并 ${ model.submitted.length } 名联系人。"
       ]
     },
     "Property type": {
@@ -5506,6 +5869,18 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "从现在起 ${ boldDaysRemaining }内您可以自由更改 ${ boldEmail } 账户的密码。"
+      ],
+      "${ timeRemaining.inDays } day": [
+        "${ timeRemaining.inDays } 天"
+      ],
+      "${ timeRemaining.inHours } hour": [
+        "${ timeRemaining.inHours } 小时"
+      ],
+      "This permission expires in ${ timeRemaining.inDays } day": [
+        "此权限将在 ${ timeRemaining.inDays } 天后过期"
+      ],
+      "This permission expires in ${ timeRemaining.inHours } hour": [
+        "此权限将在 ${ timeRemaining.inHours } 小时后过期"
       ]
     },
     "session_recovery:available:link": {
@@ -5579,6 +5954,12 @@
       ],
       "We received a password reset request for ${ boldEmail }.": [
         "我们收到了${ boldEmail }的密码重置请求。"
+      ],
+      "${ gracePeriodHoursRemaining } more hour": [
+        "还有${ gracePeriodHoursRemaining } 小时"
+      ],
+      "Password reset requested (${ user.Email }). You can change your password in ${ hoursRemaining } hour.": [
+        "重置密码的请求已收到 (${ user.Email })。 您可以在 ${ hoursRemaining } 小时内更改密码。"
       ]
     },
     "session_recovery:in_progress:link": {
@@ -5614,6 +5995,9 @@
       ],
       "You will be able to reset your password in ${ boldTimeLeft }.": [
         "您可以在${ boldTimeLeft }之内重置密码。"
+      ],
+      "${ gracePeriodHoursRemaining } hour": [
+        "${ gracePeriodHoursRemaining } 小时"
       ]
     },
     "session_recovery:sign_out:link": {
@@ -5638,6 +6022,9 @@
     },
     "Share calendar max shares reached error": {
       "You have exceeded the maximum of ${ MAX_CALENDAR_MEMBERS } members per calendar": [
+        "每份日历最多只能有 ${ MAX_CALENDAR_MEMBERS } 名成员"
+      ],
+      "You have exceeded the maximum of ${ MAX_CALENDAR_MEMBERS } member per calendar": [
         "每份日历最多只能有 ${ MAX_CALENDAR_MEMBERS } 名成员"
       ]
     },
@@ -5710,10 +6097,25 @@
       ],
       "${ seconds } seconds": [
         "${ seconds } 秒"
+      ],
+      "${ days } day": [
+        "${ days } 天"
+      ],
+      "${ hours } hour": [
+        "${ hours } 小时"
+      ],
+      "${ minutes } minute": [
+        "${ minutes } 分钟"
+      ],
+      "${ seconds } second": [
+        "${ seconds } 秒"
       ]
     },
     "specialoffer: Deal": {
       "${ n } months FREE": [
+        "免费 ${ n } 个月"
+      ],
+      "${ n } month FREE": [
         "免费 ${ n } 个月"
       ]
     },
@@ -5831,6 +6233,9 @@
       ],
       "Standard price ${ amount } for 30 months": [
         "30个月的标准价格为${ amount }"
+      ],
+      "${ n } month": [
+        "${ n } 月"
       ]
     },
     "specialoffer: Title": {
@@ -5988,7 +6393,7 @@
         "联系人已保存"
       ],
       "Contacts deleted": [
-        "已删除联系人"
+        "联系人已删除"
       ],
       "Email address copied to clipboard": [
         "邮箱地址已复制到剪贴板"
@@ -6061,6 +6466,15 @@
       ],
       "Verification successful": [
         "验证成功"
+      ],
+      "${ countMergeableContacts } contact look identical.": [
+        "${ countMergeableContacts } 位联系人信息似乎完全相同。"
+      ],
+      "Contact deleted": [
+        "已删除联系人"
+      ],
+      "Contact group deleted": [
+        "联系人群组已删除"
       ]
     },
     "Success notification when user send feedback": {
@@ -6159,6 +6573,15 @@
         "${ hoursInt }.5 小时"
       ],
       "${ minutes } minutes": [
+        "${ minutes } 分钟"
+      ],
+      "${ hours } hour": [
+        "${ hours } 小时"
+      ],
+      "${ hoursInt }.5 hour": [
+        "${ hoursInt }.5 小时"
+      ],
+      "${ minutes } minute": [
         "${ minutes } 分钟"
       ]
     },
@@ -6533,6 +6956,30 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免费体验期将于 ${ textDate } 结束"
+      ],
+      "${ emailsCount } email address": [
+        "${ emailsCount } 个邮箱地址"
+      ],
+      "Account recovery": [
+        "账户恢复"
+      ],
+      "Account security": [
+        "账户安全"
+      ],
+      "Add to ${ groupCount } group": [
+        "添加到 ${ groupCount } 个群组"
+      ],
+      "Data recovery": [
+        "数据恢复"
+      ],
+      "Delete ${ count } contact": [
+        "删除 ${ count } 联系人"
+      ],
+      "Delete ${ count } contact group": [
+        "删除 ${ count } 个联系人组"
+      ],
+      "Import as simple event?": [
+        "导入为简单活动？"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6637,6 +7084,9 @@
       ],
       "Try a shorter username (${ n } characters max)": [
         "请缩短用户名（最长 ${ n } 个字符）"
+      ],
+      "Try a shorter username (${ n } character max)": [
+        "请缩短用户名（最长 ${ n } 个字符）"
       ]
     },
     "Video control": {
@@ -6721,6 +7171,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "您的免费体验期将于 ${ textDate } 结束。${ action }"
+      ],
+      "Are you sure you want to permanently delete ${ count } contact?": [
+        "您确定要永久删除 ${ count } 联系人吗？"
+      ],
+      "Invalid alias prefix": [
+        "无效的别名前缀"
+      ],
+      "Missing alias prefix": [
+        "缺少别名前缀"
+      ],
+      "Missing alias suffix": [
+        "缺少别名后缀"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "仅允许使用字母数字字符、点、连字符和下划线"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "别名前缀不可超过40个字符"
+      ],
+      "You must select at least one mailbox": [
+        "您必须选择至少一个邮箱"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -6728,7 +7199,7 @@
         "若要访问此共享日历，请启用此地址，或请求 ${ boldCalendarOwnerEmail } 向活动地址发送邀请链接。"
       ],
       "You cannot join this calendar because your invited email address (${ boldInvitedAddress }) is disabled.": [
-        "因为邀请邮件地址 (${ boldInvitedAddress }) 无效，您无法加入此日历。"
+        "您的受邀邮箱地址（${ boldInvitedAddress }）已停用，因此无法加入此日历。"
       ]
     },
     "Weekly recurring event, frequency": {
@@ -6794,6 +7265,42 @@
       ],
       "Weekly on Wednesday": [
         "每周星期三"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }": [
+        "每 ${ interval } 周的${ multipleDaysString }"
+      ],
+      "Every ${ interval } week on all days": [
+        "每 ${ interval } 周整周"
+      ],
+      "Every ${ interval } week on Friday": [
+        "每 ${ interval } 周的星期五"
+      ],
+      "Every ${ interval } week on Monday": [
+        "每 ${ interval } 周的星期一"
+      ],
+      "Every ${ interval } week on Monday, ${ timesString }": [
+        "每 ${ interval } 周星期一，${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday": [
+        "每 ${ interval } 周的星期六"
+      ],
+      "Every ${ interval } week on Sunday": [
+        "每 ${ interval } 周的星期日"
+      ],
+      "Every ${ interval } week on Sunday, ${ timesString }": [
+        "每 ${ interval } 周星期日，${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday": [
+        "每 ${ interval } 周的星期四"
+      ],
+      "Every ${ interval } week on Tuesday": [
+        "每 ${ interval } 周的星期二"
+      ],
+      "Every ${ interval } week on Tuesday, ${ timesString }": [
+        "每 ${ interval } 周星期二，${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday": [
+        "每 ${ interval } 周的星期三"
       ]
     },
     "Weekly recurring event, frequency (times)": {
@@ -6841,6 +7348,24 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "每周星期三，${ timesString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ timesString }": [
+        "每${ interval } 周的${ multipleDaysString }，${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "每 ${ interval } 周整周，${ timesString }"
+      ],
+      "Every ${ interval } week on Friday, ${ timesString }": [
+        "每 ${ interval } 周星期五，${ timesString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ timesString }": [
+        "每 ${ interval } 周星期六，${ timesString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ timesString }": [
+        "每 ${ interval } 周星期四，${ timesString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ timesString }": [
+        "每 ${ interval } 周星期三，${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -6897,6 +7422,33 @@
       ],
       "Weekly on Wednesday, ${ untilString }": [
         "每周星期三，直到${ untilString }"
+      ],
+      "Every ${ interval } week on ${ multipleDaysString }, ${ untilString }": [
+        "每${ interval } 周的${ multipleDaysString }，知道${ untilString }"
+      ],
+      "Every ${ interval } week on all days, ${ untilString }": [
+        "每 ${ interval } 周所有天，${ untilString }"
+      ],
+      "Every ${ interval } week on Friday, ${ untilString }": [
+        "每 ${ interval } 周星期五，${ untilString }"
+      ],
+      "Every ${ interval } week on Monday, ${ untilString }": [
+        "每 ${ interval } 周星期一，${ untilString }"
+      ],
+      "Every ${ interval } week on Saturday, ${ untilString }": [
+        "每 ${ interval } 周星期六，${ untilString }"
+      ],
+      "Every ${ interval } week on Sunday, ${ untilString }": [
+        "每 ${ interval } 周星期日，${ untilString }"
+      ],
+      "Every ${ interval } week on Thursday, ${ untilString }": [
+        "每 ${ interval } 周星期四，${ untilString }"
+      ],
+      "Every ${ interval } week on Tuesday, ${ untilString }": [
+        "每 ${ interval } 周星期二，${ untilString }"
+      ],
+      "Every ${ interval } week on Wednesday, ${ untilString }": [
+        "每 ${ interval } 周星期三，${ untilString }"
       ]
     },
     "Weekly recurring event, repeats on (multiple days), frequency": {
@@ -6928,6 +7480,9 @@
       ],
       "Yearly": [
         "每年"
+      ],
+      "Every ${ interval } year": [
+        "每 ${ interval } 年"
       ]
     },
     "Yearly recurring event, frequency (times)": {
@@ -6936,6 +7491,9 @@
       ],
       "Yearly, ${ timesString }": [
         "每年, ${ timesString }"
+      ],
+      "Every ${ interval } year, ${ timesString }": [
+        "每 ${ interval } 年，${ timesString }"
       ]
     },
     "Yearly recurring event, frequency (until)": {
@@ -6944,6 +7502,33 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ],
+      "Every ${ interval } year, ${ untilString }": [
+        "每 ${ interval } 年，直到 ${ untilString }"
+      ]
+    },
+    "description": {
+      "use the Easy Switch import assistant": [
+        "使用 Easy Switch 导入助手"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "个hide-my-email别名"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "打开 ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "体验 ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } 存储空间"
+      ],
+      "Your storage is full": [
+        "你的存储空间满了"
       ]
     }
   }

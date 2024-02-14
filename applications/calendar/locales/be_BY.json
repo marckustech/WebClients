@@ -647,6 +647,18 @@
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам",
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам",
         "Вы не можаце адправіць файлы vCard больш чым ${ maxAttachments } кантактам"
+      ],
+      "Create and copy alias": [
+        "Стварыць і скапіяваць псеўданім"
+      ],
+      "Dismiss": [
+        "Закрыць"
+      ],
+      "Not now": [
+        "Не зараз"
+      ],
+      "Select country": [
+        "Выберыце краіну"
       ]
     },
     "Action subline": {
@@ -2237,6 +2249,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Вы можаце пазначыць тыя кантакты, якія вы не хочаце аб'яднаць і пакідаць. Выдаленне адбываецца толькі пасля націску кнопкі аб'яднання"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2ФА дадае дадатковы слой бяспекі, каб прадухіліць неаўтарызаваны доступ."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Распрацаваны для карыстальнікаў, якія шукаюць дадатковую абарону для сваіх уліковых запісаў."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Атрымайце неабмежаваную колькасць псеўданімаў і сховішча аб'ёмам у 500 ГБ з тарыфным планам ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Задаць спосаб аднаўлення, каб прадухіліць страту даных."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Задаць спосаб аднаўлення, каб прадухіліць страту доступу да вашага ўліковага запісу."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Палепшыце свой уліковы запіс, каб актываваць ${ PROTON_SENTINEL_NAME }, наша перадавое рашэнне па бяспецы на базе штучнага інтэлекту з падтрымкай ад экспертаў 24/7."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Спосабы аднаўлення вашага ўліковага запісу і даных зададзены, а 2ФА уключаны."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Спосабы аднаўлення вашага ўліковага запісу зададзены."
       ]
     },
     "description": {
@@ -2796,6 +2832,39 @@
       ],
       "Your import will not be processed.": [
         "Ваша імпартаванне не будзе апрацавана."
+      ],
+      "Alias is not valid": [
+        "Несапраўдны псеўданім"
+      ],
+      "Alias is required": [
+        "Патрабуецца псеўданім"
+      ],
+      "Alias options could not be resolved": [
+        "Не атрымалася вызначыць параметры псеўданіма"
+      ],
+      "Aliases could not be loaded": [
+        "Немагчыма загрузіць псеўданімы"
+      ],
+      "An error occurred while loading alias options": [
+        "Падчас загрузкі параметраў псеўданіма адбылася памылка"
+      ],
+      "An error occurred while saving alias": [
+        "Падчас захавання псеўданіма адбылася памылка"
+      ],
+      "Could not open created vault": [
+        "Немагчыма адкрыць створанае сховішча"
+      ],
+      "Could not open updated vault": [
+        "Немагчыма адкрыць абноўленае сховішча"
+      ],
+      "Forward address is required": [
+        "Патрабуецца адрас перасылкі"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Змесціва элемента не можа перавышаць 40 КБ"
+      ],
+      "Name is required": [
+        "Патрабуецца назва"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3374,6 +3443,9 @@
       ],
       "Search": [
         "Пошук"
+      ],
+      "Security Center": [
+        "Цэнтр бяспекі"
       ]
     },
     "Hint": {
@@ -4459,6 +4531,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Падобна, што ваш часавы пояс змяніўся на ${ timezone }. Вы сапраўды хочаце абнавіць налады вашага часавога пояса?"
+      ],
+      "Important note": [
+        "Важная заўвага"
+      ],
+      "Warning": [
+        "Папярэджанне"
       ]
     },
     "info": {
@@ -4510,7 +4588,7 @@
     },
     "Info; reset calendar keys modal; part 2": {
       "This is because your password was recently reset without using a recovery method.": [
-        "Гэта звязана з тым, што ваш пароль быў нядаўна скінуты без выкарыстання метаду аднаўлення."
+        "Гэта звязана з тым, што ваш пароль быў нядаўна скінуты без выкарыстання спосабу аднаўлення."
       ]
     },
     "Info; reset calendar keys modal; part 3": {
@@ -4922,6 +5000,21 @@
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "напрыклад, Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Пераслаць на"
+      ],
+      "Note": [
+        "Нататка"
+      ],
+      "Title": [
+        "Назва"
+      ],
+      "Your alias": [
+        "Ваш псеўданім"
       ]
     },
     "Label for contact group color": {
@@ -5013,7 +5106,7 @@
     },
     "Link; reset calendar keys modal": {
       "What's a recovery method?": [
-        "Што ўяўляе сабой метад аднаўлення?"
+        "Што ўяўляе сабой спосаб аднаўлення?"
       ]
     },
     "Loading info": {
@@ -5429,6 +5522,12 @@
       ],
       "Link copied to clipboard": [
         "Спасылка скапіявана ў буфер абмену"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } было адключана"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } было ўключана"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6519,6 +6618,24 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Ваша сховішча запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Вызваліце месца або ${ upgrade }, адпраўляць і атрымліваць лісты"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Вызваліце месца або ${ upgrade }, каб запампоўваць або сінхранізаваць файлы"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ваша ${ storage } запоўнена на ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ваша ${ storage } запоўнена. ${ cta }"
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ваша сховішча запоўнена на ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ваша сховішча запоўнена. ${ cta }"
       ]
     },
     "Subscribe to calendar modal": {
@@ -6684,6 +6801,12 @@
       ],
       "Verification successful": [
         "Паспяхова праверана"
+      ],
+      "Alias copied to clipboard": [
+        "Псеўданім скапіяваны ў буфер абмену"
+      ],
+      "Alias saved and copied": [
+        "Псеўданімы захаваны і скапіяваны"
       ]
     },
     "Success notification when user send feedback": {
@@ -7189,6 +7312,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Account recovery": [
+        "Аднаўленне ўліковага запісу"
+      ],
+      "Account security": [
+        "Бяспека ўліковага запісу"
+      ],
+      "Data recovery": [
+        "Аднаўленне даных"
+      ],
+      "Enable 2FA": [
+        "Уключыць 2ФА"
+      ],
+      "Get advanced protection": [
+        "Атрыманне дадатковай абароны"
+      ],
+      "Need more aliases?": [
+        "Патрабуецца больш псеўданімаў?"
+      ],
+      "Save": [
+        "Захаваць"
+      ],
+      "Security center": [
+        "Цэнтр бяспекі"
+      ],
+      "Your account is protected": [
+        "Ваш уліковы запіс абаронены"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7299,6 +7449,12 @@
         "Паспрабуйце больш кароткае імя карыстальніка (максімум ${ n } сімвалы)",
         "Паспрабуйце больш кароткае імя карыстальніка (максімум ${ n } сімвалаў)",
         "Паспрабуйце больш кароткае імя карыстальніка (максімум ${ n } сімвалы)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Пароль павінен змяшчаць прынамсі ${ MIN_PASSWORD_LENGTH } сімвал",
+        "Пароль павінен змяшчаць прынамсі ${ MIN_PASSWORD_LENGTH } сімвалы",
+        "Пароль павінен змяшчаць прынамсі ${ MIN_PASSWORD_LENGTH } сімвалаў",
+        "Пароль павінен змяшчаць прынамсі ${ MIN_PASSWORD_LENGTH } сімвалаў"
       ]
     },
     "Video control": {
@@ -7386,6 +7542,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Ваш бясплатны выпрабавальны перыяд міне ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Дата завяршэння тэрміну не адпавядае фармату ММ/ГГ"
+      ],
+      "Invalid alias prefix": [
+        "Памылковы прэфікс псеўданіма"
+      ],
+      "Missing alias prefix": [
+        "Прапушчаны прэфікс псеўданіма"
+      ],
+      "Missing alias suffix": [
+        "Памылковы суфікс псеўданіма"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Вам даступны наступныя сімвалы: літары, лічбы, кропкі, злучкі і падкрэсліванні"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Прэфікс псеўданіма не можа быць даўжэй за 40 сімвалаў"
+      ],
+      "You must select at least one mailbox": [
+        "Вы павінны выбраць прынамсі адну паштовую скрыню"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7699,6 +7876,62 @@
       ],
       "Yearly, ${ untilString }": [
         "Штогод, ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Краіна выстаўлення рахунка"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Усе псеўданімы"
+      ],
+      "Create alias": [
+        "Стварыць псеўданім"
+      ],
+      "Create an alias": [
+        "Стварыць псеўданім"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Генерыруйце імгненныя псеўданімы і без намаганняў кіруйце імі разам з паролямі."
+      ],
+      "Hide-my-email aliases": [
+        "Псеўданімы Hide-my-email"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Псеўданімы Hide-my-email дазваляюць вам рэгістравацца для атрымання пэўнай паслугі без раскрыцця свайго адраса электроннай пошты. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Новы псеўданім"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Адкрыць ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Абараніце сваю сеткавую ідэнтычнасць"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Паспрабуйце ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Выкарыстоўвайце на Amazon для пакупак і г.д."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Замест свайго сапраўднага паштовага адраса паведаміце гэты псеўданім. Дадайце загаловак і нататку, каб разумець дзе яго неабходна выкарыстоўваць."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Паглядзець журнал"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Наша перадавое рашэнне па бяспецы на базе штучнага інтэлекту распрацавана для карыстальнікаў, якія шукаюць дадатковую абарону для сваіх уліковых запісаў. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel цяпер **актыўны** і ахоўвае ваш уліковы запіс."
       ]
     }
   }

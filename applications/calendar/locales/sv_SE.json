@@ -639,6 +639,18 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakt",
         "Du kan inte skicka vCard-filer med fler än ${ maxAttachments } kontakter"
+      ],
+      "Create and copy alias": [
+        "Skapa och kopiera alias"
+      ],
+      "Dismiss": [
+        "Avfärda"
+      ],
+      "Not now": [
+        "Inte nu"
+      ],
+      "Select country": [
+        "Välj land"
       ]
     },
     "Action subline": {
@@ -2199,6 +2211,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Du kan markera de kontakter som du varken vill slå ihop eller behålla för borttagning. Borttagning kommer endast ske efter att ha klickat på knappen ”Slå ihop”"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA lägger till ett extra säkerhetslager som förhindrar obehörig åtkomst."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Designad för användare som söker utökat skydd för sina konton."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Skaffa obegränsat antal alias och 500 GB lagringsutrymme med ${ PLAN_NAMES[PLANS.BUNDLE] }"
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Ställ in en dataåterställningsmetod för att förhindra dataförlust."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Ställ in en återställningsmetod för att förhindra att du förlorar åtkomst till ditt konto."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Uppgradera ditt konto för att aktivera ${ PROTON_SENTINEL_NAME }, vår banbrytande AI-drivna säkerhetslösning med dedikerad expertsupport dygnet runt."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Ditt konto- och dataåterställningsmetoder är inställda och 2FA är aktiverat."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Ditt konto och dina dataåterställningsmetoder är inställda."
       ]
     },
     "description": {
@@ -2734,6 +2770,39 @@
       ],
       "Your import will not be processed.": [
         "Din import kommer inte att bearbetas."
+      ],
+      "Alias is not valid": [
+        "Alias är inte giltigt"
+      ],
+      "Alias is required": [
+        "Alias är obligatoriskt"
+      ],
+      "Alias options could not be resolved": [
+        "Alternativ för alias kunde inte lösas"
+      ],
+      "Aliases could not be loaded": [
+        "Alias kunde inte laddas"
+      ],
+      "An error occurred while loading alias options": [
+        "Ett fel uppstod när alternativen för alias skulle laddas"
+      ],
+      "An error occurred while saving alias": [
+        "Ett fel uppstod när alias skulle sparas"
+      ],
+      "Could not open created vault": [
+        "Kunde inte öppna skapat valv"
+      ],
+      "Could not open updated vault": [
+        "Kunde inte öppna uppdaterat valv"
+      ],
+      "Forward address is required": [
+        "Adress för vidarebefordran är obligatoriskt"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Objektinnehåll får inte överstiga 40 kB"
+      ],
+      "Name is required": [
+        "Namn är obligatoriskt"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3294,6 +3363,9 @@
       ],
       "Search": [
         "Sök"
+      ],
+      "Security Center": [
+        "Säkerhetscenter"
       ]
     },
     "Hint": {
@@ -4317,6 +4389,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "Important note": [
+        "Viktig notering"
+      ],
+      "Warning": [
+        "Varning"
       ]
     },
     "info": {
@@ -4775,6 +4853,21 @@
       ],
       "Your password (admin)": [
         "Ditt lösenord (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "t.ex. Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Vidarebefordras till"
+      ],
+      "Note": [
+        "Anteckning"
+      ],
+      "Title": [
+        "Rubrik"
+      ],
+      "Your alias": [
+        "Ditt alias"
       ]
     },
     "Label for contact group color": {
@@ -5250,6 +5343,12 @@
       ],
       "Link copied to clipboard": [
         "Länk kopierad till urklipp"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } har inaktiverats"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } har aktiverats"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6248,6 +6347,24 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "Ditt lagringsutrymme är fullt. För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "För att skicka eller ta emot e-post, frigör utrymme eller ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "För att ladda upp eller synkronisera filer, frigör utrymme eller ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ditt ${ storage } är ${ percentage } % fullt. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ditt ${ storage } är fullt. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ditt lagringsutrymme är ${ percentage } % fullt. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ditt lagringsutrymme fullt. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6407,6 +6524,12 @@
       ],
       "Verification successful": [
         "Verifiering lyckades"
+      ],
+      "Alias copied to clipboard": [
+        "Alias kopierat till urklipp"
+      ],
+      "Alias saved and copied": [
+        "Alias sparat och kopierat"
       ]
     },
     "Success notification when user send feedback": {
@@ -6890,6 +7013,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Account recovery": [
+        "Kontoåterställning"
+      ],
+      "Account security": [
+        "Kontosäkerhet"
+      ],
+      "Data recovery": [
+        "Dataåterställning"
+      ],
+      "Enable 2FA": [
+        "Aktivera 2FA"
+      ],
+      "Get advanced protection": [
+        "Skaffa avancerat skydd"
+      ],
+      "Need more aliases?": [
+        "Behöver du fler alias?"
+      ],
+      "Save": [
+        "Spara"
+      ],
+      "Security center": [
+        "Säkerhetscenter"
+      ],
+      "Your account is protected": [
+        "Ditt konto är skyddat"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6996,6 +7146,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prova ett kortare användarnamn (max ${ n } antal tecken)",
         "Prova ett kortare användarnamn (max ${ n } antal tecken)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Lösenord måste innehålla minst ${ MIN_PASSWORD_LENGTH } tecken",
+        "Lösenord måste innehålla minst ${ MIN_PASSWORD_LENGTH } tecken"
       ]
     },
     "Video control": {
@@ -7081,6 +7235,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Din gratis provperiod slutar den ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Utgångsdatum är inte i formatet MM/ÅÅ"
+      ],
+      "Invalid alias prefix": [
+        "Ogiltigt alias-prefix"
+      ],
+      "Missing alias prefix": [
+        "Alias-prefix saknas"
+      ],
+      "Missing alias suffix": [
+        "Alias-suffix saknas"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Endast alfanumeriska tecken, punkter, bindestreck och understreck är tillåtna"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Alias-prefixet får inte vara längre än 40 tecken"
+      ],
+      "You must select at least one mailbox": [
+        "Du måste välja minst en brevlåda"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7274,6 +7449,62 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Faktureringsland"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Alla alias"
+      ],
+      "Create alias": [
+        "Skapa alias"
+      ],
+      "Create an alias": [
+        "Skapa ett alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generera alias i farten och hantera enkelt dina alias och lösenord."
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email-alias"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email-alias låter dig registrera dig för saker online utan att dela din e-postadress. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nytt alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Öppna ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Skydda din identitet online"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Prova ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Används på Amazon för shopping etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "När du tillfrågas om din e-postadress, ge detta alias istället. Lägg till en rubrik och anteckning för att hålla reda på var du använder den."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Visa loggar"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Vår banbrytande AI-drivna säkerhetslösning designad för användare som söker utökat skydd för sina konton. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel är **aktivt** och skyddar ditt konto."
       ]
     }
   }

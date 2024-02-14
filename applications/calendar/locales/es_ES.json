@@ -639,6 +639,18 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos.",
         "No puedes enviar archivos vCard de más de ${ maxAttachments } contactos."
+      ],
+      "Create and copy alias": [
+        "Crear y copiar alias"
+      ],
+      "Dismiss": [
+        "Descartar"
+      ],
+      "Not now": [
+        "Ahora no"
+      ],
+      "Select country": [
+        "Seleccionar un país"
       ]
     },
     "Action subline": {
@@ -2203,6 +2215,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Puedes marcar los contactos que no quieres ni combinar ni mantener para eliminarlos. Se eliminarán solo después de que pulses el botón."
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "La autenticación de dos factores añade una capa de seguridad adicional, evitando el acceso no autorizado."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Diseñado para usuarios que buscan una protección más intensificada para sus cuentas."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Obtén alias ilimitados y 500 GB de almacenamiento con ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Establece un método de recuperación de datos para evitar la pérdida de datos."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Establece un método de recuperación para evitar perder el acceso a tu cuenta."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Actualiza tu cuenta para activar ${ PROTON_SENTINEL_NAME }, nuestra solución de seguridad de última generación impulsada por inteligencia artificial con soporte dedicado de expertos las 24 horas, los 7 días de la semana."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Los métodos de recuperación de cuenta y datos están configurados y la opción de 2FA está habilitada."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Se han establecido los métodos de recuperación de cuenta y datos."
       ]
     },
     "description": {
@@ -2738,6 +2774,39 @@
       ],
       "Your import will not be processed.": [
         "No se procesará tu importación."
+      ],
+      "Alias is not valid": [
+        "El alias no es válido."
+      ],
+      "Alias is required": [
+        "Se requiere un alias"
+      ],
+      "Alias options could not be resolved": [
+        "No se han podido resolver las opciones de alias."
+      ],
+      "Aliases could not be loaded": [
+        "No se pudieron cargar los alias."
+      ],
+      "An error occurred while loading alias options": [
+        "Ha ocurrido un error al cargar las opciones de alias."
+      ],
+      "An error occurred while saving alias": [
+        "Ocurrió un error al guardar el alias."
+      ],
+      "Could not open created vault": [
+        "No se ha podido abrir la caja fuerte creada."
+      ],
+      "Could not open updated vault": [
+        "No se ha podido abrir la caja fuerte actualizada."
+      ],
+      "Forward address is required": [
+        "Se requiere una dirección de reenvío."
+      ],
+      "Item content cannot exceed 40KB": [
+        "El contenido del elemento no puede exceder de 40 KB"
+      ],
+      "Name is required": [
+        "El nombre es obligatorio"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3298,6 +3367,9 @@
       ],
       "Search": [
         "Buscar"
+      ],
+      "Security Center": [
+        "Centro de Seguridad"
       ]
     },
     "Hint": {
@@ -4321,6 +4393,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "La zona horaria del sistema parece haber cambiado a ${ timezone }. ¿Quieres actualizar tu preferencia de zona horaria?"
+      ],
+      "Important note": [
+        "Aviso importante"
+      ],
+      "Warning": [
+        "Advertencia"
       ]
     },
     "info": {
@@ -4779,6 +4857,21 @@
       ],
       "Your password (admin)": [
         "Tu contraseña (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "por ejemplo; Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "Reenvía a"
+      ],
+      "Note": [
+        "Nota"
+      ],
+      "Title": [
+        "Título"
+      ],
+      "Your alias": [
+        "Tu alias"
       ]
     },
     "Label for contact group color": {
@@ -5262,6 +5355,12 @@
       ],
       "Link copied to clipboard": [
         "El enlace ha sido copiado al portapapeles."
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "Se ha desactivado ${ PROTON_SENTINEL_NAME }"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "Se ha activado ${ PROTON_SENTINEL_NAME }"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -6260,6 +6359,24 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ upgrade }.": [
         "El almacenamiento está lleno. Para enviar o recibir correos, libera espacio o ${ upgrade }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Para enviar o recibir correos electrónicos, libera espacio o ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Para cargar o sincronizar archivos, libera espacio o ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Tu ${ storage } está al ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Tu ${ storage } está lleno. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Tu almacenamiento está al ${ percentage }% lleno. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Tu almacenamiento está lleno. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6419,6 +6536,12 @@
       ],
       "Verification successful": [
         "Verificación completada"
+      ],
+      "Alias copied to clipboard": [
+        "Alias copiado al portapapeles."
+      ],
+      "Alias saved and copied": [
+        "Alias guardado y copiado."
       ]
     },
     "Success notification when user send feedback": {
@@ -6902,6 +7025,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Tu prueba gratuita de Mail Plus termina el ${ textDate }."
+      ],
+      "Account recovery": [
+        "Recuperación de cuenta"
+      ],
+      "Account security": [
+        "Seguridad de la cuenta"
+      ],
+      "Data recovery": [
+        "Recuperación de datos"
+      ],
+      "Enable 2FA": [
+        "Activar 2FA"
+      ],
+      "Get advanced protection": [
+        "Obtén protección avanzada."
+      ],
+      "Need more aliases?": [
+        "¿Necesitas más aliases?"
+      ],
+      "Save": [
+        "Guardar"
+      ],
+      "Security center": [
+        "Centro de seguridad."
+      ],
+      "Your account is protected": [
+        "Tu cuenta está protegida."
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7093,6 +7243,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Tu periodo de prueba gratuito acaba el ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "La fecha de expiración no está en formato MM/AA."
+      ],
+      "Invalid alias prefix": [
+        "Prefijo del alias no válido"
+      ],
+      "Missing alias prefix": [
+        "Falta el prefijo del alias."
+      ],
+      "Missing alias suffix": [
+        "Falta el sufijo del alias."
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Solo se permiten caracteres alfanuméricos, puntos, guiones y guiones bajos."
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "El prefijo del alias no puede tener más de 40 caracteres."
+      ],
+      "You must select at least one mailbox": [
+        "Debes seleccionar al menos un buzón."
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7346,6 +7517,62 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada año hasta ${ untilString }"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de facturación"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Todos tus aliases"
+      ],
+      "Create alias": [
+        "Crear alias"
+      ],
+      "Create an alias": [
+        "Crear un alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Genera alias al instante y gestiona fácilmente tus alias y contraseñas."
+      ],
+      "Hide-my-email aliases": [
+        "Alias de Hide-my-email"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Los alias de hide-my-email te permiten registrarte en sitios sin compartir tu dirección de correo electrónico. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nuevo alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Abrir ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Protege tu identidad en línea."
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Prueba ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado para compras en Amazon, etc."
+      ],
+      "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
+        "Cuando te pidan tu dirección de correo electrónico, proporciona este alias en su lugar. Agrega un título y una nota para llevar un registro de dónde lo usas."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Ver registros"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Nuestra solución de seguridad de vanguardia impulsada por inteligencia artificial, diseñada para usuarios que buscan una protección más intensificada para sus cuentas. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel está **activo** y protegiendo tu cuenta."
       ]
     }
   }

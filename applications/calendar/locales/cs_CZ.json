@@ -644,6 +644,15 @@
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
+      ],
+      "Dismiss": [
+        "Skrýt"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "K dispozici je důležitá aktualizace. Chcete-li aplikaci nadále používat, aktualizujte ji na nejnovější verzi. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Nyní ne"
       ]
     },
     "Action subline": {
@@ -2234,6 +2243,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, které nechcete sloučit ani zachovat, označte pro smazání. Ke smazání dojde po kliknutí na tlačítko pro sloučení"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA přidává další úroveň zabezpečení a zabraňuje neoprávněnému přístupu."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Určeno pro uživatele, kteří hledají zvýšenou ochranu svých účtů."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Získejte neomezený počet aliasů a 500 GB úložiště s ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Nastavte metodu obnovy dat, abyste zabránili jejich ztrátě."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Nastavte metodu obnovení, abyste zabránili ztrátě přístupu k účtu."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Aktualizujte svůj účet a aktivujte ${ PROTON_SENTINEL_NAME }, naše špičkové bezpečnostní řešení s umělou inteligencí a specializovanou odbornou podporou 24 hodin denně, 7 dní v týdnu."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Jsou nastaveny metody obnovy účtu a dat a je povolena funkce 2FA."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Váš účet a metody obnovy dat jsou nastaveny."
       ]
     },
     "description": {
@@ -2790,6 +2823,42 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude zpracován."
+      ],
+      "Alias is not valid": [
+        "Alias není platný"
+      ],
+      "Alias is required": [
+        "Alias je povinný"
+      ],
+      "Alias options could not be resolved": [
+        "Možnosti aliasu nelze vyřešit"
+      ],
+      "Aliases could not be loaded": [
+        "Aliasy se nepodařilo načíst"
+      ],
+      "An error occurred while loading alias options": [
+        "Při načítání možností aliasů došlo k chybě"
+      ],
+      "An error occurred while saving alias": [
+        "Při ukládání aliasu došlo k chybě"
+      ],
+      "Could not open created vault": [
+        "Nelze otevřít vytvořený trezor"
+      ],
+      "Could not open updated vault": [
+        "Nelze aktualizovat vytvořený trezor"
+      ],
+      "Forward address is required": [
+        "Adresa předání je povinná"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Obsah položky nemůže přesáhnout 40KB"
+      ],
+      "Name is required": [
+        "Název je povinný"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Žádný externí klíč získaný pro uživatele není platný pro odeslání"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3368,6 +3437,9 @@
       ],
       "Search": [
         "Hledat"
+      ],
+      "Security Center": [
+        "Bezpečnostní centrum"
       ]
     },
     "Hint": {
@@ -4453,6 +4525,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá se, že se vaše systémové časové pásmo změnilo na ${ timezone }. Chcete aktualizovat nastavení časového pásma?"
+      ],
+      "Important note": [
+        "Důležitá poznámka"
+      ],
+      "Warning": [
+        "Varování"
       ]
     },
     "info": {
@@ -4916,6 +4994,21 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "například Amazon, eBay"
+      ],
+      "Forwards to": [
+        "Přeposílá na"
+      ],
+      "Note": [
+        "Poznámka"
+      ],
+      "Title": [
+        "Název"
+      ],
+      "Your alias": [
+        "Tvůj alias"
       ]
     },
     "Label for contact group color": {
@@ -5423,6 +5516,12 @@
       ],
       "Link copied to clipboard": [
         "Odkaz zkopírován do schránky"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } byl deaktivován"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } byl povolen"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5768,6 +5867,9 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Doporučujeme, abyste u tohoto klíče zvolili \"Nedůvěřovat\"."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Tento klíč se používá k šifrování zpráv tomuto kontaktu."
       ]
     },
     "PGP key warning": {
@@ -6468,6 +6570,24 @@
     "storage_split: info": {
       "${ app } storage": [
         "${ app } úložiště"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% zaplněno"
+      ],
+      "contact your administrator": [
+        "kontaktujte svého správce"
+      ],
+      "upgrade for more storage": [
+        "navýšit tarif pro více prostoru"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Vaše ${ appStorage } je téměř plné"
+      ],
+      "Your ${ appStorage } is full": [
+        "Vaše ${ appStorage } je plné"
+      ],
+      "Your storage is full": [
+        "Vaše úložiště je plné"
       ]
     },
     "Subscribe to calendar modal": {
@@ -6633,6 +6753,12 @@
       ],
       "Verification successful": [
         "Ověření proběhlo úspěšně"
+      ],
+      "Alias copied to clipboard": [
+        "Alias byl zkopírován do schránky"
+      ],
+      "Alias saved and copied": [
+        "Alias bylvytvořen a zkopírován"
       ]
     },
     "Success notification when user send feedback": {
@@ -7138,6 +7264,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Account recovery": [
+        "Obnovení účtu"
+      ],
+      "Account security": [
+        "Zabezpečení účtu"
+      ],
+      "Data recovery": [
+        "Obnovení dat"
+      ],
+      "Enable 2FA": [
+        "Povolit 2FA"
+      ],
+      "Get advanced protection": [
+        "Získat pokročilou ochranu"
+      ],
+      "Need more aliases?": [
+        "Potřebujete více aliasů?"
+      ],
+      "Save": [
+        "Uložit"
+      ],
+      "Security center": [
+        "Bezpečnostní centrum"
+      ],
+      "Your account is protected": [
+        "Váš účet je chráněn"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7335,6 +7488,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná zkušební verze končí ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Datum konce platnosti není ve formátu MM/RR"
+      ],
+      "Invalid alias prefix": [
+        "Nesprávná předpona aliasu"
+      ],
+      "Missing alias prefix": [
+        "Chybějící předpona aliasu"
+      ],
+      "Missing alias suffix": [
+        "Chybějící přípona aliasu"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Povoleny jsou pouze alfanumerické znaky, tečky, pomlčky a podtržítka"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Předpona aliasu nesmí být delší než 40 znaků"
+      ],
+      "You must select at least one mailbox": [
+        "Musíte vybrat nejméně jednu e-mailovou schránku"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7648,6 +7822,37 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročně, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "Všechny aliasy"
+      ],
+      "Create alias": [
+        "Vytvořit alias"
+      ],
+      "Hide-my-email aliases": [
+        "Aliasů hide-my-email"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "ide-my-email alias vám umožní přihlásit se k online službám, aniž byste museli sdílet svou e-mailovou adresu. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nový alias"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Otevřít ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Vaše digitální identita je chráněna"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Vyzkoušejte ${ PASS_APP_NAME }"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Zobrazit logy"
       ]
     }
   }

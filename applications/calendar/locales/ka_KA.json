@@ -633,6 +633,24 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "${ maxAttachments }-ზე მეტი კონტაქტის vCard-ის გაგზავნა შეუძლებელია",
         "${ maxAttachments }-ზე მეტი კონტაქტის vCard-ის გაგზავნა შეუძლებელია"
+      ],
+      "Create and copy alias": [
+        "ფსევდონიმის შექმნა და კოპირება"
+      ],
+      "Dismiss": [
+        "მოცილება"
+      ],
+      "Download now": [
+        "ახლა გადმოწერა"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "ხელმისაწვდომია მნიშვნელოვაი განახლება. ამ აპის გამოყენების გასაგრძელებლად განახლდით უკანასკნელ ვერსიამდე. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "არა ახლა"
+      ],
+      "Select country": [
+        "აირჩიეთ ქვეყანა"
       ]
     },
     "Action subline": {
@@ -2197,6 +2215,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "წასაშლელად შეგიძლიათ, მონიშნოთ ის კონტაქტები, რომელთა შერწყმა და შენარჩუნება არ გსურთ. წაშლა მოხდება, მხოლოდ, შერწყმის ღილაკზე დაწკაპუნების შემდეგ"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA ამატებს უსაფრთხოების ფენას, რითიც ხელს უშლის არაავტორიზებულ წვდომას."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "შექმნილია მომხმარებლებისთვის, რომლების თავიანთი ანგარიშებისთვის გაძლიერებულ უსაფრთხოებას ეძებენ."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "მიიღეთ შეუზღუდავი ფსევდონიმები და 500 გბ საცავი ${ PLAN_NAMES[PLANS.BUNDLE] }-სთან ერთად."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "დააყენეთ მონაცემების აღდგენის მეთოდი, მისი დაკარგვის თავიდან ასაცილებლად."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშსზე წვდომის დაკარგვა."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "ასწიეთ თქვენი სატარიფო გეგმა, რომ გაააქტიუროთ ${ PROTON_SENTINEL_NAME }, ჩვენი უახლესი AI-ზე დაფუძნებული უსაფრთხოების გადაწყვეტილება თავისი საკუთარი 24/7 პროფესიონალური მხარდაჭერით."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია, 2FA კი - ჩართული."
+      ],
+      "Your account and data recovery methods are set.": [
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთდები დაყეენბულია."
       ]
     },
     "description": {
@@ -2729,6 +2771,42 @@
       ],
       "Your import will not be processed.": [
         "თქვენი შემოტანა არ დამუშავდება."
+      ],
+      "Alias is not valid": [
+        "ფსევდონიმი არასწორია"
+      ],
+      "Alias is required": [
+        "ფსევდონიმი აუცილებელია"
+      ],
+      "Alias options could not be resolved": [
+        "ფსევდონიმის პარამეტრების ამოხსნა შეუძლებელია"
+      ],
+      "Aliases could not be loaded": [
+        "ფსევდონიმების ჩატვირთვა შეუძლებელია"
+      ],
+      "An error occurred while loading alias options": [
+        "შეცდომა ფსევდონიმის პარამეტრების ჩატვირთვისას"
+      ],
+      "An error occurred while saving alias": [
+        "შეცდომა ფსევდონიმის შენახვისას"
+      ],
+      "Could not open created vault": [
+        "შექმნილი საცავის გახსნა შეუძლებელია"
+      ],
+      "Could not open updated vault": [
+        "განახლებული საცავის გახსნა შეუძლებელია"
+      ],
+      "Forward address is required": [
+        "გადამისამართების მისამართი აუცილებელია"
+      ],
+      "Item content cannot exceed 40KB": [
+        "ელემენტის შემცველობა 40კბ-ზე მეტი ვერ იქნება"
+      ],
+      "Name is required": [
+        "სახელი აუცილებელია"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "მომხმარებლისთვის მიღებული არც ერთი გარე გასაღები გასაგზავნად არ გამოდგება"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3289,6 +3367,9 @@
       ],
       "Search": [
         "ძებნა"
+      ],
+      "Security Center": [
+        "უსაფრთხოების ცენტრი"
       ]
     },
     "Hint": {
@@ -4312,6 +4393,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "თქვენი სისტემის დროის სარტყელი, როგორც ჩანს, შეიცვალა ${ timezone }-ზე. გსურთ, განაახლოთ თქვენი დროის სარტყელის პარამეტრი?"
+      ],
+      "Important note": [
+        "მნიშვნელოვანი შენიშვნა"
+      ],
+      "Warning": [
+        "გაფრთხილება"
       ]
     },
     "info": {
@@ -4767,6 +4854,21 @@
       ],
       "Your password (admin)": [
         "თქვენი პაროლი (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "მაგ Amazon, eBay, Etsy"
+      ],
+      "Forwards to": [
+        "გადაგზავნა"
+      ],
+      "Note": [
+        "შენიშვნა"
+      ],
+      "Title": [
+        "სათაური"
+      ],
+      "Your alias": [
+        "თქვენი ფსევდონიმი"
       ]
     },
     "Label for contact group color": {
@@ -5250,6 +5352,12 @@
       ],
       "Link copied to clipboard": [
         "ბმული კოპირებულია ბუფერში"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } გაითიშა"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } ჩაირთო"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -5545,6 +5653,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "გირჩევთ, ეს გასაღები \"არასანდოდ\" გამოაცხადოთ."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "გარე გასაღებების გამოთხოვა ავტომატურად ხდება საიტიდან keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "გარე გასაღები ავტომატურადაა გამოთხოვილი WKD-ის გავლით."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "ეს გასაღები ამ კონტაქტისთვის შეტყობინებების დასაშიფრად გამოიყენება"
       ]
     },
     "PGP key warning": {
@@ -6357,6 +6474,12 @@
       ],
       "Verification successful": [
         "გადამოწმება წარმატებულია"
+      ],
+      "Alias copied to clipboard": [
+        "ფსევდონიმი კოპირებულია ბუფერში"
+      ],
+      "Alias saved and copied": [
+        "ფსევდონიმი შენახული და კოპირებულია"
       ]
     },
     "Success notification when user send feedback": {
@@ -6840,6 +6963,33 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "თქვენი Mail Plus-ის უფასო სატესტო პერიოდი ${ textDate }-ზე სრულდება"
+      ],
+      "Account recovery": [
+        "ანგარიშის აღდგენა"
+      ],
+      "Account security": [
+        "ანგარიშის უსაფრთხოება"
+      ],
+      "Data recovery": [
+        "მონაცემების აღდგენა"
+      ],
+      "Enable 2FA": [
+        "2FA-ის ჩართვა"
+      ],
+      "Get advanced protection": [
+        "დამატებითი უსაფრთხოების მიღება"
+      ],
+      "Need more aliases?": [
+        "მეტი ფსევდონიმი გჭირდებათ?"
+      ],
+      "Save": [
+        "შენახვა"
+      ],
+      "Security center": [
+        "უსაფრთხოების ცენტრი"
+      ],
+      "Your account is protected": [
+        "თქვენი ანგარიში დაცულია"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7031,6 +7181,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "თქვენი უფასო სატესტო ვერსიის დამთავრების თარიღია ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "ვადის ამოწურვის თარიღი თთ/წწ ფორმატში არაა"
+      ],
+      "Invalid alias prefix": [
+        "არასწორი ფსევდონიმის პრეფიქსი"
+      ],
+      "Missing alias prefix": [
+        "აკლია ფსევდონიმის პრეფიქსი"
+      ],
+      "Missing alias suffix": [
+        "აკლია ფსევდონიმის სუფიქსი"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "დაშვებულია, მხოლოდ, ალფარცხვითი სიმბოლოები, წერტილები, ტირეები და ქვედა ტირეები"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "ფსევდონიმის პრეფიქსი 40 სიმბოლოზე გრძელი ვერ იქნება"
+      ],
+      "You must select at least one mailbox": [
+        "უნდა მიუთითოთ ერთი საფოსტო ყუთი მაინც"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7284,6 +7455,91 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "გადახდის ქვეყანა"
+      ]
+    },
+    "Security Center": {
+      "All aliases": [
+        "ყველა ფსევდონიმი"
+      ],
+      "Create alias": [
+        "ფსევდონიმის შექმნა"
+      ],
+      "Create an alias": [
+        "ფსევდონიმის შექმნა"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "დააგენერირეთ ფსევდონიმები მუშაობისას და ადვილად მართეთ თქვენი ფსევდონიმები და პაროლები."
+      ],
+      "Hide-my-email aliases": [
+        "Hide-my-email-ის ფსევდონიმები"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email ფსევდონიმები საშუალებას გაძლევთ, დარეგისტრირდეთ ინტერნეტ-რესურსებზე თქვენი ნამდვილი ელფოსტის მისამართის გაზიარების გარეშე. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "ახალი ფსევდონიმი"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "${ PASS_APP_NAME }-ის გახსნა"
+      ],
+      "Protect your online identity": [
+        "დაცავით თქვენი იდენტობა ინტერნეტში"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "სცადეთ ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "გამოიყენება Amazon-ზე შოპინგისთვის და ა.შ."
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "ჟურნალის ნახვა"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "ჩვენი უკანასკნელი სიტყვა - AI-ზე დაშენებული უსაფრთხოების გადაწყვეტილება მომხმარებლები, რომლებსაც თავიანთი ანგარიშებისთვის გაძლიერებული უსაფრთხოება სჭირდებათ. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel **აქტიურია** და იცავს თქვენს ანგარიშს."
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } საცავი"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } სავსეა ${ percentage }%"
+      ],
+      "contact your administrator": [
+        "დაუკავშირდით ადმინისტრატორს"
+      ],
+      "upgrade for more storage": [
+        "აწიეთ ტარიფი მეტი საცავისთვის"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "თქვენი ${ appStorage }, თითქმის, სავსეა"
+      ],
+      "Your ${ appStorage } is full": [
+        "თქვენი ${ appStorage } სავსეა"
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "თქვენი ${ storage } სავსეა. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "თქვენი საცავი ${ percentage }%-ით სავსეა. ${ cta }."
+      ],
+      "Your storage is full": [
+        "თქვენი საცავი სავსეა"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "თქვენი საცავი სავსეა. ${ cta }."
       ]
     }
   }

@@ -641,6 +641,15 @@
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov"
+      ],
+      "Dismiss": [
+        "Odmietnuť"
+      ],
+      "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
+        "K dispozícii je dôležitá aktualizácia. Ak chcete aplikáciu naďalej používať, aktualizujte ju na najnovšiu verziu. ${ downloadUpdate }"
+      ],
+      "Not now": [
+        "Teraz nie"
       ]
     },
     "Action subline": {
@@ -2787,6 +2796,24 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude spracovaný."
+      ],
+      "Alias options could not be resolved": [
+        "Možnosti aliasu sa nepodarilo vyriešiť"
+      ],
+      "An error occurred while saving alias": [
+        "Pri ukladaní aliasu došlo k chybe"
+      ],
+      "Could not open created vault": [
+        "Nepodarilo sa otvoriť vytvorený trezor"
+      ],
+      "Could not open updated vault": [
+        "Nepodarilo sa otvoriť aktualizovaný trezor"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Obsah položky nesmie presiahnuť 40KB"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Žiadny externý kľúč získaný pre užívateľov nie je platný pre odoslanie"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4450,6 +4477,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá sa, že vaše systémové časové pásmo sa zmenilo na ${ timezone }. Chcete aktualizovať nastavenia časového pásma?"
+      ],
+      "Important note": [
+        "Dôležitá poznámka"
+      ],
+      "Warning": [
+        "Varovanie"
       ]
     },
     "info": {
@@ -4913,6 +4946,15 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "Forwards to": [
+        "Preposielať na"
+      ],
+      "Note": [
+        "Poznámka"
+      ],
+      "Title": [
+        "Názov"
       ]
     },
     "Label for contact group color": {
@@ -5420,6 +5462,12 @@
       ],
       "Link copied to clipboard": [
         "Odkaz bol skopírovaný do schránky"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been disabled": [
+        "${ PROTON_SENTINEL_NAME } bol zakázaný"
+      ],
+      "${ PROTON_SENTINEL_NAME } has been enabled": [
+        "${ PROTON_SENTINEL_NAME } bol povolený"
       ]
     },
     "Notification in holidays calendar modal": {
@@ -7127,6 +7175,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Account recovery": [
+        "Obnovenie účtu"
+      ],
+      "Account security": [
+        "Zabezpečenie účtu"
+      ],
+      "Data recovery": [
+        "Obnovenie údajov"
+      ],
+      "Save": [
+        "Uložiť"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7324,6 +7384,27 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Bezplatná skúšobná verzia končí ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Koniec platnosti nie je vo formáte MM/RR"
+      ],
+      "Invalid alias prefix": [
+        "Neplatná predpona aliasu"
+      ],
+      "Missing alias prefix": [
+        "Chýbajúca predpona aliasu"
+      ],
+      "Missing alias suffix": [
+        "Chýbajúca prípona aliasu"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Povolené sú len alfanumerické znaky, bodky, pomlčky a podčiarkovníky"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Predpona aliasu nemôže byť dlhšia ako 40 znakov"
+      ],
+      "You must select at least one mailbox": [
+        "Musíte vybrať aspoň jednu poštovú schránku"
       ]
     },
     "Warning in modal to accept calendar invitation; Description": {
@@ -7637,6 +7718,25 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "Security Center": {
+      "Hide-my-email aliases": [
+        "Hide-my-email aliasy"
+      ],
+      "Open ${ PASS_APP_NAME }": [
+        "Otvoriť ${ PASS_APP_NAME }"
+      ],
+      "Try ${ PASS_APP_NAME }": [
+        "Vyskúšať ${ PASS_APP_NAME }"
+      ]
+    },
+    "storage_split: info": {
+      "${ app } storage": [
+        "${ app } uložisko"
+      ],
+      "Your storage is full": [
+        "Vaše úložisko je plné"
       ]
     }
   }

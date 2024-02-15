@@ -23,13 +23,21 @@ import {
     getVPNAppFeature,
 } from '@proton/components/containers/payments/features/vpn';
 import { FAMILY_MAX_USERS, PLANS } from '@proton/shared/lib/constants';
-import { Plan, VPNServersCountData } from '@proton/shared/lib/interfaces';
+import { FreePlanDefault, Plan, VPNServersCountData } from '@proton/shared/lib/interfaces';
 
 import bundleVpnPass from './bundle-vpn-pass.svg';
 import bundle from './bundle.svg';
 import { getCustomPassFeatures } from './pass/configuration';
 
-export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNServersCountData) => {
+export const getSummaryPlan = ({
+    plan,
+    vpnServersCountData,
+    freePlan,
+}: {
+    plan: Plan | undefined;
+    vpnServersCountData: VPNServersCountData;
+    freePlan: FreePlanDefault;
+}) => {
     const iconSize = 24;
 
     if (plan && plan?.Name === PLANS.VPN) {
@@ -53,7 +61,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
     }
 
     if (plan && plan?.Name === PLANS.BUNDLE) {
-        const shortPlan = getBundlePlan(plan, vpnServersCountData);
+        const shortPlan = getBundlePlan({ plan, vpnServersCountData, freePlan });
         return {
             logo: (
                 <div>
@@ -63,7 +71,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
             ...shortPlan,
             plan,
             features: [
-                getStorageFeature(plan.MaxSpace),
+                getStorageFeature(plan.MaxSpace, { freePlan }),
                 getMailAppFeature(),
                 getCalendarAppFeature(),
                 getDriveAppFeature(),
@@ -74,7 +82,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
     }
 
     if (plan && plan?.Name === PLANS.DRIVE) {
-        const shortPlan = getDrivePlan(plan);
+        const shortPlan = getDrivePlan({ plan, freePlan });
         return {
             logo: <DriveLogo variant="glyph-only" size={iconSize} />,
             ...shortPlan,
@@ -83,7 +91,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
     }
 
     if (plan && plan?.Name === PLANS.MAIL) {
-        const shortPlan = getMailPlan(plan);
+        const shortPlan = getMailPlan({ plan, freePlan });
         return {
             logo: <MailLogo variant="glyph-only" size={iconSize} />,
             ...shortPlan,
@@ -92,7 +100,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
     }
 
     if (plan && plan?.Name === PLANS.FAMILY) {
-        const shortPlan = getFamilyPlan(plan, vpnServersCountData);
+        const shortPlan = getFamilyPlan({ plan, serversCount: vpnServersCountData, freePlan });
         return {
             logo: (
                 <div>
@@ -103,7 +111,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
             plan,
             features: [
                 getUsersFeature(FAMILY_MAX_USERS),
-                getStorageFeature(plan.MaxSpace, { family: true }),
+                getStorageFeature(plan.MaxSpace, { family: true, freePlan }),
                 getMailAppFeature(),
                 getCalendarAppFeature({ family: true }),
                 getDriveAppFeature({ family: true }),
@@ -117,7 +125,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
     }
 
     if (plan && plan?.Name === PLANS.NEW_VISIONARY) {
-        const shortPlan = getNewVisionaryPlan(plan);
+        const shortPlan = getNewVisionaryPlan({ plan, freePlan });
         return {
             logo: (
                 <div>
@@ -127,7 +135,7 @@ export const getSummaryPlan = (plan: Plan | undefined, vpnServersCountData: VPNS
             ...shortPlan,
             plan,
             features: [
-                getStorageFeature(plan.MaxSpace, { visionary: true }),
+                getStorageFeature(plan.MaxSpace, { visionary: true, freePlan }),
                 getUsersFeature(plan.MaxMembers),
                 getAllAppsFeature(),
                 getEarlyAccessFeature(),

@@ -21,6 +21,7 @@ import {
 } from '@proton/shared/lib/helpers/subscription';
 import {
     Currency,
+    FreePlanDefault,
     Plan,
     PlanIDs,
     PlansMap,
@@ -323,6 +324,7 @@ export const UpsellCardSelector = ({
     subscription,
     plan,
     plansMap,
+    freePlan,
     cycle,
     coupon,
     currency,
@@ -335,6 +337,7 @@ export const UpsellCardSelector = ({
     plan: Plan | undefined;
     currentPlan: SubscriptionPlan | undefined;
     subscription: Subscription | undefined;
+    freePlan: FreePlanDefault;
     plansMap: PlansMap;
     cycle: CYCLE;
     currency: Currency;
@@ -401,7 +404,7 @@ export const UpsellCardSelector = ({
                         : getBilledText(subscription?.Cycle || cycle);
 
                     const shortPlan = currentPlan
-                        ? getShortPlan(currentPlan.Name as any, plansMap, { vpnServers: vpnServersCountData })
+                        ? getShortPlan(currentPlan.Name as any, plansMap, { vpnServers: vpnServersCountData, freePlan })
                         : undefined;
 
                     return (

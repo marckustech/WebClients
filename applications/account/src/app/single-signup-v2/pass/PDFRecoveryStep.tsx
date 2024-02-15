@@ -25,7 +25,7 @@ const PDFRecoveryStep = ({ onMeasureClick, onContinue, mnemonic }: Props) => {
     const [loading, withLoading] = useLoading();
     const [step, setStep] = useState<0 | 1>(0);
 
-    const size = `(${humanSize(mnemonic.blob.size)})`;
+    const size = `(${humanSize({ bytes: mnemonic.blob.size })})`;
 
     const handleDownload = () => {
         downloadFile(mnemonic.blob, 'recovery-kit.pdf');

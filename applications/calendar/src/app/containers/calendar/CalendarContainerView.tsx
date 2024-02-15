@@ -201,7 +201,7 @@ const CalendarContainerView = ({
     );
 
     const handleClickLocalDate = useCallback(
-        (newDate) => {
+        (newDate: Date) => {
             if (showIframeMiniCalendar) {
                 setShowIframeMiniCalendar(false);
             }
@@ -395,7 +395,7 @@ const CalendarContainerView = ({
     const top = !isDrawerApp && (
         <>
             {isElectronApp() && <InboxDesktopOutdatedAppTopBanner />}
-            <TopBanners />
+            <TopBanners app={APPS.PROTONCALENDAR} />
         </>
     );
 

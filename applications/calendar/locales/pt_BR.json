@@ -651,6 +651,9 @@
       ],
       "Select country": [
         "Selecionar país"
+      ],
+      "Upgrade Now": [
+        "Fazer upgrade agora"
       ]
     },
     "Action subline": {
@@ -2807,6 +2810,9 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Nenhuma chave externa recuperada para o usuário é válida para envio"
+      ],
+      "An error occurred while saving your alias": [
+        "Ocorreu um erro ao salvar os seus alias"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6304,6 +6310,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Com cores de evento personalizáveis, você pode codificar o caos por cores e conquistar o seu dia."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Inicie ${ MAIL_APP_NAME } com facilidade diretamente do seu computador"
+      ],
+      "Get the desktop app": [
+        "Obter o aplicativo para computador"
       ]
     },
     "Storage": {
@@ -7031,6 +7043,9 @@
       ],
       "Your account is protected": [
         "Sua conta está protegida"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obtenha os aplicativos do ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7137,6 +7152,10 @@
       "Try a shorter username (${ n } character max)": [
         "Tente um nome de usuário mais curto (máximo de ${ n } caractere)",
         "Tente um nome de usuário mais curto (máximo de ${ n } caracteres)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "A senha deve conter ao menos ${ MIN_PASSWORD_LENGTH } caractere",
+        "A senha deve conter ao menos ${ MIN_PASSWORD_LENGTH } caracteres"
       ]
     },
     "Video control": {
@@ -7552,6 +7571,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **ativo** e protegendo sua conta."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Baixe o aplicativo para computador do ${ MAIL_APP_NAME }"
       ]
     }
   }

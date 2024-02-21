@@ -6990,6 +6990,9 @@
       ],
       "Your account is protected": [
         "Hesabınız korunuyor"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "${ appName[APP_NAME] } uygulamalarını edinin"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

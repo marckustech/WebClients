@@ -2865,6 +2865,9 @@
       ],
       "Name is required": [
         "Патрабуецца назва"
+      ],
+      "An error occurred while saving your alias": [
+        "Падчас захавання вашага псеўданіма адбылася памылка"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6566,6 +6569,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "З дапамогай колераў, якія можна наладзіць, вы можаце лепш арганізаваць свой распарадак дня."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Зручны запуск ${ MAIL_APP_NAME } непасрэдна з вашага працоўнага стала."
+      ],
+      "Get the desktop app": [
+        "Атрымаць настольную праграму"
       ]
     },
     "Storage": {
@@ -6620,7 +6629,7 @@
         "Ваша сховішча запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ upgrade }."
       ],
       "To send or receive emails, free up space or ${ upgrade }": [
-        "Вызваліце месца або ${ upgrade }, адпраўляць і атрымліваць лісты"
+        "Вызваліце месца або ${ upgrade }, каб адпраўляць і атрымліваць лісты"
       ],
       "To upload or sync files, free up space or ${ upgrade }": [
         "Вызваліце месца або ${ upgrade }, каб запампоўваць або сінхранізаваць файлы"
@@ -7339,6 +7348,9 @@
       ],
       "Your account is protected": [
         "Ваш уліковы запіс абаронены"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Атрыманне праграм ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7919,6 +7931,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Замест свайго сапраўднага паштовага адраса паведаміце гэты псеўданім. Дадайце загаловак і нататку, каб разумець дзе яго неабходна выкарыстоўваць."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Дайце гэты псеўданім замест таго, каб уводзіць ваш сапраўдны адрас электроннай пошты. Псеўданімы забяспечваюцца ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -7932,6 +7947,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel цяпер **актыўны** і ахоўвае ваш уліковы запіс."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Спампаваць настольную праграму для ${ MAIL_APP_NAME }"
       ]
     }
   }

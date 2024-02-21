@@ -6358,10 +6358,22 @@
         "Tallennustilasi on täynnä. Lähettääksesi ja vastaanottaaksesi viestejä, vapauta tilaa tai ${ upgrade }."
       ],
       "To send or receive emails, free up space or ${ upgrade }": [
-        "Lähettääksesi ja vastaanottaaksesi sähköposteja, vapauta tallennustilaa tai ${ upgrade }"
+        "Jos haluat lähettää tai vastaanottaa sähköposteja, vapauta tilaa tai ${ upgrade }"
       ],
       "Your storage is full. ${ cta }.": [
         "Tallennustilasi on täynnä. ${ cta }."
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Jos haluat lähettää tai synkronoida tiedostoja, vapauta tilaa tai ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "${ storage } on ${ percentage }% täynnä. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "${ storage } on täynnä. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Tallennustilasi on ${ percentage }% täynnä. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -7037,6 +7049,9 @@
       ],
       "Your account is protected": [
         "Tilisi on suojattu"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Hanki ${ appName[APP_NAME] } -sovellukset"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

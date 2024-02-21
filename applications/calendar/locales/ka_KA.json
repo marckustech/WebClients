@@ -2238,7 +2238,7 @@
         "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია, 2FA კი - ჩართული."
       ],
       "Your account and data recovery methods are set.": [
-        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთდები დაყეენბულია."
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია."
       ]
     },
     "description": {
@@ -6990,6 +6990,9 @@
       ],
       "Your account is protected": [
         "თქვენი ანგარიში დაცულია"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "მიიღეთ ${ appName[APP_NAME] } აპები"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7540,6 +7543,15 @@
       ],
       "Your storage is full. ${ cta }.": [
         "თქვენი საცავი სავსეა. ${ cta }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "ელფოსტის გასაგზავნად ან მისაღებად გაათავისუფლეთ ადგილი ან ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "ფაილების ასატვრთად ან სინქრონიზაციისთვის გაათავისუფლეთ ადგილი, ან ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "თქვენი ${ storage } ${ percentage }%-ითაა სავსე. ${ cta }."
       ]
     }
   }

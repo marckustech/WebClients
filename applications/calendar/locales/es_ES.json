@@ -651,6 +651,18 @@
       ],
       "Select country": [
         "Seleccionar un país"
+      ],
+      "Upgrade Now": [
+        "Mejorar ahora"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Tu prueba gratuita de la aplicación de escritorio finaliza en 2 días. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Tu prueba gratuita de la aplicación de escritorio finaliza en 5 días. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Tu prueba gratuita de la aplicación de escritorio finaliza en ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2807,6 +2819,9 @@
       ],
       "Name is required": [
         "El nombre es obligatorio"
+      ],
+      "An error occurred while saving your alias": [
+        "Ha ocurrido un error al guardar tu alias."
       ]
     },
     "Error accepting calendar invitation": {
@@ -6307,6 +6322,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Con los colores personalizables de eventos, puedes codificar por colores el caos y conquistar tu día."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Inicia ${ MAIL_APP_NAME } con facilidad directamente desde tu escritorio."
+      ],
+      "Get the desktop app": [
+        "Obtén la aplicación de escritorio"
       ]
     },
     "Storage": {
@@ -7052,6 +7073,9 @@
       ],
       "Your account is protected": [
         "Tu cuenta está protegida."
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obtén las aplicaciones de ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7158,6 +7182,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prueba con un nombre de usuario más corto (máx. ${ n } carácter)",
         "Prueba con un nombre de usuario más corto (máx. ${ n } caracteres)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "La contraseña debe contener al menos ${ MIN_PASSWORD_LENGTH } carácter.",
+        "La contraseña debe tener al menos ${ MIN_PASSWORD_LENGTH } caracteres"
       ]
     },
     "Video control": {
@@ -7560,6 +7588,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Cuando te pidan tu dirección de correo electrónico, proporciona este alias en su lugar. Agrega un título y una nota para llevar un registro de dónde lo usas."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Cuando se te pida tu dirección de correo electrónico, indica este alias en su lugar. Los alias son proporcionados por ${ passLink }"
       ]
     },
     "Security Center - Action": {
@@ -7573,6 +7604,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **activo** y protegiendo tu cuenta."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Descarga la aplicación de escritorio de ${ MAIL_APP_NAME }"
       ]
     }
   }

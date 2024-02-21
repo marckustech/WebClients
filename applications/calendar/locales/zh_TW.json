@@ -650,6 +650,9 @@
       ],
       "Not now": [
         "現在不要"
+      ],
+      "Select country": [
+        "選擇國家"
       ]
     },
     "Action subline": {
@@ -2791,6 +2794,24 @@
       ],
       "You can't send a mail to more than ${ maxContacts } recipient": [
         "您無法將郵件傳送給超過 ${ maxContacts } 位收件人"
+      ],
+      "Alias is not valid": [
+        "別名無效"
+      ],
+      "Alias is required": [
+        "別名為必填"
+      ],
+      "Aliases could not be loaded": [
+        "無法載入別名"
+      ],
+      "An error occurred while loading alias options": [
+        "載入別名選項時發生錯誤"
+      ],
+      "Forward address is required": [
+        "轉寄電郵地址為必填"
+      ],
+      "Name is required": [
+        "名稱為必填"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4445,6 +4466,15 @@
       ],
       "Please select which email address or addresses to add to ${ groupCount } group.": [
         "請選取一或多組電郵位址以加入至 ${ groupCount } 個群組。"
+      ],
+      "Important note": [
+        "重要提示"
+      ],
+      "Warning": [
+        "警告"
+      ],
+      "You can now return to the application to continue": [
+        "您現在可以返回應用程式並繼續"
       ]
     },
     "info": {
@@ -4917,6 +4947,12 @@
       ],
       "Title": [
         "標題"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "如 Amazon, eBay, Etsy"
+      ],
+      "Your alias": [
+        "你的別名"
       ]
     },
     "Label for contact group color": {
@@ -6632,6 +6668,9 @@
       ],
       "Contact group deleted": [
         "聯絡人群組已刪除"
+      ],
+      "Alias copied to clipboard": [
+        "已複製別名到剪貼簿"
       ]
     },
     "Success notification when user send feedback": {
@@ -7137,6 +7176,18 @@
       ],
       "Import as simple event?": [
         "要匯入為簡單事件嗎？"
+      ],
+      "Enable 2FA": [
+        "啟用2FA"
+      ],
+      "Get advanced protection": [
+        "取得進階保護"
+      ],
+      "Need more aliases?": [
+        "需要更多別名?"
+      ],
+      "Security center": [
+        "安全中心"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7673,6 +7724,21 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "嘗試${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "全部別名"
+      ],
+      "Create alias": [
+        "創建別名"
+      ],
+      "Create an alias": [
+        "建立一個別名"
+      ],
+      "New alias": [
+        "新增别名"
+      ],
+      "Protect your online identity": [
+        "保護你的線上身分"
       ]
     },
     "storage_split: info": {
@@ -7696,6 +7762,12 @@
       ],
       "Your storage is full": [
         "您的儲存空間已滿"
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "您的${ storage }已滿${ cta }。"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "您的儲存已滿${ cta }。"
       ]
     }
   }

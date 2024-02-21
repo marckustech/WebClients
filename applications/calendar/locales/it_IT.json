@@ -651,6 +651,18 @@
       ],
       "Select country": [
         "Seleziona il paese"
+      ],
+      "Upgrade Now": [
+        "Effettua l'upgrade ora"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina tra 2 giorni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina tra 5 giorni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2357,10 +2369,10 @@
         "Cancellazione di un evento che inizia il ${ formattedStart }"
       ],
       "Invitation for an event on ${ formattedStart }": [
-        "Invito per un evento il ${ formattedStart }"
+        "Invito per un evento ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
-        "Invito per un evento che inizia il ${ formattedStart }"
+        "Invito per un evento che inizia ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Aggiornamento per un evento il ${ formattedStart }"
@@ -2807,6 +2819,9 @@
       ],
       "Name is required": [
         "Nome obbligatorio"
+      ],
+      "An error occurred while saving your alias": [
+        "Si è verificato un errore nel salvataggio dell'alias"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6307,6 +6322,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Con la classificazione degli eventi per colore, puoi risolvere il caos e conquistare la tua giornata."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Avvia ${ MAIL_APP_NAME } direttamente dal tuo desktop."
+      ],
+      "Get the desktop app": [
+        "Ottieni l'applicazione desktop"
       ]
     },
     "Storage": {
@@ -7052,6 +7073,9 @@
       ],
       "Your account is protected": [
         "Il tuo account è protetto"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Ottieni le app ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7564,6 +7588,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Quando ti viene chiesto il tuo indirizzo email, fornisci invece questo alias. Aggiungi un nome e una nota per tenere traccia di dove lo usi."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Quando ti viene chiesto il tuo indirizzo email, dagli invece questo alias. Gli alias sono forniti da ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -7577,6 +7604,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel è **attivo** e sta proteggendo il tuo account."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Scarica l'applicazione desktop di ${ MAIL_APP_NAME }"
       ]
     }
   }

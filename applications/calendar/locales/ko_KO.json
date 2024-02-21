@@ -1795,7 +1795,7 @@
         "네팔"
       ],
       "Netherlands": [
-        "네델란드"
+        "네덜란드"
       ],
       "New Caledonia": [
         "뉴 칼레도니아"
@@ -6557,6 +6557,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "이제 새로운 사용자화 가능한 이벤트 색상으로, 당신은 기분을 색으로 코딩하는 시간을 가져보세요."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "데스크톱에서 바로 ${ MAIL_APP_NAME }을 실행할 수 있습니다."
+      ],
+      "Get the desktop app": [
+        "데스크톱 앱 다운로드"
       ]
     },
     "Storage": {
@@ -6729,7 +6735,7 @@
         "별칭이 클립보드에 복사됨"
       ],
       "Alias saved and copied": [
-        "별명이 복사 및 붙여놓기 되었습니다."
+        "별명이 저장 및 복사되었습니다"
       ],
       "Contact deleted": [
         "콘텐츠 삭제됨"
@@ -7259,6 +7265,9 @@
       ],
       "Your account is protected": [
         "계정이 보호됩니다."
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "${ appName[APP_NAME] } 앱 받기"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7884,6 +7893,11 @@
       ],
       "Your storage is full. ${ cta }.": [
         "사용자의 스토리지가 가득 찼습니다. ${ cta }"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME } 데스크톱 애플리케이션 다운로드"
       ]
     }
   }

@@ -649,6 +649,12 @@
       ],
       "Not now": [
         "Nu acum"
+      ],
+      "Create and copy alias": [
+        "Creare și copiere alias"
+      ],
+      "Select country": [
+        "Selectare țară"
       ]
     },
     "Action subline": {
@@ -7129,6 +7135,9 @@
       ],
       "Your account is protected": [
         "Contul este protejat"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obțineți aplicația ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7656,6 +7665,12 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Încercați ${ PASS_APP_NAME }"
+      ],
+      "Create an alias": [
+        "Creați un alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Folosit pentru cumpărături pe Amazon etc."
       ]
     },
     "Security Center - Action": {
@@ -7692,6 +7707,29 @@
       ],
       "Your storage is full": [
         "Spațiu de stocare plin"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Pentru a trimite sau a primi mesaje, eliberați spațiu sau ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Spațiul de stocare din ${ storage } este ${ percentage }% plin. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Spațiul din ${ storage } este plin. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Spațiul de stocare este ${ percentage }% plin. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Spațiul de stocare este plin. ${ cta }."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Țara de facturare"
       ]
     }
   }

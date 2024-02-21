@@ -2813,7 +2813,7 @@
         "Obsah položky nesmie presiahnuť 40KB"
       ],
       "No external key retrieved for user is valid for sending": [
-        "Žiadny externý kľúč získaný pre užívateľov nie je platný pre odoslanie"
+        "Žiadny externý kľúč získaný pre používateľa nie je platný na odoslanie"
       ]
     },
     "Error accepting calendar invitation": {

@@ -639,6 +639,9 @@
       ],
       "Not now": [
         "Niet nu"
+      ],
+      "Select country": [
+        "Selecteer land"
       ]
     },
     "Action subline": {
@@ -2713,6 +2716,30 @@
       ],
       "Item content cannot exceed 40KB": [
         "Item mag niet groter zijn dan 40KB"
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } kan geen verbinding maken met uw externe account"
+      ],
+      "Alias is not valid": [
+        "Alias is ongeldig."
+      ],
+      "Alias is required": [
+        "Alias is vereist."
+      ],
+      "Aliases could not be loaded": [
+        "Aliassen konden niet worden geladen."
+      ],
+      "An error occurred while loading alias options": [
+        "Er is een fout opgetreden tijdens het laden van de alias opties"
+      ],
+      "Forward address is required": [
+        "Doorstuuradres is vereist"
+      ],
+      "Name is required": [
+        "Naam is vereist."
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Onverwachte fout, we kunnen de contacten niet importeren"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4296,6 +4323,12 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Uw systeemtijdzone lijkt te zijn veranderd naar ${ timezone }. Wilt u uw voorkeur voor uw tijdzone bijwerken?"
+      ],
+      "Important note": [
+        "Belangrijke opmerking"
+      ],
+      "Warning": [
+        "Waarschuwing"
       ]
     },
     "info": {
@@ -6022,6 +6055,9 @@
       ],
       "Support online privacy": [
         "Ondersteun online privacy"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6334,6 +6370,9 @@
       ],
       "Verification successful": [
         "Verificatie gelukt"
+      ],
+      "Alias copied to clipboard": [
+        "Alias gekopieerd naar klembord"
       ]
     },
     "Success notification when user send feedback": {
@@ -6826,6 +6865,15 @@
       ],
       "Data recovery": [
         "Dataherstel"
+      ],
+      "Enable 2FA": [
+        "2FA inschakelen"
+      ],
+      "Get advanced protection": [
+        "Kies geavanceerde bescherming"
+      ],
+      "Save": [
+        "Opslaan"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7287,6 +7335,15 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Probeer ${ PASS_APP_NAME }"
+      ],
+      "Create alias": [
+        "Alias aanmaken"
+      ],
+      "Create an alias": [
+        "Alias aanmaken"
+      ],
+      "New alias": [
+        "Nieuwe alias"
       ]
     },
     "storage_split: info": {
@@ -7295,6 +7352,11 @@
       ],
       "Your storage is full": [
         "Uw opslagruimte is vol"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Logboeken bekijken"
       ]
     }
   }

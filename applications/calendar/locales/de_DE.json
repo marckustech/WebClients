@@ -6304,6 +6304,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Mit anpassbaren Terminfarben kannst du das Chaos einfärben und deinen Tag bewältigen."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Starte ${ MAIL_APP_NAME } ganz bequem von deinem Desktop aus."
+      ],
+      "Get the desktop app": [
+        "Desktop-App herunterladen"
       ]
     },
     "Storage": {
@@ -6368,6 +6374,12 @@
       ],
       "Your storage is full. ${ cta }.": [
         "Dein Speicherplatz ist voll. ${ cta }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Um E-Mails zu senden oder zu empfangen, gib Speicherplatz frei oder ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Um Dateien hochzuladen oder zu synchronisieren, gib Platz frei oder ${ upgrade }"
       ]
     },
     "Subscribe to calendar modal": {
@@ -7043,6 +7055,9 @@
       ],
       "Your account is protected": [
         "Dein Konto ist geschützt"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Erhalte die ${ appName[APP_NAME] } Anwendungen"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7149,6 +7164,10 @@
       "Try a shorter username (${ n } character max)": [
         "Bitte einen kürzeren Benutzernamen verwenden (max. ${ n } Zeichen)",
         "Bitte einen kürzeren Benutzernamen verwenden (max. ${ n } Zeichen)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Das Passwort muss mindestens ${ MIN_PASSWORD_LENGTH } Zeichen enthalten.",
+        "Passwort muss mindestens ${ MIN_PASSWORD_LENGTH } Zeichen enthalten."
       ]
     },
     "Video control": {
@@ -7564,6 +7583,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel ist **aktiv** und schützt dein Konto."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME }-Desktop-App herunterladen"
       ]
     }
   }

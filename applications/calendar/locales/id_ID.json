@@ -656,6 +656,18 @@
       ],
       "Select country": [
         "Pilih negara"
+      ],
+      "Upgrade Now": [
+        "Tingkatkan Sekarang"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir dalam 2 hari. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir dalam 5 hari. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir pada ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2859,6 +2871,9 @@
       ],
       "You can't send a mail to more than ${ maxContacts } recipient": [
         "Anda tidak dapat mengirim surel ke lebih dari ${ maxContacts } penerima"
+      ],
+      "An error occurred while saving your alias": [
+        "Terdapat kesalahan pada saat menyimpan alias Anda"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6557,6 +6572,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Dengan warna acara yang dapat disesuaikan, Anda dapat memberi kode warna pada kekacauan dan menaklukkan hari Anda."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Luncurkan ${ MAIL_APP_NAME } secara mudah langsung dari desktop Anda."
+      ],
+      "Get the desktop app": [
+        "Dapatkan aplikasi desktop"
       ]
     },
     "Storage": {
@@ -7318,6 +7339,9 @@
       ],
       "Your account is protected": [
         "Akun Anda terlindung"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Dapatkan aplikasi ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7902,6 +7926,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel saat ini sedang **aktif** dan melindungi akun Anda."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Unduh aplikasi desktop ${ MAIL_APP_NAME }"
       ]
     }
   }

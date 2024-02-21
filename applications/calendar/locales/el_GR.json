@@ -6990,6 +6990,9 @@
       ],
       "Your account is protected": [
         "Ο λογαριασμός σας προστατεύεται"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Λήψη των ${ appName[APP_NAME] } εφαρμογών"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

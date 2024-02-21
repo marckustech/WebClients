@@ -651,6 +651,9 @@
       ],
       "Select country": [
         "Välj land"
+      ],
+      "Upgrade Now": [
+        "Uppgradera nu"
       ]
     },
     "Action subline": {
@@ -2803,6 +2806,9 @@
       ],
       "Name is required": [
         "Namn är obligatoriskt"
+      ],
+      "An error occurred while saving your alias": [
+        "Ett fel uppstod när ditt alias skulle sparas"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6295,6 +6301,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Med anpassningsbara händelsefärger kan du färgkoda kaoset och erövra din dag."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Starta ${ MAIL_APP_NAME } bekvämt direkt från din stationära dator."
+      ],
+      "Get the desktop app": [
+        "Skaffa appen för stationär dator"
       ]
     },
     "Storage": {
@@ -7040,6 +7052,9 @@
       ],
       "Your account is protected": [
         "Ditt konto är skyddat"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Skaffa appen ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7492,6 +7507,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "När du tillfrågas om din e-postadress, ge detta alias istället. Lägg till en rubrik och anteckning för att hålla reda på var du använder den."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "När du tillfrågas om din e-postadress, ge detta alias istället. Alias ​​tillhandahålls av ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -7505,6 +7523,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel är **aktivt** och skyddar ditt konto."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Ladda ner ${ MAIL_APP_NAME }-applikation för stationär dator"
       ]
     }
   }

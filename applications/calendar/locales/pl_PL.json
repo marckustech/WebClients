@@ -659,6 +659,18 @@
       ],
       "Select country": [
         "Wybierz kraj"
+      ],
+      "Upgrade Now": [
+        "Ulepsz teraz"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się za 2 dni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się za 5 dni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2859,6 +2871,9 @@
       ],
       "Name is required": [
         "Nazwa jest wymagana"
+      ],
+      "An error occurred while saving your alias": [
+        "Wystąpił błąd podczas zapisywania aliasu"
       ]
     },
     "Error accepting calendar invitation": {
@@ -6560,6 +6575,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Wydarzenia możesz oznaczyć kolorami, aby zapanować nad chaosem i swoim dniem."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Uruchamiaj ${ MAIL_APP_NAME } z pulpitu."
+      ],
+      "Get the desktop app": [
+        "Pobierz aplikację desktopową"
       ]
     },
     "Storage": {
@@ -7318,6 +7339,9 @@
       ],
       "Your account is protected": [
         "Konto jest chronione"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Pobierz aplikacje ${ appName[APP_NAME] }"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7898,6 +7922,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Użyj aliasu, zamiast swojego adresu e-mail. Dodaj tytuł i notatkę, aby śledzić, gdzie go używasz."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Użyj aliasu, zamiast adresu e-mail. Aliasy dostarcza ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -7911,6 +7938,11 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Proton Sentinel jest **włączony** i chroni Twoje konto."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Pobierz aplikację desktopową ${ MAIL_APP_NAME }"
       ]
     }
   }

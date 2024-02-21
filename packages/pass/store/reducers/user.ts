@@ -28,6 +28,7 @@ export type UserState = {
 
 export type SafeUserState = RequiredNonNull<UserState>;
 export type SafeUserAccessState = RequiredNonNull<UserAccessState>;
+export type HydratedAccessState = RequiredNonNull<UserAccessState>;
 
 const initialState: UserState = {
     addresses: {},

@@ -370,12 +370,12 @@ const draftsReducer: Reducer<Draft[]> = (state = [], action) => {
 
 export type ItemsState = {
     byShareId: WrappedOptimisticState<ItemsByShareId>;
-    byOptimistcId: ItemsByOptimisticId;
+    byOptimisticId: ItemsByOptimisticId;
     drafts: Draft[];
 };
 
 export default combineOptimisticReducers({
     byShareId: withOptimisticItemsByShareId.reducer,
-    byOptimistcId: itemsByOptimisticId,
+    byOptimisticId: itemsByOptimisticId,
     drafts: draftsReducer,
 });

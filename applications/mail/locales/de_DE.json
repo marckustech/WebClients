@@ -6387,6 +6387,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Dadurch werden alle mit dieser App verbundenen Daten, einschließlich heruntergeladener Nachrichten, gelöscht. Die App wird neu gestartet und du musst dich erneut anmelden, um die App zu verwenden."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Diese Nachricht wird um ${ value } automatisch gelöscht."
       ]
     },
     "info": {
@@ -8781,6 +8784,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Erstelle Hide-my-email-Aliasse und behalte sie hier im Auge."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Starte ${ MAIL_APP_NAME } ganz bequem von deinem Desktop aus."
+      ],
+      "Get the desktop app": [
+        "Desktop-App herunterladen"
       ]
     },
     "Status": {
@@ -8876,6 +8885,12 @@
       ],
       "Your storage is full. ${ cta }.": [
         "Dein Speicherplatz ist voll. ${ cta }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Um E-Mails zu senden oder zu empfangen, gib Speicherplatz frei oder ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Um Dateien hochzuladen oder zu synchronisieren, gib Platz frei oder ${ upgrade }"
       ]
     },
     "Success": {
@@ -10010,6 +10025,10 @@
       "Try a shorter username (${ n } character max)": [
         "Bitte einen kürzeren Benutzernamen verwenden (max. ${ n } Zeichen)",
         "Bitte einen kürzeren Benutzernamen verwenden (max. ${ n } Zeichen)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Das Passwort muss mindestens ${ MIN_PASSWORD_LENGTH } Zeichen enthalten.",
+        "Passwort muss mindestens ${ MIN_PASSWORD_LENGTH } Zeichen enthalten."
       ]
     },
     "Video control": {
@@ -10433,6 +10452,11 @@
     "Payments": {
       "Billing Country": [
         "Rechnungsland"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME }-Desktop-App herunterladen"
       ]
     }
   }

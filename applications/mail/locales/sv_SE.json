@@ -1200,6 +1200,9 @@
       ],
       "Select country": [
         "Välj land"
+      ],
+      "Upgrade Now": [
+        "Uppgradera nu"
       ]
     },
     "action": {
@@ -3747,6 +3750,9 @@
       ],
       "Name is required": [
         "Namn är obligatoriskt"
+      ],
+      "An error occurred while saving your alias": [
+        "Ett fel uppstod när ditt alias skulle sparas"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6380,6 +6386,9 @@
       ],
       "Warning": [
         "Varning"
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Detta meddelande kommer tas bort automatiskt kl. ${ value }"
       ]
     },
     "info": {
@@ -8766,6 +8775,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Skapa hide-my-email-alias och håll reda på dem här."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Starta ${ MAIL_APP_NAME } bekvämt direkt från din stationära dator."
+      ],
+      "Get the desktop app": [
+        "Skaffa appen för stationär dator"
       ]
     },
     "Status": {
@@ -10350,6 +10365,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "När du tillfrågas om din e-postadress, ge detta alias istället. Lägg till en rubrik och anteckning för att hålla reda på var du använder den."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "När du tillfrågas om din e-postadress, ge detta alias istället. Alias ​​tillhandahålls av ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10368,6 +10386,27 @@
     "Payments": {
       "Billing Country": [
         "Faktureringsland"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Ladda ner ${ MAIL_APP_NAME }-applikation för stationär dator"
+      ]
+    },
+    "Free trial desktop": {
+      "Get unlimited access with paid ${ BRAND_NAME } plan": [
+        "Få obegränsad åtkomst med betalt ${ BRAND_NAME }-paket"
+      ],
+      "No credit card required": [
+        "Inget kreditkort krävs"
+      ],
+      "Upgrade now": [
+        "Uppgradera nu"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Prova gratis i 14 dagar"
       ]
     }
   }

@@ -1215,6 +1215,18 @@
       ],
       "Select country": [
         "Wybierz kraj"
+      ],
+      "Upgrade Now": [
+        "Ulepsz teraz"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się za 2 dni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się za 5 dni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Darmowa wersja próbna aplikacji desktopowej zakończy się ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3804,6 +3816,9 @@
       ],
       "Name is required": [
         "Nazwa jest wymagana"
+      ],
+      "An error occurred while saving your alias": [
+        "Wystąpił błąd podczas zapisywania aliasu"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6621,6 +6636,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Usuwa wszystkie dane powiązane z aplikacją, w tym pobrane wiadomości. Aplikacja uruchomi się ponownie i konieczne będzie ponowne zalogowanie się, aby móc z niej korzystać."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Wiadomość zostanie automatycznie usunięta o godzinie ${ value }"
       ]
     },
     "info": {
@@ -8832,7 +8850,7 @@
         "Odłóż wiadomość"
       ],
       "When should the message reappear in your inbox?": [
-        "Kiedy chcesz zobaczyć wiadomość w skrzynce odbiorczej?"
+        "Kiedy wiadomość ma pojawić się w skrzynce odbiorczej?"
       ]
     },
     "Sort option": {
@@ -9084,7 +9102,7 @@
         "Zaplanuj wysyłanie"
       ],
       "Set when an email should reappear in your inbox with the new snooze feature.": [
-        "Nowa funkcja pozwala ustawić, kiedy wiadomość ma ponownie pojawić się w skrzynce odbiorczej."
+        "Ustaw, kiedy wiadomość ma pojawić się w skrzynce odbiorczej."
       ],
       "Snooze it for later": [
         "Odłóż na później"
@@ -9103,6 +9121,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Twórz aliasy hide-my-email i śledź je tutaj."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Uruchamiaj ${ MAIL_APP_NAME } z pulpitu."
+      ],
+      "Get the desktop app": [
+        "Pobierz aplikację desktopową"
       ]
     },
     "Status": {
@@ -10888,6 +10912,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Użyj aliasu, zamiast swojego adresu e-mail. Dodaj tytuł i notatkę, aby śledzić, gdzie go używasz."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Użyj aliasu, zamiast adresu e-mail. Aliasy dostarcza ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10906,6 +10933,36 @@
     "Payments": {
       "Billing Country": [
         "Kraj rozliczeniowy"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Pobierz aplikację desktopową ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplikacja desktopowa ${ MAIL_APP_NAME }"
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Ciesz się szybkim i bezpiecznym dostępem do poczty oraz kalendarza."
+      ],
+      "Get unlimited access with paid ${ BRAND_NAME } plan": [
+        "Uzyskaj nieograniczony dostęp w płatnym planie ${ BRAND_NAME }"
+      ],
+      "Introducing the desktop app": [
+        "Przedstawiamy aplikację desktopową"
+      ],
+      "No credit card required": [
+        "Karta płatnicza nie jest wymagana"
+      ],
+      "Upgrade now": [
+        "Ulepsz teraz"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Wypróbuj za darmo przez 14 dni"
       ]
     }
   }

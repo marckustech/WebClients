@@ -1185,6 +1185,9 @@
       ],
       "Clear application data": [
         "Verwijder applicatiegegevens"
+      ],
+      "Select country": [
+        "Selecteer land"
       ]
     },
     "action": {
@@ -3647,6 +3650,30 @@
       ],
       "Item content cannot exceed 40KB": [
         "Item mag niet groter zijn dan 40KB"
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } kan geen verbinding maken met uw externe account"
+      ],
+      "Alias is not valid": [
+        "Alias is ongeldig."
+      ],
+      "Alias is required": [
+        "Alias is vereist."
+      ],
+      "Aliases could not be loaded": [
+        "Aliassen konden niet worden geladen."
+      ],
+      "An error occurred while loading alias options": [
+        "Er is een fout opgetreden tijdens het laden van de alias opties"
+      ],
+      "Forward address is required": [
+        "Doorstuuradres is vereist"
+      ],
+      "Name is required": [
+        "Naam is vereist."
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Onverwachte fout, we kunnen de contacten niet importeren"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6227,7 +6254,13 @@
       ],
       "You selected **${ elementsCount } message** in ${ location }": [
         "Je selecteert** ${ elementsCount }bericht**in${ location }",
-        "Je selecteert**${ elementsCount }berichten**in${ location }"
+        "U selecteert**${ elementsCount }berichten**in${ location }"
+      ],
+      "Important note": [
+        "Belangrijke opmerking"
+      ],
+      "Warning": [
+        "Waarschuwing"
       ]
     },
     "info": {
@@ -6454,6 +6487,9 @@
       ],
       "Star": [
         "Ster"
+      ],
+      "Filter": [
+        "Filter"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7642,7 +7678,7 @@
         "Berichten automatisch doorsturen"
       ],
       "Block email communications from scammers permanently. ${ kbLinkSender }": [
-        "Email berichten van oplichters permanent blokkeren. ${ kbLinkSender }"
+        "E-mails van oplichters permanent blokkeren. ${ kbLinkSender }"
       ],
       "Forward Gmail messages to your inbox.": [
         "Gmail berichten automatisch doorsturen naar inbox."
@@ -8408,6 +8444,9 @@
       ],
       "Support online privacy": [
         "Ondersteun online privacy"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -8851,6 +8890,9 @@
       ],
       "Verification successful": [
         "Verificatie gelukt"
+      ],
+      "Alias copied to clipboard": [
+        "Alias gekopieerd naar klembord"
       ]
     },
     "Success notification": {
@@ -9576,6 +9618,18 @@
       ],
       "This field cannot be empty": [
         "Dit veld mag niet leeg zijn"
+      ],
+      "Enable 2FA": [
+        "2FA inschakelen"
+      ],
+      "Get advanced protection": [
+        "Kies geavanceerde bescherming"
+      ],
+      "Move all messages to archive": [
+        "Alle berichten naar archief verplaatsen"
+      ],
+      "Move all messages to trash": [
+        "Alle berichten naar prullenbak verplaatsen"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10041,6 +10095,15 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Probeer ${ PASS_APP_NAME }"
+      ],
+      "Create alias": [
+        "Alias aanmaken"
+      ],
+      "Create an alias": [
+        "Alias aanmaken"
+      ],
+      "New alias": [
+        "Nieuwe alias"
       ]
     },
     "storage_split: info": {
@@ -10049,6 +10112,11 @@
       ],
       "Your storage is full": [
         "Uw opslagruimte is vol"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Logboeken bekijken"
       ]
     }
   }

@@ -2671,7 +2671,7 @@
         "네팔"
       ],
       "Netherlands": [
-        "네델란드"
+        "네덜란드"
       ],
       "New Caledonia": [
         "뉴 칼레도니아"
@@ -6615,6 +6615,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "이 작업은 다운로드된 메시지를 포함한 이 앱과 연관된 모든 데이터를 지웁니다. 앱이 재시작 되며, 다시 사용하기 위해서는 다시 로그인해야 합니다."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "메시지가 ${ value }에 자동으로 삭제됨"
       ]
     },
     "info": {
@@ -7353,6 +7356,9 @@
       ],
       "e.g., Amazon, eBay, Etsy": [
         "예: Amazon, eBay, Etsy"
+      ],
+      "From": [
+        "보낸 사람"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9091,6 +9097,12 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "이제 한 번에 하나의 폴더에 있는 모든 이메일에 대한 관리가 가능합니다."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "데스크톱에서 바로 ${ MAIL_APP_NAME }을 실행할 수 있습니다."
+      ],
+      "Get the desktop app": [
+        "데스크톱 앱 다운로드"
       ]
     },
     "Status": {
@@ -9425,7 +9437,7 @@
         "별칭이 클립보드에 복사됨"
       ],
       "Alias saved and copied": [
-        "별명이 복사 및 붙여놓기 되었습니다."
+        "별명이 저장 및 복사되었습니다"
       ],
       "Contact deleted": [
         "콘텐츠 삭제됨"
@@ -10873,6 +10885,11 @@
     "Payments": {
       "Billing Country": [
         "청구 국가 "
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME } 데스크톱 애플리케이션 다운로드"
       ]
     }
   }

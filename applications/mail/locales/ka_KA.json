@@ -3135,7 +3135,7 @@
         "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია, 2FA კი - ჩართული."
       ],
       "Your account and data recovery methods are set.": [
-        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთდები დაყეენბულია."
+        "თქვენი ანგარიშისა და მონაცემების აღდგენის მეთოდები დაყენებულია."
       ]
     },
     "description": {
@@ -6381,6 +6381,12 @@
       ],
       "Clear app data": [
         "აპლიკაციის მონაცემთა გასუფთავება"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "წაშლის ამ აპთან ასოცირებულ ყველა მონაცემს, გადმოწერილი შეტყობინებების ჩათვლით"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "ეს წაშლის ამ აპთან ასოცირებულ ყველა მონაცემებს, გადმოწერილი შეტყობინებების ჩათვლთ. აპი თავიდანგ აეშვება და მის გამოსაყენებლად თავიდან შესვლა მოგიწევთ."
       ]
     },
     "info": {
@@ -8516,7 +8522,7 @@
         "შეტყობინების დროებით დადუმება"
       ],
       "When should the message reappear in your inbox?": [
-        "როცა უნდა გამოჩნდეს შეტყობინება თავიდან, თქვენს საფოსტო ყუთში?"
+        "როდის უნდა გამოჩნდეს შეტყობინება თავიდან, თქვენს საფოსტო ყუთში?"
       ]
     },
     "Sort option": {
@@ -10398,6 +10404,15 @@
       ],
       "Your storage is full. ${ cta }.": [
         "თქვენი საცავი სავსეა. ${ cta }."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "ელფოსტის გასაგზავნად ან მისაღებად გაათავისუფლეთ ადგილი ან ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "ფაილების ასატვრთად ან სინქრონიზაციისთვის გაათავისუფლეთ ადგილი, ან ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "თქვენი ${ storage } ${ percentage }%-ითაა სავსე. ${ cta }."
       ]
     },
     "Payments": {

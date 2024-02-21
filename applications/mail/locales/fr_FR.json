@@ -1203,6 +1203,9 @@
       ],
       "Toggle security center app": [
         "Activer/Désactiver l'application du centre de sécurité"
+      ],
+      "Upgrade Now": [
+        "Passer à l'abonnement supérieur"
       ]
     },
     "action": {
@@ -3114,7 +3117,7 @@
         "Vous pouvez marquer pour suppression les contacts que vous ne voulez ni fusionner ni conserver. Leur suppression n'aura lieu qu'après avoir cliqué sur le bouton de fusion."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
-        "Mettez à jour votre compte pour activer ${ PROTON_SENTINEL_NAME }, notre solution de sécurité de pointe pilotée par IA avec un support d'experts dédié 24h/24 et 7j/7."
+        "Mettez à jour votre compte pour activer ${ PROTON_SENTINEL_NAME } ; notre solution de sécurité innovante par IA avec un support d'experts dédié 24h/24 et 7j/7."
       ],
       "Your account and data recovery methods are set.": [
         "Vos méthodes de récupération de compte et de données sont définies."
@@ -3726,7 +3729,7 @@
         "L'alias n'est pas valide."
       ],
       "Alias is required": [
-        "L'alias est requis."
+        "Le champ Alias est requis."
       ],
       "Alias options could not be resolved": [
         "Les options d'alias n'ont pas pu être obtenues."
@@ -3747,13 +3750,16 @@
         "Le coffre-fort mis à jour n'a pas pu être ouvert."
       ],
       "Forward address is required": [
-        "L'adresse e-mail de transfert est nécessaire."
+        "Le champ adresse e-mail de transfert est requis."
       ],
       "Item content cannot exceed 40KB": [
         "Le contenu de l'élément ne peut pas dépasser 40 Ko."
       ],
       "Name is required": [
-        "Le nom est nécessaire."
+        "Le champ Nom est requis."
+      ],
+      "An error occurred while saving your alias": [
+        "Une erreur est survenue lors de l'enregistrement de votre alias"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6383,10 +6389,13 @@
         "Avertissement"
       ],
       "Removes all data associated with this app, including downloaded messages": [
-        "Retire toutes les données associées à cette application, y compris les messages téléchargés."
+        "Supprime toutes les données associées à cette application, y compris les messages téléchargés."
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
-        "Retire toutes les données associées à cette application, y compris les messages téléchargés. L'application va redémarrer et vous devrez vous connecter à nouveau pour utiliser l'application."
+        "Cette action supprime toutes les données associées à cette application, y compris les messages téléchargés. L'application va redémarrer et vous devrez vous reconnecter pour l'utiliser."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Ce message sera automatiquement supprimé à ${ value }."
       ]
     },
     "info": {
@@ -8781,6 +8790,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Créez des alias hide-my-email et suivez-les ici."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Démarrez ${ MAIL_APP_NAME } tout simplement depuis votre bureau."
+      ],
+      "Get the desktop app": [
+        "Téléchargez l'application de bureau"
       ]
     },
     "Status": {
@@ -8833,7 +8848,7 @@
         "Pour continuer à importer et synchroniser vos fichiers, veuillez libérer de l'espace en supprimant des fichiers ou changer d'abonnement pour obtenir davantage d'espace de stockage."
       ],
       "To send or receive emails, free up space or upgrade for more storage.": [
-        "Pour envoyer ou recevoir des messages, veuillez libérer de l'espace de stockage en supprimant des messages ou changer d'abonnement pour augmenter votre espace de stockage."
+        "Pour envoyer ou recevoir des messages, veuillez libérer de l'espace de stockage ou changer d'abonnement pour augmenter votre espace de stockage."
       ],
       "upgrade for more storage": [
         "changer d'abonnement pour augmenter votre espace de stockage"
@@ -8872,13 +8887,13 @@
         "Pour importer ou synchroniser vos fichiers, libérez de l'espace ou ${ upgrade }."
       ],
       "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
-        "Votre ${ storage } est à ${ percentage } % plein. ${ cta }."
+        "Votre ${ storage } est rempli à ${ percentage } %. ${ cta }."
       ],
       "Your ${ storage } is full. ${ cta }.": [
         "Votre ${ storage } est plein. ${ cta }."
       ],
       "Your storage is ${ percentage }% full. ${ cta }.": [
-        "Votre espace de stockage est à ${ percentage } % plein. ${ cta }."
+        "Votre espace de stockage est rempli à ${ percentage } %. ${ cta }."
       ],
       "Your storage is full. ${ cta }.": [
         "Votre espace de stockage est plein. ${ cta }."
@@ -9143,7 +9158,7 @@
         "L'alias a été copié dans le presse-papiers."
       ],
       "Alias saved and copied": [
-        "L'alias a été copié et enregistré."
+        "L'alias a été enregistré et copié."
       ]
     },
     "Success notification": {
@@ -9809,7 +9824,7 @@
         "Il manque l'objet."
       ],
       "This field cannot be empty": [
-        "Ce champ ne doit pas être vide"
+        "Ce champ ne doit pas être vide."
       ],
       "This field cannot contain only spaces": [
         "Ce champ ne doit pas contenir uniquement des espaces"
@@ -9883,7 +9898,7 @@
         "Récupération de données"
       ],
       "Enable 2FA": [
-        "Activer l'authentification 2FA"
+        "Activer l'authentification à deux facteurs (2FA)"
       ],
       "Get advanced protection": [
         "Obtenir une protection avancée"
@@ -9901,7 +9916,7 @@
         "Centre de sécurité"
       ],
       "Your account is protected": [
-        "Votre compte est protégé"
+        "Votre compte est protégé."
       ],
       "Get the ${ appName[APP_NAME] } apps": [
         "Télécharger les applications ${ appName[APP_NAME] }"
@@ -10016,6 +10031,10 @@
       "Try a shorter username (${ n } character max)": [
         "Essayez d'utiliser un nom d'utilisateur plus court (${ n } caractère maximum).",
         "Essayez d'utiliser un nom d'utilisateur plus court (${ n } caractères maximum)."
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Le mot de passe doit comporter au moins ${ MIN_PASSWORD_LENGTH } caractère.",
+        "Le mot de passe doit comporter au moins ${ MIN_PASSWORD_LENGTH } caractères."
       ]
     },
     "Video control": {
@@ -10419,7 +10438,7 @@
         "Créer un alias"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Créer rapidement des alias à la volée et gérer facilement vos alias et mots de passe."
+        "Créer des alias à la demande et gérer facilement vos alias et mots de passe."
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
         "Les alias hide-my-email vous permettent de vous inscrire à des sites ou newsletters sans partager votre adresse e-mail. ${ learnMoreLink }"
@@ -10429,6 +10448,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Lorsque vous devez renseigner votre adresse e-mail, donnez cet alias à la place. Ajoutez un titre et une note pour suivre l'endroit où vous l'utilisez."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Lorsque vous devez renseigner votre adresse e-mail, donnez cet alias à la place. Les alias sont fournis par ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10442,6 +10464,21 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel est **actif** et protège votre compte."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Téléchargez l'application de bureau ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "Upgrade now": [
+        "Changer d'abonnement"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Essai gratuit de 14 jours"
       ]
     }
   }

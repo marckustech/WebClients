@@ -1212,6 +1212,18 @@
       ],
       "Toggle security center app": [
         "Saklar aplikasi pusat keamanan"
+      ],
+      "Upgrade Now": [
+        "Tingkatkan Sekarang"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir dalam 2 hari. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir dalam 5 hari. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Masa uji coba aplikasi desktop Anda akan berakhir pada ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3807,6 +3819,9 @@
       ],
       "Aliases could not be loaded": [
         "Alias tidak dapat dimuat"
+      ],
+      "An error occurred while saving your alias": [
+        "Terdapat kesalahan pada saat menyimpan alias Anda"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6612,6 +6627,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Tindakan ini akan menghapus seluruh data yang terhubung dengan akun ini, termasuk pesan yang diunduh. Aplikasi akan dimulai ulang dan Anda harus masuk kembali untuk dapat menggunakan aplikasi."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Pesan ini akan dihapus secara otomatis pada ${ value }"
       ]
     },
     "info": {
@@ -9091,6 +9109,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Buat alias hide-my-email dan lihat semuanya di sini."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Luncurkan ${ MAIL_APP_NAME } secara mudah langsung dari desktop Anda."
+      ],
+      "Get the desktop app": [
+        "Dapatkan aplikasi desktop"
       ]
     },
     "Status": {
@@ -10888,6 +10912,16 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel saat ini sedang **aktif** dan melindungi akun Anda."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Unduh aplikasi desktop ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplikasi desktop ${ MAIL_APP_NAME }"
       ]
     }
   }

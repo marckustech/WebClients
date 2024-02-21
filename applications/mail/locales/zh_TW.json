@@ -1200,6 +1200,9 @@
       ],
       "Clear application data": [
         "清除應用程式資料"
+      ],
+      "Select country": [
+        "選擇國家"
       ]
     },
     "action": {
@@ -3739,6 +3742,24 @@
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "您無法在同一時間開啟超過 ${ maxActiveComposer } 個撰寫新郵件視窗"
+      ],
+      "Alias is not valid": [
+        "別名無效"
+      ],
+      "Alias is required": [
+        "別名為必填"
+      ],
+      "Aliases could not be loaded": [
+        "無法載入別名"
+      ],
+      "An error occurred while loading alias options": [
+        "載入別名選項時發生錯誤"
+      ],
+      "Forward address is required": [
+        "轉寄電郵地址為必填"
+      ],
+      "Name is required": [
+        "名稱為必填"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6514,6 +6535,18 @@
       ],
       "Your message will expire in ${ numberOfDays } day.": [
         "您的郵件到期日還有 ${ numberOfDays } 天。"
+      ],
+      "Clear app data": [
+        "清除應用程式資料"
+      ],
+      "Important note": [
+        "重要提示"
+      ],
+      "Warning": [
+        "警告"
+      ],
+      "You can now return to the application to continue": [
+        "您現在可以返回應用程式並繼續"
       ]
     },
     "info": {
@@ -6750,6 +6783,9 @@
       ],
       "Star": [
         "星號"
+      ],
+      "Filter": [
+        "篩選器"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7237,6 +7273,15 @@
       ],
       "Title": [
         "標題"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "如 Amazon, eBay, Etsy"
+      ],
+      "From": [
+        "寄件者"
+      ],
+      "Your alias": [
+        "你的別名"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -9298,6 +9343,9 @@
       ],
       "Move ${ selectionCount } message": [
         "移動 ${ selectionCount } 封郵件"
+      ],
+      "Alias copied to clipboard": [
+        "已複製別名到剪貼簿"
       ]
     },
     "Success notification": {
@@ -10060,6 +10108,24 @@
       ],
       "We protected you from ${ trackersCount } tracker": [
         "我們保護您避免 ${ trackersCount } 個追蹤程式的追踪"
+      ],
+      "Enable 2FA": [
+        "啟用2FA"
+      ],
+      "Get advanced protection": [
+        "取得進階保護"
+      ],
+      "Move all messages to archive": [
+        "將所有郵件移動至封存"
+      ],
+      "Move all messages to trash": [
+        "把所有郵件移至垃圾桶"
+      ],
+      "Need more aliases?": [
+        "需要更多別名?"
+      ],
+      "Security center": [
+        "安全中心"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10605,6 +10671,21 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "嘗試${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "全部別名"
+      ],
+      "Create alias": [
+        "創建別名"
+      ],
+      "Create an alias": [
+        "建立一個別名"
+      ],
+      "New alias": [
+        "新增别名"
+      ],
+      "Protect your online identity": [
+        "保護你的線上身分"
       ]
     },
     "storage_split: info": {
@@ -10628,6 +10709,12 @@
       ],
       "Your storage is full": [
         "您的儲存空間已滿"
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "您的${ storage }已滿${ cta }。"
+      ],
+      "Your storage is full. ${ cta }.": [
+        "您的儲存已滿${ cta }。"
       ]
     }
   }

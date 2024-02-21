@@ -1200,6 +1200,9 @@
       ],
       "Select country": [
         "Selecionar país"
+      ],
+      "Upgrade Now": [
+        "Fazer upgrade agora"
       ]
     },
     "action": {
@@ -3751,6 +3754,9 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Nenhuma chave externa recuperada para o usuário é válida para envio"
+      ],
+      "An error occurred while saving your alias": [
+        "Ocorreu um erro ao salvar os seus alias"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6384,6 +6390,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Isso removerá todos os dados associados com esse aplicativo, incluindo mensagens baixadas. O aplicativo irá reiniciar e você precisará iniciar a sessão novamente para usá-lo."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Essa mensagem será automaticamente excluída às ${ value }"
       ]
     },
     "info": {
@@ -8778,6 +8787,12 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "Agora você pode executar ações em todos os e-mails em uma única pasta de uma só vez."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Inicie ${ MAIL_APP_NAME } com facilidade diretamente do seu computador"
+      ],
+      "Get the desktop app": [
+        "Obter o aplicativo para computador"
       ]
     },
     "Status": {
@@ -9881,6 +9896,9 @@
       ],
       "Your account is protected": [
         "Sua conta está protegida"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obtenha os aplicativos do ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9992,6 +10010,10 @@
       "Try a shorter username (${ n } character max)": [
         "Tente um nome de usuário mais curto (máximo de ${ n } caractere)",
         "Tente um nome de usuário mais curto (máximo de ${ n } caracteres)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "A senha deve conter ao menos ${ MIN_PASSWORD_LENGTH } caractere",
+        "A senha deve conter ao menos ${ MIN_PASSWORD_LENGTH } caracteres"
       ]
     },
     "Video control": {
@@ -10415,6 +10437,36 @@
     "Payments": {
       "Billing Country": [
         "País de Faturamento"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Baixe o aplicativo para computador do ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicativo para computador do ${ MAIL_APP_NAME }"
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Desfrute de um aceso rápido, seguro e livre de distrações na sua caixa de entrada e calendário."
+      ],
+      "Get unlimited access with paid ${ BRAND_NAME } plan": [
+        "Obtenha acesso ilimitado com o pano pago da ${ BRAND_NAME }"
+      ],
+      "Introducing the desktop app": [
+        "Apresentamos o aplicativo para computador"
+      ],
+      "No credit card required": [
+        "Não é necessário cartão de crédito"
+      ],
+      "Upgrade now": [
+        "Fazer upgrade agora"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Experimente gratuitamente por 14 dias"
       ]
     }
   }

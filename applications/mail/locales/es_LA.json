@@ -1199,10 +1199,22 @@
         "Seleccionar país"
       ],
       "Toggle security center app": [
-        "Alternar app de Centro de seguridad"
+        "Activar aplicación del Centro de Seguridad"
       ],
       "Create and copy alias": [
         "Crear y copiar alias"
+      ],
+      "Upgrade Now": [
+        "Mejorar ahora"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Su prueba gratuita de la app de escritorio finaliza en 2 días. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Su prueba gratuita de la app de escritorio finaliza en 5 días. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Su prueba gratuita de la app de escritorio finaliza en ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3754,6 +3766,9 @@
       ],
       "Name is required": [
         "Se requiere el nombre"
+      ],
+      "An error occurred while saving your alias": [
+        "Ocurrió un error al guardar el alias"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6387,6 +6402,9 @@
       ],
       "Warning": [
         "Advertencia"
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Este mensaje se eliminará automáticamente a las ${ value }."
       ]
     },
     "info": {
@@ -8784,6 +8802,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Cree alias de hide-my-email y manténgalos monitoreados aquí."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Inicie ${ MAIL_APP_NAME } con facilidad directamente desde su escritorio."
+      ],
+      "Get the desktop app": [
+        "Obtenga la aplicación de escritorio"
       ]
     },
     "Status": {
@@ -10436,6 +10460,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Cuando se le pregunte por su dirección de correo, brinde este alias en su lugar. Añada un título y una nota para monitorear donde lo use."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Cuando se le pida su dirección de correo electrónico, indique este alias en su lugar. Los alias son proporcionados por ${ passLink }"
       ]
     },
     "Security Center - Action": {
@@ -10449,6 +10476,36 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **activo** y salvaguarda su cuenta."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Descargue la aplicación de escritorio de ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "App de escritorio de ${ MAIL_APP_NAME }"
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Disfrute de un acceso rápido, seguro y libre de distracciones a su buzón y calendario."
+      ],
+      "Get unlimited access with paid ${ BRAND_NAME } plan": [
+        "Disfrute de un acceso ilimitado con el plan de pago ${ BRAND_NAME }"
+      ],
+      "Introducing the desktop app": [
+        "Presentamos la app de escritorio"
+      ],
+      "No credit card required": [
+        "No se requiere tarjeta de crédito"
+      ],
+      "Upgrade now": [
+        "Mejorar ahora"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Pruebe gratis por 14 días"
       ]
     }
   }

@@ -1203,6 +1203,18 @@
       ],
       "Create and copy alias": [
         "Crea e copia l'alias"
+      ],
+      "Upgrade Now": [
+        "Effettua l'upgrade ora"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina tra 2 giorni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina tra 5 giorni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "La tua prova gratuita dell'applicazione desktop termina ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -1537,7 +1549,7 @@
         "${ participantName } ha accettato un invito e ha proposto un nuovo orario per questo evento."
       ],
       "${ participantName } accepted an invitation to one occurrence of the event.": [
-        "${ participantName } ha accettato un invito a una ricorrenza dell'evento."
+        "${ participantName } ha accettato un invito ad una occorrenza dell'evento."
       ],
       "${ participantName } accepted an invitation to this event.": [
         "${ participantName } ha accettato un invito a questo evento."
@@ -1567,19 +1579,19 @@
         "${ participantName } ha chiesto gli ultimi aggiornamenti per un evento che non corrisponde ai dettagli dell'invito. Verifica i dettagli dell'invito nel tuo calendario."
       ],
       "${ participantName } declined an invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } ha rifiutato un invito e proposto un nuovo orario per una occorrenza di questo evento."
+        "${ participantName } ha rifiutato un invito e ha proposto un nuovo orario per una occorrenza di questo evento."
       ],
       "${ participantName } declined an invitation and proposed a new time for this event.": [
         "${ participantName } ha rifiutato un invito e ha proposto un nuovo orario per questo evento."
       ],
       "${ participantName } declined an invitation to one occurrence of the event.": [
-        "${ participantName } ha rifiutato un invito a una ricorrenza dell'evento."
+        "${ participantName } ha rifiutato un invito a una occorrenza dell'evento."
       ],
       "${ participantName } declined an invitation to this event.": [
         "${ participantName } ha rifiutato un invito a questo evento."
       ],
       "${ participantName } declined your invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } ha rifiutato il tuo invito e proposto un nuovo orario per una occorrenza di questo evento."
+        "${ participantName } ha rifiutato il tuo invito e ha proposto un nuovo orario per una occorrenza di questo evento."
       ],
       "${ participantName } declined your invitation and proposed a new time for this event.": [
         "${ participantName } ha rifiutato il tuo invito e ha proposto un nuovo orario per questo evento."
@@ -1591,40 +1603,40 @@
         "${ participantName } ha rifiutato il tuo invito."
       ],
       "${ participantName } had accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato un invito e proposto un nuovo orario per una occorrenza di questo evento."
+        "${ participantName } aveva accettato un invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato un invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato un invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had accepted an invitation to one occurrence of the event.": [
-        "${ participantName } aveva accettato un invito a una ricorrenza dell'evento."
+        "${ participantName } aveva accettato un invito a una occorrenza dell'evento."
       ],
       "${ participantName } had accepted an invitation to this event.": [
         "${ participantName } aveva accettato un invito a questo evento."
       ],
       "${ participantName } had accepted your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato il tuo invito e proposto un nuovo orario per una occorrenza di questo evento."
+        "${ participantName } aveva accettato il tuo invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had accepted your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato il tuo invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato il tuo invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had declined an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva rifiutato un invito e proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva rifiutato un invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had declined an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva rifiutato un invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva rifiutato un invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had declined an invitation to one occurrence of the event.": [
-        "${ participantName } aveva rifiutato un invito a una ricorrenza dell'evento."
+        "${ participantName } aveva rifiutato un invito a una occorrenza dell'evento."
       ],
       "${ participantName } had declined an invitation to this event.": [
         "${ participantName } aveva rifiutato un invito a questo evento."
       ],
       "${ participantName } had declined your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva rifiutato il tuo invito e proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva rifiutato il tuo invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had declined your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva rifiutato il tuo invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva rifiutato il tuo invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had previously accepted your invitation to one occurrence of the event.": [
         "${ participantName } aveva già accettato il tuo invito ad una occorrenza dell'evento."
@@ -1663,22 +1675,22 @@
         "${ participantName } ha proposto un nuovo orario per questo evento. Questa proposta è scaduta. Non hai calendari."
       ],
       "${ participantName } had tentatively accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato provvisoriamente un invito e proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato provvisoriamente un invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had tentatively accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato provvisoriamente un invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato provvisoriamente un invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had tentatively accepted an invitation to one occurrence of the event.": [
-        "${ participantName } aveva accettato provvisoriamente un invito a un evento dell'evento."
+        "${ participantName } aveva accettato provvisoriamente un invito a una occorrenza dell'evento."
       ],
       "${ participantName } had tentatively accepted an invitation to this event.": [
         "${ participantName } aveva accettato provvisoriamente un invito a questo evento."
       ],
       "${ participantName } had tentatively accepted your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato provvisoriamente il tuo invito e proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato provvisoriamente il tuo invito e aveva proposto un nuovo orario per una occorrenza di questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } had tentatively accepted your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
-        "${ participantName } aveva accettato provvisoriamente il tuo invito e proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
+        "${ participantName } aveva accettato provvisoriamente il tuo invito e aveva proposto un nuovo orario per questo evento. La risposta e la proposta sono scadute."
       ],
       "${ participantName } is not in the participants list.": [
         "${ participantName } non è nell'elenco dei partecipanti."
@@ -1696,7 +1708,7 @@
         "${ participantName } ha accettato provvisoriamente un invito e ha proposto un nuovo orario per questo evento."
       ],
       "${ participantName } tentatively accepted an invitation to one occurrence of the event.": [
-        "${ participantName } ha accettato provvisoriamente un invito a un evento dell'evento."
+        "${ participantName } ha accettato provvisoriamente un invito ad una occorrenza dell'evento."
       ],
       "${ participantName } tentatively accepted an invitation to this event.": [
         "${ participantName } ha accettato provvisoriamente un invito a questo evento."
@@ -3256,10 +3268,10 @@
         "Cancellazione di un evento che inizia il ${ formattedStart }"
       ],
       "Invitation for an event on ${ formattedStart }": [
-        "Invito per un evento il ${ formattedStart }"
+        "Invito per un evento ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
-        "Invito per un evento che inizia il ${ formattedStart }"
+        "Invito per un evento che inizia ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Aggiornamento per un evento il ${ formattedStart }"
@@ -3754,6 +3766,9 @@
       ],
       "Name is required": [
         "Nome obbligatorio"
+      ],
+      "An error occurred while saving your alias": [
+        "Si è verificato un errore nel salvataggio dell'alias"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6387,6 +6402,9 @@
       ],
       "Warning": [
         "Avviso"
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Questo messaggio verrà eliminato automaticamente alle ${ value }"
       ]
     },
     "info": {
@@ -8784,6 +8802,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Crea alias Hide-my-email e tienine traccia qui."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Avvia ${ MAIL_APP_NAME } direttamente dal tuo desktop."
+      ],
+      "Get the desktop app": [
+        "Ottieni l'applicazione desktop"
       ]
     },
     "Status": {
@@ -10436,6 +10460,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Quando ti viene chiesto il tuo indirizzo email, fornisci invece questo alias. Aggiungi un nome e una nota per tenere traccia di dove lo usi."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Quando ti viene chiesto il tuo indirizzo email, dagli invece questo alias. Gli alias sono forniti da ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10449,6 +10476,27 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel è **attivo** e sta proteggendo il tuo account."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Scarica l'applicazione desktop di ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Applicazione desktop di ${ MAIL_APP_NAME }"
+      ],
+      "No credit card required": [
+        "Nessuna carta di credito richiesta"
+      ],
+      "Upgrade now": [
+        "Effettua l'upgrade ora"
+      ]
+    },
+    "Free trial destkop": {
+      "Try free for 14 days": [
+        "Prova gratis per 14 giorni"
       ]
     }
   }

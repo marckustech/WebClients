@@ -1187,7 +1187,7 @@
         "Ara no"
       ],
       "Clear application data": [
-        "Esborra les dades de l'aplicació"
+        "Neteja les dades de l'aplicació"
       ],
       "Select country": [
         "Seleccioneu el país"
@@ -3687,6 +3687,15 @@
       ],
       "Item content cannot exceed 40KB": [
         "El contingut de l'element no pot excedir 40 Kb."
+      ],
+      "Alias is not valid": [
+        "L'àlies no és vàlid."
+      ],
+      "Alias is required": [
+        "Es requereix un àlies"
+      ],
+      "Name is required": [
+        "Es requereix un nom"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4265,7 +4274,7 @@
     },
     "filter: Label": {
       "the email was sent ${ label }": [
-        "el correu ha estat enviat ${ label }"
+        "s'ha enviat el correu electrònic ${ label }"
       ],
       "with attachments": [
         "amb fitxers adjunts"
@@ -4276,7 +4285,7 @@
     },
     "filter: Label, jt": {
       "the email was sent ${ label }": [
-        "el correu ha estat enviat ${ label }"
+        "s'ha enviat el correu electrònic ${ label }"
       ]
     },
     "Font Face Default": {
@@ -4502,6 +4511,9 @@
       ],
       "Search": [
         "Cerca"
+      ],
+      "Security Center": [
+        "Centre de seguretat"
       ]
     },
     "Hint": {
@@ -5117,7 +5129,7 @@
         "Neteja les dades"
       ],
       "Clear selection": [
-        "Esborra la selecció"
+        "Neteja la selecció"
       ],
       "Clearing browser data also deactivates message content search on this device. All messages will need to be downloaded again to search within them.": [
         "Netejar les dades del navegador també desactiva la cerca de continguts del missatge en aquest dispositiu. Tots els missatges s'hauran de descarregar altra vegada per cercar-hi a dins."
@@ -5184,7 +5196,7 @@
         "Setmanal (personalitzat)"
       ],
       "Custom yearly": [
-        "Personalització de l'any"
+        "Anual (personalitzat)"
       ],
       "Customize the look and feel of ${ BRAND_NAME } applications.": [
         "Personalitzeu l'aspecte de les aplicacions de ${ BRAND_NAME }."
@@ -5298,7 +5310,7 @@
         "Data de caducitat"
       ],
       "Expires in ${ formattedDate }": [
-        "Caducitat: ${ formattedDate }"
+        "Caduca en ${ formattedDate }"
       ],
       "Expires in ${ minutesDiff } minute": [
         "Caduca en ${ minutesDiff } minut.",
@@ -6960,6 +6972,9 @@
       ],
       "Your alias": [
         "El vostre àlies"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "per exemple, Amazon, eBay, Etsy"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7882,6 +7897,9 @@
       ],
       "Type text or keyword": [
         "Escrigui text o paraula clau"
+      ],
+      "Search parent folder": [
+        "Cerca la carpeta principal"
       ]
     },
     "Placeholder for contact group name": {
@@ -8602,6 +8620,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Ara podeu programar els vostres missatges per tal que s'enviïn més tard"
+      ],
+      "Get the desktop app": [
+        "Obteniu l'aplicació d'escriptori"
       ]
     },
     "Status": {
@@ -8894,6 +8915,9 @@
       ],
       "Verification successful": [
         "Èxit de verificació"
+      ],
+      "Alias saved and copied": [
+        "S'ha desat i copiat l'àlies."
       ]
     },
     "Success notification": {
@@ -9616,6 +9640,15 @@
       ],
       "Enable 2FA": [
         "Activa l'autenticació 2FA"
+      ],
+      "Action all conversations": [
+        "Aplica a totes les converses"
+      ],
+      "Need more aliases?": [
+        "Necessiteu més àlies?"
+      ],
+      "Security center": [
+        "Centre de seguretat"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9942,31 +9975,31 @@
         "Cada ${ interval } setmanes, el dimecres a les ${ timesString }"
       ],
       "Weekly on ${ multipleDaysString }, ${ timesString }": [
-        "Cada setmana el ${ multipleDaysString }, ${ timesString }"
+        "Cada setmana el ${ multipleDaysString } a les ${ timesString }"
       ],
       "Weekly on all days, ${ timesString }": [
         "Cada setmana tots els dies, ${ timesString }"
       ],
       "Weekly on Friday, ${ timesString }": [
-        "Cada setmana el divendres, ${ timesString }"
+        "Cada setmana el divendres a les ${ timesString }"
       ],
       "Weekly on Monday, ${ timesString }": [
-        "Cada setmana el dilluns, ${ timesString }"
+        "Cada setmana el dilluns a les ${ timesString }"
       ],
       "Weekly on Saturday, ${ timesString }": [
-        "Cada setmana el dissabte, ${ timesString }"
+        "Cada setmana el dissabte a les ${ timesString }"
       ],
       "Weekly on Sunday, ${ timesString }": [
-        "Cada setmana el diumenge, ${ timesString }"
+        "Cada setmana el diumenge a les ${ timesString }"
       ],
       "Weekly on Thursday, ${ timesString }": [
-        "Cada setmana el dijous, ${ timesString }"
+        "Cada setmana el dijous a les ${ timesString }"
       ],
       "Weekly on Tuesday, ${ timesString }": [
-        "Cada setmana el dimarts, ${ timesString }"
+        "Cada setmana el dimarts a les ${ timesString }"
       ],
       "Weekly on Wednesday, ${ timesString }": [
-        "Cada setmana el dimecres, ${ timesString }"
+        "Cada setmana el dimecres a les ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -10102,6 +10135,9 @@
       ],
       "New alias": [
         "Nou àlies"
+      ],
+      "Create an alias": [
+        "Crea un àlies"
       ]
     },
     "storage_split: info": {
@@ -10110,11 +10146,22 @@
       ],
       "Your storage is full": [
         "L'emmagatzematge és ple."
+      ],
+      "upgrade for more storage": [
+        "milloreu per a obtenir més emmagatzematge"
+      ],
+      "Your ${ appStorage } is full": [
+        "El vostre ${ appStorage } és ple."
       ]
     },
     "Security Center - Action": {
       "View logs": [
         "Mostra els registres"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de facturació"
       ]
     }
   }

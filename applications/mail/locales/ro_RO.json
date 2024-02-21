@@ -1203,6 +1203,12 @@
       ],
       "Clear application data": [
         "Ștergere date aplicație"
+      ],
+      "Create and copy alias": [
+        "Creare și copiere alias"
+      ],
+      "Select country": [
+        "Selectare țară"
       ]
     },
     "action": {
@@ -6492,6 +6498,15 @@
       ],
       "Warning": [
         "Avertizare"
+      ],
+      "Clear app data": [
+        "Golire date aplicație"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Elimină toate datele asociate cu această aplicație, inclusiv mesajele descărcate."
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Aceasta elimină toate datele asociate cu această aplicație, inclusiv mesajele descărcate. Aplicația va reporni și va trebui să vă conectați din nou pentru a utiliza aplicația."
       ]
     },
     "info": {
@@ -6723,6 +6738,9 @@
       ],
       "Star": [
         "Marcare cu stea"
+      ],
+      "Filter": [
+        "Filtru"
       ]
     },
     "Keyboard shortcut section name": {
@@ -10026,6 +10044,9 @@
       ],
       "Your account is protected": [
         "Contul este protejat"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Obțineți aplicația ${ appName[APP_NAME] }"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10567,6 +10588,12 @@
       ],
       "When asked for your email address, give this alias instead. Add a name and note to keep track of where you use it.": [
         "Când vi se solicită adresa de e-mail, furnizați acest alias. Adăugați un nume și o notă pentru a ține evidența unde îl utilizați."
+      ],
+      "Create an alias": [
+        "Creați un alias"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Folosit pentru cumpărături pe Amazon etc."
       ]
     },
     "Security Center - Action": {
@@ -10609,6 +10636,29 @@
       ],
       "Your storage is full": [
         "Spațiu de stocare plin"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Pentru a trimite sau a primi mesaje, eliberați spațiu sau ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ upgrade }"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Spațiul de stocare din ${ storage } este ${ percentage }% plin. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Spațiul din ${ storage } este plin. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Spațiul de stocare este ${ percentage }% plin. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Spațiul de stocare este plin. ${ cta }."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Țara de facturare"
       ]
     }
   }

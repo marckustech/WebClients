@@ -45,6 +45,7 @@ enum MailFeatureFlag {
     DelightMailListHideUnreadButton = 'DelightMailListHideUnreadButton',
     SelectAll = 'SelectAll',
     SelectAllOptimistic = 'SelectAllOptimistic',
+    SplitStorageChecklistReopenedNova = 'SplitStorageChecklistReopenedNova', // TODO remove once the extended checklist storage split is finished
 }
 
 export type FeatureFlag =

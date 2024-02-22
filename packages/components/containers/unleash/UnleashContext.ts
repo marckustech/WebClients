@@ -17,6 +17,7 @@ enum CommonFeatureFlag {
     SplitStorage = 'SplitStorage',
     DrawerSecurityCenter = 'DrawerSecurityCenter',
     DrawerSecurityCenterDisplayPassAliases = 'DrawerSecurityCenterDisplayPassAliases',
+    DrawerSecurityCenterDisplaySentinel = 'DrawerSecurityCenterDisplaySentinel',
 }
 
 enum AccountFlag {

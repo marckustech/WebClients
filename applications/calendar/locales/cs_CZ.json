@@ -650,6 +650,18 @@
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů",
         "Není možné odeslat soubory vCard více než ${ maxAttachments } kontaktů"
+      ],
+      "Upgrade Now": [
+        "Navýšit nyní"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Bezplatná zkušební verze desktopové aplikace končí za 2 dny. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Bezplatná zkušební verze desktopové aplikace končí za 5 dní. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Bezplatná zkušební verze desktopové aplikace končí dne ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {

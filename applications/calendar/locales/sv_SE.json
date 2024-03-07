@@ -657,6 +657,9 @@
       ],
       "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
         "Din gratis provperiod av din app för stationär dator slutar om 5 dagar. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Din gratis provperiod av din app för stationär dator slutar den ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2310,6 +2313,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivning: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVNING:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2324,6 +2330,21 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du är inbjuden till ${ eventTitle } ${ eventDetailsText }"
+      ],
+      "All events in this series were updated.": [
+        "Alla händelser i denna serie uppdaterades."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alla händelser i denna serie har uppdaterats. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denna händelse uppdaterades."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denna händelse uppdaterades. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du är inbjuden till ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2335,11 +2356,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "När: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TID:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TID:\n${ formattedStart } (hela dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TID:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Var: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "PLATS:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2351,6 +2384,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har preliminärt accepterat din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } avböjde din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade preliminärt din inbjudan till ${ eventTitle }"
       ]
     },
     "Email subject": {
@@ -4397,6 +4439,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "En inbjudan kommer att skickas till alla deltagare. Vilken händelse vill du uppdatera?"
       ]
     },
     "info": {
@@ -6576,6 +6621,9 @@
       ],
       "Verification successful": [
         "Verifiering lyckades"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Senast ändrade alias lagrade i ditt äldsta valv"
       ]
     },
     "Success notification when user send feedback": {
@@ -7494,6 +7542,16 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Borttagen"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(kommer öppna ${ PASS_APP_NAME })"
       ]
     }
   }

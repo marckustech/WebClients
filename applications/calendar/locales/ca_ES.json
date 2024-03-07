@@ -2273,6 +2273,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descripció: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIPCIÓ:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2287,6 +2290,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Heu estat convidat/da a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This event was updated.": [
+        "S'ha actualitzat aquest esdeveniment."
       ]
     },
     "Email body for invitation (date part)": {
@@ -2759,6 +2765,12 @@
       ],
       "Your import will not be processed.": [
         "La vostra importació no es processarà."
+      ],
+      "Aliases could not be loaded": [
+        "No s'han pogut carregar els àlies."
+      ],
+      "Forward address is required": [
+        "L'adreça de reenviament és obligatòria."
       ]
     },
     "Error accepting calendar invitation": {
@@ -4337,6 +4349,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sembla que el fus horari del sistema ha canviat a ${ timezone }. Voleu actualitzar la vostra preferència de fus horari?"
+      ],
+      "Display events for calendar ${ Name }": [
+        "Mosta els esdeveniments per al calendari ${ Name }"
       ]
     },
     "info": {
@@ -5779,6 +5794,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Proveu ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Protegiu la vostra identitat en línia"
       ]
     },
     "Security Center - Action": {
@@ -6294,6 +6312,15 @@
       ],
       "Your storage is full": [
         "L'emmagatzematge és ple."
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ple al ${ percentage }%"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "El vostre emmagatzematge de ${ appStorage } està gairebé ple."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "L'emmagatzematge és ple. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6459,6 +6486,9 @@
       ],
       "Verification successful": [
         "Èxit de verificació"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Els darrers àlies modificats s'emmagatzemen a la vostra caixa forta més antiga"
       ]
     },
     "Success notification when user send feedback": {
@@ -7425,6 +7455,21 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada any, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Esborrat"
+      ]
+    },
+    "Error changing answer of a calendar invitation": {
+      "Error changing answer": [
+        "S'ha produït un error en canviar la resposta."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(obrirà ${ PASS_APP_NAME })"
       ]
     }
   }

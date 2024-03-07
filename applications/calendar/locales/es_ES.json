@@ -2317,6 +2317,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descripción: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIPCIÓN:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2331,6 +2334,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Estás invitado a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } ha sido cancelado."
+      ],
+      "All events in this series were updated.": [
+        "Se han actualizado todos los eventos en esta serie."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Se han actualizado todos los eventos en esta serie. Esto es lo que ha cambiado:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Se ha cancelado esta ocurrencia del evento."
+      ],
+      "This event occurrence was updated.": [
+        "Esta ocurrencia del evento ha sido actualizada."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Esta ocurrencia del evento ha sido actualizada. Esto es lo que ha cambiado:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Se ha actualizado este evento."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Se ha actualizado este evento. Esto es lo que ha cambiado:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Se te ha invitado a ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2342,11 +2372,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Cuándo: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "HORA:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "HORA:\n${ formattedStart } (todo el día)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "HORA:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Dónde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LUGAR:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2358,6 +2400,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ha aceptado provisionalmente tu invitación a ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha aceptado tu invitación a ${ eventTitle }."
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha rechazado a invitación a ${ eventTitle }."
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha aceptado provisionalmente la invitación a ${ eventTitle }."
       ]
     },
     "Email subject": {
@@ -4404,6 +4455,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "La zona horaria del sistema parece haber cambiado a ${ timezone }. ¿Quieres actualizar tu preferencia de zona horaria?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "Se enviará una invitación a todos los invitados. ¿Cuál evento deseas actualizar?"
       ]
     },
     "info": {
@@ -6591,6 +6645,9 @@
       ],
       "Verification successful": [
         "Verificación completada"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Últimos alias modificados guardados en tu caja fuerte más antigua"
       ]
     },
     "Success notification when user send feedback": {
@@ -7569,6 +7626,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada año hasta ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Borrado"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(abrirá ${ PASS_APP_NAME })"
       ]
     }
   }

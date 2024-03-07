@@ -2300,6 +2300,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Deskripsi: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESKRIPSI:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2314,6 +2317,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Anda diundang ke ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } telah dibatalkan."
+      ],
+      "All events in this series were updated.": [
+        "Semua acara dalam seri ini telah diperbarui."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Semua acara dalam seri ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Kejadian acara ini telah dibatalkan."
+      ],
+      "This event occurrence was updated.": [
+        "Kejadian acara ini telah diperbarui."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Kejadian acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Acara ini telah diperbarui."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Anda diundang ke ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2325,11 +2355,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Kapan: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "WAKTU:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "WAKTU:\n${ formattedStart } (sepanjang hari)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "WAKTU:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Di mana: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKASI:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2341,6 +2383,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } telah secara tentatif menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } menolak undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda secara tentatif ke ${ eventTitle }"
       ]
     },
     "Email subject": {
@@ -4335,6 +4386,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zona waktu sistem Anda sepertinya telah diubah menjadi ${ timezone }. Apakah Anda ingin memperbarui preferensi zona waktu Anda?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "Undangan akan dikirim ke seluruh peserta. Acara mana yang ingin Anda perbarui?"
       ]
     },
     "info": {
@@ -6454,6 +6508,9 @@
       ],
       "Verification successful": [
         "Verifikasi berhasil"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Alias yang terakhir digunakan tersimpan dalam brankas terlawas Anda"
       ]
     },
     "Success notification when user send feedback": {
@@ -7385,6 +7442,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Dihapus"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(akan membuka jendela ${ PASS_APP_NAME })"
       ]
     }
   }

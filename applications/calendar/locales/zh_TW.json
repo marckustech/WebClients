@@ -2224,6 +2224,15 @@
       ],
       "Your account and data recovery methods are set.": [
         "您的帳戶資料復原方法已就緒。"
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "按分類或心機為各事件貼上色彩標記，好提振工作效率並追蹤所耗時間。如此種種，盡在付費方案中。"
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "為想要更保護自己帳號的人量身訂做。"
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "要匯入 CSV 或 VCF 檔，請確保檔案大小不超過 ${ MAX_IMPORT_FILE_SIZE_STRING }，且聯絡人數不超過 ${ MAX_IMPORT_CONTACTS_STRING }。如果檔案超過此限制，請將其分成比較小的檔案。 ${ learnMoreLink }"
       ]
     },
     "description": {
@@ -2291,6 +2300,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "描述：${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "描述：${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2305,6 +2317,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "謹邀請閣下出席 ${ eventTitle }，詳情如下：\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } 已被取消。"
+      ],
+      "All events in this series were updated.": [
+        "該系列中的所有行程皆已更新。"
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "該系列中的所有行程皆已更新。以下是更新內容：\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "該行程已被取消。"
+      ],
+      "This event occurrence was updated.": [
+        "該行程已更新。"
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "該行程已更新。以下是更新內容：\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "該行程已更新。"
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "該行程已更新。以下是更新內容：\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "您已被邀請至 ${ eventTitle }。\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2316,10 +2355,22 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "日期：由 ${ formattedStart } 至 ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "時間：${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "時間：${ formattedStart }（全天）"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "時間：${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
+        "地點：${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
         "地點：${ eventLocation }"
       ]
     },
@@ -2332,6 +2383,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "您邀請 ${ emailAddress } 出席 ${ eventTitle }，已獲暫訂接受"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } 已接受您對 ${ eventTitle } 的邀請"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } 已謝絕您對 ${ eventTitle } 的邀請"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } 已暫定接受您對 ${ eventTitle } 的邀請"
       ]
     },
     "Email subject": {
@@ -2772,6 +2832,9 @@
       ],
       "Your import will not be processed.": [
         "將不會處理您的匯入。"
+      ],
+      "Intended recipient does not support calendar sharing": [
+        "擬收件人不支援行事曆共享"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4318,6 +4381,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系統時區似乎已更改為 ${ timezone }。您要更新您的時區喜好設定嗎？"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "邀請函將傳送給所有參與者。您要更新哪一事件？"
       ]
     },
     "info": {
@@ -5208,7 +5274,7 @@
         "使用 ${ BRAND_NAME } 的 SimpleLogin 取得無限的別名"
       ],
       "Snooze messages and get reminded when you want": [
-        "延後訊息急於想要時獲得通知"
+        "緩辦郵件，容後依時提醒"
       ],
       "Storage space is shared across ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
         "儲存空間乃一併用於 ${ MAIL_APP_NAME }、${ CALENDAR_APP_NAME } 與 ${ DRIVE_APP_NAME }"
@@ -5539,6 +5605,12 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "我們建議您「取消信任」此金鑰。"
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "自動由 keys.openpgp.org 取得了外部金鑰。"
+      ],
+      "External key automatically fetched via WKD.": [
+        "自動由 WKD 取得了外部金鑰。"
       ]
     },
     "PGP key warning": {
@@ -5744,6 +5816,9 @@
     "Security Center - Info": {
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel 現已 **啟動** 並正在保護你的帳號."
+      ],
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "最新的 AI 安全方案，為希望加強帳號防護的人而設計。 ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -6211,6 +6286,9 @@
       ],
       "Search for events": [
         "搜尋行程"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "利用自訂化事件色彩，將日常瑣屑事以色彩標記，收編於統整的一天麾下。"
       ]
     },
     "Storage": {
@@ -6425,6 +6503,9 @@
       ],
       "Verification successful": [
         "驗證成功"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "最後修改的別名已儲存到您最舊的保險庫"
       ]
     },
     "Success notification when user send feedback": {
@@ -7353,6 +7434,21 @@
       ],
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "已移除"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "包含 ${ DRIVE_SHORT_APP_NAME } 版本歷程、存取 ${ VPN_SHORT_APP_NAME } 數以千計高速伺服器、${ PASS_SHORT_APP_NAME } 的分享功能以及更多。"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(轉開 ${ PASS_APP_NAME })"
       ]
     }
   }

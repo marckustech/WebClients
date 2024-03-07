@@ -2317,6 +2317,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivelse: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVELSE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2347,6 +2350,9 @@
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Hvor: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKATION:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2670,8 +2676,8 @@
         "Opret en adresse først."
       ],
       "Please fix the highlighted conflict to proceed.": [
-        "Løs venligst den fremhævede konflikt for at fortsætte.",
-        "Løs venligst de fremhævede konflikter for at fortsætte."
+        "Løs den fremhævede konflikt for at fortsætte.",
+        "Løs de fremhævede konflikter for at fortsætte."
       ],
       "Please provide either a first name, a last name or a display name": [
         "Angiv enten et fornavn, et efternavn eller et visningsnavn"
@@ -4226,7 +4232,7 @@
         "Dette link kan være et homografisk angreb og kan ikke åbnes af Edge browseren. Hvis du er sikker på, at linket er legitimt, så benyt en anden browser til at åbne det."
       ],
       "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Dette link kan være et homografisk angreb. Bekræft venligst at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
+        "Dette link kan være et homografisk angreb. Bekræft at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
       ],
       "To fight spam and abuse, please verify you are human.": [
         "For at bekæmpe spam og misbrug bedes du bekræfte, at du er et menneske."
@@ -6588,6 +6594,9 @@
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Sidst ændrede aliasser gemt i din ældste boks"
       ]
     },
     "Success notification when user send feedback": {
@@ -7566,6 +7575,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Fjernet"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(vil åbne ${ PASS_APP_NAME })"
       ]
     }
   }

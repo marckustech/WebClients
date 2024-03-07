@@ -647,6 +647,12 @@
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов",
         "Вы не можете отправлять файлы vCard, содержащие больше ${ maxAttachments } контактов"
+      ],
+      "Select country": [
+        "Выберите страну"
+      ],
+      "Upgrade Now": [
+        "Улучшить сейчас"
       ]
     },
     "Action subline": {
@@ -4429,6 +4435,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Похоже, что ваш часовой пояс изменился на ${ timezone }. Вы хотите обновить настройки часового пояса?"
+      ],
+      "Important note": [
+        "Важное примечание"
       ]
     },
     "Info calendar search": {
@@ -4930,6 +4939,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "От: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Кому: ${ to }"
       ]
     },
     "Landmarks": {
@@ -5913,6 +5925,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Попробуйте ${ PASS_APP_NAME }"
+      ],
+      "Create alias": [
+        "Создать псевдоним"
       ]
     },
     "Select files": {
@@ -7058,6 +7073,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Save": [
+        "Сохранить"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7143,6 +7161,9 @@
       ],
       "You do not have any contacts to export": [
         "У вас нет контактов для экспорта"
+      ],
+      "Load image": [
+        "Загрузить изображение"
       ]
     },
     "Tooltip; share calendar modal ": {

@@ -2317,6 +2317,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Kuvaus: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "KUVAUS:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2331,6 +2334,30 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sinut on kutsuttu tapahtumaan ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } peruttiin."
+      ],
+      "All events in this series were updated.": [
+        "Kaikki tämän sarjan tapahtumat päivitettiin."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Kaikki sarjan tapahtumat päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Tämä tapahtuma peruttiin."
+      ],
+      "This event occurrence was updated.": [
+        "Tämä tapahtuma päivitettiin."
+      ],
+      "This event was updated.": [
+        "Tämä tapahtuma päivitettiin."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tämä tapahtuma päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Sinut on kutsuttu tapahtumaan ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2342,11 +2369,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "AIka: ${ formattedStart } – ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "AIKA:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "AIKA:\n${ formattedStart } (koko päivä)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "AIKA:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Sijainti: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "SIJAINTI:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2357,6 +2396,15 @@
         "${ emailAddress } kieltäytyi kutsustasi tapahtumaan ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } hyväksyi alustavasti kutsusi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } hyväksyi kutsusi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } kieltäytyi kutsustasi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } hyväksyi alustavasti kutsusi tapahtumaan ${ eventTitle }"
       ]
     },
@@ -4404,6 +4452,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Järjestelmäsi aikavyöhykkeeksi näyttää vaihtuneen ${ timezone }. Haluatko päivittää aikavyöhykeasetuksesi?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "Kaikille osallistujille lähetetään kutsu. Minkä tapahtuman haluat päivittää?"
       ]
     },
     "info": {
@@ -7566,6 +7617,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Poistettu"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(avaa ${ PASS_APP_NAME })"
       ]
     }
   }

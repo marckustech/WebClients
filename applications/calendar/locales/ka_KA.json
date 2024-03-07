@@ -2317,6 +2317,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "აღწერა: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "აღწერა:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2331,6 +2334,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "მოსაწვევი ${ eventTitle }-ზე\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } გაუქმდა."
+      ],
+      "All events in this series were updated.": [
+        "ამ სერიაში ყველა მოვლენა განახლდა."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ყველა მოვლენა ამ სერიაში განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "ამ მოვლენის მოხდენა გაუქმდა."
+      ],
+      "This event occurrence was updated.": [
+        "ამ მოვლენის მოხდენის დრო განახლდა."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ამ მოვლენის მოხდენის დრო განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "ეს მოვლენა განახლდა."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ეს მოვლენა განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "მიწვეული ბრძანდებით მოვლენაზე ${ eventTitle }.\n\nროდის: ${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2342,11 +2372,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "როდის: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "როდის:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "როდის:\n${ formattedStart } (მთელი დღე)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "როდის:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "სად: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "მდებარეობა:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2358,6 +2400,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ფრთხილად დაეთანხმა ${ eventTitle }-ზე მოსაწვევს"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } დაეთანხმა ${ eventTitle }-ზე მოსაწვევს"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } უარყო ${ eventTitle }-ზე მოსაწვევი"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ფრთხილად დაეთანხმა თქვენს მოსაწვევს მოვლენაზე ${ eventTitle }"
       ]
     },
     "Email subject": {
@@ -4322,7 +4373,7 @@
         "ერთ ცდაზე მონაცემების, მხოლოდ, ერთი ტიპის შემოტანა შეგიძლიათ."
       ],
       "You can now return to the application to continue": [
-        "ახლა გასაგრძელებლად შეგიძლიათ აპლიკაციაზე დაბრუნდეთ"
+        "ახლა გასაგრძელებლად შეგიძლიათ, აპლიკაციაზე დაბრუნდეთ"
       ],
       "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
         "შეგიძლიათ, ჩართოთ ამ საქაღალდეში ელფოსტის ახალი შეტყობინების მოსვლის გაფრთხილება."
@@ -4404,6 +4455,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "თქვენი სისტემის დროის სარტყელი, როგორც ჩანს, შეიცვალა ${ timezone }-ზე. გსურთ, განაახლოთ თქვენი დროის სარტყელის პარამეტრი?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "მოსაწვევი ყველა წევრს გაეგზავნა. რომელი მოვლენა გსურთ, განაახლოთ?"
       ]
     },
     "info": {
@@ -6588,6 +6642,9 @@
       ],
       "Verification successful": [
         "გადამოწმება წარმატებულია"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "ბოლოს შეცვლილი ფსევდონიმები თქვენს უძველეს საცავშია შენახული"
       ]
     },
     "Success notification when user send feedback": {
@@ -7566,6 +7623,16 @@
       ],
       "Yearly, ${ untilString }": [
         "ყოველწლიურად, ${ untilString }-მდე"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "წაიშალა"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(გახსნის ${ PASS_APP_NAME }-ს)"
       ]
     }
   }

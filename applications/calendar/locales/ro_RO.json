@@ -2334,6 +2334,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descriere: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIERE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2348,6 +2351,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Invitație la ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } a fost anulat."
+      ],
+      "All events in this series were updated.": [
+        "Toate evenimentele din serie au fost modificate."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Toate evenimentele au fost modificate. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Acest eveniment a fost anulat."
+      ],
+      "This event occurrence was updated.": [
+        "Acest eveniment a fost modificat."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acest eveniment a fost modificat. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Acest eveniment a fost modificat."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acest eveniment a fost actualizat. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Invitație la ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2359,11 +2389,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Când: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "CÂND:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "CÂND:\n${ formattedStart } (toată ziua)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "CÂND:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Unde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOC:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2374,6 +2416,15 @@
         "${ emailAddress } v-a refuzat invitația la ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a acceptat provizoriu invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a acceptat invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a refuzat invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } v-a acceptat provizoriu invitația la ${ eventTitle }"
       ]
     },
@@ -4473,6 +4524,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Fusul orar al sistemului pare să se fi schimbat la ${ timezone }. Actualizați fusul orar preferat?"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "O invitație va fi trimisă tuturor participanților. Ce eveniment doriți să modificați?"
       ]
     },
     "info": {
@@ -6722,6 +6776,9 @@
       ],
       "Verification successful": [
         "Verificare reușită"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Ultimele aliasuri modificate stocate în cel mai vechi seif"
       ]
     },
     "Success notification when user send feedback": {
@@ -7744,6 +7801,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Eliminat"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(va deschide ${ PASS_APP_NAME })"
       ]
     }
   }

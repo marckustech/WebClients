@@ -656,6 +656,18 @@
         "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контакти",
         "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контактів",
         "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контактів"
+      ],
+      "Upgrade Now": [
+        "Покращити зараз"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується через 2 днів. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується через 5 днів. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2228,6 +2240,15 @@
       ],
       "Your account and data recovery methods are set.": [
         "Ваш обліковий запис і методи відновлення даних налаштовано."
+      ],
+      "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
+        "Підвищуйте ефективність і відстежуйте свій час, позначаючи події кольором за категоріями або рівнями енергії. Отримайте це та багато іншого з платним тарифом."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Призначений для користувачів, які шукають посилений захист для своїх облікових записів."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Покращте свій обліковий запис, щоб активувати ${ PROTON_SENTINEL_NAME }, наше найсучасніше рішення щодо безпеки на базі ШІ з експертною підтримкою 24/7."
       ]
     },
     "description": {
@@ -2784,6 +2805,39 @@
       ],
       "Your import will not be processed.": [
         "Ваш імпорт не буде оброблений."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } не може під'єднатися до вашого зовнішнього облікового запису"
+      ],
+      "Alias is not valid": [
+        "Псевдонім недійсний"
+      ],
+      "Alias is required": [
+        "Потрібен псевдонім"
+      ],
+      "Aliases could not be loaded": [
+        "Не вдалося завантажити псевдоніми"
+      ],
+      "An error occurred while loading alias options": [
+        "Під час завантаження параметрів псевдоніма сталася помилка"
+      ],
+      "An error occurred while saving your alias": [
+        "Під час збереження вашого псевдоніма сталася помилка"
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Неможливо ввімкнути пошук вмісту. Перезапустіть застосунок або очистьте дані."
+      ],
+      "Forward address is required": [
+        "Потрібно вказати адресу переадресації"
+      ],
+      "Name is required": [
+        "Назва обовʼязкова"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Жоден зовнішній ключ, отриманий для користувача, не дійсний для надсилання"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Неочікувана помилка, неможливо імпортувати контакти"
       ]
     },
     "Error accepting calendar invitation": {
@@ -2990,6 +3044,9 @@
       ],
       "You need an active personal calendar to import events": [
         "Вам необхідний активний особистий календар для імпортування подій"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Щоб використовувати ${ MAIL_APP_NAME } або ${ CALENDAR_APP_NAME }, перейдіть до вебверсії."
       ]
     },
     "Error notification": {
@@ -5960,11 +6017,17 @@
       ],
       "Used on amazon for shopping, etc.": [
         "Використовуйте на Amazon для покупок тощо"
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Натомість коли вас попросять вказати адресу пошти, вкажіть цей псевдонім. Псевдоніми надаються ${ passLink }."
       ]
     },
     "Security Center - Info": {
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel **активний** і захищає ваш обліковий запис."
+      ],
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Наше передове рішення для забезпечення безпеки на основі ШІ, призначене для користувачів, яким потрібен підвищений захист облікових записів. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -6384,6 +6447,12 @@
       ],
       "Search for events": [
         "Пошук подій"
+      ],
+      "Color-coding is here!": [
+        "Презентуємо кольорове кодування!"
+      ],
+      "With customizable event colors, you can color-code the chaos and conquer your day.": [
+        "За допомогою налаштовуваних кольорів подій ви можете упорядкувати свій день."
       ]
     },
     "Storage": {
@@ -6403,6 +6472,39 @@
       ],
       "Your storage is full": [
         "Ваше сховище заповнене"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% заповнено"
+      ],
+      "contact your administrator": [
+        "зв'язатися з адміністратором"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Щоби надсилати або отримувати листи, звільніть місце або ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Щоб завантажити або синхронізувати файли, звільніть місце або ${ upgrade }"
+      ],
+      "upgrade for more storage": [
+        "покращте тариф, щоб збільшити сховище"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ваше ${ appStorage } майже повне"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ваше ${ appStorage } повне"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ваше ${ storage } заповнено на ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ваше ${ storage } повне. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ваше сховище заповнено на ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ваше сховище заповнено. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6574,6 +6676,9 @@
       ],
       "Verification successful": [
         "Перевірка пройшла успішно"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Останні змінені псевдоніми зберігаються у вашому найстарішому сховищі"
       ]
     },
     "Success notification when user send feedback": {
@@ -7106,6 +7211,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Add some color to your day": [
+        "Додайте трохи барв у свій день"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7538,6 +7646,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(відкрити ${ PASS_APP_NAME })"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Переглянути журнали"
       ]
     }
   }

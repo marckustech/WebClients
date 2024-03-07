@@ -638,6 +638,21 @@
       ],
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "${ maxAttachments }件を超える連絡先のvCardファイルを送信できません。"
+      ],
+      "Create and copy alias": [
+        "エイリアスを作成してコピー"
+      ],
+      "Upgrade Now": [
+        "今すぐアップグレード"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルはあと2日で終了します。${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルはあと5日で終了します。${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルは ${ formattedEndDate } で終了します。${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -784,6 +799,15 @@
       ],
       "Premium Password Manager": [
         "プレミアムパスワードマネージャー"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65か国以上、3,000台以上のサーバー"
+      ],
+      "Access content worldwide": [
+        "世界中のコンテンツにアクセス"
+      ],
+      "High speed streaming": [
+        "高速ストリーミング"
       ]
     },
     "bf2023: Offers": {
@@ -2134,6 +2158,21 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "結合または保持する必要のない連絡先を削除するためにマークができます。 削除はマージボタンがクリックされた後にのみ行われます"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2要素認証は、不正アクセスを防止するための追加のセキュリティ層です。"
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "データの損失を防ぐには、データの回復手段を設定します。"
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "アカウントへのアクセスが失われないように回復手段を設定してください。"
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "アカウントとデータの回復手段が設定され、2要素認証が有効になっています。"
+      ],
+      "Your account and data recovery methods are set.": [
+        "アカウントとデータの回復手段が設定されています。"
       ]
     },
     "description": {
@@ -2270,6 +2309,9 @@
       ],
       "Early access to new apps and features": [
         "新しいアプリや機能への早期アクセス"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } デスクトップアプリへの早期アクセス"
       ]
     },
     "Error": {
@@ -2638,6 +2680,21 @@
       ],
       "Your import will not be processed.": [
         "インポートできませんでした。"
+      ],
+      "Alias is not valid": [
+        "エイリアスが無効です"
+      ],
+      "Alias is required": [
+        "エイリアスは必須です"
+      ],
+      "Aliases could not be loaded": [
+        "エイリアスを読み込めませんでした"
+      ],
+      "Forward address is required": [
+        "転送先アドレスは必須です"
+      ],
+      "Name is required": [
+        "名前は必須です"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4172,6 +4229,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "システムのタイムゾーンが${ timezone }に変更されたようです。タイムゾーンの設定を更新しますか？"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "すべての参加者に招待状が送信されます。どの予定を更新しますか？"
       ]
     },
     "info": {
@@ -5556,6 +5616,15 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "${ PASS_APP_NAME } をお試しください"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email エイリアスで、メールアドレスを共有することなくアカウントを作成できます。${ learnMoreLink }"
+      ],
+      "Protect your online identity": [
+        "あなたをオンラインで守る"
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "メールアドレスを求められた場合、このエイリアスを代わりに入力してください。エイリアスは${ passLink } によって提供されます。"
       ]
     },
     "Security Center - Action": {
@@ -6001,6 +6070,9 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "カスタマイズ可能なイベントの色を使用して、混乱を色分けして、一日を征服できます。"
+      ],
+      "Get the desktop app": [
+        "デスクトップアプリを入手"
       ]
     },
     "Storage": {
@@ -6020,6 +6092,9 @@
       ],
       "Your storage is full": [
         "ストレージがいっぱいです"
+      ],
+      "contact your administrator": [
+        "管理者に連絡してください"
       ]
     },
     "Subscribe to calendar modal": {
@@ -6176,6 +6251,15 @@
       ],
       "Verification successful": [
         "検証に成功しました"
+      ],
+      "Alias copied to clipboard": [
+        "エイリアスがクリップボードにコピーされました"
+      ],
+      "Alias saved and copied": [
+        "エイリアスを保存してコピーしました"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "最も古い保管庫に保存されている、最後に変更されたエイリアス"
       ]
     },
     "Success notification when user send feedback": {
@@ -6672,6 +6756,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mial Plusのトライアル期間が ${ textDate } に終了します。"
+      ],
+      "Your account is protected": [
+        "あなたのアカウントは保護されています"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7101,6 +7188,26 @@
       ],
       "Yearly, ${ untilString }": [
         "毎年、${ untilString }"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME } デスクトップアプリをダウンロード"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } デスクトップアプリ"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME } を開きます)"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "私たちの、最先端のAI駆動セキュリティソリューションは、アカウントの高度な保護を求めるユーザー向けに設計されています。${ learnMoreLink }"
       ]
     }
   }

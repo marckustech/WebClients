@@ -3161,6 +3161,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "설명: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "설명:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3175,6 +3178,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "${ eventTitle } 에 초대되었습니다\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle }이(가) 취소되었습니다."
+      ],
+      "All events in this series were updated.": [
+        "해당 주제의 모든 이벤트가 업데이트되었습니다."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "해당 주제의 모든 이벤트가 업데이트되었습니다. 변경된 내용은 다음과 같습니다:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "이 이벤트의 개최는 취소되었습니다."
+      ],
+      "This event occurrence was updated.": [
+        "이 이벤트의 개최가 업데이트되었습니다."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "이벤트 변경사항이 업데이트되었습니다. 변경된 내용은 다음과 같습니다:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "이 이벤트는 업데이트 되었습니다."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "이벤트가 업데이트되었습니다. 변경된 내용은 다음과 같습니다:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "${ eventTitle }에 초대받았습니다.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3186,11 +3216,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "언제: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "시간:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "시간:\n${ formattedStart } (종일)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "시간:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "어디서: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "위치:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3202,6 +3244,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } 이(가) ${ eventTitle } 의 초대를 잠정적으로 수락했습니다"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }이(가) ${ eventTitle } 의 초대를 수락했습니다"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress }이(가) ${ eventTitle }의 초대를 거부했습니다"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }이(가) ${ eventTitle } 의 초대를 잠정적으로 수락했습니다"
       ]
     },
     "Email reminder banner": {
@@ -4385,11 +4436,26 @@
       ],
       "Upgrade now": [
         "지금 업그레이드"
+      ],
+      "14-day destkop app trial.": [
+        "14일 데스크톱 앱 체험."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "${ MAIL_APP_NAME } 플랜으로 제한없이 이용해보세요."
+      ],
+      "No credit card required.": [
+        "신용 카드 필요 없음."
+      ],
+      "Try the app-new desktop app": [
+        "새로운 데스크톱 앱을 사용해보세요"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "14일간 무료 사용하기"
+      ],
+      "Start free trial": [
+        "무료 체험 시작하기"
       ]
     },
     "Get started checklist instructions": {
@@ -9019,6 +9085,9 @@
       ],
       "Verification successful": [
         "인증 성공"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "마지막으로 편집한 별명은 가장 오래된 금고에 저장되었습니다"
       ]
     },
     "Success notification": {
@@ -9747,7 +9816,7 @@
         "무엇을 가져오시겠어요?"
       ],
       "What's new": [
-        "변경 사항"
+        "새로운 사항"
       ],
       "Your account is protected": [
         "계정이 보호됩니다."
@@ -10189,6 +10258,16 @@
       ],
       "Yearly, ${ untilString }": [
         "연간, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "제거됨"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME }을 엽니다)"
       ]
     }
   }

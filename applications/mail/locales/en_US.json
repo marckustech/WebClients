@@ -116,6 +116,14 @@
       "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
         "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
       ]
+    },
+    "Free trial desktop": {
+      "14-day destkop app trial.": [
+        "14-day desktop app trial."
+      ],
+      "Try the app-new desktop app": [
+        "Try the new desktop app"
+      ]
     }
   }
 }

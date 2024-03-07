@@ -1203,6 +1203,9 @@
       ],
       "Zoom out": [
         "Zooma ut"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Din gratis provperiod av din app för stationär dator slutar den ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3167,6 +3170,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivning: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVNING:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3181,6 +3187,21 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du är inbjuden till ${ eventTitle } ${ eventDetailsText }"
+      ],
+      "All events in this series were updated.": [
+        "Alla händelser i denna serie uppdaterades."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alla händelser i denna serie har uppdaterats. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denna händelse uppdaterades."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denna händelse uppdaterades. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du är inbjuden till ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3192,11 +3213,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "När: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TID:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TID:\n${ formattedStart } (hela dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TID:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Var: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "PLATS:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3208,6 +3241,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har preliminärt accepterat din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } avböjde din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade preliminärt din inbjudan till ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4411,11 +4453,23 @@
       ],
       "Upgrade now": [
         "Uppgradera nu"
+      ],
+      "14-day destkop app trial.": [
+        "14-dagars provperiod av app för stationär dator."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få obegränsad åtkomst med valfritt ${ MAIL_APP_NAME }-paket."
+      ],
+      "No credit card required.": [
+        "Inget kreditkort krävs."
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prova gratis i 14 dagar"
+      ],
+      "Start free trial": [
+        "Starta gratis provperiod"
       ]
     },
     "Get started checklist instructions": {
@@ -9194,6 +9248,9 @@
       ],
       "Verification successful": [
         "Verifiering lyckades"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Senast ändrade alias lagrade i ditt äldsta valv"
       ]
     },
     "Success notification": {
@@ -10358,6 +10415,16 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Årligen, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Borttagen"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(kommer öppna ${ PASS_APP_NAME })"
       ]
     }
   }

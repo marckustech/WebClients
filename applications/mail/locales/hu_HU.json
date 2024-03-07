@@ -4197,6 +4197,9 @@
     "Free trial desktop": {
       "No credit card required": [
         "Nincs szükség bankkártya megadására"
+      ],
+      "No credit card required.": [
+        "Nincs szükség bankkártya megadására."
       ]
     },
     "Get started checklist instructions": {

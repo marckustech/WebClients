@@ -3177,6 +3177,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Açıklama: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "AÇIKLAMA:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3191,6 +3194,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "${ eventTitle } etkinliğine davet edildiniz\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } iptal edildi."
+      ],
+      "All events in this series were updated.": [
+        "Bu dizideki tüm etkinlikler güncellendi."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu dizideki tüm etkinlikler güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Bu etkinlik kopyası iptal edildi."
+      ],
+      "This event occurrence was updated.": [
+        "Bu etkinlik kopyası güncellendi."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu etkinlik kopyası güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Bu etkinlik güncellendi."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu etkinlik güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "${ eventTitle } etkinliğine davet edildiniz.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3202,11 +3232,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Zaman: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "ZAMAN:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "ZAMAN:\n${ formattedStart } (tüm gün)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "ZAMAN:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Yer: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "KONUM:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3218,6 +3260,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ eventTitle } etkinliği davetiniz ${ emailAddress } tarafından kesin olmamakla birlikte kabul edildi"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi kabul etti"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi reddetti"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi belirsiz olarak kabul etti"
       ]
     },
     "Email reminder banner": {
@@ -4421,11 +4472,26 @@
       ],
       "Upgrade now": [
         "Şimdi yükseltin"
+      ],
+      "14-day destkop app trial.": [
+        "14 günlük masaüstü uygulama denemesi."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Herhangi bir ${ MAIL_APP_NAME } tarifesi ile sınırsız erişim elde edin."
+      ],
+      "No credit card required.": [
+        "Kredi kartı gerekmez."
+      ],
+      "Try the app-new desktop app": [
+        "Yeni masaüstü uygulamasını deneyin"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "14 gün boyunca ücretsiz olarak deneyin"
+      ],
+      "Start free trial": [
+        "Ücretsiz deneme süresini başlatın"
       ]
     },
     "Get started checklist instructions": {
@@ -9209,6 +9275,9 @@
       ],
       "Verification successful": [
         "Doğrulandı"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "En eski kasanızda bulunan son değiştirilmiş takma adlar"
       ]
     },
     "Success notification": {
@@ -10433,6 +10502,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Kaldırıldı"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME } açılacak)"
       ]
     }
   }

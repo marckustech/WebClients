@@ -1182,6 +1182,12 @@
       ],
       "Zoom out": [
         "Reduzir"
+      ],
+      "Download now": [
+        "Descarregar agora"
+      ],
+      "Upgrade Now": [
+        "Atualizar agora"
       ]
     },
     "action": {
@@ -3182,6 +3188,9 @@
     "eoy2023: Deal details": {
       "6 TB": [
         "6 TB"
+      ],
+      "6 users": [
+        "6 utilizadores"
       ]
     },
     "Error": {
@@ -3593,6 +3602,9 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "A sua pesquisa obteve demasiadas correspondências. Limite a pesquisa e tente novamente."
+      ],
+      "Name is required": [
+        "É necessário um nome."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4237,6 +4249,12 @@
     "Free trial desktop": {
       "No credit card required": [
         "Não é necessário um cartão de crédito"
+      ],
+      "No credit card required.": [
+        "Não é necessário um cartão de crédito."
+      ],
+      "Upgrade now": [
+        "Atualizar agora"
       ]
     },
     "Free trial destkop": {
@@ -4418,6 +4436,9 @@
       ],
       "Search": [
         "Pesquisar"
+      ],
+      "Security Center": [
+        "Centro de segurança"
       ]
     },
     "Hint": {
@@ -6116,6 +6137,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "O seu telefone só será utilizado para esta verificação única."
+      ],
+      "Clear app data": [
+        "Limpar os dados da aplicação"
+      ],
+      "Warning": [
+        "Aviso"
       ]
     },
     "info": {
@@ -6835,6 +6862,9 @@
       ],
       "Your password (admin)": [
         "A sua palavra-passe (admin)"
+      ],
+      "Your alias": [
+        "O seu alias"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7896,6 +7926,12 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Experimente o ${ PASS_APP_NAME }"
+      ],
+      "Create an alias": [
+        "Criar um alias"
+      ],
+      "New alias": [
+        "Novo alias"
       ]
     },
     "Select files": {
@@ -9415,6 +9451,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
+      ],
+      "Delete folder?": [
+        "Eliminar a pasta?"
+      ],
+      "Delete label?": [
+        "Eliminar a etiqueta?"
+      ],
+      "Enable 2FA": [
+        "Ativar A2F"
+      ],
+      "Security center": [
+        "Centro de segurança"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9494,6 +9542,9 @@
       ],
       "You do not have any contacts to export": [
         "Não tem contactos para exportar"
+      ],
+      "Load image": [
+        "Carregar a imagem"
       ]
     },
     "Tor out of date": {
@@ -9872,6 +9923,26 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "Imagem do contato"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "País de faturação"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Ver os registos"
+      ]
+    },
+    "Snooze message": {
+      "Snooze Message": [
+        "Adiar a mensagem"
       ]
     }
   }

@@ -3177,6 +3177,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivelse: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "Beskrivelse:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3191,6 +3194,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er invitert til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } ble kansellert."
+      ],
+      "All events in this series were updated.": [
+        "Alle hendelsene i denne serien ble oppdatert."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alle hendelsene i denne serien ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Denne hendelsesforekomsten ble kansellert."
+      ],
+      "This event occurrence was updated.": [
+        "Hendelsesforekomsten ble oppdatert."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne hendelsesforekomsten ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denne hendelsen ble oppdatert."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne hendelsen ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du er invitert til ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3202,11 +3232,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Når: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "Tidspunkt:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "Tidspunkt:\n${ formattedStart } (hele dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "Tidspunkt:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Hvor: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "Sted:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3218,6 +3260,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har foreløpig akseptert invitasjonen til ${ eventTitle }."
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } aksepterte din invitasjon til ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } avslo invitasjonen din til ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } foreløpig aksepterte invitasjonen din til ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4421,11 +4472,26 @@
       ],
       "Upgrade now": [
         "Oppgrader nå"
+      ],
+      "14-day destkop app trial.": [
+        "14-dagers prøveversjon av skrivebords-appen."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få ubegrenset tilgang med alle ${ MAIL_APP_NAME }-planer."
+      ],
+      "No credit card required.": [
+        "Ingen kredittkort kreves."
+      ],
+      "Try the app-new desktop app": [
+        "Prøv den nye skrivebordsappen"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prøv gratis i 14 dager"
+      ],
+      "Start free trial": [
+        "Start gratis prøveperiode"
       ]
     },
     "Get started checklist instructions": {
@@ -9209,6 +9275,9 @@
       ],
       "Verification successful": [
         "Vellykket verifisering"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Sist endrede aliaser lagret i ditt eldste hvelv"
       ]
     },
     "Success notification": {
@@ -10433,6 +10502,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Årlig, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Fjernet"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(vil åpne ${ PASS_APP_NAME })"
       ]
     }
   }

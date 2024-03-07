@@ -3203,6 +3203,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Opis: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "OPIS:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3217,6 +3220,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Zaproszenie na wydarzenie ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "Wydarzenie ${ eventTitle } zostało anulowane."
+      ],
+      "All events in this series were updated.": [
+        "Wszystkie wydarzenia w tej serii zostały zaktualizowane."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Wszystkie wydarzenia w tej serii zostały zaktualizowane. Lista zmian:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Powtórzenie wydarzenia zostało anulowane."
+      ],
+      "This event occurrence was updated.": [
+        "Powtórzenie wydarzenia zostało zaktualizowane."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Powtórzenie wydarzenia zostało zaktualizowane. Lista zmian:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Wydarzenie zostało zaktualizowane."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Wydarzenie zostało zaktualizowane. Lista zmian:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Zaproszenie na wydarzenie ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3228,11 +3258,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Data: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "DATA:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "DATA:\n${ formattedStart } (cały dzień)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "DATA:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Lokalizacja: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKALIZACJA:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3244,6 +3286,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "Uczestnik ${ emailAddress } wstępnie zaakceptował zaproszenie na wydarzenie ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "Uczestnik ${ emailAddress } zaakceptował zaproszenie do wydarzenia ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "Uczestnik ${ emailAddress } odrzucił zaproszenie do wydarzenia ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "Uczestnik ${ emailAddress } wstępnie zaakceptował zaproszenie do wydarzenia ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4487,11 +4538,26 @@
       ],
       "Upgrade now": [
         "Ulepsz teraz"
+      ],
+      "14-day destkop app trial.": [
+        "14-dniowa wersja próbna aplikacji desktopowej."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Uzyskaj nieograniczony dostęp w planie ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Karta płatnicza nie jest wymagana."
+      ],
+      "Try the app-new desktop app": [
+        "Wypróbuj nową aplikację desktopową"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Wypróbuj za darmo przez 14 dni"
+      ],
+      "Start free trial": [
+        "Rozpocznij darmową wersję próbną"
       ]
     },
     "Get started checklist instructions": {
@@ -9583,6 +9649,9 @@
       ],
       "Verification successful": [
         "Weryfikacja powiodła się"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Ostatnio zmodyfikowane aliasy są przechowywane w najstarszym sejfie"
       ]
     },
     "Success notification": {
@@ -10909,6 +10978,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Co rok, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Usunięte"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(otworzy ${ PASS_APP_NAME })"
       ]
     }
   }

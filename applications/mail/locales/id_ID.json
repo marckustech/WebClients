@@ -392,7 +392,7 @@
         "Enkripsi"
       ],
       "exclude message content": [
-        "tidak mengikutsertakan isi pesan"
+        "kecualikan isi pesan"
       ],
       "Expand composer": [
         "Lebarkan komposer"
@@ -3161,6 +3161,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Deskripsi: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESKRIPSI:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3175,6 +3178,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Anda diundang ke ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } telah dibatalkan."
+      ],
+      "All events in this series were updated.": [
+        "Semua acara dalam seri ini telah diperbarui."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Semua acara dalam seri ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Kejadian acara ini telah dibatalkan."
+      ],
+      "This event occurrence was updated.": [
+        "Kejadian acara ini telah diperbarui."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Kejadian acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Acara ini telah diperbarui."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Anda diundang ke ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3186,11 +3216,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Kapan: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "WAKTU:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "WAKTU:\n${ formattedStart } (sepanjang hari)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "WAKTU:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Di mana: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKASI:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3202,6 +3244,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } telah secara tentatif menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } menolak undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda secara tentatif ke ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4385,11 +4436,26 @@
       ],
       "Upgrade now": [
         "Tingkatkan sekarang"
+      ],
+      "14-day destkop app trial.": [
+        "Uji coba aplikasi desktop 14 hari."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Dapatkan akses tak terbatas dengan langganan ${ MAIL_APP_NAME } apa pun."
+      ],
+      "No credit card required.": [
+        "Tanpa perlu kartu kredit."
+      ],
+      "Try the app-new desktop app": [
+        "Coba aplikasi baru untuk desktop."
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Coba gratis selama 14 hari"
+      ],
+      "Start free trial": [
+        "Mulai uji coba gratis"
       ]
     },
     "Get started checklist instructions": {
@@ -4478,7 +4544,7 @@
         "Mungkin nanti"
       ],
       "Nice! You've updated all services in this category.": [
-        "Bagus! Anda telah memperbarui seluruh layanan pada kategori ini."
+        "Mantap! Anda telah memperbarui seluruh layanan pada kategori ini."
       ],
       "Open checklist": [
         "Buka daftar centang"
@@ -4514,7 +4580,7 @@
         "Perbarui login Anda"
       ],
       "Using your mobile device, scan this QR code or visit the iOS or Android store.": [
-        "Dengan perangkat mobile Anda, pindai kode QR berikut atau kunjungi toko aplikasi iOS atau Android."
+        "Dengan perangkat seluler Anda, pindai kode QR berikut atau kunjungi app store iOS atau Android."
       ],
       "We stop advertisers and data collectors from profiling you.": [
         "Kami menghentikan para pengiklan dan pengumpul data untuk dapat memprofil Anda."
@@ -5744,7 +5810,7 @@
         "Opsi pencarian yang memungkinkan Anda untuk mencari berdasarkan kata kunci pada badan surel secara aman."
       ],
       "Search taking too long? ${ dropdownButton } or ${ toggleOffButton } from this search session.": [
-        "Pencarian Anda memakan waktu yang terlalu lama? ${ dropdownButton } atau ${ toggleOffButton } dari sesi pencarian ini."
+        "Pencarian memakan waktu yang terlalu lama? ${ dropdownButton } atau ${ toggleOffButton } dari sesi pencarian ini."
       ],
       "Secure your files with encrypted cloud storage for free, today.": [
         "Amankan berkas Anda dengan layanan penyimpanan berbasis cloud secara gratis sekarang juga."
@@ -9019,6 +9085,9 @@
       ],
       "Verification successful": [
         "Verifikasi berhasil"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Alias yang terakhir digunakan tersimpan dalam brankas terlawas Anda"
       ]
     },
     "Success notification": {
@@ -10189,6 +10258,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Tahunan, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Dihapus"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(akan membuka jendela ${ PASS_APP_NAME })"
       ]
     }
   }

@@ -1206,6 +1206,18 @@
       ],
       "Zoom out": [
         "Зменшити"
+      ],
+      "Upgrade Now": [
+        "Покращити зараз"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується через 2 днів. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується через 5 днів. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Термін дії безплатної пробної версії настільного застосунку закінчується ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3117,6 +3129,15 @@
       ],
       "Your account and data recovery methods are set.": [
         "Ваш обліковий запис і методи відновлення даних налаштовано."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Призначений для користувачів, які шукають посилений захист для своїх облікових записів."
+      ],
+      "Unlock custom snooze times when you upgrade your plan.": [
+        "Розблокуйте власний час відкладення після покращення тарифу."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Покращте свій обліковий запис, щоб активувати ${ PROTON_SENTINEL_NAME }, наше найсучасніше рішення щодо безпеки на базі ШІ з експертною підтримкою 24/7."
       ]
     },
     "description": {
@@ -3711,6 +3732,45 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "За вашим пошуковим запитом знайдено надто багато результатів. Обмежте пошуковий запит і спробуйте знову."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } не може під'єднатися до вашого зовнішнього облікового запису"
+      ],
+      "Alias is not valid": [
+        "Псевдонім недійсний"
+      ],
+      "Alias is required": [
+        "Потрібен псевдонім"
+      ],
+      "Aliases could not be loaded": [
+        "Не вдалося завантажити псевдоніми"
+      ],
+      "An error occurred while loading alias options": [
+        "Під час завантаження параметрів псевдоніма сталася помилка"
+      ],
+      "An error occurred while saving your alias": [
+        "Під час збереження вашого псевдоніма сталася помилка"
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Неможливо ввімкнути пошук вмісту. Перезапустіть застосунок або очистьте дані."
+      ],
+      "Forward address is required": [
+        "Потрібно вказати адресу переадресації"
+      ],
+      "Maximum expiration time reached.": [
+        "Досягнуто максимального терміну дії."
+      ],
+      "Name is required": [
+        "Назва обовʼязкова"
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Жоден зовнішній ключ, отриманий для користувача, не дійсний для надсилання"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Неочікувана помилка, неможливо імпортувати контакти"
+      ],
+      "You've reached the maximum character number. Please shorten your message.": [
+        "Досягнуто максимальної кількості символів. Скоротіть своє повідомлення."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3935,6 +3995,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "У вас поки що немає жодного контакту. Почніть зі створення нового"
+      ],
+      "To use ${ MAIL_APP_NAME } or ${ CALENDAR_APP_NAME }, switch to the web version.": [
+        "Щоб використовувати ${ MAIL_APP_NAME } або ${ CALENDAR_APP_NAME }, перейдіть до вебверсії."
       ]
     },
     "Error notification": {
@@ -4362,6 +4425,9 @@
     "Free trial desktop": {
       "No credit card required": [
         "Банківська картка не потрібна"
+      ],
+      "No credit card required.": [
+        "Банківська картка не потрібна."
       ]
     },
     "Free trial destkop": {
@@ -6430,6 +6496,9 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефону використається лише для цієї одноразової перевірки."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Це повідомлення буде автоматично видалено о ${ value }"
       ]
     },
     "info": {
@@ -8291,11 +8360,17 @@
       ],
       "Used on amazon for shopping, etc.": [
         "Використовуйте на Amazon для покупок тощо"
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Натомість коли вас попросять вказати адресу пошти, вкажіть цей псевдонім. Псевдоніми надаються ${ passLink }."
       ]
     },
     "Security Center - Info": {
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel **активний** і захищає ваш обліковий запис."
+      ],
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Наше передове рішення для забезпечення безпеки на основі ШІ, призначене для користувачів, яким потрібен підвищений захист облікових записів. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -8817,6 +8892,9 @@
       ],
       "You can now schedule your messages to be sent later": [
         "Тепер ви можете планувати надсилання повідомлень"
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "Створюйте псевдоніми hide-my-email і відстежуйте їх тут."
       ]
     },
     "Status": {
@@ -8861,6 +8939,45 @@
       ],
       "Your storage is full": [
         "Ваше сховище заповнене"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% заповнено"
+      ],
+      "contact your administrator": [
+        "зв'язатися з адміністратором"
+      ],
+      "To continue uploading and syncing files, free up space or upgrade for more storage.": [
+        "Щоб і надалі завантажувати та синхронізувати файли, звільніть місце або покращте тариф, щоб збільшити сховище."
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Щоби надсилати або отримувати листи, звільніть місце або ${ upgrade }"
+      ],
+      "To send or receive emails, free up space or upgrade for more storage.": [
+        "Щоби надсилати або отримувати листи, звільніть місце або покращте тариф, щоб збільшити сховище."
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Щоб завантажити або синхронізувати файли, звільніть місце або ${ upgrade }"
+      ],
+      "upgrade for more storage": [
+        "покращте тариф, щоб збільшити сховище"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Ваше ${ appStorage } майже повне"
+      ],
+      "Your ${ appStorage } is full": [
+        "Ваше ${ appStorage } повне"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Ваше ${ storage } заповнено на ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Ваше ${ storage } повне. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ваше сховище заповнено на ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Ваше сховище заповнено. ${ cta }."
       ]
     },
     "Success": {
@@ -9163,6 +9280,9 @@
       ],
       "Verification successful": [
         "Перевірка пройшла успішно"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Останні змінені псевдоніми зберігаються у вашому найстарішому сховищі"
       ]
     },
     "Success notification": {
@@ -10390,6 +10510,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(відкрити ${ PASS_APP_NAME })"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Переглянути журнали"
       ]
     }
   }

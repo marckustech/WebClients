@@ -3177,6 +3177,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivelse: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVELSE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3207,6 +3210,9 @@
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Hvor: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKATION:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3564,8 +3570,8 @@
         "Aktiver venligst din søgning igen"
       ],
       "Please fix the highlighted conflict to proceed.": [
-        "Løs venligst den fremhævede konflikt for at fortsætte.",
-        "Løs venligst de fremhævede konflikter for at fortsætte."
+        "Løs den fremhævede konflikt for at fortsætte.",
+        "Løs de fremhævede konflikter for at fortsætte."
       ],
       "Please provide either a first name, a last name or a display name": [
         "Angiv enten et fornavn, et efternavn eller et visningsnavn"
@@ -4421,6 +4427,9 @@
       ],
       "Upgrade now": [
         "Opgradere dit plan nu"
+      ],
+      "No credit card required.": [
+        "Intet betalingskort påkrævet."
       ]
     },
     "Free trial destkop": {
@@ -5735,7 +5744,7 @@
         "Angiv mindst én modtager."
       ],
       "Please fill out this field.": [
-        "Udfyld venligst dette felt."
+        "Udfyld dette felt."
       ],
       "Please note that addresses assigned to these groups will NOT be deleted.": [
         "Bemærk at adresser tildelt til disse grupper IKKE vil blive slettet."
@@ -5753,7 +5762,7 @@
         "Vælg venligst de mapper, du ønsker at importere:"
       ],
       "Please select the type of link you want to insert and fill in all the fields.": [
-        "Vælg venligst den type link du ønsker at indsætte og udfyld alle felterne."
+        "Vælg den type link du ønsker at indsætte og udfyld alle felterne."
       ],
       "Please select which email address or addresses to add to ${ groupCount } group.": [
         "Vælg hvilken eller hvilke e-mail-adresser der skal tilføjes til ${ groupCount } gruppe.",
@@ -6027,7 +6036,7 @@
         "Dette link kan være et homografisk angreb og kan ikke åbnes af Edge browseren. Hvis du er sikker på, at linket er legitimt, så benyt en anden browser til at åbne det."
       ],
       "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Dette link kan være et homografisk angreb. Bekræft venligst at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
+        "Dette link kan være et homografisk angreb. Bekræft at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
       ],
       "This message has been adjusted to comply with a dark background.": [
         "Denne besked er blevet tilpasset, så den er i overensstemmelse med en mørk baggrund."
@@ -9209,6 +9218,9 @@
       ],
       "Verification successful": [
         "Bekræftelse gennemført"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Sidst ændrede aliasser gemt i din ældste boks"
       ]
     },
     "Success notification": {
@@ -10433,6 +10445,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Årligt, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Fjernet"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(vil åbne ${ PASS_APP_NAME })"
       ]
     }
   }

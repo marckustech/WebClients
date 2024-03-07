@@ -1188,6 +1188,15 @@
       ],
       "Zoom out": [
         "Уменьшить масштаб"
+      ],
+      "Select country": [
+        "Выберите страну"
+      ],
+      "This weekend": [
+        "Этих выходных"
+      ],
+      "Upgrade Now": [
+        "Улучшить сейчас"
       ]
     },
     "action": {
@@ -4359,6 +4368,12 @@
     "Free trial desktop": {
       "No credit card required": [
         "Кредитная карта не требуется"
+      ],
+      "No credit card required.": [
+        "Кредитная карта не требуется."
+      ],
+      "Upgrade now": [
+        "Улучшить сейчас"
       ]
     },
     "Free trial destkop": {
@@ -6439,6 +6454,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "Clear app data": [
+        "Очистить данные приложения"
+      ],
+      "Important note": [
+        "Важное примечание"
       ]
     },
     "info": {
@@ -6672,6 +6693,9 @@
       ],
       "Star": [
         "Добавить в Избранное"
+      ],
+      "Filter": [
+        "Фильтр"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7159,6 +7183,9 @@
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
+      ],
+      "From": [
+        "От"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7221,6 +7248,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "От: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Кому: ${ to }"
       ]
     },
     "Landmarks": {
@@ -8243,6 +8273,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Попробуйте ${ PASS_APP_NAME }"
+      ],
+      "Create alias": [
+        "Создать псевдоним"
       ]
     },
     "Select files": {
@@ -9945,6 +9978,9 @@
       ],
       "You do not have any contacts to export": [
         "У вас нет контактов для экспорта"
+      ],
+      "Load image": [
+        "Загрузить изображение"
       ]
     },
     "Tor out of date": {

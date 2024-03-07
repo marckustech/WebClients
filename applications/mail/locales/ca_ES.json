@@ -3130,6 +3130,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descripció: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIPCIÓ:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3144,6 +3147,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Heu estat convidat/da a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This event was updated.": [
+        "S'ha actualitzat aquest esdeveniment."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3693,6 +3699,16 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "La vostra cerca coincideix amb massa resultats. Limiteu la cerca i torneu-ho a provar."
+      ],
+      "Aliases could not be loaded": [
+        "No s'han pogut carregar els àlies."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Escolliu una data dintre d'${ n } dia.",
+        "Escolliu una data dintre dels pròxims ${ n } dies."
+      ],
+      "Forward address is required": [
+        "L'adreça de reenviament és obligatòria."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4340,6 +4356,9 @@
       ],
       "Upgrade now": [
         "Millora ara"
+      ],
+      "No credit card required.": [
+        "No es requereix targeta de crèdit."
       ]
     },
     "Free trial destkop": {
@@ -6251,6 +6270,63 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "El vostre número de telèfon només s’utilitzarà per a aquesta única verificació."
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } conversa s'etiquetarà com a:",
+        "${ elementsCount } converses s'etiquetaran com a:"
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "Es mourà ${ elementsCount } conversa.",
+        "Es mouran ${ elementsCount } converses."
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } conversa no tindrà aquesta etiqueta:",
+        "${ elementsCount } converses no tindran aquesta etiqueta:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } missatge s'etiquetarà com a:",
+        "${ elementsCount } missatges s'etiquetaran com a:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } missatge es marcarà com a llegit.",
+        "${ elementsCount } missatges es marcaran com a llegits."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } missatge es marcarà com a no llegit.",
+        "${ elementsCount } missatges es marcaran com a no llegits."
+      ],
+      "${ elementsCount } message will be moved": [
+        "Es mourà ${ elementsCount } missatge.",
+        "Es mouran ${ elementsCount } missatges."
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } missatge no tindrà aquesta etiqueta:",
+        "${ elementsCount } missatges no tindran aquesta etiqueta:"
+      ],
+      "Applying actions to conversations": [
+        "S'estan aplicant les accions a les converses"
+      ],
+      "Applying actions to messages": [
+        "S'estan aplicant les accions als missatges"
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Aquest missatge s'eliminarà automàticament a les ${ value }."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Heu seleccionat **${ elementsCount } conversa** a ${ location }.",
+        "Heu seleccionat **${ elementsCount } converses** a ${ location }."
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Heu seleccionat **${ elementsCount } conversa**.",
+        "Heu seleccionat **${ elementsCount } converses**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Heu seleccionat **${ elementsCount } missatge** a ${ location }.",
+        "Heu seleccionat **${ elementsCount } missatges** a ${ location }."
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Heu seleccionat **${ elementsCount } missatge**.",
+        "Heu seleccionat **${ elementsCount } missatges**."
       ]
     },
     "info": {
@@ -8078,6 +8154,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Proveu ${ PASS_APP_NAME }"
+      ],
+      "Protect your online identity": [
+        "Protegiu la vostra identitat en línia"
       ]
     },
     "Security Center - Action": {
@@ -8707,6 +8786,15 @@
       ],
       "Your storage is full": [
         "L'emmagatzematge és ple."
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ple al ${ percentage }%"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "El vostre emmagatzematge de ${ appStorage } està gairebé ple."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "L'emmagatzematge és ple. ${ cta }."
       ]
     },
     "Success": {
@@ -8969,6 +9057,9 @@
       ],
       "Verification successful": [
         "Èxit de verificació"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Els darrers àlies modificats s'emmagatzemen a la vostra caixa forta més antiga"
       ]
     },
     "Success notification": {
@@ -9697,6 +9788,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La prova gratuïta de Mail Plus finalitza el ${ textDate }"
+      ],
+      "A filter with this name already exists": [
+        "Ja hi ha un filtre amb aquest nom."
+      ],
+      "Mark conversations as unread": [
+        "Marca les converses com a no llegides"
+      ],
+      "Move all messages to archive": [
+        "Mou tots els missatges a Arxiu"
+      ],
+      "Move all messages to trash": [
+        "Mou tots els missatges a la paperera"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10163,6 +10266,16 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada any, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Esborrat"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(obrirà ${ PASS_APP_NAME })"
       ]
     }
   }

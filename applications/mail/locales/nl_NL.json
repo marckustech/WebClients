@@ -1206,6 +1206,9 @@
       ],
       "Zoom out": [
         "Zoom uit"
+      ],
+      "Toggle security center app": [
+        "Beveiligingscentrumapp in-/uitschakelen"
       ]
     },
     "action": {
@@ -1432,6 +1435,10 @@
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Bewaar tot 200 versies van elk bestand tot wel 10 jaar."
+      ],
+      "Includes support for ${ domains } custom email domains, ${ addresses } email address, unlimited hide-my-email aliases, calendar sharing, and more.": [
+        "Ondersteuning voor ${ domains } aangepaste e-maildomeinen, ${ addresses } e-mailadres, een ongelimiteerd aantal hide-my-email-aliassen, gedeelde agenda's en meer.",
+        "Ondersteuning voor ${ domains } aangepaste e-maildomeinen, ${ addresses } e-mailadressen, een ongelimiteerd aantal hide-my-email-aliassen, gedeelde agenda's en meer."
       ]
     },
     "Bug category": {
@@ -3103,6 +3110,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "U kunt contactpersonen markeren die u niet wilt samenvoegen of behouden. Ze worden pas verwijderd na het klikken op 'samenvoegen'"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA voegt een extra beveiligingslaag toe, waardoor onbevoegde toegang wordt voorkomen."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Ontworpen voor gebruikers die verhoogde bescherming zoeken voor hun accounts."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Krijg onbeperkte aliassen en 500 GB opslagruimte met ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Stel een methode voor gegevensherstel in om gegevensverlies te voorkomen."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Stel een herstelmethode in om te voorkomen dat u de toegang tot uw account verliest."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Upgrade uw account om ${ PROTON_SENTINEL_NAME }te activeren, onze geavanceerde AI-gedreven beveiligingsoplossing met toegewijde 24/7 deskundige ondersteuning."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Uw account en dataherstelmethoden zijn ingesteld en 2FA is ingeschakeld."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Uw account en dataherstelmethodes zijn ingesteld."
       ]
     },
     "description": {
@@ -3136,6 +3167,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Omschrijving: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESCHRIJVING:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3150,6 +3184,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "U bent uitgenodigd voor ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } werd geannuleerd."
+      ],
+      "All events in this series were updated.": [
+        "Alle gebeurtenissen in deze serie zijn bijgewerkt."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alle gebeurtenissen in deze serie zijn bijgewerkt. Hier is wat er veranderd is:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Deze afspraakgebeurtenis werd geannuleerd."
+      ],
+      "This event occurrence was updated.": [
+        "Deze afspraakgebeurtenis werd bijgewerkt."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Deze afspraak werd bijgewerkt. Dit is wat er veranderd is:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Deze afspraak werd bijgewerkt."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Deze afspraak is bijgewerkt. Dit is wat is veranderd:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "U bent uitgenodigd voor ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3161,11 +3222,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Wanneer: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TIJD:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TIJD:\n${ formattedStart } (hele dag)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TIJD:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Waar: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOCATIE:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3177,6 +3250,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } heeft uw uitnodiging voorlopig geaccepteerd voor ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } heeft uw uitnodiging voor ${ eventTitle } geaccepteerd"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } heeft uw uitnodiging voor ${ eventTitle } afgewezen"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } heeft voorlopig uw uitnodiging voor ${ eventTitle } geaccepteerd"
       ]
     },
     "Email reminder banner": {
@@ -3254,6 +3336,12 @@
       ],
       "Early access to new apps and features": [
         "Vroegtijdige toegang nieuwe applicaties functies"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "Vroegtijdige toegang tot de ${ MAIL_APP_NAME }-desktopapp"
+      ],
+      "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
+        "Betaalde ${ MAIL_SHORT_APP_NAME }- en ${ CALENDAR_APP_NAME }-functies"
       ]
     },
     "Error": {
@@ -3689,6 +3777,22 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Uw zoekopdracht leverde te veel resultaten op. Verfijn uw zoekopdracht en probeer het opnieuw."
+      ],
+      "An error occurred while saving your alias": [
+        "Er is een fout opgetreden tijdens het opslaan van uw alias"
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Kies een datum binnen de volgende ${ n } dag.",
+        "Kies een datum binnen de volgende ${ n } dagen."
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "Zoeken naar inhoud kan niet worden ingeschakeld. Herstart de applicatie of wis de gegevens."
+      ],
+      "Maximum expiration time reached.": [
+        "Maximale vervaltijd bereikt."
+      ],
+      "No external key retrieved for user is valid for sending": [
+        "Geen externe sleutel opgehaald voor gebruiker is geldig voor verzenden"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4333,11 +4437,35 @@
     "Free trial desktop": {
       "No credit card required": [
         "Green kredietkaart vereist"
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-desktopapp"
+      ],
+      "14-day destkop app trial.": [
+        "14-dagen destkop-app proefversie"
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Geniet van snelle, veilige en afleidingsvrije toegang tot uw inbox en agenda."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Krijg onbeperkte toegang met een ${ MAIL_APP_NAME } abonnement."
+      ],
+      "No credit card required.": [
+        "Green kredietkaart vereist."
+      ],
+      "Try the app-new desktop app": [
+        "Probeer de app-nieuwe desktop-app"
+      ],
+      "Upgrade now": [
+        "Upgrade nu"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Probeer 14 dagen gratis"
+      ],
+      "Start free trial": [
+        "Start gratis proefperiode"
       ]
     },
     "Get started checklist instructions": {
@@ -4514,6 +4642,9 @@
       ],
       "Search": [
         "Zoeken"
+      ],
+      "Security Center": [
+        "Beveiligingscentrum"
       ]
     },
     "Hint": {
@@ -5972,7 +6103,7 @@
         "Deze openbare sleutel wordt automatisch gebruikt voor het versturen van versleutelde e-mailberichten naar dit adres."
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
-        "Dit verwijdert alle gegevens die geassocieerd zijn met dit programma, inclusief gedownloade berichten. Het programma zal herstarten waarna je opnieuw moet inloggen om het programma te gebruiken."
+        "Dit verwijdert alle gegevens die geassocieerd zijn met dit programma, inclusief gedownloade berichten. Het programma zal herstarten waarna u opnieuw moet inloggen om het programma te gebruiken."
       ],
       "This sender's public key has not been trusted yet.": [
         "De openbare sleutel van de afzender is nog niet vertrouwd."
@@ -6298,6 +6429,31 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Uw telefoonnummer wordt alleen gebruikt voor deze eenmalige verificatie."
+      ],
+      "${ elementsCount } conversation will be marked as read.": [
+        "${ elementsCount } gesprek wordt gemarkeerd als gelezen.",
+        "${ elementsCount } gesprekken worden als gelezen gemarkeerd."
+      ],
+      "${ elementsCount } conversation will be marked as unread.": [
+        "${ elementsCount } gesprek wordt gemarkeerd als ongelezen.",
+        "${ elementsCount } gesprekken worden als ongelezen gemarkeerd."
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } bericht wordt gemarkeerd als gelezen.",
+        "${ elementsCount } berichten worden als gelezen gemarkeerd"
+      ],
+      "Applying actions to conversations": [
+        "Acties op gesprekken toepassen"
+      ],
+      "Applying actions to messages": [
+        "Acties op berichten toepassen"
+      ],
+      "Message actions in progress. This may take a while.": [
+        "Bezig met verzenden van berichten. Dit kan een tijdje duren."
+      ],
+      "Select all ${ elementsCount } in ${ location }": [
+        "Selecteer alle ${ elementsCount } in ${ location }",
+        "Alles selecteren ${ elementsCount } in ${ location }"
       ]
     },
     "info": {
@@ -7014,6 +7170,15 @@
       ],
       "Your password (admin)": [
         "Uw wachtwoord (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "bv. Amazon, eBay, Etsy"
+      ],
+      "From": [
+        "Afzender"
+      ],
+      "Your alias": [
+        "Uw alias"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7076,6 +7241,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "Van: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Aan: ${ to }"
       ]
     },
     "Landmarks": {
@@ -7736,6 +7904,9 @@
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
         "Gebruik de app-kiezer linksboven voor de toegang tot alle ${ BRAND_NAME }-diensten: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } en ${ PASS_SHORT_APP_NAME }."
+      ],
+      "You will be able to change your theme any time in your settings.": [
+        "U kunt uw thema altijd wijzigen in uw instellingen."
       ]
     },
     "Online accounts": {
@@ -7818,7 +7989,7 @@
     },
     "Payments": {
       "Billing Country": [
-        "Factuur Land"
+        "Land van facturering"
       ]
     },
     "PGP key encryption warning": {
@@ -7835,6 +8006,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "We adviseren u deze sleutel niet meer te vertrouwen."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Externe sleutel automatisch opgehaald uit keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Externe sleutel wordt automatisch opgehaald via WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Deze sleutel wordt gebruikt om berichten naar deze contactpersoon te versleutelen"
       ]
     },
     "PGP key warning": {
@@ -7935,6 +8115,9 @@
       ],
       "Type text or keyword": [
         "Voer tekst of trefwoord in"
+      ],
+      "Search parent folder": [
+        "Zoek in bovenliggende map"
       ]
     },
     "Placeholder for contact group name": {
@@ -8104,6 +8287,24 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Probeer ${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "Alle aliassen"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Genereer aliassen in een handomdraai en beheer gemakkelijk uw aliassen en wachtwoorden."
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Met Hide-my-email aliassen kunt u zich online aanmelden voor zaken zonder uw e-mailadres te delen. ${ learnMoreLink }"
+      ],
+      "Protect your online identity": [
+        "Bescherm uw online-identiteit"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Gebruikt in Amazon voor winkelen enz."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Wanneer uw e-mailadres gevraagd wordt, geef dan deze alias op. Aliassen worden geleverd door ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -8262,6 +8463,13 @@
       "You have ${ timeRemaining.inSeconds } second to reset your password.": [
         "U heeft ${ timeRemaining.inSeconds } seconde om uw wachtwoord te resetten.",
         " U heeft ${ timeRemaining.inSeconds } seconden om uw wachtwoord te resetten."
+      ],
+      "Password reset request approved (${ user.Email }).": [
+        "Wachtwoord reset aanvraag goedgekeurd (${ user.Email })."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "U heeft ${ timeRemaining.inDays } dag om uw wachtwoord te resetten.",
+        "U heeft ${ timeRemaining.inDays } dagen om uw wachtwoord te resetten."
       ]
     },
     "session_recovery:available:link": {
@@ -8668,6 +8876,21 @@
       ],
       "You can now schedule your messages to be sent later": [
         "U kunt nu uw berichten plannen om ze later te versturen"
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Start ${ MAIL_APP_NAME } rechtstreeks vanaf uw bureaublad."
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "Maak hide-my-email aliassen en houd ze hier bij."
+      ],
+      "Faster email management": [
+        "Sneller e-mailbeheer"
+      ],
+      "Get the desktop app": [
+        "Download de desktop-app"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Nu kunt u actie ondernemen op alle e-mails in één map in één keer."
       ]
     },
     "Status": {
@@ -8807,8 +9030,8 @@
         "${ elementsCount } gesprekken gesnoozed"
       ],
       "${ elementsCount } conversation unsnoozed": [
-        "${ elementsCount } gesprek ontsluimerd",
-        "${ elementsCount } gesprekken uit sluimerstand"
+        "${ elementsCount } gesprek ontsnoozed",
+        "${ elementsCount } gesprekken ontsnoozed"
       ],
       "${ elementsCount } message added to ${ labelName }.": [
         "${ elementsCount } bericht toegevoegd aan ${ labelName }.",
@@ -9010,6 +9233,12 @@
       ],
       "Verification successful": [
         "Verificatie gelukt"
+      ],
+      "Alias saved and copied": [
+        "Alias opgeslagen en gekopieerd"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Laatst gewijzigde aliassen opgeslagen in uw oudste kluis"
       ]
     },
     "Success notification": {
@@ -9753,6 +9982,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Uw Mail Plus proefversie eindigt op ${ textDate }"
+      ],
+      "A filter name is required": [
+        "Een filternaam is vereist"
+      ],
+      "A filter with this name already exists": [
+        "Er bestaat al een filter met deze naam"
+      ],
+      "Filter name cannot contain only spaces": [
+        "Filternaam mag niet alleen spaties bevatten"
+      ],
+      "This field cannot contain only spaces": [
+        "Dit veld mag niet alleen spaties bevatten"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9963,6 +10204,9 @@
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Uw gratis proefversie eindigt op ${ textDate }. ${ action }"
+      ],
+      "Expiration Date is not in the format MM/YY": [
+        "Vervaldatum is niet in het formaat MM/JJ"
       ]
     },
     "WeekDay": {
@@ -10100,6 +10344,10 @@
       ],
       "Weekly on Wednesday, ${ timesString }": [
         "Wekelijks op woensdag ${ timesString }"
+      ],
+      "Every ${ interval } week on all days, ${ timesString }": [
+        "Elk ${ interval } week op alle dagen, ${ timesString }",
+        "Elke ${ interval } weken op alle dagen, ${ timesString }"
       ]
     },
     "Weekly recurring event, frequency (until)": {
@@ -10202,11 +10450,62 @@
     "Yearly recurring event, frequency (times)": {
       "Yearly, ${ timesString }": [
         "Jaarlijks ${ timesString }"
+      ],
+      "Every ${ interval } year, ${ timesString }": [
+        "Elk ${ interval } jaar, ${ timesString }",
+        "Elke ${ interval } jaar, ${ timesString }"
       ]
     },
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "Jaarlijks ${ untilString }"
+      ],
+      "Every ${ interval } year, ${ untilString }": [
+        "Elk ${ interval } jaar, ${ untilString }",
+        "Elke ${ interval } jaar, ${ untilString }"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Download ${ MAIL_APP_NAME } desktop applicatie"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } desktop-app"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Verwijderd"
+      ]
+    },
+    "eof2023: Deal details": {
+      "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
+        "Betaalde ${ DRIVE_SHORT_APP_NAME }-, ${ VPN_SHORT_APP_NAME }- en ${ PASS_SHORT_APP_NAME }-functies"
+      ]
+    },
+    "eof2023: Tooltip": {
+      "Includes version history in ${ DRIVE_SHORT_APP_NAME }, access to thousands of high-speed ${ VPN_SHORT_APP_NAME } servers, sharing in ${ PASS_SHORT_APP_NAME } and more.": [
+        "Bevat versiegeschiedenis in ${ DRIVE_SHORT_APP_NAME }, toegang tot duizenden snelle ${ VPN_SHORT_APP_NAME } servers, delen in ${ PASS_SHORT_APP_NAME } en meer."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME } zal openen)"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Onze geavanceerde AI-gedreven beveiligingsoplossing ontworpen voor gebruikers die verhoogde bescherming zoeken voor hun accounts. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel is **actief** en beschermt uw account."
+      ]
+    },
+    "Send email with encryption disabled": {
+      "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
+        "De contacten voor de volgende adressen hebben end-to-end versleuteling op hun account uitgeschakeld, zodat de overeenkomstige versleutelingsvoorkeuren zijn bijgewerkt:"
       ]
     }
   }

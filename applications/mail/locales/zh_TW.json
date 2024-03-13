@@ -1203,6 +1203,9 @@
       ],
       "Zoom out": [
         "縮小"
+      ],
+      "Keep me signed in": [
+        "保持登入"
       ]
     },
     "action": {
@@ -10265,6 +10268,41 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(轉開 ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } 桌面應用程式"
+      ],
+      "10 email addresses": [
+        "10 個電子郵件位址"
+      ],
+      "Auto-delete Spam and Trash": [
+        "自動清理垃圾郵件及垃圾桶"
+      ],
+      "Support for 1 custom email domain": [
+        "支援 1 個自訂電子郵件網域"
+      ],
+      "Unlimited folders, labels and filters": [
+        "資料夾、標籤與篩選器無上限"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "首月"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "限時優惠，只到2024年4月2日"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "只需 ${ planPrice } 即可取得 ${ planName }"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/月"
       ]
     }
   }

@@ -101,8 +101,8 @@
         "როგორც დაგეგმილია"
       ],
       "At most ${ maxContacts } contact is allowed per contact group": [
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
       ],
       "Attach screenshot(s)": [
         "ეკრანის ანაბეჭდ(ებ)-ის მიბმა"
@@ -1209,6 +1209,9 @@
       ],
       "Zoom out": [
         "დაპატარავება"
+      ],
+      "Keep me signed in": [
+        "დამტოვე შესული"
       ]
     },
     "action": {
@@ -3101,7 +3104,7 @@
         "დააყენეთ მონაცემების აღდგენის მეთოდი, მისი დაკარგვის თავიდან ასაცილებლად."
       ],
       "Set a recovery method to prevent losing access to your account.": [
-        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშსზე წვდომის დაკარგვა."
+        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშზე წვდომის დაკარგვა."
       ],
       "To import your contacts from Google or Outlook, ${ easySwitchLink }.": [
         "Google-დან ან Outlook-დან კონტაქტების შემოსატანად, ${ easySwitchLink }."
@@ -5043,8 +5046,8 @@
         "გადატანილი იქნება ${ elementsCount } საუბარი"
       ],
       "${ elementsCount } conversation will be unlabelled from:": [
-        "${ elementsCount } საუბარს მოეხსნება დაესმება ჭდე:",
-        "${ elementsCount } საუბარს მოეხსნება დაესმება ჭდე:"
+        "${ elementsCount } საუბარს მოეხსნება ჭდე:",
+        "${ elementsCount } საუბარს მოეხსნება ჭდე:"
       ],
       "${ elementsCount } message will be labelled as:": [
         "${ elementsCount } შეტყობინება მოინიშნება, როგორც:",
@@ -5312,7 +5315,7 @@
         "კალენდრის გვერდითი პანელი"
       ],
       "Can't find what you're looking for? ${ displayAllMailButton }": [
-        "Ვერ იპოვეთ, რასაც ეძებდით? ${ displayAllMailButton }"
+        "ვერ იპოვეთ, რასაც ეძებდით? ${ displayAllMailButton }"
       ],
       "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
         "ვერ იხსენებთ პაროლს? ჩვენ შეგვიძლია, მოგაშოროთ ამ გასაღებით დაშიფრული ყველა მონაცემი და, ამავე დროს, გაფრთხილებაც მოგაშოროთ."
@@ -8583,7 +8586,7 @@
         "იმისათვის, რომ დავრწმუნდეთ, რომ ნამდვილად თქვენ ცდილობთ პაროლის შეცვლას, ჩვენ, მოთხოვნის შესრულებამდე 72 საათს მოვიცდით. პაროლს შეცვლა შეგიძლიათ შემდეგ დროში: ${ boldTimeLeft }. ${ viewRequest }"
       ],
       "We received a password reset request for ${ boldEmail }.": [
-        "მივიღეთ პაროლის შეცვლს მოთხოვნა ${ boldEmail }-სთვის."
+        "მივიღეთ პაროლის ჩამოყრის მოთხოვნა ${ boldEmail }-სთვის."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -8926,7 +8929,7 @@
         "ახლა გამოსახულებებს ნაგულისხმევად ჩავტვირთავთ და დავბლოკავთ გამომგზავნებს თქვენი ტრეკინგისგან. შეცვლა შეგიძლიათ აქ ${ settingsLink }."
       ],
       "You can now automatically forward your emails to anyone!": [
-        "ახლა შეგძლიათ თქვენი ელფოსტა ავტომატურად გადაუგზავნოთ, ვისაც გსურთ!"
+        "ახლა შეგიძლიათ, თქვენი ელფოსტა ავტომატურად გადაუგზავნოთ, ვისაც გსურთ!"
       ],
       "You can now schedule your messages to be sent later": [
         "ახლა შეგიძლიათ, შექმნათ შეტყობინებების განრიგი, რომელიც დანიშნულ დროს აგზავნის ელფოსტას"
@@ -10512,6 +10515,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(გახსნის ${ PASS_APP_NAME }-ს)"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-ის კომპიუტერის აპლიკაცია"
+      ],
+      "10 email addresses": [
+        "10 ელფოსტის მისამართი"
+      ],
+      "Support for 1 custom email domain": [
+        "1 ხელით მითითებული დომენის მხარდაჭერა"
+      ],
+      "Unlimited folders, labels and filters": [
+        "ულიმიტო საქაღალდეები, ჭდეები და ფილტრები"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/თვე"
       ]
     }
   }

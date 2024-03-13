@@ -1209,6 +1209,9 @@
       ],
       "Toggle security center app": [
         "Beveiligingscentrumapp in-/uitschakelen"
+      ],
+      "Keep me signed in": [
+        "Houd me ingelogd"
       ]
     },
     "action": {
@@ -3127,7 +3130,7 @@
         "Stel een herstelmethode in om te voorkomen dat u de toegang tot uw account verliest."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
-        "Upgrade uw account om ${ PROTON_SENTINEL_NAME }te activeren, onze geavanceerde AI-gedreven beveiligingsoplossing met toegewijde 24/7 deskundige ondersteuning."
+        "Upgrade uw account om ${ PROTON_SENTINEL_NAME } te activeren, onze geavanceerde AI-gedreven beveiligingsoplossing met toegewijde 24/7 deskundige ondersteuning."
       ],
       "Your account and data recovery methods are set and 2FA is enabled.": [
         "Uw account en dataherstelmethoden zijn ingesteld en 2FA is ingeschakeld."
@@ -4597,6 +4600,12 @@
       ],
       "You've unlocked 1 GB": [
         "U heeft 1 GB ontgrendeld"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Gefeliciteerd! U hebt alle stappen voltooid."
+      ],
+      "Congratulations, you finished!": [
+        "Gefeliciteerd! U bent klaar."
       ]
     },
     "Gmail forwarding": {
@@ -10506,6 +10515,30 @@
     "Send email with encryption disabled": {
       "The contacts for the following addresses have disabled end-to-end encryption on their account, so the corresponding encryption preferences have been updated accordingly:": [
         "De contacten voor de volgende adressen hebben end-to-end versleuteling op hun account uitgeschakeld, zodat de overeenkomstige versleutelingsvoorkeuren zijn bijgewerkt:"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Kies deze deal"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-desktopapp"
+      ],
+      "10 email addresses": [
+        "10 e-mailadressen"
+      ],
+      "Support for 1 custom email domain": [
+        "Ondersteuning voor 1 aangepast e-maildomein"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Onbeperkt aantal mappen, labels en filters"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/maand"
       ]
     }
   }

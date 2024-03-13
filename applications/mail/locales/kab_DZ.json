@@ -1132,6 +1132,9 @@
       ],
       "Zoom out": [
         "Semẓi"
+      ],
+      "Keep me signed in": [
+        "Eǧǧ-iyi ttwaqqneɣ"
       ]
     },
     "action": {
@@ -8724,6 +8727,19 @@
       ],
       "Yearly, ${ untilString }": [
         "S useggas, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 n tansiwin imayl"
+      ],
+      "Support for 1 custom email domain": [
+        "Asefrek i 1 taɣult n yimayl udmawan"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/ayyur"
       ]
     }
   }

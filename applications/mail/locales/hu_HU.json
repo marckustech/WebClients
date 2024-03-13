@@ -1170,6 +1170,9 @@
       ],
       "Zoom out": [
         "Távolítás"
+      ],
+      "Keep me signed in": [
+        "Maradjon bejelentkezve"
       ]
     },
     "action": {
@@ -9725,6 +9728,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 e-mail cím"
+      ],
+      "Support for 1 custom email domain": [
+        "Egy saját e-mail domain név használata"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Korlátlan számú mappa, címke és szűrő"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/hó"
       ]
     }
   }

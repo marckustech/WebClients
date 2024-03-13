@@ -7161,6 +7161,16 @@
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
       ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 adrese e-pošte"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mjesec"
+      ]
     }
   }
 }

@@ -1209,6 +1209,12 @@
       ],
       "Zoom out": [
         "Zoom ut"
+      ],
+      "Keep me signed in": [
+        "Hold meg pålogget"
+      ],
+      "Sign out and cancel trial": [
+        "Logg av og avbryt prøveperioden"
       ]
     },
     "action": {
@@ -4623,6 +4629,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst opp 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Gratulerer, du fullførte alle trinnene!"
+      ],
+      "Congratulations, you finished!": [
+        "Gratulerer, du er ferdig!"
       ]
     },
     "Gmail forwarding": {
@@ -6480,6 +6492,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Telefonnummeret ditt vil kun bli brukt til denne engangsbekreftelsen."
+      ],
+      "Signing out will cancel your free desktop app trial. You won't be able to sign into the desktop app again unless you upgrade.": [
+        "Hvis du logger av, kanselleres den gratis prøveversjonen av skrivebordsappen din. Du vil ikke kunne logge på skrivebordsappen igjen med mindre du oppgraderer."
+      ],
+      "Your inbox will always remain accessible on the web.": [
+        "Innboksen din vil alltid være tilgjengelig på nettet."
       ]
     },
     "info": {
@@ -10033,6 +10051,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis prøveversjon av Mail Plus slutter den ${ textDate }."
+      ],
+      "Cancel trial?": [
+        "Avbryte prøveperioden?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10512,6 +10533,62 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(vil åpne ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Få avtalen"
+      ],
+      "Special Offer": [
+        "Spesialtilbud"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-skrivebordsapp"
+      ],
+      "10 email addresses": [
+        "10 e-postadresser"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Auto-slett søppelpost og papirkurv"
+      ],
+      "Custom schedule send and snooze times": [
+        "Egendefinerte tidsplaner, sende- og utsettelsestider"
+      ],
+      "Support for 1 custom email domain": [
+        "Støtte for 1 egendefinert e-postdomene"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Ubegrenset antall mapper, etiketter og filtre"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Fornyes til ${ renewablePrice }, avbryt når som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "for den første måneden"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Begrenset tidstilbud, utløper 2. april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Få ${ planName } for kun ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Noen bilder ble ikke lastet opp på grunn av dupliserte filnavn i gjeldende utvalg."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/måned"
       ]
     }
   }

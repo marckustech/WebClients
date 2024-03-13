@@ -1191,6 +1191,9 @@
       ],
       "Zoom out": [
         "Allunyar"
+      ],
+      "Keep me signed in": [
+        "Mantén la sessió iniciada"
       ]
     },
     "action": {
@@ -3177,6 +3180,9 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }."
       ]
     },
     "Email reminder banner": {
@@ -4359,11 +4365,17 @@
       ],
       "No credit card required.": [
         "No es requereix targeta de crèdit."
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prova gratuïta durant 14 dies"
+      ],
+      "Start free trial": [
+        "Inicieu la prova gratuïta"
       ]
     },
     "Get started checklist instructions": {
@@ -6327,6 +6339,15 @@
       "You selected **${ elementsCount } message**.": [
         "Heu seleccionat **${ elementsCount } missatge**.",
         "Heu seleccionat **${ elementsCount } missatges**."
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Segur que voleu moure tots els missatges d'aquesta ubicació a l'arxiu?"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Elimina totes les dades associades amb aquesta aplicació, incloent-hi els missatges baixats."
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Açò elimina totes les dades associades amb aquesta app, incloent-hi els missatges baixats. L'app es reiniciarà i hauràs de tornar a iniciar sessió per a fer-la servir."
       ]
     },
     "info": {
@@ -10276,6 +10297,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(obrirà ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adreces de correu electrònic"
+      ],
+      "Support for 1 custom email domain": [
+        "Suport per a 1 domini de correu personalitzat"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Carpetes, etiquetes i filtres il·limitats"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mes"
       ]
     }
   }

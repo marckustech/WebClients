@@ -1206,6 +1206,15 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Din gratis provperiod av din app för stationär dator slutar den ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Håll mig inloggad"
+      ],
+      "Sign out and cancel trial": [
+        "Logga ut och avbryt provperiod"
+      ],
+      "Toggle security center app": [
+        "Slå på/av appen för säkerhetscenter"
       ]
     },
     "action": {
@@ -4462,6 +4471,9 @@
       ],
       "No credit card required.": [
         "Inget kreditkort krävs."
+      ],
+      "Try the app-new desktop app": [
+        "Prova den nya appen för stationär dator"
       ]
     },
     "Free trial destkop": {
@@ -4601,6 +4613,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst upp 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Grattis, du har slutfört alla steg!"
+      ],
+      "Congratulations, you finished!": [
+        "Grattis, du är klar!"
       ]
     },
     "Gmail forwarding": {
@@ -6458,6 +6476,12 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ditt telefonnummer kommer endast att användas för denna engångsverifiering."
+      ],
+      "Signing out will cancel your free desktop app trial. You won't be able to sign into the desktop app again unless you upgrade.": [
+        "Om du loggar ut avbryts din gratis provperiod av appen för stationär dator. Du kommer inte att kunna logga in på appen för stationär dator igen såvida inte du uppgraderar."
+      ],
+      "Your inbox will always remain accessible on the web.": [
+        "Din inkorg kommer alltid förbli tillgänglig på webben."
       ]
     },
     "info": {
@@ -10006,6 +10030,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Cancel trial?": [
+        "Avbryt provperiod?"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10425,6 +10452,59 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(kommer öppna ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Ta del av erbjudandet"
+      ],
+      "Special Offer": [
+        "Specialerbjudande"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-app för stationär dator"
+      ],
+      "10 email addresses": [
+        "10 e-postadresser"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Ta automatiskt bort skräppost och papperskorg"
+      ],
+      "Support for 1 custom email domain": [
+        "Stöd för 1 anpassad e-postdomän"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Obegränsade mappar, etiketter och filter"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Förnyas med ${ renewablePrice }, avbryt när som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "för första månaden"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Tidsbegränsat erbjudande, löper ut 2 april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Skaffa ${ planName } för endast ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Några bilder laddades inte upp på grund av dubbla filnamn i det nuvarande valet."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/månad"
       ]
     }
   }

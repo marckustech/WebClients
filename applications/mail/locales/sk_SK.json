@@ -1197,6 +1197,9 @@
       ],
       "Zoom out": [
         "Oddialiť"
+      ],
+      "Keep me signed in": [
+        "Zostať prihlásený"
       ]
     },
     "action": {
@@ -9364,6 +9367,9 @@
       ],
       "Verification successful": [
         "Overenie prebehlo úspešne"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Naposledy zmenené aliasy uložené v najstaršom trezore"
       ]
     },
     "Success notification": {
@@ -10648,6 +10654,27 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 emailových adries"
+      ],
+      "Support for 1 custom email domain": [
+        "Podpora pre 1 vlastnú emailovú doménu"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Neobmedzený počet priečinkov, štítkov a filtrov"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(otvorí ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mesiac"
       ]
     }
   }

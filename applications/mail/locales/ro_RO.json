@@ -1215,6 +1215,9 @@
       ],
       "Zoom out": [
         "Micșorare"
+      ],
+      "Keep me signed in": [
+        "Păstrați-mă conectat"
       ]
     },
     "action": {
@@ -10753,6 +10756,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(va deschide ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicația pentru desktop ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adrese de e-mail"
+      ],
+      "Support for 1 custom email domain": [
+        "Suport pentru un domeniu de e-mail personal"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Foldere, etichete și filtre nelimitate"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/lună"
       ]
     }
   }

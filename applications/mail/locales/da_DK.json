@@ -1209,6 +1209,9 @@
       ],
       "Zoom out": [
         "Zoom ud"
+      ],
+      "Keep me signed in": [
+        "Hold mig logget ind"
       ]
     },
     "action": {
@@ -3194,6 +3197,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er inviteret til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } blev annulleret."
+      ],
+      "All events in this series were updated.": [
+        "Alle begivenheder i denne serie er blevet opdateret."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alle begivenheder i denne serie er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Denne forekomst af begivenheden blev aflyst."
+      ],
+      "This event occurrence was updated.": [
+        "Denne begivenhed er blevet opdateret."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne begivenhed er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denne begivenhed er blevet opdateret."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne begivenhed er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du er inviteret til ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3205,6 +3235,15 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Hvornår: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TIDSPUNKT:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TIDSPUNKT:\n${ formattedStart } (hele dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TIDSPUNKT:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
@@ -3223,6 +3262,15 @@
         "${ emailAddress } har afslået din invitation til ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } har foreløbig accepteret din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterede din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } har afslået din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har foreløbig accepteret din invitation til ${ eventTitle }"
       ]
     },
@@ -4430,11 +4478,23 @@
       ],
       "No credit card required.": [
         "Intet betalingskort påkrævet."
+      ],
+      "14-day destkop app trial.": [
+        "14-dages prøveversion af desktop-appen."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få ubegrænset adgang med ethvert betalt abonnement på ${ MAIL_APP_NAME }."
+      ],
+      "Try the app-new desktop app": [
+        "Prøv den nye desktop-app"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prøv gratis i 14 dage"
+      ],
+      "Start free trial": [
+        "Start gratis prøveperiode"
       ]
     },
     "Get started checklist instructions": {
@@ -10455,6 +10515,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(vil åbne ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } desktop applikation."
+      ],
+      "10 email addresses": [
+        "10 e-mailadresse"
+      ],
+      "Support for 1 custom email domain": [
+        "Understøttelse af 1 brugerdefineret e-mail-domæne"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Ubegrænsede mapper, etiketter og filtre"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/måned"
       ]
     }
   }

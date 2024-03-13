@@ -1197,6 +1197,9 @@
       ],
       "Upgrade Now": [
         "Улучшить сейчас"
+      ],
+      "Keep me signed in": [
+        "Оставаться в системе"
       ]
     },
     "action": {
@@ -10425,6 +10428,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 адресов электронной почты"
+      ],
+      "Support for 1 custom email domain": [
+        "Поддержка 1 пользовательского домена электронной почты"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Неограниченное количество папок, ярлыков и фильтров"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/месяц"
       ]
     }
   }

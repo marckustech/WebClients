@@ -1144,6 +1144,9 @@
       ],
       "Zoom out": [
         "ज़ूम कम करें"
+      ],
+      "Keep me signed in": [
+        "मुझे साइन इन बनाए रखें"
       ]
     },
     "action": {
@@ -9219,6 +9222,19 @@
       ],
       "Yearly, ${ untilString }": [
         "वार्षिक, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 ईमेल पते"
+      ],
+      "Support for 1 custom email domain": [
+        "1 कस्टम ईमेल डोमेन के लिए सहायता"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/महीने"
       ]
     }
   }

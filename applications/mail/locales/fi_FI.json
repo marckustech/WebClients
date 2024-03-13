@@ -1209,6 +1209,9 @@
       ],
       "Zoom out": [
         "Loitonna"
+      ],
+      "Keep me signed in": [
+        "Pysy kirjautuneena"
       ]
     },
     "action": {
@@ -3218,6 +3221,9 @@
       ],
       "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
         "Sinut on kutsuttu tapahtumaan ${ eventTitle }.\n\n${ eventDetailsText }"
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tämä tapahtuma päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -10506,6 +10512,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(avaa ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } -työpöytäsovellus"
+      ],
+      "10 email addresses": [
+        "10 sähköpostiosoitetta"
+      ],
+      "Support for 1 custom email domain": [
+        "1 oma sähköpostiverkkotunnus"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Rajattomasti kansioita, tunnisteita ja suodattimia"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/kuukausi"
       ]
     }
   }

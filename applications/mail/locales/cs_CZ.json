@@ -1055,7 +1055,7 @@
         "Zobrazení aplikace kontaktů"
       ],
       "Toggle security center app": [
-        "Přepnout aplikaci centrum zabezpečení"
+        "Přepnout aplikaci bezpečnostní centrum"
       ],
       "Toggle settings": [
         "Otevřít/zavřít nastavení"
@@ -1215,6 +1215,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Bezplatná zkušební verze desktopové aplikace končí dne ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Neodhlašovat"
       ]
     },
     "action": {
@@ -3198,6 +3201,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Popis: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "POPIS:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3223,11 +3229,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Kdy: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "ČAS:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "ČAS:\n${ formattedStart } (celý den)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "ČAS:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Kde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "MÍSTO:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3281,10 +3299,10 @@
     },
     "Email subject": {
       "Cancellation of an event on ${ formattedStart }": [
-        "Zrušení události na ${ formattedStart }"
+        "Zrušení události ${ formattedStart }"
       ],
       "Cancellation of an event starting on ${ formattedStart }": [
-        "Zrušení události začínající v ${ formattedStart }"
+        "Zrušení události začínající ${ formattedStart }"
       ],
       "Invitation for an event on ${ formattedStart }": [
         "Pozvání na událost ${ formattedStart }"
@@ -4154,7 +4172,7 @@
         "Spravovat adresy."
       ],
       "Owners of a plan with members cannot join another group plan.": [
-        "Majitelé tarifu se členy, se nemohou připojit k jinému skupinovému tarifu."
+        "Vlastníci tarifu se členy, se nemohou připojit k jinému skupinovému tarifu."
       ],
       "Sorry, you can't switch plans at this time.": [
         "Omlouváme se, ale v tuto chvíli nemůžete změnit tarif."
@@ -6165,7 +6183,7 @@
         "Nemohou vám zasílat spam, pokud neznají vaši e-mailovou adresu. Chraňte svou e-mailovou schránku pomocí funkce Hide-my-email."
       ],
       "This address is disabled. To be able to send to this address, the owner must first enable the address.": [
-        "Tato adresa není povolena. Pokud chcete odesílat zprávy na tuto adresu, musí ji majitel nejdříve povolit."
+        "Tato adresa není povolena. Pokud chcete odesílat zprávy na tuto adresu, musí ji vlastník nejdříve povolit."
       ],
       "This browser does not support previewing PDF documents. Please download the file.": [
         "Váš internetový prohlížeč nepodporuje zobrazení PDF dokumentů. Soubor si proto stáhněte."
@@ -6351,7 +6369,7 @@
         "Navyšte svůj účet pro podporu internetu, kde je soukromí na prvním místě."
       ],
       "Upgrade to support our mission of privacy for all.": [
-        "Navyšte svůj účet pro podporu našeho poslání, zajistit soukromí všem."
+        "Navýšením tarifu podpoříte naše poslání zajistit soukromí všem."
       ],
       "Upgrade to support privacy and get more features.": [
         "Navyšte svůj tarif pro podporu soukromí a získání více funkcí."
@@ -10810,6 +10828,35 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročně, ${ untilString }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Odstraněno"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } desktopová aplikace"
+      ],
+      "10 email addresses": [
+        "10 e-mailových adres"
+      ],
+      "Support for 1 custom email domain": [
+        "Podpora 1 vlastní e-mailové domény"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Neomezený počet složek, štítků a filtrů"
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Země fakturace"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/měsíc"
       ]
     }
   }

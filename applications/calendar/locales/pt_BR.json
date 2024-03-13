@@ -660,6 +660,12 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Sua avaliação gratuita do aplicativo de computador termina em ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Mantenha-me conectado"
+      ],
+      "Sign out and cancel trial": [
+        "Encerrar sessão e cancelar a avaliação"
       ]
     },
     "Action subline": {
@@ -4458,6 +4464,12 @@
       ],
       "An invitation will be sent to all participants. Which event would you like to update?": [
         "Um convite será enviado a todos os participantes. Qual evento você gostaria de atualizar?"
+      ],
+      "Signing out will cancel your free desktop app trial. You won't be able to sign into the desktop app again unless you upgrade.": [
+        "Encerrar a sessão irá cancelar sua avaliação gratuita do aplicativo para desktop. Você não poderá iniciar sessão novamente no aplicativo para desktop, a menos que faça o upgrade."
+      ],
+      "Your inbox will always remain accessible on the web.": [
+        "Sua caixa de entrada sempre se manterá acessível via web."
       ]
     },
     "info": {
@@ -7158,6 +7170,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Cancel trial?": [
+        "Cancelar avaliação?"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7633,6 +7648,62 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(abrirá ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Obtenha a oferta"
+      ],
+      "Special Offer": [
+        "Oferta especial"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicativo para computador do ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 endereços de e-mail"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Autodeletar Pasta de Spam e Lixeira"
+      ],
+      "Custom schedule send and snooze times": [
+        "Programação personalizada de horários de envio e pausa"
+      ],
+      "Support for 1 custom email domain": [
+        "Suporte para 1 domínio de e-mail personalizado"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Pastas, marcadores e filtros ilimitados"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Se renova por ${ renewablePrice }, cancele a qualquer momento"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "pelo primeiro mês"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Oferta por tempo limitado, expira em 2 de abril de 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Obtenha ${ planName } por apenas ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Algumas imagens não foram enviadas devido a nomes de arquivo duplicados na seleção atual."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mês"
       ]
     }
   }

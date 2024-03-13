@@ -668,6 +668,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Darmowa wersja próbna aplikacji desktopowej zakończy się ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Zapamiętaj mnie"
       ]
     },
     "Action subline": {
@@ -6584,7 +6587,7 @@
         "Płatne ${ amount } za 30 miesięcy"
       ],
       "Get the deal": [
-        "Uzyskaj ofertę"
+        "Skorzystaj z oferty"
       ],
       "Renews after 1 year at a discounted price of ${ discountedAmount } instead of ${ regularAmount } (${ discount }% discount)": [
         "Odnowienie po roku za niższą cenę ${ discountedAmount } zamiast ${ regularAmount } (rabat ${ discount }%)"
@@ -7442,6 +7445,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Darmowa wersja próbna planu Mail Plus zakończy się ${ textDate }"
+      ],
+      "Cancel trial?": [
+        "Anulować wersję próbną?"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7983,6 +7989,54 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(otworzy ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Skorzystaj z oferty"
+      ],
+      "Special Offer": [
+        "Oferta specjalna"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplikacja desktopowa ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adresów e-mail"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Automatyczne usuwanie Spamu i Kosza"
+      ],
+      "Support for 1 custom email domain": [
+        "Wsparcie dla 1 niestandardowej domeny"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Nieograniczona liczba folderów, etykiet i filtrów"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Odnowienie za ${ renewablePrice }. Anuluj w dowolnym momencie"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "za pierwszy miesiąc"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Oferta ograniczona czasowo. Wygasa 2 kwietnia 2024 roku"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Uzyskaj plan ${ planName } za ${ planPrice }"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/ miesiąc"
       ]
     }
   }

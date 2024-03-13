@@ -175,7 +175,7 @@
         "Створити нову групу контактів"
       ],
       "Create and copy alias": [
-        "Створити та скопіювати псевдонім"
+        "Створити й копіювати псевдонім"
       ],
       "Create calendar": [
         "Створити календар"
@@ -235,7 +235,7 @@
         "Завантажити"
       ],
       "Download now": [
-        "Завантажити зараз"
+        "Завантажити"
       ],
       "Edit": [
         "Змінити"
@@ -331,7 +331,7 @@
         "Імпортувати з Outlook"
       ],
       "Important update available. To continue to use the app, please update to the latest version. ${ downloadUpdate }": [
-        "Доступне важливе оновлення. Щоб і надалі користуватися застосунком, оновіть його до останньої версії. ${ downloadUpdate }"
+        "Доступне важливе оновлення. Щоб і надалі користуватися програмою, оновіть її до останньої версії. ${ downloadUpdate }"
       ],
       "Join calendar": [
         "Приєднатися до календаря"
@@ -658,16 +658,19 @@
         "Ви можете надіслати файли vCard, які містять щонайбільше ${ maxAttachments } контактів"
       ],
       "Upgrade Now": [
-        "Покращити зараз"
+        "Передплатити"
       ],
       "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
-        "Термін дії безплатної пробної версії настільного застосунку закінчується через 2 днів. ${ upgradeButton }"
+        "Безплатний пробний період програми для комп'ютера завершується через 2 дні. ${ upgradeButton }"
       ],
       "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
-        "Термін дії безплатної пробної версії настільного застосунку закінчується через 5 днів. ${ upgradeButton }"
+        "Безплатний пробний період програми для комп'ютера завершується через 5 днів. ${ upgradeButton }"
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
-        "Термін дії безплатної пробної версії настільного застосунку закінчується ${ formattedEndDate }. ${ upgradeButton }"
+        "Безплатний пробний період програми для комп'ютера завершується ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Не виходити"
       ]
     },
     "Action subline": {
@@ -813,22 +816,22 @@
         "3 ТБ"
       ],
       "3,000+ servers across 65+ countries": [
-        "Більше ніж 3000 серверів у понад 65 країнах"
+        "Більш як 3000 серверів у понад 65 країнах"
       ],
       "6 users": [
         "6 користувачів"
       ],
       "Access content worldwide": [
-        "Доступ до контенту по всьому світу"
+        "Доступ до матеріалів з всього світу"
       ],
       "Ad-blocker and malware protection": [
-        "Блокувальник реклами та захист від шкідливих програм"
+        "Блокування реклами й захист від зловмисних програм"
       ],
       "Extended version history": [
         "Розширена історія версій"
       ],
       "High speed streaming": [
-        "Перегляд трансляцій на високій швидкості"
+        "Високошвидкісна потокова трансляція"
       ],
       "Premium Password Manager": [
         "Premium Менеджер паролів"
@@ -839,7 +842,7 @@
         "Знижки відносно стандартної місячної ціни."
       ],
       "Your subscription will automatically renew at the standard discounted rate and duration at the end of your billing cycle.": [
-        "Ваша підписка буде автоматично поновлена за стандартною знижкою та тривалістю в кінці вашого платіжного циклу."
+        "Ваша передплата автоматично поновиться за стандартною ціною з урахуванням знижки й тривалості в кінці платіжного циклу."
       ]
     },
     "bf2023: Offers": {
@@ -849,7 +852,7 @@
     },
     "bf2023: Tooltip": {
       "Access content on streaming services including Netflix, Disney+, Prime Video, and more, from anywhere.": [
-        "Отримуйте доступ до контенту на стримінгових сервісах, зокрема Netflix, Disney+, Prime Video тощо, з будь-якої точки світу."
+        "Отримуйте доступ до сервісів потокової трансляції, зокрема Netflix, Disney+, Prime Video тощо, з будь-якої точки світу."
       ],
       "Bypass local internet blocks and censorship with our global network of servers.": [
         "Обходьте локальні інтернет-блокування та цензуру за допомогою нашої глобальної мережі серверів."
@@ -861,7 +864,7 @@
         "Безпечно зберігайте свої файли у зашифрованому хмарному сховищі з історією версій, спільним доступом та іншими можливостями."
       ],
       "Specially designed NetShield protects your devices and speeds up your browsing by blocking ads, trackers, and malware.": [
-        "Спеціально розроблений NetShield захищає ваші пристрої та прискорює перегляд контенту, блокуючи рекламу, трекери та шкідливі програми."
+        "Функцію NetShield, яка блокує рекламу, стеження і зловмисні програми, розроблено спеціально для захисту ваших пристроїв та прискорення роботи в Інтернеті."
       ],
       "Store up to 200 versions of each file for up to 10 years.": [
         "Зберігайте до 200 версій кожного файлу протягом 10 років."
@@ -869,7 +872,7 @@
     },
     "Browser": {
       "${ MAIL_APP_NAME } Desktop application": [
-        "Застосунок ${ MAIL_APP_NAME } на комп'ютері"
+        "Програма ${ MAIL_APP_NAME } для комп'ютера"
       ]
     },
     "Bug category": {
@@ -2188,7 +2191,7 @@
     },
     "Description": {
       "2FA adds an extra security layer, preventing unauthorized access.": [
-        "Двоетапна автентифікація додає додатковий рівень безпеки, запобігаючи несанкціонованому доступу."
+        "Двоетапна автентифікація підвищує рівень безпеки, запобігаючи несанкціонованому доступу."
       ],
       "Decrypting contacts… This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
         "Розшифрування контактів… Це може тривати кілька хвилин. Після завершення процесу ви зможете завантажити файл з усіма експортованими контактами."
@@ -2200,7 +2203,7 @@
         "Шифрування та імпортування контактів... Це може тривати кілька хвилин. Коли процес завершиться, ви можете закрити це вікно."
       ],
       "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
-        "Для імпорту через файли CSV і VCF переконайтеся, що кількість контактів у файлі не перевищує ${ MAX_IMPORT_FILE_SIZE_STRING } або ${ MAX_IMPORT_CONTACTS_STRING }. Якщо ваш файл більший, розділіть його на менші. ${ learnMoreLink }."
+        "Щоб імпортувати з використанням файлів CSV і VCF, розмір файлу не має перевищувати ${ MAX_IMPORT_FILE_SIZE_STRING }, а кількість контактів – ${ MAX_IMPORT_CONTACTS_STRING }. Якщо ваш файл більший, розділіть його на декілька менших. ${ learnMoreLink }."
       ],
       "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
         "Отримайте необмежену кількість псевдонімів і 500 ГБ сховища з ${ PLAN_NAMES[PLANS.BUNDLE] }."
@@ -2215,7 +2218,7 @@
         "Заощаджуйте час, надсилаючи листи або запрошення одразу всім адресатам – одна з багатьох преміумфункцій, доступних у передплачених тарифних планах."
       ],
       "Set a data recovery method to prevent data loss.": [
-        "Вкажіть метод відновлення даних, щоб запобігти втраті даних."
+        "Налаштуйте спосіб відновлення, щоб запобігти втраті даних."
       ],
       "Set a recovery method to prevent losing access to your account.": [
         "Налаштуйте спосіб відновлення, щоб запобігти втраті доступу до облікового запису."
@@ -2236,10 +2239,10 @@
         "Ви можете позначити ті контакти, які ви не хочете ані об'єднувати, ані зберігати. Видалення відбудеться лише після натискання кнопки об'єднання"
       ],
       "Your account and data recovery methods are set and 2FA is enabled.": [
-        "Ваш обліковий запис і способи відновлення даних налаштовано, а двоетапну автентифікацію ввімкнено."
+        "Ваш обліковий запис і способи відновлення налаштовано, а двоетапну автентифікацію ввімкнено."
       ],
       "Your account and data recovery methods are set.": [
-        "Ваш обліковий запис і методи відновлення даних налаштовано."
+        "Ваш обліковий запис і способи відновлення налаштовано."
       ],
       "Boost efficiency and track your time by color-coding events by category or your energy levels. Get this and much more with a paid plan.": [
         "Підвищуйте ефективність і відстежуйте свій час, позначаючи події кольором за категоріями або рівнями енергії. Отримайте це та багато іншого з платним тарифом."
@@ -2248,12 +2251,12 @@
         "Призначений для користувачів, які шукають посилений захист для своїх облікових записів."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
-        "Покращте свій обліковий запис, щоб активувати ${ PROTON_SENTINEL_NAME }, наше найсучасніше рішення щодо безпеки на базі ШІ з експертною підтримкою 24/7."
+        "Покращте свій обліковий запис, щоб активувати ${ PROTON_SENTINEL_NAME }, – наше найсучасніше рішення щодо безпеки на базі ШІ з експертною цілодобовою підтримкою."
       ]
     },
     "description": {
       "use the Easy Switch import assistant": [
-        "скористайтеся помічником імпорту Easy Switch"
+        "скористайтеся помічником з імпортування Easy Switch"
       ]
     },
     "Description of the purpose of the import CSV modal": {
@@ -2378,7 +2381,7 @@
     },
     "eof2023: Deal details": {
       "Paid ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME } features": [
-        "Платні функції ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } та ${ PASS_SHORT_APP_NAME }"
+        "Платні функції ${ DRIVE_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME } і ${ PASS_SHORT_APP_NAME }"
       ]
     },
     "eof2023: Tooltip": {
@@ -2394,13 +2397,13 @@
         "6 користувачів"
       ],
       "Early access to new apps and features": [
-        "Ранній доступ до нових застосунків і функцій"
+        "Ранній доступ до нових програм і функцій"
       ],
       "Early access to the ${ MAIL_APP_NAME } desktop app": [
-        "Ранній доступ до застосунку ${ MAIL_APP_NAME } на комп'ютері"
+        "Ранній доступ до програми ${ MAIL_APP_NAME } для комп'ютера"
       ],
       "Paid ${ MAIL_SHORT_APP_NAME } and ${ CALENDAR_APP_NAME } features": [
-        "Платні функції ${ MAIL_SHORT_APP_NAME } та ${ CALENDAR_APP_NAME }"
+        "Платні функції ${ MAIL_SHORT_APP_NAME } і ${ CALENDAR_APP_NAME }"
       ]
     },
     "Error": {
@@ -2813,7 +2816,7 @@
         "Псевдонім недійсний"
       ],
       "Alias is required": [
-        "Потрібен псевдонім"
+        "Необхідно вказати псевдонім"
       ],
       "Aliases could not be loaded": [
         "Не вдалося завантажити псевдоніми"
@@ -2825,16 +2828,16 @@
         "Під час збереження вашого псевдоніма сталася помилка"
       ],
       "Content search cannot be enabled. Please restart the application or clear data.": [
-        "Неможливо ввімкнути пошук вмісту. Перезапустіть застосунок або очистьте дані."
+        "Неможливо ввімкнути пошук вмісту. Перезапустіть програму або очистьте дані."
       ],
       "Forward address is required": [
-        "Потрібно вказати адресу переадресації"
+        "Необхідно вказати адресу пересилання"
       ],
       "Name is required": [
-        "Назва обовʼязкова"
+        "Необхідно вказати назву"
       ],
       "No external key retrieved for user is valid for sending": [
-        "Жоден зовнішній ключ, отриманий для користувача, не дійсний для надсилання"
+        "Жоден зовнішній ключ, отриманий для користувача, не придатний для надсилання"
       ],
       "Unexpected error, we can't import the contacts": [
         "Неочікувана помилка, неможливо імпортувати контакти"
@@ -3019,7 +3022,7 @@
     },
     "Error message": {
       "App currently unavailable": [
-        "Застосунок наразі недоступний"
+        "Програма наразі недоступна"
       ],
       "Error: ${ errorMessage }": [
         "Помилка: ${ errorMessage }"
@@ -4413,7 +4416,7 @@
         "Ви можете імпортувати один тип даних за один раз."
       ],
       "You can now return to the application to continue": [
-        "Тепер ви можете повернутися до застосунку, щоби продовжити"
+        "Тепер ви можете повернутися до програми для продовження роботи"
       ],
       "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
         "Ви можете увімкнути сповіщення про надходження нових повідомлень до цієї теки."
@@ -4519,16 +4522,16 @@
     },
     "Info: partial": {
       "${ selectedFoldersCount } folder selected": [
-        "${ selectedFoldersCount } вибрана тека",
-        "${ selectedFoldersCount } вибрані теки",
-        "${ selectedFoldersCount } вибраних тек",
-        "${ selectedFoldersCount } вибраних тек"
+        "Вибрано ${ selectedFoldersCount } теку",
+        "Вибрано ${ selectedFoldersCount } теки",
+        "Вибрано ${ selectedFoldersCount } тек",
+        "Вибрано ${ selectedFoldersCount } тек"
       ],
       "${ selectedFoldersCount } label selected": [
-        "${ selectedFoldersCount } вибрана мітка",
-        "${ selectedFoldersCount } вибрані мітки",
-        "${ selectedFoldersCount } вибраних міток",
-        "${ selectedFoldersCount } вибраних міток"
+        "Вибрано ${ selectedFoldersCount } мітку",
+        "Вибрано ${ selectedFoldersCount } мітки",
+        "Вибрано ${ selectedFoldersCount } міток",
+        "Вибрано ${ selectedFoldersCount } міток"
       ]
     },
     "Info; access rights for shared calendar": {
@@ -5812,7 +5815,7 @@
         "Зовнішній ключ автоматично отримується через WKD."
       ],
       "This key is used to encrypt messages to this contact": [
-        "Цей ключ використовується для шифрування повідомлень для цього контакту"
+        "Цей ключ використовується для шифрування повідомлень цьому контакту"
       ],
       "We recommend that you \"untrust\" this key.": [
         "Ми радимо вам не довіряти цим ключам."
@@ -5891,7 +5894,7 @@
         "Пошук за іменем чи е-поштою"
       ],
       "Search parent folder": [
-        "Пошук батьківської теки"
+        "Пошук у теці верхнього рівня"
       ],
       "Select": [
         "Вибрати"
@@ -5986,7 +5989,7 @@
     },
     "Security Center": {
       "All aliases": [
-        "Всі псевдоніми"
+        "Усі псевдоніми"
       ],
       "Create alias": [
         "Створити псевдонім"
@@ -5995,13 +5998,13 @@
         "Створити псевдонім"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Створюйте псевдоніми на льоту та легко керуйте ними та паролями."
+        "Миттєво створюйте псевдоніми, а також легко керуйте ними й паролями."
       ],
       "Hide-my-email aliases": [
         "Псевдоніми Hide-my-email"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Hide-my-email псевдоніми дають змогу реєструватися в мережі без написання своєї реальної адреси. ${ learnMoreLink }"
+        "Псевдоніми Hide-my-email дають змогу реєструватися в Інтернеті без поширення своєї адреси електронної пошти. ${ learnMoreLink }"
       ],
       "New alias": [
         "Новий псевдонім"
@@ -6016,10 +6019,10 @@
         "Спробуйте ${ PASS_APP_NAME }"
       ],
       "Used on amazon for shopping, etc.": [
-        "Використовуйте на Amazon для покупок тощо"
+        "Використовується на Amazon для покупок та ін."
       ],
       "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
-        "Натомість коли вас попросять вказати адресу пошти, вкажіть цей псевдонім. Псевдоніми надаються ${ passLink }."
+        "Коли потрібно вказати адресу електронної пошти, скористайтеся натомість цим псевдонімом. Псевдоніми надаються ${ passLink }."
       ]
     },
     "Security Center - Info": {
@@ -6027,7 +6030,7 @@
         "Sentinel **активний** і захищає ваш обліковий запис."
       ],
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
-        "Наше передове рішення для забезпечення безпеки на основі ШІ, призначене для користувачів, яким потрібен підвищений захист облікових записів. ${ learnMoreLink }"
+        "Наше передове рішення з безпеки на основі ШІ, призначене для користувачів, яким потрібен підвищений рівень захисту облікових записів. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -6078,7 +6081,7 @@
     },
     "session_recovery:available:link": {
       "See how": [
-        "Подивитись як"
+        "Дізнатися"
       ]
     },
     "session_recovery:available:notification": {
@@ -6098,7 +6101,7 @@
     },
     "session_recovery:cancellation:info": {
       "Enter your current password to cancel the password reset process. No other changes will take effect.": [
-        "Введіть поточний пароль, щоб скасувати скидання пароля. Ніякі інші зміни не набудуть чинності."
+        "Введіть поточний пароль, щоб скасувати скидання пароля. Жодні інші зміни не набудуть чинності."
       ]
     },
     "session_recovery:cancellation:notification": {
@@ -6474,37 +6477,37 @@
         "Ваше сховище заповнене"
       ],
       "${ storage } ${ percentage }% full": [
-        "${ storage } ${ percentage }% заповнено"
+        "${ storage } заповнене на ${ percentage }%"
       ],
       "contact your administrator": [
-        "зв'язатися з адміністратором"
+        "зверніться до адміністратора"
       ],
       "To send or receive emails, free up space or ${ upgrade }": [
-        "Щоби надсилати або отримувати листи, звільніть місце або ${ upgrade }"
+        "Щоб надсилати й отримувати листи, звільніть місце або ${ upgrade }"
       ],
       "To upload or sync files, free up space or ${ upgrade }": [
         "Щоб завантажити або синхронізувати файли, звільніть місце або ${ upgrade }"
       ],
       "upgrade for more storage": [
-        "покращте тариф, щоб збільшити сховище"
+        "збільште сховище, передплативши тарифний план"
       ],
       "Your ${ appStorage } is almost full": [
-        "Ваше ${ appStorage } майже повне"
+        "Ваше ${ appStorage } майже заповнене"
       ],
       "Your ${ appStorage } is full": [
-        "Ваше ${ appStorage } повне"
+        "Ваше ${ appStorage } заповнене"
       ],
       "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
-        "Ваше ${ storage } заповнено на ${ percentage }%. ${ cta }."
+        "Ваше ${ storage } заповнене на ${ percentage }%. ${ cta }."
       ],
       "Your ${ storage } is full. ${ cta }.": [
-        "Ваше ${ storage } повне. ${ cta }."
+        "Ваше ${ storage } заповнене. ${ cta }."
       ],
       "Your storage is ${ percentage }% full. ${ cta }.": [
         "Ваше сховище заповнено на ${ percentage }%. ${ cta }."
       ],
       "Your storage is full. ${ cta }.": [
-        "Ваше сховище заповнено. ${ cta }."
+        "Ваше сховище заповнене. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6961,7 +6964,7 @@
         "Налаштування е-пошти"
       ],
       "Enable 2FA": [
-        "Ввімкнути двоетапну автентифікацію"
+        "Увімкнути двоетапну автентифікацію"
       ],
       "Encrypted event": [
         "Зашифрована подія"
@@ -6985,10 +6988,10 @@
         "Відгук"
       ],
       "Get advanced protection": [
-        "Отримати розширений захист"
+        "Отримайте розширений захист"
       ],
       "Get the ${ appName[APP_NAME] } apps": [
-        "Отримати застосунки ${ appName[APP_NAME] }"
+        "Отримайте програми ${ appName[APP_NAME] }"
       ],
       "Groups": [
         "Групи"
@@ -7315,7 +7318,7 @@
     "Validation": {
       "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
         "Пароль повинен містити принаймні ${ MIN_PASSWORD_LENGTH } символ",
-        "Пароль повинен містити принаймні ${ MIN_PASSWORD_LENGTH } символів",
+        "Пароль повинен містити принаймні ${ MIN_PASSWORD_LENGTH } символи",
         "Пароль повинен містити принаймні ${ MIN_PASSWORD_LENGTH } символів",
         "Пароль повинен містити принаймні ${ MIN_PASSWORD_LENGTH } символів"
       ],
@@ -7656,6 +7659,22 @@
     "Security Center - Action": {
       "View logs": [
         "Переглянути журнали"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 адрес електронної пошти"
+      ],
+      "Support for 1 custom email domain": [
+        "Підтримка 1 власного домену електронної пошти"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Необмежена кількість тек, міток і фільтрів"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/місяць"
       ]
     }
   }

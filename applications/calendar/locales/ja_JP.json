@@ -653,6 +653,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "デスクトップアプリの無料トライアルは ${ formattedEndDate } で終了します。${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "サインインしたままにする"
       ]
     },
     "Action subline": {
@@ -821,6 +824,9 @@
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
         "暗号化されたクラウドストレージでファイルの安全性を保ちましょう。バージョン履歴、暗号化済みファイル共有などが含まれています。"
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "私たちのグローバルなサーバーのネットワークで、地域のインターネットブロックと検閲をバイパスします。"
       ]
     },
     "Bug category": {
@@ -7208,6 +7214,25 @@
     "Security Center - Info": {
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
         "私たちの、最先端のAI駆動セキュリティソリューションは、アカウントの高度な保護を求めるユーザー向けに設計されています。${ learnMoreLink }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } デスクトップアプリ"
+      ],
+      "10 email addresses": [
+        "10個のメールアドレス"
+      ],
+      "Support for 1 custom email domain": [
+        "1つのカスタムドメインメールアドレスをサポート"
+      ],
+      "Unlimited folders, labels and filters": [
+        "制限なしのフォルダー、ラベル、フィルター"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/月"
       ]
     }
   }

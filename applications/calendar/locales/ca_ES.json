@@ -645,6 +645,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "No podeu enviar fitxers vCard de més d'${ maxAttachments } contacte.",
         "No podeu enviar fitxers vCard de més de ${ maxAttachments } contactes."
+      ],
+      "Keep me signed in": [
+        "Mantén la sessió iniciada"
       ]
     },
     "Action subline": {
@@ -2320,6 +2323,9 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }."
       ]
     },
     "Email subject": {
@@ -4351,7 +4357,10 @@
         "Sembla que el fus horari del sistema ha canviat a ${ timezone }. Voleu actualitzar la vostra preferència de fus horari?"
       ],
       "Display events for calendar ${ Name }": [
-        "Mosta els esdeveniments per al calendari ${ Name }"
+        "Mostra els esdeveniments per al calendari ${ Name }"
+      ],
+      "An invitation will be sent to all participants. Which event would you like to update?": [
+        "S'enviarà una invitació a tots els participants. Quin esdeveniment voleu actualitzar?"
       ]
     },
     "info": {
@@ -7470,6 +7479,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(obrirà ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adreces de correu electrònic"
+      ],
+      "Support for 1 custom email domain": [
+        "Suport per a 1 domini de correu personalitzat"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Carpetes, etiquetes i filtres il·limitats"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mes"
       ]
     }
   }

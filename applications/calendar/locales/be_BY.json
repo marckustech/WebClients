@@ -668,6 +668,12 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Ваш бясплатны пробны перыяд настольнай праграмы завершыцца ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Заставацца ў сістэме"
+      ],
+      "Sign out and cancel trial": [
+        "Выйсці і скасаваць пробны перыяд"
       ]
     },
     "Action subline": {
@@ -4596,6 +4602,12 @@
       ],
       "An invitation will be sent to all participants. Which event would you like to update?": [
         "Запрашэнне было адпраўлена ўсім удзельнікам. Якую падзею вы хочаце абнавіць?"
+      ],
+      "Signing out will cancel your free desktop app trial. You won't be able to sign into the desktop app again unless you upgrade.": [
+        "Выхад скасуе ваш бясплатны пробны перыяд для настольнай праграмы. У вас не будзе магчымасці ўвайсці ў настольную праграму пасля гэтага да таго, пакуль вы не палепшыце свой тарыфны план."
+      ],
+      "Your inbox will always remain accessible on the web.": [
+        "Ваша паштовая скрыня заўсёды застаецца даступнай у браўзеры."
       ]
     },
     "info": {
@@ -7448,6 +7460,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Cancel trial?": [
+        "Скасаваць пробны перыяд?"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7989,6 +8004,62 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(адкрые ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Скарыстацца прапановай"
+      ],
+      "Special Offer": [
+        "Спецыяльная прапанова"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Настольная праграма ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 адрасоў электроннай пошты"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Аўтаматычна выдаляць спам і смецце"
+      ],
+      "Custom schedule send and snooze times": [
+        "Карыстальніцкае планаванне адпраўкі і адкладання"
+      ],
+      "Support for 1 custom email domain": [
+        "Падтрымка для 1 карыстальніцкага дамена электроннай пошты"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Неабмежаваная колькасць папак, метак і фільтраў"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Падаўжаецца ${ renewablePrice }. Скасаваць можна ў любы час"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "за першы месяц"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Прапанова абмежаваная па часе (міне 2 красавіка 2024 года)"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Атрымаць тарыфны план ${ planName } усяго за ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Некаторыя відарысы не былі запампаваны па прычыне дубліравання імён файлаў у бягчым вылучэнні."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/месяц"
       ]
     }
   }

@@ -70,8 +70,8 @@
         "გადატარება"
       ],
       "At most ${ maxContacts } contact is allowed per contact group": [
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
       ],
       "Attach screenshot(s)": [
         "ეკრანის ანაბეჭდ(ებ)-ის მიბმა"
@@ -660,6 +660,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "თქვენი კომპიუტერის აპის უფასო სატესტო ვერსიის დასრულების დროა ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "დამტოვე შესული"
       ]
     },
     "Action subline": {
@@ -2225,7 +2228,7 @@
         "დააყენეთ მონაცემების აღდგენის მეთოდი, მისი დაკარგვის თავიდან ასაცილებლად."
       ],
       "Set a recovery method to prevent losing access to your account.": [
-        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშსზე წვდომის დაკარგვა."
+        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშზე წვდომის დაკარგვა."
       ],
       "This can take a few minutes. Meanwhile, you can continue using Calendar as usual.": [
         "ამას რამდენიმე წუთი შეიძლება, დასჭირდეს. კალენდრით სარგებლობა ჩვეულებრივ შეგიძლიათ."
@@ -6089,7 +6092,7 @@
         "იმისათვის, რომ დავრწმუნდეთ, რომ ნამდვილად თქვენ ცდილობთ პაროლის შეცვლას, ჩვენ, მოთხოვნის შესრულებამდე 72 საათს მოვიცდით. პაროლს შეცვლა შეგიძლიათ შემდეგ დროში: ${ boldTimeLeft }. ${ viewRequest }"
       ],
       "We received a password reset request for ${ boldEmail }.": [
-        "მივიღეთ პაროლის შეცვლს მოთხოვნა ${ boldEmail }-სთვის."
+        "მივიღეთ პაროლის ჩამოყრის მოთხოვნა ${ boldEmail }-სთვის."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -7633,6 +7636,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(გახსნის ${ PASS_APP_NAME }-ს)"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-ის კომპიუტერის აპლიკაცია"
+      ],
+      "10 email addresses": [
+        "10 ელფოსტის მისამართი"
+      ],
+      "Support for 1 custom email domain": [
+        "1 ხელით მითითებული დომენის მხარდაჭერა"
+      ],
+      "Unlimited folders, labels and filters": [
+        "ულიმიტო საქაღალდეები, ჭდეები და ფილტრები"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/თვე"
       ]
     }
   }

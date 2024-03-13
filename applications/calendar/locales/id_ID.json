@@ -656,6 +656,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Masa uji coba aplikasi desktop Anda akan berakhir pada ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Biarkan saya tetap masuk"
       ]
     },
     "Action subline": {
@@ -7452,6 +7455,57 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(akan membuka jendela ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Dapatkan penawaran ini"
+      ],
+      "Special Offer": [
+        "Penawaran Spesial"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplikasi desktop ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 alamat email"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Kosongkan Spam dan Sampah secara otomatis"
+      ],
+      "Custom schedule send and snooze times": [
+        "Waktu pengiriman dan penundaan yang dapat disesuaikan"
+      ],
+      "Support for 1 custom email domain": [
+        "Dukungan 1 domain email khusus"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Tanpa batasan jumlah folder, label, dan filter"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Terbarui dengan harga ${ renewablePrice }, batalkan kapan saja"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "untuk bulan pertama"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Penawaran terbatas, berlaku hingga 2 April 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Dapatkan ${ planName } hanya dengan harga ${ planPrice }"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/bulan"
       ]
     }
   }

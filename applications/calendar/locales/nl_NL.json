@@ -660,6 +660,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "De gratis proefperiode van uw desktop programma loopt af op ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Houd me ingelogd"
       ]
     },
     "Action subline": {
@@ -2233,7 +2236,7 @@
         "Stel een herstelmethode in om te voorkomen dat u de toegang tot uw account verliest."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
-        "Upgrade uw account om ${ PROTON_SENTINEL_NAME }te activeren, onze geavanceerde AI-gedreven beveiligingsoplossing met toegewijde 24/7 deskundige ondersteuning."
+        "Upgrade uw account om ${ PROTON_SENTINEL_NAME } te activeren, onze geavanceerde AI-gedreven beveiligingsoplossing met toegewijde 24/7 deskundige ondersteuning."
       ],
       "Your account and data recovery methods are set and 2FA is enabled.": [
         "Uw account en dataherstelmethoden zijn ingesteld en 2FA is ingeschakeld."
@@ -7633,6 +7636,30 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel is **actief** en beschermt uw account."
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Kies deze deal"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-desktopapp"
+      ],
+      "10 email addresses": [
+        "10 e-mailadressen"
+      ],
+      "Support for 1 custom email domain": [
+        "Ondersteuning voor 1 aangepast e-maildomein"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Onbeperkt aantal mappen, labels en filters"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/maand"
       ]
     }
   }

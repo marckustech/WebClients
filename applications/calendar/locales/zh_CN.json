@@ -623,6 +623,9 @@
       ],
       "Yes, I'll attend": [
         "是，我将参加"
+      ],
+      "Keep me signed in": [
+        "保持登录状态"
       ]
     },
     "Action subline": {
@@ -7069,6 +7072,22 @@
       ],
       "Yearly, ${ untilString }": [
         "每年, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 个邮箱地址"
+      ],
+      "Support for 1 custom email domain": [
+        "支持1个自定义域名"
+      ],
+      "Unlimited folders, labels and filters": [
+        "文件夹、标签、筛选规则不限量"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/月"
       ]
     }
   }

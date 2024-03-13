@@ -642,6 +642,9 @@
       ],
       "Upgrade Now": [
         "Atualizar agora"
+      ],
+      "Keep me signed in": [
+        "Manter-me ligado"
       ]
     },
     "Action subline": {
@@ -2221,6 +2224,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descrição: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIÇÃO:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -2235,6 +2241,24 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Tem um convite para ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } foi cancelado."
+      ],
+      "All events in this series were updated.": [
+        "Todos os eventos desta série foram atualizados."
+      ],
+      "This event occurrence was canceled.": [
+        "A ocorrência deste evento foi cancelada."
+      ],
+      "This event occurrence was updated.": [
+        "Esta ocorrência do evento foi atualizada."
+      ],
+      "This event was updated.": [
+        "Este evento foi actualizado."
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Você foi convidado para ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -2246,11 +2270,20 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Quando: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "PERÍODO: ${ formattedStart } (o dia todo)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "PERIODO: ${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Onde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOCAL:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -2667,6 +2700,33 @@
       ],
       "Name is required": [
         "É necessário um nome."
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } não se consegue conectar à sua conta externa"
+      ],
+      "Alias is not valid": [
+        "O pseudónimo não é válido"
+      ],
+      "Alias is required": [
+        "O pseudónimo é obrigatório"
+      ],
+      "Aliases could not be loaded": [
+        "O pseudónimo não foi carregado"
+      ],
+      "An error occurred while loading alias options": [
+        "Ocorreu um erro ao carregar as opções do pseudónimo"
+      ],
+      "An error occurred while saving your alias": [
+        "Ocorreu um erro ao guardar o seu alias"
+      ],
+      "Content search cannot be enabled. Please restart the application or clear data.": [
+        "A pesquisa de conteúdo não pode ser ativada. Por favor, reinicie a aplicação, ou limpe os dados."
+      ],
+      "Forward address is required": [
+        "Endereço de encaminhamento é necessário"
+      ],
+      "Unexpected error, we can't import the contacts": [
+        "Erro inesperado, não podemos importar os contactos"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4236,6 +4296,12 @@
       ],
       "Warning": [
         "Aviso"
+      ],
+      "Important note": [
+        "Nota importante:"
+      ],
+      "You can now return to the application to continue": [
+        "Pode agora voltar à aplicação e continuar."
       ]
     },
     "info": {
@@ -5711,6 +5777,10 @@
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Agora pode mudar a sua palavra-passe para a conta ${ boldEmail } gratuitamente por ${ boldDaysRemaining }."
+      ],
+      "You have ${ timeRemaining.inDays } day to reset your password.": [
+        "Tem ${ timeRemaining.inDays } dia para redefinir a sua palavra-passe.",
+        "Tem ${ timeRemaining.inDays } dias para redefinir a sua palavra-passe."
       ]
     },
     "session_recovery:available:link": {
@@ -5970,6 +6040,9 @@
       ],
       "Support online privacy": [
         "Apoiar a privacidade online"
+      ],
+      "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
+        "Premium ${ appName1 }, ${ appName2 } & ${ appName3 }"
       ]
     },
     "specialoffer: Footer": {
@@ -6125,6 +6198,18 @@
       ],
       "Your storage is full": [
         "O seu armazenamento está cheio"
+      ],
+      "contact your administrator": [
+        "contacte o seu administrador"
+      ],
+      "upgrade for more storage": [
+        "atualize para obter mais armazenamento"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "O seu ${ appStorage } está quase cheio"
+      ],
+      "Your ${ appStorage } is full": [
+        "O seu ${ appStorage } está cheio"
       ]
     },
     "Subscribe to calendar modal": {
@@ -7259,6 +7344,24 @@
     "Security Center - Action": {
       "View logs": [
         "Ver os registos"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Removido"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 endereços de e-mail"
+      ],
+      "Support for 1 custom email domain": [
+        "Apoio ao cliente para 1 domínio de e-mail personalizado"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mês"
       ]
     }
   }

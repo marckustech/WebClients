@@ -660,6 +660,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Deine kostenlose Testversion der Desktop-App endet am ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Angemeldet bleiben"
       ]
     },
     "Action subline": {
@@ -2358,6 +2361,9 @@
       ],
       "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
         "Du wurdest zu ${ eventTitle } eingeladen.\n\n${ eventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Die Häufigkeit des Termins wurde abgebrochen."
       ]
     },
     "Email body for invitation (date part)": {
@@ -7630,6 +7636,54 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(wird ${ PASS_APP_NAME } öffnen)"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Jetzt zugreifen"
+      ],
+      "Special Offer": [
+        "Sonderangebot"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-Desktop App"
+      ],
+      "10 email addresses": [
+        "10 E-Mail-Adressen"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Spam und Papierkorb automatisch löschen"
+      ],
+      "Support for 1 custom email domain": [
+        "Unterstützung für eine eigene E-Mail-Domain"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Unbegrenzte Anzahl von Ordnern, Kategorien und Filtern"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Verlängert sich zu ${ renewablePrice }, jederzeit kündbar"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "im ersten Monat"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Befristetes Angebot, gültig bis zum 2. April 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Hol dir ${ planName } für nur ${ planPrice }"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/Monat"
       ]
     }
   }

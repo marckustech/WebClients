@@ -660,6 +660,9 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Η δωρεάν δοκιμή της εφαρμογής σας για υπολογιστές λήγει στις ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "Διατήρηση εισόδου μου"
       ]
     },
     "Action subline": {
@@ -7633,6 +7636,25 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(θα ανοίξει ${ PASS_APP_NAME })"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } εφαρμογή επιφάνειας εργασίας"
+      ],
+      "10 email addresses": [
+        "10 διευθύνσεις ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Support for 1 custom email domain": [
+        "Υποστήριξη για 1 προσαρμοσμένο τομέα email"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Απεριόριστοι φάκελοι, ετικέτες και φίλτρα"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/μήνα"
       ]
     }
   }

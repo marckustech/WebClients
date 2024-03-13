@@ -636,6 +636,9 @@
       "You can't send vCard files of more than ${ maxAttachments } contacts": [
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt",
         "Egyszerre nem küldhet el több mint ${ maxAttachments } vCard névjegyfájlt"
+      ],
+      "Keep me signed in": [
+        "Maradjon bejelentkezve"
       ]
     },
     "Action subline": {
@@ -7157,6 +7160,22 @@
       ],
       "Yearly, ${ untilString }": [
         "Évente, ${ untilString }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 e-mail cím"
+      ],
+      "Support for 1 custom email domain": [
+        "Egy saját e-mail domain név használata"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Korlátlan számú mappa, címke és szűrő"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/hó"
       ]
     }
   }

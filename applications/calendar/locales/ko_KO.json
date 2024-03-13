@@ -656,6 +656,12 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "회원님의 데스크톱 앱 무료 체험 기간이 ${ formattedEndDate }에 종료됩니다. ${ upgradeButton }"
+      ],
+      "Keep me signed in": [
+        "로그인 유지하기"
+      ],
+      "Sign out and cancel trial": [
+        "로그아웃하고 체험 취소하기"
       ]
     },
     "Action subline": {
@@ -1148,7 +1154,7 @@
         "캐럿"
       ],
       "cerise": [
-        "세라즈"
+        "체리"
       ],
       "cobalt": [
         "코발트"
@@ -4389,6 +4395,12 @@
       ],
       "An invitation will be sent to all participants. Which event would you like to update?": [
         "모든 참석자에게 초대가 발송됩니다. 어떤 이벤트를 업데이트하시겠어요?"
+      ],
+      "Signing out will cancel your free desktop app trial. You won't be able to sign into the desktop app again unless you upgrade.": [
+        "로그아웃하시면 데스크톱 앱 무료 체험은 취소됩니다. 업그레이드 전까지는 데스크톱 앱에 로그인할 수 없게 됩니다."
+      ],
+      "Your inbox will always remain accessible on the web.": [
+        "받은 편지함은 여전히 웹으로 접근할 수 있습니다."
       ]
     },
     "info": {
@@ -7013,6 +7025,9 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus 무료 체험판이 ${ textDate }에 종료됩니다"
+      ],
+      "Cancel trial?": [
+        "체험을 취소합니까?"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7452,6 +7467,62 @@
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
         "(${ PASS_APP_NAME }을 엽니다)"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "특가 받기"
+      ],
+      "Special Offer": [
+        "특가"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } 데스크톱 앱"
+      ],
+      "10 email addresses": [
+        "이메일 주소 10개"
+      ],
+      "Auto-delete Spam and Trash": [
+        "스팸과 휴지통을 자동으로 삭제합니다"
+      ],
+      "Custom schedule send and snooze times": [
+        "사용자 지정 스케줄과 방해금지 시간"
+      ],
+      "Support for 1 custom email domain": [
+        "사용자 지정 도메인 1개 지원"
+      ],
+      "Unlimited folders, labels and filters": [
+        "무제한 폴더, 라벨, 그리고 필터"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "${ renewablePrice }에 갱신되며 언제나 취소할 수 있습니다."
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "첫 한달간"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "2024년 04월 02일에 만료되는 기간 한정 특가입니다."
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "${ planName }를 ${ planPrice }만으로 만나다"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "선택한 이미지 중 일부가 중복된 파일명으로 인해 업로드되지 않았습니다."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/월"
       ]
     }
   }

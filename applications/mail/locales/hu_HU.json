@@ -4334,6 +4334,12 @@
       ],
       "You've unlocked 1 GB": [
         "Ön feloldott 1 GB-ot"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Gratulálunk, minden lépést teljesített!"
+      ],
+      "Congratulations, you finished!": [
+        "Gratulálunk, befejezte!"
       ]
     },
     "Gmail forwarding": {
@@ -9744,6 +9750,11 @@
     "Suffix": {
       "/month": [
         "/hó"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Néhány képet nem sikerült feltölteni, mert az aktuális kiválasztásban duplikált fájlnevek voltak."
       ]
     }
   }

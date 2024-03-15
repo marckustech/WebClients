@@ -10554,7 +10554,7 @@
         "10 indirizzi email"
       ],
       "Auto-delete Spam and Trash": [
-        "Eliminazione automatica dello spam e dal cestino"
+        "Eliminazione automatica del contenuto dallo Spam e dal Cestino"
       ],
       "Custom schedule send and snooze times": [
         "Pianificazione personalizzata degli orari di invio e posticipazione"
@@ -10587,6 +10587,11 @@
     "Suffix": {
       "/month": [
         "/mese"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Alcune immagini non sono state caricate a causa di nomi di file duplicati nell'attuale selezione."
       ]
     }
   }

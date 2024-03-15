@@ -6227,6 +6227,9 @@
       ],
       "You can now return to the application to continue": [
         "Pode agora voltar à aplicação e continuar."
+      ],
+      "Any scheduled or snoozed messages will be cancelled.": [
+        "Todas as mensagens agendadas ou adiadas serão canceladas."
       ]
     },
     "info": {

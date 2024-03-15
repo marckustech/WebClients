@@ -3589,7 +3589,7 @@
         "Kata sandi diperlukan"
       ],
       "Passwords do not match": [
-        "Kata sandi tidak cocok"
+        "Kata sandi tidak sesuai"
       ],
       "Please activate your search again": [
         "Silakan aktifkan kembali pencarian konten Anda"
@@ -3778,10 +3778,10 @@
         "Anda telah mencapai batas jumlah karakter yang diperkenankan. Silakan persingkat isi pesan Anda."
       ],
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
-        "Surel-surel Anda tidak dapat didekripsi karena kata sandi akun Anda telah diubah. Apabila Anda ingat kata sandi Anda sebelumnya, Anda dapat ${ reActivateKeyLink } untuk dapat kembali mengakses surel-surel Anda. ${ learnMoreLink }"
+        "Email Anda tidak dapat didekripsi karena pengaturan ulang kata sandi yang berlangsung baru-baru ini. Apabila Anda ingat kata sandi Anda sebelumnya, Anda dapat ${ reActivateKeyLink } untuk kembali mengakses email Anda. ${ learnMoreLink }"
       ],
       "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
-        "Surel-surel Anda tidak dapat didekripsi. Besar kemungkinan hal ini disebabkan oleh kata sandi akun Anda yang telah diubah. ${ learnMoreLink }"
+        "Email Anda tidak dapat didekripsi. Hal ini kemungkinan disebabkan oleh kata sandi akun Anda yang telah diatur ulang. ${ learnMoreLink }"
       ],
       "Your import will not be processed.": [
         "Impor Anda tidak akan diproses."
@@ -4590,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Anda telah memperoleh 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Selamat, Anda telah menyelesaikan semua langkah-langkahnya!"
+      ],
+      "Congratulations, you finished!": [
+        "Selamat, Anda sudah selesai!"
       ]
     },
     "Gmail forwarding": {
@@ -4832,7 +4838,7 @@
     },
     "Import instructions": {
       "Depending on your email service provider, you may need to generate an ${ knowledgeBaseLink } first before you can import to ${ BRAND_NAME }.": [
-        "Tergantung dari layanan surel Anda sebelumnya, Anda mungkin akan perlu untuk membuat ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
+        "Tergantung dari layanan penyedia email Anda sebelumnya, Anda mungkin akan perlu untuk menghasilkan ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
         "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengeklik tombol 3 titik (...)."
@@ -8168,7 +8174,7 @@
         "Buat alias"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Buat alias dengan cepat dan kelola alias dan kata sandi Anda dengan mudah."
+        "Buat alias di mana saja, dan kelola alias serta kata sandi Anda dengan mudah."
       ],
       "Hide-my-email aliases": [
         "Alias hide-my-email"
@@ -8338,7 +8344,7 @@
         "Perizinan akan kedaluwarsa dalam ${ timeRemaining.inHours } jam"
       ],
       "This permission expires soon": [
-        "Izin ini akan segera kedaluwarsa"
+        "Perizinan ini akan segera kedaluwarsa"
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Anda kini dapat mengubah kata sandi untuk akun ${ boldEmail } secara bebas selama ${ boldDaysRemaining }."
@@ -10322,6 +10328,11 @@
     "Suffix": {
       "/month": [
         "/bulan"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Beberapa gambar tidak diunggah karena nama berkas yang berduplikat dalam seleksi saat ini."
       ]
     }
   }

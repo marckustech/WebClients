@@ -4368,6 +4368,15 @@
       ],
       "${ MAIL_APP_NAME } desktop app": [
         "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "14 dies de prova de l'aplicació d'escriptori"
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Obtingui accés il·limitat amb qualsevol pla de ${ MAIL_APP_NAME }."
+      ],
+      "Try the app-new desktop app": [
+        "Provi la nova aplicació d'escriptori"
       ]
     },
     "Free trial destkop": {

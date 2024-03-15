@@ -3185,6 +3185,15 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Вас запрошено на ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } було скасовано."
+      ],
+      "This event occurrence was canceled.": [
+        "Цю подію скасовано."
+      ],
+      "This event was updated.": [
+        "Цю подію оновлено."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3212,6 +3221,12 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } приймає із сумнівом ваше запрошення на ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } прийняв(-ла) ваше запрошення на ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } попередньо прийняв(-ла) ваше запрошення на ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4431,11 +4446,32 @@
       ],
       "No credit card required.": [
         "Банківська картка не потрібна."
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "Настільний застосунок ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "14-денна пробна версія настільного застосунку."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Насолоджуйтеся швидким та безпечним доступом без реклами до вашої скриньки й календаря."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Отримайте необмежений доступ з будь-яким тарифним планом ${ MAIL_APP_NAME }."
+      ],
+      "Try the app-new desktop app": [
+        "Спробуйте новий настільний застосунок"
+      ],
+      "Upgrade now": [
+        "Покращити зараз"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Спробуйте безплатно протягом 14 днів"
+      ],
+      "Start free trial": [
+        "Почати пробний період"
       ]
     },
     "Get started checklist instructions": {
@@ -4567,6 +4603,12 @@
       ],
       "You've unlocked 1 GB": [
         "Ви розблокували 1 ГБ"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Вітаємо, ви виконали всі кроки!"
+      ],
+      "Congratulations, you finished!": [
+        "Вітаємо із завершенням!"
       ]
     },
     "Gmail forwarding": {
@@ -7923,10 +7965,10 @@
     },
     "Onboarding modal": {
       "Automatically forward emails": [
-        "Автоматично пересилати листи"
+        "Автоматично пересилайте листи"
       ],
       "Block email communications from scammers permanently. ${ kbLinkSender }": [
-        "Назавжди заблокуйте повідомлення на пошту від шахраїв. ${ kbLinkSender }"
+        "Остаточно заблокуйте електронні листи від шахраїв. ${ kbLinkSender }"
       ],
       "Block unsavory senders": [
         "Блокувати небажаних відправників"
@@ -7941,7 +7983,7 @@
         "Ніхто крім вас"
       ],
       "Forward Gmail messages to your inbox.": [
-        "Пересилати повідомлення Gmail у вашу теку."
+        "Пересилайте повідомлення з Gmail на свою поштову скриньку."
       ],
       "Next": [
         "Далі"
@@ -8519,6 +8561,12 @@
       ],
       "This permission expires soon": [
         "Термін дії цього дозволу скоро закінчиться"
+      ],
+      "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
+        "Тепер ви можете змінити пароль для облікового запису ${ boldEmail }, ви маєте ${ boldDaysRemaining }."
+      ],
+      "You can now change your password for the account ${ boldEmail }.": [
+        "Тепер ви можете змінити пароль для облікового запису ${ boldEmail }."
       ]
     },
     "session_recovery:available:link": {
@@ -8642,7 +8690,7 @@
         "Відкласти повідомлення"
       ],
       "When should the message reappear in your inbox?": [
-        "Коли повідомлення має знову з’явитися у вашій теці «Вхідні»?"
+        "Коли повідомлення має знову з'явитись у вашій теці \"Вхідні\"?"
       ]
     },
     "Sort option": {
@@ -8898,6 +8946,21 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Створюйте псевдоніми hide-my-email і відстежуйте їх тут."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Зручно запускайте ${ MAIL_APP_NAME } прямо зі свого робочого столу."
+      ],
+      "Faster email management": [
+        "Швидше керування поштою"
+      ],
+      "Get the desktop app": [
+        "Отримати настільний застосунок"
+      ],
+      "Now you can take action on all emails in a single folder in one go.": [
+        "Тепер ви можете одночасно виконувати дії з усіма листами в одній теці."
+      ],
+      "You can now automatically forward your emails to anyone!": [
+        "Тепер ви можете автоматично пересилати свої листи будь-кому!"
       ]
     },
     "Status": {
@@ -10539,6 +10602,11 @@
     "Suffix": {
       "/month": [
         "/місяць"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Завантажити настільний застосунок ${ MAIL_APP_NAME }"
       ]
     }
   }

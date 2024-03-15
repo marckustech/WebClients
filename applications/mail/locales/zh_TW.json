@@ -4585,6 +4585,12 @@
       ],
       "You've unlocked 1 GB": [
         "您解鎖1GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "恭喜，你完成所有指示了！"
+      ],
+      "Congratulations, you finished!": [
+        "恭喜，你完成所有指示了！"
       ]
     },
     "Gmail forwarding": {
@@ -10303,6 +10309,19 @@
     "Suffix": {
       "/month": [
         "/月"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "取得優惠"
+      ],
+      "Special Offer": [
+        "特別優惠"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "更新價 ${ renewablePrice }，任何時間都可取消"
       ]
     }
   }

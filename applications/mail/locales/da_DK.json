@@ -4626,6 +4626,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst op for 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Tillykke, du har gennemført alle trinnene!"
+      ],
+      "Congratulations, you finished!": [
+        "Tillykke, du er færdig!"
       ]
     },
     "Gmail forwarding": {
@@ -10529,11 +10535,45 @@
       ],
       "Unlimited folders, labels and filters": [
         "Ubegrænsede mapper, etiketter og filtre"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Slet automatisk elementer i Spam og Papirkurven"
       ]
     },
     "Suffix": {
       "/month": [
         "/måned"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Få tilbuddet"
+      ],
+      "Special Offer": [
+        "Special Tilbud"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Fornyes til ${ renewablePrice }, annuller når som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "den første måned"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Tidsbegrænset tilbud, udløber den 2. april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Få ${ planName } for kun ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Nogle billeder blev ikke uploadet grundet duplikerede filnavne i det nuværende valg."
       ]
     }
   }

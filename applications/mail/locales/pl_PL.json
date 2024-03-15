@@ -11018,13 +11018,16 @@
         "10 adresów e-mail"
       ],
       "Auto-delete Spam and Trash": [
-        "Automatyczne usuwanie Spamu i Kosza"
+        "Automatyczne usuwanie spamu i opróżnianie kosza"
       ],
       "Support for 1 custom email domain": [
-        "Wsparcie dla 1 niestandardowej domeny"
+        "Wsparcie dla 1 niestandardowej domeny e-mail"
       ],
       "Unlimited folders, labels and filters": [
         "Nieograniczona liczba folderów, etykiet i filtrów"
+      ],
+      "Custom schedule send and snooze times": [
+        "Niestandardowe godziny planowego wysyłania i usypiania"
       ]
     },
     "mailtrial2024: Footer": {
@@ -11048,6 +11051,11 @@
     "Suffix": {
       "/month": [
         "/ miesiąc"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Niektóre obrazy nie zostały przesłane z powodu powtarzających się nazw plików w bieżącym wyborze."
       ]
     }
   }

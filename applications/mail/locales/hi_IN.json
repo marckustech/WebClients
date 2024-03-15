@@ -8851,6 +8851,10 @@
       "Try a shorter username (${ n } character max)": [
         "ज़रा छोटा यूजरनाम आज़माएं (${ n } अक्षर ज़्यादा-से-ज़्यादा)",
         "ज़रा छोटा यूजरनाम आज़माएं (${ n } अक्षर ज़्यादा-से-ज़्यादा)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "पासवर्ड में कम से कम ${ MIN_PASSWORD_LENGTH } वर्ण होना चाहिए",
+        "पासवर्ड में कम से कम ${ MIN_PASSWORD_LENGTH } वर्ण होने चाहिए"
       ]
     },
     "Video control": {
@@ -9215,6 +9219,24 @@
       ],
       "Your storage is full": [
         "आपका स्टोरेज भरा है"
+      ]
+    },
+    "Free trial desktop": {
+      "No credit card required.": [
+        "कोई क्रेडिट कार्ड नहीं चाहिए."
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 ईमेल पते"
+      ],
+      "Support for 1 custom email domain": [
+        "1 कस्टम ईमेल डोमेन के लिए सहायता"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/महीने"
       ]
     }
   }

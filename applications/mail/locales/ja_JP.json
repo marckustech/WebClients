@@ -1185,6 +1185,24 @@
       ],
       "Clear application data": [
         "アプリケーションデータの削除"
+      ],
+      "Create and copy alias": [
+        "エイリアスを作成してコピー"
+      ],
+      "Select country": [
+        "国を選択"
+      ],
+      "Upgrade Now": [
+        "今すぐアップグレード"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルはあと2日で終了します。${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルはあと5日で終了します。${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "デスクトップアプリの無料トライアルは ${ formattedEndDate } で終了します。${ upgradeButton }"
       ]
     },
     "action": {
@@ -1363,6 +1381,15 @@
       ],
       "6 users": [
         "6 ユーザー"
+      ],
+      "3,000+ servers across 65+ countries": [
+        "65か国以上、3,000台以上のサーバー"
+      ],
+      "Access content worldwide": [
+        "世界中のコンテンツにアクセス"
+      ],
+      "High speed streaming": [
+        "高速ストリーミング"
       ]
     },
     "bf2023: Offers": {
@@ -1376,6 +1403,9 @@
       ],
       "Secure your files with encrypted cloud storage. Includes version history, encrypted file sharing, and more.": [
         "暗号化されたクラウドストレージでファイルの安全性を保ちましょう。バージョン履歴、暗号化済みファイル共有などが含まれています。"
+      ],
+      "Bypass local internet blocks and censorship with our global network of servers.": [
+        "私たちのグローバルなサーバーのネットワークで、地域のインターネットブロックと検閲をバイパスします。"
       ]
     },
     "Bug category": {
@@ -3051,6 +3081,24 @@
       ],
       "New emails from ${ senderEmailAddress } and ${ otherSendersCount } other won't be delivered and will be permanently deleted.": [
         "${ senderEmailAddress }とその他${ otherSendersCount }件のアドレスからのメールは今後一切受信しません。"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2要素認証は、不正アクセスを防止するための追加のセキュリティ層です。"
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "データの損失を防ぐには、データの回復手段を設定します。"
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "アカウントへのアクセスが失われないように回復手段を設定してください。"
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "アカウントをアップグレードして、24時間年中無休の専門家によるサポート付きの最先端のAI駆動セキュリティソリューション${ PROTON_SENTINEL_NAME }を有効にしましょう。"
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "アカウントとデータの回復手段が設定され、2要素認証が有効になっています。"
+      ],
+      "Your account and data recovery methods are set.": [
+        "アカウントとデータの回復手段が設定されています。"
       ]
     },
     "description": {
@@ -3201,6 +3249,9 @@
       ],
       "6 users": [
         "6 ユーザー"
+      ],
+      "Early access to the ${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } デスクトップアプリへの早期アクセス"
       ]
     },
     "Error": {
@@ -3629,6 +3680,24 @@
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "同時に ${ maxActiveComposer } つ以上の作成画面を開くことはできません"
+      ],
+      "${ BRAND_NAME } can't connect to your external account": [
+        "${ BRAND_NAME } から外部アカウントに接続できません"
+      ],
+      "Alias is not valid": [
+        "エイリアスが無効です"
+      ],
+      "Alias is required": [
+        "エイリアスは必須です"
+      ],
+      "Aliases could not be loaded": [
+        "エイリアスを読み込めませんでした"
+      ],
+      "Forward address is required": [
+        "転送先アドレスは必須です"
+      ],
+      "Name is required": [
+        "名前は必須です"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3850,6 +3919,9 @@
       ],
       "You do not have any contact yet. Start by creating a new contact": [
         "連絡先がありません。新しい連絡先を作成して始めましょう"
+      ],
+      "App currently unavailable": [
+        "アプリは現在利用できません"
       ]
     },
     "Error notification": {
@@ -4454,6 +4526,9 @@
       ],
       "Search": [
         "検索"
+      ],
+      "Security Center": [
+        "セキュリティセンター"
       ]
     },
     "Hint": {
@@ -6260,6 +6335,36 @@
       ],
       "Warning": [
         "警告"
+      ],
+      "Applying actions to conversations": [
+        "会話に適用する操作"
+      ],
+      "Applying actions to messages": [
+        "メッセージに適用する操作"
+      ],
+      "Clear app data": [
+        "アプリデータを消去"
+      ],
+      "Emails tagged with this label ${ nameDeleted } will not be deleted and can still be found in the respective folder.": [
+        "このラベル「${ nameDeleted }」が付いたメールは削除されず、各フォルダで見つけることができます。"
+      ],
+      "Important note": [
+        "注意事項"
+      ],
+      "Include Spam/Trash.": [
+        "迷惑メール・ごみ箱を含める。"
+      ],
+      "Please use another browser or download the file.": [
+        "他のブラウザを使用するか、このファイルをダウンロードしてください。"
+      ],
+      "Preview for this file type is currently not supported on this browser.": [
+        "この種類のファイルのプレビューは、現在このブラウザではサポートされていません。"
+      ],
+      "This file is too large to preview": [
+        "このファイルは、非常に大きいためプレビューできません"
+      ],
+      "Upgrade to ${ MAIL_APP_NAME } Plus to unlock": [
+        "${ MAIL_APP_NAME } Plusにアップグレードしてロックを解除する"
       ]
     },
     "info": {
@@ -6271,6 +6376,9 @@
       ],
       "${ filteredList.length } command found.": [
         "${ filteredList.length }個のコマンドが見つかりました。"
+      ],
+      "Selected color:": [
+        "選択した色:"
       ]
     },
     "Info on errors": {
@@ -6493,6 +6601,9 @@
       ],
       "Star": [
         "星印を付ける"
+      ],
+      "Filter": [
+        "フィルター"
       ]
     },
     "Keyboard shortcut section name": {
@@ -6980,6 +7091,9 @@
       ],
       "Title": [
         "タイトル"
+      ],
+      "Your alias": [
+        "あなたのエイリアス"
       ]
     },
     "Label attach to date input to select a date": {
@@ -7672,6 +7786,12 @@
       ],
       "Skip": [
         "スキップ"
+      ],
+      "Automatically forward emails": [
+        "メールの自動転送"
+      ],
+      "Forward Gmail messages to your inbox.": [
+        "Gmail のメッセージを、あなたの受信トレイに転送します。"
       ]
     },
     "Onboarding Proton": {
@@ -7780,6 +7900,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "この鍵を「信頼しない」ことをおすすめします。"
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "外部鍵は、keys.openpgp.org から自動的に取得されました。"
+      ],
+      "External key automatically fetched via WKD.": [
+        "外部鍵は、WKD から自動的に取得されました。"
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "この鍵は、この連絡先宛のメッセージの暗号化に使用されます"
       ]
     },
     "PGP key warning": {
@@ -8607,6 +8736,12 @@
       ],
       "You can now schedule your messages to be sent later": [
         "メッセージの送信を予約できます"
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "ここで、Hide-my-emailエイリアスを作成および管理します。"
+      ],
+      "Get the desktop app": [
+        "デスクトップアプリを入手"
       ]
     },
     "Status": {
@@ -8936,6 +9071,15 @@
       ],
       "Move ${ selectionCount } message": [
         "${ selectionCount } 件のメッセージを移動"
+      ],
+      "Alias copied to clipboard": [
+        "エイリアスがクリップボードにコピーされました"
+      ],
+      "Alias saved and copied": [
+        "エイリアスを保存してコピーしました"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "最も古い保管庫に保存されている、最後に変更されたエイリアス"
       ]
     },
     "Success notification": {
@@ -9668,6 +9812,15 @@
       ],
       "Security center": [
         "セキュリティセンター"
+      ],
+      "Enable 2FA": [
+        "2要素認証を有効にする"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "${ appName[APP_NAME] } アプリを入手"
+      ],
+      "Your account is protected": [
+        "あなたのアカウントは保護されています"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -10208,6 +10361,24 @@
       ],
       "Create alias": [
         "エイリアスを作成"
+      ],
+      "All aliases": [
+        "すべてのエイリアス"
+      ],
+      "Create an alias": [
+        "エイリアスを作成"
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Hide-my-email エイリアスで、メールアドレスを共有することなくアカウントを作成できます。${ learnMoreLink }"
+      ],
+      "New alias": [
+        "新しいエイリアス"
+      ],
+      "Protect your online identity": [
+        "あなたをオンラインで守る"
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "メールアドレスを求められた場合、このエイリアスを代わりに入力してください。エイリアスは${ passLink } によって提供されます。"
       ]
     },
     "storage_split: info": {
@@ -10216,11 +10387,72 @@
       ],
       "Your storage is full": [
         "ストレージがいっぱいです"
+      ],
+      "contact your administrator": [
+        "管理者に連絡してください"
       ]
     },
     "Security Center - Action": {
       "View logs": [
         "ログを表示"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME } デスクトップアプリをダウンロード"
+      ]
+    },
+    "Browser": {
+      "${ MAIL_APP_NAME } Desktop application": [
+        "${ MAIL_APP_NAME } デスクトップアプリ"
+      ]
+    },
+    "Contact image": {
+      "Contact image": [
+        "連絡先の画像"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } デスクトップアプリ"
+      ],
+      "No credit card required.": [
+        "クレジットカード不要."
+      ],
+      "Upgrade now": [
+        "今すぐアップグレード"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } デスクトップアプリ"
+      ],
+      "10 email addresses": [
+        "10個のメールアドレス"
+      ],
+      "Support for 1 custom email domain": [
+        "1つのカスタムドメインメールアドレスをサポート"
+      ],
+      "Unlimited folders, labels and filters": [
+        "制限なしのフォルダー、ラベル、フィルター"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME } を開きます)"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "私たちの、最先端のAI駆動セキュリティソリューションは、アカウントの高度な保護を求めるユーザー向けに設計されています。${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinelは**有効**であり、アカウントを保護しています。"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/月"
       ]
     }
   }

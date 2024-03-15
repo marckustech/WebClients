@@ -1215,6 +1215,18 @@
       ],
       "Create and copy alias": [
         "Стварыць і скапіяваць псеўданім"
+      ],
+      "Upgrade Now": [
+        "Палепшыць"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Ваш бясплатны пробны перыяд настольнай праграмы завершыцца праз 2 дні. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Ваш бясплатны пробны перыяд настольнай праграмы завершыцца праз 5 дзён. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Ваш бясплатны пробны перыяд настольнай праграмы завершыцца ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3201,6 +3213,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Апісанне: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "АПІСАННЕ:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3215,6 +3230,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Вас запрасілі на ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } было скасавана."
+      ],
+      "All events in this series were updated.": [
+        "Усе падзеі ў гэтай серыі былі абноўлены."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Усе падзеі ў гэтай серыі былі абноўлены. Змены, якія адбыліся:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Паўтарэнне гэтай падзеі было скасавана."
+      ],
+      "This event occurrence was updated.": [
+        "Паўтарэнне гэтай падзеі было абноўлена."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Паўтарэнне гэтай падзеі было абноўлена. Змены, якія адбыліся:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Гэта падзея была абноўлена."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Гэта падзея была абноўлена. Змены, якія адбыліся:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Вас запрасілі на ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3226,11 +3268,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Калі: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "ЧАС:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "ЧАС:\n${ formattedStart } (увесь дзень)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "ЧАС:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Дзе: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "РАЗМЯШЧЭННЕ:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3242,6 +3296,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } умоўна прымаў(-ла) ваша запрашэнне на ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } прыняў(-ла) ваша запрашэнне на ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } адхіліў(-ла) ваша запрашэнне на ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } умоўна прыняў(-ла) ваша запрашэнне на ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4472,7 +4535,7 @@
     },
     "Get started checklist instructions": {
       "${ MAIL_APP_NAME } app": [
-        "Праграма ${ MAIL_APP_NAME }"
+        "праграму ${ MAIL_APP_NAME }"
       ],
       "${ MAIL_APP_NAME } on App Store": [
         "${ MAIL_APP_NAME } у App Store"
@@ -4487,7 +4550,7 @@
         "Аўтаперасылка Gmail"
       ],
       "auto-forwarding": [
-        "аўтаперасылка"
+        "аўтаперасылку"
       ],
       "Block email communications from scammers permanently.": [
         "Цалкам блакіруйце электронныя лісты ад ашуканцаў."
@@ -4523,7 +4586,7 @@
         "Працягнуць наладжванне электроннай пошты"
       ],
       "Discover how our ${ strongText } protect you": [
-        "Даведайцеся, як наш ${ strongText } вас абараняе"
+        "Даведайцеся, як нашы ${ strongText } вас абараняюць"
       ],
       "Discover privacy features": [
         "Пазнаёмцеся з функцыямі прыватнасці"
@@ -4599,6 +4662,12 @@
       ],
       "You've unlocked 1 GB": [
         "Вы разблакіравалі 1 ГБ"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Віншуем, вы выканалі ўсе крокі!"
+      ],
+      "Congratulations, you finished!": [
+        "Віншуем з завяршэннем!"
       ]
     },
     "Gmail forwarding": {
@@ -9114,7 +9183,7 @@
         "Цяпер вы можаце запланаваць адпраўку паведамленняў на больш позні час"
       ],
       "Create hide-my-email aliases and keep track of them here.": [
-        "Стварыць псеўданімы hide-my-email і адсочваць іх тут."
+        "Стварыце псеўданімы hide-my-email і адсочвайце іх тут."
       ],
       "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
         "Зручны запуск ${ MAIL_APP_NAME } непасрэдна з вашага працоўнага стала."
@@ -9536,6 +9605,9 @@
       ],
       "Alias saved and copied": [
         "Псеўданімы захаваны і скапіяваны"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Апошнія змененыя псеўданімы захоўваюцца ў вашым самым старым сховішчы"
       ]
     },
     "Success notification": {
@@ -10950,6 +11022,100 @@
     "App logo": {
       "Download ${ MAIL_APP_NAME } desktop application": [
         "Спампаваць настольную праграму для ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Выдалена"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Настольная праграма ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "Пробны перыяд настольнай праграмы на працягу 14 дзён."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Атрымлівайце асалоду ад хуткага і бяспечнага доступу без рэкламы да паштовай скрыні і календара."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Атрымлівайце неабмежаваны доступ з любым тарыфным планам ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Крэдытная картка не патрабуецца."
+      ],
+      "Try the app-new desktop app": [
+        "Паспрабуйце новую настольную праграму"
+      ],
+      "Upgrade now": [
+        "Палепшыць"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Пачніце бясплатны пробны перыяд"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Скарыстацца прапановай"
+      ],
+      "Special Offer": [
+        "Спецыяльная прапанова"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Настольная праграма ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 адрасоў электроннай пошты"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Аўтаматычнае выдаленне спаму і смецця"
+      ],
+      "Custom schedule send and snooze times": [
+        "Карыстальніцкае планаванне адпраўкі і адкладання"
+      ],
+      "Support for 1 custom email domain": [
+        "Падтрымка для 1 карыстальніцкага дамена электроннай пошты"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Неабмежаваная колькасць папак, метак і фільтраў"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Падаўжаецца за ${ renewablePrice }. Скасаваць можна ў любы час"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "за першы месяц"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Прапанова абмежавана па часе (міне 2 красавіка 2024 года)"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Атрымаць тарыфны план ${ planName } усяго за ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Некаторыя відарысы не былі запампаваны па прычыне дубліравання імён файлаў у бягучым вылучэнні."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(адкрые ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/месяц"
       ]
     }
   }

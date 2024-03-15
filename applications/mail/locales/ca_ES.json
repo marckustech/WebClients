@@ -1191,6 +1191,9 @@
       ],
       "Select country": [
         "Seleccioneu el país"
+      ],
+      "Upgrade Now": [
+        "Millora ara"
       ]
     },
     "action": {
@@ -3133,6 +3136,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descripció: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIPCIÓ:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3147,6 +3153,9 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Heu estat convidat/da a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "This event was updated.": [
+        "S'ha actualitzat aquest esdeveniment."
       ]
     },
     "Email body for invitation (date part)": {
@@ -3174,6 +3183,9 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha acceptat provisionalment la vostra invitació a ${ eventTitle }."
       ]
     },
     "Email reminder banner": {
@@ -3696,6 +3708,16 @@
       ],
       "Name is required": [
         "Es requereix un nom"
+      ],
+      "Aliases could not be loaded": [
+        "No s'han pogut carregar els àlies."
+      ],
+      "Choose a date within the next ${ n } day.": [
+        "Escolliu una data dintre d'${ n } dia.",
+        "Escolliu una data dintre dels pròxims ${ n } dies."
+      ],
+      "Forward address is required": [
+        "L'adreça de reenviament és obligatòria."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -6247,6 +6269,72 @@
       ],
       "Warning": [
         "Advertència"
+      ],
+      "${ elementsCount } conversation will be labelled as:": [
+        "${ elementsCount } conversa s'etiquetarà com a:",
+        "${ elementsCount } converses s'etiquetaran com a:"
+      ],
+      "${ elementsCount } conversation will be moved": [
+        "Es mourà ${ elementsCount } conversa.",
+        "Es mouran ${ elementsCount } converses."
+      ],
+      "${ elementsCount } conversation will be unlabelled from:": [
+        "${ elementsCount } conversa no tindrà aquesta etiqueta:",
+        "${ elementsCount } converses no tindran aquesta etiqueta:"
+      ],
+      "${ elementsCount } message will be labelled as:": [
+        "${ elementsCount } missatge s'etiquetarà com a:",
+        "${ elementsCount } missatges s'etiquetaran com a:"
+      ],
+      "${ elementsCount } message will be marked as read.": [
+        "${ elementsCount } missatge es marcarà com a llegit.",
+        "${ elementsCount } missatges es marcaran com a llegits."
+      ],
+      "${ elementsCount } message will be marked as unread.": [
+        "${ elementsCount } missatge es marcarà com a no llegit.",
+        "${ elementsCount } missatges es marcaran com a no llegits."
+      ],
+      "${ elementsCount } message will be moved": [
+        "Es mourà ${ elementsCount } missatge.",
+        "Es mouran ${ elementsCount } missatges."
+      ],
+      "${ elementsCount } message will be unlabelled from:": [
+        "${ elementsCount } missatge no tindrà aquesta etiqueta:",
+        "${ elementsCount } missatges no tindran aquesta etiqueta:"
+      ],
+      "Applying actions to conversations": [
+        "S'estan aplicant les accions a les converses"
+      ],
+      "Applying actions to messages": [
+        "S'estan aplicant les accions als missatges"
+      ],
+      "Are you sure you want to move all messages in this location to archive?": [
+        "Segur que voleu moure tots els missatges d'aquesta ubicació a l'arxiu?"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Elimina totes les dades associades amb aquesta aplicació, incloent-hi els missatges baixats."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Aquest missatge s'eliminarà automàticament a les ${ value }."
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Açò elimina totes les dades associades amb aquesta app, incloent-hi els missatges baixats. L'app es reiniciarà i hauràs de tornar a iniciar sessió per a fer-la servir."
+      ],
+      "You selected **${ elementsCount } conversation** in ${ location }": [
+        "Heu seleccionat **${ elementsCount } conversa** a ${ location }.",
+        "Heu seleccionat **${ elementsCount } converses** a ${ location }."
+      ],
+      "You selected **${ elementsCount } conversation**.": [
+        "Heu seleccionat **${ elementsCount } conversa**.",
+        "Heu seleccionat **${ elementsCount } converses**."
+      ],
+      "You selected **${ elementsCount } message** in ${ location }": [
+        "Heu seleccionat **${ elementsCount } missatge** a ${ location }.",
+        "Heu seleccionat **${ elementsCount } missatges** a ${ location }."
+      ],
+      "You selected **${ elementsCount } message**.": [
+        "Heu seleccionat **${ elementsCount } missatge**.",
+        "Heu seleccionat **${ elementsCount } missatges**."
       ]
     },
     "info": {
@@ -8918,6 +9006,12 @@
       ],
       "Alias saved and copied": [
         "S'ha desat i copiat l'àlies."
+      ],
+      "Alias copied to clipboard": [
+        "L'àlies s'ha copiat al porta-retalls."
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Els darrers àlies modificats s'emmagatzemen a la vostra caixa forta més antiga"
       ]
     },
     "Success notification": {
@@ -9649,6 +9743,21 @@
       ],
       "Security center": [
         "Centre de seguretat"
+      ],
+      "A filter name is required": [
+        "Es requereix un nom per al filtre."
+      ],
+      "A filter with this name already exists": [
+        "Ja hi ha un filtre amb aquest nom."
+      ],
+      "Mark conversations as unread": [
+        "Marca les converses com a no llegides"
+      ],
+      "Move all messages to archive": [
+        "Mou tots els missatges a Arxiu"
+      ],
+      "Move all messages to trash": [
+        "Mou tots els missatges a la paperera"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9760,6 +9869,10 @@
       "Try a shorter username (${ n } character max)": [
         "Proveu amb un nom d'usuari més curt (${ n } caràcter màx.)",
         "Proveu amb un nom d'usuari més curt (${ n } caràcters màx.)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "La contrasenya ha de tenir com a mínim ${ MIN_PASSWORD_LENGTH } caràcter",
+        "La contrasenya ha de tenir com a mínim ${ MIN_PASSWORD_LENGTH } caràcters"
       ]
     },
     "Video control": {
@@ -10138,6 +10251,9 @@
       ],
       "Create an alias": [
         "Crea un àlies"
+      ],
+      "Protect your online identity": [
+        "Protegiu la vostra identitat en línia"
       ]
     },
     "storage_split: info": {
@@ -10152,6 +10268,15 @@
       ],
       "Your ${ appStorage } is full": [
         "El vostre ${ appStorage } és ple."
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ple al ${ percentage }%"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "El vostre emmagatzematge de ${ appStorage } està gairebé ple."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "L'emmagatzematge és ple. ${ cta }."
       ]
     },
     "Security Center - Action": {
@@ -10162,6 +10287,60 @@
     "Payments": {
       "Billing Country": [
         "País de facturació"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Esborrat"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "14 dies de prova de l'aplicació d'escriptori"
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Obtingui accés il·limitat amb qualsevol pla de ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "No es requereix targeta de crèdit."
+      ],
+      "Try the app-new desktop app": [
+        "Provi la nova aplicació d'escriptori"
+      ],
+      "Upgrade now": [
+        "Millora ara"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Inicieu la prova gratuïta"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicació d'escriptori de ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adreces de correu electrònic"
+      ],
+      "Support for 1 custom email domain": [
+        "Suport per a 1 domini de correu personalitzat"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Carpetes, etiquetes i filtres il·limitats"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(obrirà ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mes"
       ]
     }
   }

@@ -1202,10 +1202,19 @@
         "Créer et copier l'alias"
       ],
       "Toggle security center app": [
-        "Activer/Désactiver l'application du centre de sécurité"
+        "Activer l'application du centre de sécurité"
       ],
       "Upgrade Now": [
         "Passer à l'abonnement supérieur"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Votre essai gratuit de l'application de bureau se termine dans 2 jours. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Votre essai gratuit de l'application de bureau se termine dans 5 jours. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Votre essai gratuit de l'application de bureau se termine le ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3126,7 +3135,7 @@
         "L'authentification A2F ajoute une couche de sécurité supplémentaire, empêchant tout accès non autorisé."
       ],
       "Designed for users seeking heightened protection for their accounts.": [
-        "Conçu pour les utilisateurs recherchant une protection accrue de leurs comptes."
+        "Conçu pour les utilisateurs qui ont besoin d'une protection renforcée de leurs comptes."
       ],
       "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
         "Obtenez un nombre illimité d'alias et 500 Go d'espace de stockage avec l'offre groupée ${ PLAN_NAMES[PLANS.BUNDLE] }."
@@ -3172,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Description : ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIPTION :\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3186,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Vous êtes invité à ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } a été annulé."
+      ],
+      "All events in this series were updated.": [
+        "Tous les événements de cette série ont été mis à jour."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tous les événements de cette série ont été mis à jour. Voici ce qui a été modifié :\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "L'occurrence de cet événement a été annulée."
+      ],
+      "This event occurrence was updated.": [
+        "L'occurrence de cet événement a été mise à jour."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "L'occurrence de cet événement a été mise à jour. Voici ce qui a été modifié :\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Cet événement a été mis à jour."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Cet événement a été mis à jour. Voici ce qui a été modifié :\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Vous êtes invité à ${ eventTitle }\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3197,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Quand : ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "HORAIRE : \n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "HORAIRE :\n${ formattedStart } (toute la journée)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "HORAIRE : \n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Où : ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LIEU : \n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3213,6 +3264,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } a provisoirement accepté votre invitation à ${ eventTitle }."
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } a accepté votre invitation à ${ eventTitle }."
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } a refusé votre invitation à ${ eventTitle }."
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } a accepté provisoirement votre invitation à ${ eventTitle }."
       ]
     },
     "Email reminder banner": {
@@ -3729,13 +3789,13 @@
         "L'alias n'est pas valide."
       ],
       "Alias is required": [
-        "Le champ Alias est requis."
+        "L'alias est requis."
       ],
       "Alias options could not be resolved": [
         "Les options d'alias n'ont pas pu être obtenues."
       ],
       "Aliases could not be loaded": [
-        "Les alias n'ont pas pu être chargés."
+        "Les alias n'ont pu être chargés."
       ],
       "An error occurred while loading alias options": [
         "Une erreur s’est produite lors du chargement des options de l'alias."
@@ -3759,7 +3819,7 @@
         "Le champ Nom est requis."
       ],
       "An error occurred while saving your alias": [
-        "Une erreur est survenue lors de l'enregistrement de votre alias"
+        "Une erreur est survenue lors de l'enregistrement de votre alias."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4530,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Vous avez débloqué 1 Go."
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Félicitations ! Vous avez terminé toutes les étapes."
+      ],
+      "Congratulations, you finished!": [
+        "Félicitations ! Vous avez terminé."
       ]
     },
     "Gmail forwarding": {
@@ -5817,7 +5883,7 @@
         "Sécurisez vos fichiers avec un stockage cloud chiffré, gratuitement, dès aujourd'hui."
       ],
       "Seems like you are all caught up for now": [
-        "Vous êtes tout à fait à jour pour le moment."
+        "Vous êtes à jour."
       ],
       "Select a service provider to start": [
         "Commencez par sélectionner un service"
@@ -6371,10 +6437,10 @@
         "Votre numéro de téléphone ne sera utilisé que pour cette vérification."
       ],
       "Are you sure you want to move all messages in this location to archive?": [
-        "Voulez-vous vraiment déplacer tous les messages de cet emplacement dans le dossier Archives ?"
+        "Voulez-vous vraiment déplacer tous les messages de cet emplacement vers le dossier Archives ?"
       ],
       "Are you sure you want to move all messages in this location to trash?": [
-        "Voulez-vous vraiment déplacer tous les messages de cet emplacement dans le dossier Corbeille ?"
+        "Voulez-vous vraiment déplacer tous les messages de cet emplacement vers le dossier Corbeille ?"
       ],
       "Clear app data": [
         "Effacer les données de l'application"
@@ -6395,7 +6461,7 @@
         "Cette action supprime toutes les données associées à cette application, y compris les messages téléchargés. L'application va redémarrer et vous devrez vous reconnecter pour l'utiliser."
       ],
       "This message will be automatically deleted at ${ value }": [
-        "Ce message sera automatiquement supprimé à ${ value }."
+        "Ce message sera supprimé automatiquement à ${ value }."
       ]
     },
     "info": {
@@ -7123,7 +7189,7 @@
         "Titre"
       ],
       "Your alias": [
-        "Vos alias"
+        "Votre alias"
       ],
       "e.g., Amazon, eBay, Etsy": [
         "par exemple Amazon, eBay ou Etsy"
@@ -8197,7 +8263,7 @@
     },
     "Search - no results": {
       "No messages found": [
-        "Aucun message n'a été trouvé."
+        "Aucun message"
       ],
       "No messages scheduled": [
         "Aucun message n'est programmé."
@@ -8842,10 +8908,10 @@
         "${ storage } plein à ${ percentage } %"
       ],
       "contact your administrator": [
-        "contacter votre administrateur"
+        "contactez votre administrateur"
       ],
       "To continue uploading and syncing files, free up space or upgrade for more storage.": [
-        "Pour continuer à importer et synchroniser vos fichiers, veuillez libérer de l'espace en supprimant des fichiers ou changer d'abonnement pour obtenir davantage d'espace de stockage."
+        "Pour continuer à importer ou synchroniser vos fichiers, libérez de l'espace ou changer d'abonnement pour en obtenir davantage."
       ],
       "To send or receive emails, free up space or upgrade for more storage.": [
         "Pour envoyer ou recevoir des messages, veuillez libérer de l'espace de stockage ou changer d'abonnement pour augmenter votre espace de stockage."
@@ -9159,6 +9225,9 @@
       ],
       "Alias saved and copied": [
         "L'alias a été enregistré et copié."
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Derniers alias modifiés stockés dans votre coffre-fort le plus ancien"
       ]
     },
     "Success notification": {
@@ -9173,7 +9242,7 @@
     },
     "summer2023: Tooltip": {
       "Create secure login details on all your devices. Includes unlimited aliases, 20 vaults, integrated 2FA, credit card auto-fill and more.": [
-        "Créez des identifiants de connexion sécurisés sur tous vos appareils. Profitez d'un nombre illimité d'alias, de 20 coffres-forts, de l'authentification à deux facteurs (2FA) intégrée, du remplissage automatique des cartes de paiement et de bien d'autres fonctionnalités."
+        "Créez des identifiants de connexion sécurisés sur tous vos appareils. Profitez d'un nombre illimité d'alias, de 20 coffres-forts, de l'authentification à deux facteurs (A2F) intégrée, du remplissage automatique des cartes de paiement et de bien d'autres fonctionnalités."
       ],
       "Includes 2950+ servers in 65+ countries, connect up to 10 devices, access worldwide streaming services, malware and ad-blocker, and more.": [
         "Comprend plus de 2 950 serveurs répartis dans plus de 65 pays, la possibilité de connecter jusqu'à 10 appareils, l'accès aux services de streaming du monde entier, un bloqueur de logiciels malveillants et de publicités et bien d'autres fonctionnalités."
@@ -9898,7 +9967,7 @@
         "Récupération de données"
       ],
       "Enable 2FA": [
-        "Activer l'authentification à deux facteurs (2FA)"
+        "Activer l'authentification à deux facteurs (A2F)"
       ],
       "Get advanced protection": [
         "Obtenir une protection avancée"
@@ -9910,7 +9979,7 @@
         "Déplacer tous les messages dans le dossier Corbeille"
       ],
       "Need more aliases?": [
-        "Besoin d'alias supplémentaires ?"
+        "Besoin de plus d'alias ?"
       ],
       "Security center": [
         "Centre de sécurité"
@@ -10441,10 +10510,10 @@
         "Créer des alias à la demande et gérer facilement vos alias et mots de passe."
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Les alias hide-my-email vous permettent de vous inscrire à des sites ou newsletters sans partager votre adresse e-mail. ${ learnMoreLink }"
+        "Les alias « hide-my-email » vous permettent de vous inscrire à des sites ou newsletters sans partager votre adresse e-mail. ${ learnMoreLink }"
       ],
       "Used on amazon for shopping, etc.": [
-        "Utilisé sur Amazon pour vos achats, etc."
+        "Par exemple, à utiliser sur des sites marchands comme Amazon pour vos achats, etc."
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Lorsque vous devez renseigner votre adresse e-mail, donnez cet alias à la place. Ajoutez un titre et une note pour suivre l'endroit où vous l'utilisez."
@@ -10460,7 +10529,7 @@
     },
     "Security Center - Info": {
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
-        "Notre solution de sécurité de pointe pilotée par IA a été conçue pour les utilisateurs recherchant une protection accrue de leurs comptes. ${ learnMoreLink }"
+        "Notre solution de sécurité de pointe utilise l'IA et est conçue pour les utilisateurs qui ont besoin d'une protection renforcée de leurs comptes. ${ learnMoreLink }"
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel est **actif** et protège votre compte."
@@ -10474,11 +10543,98 @@
     "Free trial desktop": {
       "Upgrade now": [
         "Changer d'abonnement"
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "Application de bureau ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "14 jours d'essai de l'application de bureau."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Profitez d'un accès rapide, sécurisé et sans distraction à votre boîte de réception et votre calendrier."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Obtenez un accès illimité avec l'un des forfaits payants ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Aucune carte bancaire nécessaire."
+      ],
+      "Try the app-new desktop app": [
+        "Essayez la nouvelle application de bureau"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Essai gratuit de 14 jours"
+      ],
+      "Start free trial": [
+        "Essayez la nouvelle application"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Retiré"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "J'en profite"
+      ],
+      "Special Offer": [
+        "Offre spéciale"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Application de bureau ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adresses e-mail"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Suppression automatique des messages dans les dossiers Indésirables/spam et Corbeille"
+      ],
+      "Custom schedule send and snooze times": [
+        "Personnalisation de l'heure d'envoi et de la période de mise en attente"
+      ],
+      "Support for 1 custom email domain": [
+        "Prise en charge d'un domaine de messagerie personnalisé"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Nombre illimité de dossiers, labels et filtres"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Renouvellement au prix de ${ renewablePrice } avec possibilité de résiliation à tout moment"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "pour le premier mois"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Offre à durée limitée qui se termine le 2 avril 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Obtenez ${ planName } pour seulement ${ planPrice }."
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Certaines images n'ont pas été importées car la sélection en cours comporte des noms de fichier dupliqués."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(ceci ouvrira ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mois"
       ]
     }
   }

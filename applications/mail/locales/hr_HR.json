@@ -6826,6 +6826,11 @@
         "Lozinka mora sadržavati najmanje ${ length } znak",
         "Lozinka mora sadržavati najmanje ${ length } znaka",
         "Lozinka mora sadržavati najmanje ${ length } znakova"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Lozinka mora sadržavati najmanje ${ MIN_PASSWORD_LENGTH } znak",
+        "Lozinka mora sadržavati najmanje ${ MIN_PASSWORD_LENGTH } znakova",
+        "Lozinka mora sadržavati najmanje ${ MIN_PASSWORD_LENGTH } znakova"
       ]
     },
     "Warning": {
@@ -7160,6 +7165,16 @@
     "Security Center": {
       "Open ${ PASS_APP_NAME }": [
         "Otvori ${ PASS_APP_NAME }"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 adrese e-pošte"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mjesec"
       ]
     }
   }

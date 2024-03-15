@@ -4326,6 +4326,12 @@
       ],
       "You've unlocked 1 GB": [
         "Ön feloldott 1 GB-ot"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Gratulálunk, minden lépést teljesített!"
+      ],
+      "Congratulations, you finished!": [
+        "Gratulálunk, befejezte!"
       ]
     },
     "Gmail forwarding": {
@@ -9372,6 +9378,10 @@
       "Try a shorter username (${ n } character max)": [
         "Próbáljon egy rövidebb felhasznlónevet használni (maximum ${ n } karakter)",
         "Próbáljon egy rövidebb felhasznlónevet használni (maximum ${ n } karakter)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "A jelszónak legalább ${ MIN_PASSWORD_LENGTH } karakterből kell állnia",
+        "A jelszónak legalább ${ MIN_PASSWORD_LENGTH } karakterből kell állnia"
       ]
     },
     "Video control": {
@@ -9732,6 +9742,32 @@
       ],
       "Your storage is full": [
         "A tárhelye megtelt"
+      ]
+    },
+    "Free trial desktop": {
+      "No credit card required.": [
+        "Nincs szükség bankkártya megadására."
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 e-mail cím"
+      ],
+      "Support for 1 custom email domain": [
+        "Egy saját e-mail domain név használata"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Korlátlan számú mappa, címke és szűrő"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Néhány képet nem sikerült feltölteni, mert az aktuális kiválasztásban duplikált fájlnevek voltak."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/hó"
       ]
     }
   }

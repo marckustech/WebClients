@@ -8360,6 +8360,10 @@
       "Password must contain at least ${ length } character": [
         "Awal uffir ilaq ad isɛu ma drus ${ length } n usekkil",
         "Awal uffir ilaq ad isɛu ma drus ${ length } n yisekkilen"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Awal uffir ilaq ad isɛu ma drus ${ MIN_PASSWORD_LENGTH } n usekkil",
+        "Awal uffir ilaq ad isɛu ma drus ${ MIN_PASSWORD_LENGTH } n yisekkilen"
       ]
     },
     "Video control": {
@@ -8728,6 +8732,24 @@
       ],
       "Your storage is full": [
         "Aḥraz-ik yeččuṛ"
+      ]
+    },
+    "Free trial desktop": {
+      "No credit card required.": [
+        "Ulac takarḍa n usmad yettwasran."
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 n tansiwin imayl"
+      ],
+      "Support for 1 custom email domain": [
+        "Asefrek i 1 taɣult n yimayl udmawan"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/ayyur"
       ]
     }
   }

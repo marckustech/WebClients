@@ -114,7 +114,7 @@
         "Huomiota vaaditaan"
       ],
       "Authenticate": [
-        "Todenna"
+        "Tunnistaudu"
       ],
       "Back": [
         "Takaisin"
@@ -1203,6 +1203,18 @@
       ],
       "Select country": [
         "Valitse maa"
+      ],
+      "Upgrade Now": [
+        "Päivitä tilaus nyt"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Työpöytäsovelluksen ilmainen kokeilujaksosi päättyy 2 päivän kuluttua. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Työpöytäsovelluksen ilmainen kokeilujaksosi päättyy 5 päivän kuluttua. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Työpöytäsovelluksen ilmainen kokeilujaksosi päättyy ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -1531,25 +1543,25 @@
     },
     "Calendar invite info": {
       "${ participantName } accepted an invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } hyväksyi kutsun ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } hyväksyi kutsun ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } accepted an invitation and proposed a new time for this event.": [
         "${ participantName } hyväksyi kutsun ja ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } accepted an invitation to one occurrence of the event.": [
-        "${ participantName } hyväksyi kutsun ketjun yhteen tapahtumaan."
+        "${ participantName } hyväksyi kutsun ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } accepted an invitation to this event.": [
         "${ participantName } hyväksyi kutsun tapahtumaan."
       ],
       "${ participantName } accepted your invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } hyväksyi kutsusi ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } hyväksyi kutsusi ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } accepted your invitation and proposed a new time for this event.": [
         "${ participantName } hyväksyi kutsusi ja ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } accepted your invitation to one occurrence of the event.": [
-        "${ participantName } hyväksyi kutsusi ketjun yhteen tapahtumaan."
+        "${ participantName } hyväksyi kutsusi ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } accepted your invitation.": [
         "${ participantName } hyväksyi kutsusi."
@@ -1567,19 +1579,19 @@
         "${ participantName } tiedusteli viimeisimpiä muutoksia tapahtumaan, joka ei vastaa kutsusi tietoja. Vahvista kutsun tiedot kalenterissasi."
       ],
       "${ participantName } declined an invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } kieltäytyi kutsusta ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } kieltäytyi kutsusta ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } declined an invitation and proposed a new time for this event.": [
         "${ participantName } kieltäytyi kutsusta ja ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } declined an invitation to one occurrence of the event.": [
-        "${ participantName } kieltäytyi kutsusta ketjun yhteen tapahtumaan."
+        "${ participantName } kieltäytyi kutsusta ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } declined an invitation to this event.": [
         "${ participantName } kieltäytyi kutsusta tapahtumaan."
       ],
       "${ participantName } declined your invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } kieltäytyi kutsustasi ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } kieltäytyi kutsustasi ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } declined your invitation and proposed a new time for this event.": [
         "${ participantName } kieltäytyi kutsustasi ja ehdotti tapahtumalle uutta aikaa."
@@ -1591,67 +1603,67 @@
         "${ participantName } kieltäytyi kutsustasi."
       ],
       "${ participantName } had accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli hyväksynyt kutsun ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli hyväksynyt kutsun ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli hyväksynyt kutsun ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had accepted an invitation to one occurrence of the event.": [
-        "${ participantName } hyväksyi kutsun ketjun yhteen tapahtumaan."
+        "${ participantName } hyväksyi kutsun ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had accepted an invitation to this event.": [
         "${ participantName } oli hyväksynyt kutsun tapahtumaan."
       ],
       "${ participantName } had accepted your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli hyväksynyt kutsusi ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli hyväksynyt kutsusi ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had accepted your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli hyväksynyt kutsusi ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had declined an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli kieltäytynyt kutsusta ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli kieltäytynyt kutsusta ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had declined an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli kieltäytynyt kutsusta ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had declined an invitation to one occurrence of the event.": [
-        "${ participantName } oli kieltäytynyt kutsusta ketjun yhteen tapahtumaan."
+        "${ participantName } oli kieltäytynyt kutsusta ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had declined an invitation to this event.": [
         "${ participantName } oli kieltäytynyt kutsusta tapahtumaan."
       ],
       "${ participantName } had declined your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli kieltäytynyt kutsustasi ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli kieltäytynyt kutsustasi ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had declined your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli kieltäytynyt kutsustasi ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had previously accepted your invitation to one occurrence of the event.": [
-        "${ participantName } oli aiemmin hyväksynyt kutsusi ketjun yhteen tapahtumaan."
+        "${ participantName } oli aiemmin hyväksynyt kutsusi ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had previously accepted your invitation.": [
         "${ participantName } oli aiemmin hyväksynyt kutsusi."
       ],
       "${ participantName } had previously declined your invitation to one occurrence of the event.": [
-        "${ participantName } oli aiemmin kieltäytynyt kutsustasi ketjun yhteen tapahtumaan."
+        "${ participantName } oli aiemmin kieltäytynyt kutsustasi ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had previously declined your invitation.": [
         "${ participantName } oli aiemmin kieltäytynyt kutsustasi."
       ],
       "${ participantName } had previously tentatively accepted your invitation to one occurrence of the event.": [
-        "${ participantName } oli aiemmin alustavasti hyväksynyt kutsusi ketjun yhteen tapahtumaan."
+        "${ participantName } oli aiemmin alustavasti hyväksynyt kutsusi ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had previously tentatively accepted your invitation.": [
         "${ participantName } oli aiemmin alustavasti hyväksynyt kutsusi."
       ],
       "${ participantName } had proposed a new time for one occurrence of this event. This proposal is out of date.": [
-        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Ehdotus on vanhentunut."
+        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Ehdotus on vanhentunut."
       ],
       "${ participantName } had proposed a new time for one occurrence of this event. This proposal is out of date. The event does not exist in your calendar anymore.": [
-        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Ehdotus on vanhentunut. Tapahtumaa ei enää ole kalenterissasi."
+        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Ehdotus on vanhentunut. Tapahtumaa ei enää ole kalenterissasi."
       ],
       "${ participantName } had proposed a new time for one occurrence of this event. This proposal is out of date. You have no calendars.": [
-        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Ehdotus on vanhentunut. Sinulla ei ole kalentereita."
+        "${ participantName } oli ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Ehdotus on vanhentunut. Sinulla ei ole kalentereita."
       ],
       "${ participantName } had proposed a new time for this event. This proposal is out of date.": [
         "${ participantName } oli ehdottanut tapahtumalle uutta aikaa. Ehdotus on vanhentunut."
@@ -1663,19 +1675,19 @@
         "${ participantName } oli ehdottanut tapahtumalle uutta aikaa. Ehdotus on vanhentunut. Sinulla ei ole kalentereita."
       ],
       "${ participantName } had tentatively accepted an invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli alustavasti hyväksynyt kutsun ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli alustavasti hyväksynyt kutsun ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had tentatively accepted an invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli alustavasti hyväksynyt kutsun ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had tentatively accepted an invitation to one occurrence of the event.": [
-        "${ participantName } oli alustavasti hyväksynyt kutsun ketjun yhteen tapahtumaan."
+        "${ participantName } oli alustavasti hyväksynyt kutsun ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } had tentatively accepted an invitation to this event.": [
         "${ participantName } oli alustavasti hyväksynyt kutsun tapahtumaan."
       ],
       "${ participantName } had tentatively accepted your invitation and proposed a new time for one occurrence of this event. Answer and proposal are out of date.": [
-        "${ participantName } oli alustavasti hyväksynyt kutsusi ja ehdottanut ketjun yhdelle tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
+        "${ participantName } oli alustavasti hyväksynyt kutsusi ja ehdottanut ketjun yhdelle tapahtumakerralle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
       ],
       "${ participantName } had tentatively accepted your invitation and proposed a new time for this event. Answer and proposal are out of date.": [
         "${ participantName } oli alustavasti hyväksynyt kutsusi ja ehdottanut tapahtumalle uutta aikaa. Vastaus ja ehdotus ovat vanhentuneet."
@@ -1684,31 +1696,31 @@
         "${ participantName } ei ole osallistujaluettelossa."
       ],
       "${ participantName } proposed a new time for one occurrence of this event.": [
-        "${ participantName } ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } proposed a new time for this event.": [
         "${ participantName } ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } tentatively accepted an invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } hyväksyi kutsun alustavasti ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } hyväksyi kutsun alustavasti ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } tentatively accepted an invitation and proposed a new time for this event.": [
         "${ participantName } hyväksyi kutsun alustavasti ja ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } tentatively accepted an invitation to one occurrence of the event.": [
-        "${ participantName } hyväksyi alustavasti kutsun ketjun yhteen tapahtumaan."
+        "${ participantName } hyväksyi alustavasti kutsun ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } tentatively accepted an invitation to this event.": [
         "${ participantName } hyväksyi alustavasti kutsun tapahtumaan."
       ],
       "${ participantName } tentatively accepted your invitation and proposed a new time for one occurrence of this event.": [
-        "${ participantName } hyväksyi kutsusi alustavasti ja ehdotti ketjun yhdelle tapahtumalle uutta aikaa."
+        "${ participantName } hyväksyi kutsusi alustavasti ja ehdotti ketjun yhdelle tapahtumakerralle uutta aikaa."
       ],
       "${ participantName } tentatively accepted your invitation and proposed a new time for this event.": [
         "${ participantName } hyväksyi kutsusi alustavasti ja ehdotti tapahtumalle uutta aikaa."
       ],
       "${ participantName } tentatively accepted your invitation to one occurrence of the event.": [
-        "${ participantName } hyväksyi alustavasti kutsusi ketjun yhteen tapahtumaan."
+        "${ participantName } hyväksyi alustavasti kutsusi ketjun yhteen tapahtumakertaan."
       ],
       "${ participantName } tentatively accepted your invitation.": [
         "${ participantName } hyväksyi kutsusi alustavasti."
@@ -1717,7 +1729,7 @@
         "(osallistuminen on vapaaehtoista)"
       ],
       "Adding occurrences to an event is not supported for the moment": [
-        "Tapahtumakerran lisäystä ketjuun ei vielä tueta."
+        "Tapahtumakertojen lisäystä ei toistaiseksi tueta"
       ],
       "Event refreshing is not supported for the moment": [
         "Tapahtumapäivityksiä ei toistaiseksi tueta"
@@ -1726,7 +1738,7 @@
         "Tapahtuman uudelleenajoitusta ei vielä tueta"
       ],
       "This answer cannot be added to ${ CALENDAR_APP_NAME } as we only support answers to all events of a series for the moment": [
-        "Vastausta ei voida lisätä ${ CALENDAR_APP_NAME }iin, koska toistaiseksi tuetaan vain vastaamista vain ketjun kaikkiin tapahtumiin"
+        "Vastausta ei voida lisätä ${ CALENDAR_APP_NAME }iin, koska toistaiseksi tuetaan vastaamista vain ketjun kaikkiin tapahtumiin"
       ],
       "This event has been canceled.": [
         "Tapahtuma on peruttu."
@@ -3169,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Kuvaus: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "KUVAUS:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3183,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sinut on kutsuttu tapahtumaan ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } peruttiin."
+      ],
+      "All events in this series were updated.": [
+        "Kaikki tämän sarjan tapahtumat päivitettiin."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Kaikki sarjan tapahtumat päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Tämä tapahtuma peruttiin."
+      ],
+      "This event occurrence was updated.": [
+        "Tämä tapahtuma päivitettiin."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tämä tapahtuma päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Tämä tapahtuma päivitettiin."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tämä tapahtuma päivitettiin. Muutokset:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Sinut on kutsuttu tapahtumaan ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3194,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "AIka: ${ formattedStart } – ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "AIKA:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "AIKA:\n${ formattedStart } (koko päivä)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "AIKA:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Sijainti: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "SIJAINTI:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3209,6 +3263,15 @@
         "${ emailAddress } kieltäytyi kutsustasi tapahtumaan ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } hyväksyi alustavasti kutsusi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } hyväksyi kutsusi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } kieltäytyi kutsustasi tapahtumaan ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } hyväksyi alustavasti kutsusi tapahtumaan ${ eventTitle }"
       ]
     },
@@ -3460,7 +3523,7 @@
         "Sukunimi on liian pitkä"
       ],
       "Maximum expiration time reached.": [
-        "Korkein erääntymisaika on saavutettu."
+        "Pisin mahdollinen tuhoutumisaika on saavutettu."
       ],
       "Maximum number of attachments (${ attachmentsCountLimit }) exceeded": [
         "Liitteiden enimmäismäärä (${ attachmentsCountLimit }) on ylitetty"
@@ -3750,10 +3813,13 @@
         "Väitysosoite vaaditaan"
       ],
       "Item content cannot exceed 40KB": [
-        "Kohteen sisältö ei saa ylittää 40 kt"
+        "Kohteen sisällön koko ei saa ylittää 40 kt"
       ],
       "Name is required": [
         "Nimi on pakollinen"
+      ],
+      "An error occurred while saving your alias": [
+        "Aliaksesi tallentamisessa tapahtui virhe"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -3917,7 +3983,7 @@
         "Ilmoitus on alueen ulkopuolella"
       ],
       "Original recurring event could not be found": [
-        "Ketjun alkuperäistä toistuvaa tapahtumaa ei löytynyt"
+        "Ketjun alkuperäistä tapahtumaa ei löytynyt"
       ],
       "Recurring event has no occurrences": [
         "Toistuva tapahtuma ei sisällä tapahtumakertoja"
@@ -4524,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Olet vapauttanut 1 Gt"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Onnittelut, olet suorittanut kaikki vaiheet!"
+      ],
+      "Congratulations, you finished!": [
+        "Onnittelut, olet valmis!"
       ]
     },
     "Gmail forwarding": {
@@ -5582,7 +5654,7 @@
         "Viestin lataustila:"
       ],
       "Message expiration works out-of-the-box when sending emails to other ${ MAIL_APP_NAME } users. To send expiring emails to non-${ BRAND_NAME } users, please cancel and add password protection to your email.": [
-        "Viestin tuhoutuminen toimii heti lähetettäessä viestejä muille ${ MAIL_APP_NAME } -käyttäjille. Lähettääksesi tuhoutuvia viestejä ${ BRAND_NAME }in ulkopuolisille käyttäjille, peru lähetys ja suojaa viesti salasanalla."
+        "Viestin tuhoutuminen toimii suoraan lähetettäessä viestejä muille ${ MAIL_APP_NAME } -käyttäjille. Lähettääksesi tuhoutuvia viestejä ${ BRAND_NAME }in ulkopuolisille käyttäjille, peru lähetys ja suojaa viesti salasanalla."
       ],
       "Message headers": [
         "Viestin otsakkeet"
@@ -6387,6 +6459,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Tämä poistaa kaikki tähän sovellukseen liittyvät tiedot, mukaan lukien ladatut viestit. Sovellus käynnistyy uudelleen, ja sinun on kirjauduttava sisään uudelleen, jotta voit käyttää sitä."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Tämä tuhoutuu automaattisesti klo ${ value }"
       ]
     },
     "info": {
@@ -8781,6 +8856,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Luo hide-my-email-aliaksia ja pidä niistä kirjaa täällä."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Käynnistä ${ MAIL_APP_NAME } kätevästi suoraan työpöydältäsi."
+      ],
+      "Get the desktop app": [
+        "Hanki työpöytäsovellus"
       ]
     },
     "Status": {
@@ -9764,7 +9845,7 @@
         "Lähetysvirhe"
       ],
       "Sending notice": [
-        "Lähetetään ilmoitusta"
+        "Lähetysilmoitus"
       ],
       "Sending original message": [
         "Alkuperäinen viesti lähetetään"
@@ -10016,6 +10097,10 @@
       "Try a shorter username (${ n } character max)": [
         "Kokeile lyhyempää käyttäjätunnusta (enintään ${ n } merkki)",
         "Kokeile lyhyempää käyttäjätunnusta (enintään ${ n } merkkiä)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Salasanan täytyy sisältää ainakin ${ MIN_PASSWORD_LENGTH } merkki",
+        "Salasanan täytyy sisältää vähintään ${ MIN_PASSWORD_LENGTH }-merkkiä"
       ]
     },
     "Video control": {
@@ -10421,6 +10506,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Kun sinua pyydetään antamaan sähköpostiosoitteesi, anna sen sijaan tämä alias. Lisää sille nimi ja muistiinpano, jotta voit seurata, missä käytät sitä."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Kun sinulta kysytään sähköpostiosoitettasi, anna sen sijaan tämä alias. Aliakset tarjoaa ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10439,6 +10527,105 @@
     "Payments": {
       "Billing Country": [
         "Laskutusmaa"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Lataa ${ MAIL_APP_NAME } -työpöytäsovellus"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Poistettu"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } -työpöytäsovellus"
+      ],
+      "14-day destkop app trial.": [
+        "14 päivän työpöytäsovelluksen kokeilujakso."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Nauti nopeasta, turvallisesta ja häiriötekijöistä vapaasta pääsystä postilaatikkoosi ja kalenteriisi."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Saat rajattoman pääsyn millä tahansa ${ MAIL_APP_NAME } -tilauksella."
+      ],
+      "No credit card required.": [
+        "Luottokorttia ei tarvita."
+      ],
+      "Try the app-new desktop app": [
+        "Kokeile uutta työpäytäsovellusta"
+      ],
+      "Upgrade now": [
+        "Päivitä nyt"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Aloita ilmainen kokeilu"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Hanki tarjous"
+      ],
+      "Special Offer": [
+        "Erikoistarjous"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } -työpöytäsovellus"
+      ],
+      "10 email addresses": [
+        "10 sähköpostiosoitetta"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Tyhjennä roskaposti ja roskakori automaattisesti"
+      ],
+      "Custom schedule send and snooze times": [
+        "Aseta mukautetut lähetys- ja torkutusajat"
+      ],
+      "Support for 1 custom email domain": [
+        "1 oma sähköpostiverkkotunnus"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Rajattomasti kansioita, tunnisteita ja suodattimia"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Uusitaan hintaan ${ renewablePrice }, peruuta milloin tahansa"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "ensimmäisen kuukauden ajan"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Rajoitetun ajan tarjous, päättyy 2. huhtikuuta 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Hanki ${ planName } -tilaus, nyt vain ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Joitain kuvia ei lähetetty, koska nykyinen valinta sisältää päällekkäisiä tiedostonimiä."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(avaa ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/kuukausi"
       ]
     }
   }

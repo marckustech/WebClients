@@ -1203,6 +1203,15 @@
       ],
       "Upgrade Now": [
         "Fazer upgrade agora"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Sua avaliação gratuita do aplicativo de computador termina em 2 dias. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Sua avaliação gratuita do aplicativo de computador termina em 5 dias. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Sua avaliação gratuita do aplicativo de computador termina em ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3114,16 +3123,16 @@
         "Você pode marcar para exclusão os contatos que não quer mesclar nem manter. A exclusão somente ocorrerá após o botão de mesclagem ser clicado"
       ],
       "2FA adds an extra security layer, preventing unauthorized access.": [
-        "O 2FA adiciona uma camada extra de segurança, prevenindo acesso não autorizado."
+        "A A2F adiciona uma camada extra de segurança, prevenindo acesso não autorizado."
       ],
       "Designed for users seeking heightened protection for their accounts.": [
-        "Projetado para usuários que buscam proteção aumentada para suas contas."
+        "Projetado para usuários que buscam proteção reforçada para suas contas."
       ],
       "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
         "Obtenha infinitos aliases e 500 GB de armazenamento com ${ PLAN_NAMES[PLANS.BUNDLE] }"
       ],
       "Set a data recovery method to prevent data loss.": [
-        "Defina um método de recuperação de dados para prevenir a perda dos dados."
+        "Defina um método de recuperação para prevenir a perda de dados."
       ],
       "Set a recovery method to prevent losing access to your account.": [
         "Defina um método de recuperação para prevenir a perda de acesso à sua conta."
@@ -3132,7 +3141,7 @@
         "Faça upgrade na sua conta para ativar ${ PROTON_SENTINEL_NAME }, nossa solução de segurança de última geração orientada por IA, com suporte dedicado de especialistas 24/7."
       ],
       "Your account and data recovery methods are set and 2FA is enabled.": [
-        "Sua conta e métodos de recuperação de dados estão definidos, e 2FA está ativado."
+        "Sua conta e métodos de recuperação de dados estão definidos, e a A2F está ativada."
       ],
       "Your account and data recovery methods are set.": [
         "Sua conta e métodos de recuperação de dados estão definidos."
@@ -3169,6 +3178,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descrição: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIÇÃO:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3183,6 +3195,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Você foi convidado para ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } foi cancelado."
+      ],
+      "All events in this series were updated.": [
+        "Todos os eventos desta série foram atualizados."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Todos os eventos desta série foram atualizados. Aqui está o que mudou:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Esta ocorrência de evento foi cancelada."
+      ],
+      "This event occurrence was updated.": [
+        "Esta ocorrência de evento foi atualizada."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Esta ocorrência de evento foi atualizada. Aqui está o que mudou:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Este evento foi atualizado."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Este evento foi atualizado. Aqui está o que mudou:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Você está convidado para ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3194,11 +3233,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Quando: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "QUANDO:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "QUANDO:\n${ formattedStart } (o dia todo)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "QUANDO:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Onde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOCALIZAÇÃO:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3209,6 +3260,15 @@
         "${ emailAddress } recusou seu convite para ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } aceitou provisoriamente seu convite para ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } aceitou seu convite para ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } recusou seu convite para ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } aceitou provisoriamente seu convite para ${ eventTitle }"
       ]
     },
@@ -3726,7 +3786,7 @@
         "Não foi possível resolver as opções de alias."
       ],
       "Aliases could not be loaded": [
-        "Não foi possível carregar os alias"
+        "Não foi possível carregar os aliases"
       ],
       "An error occurred while loading alias options": [
         "Ocorreu um erro no carregamento de opções de alias"
@@ -3750,13 +3810,13 @@
         "Tempo máximo de expiração atingido."
       ],
       "Name is required": [
-        "Nome é necessário"
+        "Nome é obrigatório"
       ],
       "No external key retrieved for user is valid for sending": [
         "Nenhuma chave externa recuperada para o usuário é válida para envio"
       ],
       "An error occurred while saving your alias": [
-        "Ocorreu um erro ao salvar os seus alias"
+        "Ocorreu um erro ao salvar o seu alias"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4527,6 +4587,12 @@
       ],
       "You've unlocked 1 GB": [
         "Você desbloqueou 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Parabéns, você completou todas as etapas!"
+      ],
+      "Congratulations, you finished!": [
+        "Parabéns, você terminou!"
       ]
     },
     "Gmail forwarding": {
@@ -4574,7 +4640,7 @@
         "Pesquisar"
       ],
       "Security Center": [
-        "Central de segurança"
+        "Central de Segurança"
       ]
     },
     "Hint": {
@@ -4955,11 +5021,11 @@
         "As mensagens ${ elementsCount } serão rotuladas como:"
       ],
       "${ elementsCount } message will be marked as read.": [
-        "${ elementsCount } mensagens será marcada como lida.",
+        "${ elementsCount } mensagem será marcada como lida.",
         "${ elementsCount } mensagens serão marcadas como lidas."
       ],
       "${ elementsCount } message will be marked as unread.": [
-        "${ elementsCount } mensagens será marcada como não lida.",
+        "${ elementsCount } mensagem será marcada como não lida.",
         "${ elementsCount } mensagens serão marcadas como não lidas."
       ],
       "${ elementsCount } message will be moved": [
@@ -6031,7 +6097,7 @@
         "Esta mensagem será enviada amanhã às ${ formattedTime }"
       ],
       "This message will expire ${ formattedDate }": [
-        "Esta mensagem irá expirar em ${ formattedDate }"
+        "Esta mensagem expirará em ${ formattedDate }"
       ],
       "This message will expire on ${ value }": [
         "Esta mensagem expirará em ${ value }"
@@ -6049,7 +6115,7 @@
         "A chave pública deste remetente não é confiável."
       ],
       "to ${ destinationElement } folder.": [
-        "para ${ destinationElement } pasta."
+        "para a pasta ${ destinationElement }."
       ],
       "To fight spam and abuse, please verify you are human.": [
         "Para combater o spam e/ou abuso, verifique se você é humano."
@@ -6371,10 +6437,10 @@
         "Tem certeza que deseja mover todas as mensagens desse local para o arquivo?"
       ],
       "Are you sure you want to move all messages in this location to trash?": [
-        "Tem certeza que deseja mover todas as mensagens desse local para à lixeira?"
+        "Tem certeza que deseja mover todas as mensagens desse local para a lixeira?"
       ],
       "Important note": [
-        "Observação importante"
+        "Nota importante"
       ],
       "The vault your alias will be stored in.": [
         "O cofre em que seu alias será guardado."
@@ -7520,7 +7586,7 @@
         "A cada ${ interval } meses ${ onDayString }, ${ timesString }"
       ],
       "Monthly ${ onDayString }, ${ timesString }": [
-        "Mensal ${ onDayString }, ${ timesString }"
+        "Mensalmente ${ onDayString }, ${ timesString }"
       ]
     },
     "Monthly recurring event, frequency (until)": {
@@ -8611,10 +8677,10 @@
         "${ appName1 } Premium"
       ],
       "Premium ${ appName1 } & ${ appName2 }": [
-        "Premium de ${ appName1 } e ${ appName2 }"
+        "${ appName1 } e ${ appName2 } Premium"
       ],
       "Premium ${ appName1 } & ${ appName2 } & ${ appName3 }": [
-        "Premium de ${ appName1 } & ${ appName2 } & ${ appName3 }"
+        "${ appName1 } & ${ appName2 } & ${ appName3 } Premium"
       ],
       "Premium early access": [
         "Acesso antecipado premium"
@@ -8833,7 +8899,7 @@
     },
     "storage_split: info": {
       "${ app } storage": [
-        "armazenamento de ${ app }"
+        "armazenamento do ${ app }"
       ],
       "contact your administrator": [
         "contate seu administrador"
@@ -9138,6 +9204,9 @@
       ],
       "Alias saved and copied": [
         "Alias salvo e copiado"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Últimos pseudônimos modificados armazenados em seu cofre mais antigo"
       ]
     },
     "Success notification": {
@@ -10394,7 +10463,7 @@
         "Aliases do hide-my-email"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Aliases Hide-my-email deixam você criar contas online sem compartilhar seu endereço de e-mail. ${ learnMoreLink }"
+        "Aliases Hide-my-email deixam você criar contas on-line sem compartilhar seu endereço de e-mail. ${ learnMoreLink }"
       ],
       "New alias": [
         "Novo alias"
@@ -10403,7 +10472,7 @@
         "Abrir ${ PASS_APP_NAME }"
       ],
       "Protect your online identity": [
-        "Proteja sua identidade online"
+        "Proteja sua identidade on-line"
       ],
       "Try ${ PASS_APP_NAME }": [
         "Experimente o ${ PASS_APP_NAME }"
@@ -10419,6 +10488,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Quando solicitarem seu endereço de e-mail, dê este alias no lugar. Adicione um nome e uma nota para manter um registro de onde você o usa."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Quando solicitarem seu endereço de e-mail, dê este alias no lugar. Aliases são fornecidos por ${ passLink }"
       ]
     },
     "Security Center - Action": {
@@ -10428,7 +10500,7 @@
     },
     "Security Center - Info": {
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
-        "Nossa solução de segurança de última geração orientada por IA, projetada para usuários que buscam proteção aumentada para suas contas. ${ learnMoreLink }"
+        "Nossa solução de segurança de última geração orientada por IA, projetada para usuários que buscam proteção reforçada para suas contas. ${ learnMoreLink }"
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **ativo** e protegendo sua conta."
@@ -10462,11 +10534,92 @@
       ],
       "Upgrade now": [
         "Fazer upgrade agora"
+      ],
+      "14-day destkop app trial.": [
+        "14 dias de avaliação do aplicativo para computador"
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Obtenha acesso ilimitado com qualquer plano do ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Não é necessário cartão de crédito."
+      ],
+      "Try the app-new desktop app": [
+        "Teste o novo aplicativo para computador"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Experimente gratuitamente por 14 dias"
+      ],
+      "Start free trial": [
+        "Iniciar avaliação gratuita"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Removido"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Obtenha a oferta"
+      ],
+      "Special Offer": [
+        "Oferta especial"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicativo ${ MAIL_APP_NAME } para desktop"
+      ],
+      "10 email addresses": [
+        "10 endereços de e-mail"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Excluir conteúdo de spam e lixeira de forma automática"
+      ],
+      "Custom schedule send and snooze times": [
+        "Programação personalizada de horários de envio e pausa"
+      ],
+      "Support for 1 custom email domain": [
+        "Suporte para 1 domínio de e-mail personalizado"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Pastas, marcadores e filtros ilimitados"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Se renova por ${ renewablePrice }, cancele a qualquer momento"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "pelo primeiro mês"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Oferta por tempo limitado, expira em 2 de abril de 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Obtenha ${ planName } por apenas ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Algumas imagens não foram enviadas devido a nomes de arquivo duplicados na seleção atual."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(abrirá ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mês"
       ]
     }
   }

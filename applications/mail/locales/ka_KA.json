@@ -101,8 +101,8 @@
         "როგორც დაგეგმილია"
       ],
       "At most ${ maxContacts } contact is allowed per contact group": [
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
-        "თითოეულ კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ",
+        "თითოეული კონტაქტების ჯგუფში ${ maxContacts }-მდე კონტაქტი შეგიძლიათ, იქონიოთ"
       ],
       "Attach screenshot(s)": [
         "ეკრანის ანაბეჭდ(ებ)-ის მიბმა"
@@ -1203,6 +1203,18 @@
       ],
       "Select country": [
         "აირჩიეთ ქვეყანა"
+      ],
+      "Upgrade Now": [
+        "ახლა გაუმჯობესება"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "თქვენი კომპიუტერის აპის უფასო სატესტო ვერსია 2 დღეში დასრულდება. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "თქვენი კომპიუტერის აპის უფასო სატესტო ვერსია 5 დღეში დასრულდება. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "თქვენი კომპიუტერის აპის უფასო სატესტო ვერსიის დასრულების დროა ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3126,7 +3138,7 @@
         "დააყენეთ მონაცემების აღდგენის მეთოდი, მისი დაკარგვის თავიდან ასაცილებლად."
       ],
       "Set a recovery method to prevent losing access to your account.": [
-        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშსზე წვდომის დაკარგვა."
+        "დააყენეთ აღდგენის მეთოდი, რომ თავიდან აიცილოთ თქვენს ანგარიშზე წვდომის დაკარგვა."
       ],
       "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
         "ასწიეთ თქვენი სატარიფო გეგმა, რომ გაააქტიუროთ ${ PROTON_SENTINEL_NAME }, ჩვენი უახლესი AI-ზე დაფუძნებული უსაფრთხოების გადაწყვეტილება თავისი საკუთარი 24/7 პროფესიონალური მხარდაჭერით."
@@ -3169,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "აღწერა: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "აღწერა:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3183,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "მოსაწვევი ${ eventTitle }-ზე\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } გაუქმდა."
+      ],
+      "All events in this series were updated.": [
+        "ამ სერიაში ყველა მოვლენა განახლდა."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ყველა მოვლენა ამ სერიაში განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "ამ მოვლენის მოხდენა გაუქმდა."
+      ],
+      "This event occurrence was updated.": [
+        "ამ მოვლენის მოხდენის დრო განახლდა."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ამ მოვლენის მოხდენის დრო განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "ეს მოვლენა განახლდა."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "ეს მოვლენა განახლდა. ცვლილებები:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "მიწვეული ბრძანდებით მოვლენაზე ${ eventTitle }.\n\nროდის: ${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3194,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "როდის: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "როდის:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "როდის:\n${ formattedStart } (მთელი დღე)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "როდის:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "სად: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "მდებარეობა:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3210,6 +3264,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ფრთხილად დაეთანხმა ${ eventTitle }-ზე მოსაწვევს"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } დაეთანხმა ${ eventTitle }-ზე მოსაწვევს"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } უარყო ${ eventTitle }-ზე მოსაწვევი"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ფრთხილად დაეთანხმა თქვენს მოსაწვევს მოვლენაზე ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -3754,6 +3817,9 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "მომხმარებლისთვის მიღებული არც ერთი გარე გასაღები გასაგზავნად არ გამოდგება"
+      ],
+      "An error occurred while saving your alias": [
+        "შეცდომა თქვენი ფსევდონიმის შენახვისას"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4436,7 +4502,7 @@
         "დახურვა"
       ],
       "Closing this means giving up the free storage bonus.": [
-        "ამის დახურვით უფასო საცავზე უარს იძახით."
+        "ამის დახურვით უფასო საცავზე უარს ამბობთ."
       ],
       "Congratulation, you completed all the steps!": [
         "გილოცავთ! თქვენ ყველა ნაბიჯი დაასრულეთ!"
@@ -4524,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "განბლოკეთ 1 გბ"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "გილოცავთ! თქვენ ყველა ნაბიჯი დაასრულეთ!"
+      ],
+      "Congratulations, you finished!": [
+        "გილოცავთ, თქვენ დაასრულეთ!"
       ]
     },
     "Gmail forwarding": {
@@ -4944,8 +5016,8 @@
         "გადატანილი იქნება ${ elementsCount } საუბარი"
       ],
       "${ elementsCount } conversation will be unlabelled from:": [
-        "${ elementsCount } საუბარს მოეხსნება დაესმება ჭდე:",
-        "${ elementsCount } საუბარს მოეხსნება დაესმება ჭდე:"
+        "${ elementsCount } საუბარს მოეხსნება ჭდე:",
+        "${ elementsCount } საუბარს მოეხსნება ჭდე:"
       ],
       "${ elementsCount } message will be labelled as:": [
         "${ elementsCount } შეტყობინება მოინიშნება, როგორც:",
@@ -5213,7 +5285,7 @@
         "კალენდრის გვერდითი პანელი"
       ],
       "Can't find what you're looking for? ${ displayAllMailButton }": [
-        "Ვერ იპოვეთ, რასაც ეძებდით? ${ displayAllMailButton }"
+        "ვერ იპოვეთ, რასაც ეძებდით? ${ displayAllMailButton }"
       ],
       "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
         "ვერ იხსენებთ პაროლს? ჩვენ შეგვიძლია, მოგაშოროთ ამ გასაღებით დაშიფრული ყველა მონაცემი და, ამავე დროს, გაფრთხილებაც მოგაშოროთ."
@@ -6238,7 +6310,7 @@
         "ერთ ცდაზე მონაცემების, მხოლოდ, ერთი ტიპის შემოტანა შეგიძლიათ."
       ],
       "You can now return to the application to continue": [
-        "ახლა გასაგრძელებლად შეგიძლიათ აპლიკაციაზე დაბრუნდეთ"
+        "ახლა გასაგრძელებლად შეგიძლიათ, აპლიკაციაზე დაბრუნდეთ"
       ],
       "You can turn on notifications to get alerts when new email messages arrive in this folder.": [
         "შეგიძლიათ, ჩართოთ ამ საქაღალდეში ელფოსტის ახალი შეტყობინების მოსვლის გაფრთხილება."
@@ -6387,6 +6459,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "ეს წაშლის ამ აპთან ასოცირებულ ყველა მონაცემებს, გადმოწერილი შეტყობინებების ჩათვლთ. აპი თავიდანგ აეშვება და მის გამოსაყენებლად თავიდან შესვლა მოგიწევთ."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "ამ შეტყობინების ავტომატური წაშლის დრო: ${ value }"
       ]
     },
     "info": {
@@ -8440,7 +8515,7 @@
         "იმისათვის, რომ დავრწმუნდეთ, რომ ნამდვილად თქვენ ცდილობთ პაროლის შეცვლას, ჩვენ, მოთხოვნის შესრულებამდე 72 საათს მოვიცდით. პაროლს შეცვლა შეგიძლიათ შემდეგ დროში: ${ boldTimeLeft }. ${ viewRequest }"
       ],
       "We received a password reset request for ${ boldEmail }.": [
-        "მივიღეთ პაროლის შეცვლს მოთხოვნა ${ boldEmail }-სთვის."
+        "მივიღეთ პაროლის ჩამოყრის მოთხოვნა ${ boldEmail }-სთვის."
       ]
     },
     "session_recovery:in_progress:link": {
@@ -8768,7 +8843,7 @@
         "ახლა გამოსახულებებს ნაგულისხმევად ჩავტვირთავთ და დავბლოკავთ გამომგზავნებს თქვენი ტრეკინგისგან. შეცვლა შეგიძლიათ აქ ${ settingsLink }."
       ],
       "You can now automatically forward your emails to anyone!": [
-        "ახლა შეგძლიათ თქვენი ელფოსტა ავტომატურად გადაუგზავნოთ, ვისაც გსურთ!"
+        "ახლა შეგიძლიათ, თქვენი ელფოსტა ავტომატურად გადაუგზავნოთ, ვისაც გსურთ!"
       ],
       "You can now schedule your messages to be sent later": [
         "ახლა შეგიძლიათ, შექმნათ შეტყობინებების განრიგი, რომელიც დანიშნულ დროს აგზავნის ელფოსტას"
@@ -8781,6 +8856,12 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "ახლა შეგიძლიათ გადაატაროთ ქმედება ყველა ელფოსტაზე ერთ საქაღალდეში ერთი გავლით."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "მოხერხებულად გაუშვით ${ MAIL_APP_NAME } პირდაპირ სამუშაო მაგიდიდან."
+      ],
+      "Get the desktop app": [
+        "მიიღეთ კომპიუტერის აპი"
       ]
     },
     "Status": {
@@ -9079,6 +9160,9 @@
       ],
       "Alias saved and copied": [
         "ფსევდონიმი შენახული და კოპირებულია"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "ბოლოს შეცვლილი ფსევდონიმები თქვენს უძველეს საცავშია შენახული"
       ]
     },
     "Success notification": {
@@ -9951,6 +10035,10 @@
       "Try a shorter username (${ n } character max)": [
         "სცადეთ უფრო მოკლე მომხმარებლის სახელი (მაქს ${ n } სიმბოლო)",
         "სცადეთ უფრო მოკლე მომხმარებლის სახელი (მაქს ${ n } სიმბოლო)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "პაროლი ${ MIN_PASSWORD_LENGTH } სიმბოლოს მაინც უნდა შეიცავდეს",
+        "პაროლი ${ MIN_PASSWORD_LENGTH } სიმბოლოს მაინც უნდა შეიცავდეს"
       ]
     },
     "Video control": {
@@ -10353,6 +10441,9 @@
       ],
       "Used on amazon for shopping, etc.": [
         "გამოიყენება Amazon-ზე შოპინგისთვის და ა.შ."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "როცა გკითხავენ ელფოსტის მისამართს, ეს ფსევდონიმი მიეცით. ფსევდონიმები უზრუნველყოფილია პროგრამით ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10418,6 +10509,105 @@
     "Payments": {
       "Billing Country": [
         "გადახდის ქვეყანა"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "გადმოწერეთ ${ MAIL_APP_NAME }-ის კომპიუტერის აპლიკაცია"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "წაიშალა"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-ის კომპიუტერის აპლიკაცია"
+      ],
+      "14-day destkop app trial.": [
+        "14-დღიანი კომპიუტერი აპის საცდელი ვერსია"
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "ისიამოვნეთ სწრაფი, დაცული და ყურადღების გადამტანი ფუნქციების არმქონე წვდომით თქვენს საფოსტო ყუთთან და კალენდართან."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "მიიღეთ შეუზღუდავი წვდომა ნებისმიერ ${ MAIL_APP_NAME } ტარიფთან ერთად."
+      ],
+      "No credit card required.": [
+        "საკრედიტო ბარათი საჭირო არაა."
+      ],
+      "Try the app-new desktop app": [
+        "სცადეთ ახალი კომპიუტერის აპი"
+      ],
+      "Upgrade now": [
+        "ახლა გაუმჯობესება"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "უფასო საცდელი ვერსიის ჩართვა"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "ფასდაკლების მიღება"
+      ],
+      "Special Offer": [
+        "სპეციალური შეთავაზება"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-ის კომპიუტერის აპლიკაცია"
+      ],
+      "10 email addresses": [
+        "10 ელფოსტის მისამართი"
+      ],
+      "Auto-delete Spam and Trash": [
+        "სპამისა და ნაგვის ყუთის ავტომატური წაშლა"
+      ],
+      "Custom schedule send and snooze times": [
+        "მომხმარებლის მიერ აღწერილი გაგზავნისა და დადუმების დრო"
+      ],
+      "Support for 1 custom email domain": [
+        "1 ხელით მითითებული დომენის მხარდაჭერა"
+      ],
+      "Unlimited folders, labels and filters": [
+        "ულიმიტო საქაღალდეები, ჭდეები და ფილტრები"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "განახლების დრო ${ renewablePrice }. გააუქმეთ ნებისმიერ დროს"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "პირველი თვისთვის"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "შემოთავაზება შეზღუდული დროით. ვადა იწურება 2024 წლის 2 აპრილს"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "მიიღეთ ${ planName } ფასით სულ რაღაც ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "ზოგიერთი გამოსახულება არ აიტვირთა, რადგან მიმდინარე მონიშნულებში ფაილის სახელები მეორდება."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(გახსნის ${ PASS_APP_NAME }-ს)"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/თვე"
       ]
     }
   }

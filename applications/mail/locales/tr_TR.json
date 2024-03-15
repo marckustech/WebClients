@@ -1200,6 +1200,18 @@
       ],
       "Toggle security center app": [
         "Güvenlik merkezi uygulamasını aç/kapat"
+      ],
+      "Upgrade Now": [
+        "Şimdi yükselt"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Masaüstü uygulaması ücretsiz deneme sürümünüz 2 gün içinde sona erecek. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Masaüstü uygulaması ücretsiz deneme sürümünüz 5 gün içinde sona erecek. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Masaüstü uygulaması ücretsiz deneme sürümünüz ${ formattedEndDate } tarihinde sona erecek. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3166,6 +3178,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Açıklama: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "AÇIKLAMA:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3180,6 +3195,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "${ eventTitle } etkinliğine davet edildiniz\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } iptal edildi."
+      ],
+      "All events in this series were updated.": [
+        "Bu dizideki tüm etkinlikler güncellendi."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu dizideki tüm etkinlikler güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Bu etkinlik kopyası iptal edildi."
+      ],
+      "This event occurrence was updated.": [
+        "Bu etkinlik kopyası güncellendi."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu etkinlik kopyası güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Bu etkinlik güncellendi."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Bu etkinlik güncellendi. Şu değişti:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "${ eventTitle } etkinliğine davet edildiniz.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3191,11 +3233,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Zaman: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "ZAMAN:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "ZAMAN:\n${ formattedStart } (tüm gün)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "ZAMAN:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Yer: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "KONUM:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3207,6 +3261,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ eventTitle } etkinliği davetiniz ${ emailAddress } tarafından kesin olmamakla birlikte kabul edildi"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi kabul etti"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi reddetti"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress }, ${ eventTitle } etkinliği davetinizi belirsiz olarak kabul etti"
       ]
     },
     "Email reminder banner": {
@@ -3751,6 +3814,9 @@
       ],
       "Name is required": [
         "Adın yazılması zorunludur"
+      ],
+      "An error occurred while saving your alias": [
+        "Takma adınız kaydedilirken bir sorun çıktı"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4521,6 +4587,12 @@
       ],
       "You've unlocked 1 GB": [
         "Depolama alanınızı 1 GB boyutuna çıkardınız"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Tebrikler, tüm adımları tamamladınız!"
+      ],
+      "Congratulations, you finished!": [
+        "Tebrikler, işlemleri tamamladınız!"
       ]
     },
     "Gmail forwarding": {
@@ -6381,6 +6453,9 @@
       ],
       "Warning": [
         "Uyarı"
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Bu ileti ${ value } zamanında otomatik olarak silinecek"
       ]
     },
     "info": {
@@ -8772,6 +8847,12 @@
       ],
       "Create hide-my-email aliases and keep track of them here.": [
         "Hide-my-email takma adları oluşturun ve bunları buradan yönetin."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "${ MAIL_APP_NAME } uygulamasını doğrudan masaüstünüzden kolayca başlatın."
+      ],
+      "Get the desktop app": [
+        "Masaüstü uygulamasını edinin"
       ]
     },
     "Status": {
@@ -9070,6 +9151,9 @@
       ],
       "Alias saved and copied": [
         "Takma ad kaydedildi ve kopyalandı"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "En eski kasanızda bulunan son değiştirilmiş takma adlar"
       ]
     },
     "Success notification": {
@@ -9942,6 +10026,10 @@
       "Try a shorter username (${ n } character max)": [
         "Daha kısa bir kullanıcı adı deneyin (en fazla ${ n } karakter)",
         "Daha kısa bir kullanıcı adı deneyin (en fazla ${ n } karakter)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Parola en az ${ MIN_PASSWORD_LENGTH } karakter uzunluğunda olmalıdır",
+        "Parola en az ${ MIN_PASSWORD_LENGTH } karakter uzunluğunda olmalıdır"
       ]
     },
     "Video control": {
@@ -10338,6 +10426,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "E-posta adresiniz istendiğinde onun yerine bu takma adı verin. Nerede kullandığınızı unutmamak için bir başlık ve not ekleyin."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "E-posta adresiniz sorulduğunda, bunun yerine bu takma adı verin. Takma adlar ${ passLink } tarafından sağlanır."
       ]
     },
     "storage_split: info": {
@@ -10403,6 +10494,105 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel **kullanımda** ve hesabınızı koruyor."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "${ MAIL_APP_NAME } masaüstü uygulamasını indirin"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Kaldırıldı"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } masaüstü uygulaması"
+      ],
+      "14-day destkop app trial.": [
+        "14 günlük masaüstü uygulama denemesi."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Gelen kutunuza ve takviminize hızla, güvenle ve dikkatinizi dağıtmadan erişmenin tadını çıkarın."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Herhangi bir ${ MAIL_APP_NAME } tarifesi ile sınırsız erişim elde edin."
+      ],
+      "No credit card required.": [
+        "Kredi kartı gerekmez."
+      ],
+      "Try the app-new desktop app": [
+        "Yeni masaüstü uygulamasını deneyin"
+      ],
+      "Upgrade now": [
+        "Şimdi yükseltin"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Ücretsiz deneme süresini başlatın"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Tekliften yararlanın"
+      ],
+      "Special Offer": [
+        "Özel teklif"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } masaüstü uygulaması"
+      ],
+      "10 email addresses": [
+        "10 e-posta adresi"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Otomatik olarak istenmeyenleri ve çöpü boşaltma"
+      ],
+      "Custom schedule send and snooze times": [
+        "Özel zamanlanmış gönderim ve erteleme süreleri"
+      ],
+      "Support for 1 custom email domain": [
+        "1 özel e-posta etki alanı desteği"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Sınırsız klasör, etiket ve süzgeç"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "${ renewablePrice } ile yenilenir. İstediğiniz zaman iptal edebilirsiniz"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "ilk ay için"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Sınırlı süreli teklif 2 Nisan 2024 tarihinde sona erecek"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "${ planName } tarifesini yalnızca ${ planPrice } ödeyerek alın"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Geçerli seçimdeki yinelenen dosya adları nedeniyle bazı görseller yüklenmedi."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(${ PASS_APP_NAME } açılacak)"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/ay"
       ]
     }
   }

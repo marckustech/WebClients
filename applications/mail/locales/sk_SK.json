@@ -9342,6 +9342,9 @@
       ],
       "Verification successful": [
         "Overenie prebehlo úspešne"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Naposledy zmenené aliasy uložené v najstaršom trezore"
       ]
     },
     "Success notification": {
@@ -10210,6 +10213,12 @@
         "Skúste kratšie používateľské meno (max. ${ n } znaky)",
         "Skúste kratšie používateľské meno (max. ${ n } znakov)",
         "Skúste kratšie používateľské meno (max. ${ n } znakov)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Heslo musí obsahovať aspoň ${ MIN_PASSWORD_LENGTH } znak",
+        "Heslo musí obsahovať aspoň ${ MIN_PASSWORD_LENGTH } znaky",
+        "Heslo musí obsahovať aspoň ${ MIN_PASSWORD_LENGTH } znakov",
+        "Heslo musí obsahovať aspoň ${ MIN_PASSWORD_LENGTH } znakov"
       ]
     },
     "Video control": {
@@ -10651,6 +10660,40 @@
       ],
       "Your storage is full": [
         "Vaše úložisko je plné"
+      ]
+    },
+    "Free trial desktop": {
+      "No credit card required.": [
+        "Nie je potrebná platobná karta."
+      ],
+      "Upgrade now": [
+        "Upgradovať teraz"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "10 email addresses": [
+        "10 emailových adries"
+      ],
+      "Support for 1 custom email domain": [
+        "Podpora pre 1 vlastnú emailovú doménu"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Neobmedzený počet priečinkov, štítkov a filtrov"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(otvorí ${ PASS_APP_NAME })"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Zobraziť záznamy"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mesiac"
       ]
     }
   }

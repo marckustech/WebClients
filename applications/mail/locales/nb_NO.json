@@ -1203,6 +1203,18 @@
       ],
       "Select country": [
         "Velg land"
+      ],
+      "Upgrade Now": [
+        "Oppgrader nå"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Den gratis prøveperioden for skrivebordsappen avsluttes om 2 dager ${ upgradeButton }."
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Den gratis prøveperioden for skrivebordsappen avsluttes om 5 dager ${ upgradeButton }."
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Den gratis prøveperioden for skrivebordsappen avsluttes ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3169,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivelse: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "Beskrivelse:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3183,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er invitert til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } ble kansellert."
+      ],
+      "All events in this series were updated.": [
+        "Alle hendelsene i denne serien ble oppdatert."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alle hendelsene i denne serien ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Denne hendelsesforekomsten ble kansellert."
+      ],
+      "This event occurrence was updated.": [
+        "Hendelsesforekomsten ble oppdatert."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne hendelsesforekomsten ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denne hendelsen ble oppdatert."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne hendelsen ble oppdatert. Her er hva som endret seg:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du er invitert til ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3194,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Når: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "Tidspunkt:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "Tidspunkt:\n${ formattedStart } (hele dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "Tidspunkt:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Hvor: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "Sted:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3210,6 +3264,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har foreløpig akseptert invitasjonen til ${ eventTitle }."
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } aksepterte din invitasjon til ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } avslo invitasjonen din til ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } foreløpig aksepterte invitasjonen din til ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4527,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst opp 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Gratulerer, du fullførte alle trinnene!"
+      ],
+      "Congratulations, you finished!": [
+        "Gratulerer, du er ferdig!"
       ]
     },
     "Gmail forwarding": {
@@ -9156,6 +9225,9 @@
       ],
       "Alias saved and copied": [
         "Alias lagret og kopiert"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Sist endrede aliaser lagret i ditt eldste hvelv"
       ]
     },
     "Success notification": {
@@ -10463,6 +10535,100 @@
     "App logo": {
       "Download ${ MAIL_APP_NAME } desktop application": [
         "Last ned ${ MAIL_APP_NAME }-skrivebordsapplikasjon"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Fjernet"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-skrivebordsapp"
+      ],
+      "14-day destkop app trial.": [
+        "14-dagers prøveversjon av skrivebords-appen."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Gled deg over rask, sikker og distraksjonsfri tilgang til innboksen og kalenderen din."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få ubegrenset tilgang med alle ${ MAIL_APP_NAME }-planer."
+      ],
+      "No credit card required.": [
+        "Ingen kredittkort kreves."
+      ],
+      "Try the app-new desktop app": [
+        "Prøv den nye skrivebordsappen"
+      ],
+      "Upgrade now": [
+        "Oppgrader nå"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Start gratis prøveperiode"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Få avtalen"
+      ],
+      "Special Offer": [
+        "Spesialtilbud"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-skrivebordsapp"
+      ],
+      "10 email addresses": [
+        "10 e-postadresser"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Auto-slett søppelpost og papirkurv"
+      ],
+      "Custom schedule send and snooze times": [
+        "Egendefinerte tidsplaner, sende- og utsettelsestider"
+      ],
+      "Support for 1 custom email domain": [
+        "Støtte for 1 egendefinert e-postdomene"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Ubegrenset antall mapper, etiketter og filtre"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Fornyes til ${ renewablePrice }, avbryt når som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "for den første måneden"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Begrenset tidstilbud, utløper 2. april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Få ${ planName } for kun ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Noen bilder ble ikke lastet opp på grunn av dupliserte filnavn i gjeldende utvalg."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(vil åpne ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/måned"
       ]
     }
   }

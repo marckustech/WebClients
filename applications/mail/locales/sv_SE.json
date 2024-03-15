@@ -1203,6 +1203,18 @@
       ],
       "Upgrade Now": [
         "Uppgradera nu"
+      ],
+      "Toggle security center app": [
+        "Slå på/av appen för säkerhetscenter"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Din gratis provperiod av din app för stationär dator slutar om 2 dagar. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Din gratis provperiod av din app för stationär dator slutar om 5 dagar. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Din gratis provperiod av din app för stationär dator slutar den ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3165,6 +3177,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivning: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVNING:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3179,6 +3194,21 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du är inbjuden till ${ eventTitle } ${ eventDetailsText }"
+      ],
+      "All events in this series were updated.": [
+        "Alla händelser i denna serie uppdaterades."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alla händelser i denna serie har uppdaterats. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denna händelse uppdaterades."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denna händelse uppdaterades. Här är vad som ändrades:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du är inbjuden till ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3190,11 +3220,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "När: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TID:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TID:\n${ formattedStart } (hela dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TID:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Var: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "PLATS:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3206,6 +3248,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har preliminärt accepterat din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } avböjde din inbjudan till ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterade preliminärt din inbjudan till ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -4523,6 +4574,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst upp 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Grattis, du har slutfört alla steg!"
+      ],
+      "Congratulations, you finished!": [
+        "Grattis, du är klar!"
       ]
     },
     "Gmail forwarding": {
@@ -9144,6 +9201,9 @@
       ],
       "Alias saved and copied": [
         "Alias sparat och kopierat"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Senast ändrade alias lagrade i ditt äldsta valv"
       ]
     },
     "Success notification": {
@@ -10402,11 +10462,95 @@
       ],
       "Upgrade now": [
         "Uppgradera nu"
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-app för stationär dator"
+      ],
+      "14-day destkop app trial.": [
+        "14-dagars provperiod av app för stationär dator."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Njut av snabb, säker och distraktionsfri åtkomst till din inkorg och kalender."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få obegränsad åtkomst med valfritt ${ MAIL_APP_NAME }-paket."
+      ],
+      "No credit card required.": [
+        "Inget kreditkort krävs."
+      ],
+      "Try the app-new desktop app": [
+        "Prova den nya appen för stationär dator"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prova gratis i 14 dagar"
+      ],
+      "Start free trial": [
+        "Starta gratis provperiod"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Borttagen"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Ta del av erbjudandet"
+      ],
+      "Special Offer": [
+        "Specialerbjudande"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME }-app för stationär dator"
+      ],
+      "10 email addresses": [
+        "10 e-postadresser"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Ta automatiskt bort skräppost och papperskorg"
+      ],
+      "Support for 1 custom email domain": [
+        "Stöd för 1 anpassad e-postdomän"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Obegränsade mappar, etiketter och filter"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Förnyas med ${ renewablePrice }, avbryt när som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "för första månaden"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Tidsbegränsat erbjudande, löper ut 2 april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Skaffa ${ planName } för endast ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Några bilder laddades inte upp på grund av dubbla filnamn i det nuvarande valet."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(kommer öppna ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/månad"
       ]
     }
   }

@@ -1209,6 +1209,18 @@
       ],
       "Select country": [
         "Selectare țară"
+      ],
+      "Upgrade Now": [
+        "Modificare"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Perioada de încercare a versiunii pentru desktop se încheie peste 2 zile. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Perioada de încercare a versiunii pentru desktop se încheie peste 5 zile. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Perioada de încercare a versiunii pentru desktop se încheie ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3185,6 +3197,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descriere: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIERE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3199,6 +3214,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Invitație la ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } a fost anulat."
+      ],
+      "All events in this series were updated.": [
+        "Toate evenimentele din serie au fost modificate."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Toate evenimentele au fost modificate. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Acest eveniment a fost anulat."
+      ],
+      "This event occurrence was updated.": [
+        "Acest eveniment a fost modificat."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acest eveniment a fost modificat. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Acest eveniment a fost modificat."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acest eveniment a fost actualizat. Iată ce s-a modificat:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Invitație la ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3210,11 +3252,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Când: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "CÂND:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "CÂND:\n${ formattedStart } (toată ziua)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "CÂND:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Unde: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOC:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3225,6 +3279,15 @@
         "${ emailAddress } v-a refuzat invitația la ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a acceptat provizoriu invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a acceptat invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } v-a refuzat invitația la ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } v-a acceptat provizoriu invitația la ${ eventTitle }"
       ]
     },
@@ -3782,6 +3845,9 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Nicio cheie externă preluată pentru utilizator nu este validă pentru trimitere."
+      ],
+      "An error occurred while saving your alias": [
+        "A apărut o eroare în timpul salvării aliasului."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4472,7 +4538,7 @@
         "Închidere"
       ],
       "Closing this means giving up the free storage bonus.": [
-        "Dacă o închideți renunțați la bonusul de stocare gratuită."
+        "Dacă închideți renunțați la bonusul de stocare gratuită."
       ],
       "Congratulation, you completed all the steps!": [
         "Felicitări, ați completat toți pașii!"
@@ -4481,7 +4547,7 @@
         "Felicitări, ați terminat!"
       ],
       "Continue setting up your email": [
-        "Continuați să vă setați contul de e-mail"
+        "Continuați setarea contului"
       ],
       "Discover how our ${ strongText } protect you": [
         "Descoperiți cum ${ strongText } vă protejează"
@@ -4493,13 +4559,13 @@
         "Dublați-vă stocarea gratuită la 1 GiB după ce executați următoarele:"
       ],
       "Encryption so strong, only you and intended recipients can view your emails.": [
-        "Criptarea atât de puternică, încât doar dvs. și destinatarii doriți vă puteți vedea mesajele."
+        "Criptare atât de puternică, încât doar dvs. și destinatarii vizați puteți vedea conținutul mesajelor."
       ],
       "For your eyes only": [
         "Doar pentru dumneavoastră"
       ],
       "Get the ${ MAIL_APP_NAME } mobile app": [
-        "Obțineți aplicația mobilă ${ MAIL_APP_NAME }"
+        "Luați aplicația ${ MAIL_APP_NAME } pentru dispozitive mobile"
       ],
       "Get the ${ strongText } on Android or iOS": [
         "Luați ${ strongText } pentru Android sau iOS"
@@ -4526,7 +4592,7 @@
         "Deschideți lista de sarcini și obțineți spațiu gratuit"
       ],
       "Popular online services": [
-        "Servicii populare online"
+        "Servicii online populare"
       ],
       "privacy features": [
         "funcțiile de confidențialitate"
@@ -6507,6 +6573,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Aceasta elimină toate datele asociate cu această aplicație, inclusiv mesajele descărcate. Aplicația va reporni și va trebui să vă conectați din nou pentru a utiliza aplicația."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Acest mesaj va fi șters automat la ora ${ value }."
       ]
     },
     "info": {
@@ -7944,7 +8013,7 @@
         "Felicitări pentru că ați ales o viață privată"
       ],
       "Encryption so strong, only you and intended recipients can view your emails. ${ kbLinkEncryption }": [
-        "Criptare atât de puternică, încât doar dvs. și destinatarii doriți pot vedea conținutul acestora. ${ kbLinkEncryption }"
+        "Criptare atât de puternică, încât doar dvs. și destinatarii vizați puteți vedea conținutul mesajelor. ${ kbLinkEncryption }"
       ],
       "For your eyes only": [
         "Doar pentru dumneavoastră"
@@ -8945,6 +9014,12 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "Acum puteți acționa asupra tuturor mesajelor dintr-un folder deodată."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Lansați convenient ${ MAIL_APP_NAME } chiar de pe desktop."
+      ],
+      "Get the desktop app": [
+        "Luați aplicația pentru desktop"
       ]
     },
     "Status": {
@@ -9269,6 +9344,9 @@
       ],
       "Alias saved and copied": [
         "Alias salvat și copiat"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Ultimele aliasuri modificate stocate în cel mai vechi seif"
       ]
     },
     "Success notification": {
@@ -10160,6 +10238,11 @@
         "Încercați un nume de utilizator mai scurt (max ${ n } caractere)",
         "Încercați un nume de utilizator mai scurt (max ${ n } caractere)",
         "Încercați un nume de utilizator mai scurt (max ${ n } caractere)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Parola trebuie să conțină cel puțin ${ MIN_PASSWORD_LENGTH } caracter",
+        "Parola trebuie să conțină cel puțin ${ MIN_PASSWORD_LENGTH } caractere",
+        "Parola trebuie să conțină cel puțin ${ MIN_PASSWORD_LENGTH } de caractere"
       ]
     },
     "Video control": {
@@ -10594,6 +10677,9 @@
       ],
       "Used on amazon for shopping, etc.": [
         "Folosit pentru cumpărături pe Amazon etc."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Când vi se solicită adresa de e-mail furnizați acest alias. Aliasurile sunt furnizate de către ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10659,6 +10745,68 @@
     "Payments": {
       "Billing Country": [
         "Țara de facturare"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Descărcați aplicația pentru desktop ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Eliminat"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicația pentru desktop ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "14 zile de încercare aplicație desktop."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Bucurați-vă de accesul la contul de e-mail și calendar, rapid, sigur și fără distrageri."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Obțineți acces nelimitat cu orice plan de ${ MAIL_APP_NAME } cu plată."
+      ],
+      "No credit card required.": [
+        "Nu trebuie card de credit."
+      ],
+      "Try the app-new desktop app": [
+        "Încercați noua aplicație pentru desktop"
+      ],
+      "Upgrade now": [
+        "Modificare"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Începeți să încercați gratuit"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplicația pentru desktop ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 adrese de e-mail"
+      ],
+      "Support for 1 custom email domain": [
+        "Suport pentru un domeniu de e-mail personal"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Foldere, etichete și filtre nelimitate"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(va deschide ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/lună"
       ]
     }
   }

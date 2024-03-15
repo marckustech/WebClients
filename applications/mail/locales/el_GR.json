@@ -1203,6 +1203,18 @@
       ],
       "Select country": [
         "Επιλογή χώρας"
+      ],
+      "Upgrade Now": [
+        "Αναβαθμίστε Τώρα"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Η δωρεάν δοκιμή της εφαρμογής σας για υπολογιστές λήγει 2 ημέρες. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Η δωρεάν δοκιμή της εφαρμογής σας για υπολογιστές λήγει 5 ημέρες. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Η δωρεάν δοκιμή της εφαρμογής σας για υπολογιστές λήγει στις ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "action": {
@@ -3169,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Περιγραφή: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "ΠΕΡΙΓΡΑΦΗ:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3183,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Σας προσκαλούμε σε ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "Η ${ eventTitle } ακυρώθηκε."
+      ],
+      "All events in this series were updated.": [
+        "Όλες οι εκδηλώσεις αυτής της σειράς ενημερώθηκαν."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Όλες οι εκδηλώσεις αυτής της σειράς ενημερώθηκαν. Δείτε τι άλλαξε:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Αυτή η εμφάνιση εκδήλωσης ακυρώθηκε."
+      ],
+      "This event occurrence was updated.": [
+        "Αυτή η εμφάνιση εκδήλωσης ενημερώθηκε."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Αυτή η εμφάνιση εκδήλωσης ενημερώθηκε. Δείτε τι άλλαξε:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Αυτή η εκδήλωση ενημερώθηκε."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Αυτή η εκδήλωση ενημερώθηκε. Δείτε τι άλλαξε:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Σας προσκαλούμε στη ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3194,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Πότε: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "${ formattedStart } (όλη την ημέρα)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Πού: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "ΤΟΠΟΘΕΣΙΑ:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3210,6 +3264,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } έχει αποδεχτεί προσωρινά την πρόσκληση σας στο ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } αποδέχτηκε την πρόσκληση σας στο ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } απόρριψε την πρόσκληση σας στο ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } αποδέχτηκε προσωρινά την πρόσκληση σας στο ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -3754,6 +3817,9 @@
       ],
       "No external key retrieved for user is valid for sending": [
         "Κανένα εξωτερικό κλειδί που ανακτάται για το χρήστη δεν είναι έγκυρο για την αποστολή"
+      ],
+      "An error occurred while saving your alias": [
+        "Παρουσιάστηκε σφάλμα κατά την αποθήκευση του ψευδώνυμου σας."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4524,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Έχετε ξεκλειδώσει 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Συγχαρητήρια, ολοκληρώσατε όλα τα βήματα!"
+      ],
+      "Congratulations, you finished!": [
+        "Συγχαρητήρια, τελειώσατε!"
       ]
     },
     "Gmail forwarding": {
@@ -6387,6 +6459,9 @@
       ],
       "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
         "Αυτό καταργεί όλα τα δεδομένα που σχετίζονται με αυτήν την εφαρμογή, συμπεριλαμβανομένων των ληφθέντων μηνυμάτων. Η εφαρμογή θα επανεκκινηθεί και θα χρειαστεί να συνδεθείτε ξανά για να χρησιμοποιήσετε την εφαρμογή."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Αυτό το μήνυμα θα διαγραφεί αυτόματα στις ${ value }"
       ]
     },
     "info": {
@@ -8781,6 +8856,12 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "Τώρα μπορείτε να αναλάβετε δράση σε όλα τα μηνύματα ηλεκτρονικού ταχυδρομείου σε έναν μόνο φάκελο με μία κίνηση."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Εκκινήστε εύκολα το ${ MAIL_APP_NAME } απευθείας από την επιφάνεια εργασίας σας."
+      ],
+      "Get the desktop app": [
+        "Λήψη της εφαρμογής για υπολογιστές"
       ]
     },
     "Status": {
@@ -9079,6 +9160,9 @@
       ],
       "Alias saved and copied": [
         "Το ψευδώνυμο αποθηκεύτηκε και αντιγράφηκε"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Τελευταία τροποποιημένα ψευδώνυμα που είναι αποθηκευμένα στην παλαιότερη κρύπτη"
       ]
     },
     "Success notification": {
@@ -9951,6 +10035,10 @@
       "Try a shorter username (${ n } character max)": [
         "Προσπαθήστε να εισάγετε ένα συντομότερο όνομα χρήστη (έως ${ n } χαρακτήρα)",
         "Προσπαθήστε να εισάγετε ένα συντομότερο όνομα χρήστη (έως ${ n } χαρακτήρες)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον ${ MIN_PASSWORD_LENGTH } χαρακτήρα",
+        "Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον ${ MIN_PASSWORD_LENGTH } χαρακτήρες"
       ]
     },
     "Video control": {
@@ -10356,6 +10444,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Όταν σας ζητηθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου σας, δώστε αυτό το ψευδώνυμο. Προσθέστε έναν τίτλο και μια σημείωση για να παρακολουθείτε πού τα χρησιμοποιείτε."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Όταν σας ζητηθεί η διεύθυνση ηλεκτρονικού ταχυδρομείου σας, δώστε αυτό το ψευδώνυμο. Τα ψευδώνυμα παρέχονται από το ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10421,6 +10512,105 @@
     "Payments": {
       "Billing Country": [
         "Χώρα χρέωσης"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Κατεβάστε την εφαρμογή επιφάνειας εργασίας ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Αφαιρέθηκε"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } εφαρμογή επιφάνειας εργασίας"
+      ],
+      "14-day destkop app trial.": [
+        "Δοκιμαστική έκδοση εφαρμογής για υπολογιστές 14 ημερών."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Απολαύστε γρήγορη, ασφαλή και χωρίς περισπασμούς πρόσβαση στα εισερχόμενα και το ημερολόγιό σας."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Αποκτήστε απεριόριστη πρόσβαση με οποιοδήποτε πλάνο ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Δεν απαιτείται πιστωτική κάρτα."
+      ],
+      "Try the app-new desktop app": [
+        "Δοκιμάστε τη νέα εφαρμογή για υπολογιστές"
+      ],
+      "Upgrade now": [
+        "Αναβαθμίστε τώρα"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Εκκίνηση δωρεάν δοκιμής"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Αποκτήστε την προσφορά"
+      ],
+      "Special Offer": [
+        "Ειδική Προσφορά"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } εφαρμογή επιφάνειας εργασίας"
+      ],
+      "10 email addresses": [
+        "10 διευθύνσεις ηλεκτρονικού ταχυδρομείου"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Αυτόματη διαγραφή Ανεπιθύμητων μηνυμάτων και Κάδου απορριμμάτων"
+      ],
+      "Custom schedule send and snooze times": [
+        "Προσαρμοσμένο πρόγραμμα χρόνου αποστολής και αναβολής"
+      ],
+      "Support for 1 custom email domain": [
+        "Υποστήριξη για 1 προσαρμοσμένο τομέα email"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Απεριόριστοι φάκελοι, ετικέτες και φίλτρα"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Ανανεώνει σε ${ renewablePrice }, ακυρώστε ανά πάσα στιγμή"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "για τον πρώτο μήνα"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Προσφορά περιορισμένου χρόνου, λήγει στις 2 Απριλίου 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Λάβετε το ${ planName } μόνο για ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Ορισμένες εικόνες δε μεταφορτώθηκαν λόγω διπλότυπων ονομάτων αρχείων στην τρέχουσα επιλογή."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(θα ανοίξει ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/μήνα"
       ]
     }
   }

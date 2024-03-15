@@ -3181,6 +3181,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Descrizione: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESCRIZIONE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3195,6 +3198,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Sei invitato a ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } è stato cancellato."
+      ],
+      "All events in this series were updated.": [
+        "Tutti gli eventi di questa serie sono stati aggiornati."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Tutti gli eventi di questa serie sono stati aggiornati. Ecco cosa è cambiato:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Questa occorrenza dell'evento è stata cancellata."
+      ],
+      "This event occurrence was updated.": [
+        "Questa occorrenza dell'evento è stata aggiornata."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Questa occorrenza dell'evento è stata aggiornata. Ecco cosa è cambiato:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Questo evento è stato aggiornato."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Questo evento è stato aggiornato. Ecco cosa è cambiato:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Sei stato inviato a ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3206,11 +3236,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Quando: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "QUANDO:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "QUANDO:\n${ formattedStart } (tutto il giorno)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "QUANDO:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Dove: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "POSIZIONE:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3221,6 +3263,15 @@
         "${ emailAddress } ha rifiutato il tuo invito a ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha accettato provvisoriamente il tuo invito a ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha accettato il tuo invito a ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } ha rifiutato il tuo invito a ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } ha accettato provvisoriamente il tuo invito a ${ eventTitle }"
       ]
     },
@@ -4539,6 +4590,12 @@
       ],
       "You've unlocked 1 GB": [
         "Hai sbloccato 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Congratulazioni, hai completato tutti i passaggi!"
+      ],
+      "Congratulations, you finished!": [
+        "Congratulazioni, hai finito!"
       ]
     },
     "Gmail forwarding": {
@@ -9171,6 +9228,9 @@
       ],
       "Alias saved and copied": [
         "Alias salvato e copiato"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Ultimi alias modificati memorizzati nella cassaforte più vecchia"
       ]
     },
     "Success notification": {
@@ -10492,11 +10552,95 @@
       ],
       "Upgrade now": [
         "Effettua l'upgrade ora"
+      ],
+      "14-day destkop app trial.": [
+        "Prova di 14 giorni dell'applicazione desktop."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Accesso rapido, sicuro e senza distrazioni alla posta in arrivo e al calendario."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Ottieni l'accesso illimitato con qualsiasi piano ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Nessuna carta di credito richiesta."
+      ],
+      "Try the app-new desktop app": [
+        "Prova la nuova applicazione desktop"
       ]
     },
     "Free trial destkop": {
       "Try free for 14 days": [
         "Prova gratis per 14 giorni"
+      ],
+      "Start free trial": [
+        "Inizia la prova gratuita"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Rimosso"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Approfitta dell'offerta"
+      ],
+      "Special Offer": [
+        "Offerta speciale"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Applicazione desktop di ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 indirizzi email"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Eliminazione automatica del contenuto dallo Spam e dal Cestino"
+      ],
+      "Custom schedule send and snooze times": [
+        "Pianificazione personalizzata degli orari di invio e posticipazione"
+      ],
+      "Support for 1 custom email domain": [
+        "Supporto per 1 dominio email personalizzato"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Cartelle, etichette e filtri illimitati"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Rinnova a ${ renewablePrice }, annulla in qualsiasi momento"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "per il primo mese"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Offerta a tempo limitato, scade il 2 aprile 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Ottieni ${ planName } a soli ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Alcune immagini non sono state caricate a causa di nomi di file duplicati nell'attuale selezione."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(aprirà ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/mese"
       ]
     }
   }

@@ -1185,6 +1185,18 @@
       ],
       "Clear application data": [
         "Удаление данных приложения"
+      ],
+      "Download now": [
+        "Загрузить"
+      ],
+      "Select country": [
+        "Выберите страну"
+      ],
+      "This weekend": [
+        "Этих выходных"
+      ],
+      "Upgrade Now": [
+        "Улучшить сейчас"
       ]
     },
     "action": {
@@ -1227,10 +1239,10 @@
     },
     "Addon": {
       "${ domains } custom domain": [
-        "${ domains } свой домен",
-        "${ domains } своих доменов",
-        "${ domains } своих домена",
-        "${ domains } своих домена"
+        "${ domains } пользовательский домен",
+        "${ domains } пользовательских домена",
+        "${ domains } пользовательских доменов",
+        "${ domains } пользовательских доменов"
       ],
       "${ ips } server": [
         "${ ips } сервер",
@@ -3702,6 +3714,9 @@
       ],
       "Item content cannot exceed 40KB": [
         "Содержимое элемента не может превышать 40 Кбайт"
+      ],
+      "Alias is required": [
+        "Требуется псевдоним"
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4990,14 +5005,14 @@
       "${ numberOfImageTrackers } email tracker blocked": [
         "${ numberOfImageTrackers } почтовый трекер заблокирован",
         "${ numberOfImageTrackers } почтовых трекера заблокированы",
-        "${ numberOfImageTrackers } почтовых трекеров заблокированы",
-        "${ numberOfImageTrackers } почтовых трекеров заблокированы"
+        "${ numberOfImageTrackers } почтовых трекеров заблокировано",
+        "${ numberOfImageTrackers } почтовых трекеров заблокировано"
       ],
       "${ numberOfImageTrackers } tracker blocked": [
         "${ numberOfImageTrackers } трекер заблокирован",
         "${ numberOfImageTrackers } трекера заблокированы",
-        "${ numberOfImageTrackers } трекеров заблокированы",
-        "${ numberOfImageTrackers } трекеров заблокированы"
+        "${ numberOfImageTrackers } трекеров заблокировано",
+        "${ numberOfImageTrackers } трекеров заблокировано"
       ],
       "${ numberOfUTMTrackers } link cleaned": [
         "${ numberOfUTMTrackers } ссылка очищена",
@@ -6426,14 +6441,26 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Ваш номер телефона будет использоваться только для этой разовой проверки."
+      ],
+      "Clear app data": [
+        "Очистить данные приложения"
+      ],
+      "Important note": [
+        "Важное примечание"
+      ],
+      "Include Spam/Trash.": [
+        "Включить Спам/Корзину."
+      ],
+      "Warning": [
+        "Внимание"
       ]
     },
     "info": {
       "${ filteredList.length } command found.": [
-        "${ filteredList.length } команда найдена",
-        "${ filteredList.length } найдены команды.",
-        "${ filteredList.length } команд найдено",
-        "${ filteredList.length } найденные команды."
+        "${ filteredList.length } команда найдена.",
+        "${ filteredList.length } команды найдены.",
+        "${ filteredList.length } команд найдено.",
+        "${ filteredList.length } команд найдено."
       ],
       "Optional": [
         "Необязательно"
@@ -6659,6 +6686,9 @@
       ],
       "Star": [
         "Добавить в Избранное"
+      ],
+      "Filter": [
+        "Фильтр"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7146,6 +7176,9 @@
       ],
       "Title": [
         "Заголовок"
+      ],
+      "From": [
+        "От"
       ]
     },
     "Label (begin date/advanced search)": {
@@ -7208,6 +7241,9 @@
     "Label; import email": {
       "From: ${ from }": [
         "От: ${ from }"
+      ],
+      "To: ${ to }": [
+        "Кому: ${ to }"
       ]
     },
     "Landmarks": {
@@ -7384,6 +7420,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Вам нужно повторно активировать ключи, чтобы увидеть обновленное приглашение"
+      ],
+      "Snoozed": [
+        "Отложенные"
       ]
     },
     "Link to calendar event": {
@@ -8365,6 +8404,12 @@
         "Это разрешение истекает в течение ${ timeRemaining.inHours } часов",
         "Это разрешение истекает в течение ${ timeRemaining.inHours } часов",
         "Это разрешение истекает в течение ${ timeRemaining.inHours } часов"
+      ],
+      "You have ${ timeRemaining.inSeconds } second to reset your password.": [
+        "У вас ${ timeRemaining.inSeconds } секунда, чтобы сбросить свой пароль.",
+        " У вас ${ timeRemaining.inSeconds } секунды, чтобы сбросить свой пароль.",
+        " У вас ${ timeRemaining.inSeconds } секунд, чтобы сбросить свой пароль.",
+        " У вас ${ timeRemaining.inSeconds } секунды, чтобы сбросить свой пароль."
       ]
     },
     "session_recovery:available:link": {
@@ -9066,6 +9111,18 @@
       ],
       "Verification successful": [
         "Проверка прошла успешно"
+      ],
+      "${ elementsCount } conversation snoozed": [
+        "${ elementsCount } цепочка писем отложена",
+        "${ elementsCount } цепочки писем отложены",
+        "${ elementsCount } цепочек писем отложены",
+        "${ elementsCount } цепочки писем отложены"
+      ],
+      "${ elementsCount } conversation unsnoozed": [
+        "${ elementsCount } цепочка писем возвращена",
+        "${ elementsCount } цепочки писем возвращены",
+        "${ elementsCount } цепочек писем возвращено",
+        "${ elementsCount } цепочки писем возвращено"
       ]
     },
     "Success notification": {
@@ -9200,7 +9257,7 @@
         "${ emailsCount } адрес электронной почты",
         "${ emailsCount } адреса электронной почты",
         "${ emailsCount } адресов электронной почты",
-        "${ emailsCount } адреса электронной почты"
+        "${ emailsCount } адресов электронной почты"
       ],
       "${ MAIL_APP_NAME } Keyboard Shortcuts": [
         "${ MAIL_APP_NAME } Быстрые клавиши"
@@ -9779,10 +9836,10 @@
         "Предупреждение: предполагаемый поддельный сайт"
       ],
       "We protected you from ${ trackersCount } tracker": [
-        "Мы защитили вас от ${ trackersCount } трекера.",
-        "Мы защитили вас от ${ trackersCount } трекеров.",
-        "Мы защитили вас от ${ trackersCount } трекеров.",
-        "Мы защитили вас от ${ trackersCount } трекеров."
+        "Мы защитили вас от ${ trackersCount } трекера",
+        "Мы защитили вас от ${ trackersCount } трекеров",
+        "Мы защитили вас от ${ trackersCount } трекеров",
+        "Мы защитили вас от ${ trackersCount } трекеров"
       ],
       "Welcome": [
         "Добро пожаловать"
@@ -9895,6 +9952,9 @@
       ],
       "You do not have any contacts to export": [
         "У вас нет контактов для экспорта"
+      ],
+      "Load image": [
+        "Загрузить изображение"
       ]
     },
     "Tor out of date": {
@@ -9928,6 +9988,12 @@
         "Попробуйте более короткое имя пользователя (максимум ${ n } знака)",
         "Попробуйте более короткое имя пользователя (максимум ${ n } знаков)",
         "Попробуйте более короткое имя пользователя (максимум ${ n } знаков)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Пароль должен включать по меньшей мере ${ MIN_PASSWORD_LENGTH } символ",
+        "Пароль должен содержать хотя бы $${ MIN_PASSWORD_LENGTH } символов",
+        "Пароль должен содержать хотя бы $${ MIN_PASSWORD_LENGTH } символов",
+        "Пароль должен содержать хотя бы $${ MIN_PASSWORD_LENGTH } символов"
       ]
     },
     "Video control": {
@@ -10350,6 +10416,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Попробуйте ${ PASS_APP_NAME }"
+      ],
+      "Create alias": [
+        "Создать псевдоним"
       ]
     },
     "storage_split: info": {
@@ -10358,6 +10427,76 @@
       ],
       "Your storage is full": [
         "Ваше хранилище заполнено"
+      ],
+      "contact your administrator": [
+        "свяжитесь с администратором"
+      ],
+      "upgrade for more storage": [
+        "выберите другой тариф для увеличения хранилища"
+      ]
+    },
+    "Free trial desktop": {
+      "No credit card required.": [
+        "Кредитная карта не требуется."
+      ],
+      "Upgrade now": [
+        "Улучшить сейчас"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Получить"
+      ],
+      "Special Offer": [
+        "Специальное предложение"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Приложение ${ MAIL_APP_NAME } для ПК"
+      ],
+      "10 email addresses": [
+        "10 адресов электронной почты"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Автоудаление спама и сообщений в корзине"
+      ],
+      "Custom schedule send and snooze times": [
+        "Пользовательское планирование и откладывание писем на любое время"
+      ],
+      "Support for 1 custom email domain": [
+        "Поддержка 1 пользовательского домена электронной почты"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Неограниченное количество папок, ярлыков и фильтров"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Затем стоимость подписки составит ${ renewablePrice }. Отменить её можно в любое время"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "за первый месяц"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Срок действия ограниченного предложения истекает 2 апреля 2024 г."
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Получите тариф ${ planName } всего за ${ planPrice }"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Просмотр журналов"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/месяц"
       ]
     }
   }

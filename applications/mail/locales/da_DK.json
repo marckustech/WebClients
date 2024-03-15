@@ -1191,6 +1191,27 @@
       ],
       "Clear application data": [
         "Ryd applikationsdata"
+      ],
+      "Create and copy alias": [
+        "Opret og kopier et alias"
+      ],
+      "Select country": [
+        "Vælg land"
+      ],
+      "Toggle security center app": [
+        "Slå appen's Sikkerhedscenter til og fra"
+      ],
+      "Upgrade Now": [
+        "Opgradere nu"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Din desktop app's gratis prøveperiode slutter om 2 dage. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Din desktop app's gratis prøveperiode slutter om 5 dage. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Din desktop app's gratis prøveperiode slutter den ${ upgradeButton }. ${ formattedEndDate }"
       ]
     },
     "action": {
@@ -3109,6 +3130,21 @@
       ],
       "Your account and data recovery methods are set.": [
         "Dine konto- og datagendannelsesmetoder er indstillet."
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA tilføjer et ekstra sikkerheds lag, der forhindrer uautoriseret adgang."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Designet til brugere, der søger øget beskyttelse til deres konto."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Sæt en data genoprettelsesmetode for at forhindre tab af data."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Sæt en genoprettelsesmetode for at forhindre at blive låst ude af din konto."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Opgrader din konto for at aktivere ${ PROTON_SENTINEL_NAME }, vores banebrydende AI-dreven sikkerhedsløsning med ekspert døgn support."
       ]
     },
     "description": {
@@ -3142,6 +3178,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Beskrivelse: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "BESKRIVELSE:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3156,6 +3195,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Du er inviteret til ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } blev annulleret."
+      ],
+      "All events in this series were updated.": [
+        "Alle begivenheder i denne serie er blevet opdateret."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Alle begivenheder i denne serie er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Denne forekomst af begivenheden blev aflyst."
+      ],
+      "This event occurrence was updated.": [
+        "Denne begivenhed er blevet opdateret."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne begivenhed er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Denne begivenhed er blevet opdateret."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Denne begivenhed er blevet opdateret. Her er, hvad der er ændret:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Du er inviteret til ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3167,11 +3233,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Hvornår: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "TIDSPUNKT:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "TIDSPUNKT:\n${ formattedStart } (hele dagen)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "TIDSPUNKT:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Hvor: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKATION:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3182,6 +3260,15 @@
         "${ emailAddress } har afslået din invitation til ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } har foreløbig accepteret din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } accepterede din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } har afslået din invitation til ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } har foreløbig accepteret din invitation til ${ eventTitle }"
       ]
     },
@@ -3490,8 +3577,8 @@
         "Aktiver venligst din søgning igen"
       ],
       "Please fix the highlighted conflict to proceed.": [
-        "Løs venligst den fremhævede konflikt for at fortsætte.",
-        "Løs venligst de fremhævede konflikter for at fortsætte."
+        "Løs den fremhævede konflikt for at fortsætte.",
+        "Løs de fremhævede konflikter for at fortsætte."
       ],
       "Please provide either a first name, a last name or a display name": [
         "Angiv enten et fornavn, et efternavn eller et visningsnavn"
@@ -3727,6 +3814,9 @@
       ],
       "Name is required": [
         "Navn er påkrævet"
+      ],
+      "An error occurred while saving your alias": [
+        "Det ser ud til, at der opstod en fejl, mens din alias blev gemt."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4497,6 +4587,12 @@
       ],
       "You've unlocked 1 GB": [
         "Du har låst op for 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Tillykke, du har gennemført alle trinnene!"
+      ],
+      "Congratulations, you finished!": [
+        "Tillykke, du er færdig!"
       ]
     },
     "Gmail forwarding": {
@@ -5567,7 +5663,7 @@
         "Besked afsendt."
       ],
       "Message will be sent in the morning at ${ formattedTime }": [
-        "Besked vil blive sendt i morgen kl. ${ formattedTime }"
+        "Denne besked vil blive sendt om morgenen kl. ${ formattedTime }."
       ],
       "Message will be sent on ${ dateString } at ${ formattedTime }": [
         "Besked vil blive sendt ${ dateString } kl. ${ formattedTime }"
@@ -5576,7 +5672,7 @@
         "Besked vil blive sendt i dag kl. ${ formattedTime }"
       ],
       "Message will be sent tomorrow at ${ formattedTime }": [
-        "Besked vil blive sendt i morgen kl. ${ formattedTime }"
+        "Denne besked bliver sendt i morgen kl. ${ formattedTime }."
       ],
       "Messages that have been in trash and spam more than 30 days will be automatically deleted.": [
         "Beskeder der har været i papirkurven og spam i mere end 30 dage vil blive slettet automatisk."
@@ -5669,7 +5765,7 @@
         "Angiv mindst én modtager."
       ],
       "Please fill out this field.": [
-        "Udfyld venligst dette felt."
+        "Udfyld dette felt."
       ],
       "Please note that addresses assigned to these groups will NOT be deleted.": [
         "Bemærk at adresser tildelt til disse grupper IKKE vil blive slettet."
@@ -5687,7 +5783,7 @@
         "Vælg venligst de mapper, du ønsker at importere:"
       ],
       "Please select the type of link you want to insert and fill in all the fields.": [
-        "Vælg venligst den type link du ønsker at indsætte og udfyld alle felterne."
+        "Vælg den type link du ønsker at indsætte og udfyld alle felterne."
       ],
       "Please select which email address or addresses to add to ${ groupCount } group.": [
         "Vælg hvilken eller hvilke e-mail-adresser der skal tilføjes til ${ groupCount } gruppe.",
@@ -5958,7 +6054,7 @@
         "Dette link kan være et homografisk angreb og kan ikke åbnes af Edge browseren. Hvis du er sikker på, at linket er legitimt, så benyt en anden browser til at åbne det."
       ],
       "This link may be a homograph attack. Please verify this is the link you wish to visit, or don't open it.": [
-        "Dette link kan være et homografisk angreb. Bekræft venligst at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
+        "Dette link kan være et homografisk angreb. Bekræft at dette faktisk er det link, du ønsker at besøge, eller undlad at åbne det."
       ],
       "This message has been adjusted to comply with a dark background.": [
         "Denne besked er blevet tilpasset, så den er i overensstemmelse med en mørk baggrund."
@@ -5986,7 +6082,7 @@
         "Denne besked flyttes til Kladder, så du kan redigere den. Du skal igen planlægge, hvornår den skal sendes."
       ],
       "This message will be sent in the morning at ${ formattedTime }": [
-        "Denne besked vil blive sendt i morgen kl. ${ formattedTime }"
+        "Denne besked vil blive sendt om morgenen kl. ${ formattedTime }."
       ],
       "This message will be sent on ${ dateString } at ${ formattedTime }": [
         "Denne besked vil blive sendt ${ dateString } kl. ${ formattedTime }"
@@ -5998,7 +6094,7 @@
         "Denne besked vil blive sendt i dag kl. ${ formattedTime }"
       ],
       "This message will be sent tomorrow at ${ formattedTime }": [
-        "Denne besked vil blive sendt i morgen kl. ${ formattedTime }"
+        "Denne besked bliver sendt i morgen kl. ${ formattedTime }."
       ],
       "This message will expire ${ formattedDate }": [
         "Denne besked udløber ${ formattedDate }"
@@ -6348,6 +6444,18 @@
       ],
       "Warning": [
         "Advarsel"
+      ],
+      "Clear app data": [
+        "Ryd App-data"
+      ],
+      "Removes all data associated with this app, including downloaded messages": [
+        "Dette fjerner alt data tilknyttet med denne app, fx downloadede beskeder."
+      ],
+      "This message will be automatically deleted at ${ value }": [
+        "Denne besked bliver automatisk slettet kl. ${ value }"
+      ],
+      "This removes all data associated with this app, including downloaded messages. The app will restart and you will need to sign in again to use the app.": [
+        "Dette fjerner alt data tilknyttet med denne app, fx downloadede beskeder. App'en genstarter, og du skal logge på igen for at bruge app'en."
       ]
     },
     "info": {
@@ -6574,6 +6682,9 @@
       ],
       "Star": [
         "Stjerne"
+      ],
+      "Filter": [
+        "Filter"
       ]
     },
     "Keyboard shortcut section name": {
@@ -7070,6 +7181,9 @@
       ],
       "Your alias": [
         "Dit alias"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "fx på Amazon, eBay osv."
       ]
     },
     "Label (begin date/advanced search)": {
@@ -8730,6 +8844,15 @@
       ],
       "Now you can take action on all emails in a single folder in one go.": [
         "Nu kan du behandle alle e-mails i en enkelt mappe på én gang."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Start nemt ${ MAIL_APP_NAME } direkte fra dit skrivebord."
+      ],
+      "Create hide-my-email aliases and keep track of them here.": [
+        "Opret hide-my-email-aliasser og hold styr på dem her."
+      ],
+      "Get the desktop app": [
+        "Få desktop appen."
       ]
     },
     "Status": {
@@ -9028,6 +9151,9 @@
       ],
       "Alias saved and copied": [
         "Alias gemt og kopieret"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Sidst ændrede aliasser gemt i din ældste boks"
       ]
     },
     "Success notification": {
@@ -9786,6 +9912,9 @@
       ],
       "Your account is protected": [
         "Din konto er beskyttet"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Hent ${ appName[APP_NAME] } apps"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -9897,6 +10026,10 @@
       "Try a shorter username (${ n } character max)": [
         "Prøv et kortere brugernavn (maks. ${ n } tegn)",
         "Prøv et kortere brugernavn (maks. ${ n } tegn)"
+      ],
+      "Password must contain at least ${ MIN_PASSWORD_LENGTH } character": [
+        "Adgangskode skal indeholde mindst ${ MIN_PASSWORD_LENGTH } tegn",
+        "Adgangskode skal indeholde mindst ${ MIN_PASSWORD_LENGTH } tegn"
       ]
     },
     "Video control": {
@@ -10284,6 +10417,15 @@
       ],
       "Protect your online identity": [
         "Beskyt din online-identitet"
+      ],
+      "Create an alias": [
+        "Opret et alias."
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Bruges på Amazon til shopping osv."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Når du bliver bedt om din email-adresse, skal du i stedet give dette email-alias i stedet for. E-mail aliasserne bliver leveret af ${ passLink }."
       ]
     },
     "storage_split: info": {
@@ -10313,6 +10455,138 @@
       ],
       "Your storage is full": [
         "Dit lager er fuldt"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "For at sende eller modtage e-mails, frigøre plads eller ${ upgrade }."
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "For at uploade eller synkronisere filer, frigøre plads eller ${ upgrade }."
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Dit ${ storage } er ${ percentage }% fyldt. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Dit ${ storage } er fyldt. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Dit drev er ${ percentage }% fyldt. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Dit drev er fyldt. ${ cta }."
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Download ${ MAIL_APP_NAME } desktop applikation."
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Fjernet"
+      ]
+    },
+    "Free trial desktop": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } desktop applikation."
+      ],
+      "14-day destkop app trial.": [
+        "14-dages prøveversion af desktop-appen."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Nyd hurtig, sikker og distraktion-fri adgang til din indbakke og kalender."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Få ubegrænset adgang med ethvert betalt abonnement på ${ MAIL_APP_NAME }."
+      ],
+      "No credit card required.": [
+        "Intet betalingskort påkrævet."
+      ],
+      "Try the app-new desktop app": [
+        "Prøv den nye desktop-app"
+      ],
+      "Upgrade now": [
+        "Opgradere dit plan nu"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Start gratis prøveperiode"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Få tilbuddet"
+      ],
+      "Special Offer": [
+        "Special Tilbud"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "${ MAIL_APP_NAME } desktop applikation."
+      ],
+      "10 email addresses": [
+        "10 e-mailadresse"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Slet automatisk elementer i Spam og Papirkurven"
+      ],
+      "Support for 1 custom email domain": [
+        "Understøttelse af 1 brugerdefineret e-mail-domæne"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Ubegrænsede mapper, etiketter og filtre"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Fornyes til ${ renewablePrice }, annuller når som helst"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "den første måned"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Tidsbegrænset tilbud, udløber den 2. april 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Få ${ planName } for kun ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Nogle billeder blev ikke uploadet grundet duplikerede filnavne i det nuværende valg."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Faktura land"
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(vil åbne ${ PASS_APP_NAME })"
+      ]
+    },
+    "Security Center - Action": {
+      "View logs": [
+        "Se logs."
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Vores banebrydende AI-drevne sikkerhedsløsning designet til brugere, der søger øget beskyttelse for deres konto. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel er **aktiv** og beskytter din konto."
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/måned"
       ]
     }
   }

@@ -383,7 +383,7 @@
         "Enkripsi"
       ],
       "exclude message content": [
-        "tidak mengikutsertakan isi pesan"
+        "kecualikan isi pesan"
       ],
       "Expand composer": [
         "Lebarkan komposer"
@@ -3210,6 +3210,9 @@
     "Email body for description (description part)": {
       "Description: ${ eventDescription }": [
         "Deskripsi: ${ eventDescription }"
+      ],
+      "DESCRIPTION:\n${ eventDescription }": [
+        "DESKRIPSI:\n${ eventDescription }"
       ]
     },
     "Email body for invitation": {
@@ -3224,6 +3227,33 @@
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
         "Anda diundang ke ${ eventTitle }\n${ eventDetailsText }"
+      ],
+      "${ eventTitle } was canceled.": [
+        "${ eventTitle } telah dibatalkan."
+      ],
+      "All events in this series were updated.": [
+        "Semua acara dalam seri ini telah diperbarui."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Semua acara dalam seri ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Kejadian acara ini telah dibatalkan."
+      ],
+      "This event occurrence was updated.": [
+        "Kejadian acara ini telah diperbarui."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Kejadian acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Acara ini telah diperbarui."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Acara ini telah diperbarui. Berikut adalah apa yang diubah:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Anda diundang ke ${ eventTitle }.\n\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -3235,11 +3265,23 @@
       ],
       "When: ${ formattedStart } - ${ formattedEnd }": [
         "Kapan: ${ formattedStart } - ${ formattedEnd }"
+      ],
+      "TIME:\n${ formattedStart }": [
+        "WAKTU:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "WAKTU:\n${ formattedStart } (sepanjang hari)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "WAKTU:\n${ formattedStart } - ${ formattedEnd }"
       ]
     },
     "Email body for invitation (location part)": {
       "Where: ${ eventLocation }": [
         "Di mana: ${ eventLocation }"
+      ],
+      "LOCATION:\n${ eventLocation }": [
+        "LOKASI:\n${ eventLocation }"
       ]
     },
     "Email body for response to invitation": {
@@ -3251,6 +3293,15 @@
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } telah secara tentatif menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } menolak undangan Anda ke ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } menerima undangan Anda secara tentatif ke ${ eventTitle }"
       ]
     },
     "Email reminder banner": {
@@ -3548,7 +3599,7 @@
         "Kata sandi diperlukan"
       ],
       "Passwords do not match": [
-        "Kata sandi tidak cocok"
+        "Kata sandi tidak sesuai"
       ],
       "Please activate your search again": [
         "Silakan aktifkan kembali pencarian konten Anda"
@@ -3743,10 +3794,10 @@
         "Anda telah mencapai batas jumlah karakter yang diperkenankan. Silakan persingkat isi pesan Anda."
       ],
       "Your emails cannot be decrypted due to a recent password reset. If you remember your previous password, you can ${ reActivateKeyLink } in order to access your messages. ${ learnMoreLink }": [
-        "Surel-surel Anda tidak dapat didekripsi karena kata sandi akun Anda telah diubah. Apabila Anda ingat kata sandi Anda sebelumnya, Anda dapat ${ reActivateKeyLink } untuk dapat kembali mengakses surel-surel Anda. ${ learnMoreLink }"
+        "Email Anda tidak dapat didekripsi karena pengaturan ulang kata sandi yang berlangsung baru-baru ini. Apabila Anda ingat kata sandi Anda sebelumnya, Anda dapat ${ reActivateKeyLink } untuk kembali mengakses email Anda. ${ learnMoreLink }"
       ],
       "Your emails cannot be decrypted. This may be due to a password reset. ${ learnMoreLink }": [
-        "Surel-surel Anda tidak dapat didekripsi. Besar kemungkinan hal ini disebabkan oleh kata sandi akun Anda yang telah diubah. ${ learnMoreLink }"
+        "Email Anda tidak dapat didekripsi. Hal ini kemungkinan disebabkan oleh kata sandi akun Anda yang telah diatur ulang. ${ learnMoreLink }"
       ],
       "Your import will not be processed.": [
         "Impor Anda tidak akan diproses."
@@ -4565,7 +4616,7 @@
         "Mungkin nanti"
       ],
       "Nice! You've updated all services in this category.": [
-        "Bagus! Anda telah memperbarui seluruh layanan pada kategori ini."
+        "Mantap! Anda telah memperbarui seluruh layanan pada kategori ini."
       ],
       "Open checklist": [
         "Buka daftar centang"
@@ -4601,13 +4652,19 @@
         "Perbarui login Anda"
       ],
       "Using your mobile device, scan this QR code or visit the iOS or Android store.": [
-        "Dengan perangkat mobile Anda, pindai kode QR berikut atau kunjungi toko aplikasi iOS atau Android."
+        "Dengan perangkat seluler Anda, pindai kode QR berikut atau kunjungi app store iOS atau Android."
       ],
       "We stop advertisers and data collectors from profiling you.": [
         "Kami menghentikan para pengiklan dan pengumpul data untuk dapat memprofil Anda."
       ],
       "You've unlocked 1 GB": [
         "Anda telah memperoleh 1 GB"
+      ],
+      "Congratulations, you completed all the steps!": [
+        "Selamat, Anda telah menyelesaikan semua langkah-langkahnya!"
+      ],
+      "Congratulations, you finished!": [
+        "Selamat, Anda sudah selesai!"
       ]
     },
     "Gmail forwarding": {
@@ -4874,7 +4931,7 @@
     },
     "Import instructions": {
       "Depending on your email service provider, you may need to generate an ${ knowledgeBaseLink } first before you can import to ${ BRAND_NAME }.": [
-        "Tergantung dari layanan surel Anda sebelumnya, Anda mungkin akan perlu untuk membuat ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
+        "Tergantung dari layanan penyedia email Anda sebelumnya, Anda mungkin akan perlu untuk menghasilkan ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
         "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengeklik tombol 3 titik (...)."
@@ -5849,7 +5906,7 @@
         "Opsi pencarian yang memungkinkan Anda untuk mencari berdasarkan kata kunci pada badan surel secara aman."
       ],
       "Search taking too long? ${ dropdownButton } or ${ toggleOffButton } from this search session.": [
-        "Pencarian Anda memakan waktu yang terlalu lama? ${ dropdownButton } atau ${ toggleOffButton } dari sesi pencarian ini."
+        "Pencarian memakan waktu yang terlalu lama? ${ dropdownButton } atau ${ toggleOffButton } dari sesi pencarian ini."
       ],
       "Secure your files with encrypted cloud storage for free, today.": [
         "Amankan berkas Anda dengan layanan penyimpanan berbasis cloud secara gratis sekarang juga."
@@ -8642,7 +8699,7 @@
         "Perizinan akan kedaluwarsa dalam ${ timeRemaining.inHours } jam"
       ],
       "This permission expires soon": [
-        "Izin ini akan segera kedaluwarsa"
+        "Perizinan ini akan segera kedaluwarsa"
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Anda kini dapat mengubah kata sandi untuk akun ${ boldEmail } secara bebas selama ${ boldDaysRemaining }."
@@ -9527,6 +9584,9 @@
       ],
       "Alias saved and copied": [
         "Alias disimpan dan disalin"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Alias yang terakhir digunakan tersimpan dalam brankas terlawas Anda"
       ]
     },
     "Success notification": {
@@ -10884,7 +10944,7 @@
         "Buat alias"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Buat alias dengan cepat dan kelola alias dan kata sandi Anda dengan mudah."
+        "Buat alias di mana saja, dan kelola alias serta kata sandi Anda dengan mudah."
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
         "Alias hide-my-email memungkinkan Anda untuk mendaftar ke berbagai layanan online tanpa membagikan alamat email asli Anda. ${ learnMoreLink }"
@@ -10894,6 +10954,9 @@
       ],
       "When asked for your email address, give this alias instead. Add a title and note to keep track of where you use it.": [
         "Pada saat Anda diminta untuk mengisi alamat email, gunakan alias ini. Setelahnya, berikan judul dan keterangan agar Anda dapat melacak di mana alias ini digunakan."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Pada saat Anda diminta untuk memberikan alamat email, gunakan alias ini sebagai gantinya. Seluruh alias disediakan oleh ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -10922,6 +10985,95 @@
     "Free trial desktop": {
       "${ MAIL_APP_NAME } desktop app": [
         "Aplikasi desktop ${ MAIL_APP_NAME }"
+      ],
+      "14-day destkop app trial.": [
+        "Uji coba aplikasi desktop 14 hari."
+      ],
+      "Enjoy fast, secure, and distraction-free access to your inbox and calendar.": [
+        "Nikmati akses yang cepat, aman, dan bebas gangguan menuju kotak masuk dan kalendar Anda."
+      ],
+      "Get unlimited access with any ${ MAIL_APP_NAME } plan.": [
+        "Dapatkan akses tak terbatas dengan langganan ${ MAIL_APP_NAME } apa pun."
+      ],
+      "No credit card required.": [
+        "Tanpa perlu kartu kredit."
+      ],
+      "Try the app-new desktop app": [
+        "Coba aplikasi baru untuk desktop."
+      ],
+      "Upgrade now": [
+        "Tingkatkan sekarang"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Dihapus"
+      ]
+    },
+    "Free trial destkop": {
+      "Start free trial": [
+        "Mulai uji coba gratis"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Dapatkan penawaran ini"
+      ],
+      "Special Offer": [
+        "Penawaran Spesial"
+      ]
+    },
+    "mailtrial2024: Deal details": {
+      "${ MAIL_APP_NAME } desktop app": [
+        "Aplikasi desktop ${ MAIL_APP_NAME }"
+      ],
+      "10 email addresses": [
+        "10 alamat email"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Kosongkan Spam dan Sampah secara otomatis"
+      ],
+      "Custom schedule send and snooze times": [
+        "Waktu pengiriman dan penundaan yang dapat disesuaikan"
+      ],
+      "Support for 1 custom email domain": [
+        "Dukungan 1 domain email khusus"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Tanpa batasan jumlah folder, label, dan filter"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Terbarui dengan harga ${ renewablePrice }, batalkan kapan saja"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "untuk bulan pertama"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Penawaran terbatas, berlaku hingga 2 April 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Dapatkan ${ planName } hanya dengan harga ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Beberapa gambar tidak diunggah karena nama berkas yang berduplikat dalam seleksi saat ini."
+      ]
+    },
+    "Security Center (link to Pass App)": {
+      "(will open ${ PASS_APP_NAME })": [
+        "(akan membuka jendela ${ PASS_APP_NAME })"
+      ]
+    },
+    "Suffix": {
+      "/month": [
+        "/bulan"
       ]
     }
   }

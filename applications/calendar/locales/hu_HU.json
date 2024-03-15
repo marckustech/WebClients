@@ -7177,6 +7177,11 @@
       "/month": [
         "/hó"
       ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Néhány képet nem sikerült feltölteni, mert az aktuális kiválasztásban duplikált fájlnevek voltak."
+      ]
     }
   }
 }

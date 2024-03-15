@@ -2689,7 +2689,7 @@
         "Kata sandi diperlukan"
       ],
       "Passwords do not match": [
-        "Kata sandi tidak cocok"
+        "Kata sandi tidak sesuai"
       ],
       "Please activate your search again": [
         "Silakan aktifkan kembali pencarian konten Anda"
@@ -3575,7 +3575,7 @@
     },
     "Import instructions": {
       "Depending on your email service provider, you may need to generate an ${ knowledgeBaseLink } first before you can import to ${ BRAND_NAME }.": [
-        "Tergantung dari layanan surel Anda sebelumnya, Anda mungkin akan perlu untuk membuat ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
+        "Tergantung dari layanan penyedia email Anda sebelumnya, Anda mungkin akan perlu untuk menghasilkan ${ knowledgeBaseLink } terlebih dahulu sebelum Anda dapat mengimpor ke ${ BRAND_NAME }."
       ],
       "Expand the dropdown menu by clicking on the 3 dots (...).": [
         "Tampilkan lebih banyak pilihan pada menu dropdown dengan mengeklik tombol 3 titik (...)."
@@ -5789,7 +5789,7 @@
         "Buat alias"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Buat alias dengan cepat dan kelola alias dan kata sandi Anda dengan mudah."
+        "Buat alias di mana saja, dan kelola alias serta kata sandi Anda dengan mudah."
       ],
       "Hide-my-email aliases": [
         "Alias hide-my-email"
@@ -5878,7 +5878,7 @@
         "Perizinan akan kedaluwarsa dalam ${ timeRemaining.inHours } jam"
       ],
       "This permission expires soon": [
-        "Izin ini akan segera kedaluwarsa"
+        "Perizinan ini akan segera kedaluwarsa"
       ],
       "You can now change your password for the account ${ boldEmail } freely for ${ boldDaysRemaining }.": [
         "Anda kini dapat mengubah kata sandi untuk akun ${ boldEmail } secara bebas selama ${ boldDaysRemaining }."
@@ -7506,6 +7506,11 @@
     "Suffix": {
       "/month": [
         "/bulan"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Beberapa gambar tidak diunggah karena nama berkas yang berduplikat dalam seleksi saat ini."
       ]
     }
   }

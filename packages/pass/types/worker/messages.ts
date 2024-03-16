@@ -8,7 +8,6 @@ import type { GeneratePasswordConfig } from '@proton/pass/lib/password/generator
 import type { Notification } from '@proton/pass/store/actions/enhancers/notification';
 import type { FeatureFlagState } from '@proton/pass/store/reducers';
 import type { ProxiedSettings } from '@proton/pass/store/reducers/settings';
-import type { PassElementsConfig } from '@proton/pass/types/utils/dom';
 import type { PauseListEntry } from '@proton/pass/types/worker/settings';
 import type { TransferableFile } from '@proton/pass/utils/file/transferable-file';
 import type { ExtensionForkResultPayload } from '@proton/shared/lib/authentication/sessionForking';
@@ -249,7 +248,7 @@ type WorkerMessageResponseMap = {
     [WorkerMessageType.ONBOARDING_REQUEST]: { message: MaybeNull<OnboardingMessage> };
     [WorkerMessageType.OTP_CODE_GENERATE]: OtpCode;
     [WorkerMessageType.POPUP_INIT]: PopupInitialState;
-    [WorkerMessageType.REGISTER_ELEMENTS]: { elements: PassElementsConfig };
+    [WorkerMessageType.REGISTER_ELEMENTS]: { hash: string };
     [WorkerMessageType.RESOLVE_EXTENSION_KEY]: { key: string };
     [WorkerMessageType.RESOLVE_TAB]: { tab: Maybe<Tabs.Tab> };
     [WorkerMessageType.RESOLVE_USER]: { user: MaybeNull<User> };

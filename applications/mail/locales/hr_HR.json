@@ -969,6 +969,48 @@
       ],
       "Zoom out": [
         "Smanji"
+      ],
+      "Current plan": [
+        "Trenutni plan"
+      ],
+      "Decrease": [
+        "Smanji"
+      ],
+      "Downgrade": [
+        "Snizi status"
+      ],
+      "Increase": [
+        "Povećaj"
+      ],
+      "Loading verification": [
+        "Učitavanje potvrde"
+      ],
+      "Open ${ CALENDAR_APP_NAME } settings": [
+        "Otvori ${ CALENDAR_APP_NAME } postavke"
+      ],
+      "Pay": [
+        "Plati"
+      ],
+      "Pay ${ price } now": [
+        "Platite ${ price } sada"
+      ],
+      "Remove bonuses": [
+        "Ukloni bonuse"
+      ],
+      "Remove gift code": [
+        "Ukloni darovni kôd"
+      ],
+      "Retry": [
+        "Pokušaj ponovno"
+      ],
+      "Select ${ planTitle }": [
+        "Odaberite ${ planTitle }"
+      ],
+      "Use a different card": [
+        "Upotrijebite neku drugu karticu"
+      ],
+      "Use a different payment method": [
+        "Koristite drugi način plaćanja"
       ]
     },
     "action": {
@@ -1008,6 +1050,9 @@
         "${ users } korisnik",
         "${ users } korisnika",
         "${ users } korisnika"
+      ],
+      "${ price } per user": [
+        "${ price } po korisniku"
       ]
     },
     "Alert": {
@@ -2815,6 +2860,48 @@
       ],
       "Your search matched too many results. Please limit your search and try again.": [
         "Vaša pretraga je pronašla previše rezultata. Ograničite pretragu i pokušajte ponovno."
+      ],
+      "Amount above the maximum.": [
+        "Iznos veći od maksimuma."
+      ],
+      "Amount below minimum.": [
+        "Iznos ispod minimuma."
+      ],
+      "Error connecting to the Bitcoin API.": [
+        "Pogreška prilikom spajanja na Bitcoin API."
+      ],
+      "Invalid ${ name } code": [
+        "Nevažeći ${ name } kôd"
+      ],
+      "Invalid card number": [
+        "Netočan broj kartice"
+      ],
+      "Invalid code": [
+        "Nevažeći kôd"
+      ],
+      "Invalid expiration date": [
+        "Nevažeći datum isteka"
+      ],
+      "Invalid postal code": [
+        "Netočan poštanski broj"
+      ],
+      "Payment process consumed": [
+        "Proces plaćanja je konzumiran"
+      ],
+      "Payment process failed": [
+        "Proces plaćanja nije uspio"
+      ],
+      "Payment process not supported": [
+        "Proces plaćanja nije podržan"
+      ],
+      "Process aborted": [
+        "Proces je prekinut"
+      ],
+      "Tab closed": [
+        "Kartica zatvorena"
+      ],
+      "Unknown payment token status": [
+        "Nepoznati status tokena za plaćanje"
       ]
     },
     "Error display when performing invalid move on message": {
@@ -4272,6 +4359,87 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaš broj telefona koristit će se samo za ovu jednokratnu provjeru."
+      ],
+      "+${ bonusSpace } bonus storage": [
+        "+ ${ bonusSpace } dodatnog prostora za pohranu"
+      ],
+      "30-day money-back guarantee.": [
+        "Povrat novca do 30 dana."
+      ],
+      "Account successfully updated": [
+        "Račun je uspješno ažuriran"
+      ],
+      "Amount below minimum (${ amount }).": [
+        "Iznos ispod minimuma (${ amount })."
+      ],
+      "By downgrading to a Free plan, you will permanently lose these benefits, even if you upgrade again in the future.": [
+        "Prelaskom na Free plan, trajno ćete izgubiti ove prednosti, čak i ako nadogradite plan opet u budućnosti."
+      ],
+      "Change your password": [
+        "Promijenite vašu lozinku"
+      ],
+      "Custom email domains": [
+        "Prilagođene domene"
+      ],
+      "Downgrading will terminate any connections to paid ${ VPN_APP_NAME } servers.": [
+        "Snižavanje statusa prekida sve veze s plaćenim ${ VPN_APP_NAME } poslužiteljima."
+      ],
+      "Download your favorite app today and take privacy with you everywhere you go.": [
+        "Preuzmite svoju omiljenu aplikaciju danas i ponesite privatnost sa sobom gdje god idete."
+      ],
+      "Expired": [
+        "Isteklo"
+      ],
+      "If you proceed with the downgrade, you will lose access to ${ MAIL_APP_NAME } and ${ VPN_APP_NAME } paid features.": [
+        "Ako nastavite s snižavanjem statusa, izgubit ćete pristup plaćenim ${ MAIL_APP_NAME } i ${ VPN_APP_NAME } značajkama."
+      ],
+      "If you proceed with the downgrade, you will lose access to ${ MAIL_APP_NAME } paid features, including additional storage and filters.": [
+        "Ako nastavite s snižavanjem statusa, izgubiti će te pristup plaćenim značajkama ${ MAIL_APP_NAME }-a, uključujući dodatni prostor za pohranu i filtre."
+      ],
+      "MM/YY": [
+        "MM/GG"
+      ],
+      "No payment is required at this time.": [
+        "Trenutno nije potrebno plaćanje."
+      ],
+      "Payments are protected with TLS encryption and Swiss privacy laws.": [
+        "Plaćanja su zaštićena TLS enkripcijom i švicarskim zakonima o privatnosti."
+      ],
+      "Please note that upon clicking the Confirm button, your account will have ${ creditsRemaining } credits remaining.": [
+        "Imajte na umu da nakon pritiska na dugme Potvrdi, na vašem računu će ostati ${ creditsRemaining } kredita."
+      ],
+      "Please try again, use a different payment method, or contact PayPal for assistance.": [
+        "Pokušajte ponovo, koristite drugi način plaćanja ili kontaktirajte PayPal za pomoć."
+      ],
+      "Since you're a loyal user, your account has additional features enabled.": [
+        "Budući da ste odani korisnik, na vašem su računu omogućene dodatne značajke."
+      ],
+      "Users": [
+        "Korisnici"
+      ],
+      "Verification will open a new tab, please disable any popup blockers. You will not be charged. Any amount used to verify the card will be refunded immediately.": [
+        "Proces potvrde otvorit će se u novoj kartici preglednika, stoga onemogućite sve blokade skočnih prozora. Neće vam biti naplaćeno. Bilo koji iznos korišten za potvrdu kartice bit će vraćen odmah."
+      ],
+      "We use 3-D Secure to protect your payments": [
+        "Za zaštitu vaših plaćanja koristimo 3-D Secure"
+      ],
+      "We will redirect you to PayPal in a new browser tab to complete this transaction. If you use any pop-up blockers, please disable them to continue.": [
+        "Preusmjerit ćemo vas na PayPal u novoj kartici preglednika da biste dovršili ovu transakciju. Ako koristite bilo koje blokade skočnih prozora, onemogućite ih kako bi mogli nastaviti."
+      ],
+      "You already have a free account": [
+        "Već imate besplatan račun"
+      ],
+      "You must disable or remove any additional ${ MAIL_APP_NAME } users, addresses, and custom domains before you can downgrade.": [
+        "Morate onemogućiti ili ukloniti sve dodatne korisnike ${ MAIL_APP_NAME }-a, adrese i prilagođene domene prije nego što možete sniziti status."
+      ],
+      "You must have a credit card or bank account linked with your PayPal account. If your PayPal account doesn't have that, please click on the button below.": [
+        "Morate imati kreditnu karticu ili bankovni račun povezan sa vašim PayPal računom. Ukoliko nemate navedeno na vašem PayPal računu, molimo vas kliknite na dugme ispod."
+      ],
+      "You will soon be redirected to PayPal to verify your payment.": [
+        "Uskoro ćete biti preusmjereni na PayPal radi potvrde plaćanja."
+      ],
+      "Your account will be updated once the payment is cleared.": [
+        "Vaš račun će se ažurirati nakon uspješnog plaćanja."
       ]
     },
     "info": {
@@ -4916,6 +5084,47 @@
       ],
       "Your password (admin)": [
         "Vaša lozinka (administrator)"
+      ],
+      "${ n } month": [
+        "${ n } mjesec",
+        "${ n } mjeseca",
+        "${ n } mjeseci"
+      ],
+      "BTC address": [
+        "BTC adresa"
+      ],
+      "BTC amount": [
+        "Iznos u BTC-u"
+      ],
+      "Card details": [
+        "Pojedinosti o kartici"
+      ],
+      "Card holder": [
+        "Vlasnik kartice"
+      ],
+      "Card number": [
+        "Broj kreditne kartice"
+      ],
+      "Cash": [
+        "Gotovina"
+      ],
+      "Expires": [
+        "Ističe"
+      ],
+      "New plan": [
+        "Novi plan"
+      ],
+      "Optional": [
+        "Neobavezno"
+      ],
+      "Payer": [
+        "Platitelj"
+      ],
+      "Payment details": [
+        "Detalji o plaćanju"
+      ],
+      "Start date": [
+        "Početni datum"
       ]
     },
     "Label attach to date input to select a date": {
@@ -5107,6 +5316,12 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Morate ponovno aktivirati vaše ključeve da biste vidjeli ažuriranu pozivnicu"
+      ],
+      "Add a gift code": [
+        "Dodaj darovni kôd"
+      ],
+      "click here": [
+        "kliknite ovdje"
       ]
     },
     "Link to calendar event": {
@@ -5347,6 +5562,112 @@
       ],
       "Unlimited folders, labels, and filters": [
         "Neograničen broj mapa, oznaka i filtara"
+      ],
+      "${ n } email address": [
+        "${ n } adresa e-pošte",
+        "${ n } adresa e-pošte/pseudonim",
+        "${ n } adresa e-pošte/pseudonima"
+      ],
+      "${ n } email address per user": [
+        "${ n } e-pošta po korisniku",
+        "${ n } e-pošte po korisniku",
+        "${ n } e-pošte po korisniku"
+      ],
+      "${ n } filter": [
+        "${ n } filtar",
+        "${ n } filtara",
+        "${ n } filtara"
+      ],
+      "${ n } folder": [
+        "${ n } mapa",
+        "${ n } mape",
+        "${ n } mapa"
+      ],
+      "${ n } folder and label": [
+        "${ n } mapa i oznaka",
+        "${ n } mape i oznake",
+        "${ n } mapa i oznaka"
+      ],
+      "${ n } label": [
+        "${ n } oznaka",
+        "${ n } oznake",
+        "${ n } oznaka"
+      ],
+      "${ n } vault": [
+        "${ n } trezor",
+        "${ n } trezora",
+        "${ n } trezora"
+      ],
+      "${ n } VPN connection": [
+        "${ n } VPN veza",
+        "${ n } VPN veze",
+        "${ n } VPN veza"
+      ],
+      "${ PROTON_SENTINEL_NAME } program": [
+        "${ PROTON_SENTINEL_NAME } program"
+      ],
+      "${ size } attachment size": [
+        "Veličina privitka: ${ size }"
+      ],
+      "${ size } storage per user": [
+        "${ size } prostora za pohranu po korisniku"
+      ],
+      "1 user": [
+        "1 korisnik"
+      ],
+      "Auto-reply": [
+        "Automatski odgovor"
+      ],
+      "Contact groups": [
+        "Grupa kontakata"
+      ],
+      "Easy Switch import assistant": [
+        "Pomoćnik za uvoz Easy Switch"
+      ],
+      "Email client support (via IMAP/SMTP)": [
+        "Podrška email klijenta (putem IMAP/SMTP)"
+      ],
+      "Encrypted contact details": [
+        "Šifrirani podaci o kontaktu"
+      ],
+      "HTML signatures": [
+        "HTML potpisi"
+      ],
+      "Limited support": [
+        "Ograničena podrška"
+      ],
+      "Password-protected Emails": [
+        "Emailovi zaštićeni lozinkom"
+      ],
+      "Priority support": [
+        "Prioritetna podrška"
+      ],
+      "Secure Core servers": [
+        "Secure Core poslužitelji"
+      ],
+      "SMTP submission": [
+        "SMTP predaja"
+      ],
+      "Strict no-logs policy": [
+        "Stroga politika ne spremanja zapisa"
+      ],
+      "Tor over VPN": [
+        "Tor preko VPN-a"
+      ],
+      "Two-factor authentication": [
+        "Dvofaktorska autentikacija"
+      ],
+      "Unlimited filters": [
+        "Neograničen broj filtera"
+      ],
+      "Unlimited folders": [
+        "Neograničen broj mapa"
+      ],
+      "Unlimited labels": [
+        "Neograničen broj oznaka"
+      ],
+      "Unlimited messages per day": [
+        "Neograničen broj poruka dnevno"
       ]
     },
     "new_plans: placeholder": {
@@ -5554,6 +5875,12 @@
       ],
       "Type text or keyword": [
         "Unesite tekst ili ključnu riječ"
+      ],
+      "Feedback": [
+        "Povratne informacije"
+      ],
+      "Gift code": [
+        "Darovni kôd"
       ]
     },
     "Placeholder for contact group name": {
@@ -6203,6 +6530,12 @@
       ],
       "Verification successful": [
         "Uspješna provjera"
+      ],
+      "Copied to clipboard": [
+        "Kopirano u međuspremnik"
+      ],
+      "You have successfully unsubscribed": [
+        "Uspješno ste poništili pretplatu"
       ]
     },
     "Success notification": {
@@ -6740,6 +7073,66 @@
       ],
       "What's new": [
         "Što je novo"
+      ],
+      "Amount due": [
+        "Dospjeli iznos"
+      ],
+      "Apply gift code": [
+        "Primijeni darovni kôd"
+      ],
+      "Billing cycle": [
+        "Ciklus naplate"
+      ],
+      "Card verification": [
+        "Potvrda kartice"
+      ],
+      "Confirm downgrade": [
+        "Potvrdi snižavanje statusa"
+      ],
+      "Credits": [
+        "Kredit"
+      ],
+      "Customize your plan": [
+        "Prilagodite vaš plan"
+      ],
+      "Downgrade account": [
+        "Smanjite svoj plan"
+      ],
+      "Location": [
+        "Lokacija"
+      ],
+      "Network error": [
+        "Pogreška mreže"
+      ],
+      "Password": [
+        "Lozinka"
+      ],
+      "Payment failed": [
+        "Neuspješno plaćanje"
+      ],
+      "Payment verification": [
+        "Potvrda plaćanja"
+      ],
+      "PayPal verification failed": [
+        "Neuspjela PayPal potvrda"
+      ],
+      "Processing...": [
+        "Obrada..."
+      ],
+      "Recommended": [
+        "Preporučeno"
+      ],
+      "Select a plan": [
+        "Odaberite plan"
+      ],
+      "Summary": [
+        "Sažetak"
+      ],
+      "Type": [
+        "Vrsta"
+      ],
+      "Verification failed": [
+        "Neuspješna provjera"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -6786,6 +7179,9 @@
       ],
       "You do not have any contacts to export": [
         "Nemate kontakata za izvoz"
+      ],
+      "If you purchased a gift code or received one from our support team, you can enter it here.": [
+        "Ako ste kupili darovni kôd ili ga dobili od našeg tima za podršku, možete ga unijeti ovdje."
       ]
     },
     "Update font modal": {
@@ -6852,6 +7248,9 @@
       ],
       "You will lose any customization you made so far.": [
         "Izgubiti će te sve prilagodbe koje ste do sada napravili."
+      ],
+      "Please note that by choosing this payment method, your account cannot be upgraded immediately. We will update your account once the payment is cleared.": [
+        "Imajte na umu da odabirom ovog načina plaćanja vaš račun se ne može odmah nadograditi. Ažurirati ćemo vaš račun nakon plaćanja."
       ]
     },
     "Weekly recurring event, frequency": {
@@ -7127,6 +7526,240 @@
       ],
       "Yearly, ${ untilString }": [
         "Godišnje, ${ untilString }"
+      ]
+    },
+    "bf2023: Action": {
+      "Add ${ PASS_APP_NAME }": [
+        "Dodaj ${ PASS_APP_NAME }"
+      ],
+      "Remove ${ PASS_APP_NAME }": [
+        "Izbriši ${ PASS_APP_NAME }"
+      ]
+    },
+    "bf2023: renew": {
+      "${ n } month": [
+        "${ n } mjesec",
+        "${ n } mjeseca",
+        "${ n } mjeseci"
+      ]
+    },
+    "Billing cycle": {
+      "${ n } month": [
+        "${ n } mjesec",
+        "${ n } mjeseca",
+        "${ n } mjeseci"
+      ]
+    },
+    "Billing cycle option": {
+      "1 month": [
+        "1 mjesec"
+      ],
+      "12 months": [
+        "12 mjeseci"
+      ],
+      "24 months": [
+        "24 mjeseca"
+      ],
+      "Annually": [
+        "Godišnje"
+      ],
+      "Monthly": [
+        "Mjesečno"
+      ],
+      "Two-year": [
+        "2 godine"
+      ]
+    },
+    "Cycle": {
+      "/month": [
+        "/mjesec"
+      ]
+    },
+    "Info for cash payment method": {
+      "Please contact us at ${ email } for instructions on how to pay us with cash.": [
+        "Obratite nam se na ${ email } kako biste dobili upute za plaćanje gotovinom."
+      ]
+    },
+    "Label, credit card": {
+      "ZIP code": [
+        "Poštanski broj"
+      ]
+    },
+    "new_plans": {
+      "Highest VPN speed": [
+        "Najviša VPN brzina"
+      ]
+    },
+    "new_plans: action": {
+      "Delete account": [
+        "Ukloni račun"
+      ],
+      "Downgrade account": [
+        "Smanjite svoj plan"
+      ],
+      "Get ${ planName }": [
+        "Nabavite ${ planName }"
+      ]
+    },
+    "new_plans: heading": {
+      "Support": [
+        "Podrška"
+      ]
+    },
+    "new_plans: info": {
+      "Popular": [
+        "Popularno"
+      ],
+      "Secure email with advanced features for your everyday communications.": [
+        "Sigurna e-pošta s naprednim značajkama za svakodnevnu komunikaciju."
+      ],
+      "The no-cost starter account designed to empower everyone with privacy by default.": [
+        "Besplatni početni račun osmišljen kako bi svima osigurao privatnost prema zadanim postavkama."
+      ]
+    },
+    "new_plans: title": {
+      "Delete account?": [
+        "Izbriši račun?"
+      ],
+      "Downgrade account?": [
+        "Smanjite svoj plan?"
+      ]
+    },
+    "new_plans: Upsell attribute": {
+      "Multi-platform support": [
+        "Podrška na više platformi"
+      ]
+    },
+    "Payment method option": {
+      "New credit/debit card": [
+        "Nova kreditna/debitna kartica"
+      ]
+    },
+    "Payments.Error": {
+      "Invalid card number": [
+        "Netočan broj kartice"
+      ],
+      "Invalid expiration date": [
+        "Nevažeći datum isteka"
+      ],
+      "Your card was declined. Please try a different card or contact your bank to authorize the charge.": [
+        "Vaša kartica je odbijena. Molimo pokušajte s drugom karticom ili kontaktirajte vašu banku da autorizira ovu naplatu."
+      ]
+    },
+    "plan customizer, users": {
+      "contact": [
+        "kontaktirajte"
+      ]
+    },
+    "Price": {
+      "Free": [
+        "Besplatno"
+      ]
+    },
+    "State": {
+      "Downgrading your account, please wait": [
+        "Snižavanje statusa vašeg računa, molimo pričekajte"
+      ]
+    },
+    "Subscription": {
+      "Billed every 2 years": [
+        "Naplaćuje se svake 2 godine"
+      ],
+      "Billed for 15 months": [
+        "Naplaćuje se svakih 15 mjeseci"
+      ],
+      "Billed for 18 months": [
+        "Naplaćuje se svakih 18 mjeseci"
+      ],
+      "Billed for 3 months": [
+        "Naplaćuje se svakih 3 mjeseci"
+      ],
+      "Billed for 30 months": [
+        "Naplaćuje se svakih 30 mjeseci"
+      ],
+      "Billed monthly": [
+        "Mjesečni račun"
+      ]
+    },
+    "Subscription attribute": {
+      "${ n } high-speed VPN connection": [
+        "${ n } VPN veza visoke brzine",
+        "${ n } VPN veze visoke brzine",
+        "${ n } VPN veza visoke brzine"
+      ],
+      "${ n } VPN connection": [
+        "${ n } VPN veza",
+        "${ n } VPN veze",
+        "${ n } VPN veza"
+      ],
+      "${ n } VPN connection per user": [
+        "${ n } VPN veza po korisniku",
+        "${ n } VPN veze po korisniku",
+        "${ n } VPN veza po korisniku"
+      ]
+    },
+    "Subscription change warning": {
+      "Got it": [
+        "Razumijem"
+      ]
+    },
+    "Subscription price": {
+      "For": [
+        "Za"
+      ]
+    },
+    "Subscription saving": {
+      "Save": [
+        "Spremi"
+      ]
+    },
+    "Subscription status": {
+      "Active": [
+        "Aktivno"
+      ]
+    },
+    "Suffix for price": {
+      "per month": [
+        "mjesečno"
+      ]
+    },
+    "Tab subscription modal": {
+      "For businesses": [
+        "Za tvrtke"
+      ],
+      "For families": [
+        "Za obitelji"
+      ],
+      "For individuals": [
+        "Za pojedince"
+      ]
+    },
+    "Title subscription": {
+      "End date": [
+        "Krajnji datum"
+      ],
+      "Plan": [
+        "Plan"
+      ],
+      "Status": [
+        "Status"
+      ]
+    },
+    "VPN Plan Feature": {
+      "${ n } server": [
+        "${ n } poslužitelj",
+        "${ n }+ poslužitelja",
+        "${ n }+ poslužitelja"
+      ],
+      "${ n } VPN connection": [
+        "${ n } VPN veza",
+        "${ n } VPN veze",
+        "${ n } VPN veza"
+      ]
+    },
+    "vpn_2step: feature": {
+      "No ads": [
+        "Bez oglasa"
       ]
     }
   }

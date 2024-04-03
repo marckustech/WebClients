@@ -660,6 +660,18 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Masaüstü uygulaması ücretsiz deneme sürümünüz ${ formattedEndDate } tarihinde sona erecek. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Kullanılabilirlik durumu bilinmiyor"
+      ],
+      "Hide busy times": [
+        "Yoğun zamanları gizle"
+      ],
+      "Show busy times": [
+        "Yoğun zamanları göster"
+      ],
+      "View all reports": [
+        "Tüm raporları görüntüle"
       ]
     },
     "Action subline": {
@@ -2250,6 +2262,9 @@
       ],
       "Your account and data recovery methods are set.": [
         "Hesabınızı ve verilerinizi kurtarma yöntemleri ayarlandı."
+      ],
+      "Availability unknown": [
+        "Kullanılabilirlik durumu bilinmiyor"
       ]
     },
     "description": {
@@ -4427,6 +4442,39 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sistem saat diliminiz ${ timezone } olarak değişmiş gibi görünüyor. Saat dilimi ayarınızı güncellemek ister misiniz?"
+      ],
+      "Change your password": [
+        "Parolanızı değiştirin"
+      ],
+      "email": [
+        "e-posta"
+      ],
+      "finance": [
+        "finans"
+      ],
+      "High Priority": [
+        "Yüksek öncelik"
+      ],
+      "Low Priority": [
+        "Düşük Öncelik"
+      ],
+      "Medium Priority": [
+        "Orta öncelik"
+      ],
+      "Monitor accounts": [
+        "Hesapları izle"
+      ],
+      "password": [
+        "parola"
+      ],
+      "Please try again in a few moments": [
+        "Lütfen birkaç saniye içinde tekrar deneyin"
+      ],
+      "username": [
+        "kullanıcı adı"
+      ],
+      "View details": [
+        "Ayrıntıları görüntüle"
       ]
     },
     "info": {
@@ -5842,6 +5890,9 @@
       ],
       "Start typing an email address": [
         "Bir e-posta adresi yazmaya başlayın"
+      ],
+      "Select state": [
+        "İl seçin"
       ]
     },
     "Placeholder for contact group name": {
@@ -7202,6 +7253,39 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Mail Plus ücretsiz deneme süreniz ${ textDate } tarihinde sonra erecek"
+      ],
+      "Breach Date": [
+        "Verilerin ele geçirilme tarihi"
+      ],
+      "Breach Information": [
+        "Verilerin ele geçirilme bilgileri"
+      ],
+      "Breach Size": [
+        "Verilerin ele geçirilme boyutu"
+      ],
+      "Email address": [
+        "E-posta adresi"
+      ],
+      "Exposed info": [
+        "Açığa çıkan bilgiler"
+      ],
+      "Location": [
+        "Konum"
+      ],
+      "Password": [
+        "Parola"
+      ],
+      "Recommended actions": [
+        "Önerilen işlemler"
+      ],
+      "Stay safer online": [
+        "Çevrimiçi ortamda daha güvende kalın"
+      ],
+      "Type": [
+        "Tür"
+      ],
+      "Your Exposed Information": [
+        "Açığa çıkmış bilgileriniz"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7670,6 +7754,35 @@
       ],
       "Yearly, ${ untilString }": [
         "Yılda bir, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Ayrıntılı bilgi alın"
+      ],
+      "upgrade for more storage": [
+        "daha fazla depolama alanı edinmek için tarifenizi yükseltin"
+      ],
+      "Upgrade to restore full access": [
+        "Tam erişim sağlamak için tarifenizi yükseltin"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "Kullandığınız ${ driveStorage } dolu. Dosyaları yüklemek ya da eşitlemek için boş yer açın ya da ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Kullandığınız ${ mailStorage } dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Hesabınızın silinme riski var. Verileriniz kaybolmasını önlemek için yöneticinizden tarifenizi yükseltmesini isteyin. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Depolama alanınız dolu. E-postaları alabilmek ya da gönderebilmek için boş yer açın ya da ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Depolama alanınız dolu. Dosyaları yüklemek ya da eşitlemek için boş yer açın ya da ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Aboneliğinizin süresi dolmuş. Verilerinizin kaybolmasını önlemek için ${ cta }."
       ]
     }
   }

@@ -660,6 +660,18 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "La tua prova gratuita dell'applicazione desktop termina ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Disponibilità sconosciuta"
+      ],
+      "Hide busy times": [
+        "Nascondi gli orari in cui sono occupato"
+      ],
+      "Show busy times": [
+        "Mostra gli orari in cui sono occupato"
+      ],
+      "View all reports": [
+        "Visualizza tutte le segnalazioni"
       ]
     },
     "Action subline": {
@@ -2250,6 +2262,18 @@
       ],
       "Your account and data recovery methods are set.": [
         "I tuoi metodi di recupero dell'account e dei dati sono impostati."
+      ],
+      "Availability unknown": [
+        "Disponibilità sconosciuta"
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Gli avvisi e le segnalazioni sulle violazioni di dati sono disponibili con un piano a pagamento. Effettua l'upgrade per ottenere l'accesso immediato."
+      ],
+      "Your information was found in at least one data breach.": [
+        "Le tue informazioni sono state trovate in almeno una violazione di dati."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "I tuoi dati personali sono stati resi pubblici da un servizio online a seguito di una violazione di dati. Visualizza i dettagli completi e le azioni consigliate."
       ]
     },
     "description": {
@@ -4427,6 +4451,45 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Il fuso orario di sistema sembra essere cambiato a ${ timezone }. Vuoi aggiornare la tua preferenza di fuso orario?"
+      ],
+      "Breach alerts": [
+        "Avvisi sulle violazioni di dati"
+      ],
+      "Change your password": [
+        "Cambia la password"
+      ],
+      "email": [
+        "email"
+      ],
+      "finance": [
+        "dati finanziari"
+      ],
+      "High Priority": [
+        "Priorità alta"
+      ],
+      "Low Priority": [
+        "Priorità bassa"
+      ],
+      "Medium Priority": [
+        "Priorità media"
+      ],
+      "Monitor accounts": [
+        "Monitora gli account"
+      ],
+      "Other users within your organization will see your busy slots. No event details are shared.": [
+        "Gli altri utenti all'interno della tua organizzazione vedranno quando sei occupato. Non verranno condivisi i dettagli degli eventi."
+      ],
+      "password": [
+        "password"
+      ],
+      "Please try again in a few moments": [
+        "Riprova tra qualche istante"
+      ],
+      "username": [
+        "nome utente"
+      ],
+      "View details": [
+        "Visualizza i dettagli"
       ]
     },
     "info": {
@@ -4900,6 +4963,12 @@
       ],
       "Your password (admin)": [
         "La tua password (admin)"
+      ],
+      "Access to my events": [
+        "Accesso ai miei eventi"
+      ],
+      "Show others when I'm busy": [
+        "Mostra agli altri quando sono occupato"
       ]
     },
     "Label for contact group color": {
@@ -6011,6 +6080,9 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel è **attivo** e sta proteggendo il tuo account."
+      ],
+      "Get notified if your password or other personal data was leaked.": [
+        "Ricevi una notifica se la tua password o altri dati personali vengono resi pubblici."
       ]
     },
     "Select files": {
@@ -6499,6 +6571,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Con la classificazione degli eventi per colore, puoi risolvere il caos e conquistare la tua giornata."
+      ],
+      "No more scheduling conflicts": [
+        "Niente più conflitti sulla pianificazione"
+      ],
+      "Now you can see when participants are free to attend your meeting.": [
+        "Ora puoi vedere quando i partecipanti sono liberi di partecipare alla tua riunione."
       ]
     },
     "Storage": {
@@ -7237,6 +7315,48 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La tua prova gratuita di Mail Plus termina il giorno ${ textDate }"
+      ],
+      "Breach alerts": [
+        "Avvisi sulle violazioni di dati"
+      ],
+      "Breach Date": [
+        "Data della violazione di dati"
+      ],
+      "Breach detected": [
+        "Violazione di dati rilevata"
+      ],
+      "Breach Information": [
+        "Informazioni sulla violazione di dati"
+      ],
+      "Breach Size": [
+        "Dimensione della violazione di dati"
+      ],
+      "Email address": [
+        "Indirizzo email"
+      ],
+      "Exposed info": [
+        "Informazioni esposte"
+      ],
+      "Location": [
+        "Posizione"
+      ],
+      "No breaches detected": [
+        "Nessuna violazione di dati rilevata"
+      ],
+      "Password": [
+        "Password"
+      ],
+      "Recommended actions": [
+        "Azioni consigliate"
+      ],
+      "Stay safer online": [
+        "Stai più sicuro online"
+      ],
+      "Type": [
+        "Tipo"
+      ],
+      "Your Exposed Information": [
+        "Le tue informazioni esposte"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

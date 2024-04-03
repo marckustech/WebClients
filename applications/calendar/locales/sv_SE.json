@@ -660,6 +660,18 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Din gratis provperiod av din app för stationär dator slutar den ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Tillgänglighet är okänd"
+      ],
+      "Hide busy times": [
+        "Dölj upptagna tider"
+      ],
+      "Show busy times": [
+        "Visa upptagna tider"
+      ],
+      "View all reports": [
+        "Visa alla rapporter"
       ]
     },
     "Action subline": {
@@ -2249,6 +2261,18 @@
       ],
       "Your account and data recovery methods are set.": [
         "Ditt konto och dina dataåterställningsmetoder är inställda."
+      ],
+      "Availability unknown": [
+        "Tillgänglighet okänt"
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Intrångsvarningar och rapporter är tillgängliga med ett betalt paket. Uppgradera för omedelbar åtkomst."
+      ],
+      "Your information was found in at least one data breach.": [
+        "Din information hittades i minst ett dataintrång."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "Dina personuppgifter läcktes av en onlinetjänst i ett dataintrång. Visa alla detaljer och få rekommenderade åtgärder."
       ]
     },
     "description": {
@@ -4435,6 +4459,45 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Din systemtidszon verkar ha ändrats till ${ timezone }. Vill du uppdatera din tidszons preferens?"
+      ],
+      "Breach alerts": [
+        "Intrångsvarningar"
+      ],
+      "Change your password": [
+        "Ändra ditt lösenord"
+      ],
+      "email": [
+        "e-post"
+      ],
+      "finance": [
+        "finans"
+      ],
+      "High Priority": [
+        "Hög prioritet"
+      ],
+      "Low Priority": [
+        "Låg prioritet"
+      ],
+      "Medium Priority": [
+        "Medium prioritet"
+      ],
+      "Monitor accounts": [
+        "Övervaka konton"
+      ],
+      "Other users within your organization will see your busy slots. No event details are shared.": [
+        "Andra användare inom din organisation kommer att se dina upptagna tidsluckor. Inga händelsedetaljer delas."
+      ],
+      "password": [
+        "lösenord"
+      ],
+      "Please try again in a few moments": [
+        "Försök igen om en stund"
+      ],
+      "username": [
+        "användarnamn"
+      ],
+      "View details": [
+        "Visa detaljer"
       ]
     },
     "info": {
@@ -4911,6 +4974,12 @@
       ],
       "Your password (admin)": [
         "Ditt lösenord (admin)"
+      ],
+      "Access to my events": [
+        "Åtkomst till mina händelser"
+      ],
+      "Show others when I'm busy": [
+        "Visa andra när jag är upptagen"
       ]
     },
     "Label for contact group color": {
@@ -6011,6 +6080,9 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel är **aktivt** och skyddar ditt konto."
+      ],
+      "Get notified if your password or other personal data was leaked.": [
+        "Bli aviserad om ditt lösenord eller andra personliga uppgifter har läckt."
       ]
     },
     "Select files": {
@@ -6499,6 +6571,9 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Med anpassningsbara händelsefärger kan du färgkoda kaoset och erövra din dag."
+      ],
+      "Now you can see when participants are free to attend your meeting.": [
+        "Nu kan du se när deltagarna är lediga för att delta i ditt möte."
       ]
     },
     "Storage": {
@@ -7237,6 +7312,48 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Din gratis provperiod för Mail Plus slutar den ${ textDate }"
+      ],
+      "Breach alerts": [
+        "Intrångsvarningar"
+      ],
+      "Breach Date": [
+        "Intrångsdatum"
+      ],
+      "Breach detected": [
+        "Intrång upptäckt"
+      ],
+      "Breach Information": [
+        "Intrångsinformation"
+      ],
+      "Breach Size": [
+        "Storlek på intrång"
+      ],
+      "Email address": [
+        "E-postadress"
+      ],
+      "Exposed info": [
+        "Exponeringsinformation"
+      ],
+      "Location": [
+        "Plats"
+      ],
+      "No breaches detected": [
+        "Inga intrång upptäckta"
+      ],
+      "Password": [
+        "Lösenord"
+      ],
+      "Recommended actions": [
+        "Rekommenderade åtgärder"
+      ],
+      "Stay safer online": [
+        "Var säkrare online"
+      ],
+      "Type": [
+        "Typ"
+      ],
+      "Your Exposed Information": [
+        "Din exponeringsinformation"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

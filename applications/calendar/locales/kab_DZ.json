@@ -3711,6 +3711,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Izḍi usrid n unagraw-inek·inem yettban yettusenfel ɣer ${ timezone }. Tebɣiḍ ad tleqqmeḍ asmenyif-inek·inem n yizḍi usrid?"
+      ],
+      "Change your password": [
+        "Senfel awal uffir"
       ]
     },
     "Info message": {
@@ -5867,6 +5870,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Aneɛruḍ n baṭel n Mail Plus ad ifekk deg ${ textDate }"
+      ],
+      "Location": [
+        "Amḍiq"
+      ],
+      "Password": [
+        "Awal ufir"
+      ],
+      "Type": [
+        "Anaw"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

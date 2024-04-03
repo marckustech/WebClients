@@ -4139,6 +4139,33 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "您的系統時區似乎已更改為 ${ timezone }。您要更新您的時區喜好設定嗎？"
+      ],
+      "Change your password": [
+        "變更您的密碼"
+      ],
+      "email": [
+        "電子信箱"
+      ],
+      "finance": [
+        "金融"
+      ],
+      "High Priority": [
+        "首要優先順序"
+      ],
+      "Low Priority": [
+        "較低優先順序"
+      ],
+      "Medium Priority": [
+        "中等優先順序"
+      ],
+      "Monitor accounts": [
+        "監控帳號"
+      ],
+      "password": [
+        "密碼"
+      ],
+      "username": [
+        "使用者名稱"
       ]
     },
     "info": {
@@ -5376,6 +5403,9 @@
       ],
       "Start typing an email address": [
         "在此輸入一個電郵位址"
+      ],
+      "Select state": [
+        "請選州"
       ]
     },
     "Placeholder for contact group name": {
@@ -6586,6 +6616,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "您的 Mail Plus 免費方案將於 ${ textDate } 結束"
+      ],
+      "Breach Date": [
+        "外洩資料"
+      ],
+      "Breach Information": [
+        "外洩資料"
+      ],
+      "Breach Size": [
+        "外洩尺寸"
+      ],
+      "Email address": [
+        "電子郵件地址"
+      ],
+      "Exposed info": [
+        "資料外露"
+      ],
+      "Location": [
+        "位置"
+      ],
+      "Password": [
+        "密碼"
+      ],
+      "Recommended actions": [
+        "建議行動"
+      ],
+      "Type": [
+        "類型"
+      ],
+      "Your Exposed Information": [
+        "你的外﻿﻿﻿洩資料"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -6674,6 +6734,9 @@
       ],
       "You do not have any contacts to export": [
         "您沒有任何可匯出的聯絡人"
+      ],
+      "Change start date to unselect": [
+        "變更開始日以取消選取"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -6914,6 +6977,32 @@
     "Yearly recurring event, frequency (until)": {
       "Yearly, ${ untilString }": [
         "每年，${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "了解更多"
+      ],
+      "upgrade for more storage": [
+        "升級以增加儲存"
+      ],
+      "Upgrade to restore full access": [
+        "升級以還原完整存取權限"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "您的${ driveStorage }已滿。要上載或同步檔案，釋放空間或${ cta }。"
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "您的${ mailStorage }已滿。要傳送或接收電子郵件，釋放空間或${ cta }。"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "您的儲存已滿，要傳送或接收電子郵件，釋放空間或${ cta }。"
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "您的儲存已滿。要上載或同步檔案，釋放空間或${ cta }。"
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "您的訂閱已到期。 ${ cta } 以避免資料遺失。"
       ]
     }
   }

@@ -3122,6 +3122,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Vremenska zona vašeg sustava promijenjena je u ${ timezone }. Želite li ažurirati svoje postavke vremenske zone?"
+      ],
+      "Change your password": [
+        "Promijenite vašu lozinku"
       ]
     },
     "Info message": {
@@ -4961,6 +4964,15 @@
       ],
       "You have invited participants with equivalent emails": [
         "Pozvali ste sudionike s istom adresom e-pošte"
+      ],
+      "Location": [
+        "Lokacija"
+      ],
+      "Password": [
+        "Lozinka"
+      ],
+      "Type": [
+        "Vrsta"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

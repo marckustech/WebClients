@@ -4427,6 +4427,24 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Sembla que el fus horari del sistema ha canviat a ${ timezone }. Voleu actualitzar la vostra preferència de fus horari?"
+      ],
+      "Change your password": [
+        "Canvieu la vostra contrasenya"
+      ],
+      "email": [
+        "corrreu electrònic"
+      ],
+      "finance": [
+        "finances"
+      ],
+      "password": [
+        "contrasenya"
+      ],
+      "username": [
+        "nom d'usuari"
+      ],
+      "View details": [
+        "Mostra els detalls"
       ]
     },
     "info": {
@@ -7196,6 +7214,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "La prova gratuïta de Mail Plus finalitza el ${ textDate }"
+      ],
+      "Location": [
+        "Ubicació"
+      ],
+      "Password": [
+        "Contrasenya"
+      ],
+      "Type": [
+        "Tipus"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7658,6 +7685,14 @@
       ],
       "Yearly, ${ untilString }": [
         "Cada any, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Saber-ne més"
+      ],
+      "upgrade for more storage": [
+        "milloreu per a obtenir més emmagatzematge"
       ]
     }
   }

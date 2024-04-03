@@ -4427,6 +4427,33 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Järjestelmäsi aikavyöhykkeeksi näyttää vaihtuneen ${ timezone }. Haluatko päivittää aikavyöhykeasetuksesi?"
+      ],
+      "Change your password": [
+        "Vaihda salasanasi"
+      ],
+      "email": [
+        "sähköpostiosoite"
+      ],
+      "finance": [
+        "rahoitus"
+      ],
+      "High Priority": [
+        "Korkea tärkeys"
+      ],
+      "Low Priority": [
+        "Alhainen tärkeys"
+      ],
+      "Medium Priority": [
+        "Keskitason tärkeys"
+      ],
+      "Monitor accounts": [
+        "Valvo tilejä"
+      ],
+      "password": [
+        "salasana"
+      ],
+      "username": [
+        "käyttäjätunnus"
       ]
     },
     "info": {
@@ -5842,6 +5869,9 @@
       ],
       "Start typing an email address": [
         "Aloita sähköpostiosoitteen kirjoitus"
+      ],
+      "Select state": [
+        "Valitse osavaltio"
       ]
     },
     "Placeholder for contact group name": {
@@ -7199,6 +7229,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ilmainen Mail Plus -kokeilusi päättyy ${ textDate }"
+      ],
+      "Breach Date": [
+        "Vuodon päiväys"
+      ],
+      "Breach Information": [
+        "Tietoja vuodosta"
+      ],
+      "Breach Size": [
+        "Vuodon koko"
+      ],
+      "Email address": [
+        "Sähköpostiosoite"
+      ],
+      "Exposed info": [
+        "Vuotaneet tiedot"
+      ],
+      "Location": [
+        "Sijainti"
+      ],
+      "Password": [
+        "Salasana"
+      ],
+      "Recommended actions": [
+        "Suositellut toimenpiteet"
+      ],
+      "Type": [
+        "Tyyppi"
+      ],
+      "Your Exposed Information": [
+        "Paljastuneet tietosi"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7664,6 +7724,35 @@
       ],
       "Yearly, ${ untilString }": [
         "Vuosittain, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Lue lisää"
+      ],
+      "upgrade for more storage": [
+        "hanki lisää päivittämällä tilauksesi"
+      ],
+      "Upgrade to restore full access": [
+        "Palauta täysi pääsy päivittämällä tilauksesi"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "${ driveStorage }si on täynnä. Tallentaaksesi ja synkronoidaksesi tiedostoja, vapauta tilaa tai ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "${ mailStorage } -tallennustilasi on täynnä. Lähettääksesi ja vastaanottaaksesi viestejä, vapauta tilaa tai ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Tilisi on vaarassa poistua. Pyydä ylläpitäjääsi päivittämään tilauksesi, jotta vältät tietojen menettämisen. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Tallennustilasi on täynnä. Lähettääksesi ja vastaanottaaksesi viestejä, vapauta tilaa tai ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Tallennustilasi on täynnä. Lähettääksesi tai synkronoidaksesi tiedostoja, vapauta tilaa tai ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Tilauksesi on päättynyt. ${ cta } välttääksesi tietojen menetyksen."
       ]
     }
   }

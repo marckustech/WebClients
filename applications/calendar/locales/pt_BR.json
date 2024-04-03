@@ -660,6 +660,12 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Sua avaliação gratuita do aplicativo de computador termina em ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Disponibilidade desconhecida"
+      ],
+      "View all reports": [
+        "Ver todos os relatórios"
       ]
     },
     "Action subline": {
@@ -2250,6 +2256,18 @@
       ],
       "Your account and data recovery methods are set.": [
         "Sua conta e métodos de recuperação de dados estão definidos."
+      ],
+      "Availability unknown": [
+        "Disponibilidade desconhecida"
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Alerta e relatórios de violação estão disponíveis em um plano pago. Atualize para acesso imediato."
+      ],
+      "Your information was found in at least one data breach.": [
+        "Suas informações foram encontradas em pelo menos uma violação de dados."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "Seus dados pessoais foram vazados por um serviço online em uma violação de dados. Veja detalhes completos e obtenha ações recomendadas."
       ]
     },
     "description": {
@@ -4427,6 +4445,45 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "O fuso horário de seu sistema parece ter mudado para ${ timezone }. Você deseja atualizar suas preferências de fuso horário?"
+      ],
+      "Breach alerts": [
+        "Alerta de violação"
+      ],
+      "Change your password": [
+        "Mudar sua senha"
+      ],
+      "email": [
+        "e-mail"
+      ],
+      "finance": [
+        "finança"
+      ],
+      "High Priority": [
+        "Alta prioridade"
+      ],
+      "Low Priority": [
+        "Baixa prioridade"
+      ],
+      "Medium Priority": [
+        "Média prioridade"
+      ],
+      "Monitor accounts": [
+        "Monitorar contas"
+      ],
+      "Other users within your organization will see your busy slots. No event details are shared.": [
+        "Outros usuários na sua organização verá seus espaços ocupados. Nenhum detalhe de evento será compartilhado."
+      ],
+      "password": [
+        "senha"
+      ],
+      "Please try again in a few moments": [
+        "Por favor, tente novamente em alguns instantes"
+      ],
+      "username": [
+        "Nome de usuário"
+      ],
+      "View details": [
+        "Ver detalhes"
       ]
     },
     "info": {
@@ -4897,6 +4954,12 @@
       ],
       "Your password (admin)": [
         "Sua senha (admin)"
+      ],
+      "Access to my events": [
+        "Acesso aos meus eventos"
+      ],
+      "Show others when I'm busy": [
+        "Mostrar aos outros quado estou ocupado"
       ]
     },
     "Label for contact group color": {
@@ -5979,6 +6042,9 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel está **ativo** e protegendo sua conta."
+      ],
+      "Get notified if your password or other personal data was leaked.": [
+        "Seja notificado se a sua senha ou outros dados pessoais foram vazados."
       ]
     },
     "Select files": {
@@ -6467,6 +6533,9 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Com cores de evento personalizáveis, você pode codificar o caos por cores e conquistar o seu dia."
+      ],
+      "No more scheduling conflicts": [
+        "Sem mais conflitos de agendamento"
       ]
     },
     "Storage": {
@@ -7205,6 +7274,48 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Sua avaliação gratuita do Mail Plus termina em ${ textDate }"
+      ],
+      "Breach alerts": [
+        "Alerta de violação"
+      ],
+      "Breach Date": [
+        "Data da violação"
+      ],
+      "Breach detected": [
+        "Violação detectada"
+      ],
+      "Breach Information": [
+        "Informação de violação"
+      ],
+      "Breach Size": [
+        "Tamanho da violação"
+      ],
+      "Email address": [
+        "Endereço de e-mail"
+      ],
+      "Exposed info": [
+        "Informação da exposição"
+      ],
+      "Location": [
+        "Localização"
+      ],
+      "No breaches detected": [
+        "Nenhuma violação detectada"
+      ],
+      "Password": [
+        "Senha"
+      ],
+      "Recommended actions": [
+        "Ações recomendadas"
+      ],
+      "Stay safer online": [
+        "Fique seguro on-line"
+      ],
+      "Type": [
+        "Tipo"
+      ],
+      "Your Exposed Information": [
+        "Sua informação exposta"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7673,6 +7784,35 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Saiba mais"
+      ],
+      "upgrade for more storage": [
+        "faça upgrade para mais armazenamento"
+      ],
+      "Upgrade to restore full access": [
+        "Atualizar para restaurar o acesso total"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "Seu ${ driveStorage } está cheio. Para fazer upload ou sincronizar arquivos, libere espaço ou ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Seu ${ mailStorage } está cheio. Para enviar ou receber e-mails, libere espaço ou ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Sua conta corre o risco de exclusão. Para evitar a perda de dados, peça ao seu administrador para atualizar. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Seu armazenamento está cheio. Para enviar ou receber e-mails, libere espaço ou ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "O seu armazenamento está cheio. Para carregar ou sincronizar arquivos, liberte espaço ou ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Sua assinatura terminou. ${ cta } e para evitar perda de dados."
       ]
     }
   }

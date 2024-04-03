@@ -634,7 +634,7 @@
         "Выкарыстоўваць код аднаўлення"
       ],
       "Verify": [
-        "Праверыць"
+        "Праверка"
       ],
       "Verify account": [
         "Праверыць уліковы запіс"
@@ -668,6 +668,18 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Ваш бясплатны пробны перыяд настольнай праграмы завершыцца ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Даступнасць невядома"
+      ],
+      "Hide busy times": [
+        "Схаваць час занятасці"
+      ],
+      "Show busy times": [
+        "Паказаць час занятасці"
+      ],
+      "View all reports": [
+        "Паглядзець усе справаздачы"
       ]
     },
     "Action subline": {
@@ -2284,6 +2296,18 @@
       ],
       "Your account and data recovery methods are set.": [
         "Спосабы аднаўлення вашага ўліковага запісу зададзены."
+      ],
+      "Availability unknown": [
+        "Даступнасць невядома"
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Папярэджанні ўцечкі і справаздачы даступны з платным тарыфным планам. Палепшыце сваю падпіску, каб неадкладна атрымаць доступ да гэтай функцыі."
+      ],
+      "Your information was found in at least one data breach.": [
+        "Вашы звесткі былі знойдзены прынамсі ў выніку адной уцечкі даных."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "Парушэнне вашых асабістых даных адбылося праз сэрвіс у інтэрнэце ў выніку ўцечкі даных. Азнаёмцеся з падрабязнасцямі і прыміце неабходныя меры."
       ]
     },
     "description": {
@@ -4565,6 +4589,45 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Падобна, што ваш часавы пояс змяніўся на ${ timezone }. Вы сапраўды хочаце абнавіць налады вашага часавога пояса?"
+      ],
+      "Breach alerts": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Change your password": [
+        "Змяніць свой пароль"
+      ],
+      "email": [
+        "электронная пошта"
+      ],
+      "finance": [
+        "фінансы"
+      ],
+      "High Priority": [
+        "Высокі прыярытэт"
+      ],
+      "Low Priority": [
+        "Нізкі прыярытэт"
+      ],
+      "Medium Priority": [
+        "Сярэдні прыярытэт"
+      ],
+      "Monitor accounts": [
+        "Назіранне за ўліковымі запісамі"
+      ],
+      "Other users within your organization will see your busy slots. No event details are shared.": [
+        "Іншыя карыстальнікі ў вашай арганізацыі будуць бачыць вашы інтэрвалы занятасці. Падрабязнасці аб падзеі не абагульваюцца."
+      ],
+      "password": [
+        "пароль"
+      ],
+      "Please try again in a few moments": [
+        "Паўтарыце спробу крыху пазней"
+      ],
+      "username": [
+        "імя карыстальніка"
+      ],
+      "View details": [
+        "Паглядзець падрабязнасці"
       ]
     },
     "info": {
@@ -5043,6 +5106,12 @@
       ],
       "Your password (admin)": [
         "Ваш пароль (admin)"
+      ],
+      "Access to my events": [
+        "Доступ да маіх падзей"
+      ],
+      "Show others when I'm busy": [
+        "Паказваць іншым, калі я заняты"
       ]
     },
     "Label for contact group color": {
@@ -5177,7 +5246,7 @@
         "Ваша ${ driveStorage } запоўнена. Каб запампоўваць або сінхранізаваць файлы, вызваліце месца або ${ cta }."
       ],
       "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
-        "Ваша сховішча ${ mailStorage } запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ cta }."
+        "Ваша ${ mailStorage } запоўнена. Каб адпраўляць або прымаць лісты, вызваліце месца або ${ cta }."
       ],
       "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
         "Ваш уліковы запіс пад пагрозай выдалення. Папрасіце свайго адміністратара палепшыць тарыфны план, каб пазбегнуць страты даных. ${ cta }"
@@ -5855,7 +5924,7 @@
     },
     "Onboarding Proton": {
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Сканфігурыруйце вашу арганізацыю, звяжыце з ёй імя дамена і стварыце ўліковыя запісы, каб забяспечыць абарону ўсіх удзельнікаў вашай арганізацыі."
+        "Сканфігурыруйце вашу арганізацыю, звяжыце з ёй даменнае імя і стварыце ўліковыя запісы, каб забяспечыць абарону ўсіх удзельнікаў вашай арганізацыі."
       ],
       "Discover all ${ BRAND_NAME } services": [
         "Пазнаёмцеся з усімі сэрвісамі ${ BRAND_NAME }"
@@ -6090,7 +6159,7 @@
         "Выбраць"
       ],
       "Select state": [
-        "Выбраць стан"
+        "Выбраць вобласць"
       ],
       "Start typing an email address": [
         "Пачніце ўводзіць адрас электроннай пошты"
@@ -6234,6 +6303,9 @@
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel цяпер **актыўны** і ахоўвае ваш уліковы запіс."
+      ],
+      "Get notified if your password or other personal data was leaked.": [
+        "Атрымаць апавяшчэнне, калі адбылася ўцечка вашага пароля або іншых асабістых даных."
       ]
     },
     "Select files": {
@@ -6758,6 +6830,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "З дапамогай колераў, якія можна наладзіць, вы можаце лепш арганізаваць свой распарадак дня."
+      ],
+      "No more scheduling conflicts": [
+        "Канфлікты пры планаванні не выяўлены"
+      ],
+      "Now you can see when participants are free to attend your meeting.": [
+        "Цяпер вы можаце бачыць, калі ўдзельнікі могуць прысутнічаць на вашай сустрэчы."
       ]
     },
     "Storage": {
@@ -7301,7 +7379,7 @@
         "Атрыманне дадатковай абароны"
       ],
       "Get the ${ appName[APP_NAME] } apps": [
-        "Атрыманне праграм ${ appName[APP_NAME] }"
+        "Атрымаць праграмы ${ appName[APP_NAME] }"
       ],
       "Groups": [
         "Групы"
@@ -7524,6 +7602,48 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваш бясплатны выпрабавальны перыяд Mail Plus завершыцца ${ textDate }"
+      ],
+      "Breach alerts": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Breach Date": [
+        "Дата ўцечкі"
+      ],
+      "Breach detected": [
+        "Выяўлена ўцечка"
+      ],
+      "Breach Information": [
+        "Звесткі аб уцечках"
+      ],
+      "Breach Size": [
+        "Памер уцечкі"
+      ],
+      "Email address": [
+        "Адрас электроннай пошты"
+      ],
+      "Exposed info": [
+        "Звесткі кампраметацыі"
+      ],
+      "Location": [
+        "Размяшчэнне"
+      ],
+      "No breaches detected": [
+        "Уцечкі не выяўлены"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Recommended actions": [
+        "Рэкамендаваныя дзеянні"
+      ],
+      "Stay safer online": [
+        "Заставайцеся абароненымі ў інтэрнэце"
+      ],
+      "Type": [
+        "Тып"
+      ],
+      "Your Exposed Information": [
+        "Вашы скампраметаваныя звесткі"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

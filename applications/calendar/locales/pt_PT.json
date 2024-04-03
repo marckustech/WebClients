@@ -4277,6 +4277,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Parece que o fuso horário do seu sistema mudou para ${ timezone }. Deseja atualizar a sua preferência de fuso horário?"
+      ],
+      "Change your password": [
+        "Altere a sua palavra-passe"
       ]
     },
     "info": {
@@ -6895,6 +6898,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "O seu teste gratuito do Mail Plus finaliza em ${ textDate }"
+      ],
+      "Location": [
+        "Localização"
+      ],
+      "Password": [
+        "Palavra-passe"
+      ],
+      "Type": [
+        "Tipo"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7357,6 +7369,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Anualmente, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "upgrade for more storage": [
+        "atualize para obter mais armazenamento"
       ]
     }
   }

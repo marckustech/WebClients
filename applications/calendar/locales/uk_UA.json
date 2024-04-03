@@ -2391,6 +2391,9 @@
       ],
       "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
         "${ emailAddress } попередньо прийняв(-ла) ваше запрошення на ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } відхилив ваше запрошення до ${ eventTitle }"
       ]
     },
     "Email subject": {
@@ -4538,6 +4541,33 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Схоже, системний часовий пояс змінено на ${ timezone }. Хочете оновити налаштування часового поясу?"
+      ],
+      "Change your password": [
+        "Змініть свій пароль"
+      ],
+      "email": [
+        "е-пошта"
+      ],
+      "finance": [
+        "фінанси"
+      ],
+      "High Priority": [
+        "Високий пріоритет"
+      ],
+      "Low Priority": [
+        "Низький пріоритет"
+      ],
+      "Medium Priority": [
+        "Середній пріоритет"
+      ],
+      "Monitor accounts": [
+        "Монітор облікових записів"
+      ],
+      "password": [
+        "пароль"
+      ],
+      "username": [
+        "ім'я користувача"
       ]
     },
     "info": {
@@ -6001,6 +6031,9 @@
       ],
       "Start typing an email address": [
         "Почніть вводити адресу е-пошти"
+      ],
+      "Select state": [
+        "Оберіть область"
       ]
     },
     "Placeholder for contact group name": {
@@ -6196,6 +6229,9 @@
       ],
       "You can now change your password for the account ${ boldEmail }.": [
         "Тепер ви можете змінити пароль для облікового запису ${ boldEmail }."
+      ],
+      "Please go to the signed-in device (in the session where the request was initiated) to change your password.": [
+        "Будь ласка, перейдіть на пристрій, на якому ви ввійшли (у сеансі, де було ініційовано запит), щоб змінити свій пароль."
       ]
     },
     "session_recovery:available:link": {
@@ -6653,6 +6689,9 @@
       ],
       "Your storage is full. ${ cta }.": [
         "Ваше сховище заповнене. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Ваше сховище заповнене на ${ percentage }%. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -7367,6 +7406,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша безплатна пробна версія Mail Plus завершується ${ textDate }"
+      ],
+      "Location": [
+        "Розташування"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Type": [
+        "Тип"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7802,6 +7850,50 @@
       ],
       "Yearly, ${ untilString }": [
         "Щороку, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Докладніше"
+      ],
+      "upgrade for more storage": [
+        "збільште сховище, передплативши тарифний план"
+      ],
+      "Upgrade to restore full access": [
+        "Покращить обліковий запис, щоб відновити повний доступ"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "Ваше ${ driveStorage } повне. Щоб вивантажити або синхронізувати файли, звільніть місце або ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Ваше ${ mailStorage } повне. Щоб надсилати або отримувати електронні листи, звільніть місце або ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Ваш обліковий запис під загрозою видалення. Щоб уникнути втрати даних, попросіть свого адміністратора покращити обліковий запис. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Ваше сховище вже повне. Щоб надсилати або отримувати електронні листи, звільніть місце або ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Ваше сховище вже повне. Щоб вивантажити або синхронізувати файли, звільніть місце або ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Ваша підписка закінчилася. ${ cta } і щоб уникнути втрати даних."
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Деякі зображення не було вивантажено через повтори назв файлів у поточному виділенні."
+      ]
+    },
+    "session_recovery:cancelled:info": {
+      "Password reset request cancelled (${ user.Email }). If you didn’t make this request, ${ changePasswordLink }.": [
+        "Запит на скидання пароля скасовано (${ user.Email }). Якщо ви не робили цей запит, ${ changePasswordLink }."
+      ]
+    },
+    "session_recovery:cancelled:link": {
+      "change your password now": [
+        "змініть свій пароль зараз"
       ]
     }
   }

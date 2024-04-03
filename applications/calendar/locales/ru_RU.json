@@ -4395,6 +4395,30 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Похоже, что ваш часовой пояс изменился на ${ timezone }. Вы хотите обновить настройки часового пояса?"
+      ],
+      "Change your password": [
+        "Измените пароль"
+      ],
+      "email": [
+        "электронная почта"
+      ],
+      "High Priority": [
+        "Высокий приоритет"
+      ],
+      "Low Priority": [
+        "Низкий приоритет"
+      ],
+      "Medium Priority": [
+        "Средний приоритет"
+      ],
+      "Monitor accounts": [
+        "Отслеживать аккаунты"
+      ],
+      "password": [
+        "пароль"
+      ],
+      "username": [
+        "имя пользователя"
       ]
     },
     "Info calendar search": {
@@ -7094,6 +7118,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Ваша бесплатная пробная версия Mail Plus заканчивается ${ textDate }"
+      ],
+      "Breach Date": [
+        "Дата утечки"
+      ],
+      "Breach Information": [
+        "Информация об утечке"
+      ],
+      "Breach Size": [
+        "Размер утечки"
+      ],
+      "Email address": [
+        "Адрес электронной почты"
+      ],
+      "Exposed info": [
+        "Раскрытая информация"
+      ],
+      "Location": [
+        "Местоположение"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Recommended actions": [
+        "Рекомендуемые действия"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Your Exposed Information": [
+        "Ваша раскрытая информация"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7625,6 +7679,11 @@
       ],
       "Yearly, ${ untilString }": [
         "Ежегодно ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "upgrade for more storage": [
+        "выберите другой тариф для увеличения хранилища"
       ]
     }
   }

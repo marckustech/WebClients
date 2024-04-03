@@ -4496,6 +4496,33 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Fusul orar al sistemului pare să se fi schimbat la ${ timezone }. Actualizați fusul orar preferat?"
+      ],
+      "Change your password": [
+        "Schimbare parolă"
+      ],
+      "email": [
+        "e-mail"
+      ],
+      "finance": [
+        "finanțe"
+      ],
+      "High Priority": [
+        "Prioritate înaltă"
+      ],
+      "Low Priority": [
+        "Prioritate scăzută"
+      ],
+      "Medium Priority": [
+        "Prioritate medie"
+      ],
+      "Monitor accounts": [
+        "Monitorizare conturi"
+      ],
+      "password": [
+        "parola"
+      ],
+      "username": [
+        "utilizator"
       ]
     },
     "info": {
@@ -5952,6 +5979,9 @@
       ],
       "Start typing an email address": [
         "Introduceți o adresă de e-mail"
+      ],
+      "Select state": [
+        "Selectare țară"
       ]
     },
     "Placeholder for contact group name": {
@@ -7347,6 +7377,36 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Perioada de încercare pentru Mail Plus se încheie la ${ textDate } "
+      ],
+      "Breach Date": [
+        "Date breșă"
+      ],
+      "Breach Information": [
+        "Informații breșă"
+      ],
+      "Breach Size": [
+        "Mărime breșă"
+      ],
+      "Email address": [
+        "Adresa de e-mail"
+      ],
+      "Exposed info": [
+        "Informații expuse"
+      ],
+      "Location": [
+        "Amplasare"
+      ],
+      "Password": [
+        "Parola"
+      ],
+      "Recommended actions": [
+        "Acțiuni recomandate"
+      ],
+      "Type": [
+        "Tip"
+      ],
+      "Your Exposed Information": [
+        "Informațiile expuse"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7848,6 +7908,35 @@
       ],
       "Yearly, ${ untilString }": [
         "Anual, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Detalii"
+      ],
+      "upgrade for more storage": [
+        "treceți la alt tip de plan pentru mai mult spațiu"
+      ],
+      "Upgrade to restore full access": [
+        "Schimbați tipul de abonament pentru a restaura accesul complet"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "${ driveStorage } este plin. Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "${ mailStorage } este plin. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Contul riscă să fie șters. Pentru a evita pierderea datelor solicitați administratorului să modifice tipul de abonament. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Spațiul de stocare este plin. Pentru a trimite sau primi mesaje, eliberați spațiu sau ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Spațiul de stocare este plin. Pentru a încărca sau sincroniza fișiere, eliberați spațiu sau ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Abonamentul s-a încheiat. ${ cta } și pentru a evita pierderea datelor."
       ]
     }
   }

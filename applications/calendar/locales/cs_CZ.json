@@ -4508,6 +4508,30 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá se, že se vaše systémové časové pásmo změnilo na ${ timezone }. Chcete aktualizovat nastavení časového pásma?"
+      ],
+      "Change your password": [
+        "Změňte své heslo"
+      ],
+      "email": [
+        "e-mail"
+      ],
+      "finance": [
+        "finance"
+      ],
+      "High Priority": [
+        "Vysoká priorita"
+      ],
+      "Low Priority": [
+        "Nízká priorita"
+      ],
+      "Medium Priority": [
+        "Střední priorita"
+      ],
+      "password": [
+        "heslo"
+      ],
+      "username": [
+        "uživatelské jméno"
       ]
     },
     "info": {
@@ -7326,6 +7350,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaše bezplatná zkušební verze služby Mail Plus končí ${ textDate }"
+      ],
+      "Email address": [
+        "E-mailová adresa"
+      ],
+      "Location": [
+        "Umístění"
+      ],
+      "Password": [
+        "Heslo"
+      ],
+      "Type": [
+        "Typ"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7857,6 +7893,20 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročně, ${ untilString }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "upgrade for more storage": [
+        "navýšit tarif pro více prostoru"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "Vaše ${ driveStorage } je plné. Chcete-li nahrát nebo synchronizovat soubory, uvolněte místo nebo ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Vaše ${ mailStorage } je plné. Pro odesílání nebo přijímání e-mailů uvolněte místo nebo ${ cta }."
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Vaše úložiště je plné. Chcete-li odesílat nebo přijímat e-maily, uvolněte místo nebo ${ cta }."
       ]
     }
   }

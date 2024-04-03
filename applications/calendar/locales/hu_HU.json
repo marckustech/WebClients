@@ -4187,6 +4187,9 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Úgy tűnik, hogy a rendszer időzónája ${ timezone } -re változott. Szeretne erre az időzónára frissíteni?"
+      ],
+      "Change your password": [
+        "Jelszó megváltoztatása"
       ]
     },
     "Info calendar search": {
@@ -6721,6 +6724,18 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "A Mail Plus csomagjának próbaidőszaka lejár: ${ textDate }"
+      ],
+      "Location": [
+        "Hely"
+      ],
+      "Password": [
+        "Jelszó"
+      ],
+      "Security center": [
+        "Biztonsági központ"
+      ],
+      "Type": [
+        "Típus"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

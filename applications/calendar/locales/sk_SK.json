@@ -3186,13 +3186,13 @@
     },
     "familyOffer_2023:Onboarding Proton": {
       "Configure your family account and invite users ": [
-        "Nastavte svoj rodinný účet a pozvite užívateľov "
+        "Nakonfigurujte svoj rodinný účet a pozvite používateľov "
       ],
       "Set up your family": [
-        "Vytvorte svoju rodinu"
+        "Nastavte svoju rodinu"
       ],
       "Set up your family account": [
-        "Vytvorte svoj rodinný účet"
+        "Nastavte svoj rodinný účet"
       ]
     },
     "familyOffer_2023:Tooltip": {
@@ -4425,6 +4425,33 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Zdá sa, že vaše systémové časové pásmo sa zmenilo na ${ timezone }. Chcete aktualizovať nastavenia časového pásma?"
+      ],
+      "Change your password": [
+        "Zmeňte si heslo"
+      ],
+      "email": [
+        "email"
+      ],
+      "finance": [
+        "financie"
+      ],
+      "High Priority": [
+        "Vysoká priorita"
+      ],
+      "Low Priority": [
+        "Nízka priorita"
+      ],
+      "Medium Priority": [
+        "Stredná priorita"
+      ],
+      "Monitor accounts": [
+        "Monitorujte účty"
+      ],
+      "password": [
+        "heslo"
+      ],
+      "username": [
+        "používateľské meno"
       ]
     },
     "info": {
@@ -5627,7 +5654,7 @@
         "Víta vás ${ appName }"
       ],
       "Where you can take control of your time and your data.": [
-        "Kde môžete prevziať kontrolu nad svojim časom a svojimi dátami."
+        "Kde môžete prevziať kontrolu nad svojím časom a svojimi dátami."
       ]
     },
     "Onboarding Action": {
@@ -5640,22 +5667,22 @@
     },
     "Onboarding Proton": {
       "Configure your organization, link your domain name, and create accounts to ensure all members of your organization are protected.": [
-        "Vykonajte konfiguráciu svojej organizácie, priraďte doménové meno a vytvorte účty členov, aby všetci boli chránení."
+        "Nakonfigurujte svoju organizáciu, priraďte doménové meno a vytvorte účty, aby boli všetci členovia vašej organizácie chránení."
       ],
       "Discover all ${ BRAND_NAME } services": [
         "Objavte všetky služby ${ BRAND_NAME }"
       ],
       "Pick a theme": [
-        "Vyberte si tému"
+        "Vyberte motív"
       ],
       "Set up your organization": [
-        "Nastavenie organizácie"
+        "Nastavte svoju organizáciu"
       ],
       "Use the app selector in the top left to access all ${ BRAND_NAME } services: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } and ${ PASS_SHORT_APP_NAME }.": [
         "Výberom aplikácie v ľavom hornom rohu získate prístup ku všetkým službám ${ BRAND_NAME }: ${ MAIL_SHORT_APP_NAME }, ${ VPN_SHORT_APP_NAME }, ${ CALENDAR_SHORT_APP_NAME }, ${ DRIVE_SHORT_APP_NAME } a ${ PASS_SHORT_APP_NAME }."
       ],
       "You will be able to change your theme any time in your settings.": [
-        "Tému môžete kedykoľvek zmeniť v nastaveniach."
+        "Motív môžete kedykoľvek zmeniť v nastaveniach."
       ]
     },
     "Option": {
@@ -7191,6 +7218,39 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Vaša bezplatná skúšobná verzia služby Mail Plus končí ${ textDate }"
+      ],
+      "Breach Date": [
+        "Dátum úniku"
+      ],
+      "Breach Information": [
+        "Uniknuté informácie"
+      ],
+      "Breach Size": [
+        "Veľkosť úniku"
+      ],
+      "Email address": [
+        "Emailová adresa"
+      ],
+      "Exposed info": [
+        "Odhalené informácie"
+      ],
+      "Location": [
+        "Umiestnenie"
+      ],
+      "Password": [
+        "Heslo"
+      ],
+      "Recommended actions": [
+        "Odporúčané opatrenia"
+      ],
+      "Security center": [
+        "Centrum zabezpečenia"
+      ],
+      "Type": [
+        "Typ"
+      ],
+      "Your Exposed Information": [
+        "Vaše odhalené informácie"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7279,6 +7339,9 @@
       ],
       "You do not have any contacts to export": [
         "Nemáte žiadne kontakty na export"
+      ],
+      "Change start date to unselect": [
+        "Na zrušenie výberu zmeňte dátum začiatku"
       ]
     },
     "Tooltip; share calendar modal ": {

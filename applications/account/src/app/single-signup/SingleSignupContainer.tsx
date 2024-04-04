@@ -378,7 +378,7 @@ const SingleSignupContainer = ({ metaTags, clientType, loader, onLogin, productP
     };
 
     const loading = loadingDependencies || loadingChallenge;
-    const coupon = model.subscriptionData.checkResult.Coupon?.Code;
+    const coupon = model.subscriptionData.checkResult.Coupon?.Code || signupParameters.coupon;
 
     const isVpn2024Deal = getIsVpn2024Deal(selectedPlan.Name as PLANS, coupon);
 

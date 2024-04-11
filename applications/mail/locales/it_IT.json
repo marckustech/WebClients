@@ -996,7 +996,7 @@
         "Mostra pannello laterale"
       ],
       "Sign out": [
-        "Disconnetti"
+        "Esci dall'account"
       ],
       "Size": [
         "Dimensione"
@@ -1272,6 +1272,15 @@
       ],
       "What do I get?": [
         "Cosa ottengo?"
+      ],
+      "Mark as open": [
+        "Segna come aperto"
+      ],
+      "Mark as resolved": [
+        "Segna come risolto"
+      ],
+      "Request a call": [
+        "Richiedi una chiamata"
       ]
     },
     "action": {
@@ -6861,6 +6870,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "La tua prossima data di fatturazione è il ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Avviso sulle violazioni di dati"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Scopri come ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Caricamento del calendario in corso. Verrai reindirizzato alla nostra piattaforma di pianificazione Calendly in una nuova scheda."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Le informazioni sono state rese pubbliche da un servizio di terze parti. Quelle relative al tuo account ${ BRAND_NAME } rimangono sicure e crittografate. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Il tuo indirizzo email e la tua password sono stati resi pubblici:"
+      ],
+      "Your email address was exposed:": [
+        "Il tuo indirizzo email è stato reso pubblico:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Le tue informazioni sono state trovate il ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "La tua password è stata resa pubblica:"
       ]
     },
     "info": {
@@ -7927,6 +7960,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Come pagare con Bitcoin?"
+      ],
+      "stay safer online": [
+        "stai più sicuro online"
       ]
     },
     "Link to calendar event": {
@@ -9495,6 +9531,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Ricevi una notifica se la tua password o altri dati personali vengono resi pubblici."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Ricevi una notifica se la tua password o altri dati vengono resi pubblici da un servizio di terze parti. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Le tue informazioni sono state trovate in almeno una violazione di dati. Attiva gli avvisi sulle violazioni di dati per visualizzare i dettagli e le azioni da seguire. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -9749,7 +9791,7 @@
     },
     "session_recovery:sign_out:action": {
       "Sign out": [
-        "Disconnetti"
+        "Esci dall'account"
       ],
       "Stay signed in": [
         "Rimani connesso"
@@ -9764,7 +9806,7 @@
         "La ${ passwordReset } è ora disponibile."
       ],
       "If you sign out before you reset your password, you could lose access to your account.": [
-        "Se esci prima di reimpostare la password, potresti perdere l'accesso al tuo account."
+        "Se esci prima di reimpostare la password potresti perdere l'accesso al tuo account."
       ],
       "If you sign out without resetting your password, you could lose access to your account.": [
         "Se esci senza reimpostare la password potresti perdere l'accesso al tuo account."
@@ -9780,7 +9822,7 @@
     },
     "session_recovery:sign_out:title": {
       "Sign out without password reset?": [
-        "Vuoi disconnetterti senza reimpostare la password?"
+        "Vuoi uscire dall'account senza reimpostare la password?"
       ]
     },
     "Signature verification warning": {
@@ -11127,7 +11169,7 @@
         "Accedi con autenticazione a 2 fattori"
       ],
       "Sign out": [
-        "Disconnetti"
+        "Esci dall'account"
       ],
       "Snooze": [
         "Posticipazione"
@@ -11334,6 +11376,15 @@
       ],
       "Your Exposed Information": [
         "Le tue informazioni esposte"
+      ],
+      "Breach Alert": [
+        "Avviso sulle violazioni di dati"
+      ],
+      "Details": [
+        "Dettagli"
+      ],
+      "Your exposed information": [
+        "Le tue informazioni rese pubbliche"
       ]
     },
     "Today icon tooltip in mini calendar": {

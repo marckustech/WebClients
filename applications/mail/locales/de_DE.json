@@ -1269,6 +1269,15 @@
       ],
       "What do I get?": [
         "Was bekomme ich dafür?"
+      ],
+      "Mark as open": [
+        "Als offen markieren"
+      ],
+      "Mark as resolved": [
+        "Als gelöst markieren"
+      ],
+      "Request a call": [
+        "Einen Anruf anfordern"
       ]
     },
     "action": {
@@ -3909,6 +3918,9 @@
       ],
       "Unknown payment token status": [
         "Unbekannter Status des Zahlungstoken"
+      ],
+      "Sending attachments is restricted until you meet your plan limits or upgrade.": [
+        "Der Versand von Anhängen ist eingeschränkt, bis du die Grenzen deines Tarifs erreicht oder ein Upgrade durchgeführt hast."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -4571,6 +4583,9 @@
       ],
       "Upgrade now": [
         "Jetzt upgraden"
+      ],
+      "Start free trial": [
+        "Jetzt kostenlos ausprobieren"
       ]
     },
     "Free trial destkop": {
@@ -6825,6 +6840,15 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Dein nächstes Abrechnungsdatum ist der ${ renewalTime }."
+      ],
+      "email": [
+        "E-Mail"
+      ],
+      "finance": [
+        "finanzen"
+      ],
+      "Please try again in a few moments": [
+        "Bitte versuche es in Kürze erneut."
       ]
     },
     "info": {
@@ -11876,6 +11900,24 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
         "Dein Speicherplatz ist voll. Um E-Mails zu senden oder zu empfangen, räume etwas Speicherplatz frei oder ${ cta }."
+      ],
+      "Learn more": [
+        "Mehr erfahren"
+      ],
+      "Upgrade to restore full access": [
+        "Upgrade zur Wiederherstellung des vollen Zugriffs"
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Dein ${ mailStorage } ist voll. Um E-Mails zu senden oder zu empfangen, gib Speicherplatz frei oder ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Dein Konto ist von der Löschung bedroht. Um Datenverlust zu vermeiden, bitte deinen Administrator um ein Upgrade. ${ cta }"
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Dein Speicherplatz ist voll. Um Dateien hochzuladen oder zu synchronisieren, gib Speicherplatz frei oder ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Dein Abonnement ist beendet. ${ cta } und um Datenverlust zu vermeiden."
       ]
     },
     "new_plans": {

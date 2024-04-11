@@ -6709,10 +6709,10 @@
         "${ elementsCount } розмов будуть позначені як непрочитані."
       ],
       "${ elementsCount } message will be marked as unread.": [
-        "${ elementsCount } повідомлення буде позначено як непрочитане.",
-        "${ elementsCount } повідомлення буде позначено як непрочитане.",
-        "${ elementsCount } повідомлень будуть позначені як непрочитані.",
-        "${ elementsCount } повідомлень будуть позначені як непрочитані."
+        "${ elementsCount } повідомлення буде позначено непрочитаним.",
+        "${ elementsCount } повідомлення будуть позначені непрочитаними.",
+        "${ elementsCount } повідомлень будуть позначені непрочитаними.",
+        "${ elementsCount } повідомлень будуть позначені непрочитаними."
       ],
       "${ plan.Title } requires at least 1 dedicated server ${ serverPricePerMonth }": [
         "${ plan.Title } вимагає щонайменше 1 виділений сервер вартістю ${ serverPricePerMonth }"
@@ -6790,7 +6790,7 @@
         "Нічого не відбувається? Перевірте, чи не увімкнено блокування спливних вікон."
       ],
       "Downgrade": [
-        "Понизити тарифний план"
+        "Перейти на нижчий тарифний план"
       ],
       "Downgrading will terminate any connections to paid ${ VPN_APP_NAME } servers.": [
         "Перехід на тарифний план нижчого рівня розірве всі з'єднання з платними серверами ${ VPN_APP_NAME }."
@@ -6832,7 +6832,7 @@
         "Наступним кроком ви зможете внести депозит за допомогою адреси Bitcoin."
       ],
       "Including ${ formattedTaxRate }% ${ taxName }: ${ price }": [
-        "В тому числі ${ formattedTaxRate }% ${ taxName }: ${ price }"
+        "Включно з ${ formattedTaxRate }% ${ taxName }: ${ price }"
       ],
       "Low Priority": [
         "Низький пріоритет"
@@ -6847,10 +6847,10 @@
         "ММ/РР"
       ],
       "Monitor accounts": [
-        "Монітор облікових записів"
+        "Моніторинг облікових записів"
       ],
       "No changes made to the current subscription": [
-        "У поточну підписку не внесено жодних змін"
+        "Щодо поточної передплати не внесено жодних змін"
       ],
       "No payment is required at this time.": [
         "Наразі платіж не вимагається."
@@ -6949,7 +6949,7 @@
         "У мене вже є безплатний обліковий запис"
       ],
       "You are using more storage than what is included in a ${ downgradedPlanName } plan. Please delete or remove data in order to downgrade.": [
-        "Ви використовуєте більше пам’яті сховища, ніж включено в план ${ downgradedPlanName }. Будь ласка, видаліть дані, щоб понизити тарифний план."
+        "Ви використовуєте більший обсяг сховища, ніж передбачено планом ${ downgradedPlanName }. Щоб перейти на нижчий тарифний план, звільніть місце в сховищі."
       ],
       "You can keep up to ${ MAX_CALENDARS_FREE } calendar. Please remove shared calendar links and any ${ BRAND_NAME } user with whom you shared your calendars before you cancel your ${ MAIL_SHORT_APP_NAME } subscription.": [
         "Ви можете мати максимум ${ MAX_CALENDARS_FREE } календар. Перш ніж скасувати свою передплату ${ MAIL_SHORT_APP_NAME }, вилучіть посилання на спільні календарі та будь-яких користувачів ${ BRAND_NAME }, з якими ви поділилися своїми календарями.",

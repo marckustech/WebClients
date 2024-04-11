@@ -1272,6 +1272,15 @@
       ],
       "What do I get?": [
         "¿Qué obtengo?"
+      ],
+      "Mark as open": [
+        "Marcar como pendiente"
+      ],
+      "Mark as resolved": [
+        "Marcar como resuelto"
+      ],
+      "Request a call": [
+        "Solicitar una llamada"
       ]
     },
     "action": {
@@ -4586,6 +4595,12 @@
       ],
       "Upgrade now": [
         "Mejorar ahora"
+      ],
+      "14-day desktop app trial.": [
+        "Prueba de 14 días de la aplicación de escritorio."
+      ],
+      "Start free trial": [
+        "Inicia la prueba gratuita"
       ]
     },
     "Free trial destkop": {
@@ -6855,6 +6870,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Tu próxima fecha de facturación es el ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Alerta de vulneraciones"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Aprende cómo ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Espera ya que se está cargando el calendario. Se te redirigirá a nuestra plataforma de programación Calendly en una pestaña nueva."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "La información expuesta fue filtrada desde un servicio de terceros. La información de tu cuenta de ${ BRAND_NAME } permanece segura y cifrada. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Tu dirección de correo electrónico y contraseña fueron filtradas:"
+      ],
+      "Your email address was exposed:": [
+        "Tu dirección de correo electrónico fue expuesta:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Tu información fue encontrada el ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Tu contraseña fue filtrada:"
       ]
     },
     "info": {
@@ -7921,6 +7960,9 @@
       ],
       "How to pay with Bitcoin?": [
         "¿Cómo pagar con Bitcoin?"
+      ],
+      "stay safer online": [
+        "mantener tu seguridad en línea"
       ]
     },
     "Link to calendar event": {
@@ -9489,6 +9531,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Recibe notificaciones si tu contraseña u otro dato personal ha sido filtrado."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Recibe notificaciones si tu contraseña u otro dato fue filtrado desde un servicio de terceros. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Tu información ha sido encontrada en al menos una vulneración de datos. Activa la función Alerta de vulneraciones para ver los detalles y tomar acciones. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -11327,6 +11375,15 @@
         "Verificando tu pago..."
       ],
       "Your Exposed Information": [
+        "Tu información expuesta"
+      ],
+      "Breach Alert": [
+        "Alerta de vulneraciones"
+      ],
+      "Details": [
+        "Detalles"
+      ],
+      "Your exposed information": [
         "Tu información expuesta"
       ]
     },

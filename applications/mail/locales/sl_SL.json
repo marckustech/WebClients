@@ -797,7 +797,7 @@
         "Plačilo"
       ],
       "Pay ${ price } now": [
-        "Plačaj ${ price }"
+        "Plačajte ${ price } sedaj"
       ],
       "Preview": [
         "Predogled"
@@ -1284,6 +1284,15 @@
       ],
       "Zoom out": [
         "Pomanjšaj"
+      ],
+      "Mark as open": [
+        "Označi kot odprto"
+      ],
+      "Mark as resolved": [
+        "Označi kot rešeno"
+      ],
+      "Request a call": [
+        "Zahtevajte klic"
       ]
     },
     "action": {
@@ -3244,7 +3253,7 @@
         "Samodejno odstrani sporočila, starejša od 30 dni, iz smeti in neželene pošte. Z nadgradnjo lahko uživate v tej in drugih koristnih funkcijah."
       ],
       "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
-        "Opozorila in poročila o kršitvah so na voljo s plačljivim paketom. Nadgradite za takojšen dostop."
+        "Opozorila in poročila o uhajanju podatkov so na voljo s plačljivim paketom. Nadgradite za takojšen dostop."
       ],
       "Decrypting contacts… This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
         "Dešifriranje stikov … To lahko traja nekaj minut. Po končanem postopku boste lahko prenesli datoteko z vsemi izvoženimi stiki."
@@ -4968,7 +4977,7 @@
         "Omrežje"
       ],
       "Other category": [
-        "Druga kategorija"
+        "Drugo"
       ],
       "Services": [
         "Storitve"
@@ -7242,6 +7251,18 @@
       ],
       "Your phone number will only be used for this one-time verification.": [
         "Vaša telefonska številka bo uporabljena le za to enkratno preverjanje."
+      ],
+      "Breach Alert": [
+        "Opozorilo o uhajanju podatkov"
+      ],
+      "Your email address and password were leaked:": [
+        "Vaš e-poštni naslov in geslo sta bila izpostavljena :"
+      ],
+      "Your email address was exposed:": [
+        "Vaš e-poštni naslov je bil izpostavljen:"
+      ],
+      "Your password was leaked:": [
+        "Vaše geslo je bilo izpostavljeno:"
       ]
     },
     "info": {
@@ -7652,7 +7673,7 @@
         "Gotovina"
       ],
       "Category": [
-        "Kategorija"
+        "Vrsta napake"
       ],
       "CC": [
         "KP"
@@ -8337,6 +8358,9 @@
       ],
       "You need to reactivate your keys to see the updated invitation": [
         "Za ogled posodobljenega povabila morate ponovno aktivirati vaše ključe."
+      ],
+      "stay safer online": [
+        "izboljšajte svojo spletno varnost"
       ]
     },
     "Link to calendar event": {
@@ -9868,7 +9892,7 @@
         "Telefonska številka"
       ],
       "Please describe the problem and include any error messages": [
-        "Opišite težavo in vključite morebitna sporočila o napakah"
+        "Opišite težavo in vključite morebitna sporočila o napakah."
       ],
       "Please insert link first": [
         "Najprej vstavite povezavo"
@@ -10787,7 +10811,7 @@
         "Načrtuj pošiljanje"
       ],
       "Turn on breach alerts to monitor potential data leaks. View details and take action to protect yourself.": [
-        "Vklopite opozorila o kršitvah in spremljajte morebitno uhajanje podatkov. Oglejte si podrobnosti in ukrepajte ter se zaščitite."
+        "Vklopite opozorila o kršitvah in spremljajte morebitno razkrivanje podatkov. Oglejte si podrobnosti in ukrepajte ter se zaščitite."
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "Slike po novem privzeto naložimo, pri čemer preprečimo, da bi vam pošiljatelji z njimi sledili. To lahko spremenite v ${ settingsLink }."
@@ -12280,6 +12304,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Brezplačno preizkusno obdobje Mail Plus se vam zaključi ${ textDate }"
+      ],
+      "Breach Alert": [
+        "Opozorilo o uhajanju podatkov"
+      ],
+      "Details": [
+        "Podrobnosti"
+      ],
+      "Your exposed information": [
+        "Vaša razkrita informacija"
       ]
     },
     "Title subscription": {

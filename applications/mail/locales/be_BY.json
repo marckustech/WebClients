@@ -1284,6 +1284,15 @@
       ],
       "What do I get?": [
         "Што я атрымаю?"
+      ],
+      "Mark as open": [
+        "Пазначыць як адкрытае"
+      ],
+      "Mark as resolved": [
+        "Пазначыць як вырашанае"
+      ],
+      "Request a call": [
+        "Запытаць званок"
       ]
     },
     "action": {
@@ -4665,7 +4674,7 @@
         "14-дзённы пробны перыяд для настольнай праграмы."
       ],
       "Start free trial": [
-        "Пачніце бясплатны пробны перыяд"
+        "Пачаць бясплатны пробны перыяд"
       ]
     },
     "Free trial destkop": {
@@ -7109,6 +7118,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Наступная дата спагнання грашовых сродкаў адбудзецца ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Даведайцеся, як ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Пачакайце, адбываецца загрузка календара. Вы будзеце перанакіраваны на нашу платформу планавання Calendly, якая адкрыецца ў новай укладцы."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Адбылася ўцечка скампраметаваных звестак са старонняга сэрвісу. Гэта не закранула звесткі вашага ўліковага запісу ${ BRAND_NAME }, бо яны зашыфраваны і знаходзяцца ў бяспецы. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Адбылася ўцечка вашага адраса электроннай пошты і пароля:"
+      ],
+      "Your email address was exposed:": [
+        "Ваша адрас электроннай пошты скампраметаваны:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Вашы звесткі былі знойдзены ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Адбылася ўцечка вашага пароля:"
       ]
     },
     "info": {
@@ -8184,6 +8217,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Як заплаціць з дапамогай Bitcoin?"
+      ],
+      "stay safer online": [
+        "застацца абароненым у інтэрнэце"
       ]
     },
     "Link to calendar event": {
@@ -8762,10 +8798,10 @@
         "Карыстальніцкія палі"
       ],
       "Data breach monitoring": [
-        "Адсочванне ўцечкі даных"
+        "Назіранне за ўцечкай даных"
       ],
       "Data breach monitoring (coming soon)": [
-        "Адсочванне ўцечкі даных (неўзабаве з'явіцца)"
+        "Назіранне за ўцечкай даных (неўзабаве з'явіцца)"
       ],
       "Desktop app": [
         "Настольная праграма"
@@ -9816,6 +9852,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Атрымаць апавяшчэнне, калі адбылася ўцечка вашага пароля або іншых асабістых даных."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Атрымаць апавяшчэнне, калі адбылася ўцечка вашага пароля або іншых даных са старонняга сэрвісу. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Вашы звесткі былі знойдзены прынамсі ў адной уцечцы даных. Уключыце функцыю \"Папярэджанне ўцечкі\", каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -10441,7 +10483,7 @@
         "Папярэджанні ўцечкі"
       ],
       "Turn on breach alerts to monitor potential data leaks. View details and take action to protect yourself.": [
-        "Уключыце папярэджанні парушэнняў, каб адсочваць патэнцыяльную ўцечку даных. Паглядзець падрабязнасці і прыняць адпаведныя меры, каб абараніць сябе."
+        "Уключыце папярэджанні парушэнняў, каб назіраць за патэнцыяльнай уцечкай даных. Паглядзець падрабязнасці і прыняць адпаведныя меры, каб абараніць сябе."
       ]
     },
     "Status": {
@@ -11789,6 +11831,15 @@
       ],
       "Your Exposed Information": [
         "Вашы скампраметаваныя звесткі"
+      ],
+      "Breach Alert": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Details": [
+        "Падрабязнасці"
+      ],
+      "Your exposed information": [
+        "Вашы скампраметаваныя звесткі"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -12593,7 +12644,7 @@
         "Абараняйце прыватнасць вашай сям'і з дапамогай усіх сэрвісаў ${ BRAND_NAME } адначасова."
       ],
       "Safely access internet from anywhere with essential network monitoring": [
-        "Бяспечны доступ у інтэрнэт з любой краіны ў свеце, дзякуючы маніторынгу сеткі"
+        "Бяспечны доступ у інтэрнэт з любой краіны ў свеце, дзякуючы назіранню за сеткай"
       ],
       "Secure cloud storage that lets you store, sync, and share files easily and securely.": [
         "Бяспечнае воблачнае сховішча, якое дазваляе вам лёгка і бяспечна захоўваць, сінхранізаваць і абагуляць файлы."

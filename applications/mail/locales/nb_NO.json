@@ -1272,6 +1272,15 @@
       ],
       "What do I get?": [
         "Hva får jeg?"
+      ],
+      "Mark as open": [
+        "Merk som åpen"
+      ],
+      "Mark as resolved": [
+        "Merk som løst"
+      ],
+      "Request a call": [
+        "Be om en samtale"
       ]
     },
     "action": {
@@ -4586,6 +4595,12 @@
       ],
       "Upgrade now": [
         "Oppgrader nå"
+      ],
+      "14-day desktop app trial.": [
+        "14-dagers prøveversjon av skrivebords-appen."
+      ],
+      "Start free trial": [
+        "Start gratis prøveperiode"
       ]
     },
     "Free trial destkop": {
@@ -6855,6 +6870,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Din neste faktureringsdato er ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Varsel om datainnbrudd"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Lær hvordan du ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Laster inn kalender, vennligst vent. Du vil bli omdirigert til vår planleggingsplattform Calendly i en ny fane."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Den eksponerte informasjonen ble lekket fra en tredjepartstjeneste. ${ BRAND_NAME }-kontoinformasjonen din forblir sikker og kryptert. ${ learnMoreLink }."
+      ],
+      "Your email address and password were leaked:": [
+        "Din e-postadresse og passord ble lekket:"
+      ],
+      "Your email address was exposed:": [
+        "E-postadressen din ble eksponert:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Informasjonen din ble funnet den ${ displayedDate }."
+      ],
+      "Your password was leaked:": [
+        "Passordet ditt ble lekket:"
       ]
     },
     "info": {
@@ -7918,6 +7957,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Hvordan betale med Bitcoin?"
+      ],
+      "stay safer online": [
+        "holder deg tryggere på nettet"
       ]
     },
     "Link to calendar event": {
@@ -9486,6 +9528,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Bli varslet hvis passordet ditt eller andre personlige data ble lekket."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Bli varslet hvis passordet ditt eller andre data ble lekket fra en tredjepartstjeneste. ${ learnMoreLink }."
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Informasjonen din ble funnet i minst ett datainnbrudd. Slå på bruddvarsel for å vise detaljer og iverksette tiltak. ${ learnMoreLink }."
       ]
     },
     "Select files": {
@@ -11324,6 +11372,15 @@
         "Verifiserer betalingen din..."
       ],
       "Your Exposed Information": [
+        "Din eksponerte informasjon"
+      ],
+      "Breach Alert": [
+        "Varsel om datainnbrudd"
+      ],
+      "Details": [
+        "Detaljer"
+      ],
+      "Your exposed information": [
         "Din eksponerte informasjon"
       ]
     },

@@ -1284,6 +1284,15 @@
       ],
       "What do I get?": [
         "Co otrzymam?"
+      ],
+      "Mark as open": [
+        "Oznacz jako nierozwiązane"
+      ],
+      "Mark as resolved": [
+        "Oznacz jako rozwiązane"
+      ],
+      "Request a call": [
+        "Poproś o rozmowę"
       ]
     },
     "action": {
@@ -7103,6 +7112,24 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Twoja następna data rozliczeniowa to ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Alert wycieków"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Dowiedz się, jak ${ staySaferOnlineLink }"
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Twoje informacje zostały ujawnione przez usługi stron trzecich. Informacje konta ${ BRAND_NAME } pozostają bezpieczne i zaszyfrowane. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Twój adres e-mail i hasło zostało ujawnione:"
+      ],
+      "Your email address was exposed:": [
+        "Twój adres e-mail został ujawniony:"
+      ],
+      "Your password was leaked:": [
+        "Twoje hasło zostało ujawnione:"
       ]
     },
     "info": {
@@ -8178,6 +8205,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Jak zapłacić Bitcoinami?"
+      ],
+      "stay safer online": [
+        "zachować bezpieczeństwo online"
       ]
     },
     "Link to calendar event": {
@@ -11754,6 +11784,15 @@
       ],
       "Your Exposed Information": [
         "Twoje ujawnione informacje"
+      ],
+      "Breach Alert": [
+        "Alert wycieków"
+      ],
+      "Details": [
+        "Szczegóły"
+      ],
+      "Your exposed information": [
+        "Twoje ujawnione informacje:"
       ]
     },
     "Today icon tooltip in mini calendar": {

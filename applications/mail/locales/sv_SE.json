@@ -1275,6 +1275,12 @@
       ],
       "What do I get?": [
         "Vad får jag?"
+      ],
+      "Mark as resolved": [
+        "Markera som löst"
+      ],
+      "Request a call": [
+        "Begär ett samtal"
       ]
     },
     "action": {
@@ -6882,6 +6888,18 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Ditt nästa faktureringsdatum är ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Intrångsvarning"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Lär dig hur man ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Laddar kalender, vänta. Du kommer att omdirigeras till vår schemaläggningsplattform Calendly i en ny flik."
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Din information hittades den ${ displayedDate }"
       ]
     },
     "info": {
@@ -7951,6 +7969,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Hur betalar man med Bitcoin?"
+      ],
+      "stay safer online": [
+        "var säkrare online"
       ]
     },
     "Link to calendar event": {
@@ -9505,6 +9526,9 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Bli aviserad om ditt lösenord eller andra personliga uppgifter har läckt."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Bli aviserad om ditt lösenord eller annan data har läckt från en tredjepartstjänst. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -11344,6 +11368,15 @@
       ],
       "Your Exposed Information": [
         "Din exponeringsinformation"
+      ],
+      "Breach Alert": [
+        "Intrångsvarning"
+      ],
+      "Details": [
+        "Detaljer"
+      ],
+      "Your exposed information": [
+        "Din exponerade information"
       ]
     },
     "Today icon tooltip in mini calendar": {

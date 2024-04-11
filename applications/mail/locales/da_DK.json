@@ -3909,6 +3909,9 @@
       ],
       "Unknown payment token status": [
         "Ukendt betalingstokens status"
+      ],
+      "Sending attachments is restricted until you meet your plan limits or upgrade.": [
+        "Afsendelse af vedhæftede filer er begrænset, indtil du overholder dine abonnementsgrænser eller opgraderer."
       ]
     },
     "Error adding participants to a calendar event": {
@@ -9213,6 +9216,9 @@
       ],
       "Select a reason": [
         "Vælg en årsag"
+      ],
+      "Select state": [
+        "Vælg stat"
       ]
     },
     "Placeholder for contact group name": {
@@ -11221,6 +11227,9 @@
       ],
       "Verifying your payment...": [
         "Verificerer din betaling..."
+      ],
+      "Recommended actions": [
+        "Anbefalede handlinger"
       ]
     },
     "Today icon tooltip in mini calendar": {
@@ -11870,6 +11879,21 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
         "Din lagerplads er fuld. For at sende eller modtage e-mails skal du frigøre plads eller ${ cta }."
+      ],
+      "Learn more": [
+        "Få mere at vide"
+      ],
+      "Upgrade to restore full access": [
+        "Opgrader for at genoprette fuld adgang"
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Din konto er i fare for at blive slettet. For at undgå datatab skal du bede din administrator om at opgradere. ${ cta }"
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Din lagerplads er fuld. Frigør plads eller ${ cta } for at uploade eller synkronisere filer."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Dit abonnement er ophørt. ${ cta } og for at undgå datatab."
       ]
     },
     "new_plans": {

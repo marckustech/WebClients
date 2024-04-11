@@ -1275,6 +1275,15 @@
       ],
       "What do I get?": [
         "O que eu recebo?"
+      ],
+      "Mark as open": [
+        "Marcar como aberta"
+      ],
+      "Mark as resolved": [
+        "Marcar como resolvido"
+      ],
+      "Request a call": [
+        "Solicitar uma chamada"
       ]
     },
     "action": {
@@ -6645,7 +6654,7 @@
         "Ao fazer o downgrade para um plano gratuito, você perderá permanentemente esses benefícios, mesmo que você faça o upgrade novamente no futuro."
       ],
       "Change your password": [
-        "Mudar sua senha"
+        "Alterar sua senha"
       ],
       "Credit for the unused portion of your previous plan subscription": [
         "Crédito pela parte não usada no plano anterior da sua assinatura"
@@ -6723,7 +6732,7 @@
         "MM/AA"
       ],
       "Monitor accounts": [
-        "Monitorar contas"
+        "Monitor de contas"
       ],
       "No changes made to the current subscription": [
         "Nenhuma alteração feita à assinatura atual"
@@ -6864,6 +6873,21 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Sua próxima data de cobrança é ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Alerta de violação"
+      ],
+      "Your email address and password were leaked:": [
+        "Seu endereço de e-mail e senha estão expostos:"
+      ],
+      "Your email address was exposed:": [
+        "Seu endereço de e-mail foi exposto:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Sua inconformação foi encontrada em ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Sua senha foi vazada:"
       ]
     },
     "info": {
@@ -7927,6 +7951,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Como pagar com Bitcoin?"
+      ],
+      "stay safer online": [
+        "fique seguro on-line"
       ]
     },
     "Link to calendar event": {
@@ -11304,6 +11331,15 @@
         "Verificando seu pagamento..."
       ],
       "Your Exposed Information": [
+        "Sua informação exposta"
+      ],
+      "Breach Alert": [
+        "Alerta de violação"
+      ],
+      "Details": [
+        "Detalhes"
+      ],
+      "Your exposed information": [
         "Sua informação exposta"
       ]
     },

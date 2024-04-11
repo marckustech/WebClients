@@ -1272,6 +1272,15 @@
       ],
       "What do I get?": [
         "¿Qué obtengo?"
+      ],
+      "Mark as open": [
+        "Marcar como pendiente"
+      ],
+      "Mark as resolved": [
+        "Marcar como resuelto"
+      ],
+      "Request a call": [
+        "Solicitar una llamada"
       ]
     },
     "action": {
@@ -6861,6 +6870,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Su próxima fecha de facturación es el ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Alerta de vulneraciones"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Aprenda cómo ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Cargando el calendario, espere. Se le redirigirá a nuestra plataforma de programación Calendly en una pestaña nueva."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "La información expuesta fue filtrada desde un servicio de terceros. La información de su cuenta de ${ BRAND_NAME } permanece segura y cifrada. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Su dirección de correo electrónico y contraseña fueron filtradas:"
+      ],
+      "Your email address was exposed:": [
+        "Su dirección de correo electrónico fue expuesta:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Su información fue encontrada el ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Su contraseña fue filtrada:"
       ]
     },
     "info": {
@@ -7927,6 +7960,9 @@
       ],
       "How to pay with Bitcoin?": [
         "¿Cómo pagar con Bitcoin?"
+      ],
+      "stay safer online": [
+        "mantener su seguridad en línea"
       ]
     },
     "Link to calendar event": {
@@ -9495,6 +9531,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Reciba notificaciones si su contraseña u otro dato personal fue filtrado."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Reciba notificaciones si su contraseña u otro dato fue filtrado desde un servicio de terceros. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Su información fue encontrada en al menos una vulneración de datos. Active la función Alerta de vulneraciones para ver los detalles y tomar acciones. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -11333,6 +11375,15 @@
         "Verificando su pago..."
       ],
       "Your Exposed Information": [
+        "Su información expuesta"
+      ],
+      "Breach Alert": [
+        "Alerta de vulneraciones"
+      ],
+      "Details": [
+        "Detalles"
+      ],
+      "Your exposed information": [
         "Su información expuesta"
       ]
     },

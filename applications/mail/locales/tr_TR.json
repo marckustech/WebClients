@@ -1272,6 +1272,12 @@
       ],
       "What do I get?": [
         "Ne alacağım?"
+      ],
+      "Mark as open": [
+        "Açık olarak işaretle"
+      ],
+      "Mark as resolved": [
+        "Çözülmüş olarak işaretle"
       ]
     },
     "action": {
@@ -7912,6 +7918,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Bitcoin ile nasıl ödeme yapabilirsiniz?"
+      ],
+      "stay safer online": [
+        "çevrimiçi ortamda daha güvende kalın"
       ]
     },
     "Link to calendar event": {
@@ -11272,6 +11281,9 @@
       ],
       "Your Exposed Information": [
         "Açığa çıkmış bilgileriniz"
+      ],
+      "Details": [
+        "Ayrıntılar"
       ]
     },
     "Today icon tooltip in mini calendar": {

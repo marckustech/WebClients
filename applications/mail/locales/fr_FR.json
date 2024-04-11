@@ -1272,6 +1272,15 @@
       ],
       "What do I get?": [
         "Votre abonnement comprend :"
+      ],
+      "Mark as open": [
+        "Marquer comme ouvert"
+      ],
+      "Mark as resolved": [
+        "Marquer comme résolu"
+      ],
+      "Request a call": [
+        "Demander un appel"
       ]
     },
     "action": {
@@ -6861,6 +6870,30 @@
       ],
       "Your next billing date is ${ renewalTime }.": [
         "Votre prochaine date de facturation est le ${ renewalTime }."
+      ],
+      "Breach Alert": [
+        "Alerte de fuites de données"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Apprenez comment ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Veuillez patienter : le calendrier est en cours de chargement. Vous serez redirigé vers notre plateforme de programmation Calendly dans un nouvel onglet."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Les informations exposées ont été divulguées par un service tiers. Les informations de votre compte ${ BRAND_NAME } restent en sécurité et chiffrées. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Votre adresse e-mail et mot de passe ont été exposés :"
+      ],
+      "Your email address was exposed:": [
+        "Votre adresse e-mail a été exposée :"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Vos informations ont été trouvées le ${ displayedDate }."
+      ],
+      "Your password was leaked:": [
+        "Votre mot de passe a été exposé :"
       ]
     },
     "info": {
@@ -7924,6 +7957,9 @@
       ],
       "How to pay with Bitcoin?": [
         "Comment payer en bitcoins ?"
+      ],
+      "stay safer online": [
+        "améliorer votre sécurité en ligne"
       ]
     },
     "Link to calendar event": {
@@ -9492,6 +9528,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Soyez averti si votre mot de passe ou d'autres données personnelles ont été divulguées."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Recevez une notification lorsque votre mot de passe ou d'autres données ont été exposées par un service tiers. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Vos informations ont été retrouvées dans au moins une fuite de données. Activez l'option Alertes de fuites d'informations pour consulter ces informations et prendre les mesures nécessaires. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -11330,6 +11372,15 @@
         "Vérification de votre paiement en cours"
       ],
       "Your Exposed Information": [
+        "Vos informations exposées"
+      ],
+      "Breach Alert": [
+        "Alerte de fuites de données"
+      ],
+      "Details": [
+        "Informations"
+      ],
+      "Your exposed information": [
         "Vos informations exposées"
       ]
     },

@@ -672,6 +672,12 @@
       ],
       "View all reports": [
         "Tüm raporları görüntüle"
+      ],
+      "Mark as open": [
+        "Açık olarak işaretle"
+      ],
+      "Mark as resolved": [
+        "Çözülmüş olarak işaretle"
       ]
     },
     "Action subline": {
@@ -5027,6 +5033,9 @@
       ],
       "What’s this?": [
         "Bu nedir?"
+      ],
+      "stay safer online": [
+        "çevrimiçi ortamda daha güvende kalın"
       ]
     },
     "Link to calendar app": {
@@ -7286,6 +7295,9 @@
       ],
       "Your Exposed Information": [
         "Açığa çıkmış bilgileriniz"
+      ],
+      "Details": [
+        "Ayrıntılar"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

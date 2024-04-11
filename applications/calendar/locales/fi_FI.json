@@ -660,6 +660,18 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Työpöytäsovelluksen ilmainen kokeilujaksosi päättyy ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Availability is unknown": [
+        "Tavoitettavuus ei ole tiedossa"
+      ],
+      "Hide busy times": [
+        "Piilota varatut ajat"
+      ],
+      "Show busy times": [
+        "Näytä varatut ajat"
+      ],
+      "View all reports": [
+        "Näytä kaikki raportit"
       ]
     },
     "Action subline": {
@@ -2250,6 +2262,15 @@
       ],
       "Your account and data recovery methods are set.": [
         "Tilisi ja tietojesi palautusmenetelmät on määritetty."
+      ],
+      "Availability unknown": [
+        "Tavoitettavuus ei ole tiedossa"
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Tietovuotohälytykset ja -raportit sisältyvät maksullisiin tilauksiin. Saat ne heti käyttöösi päivitämällä tilauksesi."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "Henkilökohtaisia tietojasi on vuotanut verkkopalvelun tietovuodon seurauksena. Tarkastele vuodon tietoja ja ryhdy tarvittaviin toimenpiteisiin."
       ]
     },
     "description": {
@@ -3291,7 +3312,7 @@
     },
     "fido2: Info": {
       "Insert a security key linked to your ${ BRAND_NAME } Account.": [
-        "Liitä ${ BRAND_NAME }-tiliisi liitetty todennuslaite."
+        "Kytke ${ BRAND_NAME }-tiliisi liitetty todennuslaite."
       ],
       "Security key": [
         "Todennuslaite"
@@ -3400,7 +3421,7 @@
         "Haku"
       ],
       "Security Center": [
-        "Turvakeskus"
+        "Suojauskeskus"
       ]
     },
     "Hint": {
@@ -4454,6 +4475,12 @@
       ],
       "username": [
         "käyttäjätunnus"
+      ],
+      "Other users within your organization will see your busy slots. No event details are shared.": [
+        "Organisaatiosi muut käyttäjät näkevät varatut aikasi. Tapahtumatietoja ei jaeta."
+      ],
+      "Please try again in a few moments": [
+        "Yritä uudelleen hetken kuluttua"
       ]
     },
     "info": {
@@ -4924,6 +4951,12 @@
       ],
       "Your password (admin)": [
         "Salasanasi (ylläpitäjä)"
+      ],
+      "Access to my events": [
+        "Tapahtumieni käyttöoikeudet"
+      ],
+      "Show others when I'm busy": [
+        "Näytä muille koska olen varattu"
       ]
     },
     "Label for contact group color": {
@@ -5963,13 +5996,13 @@
         "Luo alias"
       ],
       "Generate aliases on the fly, and easily manage your aliases and passwords.": [
-        "Luo aliaksia lennossa ja hallitse aliaksia ja salasanoja helposti."
+        "Luo uusia aliaksia lennossa, ja hallitse niitä sekä salasanojasi helposti."
       ],
       "Hide-my-email aliases": [
         "Hide-my-email-aliakset"
       ],
       "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
-        "Hide-my-email-aliaksien avulla voit rekisteröityä verkossa jakamatta sähköpostiosoitettasi. ${ learnMoreLink }"
+        "Hide-my-email-aliasten avulla voit rekisteröityä verkkopalveluihin jakamatta todellista sähköpostiosoitettasi. ${ learnMoreLink }"
       ],
       "New alias": [
         "Uusi alias"
@@ -5984,15 +6017,15 @@
         "Kokeile ${ PASS_APP_NAME }ia"
       ],
       "Used on amazon for shopping, etc.": [
-        "Käytetään Amazonissa ostoksiin jne."
+        "Käytetään Amazon-ostoksiin yms."
       ],
       "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
-        "Kun sinulta kysytään sähköpostiosoitettasi, anna sen sijaan tämä alias. Aliakset tarjoaa ${ passLink }."
+        "Kun sähköpostiosoitettasi pyydetään, anna osoitteesi sijaan tämä alias. Aliakset tarjoaa ${ passLink }."
       ]
     },
     "Security Center (link to Pass App)": {
       "(will open ${ PASS_APP_NAME })": [
-        "(avaa ${ PASS_APP_NAME })"
+        "(avaa ${ PASS_APP_NAME }in)"
       ]
     },
     "Security Center - Action": {
@@ -6002,7 +6035,7 @@
     },
     "Security Center - Info": {
       "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
-        "Huippuluokan tekoälyyn perustuva tietoturvaratkaisumme, joka on suunniteltu käyttäjille, jotka kaipaavat tehostettua suojaa tileilleen. ${ learnMoreLink }"
+        "Huippumoderni tekoälypohjainen tietoturvaratkaisumme, joka on suunniteltu tileilleen tehostettua suojausta kaipaaville käyttäjille. ${ learnMoreLink }"
       ],
       "Sentinel is **active** and safeguarding your account.": [
         "Sentinel on **käytössä** ja suojaa tiliäsi."
@@ -6494,6 +6527,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Mukautettavien tapahtumavärien avulla voit värikoodata kaaoksen ja valloittaa päiväsi."
+      ],
+      "No more scheduling conflicts": [
+        "Aikatauluristiriitoja ei enää ole"
+      ],
+      "Now you can see when participants are free to attend your meeting.": [
+        "Nyt voit nähdä milloin osallistujat ovat vapaita osallistumaan kokoukseesi."
       ]
     },
     "Storage": {
@@ -6711,6 +6750,9 @@
       ],
       "Verification successful": [
         "Vahvistus onnistui"
+      ],
+      "Last modified aliases stored in your oldest vault": [
+        "Viimeksi muokatut vanhimmassa holvissasi säilytettävät aliakset"
       ]
     },
     "Success notification when user send feedback": {
@@ -7108,7 +7150,7 @@
         "Tallenna muutokset"
       ],
       "Security center": [
-        "Turvakeskus"
+        "Suojauskeskus"
       ],
       "Select a day in the month": [
         "Valitse kuukauden päivä"
@@ -7259,6 +7301,12 @@
       ],
       "Your Exposed Information": [
         "Paljastuneet tietosi"
+      ],
+      "No breaches detected": [
+        "Tietovuotoja ei havaittu"
+      ],
+      "Stay safer online": [
+        "Pysy turvassa verkossa"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7347,6 +7395,9 @@
       ],
       "You do not have any contacts to export": [
         "Sinulla ei ole vietäviä yhteystietoja"
+      ],
+      "Change start date to unselect": [
+        "Vaihda aloitusaika määrittämättömäksi"
       ]
     },
     "Tooltip; share calendar modal ": {

@@ -680,6 +680,15 @@
       ],
       "View all reports": [
         "Паглядзець усе справаздачы"
+      ],
+      "Mark as open": [
+        "Пазначыць як адкрытае"
+      ],
+      "Mark as resolved": [
+        "Пазначыць як вырашанае"
+      ],
+      "Request a call": [
+        "Запытаць званок"
       ]
     },
     "Action subline": {
@@ -4628,6 +4637,30 @@
       ],
       "View details": [
         "Паглядзець падрабязнасці"
+      ],
+      "Breach Alert": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Learn how to ${ staySaferOnlineLink }": [
+        "Даведайцеся, як ${ staySaferOnlineLink }"
+      ],
+      "Loading calendar, please wait. You will be redirected to our scheduling platform Calendly in a new tab.": [
+        "Пачакайце, адбываецца загрузка календара. Вы будзеце перанакіраваны на нашу платформу планавання Calendly, якая адкрыецца ў новай укладцы."
+      ],
+      "The exposed information was leaked from a third-party service. Your ${ BRAND_NAME } Account information remains secure and encrypted. ${ learnMoreLink }": [
+        "Адбылася ўцечка скампраметаваных звестак са старонняга сэрвісу. Гэта не закранула звесткі вашага ўліковага запісу ${ BRAND_NAME }, бо яны зашыфраваны і знаходзяцца ў бяспецы. ${ learnMoreLink }"
+      ],
+      "Your email address and password were leaked:": [
+        "Адбылася ўцечка вашага адраса электроннай пошты і пароля:"
+      ],
+      "Your email address was exposed:": [
+        "Ваша адрас электроннай пошты скампраметаваны:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Вашы звесткі былі знойдзены ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Адбылася ўцечка вашага пароля:"
       ]
     },
     "info": {
@@ -5194,6 +5227,9 @@
       ],
       "What’s this?": [
         "Што гэта?"
+      ],
+      "stay safer online": [
+        "застацца абароненым у інтэрнэце"
       ]
     },
     "Link to calendar app": {
@@ -6306,6 +6342,12 @@
       ],
       "Get notified if your password or other personal data was leaked.": [
         "Атрымаць апавяшчэнне, калі адбылася ўцечка вашага пароля або іншых асабістых даных."
+      ],
+      "Get notified if your password or other data was leaked from a third-party service. ${ learnMoreLink }": [
+        "Атрымаць апавяшчэнне, калі адбылася ўцечка вашага пароля або іншых даных са старонняга сэрвісу. ${ learnMoreLink }"
+      ],
+      "Your information was found in at least one data breach. Turn on Breach Alert to view details and take action. ${ learnMoreLink }": [
+        "Вашы звесткі былі знойдзены прынамсі ў адной уцечцы даных. Уключыце функцыю \"Папярэджанне ўцечкі\", каб паглядзець падрабязнасці і прыняць адпаведныя дзеянні. ${ learnMoreLink }"
       ]
     },
     "Select files": {
@@ -7643,6 +7685,15 @@
         "Тып"
       ],
       "Your Exposed Information": [
+        "Вашы скампраметаваныя звесткі"
+      ],
+      "Breach Alert": [
+        "Папярэджанні ўцечкі"
+      ],
+      "Details": [
+        "Падрабязнасці"
+      ],
+      "Your exposed information": [
         "Вашы скампраметаваныя звесткі"
       ]
     },

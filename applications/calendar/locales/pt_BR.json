@@ -666,6 +666,21 @@
       ],
       "View all reports": [
         "Ver todos os relatórios"
+      ],
+      "Hide busy times": [
+        "Ocultar horários de pico"
+      ],
+      "Mark as open": [
+        "Marcar como aberta"
+      ],
+      "Mark as resolved": [
+        "Marcar como resolvido"
+      ],
+      "Request a call": [
+        "Solicitar uma chamada"
+      ],
+      "Show busy times": [
+        "Mostrar horários de pico"
       ]
     },
     "Action subline": {
@@ -4450,7 +4465,7 @@
         "Alerta de violação"
       ],
       "Change your password": [
-        "Mudar sua senha"
+        "Alterar sua senha"
       ],
       "email": [
         "e-mail"
@@ -4468,7 +4483,7 @@
         "Média prioridade"
       ],
       "Monitor accounts": [
-        "Monitorar contas"
+        "Monitor de contas"
       ],
       "Other users within your organization will see your busy slots. No event details are shared.": [
         "Outros usuários na sua organização verá seus espaços ocupados. Nenhum detalhe de evento será compartilhado."
@@ -4484,6 +4499,21 @@
       ],
       "View details": [
         "Ver detalhes"
+      ],
+      "Breach Alert": [
+        "Alerta de violação"
+      ],
+      "Your email address and password were leaked:": [
+        "Seu endereço de e-mail e senha estão expostos:"
+      ],
+      "Your email address was exposed:": [
+        "Seu endereço de e-mail foi exposto:"
+      ],
+      "Your information was found on ${ displayedDate }": [
+        "Sua inconformação foi encontrada em ${ displayedDate }"
+      ],
+      "Your password was leaked:": [
+        "Sua senha foi vazada:"
       ]
     },
     "info": {
@@ -5042,6 +5072,9 @@
       ],
       "What’s this?": [
         "O que é isso?"
+      ],
+      "stay safer online": [
+        "fique seguro on-line"
       ]
     },
     "Link to calendar app": {
@@ -6536,6 +6569,9 @@
       ],
       "No more scheduling conflicts": [
         "Sem mais conflitos de agendamento"
+      ],
+      "Now you can see when participants are free to attend your meeting.": [
+        "Agora você pode ver quando os participantes estão livres para comparecer à sua reunião."
       ]
     },
     "Storage": {
@@ -7315,6 +7351,15 @@
         "Tipo"
       ],
       "Your Exposed Information": [
+        "Sua informação exposta"
+      ],
+      "Breach Alert": [
+        "Alerta de violação"
+      ],
+      "Details": [
+        "Detalhes"
+      ],
+      "Your exposed information": [
         "Sua informação exposta"
       ]
     },

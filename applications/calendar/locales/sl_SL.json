@@ -680,6 +680,15 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Brezplačno preskušanje namizne aplikacije poteče dne ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Mark as open": [
+        "Označi kot odprto"
+      ],
+      "Mark as resolved": [
+        "Označi kot rešeno"
+      ],
+      "Request a call": [
+        "Zahtevajte klic"
       ]
     },
     "Action subline": {
@@ -2244,7 +2253,7 @@
         "Povečajte učinkovitost in spremljajte svoj čas z barvnim kodiranjem dogodkov glede na kategorijo ali raven pomembnosti. Pridobite to in še veliko več s plačljivim paketom."
       ],
       "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
-        "Opozorila in poročila o kršitvah so na voljo s plačljivim paketom. Nadgradite za takojšen dostop."
+        "Opozorila in poročila o uhajanju podatkov so na voljo s plačljivim paketom. Nadgradite za takojšen dostop."
       ],
       "Decrypting contacts… This may take a few minutes. When the process is completed, you will be able to download the file with all your contacts exported.": [
         "Dešifriranje stikov … To lahko traja nekaj minut. Po končanem postopku boste lahko prenesli datoteko z vsemi izvoženimi stiki."
@@ -3483,7 +3492,7 @@
         "Omrežje"
       ],
       "Other category": [
-        "Druga kategorija"
+        "Drugo"
       ],
       "Services": [
         "Storitve"
@@ -4354,7 +4363,7 @@
         "Podatki za obnovitev bodo ostali v tej napravi, razen če jih izbrišete."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Osveževanje strani ali ${ link } bo samodejno odpravilo večino težav."
+        "Osvežitev strani ali ${ link } bo samodejno odpravilo večino težav."
       ],
       "Removed participants will be notified.": [
         "Odstranjeni udeleženci bodo obveščeni."
@@ -4628,6 +4637,18 @@
       ],
       "Your system time zone seems to have changed to ${ timezone }. Do you want to update your time zone preference?": [
         "Vaš sistemski časovni pas se je spremenil v ${ timezone }. Ali želite posodobiti nastavitve časovnega pasu?"
+      ],
+      "Breach Alert": [
+        "Opozorilo o uhajanju podatkov"
+      ],
+      "Your email address and password were leaked:": [
+        "Vaš e-poštni naslov in geslo sta bila izpostavljena :"
+      ],
+      "Your email address was exposed:": [
+        "Vaš e-poštni naslov je bil izpostavljen:"
+      ],
+      "Your password was leaked:": [
+        "Vaše geslo je bilo izpostavljeno:"
       ]
     },
     "info": {
@@ -4805,7 +4826,7 @@
         "Koledarje"
       ],
       "Category": [
-        "Kategorija"
+        "Vrsta napake"
       ],
       "City": [
         "Mesto"
@@ -5194,6 +5215,9 @@
       ],
       "What’s this?": [
         "Kaj je to?"
+      ],
+      "stay safer online": [
+        "izboljšajte svojo spletno varnost"
       ]
     },
     "Link to calendar app": {
@@ -6138,7 +6162,7 @@
         "Geslo"
       ],
       "Please describe the problem and include any error messages": [
-        "Opišite težavo in vključite morebitna sporočila o napakah"
+        "Opišite težavo in vključite morebitna sporočila o napakah."
       ],
       "Please select a country": [
         "Izberite državo"
@@ -7644,6 +7668,15 @@
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
         "Brezplačno preizkusno obdobje Mail Plus se vam zaključi ${ textDate }"
+      ],
+      "Breach Alert": [
+        "Opozorilo o uhajanju podatkov"
+      ],
+      "Details": [
+        "Podrobnosti"
+      ],
+      "Your exposed information": [
+        "Vaša razkrita informacija"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

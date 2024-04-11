@@ -5623,6 +5623,9 @@
       ],
       "Start typing an email address": [
         "Comece a escrever um endereço de e-mail"
+      ],
+      "Select state": [
+        "Selecionar estado"
       ]
     },
     "Placeholder for contact group name": {
@@ -5705,7 +5708,7 @@
     },
     "Security Center": {
       "All aliases": [
-        "Todos os pseudónimos"
+        "Todos os aliases"
       ],
       "Create alias": [
         "Criar um alias"
@@ -5727,6 +5730,9 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Experimente o ${ PASS_APP_NAME }"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Usado na Amazon para compras, etc."
       ]
     },
     "Security Center - Action": {
@@ -6187,6 +6193,9 @@
       ],
       "Search for events": [
         "Pesquisar por eventos."
+      ],
+      "Get the desktop app": [
+        "Obtenha a aplicação para computador"
       ]
     },
     "Storage": {
@@ -7374,6 +7383,22 @@
     "locked_state_storage_banner: info": {
       "upgrade for more storage": [
         "atualize para obter mais armazenamento"
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Aproveite a promoção"
+      ],
+      "Special Offer": [
+        "Oferta Especial"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "pelo primeiro mês"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Oferta por tempo limitado, expira em 2 de abril de 2024"
       ]
     }
   }

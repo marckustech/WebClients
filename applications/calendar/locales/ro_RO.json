@@ -6640,7 +6640,7 @@
     },
     "storage_split: info": {
       "${ app } storage": [
-        "Spațiul de stocare ${ app }"
+        "Spațiul de stocare din ${ app }"
       ],
       "${ storage } ${ percentage }% full": [
         "${ storage } - ${ percentage }% ocupat"
@@ -6664,13 +6664,13 @@
         "${ appStorage } este plin."
       ],
       "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
-        "Spațiul de stocare din ${ storage } este ${ percentage }% plin. ${ cta }."
+        "${ storage } este ${ percentage }% plin. ${ cta }."
       ],
       "Your ${ storage } is full. ${ cta }.": [
         "Spațiul din ${ storage } este plin. ${ cta }."
       ],
       "Your storage is ${ percentage }% full. ${ cta }.": [
-        "Spațiul de stocare este ${ percentage }% plin. ${ cta }."
+        "Spațiul de stocare este ${ percentage }% ocupat. ${ cta }."
       ],
       "Your storage is full": [
         "Spațiu de stocare plin"

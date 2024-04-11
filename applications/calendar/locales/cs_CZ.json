@@ -662,6 +662,15 @@
       ],
       "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
         "Bezplatná zkušební verze desktopové aplikace končí dne ${ formattedEndDate }. ${ upgradeButton }"
+      ],
+      "Create and copy alias": [
+        "Vytvořit a kopírovat alias"
+      ],
+      "Select country": [
+        "Vyberte zemi"
+      ],
+      "View all reports": [
+        "Zobrazit všechny zprávy"
       ]
     },
     "Action subline": {
@@ -2273,6 +2282,12 @@
       ],
       "Your account and data recovery methods are set.": [
         "Váš účet a metody obnovy dat jsou nastaveny."
+      ],
+      "Breach alerts and reports are available with a paid plan. Upgrade for immediate access.": [
+        "Úniky informací a hlášení jsou dostupné s placeným tarifem. Navyšte pro okamžitý přístup."
+      ],
+      "Your personal data was leaked by an online service in a data breach. View full details and get recommended actions.": [
+        "Vaše osobní údaje unikly online službě při úniku informací. Zobrazte plné detaily a získejte doporučené akce."
       ]
     },
     "description": {
@@ -2842,6 +2857,9 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude zpracován."
+      ],
+      "An error occurred while saving your alias": [
+        "Při ukládání vašeho aliasu se stala chyba"
       ]
     },
     "Error accepting calendar invitation": {
@@ -4532,6 +4550,12 @@
       ],
       "username": [
         "uživatelské jméno"
+      ],
+      "Monitor accounts": [
+        "Sledování účtů"
+      ],
+      "Please try again in a few moments": [
+        "Zkuste to prosím za chvíli znovu"
       ]
     },
     "info": {
@@ -5168,6 +5192,12 @@
       ],
       "Unlimited folders, labels and filters": [
         "Neomezený počet složek, štítků a filtrů"
+      ],
+      "Auto-delete Spam and Trash": [
+        "Automaticky smazat spam a koš"
+      ],
+      "Custom schedule send and snooze times": [
+        "Vlastní plánování odesílání a odložení"
       ]
     },
     "Message": {
@@ -5890,6 +5920,12 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Doporučujeme, abyste u tohoto klíče zvolili \"Nedůvěřovat\"."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Externí klíč automaticky stažen z keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Externí klíč byl automaticky stažen z WKD."
       ]
     },
     "PGP key warning": {
@@ -5972,6 +6008,9 @@
       ],
       "Start typing an email address": [
         "Začněte psát e-mailovou adresu"
+      ],
+      "Select state": [
+        "Vybrat stav"
       ]
     },
     "Placeholder for contact group name": {
@@ -6082,6 +6121,18 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Vyzkoušejte ${ PASS_APP_NAME }"
+      ],
+      "Create an alias": [
+        "Vytvořit alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Vygenerujte aliasy za běhu a jednoduše spravujte svoje aliasy a hesla."
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Použito na Amazonu pro obchodování, atd."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Když se vás zeptají na e-mailovou adresu, dejte jim místo toho tento alias. Aliasy jsou poskytovány ${ passLink }."
       ]
     },
     "Security Center - Action": {
@@ -6639,6 +6690,18 @@
       ],
       "Your storage is full": [
         "Vaše úložiště je plné"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Aby jste odeslali nebo přijímali e-maily, uvolněte místo nebo ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Aby jste nahráli nebo synchronizovali soubory, uvolněte místo nebo ${ upgrade }"
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Vaše úložiště je z ${ percentage }% plné. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Vaše úložiště je plné. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -7362,6 +7425,15 @@
       ],
       "Type": [
         "Typ"
+      ],
+      "No breaches detected": [
+        "Žádné úniky informací nebyly zjištěny"
+      ],
+      "Recommended actions": [
+        "Doporučené akce"
+      ],
+      "Stay safer online": [
+        "Zůstaňte v bezpečí online"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7907,6 +7979,43 @@
       ],
       "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
         "Vaše úložiště je plné. Chcete-li odesílat nebo přijímat e-maily, uvolněte místo nebo ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Vaše úložiště je plné. Aby jste mohli nahrát nebo synchronizovat soubory, uvolněte místo nebo ${ cta }."
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Získejte nabídku"
+      ],
+      "Special Offer": [
+        "Speciální nabídka"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Obnovuje se za ${ renewablePrice }, zrušit kdykoliv"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "pro první měsíc"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Omezená nabídka, vyprší 2. dubna 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Získejte ${ planName } za pouze ${ planPrice }"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Naše špičkové řešení s pomocí umělé inteligence zaměřené na uživatelé, kteří chtějí zvýšenou ochranu pro svoje účty. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel je **aktivní** a chrání váš účet."
       ]
     }
   }

@@ -647,6 +647,27 @@
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov",
         "Nemôžete odoslať vCard súbory viac ako ${ maxAttachments } kontaktov"
+      ],
+      "Create and copy alias": [
+        "Vytvoriť a kopírovať alias"
+      ],
+      "Download now": [
+        "Stiahnuť teraz"
+      ],
+      "Select country": [
+        "Vyberte krajinu"
+      ],
+      "Upgrade Now": [
+        "Inovovať teraz"
+      ],
+      "Your desktop app free trial ends in 2 days. ${ upgradeButton }": [
+        "Bezplatná skúšobná verzia desktopovej aplikácie končí za 2 dni. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends in 5 days. ${ upgradeButton }": [
+        "Bezplatná skúšobná verzia desktopovej aplikácie končí za 5 dní. ${ upgradeButton }"
+      ],
+      "Your desktop app free trial ends on ${ formattedEndDate }. ${ upgradeButton }": [
+        "Bezplatná skúšobná verzia desktopovej aplikácie končí dňa ${ formattedEndDate }. ${ upgradeButton }"
       ]
     },
     "Action subline": {
@@ -2234,6 +2255,30 @@
       ],
       "You can mark for deletion the contacts that you do not want neither to merge nor to keep. Deletion will only take place after the merge button is clicked": [
         "Kontakty, ktoré nechcete zlúčiť ani zachovať, označte pre zmazanie. K zmazaniu dôjde po kliknutí na tlačidlo pre zlúčenie"
+      ],
+      "2FA adds an extra security layer, preventing unauthorized access.": [
+        "2FA pridáva ďalšiu úroveň zabezpečenia a zabraňuje neoprávnenému prístupu."
+      ],
+      "Designed for users seeking heightened protection for their accounts.": [
+        "Určené pre používateľov, ktorí hľadajú zvýšenú ochranu svojich účtov."
+      ],
+      "Get unlimited aliases and 500 GB of storage with ${ PLAN_NAMES[PLANS.BUNDLE] }.": [
+        "Získajte neobmedzený počet aliasov a 500 GB úložiska s ${ PLAN_NAMES[PLANS.BUNDLE] }."
+      ],
+      "Set a data recovery method to prevent data loss.": [
+        "Nastavte metódu obnovy údajov, aby ste zabránili strate údajov."
+      ],
+      "Set a recovery method to prevent losing access to your account.": [
+        "Nastavte metódu obnovenia, aby ste predišli strate prístupu k vášmu účtu."
+      ],
+      "Upgrade your account to activate ${ PROTON_SENTINEL_NAME }, our cutting-edge AI-driven security solution with dedicated 24/7 expert support.": [
+        "Aktualizujte si váš účet a aktivujte si ${ PROTON_SENTINEL_NAME }, naše špičkové bezpečnostné riešenie založené na umelej inteligencii s vyhradenou nepretržitou odbornou podporou."
+      ],
+      "Your account and data recovery methods are set and 2FA is enabled.": [
+        "Váš účet a metódy obnovy údajov sú nastavené a funkcia 2FA je povolená."
+      ],
+      "Your account and data recovery methods are set.": [
+        "Váš účet a metódy obnovy údajov sú nastavené."
       ]
     },
     "description": {
@@ -2759,6 +2804,27 @@
       ],
       "Your import will not be processed.": [
         "Váš import nebude spracovaný."
+      ],
+      "Alias is not valid": [
+        "Alias není platný"
+      ],
+      "Alias is required": [
+        "Alias je povinný"
+      ],
+      "Aliases could not be loaded": [
+        "Aliasy sa nepodarilo načítať"
+      ],
+      "An error occurred while loading alias options": [
+        "Došlo k chybe pri načítaní možností aliasu"
+      ],
+      "An error occurred while saving your alias": [
+        "Pri ukladaní vášho aliasu došlo k chybe."
+      ],
+      "Forward address is required": [
+        "Adresa preposielania je vyžadovaná"
+      ],
+      "Name is required": [
+        "Názov je povinný"
       ]
     },
     "Error accepting calendar invitation": {
@@ -3337,6 +3403,9 @@
       ],
       "Search": [
         "Hľadať"
+      ],
+      "Security Center": [
+        "Centrum zabezpečenia"
       ]
     },
     "Hint": {
@@ -4924,6 +4993,12 @@
       ],
       "Your password (admin)": [
         "Vaše heslo (admin)"
+      ],
+      "e.g., Amazon, eBay, Etsy": [
+        "napríklad Amazon, eBay, Etsy"
+      ],
+      "Your alias": [
+        "Váš alias"
       ]
     },
     "Label for contact group color": {
@@ -5079,6 +5154,15 @@
       ],
       "Unlimited folders, labels and filters": [
         "Neobmedzený počet priečinkov, štítkov a filtrov"
+      ],
+      "${ MAIL_APP_NAME } desktop app": [
+        "Desktopová aplikácia ${ MAIL_APP_NAME } "
+      ],
+      "Auto-delete Spam and Trash": [
+        "Automatické mazanie nevyžiadanej pošty a koša"
+      ],
+      "Custom schedule send and snooze times": [
+        "Vlastné časy odoslania a odloženia"
       ]
     },
     "Message": {
@@ -5807,6 +5891,15 @@
       ],
       "We recommend that you \"untrust\" this key.": [
         "Odporúčame, aby ste pri tomto kľúči zvolili \"Nedôverovať\"."
+      ],
+      "External key automatically fetched from keys.openpgp.org.": [
+        "Externý kľúč automaticky načítaný z keys.openpgp.org."
+      ],
+      "External key automatically fetched via WKD.": [
+        "Externý kľúč automaticky načítaný prostredníctvom WKD."
+      ],
+      "This key is used to encrypt messages to this contact": [
+        "Tento kľúč sa používa na šifrovanie správ tomuto kontaktu"
       ]
     },
     "PGP key warning": {
@@ -5886,6 +5979,12 @@
       ],
       "Start typing an email address": [
         "Začnite písať emailovú adresu"
+      ],
+      "Search parent folder": [
+        "Prehľadať nadradenú zložku"
+      ],
+      "Select state": [
+        "Vyberte štát"
       ]
     },
     "Placeholder for contact group name": {
@@ -5981,6 +6080,33 @@
       ],
       "Try ${ PASS_APP_NAME }": [
         "Vyskúšať ${ PASS_APP_NAME }"
+      ],
+      "All aliases": [
+        "Všetky aliasy"
+      ],
+      "Create alias": [
+        "Vytvoriť alias"
+      ],
+      "Create an alias": [
+        "Vytvorte alias"
+      ],
+      "Generate aliases on the fly, and easily manage your aliases and passwords.": [
+        "Generujte aliasy za pochodu a jednoducho spravujte aliasy a heslá."
+      ],
+      "Hide-my-email aliases let you sign up for things online without sharing your email address. ${ learnMoreLink }": [
+        "Aliasy Hide-my-email vám umožní zaregistrovať sa do online služieb bez toho, aby ste museli zdieľať svoju hlavnú e-mailovú adresu. ${ learnMoreLink }"
+      ],
+      "New alias": [
+        "Nový alias"
+      ],
+      "Protect your online identity": [
+        "Chráňte svoju digitálnu identitu"
+      ],
+      "Used on amazon for shopping, etc.": [
+        "Používa sa v službe Amazon na nakupovanie atď."
+      ],
+      "When asked for your email address, give this alias instead. Aliases are provided by ${ passLink }.": [
+        "Keď budete požiadaní o uvedenie vašej emailovej adresy, uveďte namiesto nej tento alias. Aliasy sú poskytované pomocou ${ passLink }."
       ]
     },
     "Security Center (link to Pass App)": {
@@ -6509,6 +6635,12 @@
       ],
       "With customizable event colors, you can color-code the chaos and conquer your day.": [
         "Pomocou prispôsobiteľných farieb udalostí môžete farebne rozlíšiť chaos a ovládnuť svoj deň."
+      ],
+      "Conveniently launch ${ MAIL_APP_NAME } right from your desktop.": [
+        "Pohodlne spustite ${ MAIL_APP_NAME } priamo z plochy."
+      ],
+      "Get the desktop app": [
+        "Získajte desktopovú aplikáciu"
       ]
     },
     "Storage": {
@@ -6528,6 +6660,39 @@
       ],
       "Your storage is full": [
         "Vaše úložisko je plné"
+      ],
+      "${ storage } ${ percentage }% full": [
+        "${ storage } ${ percentage }% využitých"
+      ],
+      "contact your administrator": [
+        "spojte sa s vaším administrátorom"
+      ],
+      "To send or receive emails, free up space or ${ upgrade }": [
+        "Ak chcete odosielať alebo prijímať emaily, uvoľnite miesto alebo ${ upgrade }"
+      ],
+      "To upload or sync files, free up space or ${ upgrade }": [
+        "Ak chcete nahrať alebo synchronizovať súbory, uvoľnite miesto alebo ${ upgrade }"
+      ],
+      "upgrade for more storage": [
+        "upgradujte pre získanie väčšieho úložiska"
+      ],
+      "Your ${ appStorage } is almost full": [
+        "Vaše úložisko ${ appStorage } je takmer plné"
+      ],
+      "Your ${ appStorage } is full": [
+        "Vaše úložisko ${ appStorage } je plné"
+      ],
+      "Your ${ storage } is ${ percentage }% full. ${ cta }.": [
+        "Vaše úložisko ${ storage } je zaplnené na ${ percentage }%. ${ cta }."
+      ],
+      "Your ${ storage } is full. ${ cta }.": [
+        "Vaše úložisko ${ storage } je plné. ${ cta }."
+      ],
+      "Your storage is ${ percentage }% full. ${ cta }.": [
+        "Vaše úložisko je zaplnené na ${ percentage }%. ${ cta }."
+      ],
+      "Your storage is full. ${ cta }.": [
+        "Vaše úložisko je plné. ${ cta }."
       ]
     },
     "Subscribe to calendar modal": {
@@ -6696,6 +6861,12 @@
       ],
       "Verification successful": [
         "Overenie prebehlo úspešne"
+      ],
+      "Alias copied to clipboard": [
+        "Alias ​​bol skopírovaný do schránky"
+      ],
+      "Alias saved and copied": [
+        "Alias ​​uložený a skopírovaný"
       ]
     },
     "Success notification when user send feedback": {
@@ -7251,6 +7422,21 @@
       ],
       "Your Exposed Information": [
         "Vaše odhalené informácie"
+      ],
+      "Enable 2FA": [
+        "Povoliť 2FA"
+      ],
+      "Get advanced protection": [
+        "Získať pokročilú ochranu"
+      ],
+      "Get the ${ appName[APP_NAME] } apps": [
+        "Získať ${ appName[APP_NAME] } aplikácia"
+      ],
+      "Need more aliases?": [
+        "Potrebujete viac aliasov?"
+      ],
+      "Your account is protected": [
+        "Váš účet je chránený"
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {
@@ -7341,7 +7527,7 @@
         "Nemáte žiadne kontakty na export"
       ],
       "Change start date to unselect": [
-        "Na zrušenie výberu zmeňte dátum začiatku"
+        "Zmeňte dátum začiatku na nevybraný"
       ]
     },
     "Tooltip; share calendar modal ": {
@@ -7785,6 +7971,150 @@
       ],
       "Yearly, ${ untilString }": [
         "Ročne, ${ untilString }"
+      ]
+    },
+    "App logo": {
+      "Download ${ MAIL_APP_NAME } desktop application": [
+        "Stiahnuť desktopovú aplikáciu ${ MAIL_APP_NAME }"
+      ]
+    },
+    "Email body for description (description part)": {
+      "DESCRIPTION:\n${ eventDescription }": [
+        "POPIS:\n${ eventDescription }"
+      ]
+    },
+    "Email body for invitation": {
+      "${ eventTitle } was canceled.": [
+        "Podujatie ${ eventTitle } bolo zrušené."
+      ],
+      "All events in this series were updated.": [
+        "Všetky udalosti v tejto sérii boli aktualizované."
+      ],
+      "All events in this series were updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Všetky udalosti v tejto sérii boli aktualizované. Zmeny sú uvedené nižšie:\n\n${ updateEventDetailsText }"
+      ],
+      "This event occurrence was canceled.": [
+        "Toto podujatie bolo zrušené."
+      ],
+      "This event occurrence was updated.": [
+        "Výskyt tejto udalosti bol aktualizovaný."
+      ],
+      "This event occurrence was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Výskyt tejto udalosti bol aktualizovaný. Zmeny sú uvedené nižšie:\n\n${ updateEventDetailsText }"
+      ],
+      "This event was updated.": [
+        "Táto udalosť bola aktualizovaná."
+      ],
+      "This event was updated. Here's what changed:\n\n${ updateEventDetailsText }": [
+        "Táto udalosť bola aktualizovaná. Zmeny sú uvedené nižšie:\n\n${ updateEventDetailsText }"
+      ],
+      "You are invited to ${ eventTitle }.\n\n${ eventDetailsText }": [
+        "Dostali ste pozvánku na podujatie ${ eventTitle }.\n\n${ eventDetailsText }"
+      ]
+    },
+    "Email body for invitation (date part)": {
+      "TIME:\n${ formattedStart }": [
+        "ČAS:\n${ formattedStart }"
+      ],
+      "TIME:\n${ formattedStart } (all day)": [
+        "ČAS:\n${ formattedStart } (celý deň)"
+      ],
+      "TIME:\n${ formattedStart } - ${ formattedEnd }": [
+        "ČAS:\n${ formattedStart } - ${ formattedEnd }"
+      ]
+    },
+    "Email body for invitation (event details part)": {
+      "Removed": [
+        "Odstránené"
+      ]
+    },
+    "Email body for invitation (location part)": {
+      "LOCATION:\n${ eventLocation }": [
+        "MIESTO:\n${ eventLocation }"
+      ]
+    },
+    "Email body for response to invitation": {
+      "${ emailAddress } accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } prijal vašu pozvánku na podujatie ${ eventTitle }"
+      ],
+      "${ emailAddress } declined your invitation to ${ eventTitle }": [
+        "${ emailAddress } odmietol/odmietla vašu pozvánku na podujatie ${ eventTitle }"
+      ],
+      "${ emailAddress } tentatively accepted your invitation to ${ eventTitle }": [
+        "${ emailAddress } predbežne prijal/a vaše pozvanie na podujatie ${ eventTitle }"
+      ]
+    },
+    "locked_state_storage_banner: info": {
+      "Learn more": [
+        "Zistiť viac"
+      ],
+      "upgrade for more storage": [
+        "navýšiť tarifu pre viac priestoru"
+      ],
+      "Upgrade to restore full access": [
+        "Upgradujte na obnovenie plného prístupu"
+      ],
+      "Your ${ driveStorage } is full. To upload or sync files, free up space or ${ cta }.": [
+        "Vaša ${ driveStorage } je plná. Ak chcete nahrať alebo synchronizovať súbory, uvoľnite miesto alebo ${ cta }."
+      ],
+      "Your ${ mailStorage } is full. To send or receive emails, free up space or ${ cta }.": [
+        "Vaša ${ mailStorage } je plné. Pre odosielanie alebo prijímanie emailov uvoľnite miesto alebo ${ cta }."
+      ],
+      "Your account is at risk of deletion. To avoid data loss, ask your admin to upgrade. ${ cta }": [
+        "Vášmu kontu hrozí vymazanie. Ak chcete zabrániť strate údajov, požiadajte správcu o aktualizáciu. ${ cta }"
+      ],
+      "Your storage is full. To send or receive emails, free up space or ${ cta }.": [
+        "Vaše úložisko je plné. Ak chcete odosielať alebo prijímať e-maily, uvoľnite miesto alebo ${ cta }."
+      ],
+      "Your storage is full. To upload or sync files, free up space or ${ cta }.": [
+        "Vaše úložisko je plné. Ak chcete nahrať alebo synchronizovať súbory, uvoľnite miesto alebo ${ cta }."
+      ],
+      "Your subscription has ended. ${ cta } and to avoid data loss.": [
+        "Vaše predplatné skončilo. ${ cta } a zabráňte strate údajov."
+      ]
+    },
+    "mailtrial2024: Action": {
+      "Get the deal": [
+        "Získajte ponuku"
+      ],
+      "Special Offer": [
+        "Špeciálna ponuka"
+      ]
+    },
+    "mailtrial2024: Footer": {
+      "Renews at ${ renewablePrice }, cancel anytime": [
+        "Obnovuje sa za ${ renewablePrice }, zrušiť môžete kedykoľvek"
+      ]
+    },
+    "mailtrial2024: Info": {
+      "for the first month": [
+        "za prvý mesiac"
+      ],
+      "Limited-time offer, expires April 2 2024": [
+        "Časovo limitovaná ponuka, končí 2. apríla 2024"
+      ]
+    },
+    "mailtrial2024: Title": {
+      "Get ${ planName } for only ${ planPrice }": [
+        "Získajte ${ planName } len za ${ planPrice }"
+      ]
+    },
+    "Notification for duplicate filenames in the current upload": {
+      "Some images were not uploaded due to duplicate filenames in the current selection.": [
+        "Niektoré obrázky neboli nahrané kvôli duplicitným názvom súborov v aktuálnom výbere."
+      ]
+    },
+    "Payments": {
+      "Billing Country": [
+        "Krajina pre fakturáciu"
+      ]
+    },
+    "Security Center - Info": {
+      "Our cutting-edge AI-driven security solution designed for users seeking heightened protection for their accounts. ${ learnMoreLink }": [
+        "Naše špičkové bezpečnostné riešenie založené na umelej inteligencii určené pre používateľov, ktorí hľadajú zvýšenú ochranu svojich účtov. ${ learnMoreLink }"
+      ],
+      "Sentinel is **active** and safeguarding your account.": [
+        "Sentinel je **aktívny** a chráni váš účet."
       ]
     }
   }

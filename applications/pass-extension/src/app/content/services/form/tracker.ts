@@ -13,7 +13,8 @@ import { validateFormCredentials } from 'proton-pass-extension/lib/utils/form-en
 
 import { FieldType, kButtonSubmitSelector } from '@proton/pass/fathom';
 import { contentScriptMessage, sendMessage } from '@proton/pass/lib/extension/message';
-import type { AutosaveFormEntry, FormCredentials, MaybeNull } from '@proton/pass/types';
+import browser from '@proton/pass/lib/globals/browser';
+import type { AutosaveFormEntry, FormCredentials, MaybeNull, WorkerMessageWithSender } from '@proton/pass/types';
 import { WorkerMessageType } from '@proton/pass/types';
 import { first } from '@proton/pass/utils/array/first';
 import { parseFormAction } from '@proton/pass/utils/dom/form';
@@ -102,18 +103,7 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
                 })
             );
 
-            setTimeout(
-                withContext((ctx) => {
-                    state.isSubmitting = false;
-                    /** If we're confident the form was submitted: reconciliate the
-                     * autosave service after the `SUBMITTING_RESET_TIMEOUT`. This
-                     * allows handling SPAs which do not trigger a page change AND/OR
-                     * XMLHttpRequest interception without any status code errors. */
-                    if (options.submitted) ctx?.service.autosave.reconciliate().catch(noop);
-                }),
-                SUBMITTING_RESET_TIMEOUT
-            );
-
+            setTimeout(() => (state.isSubmitting = false), SUBMITTING_RESET_TIMEOUT);
             return response.type === 'success' ? response.submission : null;
         }
 
@@ -198,17 +188,31 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
             ?.focus();
     });
 
+    const onTabMessage = withContext<(message: WorkerMessageWithSender) => void>((ctx, message) => {
+        if (message?.sender === 'background' && message.type === WorkerMessageType.FORM_SUBMITTED) {
+            const { formId } = message.payload;
+            if (formId === form.id) {
+                logger.info(`[Autosave] Form submit detected [formId:${formId}]`);
+                state.isSubmitting = false;
+                ctx?.service.autosave.reconciliate().catch(noop);
+            }
+        }
+    });
+
     /** When detaching the form tracker : remove every listener
      * for both the current tracker and all fields */
     const detach = () => {
         listeners.removeAll();
         form.getFields().forEach((field) => field.detach());
+        browser.runtime.onMessage.removeListener(onTabMessage);
     };
 
     listeners.addListener(form.element, 'submit', onSubmitHandler);
-    form.element.querySelectorAll<HTMLButtonElement>(kButtonSubmitSelector).forEach((button) => {
-        listeners.addListener(button, 'click', onSubmitHandler);
-    });
+    browser.runtime.onMessage.addListener(onTabMessage);
+
+    form.element
+        .querySelectorAll<HTMLButtonElement>(kButtonSubmitSelector)
+        .forEach((button) => listeners.addListener(button, 'click', onSubmitHandler));
 
     return {
         detach,

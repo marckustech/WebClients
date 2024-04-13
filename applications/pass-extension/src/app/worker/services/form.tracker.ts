@@ -1,12 +1,15 @@
 import { isFormEntryCommitted, setFormEntryStatus } from 'proton-pass-extension/lib/utils/form-entry';
 
+import { backgroundMessage } from '@proton/pass/lib/extension/message';
+import browser from '@proton/pass/lib/globals/browser';
 import type { FormEntry, FormEntryBase, Maybe, TabId } from '@proton/pass/types';
 import { FormEntryStatus, WorkerMessageType } from '@proton/pass/types';
+import { waitUntil } from '@proton/pass/utils/fp/wait-until';
 import { logger } from '@proton/pass/utils/logger';
 import { merge } from '@proton/pass/utils/object/merge';
 import { requestHasBodyFormData } from '@proton/pass/utils/requests';
 import { parseSender } from '@proton/pass/utils/url/parser';
-import { wait } from '@proton/shared/lib/helpers/promise';
+import noop from '@proton/utils/noop';
 
 import WorkerMessageBroker from '../channel';
 import { withContext } from '../context';
@@ -16,6 +19,35 @@ import { createXMLHTTPRequestTracker } from './xmlhttp-request.tracker';
 export const createFormTrackerService = () => {
     /** Track form entries for each tab */
     const submissions: Map<TabId, FormEntry> = new Map();
+    /** Tracks pending XMLHttpRequests per tab */
+    const requestCount: Map<TabId, number> = new Map();
+
+    const getRequestCount = (tabId: TabId) => requestCount.get(tabId) ?? 0;
+    const onRequestPending = (tabId: TabId) => requestCount.set(tabId, getRequestCount(tabId) + 1);
+
+    /** If there are no more tracked requests for a tab and there's a valid form
+     * entry, notify the tab that the form may have been successfully submitted.
+     * At this point, failure inference may not be possible. */
+    const onRequestResolved = (tabId: TabId) => {
+        const current = getRequestCount(tabId);
+        const next = Math.max(0, current - 1);
+        const submission = submissions.get(tabId);
+
+        if (submission?.submitted && current > 0 && next === 0) {
+            browser.tabs
+                .sendMessage(
+                    tabId,
+                    backgroundMessage({
+                        type: WorkerMessageType.FORM_SUBMITTED,
+                        payload: { formId: submission.formId },
+                    })
+                )
+                .catch(noop);
+        }
+
+        if (next === 0) requestCount.delete(tabId);
+        else requestCount.set(tabId, next);
+    };
 
     const get = (tabId: TabId, domain: string): Maybe<FormEntry> => {
         const submission = submissions.get(tabId);
@@ -23,6 +55,8 @@ export const createFormTrackerService = () => {
     };
 
     const stash = (tabId: TabId, reason: string): void => {
+        requestCount.delete(tabId); /* reset the request count when stashing */
+
         if (submissions.has(tabId)) {
             logger.info(`[FormTracker::Stash]: on tab ${tabId} {${reason}}`);
             submissions.delete(tabId);
@@ -78,6 +112,7 @@ export const createFormTrackerService = () => {
             if (!submission) return false;
 
             if (requestHasBodyFormData(details)) {
+                onRequestPending(details.tabId);
                 /** if the form was not flagged as submitted - infer submission from this potential
                  * network request interception. If it is "close" enough to the submission's `updatedAt`
                  * timestamp, we can consider something of interest happened during this timeframe and
@@ -86,18 +121,21 @@ export const createFormTrackerService = () => {
                     logger.info(`[FormTracker::XMLHttp] inferred submission on tab ${details.tabId}`);
                     submission.submitted = true;
                 }
+
                 return true;
             }
 
             return false;
         },
         onFailedRequest: ({ tabId, domain }) => {
+            onRequestResolved(tabId);
             const submission = get(tabId, domain);
             if (submission && submission.status === FormEntryStatus.STAGING) {
                 submission.submitted = false;
                 stash(tabId, 'XMLHTTP_ERROR_DETECTED');
             }
         },
+        onCompletedRequest: ({ tabId }) => onRequestResolved(tabId),
     });
 
     WorkerMessageBroker.registerMessage(
@@ -168,6 +206,9 @@ export const createFormTrackerService = () => {
                 const { tabId, url } = parseSender(sender);
 
                 if (url.domain) {
+                    /** Wait until tracked XMLHttpRequests resolve */
+                    await waitUntil(() => getRequestCount(tabId) === 0, 100).catch(noop);
+
                     const submission = get(tabId, url.domain);
 
                     if (!submission) {
@@ -175,9 +216,6 @@ export const createFormTrackerService = () => {
                         return { submission: null };
                     }
 
-                    /** If the form was not submitted, add a short timeout before
-                     * resolving the response to intercept possible XMLHttpRequests */
-                    await wait(submission.submitted ? 0 : 250);
                     const autosave = isFormEntryCommitted(submission)
                         ? ctx.service.autosave.resolve(submission)
                         : { shouldPrompt: false as const };

@@ -16,12 +16,17 @@ type TrackedRequestData = { tabId: TabId; domain: string; requestedAt: number };
 
 type XMLHTTPRequestTrackerOptions = {
     acceptRequest: (request: WebRequest.OnBeforeRequestDetailsType) => boolean;
+    onCompletedRequest: (data: TrackedRequestData) => void;
     onFailedRequest: (data: TrackedRequestData) => void;
 };
 
 const MAX_REQUEST_RETENTION_TIME = UNIX_MINUTE;
 
-export const createXMLHTTPRequestTracker = ({ acceptRequest, onFailedRequest }: XMLHTTPRequestTrackerOptions) => {
+export const createXMLHTTPRequestTracker = ({
+    acceptRequest,
+    onCompletedRequest,
+    onFailedRequest,
+}: XMLHTTPRequestTrackerOptions) => {
     const pendingRequests: Map<string, TrackedRequestData> = new Map();
 
     const garbageCollect = (() => {
@@ -64,6 +69,7 @@ export const createXMLHTTPRequestTracker = ({ acceptRequest, onFailedRequest }: 
 
         if (trackedRequest !== undefined) {
             if (isFailedRequest(request)) onFailedRequest(trackedRequest);
+            else onCompletedRequest(trackedRequest);
             pendingRequests.delete(requestId);
         }
     };

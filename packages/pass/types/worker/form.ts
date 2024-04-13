@@ -10,6 +10,8 @@ export enum FormEntryStatus {
 }
 
 export type FormSubmission = {
+    /** form identifier */
+    formId: string;
     /** the form action data */
     action?: string;
     /** the intercepted form submission data */

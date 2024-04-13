@@ -97,6 +97,7 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
                         reason: 'FORM_SUBMIT_HANDLER',
                         submitted: options.submitted,
                         type: form.formType,
+                        formId: form.id,
                     },
                 })
             );

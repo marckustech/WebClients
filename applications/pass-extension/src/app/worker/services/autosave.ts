@@ -19,14 +19,17 @@ export const createAutoSaveService = () => {
         /* If credentials are not valid for the form type : exit early */
         if (!validateFormCredentials(data, { type, partial: false })) return { shouldPrompt: false };
 
+        const { username, password } = data;
+        const candidates = selectAutosaveCandidate({ domain, subdomain, username })(store.getState());
+
         /* If the form was of type `register` we should always
          * ask the user to create a new item. Ideally for `NOOP`
          * forms as well but we are still getting too many false
          * positives on password-change form detections. */
-        if (type === 'register') return { shouldPrompt: true, data: { type: AutosaveMode.NEW } };
-
-        const { username, password } = data;
-        const candidates = selectAutosaveCandidate({ domain, subdomain, username })(store.getState());
+        if (type === 'register') {
+            if (!username || candidates.length === 0) return { shouldPrompt: true, data: { type: AutosaveMode.NEW } };
+            else return { shouldPrompt: false };
+        }
 
         /* If no login items found for the current domain & the
          * current username - prompt for autosaving a new entry */

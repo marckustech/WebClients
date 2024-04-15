@@ -1,6 +1,7 @@
 import { FormType } from '@proton/pass/fathom';
 import type { AutosaveFormEntry, FormCredentials, FormEntry } from '@proton/pass/types';
 import { AutosaveMode, FormEntryStatus } from '@proton/pass/types';
+import { uniqueId } from '@proton/pass/utils/string/unique-id';
 
 import { isFormEntryCommitted, isFormEntryPromptable, setFormEntryStatus, validateFormCredentials } from './form-entry';
 
@@ -8,6 +9,7 @@ const getMockCredentials = (username: string = '', password: string = ''): FormC
 const getMockFormSubmission = (status: FormEntryStatus, type: FormType, data?: FormCredentials): FormEntry => ({
     data: data ?? getMockCredentials('john@proton.me', '123'),
     domain: 'proton.me',
+    formId: uniqueId(),
     status,
     subdomain: null,
     submitted: false,

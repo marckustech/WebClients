@@ -81,6 +81,7 @@ export enum WorkerMessageType {
     FORM_ENTRY_REQUEST = 'FORM_ENTRY_REQUEST',
     FORM_ENTRY_STAGE = 'FORM_ENTRY_STAGE',
     FORM_ENTRY_STASH = 'FORM_ENTRY_STASH',
+    FORM_SUBMITTED = 'FORM_SUBMITTED',
     IMPORT_DECRYPT = 'IMPORT_DECRYPT',
     LOAD_CONTENT_SCRIPT = 'LOAD_CONTENT_SCRIPT',
     LOCALE_REQUEST = 'LOCALE_REQUEST',
@@ -146,6 +147,7 @@ export type FormEntryStageMessage = WithPayload<
     FormSubmission & { reason: string }
 >;
 export type FormEntryStashMessage = WithPayload<WorkerMessageType.FORM_ENTRY_STASH, { reason: string }>;
+export type FormSubmittedMessage = WithPayload<WorkerMessageType.FORM_SUBMITTED, { formId: string }>;
 export type ImportDecryptMessage = WithPayload<WorkerMessageType.IMPORT_DECRYPT, ImportReaderPayload>;
 export type LoadContentScriptMessage = { type: WorkerMessageType.LOAD_CONTENT_SCRIPT };
 export type LocaleRequestMessage = { type: WorkerMessageType.LOCALE_REQUEST };
@@ -197,6 +199,7 @@ export type WorkerMessage =
     | AutofillQueryMessage
     | AutofillSelectMessage
     | AutofillSyncMessage
+    | FormSubmittedMessage
     | AutoSaveRequestMessage
     | DebugMessage
     | ExportRequestMessage

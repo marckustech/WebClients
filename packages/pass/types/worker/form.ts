@@ -10,10 +10,14 @@ export enum FormEntryStatus {
 }
 
 export type FormSubmission = {
+    /** form identifier */
+    formId: string;
     /** the form action data */
     action?: string;
     /** the intercepted form submission data */
     data: FormCredentials;
+    /** wether the form can be considered as loading */
+    loading?: boolean;
     /** inferred form submit */
     submitted: boolean;
     /** form type for this submission */

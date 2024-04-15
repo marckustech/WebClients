@@ -32,8 +32,7 @@ export const createAutosaveService = () => {
         );
 
         if (submission !== null) {
-            const { status, domain, type, data } = submission;
-
+            const { status, domain, type, data, loading, submitted } = submission;
             const currentDomain = ctx?.getExtensionContext().url.domain;
             const domainmatch = currentDomain === domain;
 
@@ -46,7 +45,7 @@ export const createAutosaveService = () => {
             const typedForms = forms.filter(({ formType, detached }) => formType === type && !detached);
             const submissionTypeMatch = typedForms.length > 0;
             const submitting = typedForms.some(({ tracker }) => tracker?.getState().isSubmitting);
-            const valid = submission.submitted && validateFormCredentials(data, { type, partial: false });
+            const valid = !loading && submitted && validateFormCredentials(data, { type, partial: false });
             const formTypeChangedOrRemoved = !submissionTypeMatch;
             const canCommit = domainmatch && formTypeChangedOrRemoved && valid;
 

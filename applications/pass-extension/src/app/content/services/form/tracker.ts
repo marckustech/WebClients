@@ -13,7 +13,8 @@ import { validateFormCredentials } from 'proton-pass-extension/lib/utils/form-en
 
 import { FieldType, kButtonSubmitSelector } from '@proton/pass/fathom';
 import { contentScriptMessage, sendMessage } from '@proton/pass/lib/extension/message';
-import type { AutosaveFormEntry, FormCredentials, MaybeNull } from '@proton/pass/types';
+import browser from '@proton/pass/lib/globals/browser';
+import type { AutosaveFormEntry, FormCredentials, MaybeNull, WorkerMessageWithSender } from '@proton/pass/types';
 import { WorkerMessageType } from '@proton/pass/types';
 import { first } from '@proton/pass/utils/array/first';
 import { parseFormAction } from '@proton/pass/utils/dom/form';
@@ -21,7 +22,6 @@ import { createListenerStore } from '@proton/pass/utils/listener/factory';
 import { logger } from '@proton/pass/utils/logger';
 import { isEmptyString } from '@proton/pass/utils/string/is-empty-string';
 import lastItem from '@proton/utils/lastItem';
-import noop from '@proton/utils/noop';
 
 type FieldsForFormResults = WeakMap<
     FieldHandle,
@@ -31,9 +31,6 @@ type FieldsForFormResults = WeakMap<
         attachIcon: boolean;
     }
 >;
-
-/** Heuristic duration after which we reset the internal `isSubmitting` flag. */
-const SUBMITTING_RESET_TIMEOUT = 500;
 
 const canProcessAction = withContext<(action: DropdownAction) => boolean>((ctx, action) => {
     const features = ctx?.getFeatures();
@@ -52,7 +49,7 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
     logger.debug(`[FormTracker] Tracking form [${form.formType}:${form.id}]`);
 
     const listeners = createListenerStore();
-    const state: FormTrackerState = { isSubmitting: false };
+    const state: FormTrackerState = { loading: false, submitted: false };
 
     /** Resolves form data for autosaving purposes, prioritizing usernames over
      * hidden usernames and email fields. Additionally, prioritizes new passwords
@@ -86,8 +83,11 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
         const data = getFormData();
         const valid = validateFormCredentials(data, { type: form.formType, partial: options.partial });
 
-        if (!state.isSubmitting && valid) {
-            state.isSubmitting = options.submitted;
+        if (!state.loading && valid) {
+            /* set loading state if we're confident it's from a submit action.
+             * This will potentially leverage past submission detections. */
+            state.loading = options.submit;
+
             const response = await sendMessage(
                 contentScriptMessage({
                     type: WorkerMessageType.FORM_ENTRY_STAGE,
@@ -95,22 +95,11 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
                         action: parseFormAction(form.element),
                         data,
                         reason: 'FORM_SUBMIT_HANDLER',
-                        submitted: options.submitted,
+                        submit: options.submit,
                         type: form.formType,
+                        formId: form.id,
                     },
                 })
-            );
-
-            setTimeout(
-                withContext((ctx) => {
-                    state.isSubmitting = false;
-                    /** If we're confident the form was submitted: reconciliate the
-                     * autosave service after the `SUBMITTING_RESET_TIMEOUT`. This
-                     * allows handling SPAs which do not trigger a page change AND/OR
-                     * XMLHttpRequest interception without any status code errors. */
-                    if (options.submitted) ctx?.service.autosave.reconciliate().catch(noop);
-                }),
-                SUBMITTING_RESET_TIMEOUT
             );
 
             return response.type === 'success' ? response.submission : null;
@@ -128,7 +117,7 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
         const dropdown = ctx?.service.iframe.dropdown;
         if (dropdown?.getState().visible) dropdown?.close();
 
-        await submit({ partial: true, submitted: true });
+        await submit({ partial: true, submit: true });
     });
 
     const getTrackableFields = (): FieldsForFormResults => {
@@ -197,22 +186,50 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
             ?.focus();
     });
 
+    const onTabMessage = withContext<(message: WorkerMessageWithSender) => void>(async (ctx, message) => {
+        if (message?.sender === 'background' && message.type === WorkerMessageType.FORM_SUBMITTED) {
+            const { formId } = message.payload;
+
+            if (formId === form.id) {
+                logger.info(`[Autosave] Form submit detected [formId:${formId}]`);
+                requestIdleCallback(() => {
+                    state.loading = false;
+                    state.submitted = true;
+                    /** form may be in a busy state once we detect the submit service-worker
+                     * side. To avoid reconciliating too early, trigger autosave reconciliation
+                     * only if the form is non-busy (ie: facebook register form) */
+                    if (!form.busy || form.detached) return ctx?.service.autosave.reconciliate();
+                });
+            }
+        }
+    });
+
     /** When detaching the form tracker : remove every listener
      * for both the current tracker and all fields */
     const detach = () => {
         listeners.removeAll();
         form.getFields().forEach((field) => field.detach());
+        browser.runtime.onMessage.removeListener(onTabMessage);
+    };
+
+    const reset = () => {
+        logger.info(`[FormTracker] Resetting tracker state [formId:${form.id}]`);
+        state.loading = false;
+        state.submitted = false;
     };
 
     listeners.addListener(form.element, 'submit', onSubmitHandler);
-    form.element.querySelectorAll<HTMLButtonElement>(kButtonSubmitSelector).forEach((button) => {
-        listeners.addListener(button, 'click', onSubmitHandler);
-    });
+    browser.runtime.onMessage.addListener(onTabMessage);
+
+    form.element
+        .querySelectorAll<HTMLButtonElement>(kButtonSubmitSelector)
+        .forEach((button) => listeners.addListener(button, 'click', onSubmitHandler));
 
     return {
         detach,
         getState: () => state,
         reconciliate,
+        reset,
         submit,
     };
 };

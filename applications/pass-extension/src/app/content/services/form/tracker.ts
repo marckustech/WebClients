@@ -51,6 +51,12 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
     const listeners = createListenerStore();
     const state: FormTrackerState = { loading: false, submitted: false };
 
+    const reset = () => {
+        logger.info(`[FormTracker] Resetting tracker state [formId:${form.id}]`);
+        state.loading = false;
+        state.submitted = false;
+    };
+
     /** Resolves form data for autosaving purposes, prioritizing usernames over
      * hidden usernames and email fields. Additionally, prioritizes new passwords
      * over current passwords to detect changes */
@@ -82,7 +88,6 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
     const submit = async (options: FormTrackerSubmitOptions): Promise<MaybeNull<AutosaveFormEntry>> => {
         const data = getFormData();
         const valid = validateFormCredentials(data, { type: form.formType, partial: options.partial });
-
         if (!state.loading && valid) {
             /* set loading state if we're confident it's from a submit action.
              * This will potentially leverage past submission detections. */
@@ -210,12 +215,6 @@ export const createFormTracker = (form: FormHandle): FormTracker => {
         listeners.removeAll();
         form.getFields().forEach((field) => field.detach());
         browser.runtime.onMessage.removeListener(onTabMessage);
-    };
-
-    const reset = () => {
-        logger.info(`[FormTracker] Resetting tracker state [formId:${form.id}]`);
-        state.loading = false;
-        state.submitted = false;
     };
 
     listeners.addListener(form.element, 'submit', onSubmitHandler);

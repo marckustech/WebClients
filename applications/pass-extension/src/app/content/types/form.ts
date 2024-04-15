@@ -59,12 +59,13 @@ export type FormTrackerFieldConfig = {
     action?: DropdownAction;
 };
 
-export type FormTrackerState = { isSubmitting: boolean };
-export type FormTrackerSubmitOptions = { partial: boolean; submitted: boolean };
+export type FormTrackerState = { loading: boolean; submitted: boolean };
+export type FormTrackerSubmitOptions = { partial: boolean; submit: boolean };
 
 export interface FormTracker {
     detach: () => void;
     getState: () => FormTrackerState;
     reconciliate: () => void;
+    reset: () => void;
     submit: (options: FormTrackerSubmitOptions) => Promise<MaybeNull<AutosaveFormEntry>>;
 }

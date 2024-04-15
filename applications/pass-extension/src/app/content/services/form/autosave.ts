@@ -32,8 +32,7 @@ export const createAutosaveService = () => {
         );
 
         if (submission !== null) {
-            const { status, domain, type, data } = submission;
-
+            const { status, domain, type, data, loading, submit, formId } = submission;
             const currentDomain = ctx?.getExtensionContext().url.domain;
             const domainmatch = currentDomain === domain;
 
@@ -45,8 +44,8 @@ export const createAutosaveService = () => {
             const forms = ctx?.service.formManager.getTrackedForms() ?? [];
             const typedForms = forms.filter(({ formType, detached }) => formType === type && !detached);
             const submissionTypeMatch = typedForms.length > 0;
-            const submitting = typedForms.some(({ tracker }) => tracker?.getState().isSubmitting);
-            const valid = submission.submitted && validateFormCredentials(data, { type, partial: false });
+            const submitting = typedForms.some(({ tracker }) => tracker?.getState().loading);
+            const valid = !loading && submit && validateFormCredentials(data, { type, partial: false });
             const formTypeChangedOrRemoved = !submissionTypeMatch;
             const canCommit = domainmatch && formTypeChangedOrRemoved && valid;
 
@@ -73,6 +72,9 @@ export const createAutosaveService = () => {
              * This prevents data loss on multi-step forms while properly stashing
              * when navigating back and forth on such forms. */
             if (submissionTypeMatch && !submitting && (valid || !data.username)) {
+                /* reset the tracker state when stashing */
+                typedForms.forEach((form) => form.id === formId && form.tracker?.reset());
+
                 void sendMessage(
                     contentScriptMessage({
                         type: WorkerMessageType.FORM_ENTRY_STASH,

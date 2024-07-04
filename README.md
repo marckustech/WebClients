@@ -24,14 +24,14 @@ You can find more detailed version-constrains for Node.js and yarn in `package.j
 ```shell
 # Clone the project
 git clone https://github.com/ProtonMail/WebClients.git
-git clone git@github.com:ProtonMail/WebClients.git
 
-# Install all dependencies for the entire monorepo & symlink
-# local dependents to one another
+# Change to the project directory
+cd WebClients
+
+# Install all dependencies for the entire monorepo & symlink local dependents to one another
 yarn install
 
-# Run web clients by running proton-<package-name>
-# Example: proton mail web client
+# Run a specific web client, for example, the ProtonMail web client
 yarn workspace proton-mail start
 ```
 
